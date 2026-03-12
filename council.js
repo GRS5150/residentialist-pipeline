@@ -1,19 +1,26 @@
 /**
- * THE RESIDENTIALIST — Council Module
+ * THE RESIDENTIALIST — Council Module v2
  *
- * Handles all escalation from the FLAG GATE in three tiers:
+ * Handles all escalation from the FLAG GATE in two tiers:
  *
  * Tier 1 — AUTO-RESOLVE: Claude API attempts to resolve the flag with a
  *           rubric patch, reclassification, or documented midpoint correction.
  *           If resolved, pipeline continues with a correction memo attached.
  *
- * Tier 2 — COUNCIL: Three specialized Claude instances vote independently.
- *           Consumer Advocate, Technical Purist, Market Realist.
- *           Synthesis call produces a ruling. 2/3 matching = decision.
- *           If resolved, pipeline continues with council ruling attached.
+ * Tier 2 — STRUCTURED RESOLUTION: Single Claude call that considers the flag
+ *           from all three perspectives (Consumer Advocate, Technical Purist,
+ *           Market Realist) in one pass. Produces a binding ruling.
+ *           If resolved, pipeline continues with ruling attached.
+ *           If not resolvable, escalates to Ray.
  *
- * Tier 3 — ESCALATE TO RAY: 3-way split or policy-level question.
- *           Telegram message with log link. Pipeline halts only here.
+ * v2 changes (Phase 3):
+ *   - Replaced 3-member parallel vote + synthesis (5 Sonnet calls) with single
+ *     structured resolution call (1 Sonnet call).
+ *   - The three perspectives are now lens instructions inside one prompt, not
+ *     separate API calls. One focused call with all context is more reliable
+ *     than three separate calls that each see partial context.
+ *   - Total API calls: 2 (auto-resolve + structured resolution) or 1 (auto-resolve only).
+ *     Down from 5+ in v1.
  *
  * Ray receives a Telegram link for every council session regardless of outcome.
  * He can review at leisure. It never blocks the pipeline.
@@ -113,63 +120,44 @@ Attempt to resolve this flag now.`;
   return response.content[0].text;
 }
 
-// ─── TIER 2 — COUNCIL ────────────────────────────────────────────────────────
+// ─── TIER 2 — STRUCTURED RESOLUTION (replaces 3-member council) ───────────────
 
-const COUNCIL_MEMBERS = [
-  {
-    name: 'Consumer Advocate',
-    prompt: `You are the Consumer Advocate on The Residentialist Council. You represent quality-conscious homebuyers who are making a $30,000–$150,000 purchase decision and relying on this score to be accurate and honest.
+const STRUCTURED_RESOLUTION_PROMPT = `You are the Residentialist Council — a single structured resolution authority that evaluates flagged product evaluations from three perspectives simultaneously.
 
-Your perspective: Does this score accurately reflect what a homebuyer will experience? Are the flags legitimate concerns that would affect buyer outcomes? You are skeptical of over-engineering and academic precision that doesn't translate to real-world buyer impact. You trust documented performance data and independent reviews over manufacturer claims.
+PERSPECTIVE 1 — CONSUMER ADVOCATE:
+Does this score accurately reflect what a homebuyer will experience? Are the flags legitimate concerns that would affect buyer outcomes? Trust documented performance data and independent reviews over manufacturer claims.
 
-You receive a flagged product evaluation and a proposed auto-resolution or Council question. Vote: APPROVE (accept the score as-is or with minor memo), MODIFY (specific change required), or REJECT (score is materially misleading to buyers).
+PERSPECTIVE 2 — TECHNICAL PURIST:
+Is the scoring methodology sound? Every score must be derivable from documented inputs using the published rubric. Assumed specs are scoring errors. Undisclosed specs must be midpoint-scored. The calibration table must remain internally consistent.
 
-Always state: VOTE: [APPROVE/MODIFY/REJECT] followed by your 2-3 sentence rationale. If MODIFY, state exactly what change you require.`
-  },
-  {
-    name: 'Technical Purist',
-    prompt: `You are the Technical Purist on The Residentialist Council. You are responsible for rubric integrity, scoring consistency, and data discipline.
+PERSPECTIVE 3 — MARKET REALIST:
+Does this score make sense in market context? Is it calibrated correctly against competing products at similar price points? Would a production builder or design professional find this score credible?
 
-Your perspective: Every score must be derivable from documented inputs using the published rubric. Assumed specs are scoring errors. Undisclosed specs must be midpoint-scored. The calibration table must remain internally consistent. You do not care about buyer sentiment — you care about whether the math is defensible.
-
-You receive a flagged product evaluation and a proposed auto-resolution or Council question. Vote: APPROVE (methodology is sound), MODIFY (specific correction required), or REJECT (scoring violates rubric principles).
-
-Always state: VOTE: [APPROVE/MODIFY/REJECT] followed by your 2-3 sentence rationale. If MODIFY, state exactly what correction the rubric requires.`
-  },
-  {
-    name: 'Market Realist',
-    prompt: `You are the Market Realist on The Residentialist Council. You represent the builder and trade professional perspective — people who spec products at scale and understand price-tier context.
-
-Your perspective: Does this score make sense in the context of the market? Is it calibrated correctly against competing products at similar price points? Would a production builder or design professional find this score credible? You are skeptical of scores that don't reflect real-world procurement realities.
-
-You receive a flagged product evaluation and a proposed auto-resolution or Council question. Vote: APPROVE (score is market-credible), MODIFY (calibration adjustment needed), or REJECT (score would not survive professional scrutiny).
-
-Always state: VOTE: [APPROVE/MODIFY/REJECT] followed by your 2-3 sentence rationale. If MODIFY, state exactly what market-calibration change you require.`
-  }
-];
-
-const SYNTHESIS_PROMPT = `You are the Residentialist Council Synthesizer. You receive the votes and rationales of three Council members — Consumer Advocate, Technical Purist, and Market Realist — on a flagged product evaluation. Your job is to produce a binding ruling.
+YOUR PROCESS:
+1. Evaluate the flag from all three perspectives
+2. Identify where they agree and disagree
+3. Produce a binding ruling
 
 RULING LOGIC:
-- 3 APPROVE → RULING: APPROVED. State the consensus rationale.
-- 2 APPROVE, 1 MODIFY → RULING: APPROVED WITH MEMO. Incorporate the modification from the dissenting member as a required correction memo.
-- 2 APPROVE, 1 REJECT → RULING: APPROVED WITH NOTE. Note the dissent. Pipeline continues.
-- 2 MODIFY (same change) → RULING: MODIFICATION REQUIRED. State the exact change both members require.
-- 2 MODIFY (different changes) → RULING: ESCALATE. Describe the conflict. Ray must decide.
-- 2 REJECT → RULING: REJECTED. Pipeline halts. Ray must review.
-- 3-way split (one each) → RULING: ESCALATE. No consensus. Ray must decide.
-- 1 REJECT + 2 others disagree → RULING: APPROVED WITH DISSENT NOTED unless the rejection raises a data integrity issue, in which case ESCALATE.
+- If all three perspectives agree the flag is non-material → APPROVED, pipeline continues
+- If a correction is needed that all perspectives support → MODIFICATION REQUIRED with exact correction
+- If perspectives conflict on whether a correction is needed → APPROVED WITH MEMO noting the dissent
+- If the flag raises a policy question, data integrity issue, or genuine rubric ambiguity → ESCALATE to Ray
 
 Output format:
+CONSUMER ADVOCATE VIEW: [2-3 sentences]
+TECHNICAL PURIST VIEW: [2-3 sentences]
+MARKET REALIST VIEW: [2-3 sentences]
+
 COUNCIL RULING: [APPROVED / APPROVED WITH MEMO / MODIFICATION REQUIRED / ESCALATE / REJECTED]
 CONSENSUS RATIONALE: [2-3 sentences]
 REQUIRED ACTION: [Exact memo text if modification, or escalation question for Ray if ESCALATE, or nothing if APPROVED]
 PIPELINE: [CONTINUES / HALTS]`;
 
-async function conveneCouncil(flagReport, autoResolveResult, bot1Output, bot2Output, bot3Output, productName) {
-  console.log('[COUNCIL] Tier 2 — Convening Council...');
+async function resolveStructured(flagReport, autoResolveResult, bot1Output, bot2Output, bot3Output, productName) {
+  console.log('[COUNCIL] Tier 2 — Structured resolution (single call)...');
 
-  const councilContext = `PRODUCT: ${productName}
+  const context = `PRODUCT: ${productName}
 
 CHALLENGE BOT FLAG REPORT:
 ${flagReport}
@@ -186,52 +174,16 @@ ${bot2Output.slice(0, 6000)}
 BOT 3 MATERIAL SAFETY:
 ${bot3Output.slice(0, 2000)}
 
-Council question: Should this flag be accepted, modified, or rejected? Cast your vote.`;
+Evaluate this flag from all three perspectives and produce a binding ruling.`;
 
-  // Fire all three Council calls in parallel
-  console.log('[COUNCIL] Firing Consumer Advocate, Technical Purist, Market Realist simultaneously...');
-  const [advocateResult, puristResult, realistResult] = await Promise.all(
-    COUNCIL_MEMBERS.map(member =>
-      client.messages.create({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 800,
-        system: member.prompt,
-        messages: [{ role: 'user', content: councilContext }]
-      }).then(r => ({ name: member.name, vote: r.content[0].text }))
-    )
-  );
-
-  console.log(`[COUNCIL] Votes received:`);
-  console.log(`  ${advocateResult.name}: ${advocateResult.vote.split('\n')[0]}`);
-  console.log(`  ${puristResult.name}: ${puristResult.vote.split('\n')[0]}`);
-  console.log(`  ${realistResult.name}: ${realistResult.vote.split('\n')[0]}`);
-
-  // Synthesis call
-  const synthesisInput = `CONSUMER ADVOCATE VOTE:
-${advocateResult.vote}
-
-TECHNICAL PURIST VOTE:
-${puristResult.vote}
-
-MARKET REALIST VOTE:
-${realistResult.vote}
-
-Produce the binding ruling now.`;
-
-  const synthesisResponse = await client.messages.create({
+  const response = await client.messages.create({
     model: 'claude-sonnet-4-20250514',
-    max_tokens: 1000,
-    system: SYNTHESIS_PROMPT,
-    messages: [{ role: 'user', content: synthesisInput }]
+    max_tokens: 1500,
+    system: STRUCTURED_RESOLUTION_PROMPT,
+    messages: [{ role: 'user', content: context }]
   });
 
-  const ruling = synthesisResponse.content[0].text;
-  console.log(`[COUNCIL] Ruling: ${ruling.split('\n')[0]}`);
-
-  return {
-    votes: { advocateResult, puristResult, realistResult },
-    ruling
-  };
+  return response.content[0].text;
 }
 
 // ─── MAIN ESCALATION HANDLER ─────────────────────────────────────────────────
@@ -258,10 +210,10 @@ async function handleEscalation(flagReport, bot1Output, bot2Output, bot3Output, 
 
   if (isResolved || isPassThrough) {
     const logPath = writeLog(outputDir, 'council_session.md', sessionLog);
-    console.log('[COUNCIL] ✅ Auto-resolved — pipeline continues.');
+    console.log('[COUNCIL] Auto-resolved — pipeline continues.');
 
     await sendTelegram(
-      `✅ *Council Auto-Resolve* — ${productName}\n\nChallenge Bot flagged, auto-resolver cleared it.\n\n[Review session log](file://${logPath})`
+      `*Council Auto-Resolve* — ${productName}\n\nChallenge Bot flagged, auto-resolver cleared it.\n\n[Review session log](file://${logPath})`
     );
 
     const memoMatch = autoResolveResult.match(/ACTION:([\s\S]+?)(?:\n[A-Z]+:|$)/);
@@ -269,29 +221,24 @@ async function handleEscalation(flagReport, bot1Output, bot2Output, bot3Output, 
     return { pipeline: 'CONTINUES', memo };
   }
 
-  // ── TIER 2: Council ───────────────────────────────────────────────────────
-  const councilResult = await conveneCouncil(
+  // ── TIER 2: Structured resolution (single call) ──────────────────────────
+  const ruling = await resolveStructured(
     flagReport, autoResolveResult,
     bot1Output, bot2Output, bot3Output, productName
   );
 
-  sessionLog += `## TIER 2 — COUNCIL VOTES\n\n`;
-  sessionLog += `### Consumer Advocate\n${councilResult.votes.advocateResult.vote}\n\n`;
-  sessionLog += `### Technical Purist\n${councilResult.votes.puristResult.vote}\n\n`;
-  sessionLog += `### Market Realist\n${councilResult.votes.realistResult.vote}\n\n`;
-  sessionLog += `## COUNCIL RULING\n${councilResult.ruling}\n\n`;
+  sessionLog += `## TIER 2 — STRUCTURED RESOLUTION\n${ruling}\n\n`;
 
   const logPath = writeLog(outputDir, 'council_session.md', sessionLog);
 
-  const ruling = councilResult.ruling;
   const rulingLine = ruling.split('\n').find(l => l.startsWith('COUNCIL RULING:')) || '';
   const pipelineLine = ruling.split('\n').find(l => l.startsWith('PIPELINE:')) || '';
   const pipelineContinues = pipelineLine.includes('CONTINUES');
 
   if (pipelineContinues) {
-    console.log('[COUNCIL] ✅ Council resolved — pipeline continues.');
+    console.log('[COUNCIL] Structured resolution — pipeline continues.');
     await sendTelegram(
-      `✅ *Council Ruling* — ${productName}\n\n${rulingLine}\n\nPipeline continues. [Review session log](file://${logPath})`
+      `*Council Ruling* — ${productName}\n\n${rulingLine}\n\nPipeline continues. [Review session log](file://${logPath})`
     );
     const memoMatch = ruling.match(/REQUIRED ACTION:([\s\S]+?)(?:\nPIPELINE:|$)/);
     const memo = memoMatch ? memoMatch[1].trim() : 'Council approved — see council_session.md';
@@ -299,13 +246,13 @@ async function handleEscalation(flagReport, bot1Output, bot2Output, bot3Output, 
   }
 
   // ── TIER 3: Escalate to Ray ───────────────────────────────────────────────
-  console.log('[COUNCIL] ⚠️  Council deadlock or rejection — escalating to Ray.');
+  console.log('[COUNCIL] Structured resolution could not resolve — escalating to Ray.');
 
   const requiredActionMatch = ruling.match(/REQUIRED ACTION:([\s\S]+?)(?:\nPIPELINE:|$)/);
   const escalationQuestion = requiredActionMatch ? requiredActionMatch[1].trim() : 'See council_session.md';
 
   await sendTelegram(
-    `⚠️ *Council Escalation — Ray needed* — ${productName}\n\n` +
+    `*Council Escalation — Ray needed* — ${productName}\n\n` +
     `${rulingLine}\n\n` +
     `*Question for you:*\n${escalationQuestion.slice(0, 500)}\n\n` +
     `[Full council session log](file://${logPath})\n\n` +

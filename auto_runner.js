@@ -132,5 +132,15 @@ if (require.main === module) {
   if (args.length < 3) { console.log('Usage: node auto_runner.js "Product Name" CONFIG category'); process.exit(1); }
   runWithAutoCorrection(args[0], args[1], args[2], args.slice(3))
     .then(r => process.exit(r.status === 'PASS' ? 0 : 1))
-    .catch(err => { console.error('[AUTO-RUNNER] FATAL:', err); process.exit(1); });
+    .catch(err => {
+      console.error('[AUTO-RUNNER] FATAL:', err);
+      // Write crash log so errors are visible even when stdio is ignored
+      const fs = require('fs');
+      try {
+        fs.writeFileSync('/tmp/auto_runner_crash.log',
+          `[${new Date().toISOString()}] FATAL: ${err.message}\n${err.stack}\n`);
+      } catch(e) {}
+      // Also try to send via Telegram
+      sendTelegram(`❌ *FATAL CRASH*\n${args[0]}\n${err.message.slice(0,300)}`).finally(() => process.exit(1));
+    });
 }

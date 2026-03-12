@@ -1,20 +1,25 @@
 /**
- * THE RESIDENTIALIST — Reconciliation Bot (Bot 5)
+ * THE RESIDENTIALIST — Reconciliation Bot (Bot 5) v2
  *
  * Runs after Bot 2 (Evaluator) and before the FLAG GATE.
  * Compares Bot 1 (Consensus/research) and Bot 2 (Evaluator/scoring) outputs.
  *
  * If they agree: tags evaluation HIGH CONFIDENCE, pipeline continues.
  *
- * If they disagree: runs up to 3 rounds of structured debate.
- *   Round 1 — Bot 1 perspective challenges Bot 2 scoring
- *   Round 2 — Bot 2 perspective defends or revises
- *   Round 3 — Synthesis: do they now agree?
+ * If they disagree: runs exactly 1 round of structured debate.
+ *   Bot 1 perspective challenges Bot 2 scoring.
+ *   Bot 2 perspective defends or revises.
+ *   Synthesis determines outcome.
  *
  * If debate resolves: produces a RECONCILED output with confidence tag.
- * If debate does not resolve after 3 rounds: escalates to Council.
+ * If debate does not resolve in 1 round: escalates to Council.
  *
- * The debate transcript is always saved — the reasoning IS the insight.
+ * v2 changes (Phase 3):
+ *   - Capped at 1 debate round (was 3). One focused pass is more reliable
+ *     than 3 rounds of incremental revision.
+ *   - If 1 round can't resolve it, a human should see it anyway.
+ *   - Max API calls: 4 (1 detector + 1 Bot1 advocate + 1 Bot2 advocate + 1 synthesis)
+ *     Down from worst-case 10 (1 detector + 3 rounds × 3 calls).
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
@@ -82,21 +87,21 @@ For each disagreement item:
 
 Output format:
 
-RECONCILIATION SYNTHESIS — Round [N]
+RECONCILIATION SYNTHESIS
 
 ITEM 1: [RESOLVED — score stands / RESOLVED — score revised to X.X / UNRESOLVED — reason]
 ITEM 2: [RESOLVED — score stands / RESOLVED — score revised to X.X / UNRESOLVED — reason]
 [continue for all items]
 
-OVERALL: [RECONCILED — all items resolved] or [PARTIAL — N items unresolved, proceeding to next round] or [UNRESOLVED — escalating to Council]
+OVERALL: [RECONCILED — all items resolved] or [UNRESOLVED — escalating to Council]
 
 If RECONCILED: state the final confidence tag (HIGH CONFIDENCE if full agreement, RECONCILED if resolved through debate).
-If any items UNRESOLVED after round 3: list them clearly for Council escalation.`;
+If any items UNRESOLVED: list them clearly for Council escalation.`;
 
-// ─── DEBATE ENGINE ────────────────────────────────────────────────────────────
+// ─── DEBATE ENGINE (single round) ─────────────────────────────────────────────
 
-async function runDebateRound(disagreements, bot1Output, bot2Output, productName, roundNum, priorDebate) {
-  console.log(`[RECONCILIATION] Debate round ${roundNum}...`);
+async function runDebateRound(disagreements, bot1Output, bot2Output, productName) {
+  console.log(`[RECONCILIATION] Debate round 1 (of 1)...`);
 
   const context = `PRODUCT: ${productName}
 
@@ -107,16 +112,14 @@ BOT 1 RESEARCH OUTPUT (source of truth for findings):
 ${bot1Output.slice(0, 5000)}
 
 BOT 2 EVALUATOR OUTPUT (source of truth for scoring decisions):
-${bot2Output.slice(0, 5000)}
-
-${priorDebate ? `PRIOR DEBATE TRANSCRIPT:\n${priorDebate}` : ''}`;
+${bot2Output.slice(0, 5000)}`;
 
   // Bot 1 perspective
   const bot1Response = await client.messages.create({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 1200,
     system: BOT1_ADVOCATE_PROMPT,
-    messages: [{ role: 'user', content: `${context}\n\nPresent your case for each disagreement item now. Round ${roundNum}.` }]
+    messages: [{ role: 'user', content: `${context}\n\nPresent your case for each disagreement item now.` }]
   });
   const bot1Argument = bot1Response.content[0].text;
 
@@ -125,7 +128,7 @@ ${priorDebate ? `PRIOR DEBATE TRANSCRIPT:\n${priorDebate}` : ''}`;
     model: 'claude-sonnet-4-20250514',
     max_tokens: 1200,
     system: BOT2_ADVOCATE_PROMPT,
-    messages: [{ role: 'user', content: `${context}\n\nBot 1 has made the following arguments:\n\n${bot1Argument}\n\nRespond to each point now. Round ${roundNum}.` }]
+    messages: [{ role: 'user', content: `${context}\n\nBot 1 has made the following arguments:\n\n${bot1Argument}\n\nRespond to each point now.` }]
   });
   const bot2Argument = bot2Response.content[0].text;
 
@@ -136,17 +139,16 @@ ${priorDebate ? `PRIOR DEBATE TRANSCRIPT:\n${priorDebate}` : ''}`;
     system: SYNTHESIS_PROMPT,
     messages: [{
       role: 'user',
-      content: `${context}\n\nROUND ${roundNum} DEBATE:\n\nBot 1 argued:\n${bot1Argument}\n\nBot 2 responded:\n${bot2Argument}\n\nSynthesize now.`
+      content: `${context}\n\nDEBATE:\n\nBot 1 argued:\n${bot1Argument}\n\nBot 2 responded:\n${bot2Argument}\n\nSynthesize now.`
     }]
   });
   const synthesis = synthResponse.content[0].text;
 
   return {
-    roundNum,
     bot1Argument,
     bot2Argument,
     synthesis,
-    transcript: `## ROUND ${roundNum}\n\n### Bot 1 (Consensus) Argues:\n${bot1Argument}\n\n### Bot 2 (Evaluator) Responds:\n${bot2Argument}\n\n### Synthesis:\n${synthesis}`
+    transcript: `## ROUND 1\n\n### Bot 1 (Consensus) Argues:\n${bot1Argument}\n\n### Bot 2 (Evaluator) Responds:\n${bot2Argument}\n\n### Synthesis:\n${synthesis}`
   };
 }
 
@@ -187,52 +189,35 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
   // Extract disagreement items for debate
   const disagreementBlock = assessment.slice(assessment.indexOf('DISAGREEMENT AREAS:'));
 
-  // Step 2: Run up to 3 debate rounds
-  let fullTranscript = `# Reconciliation Debate Transcript\nProduct: ${productName}\n\n## INITIAL ASSESSMENT\n${assessment}\n\n`;
-  let priorDebate = '';
-  let finalSynthesis = '';
-  let resolved = false;
+  // Step 2: Run exactly 1 debate round
+  const debateResult = await runDebateRound(
+    disagreementBlock, bot1Output, bot2Output, productName
+  );
 
-  for (let round = 1; round <= 3; round++) {
-    const debateResult = await runDebateRound(
-      disagreementBlock, bot1Output, bot2Output, productName, round, priorDebate
-    );
+  const fullTranscript = `# Reconciliation Debate Transcript\nProduct: ${productName}\n\n## INITIAL ASSESSMENT\n${assessment}\n\n${debateResult.transcript}\n\n## FINAL SYNTHESIS\n${debateResult.synthesis}`;
 
-    fullTranscript += debateResult.transcript + '\n\n';
-    priorDebate = fullTranscript;
-    finalSynthesis = debateResult.synthesis;
-
-    if (debateResult.synthesis.includes('OVERALL: RECONCILED') || debateResult.synthesis.includes('OVERALL: **RECONCILED')) {
-      console.log(`[RECONCILIATION] Resolved in round ${round}.`);
-      resolved = true;
-      break;
-    }
-
-    if (round < 3) {
-      console.log(`[RECONCILIATION] Round ${round} incomplete — continuing debate...`);
-    } else {
-      console.log('[RECONCILIATION] 3 rounds exhausted — escalating unresolved items to Council.');
-    }
-  }
-
-  // Save full transcript regardless of outcome
+  // Save full transcript
   const transcriptPath = `${outputDir}/${productName.toLowerCase().replace(/\s+/g, '_')}_bot5_reconciliation.md`;
-  fs.writeFileSync(transcriptPath, fullTranscript + `\n## FINAL SYNTHESIS\n${finalSynthesis}`);
+  fs.writeFileSync(transcriptPath, fullTranscript);
+
+  const resolved = debateResult.synthesis.includes('OVERALL: RECONCILED') ||
+                   debateResult.synthesis.includes('OVERALL: **RECONCILED');
 
   if (resolved) {
-    // Extract any score revisions from synthesis
-    const revisions = finalSynthesis.match(/REVISION:.*$/gm) || [];
+    console.log(`[RECONCILIATION] Resolved in 1 round.`);
+    const revisions = debateResult.synthesis.match(/REVISION:.*$/gm) || [];
     return {
       status: 'RECONCILED',
       confidenceTag: 'RECONCILED',
       revisions,
       transcriptPath,
-      finalSynthesis
+      finalSynthesis: debateResult.synthesis
     };
   }
 
-  // Not resolved — extract unresolved items for Council
-  const unresolvedItems = finalSynthesis
+  // Not resolved in 1 round — escalate to Council
+  console.log('[RECONCILIATION] 1 round exhausted — escalating unresolved items to Council.');
+  const unresolvedItems = debateResult.synthesis
     .split('\n')
     .filter(l => l.includes('UNRESOLVED'))
     .join('\n');
@@ -242,7 +227,7 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
     confidenceTag: 'COUNCIL REQUIRED',
     unresolvedItems,
     transcriptPath,
-    finalSynthesis
+    finalSynthesis: debateResult.synthesis
   };
 }
 

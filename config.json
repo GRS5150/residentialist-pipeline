@@ -15,7 +15,7 @@
     },
     "github": {
       "repo": "https://github.com/GRS5150/residentialist-pipeline",
-      "note": "Token stored in .env only \u2014 never commit to repo"
+      "note": "Token stored in .env only — never commit to repo"
     },
     "telegram": {
       "bot_name": "HenryShapleyBot",
@@ -23,13 +23,17 @@
     }
   },
   "models": {
-    "bot1_consensus": "claude-sonnet-4-6-20250514",
-    "bot2_evaluator": "claude-sonnet-4-6-20250514",
+    "bot1_consensus": "claude-sonnet-4-20250514",
+    "bot2_evaluator": "claude-sonnet-4-20250514",
     "bot3_material_safety": "claude-haiku-4-5-20251001",
     "bot4_challenge": "claude-haiku-4-5-20251001",
-    "bot5_reconciliation": "claude-sonnet-4-6-20250514",
-    "bot6_report": "claude-sonnet-4-6-20250514",
-    "council": "claude-sonnet-4-6-20250514"
+    "bot5_reconciliation": "claude-sonnet-4-20250514",
+    "bot6_report": "none — pure template assembly, no API calls",
+    "council": "claude-sonnet-4-20250514",
+    "notes": {
+      "reconciliation": "Capped at 1 debate round (was 3). Max 4 Sonnet calls per product. Phase 3.",
+      "council": "Single structured resolution call (was 3-member vote + synthesis). Max 2 Sonnet calls. Phase 3."
+    }
   },
   "categories": {
     "windows": {
@@ -66,15 +70,15 @@
       "durability": 0.35,
       "performance": 0.3
     },
-    "note": "NEVER equal thirds. Material Safety reported separately \u2014 not in overall."
+    "note": "NEVER equal thirds. Material Safety reported separately — not in overall."
   },
   "pending_decisions": [
-    "Alpen ZR-7 score conflict: 8.70 vs 9.1 \u2014 Ray must resolve",
-    "Simonton Reflections 5500 two-score issue: 6.9 vs 6.2 \u2014 Ray must resolve",
-    "EC2 instance 18.218.122.54 \u2014 pending termination"
+    "Alpen ZR-7 score conflict: 8.70 vs 9.1 — Ray must resolve",
+    "Simonton Reflections 5500 two-score issue: 6.9 vs 6.2 — Ray must resolve",
+    "EC2 instance 18.218.122.54 — pending termination"
   ],
   "file_map": {
-    "orchestrator": "bot_orchestrator_v2.js",
+    "orchestrator": "bot_orchestrator_v3.js",
     "bridge": "claude_bridge.js",
     "bot6_report": "bot6_report_assembly_v2.js",
     "validator": "deterministic_validator.js",
@@ -83,5 +87,13 @@
     "council": "council.js",
     "telegram": "telegram_listener.js",
     "auto_runner": "auto_runner.js"
+  },
+  "build_status": {
+    "phase_1": "COMPLETE — git init, mega-file split, baseline committed",
+    "phase_2": "COMPLETE — v3 orchestrator, JSON output, validator + bot6 updated",
+    "phase_3": "COMPLETE — reconciliation capped at 1 round, council single-call resolution",
+    "phase_4": "PENDING — Henry ↔ Claude communication",
+    "phase_5": "PENDING — Product database (SQLite)",
+    "phase_6": "PENDING — Builder spec ingestion"
   }
 }
