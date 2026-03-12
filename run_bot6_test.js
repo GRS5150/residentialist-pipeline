@@ -1,0 +1,3 @@
+
+process.argv = ['node', 'bot6', 'report', 'Pella 250 Series', '/Users/Residentialist/.openclaw/workspace/residentialist/outputs/pella_250_series_2026-03-10T03-16-14'];
+require('./bot6_report_assembly_v2.js');
