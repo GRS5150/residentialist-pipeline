@@ -1,0 +1,87 @@
+{
+  "project": "The Residentialist",
+  "owner": "Ray Shapley",
+  "version": "2026-03-12",
+  "infrastructure": {
+    "mac_mini": {
+      "workspace": "/Users/Residentialist/.openclaw/workspace/residentialist/",
+      "ssh": "ssh Residentialist@192.168.86.37",
+      "os": "macOS Apple Silicon"
+    },
+    "bridge": {
+      "url": "https://lavonne-instructorless-northwestwardly.ngrok-free.dev",
+      "api_key": "residentialist-bridge-2026",
+      "port": 7823
+    },
+    "github": {
+      "repo": "https://github.com/GRS5150/residentialist-pipeline",
+      "note": "Token stored in .env only \u2014 never commit to repo"
+    },
+    "telegram": {
+      "bot_name": "HenryShapleyBot",
+      "note": "Token and chat ID in .env"
+    }
+  },
+  "models": {
+    "bot1_consensus": "claude-sonnet-4-6-20250514",
+    "bot2_evaluator": "claude-sonnet-4-6-20250514",
+    "bot3_material_safety": "claude-haiku-4-5-20251001",
+    "bot4_challenge": "claude-haiku-4-5-20251001",
+    "bot5_reconciliation": "claude-sonnet-4-6-20250514",
+    "bot6_report": "claude-sonnet-4-6-20250514",
+    "council": "claude-sonnet-4-6-20250514"
+  },
+  "categories": {
+    "windows": {
+      "status": "production",
+      "eval_knowledge": "knowledge/windows/windows_eval_knowledge_v1.2.md",
+      "material_safety_knowledge": "knowledge/windows/windows_material_safety_knowledge_v1.1.md",
+      "rubrics": "knowledge/windows/windows_deterministic_rubrics_v6.md",
+      "principles": "knowledge/windows/residentialist_universal_rubric_principles_v1.1.md",
+      "packet": "knowledge/windows/henley_windows_packet_v1.1.md",
+      "calibrated_products": 9
+    },
+    "faucets": {
+      "status": "production",
+      "eval_knowledge": "knowledge/faucets/faucet_eval_knowledge.md",
+      "material_safety_knowledge": "knowledge/faucets/faucet_material_safety_knowledge.md",
+      "calibrated_products": 4
+    },
+    "cabinets": {
+      "status": "production",
+      "eval_knowledge": "knowledge/cabinets/cabinets_eval_knowledge.md",
+      "material_safety_knowledge": "knowledge/cabinets/cabinets_material_safety_knowledge.md",
+      "calibrated_products": 6
+    },
+    "countertops": {
+      "status": "production",
+      "eval_knowledge": "knowledge/countertops/countertop_eval_knowledge.md",
+      "material_safety_knowledge": "knowledge/countertops/countertop_material_safety_knowledge.md",
+      "calibrated_products": 6
+    }
+  },
+  "scoring": {
+    "weights": {
+      "quality": 0.35,
+      "durability": 0.35,
+      "performance": 0.3
+    },
+    "note": "NEVER equal thirds. Material Safety reported separately \u2014 not in overall."
+  },
+  "pending_decisions": [
+    "Alpen ZR-7 score conflict: 8.70 vs 9.1 \u2014 Ray must resolve",
+    "Simonton Reflections 5500 two-score issue: 6.9 vs 6.2 \u2014 Ray must resolve",
+    "EC2 instance 18.218.122.54 \u2014 pending termination"
+  ],
+  "file_map": {
+    "orchestrator": "bot_orchestrator_v2.js",
+    "bridge": "claude_bridge.js",
+    "bot6_report": "bot6_report_assembly_v2.js",
+    "validator": "deterministic_validator.js",
+    "challenge": "challenge_bot_v2.js",
+    "reconciliation": "reconciliation_bot.js",
+    "council": "council.js",
+    "telegram": "telegram_listener.js",
+    "auto_runner": "auto_runner.js"
+  }
+}
