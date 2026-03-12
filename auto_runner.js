@@ -66,269 +66,41 @@ function extractAxisScores(result) {
       performance: result.bot2Parsed.performance_score || null
     };
   }
-  // Fallback: extract from markdown output using multiple patterns
   const o = result.bot2Output || '';
-  
-  // Pattern 1: "**Quality:** C- (4.70)" or "Quality: 4.70/10"
+
+  // Extract axis score from markdown text using multiple patterns
   function extractAxis(name) {
-    // Try "**Name:** Grade (X.XX)"
-    const p1 = new RegExp(name + '(?:\\s+(?:Score|Axis))?[:\\s*]+[A-F][+-]?\\s*\\(?([0-9]+\\.?[0-9]*)(?:\\/10)?', 'i');
+    // Pattern: "**Quality:** C- (4.70)" or "Quality: C+ (6.43/10)"
+    const p1 = new RegExp(name + '[^0-9]*([A-F][+-]?)\\s*\\(?([0-9]+\\.?[0-9]*)(?:/10)?', 'i');
     const m1 = o.match(p1);
-    if (m1) return parseFloat(m1[1]);
-    
-    // Try "Name Calculation:" followed by "= **X.XX**" on next lines
-    const p2 = new RegExp(name + '\\s+Calculation[:\\s\\S]*?=\\s*\\*?\\*?([0-9]+\\.?[0-9]*)\\*?\\*?', 'i');
-    const m2 = o.match(p2);
+    if (m1 && m1[2]) return parseFloat(m1[2]);
+
+    // Pattern: "Quality Calculation:" or "Quality:" followed by "= X.XX" or "**X.XX**"
+    const section = new RegExp(name + '\\s*(?:Calculation|Score)?[:\\s][\\s\\S]{0,500}?(?:=|Score:)\\s*\\*{0,2}([0-9]+\\.?[0-9]*)\\*{0,2}', 'i');
+    const m2 = o.match(section);
     if (m2) return parseFloat(m2[1]);
-    
-    // Try "AXIS N: NAME ... = X.XX" at end of section
-    const p3 = new RegExp(name + '.*?(?:=|→|:)\\s*\\*?\\*?([0-9]+\\.?[0-9]*)\\*?\\*?\\s*
 
-// ── DETERMINISTIC SCORE RECALCULATION ────────────────────────────────────────
-// LOCKED WEIGHTS (March 11 2026 — Ray Shapley): Quality 35%, Durability 35%, Performance 30%
-// Never trust the AI arithmetic. Always recalculate from axis scores.
-const AXIS_WEIGHTS = { quality: 0.35, durability: 0.35, performance: 0.30 };
-
-function recalculateOverall(axis) {
-  if (axis.quality == null || axis.durability == null || axis.performance == null) return null;
-  const q = parseFloat(axis.quality);
-  const d = parseFloat(axis.durability);
-  const p = parseFloat(axis.performance);
-  if (isNaN(q) || isNaN(d) || isNaN(p)) return null;
-  return Math.round((q * AXIS_WEIGHTS.quality + d * AXIS_WEIGHTS.durability + p * AXIS_WEIGHTS.performance) * 100) / 100;
-}
-
-function assignGrade(score) {
-  if (score == null) return '?';
-  if (score >= 9.5) return 'A+';
-  if (score >= 9.0) return 'A';
-  if (score >= 8.5) return 'A-';
-  if (score >= 8.0) return 'B+';
-  if (score >= 7.5) return 'B';
-  if (score >= 7.0) return 'B-';
-  if (score >= 6.5) return 'C+';
-  if (score >= 6.0) return 'C';
-  if (score >= 5.5) return 'C-';
-  if (score >= 5.0) return 'D+';
-  if (score >= 4.5) return 'D';
-  if (score >= 4.0) return 'D-';
-  return 'F';
-}
-
-
-
-function summarizeFlags(o) {
-  return o.split('\n').filter(l => l.includes('FLAG') && l.includes('###')).slice(0,3).map(l => l.replace(/#+\s*/,'').trim()).join('\n');
-}
-
-function generateDataConfidence(bot2Output, challengeOutput) {
-  const warnMatches = challengeOutput.match(/\*\*WARN\*\*[^\n]*/g) || [];
-  const warns = warnMatches.map(w => w.replace(/\*\*/g,'').replace(/^WARN[:\s]*/i,'').trim());
-  const undisclosedCount = (challengeOutput.match(/UNDISCLOSED/gi) || []).length;
-  let confidence = undisclosedCount > 7 ? 'Low' : undisclosedCount > 4 ? 'Moderate' : 'High';
-  let section = `\n---\n## DATA CONFIDENCE: ${confidence.toUpperCase()}\n\n`;
-  if (undisclosedCount > 0) {
-    section += `**${undisclosedCount} spec(s) scored at midpoint due to manufacturer non-disclosure:**\n`;
-    warns.forEach(w => { section += `- ${w}\n`; });
-    section += `\n_Midpoint scoring (5.0/10) applied where manufacturer does not publish specifications. Scores hold center until data is available._\n`;
-  } else {
-    section += `All scored specifications confirmed from manufacturer documentation, independent databases, or Council-approved memos.\n`;
-  }
-  return { section, confidence, undisclosedCount };
-}
-
-// ── MAIN RUNNER ──────────────────────────────────────────────────────────────
-
-async function runWithAutoCorrection(productName, config, category, researchFiles = []) {
-  console.log(`\n[AUTO-RUNNER] Starting: ${productName} (${config})`);
-
-  // Phase 5: Check if already scored
-  if (db.isScored(productName, config)) {
-    const existing = db.getScore(productName, config);
-    console.log(`[AUTO-RUNNER] Already scored: ${productName} (${config}) — ${existing.overall} ${existing.grade}`);
-    await sendTelegram(`ℹ️ *${productName} (${config})* already scored: *${existing.overall}/10 ${existing.grade}*\n_Use RERUN to re-score._`);
-    return { status: 'ALREADY_SCORED', productName, config, existing };
-  }
-
-  await sendTelegram(`🔄 *Pipeline starting*\n${productName} — ${config}`);
-  const startTime = Date.now();
-  let attempt = 0;
-  let errorRetries = 0;
-
-  while (attempt <= MAX_ATTEMPTS) {
-    attempt++;
-    let result;
-    try { result = await runPipeline(productName, config, researchFiles); }
-    catch (err) {
-      // Phase 4: Diagnose before alerting Ray
-      diagLog(`Pipeline error for ${productName}: ${err.message}`);
-      const diag = await diagnose({
-        error: err.message + '\n' + (err.stack || ''),
-        context: `Pipeline execution for ${productName} (${config})`,
-        attempt: errorRetries,
-        product: productName,
-        step: 'pipeline'
-      });
-
-      if (diag.autoFixed && diag.action === 'RETRY' && errorRetries < MAX_ERROR_RETRIES) {
-        errorRetries++;
-        await executeAutoFix(diag, { product: productName, config, category });
-        diagLog(`Auto-retry ${errorRetries}/${MAX_ERROR_RETRIES} for ${productName}`);
-        attempt--;
-        continue;
-      }
-
-      if (diag.autoFixed && diag.action === 'RESTART_PIPELINE' && errorRetries < MAX_ERROR_RETRIES) {
-        errorRetries++;
-        await executeAutoFix(diag, { product: productName, config, category });
-        diagLog(`Auto-restart pipeline for ${productName}`);
-        attempt = 0;
-        continue;
-      }
-
-      // Record failed run in DB
-      const duration = Math.round((Date.now() - startTime) / 1000);
-      db.saveRun({
-        product: productName, config, status: 'ERROR',
-        attempts: attempt, errorCount: errorRetries + 1,
-        durationSeconds: duration, notes: `Error: ${err.message.slice(0, 200)}`
-      });
-
-      await sendTelegram(`❌ *Pipeline error — ${productName}*\n${diag.reason}\n\n_${err.message.slice(0,200)}_`);
-      throw err;
-    }
-
-    errorRetries = 0;
-
-    if (result.status === 'PASS') {
-      const aiScore = extractScore(result);
-      const aiGrade = extractGrade(result);
-      const outlook = extractOutlook(result);
-      const axis = extractAxisScores(result);
-
-      // DETERMINISTIC OVERRIDE: Recalculate overall from axis scores using locked 35/35/30 weights
-      const deterministicOverall = recalculateOverall(axis);
-      const score = deterministicOverall != null ? String(deterministicOverall) : aiScore;
-      const grade = deterministicOverall != null ? assignGrade(deterministicOverall) : aiGrade;
-      if (deterministicOverall != null && Math.abs(deterministicOverall - parseFloat(aiScore)) > 0.1) {
-        console.log('[AUTO-RUNNER] WEIGHT CORRECTION: AI said ' + aiScore + ' (' + aiGrade + '), recalculated to ' + score + ' (' + grade + ') using 35/35/30 weights');
-      }
-      const note = attempt > 1 ? `\n_(self-corrected after ${attempt-1} attempt${attempt>2?'s':''})_` : '';
-
-      // Generate and append data confidence
-      const { section, confidence, undisclosedCount } = generateDataConfidence(
-        result.bot2Output || '', result.challengeResult || ''
-      );
-      if (result.outputDir && result.bot2Output) {
-        const fs = require('fs');
-        fs.appendFileSync(`${result.outputDir}/PIPELINE_STATUS.txt`, section);
-      }
-
-      // Phase 5: Save to database
-      const duration = Math.round((Date.now() - startTime) / 1000);
-      const overall = parseFloat(score);
-      try {
-        db.saveScore({
-          product: productName, config, category,
-          overall: isNaN(overall) ? null : overall,
-          grade, outlook,
-          quality: axis.quality, durability: axis.durability, performance: axis.performance,
-          dataConfidence: confidence, undisclosedCount,
-          source: 'pipeline',
-          runDir: result.outputDir ? require('path').basename(result.outputDir) : null,
-          notes: attempt > 1 ? `Self-corrected after ${attempt-1} attempt(s)` : null
-        });
-        db.saveRun({
-          product: productName, config,
-          runDir: result.outputDir ? require('path').basename(result.outputDir) : null,
-          status: 'PASS', attempts: attempt, errorCount: 0,
-          selfCorrected: attempt > 1, durationSeconds: duration
-        });
-        console.log(`[AUTO-RUNNER] Score saved to DB: ${productName} ${score} ${grade}`);
-      } catch (dbErr) {
-        console.error(`[AUTO-RUNNER] DB write failed (non-fatal): ${dbErr.message}`);
-      }
-
-      const outlookStr = outlook ? `  Outlook: *${outlook}*` : '';
-      await sendTelegram(`✅ *PASS — ${productName} (${config})*\nScore: *${score}/10*  Grade: *${grade}*${outlookStr}${note}`);
-      return result;
-    }
-
-    if (attempt <= MAX_ATTEMPTS) {
-      await sendTelegram(`⚠️ *FLAG — ${productName}*\nAttempt ${attempt}/${MAX_ATTEMPTS} — self-correcting...\n${summarizeFlags(result.challengeResult||'').slice(0,200)}`);
-      const correction = await selfCorrect(productName, config, category, result.bot1Output||'', result.bot2Output||'', result.challengeResult||'');
-      if (correction.action === 'escalate') {
-        const duration = Math.round((Date.now() - startTime) / 1000);
-        db.saveRun({
-          product: productName, config, status: 'ESCALATED',
-          attempts: attempt, durationSeconds: duration,
-          notes: `Escalated: ${correction.reason.slice(0, 200)}`
-        });
-        await sendTelegram(`🚨 *ESCALATION — ${productName}*\n\n${correction.reason.slice(0,600)}\n\n_Open Claude and review. Pipeline halted._`);
-        return { status: 'ESCALATED', productName, config, reason: correction.reason };
-      }
-    }
-  }
-
-  const duration = Math.round((Date.now() - startTime) / 1000);
-  db.saveRun({
-    product: productName, config, status: 'ESCALATED',
-    attempts: MAX_ATTEMPTS, durationSeconds: duration,
-    notes: 'Max attempts reached'
-  });
-  await sendTelegram(`🚨 *ESCALATION — ${productName}*\nFailed after ${MAX_ATTEMPTS} attempts. Human review required.`);
-  return { status: 'ESCALATED', productName, config };
-}
-
-module.exports = { runWithAutoCorrection, sendTelegram, generateDataConfidence };
-
-if (require.main === module) {
-  const args = process.argv.slice(2);
-  if (args.length < 3) { console.log('Usage: node auto_runner.js "Product Name" CONFIG category'); process.exit(1); }
-  runWithAutoCorrection(args[0], args[1], args[2], args.slice(3))
-    .then(r => { db.close(); process.exit(r.status === 'PASS' ? 0 : 1); })
-    .catch(err => {
-      console.error('[AUTO-RUNNER] FATAL:', err);
-      const fs = require('fs');
-      try {
-        fs.writeFileSync('/tmp/auto_runner_crash.log',
-          `[${new Date().toISOString()}] FATAL: ${err.message}\n${err.stack}\n`);
-      } catch(e) {}
-      db.close();
-      sendTelegram(`❌ *FATAL CRASH*\n${args[0]}\n${err.message.slice(0,300)}`).finally(() => process.exit(1));
-    });
-}
-, 'im');
-    const m3 = o.match(p3);
-    if (m3) return parseFloat(m3[1]);
-    
     return null;
   }
-  
+
   const quality = extractAxis('Quality');
   const durability = extractAxis('Durability');
   const performance = extractAxis('Performance');
-  
+
   if (quality != null || durability != null || performance != null) {
     return { quality, durability, performance };
   }
-  
-  // Pattern 2: try weighted calc line with × symbol
-  const calcLine = o.split('\n').find(l => l.includes('\u00d7') && l.includes('\u2192'));
-  if (calcLine) {
-    const re = /\(([0-9.]+)\s*\u00d7/g;
-    const nums = [];
-    let m;
-    while ((m = re.exec(calcLine)) !== null) nums.push(parseFloat(m[1]));
-    if (nums.length >= 3) return { quality: nums[0], durability: nums[1], performance: nums[2] };
+
+  // Fallback: extract from "Overall = (X + Y + Z)" line
+  const overallMatch = o.match(/Overall.*?=.*?\(([0-9.]+)\s*[+]\s*([0-9.]+)\s*[+]\s*([0-9.]+)\s*\)/i);
+  if (overallMatch) {
+    return {
+      quality: parseFloat(overallMatch[1]),
+      durability: parseFloat(overallMatch[2]),
+      performance: parseFloat(overallMatch[3])
+    };
   }
-  
-  // Pattern 3: extract from "Overall = (X + Y + Z)" line
-  const overallLine = o.match(/Overall.*?=.*?\(([0-9.]+)\s*[+×]\s*.*?([0-9.]+)\s*[+×]\s*.*?([0-9.]+)\s*\)/i);
-  if (overallLine) {
-    return { quality: parseFloat(overallLine[1]), durability: parseFloat(overallLine[2]), performance: parseFloat(overallLine[3]) };
-  }
-  
+
   return { quality: null, durability: null, performance: null };
 }
 
