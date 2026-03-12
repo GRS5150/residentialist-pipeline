@@ -36,6 +36,8 @@ function productKey(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/, '');
 }
 
+// ── REGEX EXTRACTION (fallback for v2 markdown output) ────────────────────────
+
 function extractAxisScores(text) {
   // Extract Q, D, P axis scores from bot2 evaluator
   const qMatch = text.match(/QUALITY[^:]*:\s*[A-Z][+-]?\s*\(([0-9]+\.[0-9]+)\/10\)/i);
@@ -81,6 +83,43 @@ function extract2BScore(text) {
   return null;
 }
 
+// ── JSON EXTRACTION (primary path for v3 structured output) ───────────────────
+
+function extractFromJSON(bot2Json) {
+  // bot2Json is the parsed JSON from bot2_evaluator.json
+  // Returns { axisScores, overallScore, score2B } or nulls for missing fields
+  let axisScores = null;
+  let overallScore = null;
+  let score2B = null;
+
+  // Axis scores from structured scores object
+  // v3 schema: scores.quality.axis_score, scores.durability.axis_score, scores.performance.axis_score
+  if (bot2Json.scores) {
+    const s = bot2Json.scores;
+    const qScore = s.quality?.axis_score ?? null;
+    const dScore = s.durability?.axis_score ?? null;
+    const pScore = s.performance?.axis_score ?? null;
+    if (qScore != null && dScore != null && pScore != null) {
+      axisScores = { Q: parseFloat(qScore), D: parseFloat(dScore), P: parseFloat(pScore) };
+    }
+  }
+
+  // Overall score
+  if (bot2Json.overall_score != null) {
+    overallScore = parseFloat(bot2Json.overall_score);
+  }
+
+  // 2B Materials & Durability score
+  // v3 schema: scores.durability.materials_durability.score
+  if (bot2Json.scores?.durability?.materials_durability?.score != null) {
+    score2B = parseFloat(bot2Json.scores.durability.materials_durability.score);
+  }
+
+  return { axisScores, overallScore, score2B };
+}
+
+// ── MAIN VALIDATE ─────────────────────────────────────────────────────────────
+
 function validate(outputDir, productName) {
   const key = productKey(productName);
   const violations = [];
@@ -96,19 +135,49 @@ function validate(outputDir, productName) {
     return { valid: false, violations: ['No Bot 5 reconciliation or Bot 4 challenge output found'], warnings: [] };
   }
 
-  // Also read bot2 evaluator for overall score (bot5 reconciliation doesn't always contain it)
-  const bot2File = files.find(f => f.includes('bot2_evaluator'));
-  const bot2Text = bot2File ? fs.readFileSync(path.join(outputDir, bot2File), 'utf8') : '';
   const text = fs.readFileSync(path.join(outputDir, sourceFile), 'utf8');
+
+  // ── v3 path: Try structured JSON first ──────────────────────────────────────
+  const bot2JsonFile = files.find(f => f.includes('bot2_evaluator') && f.endsWith('.json'));
+  const bot2MdFile = files.find(f => f.includes('bot2_evaluator') && (f.endsWith('.md') || f.endsWith('_raw.md')));
+  // Fallback: any bot2_evaluator file (v2 compatibility)
+  const bot2AnyFile = bot2JsonFile || bot2MdFile || files.find(f => f.includes('bot2_evaluator'));
+
+  let axisScores = null;
+  let overallScoreRaw = null;
+  let score2B = null;
+
+  if (bot2JsonFile) {
+    // v3 structured output — direct field reads, no regex
+    try {
+      const bot2Json = JSON.parse(fs.readFileSync(path.join(outputDir, bot2JsonFile), 'utf8'));
+      const extracted = extractFromJSON(bot2Json);
+      axisScores = extracted.axisScores;
+      overallScoreRaw = extracted.overallScore;
+      score2B = extracted.score2B;
+      console.log('[VALIDATOR] Using structured JSON from ' + bot2JsonFile);
+    } catch(e) {
+      warnings.push('bot2_evaluator.json exists but failed to parse: ' + e.message + ' — falling back to regex');
+    }
+  }
+
+  // Fallback to regex on markdown (v2 path, or if JSON extraction missed fields)
+  if (axisScores == null || overallScoreRaw == null || score2B == null) {
+    const bot2Text = bot2MdFile
+      ? fs.readFileSync(path.join(outputDir, bot2MdFile), 'utf8')
+      : (bot2AnyFile ? fs.readFileSync(path.join(outputDir, bot2AnyFile), 'utf8') : '');
+    if (axisScores == null) axisScores = extractAxisScores(bot2Text);
+    if (overallScoreRaw == null) overallScoreRaw = extractOverallScore(bot2Text) || extractOverallScore(text);
+    if (score2B == null) score2B = extract2BScore(bot2Text) || extract2BScore(text);
+    if (bot2Text) console.log('[VALIDATOR] Using regex fallback on markdown');
+  }
 
   // Apply locked axis weights (Q:35% D:35% P:30%) structurally
   // Bots default to equal thirds — this corrects it without relying on bot compliance
-  const axisScores = extractAxisScores(bot2Text);
-  let overallScoreRaw = extractOverallScore(bot2Text) || extractOverallScore(text);
   let weightedScore = null;
   if (axisScores) {
     weightedScore = applyWeights(axisScores);
-    if (Math.abs(weightedScore - overallScoreRaw) > 0.05) {
+    if (overallScoreRaw != null && Math.abs(weightedScore - overallScoreRaw) > 0.05) {
       corrections.push(
         'Axis weights corrected from equal thirds to Q:35% D:35% P:30% — ' +
         'raw=' + overallScoreRaw + ' → weighted=' + weightedScore +
@@ -121,8 +190,6 @@ function validate(outputDir, productName) {
     }
     overallScoreRaw = weightedScore || overallScoreRaw;
   }
-
-  const score2B = extract2BScore(bot2Text) || extract2BScore(text);
 
   let overallScore = overallScoreRaw;
 
@@ -230,6 +297,3 @@ if (require.main === module) {
   result.warnings.forEach(w => console.log('  WARNING:', w));
   process.exit(result.valid ? 0 : 1);
 }
-
-
-

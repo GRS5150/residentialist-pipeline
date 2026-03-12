@@ -790,7 +790,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   console.log(`  PIPELINE_STATUS.json`);
   console.log(`  PIPELINE_STATUS.txt`);
 
-  return { status: 'PASS', outputDir, bot1Output, bot2Output, bot3Output, challengeResult };
+  return { status: 'PASS', outputDir, bot1Output, bot2Output, bot3Output, challengeResult, bot2Parsed, bot3Parsed };
 }
 
 // ─── CLI ENTRY POINT ──────────────────────────────────────────────────────────

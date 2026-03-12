@@ -42,7 +42,10 @@ function readFile(fp) {
 function findFile(dir, keyword) {
   try {
     const files = fs.readdirSync(dir);
-    const f = files.find(x => x.includes(keyword));
+    // Prefer .md files over .json when both exist (v3 writes both)
+    const mdFile = files.find(x => x.includes(keyword) && x.endsWith('.md'));
+    const anyFile = files.find(x => x.includes(keyword));
+    const f = mdFile || anyFile;
     return f ? readFile(path.join(dir, f)) : null;
   } catch { return null; }
 }
@@ -1130,3 +1133,4 @@ async function main() {
 
 module.exports = { scanForOrphans, buildData, buildHTML };
 if (require.main === module) { main().catch(err => { console.error('[BOT6] FATAL:', err); process.exit(1); }); }
+
