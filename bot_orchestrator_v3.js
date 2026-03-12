@@ -371,9 +371,9 @@ Never score. Never grade. Leave all scoring to Bot 2.`;
 const BOT2_EVALUATOR_PROMPT = `You are The Residentialist Evaluator Bot (Bot 2). Your job is to score a product against the Residentialist rubric using the structured findings from Bot 1. Show all math explicitly. Never score a component you cannot source.
 
 SCORING STRUCTURE:
-- Axis 1: Quality (1/3 of Overall) — 1A Materials Quality (35%), 1B Manufacturing Quality (35%), 1C Professional Consensus (30%)
-- Axis 2: Durability (1/3 of Overall) — 2A Frame Longevity (37.5%), 2B Materials Durability (37.5%), 2C Repairability & Support (25%)
-- Axis 3: Performance (1/3 of Overall) — 3A Thermal (35%), 3B Structural (25%), 3C Air & Water (40%)
+- Axis 1: Quality (35% of Overall) — 1A Materials Quality (35%), 1B Manufacturing Quality (35%), 1C Professional Consensus (30%)
+- Axis 2: Durability (35% of Overall) — 2A Frame Longevity (37.5%), 2B Materials Durability (37.5%), 2C Repairability & Support (25%)
+- Axis 3: Performance (30% of Overall) — 3A Thermal (35%), 3B Structural (25%), 3C Air & Water (40%)
 - Overall = (Axis 1 × 0.35) + (Axis 2 × 0.35) + (Axis 3 × 0.30)
 - AXIS WEIGHTS (LOCKED March 11 2026 — Ray Shapley): Quality 35%, Durability 35%, Performance 30%
 - DO NOT use equal thirds. Use these exact weights.
