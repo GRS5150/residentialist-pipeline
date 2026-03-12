@@ -346,6 +346,163 @@ const server = http.createServer((req, res) => {
         return;
       }
 
+
+      // Phase 6: POST /spec/parse — parse a spec sheet file
+      if (req.method === 'POST' && url === '/spec/parse') {
+        const data = JSON.parse(body);
+        if (!data.file) { res.writeHead(400); res.end(JSON.stringify({ error: 'No file path' })); return; }
+
+        const filePath = data.file.startsWith('/') ? data.file : path.join(WORKSPACE, data.file);
+        if (!fs.existsSync(filePath)) {
+          res.writeHead(404); res.end(JSON.stringify({ error: 'File not found: ' + filePath })); return;
+        }
+
+        log('SPEC PARSE: ' + filePath);
+
+        // Load config for auto-queue setting
+        let autoQueue = true;
+        try {
+          const config = JSON.parse(fs.readFileSync(path.join(WORKSPACE, 'config.json'), 'utf8'));
+          if (config.spec_ingestion && config.spec_ingestion.auto_queue_specs === false) autoQueue = false;
+        } catch(e) {}
+
+        const { parseSpecSheet } = require('./spec_parser');
+        parseSpecSheet(filePath, {
+          builder: data.builder || null,
+          address: data.address || null,
+          autoQueue: data.autoQueue !== undefined ? data.autoQueue : autoQueue
+        }).then(result => {
+          // Save to DB
+          try {
+            const db = require('./db');
+            const specId = db.saveSpecSheet({
+              source: data.source || 'API',
+              builder: data.builder || result.summary?.source,
+              address: data.address || result.summary?.property,
+              rawText: null, // Don't store raw text to save space
+              products: result.products,
+              ambiguous: result.ambiguous,
+              summary: result.summary
+            });
+            result.spec_id = specId;
+          } catch(e) {
+            log('DB save error: ' + e.message);
+            result.db_error = e.message;
+          }
+
+          // Send Telegram notification
+          try {
+            const { formatTelegramMessage } = require('./spec_parser');
+            const { sendTelegram } = require('./auto_runner');
+            const msg = formatTelegramMessage(result);
+            sendTelegram(msg);
+          } catch(e) {
+            log('Telegram notify error: ' + e.message);
+          }
+
+          res.writeHead(200);
+          res.end(JSON.stringify(result));
+        }).catch(err => {
+          log('SPEC PARSE ERROR: ' + err.message);
+          res.writeHead(500);
+          res.end(JSON.stringify({ success: false, error: err.message }));
+        });
+        return;
+      }
+
+      // Phase 6: GET /spec/list — list parsed spec sheets
+      if (req.method === 'GET' && url.startsWith('/spec/list')) {
+        try {
+          const db = require('./db');
+          const params = new URL(url, 'http://localhost').searchParams;
+          const limit = parseInt(params.get('limit') || '50');
+          const specs = db.getSpecSheets(limit);
+          const stats = db.getSpecStats();
+          res.writeHead(200);
+          res.end(JSON.stringify({ specs, stats }));
+        } catch(e) {
+          log('SPEC LIST ERROR: ' + e.message);
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
+      // Phase 6: GET /spec/detail?id=... — single spec sheet detail
+      if (req.method === 'GET' && url.startsWith('/spec/detail')) {
+        try {
+          const db = require('./db');
+          const params = new URL(url, 'http://localhost').searchParams;
+          const specId = params.get('id');
+          if (!specId) { res.writeHead(400); res.end(JSON.stringify({ error: 'No id' })); return; }
+          const spec = db.getSpecSheet(specId);
+          if (!spec) { res.writeHead(404); res.end(JSON.stringify({ error: 'Not found' })); return; }
+          res.writeHead(200);
+          res.end(JSON.stringify(spec));
+        } catch(e) {
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
+      // Phase 6: POST /spec/upload — receive file upload (base64) and parse
+      if (req.method === 'POST' && url === '/spec/upload') {
+        const data = JSON.parse(body);
+        if (!data.filename || !data.content) {
+          res.writeHead(400); res.end(JSON.stringify({ error: 'Need filename and content (base64)' })); return;
+        }
+
+        const SPEC_UPLOAD_DIR = path.join(WORKSPACE, 'spec_uploads');
+        if (!fs.existsSync(SPEC_UPLOAD_DIR)) fs.mkdirSync(SPEC_UPLOAD_DIR, { recursive: true });
+
+        const safeName = data.filename.replace(/[^a-zA-Z0-9._-]/g, '_');
+        const savePath = path.join(SPEC_UPLOAD_DIR, `${Date.now()}_${safeName}`);
+        fs.writeFileSync(savePath, Buffer.from(data.content, 'base64'));
+        log('SPEC UPLOAD: ' + savePath);
+
+        // Auto-parse
+        let autoQueue = true;
+        try {
+          const config = JSON.parse(fs.readFileSync(path.join(WORKSPACE, 'config.json'), 'utf8'));
+          if (config.spec_ingestion && config.spec_ingestion.auto_queue_specs === false) autoQueue = false;
+        } catch(e) {}
+
+        const { parseSpecSheet } = require('./spec_parser');
+        parseSpecSheet(savePath, {
+          builder: data.builder || null,
+          address: data.address || null,
+          autoQueue: data.autoQueue !== undefined ? data.autoQueue : autoQueue
+        }).then(result => {
+          try {
+            const db = require('./db');
+            const specId = db.saveSpecSheet({
+              source: 'upload',
+              builder: data.builder || result.summary?.source,
+              address: data.address || result.summary?.property,
+              products: result.products,
+              ambiguous: result.ambiguous,
+              summary: result.summary
+            });
+            result.spec_id = specId;
+          } catch(e) { result.db_error = e.message; }
+
+          try {
+            const { formatTelegramMessage } = require('./spec_parser');
+            const { sendTelegram } = require('./auto_runner');
+            sendTelegram(formatTelegramMessage(result));
+          } catch(e) {}
+
+          res.writeHead(200);
+          res.end(JSON.stringify(result));
+        }).catch(err => {
+          res.writeHead(500);
+          res.end(JSON.stringify({ success: false, error: err.message }));
+        });
+        return;
+      }
+
+
       if (req.method === 'POST' && url === '/write') {
         const data = JSON.parse(body);
         if (!data.path || !data.content) { res.writeHead(400); res.end(JSON.stringify({ error: 'No path or content' })); return; }

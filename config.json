@@ -72,6 +72,16 @@
       "calibrated_products": 6
     }
   },
+  "spec_ingestion": {
+    "auto_queue_specs": true,
+    "supported_formats": ["csv", "pdf", "jpg", "jpeg", "png", "webp", "txt"],
+    "ai_model": "claude-haiku-4-5-20251001",
+    "upload_dir": "spec_uploads/",
+    "notes": {
+      "auto_queue": "When ON (default), new scoreable products from spec sheets auto-queue for pipeline. Toggle via dashboard.",
+      "cost_profile": "CSV: $0 | Text PDF: ~$0.03 | Image-heavy PDF: ~$0.10 | Vision: ~$0.10"
+    }
+  },
   "scoring": {
     "weights": {
       "quality": 0.35,
@@ -98,7 +108,8 @@
     "auto_runner": "auto_runner.js",
     "diagnosis": "diagnose.js",
     "database": "db.js",
-    "migration": "migrate_to_db.js"
+    "migration": "migrate_to_db.js",
+    "spec_parser": "spec_parser.js"
   },
   "build_status": {
     "phase_1": "COMPLETE — git init, mega-file split, baseline committed",
@@ -106,6 +117,6 @@
     "phase_3": "COMPLETE — reconciliation capped at 1 round, council single-call resolution",
     "phase_4": "COMPLETE — diagnose.js, /diagnose endpoint, auto-fix whitelist, updated error flow",
     "phase_5": "COMPLETE — SQLite db.js, migration script, DB endpoints, pipeline DB writes, already-scored check",
-    "phase_6": "PENDING — Builder spec ingestion"
+    "phase_6": "COMPLETE — spec_parser.js, /spec endpoints, SPEC telegram command, dashboard tab, auto-queue"
   }
 }

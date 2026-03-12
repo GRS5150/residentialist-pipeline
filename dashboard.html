@@ -116,6 +116,47 @@
     .col-status { display: none; }
     .col-score { width: 30%; }
   }
+
+  /* Phase 6: Tabs + Spec Sheets */
+  .tab-bar { display: flex; gap: 0; margin-top: 20px; border-bottom: 2px solid var(--rule); }
+  .tab-btn { padding: 10px 20px; font-size: 11px; font-weight: 700; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--ink-faint); cursor: pointer; background: none;
+    border: none; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all .2s; }
+  .tab-btn.active { color: var(--amber); border-bottom-color: var(--amber); }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  .spec-card { background: var(--white); border: 1px solid var(--rule); padding: 16px; margin-bottom: 10px; }
+  .spec-card:hover { border-color: var(--amber); }
+  .spec-header { display: flex; justify-content: space-between; align-items: flex-start; }
+  .spec-title { font-weight: 600; font-size: 14px; }
+  .spec-address { font-size: 12px; color: var(--ink-mid); margin-top: 2px; }
+  .spec-stats { display: flex; gap: 16px; margin-top: 10px; flex-wrap: wrap; }
+  .spec-stat { font-size: 11px; color: var(--ink-faint); }
+  .spec-stat strong { color: var(--ink); }
+  .spec-products { margin-top: 10px; }
+  .spec-product-row { display: flex; justify-content: space-between; align-items: center;
+    padding: 6px 0; border-top: 1px solid var(--rule); font-size: 12px; }
+  .spec-product-name { font-weight: 500; }
+  .spec-product-score { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .spec-toggle { font-size: 11px; color: var(--amber); cursor: pointer; margin-top: 6px; border: none; background: none; font-weight: 600; }
+  .spec-toggle:hover { text-decoration: underline; }
+
+  .toggle-row { display: flex; align-items: center; gap: 8px; margin-bottom: 16px;
+    background: var(--white); border: 1px solid var(--rule); padding: 12px 16px; }
+  .toggle-label { font-size: 12px; font-weight: 600; flex: 1; }
+  .toggle-switch { position: relative; width: 40px; height: 22px; cursor: pointer; }
+  .toggle-switch input { opacity: 0; width: 0; height: 0; }
+  .toggle-slider { position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: #ccc; border-radius: 22px; transition: .3s; }
+  .toggle-slider:before { content: ''; position: absolute; height: 16px; width: 16px;
+    left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: .3s; }
+  .toggle-switch input:checked + .toggle-slider { background: var(--amber); }
+  .toggle-switch input:checked + .toggle-slider:before { transform: translateX(18px); }
+
+  .spec-empty { text-align: center; padding: 40px 20px; color: var(--ink-faint); }
+  .spec-empty-title { font-size: 16px; font-weight: 600; margin-bottom: 8px; color: var(--ink-mid); }
 </style>
 </head>
 <body>
@@ -129,6 +170,15 @@
 </header>
 
 <div class="container">
+
+  <!-- Tab navigation -->
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab('pipeline')">Pipeline</button>
+    <button class="tab-btn" onclick="switchTab('specs')">Spec Sheets</button>
+  </div>
+
+  <!-- Tab 1: Pipeline -->
+  <div id="tab-pipeline" class="tab-panel active">
 
   <!-- Pipeline summary bar -->
   <div class="section-label" style="margin-top:20px">Pipeline</div>
@@ -176,6 +226,35 @@
       <tr><td colspan="4" class="loading">Loading...</td></tr>
     </tbody>
   </table>
+
+  </div><!-- /tab-pipeline -->
+
+  <!-- Tab 2: Spec Sheets -->
+  <div id="tab-specs" class="tab-panel">
+    <div class="section-label" style="margin-top:20px">Auto-Queue</div>
+    <div class="toggle-row">
+      <div class="toggle-label">Auto-queue new products from spec sheets</div>
+      <label class="toggle-switch">
+        <input type="checkbox" id="auto-queue-toggle" checked onchange="toggleAutoQueue(this.checked)">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+
+    <div class="section-label">Parsed Spec Sheets</div>
+    <div id="spec-list">
+      <div class="loading">Loading spec sheets...</div>
+    </div>
+
+    <div class="section-label">Stats</div>
+    <div class="pipeline-bar">
+      <div class="pipeline-stats">
+        <div class="stat"><div class="stat-num" id="spec-stat-total">—</div><div class="stat-label">Sheets</div></div>
+        <div class="stat"><div class="stat-num" id="spec-stat-products">—</div><div class="stat-label">Products</div></div>
+        <div class="stat"><div class="stat-num" id="spec-stat-scored">—</div><div class="stat-label">Scored</div></div>
+      </div>
+      <button class="refresh-btn" onclick="loadSpecs()">↻ Refresh</button>
+    </div>
+  </div><!-- /tab-specs -->
 
 </div>
 
@@ -355,6 +434,147 @@ async function loadData() {
       `<div class="error-msg">Could not reach bridge: ${e.message}</div>`;
     document.getElementById('eval-tbody').innerHTML =
       '<tr><td colspan="4" class="loading">—</td></tr>';
+  }
+}
+
+
+// ── Phase 6: Tab Switching ───────────────────────────────────────────────────
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  event.target.classList.add('active');
+  if (tab === 'specs') loadSpecs();
+}
+
+// ── Phase 6: Spec Sheet Functions ────────────────────────────────────────────
+
+async function loadSpecs() {
+  const container = document.getElementById('spec-list');
+  container.innerHTML = '<div class="loading">Loading...</div>';
+
+  try {
+    const res = await fetch(BRIDGE + '/spec/list', {
+      headers: { 'x-api-key': API_KEY }
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+
+    // Update stats
+    document.getElementById('spec-stat-total').textContent = data.stats?.total || 0;
+    document.getElementById('spec-stat-products').textContent = data.stats?.totalProducts || 0;
+
+    // Count scored products across all specs
+    let scoredCount = 0;
+    if (data.specs) {
+      for (const spec of data.specs) {
+        const products = spec.extracted_products || [];
+        scoredCount += products.filter(p => p.db_status === 'scored').length;
+      }
+    }
+    document.getElementById('spec-stat-scored').textContent = scoredCount;
+
+    if (!data.specs || data.specs.length === 0) {
+      container.innerHTML = `
+        <div class="spec-empty">
+          <div class="spec-empty-title">No spec sheets yet</div>
+          <div>Upload a PDF or CSV via Telegram, or use the SPEC command.<br>
+          Henry will extract products and auto-queue them for scoring.</div>
+        </div>`;
+      return;
+    }
+
+    let html = '';
+    data.specs.forEach((spec, idx) => {
+      const products = spec.extracted_products || [];
+      const scored = products.filter(p => p.db_status === 'scored');
+      const queued = products.filter(p => p.db_status === 'queued');
+      const newP = products.filter(p => p.db_status === 'new');
+      const other = products.filter(p => p.db_status === 'not_scoreable');
+
+      html += `
+        <div class="spec-card">
+          <div class="spec-header">
+            <div>
+              <div class="spec-title">${spec.builder_name || spec.source || 'Unknown Source'}</div>
+              ${spec.property_address ? `<div class="spec-address">📍 ${spec.property_address}</div>` : ''}
+            </div>
+            <span class="status-badge ${spec.status === 'Parsed' ? 'badge-pass' : 'badge-unknown'}">${spec.status || 'Unknown'}</span>
+          </div>
+          <div class="spec-stats">
+            <div class="spec-stat"><strong>${products.length}</strong> products</div>
+            ${scored.length > 0 ? `<div class="spec-stat" style="color:var(--green)"><strong>${scored.length}</strong> scored</div>` : ''}
+            ${queued.length > 0 ? `<div class="spec-stat" style="color:var(--amber)"><strong>${queued.length}</strong> queued</div>` : ''}
+            ${newP.length > 0 ? `<div class="spec-stat"><strong>${newP.length}</strong> new</div>` : ''}
+            ${other.length > 0 ? `<div class="spec-stat"><strong>${other.length}</strong> other</div>` : ''}
+            <div class="spec-stat" style="margin-left:auto">
+              ${spec.created_at ? new Date(spec.created_at).toLocaleDateString() : ''}
+            </div>
+          </div>
+          <div class="spec-products" id="spec-products-${idx}" style="display:none">
+            ${products.map(p => `
+              <div class="spec-product-row">
+                <div>
+                  <span class="spec-product-name">${p.pipeline_name || p.brand || '?'}</span>
+                  ${p.configuration ? `<span style="color:var(--ink-faint);font-size:11px"> ${p.configuration}</span>` : ''}
+                  <span style="color:var(--ink-faint);font-size:11px"> · ${p.category}</span>
+                </div>
+                <div>
+                  ${p.db_status === 'scored'
+                    ? `<span class="spec-product-score" style="color:${gradeColor(p.existing_score)}">${p.existing_score?.toFixed(2) || '—'} ${p.existing_grade || ''}</span>`
+                    : p.db_status === 'queued'
+                    ? '<span class="status-badge badge-running">Queued</span>'
+                    : p.db_status === 'new'
+                    ? '<span class="status-badge badge-unknown">New</span>'
+                    : '<span style="font-size:11px;color:var(--ink-faint)">—</span>'
+                  }
+                </div>
+              </div>
+            `).join('')}
+          </div>
+          ${products.length > 0 ? `<button class="spec-toggle" onclick="toggleSpecProducts(${idx})">Show products ▼</button>` : ''}
+        </div>`;
+    });
+
+    container.innerHTML = html;
+  } catch(e) {
+    container.innerHTML = `<div class="error-msg">Could not load spec sheets: ${e.message}</div>`;
+  }
+}
+
+function toggleSpecProducts(idx) {
+  const el = document.getElementById('spec-products-' + idx);
+  const btn = el.previousElementSibling || el.parentElement.querySelector('.spec-toggle');
+  if (el.style.display === 'none') {
+    el.style.display = 'block';
+    // Find the toggle button
+    el.parentElement.querySelector('.spec-toggle').textContent = 'Hide products ▲';
+  } else {
+    el.style.display = 'none';
+    el.parentElement.querySelector('.spec-toggle').textContent = 'Show products ▼';
+  }
+}
+
+async function toggleAutoQueue(checked) {
+  try {
+    // Read current config, update, write back
+    const res = await fetch(BRIDGE + '/file?path=config.json', {
+      headers: { 'x-api-key': API_KEY }
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    const config = JSON.parse(data.content);
+    if (!config.spec_ingestion) config.spec_ingestion = {};
+    config.spec_ingestion.auto_queue_specs = checked;
+
+    await fetch(BRIDGE + '/write', {
+      method: 'POST',
+      headers: { 'x-api-key': API_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ path: 'config.json', content: JSON.stringify(config, null, 2) })
+    });
+  } catch(e) {
+    console.error('Toggle auto-queue failed:', e);
   }
 }
 

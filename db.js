@@ -278,6 +278,113 @@ function getStats() {
   return { products, scores, runs, avgScore: avgScore ? Math.round(avgScore * 100) / 100 : null };
 }
 
+// ── Phase 6: Spec Sheet Helpers ──────────────────────────────────────────────
+
+/**
+ * Save a parsed spec sheet record.
+ */
+function saveSpecSheet({
+  specId, source = 'upload', builder = null, address = null, city = null,
+  rawText = null, products = [], ambiguous = [], summary = null,
+  aiCost = null
+}) {
+  const db = getDb();
+  const id = specId || `spec_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+
+  const existing = db.prepare('SELECT id FROM spec_sheets WHERE spec_id = ?').get(id);
+  if (existing) {
+    // Update existing
+    db.prepare(`
+      UPDATE spec_sheets SET
+        source = ?, builder_name = ?, property_address = ?, property_city = ?,
+        raw_text = ?, extracted_products = ?, extraction_summary = ?,
+        categories_found = ?, items_needing_review = ?,
+        status = 'Parsed', updated_at = datetime('now')
+      WHERE spec_id = ?
+    `).run(
+      source, builder, address, city,
+      rawText, JSON.stringify(products), JSON.stringify(summary),
+      (products || []).filter(p => p.scoreable).length,
+      (ambiguous || []).length,
+      id
+    );
+    return id;
+  }
+
+  db.prepare(`
+    INSERT INTO spec_sheets (spec_id, source, builder_name, property_address, property_city,
+      raw_text, extracted_products, extraction_summary, categories_found, items_needing_review,
+      status)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Parsed')
+  `).run(
+    id, source, builder, address, city,
+    rawText, JSON.stringify(products), JSON.stringify(summary),
+    (products || []).filter(p => p.scoreable).length,
+    (ambiguous || []).length
+  );
+
+  return id;
+}
+
+/**
+ * Get all spec sheets, most recent first.
+ */
+function getSpecSheets(limit = 50) {
+  const db = getDb();
+  return db.prepare(`
+    SELECT spec_id, source, builder_name, property_address, property_city,
+           extracted_products, extraction_summary, categories_found,
+           items_needing_review, status, created_at, updated_at
+    FROM spec_sheets
+    ORDER BY created_at DESC
+    LIMIT ?
+  `).all(limit).map(row => ({
+    ...row,
+    extracted_products: row.extracted_products ? JSON.parse(row.extracted_products) : [],
+    extraction_summary: row.extraction_summary ? JSON.parse(row.extraction_summary) : null
+  }));
+}
+
+/**
+ * Get a single spec sheet by ID.
+ */
+function getSpecSheet(specId) {
+  const db = getDb();
+  const row = db.prepare('SELECT * FROM spec_sheets WHERE spec_id = ?').get(specId);
+  if (!row) return null;
+  return {
+    ...row,
+    extracted_products: row.extracted_products ? JSON.parse(row.extracted_products) : [],
+    extraction_summary: row.extraction_summary ? JSON.parse(row.extraction_summary) : null,
+    edited_products: row.edited_products ? JSON.parse(row.edited_products) : null
+  };
+}
+
+/**
+ * Update spec sheet status after review.
+ */
+function updateSpecSheetStatus(specId, status, notes = null) {
+  const db = getDb();
+  db.prepare(`
+    UPDATE spec_sheets SET status = ?, review_notes = ?, updated_at = datetime('now')
+    WHERE spec_id = ?
+  `).run(status, notes, specId);
+}
+
+/**
+ * Get spec sheet stats.
+ */
+function getSpecStats() {
+  const db = getDb();
+  const total = db.prepare('SELECT COUNT(*) as n FROM spec_sheets').get().n;
+  const parsed = db.prepare("SELECT COUNT(*) as n FROM spec_sheets WHERE status = 'Parsed'").get().n;
+  const reviewed = db.prepare("SELECT COUNT(*) as n FROM spec_sheets WHERE status = 'Reviewed'").get().n;
+  const totalProducts = db.prepare(`
+    SELECT SUM(categories_found) as n FROM spec_sheets
+  `).get().n || 0;
+  return { total, parsed, reviewed, totalProducts };
+}
+
 function close() {
   if (_db) { _db.close(); _db = null; }
 }
@@ -285,5 +392,7 @@ function close() {
 module.exports = {
   getDb, isScored, getScore, saveScore, saveFindings, saveRun,
   getAllScores, getScoreHistory, getRunHistory, getStats,
-  getOrCreateProduct, close
+  getOrCreateProduct, close,
+  // Phase 6: Spec sheet helpers
+  saveSpecSheet, getSpecSheets, getSpecSheet, updateSpecSheetStatus, getSpecStats
 };
