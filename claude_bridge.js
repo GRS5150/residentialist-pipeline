@@ -161,7 +161,16 @@ const server = http.createServer((req, res) => {
     if (req.method === 'GET' && (url === '/dashboard' || url === '/')) {
       res.setHeader('Content-Type', 'text/html');
       res.writeHead(200);
-      res.end("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>The Residentialist \u2014 Mission Control</title>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  :root {\n    --amber: #B8722A;\n    --ink: #1a1a1a;\n    --ink-mid: #555;\n    --ink-faint: #999;\n    --rule: #e0dbd4;\n    --bg: #f5f3ef;\n    --white: #ffffff;\n    --green: #2d6a4f;\n    --red: #9b2226;\n    --yellow-bg: #fef3c7;\n    --yellow-border: #d97706;\n  }\n  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n    background: var(--bg); color: var(--ink); min-height: 100vh; }\n\n  header { background: var(--ink); color: var(--white); padding: 14px 20px;\n    display: flex; align-items: center; justify-content: space-between; }\n  .logo { font-size: 11px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }\n  .logo span { color: var(--amber); }\n  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #6b7280; display: inline-block; margin-right: 6px; }\n  .status-dot.live { background: #10b981; animation: pulse 2s infinite; }\n  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }\n  .header-status { font-size: 11px; color: #9ca3af; display: flex; align-items: center; gap: 4px; }\n\n  .container { max-width: 900px; margin: 0 auto; padding: 20px 16px; }\n\n  .section-label { font-size: 10px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;\n    color: var(--amber); margin-bottom: 12px; margin-top: 28px; }\n\n  /* Score table */\n  .score-table { width: 100%; border-collapse: collapse; background: var(--white);\n    border: 1px solid var(--rule); }\n  .score-table th { font-size: 9px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase;\n    color: var(--ink-faint); padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--rule);\n    background: #faf9f7; }\n  .score-table td { padding: 12px 12px; font-size: 13px; border-bottom: 1px solid var(--rule); vertical-align: middle; }\n  .score-table tr:last-child td { border-bottom: none; }\n  .score-table tr.clickable { cursor: pointer; }\n  .score-table tr.clickable:hover td { background: #faf9f7; }\n  .score-table tr.expanded td { background: #fdf8f2; }\n\n  .product-name { font-weight: 600; font-size: 14px; }\n  .product-meta { font-size: 11px; color: var(--ink-faint); margin-top: 2px; }\n\n  .score-num { font-size: 22px; font-weight: 300; font-variant-numeric: tabular-nums; line-height: 1; }\n  .score-grade { font-size: 10px; font-weight: 700; color: var(--ink-faint); margin-top: 3px; letter-spacing: .05em; }\n  .score-col { text-align: right; }\n\n  .status-badge { display: inline-block; padding: 3px 8px; border-radius: 3px; font-size: 10px;\n    font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }\n  .badge-pass { background: #d1fae5; color: #065f46; }\n  .badge-halted { background: #fee2e2; color: #991b1b; }\n  .badge-unknown { background: #f3f4f6; color: #6b7280; }\n  .badge-running { background: #fef3c7; color: #92400e; }\n  .badge-cal { background: #e0d9f0; color: #4c1d95; }\n\n  /* Drill-down panel */\n  .drill-row td { padding: 0 !important; }\n  .drill-panel { padding: 16px 20px 20px; border-top: 2px solid var(--amber); background: #fdf8f2; }\n  .drill-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 12px; }\n  @media (max-width: 560px) { .drill-grid { grid-template-columns: 1fr; } }\n\n  .axis-card { background: var(--white); border: 1px solid var(--rule); padding: 14px; }\n  .axis-label { font-size: 9px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase;\n    color: var(--ink-faint); margin-bottom: 8px; }\n  .axis-score { font-size: 28px; font-weight: 300; line-height: 1; }\n  .axis-grade { font-size: 10px; color: var(--ink-faint); margin-top: 2px; font-weight: 700; }\n  .axis-weight { font-size: 10px; color: var(--ink-faint); margin-bottom: 6px; }\n  .axis-bar-track { height: 4px; background: var(--rule); border-radius: 2px; margin-top: 10px; }\n  .axis-bar-fill { height: 4px; border-radius: 2px; transition: width .4s ease; }\n\n  .drill-meta { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 4px; }\n  .drill-meta-item { font-size: 11px; color: var(--ink-mid); }\n  .drill-meta-item strong { color: var(--ink); }\n\n  .chevron { font-size: 10px; color: var(--ink-faint); transition: transform .2s; display: inline-block; }\n  .chevron.open { transform: rotate(180deg); }\n\n  .refresh-btn { background: var(--amber); color: var(--white); border: none; padding: 8px 16px;\n    font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;\n    cursor: pointer; border-radius: 3px; }\n  .refresh-btn:hover { background: #9a5e22; }\n\n  .pipeline-bar { background: var(--white); border: 1px solid var(--rule); padding: 14px 16px;\n    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }\n  .pipeline-stats { display: flex; gap: 20px; }\n  .stat { text-align: center; }\n  .stat-num { font-size: 24px; font-weight: 300; line-height: 1; }\n  .stat-label { font-size: 9px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase;\n    color: var(--ink-faint); margin-top: 2px; }\n\n  .error-msg { color: var(--red); font-size: 12px; padding: 12px; background: #fff5f5;\n    border: 1px solid #fed7d7; }\n  .loading { color: var(--ink-faint); font-size: 12px; padding: 20px; text-align: center; }\n\n  .col-product { width: 45%; }\n  .col-status  { width: 20%; }\n  .col-score   { width: 20%; }\n  .col-chevron { width: 5%; text-align: center; }\n\n  .timestamp { font-size: 10px; color: var(--ink-faint); }\n\n  /* Mobile tweaks */\n  @media (max-width: 600px) {\n    .score-num { font-size: 18px; }\n    .col-product { width: 50%; }\n    .col-status { display: none; }\n    .col-score { width: 30%; }\n  }\n</style>\n</head>\n<body>\n\n<header>\n  <div class=\"logo\">The <span>Residentialist</span> \u00b7 Mission Control</div>\n  <div class=\"header-status\">\n    <span class=\"status-dot\" id=\"conn-dot\"></span>\n    <span id=\"conn-label\">connecting...</span>\n  </div>\n</header>\n\n<div class=\"container\">\n\n  <!-- Pipeline summary bar -->\n  <div class=\"section-label\" style=\"margin-top:20px\">Pipeline</div>\n  <div class=\"pipeline-bar\">\n    <div class=\"pipeline-stats\">\n      <div class=\"stat\"><div class=\"stat-num\" id=\"stat-complete\">\u2014</div><div class=\"stat-label\">Complete</div></div>\n      <div class=\"stat\"><div class=\"stat-num\" id=\"stat-halted\" style=\"color:#ef4444\">\u2014</div><div class=\"stat-label\">Halted</div></div>\n      <div class=\"stat\"><div class=\"stat-num\" id=\"stat-cal\">\u2014</div><div class=\"stat-label\">Calibrated</div></div>\n    </div>\n    <div style=\"display:flex;align-items:center;gap:12px\">\n      <div class=\"timestamp\" id=\"last-updated\"></div>\n      <button class=\"refresh-btn\" onclick=\"loadData()\">\u21bb Refresh</button>\n    </div>\n  </div>\n\n  <!-- Calibration benchmarks -->\n  <div class=\"section-label\">Calibration Benchmarks</div>\n  <table class=\"score-table\">\n    <thead>\n      <tr>\n        <th class=\"col-product\">Product</th>\n        <th class=\"col-status\">Tier</th>\n        <th class=\"col-score\">Score</th>\n        <th class=\"col-chevron\"></th>\n      </tr>\n    </thead>\n    <tbody id=\"cal-tbody\">\n      <tr><td colspan=\"4\" class=\"loading\">Loading...</td></tr>\n    </tbody>\n  </table>\n\n  <!-- Evaluations -->\n  <div class=\"section-label\">Evaluations</div>\n  <div id=\"error-msg\"></div>\n  <table class=\"score-table\">\n    <thead>\n      <tr>\n        <th class=\"col-product\">Product</th>\n        <th class=\"col-status\">Status</th>\n        <th class=\"col-score\">Score</th>\n        <th class=\"col-chevron\"></th>\n      </tr>\n    </thead>\n    <tbody id=\"eval-tbody\">\n      <tr><td colspan=\"4\" class=\"loading\">Loading...</td></tr>\n    </tbody>\n  </table>\n\n</div>\n\n<script>\nconst BRIDGE = '';  // served from bridge, use relative URLs\nconst API_KEY = 'residentialist-bridge-2026';\nlet expandedRow = null;\n\nfunction gradeColor(score) {\n  if (!score) return '#9ca3af';\n  if (score >= 8.0) return '#10b981';\n  if (score >= 7.0) return '#3b82f6';\n  if (score >= 6.0) return '#f59e0b';\n  if (score >= 5.0) return '#ef8c34';\n  return '#ef4444';\n}\n\nfunction barColor(score) {\n  if (!score) return '#e5e7eb';\n  if (score >= 8.0) return '#10b981';\n  if (score >= 7.0) return '#3b82f6';\n  if (score >= 6.0) return '#f59e0b';\n  return '#ef4444';\n}\n\nfunction tierLabel(overall) {\n  if (!overall) return '\u2014';\n  if (overall >= 8.5) return 'High Performance';\n  if (overall >= 7.0) return 'Architectural';\n  if (overall >= 5.5) return 'Premium Residential';\n  if (overall >= 4.0) return 'Mid-Range';\n  return 'Budget';\n}\n\nfunction drillHTML(item, isCalibration) {\n  const Q = item.Q, D = item.D, P = item.P;\n  const hasSubs = Q !== null && D !== null && P !== null;\n  const axes = [\n    { label: 'Quality',     weight: '35%', score: Q },\n    { label: 'Durability',  weight: '35%', score: D },\n    { label: 'Performance', weight: '30%', score: P },\n  ];\n  return `\n    <div class=\"drill-panel\">\n      <div class=\"drill-meta\">\n        ${item.overall ? `<div class=\"drill-meta-item\">Overall: <strong>${item.overall.toFixed(2)} / 10</strong></div>` : ''}\n        ${item.tier || item.overall ? `<div class=\"drill-meta-item\">Tier: <strong>${item.tier || tierLabel(item.overall)}</strong></div>` : ''}\n        ${item.ts ? `<div class=\"drill-meta-item\">Scored: <strong>${item.ts.slice(0,10)}</strong></div>` : ''}\n      </div>\n      ${hasSubs ? `\n      <div class=\"drill-grid\">\n        ${axes.map(a => `\n          <div class=\"axis-card\">\n            <div class=\"axis-label\">${a.label}</div>\n            <div class=\"axis-weight\">${a.weight} of overall</div>\n            <div class=\"axis-score\" style=\"color:${gradeColor(a.score)}\">${a.score ? a.score.toFixed(2) : '\u2014'}</div>\n            <div class=\"axis-bar-track\">\n              <div class=\"axis-bar-fill\" style=\"width:${a.score ? (a.score/10*100) : 0}%;background:${barColor(a.score)}\"></div>\n            </div>\n          </div>`).join('')}\n      </div>` : `<div style=\"font-size:12px;color:var(--ink-faint);margin-top:12px\">Axis scores not yet available for this product.</div>`}\n    </div>`;\n}\n\nfunction renderCalibration(data) {\n  const tbody = document.getElementById('cal-tbody');\n  if (!data || data.length === 0) { tbody.innerHTML = '<tr><td colspan=\"4\" class=\"loading\">No calibration data</td></tr>'; return; }\n\n  let html = '';\n  data.forEach((item, idx) => {\n    const rowId = 'cal-' + idx;\n    html += `\n      <tr class=\"clickable ${expandedRow === rowId ? 'expanded' : ''}\" onclick=\"toggleRow('${rowId}', this)\">\n        <td><div class=\"product-name\">${item.product}</div><div class=\"product-meta\">${item.config} \u00b7 Calibration Benchmark</div></td>\n        <td><span class=\"status-badge badge-cal\">${tierLabel(item.overall)}</span></td>\n        <td class=\"score-col\">\n          <div class=\"score-num\" style=\"color:${gradeColor(item.overall)}\">${item.overall ? item.overall.toFixed(2) : '\u2014'}</div>\n          <div class=\"score-grade\">${item.grade || '\u2014'}</div>\n        </td>\n        <td class=\"col-chevron\"><span class=\"chevron ${expandedRow === rowId ? 'open' : ''}\">\u25bc</span></td>\n      </tr>`;\n    if (expandedRow === rowId) {\n      html += `<tr class=\"drill-row\" id=\"drill-${rowId}\"><td colspan=\"4\">${drillHTML(item, true)}</td></tr>`;\n    }\n  });\n  tbody.innerHTML = html;\n}\n\nfunction statusBadge(state) {\n  if (!state) return '<span class=\"status-badge badge-unknown\">Unknown</span>';\n  const s = state.toUpperCase();\n  if (s.includes('PASS')) return '<span class=\"status-badge badge-pass\">Pass</span>';\n  if (s.includes('HALT')) return '<span class=\"status-badge badge-halted\">Halted</span>';\n  if (s.includes('RUNNING') || s.includes('PROCESS')) return '<span class=\"status-badge badge-running\">Running</span>';\n  return `<span class=\"status-badge badge-unknown\">${state.slice(0,12)}</span>`;\n}\n\nfunction renderEvaluations(evals) {\n  const tbody = document.getElementById('eval-tbody');\n  if (!evals || evals.length === 0) { tbody.innerHTML = '<tr><td colspan=\"4\" class=\"loading\">No evaluations found</td></tr>'; return; }\n\n  // Deduplicate \u2014 keep most recent run per product\n  const seen = new Map();\n  for (const e of evals) {\n    const key = e.product.toLowerCase().replace(/\\s+/g, '_');\n    if (!seen.has(key) || e.ts > seen.get(key).ts) seen.set(key, e);\n  }\n  const unique = Array.from(seen.values()).sort((a,b) => (b.overall||0) - (a.overall||0));\n\n  let pass = 0, halted = 0;\n  let html = '';\n  unique.forEach((item, idx) => {\n    const rowId = 'eval-' + idx;\n    const state = (item.state||'').toUpperCase();\n    if (state.includes('PASS')) pass++;\n    if (state.includes('HALT')) halted++;\n    html += `\n      <tr class=\"clickable ${expandedRow === rowId ? 'expanded' : ''}\" onclick=\"toggleRow('${rowId}', this)\">\n        <td><div class=\"product-name\">${item.product}</div><div class=\"product-meta\">${item.config} \u00b7 ${item.ts ? item.ts.slice(0,10) : ''}</div></td>\n        <td>${statusBadge(item.state)}</td>\n        <td class=\"score-col\">\n          <div class=\"score-num\" style=\"color:${gradeColor(item.overall)}\">${item.overall ? item.overall.toFixed(2) : '\u2014'}</div>\n          <div class=\"score-grade\">${item.grade || (item.overall ? '' : '\u2014')}</div>\n        </td>\n        <td class=\"col-chevron\"><span class=\"chevron ${expandedRow === rowId ? 'open' : ''}\">\u25bc</span></td>\n      </tr>`;\n    if (expandedRow === rowId) {\n      html += `<tr class=\"drill-row\" id=\"drill-${rowId}\"><td colspan=\"4\">${drillHTML(item, false)}</td></tr>`;\n    }\n  });\n\n  tbody.innerHTML = html;\n  document.getElementById('stat-complete').textContent = pass;\n  document.getElementById('stat-halted').textContent = halted;\n}\n\nfunction toggleRow(rowId, clickedTr) {\n  if (expandedRow === rowId) {\n    expandedRow = null;\n  } else {\n    expandedRow = rowId;\n  }\n  // Re-render both tables to reflect new state\n  if (window._lastData) {\n    renderCalibration(window._lastData.calibration);\n    renderEvaluations(window._lastData.evaluations);\n  }\n}\n\nasync function loadData() {\n  const dot = document.getElementById('conn-dot');\n  const label = document.getElementById('conn-label');\n  dot.className = 'status-dot';\n  label.textContent = 'loading...';\n  document.getElementById('error-msg').textContent = '';\n\n  try {\n    const res = await fetch(BRIDGE + '/pipeline', {\n      headers: { 'x-api-key': API_KEY }\n    });\n    if (!res.ok) throw new Error('HTTP ' + res.status);\n    const data = await res.json();\n    window._lastData = data;\n\n    dot.className = 'status-dot live';\n    label.textContent = 'live';\n    document.getElementById('last-updated').textContent =\n      'Updated ' + new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});\n    document.getElementById('stat-cal').textContent = data.calibration ? data.calibration.length : 0;\n\n    renderCalibration(data.calibration || []);\n    renderEvaluations(data.evaluations || []);\n  } catch(e) {\n    dot.className = 'status-dot';\n    label.textContent = 'offline';\n    document.getElementById('error-msg').innerHTML =\n      `<div class=\"error-msg\">Could not reach bridge: ${e.message}</div>`;\n    document.getElementById('eval-tbody').innerHTML =\n      '<tr><td colspan=\"4\" class=\"loading\">\u2014</td></tr>';\n  }\n}\n\nloadData();\n</script>\n</body>\n</html>\n");
+      try {
+        const dashPath = path.join(WORKSPACE, 'dashboard.html');
+        if (fs.existsSync(dashPath)) {
+          res.end(fs.readFileSync(dashPath, 'utf8'));
+        } else {
+          res.end('<html><body><h1>Dashboard not found</h1><p>Place dashboard.html in workspace.</p></body></html>');
+        }
+      } catch(e) {
+        res.end('<html><body><h1>Dashboard error</h1><p>' + e.message + '</p></body></html>');
+      }
       return;
     }
 
@@ -193,7 +202,8 @@ const server = http.createServer((req, res) => {
           deploy: '/Users/Residentialist/deploy.log',
           bridge: '/Users/Residentialist/bridge.log',
           telegram: '/Users/Residentialist/telegram.log',
-          cron: '/Users/Residentialist/deploy_cron.log'
+          cron: '/Users/Residentialist/deploy_cron.log',
+          diagnose: path.join(WORKSPACE, 'diagnose.log')
         };
         const logPath = logMap[file] || logMap.deploy;
         const tail = runCommand('tail -100 ' + logPath);
@@ -240,6 +250,102 @@ const server = http.createServer((req, res) => {
         return;
       }
 
+      // Phase 4: POST /diagnose — error diagnosis endpoint
+      if (req.method === 'POST' && url === '/diagnose') {
+        const data = JSON.parse(body);
+        log('DIAGNOSE: ' + (data.context || 'no context'));
+        const { diagnose, executeAutoFix } = require('./diagnose');
+        diagnose({
+          error: data.error || '',
+          context: data.context || '',
+          attempt: data.attempt || 0,
+          product: data.product || '',
+          step: data.step || ''
+        }).then(async (result) => {
+          log('DIAGNOSIS: ' + result.action + ' — ' + result.reason);
+          if (result.autoFixed) {
+            await executeAutoFix(result, {
+              product: data.product,
+              config: data.config,
+              category: data.category
+            });
+          }
+          res.writeHead(200);
+          res.end(JSON.stringify(result));
+        }).catch(err => {
+          log('DIAGNOSE ERROR: ' + err.message);
+          res.writeHead(500);
+          res.end(JSON.stringify({ action: 'ESCALATE', reason: 'Diagnosis failed: ' + err.message, autoFixed: false }));
+        });
+        return;
+      }
+
+
+      // Phase 5: GET /db/scores — all products with latest scores
+      if (req.method === 'GET' && url === '/db/scores') {
+        try {
+          const db = require('./db');
+          const scores = db.getAllScores();
+          res.writeHead(200);
+          res.end(JSON.stringify({ scores, stats: db.getStats() }));
+        } catch(e) {
+          log('DB ERROR: ' + e.message);
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
+      // Phase 5: GET /db/product?name=...&config=DH — single product detail
+      if (req.method === 'GET' && url.startsWith('/db/product')) {
+        try {
+          const db = require('./db');
+          const params = new URL(url, 'http://localhost').searchParams;
+          const name = params.get('name');
+          const config = params.get('config') || 'DH';
+          if (!name) { res.writeHead(400); res.end(JSON.stringify({ error: 'No name' })); return; }
+          const score = db.getScore(name, config);
+          const history = db.getScoreHistory(name, config);
+          const runs = db.getRunHistory(name, config);
+          res.writeHead(200);
+          res.end(JSON.stringify({ score, history, runs }));
+        } catch(e) {
+          log('DB ERROR: ' + e.message);
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
+      // Phase 5: GET /db/stats — database summary
+      if (req.method === 'GET' && url === '/db/stats') {
+        try {
+          const db = require('./db');
+          res.writeHead(200);
+          res.end(JSON.stringify(db.getStats()));
+        } catch(e) {
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
+      // Phase 5: GET /db/check?name=...&config=DH — is product already scored?
+      if (req.method === 'GET' && url.startsWith('/db/check')) {
+        try {
+          const db = require('./db');
+          const params = new URL(url, 'http://localhost').searchParams;
+          const name = params.get('name');
+          const config = params.get('config') || 'DH';
+          res.writeHead(200);
+          res.end(JSON.stringify({ name, config, scored: db.isScored(name, config) }));
+        } catch(e) {
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
       if (req.method === 'POST' && url === '/write') {
         const data = JSON.parse(body);
         if (!data.path || !data.content) { res.writeHead(400); res.end(JSON.stringify({ error: 'No path or content' })); return; }
@@ -262,6 +368,16 @@ const server = http.createServer((req, res) => {
         return;
       }
 
+
+      // Phase 4: POST /restart — graceful restart (watchdog will revive)
+      if (req.method === 'POST' && url === '/restart') {
+        log('RESTART requested — exiting for watchdog restart');
+        res.writeHead(200);
+        res.end(JSON.stringify({ restarting: true, message: 'Bridge will restart in ~5 seconds via watchdog' }));
+        setTimeout(() => process.exit(0), 500);
+        return;
+      }
+
       res.writeHead(404);
       res.end(JSON.stringify({ error: 'Not found' }));
 
@@ -278,3 +394,4 @@ server.listen(PORT, '0.0.0.0', () => {
 });
 
 process.on('uncaughtException', err => log('UNCAUGHT: ' + err.message));
+

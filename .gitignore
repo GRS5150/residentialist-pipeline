@@ -12,3 +12,8 @@ RESUME_SIGNAL
 mission-control/
 systemd/
 RESIDENTIALIST_SKILL.md
+
+# SQLite database
+residentialist.db
+residentialist.db-shm
+residentialist.db-wal

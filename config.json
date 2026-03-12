@@ -13,6 +13,12 @@
       "api_key": "residentialist-bridge-2026",
       "port": 7823
     },
+    "database": {
+      "type": "SQLite",
+      "path": "residentialist.db",
+      "module": "db.js",
+      "migration": "migrate_to_db.js"
+    },
     "github": {
       "repo": "https://github.com/GRS5150/residentialist-pipeline",
       "note": "Token stored in .env only — never commit to repo"
@@ -30,9 +36,11 @@
     "bot5_reconciliation": "claude-sonnet-4-20250514",
     "bot6_report": "none — pure template assembly, no API calls",
     "council": "claude-sonnet-4-20250514",
+    "diagnosis": "claude-haiku-4-5-20251001",
     "notes": {
       "reconciliation": "Capped at 1 debate round (was 3). Max 4 Sonnet calls per product. Phase 3.",
-      "council": "Single structured resolution call (was 3-member vote + synthesis). Max 2 Sonnet calls. Phase 3."
+      "council": "Single structured resolution call (was 3-member vote + synthesis). Max 2 Sonnet calls. Phase 3.",
+      "diagnosis": "Haiku for fast, cheap error triage. Hard rules bypass Claude entirely for known patterns. Phase 4."
     }
   },
   "categories": {
@@ -80,20 +88,24 @@
   "file_map": {
     "orchestrator": "bot_orchestrator_v3.js",
     "bridge": "claude_bridge.js",
+    "dashboard": "dashboard.html",
     "bot6_report": "bot6_report_assembly_v2.js",
     "validator": "deterministic_validator.js",
     "challenge": "challenge_bot_v2.js",
     "reconciliation": "reconciliation_bot.js",
     "council": "council.js",
     "telegram": "telegram_listener.js",
-    "auto_runner": "auto_runner.js"
+    "auto_runner": "auto_runner.js",
+    "diagnosis": "diagnose.js",
+    "database": "db.js",
+    "migration": "migrate_to_db.js"
   },
   "build_status": {
     "phase_1": "COMPLETE — git init, mega-file split, baseline committed",
     "phase_2": "COMPLETE — v3 orchestrator, JSON output, validator + bot6 updated",
     "phase_3": "COMPLETE — reconciliation capped at 1 round, council single-call resolution",
-    "phase_4": "PENDING — Henry ↔ Claude communication",
-    "phase_5": "PENDING — Product database (SQLite)",
+    "phase_4": "COMPLETE — diagnose.js, /diagnose endpoint, auto-fix whitelist, updated error flow",
+    "phase_5": "COMPLETE — SQLite db.js, migration script, DB endpoints, pipeline DB writes, already-scored check",
     "phase_6": "PENDING — Builder spec ingestion"
   }
 }

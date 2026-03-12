@@ -1,21 +1,23 @@
 /**
- * THE RESIDENTIALIST — auto_runner.js (v3-compatible)
+ * THE RESIDENTIALIST — auto_runner.js (v3 + Phase 4 diagnosis + Phase 5 DB)
  * Queue & Batch Runner with self-correction loop.
  *
- * v3 changes:
- *   - Requires bot_orchestrator_v3 (JSON structured output)
- *   - Reads scores/grades from bot2Parsed JSON instead of regex extraction
- *   - generateDataConfidence reads structured challenge output when available
- *   - Falls back to regex extraction if bot2Parsed is missing (backward safety)
+ * v3: JSON structured output from orchestrator
+ * Phase 4: Auto-diagnosis before alerting Ray
+ * Phase 5: Write scores to SQLite DB after each successful run
+ *          Check "already scored?" before starting pipeline
  */
 
 const { runPipeline } = require('./bot_orchestrator_v3');
 const { selfCorrect } = require('./self_corrector');
+const { diagnose, executeAutoFix, diagLog } = require('./diagnose');
+const db = require('./db');
 const https = require('https');
 require('dotenv').config({path: '/Users/Residentialist/.openclaw/workspace/residentialist/.env'});
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const MAX_ATTEMPTS = 2;
+const MAX_ERROR_RETRIES = 3;
 
 function sendTelegram(message) {
   return new Promise((resolve) => {
@@ -30,37 +32,51 @@ function sendTelegram(message) {
 }
 
 // ── SCORE EXTRACTION ─────────────────────────────────────────────────────────
-// Primary: read from bot2Parsed JSON (v3 orchestrator)
-// Fallback: regex on raw markdown (backward compat with v2 results)
 
 function extractScore(result) {
-  // v3 path: structured JSON from bot2Parsed
   if (result.bot2Parsed && result.bot2Parsed.overall_score != null) {
     return String(result.bot2Parsed.overall_score);
   }
-  // Fallback: regex on raw bot2Output
   const o = result.bot2Output || '';
   const m = o.match(/[Oo]verall[:\s*]*(\d+\.\d+)/) || o.match(/(\d+\.\d+)\s*\/\s*10/);
   return m ? m[1] : '?';
 }
 
 function extractGrade(result) {
-  // v3 path: structured JSON from bot2Parsed
   if (result.bot2Parsed && result.bot2Parsed.grade) {
     return result.bot2Parsed.grade;
   }
-  // Fallback: regex on raw bot2Output
   const o = result.bot2Output || '';
   const m = o.match(/[Gg]rade[:\s*]*([A-C][+-]?)/) || o.match(/\b([A-C][+-])\b/);
   return m ? m[1] : '';
 }
 
 function extractOutlook(result) {
-  // v3 only: outlook from bot2Parsed
   if (result.bot2Parsed && result.bot2Parsed.outlook) {
     return result.bot2Parsed.outlook;
   }
   return '';
+}
+
+function extractAxisScores(result) {
+  if (result.bot2Parsed) {
+    return {
+      quality: result.bot2Parsed.quality_score || null,
+      durability: result.bot2Parsed.durability_score || null,
+      performance: result.bot2Parsed.performance_score || null
+    };
+  }
+  // Fallback: try weighted calc line from raw output
+  const o = result.bot2Output || '';
+  const calcLine = o.split('\n').find(l => l.includes('\u00d7') && l.includes('\u2192'));
+  if (calcLine) {
+    const re = /\(([0-9.]+)\s*\u00d7/g;
+    const nums = [];
+    let m;
+    while ((m = re.exec(calcLine)) !== null) nums.push(parseFloat(m[1]));
+    if (nums.length >= 3) return { quality: nums[0], durability: nums[1], performance: nums[2] };
+  }
+  return { quality: null, durability: null, performance: null };
 }
 
 function summarizeFlags(o) {
@@ -80,31 +96,111 @@ function generateDataConfidence(bot2Output, challengeOutput) {
   } else {
     section += `All scored specifications confirmed from manufacturer documentation, independent databases, or Council-approved memos.\n`;
   }
-  return section;
+  return { section, confidence, undisclosedCount };
 }
 
 // ── MAIN RUNNER ──────────────────────────────────────────────────────────────
 
 async function runWithAutoCorrection(productName, config, category, researchFiles = []) {
   console.log(`\n[AUTO-RUNNER] Starting: ${productName} (${config})`);
+
+  // Phase 5: Check if already scored
+  if (db.isScored(productName, config)) {
+    const existing = db.getScore(productName, config);
+    console.log(`[AUTO-RUNNER] Already scored: ${productName} (${config}) — ${existing.overall} ${existing.grade}`);
+    await sendTelegram(`ℹ️ *${productName} (${config})* already scored: *${existing.overall}/10 ${existing.grade}*\n_Use RERUN to re-score._`);
+    return { status: 'ALREADY_SCORED', productName, config, existing };
+  }
+
   await sendTelegram(`🔄 *Pipeline starting*\n${productName} — ${config}`);
+  const startTime = Date.now();
   let attempt = 0;
+  let errorRetries = 0;
+
   while (attempt <= MAX_ATTEMPTS) {
     attempt++;
     let result;
     try { result = await runPipeline(productName, config, researchFiles); }
-    catch (err) { await sendTelegram(`❌ *Pipeline error — ${productName}*\n${err.message.slice(0,300)}`); throw err; }
+    catch (err) {
+      // Phase 4: Diagnose before alerting Ray
+      diagLog(`Pipeline error for ${productName}: ${err.message}`);
+      const diag = await diagnose({
+        error: err.message + '\n' + (err.stack || ''),
+        context: `Pipeline execution for ${productName} (${config})`,
+        attempt: errorRetries,
+        product: productName,
+        step: 'pipeline'
+      });
+
+      if (diag.autoFixed && diag.action === 'RETRY' && errorRetries < MAX_ERROR_RETRIES) {
+        errorRetries++;
+        await executeAutoFix(diag, { product: productName, config, category });
+        diagLog(`Auto-retry ${errorRetries}/${MAX_ERROR_RETRIES} for ${productName}`);
+        attempt--;
+        continue;
+      }
+
+      if (diag.autoFixed && diag.action === 'RESTART_PIPELINE' && errorRetries < MAX_ERROR_RETRIES) {
+        errorRetries++;
+        await executeAutoFix(diag, { product: productName, config, category });
+        diagLog(`Auto-restart pipeline for ${productName}`);
+        attempt = 0;
+        continue;
+      }
+
+      // Record failed run in DB
+      const duration = Math.round((Date.now() - startTime) / 1000);
+      db.saveRun({
+        product: productName, config, status: 'ERROR',
+        attempts: attempt, errorCount: errorRetries + 1,
+        durationSeconds: duration, notes: `Error: ${err.message.slice(0, 200)}`
+      });
+
+      await sendTelegram(`❌ *Pipeline error — ${productName}*\n${diag.reason}\n\n_${err.message.slice(0,200)}_`);
+      throw err;
+    }
+
+    errorRetries = 0;
 
     if (result.status === 'PASS') {
       const score = extractScore(result);
       const grade = extractGrade(result);
       const outlook = extractOutlook(result);
+      const axis = extractAxisScores(result);
       const note = attempt > 1 ? `\n_(self-corrected after ${attempt-1} attempt${attempt>2?'s':''})_` : '';
 
-      // Append data confidence section to PIPELINE_STATUS.txt
+      // Generate and append data confidence
+      const { section, confidence, undisclosedCount } = generateDataConfidence(
+        result.bot2Output || '', result.challengeResult || ''
+      );
       if (result.outputDir && result.bot2Output) {
         const fs = require('fs');
-        fs.appendFileSync(`${result.outputDir}/PIPELINE_STATUS.txt`, generateDataConfidence(result.bot2Output, result.challengeResult || ''));
+        fs.appendFileSync(`${result.outputDir}/PIPELINE_STATUS.txt`, section);
+      }
+
+      // Phase 5: Save to database
+      const duration = Math.round((Date.now() - startTime) / 1000);
+      const overall = parseFloat(score);
+      try {
+        db.saveScore({
+          product: productName, config, category,
+          overall: isNaN(overall) ? null : overall,
+          grade, outlook,
+          quality: axis.quality, durability: axis.durability, performance: axis.performance,
+          dataConfidence: confidence, undisclosedCount,
+          source: 'pipeline',
+          runDir: result.outputDir ? require('path').basename(result.outputDir) : null,
+          notes: attempt > 1 ? `Self-corrected after ${attempt-1} attempt(s)` : null
+        });
+        db.saveRun({
+          product: productName, config,
+          runDir: result.outputDir ? require('path').basename(result.outputDir) : null,
+          status: 'PASS', attempts: attempt, errorCount: 0,
+          selfCorrected: attempt > 1, durationSeconds: duration
+        });
+        console.log(`[AUTO-RUNNER] Score saved to DB: ${productName} ${score} ${grade}`);
+      } catch (dbErr) {
+        console.error(`[AUTO-RUNNER] DB write failed (non-fatal): ${dbErr.message}`);
       }
 
       const outlookStr = outlook ? `  Outlook: *${outlook}*` : '';
@@ -116,11 +212,24 @@ async function runWithAutoCorrection(productName, config, category, researchFile
       await sendTelegram(`⚠️ *FLAG — ${productName}*\nAttempt ${attempt}/${MAX_ATTEMPTS} — self-correcting...\n${summarizeFlags(result.challengeResult||'').slice(0,200)}`);
       const correction = await selfCorrect(productName, config, category, result.bot1Output||'', result.bot2Output||'', result.challengeResult||'');
       if (correction.action === 'escalate') {
+        const duration = Math.round((Date.now() - startTime) / 1000);
+        db.saveRun({
+          product: productName, config, status: 'ESCALATED',
+          attempts: attempt, durationSeconds: duration,
+          notes: `Escalated: ${correction.reason.slice(0, 200)}`
+        });
         await sendTelegram(`🚨 *ESCALATION — ${productName}*\n\n${correction.reason.slice(0,600)}\n\n_Open Claude and review. Pipeline halted._`);
         return { status: 'ESCALATED', productName, config, reason: correction.reason };
       }
     }
   }
+
+  const duration = Math.round((Date.now() - startTime) / 1000);
+  db.saveRun({
+    product: productName, config, status: 'ESCALATED',
+    attempts: MAX_ATTEMPTS, durationSeconds: duration,
+    notes: 'Max attempts reached'
+  });
   await sendTelegram(`🚨 *ESCALATION — ${productName}*\nFailed after ${MAX_ATTEMPTS} attempts. Human review required.`);
   return { status: 'ESCALATED', productName, config };
 }
@@ -131,16 +240,15 @@ if (require.main === module) {
   const args = process.argv.slice(2);
   if (args.length < 3) { console.log('Usage: node auto_runner.js "Product Name" CONFIG category'); process.exit(1); }
   runWithAutoCorrection(args[0], args[1], args[2], args.slice(3))
-    .then(r => process.exit(r.status === 'PASS' ? 0 : 1))
+    .then(r => { db.close(); process.exit(r.status === 'PASS' ? 0 : 1); })
     .catch(err => {
       console.error('[AUTO-RUNNER] FATAL:', err);
-      // Write crash log so errors are visible even when stdio is ignored
       const fs = require('fs');
       try {
         fs.writeFileSync('/tmp/auto_runner_crash.log',
           `[${new Date().toISOString()}] FATAL: ${err.message}\n${err.stack}\n`);
       } catch(e) {}
-      // Also try to send via Telegram
+      db.close();
       sendTelegram(`❌ *FATAL CRASH*\n${args[0]}\n${err.message.slice(0,300)}`).finally(() => process.exit(1));
     });
 }
