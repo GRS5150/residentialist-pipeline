@@ -1,0 +1,78 @@
+{
+  "product": "Ply Gem Pro Series",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "1.0",
+  "created": "2026-03-13",
+  "last_verified": "2026-03-13",
+  "refresh_after_days": 90,
+  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "manufacturing_quality": {
+    "business_model": "manufacturer_own_factory",
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-PGP-001",
+        "description": "Class action lawsuits in 2024-2025 for defective moisture intrusion protection across multiple product lines",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "Court filings, class action documentation",
+        "note": "RED \u2014 active litigation with multiple plaintiffs documenting systematic defects"
+      },
+      {
+        "id": "MQ-PGP-002",
+        "description": "Consumer complaints of seal failures, fogged IGUs, and frame warping within 5 years of installation",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "Consumer complaint patterns (multiple independent reports)",
+        "note": "YELLOW \u2014 pattern of complaints but individual consumer reports, not systematic testing"
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-PGP-001",
+        "name": "Contractor assessment",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Described as 'on par or better with most other manufacturers Professional windows' and 'balanced value/quality.' Mixed \u2014 adequate but not exceptional.",
+        "price_bias": false
+      }
+    ],
+    "_note": "Single Pool B source with mixed sentiment. Limited professional evaluation data available."
+  },
+  "component_quality": {
+    "quality_tier": "standard",
+    "_note": "Multi-chamber vinyl construction. Standard Intercept spacer system (aluminum-based). Argon gas fill, standard low-E glass."
+  },
+  "repairability": {
+    "igu_replacement_method": "glass_swap",
+    "_note": "Parts through Ply Gem dealer network. 10-year parts warranty, 2-year hardware coverage."
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 6.5,
+      "note": "Energy Star certified. NFRC rated but specific DH U-Factor not found in search."
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": "NO_EVIDENCE",
+      "score": 5.0,
+      "note": "No AAMA performance class documented. Class action concerns about moisture intrusion suggest potential structural weaknesses."
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 8.0,
+      "note": "Score from bot2 analysis. May need verification \u2014 unusually high for this product class."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "product": "Loewen",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "1.0",
+  "created": "2026-03-13",
+  "last_verified": "2026-03-13",
+  "refresh_after_days": 90,
+  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "manufacturing_quality": {
+    "business_model": "manufacturer_own_factory",
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-LOE-001",
+        "description": "14-day primer window creates installation constraint \u2014 wood must be primed within 14 days of delivery or warranty voided",
+        "classification": "DELIVERY",
+        "evidence_level": "YELLOW",
+        "source": "Manufacturer documentation, installer reports",
+        "note": "This is an installation constraint, not a manufacturing defect. Indicates high QC expectations but field sensitivity."
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-LOE-001",
+        "name": "GBA building science community",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "Strong endorsements for Zone 5 performance. GBA architect reports 0.03 cfm/ft\u00b2 airtightness achievement with blower door test success.",
+        "price_bias": false
+      }
+    ],
+    "_note": "Limited to one Pool A source. No Jay Johnson/TheWindowDog evaluation found. Score reflects positive specialist consensus but limited breadth."
+  },
+  "component_quality": {
+    "quality_tier": "premium",
+    "_note": "Coastal Douglas Fir core, AAMA 2605 Kynar 500 PVDF paint system, mortise and tenon joinery, Cardinal Glass with stainless steel spacers, dual weatherstripping."
+  },
+  "repairability": {
+    "igu_replacement_method": "glass_swap",
+    "_note": "Cardinal Glass IGUs with 20-year warranty. Dealer network across North America. Transferable warranty."
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": "PROFESSIONAL_CONSENSUS",
+      "score": 5.5,
+      "note": "No published NFRC U-Factor for DH configuration specifically. GBA professional sources indicate strong thermal performance in Zone 5 applications. Score above midpoint based on professional endorsement."
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": "NO_EVIDENCE",
+      "score": 5.0,
+      "note": "No AAMA performance class documented specifically for DH configuration. Mortise and tenon construction suggests solid structural integrity but no test data."
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": "PROFESSIONAL_CONSENSUS",
+      "score": 5.0,
+      "note": "GBA architect reports 0.03 cfm/ft\u00b2 but this is whole-house blower door, not window-specific testing. Score at midpoint."
+    }
+  }
+}

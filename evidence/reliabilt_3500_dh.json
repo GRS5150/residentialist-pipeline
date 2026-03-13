@@ -1,0 +1,86 @@
+{
+  "product": "Reliabilt 3500",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "1.0",
+  "created": "2026-03-13",
+  "last_verified": "2026-03-13",
+  "refresh_after_days": 90,
+  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "manufacturing_quality": {
+    "business_model": "manufacturer_own_factory",
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-RB-001",
+        "description": "Professional installer reports quality control failures: windows don't function properly, sashes don't fit, constant cutting of welds required",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "Professional installer testimony (multiple independent reports)",
+        "note": "RED \u2014 professional (not consumer) reports of systematic QC failures"
+      },
+      {
+        "id": "MQ-RB-002",
+        "description": "Consumer reports of frames not being square, difficulty operating sashes, seal failures",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "Consumer complaint patterns",
+        "note": "YELLOW \u2014 consumer complaints corroborate professional assessment"
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-RB-001",
+        "name": "Professional installer community",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "Multiple professionals describe product as 'crap' and 'not a product that a quality oriented contractor would offer.' Strong negative consensus.",
+        "price_bias": false
+      },
+      {
+        "id": "PC-RB-002",
+        "name": "Reddit/forum community",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Consumer and DIY community reports echo professional concerns about quality. Some price-bias present but core complaints are about function, not value.",
+        "price_bias": true
+      }
+    ],
+    "_note": "Strong negative consensus across both professional and consumer pools. Price-bias flagged on Pool C but substantive complaints align with professional assessment."
+  },
+  "component_quality": {
+    "quality_tier": "standard",
+    "_note": "Base vinyl with aluminum sash reinforcement and welded construction. Spacer type undisclosed. Standard classification."
+  },
+  "repairability": {
+    "igu_replacement_method": "sash_replacement",
+    "_note": "Parts availability limited \u2014 must contact manufacturer directly, no third-party suppliers. Warranty identification required for parts ordering."
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 6.0,
+      "note": "Energy Star certified. Basic vinyl replacement window. Score reflects certification but no evidence of above-average thermal performance."
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": "NO_EVIDENCE",
+      "score": 5.0,
+      "note": "No AAMA performance class. Professional complaints about frames not being square and sashes not fitting suggest structural adequacy concerns."
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.0,
+      "note": "Energy Star certified minimum. No additional evidence of air/water performance."
+    }
+  }
+}

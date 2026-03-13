@@ -1,0 +1,71 @@
+{
+  "product": "Marvin Signature Ultimate",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "1.0",
+  "created": "2026-03-13",
+  "last_verified": "2026-03-13",
+  "refresh_after_days": 90,
+  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "manufacturing_quality": {
+    "business_model": "manufacturer_own_factory",
+    "certifications": [
+      "NFRC",
+      "AAMA_GOLD",
+      "ENERGY_STAR"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-MSU-001",
+        "description": "Past Integrity product line had wood rot issues leading to recall/replacement program (pre-Ultimate rebranding)",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "Consumer complaint history, Marvin replacement program documentation",
+        "note": "Historical issue from Integrity line. Marvin addressed with design changes in Ultimate rebrand. YELLOW not RED because it's historical and remediated."
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-MSU-001",
+        "name": "GBA contributor",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "Positive assessment of casement performance, noted installation concerns. Professional endorsement with qualifications.",
+        "price_bias": false
+      }
+    ],
+    "_note": "Single Pool A source with positive sentiment. No Jay Johnson/TheWindowDog evaluation found for Signature Ultimate specifically."
+  },
+  "component_quality": {
+    "quality_tier": "premium",
+    "_note": "Extruded aluminum cladding with AAMA 2605 coating, Cardinal glass with stainless steel V-shaped spacer (dual seal), wood interior. Documented premium components."
+  },
+  "repairability": {
+    "igu_replacement_method": "glass_swap",
+    "_note": "Established manufacturer with long parts availability history. IGU replacement via glass swap through dealer network."
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 6.5,
+      "note": "NFRC certified and Energy Star qualified. Triple-pane availability confirmed. No specific DH U-Factor published but certification indicates above-minimum thermal performance."
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 7.5,
+      "note": "AAMA Gold Label certification confirms product passed all performance tests including structural. Strong structural reputation from professional sources."
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.0,
+      "note": "AAMA certified but no specific air infiltration value published for DH configuration. Score at midpoint."
+    }
+  }
+}

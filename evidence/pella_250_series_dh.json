@@ -1,0 +1,52 @@
+{
+  "product": "Pella 250 Series",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "1.0",
+  "created": "2026-03-13",
+  "last_verified": "2026-03-13",
+  "refresh_after_days": 90,
+  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "manufacturing_quality": {
+    "business_model": "manufacturer_own_factory",
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR"
+    ],
+    "complaints": []
+  },
+  "professional_consensus": {
+    "sources": [],
+    "_note": "No professional reviews found from any pool. TheWindowDog, Jay Johnson, GBA, FHB, JLC \u2014 no specific 250 Series DH evaluations found. LOW_CONFIDENCE flag should be applied."
+  },
+  "component_quality": {
+    "quality_tier": "standard",
+    "_note": "Standard vinyl frame construction with multi-chamber design. Warm-edge spacer documented but specific type undisclosed. Compression seal system basic."
+  },
+  "repairability": {
+    "igu_replacement_method": "glass_swap",
+    "_note": "Pella maintains 200+ showrooms across North America. Standard IGU replacement through dealer network."
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 7.0,
+      "note": "NFRC certified, Energy Star qualified across multiple climate zones. Score reflects strong certification coverage for a vinyl product."
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": "NO_EVIDENCE",
+      "score": 5.0,
+      "note": "No AAMA performance class or structural test data published for 250 Series DH."
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.0,
+      "note": "Energy Star certified. No specific air infiltration value published."
+    }
+  }
+}

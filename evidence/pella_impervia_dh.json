@@ -1,0 +1,70 @@
+{
+  "product": "Pella Impervia",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "1.0",
+  "created": "2026-03-13",
+  "last_verified": "2026-03-13",
+  "refresh_after_days": 90,
+  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "manufacturing_quality": {
+    "business_model": "manufacturer_own_factory",
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-PI-001",
+        "description": "Industry sources cite 'somewhat flimsy frame' and 'less-than-stellar design' with construction concerns",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "Multiple industry professional assessments",
+        "note": "YELLOW \u2014 multiple sources but opinions not backed by specific structural test failures"
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-PI-001",
+        "name": "Industry professionals (multiple)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Mixed reviews \u2014 good fiberglass concept execution but 'somewhat flimsy frame' concerns. AAMA 624 powder-coat finish meets requirements but not exceptional.",
+        "price_bias": false
+      }
+    ],
+    "_note": "Pool B professional sources with mixed sentiment. No Pool A (GBA/FHB/JLC/BSC) sources found specifically for Impervia DH."
+  },
+  "component_quality": {
+    "quality_tier": "standard",
+    "_note": "Duracast fiberglass composite \u2014 proprietary material lacks published composition detail. Cam-action lock hardware documented. Standard classification per binary rule."
+  },
+  "repairability": {
+    "igu_replacement_method": "glass_swap",
+    "_note": "Pella nationwide dealer network. Standard IGU replacement. 20-year glass warranty documented."
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 6.0,
+      "note": "NFRC certified, Energy Star qualified. Fiberglass frames have inherently lower conductivity than vinyl/aluminum. Score slightly above midpoint."
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": "NO_EVIDENCE",
+      "score": 5.5,
+      "note": "No AAMA performance class published. Industry concerns about frame rigidity noted but no test data to confirm or deny."
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.0,
+      "note": "Energy Star certified indicates minimum air infiltration standards met. No specific published value."
+    }
+  }
+}
