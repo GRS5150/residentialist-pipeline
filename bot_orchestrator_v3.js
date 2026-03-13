@@ -238,6 +238,7 @@ function loadKnowledgeFiles() {
     const entries = fs.readdirSync(KNOWLEDGE_BASE_DIR);
     for (const entry of entries) {
       const fullPath = path.join(KNOWLEDGE_BASE_DIR, entry);
+      if (!fs.statSync(fullPath).isFile()) continue;
       files[entry] = fs.readFileSync(fullPath, 'utf8');
     }
     console.log(`[ORCHESTRATOR] Loaded ${Object.keys(files).length} knowledge file(s): ${Object.keys(files).join(', ')}`);
