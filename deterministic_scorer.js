@@ -59,12 +59,12 @@ const GLAZING_BEAD_SCORES = {
   unknown: 5,
 };
 
-// Quality tier for the 40% judgment portion — 4 tiers, fixed midpoint scores
+// Quality tier for the 40% judgment portion — Binary system to eliminate
+// classification ambiguity. If you can't prove it's premium, it's standard.
+// The 60% deterministic component scores already capture granularity.
 const QUALITY_TIER_SCORES = {
-  premium: 9.5,        // Premium hardware, no QC issues, professional praise
-  standard_plus: 7.5,  // Solid hardware, minor issues
-  standard: 5.5,       // Industry-standard, some cost optimization
-  below_standard: 3.5, // Documented cheap components or QC patterns
+  premium: 8.5,  // Documented premium hardware, professional praise, no QC issues
+  standard: 5.0, // Everything else — industry-standard, cost-optimized, or undisclosed
 };
 
 function scoreComponentQuality(data) {
@@ -80,13 +80,14 @@ function scoreComponentQuality(data) {
   // Component weights from rubric (equal weight among 5 components)
   const deterministicScore = (spacer + balance + wsAttach + wsCoverage + glazingBead) / 5;
 
-  // 40% — Quality tier classification
-  const tier = (data.quality_tier || 'standard').toLowerCase().replace(/[\s-]+/g, '_');
-  const tierScore = QUALITY_TIER_SCORES[tier];
-  if (tierScore === undefined) {
-    report.warning = `Unknown quality_tier "${data.quality_tier}" — defaulting to standard (5.5)`;
+  // 40% — Quality tier classification (binary: premium or standard)
+  const rawTier = (data.quality_tier || 'standard').toLowerCase().replace(/[\s-]+/g, '_');
+  // Map any non-premium value to standard (eliminates old standard_plus/below_standard ambiguity)
+  const tier = rawTier === 'premium' ? 'premium' : 'standard';
+  const judgmentScore = QUALITY_TIER_SCORES[tier];
+  if (rawTier !== 'premium' && rawTier !== 'standard') {
+    report.warning = `Mapped quality_tier "${data.quality_tier}" to standard (binary system)`;
   }
-  const judgmentScore = tierScore !== undefined ? tierScore : QUALITY_TIER_SCORES.standard;
 
   report.components = {
     spacer: { value: data.spacer_system, score: spacer },
@@ -303,80 +304,131 @@ function scoreRepairability(data) {
   return report;
 }
 
-// ─── PROFESSIONAL CONSENSUS (1C) — Source-Weighted Formula ───────────────────
+// ─── PROFESSIONAL CONSENSUS (1C) — Pool-Based Source System ──────────────────
+// Sources are classified into pools by Bot 2. The scorer picks the highest
+// available pool, applies that pool's ceiling, and computes a weighted score.
+// No blending between pools — clean fallback chain.
+//
+// Pool S: True testing authorities (e.g., StarCraft Custom for faucets). Ceiling 9.0.
+//         Reserved for categories that have them. Empty for windows.
+// Pool A: Expert forums — GBA, Fine Homebuilding, JLC, BSC. Ceiling 7.5.
+// Pool B: Verified trade pros — Jay Johnson, curated Reddit pros, contractor forums. Ceiling 6.5.
+// Pool C: General field feedback — unverified Reddit, homeowner forums, consumer reviews. Ceiling 5.5.
+//         Sources with price_bias flag get 50% weight reduction.
 
-const TIER_WEIGHTS = { 1: 1.0, 2: 0.7, 3: 0.4 };
+const POOL_CEILINGS = { S: 9.0, A: 7.5, B: 6.5, C: 5.5 };
+const POOL_PRIORITY = ['S', 'A', 'B', 'C'];
 const SENTIMENT_VALUES = { positive: 1, mixed: 0, negative: -1 };
 
 function scoreProfessionalConsensus(data) {
-  const report = { subscore: 'professional_consensus', method: 'source_weighted_formula' };
+  const report = { subscore: 'professional_consensus', method: 'pool_based_source_system' };
 
   const sources = data.sources || [];
   if (sources.length === 0) {
     report.score = 5.0;
     report.note = 'No sources found — midpoint default';
+    report.confidence_flag = 'LOW_CONFIDENCE';
+    report.confidence_message = 'Insufficient professional sources — score is a placeholder, not a verdict';
     report.sources_processed = 0;
     return report;
   }
 
+  // Group sources by pool
+  const poolGroups = { S: [], A: [], B: [], C: [] };
+  for (const src of sources) {
+    const pool = (src.pool || 'C').toUpperCase();
+    if (poolGroups[pool]) {
+      poolGroups[pool].push(src);
+    } else {
+      poolGroups.C.push(src); // Unknown pool defaults to C
+    }
+  }
+
+  // Find the highest available pool (no blending)
+  let activePool = null;
+  let activeSources = [];
+  for (const pool of POOL_PRIORITY) {
+    if (poolGroups[pool].length > 0) {
+      activePool = pool;
+      activeSources = poolGroups[pool];
+      break;
+    }
+  }
+
+  const ceiling = POOL_CEILINGS[activePool] || 5.5;
+  report.active_pool = activePool;
+  report.pool_ceiling = ceiling;
+  report.pool_counts = {
+    S: poolGroups.S.length,
+    A: poolGroups.A.length,
+    B: poolGroups.B.length,
+    C: poolGroups.C.length,
+  };
+
+  // Compute weighted sentiment from active pool sources
   let weightedSum = 0;
   let weightedCount = 0;
   const sourceDetails = [];
 
-  for (const src of sources) {
-    const tier = src.tier || 3;
-    const tierWeight = TIER_WEIGHTS[tier] || 0.4;
+  for (const src of activeSources) {
     const sentiment = (src.sentiment || 'mixed').toLowerCase();
     const sentimentValue = SENTIMENT_VALUES[sentiment] !== undefined ? SENTIMENT_VALUES[sentiment] : 0;
 
-    weightedSum += tierWeight * sentimentValue;
-    weightedCount += tierWeight;
+    // Price-bias filter: Pool C sources with price_bias flag get 50% weight
+    let weight = 1.0;
+    if (activePool === 'C' && src.price_bias) {
+      weight = 0.5;
+    }
+
+    weightedSum += weight * sentimentValue;
+    weightedCount += weight;
 
     sourceDetails.push({
       name: src.name,
-      tier,
+      pool: activePool,
       sentiment,
-      tier_weight: tierWeight,
       sentiment_value: sentimentValue,
-      contribution: tierWeight * sentimentValue,
+      weight,
+      price_bias: src.price_bias || false,
+      contribution: weight * sentimentValue,
     });
   }
 
   const consensusRatio = weightedCount > 0 ? weightedSum / weightedCount : 0;
 
-  // Confidence multiplier: dampens the effect when source count is low.
-  // With 1 source, a single sentiment classification flip shouldn't swing 2.5 points.
-  // 1 source: 0.3x effect (max ±0.75 from midpoint)
-  // 2 sources: 0.5x effect (max ±1.25)
-  // 3 sources: 0.7x effect (max ±1.75)
+  // Confidence multiplier: dampens effect when source count is low.
+  // 1 source: 0.3x (max ±0.75 from midpoint)
+  // 2 sources: 0.5x (max ±1.25)
+  // 3 sources: 0.7x (max ±1.75)
   // 4+ sources: 1.0x (full effect, max ±2.5)
-  const confidenceMultiplier = sources.length >= 4 ? 1.0 :
-                               sources.length === 3 ? 0.7 :
-                               sources.length === 2 ? 0.5 : 0.3;
-  let base = 5.0 + (consensusRatio * 2.5 * confidenceMultiplier);
+  const sourceCount = activeSources.length;
+  const confidenceMultiplier = sourceCount >= 4 ? 1.0 :
+                               sourceCount === 3 ? 0.7 :
+                               sourceCount === 2 ? 0.5 : 0.3;
 
-  // Field source bonus
-  let fieldBonus = 0;
-  const fieldQualified = data.field_sources_qualified || 0;
-  const fieldSentiment = (data.field_sentiment || '').toLowerCase();
-  if (fieldQualified >= 3 && fieldSentiment === 'positive') {
-    fieldBonus = 0.5;
+  // Base: midpoint + sentiment-driven swing (dampened by confidence)
+  const base = 5.0 + (consensusRatio * 2.5 * confidenceMultiplier);
+
+  // Apply pool ceiling
+  const raw = Math.min(base, ceiling);
+
+  // Confidence flag
+  if (sourceCount <= 1) {
+    report.confidence_flag = 'LOW_CONFIDENCE';
+    report.confidence_message = 'Insufficient professional sources — score has limited reliability';
+  } else if (sourceCount <= 2) {
+    report.confidence_flag = 'MODERATE_CONFIDENCE';
+    report.confidence_message = 'Limited professional sources — directional only';
+  } else {
+    report.confidence_flag = 'ADEQUATE';
   }
 
-  let raw = base + fieldBonus;
-
-  // Ceiling: 7.5 unless 6+ qualified sources push higher
-  if (sources.length < 6) {
-    raw = Math.min(raw, 7.5);
-  }
-
-  report.sources_processed = sources.length;
+  report.sources_processed = sourceCount;
   report.source_details = sourceDetails;
   report.consensus_ratio = Math.round(consensusRatio * 1000) / 1000;
   report.confidence_multiplier = confidenceMultiplier;
-  report.base = Math.round(base * 100) / 100;
-  report.field_bonus = fieldBonus;
-  report.ceiling_applied = raw < (base + fieldBonus);
+  report.base_before_ceiling = Math.round(base * 100) / 100;
+  report.ceiling_applied = base > ceiling;
   report.score = Math.round(Math.max(1.0, Math.min(10.0, raw)) * 100) / 100;
   return report;
 }
