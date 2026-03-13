@@ -502,7 +502,7 @@ async function runBot(botName, systemPrompt, userMessage, model, useWebSearch) {
     const response = await client.messages.create({
       model: model || 'claude-sonnet-4-20250514',
       max_tokens: 16000,
-      system: systemPrompt,
+      system: [{ type: 'text', text: systemPrompt, cache_control: { type: 'ephemeral' } }],
       messages: [{ role: 'user', content: userMessage }]
     });
     const output = response.content.filter(b => b.type === "text").map(b => b.text).join("\n");
@@ -524,7 +524,7 @@ async function runBot(botName, systemPrompt, userMessage, model, useWebSearch) {
     const stream = client.messages.stream({
       model: model || 'claude-sonnet-4-20250514',
       max_tokens: 16000,
-      system: systemPrompt,
+      system: [{ type: 'text', text: systemPrompt, cache_control: { type: 'ephemeral' } }],
       messages: messages,
       tools: [WEB_SEARCH_TOOL]
     });

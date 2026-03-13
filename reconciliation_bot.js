@@ -116,27 +116,27 @@ ${bot2Output.slice(0, 5000)}`;
 
   // Bot 1 perspective
   const bot1Response = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 1200,
-    system: BOT1_ADVOCATE_PROMPT,
+    system: [{ type: 'text', text: BOT1_ADVOCATE_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{ role: 'user', content: `${context}\n\nPresent your case for each disagreement item now.` }]
   });
   const bot1Argument = bot1Response.content[0].text;
 
   // Bot 2 perspective — sees Bot 1's argument
   const bot2Response = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 1200,
-    system: BOT2_ADVOCATE_PROMPT,
+    system: [{ type: 'text', text: BOT2_ADVOCATE_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{ role: 'user', content: `${context}\n\nBot 1 has made the following arguments:\n\n${bot1Argument}\n\nRespond to each point now.` }]
   });
   const bot2Argument = bot2Response.content[0].text;
 
   // Synthesis
   const synthResponse = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 1000,
-    system: SYNTHESIS_PROMPT,
+    system: [{ type: 'text', text: SYNTHESIS_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{
       role: 'user',
       content: `${context}\n\nDEBATE:\n\nBot 1 argued:\n${bot1Argument}\n\nBot 2 responded:\n${bot2Argument}\n\nSynthesize now.`
@@ -159,9 +159,9 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
 
   // Step 1: Detect disagreements
   const detectorResponse = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 1500,
-    system: DISAGREEMENT_DETECTOR_PROMPT,
+    system: [{ type: 'text', text: DISAGREEMENT_DETECTOR_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{
       role: 'user',
       content: `PRODUCT: ${productName}\n\nBOT 1 OUTPUT:\n${bot1Output.slice(0, 6000)}\n\nBOT 2 OUTPUT:\n${bot2Output.slice(0, 6000)}\n\nAssess now.`
