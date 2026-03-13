@@ -695,15 +695,24 @@ CRITICAL RULES:
     This replaces the non_disclosure_flags field. The transparency report is about informing the reader, not penalizing the manufacturer.
 
 DETERMINISTIC SCORING REFORM — CRITICAL:
-For 4 subscores (1B, 1C, 2B, 2C), you output CLASSIFICATION DATA, not final numeric scores.
+For 5 subscores (1A, 1B, 1C, 2B, 2C), you output CLASSIFICATION DATA, not final numeric scores.
 A deterministic scorer module computes the final numbers from your classifications.
-You STILL compute and output scores directly for: 1A component_quality, 2A frame_longevity, 3A thermal, 3B structural, 3C air_water.
+You STILL compute and output scores directly for: 2A frame_longevity, 3A thermal, 3B structural, 3C air_water.
+
+For 1A component_quality, you MUST identify these 5 components and classify a quality tier:
+- spacer_system: one_piece_stainless | warm_edge_foam | warm_edge_hybrid | multi_piece_stainless | four_piece_aluminum | unknown
+- balance_system: constant_force | class_4 | coil_spring | block_and_tackle | class_1 | unknown
+- weatherstrip_attachment: channeled | integrated | mechanically_fastened | adhesive | unknown
+- weatherstrip_coverage: triple | double | partial | unknown
+- glazing_bead: double_wall_integrated | single_wall_snap | no_glazing_bead | unknown
+- quality_tier: premium | standard_plus | standard | below_standard
+Use 'unknown' when you cannot find evidence for a component. Do NOT guess — 'unknown' gets a neutral midpoint score.
 You STILL compute axis_score values for the Performance axis. Quality and Durability axis_scores will be recalculated by the pipeline.
 
 OUTPUT FORMAT — MANDATORY JSON:
 You MUST output ONLY a valid JSON object. No markdown, no explanation outside the JSON. Use this exact schema:
 
-{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"score": 0.0, "reasoning": "string"}, "manufacturing_quality": {"business_model": "manufacturer_own_factory|manufacturer_licensed|assembler|specifier|marketeer|rebrander", "complaints": [{"description": "string", "classification": "SAFETY|STRUCTURAL_DEFECT|DELIVERY|COSMETIC|INSTALL_DEPENDENT", "source_count": 0, "evidence_level": "RED|YELLOW|NOTE"}], "certifications": ["NFRC", "AAMA_GOLD", "ENERGY_STAR", "PHI"], "reasoning": "string"}, "professional_consensus": {"sources": [{"name": "string", "tier": 1, "sentiment": "positive|negative|mixed", "summary": "string"}], "field_sources_qualified": 0, "field_sentiment": "positive|negative|mixed", "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"material_class": "string", "cladding_type": "extruded|roll-form|null", "adjustments_found": [{"code": "string", "description": "string", "source": "string"}], "reasoning": "string"}, "repairability": {"parts_availability_years": 20, "warranty_transferable": true, "labor_coverage": "full|partial|none", "warranty_length_glass_years": 20, "warranty_length_components_years": 10, "igu_replacement_method": "glass_swap|sash_replacement|full_window", "service_network": "manufacturer_direct|nationwide_dealer|regional_dealer|limited", "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string", "transparency_report": {"data_completeness": "FULL|PARTIAL|LIMITED", "performance_evidence": [{"subscore": "string", "evidence_level": "string", "metric": "string", "published_value": "string or null", "evidence_used": "string", "score_given": 0.0, "professional_note": "string or null"}]}}}`;
+{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"spacer_system": "one_piece_stainless|warm_edge_foam|warm_edge_hybrid|multi_piece_stainless|four_piece_aluminum|unknown", "balance_system": "constant_force|class_4|coil_spring|block_and_tackle|class_1|unknown", "weatherstrip_attachment": "channeled|integrated|mechanically_fastened|adhesive|unknown", "weatherstrip_coverage": "triple|double|partial|unknown", "glazing_bead": "double_wall_integrated|single_wall_snap|no_glazing_bead|unknown", "quality_tier": "premium|standard_plus|standard|below_standard", "reasoning": "string"}, "manufacturing_quality": {"business_model": "manufacturer_own_factory|manufacturer_licensed|assembler|specifier|marketeer|rebrander", "complaints": [{"description": "string", "classification": "SAFETY|STRUCTURAL_DEFECT|DELIVERY|COSMETIC|INSTALL_DEPENDENT", "source_count": 0, "evidence_level": "RED|YELLOW|NOTE"}], "certifications": ["NFRC", "AAMA_GOLD", "ENERGY_STAR", "PHI"], "reasoning": "string"}, "professional_consensus": {"sources": [{"name": "string", "tier": 1, "sentiment": "positive|negative|mixed", "summary": "string"}], "field_sources_qualified": 0, "field_sentiment": "positive|negative|mixed", "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"material_class": "string", "cladding_type": "extruded|roll-form|null", "adjustments_found": [{"code": "string", "description": "string", "source": "string"}], "reasoning": "string"}, "repairability": {"parts_availability_years": 20, "warranty_transferable": true, "labor_coverage": "full|partial|none", "warranty_length_glass_years": 20, "warranty_length_components_years": 10, "igu_replacement_method": "glass_swap|sash_replacement|full_window", "service_network": "manufacturer_direct|nationwide_dealer|regional_dealer|limited", "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string", "transparency_report": {"data_completeness": "FULL|PARTIAL|LIMITED", "performance_evidence": [{"subscore": "string", "evidence_level": "string", "metric": "string", "published_value": "string or null", "evidence_used": "string", "score_given": 0.0, "professional_note": "string or null"}]}}}`;
 
 const BOT3_MATERIAL_SAFETY_PROMPT = `You are The Residentialist Material Safety Bot (Bot 3). You evaluate health and toxicity risk from the product's materials during and after installation. You score on a 0-10 scale. Your score is published separately — it is never averaged into Quality, Durability, or Performance.
 
@@ -958,8 +967,16 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   try {
     const deterministicResult = computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling);
 
-    // Override the 4 reformed subscores with deterministic scores
+    // Override the 5 reformed subscores with deterministic scores
     // Preserve the classification data as reasoning context
+    if (bot2Parsed.scores?.quality?.component_quality) {
+      const cqClassification = { ...bot2Parsed.scores.quality.component_quality };
+      bot2Parsed.scores.quality.component_quality = {
+        score: deterministicResult.component_quality.score,
+        reasoning: cqClassification.reasoning || '',
+        classification_data: cqClassification,
+      };
+    }
     if (bot2Parsed.scores?.quality?.manufacturing_quality) {
       const mfgClassification = { ...bot2Parsed.scores.quality.manufacturing_quality };
       bot2Parsed.scores.quality.manufacturing_quality = {
@@ -1015,7 +1032,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
 
     // Save the deterministic scoring report
     fs.writeFileSync(`${outputDir}/DETERMINISTIC_SCORES.json`, JSON.stringify(deterministicResult, null, 2));
-    console.log(`[ORCHESTRATOR] Deterministic scorer applied: MQ=${deterministicResult.manufacturing_quality.score}, PC=${deterministicResult.professional_consensus.score}, MD=${deterministicResult.materials_durability.score}, RP=${deterministicResult.repairability.score}`);
+    console.log(`[ORCHESTRATOR] Deterministic scorer applied: CQ=${deterministicResult.component_quality.score}, MQ=${deterministicResult.manufacturing_quality.score}, PC=${deterministicResult.professional_consensus.score}, MD=${deterministicResult.materials_durability.score}, RP=${deterministicResult.repairability.score}`);
   } catch (dsErr) {
     console.error(`[ORCHESTRATOR] WARNING: Deterministic scorer failed — falling back to Bot 2 scores: ${dsErr.message}`);
     // Non-fatal: if deterministic scorer fails, Bot 2's raw scores pass through

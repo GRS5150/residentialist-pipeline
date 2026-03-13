@@ -4,14 +4,106 @@
  * lookup tables and formulas instead of LLM judgment.
  *
  * Reformed subscores:
+ *   1A component_quality      — Deterministic components (60%) + tier classification (40%)
  *   1B manufacturing_quality  — Complaint Severity Framework
  *   1C professional_consensus — Source-Weighted Formula
  *   2B materials_durability   — Fixed Adjustment Menu
  *   2C repairability          — Component Scoring
  *
  * Unchanged subscores (still scored by Bot 2):
- *   1A component_quality, 2A frame_longevity, 3A thermal, 3B structural, 3C air_water
+ *   2A frame_longevity, 3A thermal, 3B structural, 3C air_water
  */
+
+// ─── COMPONENT QUALITY (1A) — Deterministic Components + Tier Classification ─
+// 60% deterministic from component lookups, 40% from a categorical quality tier.
+// Bot 2 provides the component identifications and a quality_tier classification.
+// The deterministic scorer computes the final score.
+
+const SPACER_SCORES = {
+  one_piece_stainless: 10,
+  warm_edge_foam: 8,
+  warm_edge_hybrid: 8,
+  multi_piece_stainless: 7,
+  four_piece_aluminum: 4,
+  unknown: 5,
+};
+
+const BALANCE_SCORES = {
+  constant_force: 10,  // AAMA Class 5
+  class_4: 9,
+  coil_spring: 8,      // Class 3
+  block_and_tackle: 7, // Class 2
+  class_1: 5,
+  unknown: 5,
+};
+
+const WEATHERSTRIP_ATTACHMENT_SCORES = {
+  channeled: 10,
+  integrated: 10,
+  mechanically_fastened: 8,
+  adhesive: 6,
+  unknown: 5,
+};
+
+const WEATHERSTRIP_COVERAGE_SCORES = {
+  triple: 10,
+  double: 8,
+  partial: 6,
+  unknown: 5,
+};
+
+const GLAZING_BEAD_SCORES = {
+  double_wall_integrated: 10,
+  single_wall_snap: 6,
+  no_glazing_bead: 5,
+  unknown: 5,
+};
+
+// Quality tier for the 40% judgment portion — 4 tiers, fixed midpoint scores
+const QUALITY_TIER_SCORES = {
+  premium: 9.5,        // Premium hardware, no QC issues, professional praise
+  standard_plus: 7.5,  // Solid hardware, minor issues
+  standard: 5.5,       // Industry-standard, some cost optimization
+  below_standard: 3.5, // Documented cheap components or QC patterns
+};
+
+function scoreComponentQuality(data) {
+  const report = { subscore: 'component_quality', method: 'deterministic_components_plus_tier' };
+
+  // 60% — Deterministic component scores
+  const spacer = SPACER_SCORES[(data.spacer_system || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || SPACER_SCORES.unknown;
+  const balance = BALANCE_SCORES[(data.balance_system || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || BALANCE_SCORES.unknown;
+  const wsAttach = WEATHERSTRIP_ATTACHMENT_SCORES[(data.weatherstrip_attachment || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || WEATHERSTRIP_ATTACHMENT_SCORES.unknown;
+  const wsCoverage = WEATHERSTRIP_COVERAGE_SCORES[(data.weatherstrip_coverage || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || WEATHERSTRIP_COVERAGE_SCORES.unknown;
+  const glazingBead = GLAZING_BEAD_SCORES[(data.glazing_bead || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || GLAZING_BEAD_SCORES.unknown;
+
+  // Component weights from rubric (equal weight among 5 components)
+  const deterministicScore = (spacer + balance + wsAttach + wsCoverage + glazingBead) / 5;
+
+  // 40% — Quality tier classification
+  const tier = (data.quality_tier || 'standard').toLowerCase().replace(/[\s-]+/g, '_');
+  const tierScore = QUALITY_TIER_SCORES[tier];
+  if (tierScore === undefined) {
+    report.warning = `Unknown quality_tier "${data.quality_tier}" — defaulting to standard (5.5)`;
+  }
+  const judgmentScore = tierScore !== undefined ? tierScore : QUALITY_TIER_SCORES.standard;
+
+  report.components = {
+    spacer: { value: data.spacer_system, score: spacer },
+    balance: { value: data.balance_system, score: balance },
+    weatherstrip_attachment: { value: data.weatherstrip_attachment, score: wsAttach },
+    weatherstrip_coverage: { value: data.weatherstrip_coverage, score: wsCoverage },
+    glazing_bead: { value: data.glazing_bead, score: glazingBead },
+  };
+  report.deterministic_score = Math.round(deterministicScore * 100) / 100;
+  report.quality_tier = tier;
+  report.judgment_score = judgmentScore;
+
+  // Final: 60% deterministic + 40% tier
+  const raw = (deterministicScore * 0.60) + (judgmentScore * 0.40);
+  report.score = Math.round(Math.max(1.0, Math.min(10.0, raw)) * 100) / 100;
+  return report;
+}
 
 // ─── MANUFACTURING QUALITY (1B) — Complaint Severity Framework ───────────────
 
@@ -251,7 +343,17 @@ function scoreProfessionalConsensus(data) {
   }
 
   const consensusRatio = weightedCount > 0 ? weightedSum / weightedCount : 0;
-  let base = 5.0 + (consensusRatio * 2.5);
+
+  // Confidence multiplier: dampens the effect when source count is low.
+  // With 1 source, a single sentiment classification flip shouldn't swing 2.5 points.
+  // 1 source: 0.3x effect (max ±0.75 from midpoint)
+  // 2 sources: 0.5x effect (max ±1.25)
+  // 3 sources: 0.7x effect (max ±1.75)
+  // 4+ sources: 1.0x (full effect, max ±2.5)
+  const confidenceMultiplier = sources.length >= 4 ? 1.0 :
+                               sources.length === 3 ? 0.7 :
+                               sources.length === 2 ? 0.5 : 0.3;
+  let base = 5.0 + (consensusRatio * 2.5 * confidenceMultiplier);
 
   // Field source bonus
   let fieldBonus = 0;
@@ -271,6 +373,7 @@ function scoreProfessionalConsensus(data) {
   report.sources_processed = sources.length;
   report.source_details = sourceDetails;
   report.consensus_ratio = Math.round(consensusRatio * 1000) / 1000;
+  report.confidence_multiplier = confidenceMultiplier;
   report.base = Math.round(base * 100) / 100;
   report.field_bonus = fieldBonus;
   report.ceiling_applied = raw < (base + fieldBonus);
@@ -298,6 +401,10 @@ function computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling
     product: bot2Parsed.product,
     material_class: materialLock.rawText,
   };
+
+  // 1A Component Quality
+  const cqData = quality.component_quality || {};
+  result.component_quality = scoreComponentQuality(cqData);
 
   // 1B Manufacturing Quality
   const mfgData = quality.manufacturing_quality || {};
