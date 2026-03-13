@@ -18,6 +18,7 @@ const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs');
 const path = require('path');
 const { validate: deterministicValidate } = require('./deterministic_validator');
+const { computeDeterministicScores } = require('./deterministic_scorer');
 // sendTelegram defined locally to avoid circular dependency with auto_runner
 const https = require('https');
 function sendTelegram(message) {
@@ -64,6 +65,23 @@ function getMaterialCeiling(materialClass) {
   }
   // Default to most conservative if unrecognized
   return { base: 5, ceiling: 6, label: materialClass + ' (unrecognized — defaulting to vinyl)' };
+}
+
+// ─── AXIS RECALCULATION FUNCTIONS ────────────────────────────────────────────
+// Recompute axis scores from subscores after deterministic scoring overrides.
+// Weights from the rubric (LOCKED).
+function recalcQualityAxis(quality) {
+  const cq = quality.component_quality?.score ?? 5;
+  const mq = quality.manufacturing_quality?.score ?? 5;
+  const pc = quality.professional_consensus?.score ?? 5;
+  return Math.round(((cq * 0.35) + (mq * 0.35) + (pc * 0.30)) * 100) / 100;
+}
+
+function recalcDurabilityAxis(durability) {
+  const fl = durability.frame_longevity?.score ?? 5;
+  const md = durability.materials_durability?.score ?? 5;
+  const rp = durability.repairability?.score ?? 5;
+  return Math.round(((fl * 0.375) + (md * 0.375) + (rp * 0.25)) * 100) / 100;
 }
 
 require('dotenv').config({ path: '/Users/Residentialist/.openclaw/workspace/residentialist/.env' });
@@ -676,10 +694,16 @@ CRITICAL RULES:
     
     This replaces the non_disclosure_flags field. The transparency report is about informing the reader, not penalizing the manufacturer.
 
+DETERMINISTIC SCORING REFORM — CRITICAL:
+For 4 subscores (1B, 1C, 2B, 2C), you output CLASSIFICATION DATA, not final numeric scores.
+A deterministic scorer module computes the final numbers from your classifications.
+You STILL compute and output scores directly for: 1A component_quality, 2A frame_longevity, 3A thermal, 3B structural, 3C air_water.
+You STILL compute axis_score values for the Performance axis. Quality and Durability axis_scores will be recalculated by the pipeline.
+
 OUTPUT FORMAT — MANDATORY JSON:
 You MUST output ONLY a valid JSON object. No markdown, no explanation outside the JSON. Use this exact schema:
 
-{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"score": 0.0, "reasoning": "string"}, "manufacturing_quality": {"score": 0.0, "reasoning": "string"}, "professional_consensus": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"score": 0.0, "base": 0, "adjustments": "string", "ceiling_applied": false, "reasoning": "string"}, "repairability": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string", "transparency_report": {"data_completeness": "FULL|PARTIAL|LIMITED", "performance_evidence": [{"subscore": "string", "evidence_level": "string", "metric": "string", "published_value": "string or null", "evidence_used": "string", "score_given": 0.0, "professional_note": "string or null"}]}}}`;
+{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"score": 0.0, "reasoning": "string"}, "manufacturing_quality": {"business_model": "manufacturer_own_factory|manufacturer_licensed|assembler|specifier|marketeer|rebrander", "complaints": [{"description": "string", "classification": "SAFETY|STRUCTURAL_DEFECT|DELIVERY|COSMETIC|INSTALL_DEPENDENT", "source_count": 0, "evidence_level": "RED|YELLOW|NOTE"}], "certifications": ["NFRC", "AAMA_GOLD", "ENERGY_STAR", "PHI"], "reasoning": "string"}, "professional_consensus": {"sources": [{"name": "string", "tier": 1, "sentiment": "positive|negative|mixed", "summary": "string"}], "field_sources_qualified": 0, "field_sentiment": "positive|negative|mixed", "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"material_class": "string", "cladding_type": "extruded|roll-form|null", "adjustments_found": [{"code": "string", "description": "string", "source": "string"}], "reasoning": "string"}, "repairability": {"parts_availability_years": 20, "warranty_transferable": true, "labor_coverage": "full|partial|none", "warranty_length_glass_years": 20, "warranty_length_components_years": 10, "igu_replacement_method": "glass_swap|sash_replacement|full_window", "service_network": "manufacturer_direct|nationwide_dealer|regional_dealer|limited", "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string", "transparency_report": {"data_completeness": "FULL|PARTIAL|LIMITED", "performance_evidence": [{"subscore": "string", "evidence_level": "string", "metric": "string", "published_value": "string or null", "evidence_used": "string", "score_given": 0.0, "professional_note": "string or null"}]}}}`;
 
 const BOT3_MATERIAL_SAFETY_PROMPT = `You are The Residentialist Material Safety Bot (Bot 3). You evaluate health and toxicity risk from the product's materials during and after installation. You score on a 0-10 scale. Your score is published separately — it is never averaged into Quality, Durability, or Performance.
 
@@ -782,6 +806,32 @@ const { runChallengeBot } = require('./challenge_bot_v2');
 const { handleEscalation } = require('./council');
 const { runReconciliationBot } = require('./reconciliation_bot');
 
+// ─── BASELINE LOCKING — Phase A ──────────────────────────────────────────────
+// Post-process Bot 1 output to add [LOCKED] tags to key sections.
+// Locked sections must be preserved verbatim on refresh runs.
+const LOCKED_SECTIONS = [
+  'CONFIRMED FINDINGS',
+  'RED FINDINGS',
+  'YELLOW FINDINGS',
+  'FIELD SOURCE OPINIONS',
+  'INTERNATIONAL CERTIFICATIONS',
+];
+
+function addLockedTags(bot1Output) {
+  let result = bot1Output;
+  for (const section of LOCKED_SECTIONS) {
+    // Match section headers like "## CONFIRMED FINDINGS" or "### CONFIRMED FINDINGS" or "CONFIRMED FINDINGS:"
+    const patterns = [
+      new RegExp(`(#{1,4}\\s*${section.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'),
+      new RegExp(`(${section.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*:)`, 'gi'),
+    ];
+    for (const pattern of patterns) {
+      result = result.replace(pattern, `$1 [LOCKED]`);
+    }
+  }
+  return result;
+}
+
 // ─── MAIN PIPELINE ────────────────────────────────────────────────────────────
 
 async function runPipeline(productName, config, researchFiles) {
@@ -839,7 +889,7 @@ async function runPipeline(productName, config, researchFiles) {
   if (researchContent.trim()) {
     if (hasBaseline && researchFiles.length === 0) {
       // Only auto-baseline exists (no human-provided files) — use refresh mode
-      supplementalNote = `\n\nBASELINE RESEARCH FILE (from a previous pipeline run — treat as starting point, NOT final authority):\n${researchContent}\n\nIMPORTANT — REFRESH MODE: The baseline file above contains findings from a prior run. Your job is to:\n1. VERIFY the baseline claims are still accurate by checking key sources\n2. SEARCH for any NEW data not in the baseline (new certifications, warranty changes, new field reports, product updates)\n3. If you find contradictions, note them and cite both sources\n4. Your output should be a COMPLETE updated findings document — not just the new stuff\n5. You may skip exhaustive re-searching of data that the baseline already covers with cited sources\nThis is a refresh, not a full re-research. Be efficient.`;
+      supplementalNote = `\n\nBASELINE RESEARCH FILE (from a previous pipeline run — treat as starting point, NOT final authority):\n${researchContent}\n\nIMPORTANT — REFRESH MODE: The baseline file above contains findings from a prior run. Your job is to:\n1. VERIFY the baseline claims are still accurate by checking key sources\n2. SEARCH for any NEW data not in the baseline (new certifications, warranty changes, new field reports, product updates)\n3. If you find contradictions, note them and cite both sources\n4. Your output should be a COMPLETE updated findings document — not just the new stuff\n5. You may skip exhaustive re-searching of data that the baseline already covers with cited sources\nThis is a refresh, not a full re-research. Be efficient.\n\nLOCKED DATA RULES:\n- Sections marked with [LOCKED] MUST be preserved verbatim in your output\n- You may ADD new findings in new sections\n- You may NOT remove, modify, or contradict [LOCKED] data\n- If you find information that contradicts [LOCKED] data, add a [CONFLICT] section noting both values and sources\n- [LOCKED] sections include: CONFIRMED FINDINGS (specs), RED FINDINGS, YELLOW FINDINGS, FIELD SOURCE OPINIONS`;
     } else {
       // Human-provided supplemental files exist — use original verified mode
       supplementalNote = `\n\nSUPPLEMENTAL RESEARCH FILE (pre-verified by human researcher — see RULE E1):\n${researchContent}\n\nIMPORTANT: The supplemental file above contains pre-verified data. Per RULE E1, treat its sourced claims as confirmed facts. Still perform all required searches to find ADDITIONAL data not covered by the supplemental file. If your web search finds data that contradicts the supplemental file, note the conflict and cite both sources — do not silently override the supplemental file.`;
@@ -855,10 +905,12 @@ You are researching the ${productName} in ${config} configuration. Execute all r
   await runDataCompletenessCheck(bot1Output, productName, 'windows', outputDir);
 
   // ── AUTO-SAVE: Persist Bot 1 output as baseline research for future runs ──
+  // Post-process to add [LOCKED] tags to key sections for deterministic stability
   try {
-    const baselineHeader = `# Baseline Research: ${productName} (${config})\n# Auto-generated: ${new Date().toISOString()}\n# This file is automatically loaded on re-runs to avoid redundant web research.\n# To force a full re-research, delete this file.\n\n`;
-    fs.writeFileSync(baselineResearchPath, baselineHeader + bot1Output);
-    console.log(`[ORCHESTRATOR] Auto-saved baseline research: ${baselineResearchPath}`);
+    const baselineHeader = `# Baseline Research: ${productName} (${config})\n# Auto-generated: ${new Date().toISOString()}\n# This file is automatically loaded on re-runs to avoid redundant web research.\n# To force a full re-research, delete this file.\n# Sections marked [LOCKED] are preserved on refresh runs.\n\n`;
+    const lockedBaseline = addLockedTags(bot1Output);
+    fs.writeFileSync(baselineResearchPath, baselineHeader + lockedBaseline);
+    console.log(`[ORCHESTRATOR] Auto-saved baseline research with [LOCKED] tags: ${baselineResearchPath}`);
   } catch (err) {
     console.error(`[ORCHESTRATOR] WARNING: Could not save baseline research: ${err.message}`);
   }
@@ -901,6 +953,74 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   const bot2Input = `PRODUCT: ${productName}\nCONFIGURATION: ${config}\n${materialLockLine}\n\n${ceilingConstraint}\n\nKNOWLEDGE BASE:\n${knowledgeContent}\n\nBOT 1 CONSENSUS FINDINGS:\n${bot1Output}\n\nORIGINAL RESEARCH (for source verification):\n${cappedResearch}\n\nScore this product now. Show all math.`;
   const bot2Output = await runBot('Bot 2 (Evaluator)', BOT2_EVALUATOR_PROMPT, bot2Input, 'claude-sonnet-4-20250514');
   const bot2Parsed = validateBotOutput(bot2Output, 'Bot 2 (Evaluator)', productName, outputDir);
+
+  // ── DETERMINISTIC SCORER — compute 4 reformed subscores from Bot 2 classifications ──
+  try {
+    const deterministicResult = computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling);
+
+    // Override the 4 reformed subscores with deterministic scores
+    // Preserve the classification data as reasoning context
+    if (bot2Parsed.scores?.quality?.manufacturing_quality) {
+      const mfgClassification = { ...bot2Parsed.scores.quality.manufacturing_quality };
+      bot2Parsed.scores.quality.manufacturing_quality = {
+        score: deterministicResult.manufacturing_quality.score,
+        reasoning: mfgClassification.reasoning || '',
+        classification_data: mfgClassification,
+      };
+    }
+    if (bot2Parsed.scores?.quality?.professional_consensus) {
+      const pcClassification = { ...bot2Parsed.scores.quality.professional_consensus };
+      bot2Parsed.scores.quality.professional_consensus = {
+        score: deterministicResult.professional_consensus.score,
+        reasoning: pcClassification.reasoning || '',
+        classification_data: pcClassification,
+      };
+    }
+    if (bot2Parsed.scores?.durability?.materials_durability) {
+      const mdClassification = { ...bot2Parsed.scores.durability.materials_durability };
+      bot2Parsed.scores.durability.materials_durability = {
+        score: deterministicResult.materials_durability.score,
+        base: deterministicResult.materials_durability.base,
+        adjustments: (deterministicResult.materials_durability.adjustments_applied || []).map(a => `${a.code}: ${a.value > 0 ? '+' : ''}${a.value}`).join(', ') || 'none',
+        ceiling_applied: deterministicResult.materials_durability.ceiling_applied,
+        reasoning: mdClassification.reasoning || '',
+        classification_data: mdClassification,
+      };
+    }
+    if (bot2Parsed.scores?.durability?.repairability) {
+      const repClassification = { ...bot2Parsed.scores.durability.repairability };
+      bot2Parsed.scores.durability.repairability = {
+        score: deterministicResult.repairability.score,
+        reasoning: repClassification.reasoning || '',
+        classification_data: repClassification,
+      };
+    }
+
+    // Recalculate axis scores from updated subscores
+    if (bot2Parsed.scores?.quality) {
+      bot2Parsed.scores.quality.axis_score = recalcQualityAxis(bot2Parsed.scores.quality);
+    }
+    if (bot2Parsed.scores?.durability) {
+      bot2Parsed.scores.durability.axis_score = recalcDurabilityAxis(bot2Parsed.scores.durability);
+    }
+    // Performance axis untouched — Bot 2 still scores it directly
+
+    // Recalculate overall score with locked axis weights
+    if (bot2Parsed.scores?.quality && bot2Parsed.scores?.durability && bot2Parsed.scores?.performance) {
+      const q = bot2Parsed.scores.quality.axis_score;
+      const d = bot2Parsed.scores.durability.axis_score;
+      const p = bot2Parsed.scores.performance.axis_score;
+      bot2Parsed.overall_score = Math.round(((q * 0.35) + (d * 0.35) + (p * 0.30)) * 100) / 100;
+    }
+
+    // Save the deterministic scoring report
+    fs.writeFileSync(`${outputDir}/DETERMINISTIC_SCORES.json`, JSON.stringify(deterministicResult, null, 2));
+    console.log(`[ORCHESTRATOR] Deterministic scorer applied: MQ=${deterministicResult.manufacturing_quality.score}, PC=${deterministicResult.professional_consensus.score}, MD=${deterministicResult.materials_durability.score}, RP=${deterministicResult.repairability.score}`);
+  } catch (dsErr) {
+    console.error(`[ORCHESTRATOR] WARNING: Deterministic scorer failed — falling back to Bot 2 scores: ${dsErr.message}`);
+    // Non-fatal: if deterministic scorer fails, Bot 2's raw scores pass through
+  }
+
   // Write the JSON
   fs.writeFileSync(`${outputDir}/${productSlug}_bot2_evaluator.json`, JSON.stringify(bot2Parsed, null, 2));
   // Also write human-readable version for debugging
