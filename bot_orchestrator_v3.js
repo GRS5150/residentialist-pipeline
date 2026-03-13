@@ -272,7 +272,12 @@ function extractMaterialClass(bot1Output) {
     for (const pattern of patterns) {
       const match = line.match(pattern);
       if (match) {
-        const raw = match[1].trim().replace(/[*_]/g, '').split('(')[0].trim();
+        let raw = match[1].trim().replace(/[*_]/g, '').split('(')[0].trim();
+        // Normalize: "Wood-clad" + aluminum context → "Aluminum-clad wood"
+        const fullMatch = match[1].toLowerCase();
+        if (/wood.clad/i.test(raw) && /aluminum|extruded/i.test(fullMatch)) {
+          raw = fullMatch.includes('extruded') ? 'Aluminum-clad wood (extruded aluminum)' : 'Aluminum-clad wood';
+        }
         if (raw.length > 2 && raw.length < 80) {
           return { found: true, rawText: raw, source: 'bot1_product_overview' };
         }
