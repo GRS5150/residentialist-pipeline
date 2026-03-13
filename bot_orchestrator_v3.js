@@ -967,11 +967,74 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   const cappedResearch = researchContent.length > maxResearchChars
     ? researchContent.slice(0, maxResearchChars) + '\n\n[TRUNCATED — full research available in Bot 1 consensus findings above]'
     : researchContent;
-  const bot2Input = `PRODUCT: ${productName}\nCONFIGURATION: ${config}\n${materialLockLine}\n\n${ceilingConstraint}\n\nKNOWLEDGE BASE:\n${knowledgeContent}\n\nBOT 1 CONSENSUS FINDINGS:\n${bot1Output}\n\nORIGINAL RESEARCH (for source verification):\n${cappedResearch}\n\nScore this product now. Show all math.`;
+
+  // ── EVIDENCE FILE — pinned ground truth for scored products ──
+  // Evidence files contain verified complaints, sources, and performance data.
+  // Bot 2 MUST use these values. New findings should be flagged, not substituted.
+  let evidenceBlock = '';
+  let evidenceData = null;
+  const evidenceSlug = `${productSlug}_${config.toLowerCase()}`;
+  const evidencePath = path.join(__dirname, 'evidence', `${evidenceSlug}.json`);
+  try {
+    const evidenceRaw = fs.readFileSync(evidencePath, 'utf-8');
+    evidenceData = JSON.parse(evidenceRaw);
+    evidenceBlock = `\n\nPINNED EVIDENCE FILE (GROUND TRUTH — use these values, do not override):\n${evidenceRaw}\n\nCRITICAL: The evidence file above contains verified, pinned values. You MUST use the exact complaints, sources, pool tags, and performance scores listed. If your search finds NEW evidence not in this file, include it and flag it as "NEW — not yet verified" but do not change any pinned values.`;
+    console.log(`[ORCHESTRATOR] Loaded evidence file: ${evidencePath}`);
+  } catch (e) {
+    console.log(`[ORCHESTRATOR] No evidence file found at ${evidencePath} — Bot 2 will classify freely`);
+  }
+
+  const bot2Input = `PRODUCT: ${productName}\nCONFIGURATION: ${config}\n${materialLockLine}\n\n${ceilingConstraint}${evidenceBlock}\n\nKNOWLEDGE BASE:\n${knowledgeContent}\n\nBOT 1 CONSENSUS FINDINGS:\n${bot1Output}\n\nORIGINAL RESEARCH (for source verification):\n${cappedResearch}\n\nScore this product now. Show all math.`;
   const bot2Output = await runBot('Bot 2 (Evaluator)', BOT2_EVALUATOR_PROMPT, bot2Input, 'claude-sonnet-4-20250514');
   const bot2Parsed = validateBotOutput(bot2Output, 'Bot 2 (Evaluator)', productName, outputDir);
 
-  // ── DETERMINISTIC SCORER — compute 4 reformed subscores from Bot 2 classifications ──
+  // ── EVIDENCE OVERRIDES — pin Bot 2 classifications from evidence file before deterministic scoring ──
+  if (evidenceData && bot2Parsed.scores?.quality) {
+    // Pin manufacturing_quality complaints and business_model
+    if (evidenceData.manufacturing_quality && bot2Parsed.scores.quality.manufacturing_quality) {
+      const mq = bot2Parsed.scores.quality.manufacturing_quality;
+      if (evidenceData.manufacturing_quality.complaints) {
+        mq.complaints = evidenceData.manufacturing_quality.complaints;
+        console.log(`[ORCHESTRATOR] MQ complaints pinned from evidence: ${mq.complaints.length} complaints`);
+      }
+      if (evidenceData.manufacturing_quality.business_model) {
+        mq.business_model = evidenceData.manufacturing_quality.business_model;
+      }
+      if (evidenceData.manufacturing_quality.certifications) {
+        mq.certifications = evidenceData.manufacturing_quality.certifications;
+      }
+    }
+    // Pin professional_consensus sources
+    if (evidenceData.professional_consensus && bot2Parsed.scores.quality.professional_consensus) {
+      const pc = bot2Parsed.scores.quality.professional_consensus;
+      if (evidenceData.professional_consensus.sources) {
+        // Merge: keep pinned sources, append any NEW sources Bot 2 found (flagged)
+        const pinnedIds = new Set(evidenceData.professional_consensus.sources.map(s => s.id));
+        const newSources = (pc.sources || []).filter(s => !pinnedIds.has(s.id) && s.name);
+        pc.sources = [
+          ...evidenceData.professional_consensus.sources,
+          ...newSources.map(s => ({ ...s, _new: true }))
+        ];
+        console.log(`[ORCHESTRATOR] PC sources pinned from evidence: ${evidenceData.professional_consensus.sources.length} pinned + ${newSources.length} new`);
+      }
+    }
+    // Pin component_quality tier
+    if (evidenceData.component_quality && bot2Parsed.scores.quality.component_quality) {
+      if (evidenceData.component_quality.quality_tier) {
+        bot2Parsed.scores.quality.component_quality.quality_tier = evidenceData.component_quality.quality_tier;
+        console.log(`[ORCHESTRATOR] CQ tier pinned from evidence: ${evidenceData.component_quality.quality_tier}`);
+      }
+    }
+  }
+  // Pin repairability IGU method
+  if (evidenceData?.repairability && bot2Parsed.scores?.durability?.repairability) {
+    if (evidenceData.repairability.igu_replacement_method) {
+      bot2Parsed.scores.durability.repairability.igu_replacement_method = evidenceData.repairability.igu_replacement_method;
+      console.log(`[ORCHESTRATOR] RP igu_replacement_method pinned from evidence: ${evidenceData.repairability.igu_replacement_method}`);
+    }
+  }
+
+  // ── DETERMINISTIC SCORER — compute 5 reformed subscores from Bot 2 classifications ──
   try {
     const deterministicResult = computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling);
 
@@ -1028,7 +1091,56 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
     if (bot2Parsed.scores?.durability) {
       bot2Parsed.scores.durability.axis_score = recalcDurabilityAxis(bot2Parsed.scores.durability);
     }
-    // Performance axis untouched — Bot 2 still scores it directly
+    // ── PERFORMANCE AXIS — pin from evidence file if available ──
+    if (evidenceData?.performance && bot2Parsed.scores?.performance) {
+      const perfEvidence = evidenceData.performance;
+      const perfScores = bot2Parsed.scores.performance;
+      let perfPinned = false;
+
+      if (perfEvidence.thermal?.score != null && perfScores.thermal) {
+        const bot2TH = perfScores.thermal.score;
+        perfScores.thermal = {
+          score: perfEvidence.thermal.score,
+          reasoning: perfScores.thermal.reasoning || '',
+          evidence_pin: true,
+          evidence_note: perfEvidence.thermal.note || '',
+          bot2_original: bot2TH,
+        };
+        perfPinned = true;
+      }
+      if (perfEvidence.structural?.score != null && perfScores.structural) {
+        const bot2ST = perfScores.structural.score;
+        perfScores.structural = {
+          score: perfEvidence.structural.score,
+          reasoning: perfScores.structural.reasoning || '',
+          evidence_pin: true,
+          evidence_note: perfEvidence.structural.note || '',
+          bot2_original: bot2ST,
+        };
+        perfPinned = true;
+      }
+      if (perfEvidence.air_water?.score != null && perfScores.air_water) {
+        const bot2AW = perfScores.air_water.score;
+        perfScores.air_water = {
+          score: perfEvidence.air_water.score,
+          reasoning: perfScores.air_water.reasoning || '',
+          evidence_pin: true,
+          evidence_note: perfEvidence.air_water.note || '',
+          bot2_original: bot2AW,
+        };
+        perfPinned = true;
+      }
+
+      if (perfPinned) {
+        // Recalculate performance axis from pinned subscores
+        const th = perfScores.thermal?.score || 5;
+        const st = perfScores.structural?.score || 5;
+        const aw = perfScores.air_water?.score || 5;
+        perfScores.axis_score = Math.round(((th + st + aw) / 3) * 100) / 100;
+        console.log(`[ORCHESTRATOR] Performance pinned from evidence: TH=${th}, ST=${st}, AW=${aw}, axis=${perfScores.axis_score}`);
+      }
+    }
+    // If no evidence file or no performance data, Bot 2 scores pass through unchanged
 
     // Recalculate overall score with locked axis weights
     if (bot2Parsed.scores?.quality && bot2Parsed.scores?.durability && bot2Parsed.scores?.performance) {

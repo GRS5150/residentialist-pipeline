@@ -1,0 +1,89 @@
+{
+  "product": "Andersen E-Series",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "1.0",
+  "created": "2026-03-13",
+  "last_verified": "2026-03-13",
+  "refresh_after_days": 90,
+
+  "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth. Bot 2 may find additional evidence via search, but pinned values take precedence. New findings should be flagged, not substituted.",
+
+  "manufacturing_quality": {
+    "business_model": "manufacturer_own_factory",
+    "certifications": ["NFRC", "ENERGY_STAR"],
+    "complaints": [
+      {
+        "id": "MQ-AES-001",
+        "description": "Hardware recall on 100 Series opening control devices — fall and injury hazards (February 2026 CPSC recall)",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "CPSC recall database",
+        "note": "100 Series, not E-Series specific, but same manufacturer QC pipeline"
+      },
+      {
+        "id": "MQ-AES-002",
+        "description": "Manufacturing defects at delivery: sash movement issues, missing screens, daylight visible through sash sides",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "Consumer complaint patterns (multiple independent reports)",
+        "note": "YELLOW not RED — complaints are from individual consumers, not systematic testing"
+      },
+      {
+        "id": "MQ-AES-003",
+        "description": "ATS manufacturing equipment failures causing E-Series production launch delays and economic losses",
+        "classification": "DELIVERY",
+        "evidence_level": "YELLOW",
+        "source": "ATS Corp litigation documentation",
+        "note": "Manufacturing disruption, not a product defect"
+      }
+    ]
+  },
+
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-AES-001",
+        "name": "TheWindowDog",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Performance limitations noted — couldn't find U-Factor lower than 0.27 for triple-pane, states 'main advantage is looks, that's where advantages end'",
+        "price_bias": false
+      }
+    ],
+    "_note": "GBA mentions exist but are about Andersen generally (A-Series, 400 Series), not E-Series specifically. Do not attribute general Andersen complaints to E-Series. If Bot 1 finds E-Series-specific GBA/FHB/JLC sources, flag them as new evidence for review."
+  },
+
+  "component_quality": {
+    "quality_tier": "standard",
+    "_note": "Component specifications undisclosed by manufacturer despite extensive search. Standard per binary rule."
+  },
+
+  "repairability": {
+    "igu_replacement_method": "glass_swap",
+    "_note": "Andersen E-Series uses field-replaceable IGU via glass swap through dealer network. Confirmed by parts availability documentation."
+  },
+
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": "NO_EVIDENCE",
+      "score": 5.0,
+      "note": "No NFRC U-Factor published for E-Series DH. TheWindowDog noted 0.27 for triple-pane but this is unverified and config-unclear. Score at midpoint."
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": "NO_EVIDENCE",
+      "score": 5.0,
+      "note": "No AAMA performance class documented for E-Series specifically. General Andersen AAMA Hallmark compliance referenced but not E-Series rated."
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.0,
+      "note": "Energy Star certified indicates meets minimum air infiltration requirements. No specific published value."
+    }
+  }
+}
