@@ -48,6 +48,8 @@ const MATERIAL_CEILINGS = {
   'composite':            { base: 6, ceiling: 7  },
   'fibrex':               { base: 6, ceiling: 7  },
   'proprietary':          { base: 6, ceiling: 7  },
+  'wood-clad, aluminum':  { base: 8, ceiling: 9  },  // catches 'Wood-clad (aluminum exterior...)' phrasing
+  'wood-clad':            { base: 8, ceiling: 9  },  // default wood-clad = aluminum-clad wood
   'vinyl':                { base: 5, ceiling: 6  },
   'aluminum':             { base: 5, ceiling: 6  },
 };
