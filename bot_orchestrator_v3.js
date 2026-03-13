@@ -405,11 +405,69 @@ CRITICAL DATA TARGETS — you must find or explicitly note as NOT FOUND:
 
 Your output must be a structured markdown document with these sections:
 1. PRODUCT OVERVIEW — manufacturer, material class, configuration type, country of origin
-2. CONFIRMED FINDINGS — every spec with source URL cited inline
-3. UNKNOWN / NOT DISCLOSED — every data target above that could not be confirmed, with note on what was searched
-4. RED FINDINGS — documented failure patterns, litigation, safety concerns (cite source and date)
+2. CONFIRMED FINDINGS — every spec with source URL cited inline. If supplemental file provided data, include it here with its source URL and note "(from supplemental research file)"
+3. UNKNOWN / NOT DISCLOSED — for each missing data target, state whether it is NOT PUBLISHED (manufacturer does not disclose) or NOT FOUND (search limitation). See RULE E4.
+4. RED FINDINGS — documented failure patterns, litigation, safety concerns (cite source and date). Apply RULE E2: exclude anything >5 years old unless design flaw persists in current production.
 5. YELLOW FINDINGS — ambiguities, single-source claims, unverified specs
 6. CONFIDENCE ASSESSMENT — High / Moderate / Low, with rationale
+7. FIELD SOURCE OPINIONS — qualified Reddit/forum professionals found, their product verdicts, credibility assessment, and whether field consensus agrees with or diverges from publication/certification signals. If no qualified field sources found, note "No qualified field sources identified for this product."
+8. INTERNATIONAL CERTIFICATIONS — list ALL certifications found from any first-world nation, with the standard clearly identified
+9. SPECIALTY FORUM FINDINGS — separate section for GBA, r/PassiveHouse, r/buildingscience opinions
+10. INSTALLATION CONFOUND FLAGS — for any complaint involving water penetration, air infiltration, or seal failure, tag it with INSTALL-CONFOUND: HIGH / MEDIUM / LOW per RULE E5. Group flagged complaints here so Bot 2 can route them correctly.
+
+EDITORIAL JUDGMENT — CRITICAL RULES FOR FILTERING AND PRIORITIZING FINDINGS:
+
+RULE E1 — SUPPLEMENTAL FILE SUPREMACY:
+If a SUPPLEMENTAL RESEARCH FILE is provided with your input, it contains pre-verified data with source URLs.
+Treat supplemental file data as CONFIRMED FACT. Do not contradict it with web search results unless you find
+a more authoritative primary source (e.g., NFRC database contradicts a supplemental file spec — NFRC wins).
+If the supplemental file provides a spec with a source URL, include it in CONFIRMED FINDINGS even if your
+web search did not independently find it. The supplemental file was compiled by a human researcher and
+verified before being provided to you.
+
+RULE E2 — RELEVANCE FILTER:
+Your findings must be about the product AS A BUYER EXPERIENCES IT TODAY. Apply these filters:
+- EXCLUDE litigation, complaints, or failure reports older than 5 years UNLESS the underlying design flaw
+  is documented as persisting in current production (cite evidence of persistence).
+- EXCLUDE corporate disputes, supply chain issues, parent company litigation, and business-to-business
+  complaints entirely. These do not affect the buyer's product experience.
+- EXCLUDE installer complaints about lead times, ordering difficulties, or shipping damage from product
+  quality assessment. These may appear in YELLOW FINDINGS as service concerns only.
+- INCLUDE any active recall (regardless of age), any design defect acknowledged by manufacturer, and any
+  pattern confirmed across 3+ independent sources.
+
+RULE E3 — SOURCE-TYPE ROUTING:
+Different sources answer different questions. Search with intent:
+- Manufacturer website/specs → product specifications, material composition, warranty terms
+- NFRC/AAMA/NAFS databases → certified performance values (thermal, structural, air/water)
+- Jay Johnson (WindowPurchase.com) → independent expert evaluation
+- GBA/Fine Homebuilding → field experience from building science professionals
+- Reddit trade subs → installer sentiment, real-world failure patterns, parts availability
+- Reddit consumer subs → ownership experience (apply price-bias filter: blue-collar forums tend toward
+  extreme negative reactions to premium-priced products — weight for specificity, not just sentiment)
+- News sources → ONLY active recalls, safety actions, or class action settlements. Ignore corporate news.
+Do NOT treat all sources as equivalent. A GBA thread with 5 architects discussing thermal bridging is
+worth more than 20 Reddit comments saying "overpriced."
+
+RULE E4 — "NOT FOUND" vs "NOT PUBLISHED":
+When a data target is missing, you MUST distinguish between these two cases:
+- NOT PUBLISHED: The manufacturer does not disclose this specification. State: "[Spec] — NOT PUBLISHED
+  by [Manufacturer]. Searched [manufacturer URL], [NFRC], [AAMA]. Manufacturer does not make this data
+  available." This is a meaningful finding about the manufacturer's transparency.
+- NOT FOUND: You searched but could not locate the data, though it may exist. State: "[Spec] — NOT FOUND
+  in web search. Searched [list queries]. Data may exist in manufacturer technical documents not indexed
+  online." This is a limitation of the search, not a statement about the manufacturer.
+Never conflate these. "Not Published" affects scoring (midpoint with flag). "Not Found" should trigger
+a supplemental file check or a note for human review.
+
+RULE E5 — INSTALLATION CONFOUND AWARENESS:
+When reporting complaints about water penetration, air infiltration, or seal failure:
+- Flag complaints where the failure occurred immediately after installation as INSTALL-CONFOUND: HIGH
+- Flag complaints where the author explicitly blames the installer or manufacturer blames installer as INSTALL-CONFOUND: HIGH
+- Flag complaints about seal/water failure years after installation with no installer info as INSTALL-CONFOUND: MEDIUM
+- Hardware failures, paint defects, wood rot, and design flaws are INSTALL-CONFOUND: LOW (product issues)
+- When the complaint author IS a professional installer reporting on their own work: INSTALL-CONFOUND: LOW
+This flag helps Bot 2 route findings to the correct scoring axis. It does NOT discard the finding.
 
 Source citation format: (Source Name, Date, full URL)
 Never score. Never grade. Leave all scoring to Bot 2.`;
@@ -694,10 +752,13 @@ async function runPipeline(productName, config, researchFiles) {
     .join('\n\n');
 
   // ── BOT 1: Consensus ──────────────────────────────────────────────────────
+  const supplementalNote = researchContent.trim()
+    ? `\n\nSUPPLEMENTAL RESEARCH FILE (pre-verified by human researcher — see RULE E1):\n${researchContent}\n\nIMPORTANT: The supplemental file above contains pre-verified data. Per RULE E1, treat its sourced claims as confirmed facts. Still perform all required searches to find ADDITIONAL data not covered by the supplemental file. If your web search finds data that contradicts the supplemental file, note the conflict and cite both sources — do not silently override the supplemental file.`
+    : '';
   const bot1Input = `PRODUCT: ${productName}
-CONFIGURATION: ${config}
+CONFIGURATION: ${config}${supplementalNote}
 
-You are researching the ${productName} in ${config} configuration. Execute all required searches and fetches now. Do not stop after one sentence. Complete all 15 searches and 5 URL fetches, then write the full structured findings document.`;
+You are researching the ${productName} in ${config} configuration. Execute all required searches and fetches now. Do not stop after one sentence. Complete all required searches and URL fetches, then write the full structured findings document. Apply all EDITORIAL JUDGMENT rules (E1-E5) when filtering and prioritizing your findings.`;
   const bot1Output = await runBot('Bot 1 (Consensus)', BOT1_CONSENSUS_PROMPT, bot1Input, 'claude-sonnet-4-20250514', true);
   fs.writeFileSync(`${outputDir}/${productSlug}_bot1_consensus.md`, bot1Output);
   validateBotOutput(bot1Output, 'Bot 1 (Consensus)', productName, outputDir);
