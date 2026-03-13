@@ -624,8 +624,20 @@ async function runBot(botName, systemPrompt, userMessage, model, useWebSearch) {
 
     if (stopReason === 'end_turn') break;
 
-    if (stopReason === 'pause_turn' || stopReason === 'tool_use' || stopReason === 'max_tokens') {
-      // Only keep text blocks in history — never send tool_use blocks back
+    if (stopReason === 'pause_turn') {
+      // Server-side tool execution paused — send response.content back AS-IS
+      // per Anthropic docs: "continue the conversation by sending the response back"
+      // Do NOT strip tool_use blocks. Do NOT add "Continue." user message.
+      // The API will resume its server-side sampling loop from where it left off.
+      messages = [
+        { role: 'user', content: messages[0].content },  // original user message
+        { role: 'assistant', content: response.content },  // full response including server_tool_use blocks
+      ];
+      continue;
+    }
+
+    if (stopReason === 'tool_use' || stopReason === 'max_tokens') {
+      // Client-side tool use or token limit — existing behavior is fine
       const safeContent = textBlocks.length > 0
         ? textBlocks
         : [{ type: 'text', text: '...' }];
