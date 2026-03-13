@@ -172,7 +172,8 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
   console.log(`[RECONCILIATION] Assessment: ${assessment.split('\n').find(l => l.startsWith('VERDICT')) || 'see output'}`);
 
   // If no disagreements, tag HIGH CONFIDENCE and exit
-  if (assessment.includes('VERDICT: AGREEMENT')) {
+  const assessLower = assessment.toLowerCase();
+  if (assessLower.includes('verdict: agreement') || assessLower.includes('verdict:** agreement') || (assessLower.includes('no genuine disagreement') && !assessLower.includes('disagreement areas:'))) {
     console.log('[RECONCILIATION] No disagreements found — HIGH CONFIDENCE tag applied.');
     const result = {
       status: 'AGREEMENT',
@@ -200,8 +201,12 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
   const transcriptPath = `${outputDir}/${productName.toLowerCase().replace(/\s+/g, '_')}_bot5_reconciliation.md`;
   fs.writeFileSync(transcriptPath, fullTranscript);
 
-  const resolved = debateResult.synthesis.includes('OVERALL: RECONCILED') ||
-                   debateResult.synthesis.includes('OVERALL: **RECONCILED');
+  const synthLower = debateResult.synthesis.toLowerCase();
+  const resolved = synthLower.includes('overall: reconciled') ||
+                   synthLower.includes('overall:** reconciled') ||
+                   synthLower.includes('status**: **reconciled') ||
+                   synthLower.includes('status: reconciled') ||
+                   (synthLower.includes('reconciled') && !synthLower.includes('unresolved'));
 
   if (resolved) {
     console.log(`[RECONCILIATION] Resolved in 1 round.`);
