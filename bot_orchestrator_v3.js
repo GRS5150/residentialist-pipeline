@@ -609,10 +609,21 @@ CRITICAL RULES:
     Before every Judgment score write: "EVIDENCE LEVEL: [NOTE/YELLOW/RED] — [reason in one sentence]"
     Label every negative finding as RED or YELLOW in your output. Never leave a finding unclassified.
 
+15. NON-DISCLOSURE TRANSPARENCY FLAG — MANDATORY:
+    When Bot 1 tags a spec as "NOT PUBLISHED" (meaning the manufacturer has the data but does not disclose it), AND you score that subscore from a certification floor per Rule 7:
+    a. Add a non_disclosure_flags entry to your output with:
+       - subscore: the affected subscore name (e.g., "air_water")
+       - metric: what was withheld (e.g., "Air Infiltration specific cfm/ft² value")
+       - certification_used: the certification floor applied (e.g., "Energy Star ≤ 0.30 cfm/ft²")
+       - score_given: the score derived from the floor
+       - note: "NON-DISCLOSURE PENALTY APPLIED — This score is based on the certification floor because [Manufacturer] does not publish specific test results despite holding certifications that required testing. Industry sources and the manufacturer's own marketing suggest actual performance is meaningfully better. If [Manufacturer] published their tested value, this subscore — and the overall score — would likely increase. We score what's documented, not what's implied."
+    b. This flag is SEPARATE from YELLOW findings. A YELLOW finding says something might be wrong. A non-disclosure flag says the score is artificially low due to manufacturer choice, not product deficiency.
+    c. Do NOT apply this flag when a spec is "NOT FOUND" (search limitation) — only when "NOT PUBLISHED" (manufacturer withholds data they provably possess).
+
 OUTPUT FORMAT — MANDATORY JSON:
 You MUST output ONLY a valid JSON object. No markdown, no explanation outside the JSON. Use this exact schema:
 
-{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"score": 0.0, "reasoning": "string"}, "manufacturing_quality": {"score": 0.0, "reasoning": "string"}, "professional_consensus": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"score": 0.0, "base": 0, "adjustments": "string", "ceiling_applied": false, "reasoning": "string"}, "repairability": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string"}`;
+{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"score": 0.0, "reasoning": "string"}, "manufacturing_quality": {"score": 0.0, "reasoning": "string"}, "professional_consensus": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"score": 0.0, "base": 0, "adjustments": "string", "ceiling_applied": false, "reasoning": "string"}, "repairability": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string", "non_disclosure_flags": [{"subscore": "string", "metric": "string", "certification_used": "string", "score_given": 0.0, "note": "string"}]}}`;
 
 const BOT3_MATERIAL_SAFETY_PROMPT = `You are The Residentialist Material Safety Bot (Bot 3). You evaluate health and toxicity risk from the product's materials during and after installation. You score on a 0-10 scale. Your score is published separately — it is never averaged into Quality, Durability, or Performance.
 
