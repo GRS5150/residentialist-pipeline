@@ -758,9 +758,24 @@ async function runPipeline(productName, config, researchFiles) {
     }
   }
 
-  if (!researchContent.trim()) {
-    console.error('[ORCHESTRATOR] No local research files — Bot 1 will search the web.');
+  // ── AUTO-LOAD: Check for existing baseline research file ──────────────────
+  const baselineResearchPath = path.join(__dirname, 'inputs', `${productSlug}_research_baseline.md`);
+  let hasBaseline = false;
+  if (fs.existsSync(baselineResearchPath)) {
+    try {
+      const baselineContent = fs.readFileSync(baselineResearchPath, 'utf8');
+      if (baselineContent.trim().length > 500) {
+        researchContent += `\n\n--- SOURCE FILE: ${productSlug}_research_baseline.md (AUTO-GENERATED BASELINE) ---\n${baselineContent}`;
+        hasBaseline = true;
+        console.log(`[ORCHESTRATOR] Auto-loaded baseline research: ${baselineResearchPath} (${baselineContent.length} chars)`);
+      }
+    } catch (err) {
+      console.error(`[ORCHESTRATOR] WARNING: Could not load baseline research: ${err.message}`);
+    }
+  }
 
+  if (!researchContent.trim()) {
+    console.log('[ORCHESTRATOR] No local research files — Bot 1 will search the web.');
   }
 
   // Load knowledge files
@@ -770,9 +785,17 @@ async function runPipeline(productName, config, researchFiles) {
     .join('\n\n');
 
   // ── BOT 1: Consensus ──────────────────────────────────────────────────────
-  const supplementalNote = researchContent.trim()
-    ? `\n\nSUPPLEMENTAL RESEARCH FILE (pre-verified by human researcher — see RULE E1):\n${researchContent}\n\nIMPORTANT: The supplemental file above contains pre-verified data. Per RULE E1, treat its sourced claims as confirmed facts. Still perform all required searches to find ADDITIONAL data not covered by the supplemental file. If your web search finds data that contradicts the supplemental file, note the conflict and cite both sources — do not silently override the supplemental file.`
-    : '';
+  // Build supplemental note — distinguish between human-provided and auto-baseline files
+  let supplementalNote = '';
+  if (researchContent.trim()) {
+    if (hasBaseline && researchFiles.length === 0) {
+      // Only auto-baseline exists (no human-provided files) — use refresh mode
+      supplementalNote = `\n\nBASELINE RESEARCH FILE (from a previous pipeline run — treat as starting point, NOT final authority):\n${researchContent}\n\nIMPORTANT — REFRESH MODE: The baseline file above contains findings from a prior run. Your job is to:\n1. VERIFY the baseline claims are still accurate by checking key sources\n2. SEARCH for any NEW data not in the baseline (new certifications, warranty changes, new field reports, product updates)\n3. If you find contradictions, note them and cite both sources\n4. Your output should be a COMPLETE updated findings document — not just the new stuff\n5. You may skip exhaustive re-searching of data that the baseline already covers with cited sources\nThis is a refresh, not a full re-research. Be efficient.`;
+    } else {
+      // Human-provided supplemental files exist — use original verified mode
+      supplementalNote = `\n\nSUPPLEMENTAL RESEARCH FILE (pre-verified by human researcher — see RULE E1):\n${researchContent}\n\nIMPORTANT: The supplemental file above contains pre-verified data. Per RULE E1, treat its sourced claims as confirmed facts. Still perform all required searches to find ADDITIONAL data not covered by the supplemental file. If your web search finds data that contradicts the supplemental file, note the conflict and cite both sources — do not silently override the supplemental file.`;
+    }
+  }
   const bot1Input = `PRODUCT: ${productName}
 CONFIGURATION: ${config}${supplementalNote}
 
@@ -781,6 +804,15 @@ You are researching the ${productName} in ${config} configuration. Execute all r
   fs.writeFileSync(`${outputDir}/${productSlug}_bot1_consensus.md`, bot1Output);
   validateBotOutput(bot1Output, 'Bot 1 (Consensus)', productName, outputDir);
   await runDataCompletenessCheck(bot1Output, productName, 'windows', outputDir);
+
+  // ── AUTO-SAVE: Persist Bot 1 output as baseline research for future runs ──
+  try {
+    const baselineHeader = `# Baseline Research: ${productName} (${config})\n# Auto-generated: ${new Date().toISOString()}\n# This file is automatically loaded on re-runs to avoid redundant web research.\n# To force a full re-research, delete this file.\n\n`;
+    fs.writeFileSync(baselineResearchPath, baselineHeader + bot1Output);
+    console.log(`[ORCHESTRATOR] Auto-saved baseline research: ${baselineResearchPath}`);
+  } catch (err) {
+    console.error(`[ORCHESTRATOR] WARNING: Could not save baseline research: ${err.message}`);
+  }
 
   // ── MATERIAL CLASS LOCK ───────────────────────────────────────────────────
   const materialLock = extractMaterialClass(bot1Output);
@@ -811,7 +843,13 @@ can justify exceeding this ceiling. If your calculation produces a value above $
 round it down to ${materialCeiling.ceiling} and note that the ceiling was applied.
 This is not a rubric rule — it is a pre-computed constraint injected by the pipeline.`;
 
-  const bot2Input = `PRODUCT: ${productName}\nCONFIGURATION: ${config}\n${materialLockLine}\n\n${ceilingConstraint}\n\nKNOWLEDGE BASE:\n${knowledgeContent}\n\nBOT 1 CONSENSUS FINDINGS:\n${bot1Output}\n\nORIGINAL RESEARCH (for source verification):\n${researchContent}\n\nScore this product now. Show all math.`;
+  // Cap research content for Bot 2 to prevent context overflow
+  // Bot 2 primarily needs Bot 1's synthesized findings — raw research is for source verification only
+  const maxResearchChars = 30000;
+  const cappedResearch = researchContent.length > maxResearchChars
+    ? researchContent.slice(0, maxResearchChars) + '\n\n[TRUNCATED — full research available in Bot 1 consensus findings above]'
+    : researchContent;
+  const bot2Input = `PRODUCT: ${productName}\nCONFIGURATION: ${config}\n${materialLockLine}\n\n${ceilingConstraint}\n\nKNOWLEDGE BASE:\n${knowledgeContent}\n\nBOT 1 CONSENSUS FINDINGS:\n${bot1Output}\n\nORIGINAL RESEARCH (for source verification):\n${cappedResearch}\n\nScore this product now. Show all math.`;
   const bot2Output = await runBot('Bot 2 (Evaluator)', BOT2_EVALUATOR_PROMPT, bot2Input, 'claude-sonnet-4-20250514');
   const bot2Parsed = validateBotOutput(bot2Output, 'Bot 2 (Evaluator)', productName, outputDir);
   // Write the JSON

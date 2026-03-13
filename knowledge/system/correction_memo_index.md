@@ -21,3 +21,9 @@ All product-specific correction memos and pre-approved assumptions.
 - **File:** `andersen_eseries_dh_correction_memo.md`
 - **Pre-approved specs:** Energy Star Compliance, Wood/Aluminum Material Class, Manufacturing Issues Impact, Dealer Network Availability, Parts Availability
 - **Source:** Auto-generated
+
+## Andersen E-Series DH (DH) — 2026-03-13
+- **Category:** Windows
+- **File:** `andersen_eseries_dh_dh_correction_memo.md`
+- **Pre-approved specs:** U-Factor 0.26-0.27, Air Infiltration ≤0.2 cfm/ft², Manufacturing delays resolved, Warranty service improvements
+- **Source:** Auto-generated
