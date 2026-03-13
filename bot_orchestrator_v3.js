@@ -261,6 +261,7 @@ function extractMaterialClass(bot1Output) {
   const lines = bot1Output.split('\n');
 
   // Look for explicit material class statements in Bot 1's PRODUCT OVERVIEW section
+  // Handle multi-line: if "Frame Material:" line has empty value, check next line
   const patterns = [
     /material\s+class\s*[:—]\s*(.+)/i,
     /frame\s+material\s*[:—]\s*(.+)/i,
@@ -268,15 +269,24 @@ function extractMaterialClass(bot1Output) {
     /construction\s*[:—]\s*(.+frame.+|vinyl|wood|fiberglass|aluminum|composite)/i,
   ];
 
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
     for (const pattern of patterns) {
       const match = line.match(pattern);
       if (match) {
         let raw = match[1].trim().replace(/[*_]/g, '').split('(')[0].trim();
+        // If the match captured nothing meaningful, check the next line
+        if (raw.length <= 2 && i + 1 < lines.length) {
+          raw = lines[i + 1].trim().replace(/[*_]/g, '').split('(')[0].trim();
+        }
         // Normalize: "Wood-clad" + aluminum context → "Aluminum-clad wood"
-        const fullMatch = match[1].toLowerCase();
-        if (/wood.clad/i.test(raw) && /aluminum|extruded/i.test(fullMatch)) {
-          raw = fullMatch.includes('extruded') ? 'Aluminum-clad wood (extruded aluminum)' : 'Aluminum-clad wood';
+        const fullContext = (match[1] + ' ' + (lines[i + 1] || '')).toLowerCase();
+        if (/wood.clad/i.test(raw) && /aluminum|extruded/i.test(fullContext)) {
+          raw = fullContext.includes('extruded') ? 'Aluminum-clad wood (extruded aluminum)' : 'Aluminum-clad wood';
+        }
+        // Normalize: "Wood protected by aluminum exterior" → "Aluminum-clad wood"
+        if (/wood\s+protected\s+by\s+aluminum/i.test(raw) || /wood.*aluminum\s+exterior/i.test(raw)) {
+          raw = 'Aluminum-clad wood';
         }
         if (raw.length > 2 && raw.length < 80) {
           return { found: true, rawText: raw, source: 'bot1_product_overview' };
@@ -285,10 +295,11 @@ function extractMaterialClass(bot1Output) {
     }
   }
 
-  // Secondary: scan for material keywords near "window" mentions
+  // Secondary: scan for material keywords
   const materialKeywords = [
     { pattern: /vinyl\s+window|vinyl\s+frame|vinyl\s+construction/i, label: 'Vinyl' },
     { pattern: /aluminum.clad\s+wood|clad.wood|wood.clad/i, label: 'Aluminum-clad wood' },
+    { pattern: /wood\s+protected\s+by\s+aluminum|wood.*aluminum\s+exterior/i, label: 'Aluminum-clad wood' },
     { pattern: /fiberglass\s+frame|pultruded\s+fiberglass|ultrex/i, label: 'Pultruded fiberglass' },
     { pattern: /all.wood|wood\s+frame|wood\s+window/i, label: 'Wood' },
     { pattern: /aluminum\s+frame|aluminum\s+window|non.clad\s+aluminum/i, label: 'Aluminum' },
