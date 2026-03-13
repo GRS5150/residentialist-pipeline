@@ -59,6 +59,16 @@ function extractOutlook(result) {
 }
 
 function extractAxisScores(result) {
+  // Primary path: structured JSON from Bot 2 (scores.{axis}.axis_score)
+  const s = result.bot2Parsed && result.bot2Parsed.scores;
+  if (s && s.quality && s.quality.axis_score != null) {
+    return {
+      quality: s.quality.axis_score,
+      durability: s.durability ? s.durability.axis_score : null,
+      performance: s.performance ? s.performance.axis_score : null
+    };
+  }
+  // Legacy path: flat fields (quality_score, durability_score, performance_score)
   if (result.bot2Parsed && result.bot2Parsed.quality_score != null) {
     return {
       quality: result.bot2Parsed.quality_score,
