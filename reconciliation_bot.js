@@ -117,7 +117,7 @@ ${bot2Output.slice(0, 5000)}`;
   // Bot 1 perspective
   const bot1Response = await client.messages.create({
     model: 'claude-haiku-4-5-20251001',
-    max_tokens: 1200,
+    max_tokens: 2500,
     system: [{ type: 'text', text: BOT1_ADVOCATE_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{ role: 'user', content: `${context}\n\nPresent your case for each disagreement item now.` }]
   });
@@ -126,7 +126,7 @@ ${bot2Output.slice(0, 5000)}`;
   // Bot 2 perspective — sees Bot 1's argument
   const bot2Response = await client.messages.create({
     model: 'claude-haiku-4-5-20251001',
-    max_tokens: 1200,
+    max_tokens: 2500,
     system: [{ type: 'text', text: BOT2_ADVOCATE_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{ role: 'user', content: `${context}\n\nBot 1 has made the following arguments:\n\n${bot1Argument}\n\nRespond to each point now.` }]
   });
