@@ -123,7 +123,7 @@ const REQUIRED_FIELDS = {
     { field: 'U-Factor',         signals: ['u-factor', 'u factor', 'ufactor'],              source: 'NFRC certification database' },
     { field: 'SHGC',             signals: ['shgc', 'solar heat gain'],                       source: 'NFRC certification database' },
     { field: 'Air Infiltration', signals: ['air infiltration', 'air leakage', 'cfm/ft'],     source: 'NFRC / AAMA certification' },
-    { field: 'AAMA Class',       signals: ['aama', 'performance class', 'design pressure'],  source: 'AAMA certification directory' },
+    { field: 'AAMA/NAFS Class',   signals: ['aama', 'nafs', 'csa a440', 'performance class', 'performance grade', 'design pressure', 'en 14351'],  source: 'AAMA/NAFS/EN certification directory' },
     { field: 'Frame Material',   signals: ['frame material', 'material class', 'vinyl', 'fibrex', 'fiberglass', 'wood', 'aluminum'], source: 'manufacturer spec sheet' },
     { field: 'Warranty',         signals: ['warranty', 'limited lifetime', 'year warrant'],  source: 'manufacturer warranty documentation' },
     { field: 'Energy Star',      signals: ['energy star', 'energystar'],                     source: 'energystar.gov certified products' },
@@ -146,6 +146,8 @@ const MANDATORY_SOURCES = {
     'provia':    ['proviaproducts.com'],
     'cgi':       ['cgiwindows.com', 'nfrc'],
     'sierra pacific': ['sierrapacificwindows.com', 'nfrc'],
+    'loewen':     ['loewen.com', 'nafs', 'csa'],
+    'inline':     ['inlinefiberglass.com', 'nafs'],
   },
 };
 
@@ -343,10 +345,36 @@ PHASE 2 — REQUIRED SEARCHES (perform each one):
 17. Search: "[Manufacturer] Prop 65 California warning" — check for any chemical disclosure warnings
 18. Search: "[Product Name] VOC emissions indoor air quality certification Greenguard" — confirm or rule out air quality certifications
 
+PHASE 2B — INTERNATIONAL STANDARDS SEARCH (perform if manufacturer is non-US or sells internationally):
+19i. Search: "[Manufacturer] NAFS CSA A440 performance grade structural test" — Canadian fenestration standard (harmonized with AAMA)
+20i. Search: "[Manufacturer] EN 14351-1 CE marking window performance" — European fenestration standard
+21i. Search: "[Manufacturer] Passive House Institute PHI certified window" — search PHI component database
+22i. Search: "[Manufacturer] performance data air water structural test results" — find manufacturer-published test data pages
+23i. Search: site:database.passivehouse.com "[Manufacturer]" — check PHI certified components database directly
+
+INTERNATIONAL STANDARDS RECOGNITION — CRITICAL:
+First-world nation standards are ALL meaningful. You must search for and recognize:
+- US: AAMA, NFRC, ENERGY STAR, Florida Building Code, IRC
+- Canada: NAFS/CSA A440 (this IS the same harmonized standard as AAMA — a CW-PG70 under NAFS equals a CW-PG70 under AAMA), NRCan, ENERGY STAR Canada
+- Europe: CE marking per EN 14351-1, EN 673 (thermal), EN 12567, Passive House Institute (PHI) Darmstadt certification, RAL quality marks
+- UK: BS 6375, PAS 24, BFRC (British Fenestration Rating Council), BBA, BSI Kitemark
+- Australia/NZ: WERS (Window Energy Rating Scheme), AS 2047
+
+DO NOT assume a manufacturer lacks certifications just because you cannot find AAMA or NFRC data. Canadian manufacturers test to NAFS/CSA A440 — the exact same structural and air/water tests. European manufacturers test to EN standards. Report what you find under the standard it was tested to. DO NOT attempt to convert between standards (e.g., European U-values use different test conditions than NFRC U-values). Report each value with its standard clearly noted.
+
 PHASE 3 — FIELD SOURCE RESEARCH (Reddit trade professionals):
 19. Search: site:reddit.com "[Product Name]" window install review — find installer/contractor opinions
 20. Search: site:reddit.com "[Manufacturer]" windows quality problems — find field complaints and praise
 21. Search: site:reddit.com "[Product Name]" OR "[Manufacturer]" r/homeimprovement OR r/construction OR r/homebuilding — broader trade discussion
+
+PHASE 3B — SPECIALTY FORUM RESEARCH (high-performance building community):
+25. Search: site:greenbuildingadvisor.com "[Manufacturer]" OR "[Product Name]" — GBA is a paywall community of architects, energy consultants, and serious builders. Treat GBA contributors as closer to Expert Authorities (Category 2) than field sources.
+26. Search: site:reddit.com/r/PassiveHouse "[Manufacturer]" OR "[Product Name]" — passive house community (energy nerds, not tradespeople)
+27. Search: site:reddit.com/r/buildingscience "[Manufacturer]" OR "[Product Name]" — building science enthusiasts
+28. Search: site:finehomebuilding.com "[Manufacturer]" "[Product Name]" forum — professional builder forum
+29. Search: "[Manufacturer]" "[Product Name]" site:greenbuildingforum.co.uk OR site:greenbuildingtalk.com — UK/European green building forums (especially useful for European manufacturers)
+
+GBA and r/PassiveHouse sources should be categorized separately from general Reddit in your output. These communities self-select for people who accept that high-performance windows cost more — they have minimal price-bias noise and discuss actual U-values, SHGC, air tightness, and installation methodology.
 22. For each Reddit user found expressing a substantive product opinion, assess their qualification:
     - Check their karma (visible on profile), account age, and subreddit activity
     - Look for technical vocabulary (specific components, installation practices, failure modes)
@@ -357,6 +385,8 @@ PHASE 3 — FIELD SOURCE RESEARCH (Reddit trade professionals):
 24. If 3+ qualified field sources are found for this product, note the trimmed mean sentiment and whether it agrees or diverges from publication/certification signals
 
 7. FIELD SOURCE OPINIONS — qualified Reddit/forum professionals found, their product verdicts, credibility assessment, and whether field consensus agrees with or diverges from publication/certification signals. If no qualified field sources found, note "No qualified field sources identified for this product."
+8. INTERNATIONAL CERTIFICATIONS — list ALL certifications found from any first-world nation, with the standard clearly identified (e.g., "NAFS CW-PG70" not just "PG70", "EN 14351-1 CE marked" not just "CE marked"). Note the country/standard for each. Do NOT convert between standards.
+9. SPECIALTY FORUM FINDINGS — separate section for GBA, r/PassiveHouse, r/buildingscience opinions. These are higher-authority than general Reddit and should be clearly distinguished.
 
 CRITICAL DATA TARGETS — you must find or explicitly note as NOT FOUND:
 - U-factor (whole window, dual pane standard config)
@@ -473,6 +503,47 @@ CRITICAL RULES:
       c. Do NOT produce a score. Do NOT continue the evaluation.
     - If you proceed with a different material class than LOCKED_MATERIAL_CLASS without flagging, the entire evaluation is invalid.
     - A material reclassification flag will be caught by the Challenge Bot and escalated. This is the correct behavior.
+
+13. PRICE-BIAS FILTER FOR FIELD SOURCES — CRITICAL:
+    When processing Reddit or forum opinions from qualified field sources, check for PRICE-ANCHORED NEGATIVITY:
+    Price-bias indicators: "overpriced", "not worth the money", "paying for the name", "too expensive for what you get", "can get the same from X for half", "rich people windows", "markup is insane", "not worth it", "highway robbery", "better value in", "paying a premium for nothing"
+    Genuine quality/durability/performance complaints: "leaks", "failed", "warranty claim", "rotted", "fogged units", "seal failure", "hard to operate", "drafty", "broke", "cracked", "callback", "replacement needed", "water damage", "mold"
+    
+    RULE: When negative field source sentiment co-occurs with price-bias language AND lacks specific quality/durability/performance complaints:
+    a. Flag the opinion as "PRICE-BIAS DETECTED" in field source processing
+    b. Reduce its weight by 50% on Quality, Durability, and Performance axes
+    c. Note it as a value judgment, not a product quality judgment
+    d. Do NOT discard it entirely — price-biased opinions may still contain legitimate secondary observations
+    e. If the same source mixes price complaints with genuine failure reports (e.g., "overpriced AND the seals failed after 3 years"), weight the failure report at full value and flag only the price portion
+    
+    This filter exists because blue-collar tradespeople sometimes rate expensive products as "junk" when they mean "overpriced relative to alternatives" — a value judgment the Residentialist does not currently score.
+
+14. INTERNATIONAL STANDARDS INTERPRETATION — CRITICAL:
+    Bot 1 may report certifications from multiple national standards. Handle them as follows:
+    
+    a. NAFS/CSA A440 (Canadian) = EQUIVALENT to AAMA for structural and air/water performance.
+       - CW-PG70 under NAFS = CW-PG70 under AAMA. Score identically.
+       - Air infiltration levels: A1 (worst), A2 (moderate), A3 (best). A3 = highest possible rating = score 9-10 on air infiltration.
+       - Water penetration values in Pascals: >700 Pa = excellent, 400-700 Pa = good, <400 Pa = moderate
+       - Design Pressure (DP) ratings are directly comparable between NAFS and AAMA
+    
+    b. EN 14351-1 (European) = NOT directly comparable to NAFS/AAMA.
+       - European U-values (Uw) are tested at 0°C exterior, NFRC at -18°C. European values will APPEAR better. DO NOT directly compare.
+       - Instead: score European products within the European scale. Uw < 0.8 W/(m²K) = excellent, 0.8-1.2 = good, 1.2-1.6 = moderate, >1.6 = poor
+       - Air permeability classes: Class 4 (best), Class 3, Class 2, Class 1 (worst)
+       - Water tightness classes: higher number = better (e.g., E1200 > E600)
+    
+    c. PHI Certification (Passive House Institute):
+       - phA+ (Uw ≤ 0.40) = premium tier, score 9.5-10 on thermal
+       - phA (Uw ≤ 0.60) = excellent tier, score 9-9.5 on thermal  
+       - phB (Uw ≤ 0.80) = good tier, score 8-9 on thermal
+       - phC (Uw ≤ 1.00) = adequate tier, score 7-8 on thermal
+       - A PHI-certified product has undergone rigorous independent testing. This is Tier 1 certification data.
+    
+    d. Florida Building Code registrations (FL#####) confirm products have passed hurricane/impact testing — score these as structural performance confirmation equivalent to AAMA/NAFS high wind zone compliance.
+    
+    e. NEVER penalize a product for "no AAMA certification" if it holds equivalent NAFS/CSA certification. They are literally the same standard with the same test procedures.
+    
     JUDGMENT SCORE FLOORS based on evidence classification:
     - Only NOTE-level evidence (single source): Judgment floor is 4.0 — cannot score below 4.0
     - YELLOW evidence (pattern, multiple sources, unverified): Judgment range 3.0–6.0
