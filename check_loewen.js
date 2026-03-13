@@ -1,0 +1,14 @@
+const d = require("./outputs/loewen_2026-03-12T22-22-22/loewen_bot2_evaluator.json");
+console.log("=== LOEWEN FINDINGS ===");
+console.log("RED:", JSON.stringify(d.findings.red, null, 2));
+console.log("\nYELLOW:", JSON.stringify(d.findings.yellow, null, 2));
+console.log("\n=== LOEWEN SCORES DETAIL ===");
+console.log("Quality axis:", d.scores.quality.axis_score);
+console.log("  Component:", d.scores.quality.component_quality.score);
+console.log("  Manufacturing:", d.scores.quality.manufacturing_quality.score);
+console.log("  Consensus:", d.scores.quality.professional_consensus.score);
+console.log("Durability axis:", d.scores.durability.axis_score);
+console.log("Performance axis:", d.scores.performance.axis_score);
+console.log("  Thermal:", d.scores.performance.thermal.score);
+console.log("  Structural:", d.scores.performance.structural.score);
+console.log("  Air/Water:", d.scores.performance.air_water.score);

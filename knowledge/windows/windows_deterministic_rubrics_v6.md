@@ -81,9 +81,26 @@ Structured tiers (same Excellent/Good/Adequate/Below/Poor scale as above).
 **Professional Consensus Ceiling Rule:** If 2+ independent professional sources recommend specific competing products at the same or lower price, Professional Consensus cannot exceed 7.5.
 
 **Source quality requirements:**
-- "Professional source" = contractor, builder, building scientist, or independent consultant with verifiable credentials
-- Forum posts from verified professionals count. Anonymous consumer complaints do not.
-- Manufacturer marketing does not count as professional consensus.
+- "Professional source" = contractor, builder, building scientist, independent consultant with verifiable credentials, OR qualified Reddit field source (see below)
+- Qualified Reddit field sources count as professional sources. See verified_field_sources.json for pre-qualified users and dynamic qualification criteria.
+- Anonymous consumer complaints, unqualified homeowner reviews, and manufacturer marketing do not count.
+
+**Field Source (Reddit) Integration Rules:**
+
+Qualified field sources from Reddit trade forums are valid professional sources for this subscore. Their ceiling contribution depends on sample size:
+
+| Qualified Field Sources Found | Professional Consensus Ceiling from Field Sources Alone |
+|---|---|
+| 1-2 qualified | Max 6.5 |
+| 3-5 qualified | Max 7.5 |
+| 6-9 qualified | Max 8.5 |
+| 10+ qualified | No cap (max 10) |
+
+When multiple qualified field sources express opinions on the same product, apply **trimmed mean**: drop the highest and lowest, average the rest. Below 4 sources, use simple mean.
+
+Field source evidence combines with Expert Authority and Publication evidence — it does not replace them. If Expert Authorities (Jay Johnson, GBA, BSC) have evaluated the product, their assessment governs. Field sources strengthen or corroborate. If no Expert Authority or Publication evidence exists, field source evidence alone can establish Professional Consensus up to its sample-size ceiling.
+
+**Divergence Flag:** If the field source consensus and the Expert Authority / Publication / Certification consensus disagree by more than 2 points on the Quality axis, generate a Yellow Finding: "Field professionals rate this product significantly [lower/higher] on Quality than [Expert Authority / Publication] sources suggest. This divergence may indicate [marketing narrative vs. field reality / publication bias / lab-vs-field performance gap]."
 
 ---
 

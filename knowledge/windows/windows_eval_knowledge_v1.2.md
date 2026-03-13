@@ -10,43 +10,123 @@ Give this file to Bot 1 (source hierarchy section only) and Bot 2 (full file).
 
 ## Source Authority Hierarchy
 
-*Council-validated March 6, 2026 — Items 11-A, 11-B, 11-C, 11-D*
+*Updated March 13, 2026 — Four-category taxonomy with field source integration. Preserves all council-validated rules (Items 11-A through 11-D).*
 
-### Tier 1 — Governing Sources
+The source hierarchy uses four functional categories rather than a simple credibility ladder. Each category contributes differently to scoring, and their weight varies by axis.
+
+---
+
+### CATEGORY 1: Certification Bodies — Hard Constraints on Performance
+
+NFRC (thermal ratings), AAMA/FGIA (structural, air infiltration), Energy Star (efficiency thresholds), PHI/PHIUS (passive house certification), ift Rosenheim (European testing authority), Greenguard (emissions), IGMA (IGU longevity data).
+
+**Role:** These are verified test data, not opinions. They feed directly into the Performance axis and Material Safety dimension as deterministic inputs.
+
+**Scoring rule:** Certification data is not weighted against expert opinions — it is a different kind of input. A product that meets Passive House standards should score near the top of the Performance axis. If it doesn't, the rubric is miscalibrated on that axis. Certification data also sets scale boundaries for calibration.
+
+---
+
+### CATEGORY 2: Expert Authorities — Governing Sources for Quality & Durability
 
 | Source | Authority | Independence Basis |
 |---|---|---|
 | Jay Johnson / WindowPurchase.com | PRIMARY — component taxonomy, spacer hierarchy, hardware quality, comparative product evaluation, P1 Chamber testing | Direct sales model — paid by buyers, not manufacturers. No dealer referral revenue. No brand partnership income. Publicly documented. |
-| Green Building Advisor (GBA) editorial experts | TIER 1 — independent building science professionals | Expert contributors are credentialed building scientists operating without manufacturer sponsorship in editorial contexts |
-| Building Science Corporation / BSC (Lstiburek) | TIER 1 — technical publications | Academic and research funding basis; no product endorsement revenue |
-| PHI / PHIUS | TIER 1 — passive house certification authority | Certification-body role; no commercial product interest |
-| ift Rosenheim | TIER 1 — European window testing authority | Accredited independent laboratory; Notified Body status |
+| Green Building Advisor (GBA) editorial experts | Expert authority — independent building science professionals | Expert contributors are credentialed building scientists operating without manufacturer sponsorship in editorial contexts |
+| Building Science Corporation / BSC (Lstiburek) | Expert authority — technical publications | Academic and research funding basis; no product endorsement revenue |
 
-**Tier 1 scoring rule:** 2+ Tier 1 sources in agreement = consensus established. 1 Tier 1 source = strong evidence, not full consensus.
+**Scoring rule:** 2+ Expert Authority sources in agreement = consensus established. 1 Expert Authority source = strong evidence, not full consensus. Expert Authority governs over all other categories when in direct conflict.
 
-### Tier 2 — Contributing Sources
+---
+
+### CATEGORY 3: Trade Publications — Calibration Cross-Check (moderate weight)
 
 | Source | Authority | Limitation |
 |---|---|---|
-| Fine Homebuilding | Contractor and architect field experience | Advertiser relationships with window manufacturers preclude Tier 1 standing; editorial content is still credible but weighted lower |
-| The Window Dog | Product research and comparison content | Dealer referral model (commercial adjacency to brands reviewed); content is useful for product identification and comparison, not for independent quality verdicts |
+| Fine Homebuilding | Contractor and architect field experience | Advertiser relationships with window manufacturers; editorial content credible but commercially adjacent |
+| The Window Dog | Product research and comparison content | Dealer referral model (commercial adjacency to brands reviewed); useful for product identification, not independent verdicts |
 | Consumer Reports | Independent consumer testing | Methodology disputed in building science community for windows specifically; useful as corroborating source |
 | IBHS (Insurance Institute for Business and Home Safety) | Structural and weather resistance testing | Specialized scope; high credibility within that scope |
 | Jeff Ludy / Houston Window Experts | **Installation methodology, flashing practices, warranty mechanics, consumer education ONLY** | Authorized Marvin Infinity dealer with commercial referral relationships (jeffslist.com). NOT brand evaluation authority under any circumstances. |
 
-**Tier 2 scoring rule:** 1 Tier 1 + 2+ Tier 2 sources in agreement = strong evidence. Tier 2 alone can corroborate but cannot establish a verdict.
+**Scoring rule:** Publications provide analytical rigor and broader market perspective. Use as calibration cross-check. If pipeline output disagrees with both the field professionals and the publications, the pipeline is almost certainly wrong. If it agrees with field professionals but disagrees with a publication, the pipeline is probably right and the publication may have advertiser bias.
 
-### Tier 3 — Corroborating Sources Only
+---
 
-Houzz contractor threads, Reddit trade forums, BBB, Trustpilot, Angi, Yelp, homeowner reviews.
+### CATEGORY 4: Qualified Field Sources — Ground Truth for Quality & Durability
 
-**Tier 3 scoring rule:** Tier 3 only = Professional Consensus cannot exceed 5. Cannot establish any scored verdict. Use for failure-mode identification and pattern detection only, labeled explicitly as non-authoritative.
+**What this is:** Trade professionals (installers, glaziers, carpenters, repair technicians) who share product opinions in online forums, primarily Reddit. These are the people who see what happens to products after the spec sheet ends. They know which frames crack at year seven, which hardware seizes up, which products are nightmares to flash. Their knowledge is experiential and long-duration.
 
-**Tier governance:** Tier 1 governs over Tier 2 and Tier 3. When a Tier 1 source contradicts a Tier 2 or 3 source, document the conflict and score from the Tier 1 assessment with the contradiction noted.
+**Why this matters:** When an installer with hundreds of installations tells you a product is garbage, that opinion was formed over years of callbacks and warranty work. This is the most reliable signal for Quality and Durability scoring. The limitation is that tradespeople generally don't think in terms of thermal performance data — they think in "this one holds up" and "this one doesn't." So their input is strongest on Quality and Durability, weaker on Performance.
+
+**Pre-qualified sources:** See `verified_field_sources.json` in the knowledge base. Bot 1 should check this cache first, then discover new qualified sources dynamically during research.
+
+**Dynamic qualification criteria (for new sources found during research):**
+- 5,000+ total karma (shows sustained engagement, not a throwaway)
+- Active in relevant subreddits: r/HomeImprovement, r/Homebuilding, r/Construction, r/Carpentry, r/BuildingScience, r/PassiveHouse, r/replacementwindows, r/homeowners
+- Account age 12+ months
+- Has posted about 3+ different brands/products (not a single-brand advocate)
+- Uses technical vocabulary consistent with trade experience (references installation practices, specific components, failure modes)
+- **Exception:** Users below karma threshold qualify if they explicitly self-identify as 30+ year trade professionals with detailed technical contributions. Weight at 50% until karma threshold met.
+
+**Disqualifiers:**
+- Post history shows commercial affiliation (manufacturer, dealer, distributor employee)
+- Primarily posts referral links or affiliate content
+- Only posts in one brand's subreddit
+- Signs of astroturfing (sudden burst of brand-positive posts)
+
+**Sample-size-dependent scoring ceilings for Professional Consensus:**
+
+| Qualified Sources Found | Professional Consensus Ceiling | Confidence Label |
+|---|---|---|
+| 1-2 qualified field sources | Max 6.5 | Low — directional only |
+| 3-5 qualified field sources | Max 7.5 | Moderate — contributing evidence |
+| 6-9 qualified field sources | Max 8.5 | High — field consensus |
+| 10+ qualified field sources | Max 10 (no cap) | Strong — full professional consensus |
+
+**Smoothing method:** Trimmed mean — drop the highest and lowest scores from the qualified source pool, average the rest. Minimum 4 sources required for trimming; below 4, use simple mean.
+
+**Calibration use:** Aggregate field source sentiment (brand rankings from verified_field_sources.json) serves as a directional benchmark. Pipeline scores should be roughly aligned with field consensus patterns — not matching exact numbers, but directionally correct. If field sources consistently rank a product as top-tier and the pipeline scores it mid-range, investigate why.
+
+---
+
+### CATEGORY 5: Influencers & Educators — Sentiment Indicator (lowest weight)
+
+YouTube reviewers, building science educators, continuing education instructors (e.g., Matt Risinger).
+
+**Scoring rule:** Some are genuinely knowledgeable; others repeat manufacturer talking points or optimize for engagement. Use as directional gut check only. If field sources, publications, AND educators all agree a product is top-tier, confidence is very high. If only influencers love a product and field sources are lukewarm, that's a marketing story, not a quality signal. Influencer-only evidence cannot establish any scored verdict.
+
+---
+
+### Per-Axis Calibration Weights
+
+When checking whether pipeline output is directionally correct, weight source categories by axis:
+
+| Axis | Certification Bodies | Expert Authorities | Trade Publications | Qualified Field Sources | Influencers |
+|---|---|---|---|---|---|
+| Quality | — | 30% | 20% | 40% | 10% |
+| Durability | — | 25% | 15% | 50% | 10% |
+| Performance | Hard constraint (governs) | 25% | 30% | 25% | 20% |
+
+---
+
+### Divergence Flagging Rule
+
+When the field source consensus (Category 4) and the certification/publication consensus (Categories 1-3) disagree by more than 2 points on any axis, Bot 2 must generate a Yellow Finding:
+
+*"Field professionals rate this product significantly [lower/higher] than its [certification data / publication reviews] would suggest on the [Quality/Durability/Performance] axis. Investigate whether [lab testing diverges from field conditions / marketing narrative diverges from installation reality / publication bias is present]."*
+
+These divergences are high-value intelligence — they surface tensions that no single source would reveal on its own.
+
+---
+
+### Tier Governance (preserved)
+
+Expert Authorities (Category 2) govern over all other categories. When an Expert Authority source directly contradicts a Trade Publication, Field Source, or Influencer source, document the conflict and score from the Expert Authority assessment with the contradiction noted.
 
 Do NOT use: manufacturer marketing materials, Amazon/retailer reviews, HomeAdvisor/Angi for brand evaluation.
 
 ---
+
 
 ### Jay Johnson Special Access Rule (Item 11-B)
 

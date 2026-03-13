@@ -15,3 +15,9 @@ All product-specific correction memos and pre-approved assumptions.
 - **File:** `pella_250_series_dh_correction_memo.md`
 - **Pre-approved specs:** U-Factor: 0.27, Energy Star Certified, Vinyl multi-chamber construction, Warm-edge spacer technology, No safety recalls, Pella parts availability
 - **Source:** Auto-generated
+
+## Andersen E-Series (DH) — 2026-03-13
+- **Category:** Windows
+- **File:** `andersen_eseries_dh_correction_memo.md`
+- **Pre-approved specs:** Energy Star Compliance, Wood/Aluminum Material Class, Manufacturing Issues Impact, Dealer Network Availability, Parts Availability
+- **Source:** Auto-generated

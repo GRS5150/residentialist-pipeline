@@ -1,0 +1,280 @@
+{
+  "category": "windows",
+  "version": "1.0",
+  "last_updated": "2026-03-13",
+  "qualification_criteria": {
+    "minimum_karma": 5000,
+    "minimum_account_age_months": 12,
+    "minimum_brands_discussed": 3,
+    "required_subreddits": [
+      "r/HomeImprovement",
+      "r/Homebuilding",
+      "r/Construction",
+      "r/Carpentry",
+      "r/BuildingScience",
+      "r/PassiveHouse",
+      "r/replacementwindows",
+      "r/homeowners"
+    ],
+    "disqualifiers": [
+      "Commercial affiliation with manufacturer/dealer/distributor",
+      "Primarily posts referral links or affiliate content",
+      "Only posts in one brand subreddit",
+      "Signs of astroturfing (sudden burst of brand-positive posts)"
+    ],
+    "exception_note": "Users below karma threshold may qualify if they explicitly self-identify as 30+ year trade professionals with detailed technical contributions. Flag as 'low_footprint_exception' and weight at 50% until karma threshold is met."
+  },
+  "confidence_tiers": {
+    "1-2_qualified": {
+      "ceiling": 6.5,
+      "label": "Low \u2014 directional only"
+    },
+    "3-5_qualified": {
+      "ceiling": 7.5,
+      "label": "Moderate \u2014 contributing evidence"
+    },
+    "6-9_qualified": {
+      "ceiling": 8.5,
+      "label": "High \u2014 field consensus"
+    },
+    "10+_qualified": {
+      "ceiling": 10,
+      "label": "Strong \u2014 full professional consensus"
+    }
+  },
+  "smoothing_method": "trimmed_mean \u2014 drop highest and lowest scores, average the rest. Minimum 4 sources required for trimming; below 4, use simple mean.",
+  "sources": [
+    {
+      "username": "boomdog07",
+      "tier": 1,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [
+        "r/HomeImprovement"
+      ],
+      "karma_at_qualification": 34873,
+      "account_age_years": 9,
+      "profession": "Window and door shop owner, 18 years in industry, 7 years own business",
+      "brands_discussed": [
+        "ProVia",
+        "various big-box brands"
+      ],
+      "expertise_signal": "Verified shop owner, understands product + sales + installation. Offers to sell at cost to local Redditors. Deep industry pricing knowledge.",
+      "geographic_hints": [
+        "Ohio"
+      ],
+      "credibility_rating": 9,
+      "disqualified": false,
+      "notes": "Strong ProVia advocate \u2014 weight commercial adjacency appropriately but he sells multiple brands"
+    },
+    {
+      "username": "soundslikemold",
+      "tier": 1,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [
+        "r/Carpentry",
+        "r/HomeImprovement",
+        "r/Homebuilding"
+      ],
+      "karma_at_qualification": 4418,
+      "account_age_years": 10,
+      "profession": "Carpenter/installer, runs small carpentry business. Installs ProVia and other brands.",
+      "brands_discussed": [
+        "ProVia",
+        "Plygem",
+        "Alside"
+      ],
+      "expertise_signal": "Hands-on installer with 10 years consistent Reddit contributions. Gives detailed technical multi-brand comparisons. References specific product design generations.",
+      "geographic_hints": [
+        "Baltimore area"
+      ],
+      "credibility_rating": 9,
+      "disqualified": false,
+      "notes": "Below 5K karma threshold but qualifies on account age (10yr) and depth of technical contribution"
+    },
+    {
+      "username": "justshyofretarded",
+      "tier": 1,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [
+        "r/HomeImprovement",
+        "r/DIY"
+      ],
+      "karma_at_qualification": 6644,
+      "account_age_years": 7,
+      "profession": "Works for established full-service glass company \u2014 windows, showers, mirrors, repairs",
+      "brands_discussed": [
+        "various \u2014 discusses quality patterns across brands"
+      ],
+      "expertise_signal": "Glass industry professional. Discusses repeat-customer patterns as quality signal, vinyl window maintenance, weep holes, long-term performance.",
+      "geographic_hints": [],
+      "credibility_rating": 9,
+      "disqualified": false,
+      "notes": ""
+    },
+    {
+      "username": "Candid-Jellyfish-975",
+      "tier": 1,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [
+        "r/HomeImprovement"
+      ],
+      "karma_at_qualification": 117666,
+      "account_age_years": 5,
+      "profession": "Window installer, primarily large commercial systems",
+      "brands_discussed": [
+        "various \u2014 commercial systems focus"
+      ],
+      "expertise_signal": "Extremely high karma. Commercial installer perspective \u2014 understands water infiltration, frame integrity, rough opening issues at engineering level.",
+      "geographic_hints": [],
+      "credibility_rating": 8,
+      "disqualified": false,
+      "notes": "Commercial focus may limit residential product-specific opinions. Strongest on installation quality and failure modes."
+    },
+    {
+      "username": "jsar16",
+      "tier": 2,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [
+        "r/Construction",
+        "r/Contractor",
+        "r/HomeImprovement",
+        "r/bluecollar",
+        "r/ConstructionManagers",
+        "r/woodworking",
+        "r/BuildingScience"
+      ],
+      "karma_at_qualification": 81232,
+      "account_age_years": 7,
+      "profession": "Active contractor, broad construction expertise including windows, doors, framing, remodeling",
+      "brands_discussed": [
+        "Pella",
+        "Andersen",
+        "Window World"
+      ],
+      "expertise_signal": "Massive karma across every major construction subreddit. Knows Pella flashing requirements. Strongly advises against retail chains.",
+      "geographic_hints": [],
+      "credibility_rating": 8,
+      "disqualified": false,
+      "notes": "General contractor, not window specialist. Very trusted community voice."
+    },
+    {
+      "username": "Familiar_Bridge9072",
+      "tier": 2,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [
+        "r/HomeImprovement",
+        "r/Carpentry"
+      ],
+      "karma_at_qualification": 2914,
+      "account_age_years": 5,
+      "profession": "Construction/remodeling professional",
+      "brands_discussed": [
+        "various \u2014 focuses on installation quality standards"
+      ],
+      "expertise_signal": "Top 1% Poster badge. Expert on door weatherstripping, gasketing, sound isolation. Practical quality-focused perspective.",
+      "geographic_hints": [],
+      "credibility_rating": 8,
+      "disqualified": false,
+      "notes": "Below karma threshold but Top 1% badge and consistent technical depth"
+    },
+    {
+      "username": "Outside-Pie-7262",
+      "tier": 3,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [
+        "r/HomeImprovement"
+      ],
+      "karma_at_qualification": 42208,
+      "account_age_years": 1,
+      "profession": "Unknown \u2014 profile hidden",
+      "brands_discussed": [
+        "Renewal by Andersen"
+      ],
+      "expertise_signal": "Extremely high karma in short time. Top 1% Commenter badge. Knowledgeable about RbA pricing tactics.",
+      "geographic_hints": [],
+      "credibility_rating": 7,
+      "disqualified": false,
+      "notes": "Profile hidden \u2014 cannot fully verify. High engagement but unverifiable history. Account age below 12mo threshold."
+    },
+    {
+      "username": "Professional-End9946",
+      "tier": 3,
+      "qualified_date": "2026-03-13",
+      "qualified_by": "ray_manual",
+      "subreddits": [],
+      "karma_at_qualification": 346,
+      "account_age_years": null,
+      "profession": "Claims 30+ year residential remodeler specializing in energy efficient windows, doors, siding",
+      "brands_discussed": [],
+      "expertise_signal": "Explicitly self-identified window/door specialist with 30+ years claimed experience.",
+      "geographic_hints": [],
+      "credibility_rating": 7,
+      "disqualified": false,
+      "notes": "Low karma, strong claim. Flag as low_footprint_exception. Weight at 50% until footprint grows."
+    }
+  ],
+  "field_consensus_benchmarks": {
+    "description": "Aggregate brand sentiment from qualified field sources. Used for directional calibration \u2014 pipeline scores should be roughly aligned with these patterns. Not used as scoring inputs.",
+    "recommended_brands": {
+      "high": [
+        "ProVia",
+        "Marvin",
+        "Harvey"
+      ],
+      "notes": "ProVia most frequently recommended by verified installers. Marvin respected for quality (especially Elevate). Harvey has multiple positive mentions from Northeast users."
+    },
+    "warned_against_brands": {
+      "low": [
+        "Renewal by Andersen",
+        "Pella retail",
+        "Window World",
+        "Jeld-Wen (Lowes)",
+        "Alside Sheffield",
+        "Plygem brands"
+      ],
+      "notes": "RbA near-universal criticism for pricing/sales. Pella retail 'most expensive premium brand' with clad rot concerns. JELD-WEN from Lowes called 'absolute garbage'. Plygem targets 'lower to middle end'."
+    },
+    "buying_advice_consensus": "Buy through local contractors/independent lumber yards. Avoid high-pressure sales. Installation quality >= brand quality. Get 3+ quotes from local installers."
+  },
+  "subreddit_map": {
+    "r/HomeImprovement": {
+      "size": "1.3M weekly",
+      "best_for": "Largest pool, mix of pros and homeowners"
+    },
+    "r/homeowners": {
+      "size": "1M weekly",
+      "best_for": "Pricing experiences, real-world cost data"
+    },
+    "r/Construction": {
+      "size": "Large",
+      "best_for": "Trade professionals, installation techniques"
+    },
+    "r/Carpentry": {
+      "size": "Large",
+      "best_for": "Skilled installers, trim/finish, restoration"
+    },
+    "r/BuildingScience": {
+      "size": "Medium",
+      "best_for": "Technical performance (U-values, flashing, air sealing)"
+    },
+    "r/PassiveHouse": {
+      "size": "Small",
+      "best_for": "Ultra-high-performance window discussions"
+    },
+    "r/Homebuilding": {
+      "size": "Medium",
+      "best_for": "New construction, builder perspectives"
+    },
+    "r/replacementwindows": {
+      "size": "Very small",
+      "best_for": "Niche but focused pricing and brand discussions"
+    }
+  }
+}
