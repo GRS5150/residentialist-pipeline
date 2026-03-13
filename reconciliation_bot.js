@@ -188,7 +188,13 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
   }
 
   // Extract disagreement items for debate
-  const disagreementBlock = assessment.slice(assessment.indexOf('DISAGREEMENT AREAS:'));
+  // Robust extraction: handle multiple heading formats (## DISAGREEMENT AREAS, DISAGREEMENT AREAS:, **DISAGREEMENT, etc.)
+  let daIdx = assessment.search(/#{0,3}\s*\*{0,2}\s*DISAGREEMENT/i);
+  if (daIdx === -1) {
+    console.log("[RECONCILIATION] WARN: Could not find DISAGREEMENT heading — using second half of assessment");
+    daIdx = Math.floor(assessment.length / 2);
+  }
+  const disagreementBlock = assessment.slice(daIdx);
 
   // Step 2: Run exactly 1 debate round
   const debateResult = await runDebateRound(
