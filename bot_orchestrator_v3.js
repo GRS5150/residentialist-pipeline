@@ -598,7 +598,7 @@ async function runBot(botName, systemPrompt, userMessage, model, useWebSearch) {
 
   // Single call — server handles web search tool execution internally
   // If pause_turn, continue with text-only history (strip tool blocks)
-  const messages = [{ role: 'user', content: userMessage }];
+  let messages = [{ role: 'user', content: userMessage }];
   let allText = [];
   let iterations = 0;
   const maxIterations = 20;
@@ -625,14 +625,10 @@ async function runBot(botName, systemPrompt, userMessage, model, useWebSearch) {
     if (stopReason === 'end_turn') break;
 
     if (stopReason === 'pause_turn') {
-      // Server-side tool execution paused — send response.content back AS-IS
-      // per Anthropic docs: "continue the conversation by sending the response back"
-      // Do NOT strip tool_use blocks. Do NOT add "Continue." user message.
-      // The API will resume its server-side sampling loop from where it left off.
-      messages = [
-        { role: 'user', content: messages[0].content },  // original user message
-        { role: 'assistant', content: response.content },  // full response including server_tool_use blocks
-      ];
+      // Server-side tool execution paused — append assistant response AS-IS
+      // The assistant turn contains server_tool_use + web_search_tool_result blocks
+      // that must stay paired in conversation history. Just append and continue.
+      messages.push({ role: 'assistant', content: response.content });
       continue;
     }
 
