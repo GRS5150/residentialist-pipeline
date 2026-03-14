@@ -296,6 +296,45 @@ const server = http.createServer((req, res) => {
         return;
       }
 
+      // GET /db/scores/grouped — scores grouped by material group (clad vs non-clad)
+      if (req.method === 'GET' && url === '/db/scores/grouped') {
+        try {
+          const db = require('./db');
+          const grouped = db.getScoresByGroup();
+          res.writeHead(200);
+          res.end(JSON.stringify(grouped));
+        } catch(e) {
+          log('DB ERROR: ' + e.message);
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
+      // GET /db/escalations — all escalated runs for the escalation dashboard
+      if (req.method === 'GET' && url === '/db/escalations') {
+        try {
+          const db = require('./db');
+          const dbInst = db.getDb();
+          const escalations = dbInst.prepare(`
+            SELECT p.product_name as name, p.config, rh.run_dir, rh.status,
+                   rh.attempts, rh.error_count, rh.started_at, rh.completed_at, rh.notes
+            FROM run_history rh
+            JOIN products p ON rh.product_id = p.id
+            WHERE rh.status = 'ESCALATED'
+            ORDER BY rh.started_at DESC
+            LIMIT 50
+          `).all();
+          res.writeHead(200);
+          res.end(JSON.stringify({ escalations }));
+        } catch(e) {
+          log('DB ERROR: ' + e.message);
+          res.writeHead(500);
+          res.end(JSON.stringify({ error: e.message }));
+        }
+        return;
+      }
+
       // Phase 5: GET /db/product?name=...&config=DH — single product detail
       if (req.method === 'GET' && url.startsWith('/db/product')) {
         try {

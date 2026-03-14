@@ -336,6 +336,15 @@ async function runWithAutoCorrection(productName, config, category, researchFile
           selfCorrected: attempt > 1, durationSeconds: duration
         });
         console.log(`[AUTO-RUNNER] Score saved to DB: ${productName} ${score} ${grade}`);
+
+        // Save material class and group (clad vs non-clad) — March 14, 2026
+        const materialClass = result.bot2Parsed?.locked_material_class
+          || result.bot2Parsed?.scores?.durability?.materials_durability?.material_class
+          || null;
+        if (materialClass) {
+          const matInfo = db.setMaterialInfo(productName, materialClass);
+          console.log(`[AUTO-RUNNER] Material info: ${materialClass} → group: ${matInfo.materialGroup}`);
+        }
       } catch (dbErr) {
         console.error(`[AUTO-RUNNER] DB write failed (non-fatal): ${dbErr.message}`);
       }

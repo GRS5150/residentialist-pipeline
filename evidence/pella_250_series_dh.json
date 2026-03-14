@@ -2,7 +2,7 @@
   "product": "Pella 250 Series",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.1",
+  "evidence_version": "1.2",
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
@@ -33,22 +33,28 @@
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6,
-      "note": "NFRC certified, Energy Star qualified across multiple climate zones. Vinyl frame — higher conductivity than wood/fiberglass. No specific DH U-Factor published."
+      "note": "NFRC certified, Energy Star qualified across multiple climate zones. Vinyl frame — higher conductivity than wood/fiberglass. No specific DH U-Factor published by manufacturer. Third-party sources cite 0.30 U-factor which aligns with Energy Star Northern zone floor. NFRC database confirms U-Factor 0.30 for air-fill dual-pane, 0.26 for argon-fill."
     },
     "structural": {
       "aama_class": null,
       "design_pressure": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 5.5,
-      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for vinyl material class. Actual performance may be better.",
+      "note": "AAMA Certified R-PG20 to R-PG50 range (FPAS#: FL 26534). Standard DH configuration typically falls in R-PG25 to R-PG35 range. Midpoint 5.5 is appropriate for standard configuration without specific DH test data published.",
       "non_disclosure_flag": true
     },
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 5.5,
-      "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for vinyl material class. Actual performance may be significantly better.",
-      "non_disclosure_flag": true
+      "note": "Pella does NOT publish air infiltration value for DH configuration. NFRC database has no air leakage entry for Pella 250 Series. Third-party comparison sites cite '0.10 AI' but this is unverified — source may be extrapolating from AAMA test data, casement configs, or other product lines. Energy Star certified = ≤0.30 cfm/ft² minimum met. Scored at cert floor + small uplift (5.5) given Energy Star status and triple weatherstrip system. If Pella or AAMA publishes a specific DH air infiltration value, update evidence_level to PUBLISHED and rescore from the table (0.10 → 10, 0.11-0.13 → 9, etc.).",
+      "non_disclosure_flag": true,
+      "_third_party_claims": {
+        "value": "0.10 cfm/ft²",
+        "source": "Third-party comparison/review site",
+        "verified": false,
+        "note": "NOT from Pella directly. NOT in NFRC database. Cannot confirm if this is DH-specific or from another configuration. Per rubric, unverified third-party claims do not qualify as PUBLISHED or BOUNDED evidence."
+      }
     }
   }
 }

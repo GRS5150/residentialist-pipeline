@@ -41,6 +41,24 @@ function ensureNewTables() {
     db.exec("ALTER TABLE products ADD COLUMN config TEXT DEFAULT 'DH'");
   }
 
+  // Add 'material_group' column for clad vs non-clad separation (March 14, 2026)
+  // Groups: 'clad' (wood-clad, fiberglass), 'non-clad' (vinyl, composite, aluminum)
+  // Ray confirmed: rate clad and non-clad separately.
+  if (!cols.includes('material_group')) {
+    db.exec("ALTER TABLE products ADD COLUMN material_group TEXT DEFAULT NULL");
+  }
+  if (!cols.includes('material_class')) {
+    db.exec("ALTER TABLE products ADD COLUMN material_class TEXT DEFAULT NULL");
+  }
+  // Add 'status' column: 'active' (default), 'rejected', 'on_hold'
+  // Rejected products are excluded from scoring and reports.
+  if (!cols.includes('status')) {
+    db.exec("ALTER TABLE products ADD COLUMN status TEXT DEFAULT 'active'");
+  }
+  if (!cols.includes('status_reason')) {
+    db.exec("ALTER TABLE products ADD COLUMN status_reason TEXT DEFAULT NULL");
+  }
+
   // Create new Phase 5 tables if they don't exist
   db.exec(`
     CREATE TABLE IF NOT EXISTS scores (
@@ -89,6 +107,79 @@ function ensureNewTables() {
     CREATE INDEX IF NOT EXISTS idx_findings_score ON findings(score_id);
     CREATE INDEX IF NOT EXISTS idx_run_history_product ON run_history(product_id);
   `);
+}
+
+// ── Material group mapping (clad vs non-clad) ──────────────────────────────
+// Ray confirmed March 14, 2026: rate clad and non-clad products separately.
+// 'clad' = wood-clad (aluminum/vinyl cladding over wood) + fiberglass
+// 'non-clad' = vinyl, composite, aluminum
+// Material class is the specific material; material_group is the display grouping.
+
+const MATERIAL_GROUP_MAP = {
+  // Clad / Premium group
+  'aluminum-clad wood':     'clad',
+  'wood-clad, aluminum':    'clad',
+  'wood-clad':              'clad',
+  'vinyl-clad wood':        'clad',
+  'pultruded fiberglass':   'clad',
+  'fiberglass':             'clad',
+  'ultrex':                 'clad',
+  'duracast':               'clad',
+  // Non-clad / Standard group
+  'vinyl':                  'non-clad',
+  'composite':              'non-clad',
+  'fibrex':                 'non-clad',
+  'aluminum':               'non-clad',
+};
+
+function getMaterialGroup(materialClass) {
+  if (!materialClass) return null;
+  const lower = materialClass.toLowerCase().trim();
+  for (const [key, group] of Object.entries(MATERIAL_GROUP_MAP)) {
+    if (lower.includes(key)) return group;
+  }
+  return null; // Unknown — will be classified when evidence file is created
+}
+
+/**
+ * Set material class and group for a product.
+ * Called by the orchestrator after material class is determined.
+ */
+function setMaterialInfo(productName, materialClass) {
+  const db = getDb();
+  const normalized = normalizeProductName(productName);
+  const group = getMaterialGroup(materialClass);
+  db.prepare(`
+    UPDATE products SET material_class = ?, material_group = ?
+    WHERE LOWER(TRIM(product_name)) = ?
+  `).run(materialClass, group, normalized);
+  return { materialClass, materialGroup: group };
+}
+
+/**
+ * Reject a product — removes from active scoring and reports.
+ * Reason is logged for audit trail.
+ */
+function rejectProduct(productName, reason) {
+  const db = getDb();
+  const normalized = normalizeProductName(productName);
+  db.prepare(`
+    UPDATE products SET status = 'rejected', status_reason = ?
+    WHERE LOWER(TRIM(product_name)) = ?
+  `).run(reason, normalized);
+  console.log(`[DB] Product rejected: ${productName} — ${reason}`);
+}
+
+/**
+ * Put a product on hold (e.g., faucets category).
+ */
+function holdProduct(productName, reason) {
+  const db = getDb();
+  const normalized = normalizeProductName(productName);
+  db.prepare(`
+    UPDATE products SET status = 'on_hold', status_reason = ?
+    WHERE LOWER(TRIM(product_name)) = ?
+  `).run(reason, normalized);
 }
 
 // ── Product helpers ──────────────────────────────────────────────────────────
@@ -224,14 +315,29 @@ function getAllScores() {
   const db = getDb();
   return db.prepare(`
     SELECT p.product_name as name, p.config, p.category,
+           p.material_class, p.material_group, p.status,
            s.overall, s.grade, s.outlook, s.quality, s.durability, s.performance,
            s.data_confidence, s.source, s.run_dir, s.scored_at
     FROM products p
     LEFT JOIN scores s ON s.product_id = p.id
       AND s.scored_at = (SELECT MAX(s2.scored_at) FROM scores s2 WHERE s2.product_id = p.id)
     WHERE s.overall IS NOT NULL
+      AND COALESCE(p.status, 'active') != 'rejected'
     ORDER BY s.overall DESC
   `).all();
+}
+
+/**
+ * Get all scores grouped by material group (clad vs non-clad).
+ * Returns { clad: [...], non_clad: [...], unclassified: [...] }
+ */
+function getScoresByGroup() {
+  const all = getAllScores();
+  return {
+    clad: all.filter(s => s.material_group === 'clad'),
+    non_clad: all.filter(s => s.material_group === 'non-clad'),
+    unclassified: all.filter(s => !s.material_group)
+  };
 }
 
 /**
@@ -391,8 +497,12 @@ function close() {
 
 module.exports = {
   getDb, isScored, getScore, saveScore, saveFindings, saveRun,
-  getAllScores, getScoreHistory, getRunHistory, getStats,
+  getAllScores, getScoresByGroup, getScoreHistory, getRunHistory, getStats,
   getOrCreateProduct, close,
+  // Material group helpers (clad vs non-clad)
+  setMaterialInfo, getMaterialGroup, MATERIAL_GROUP_MAP,
+  // Product status helpers
+  rejectProduct, holdProduct,
   // Phase 6: Spec sheet helpers
   saveSpecSheet, getSpecSheets, getSpecSheet, updateSpecSheetStatus, getSpecStats
 };

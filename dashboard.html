@@ -175,6 +175,7 @@
   <div class="tab-bar">
     <button class="tab-btn active" onclick="switchTab('pipeline')">Pipeline</button>
     <button class="tab-btn" onclick="switchTab('specs')">Spec Sheets</button>
+    <button class="tab-btn" onclick="switchTab('escalations')">Escalations</button>
   </div>
 
   <!-- Tab 1: Pipeline -->
@@ -255,6 +256,34 @@
       <button class="refresh-btn" onclick="loadSpecs()">↻ Refresh</button>
     </div>
   </div><!-- /tab-specs -->
+
+  <!-- Tab 3: Escalations -->
+  <div id="tab-escalations" class="tab-panel">
+    <div class="section-label" style="margin-top:20px">Escalation Log</div>
+    <div id="esc-empty" style="display:none">
+      <div class="spec-empty">
+        <div class="spec-empty-title">No escalations</div>
+        <div>No products have been escalated. This is good.</div>
+      </div>
+    </div>
+    <table class="score-table" id="esc-table" style="display:none">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>When</th>
+          <th>Attempts</th>
+          <th>Reason</th>
+        </tr>
+      </thead>
+      <tbody id="esc-tbody"></tbody>
+    </table>
+    <div class="pipeline-bar" style="margin-top:12px">
+      <div class="pipeline-stats">
+        <div class="stat"><div class="stat-num" id="esc-count">--</div><div class="stat-label">Total</div></div>
+      </div>
+      <button class="refresh-btn" onclick="loadEscalations()">Refresh</button>
+    </div>
+  </div><!-- /tab-escalations -->
 
 </div>
 
@@ -446,6 +475,7 @@ function switchTab(tab) {
   document.getElementById('tab-' + tab).classList.add('active');
   event.target.classList.add('active');
   if (tab === 'specs') loadSpecs();
+  if (tab === 'escalations') loadEscalations();
 }
 
 // ── Phase 6: Spec Sheet Functions ────────────────────────────────────────────
@@ -575,6 +605,51 @@ async function toggleAutoQueue(checked) {
     });
   } catch(e) {
     console.error('Toggle auto-queue failed:', e);
+  }
+}
+
+// ── Escalation Dashboard ─────────────────────────────────────────────────────
+
+async function loadEscalations() {
+  try {
+    const res = await fetch(BRIDGE + '/db/escalations', {
+      headers: { 'x-api-key': API_KEY }
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const escs = data.escalations || [];
+
+    document.getElementById('esc-count').textContent = escs.length;
+
+    if (escs.length === 0) {
+      document.getElementById('esc-empty').style.display = 'block';
+      document.getElementById('esc-table').style.display = 'none';
+      return;
+    }
+
+    document.getElementById('esc-empty').style.display = 'none';
+    document.getElementById('esc-table').style.display = '';
+
+    const tbody = document.getElementById('esc-tbody');
+    let html = '';
+    escs.forEach(e => {
+      const when = e.started_at ? new Date(e.started_at + 'Z').toLocaleString([], {
+        month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+      }) : '—';
+      const reason = (e.notes || '—').slice(0, 120);
+      html += `
+        <tr>
+          <td><div class="product-name">${e.name}</div><div class="product-meta">${e.config} · ${e.run_dir || ''}</div></td>
+          <td style="font-size:12px">${when}</td>
+          <td style="text-align:center">${e.attempts || '—'}</td>
+          <td style="font-size:11px;color:var(--ink-mid);max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${reason}</td>
+        </tr>`;
+    });
+    tbody.innerHTML = html;
+  } catch(e) {
+    document.getElementById('esc-empty').innerHTML =
+      `<div class="error-msg">Could not load escalations: ${e.message}</div>`;
+    document.getElementById('esc-empty').style.display = 'block';
   }
 }
 
