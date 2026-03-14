@@ -1,7 +1,7 @@
 {
   "project": "The Residentialist",
   "owner": "Ray Shapley",
-  "version": "2026-03-12",
+  "version": "2026-03-14",
   "infrastructure": {
     "mac_mini": {
       "workspace": "/Users/Residentialist/.openclaw/workspace/residentialist/",
@@ -11,7 +11,9 @@
     "bridge": {
       "url": "https://lavonne-instructorless-northwestwardly.ngrok-free.dev",
       "api_key": "residentialist-bridge-2026",
-      "port": 7823
+      "port": 7823,
+      "endpoints": "/shell (10s timeout), /write, /file, /read, /run, /status, /outputs, /diagnose, /db/scores, /db/stats, /restart, /logs",
+      "deploy_note": "Auto-deploy from GitHub is BROKEN (404 on patches listing). Must deploy manually via /write. Node.js require() caches modules — must restart bridge after code changes."
     },
     "database": {
       "type": "SQLite",
@@ -21,7 +23,7 @@
     },
     "github": {
       "repo": "https://github.com/GRS5150/residentialist-pipeline",
-      "note": "Token stored in .env only — never commit to repo"
+      "note": "Token stored in .env only — never commit to repo. Current head: 03406fc (March 14, 2026)"
     },
     "telegram": {
       "bot_name": "HenryShapleyBot",
@@ -46,15 +48,17 @@
   "categories": {
     "windows": {
       "status": "production",
-      "eval_knowledge": "knowledge/windows/windows_eval_knowledge_v1.2.md",
+      "eval_knowledge": "knowledge/windows/windows_eval_knowledge_v1.3.md",
       "material_safety_knowledge": "knowledge/windows/windows_material_safety_knowledge_v1.1.md",
       "rubrics": "knowledge/windows/windows_deterministic_rubrics_v6.md",
       "principles": "knowledge/windows/residentialist_universal_rubric_principles_v1.1.md",
       "packet": "knowledge/windows/henley_windows_packet_v1.1.md",
-      "calibrated_products": 9
+      "calibrated_products": 7,
+      "scored_products_note": "7 scored (Loewen, Marvin Sig Ultimate, Andersen E-Series, Pella 250, Reliabilt 3500, Ply Gem Pro, Window World 4000). Pella Impervia escalated — needs rescore after fiberglass/NFRC fix."
     },
     "faucets": {
-      "status": "production",
+      "status": "on_hold",
+      "note": "On hold per Ray's instruction. Windows only for now.",
       "eval_knowledge": "knowledge/faucets/faucet_eval_knowledge.md",
       "material_safety_knowledge": "knowledge/faucets/faucet_material_safety_knowledge.md",
       "calibrated_products": 4
@@ -88,15 +92,30 @@
       "durability": 0.35,
       "performance": 0.3
     },
-    "note": "NEVER equal thirds. Material Safety reported separately — not in overall."
+    "performance_subweights": {
+      "thermal": 0.35,
+      "structural": 0.25,
+      "air_water": 0.40
+    },
+    "note": "NEVER equal thirds. Material Safety reported separately — not in overall.",
+    "non_disclosure_policy": "Products NEVER penalized for not disclosing specs. Unknown components get class-conditional prior scores (Bayesian imputation). CERTIFICATION_FLOOR used when product has certification but no specific number published.",
+    "evidence_pin_policy": "Evidence files only pin performance subscores when evidence_level is PUBLISHED or BOUNDED. CERTIFICATION_FLOOR and lower let Bot 2's scores pass through."
   },
   "pending_decisions": [
+    "Pella Impervia: needs rescore after fiberglass-as-vinyl and NFRC evidence pin fixes (March 14, 2026)",
+    "Brave API key: Ray has it, needs to paste so it can be added to Mac Mini .env for Phase 6a source parser",
+    "Clad vs non-clad separate ratings: confirmed by Ray, needs implementation",
+    "Dashboard for escalations: Ray requested back-end dashboard instead of Telegram clutter",
     "Alpen ZR-7 score conflict: 8.70 vs 9.1 — Ray must resolve",
     "Simonton Reflections 5500 two-score issue: 6.9 vs 6.2 — Ray must resolve",
-    "EC2 instance 18.218.122.54 — pending termination"
+    "Pella 350: REJECT ruling (vinyl PVC, not aluminum-clad wood)",
+    "Phase 6b: full page fetching + AI classification — build when snippet errors surface (see ROADMAP.md)"
   ],
   "file_map": {
     "orchestrator": "bot_orchestrator_v3.js",
+    "deterministic_scorer": "deterministic_scorer.js",
+    "source_parser": "source_parser.js",
+    "source_checklists": "source_checklists/windows.json",
     "bridge": "claude_bridge.js",
     "dashboard": "dashboard.html",
     "bot6_report": "bot6_report_assembly_v2.js",
@@ -109,7 +128,12 @@
     "diagnosis": "diagnose.js",
     "database": "db.js",
     "migration": "migrate_to_db.js",
-    "spec_parser": "spec_parser.js"
+    "spec_parser": "spec_parser.js",
+    "evidence_dir": "evidence/",
+    "knowledge_dir": "knowledge/",
+    "inputs_dir": "inputs/",
+    "roadmap": "ROADMAP.md",
+    "changelog": "CHANGELOG.md"
   },
   "build_status": {
     "phase_1": "COMPLETE — git init, mega-file split, baseline committed",
@@ -117,6 +141,18 @@
     "phase_3": "COMPLETE — reconciliation capped at 1 round, council single-call resolution",
     "phase_4": "COMPLETE — diagnose.js, /diagnose endpoint, auto-fix whitelist, updated error flow",
     "phase_5": "COMPLETE — SQLite db.js, migration script, DB endpoints, pipeline DB writes, already-scored check",
-    "phase_6": "COMPLETE — spec_parser.js, /spec endpoints, SPEC telegram command, dashboard tab, auto-queue"
+    "phase_5b": "COMPLETE — Evidence files, class-conditional priors, non-disclosure CERTIFICATION_FLOOR policy",
+    "phase_5c": "COMPLETE — Evidence normalization (thermal), source dedup, Reddit power users, Reddit 403 fix",
+    "phase_6a": "COMPLETE — source_parser.js (1,500 lines), Brave Search API, checklist-driven source discovery, auto_runner integration",
+    "phase_6b": "PLANNED — Full page fetching + AI classification. See ROADMAP.md for trigger conditions."
+  },
+  "current_scores_march_14_2026": {
+    "Loewen DH": {"overall": 7.58, "grade": "B", "Q": 7.70, "D": 8.39, "P": 6.50},
+    "Marvin Signature Ultimate DH": {"overall": 7.16, "grade": "B-", "Q": 7.52, "D": 7.07, "P": 6.83},
+    "Andersen E-Series DH": {"overall": 6.98, "grade": "C+", "Q": 6.35, "D": 8.01, "P": 6.50},
+    "Pella 250 Series DH": {"overall": 6.07, "grade": "C", "Q": 6.43, "D": 6.06, "P": 5.67},
+    "Reliabilt 3500 DH": {"overall": 5.87, "grade": "C-", "Q": 5.94, "D": 6.13, "P": 5.50},
+    "Ply Gem Pro Series DH": {"overall": 5.80, "grade": "C-", "Q": 5.95, "D": 5.91, "P": 5.50},
+    "Pella Impervia DH": {"status": "ESCALATED — needs rescore after fiberglass/NFRC fix"}
   }
 }

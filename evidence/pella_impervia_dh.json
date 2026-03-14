@@ -2,11 +2,19 @@
   "product": "Pella Impervia",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.1",
+  "evidence_version": "1.2",
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
+  "_session_notes_2026_03_14": [
+    "v1.1 → v1.2: Fixed two root-cause bugs that caused incorrect scoring:",
+    "BUG 1: MATERIAL_CEILINGS table had no plain 'fiberglass' entry — Duracast fell through to vinyl default (base 5, ceiling 6). Fixed in bot_orchestrator_v3.js by adding 'fiberglass' and 'duracast' entries.",
+    "BUG 2: Performance evidence pin was too aggressive — pinned CERTIFICATION_FLOOR placeholders even when Bot 1 found real NFRC values. Fixed: pins now only activate for PUBLISHED/BOUNDED evidence levels.",
+    "Bot 1 found: U-factor 0.48, SHGC 0.58-0.59, VT 0.61-0.62. These values were being blocked by this evidence file's stale CERTIFICATION_FLOOR pins.",
+    "thermal/structural/air_water now have evidence_level: CERTIFICATION_FLOOR which means Bot 2's scores pass through (the orchestrator no longer pins these).",
+    "Product needs rescore after these fixes to get accurate numbers."
+  ],
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
@@ -46,12 +54,14 @@
     "_note": "Pella nationwide dealer network. Standard IGU replacement. 20-year glass warranty documented."
   },
   "performance": {
+    "_policy_note": "Performance subscores with evidence_level CERTIFICATION_FLOOR will NOT be pinned by the orchestrator (March 14, 2026 fix). Bot 2's scores pass through when it has real data from Bot 1's research. Only PUBLISHED or BOUNDED evidence levels trigger a hard pin.",
     "thermal": {
       "u_factor": null,
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6,
-      "note": "NFRC certified, Energy Star qualified. Pultruded fiberglass frame — inherently low frame conductivity. No specific DH U-Factor published."
+      "note": "NFRC certified, Energy Star qualified. Pultruded fiberglass frame — inherently low frame conductivity. Bot 1 found U-factor 0.48, SHGC 0.58-0.59, VT 0.61-0.62 — these should be picked up by Bot 2 on rescore. This evidence file's score=6 is a FALLBACK only, not pinned.",
+      "_rescore_expected": "Bot 1's U-factor 0.48 should produce a score around 6.5-7.5 depending on Bot 2's thermal scoring scale."
     },
     "structural": {
       "aama_class": null,

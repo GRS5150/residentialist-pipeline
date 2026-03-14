@@ -1,6 +1,6 @@
 /**
  * THE RESIDENTIALIST — Deterministic Scorer
- * Computes 4 reformed subscores from Bot 2's classification output using
+ * Computes 5 reformed subscores from Bot 2's classification output using
  * lookup tables and formulas instead of LLM judgment.
  *
  * Reformed subscores:
@@ -23,6 +23,21 @@
  *
  * Research basis: Bayesian class-conditional imputation, S&P Global ESG two-track
  * scoring model, Grossman-Milgrom disclosure theory, Manski minimax-regret bounds.
+ *
+ * MATERIAL CLASS RECOGNITION:
+ * getMaterialPriorTier() maps material strings to prior tiers. Recognized:
+ *   - vinyl, pvc → vinyl tier
+ *   - fiberglass, fibreglass, pultrude, duracast → fiberglass tier
+ *   - composite, fibrex → fiberglass tier (treated as mid-high)
+ *   - wood, clad, aluminum → wood_clad tier
+ *   - Unknown/unrecognized → vinyl tier (most conservative)
+ * If adding a new material class, update BOTH this file AND bot_orchestrator_v3.js
+ * (MATERIAL_CEILINGS table + extractMaterialClass keywords).
+ *
+ * CHANGE LOG:
+ *   March 14, 2026: Added 'duracast' to getMaterialPriorTier (fiberglass tier)
+ *   March 13, 2026: Class-conditional priors replaced flat 5.0 "unknown" penalties
+ *   March 13, 2026: Removed SEAL_UNKNOWN from materials durability adjustments
  */
 
 // ─── COMPONENT QUALITY (1A) — Deterministic Components + Tier Classification ─

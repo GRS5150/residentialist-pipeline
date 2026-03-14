@@ -1,12 +1,27 @@
 /**
- * THE RESIDENTIALIST — auto_runner.js (v3 + Phase 4 diagnosis + Phase 5 DB + Phase 6 source parser)
+ * THE RESIDENTIALIST — auto_runner.js (v3 + Phase 4 diagnosis + Phase 5 DB + Phase 6a source parser)
  * Queue & Batch Runner with self-correction loop.
  *
  * v3: JSON structured output from orchestrator
  * Phase 4: Auto-diagnosis before alerting Ray
  * Phase 5: Write scores to SQLite DB after each successful run
  *          Check "already scored?" before starting pipeline
- * Phase 6: Source parser runs before pipeline to discover/update evidence
+ * Phase 6a: Source parser runs before pipeline to discover/update evidence
+ *           Requires BRAVE_SEARCH_API_KEY in .env. Skips gracefully if missing.
+ *
+ * FLOW: Source Parser (6a) → Bot 1 (Research) → Bot 2 (Scoring) → Deterministic Scorer
+ *       → Bot 3 (Material Safety) → Bot 4 (Challenge) → Bot 5 (Reconciliation)
+ *
+ * AXIS WEIGHTS (LOCKED March 11 2026 — Ray Shapley):
+ *   Quality 35% | Durability 35% | Performance 30% — NEVER equal thirds.
+ *   Deterministic override: always recalculate overall from axis scores,
+ *   never trust AI arithmetic.
+ *
+ * CHANGE LOG:
+ *   March 14, 2026: Phase 6a source parser integration
+ *   March 14, 2026: Evidence pin policy fix — CERTIFICATION_FLOOR no longer pins
+ *   March 14, 2026: Performance axis weights fixed (was equal thirds)
+ *   March 14, 2026: Fiberglass-as-vinyl bug fix in orchestrator
  */
 
 const { runPipeline } = require('./bot_orchestrator_v3');
