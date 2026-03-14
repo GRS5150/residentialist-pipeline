@@ -2,9 +2,9 @@
   "product": "Pella Impervia",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.0",
+  "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-13",
+  "last_verified": "2026-03-14",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
@@ -51,14 +51,14 @@
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6.0,
-      "note": "NFRC certified, Energy Star qualified. Fiberglass frames have inherently lower conductivity than vinyl/aluminum. Score slightly above midpoint."
+      "note": "NFRC certified, Energy Star qualified. Pultruded fiberglass frame \u2014 inherently low frame conductivity. No specific DH U-Factor published."
     },
     "structural": {
       "aama_class": null,
       "design_pressure": null,
       "evidence_level": "NO_EVIDENCE",
-      "score": 5.5,
-      "note": "No AAMA performance class published. Industry concerns about frame rigidity noted but no test data to confirm or deny."
+      "score": 5.0,
+      "note": "No AAMA performance class published for Impervia DH. Score at midpoint."
     },
     "air_water": {
       "air_infiltration": null,

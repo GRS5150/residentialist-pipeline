@@ -2,9 +2,9 @@
   "product": "Loewen",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.0",
+  "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-13",
+  "last_verified": "2026-03-14",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
@@ -49,9 +49,9 @@
     "thermal": {
       "u_factor": null,
       "u_factor_source": null,
-      "evidence_level": "PROFESSIONAL_CONSENSUS",
-      "score": 5.5,
-      "note": "No published NFRC U-Factor for DH configuration specifically. GBA professional sources indicate strong thermal performance in Zone 5 applications. Score above midpoint based on professional endorsement."
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 6.5,
+      "note": "NFRC certified, Energy Star qualified. Douglas Fir frame with aluminum cladding \u2014 inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published. Score above midpoint for material advantage and certifications."
     },
     "structural": {
       "aama_class": null,
@@ -62,9 +62,9 @@
     },
     "air_water": {
       "air_infiltration": null,
-      "evidence_level": "PROFESSIONAL_CONSENSUS",
+      "evidence_level": "CERTIFICATION_FLOOR",
       "score": 5.0,
-      "note": "GBA architect reports 0.03 cfm/ft\u00b2 but this is whole-house blower door, not window-specific testing. Score at midpoint."
+      "note": "NFRC certified. No specific air infiltration value published for DH. GBA anecdotal report (0.03 cfm/ft\u00b2) was whole-house blower door, not window-specific."
     }
   }
 }

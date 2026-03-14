@@ -2,9 +2,9 @@
   "product": "Marvin Signature Ultimate",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.0",
+  "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-13",
+  "last_verified": "2026-03-14",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
@@ -52,7 +52,7 @@
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6.5,
-      "note": "NFRC certified and Energy Star qualified. Triple-pane availability confirmed. No specific DH U-Factor published but certification indicates above-minimum thermal performance."
+      "note": "NFRC certified, Energy Star qualified. Wood frame with aluminum cladding \u2014 inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published."
     },
     "structural": {
       "aama_class": null,

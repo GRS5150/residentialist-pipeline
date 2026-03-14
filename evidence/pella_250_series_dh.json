@@ -2,9 +2,9 @@
   "product": "Pella 250 Series",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.0",
+  "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-13",
+  "last_verified": "2026-03-14",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
@@ -32,8 +32,8 @@
       "u_factor": null,
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 7.0,
-      "note": "NFRC certified, Energy Star qualified across multiple climate zones. Score reflects strong certification coverage for a vinyl product."
+      "score": 6.0,
+      "note": "NFRC certified, Energy Star qualified across multiple climate zones. Vinyl frame \u2014 higher conductivity than wood/fiberglass. No specific DH U-Factor published."
     },
     "structural": {
       "aama_class": null,

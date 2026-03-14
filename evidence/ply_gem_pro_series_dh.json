@@ -2,9 +2,9 @@
   "product": "Ply Gem Pro Series",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.0",
+  "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-13",
+  "last_verified": "2026-03-14",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
@@ -58,8 +58,8 @@
       "u_factor": null,
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 6.5,
-      "note": "Energy Star certified. NFRC rated but specific DH U-Factor not found in search."
+      "score": 5.5,
+      "note": "NFRC certified, Energy Star qualified. Multi-chamber vinyl frame. No specific DH U-Factor published."
     },
     "structural": {
       "aama_class": null,
@@ -71,8 +71,8 @@
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 8.0,
-      "note": "Score from bot2 analysis. May need verification \u2014 unusually high for this product class."
+      "score": 5.0,
+      "note": "Energy Star certified minimum. No specific air infiltration value published. Previous 8.0 score was unsubstantiated."
     }
   }
 }
