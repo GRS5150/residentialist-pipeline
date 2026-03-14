@@ -17,3 +17,14 @@ RESIDENTIALIST_SKILL.md
 residentialist.db
 residentialist.db-shm
 residentialist.db-wal
+
+# Temporary utility/debug scripts
+clear_andersen.js
+clear_impervia.js
+compare_runs.py
+extract_scores.py
+patch_material_extractor.py
+patch_performance_reform.py
+read_det_scores.py
+test_reddit.js
+test_variance_3x.js

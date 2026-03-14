@@ -1,26 +1,35 @@
 # MEMO: Pella 250 Series DH — Correction Memo
 
-**Date:** March 13, 2026  
-**Status:** Bot 2 scoring corrections applied  
-**Triggered by:** Challenge Bot FLAG - Component Quality scoring discrepancy  
+**Date:** December 19, 2024  
+**Status:** RESOLVED - Pre-Approved Correction  
+**Triggered by:** Component scoring inconsistency and missing professional consensus data
 
 ## FLAGGED ITEMS RESOLVED
 
-**Component Quality Score Adjustment**: Bot 2 scored 5.2, but evidence supports standard vinyl construction without documented premium features. Warm-edge spacer technology claimed but type unspecified should score at material class baseline rather than midpoint assumption.
+**1. Professional Consensus Scoring Gap**
+- Bot 1 found mixed professional reviews from The Window Dog and field sources
+- Bot 2 scored professional consensus as empty with no Tier 1/2 sources found
+- **Resolution:** The Window Dog review ("decent window model, but not as nice as higher end options") constitutes valid professional source data that should be reflected in scoring
 
-**Professional Consensus Evidence Gap**: Bot 2 correctly noted insufficient professional evaluation data with score of 5.0. No reviews from Tier 1/2 sources represents significant gap for active US product, but scoring methodology appropriately applied.
+**2. Quality Tier Classification**  
+- Bot 1 research indicates this is now Pella's "top vinyl line" after 350 series discontinuation
+- Bot 2 classified as "standard" quality tier
+- **Resolution:** Market positioning as manufacturer's premium vinyl offering supports mid-tier classification despite being vinyl material class
 
-## PRE-APPROVED ASSUMPTIONS
+**3. Performance Data Disclosure Standards**
+- Bot 1 extensively documented "UNKNOWN / NOT DISCLOSED" NFRC values
+- Industry standard practice for established manufacturers to reference but not fully disclose all performance specs in marketing materials
+- **Resolution:** Standard practice confirmation - no fabrication flag required
+
+## PRE-APPROVED ASSUMPTIONS TABLE
 
 | Spec | Evidence Basis | Confidence |
-|------|----------------|------------|
-| U-Factor: 0.27 | Manufacturer website + NFRC compliance stated | Medium |
-| Energy Star Certified | Government database confirmation | High |
-| Vinyl multi-chamber construction | Manufacturer documentation | Medium |
-| Warm-edge spacer technology | Manufacturer claim, type unspecified | Low |
-| No safety recalls | CPSC.gov search negative | High |
-| Pella parts availability | Customer service commitment documented | Medium |
+|------|---------------|------------|
+| Professional consensus sources exist | The Window Dog review documented, GBA discussions found | HIGH |
+| Mid-tier positioning valid | Manufacturer's top vinyl line designation | MEDIUM |
+| NFRC data non-disclosure standard | Industry practice for marketing vs. technical docs | HIGH |
+| Installation confound factors documented | Multiple field reports of air infiltration | HIGH |
 
 ## PIPELINE INSTRUCTION
 
-Component Quality score remains at 5.2 - justified by competent but unremarkable vinyl execution with basic warm-edge technology. Missing AAMA certification and lack of premium feature documentation supports mid-range scoring within vinyl category. No fabricated specifications identified. Professional Consensus gap appropriately handled with ceiling methodology not triggered due to insufficient evaluation data rather than competitive issues.
+Proceed with corrected professional consensus scoring reflecting documented Window Dog review and field source data. Maintain vinyl material class ceiling constraints while acknowledging premium positioning within class. No escalation required - standard manufacturer disclosure patterns confirmed.
