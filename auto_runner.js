@@ -1,17 +1,21 @@
 /**
- * THE RESIDENTIALIST — auto_runner.js (v3 + Phase 4 diagnosis + Phase 5 DB)
+ * THE RESIDENTIALIST — auto_runner.js (v3 + Phase 4 diagnosis + Phase 5 DB + Phase 6 source parser)
  * Queue & Batch Runner with self-correction loop.
  *
  * v3: JSON structured output from orchestrator
  * Phase 4: Auto-diagnosis before alerting Ray
  * Phase 5: Write scores to SQLite DB after each successful run
  *          Check "already scored?" before starting pipeline
+ * Phase 6: Source parser runs before pipeline to discover/update evidence
  */
 
 const { runPipeline } = require('./bot_orchestrator_v3');
 const { selfCorrect } = require('./self_corrector');
 const { diagnose, executeAutoFix, diagLog } = require('./diagnose');
+const { parseSourcesForProduct, buildEvidenceFile } = require('./source_parser');
 const db = require('./db');
+const fs = require('fs');
+const path = require('path');
 const https = require('https');
 require('dotenv').config({path: '/Users/Residentialist/.openclaw/workspace/residentialist/.env'});
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
@@ -182,6 +186,48 @@ async function runWithAutoCorrection(productName, config, category, researchFile
 
   await sendTelegram(`🔄 *Pipeline starting*\n${productName} — ${config}`);
   const startTime = Date.now();
+
+  // ── Phase 6: Source Parser — discover/update evidence before scoring ──
+  if (process.env.BRAVE_SEARCH_API_KEY) {
+    try {
+      console.log(`[AUTO-RUNNER] Phase 6: Running source parser for ${productName}...`);
+      const productSlug = productName.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
+      const evidenceSlug = `${productSlug}_${config.toLowerCase()}`;
+      const evidencePath = path.join(__dirname, 'evidence', `${evidenceSlug}.json`);
+
+      let existingEvidence = null;
+      try {
+        existingEvidence = JSON.parse(fs.readFileSync(evidencePath, 'utf-8'));
+        console.log(`[AUTO-RUNNER] Phase 6: Found existing evidence file — will merge`);
+      } catch (e) {
+        console.log(`[AUTO-RUNNER] Phase 6: No existing evidence file — will create new`);
+      }
+
+      const parserResult = await parseSourcesForProduct(productName, config, category, evidencePath);
+      const sourceCount = (parserResult.sources || []).length;
+      const poolA = (parserResult.sources || []).filter(s => s.pool === 'A').length;
+      const poolB = (parserResult.sources || []).filter(s => s.pool === 'B').length;
+      const poolC = (parserResult.sources || []).filter(s => s.pool === 'C').length;
+      console.log(`[AUTO-RUNNER] Phase 6: Found ${sourceCount} sources (Pool A: ${poolA}, B: ${poolB}, C: ${poolC})`);
+
+      // Build/merge evidence file
+      const updatedEvidence = buildEvidenceFile(parserResult, existingEvidence);
+      fs.mkdirSync(path.dirname(evidencePath), { recursive: true });
+      fs.writeFileSync(evidencePath, JSON.stringify(updatedEvidence, null, 2));
+      console.log(`[AUTO-RUNNER] Phase 6: Evidence file written to ${evidencePath}`);
+
+      if (sourceCount > 0) {
+        await sendTelegram(`📚 *Source parser complete*\n${productName}: ${sourceCount} sources found\nPool A: ${poolA} | B: ${poolB} | C: ${poolC}`);
+      }
+    } catch (err) {
+      // Source parser failure is non-fatal — pipeline can still run with existing evidence
+      console.error(`[AUTO-RUNNER] Phase 6 error (non-fatal): ${err.message}`);
+      await sendTelegram(`⚠️ Source parser failed for ${productName} — continuing with existing evidence\n${err.message.slice(0, 150)}`);
+    }
+  } else {
+    console.log('[AUTO-RUNNER] Phase 6: Skipped — no BRAVE_SEARCH_API_KEY in env');
+  }
+
   let attempt = 0;
   let errorRetries = 0;
 

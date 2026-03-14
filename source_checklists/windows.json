@@ -1,0 +1,124 @@
+{
+  "_comment": "Source checklist for windows category. Bot 0 / research phase uses this to know WHERE to look. Bot 1 uses the results for editorial synthesis.",
+  "category": "windows",
+  "version": "1.0",
+  "created": "2026-03-13",
+
+  "phase_1_direct_fetches": {
+    "_comment": "Mandatory URL fetches — always performed regardless of product",
+    "urls": [
+      {"url": "https://search.nfrc.org/search/Searchdefault.aspx", "purpose": "NFRC certified performance data"},
+      {"url": "https://www.energystar.gov/productfinder/product/certified-windows", "purpose": "Energy Star certification verification"},
+      {"url": "https://recalls.cpsc.gov", "purpose": "CPSC recall check"},
+      {"url": "https://www.aama.net", "purpose": "AAMA certification verification"},
+      {"url": "https://declare.living-future.org", "purpose": "Declare label certification"},
+      {"url": "https://www.windowpurchase.com", "purpose": "Jay Johnson independent review (highest authority)"},
+      {"url": "https://www.thewindowdog.com", "purpose": "TheWindowDog review (Pool C — demoted)"}
+    ],
+    "manufacturer_urls": {
+      "_comment": "Fetch the appropriate manufacturer URL based on product",
+      "Andersen": ["https://www.andersenwindows.com/for-professionals/documents/performance"],
+      "Marvin": ["https://www.marvin.com/resources/technical-documents"],
+      "Pella": ["https://www.pella.com/resources/energy-performance/"],
+      "Milgard": ["https://www.milgard.com/window-resources/technical-data"],
+      "Simonton": ["https://www.simonton.com/resources/performance-data/"],
+      "Jeld-Wen": ["https://www.jeld-wen.com/resources/certifications/"],
+      "Loewen": ["https://www.lfrp.com/technical-resources/"],
+      "Sierra Pacific": ["https://www.sierrapacificwindows.com/technical-resources/"],
+      "Ply Gem": ["https://www.plygem.com/resources/"],
+      "Reliabilt": []
+    }
+  },
+
+  "phase_2_web_searches": {
+    "_comment": "Standard web searches — always performed. {product} and {manufacturer} are replaced at runtime.",
+    "queries": [
+      "{product} {config} NFRC U-factor SHGC air infiltration",
+      "{product} AAMA certification structural performance grade",
+      "{product} IGU spacer system warm-edge dual-seal",
+      "{product} weatherstripping type installation method",
+      "{product} warranty terms transferable labor coverage",
+      "{product} problems failures complaints class action lawsuit",
+      "{product} Greenguard VOC emissions indoor air quality certification",
+      "{manufacturer} service network parts availability nationwide",
+      "{product} review greenbuildingadvisor OR finehomebuilding OR buildingscience",
+      "{product} vs comparison window review",
+      "{product} {manufacturer} recall safety hazard CPSC",
+      "{manufacturer} Prop 65 California warning"
+    ]
+  },
+
+  "phase_3_reddit": {
+    "_comment": "Reddit searches — target specific subreddits where trade professionals and informed consumers post.",
+    "subreddits": [
+      "r/homeowners",
+      "r/HomeImprovement",
+      "r/Construction",
+      "r/homebuilding",
+      "r/windows",
+      "r/PassiveHouse",
+      "r/buildingscience"
+    ],
+    "queries": [
+      "site:reddit.com \"{product}\" window install review",
+      "site:reddit.com \"{manufacturer}\" windows quality problems",
+      "site:reddit.com \"{product}\" OR \"{manufacturer}\" r/homeimprovement OR r/construction OR r/homebuilding",
+      "site:reddit.com/r/PassiveHouse \"{manufacturer}\" OR \"{product}\"",
+      "site:reddit.com/r/buildingscience \"{manufacturer}\" OR \"{product}\""
+    ],
+    "power_user_criteria": {
+      "_comment": "Mechanical filter — no judgment needed. A user who meets these thresholds gets their comments pulled.",
+      "min_combined_karma": 1000,
+      "min_account_age_months": 12,
+      "trade_subreddits": ["r/Construction", "r/HVAC", "r/Plumbing", "r/electricians", "r/HomeInspections", "r/Carpentry", "r/bluecollarwomen", "r/Roofing"],
+      "quality_subreddits": ["r/PassiveHouse", "r/buildingscience", "r/HomeImprovement"],
+      "disqualifiers": ["referral link in comment", "single-brand advocacy across all posts", "commercial account (company name in username)"]
+    }
+  },
+
+  "phase_4_professional_forums": {
+    "_comment": "Non-Reddit professional sources — GBA, FHB, JLC, Houzz contractor threads, specialty review sites.",
+    "queries": [
+      "site:greenbuildingadvisor.com \"{manufacturer}\" OR \"{product}\"",
+      "site:finehomebuilding.com \"{manufacturer}\" \"{product}\" forum",
+      "site:houzz.com \"{product}\" contractor OR installer OR builder",
+      "site:replacementwindowreviews.co \"{product}\" OR \"{manufacturer}\"",
+      "site:replacementwindowdiscussions.com \"{product}\" OR \"{manufacturer}\"",
+      "\"{product}\" window review site:jlconline.com"
+    ]
+  },
+
+  "phase_5_youtube_installers": {
+    "_comment": "YouTube installer/contractor channels reviewing products hands-on. Pull transcripts for technical detail.",
+    "queries": [
+      "\"{product}\" window review install site:youtube.com",
+      "\"{product}\" vs window comparison site:youtube.com",
+      "\"{manufacturer}\" window installer review site:youtube.com"
+    ],
+    "known_installer_channels": [
+      "Brennan Enterprises",
+      "Smith House Company",
+      "Windows on Washington",
+      "The Window Dog",
+      "Matt Risinger",
+      "Home RenoVision DIY",
+      "This Old House"
+    ],
+    "classification_rules": {
+      "pool_b_default": "Installer/contractor channels showing physical product with technical detail",
+      "pool_c_if": "Homeowner review, manufacturer-sponsored content, or paid promotion",
+      "ignore_if": "Pure marketing/advertisement with no substantive technical content"
+    }
+  },
+
+  "phase_6_international": {
+    "_comment": "Only run if manufacturer is non-US or sells internationally.",
+    "queries": [
+      "{manufacturer} NAFS CSA A440 performance grade structural test",
+      "{manufacturer} EN 14351-1 CE marking window performance",
+      "{manufacturer} Passive House Institute PHI certified window",
+      "site:database.passivehouse.com \"{manufacturer}\"",
+      "{manufacturer} {product} site:greenbuildingforum.co.uk OR site:greenbuildingtalk.com"
+    ]
+  }
+}
