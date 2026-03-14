@@ -117,7 +117,7 @@ const CLASS_PRIORS = {
 function getMaterialPriorTier(materialClass) {
   const mc = (materialClass || '').toLowerCase();
   if (mc.includes('vinyl') || mc.includes('pvc')) return 'vinyl';
-  if (mc.includes('fiberglass') || mc.includes('fibreglass') || mc.includes('pultrude')) return 'fiberglass';
+  if (mc.includes('fiberglass') || mc.includes('fibreglass') || mc.includes('pultrude') || mc.includes('duracast')) return 'fiberglass';
   if (mc.includes('composite') || mc.includes('fibrex')) return 'fiberglass'; // Composite treated as fiberglass tier
   // Wood, clad, aluminum-clad, wood-clad all map to premium tier
   if (mc.includes('wood') || mc.includes('clad') || mc.includes('aluminum')) return 'wood_clad';

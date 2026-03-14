@@ -1,10 +1,14 @@
 /**
- * Phase 6: Source Parser
+ * Phase 6a: Source Parser
  * Systematic source discovery for The Residentialist pipeline.
  *
  * Replaces ad-hoc Bot 1 web searches with checklist-driven per-source queries.
  * Each known source type is queried individually using the Brave Search API,
  * then results are classified into Pool A / B / C based on domain rules.
+ *
+ * CURRENT: Uses Brave search snippets (~160 chars) for source classification.
+ * FUTURE (Phase 6b): Full page fetching + AI classification for deeper accuracy.
+ * See ROADMAP.md for Phase 6b trigger conditions and scope estimate.
  *
  * Usage (module):
  *   const { parseSourcesForProduct } = require('./source_parser');

@@ -42,6 +42,8 @@ function sendTelegram(message) {
 const MATERIAL_CEILINGS = {
   'pultruded fiberglass': { base: 9, ceiling: 10 },
   'ultrex':               { base: 9, ceiling: 10 },
+  'duracast':             { base: 9, ceiling: 10 },  // Pella's pultruded fiberglass brand name
+  'fiberglass':           { base: 9, ceiling: 10 },  // All fiberglass frames are pultruded — same tier
   'aluminum-clad wood':   { base: 8, ceiling: 9  },  // extruded
   'aluminum clad wood':   { base: 8, ceiling: 9  },
   'roll-form':            { base: 7, ceiling: 8  },
@@ -64,6 +66,7 @@ function getMaterialCeiling(materialClass) {
     }
   }
   // Default to most conservative if unrecognized
+  console.warn(`[MATERIAL_CEILING] WARNING: "${materialClass}" not matched in MATERIAL_CEILINGS table — defaulting to vinyl tier (base 5, ceiling 6). If this is wrong, add an entry to the table.`);
   return { base: 5, ceiling: 6, label: materialClass + ' (unrecognized — defaulting to vinyl)' };
 }
 
@@ -318,7 +321,7 @@ function extractMaterialClass(bot1Output) {
     { pattern: /vinyl\s+window|vinyl\s+frame|vinyl\s+construction/i, label: 'Vinyl' },
     { pattern: /aluminum.clad\s+wood|clad.wood|wood.clad/i, label: 'Aluminum-clad wood' },
     { pattern: /wood\s+protected\s+by\s+aluminum|wood.*aluminum\s+exterior/i, label: 'Aluminum-clad wood' },
-    { pattern: /fiberglass\s+frame|pultruded\s+fiberglass|ultrex/i, label: 'Pultruded fiberglass' },
+    { pattern: /fiberglass\s+frame|pultruded\s+fiberglass|ultrex|duracast/i, label: 'Pultruded fiberglass' },
     { pattern: /all.wood|wood\s+frame|wood\s+window/i, label: 'Wood' },
     { pattern: /aluminum\s+frame|aluminum\s+window|non.clad\s+aluminum/i, label: 'Aluminum' },
     { pattern: /fibrex|composite\s+frame/i, label: 'Composite/Fibrex' },
@@ -1092,52 +1095,78 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
       bot2Parsed.scores.durability.axis_score = recalcDurabilityAxis(bot2Parsed.scores.durability);
     }
     // ── PERFORMANCE AXIS — pin from evidence file if available ──
+    // POLICY (March 14, 2026): Only pin performance subscores when the evidence
+    // file has HARD DATA (evidence_level = PUBLISHED or BOUNDED). If the evidence
+    // file only has CERTIFICATION_FLOOR or lower, let Bot 2's score pass through —
+    // Bot 1 may have found actual values in its latest research that supersede the
+    // stale CERTIFICATION_FLOOR placeholder. This prevents the evidence file from
+    // blocking legitimate data upgrades.
+    const HARD_EVIDENCE_LEVELS = ['PUBLISHED', 'BOUNDED'];
     if (evidenceData?.performance && bot2Parsed.scores?.performance) {
       const perfEvidence = evidenceData.performance;
       const perfScores = bot2Parsed.scores.performance;
       let perfPinned = false;
 
       if (perfEvidence.thermal?.score != null && perfScores.thermal) {
-        const bot2TH = perfScores.thermal.score;
-        perfScores.thermal = {
-          score: perfEvidence.thermal.score,
-          reasoning: perfScores.thermal.reasoning || '',
-          evidence_pin: true,
-          evidence_note: perfEvidence.thermal.note || '',
-          bot2_original: bot2TH,
-        };
-        perfPinned = true;
+        const evidenceLevel = (perfEvidence.thermal.evidence_level || '').toUpperCase();
+        if (HARD_EVIDENCE_LEVELS.includes(evidenceLevel)) {
+          const bot2TH = perfScores.thermal.score;
+          perfScores.thermal = {
+            score: perfEvidence.thermal.score,
+            reasoning: perfScores.thermal.reasoning || '',
+            evidence_pin: true,
+            evidence_note: perfEvidence.thermal.note || '',
+            bot2_original: bot2TH,
+          };
+          perfPinned = true;
+          console.log(`[ORCHESTRATOR] Thermal pinned (${evidenceLevel}): ${perfEvidence.thermal.score}`);
+        } else {
+          console.log(`[ORCHESTRATOR] Thermal evidence is ${evidenceLevel} — letting Bot 2 score (${perfScores.thermal.score}) pass through`);
+        }
       }
       if (perfEvidence.structural?.score != null && perfScores.structural) {
-        const bot2ST = perfScores.structural.score;
-        perfScores.structural = {
-          score: perfEvidence.structural.score,
-          reasoning: perfScores.structural.reasoning || '',
-          evidence_pin: true,
-          evidence_note: perfEvidence.structural.note || '',
-          bot2_original: bot2ST,
-        };
-        perfPinned = true;
+        const evidenceLevel = (perfEvidence.structural.evidence_level || '').toUpperCase();
+        if (HARD_EVIDENCE_LEVELS.includes(evidenceLevel)) {
+          const bot2ST = perfScores.structural.score;
+          perfScores.structural = {
+            score: perfEvidence.structural.score,
+            reasoning: perfScores.structural.reasoning || '',
+            evidence_pin: true,
+            evidence_note: perfEvidence.structural.note || '',
+            bot2_original: bot2ST,
+          };
+          perfPinned = true;
+          console.log(`[ORCHESTRATOR] Structural pinned (${evidenceLevel}): ${perfEvidence.structural.score}`);
+        } else {
+          console.log(`[ORCHESTRATOR] Structural evidence is ${evidenceLevel} — letting Bot 2 score (${perfScores.structural.score}) pass through`);
+        }
       }
       if (perfEvidence.air_water?.score != null && perfScores.air_water) {
-        const bot2AW = perfScores.air_water.score;
-        perfScores.air_water = {
-          score: perfEvidence.air_water.score,
-          reasoning: perfScores.air_water.reasoning || '',
-          evidence_pin: true,
-          evidence_note: perfEvidence.air_water.note || '',
-          bot2_original: bot2AW,
-        };
-        perfPinned = true;
+        const evidenceLevel = (perfEvidence.air_water.evidence_level || '').toUpperCase();
+        if (HARD_EVIDENCE_LEVELS.includes(evidenceLevel)) {
+          const bot2AW = perfScores.air_water.score;
+          perfScores.air_water = {
+            score: perfEvidence.air_water.score,
+            reasoning: perfScores.air_water.reasoning || '',
+            evidence_pin: true,
+            evidence_note: perfEvidence.air_water.note || '',
+            bot2_original: bot2AW,
+          };
+          perfPinned = true;
+          console.log(`[ORCHESTRATOR] Air/water pinned (${evidenceLevel}): ${perfEvidence.air_water.score}`);
+        } else {
+          console.log(`[ORCHESTRATOR] Air/water evidence is ${evidenceLevel} — letting Bot 2 score (${perfScores.air_water.score}) pass through`);
+        }
       }
 
       if (perfPinned) {
-        // Recalculate performance axis from pinned subscores
+        // Recalculate performance axis from subscores (mix of pinned + Bot 2)
+        // Performance weights: Thermal 35%, Structural 25%, Air & Water 40%
         const th = perfScores.thermal?.score || 5;
         const st = perfScores.structural?.score || 5;
         const aw = perfScores.air_water?.score || 5;
-        perfScores.axis_score = Math.round(((th + st + aw) / 3) * 100) / 100;
-        console.log(`[ORCHESTRATOR] Performance pinned from evidence: TH=${th}, ST=${st}, AW=${aw}, axis=${perfScores.axis_score}`);
+        perfScores.axis_score = Math.round((th * 0.35 + st * 0.25 + aw * 0.40) * 100) / 100;
+        console.log(`[ORCHESTRATOR] Performance recalculated (some pinned): TH=${th}, ST=${st}, AW=${aw}, axis=${perfScores.axis_score}`);
       }
     }
     // If no evidence file or no performance data, Bot 2 scores pass through unchanged
