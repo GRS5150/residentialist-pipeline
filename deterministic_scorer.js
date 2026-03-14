@@ -131,6 +131,11 @@ const CLASS_PRIORS = {
 // Map material class strings to prior tier keys
 function getMaterialPriorTier(materialClass) {
   const mc = (materialClass || '').toLowerCase();
+  // IMPORTANT: Order matters. Check compound terms BEFORE simple ones.
+  // 'vinyl-clad wood' must match wood_clad (has wood core), not vinyl.
+  // 'fiberglass-clad wood' must match wood_clad, not fiberglass.
+  if (mc.includes('vinyl-clad wood') || mc.includes('vinyl clad wood')) return 'wood_clad';  // Wood core = premium priors
+  if (mc.includes('fiberglass-clad wood') || mc.includes('fiberglass clad wood')) return 'wood_clad';
   if (mc.includes('vinyl') || mc.includes('pvc')) return 'vinyl';
   if (mc.includes('fiberglass') || mc.includes('fibreglass') || mc.includes('pultrude') || mc.includes('duracast')) return 'fiberglass';
   if (mc.includes('composite') || mc.includes('fibrex')) return 'fiberglass'; // Composite treated as fiberglass tier

@@ -40,25 +40,44 @@ function sendTelegram(message) {
 // Injected directly into Bot 2's prompt — not a rule to interpret, a hard fact.
 // Update this table to update the entire pipeline.
 const MATERIAL_CEILINGS = {
+  // ─── TIER SYSTEM (March 14, 2026) ─────────────────────────────────────────
+  // Principle: Best-in-class gets 10 ceiling. Everything else relative to that.
+  // If a new material surpasses fiberglass, shift fiberglass down, new gets 10.
+  // Research: GBA, FHB, Reddit trade pro consensus across 4 search rounds.
+
+  // S-Tier: Fiberglass (full frame) — undisputed best for durability
   'pultruded fiberglass': { base: 9, ceiling: 10 },
   'ultrex':               { base: 9, ceiling: 10 },
-  'duracast':             { base: 9, ceiling: 10 },  // Pella's pultruded fiberglass brand name
-  'fiberglass':           { base: 9, ceiling: 10 },  // All fiberglass frames are pultruded — same tier
-  'aluminum-clad wood':   { base: 8, ceiling: 9  },  // extruded
-  'aluminum clad wood':   { base: 8, ceiling: 9  },
-  'roll-form':            { base: 7, ceiling: 8  },
-  'vinyl-clad wood':      { base: 7, ceiling: 8  },
-  'composite':            { base: 6, ceiling: 7  },
-  'fibrex':               { base: 6, ceiling: 7  },
-  'proprietary':          { base: 6, ceiling: 7  },
-  'wood-clad, aluminum':  { base: 8, ceiling: 9  },  // catches 'Wood-clad (aluminum exterior...)' phrasing
-  'wood-clad':            { base: 8, ceiling: 9  },  // default wood-clad = aluminum-clad wood
-  'vinyl':                { base: 5, ceiling: 6  },
-  'aluminum':             { base: 5, ceiling: 6  },
+  'duracast':             { base: 9, ceiling: 10 },  // Pella's pultruded fiberglass brand
+  'fiberglass':           { base: 9, ceiling: 10 },
+
+  // A-Tier: Clad wood — premium traditional choice
+  'aluminum-clad wood':   { base: 8, ceiling: 9   }, // extruded aluminum cladding
+  'aluminum clad wood':   { base: 8, ceiling: 9   },
+  'wood-clad, aluminum':  { base: 8, ceiling: 9   }, // catches 'Wood-clad (aluminum exterior...)' phrasing
+  'wood-clad':            { base: 8, ceiling: 9   }, // default wood-clad = aluminum-clad wood
+  'fiberglass-clad wood': { base: 8, ceiling: 9.5 }, // fiberglass cladding: better dimensional stability than aluminum
+
+  // A- Tier: Roll-formed aluminum clad (thin, builder-grade) — below extruded
+  'roll-form':            { base: 7, ceiling: 8   },
+
+  // B+ Tier: Vinyl-clad wood — wood core lifts it, vinyl cladding is weaker
+  'vinyl-clad wood':      { base: 7.5, ceiling: 8.5 },
+
+  // B Tier: Composite — better than vinyl, below clad wood
+  'composite':            { base: 7, ceiling: 8   },
+  'fibrex':               { base: 7, ceiling: 8   },
+  'proprietary':          { base: 7, ceiling: 8   },
+
+  // C Tier: Vinyl — functional, budget choice
+  'vinyl':                { base: 6, ceiling: 7   },
+
+  // D Tier: Bare aluminum — worst for residential (highly conductive)
+  'aluminum':             { base: 5, ceiling: 6   },
 };
 
 function getMaterialCeiling(materialClass) {
-  if (!materialClass) return { base: 5, ceiling: 6, label: 'Unknown — defaulting to vinyl' };
+  if (!materialClass) return { base: 6, ceiling: 7, label: 'Unknown — defaulting to vinyl' };
   const lower = materialClass.toLowerCase();
   for (const [key, vals] of Object.entries(MATERIAL_CEILINGS)) {
     if (lower.includes(key)) {
@@ -67,7 +86,7 @@ function getMaterialCeiling(materialClass) {
   }
   // Default to most conservative if unrecognized
   console.warn(`[MATERIAL_CEILING] WARNING: "${materialClass}" not matched in MATERIAL_CEILINGS table — defaulting to vinyl tier (base 5, ceiling 6). If this is wrong, add an entry to the table.`);
-  return { base: 5, ceiling: 6, label: materialClass + ' (unrecognized — defaulting to vinyl)' };
+  return { base: 6, ceiling: 7, label: materialClass + ' (unrecognized — defaulting to vinyl)' };
 }
 
 // ─── AXIS RECALCULATION FUNCTIONS ────────────────────────────────────────────
@@ -309,6 +328,17 @@ function extractMaterialClass(bot1Output) {
         if (/wood\s+protected\s+by\s+aluminum/i.test(raw) || /wood.*aluminum\s+exterior/i.test(raw)) {
           raw = 'Aluminum-clad wood';
         }
+        // Normalize: "Wood with vinyl exterior" or "Perma-Shield vinyl" → "Vinyl-clad wood"
+        if (/wood.clad/i.test(raw) && /vinyl|perma.?shield/i.test(fullContext)) {
+          raw = 'Vinyl-clad wood';
+        }
+        if (/wood\s+protected\s+by\s+vinyl/i.test(raw) || /wood.*vinyl\s+(?:clad|exterior)/i.test(raw) || /vinyl.clad(?:ding)?\s+wood/i.test(raw)) {
+          raw = 'Vinyl-clad wood';
+        }
+        // Normalize: "Wood with fiberglass exterior" → "Fiberglass-clad wood"
+        if (/wood.clad/i.test(raw) && /fiberglass/i.test(fullContext)) {
+          raw = 'Fiberglass-clad wood';
+        }
         if (raw.length > 2 && raw.length < 80) {
           return { found: true, rawText: raw, source: 'bot1_product_overview' };
         }
@@ -322,6 +352,8 @@ function extractMaterialClass(bot1Output) {
     { pattern: /aluminum.clad\s+wood|clad.wood|wood.clad/i, label: 'Aluminum-clad wood' },
     { pattern: /wood\s+protected\s+by\s+aluminum|wood.*aluminum\s+exterior/i, label: 'Aluminum-clad wood' },
     { pattern: /fiberglass\s+frame|pultruded\s+fiberglass|ultrex|duracast/i, label: 'Pultruded fiberglass' },
+    { pattern: /vinyl.clad(?:ding)?\s+wood|wood.*vinyl\s+(?:clad|exterior)|perma.?shield.*wood/i, label: 'Vinyl-clad wood' },
+    { pattern: /fiberglass.clad(?:ding)?\s+wood|wood.*fiberglass\s+(?:clad|exterior)/i, label: 'Fiberglass-clad wood' },
     { pattern: /all.wood|wood\s+frame|wood\s+window/i, label: 'Wood' },
     { pattern: /aluminum\s+frame|aluminum\s+window|non.clad\s+aluminum/i, label: 'Aluminum' },
     { pattern: /fibrex|composite\s+frame/i, label: 'Composite/Fibrex' },
@@ -1191,20 +1223,23 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
     //   Premium vinyl:             5.5  (decent products, slight benefit)
     //   Standard vinyl / aluminum:  5.0  (cert floor IS realistic for this class)
     const CLASS_PERF_FLOORS = {
-      'pultruded fiberglass': 6.0,
-      'ultrex':               6.0,
-      'duracast':             6.0,
-      'fiberglass':           6.0,
+      // Performance floors: class-conditional minimum for CERTIFICATION_FLOOR evidence
+      // Shifted March 14, 2026 to match material tier update
+      'pultruded fiberglass': 6.5,
+      'ultrex':               6.5,
+      'duracast':             6.5,
+      'fiberglass':           6.5,
       'aluminum-clad wood':   6.0,
       'aluminum clad wood':   6.0,
       'wood-clad, aluminum':  6.0,
       'wood-clad':            6.0,
+      'fiberglass-clad wood': 6.0,
       'roll-form':            6.0,
       'vinyl-clad wood':      6.0,
       'composite':            5.5,
       'fibrex':               5.5,
       'proprietary':          5.5,
-      'vinyl':                5.0,
+      'vinyl':                5.5,
       'aluminum':             5.0,
     };
     function getClassPerfFloor(matClass) {

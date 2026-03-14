@@ -116,19 +116,20 @@ function ensureNewTables() {
 // Material class is the specific material; material_group is the display grouping.
 
 const MATERIAL_GROUP_MAP = {
-  // Clad / Premium group
+  // Clad / Premium group — wood-core with protective cladding + full fiberglass
   'aluminum-clad wood':     'clad',
   'wood-clad, aluminum':    'clad',
   'wood-clad':              'clad',
-  'vinyl-clad wood':        'clad',
+  'vinyl-clad wood':        'clad',    // Wood core = clad group (e.g., Andersen 400)
+  'fiberglass-clad wood':   'clad',    // Fiberglass cladding over wood
   'pultruded fiberglass':   'clad',
   'fiberglass':             'clad',
   'ultrex':                 'clad',
   'duracast':               'clad',
-  // Non-clad / Standard group
-  'vinyl':                  'non-clad',
+  // Non-clad / Standard group — no wood core
   'composite':              'non-clad',
   'fibrex':                 'non-clad',
+  'vinyl':                  'non-clad',
   'aluminum':               'non-clad',
 };
 
