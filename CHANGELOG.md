@@ -3,7 +3,7 @@
 ## March 14, 2026 — PM Session (Perplexity Computer)
 
 ### Class-Conditional Performance Floor (Non-Disclosure Policy Fix)
-**Commit:** pending
+**Commit:** `d64fa99`+
 - **Root cause:** Bot 2 scored Pella Impervia air/water at 5.0 from Energy Star certification floor (0.30 cfm/ft² → rubric score 5). This contradicted Ray's non-disclosure policy: "them leaving something out for business reasons doesn't affect the durability or quality to the end user." The rubric and the policy conflicted.
 - **Fix:** Added `CLASS_PERF_FLOORS` table in orchestrator that enforces class-conditional minimum scores when evidence is NOT PUBLISHED or BOUNDED:
   - Pultruded fiberglass / wood-clad / aluminum-clad: 6.0 minimum
