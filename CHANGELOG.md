@@ -1,6 +1,28 @@
 # The Residentialist — Changelog
 
-## March 14, 2026 (Session: Perplexity Computer)
+## March 14, 2026 — PM Session (Perplexity Computer)
+
+### Class-Conditional Performance Floor (Non-Disclosure Policy Fix)
+**Commit:** pending
+- **Root cause:** Bot 2 scored Pella Impervia air/water at 5.0 from Energy Star certification floor (0.30 cfm/ft² → rubric score 5). This contradicted Ray's non-disclosure policy: "them leaving something out for business reasons doesn't affect the durability or quality to the end user." The rubric and the policy conflicted.
+- **Fix:** Added `CLASS_PERF_FLOORS` table in orchestrator that enforces class-conditional minimum scores when evidence is NOT PUBLISHED or BOUNDED:
+  - Pultruded fiberglass / wood-clad / aluminum-clad: 6.0 minimum
+  - Composite / proprietary: 5.5 minimum  
+  - Standard vinyl / aluminum: 5.0 (no change — cert floor IS realistic)
+- **Logic:** Same intellectual framework as missing hardware specs — score from class expectation, not worst-case assumption
+- **Scope:** Universal — applies to ALL products on ALL performance subscores. Checks both evidence file and Bot 2's transparency report for evidence level before applying.
+- **Impact:** Pella Impervia air/water raised from 5.0 → 6.0; structural stays at 6.0 (already at floor). Performance axis expected to move from 5.80 → ~6.20.
+
+### Score Locks (Ray's Rulings)
+- **Alpen ZR-7 DH**: Locked at **8.70** (A-). Professional sentiment very positive across GBA, building science community. Air infiltration 0.02 cfm/ft² (operable), PHI certified, NFRC U-factor 0.20. Customer service slowness is the main knock.
+- **Simonton Reflections 5500 DH**: Locked at **6.2** (C). Professional sentiment mixed/lukewarm. Aging design with constant force balances, thick frames, relatively poor air infiltration. Outclassed at its price point per multiple trade professionals.
+
+### Investigation Note: Pella 250 Air/Water Discrepancy
+- Bot 2 reported `BOUNDED val=0.13 cfm/ft²` for Pella 250 air infiltration but scored 5.5. Per rubric, 0.13 cfm/ft² should score 9.0. Flagged for investigation — Bot 2 may have hallucinated the bounded value or ignored it during scoring.
+
+---
+
+## March 14, 2026 — AM Session (Perplexity Computer)
 
 ### Phase 6a — Source Parser (Built & Deployed)
 **Commit:** `c59c8e5`

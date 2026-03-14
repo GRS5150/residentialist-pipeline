@@ -98,17 +98,23 @@
       "air_water": 0.40
     },
     "note": "NEVER equal thirds. Material Safety reported separately — not in overall.",
-    "non_disclosure_policy": "Products NEVER penalized for not disclosing specs. Unknown components get class-conditional prior scores (Bayesian imputation). CERTIFICATION_FLOOR used when product has certification but no specific number published.",
-    "evidence_pin_policy": "Evidence files only pin performance subscores when evidence_level is PUBLISHED or BOUNDED. CERTIFICATION_FLOOR and lower let Bot 2's scores pass through."
+    "non_disclosure_policy": "Products NEVER penalized for not disclosing specs. Unknown components get class-conditional prior scores (Bayesian imputation). CERTIFICATION_FLOOR used when product has certification but no specific number published. Class-conditional performance floors enforce minimum scores by material class (fiberglass/wood-clad=6.0, composite=5.5, vinyl=5.0) so non-disclosure never drags a score below what the class would reasonably achieve.",
+    "evidence_pin_policy": "Evidence files only pin performance subscores when evidence_level is PUBLISHED or BOUNDED. CERTIFICATION_FLOOR and lower let Bot 2's scores pass through.",
+    "class_perf_floors": {
+      "pultruded_fiberglass": 6.0,
+      "aluminum_clad_wood": 6.0,
+      "wood_clad": 6.0,
+      "composite": 5.5,
+      "vinyl": 5.0,
+      "aluminum": 5.0,
+      "note": "Applied in orchestrator after Bot 2 scoring. Only triggers when evidence_level is NOT PUBLISHED or BOUNDED."
+    }
   },
   "pending_decisions": [
-    "Pella Impervia: needs rescore after fiberglass-as-vinyl and NFRC evidence pin fixes (March 14, 2026)",
-    "Brave API key: Ray has it, needs to paste so it can be added to Mac Mini .env for Phase 6a source parser",
     "Clad vs non-clad separate ratings: confirmed by Ray, needs implementation",
     "Dashboard for escalations: Ray requested back-end dashboard instead of Telegram clutter",
-    "Alpen ZR-7 score conflict: 8.70 vs 9.1 — Ray must resolve",
-    "Simonton Reflections 5500 two-score issue: 6.9 vs 6.2 — Ray must resolve",
     "Pella 350: REJECT ruling (vinyl PVC, not aluminum-clad wood)",
+    "Pella 250 air/water: Bot 2 reported BOUNDED val=0.13 cfm/ft² but scored 5.5 — should be 9.0 per rubric. Investigate.",
     "Phase 6b: full page fetching + AI classification — build when snippet errors surface (see ROADMAP.md)"
   ],
   "file_map": {
@@ -153,6 +159,8 @@
     "Pella 250 Series DH": {"overall": 6.07, "grade": "C", "Q": 6.43, "D": 6.06, "P": 5.67},
     "Reliabilt 3500 DH": {"overall": 5.87, "grade": "C-", "Q": 5.94, "D": 6.13, "P": 5.50},
     "Ply Gem Pro Series DH": {"overall": 5.80, "grade": "C-", "Q": 5.95, "D": 5.91, "P": 5.50},
-    "Pella Impervia DH": {"status": "ESCALATED — needs rescore after fiberglass/NFRC fix"}
+    "Pella Impervia DH": {"overall": "RESCORING — class-conditional floor fix deployed March 14 11:50 AM CDT"},
+    "Alpen ZR-7 DH": {"overall": 8.70, "grade": "A-", "note": "Locked by Ray March 14, 2026. Professional sentiment very positive (GBA, building science). Customer service knock keeps from 9+."},
+    "Simonton Reflections 5500 DH": {"overall": 6.2, "grade": "C", "note": "Locked by Ray March 14, 2026. Professional sentiment mixed/lukewarm. Aging design, outclassed at price point."}
   }
 }

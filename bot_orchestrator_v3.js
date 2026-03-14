@@ -563,6 +563,10 @@ CRITICAL RULES:
         - AAMA Gold Label: product passed all performance tests — treat as CONFIRMED
         - NAFS/CSA A440 certification: equivalent to AAMA (see Rule 14)
       - Cap: 6.5 maximum for any subscore scored from certification floor alone
+      - Floor: The pipeline enforces a class-conditional minimum AFTER your scoring.
+        You should still score from the certification floor value per the rubric tables.
+        The orchestrator will raise scores below the class floor automatically.
+        This implements the non-disclosure policy — not publishing ≠ penalty.
    
    d. PROFESSIONAL CONSENSUS (score from expert evidence):
       - No specific value AND no relevant certification, BUT multiple independent professional
@@ -1170,6 +1174,93 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
       }
     }
     // If no evidence file or no performance data, Bot 2 scores pass through unchanged
+
+    // ── CLASS-CONDITIONAL CERTIFICATION FLOOR — Non-Disclosure Policy ──────────
+    // POLICY (March 14, 2026): When a performance subscore has NO published or
+    // bounded data (i.e., the evidence file shows CERTIFICATION_FLOOR or lower),
+    // enforce a minimum score based on the product's material class. This implements
+    // Ray's non-disclosure policy: "them leaving something out for business reasons
+    // doesn't affect the durability or quality to the end user necessarily."
+    // Same intellectual framework as missing hardware specs — score from class, not
+    // from worst-case assumption.
+    //
+    // Class-conditional performance floors:
+    //   Pultruded fiberglass:     6.0  (fiberglass products typically outperform cert minimums)
+    //   Wood-clad / aluminum-clad: 6.0  (premium products, cert floor understates performance)
+    //   Composite / proprietary:   5.5  (mid-tier, some benefit of the doubt)
+    //   Premium vinyl:             5.5  (decent products, slight benefit)
+    //   Standard vinyl / aluminum:  5.0  (cert floor IS realistic for this class)
+    const CLASS_PERF_FLOORS = {
+      'pultruded fiberglass': 6.0,
+      'ultrex':               6.0,
+      'duracast':             6.0,
+      'fiberglass':           6.0,
+      'aluminum-clad wood':   6.0,
+      'aluminum clad wood':   6.0,
+      'wood-clad, aluminum':  6.0,
+      'wood-clad':            6.0,
+      'roll-form':            6.0,
+      'vinyl-clad wood':      6.0,
+      'composite':            5.5,
+      'fibrex':               5.5,
+      'proprietary':          5.5,
+      'vinyl':                5.0,
+      'aluminum':             5.0,
+    };
+    function getClassPerfFloor(matClass) {
+      if (!matClass) return 5.0;
+      const lower = matClass.toLowerCase();
+      for (const [key, floor] of Object.entries(CLASS_PERF_FLOORS)) {
+        if (lower.includes(key)) return floor;
+      }
+      return 5.0; // Unknown material — no benefit of the doubt
+    }
+
+    if (bot2Parsed.scores?.performance) {
+      const perfScores = bot2Parsed.scores.performance;
+      const matClass = materialLock?.rawText || bot2Parsed.locked_material_class || '';
+      const classFloor = getClassPerfFloor(matClass);
+      const perfEvidence = evidenceData?.performance || {};
+      let floorApplied = false;
+
+      // Only apply floor when evidence is NOT published/bounded (i.e., we don't have hard data)
+      // Check both the evidence file AND Bot 2's transparency report for evidence level
+      const bot2Transparency = bot2Parsed.transparency_report?.performance_evidence || [];
+      const subscoreKeys = ['thermal', 'structural', 'air_water'];
+      for (const key of subscoreKeys) {
+        const evidenceLevel = (perfEvidence[key]?.evidence_level || '').toUpperCase();
+        // Also check Bot 2's transparency report for this subscore
+        // Match transparency report entries: 'thermal' matches 'Thermal Performance', 'U-Factor', etc.
+        // 'structural' matches 'Structural Performance', 'PG', etc.
+        // 'air_water' matches 'Air Infiltration', 'Air', 'Water', etc.
+        const trKeyMap = { thermal: ['thermal', 'u-factor', 'u_factor'], structural: ['structural', 'performance grade'], air_water: ['air', 'infiltration', 'water'] };
+        const trEntry = bot2Transparency.find(e => {
+          if (!e.subscore) return false;
+          const sub = e.subscore.toLowerCase();
+          return (trKeyMap[key] || []).some(k => sub.includes(k));
+        });
+        const trLevel = (trEntry?.evidence_level || '').toUpperCase();
+        const hasHardData = HARD_EVIDENCE_LEVELS.includes(evidenceLevel) || HARD_EVIDENCE_LEVELS.includes(trLevel);
+        if (!hasHardData && perfScores[key]?.score != null && perfScores[key].score < classFloor) {
+          const original = perfScores[key].score;
+          perfScores[key].score = classFloor;
+          perfScores[key].class_floor_applied = true;
+          perfScores[key].class_floor_original = original;
+          perfScores[key].class_floor_note = `Non-disclosure policy: ${key} score raised from ${original} to ${classFloor} (class floor for ${matClass || 'unknown'}). No published/bounded data available — scoring from class expectation, not certification minimum.`;
+          floorApplied = true;
+          console.log(`[ORCHESTRATOR] Non-disclosure floor: ${key} raised from ${original} to ${classFloor} (material: ${matClass})`);
+        }
+      }
+
+      if (floorApplied) {
+        // Recalculate performance axis with floored subscores
+        const th = perfScores.thermal?.score || 5;
+        const st = perfScores.structural?.score || 5;
+        const aw = perfScores.air_water?.score || 5;
+        perfScores.axis_score = Math.round((th * 0.35 + st * 0.25 + aw * 0.40) * 100) / 100;
+        console.log(`[ORCHESTRATOR] Performance recalculated (class floor applied): TH=${th}, ST=${st}, AW=${aw}, axis=${perfScores.axis_score}`);
+      }
+    }
 
     // Recalculate overall score with locked axis weights
     if (bot2Parsed.scores?.quality && bot2Parsed.scores?.durability && bot2Parsed.scores?.performance) {
