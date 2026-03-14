@@ -12,8 +12,8 @@
       "url": "https://lavonne-instructorless-northwestwardly.ngrok-free.dev",
       "api_key": "residentialist-bridge-2026",
       "port": 7823,
-      "endpoints": "/shell (10s timeout), /write, /file, /read, /run, /status, /outputs, /diagnose, /db/scores, /db/stats, /restart, /logs",
-      "deploy_note": "Auto-deploy from GitHub is BROKEN (404 on patches listing). Must deploy manually via /write. Node.js require() caches modules — must restart bridge after code changes."
+      "endpoints": "/shell (10s timeout), /write, /file, /read, /run, /status, /outputs, /diagnose, /db/scores, /db/scores/grouped, /db/escalations, /db/stats, /restart, /logs",
+      "deploy_note": "Auto-deploy from GitHub is BROKEN (404 on patches listing). Must deploy manually via /write. Node.js require() caches modules \u2014 must restart bridge after code changes."
     },
     "database": {
       "type": "SQLite",
@@ -23,7 +23,7 @@
     },
     "github": {
       "repo": "https://github.com/GRS5150/residentialist-pipeline",
-      "note": "Token stored in .env only — never commit to repo. Current head: 03406fc (March 14, 2026)"
+      "note": "Token stored in .env only \u2014 never commit to repo. Current head: e487a69 (March 14, 2026)"
     },
     "telegram": {
       "bot_name": "HenryShapleyBot",
@@ -36,7 +36,7 @@
     "bot3_material_safety": "claude-haiku-4-5-20251001",
     "bot4_challenge": "claude-haiku-4-5-20251001",
     "bot5_reconciliation": "claude-haiku-4-5-20251001",
-    "bot6_report": "none — pure template assembly, no API calls",
+    "bot6_report": "none \u2014 pure template assembly, no API calls",
     "council": "claude-sonnet-4-20250514",
     "diagnosis": "claude-haiku-4-5-20251001",
     "notes": {
@@ -54,7 +54,7 @@
       "principles": "knowledge/windows/residentialist_universal_rubric_principles_v1.1.md",
       "packet": "knowledge/windows/henley_windows_packet_v1.1.md",
       "calibrated_products": 7,
-      "scored_products_note": "7 scored (Loewen, Marvin Sig Ultimate, Andersen E-Series, Pella 250, Reliabilt 3500, Ply Gem Pro, Window World 4000). Pella Impervia escalated — needs rescore after fiberglass/NFRC fix."
+      "scored_products_note": "9 scored: 7 pipeline (Loewen, Marvin Sig Ultimate, Andersen E-Series, Pella Impervia, Pella 250, Reliabilt 3500, Ply Gem Pro) + 2 locked (Alpen ZR-7, Simonton 5500). Pella 350 REJECTED (vinyl PVC). Grouped: 4 clad + 3 non-clad."
     },
     "faucets": {
       "status": "on_hold",
@@ -78,7 +78,15 @@
   },
   "spec_ingestion": {
     "auto_queue_specs": true,
-    "supported_formats": ["csv", "pdf", "jpg", "jpeg", "png", "webp", "txt"],
+    "supported_formats": [
+      "csv",
+      "pdf",
+      "jpg",
+      "jpeg",
+      "png",
+      "webp",
+      "txt"
+    ],
     "ai_model": "claude-haiku-4-5-20251001",
     "upload_dir": "spec_uploads/",
     "notes": {
@@ -95,9 +103,9 @@
     "performance_subweights": {
       "thermal": 0.35,
       "structural": 0.25,
-      "air_water": 0.40
+      "air_water": 0.4
     },
-    "note": "NEVER equal thirds. Material Safety reported separately — not in overall.",
+    "note": "NEVER equal thirds. Material Safety reported separately \u2014 not in overall.",
     "non_disclosure_policy": "Products NEVER penalized for not disclosing specs. Unknown components get class-conditional prior scores (Bayesian imputation). CERTIFICATION_FLOOR used when product has certification but no specific number published. Class-conditional performance floors enforce minimum scores by material class (fiberglass/wood-clad=6.0, composite=5.5, vinyl=5.0) so non-disclosure never drags a score below what the class would reasonably achieve.",
     "evidence_pin_policy": "Evidence files only pin performance subscores when evidence_level is PUBLISHED or BOUNDED. CERTIFICATION_FLOOR and lower let Bot 2's scores pass through.",
     "class_perf_floors": {
@@ -111,11 +119,8 @@
     }
   },
   "pending_decisions": [
-    "Clad vs non-clad separate ratings: confirmed by Ray, needs implementation",
-    "Dashboard for escalations: Ray requested back-end dashboard instead of Telegram clutter",
-    "Pella 350: REJECT ruling (vinyl PVC, not aluminum-clad wood)",
-    "Pella 250 air/water: Bot 2 reported BOUNDED val=0.13 cfm/ft² but scored 5.5 — should be 9.0 per rubric. Investigate.",
-    "Phase 6b: full page fetching + AI classification — build when snippet errors surface (see ROADMAP.md)"
+    "Phase 6b: full page fetching + AI classification \u2014 build when snippet errors surface (see ROADMAP.md)",
+    "Brave API key: installed on Mac Mini .env but source_parser.js not yet invoked in production runs \u2014 verify on next full pipeline run"
   ],
   "file_map": {
     "orchestrator": "bot_orchestrator_v3.js",
@@ -142,25 +147,77 @@
     "changelog": "CHANGELOG.md"
   },
   "build_status": {
-    "phase_1": "COMPLETE — git init, mega-file split, baseline committed",
-    "phase_2": "COMPLETE — v3 orchestrator, JSON output, validator + bot6 updated",
-    "phase_3": "COMPLETE — reconciliation capped at 1 round, council single-call resolution",
-    "phase_4": "COMPLETE — diagnose.js, /diagnose endpoint, auto-fix whitelist, updated error flow",
-    "phase_5": "COMPLETE — SQLite db.js, migration script, DB endpoints, pipeline DB writes, already-scored check",
-    "phase_5b": "COMPLETE — Evidence files, class-conditional priors, non-disclosure CERTIFICATION_FLOOR policy",
-    "phase_5c": "COMPLETE — Evidence normalization (thermal), source dedup, Reddit power users, Reddit 403 fix",
-    "phase_6a": "COMPLETE — source_parser.js (1,500 lines), Brave Search API, checklist-driven source discovery, auto_runner integration",
-    "phase_6b": "PLANNED — Full page fetching + AI classification. See ROADMAP.md for trigger conditions."
+    "phase_1": "COMPLETE \u2014 git init, mega-file split, baseline committed",
+    "phase_2": "COMPLETE \u2014 v3 orchestrator, JSON output, validator + bot6 updated",
+    "phase_3": "COMPLETE \u2014 reconciliation capped at 1 round, council single-call resolution",
+    "phase_4": "COMPLETE \u2014 diagnose.js, /diagnose endpoint, auto-fix whitelist, updated error flow",
+    "phase_5": "COMPLETE \u2014 SQLite db.js, migration script, DB endpoints, pipeline DB writes, already-scored check",
+    "phase_5b": "COMPLETE \u2014 Evidence files, class-conditional priors, non-disclosure CERTIFICATION_FLOOR policy",
+    "phase_5c": "COMPLETE \u2014 Evidence normalization (thermal), source dedup, Reddit power users, Reddit 403 fix",
+    "phase_6a": "COMPLETE \u2014 source_parser.js (1,500 lines), Brave Search API, checklist-driven source discovery, auto_runner integration",
+    "phase_6b": "PLANNED \u2014 Full page fetching + AI classification. See ROADMAP.md for trigger conditions.",
+    "phase_5d": "COMPLETE \u2014 Clad vs non-clad grouping, product status (reject/hold), Pella 350 REJECT, escalation dashboard"
   },
   "current_scores_march_14_2026": {
-    "Loewen DH": {"overall": 7.58, "grade": "B", "Q": 7.70, "D": 8.39, "P": 6.50},
-    "Marvin Signature Ultimate DH": {"overall": 7.16, "grade": "B-", "Q": 7.52, "D": 7.07, "P": 6.83},
-    "Andersen E-Series DH": {"overall": 6.98, "grade": "C+", "Q": 6.35, "D": 8.01, "P": 6.50},
-    "Pella 250 Series DH": {"overall": 6.07, "grade": "C", "Q": 6.43, "D": 6.06, "P": 5.67},
-    "Reliabilt 3500 DH": {"overall": 5.87, "grade": "C-", "Q": 5.94, "D": 6.13, "P": 5.50},
-    "Ply Gem Pro Series DH": {"overall": 5.80, "grade": "C-", "Q": 5.95, "D": 5.91, "P": 5.50},
-    "Pella Impervia DH": {"overall": 7.14, "grade": "B-", "Q": 6.45, "D": 8.65, "P": 6.18, "note": "Rescored March 14 PM session. Class floor raised air_water from 5.0 to 6.0."},
-    "Alpen ZR-7 DH": {"overall": 8.70, "grade": "A-", "note": "Locked by Ray March 14, 2026. Professional sentiment very positive (GBA, building science). Customer service knock keeps from 9+."},
-    "Simonton Reflections 5500 DH": {"overall": 6.2, "grade": "C", "note": "Locked by Ray March 14, 2026. Professional sentiment mixed/lukewarm. Aging design, outclassed at price point."}
+    "Loewen DH": {
+      "overall": 7.58,
+      "grade": "B",
+      "Q": 7.7,
+      "D": 8.39,
+      "P": 6.5
+    },
+    "Marvin Signature Ultimate DH": {
+      "overall": 7.16,
+      "grade": "B-",
+      "Q": 7.52,
+      "D": 7.07,
+      "P": 6.83
+    },
+    "Andersen E-Series DH": {
+      "overall": 6.98,
+      "grade": "C+",
+      "Q": 6.35,
+      "D": 8.01,
+      "P": 6.5
+    },
+    "Pella 250 Series DH": {
+      "overall": 6.07,
+      "grade": "C",
+      "Q": 6.43,
+      "D": 6.06,
+      "P": 5.67
+    },
+    "Reliabilt 3500 DH": {
+      "overall": 5.87,
+      "grade": "C-",
+      "Q": 5.94,
+      "D": 6.13,
+      "P": 5.5
+    },
+    "Ply Gem Pro Series DH": {
+      "overall": 5.8,
+      "grade": "C-",
+      "Q": 5.95,
+      "D": 5.91,
+      "P": 5.5
+    },
+    "Pella Impervia DH": {
+      "overall": 7.14,
+      "grade": "B-",
+      "Q": 6.45,
+      "D": 8.65,
+      "P": 6.18,
+      "note": "Rescored March 14 PM session. Class floor raised air_water from 5.0 to 6.0."
+    },
+    "Alpen ZR-7 DH": {
+      "overall": 8.7,
+      "grade": "A-",
+      "note": "Locked by Ray March 14, 2026. Professional sentiment very positive (GBA, building science). Customer service knock keeps from 9+."
+    },
+    "Simonton Reflections 5500 DH": {
+      "overall": 6.2,
+      "grade": "C",
+      "note": "Locked by Ray March 14, 2026. Professional sentiment mixed/lukewarm. Aging design, outclassed at price point."
+    }
   }
 }
