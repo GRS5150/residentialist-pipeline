@@ -323,7 +323,24 @@ const SENTIMENT_VALUES = { positive: 1, mixed: 0, negative: -1 };
 function scoreProfessionalConsensus(data) {
   const report = { subscore: 'professional_consensus', method: 'pool_based_source_system' };
 
-  const sources = data.sources || [];
+  // Deduplicate sources by name — pinned evidence sources (with id) take precedence
+  // over _new sources that Bot 2 found independently with the same name.
+  const rawSources = data.sources || [];
+  const seenNames = new Map();
+  for (const src of rawSources) {
+    const key = (src.name || '').toLowerCase().trim();
+    if (!key) continue;
+    const existing = seenNames.get(key);
+    if (!existing) {
+      seenNames.set(key, src);
+    } else {
+      // Keep the one with an id (pinned), or the first one seen
+      if (src.id && !existing.id) {
+        seenNames.set(key, src);
+      }
+    }
+  }
+  const sources = [...seenNames.values()];
   if (sources.length === 0) {
     report.score = 5.0;
     report.note = 'No sources found — midpoint default';

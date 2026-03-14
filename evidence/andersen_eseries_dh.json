@@ -2,9 +2,9 @@
   "product": "Andersen E-Series",
   "config": "DH",
   "category": "windows",
-  "evidence_version": "1.0",
+  "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-13",
+  "last_verified": "2026-03-14",
   "refresh_after_days": 90,
 
   "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth. Bot 2 may find additional evidence via search, but pinned values take precedence. New findings should be flagged, not substituted.",
@@ -49,9 +49,33 @@
         "sentiment": "negative",
         "summary": "Performance limitations noted — couldn't find U-Factor lower than 0.27 for triple-pane, states 'main advantage is looks, that's where advantages end'",
         "price_bias": false
+      },
+      {
+        "id": "PC-AES-002",
+        "name": "Verified trade professional (Roofing)",
+        "pool": "B",
+        "sentiment": "positive",
+        "summary": "Affirms Andersen as quality windows, distinguishes manufacturer from Renewal franchise. Brief but clear endorsement from active trade professional.",
+        "price_bias": false,
+        "_source_type": "reddit_power_user",
+        "_mechanical_score": 8,
+        "_editorial_review": "2026-03-14",
+        "_note": "Comment about Andersen generally, not E-Series specifically. Score of 8/10 from mechanical filter (30k+ karma, Roofing trade sub activity). No price-bias detected."
+      },
+      {
+        "id": "PC-AES-003",
+        "name": "Verified trade professional (Carpentry)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Describes Andersen windows as 'not amazing' but significantly better than Renewal products. Moderate endorsement with acknowledged limitations.",
+        "price_bias": false,
+        "_source_type": "reddit_power_user",
+        "_mechanical_score": 8,
+        "_editorial_review": "2026-03-14",
+        "_note": "Comment about Andersen generally, not E-Series specifically. Score of 8/10 from mechanical filter (12k karma, 5yr account, Carpentry trade sub activity). No price-bias detected."
       }
     ],
-    "_note": "GBA mentions exist but are about Andersen generally (A-Series, 400 Series), not E-Series specifically. Do not attribute general Andersen complaints to E-Series. If Bot 1 finds E-Series-specific GBA/FHB/JLC sources, flag them as new evidence for review."
+    "_note": "GBA mentions exist but are about Andersen generally (A-Series, 400 Series), not E-Series specifically. Reddit power user search (2026-03-14) found 44 posts, 5 qualified power users, 2 with product quality opinions (both about Andersen generally). Three additional power users filtered editorially — their comments were about Renewal by Andersen pricing only, no product quality signal. If Bot 1 finds E-Series-specific GBA/FHB/JLC sources, flag them as new evidence for review."
   },
 
   "component_quality": {
