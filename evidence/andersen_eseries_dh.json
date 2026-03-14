@@ -6,7 +6,7 @@
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
-  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth. Bot 2 may find additional evidence via search, but pinned values take precedence. New findings should be flagged, not substituted.",
+  "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth. Bot 2 may find additional evidence via search, but pinned values take precedence. New findings should be flagged, not substituted.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
@@ -16,7 +16,7 @@
     "complaints": [
       {
         "id": "MQ-AES-001",
-        "description": "Hardware recall on 100 Series opening control devices \u2014 fall and injury hazards (February 2026 CPSC recall)",
+        "description": "Hardware recall on 100 Series opening control devices — fall and injury hazards (February 2026 CPSC recall)",
         "classification": "SAFETY",
         "evidence_level": "RED",
         "source": "CPSC recall database",
@@ -28,7 +28,7 @@
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "Consumer complaint patterns (multiple independent reports)",
-        "note": "YELLOW not RED \u2014 complaints are from individual consumers, not systematic testing"
+        "note": "YELLOW not RED — complaints are from individual consumers, not systematic testing"
       },
       {
         "id": "MQ-AES-003",
@@ -47,7 +47,7 @@
         "name": "TheWindowDog",
         "pool": "C",
         "sentiment": "negative",
-        "summary": "Performance limitations noted \u2014 couldn't find U-Factor lower than 0.27 for triple-pane, states 'main advantage is looks, that's where advantages end'",
+        "summary": "Performance limitations noted — couldn't find U-Factor lower than 0.27 for triple-pane, states 'main advantage is looks, that's where advantages end'",
         "price_bias": false
       },
       {
@@ -75,7 +75,7 @@
         "_note": "Comment about Andersen generally, not E-Series specifically. Score of 8/10 from mechanical filter (12k karma, 5yr account, Carpentry trade sub activity). No price-bias detected."
       }
     ],
-    "_note": "GBA mentions exist but are about Andersen generally (A-Series, 400 Series), not E-Series specifically. Reddit power user search (2026-03-14) found 44 posts, 5 qualified power users, 2 with product quality opinions (both about Andersen generally). Three additional power users filtered editorially \u2014 their comments were about Renewal by Andersen pricing only, no product quality signal. If Bot 1 finds E-Series-specific GBA/FHB/JLC sources, flag them as new evidence for review."
+    "_note": "GBA mentions exist but are about Andersen generally (A-Series, 400 Series), not E-Series specifically. Reddit power user search (2026-03-14) found 44 posts, 5 qualified power users, 2 with product quality opinions (both about Andersen generally). Three additional power users filtered editorially — their comments were about Renewal by Andersen pricing only, no product quality signal. If Bot 1 finds E-Series-specific GBA/FHB/JLC sources, flag them as new evidence for review."
   },
   "component_quality": {
     "quality_tier": "standard",
@@ -91,20 +91,22 @@
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6.5,
-      "note": "NFRC certified, Energy Star qualified. Wood frame with aluminum cladding \u2014 inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published. Andersen requires dealer consultation for values but certifications confirm above-minimum thermal performance."
+      "note": "NFRC certified, Energy Star qualified. Wood frame with aluminum cladding — inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published. Andersen requires dealer consultation for values but certifications confirm above-minimum thermal performance."
     },
     "structural": {
       "aama_class": null,
       "design_pressure": null,
-      "evidence_level": "NO_EVIDENCE",
-      "score": 5.0,
-      "note": "No AAMA performance class documented for E-Series specifically. General Andersen AAMA Hallmark compliance referenced but not E-Series rated."
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 6.5,
+      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for wood_clad material class. Actual performance may be better.",
+      "non_disclosure_flag": true
     },
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.0,
-      "note": "Energy Star certified indicates meets minimum air infiltration requirements. No specific published value."
+      "score": 6.5,
+      "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for wood_clad material class. Actual performance may be significantly better.",
+      "non_disclosure_flag": true
     }
   }
 }

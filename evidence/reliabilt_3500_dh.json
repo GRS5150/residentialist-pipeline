@@ -6,7 +6,7 @@
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
-  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
@@ -20,7 +20,7 @@
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "RED",
         "source": "Professional installer testimony (multiple independent reports)",
-        "note": "RED \u2014 professional (not consumer) reports of systematic QC failures"
+        "note": "RED — professional (not consumer) reports of systematic QC failures"
       },
       {
         "id": "MQ-RB-002",
@@ -28,7 +28,7 @@
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "Consumer complaint patterns",
-        "note": "YELLOW \u2014 consumer complaints corroborate professional assessment"
+        "note": "YELLOW — consumer complaints corroborate professional assessment"
       }
     ]
   },
@@ -59,7 +59,7 @@
   },
   "repairability": {
     "igu_replacement_method": "sash_replacement",
-    "_note": "Parts availability limited \u2014 must contact manufacturer directly, no third-party suppliers. Warranty identification required for parts ordering."
+    "_note": "Parts availability limited — must contact manufacturer directly, no third-party suppliers. Warranty identification required for parts ordering."
   },
   "performance": {
     "thermal": {
@@ -72,15 +72,17 @@
     "structural": {
       "aama_class": null,
       "design_pressure": null,
-      "evidence_level": "NO_EVIDENCE",
-      "score": 5.0,
-      "note": "No AAMA performance class. Professional complaints about frames not being square and sashes not fitting suggest structural adequacy concerns."
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.5,
+      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for vinyl material class. Actual performance may be better.",
+      "non_disclosure_flag": true
     },
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.0,
-      "note": "Energy Star certified minimum. No additional evidence of air/water performance."
+      "score": 5.5,
+      "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for vinyl material class. Actual performance may be significantly better.",
+      "non_disclosure_flag": true
     }
   }
 }

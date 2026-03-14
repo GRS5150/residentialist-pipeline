@@ -6,7 +6,7 @@
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
-  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
@@ -20,7 +20,7 @@
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "RED",
         "source": "Court filings, class action documentation",
-        "note": "RED \u2014 active litigation with multiple plaintiffs documenting systematic defects"
+        "note": "RED — active litigation with multiple plaintiffs documenting systematic defects"
       },
       {
         "id": "MQ-PGP-002",
@@ -28,7 +28,7 @@
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "Consumer complaint patterns (multiple independent reports)",
-        "note": "YELLOW \u2014 pattern of complaints but individual consumer reports, not systematic testing"
+        "note": "YELLOW — pattern of complaints but individual consumer reports, not systematic testing"
       }
     ]
   },
@@ -39,7 +39,7 @@
         "name": "Contractor assessment",
         "pool": "B",
         "sentiment": "mixed",
-        "summary": "Described as 'on par or better with most other manufacturers Professional windows' and 'balanced value/quality.' Mixed \u2014 adequate but not exceptional.",
+        "summary": "Described as 'on par or better with most other manufacturers Professional windows' and 'balanced value/quality.' Mixed — adequate but not exceptional.",
         "price_bias": false
       }
     ],
@@ -64,15 +64,17 @@
     "structural": {
       "aama_class": null,
       "design_pressure": null,
-      "evidence_level": "NO_EVIDENCE",
-      "score": 5.0,
-      "note": "No AAMA performance class documented. Class action concerns about moisture intrusion suggest potential structural weaknesses."
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.5,
+      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for vinyl material class. Actual performance may be better.",
+      "non_disclosure_flag": true
     },
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.0,
-      "note": "Energy Star certified minimum. No specific air infiltration value published. Previous 8.0 score was unsubstantiated."
+      "score": 5.5,
+      "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for vinyl material class. Actual performance may be significantly better.",
+      "non_disclosure_flag": true
     }
   }
 }

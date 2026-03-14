@@ -6,7 +6,7 @@
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
-  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
@@ -17,7 +17,7 @@
   },
   "professional_consensus": {
     "sources": [],
-    "_note": "No professional reviews found from any pool. TheWindowDog, Jay Johnson, GBA, FHB, JLC \u2014 no specific 250 Series DH evaluations found. LOW_CONFIDENCE flag should be applied."
+    "_note": "No professional reviews found from any pool. TheWindowDog, Jay Johnson, GBA, FHB, JLC — no specific 250 Series DH evaluations found. LOW_CONFIDENCE flag should be applied."
   },
   "component_quality": {
     "quality_tier": "standard",
@@ -32,21 +32,23 @@
       "u_factor": null,
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 6.0,
-      "note": "NFRC certified, Energy Star qualified across multiple climate zones. Vinyl frame \u2014 higher conductivity than wood/fiberglass. No specific DH U-Factor published."
+      "score": 6,
+      "note": "NFRC certified, Energy Star qualified across multiple climate zones. Vinyl frame — higher conductivity than wood/fiberglass. No specific DH U-Factor published."
     },
     "structural": {
       "aama_class": null,
       "design_pressure": null,
-      "evidence_level": "NO_EVIDENCE",
-      "score": 5.0,
-      "note": "No AAMA performance class or structural test data published for 250 Series DH."
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 5.5,
+      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for vinyl material class. Actual performance may be better.",
+      "non_disclosure_flag": true
     },
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.0,
-      "note": "Energy Star certified. No specific air infiltration value published."
+      "score": 5.5,
+      "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for vinyl material class. Actual performance may be significantly better.",
+      "non_disclosure_flag": true
     }
   }
 }

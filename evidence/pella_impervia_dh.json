@@ -6,7 +6,7 @@
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
-  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
@@ -20,7 +20,7 @@
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "Multiple industry professional assessments",
-        "note": "YELLOW \u2014 multiple sources but opinions not backed by specific structural test failures"
+        "note": "YELLOW — multiple sources but opinions not backed by specific structural test failures"
       }
     ]
   },
@@ -31,7 +31,7 @@
         "name": "Industry professionals (multiple)",
         "pool": "B",
         "sentiment": "mixed",
-        "summary": "Mixed reviews \u2014 good fiberglass concept execution but 'somewhat flimsy frame' concerns. AAMA 624 powder-coat finish meets requirements but not exceptional.",
+        "summary": "Mixed reviews — good fiberglass concept execution but 'somewhat flimsy frame' concerns. AAMA 624 powder-coat finish meets requirements but not exceptional.",
         "price_bias": false
       }
     ],
@@ -39,7 +39,7 @@
   },
   "component_quality": {
     "quality_tier": "standard",
-    "_note": "Duracast fiberglass composite \u2014 proprietary material lacks published composition detail. Cam-action lock hardware documented. Standard classification per binary rule."
+    "_note": "Duracast fiberglass composite — proprietary material lacks published composition detail. Cam-action lock hardware documented. Standard classification per binary rule."
   },
   "repairability": {
     "igu_replacement_method": "glass_swap",
@@ -50,21 +50,23 @@
       "u_factor": null,
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 6.0,
-      "note": "NFRC certified, Energy Star qualified. Pultruded fiberglass frame \u2014 inherently low frame conductivity. No specific DH U-Factor published."
+      "score": 6,
+      "note": "NFRC certified, Energy Star qualified. Pultruded fiberglass frame — inherently low frame conductivity. No specific DH U-Factor published."
     },
     "structural": {
       "aama_class": null,
       "design_pressure": null,
-      "evidence_level": "NO_EVIDENCE",
-      "score": 5.0,
-      "note": "No AAMA performance class published for Impervia DH. Score at midpoint."
+      "evidence_level": "CERTIFICATION_FLOOR",
+      "score": 6,
+      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for fiberglass material class. Actual performance may be better.",
+      "non_disclosure_flag": true
     },
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.0,
-      "note": "Energy Star certified indicates minimum air infiltration standards met. No specific published value."
+      "score": 6,
+      "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for fiberglass material class. Actual performance may be significantly better.",
+      "non_disclosure_flag": true
     }
   }
 }

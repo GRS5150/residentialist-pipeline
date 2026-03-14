@@ -6,7 +6,7 @@
   "created": "2026-03-13",
   "last_verified": "2026-03-14",
   "refresh_after_days": 90,
-  "_comment": "PINNED EVIDENCE FILE \u2014 Bot 2 must use these values as ground truth.",
+  "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
@@ -52,20 +52,22 @@
       "u_factor_source": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6.5,
-      "note": "NFRC certified, Energy Star qualified. Wood frame with aluminum cladding \u2014 inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published."
+      "note": "NFRC certified, Energy Star qualified. Wood frame with aluminum cladding — inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published."
     },
     "structural": {
       "aama_class": null,
       "design_pressure": null,
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 7.5,
-      "note": "AAMA Gold Label certification confirms product passed all performance tests including structural. Strong structural reputation from professional sources."
+      "note": "AAMA Gold Label certification confirms product passed all performance tests including structural. Strong structural reputation from professional sources.",
+      "non_disclosure_flag": true
     },
     "air_water": {
       "air_infiltration": null,
       "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.0,
-      "note": "AAMA certified but no specific air infiltration value published for DH configuration. Score at midpoint."
+      "score": 6.5,
+      "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for wood_clad material class. Actual performance may be significantly better.",
+      "non_disclosure_flag": true
     }
   }
 }

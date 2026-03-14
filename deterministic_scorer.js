@@ -12,12 +12,28 @@
  *
  * Unchanged subscores (still scored by Bot 2):
  *   2A frame_longevity, 3A thermal, 3B structural, 3C air_water
+ *
+ * NON-DISCLOSURE POLICY (March 14, 2026):
+ * Products are NEVER penalized for not disclosing component specifications.
+ * When a component is "unknown", the scorer uses class-conditional priors —
+ * the typical/expected component for that material class — instead of a flat
+ * midpoint penalty. This is based on the Bayesian approach: P(component | material_class)
+ * gives the best unbiased estimate. The transparency report (Rule 15 in Bot 2)
+ * documents what was and wasn't disclosed for the reader.
+ *
+ * Research basis: Bayesian class-conditional imputation, S&P Global ESG two-track
+ * scoring model, Grossman-Milgrom disclosure theory, Manski minimax-regret bounds.
  */
 
 // ─── COMPONENT QUALITY (1A) — Deterministic Components + Tier Classification ─
 // 60% deterministic from component lookups, 40% from a categorical quality tier.
 // Bot 2 provides the component identifications and a quality_tier classification.
 // The deterministic scorer computes the final score.
+//
+// "unknown" values use CLASS-CONDITIONAL PRIORS instead of a flat 5.0 penalty.
+// The prior is the typical component for the product's material class.
+// This prevents penalizing manufacturers for non-disclosure while still
+// rewarding manufacturers who prove they use premium components.
 
 const SPACER_SCORES = {
   one_piece_stainless: 10,
@@ -25,7 +41,7 @@ const SPACER_SCORES = {
   warm_edge_hybrid: 8,
   multi_piece_stainless: 7,
   four_piece_aluminum: 4,
-  unknown: 5,
+  // "unknown" is no longer here — handled by class-conditional priors below
 };
 
 const BALANCE_SCORES = {
@@ -34,7 +50,7 @@ const BALANCE_SCORES = {
   coil_spring: 8,      // Class 3
   block_and_tackle: 7, // Class 2
   class_1: 5,
-  unknown: 5,
+  // "unknown" is no longer here — handled by class-conditional priors below
 };
 
 const WEATHERSTRIP_ATTACHMENT_SCORES = {
@@ -42,63 +58,141 @@ const WEATHERSTRIP_ATTACHMENT_SCORES = {
   integrated: 10,
   mechanically_fastened: 8,
   adhesive: 6,
-  unknown: 5,
+  // "unknown" is no longer here — handled by class-conditional priors below
 };
 
 const WEATHERSTRIP_COVERAGE_SCORES = {
   triple: 10,
   double: 8,
   partial: 6,
-  unknown: 5,
+  // "unknown" is no longer here — handled by class-conditional priors below
 };
 
 const GLAZING_BEAD_SCORES = {
   double_wall_integrated: 10,
   single_wall_snap: 6,
   no_glazing_bead: 5,
-  unknown: 5,
+  // "unknown" is no longer here — handled by class-conditional priors below
 };
+
+// ─── CLASS-CONDITIONAL PRIORS ─────────────────────────────────────────────────
+// When a component is "unknown", use the expected value for that material class.
+// These are derived from industry norms: what components are typical for
+// premium wood/clad, fiberglass, and vinyl windows respectively.
+//
+// Material class normalization: maps various material class strings from the
+// orchestrator's MATERIAL_CEILINGS table to one of three prior tiers.
+
+const CLASS_PRIORS = {
+  // Premium wood and aluminum-clad wood — highest tier components expected
+  wood_clad: {
+    spacer: 8.0,                // Warm-edge hybrid or stainless typical; aluminum unheard of
+    balance: 8.0,               // Constant force (10) or quality block-and-tackle (7); ~8 average
+    weatherstrip_attachment: 8.0, // Channeled (10) or mechanical (8); adhesive not used
+    weatherstrip_coverage: 8.0, // Double (8) or triple (10) universal at this tier
+    glazing_bead: 7.0,          // Mix of integrated (10) and snap-in (6)
+    tier_standard: 6.0,         // "standard" tier baseline for this class (up from 5.0)
+  },
+  // Fiberglass — mid-high tier, energy-focused
+  fiberglass: {
+    spacer: 7.0,                // Warm-edge common but some use multi-piece stainless
+    balance: 7.0,               // Block-and-tackle typical for fiberglass DH
+    weatherstrip_attachment: 7.0, // Mechanically fastened typical
+    weatherstrip_coverage: 8.0, // Double standard for energy-focused products
+    glazing_bead: 6.0,          // Single-wall snap typical for fiberglass
+    tier_standard: 5.5,         // Slightly above base
+  },
+  // Vinyl — broadest range, conservative priors
+  vinyl: {
+    spacer: 6.0,                // Range from warm-edge (8) to aluminum (4); 6 is class average
+    balance: 7.0,               // Block-and-tackle (7) most common in vinyl DH
+    weatherstrip_attachment: 7.0, // Range from mechanical (8) to adhesive (6)
+    weatherstrip_coverage: 7.0, // Most have double; budget may have partial
+    glazing_bead: 6.0,          // Single-wall snap near-universal in vinyl
+    tier_standard: 5.0,         // Vinyl baseline (unchanged)
+  },
+};
+
+// Map material class strings to prior tier keys
+function getMaterialPriorTier(materialClass) {
+  const mc = (materialClass || '').toLowerCase();
+  if (mc.includes('vinyl') || mc.includes('pvc')) return 'vinyl';
+  if (mc.includes('fiberglass') || mc.includes('fibreglass') || mc.includes('pultrude')) return 'fiberglass';
+  if (mc.includes('composite') || mc.includes('fibrex')) return 'fiberglass'; // Composite treated as fiberglass tier
+  // Wood, clad, aluminum-clad, wood-clad all map to premium tier
+  if (mc.includes('wood') || mc.includes('clad') || mc.includes('aluminum')) return 'wood_clad';
+  // Default to vinyl (most conservative) if material class is unknown
+  return 'vinyl';
+}
+
+// Get the class-conditional prior score for an unknown component
+function getClassPrior(component, materialClass) {
+  const tier = getMaterialPriorTier(materialClass);
+  const priors = CLASS_PRIORS[tier] || CLASS_PRIORS.vinyl;
+  return priors[component] || 6.0; // Ultimate fallback
+}
 
 // Quality tier for the 40% judgment portion — Binary system to eliminate
 // classification ambiguity. If you can't prove it's premium, it's standard.
-// The 60% deterministic component scores already capture granularity.
-const QUALITY_TIER_SCORES = {
-  premium: 8.5,  // Documented premium hardware, professional praise, no QC issues
-  standard: 5.0, // Everything else — industry-standard, cost-optimized, or undisclosed
-};
+// "standard" baseline is now class-conditional instead of flat 5.0.
+const QUALITY_TIER_PREMIUM = 8.5;  // Documented premium hardware, professional praise, no QC issues
 
-function scoreComponentQuality(data) {
-  const report = { subscore: 'component_quality', method: 'deterministic_components_plus_tier' };
+function getStandardTierScore(materialClass) {
+  const tier = getMaterialPriorTier(materialClass);
+  const priors = CLASS_PRIORS[tier] || CLASS_PRIORS.vinyl;
+  return priors.tier_standard;
+}
 
-  // 60% — Deterministic component scores
-  const spacer = SPACER_SCORES[(data.spacer_system || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || SPACER_SCORES.unknown;
-  const balance = BALANCE_SCORES[(data.balance_system || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || BALANCE_SCORES.unknown;
-  const wsAttach = WEATHERSTRIP_ATTACHMENT_SCORES[(data.weatherstrip_attachment || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || WEATHERSTRIP_ATTACHMENT_SCORES.unknown;
-  const wsCoverage = WEATHERSTRIP_COVERAGE_SCORES[(data.weatherstrip_coverage || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || WEATHERSTRIP_COVERAGE_SCORES.unknown;
-  const glazingBead = GLAZING_BEAD_SCORES[(data.glazing_bead || 'unknown').toLowerCase().replace(/[\s-]+/g, '_')] || GLAZING_BEAD_SCORES.unknown;
+function scoreComponentQuality(data, materialClass) {
+  const report = { subscore: 'component_quality', method: 'deterministic_components_plus_class_priors' };
+  const priorTier = getMaterialPriorTier(materialClass);
+  report.prior_tier = priorTier;
 
-  // Component weights from rubric (equal weight among 5 components)
-  const deterministicScore = (spacer + balance + wsAttach + wsCoverage + glazingBead) / 5;
+  // Helper: look up score with class-conditional prior for unknowns
+  function lookupWithPrior(value, scoreTable, componentName) {
+    const normalized = (value || 'unknown').toLowerCase().replace(/[\s-]+/g, '_');
+    if (normalized === 'unknown' || !scoreTable[normalized]) {
+      const prior = getClassPrior(componentName, materialClass);
+      return { score: prior, source: 'class_prior', disclosed: false };
+    }
+    return { score: scoreTable[normalized], source: 'disclosed', disclosed: true };
+  }
+
+  // 60% — Deterministic component scores (with class priors for unknowns)
+  const spacerResult = lookupWithPrior(data.spacer_system, SPACER_SCORES, 'spacer');
+  const balanceResult = lookupWithPrior(data.balance_system, BALANCE_SCORES, 'balance');
+  const wsAttachResult = lookupWithPrior(data.weatherstrip_attachment, WEATHERSTRIP_ATTACHMENT_SCORES, 'weatherstrip_attachment');
+  const wsCoverageResult = lookupWithPrior(data.weatherstrip_coverage, WEATHERSTRIP_COVERAGE_SCORES, 'weatherstrip_coverage');
+  const glazingBeadResult = lookupWithPrior(data.glazing_bead, GLAZING_BEAD_SCORES, 'glazing_bead');
+
+  const allResults = [spacerResult, balanceResult, wsAttachResult, wsCoverageResult, glazingBeadResult];
+  const deterministicScore = allResults.reduce((sum, r) => sum + r.score, 0) / 5;
+  const disclosedCount = allResults.filter(r => r.disclosed).length;
+  const undisclosedCount = 5 - disclosedCount;
 
   // 40% — Quality tier classification (binary: premium or standard)
   const rawTier = (data.quality_tier || 'standard').toLowerCase().replace(/[\s-]+/g, '_');
-  // Map any non-premium value to standard (eliminates old standard_plus/below_standard ambiguity)
   const tier = rawTier === 'premium' ? 'premium' : 'standard';
-  const judgmentScore = QUALITY_TIER_SCORES[tier];
+  const judgmentScore = tier === 'premium' ? QUALITY_TIER_PREMIUM : getStandardTierScore(materialClass);
   if (rawTier !== 'premium' && rawTier !== 'standard') {
     report.warning = `Mapped quality_tier "${data.quality_tier}" to standard (binary system)`;
   }
 
   report.components = {
-    spacer: { value: data.spacer_system, score: spacer },
-    balance: { value: data.balance_system, score: balance },
-    weatherstrip_attachment: { value: data.weatherstrip_attachment, score: wsAttach },
-    weatherstrip_coverage: { value: data.weatherstrip_coverage, score: wsCoverage },
-    glazing_bead: { value: data.glazing_bead, score: glazingBead },
+    spacer: { value: data.spacer_system, score: spacerResult.score, source: spacerResult.source },
+    balance: { value: data.balance_system, score: balanceResult.score, source: balanceResult.source },
+    weatherstrip_attachment: { value: data.weatherstrip_attachment, score: wsAttachResult.score, source: wsAttachResult.source },
+    weatherstrip_coverage: { value: data.weatherstrip_coverage, score: wsCoverageResult.score, source: wsCoverageResult.source },
+    glazing_bead: { value: data.glazing_bead, score: glazingBeadResult.score, source: glazingBeadResult.source },
   };
   report.deterministic_score = Math.round(deterministicScore * 100) / 100;
   report.quality_tier = tier;
   report.judgment_score = judgmentScore;
+  report.disclosed_components = disclosedCount;
+  report.undisclosed_components = undisclosedCount;
+  if (undisclosedCount > 0) {
+    report.non_disclosure_note = `${undisclosedCount} of 5 components not disclosed by manufacturer — scored using class-conditional priors for ${priorTier} material class`;
+  }
 
   // Final: 60% deterministic + 40% tier
   const raw = (deterministicScore * 0.60) + (judgmentScore * 0.40);
@@ -215,7 +309,8 @@ const ALLOWED_ADJUSTMENTS = {
   SHORT_WARRANTY:          -0.5,
   LAMINATED_WOOD:          -0.5,
   NO_GLAZING_BEAD:         -0.5,
-  SEAL_UNKNOWN:            -0.5,
+  // SEAL_UNKNOWN removed March 14, 2026 — non-disclosure policy.
+  // Not disclosing seal type is not a product quality issue.
 };
 
 function scoreMaterialsDurability(data, getMaterialCeiling) {
@@ -471,9 +566,9 @@ function computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling
     material_class: materialLock.rawText,
   };
 
-  // 1A Component Quality
+  // 1A Component Quality — pass material class for class-conditional priors
   const cqData = quality.component_quality || {};
-  result.component_quality = scoreComponentQuality(cqData);
+  result.component_quality = scoreComponentQuality(cqData, materialLock.rawText);
 
   // 1B Manufacturing Quality
   const mfgData = quality.manufacturing_quality || {};
