@@ -79,11 +79,23 @@ const MATERIAL_CEILINGS = {
 function getMaterialCeiling(materialClass) {
   if (!materialClass) return { base: 6, ceiling: 7, label: 'Unknown — defaulting to vinyl' };
   const lower = materialClass.toLowerCase();
+  // Check both directions: material string contains key, OR key contains material string
   for (const [key, vals] of Object.entries(MATERIAL_CEILINGS)) {
-    if (lower.includes(key)) {
+    if (lower.includes(key) || key.includes(lower)) {
       return { ...vals, label: materialClass };
     }
   }
+  // Secondary: check for key terms within verbose descriptions
+  // e.g., "wood interior with aluminum-clad exterior" should match aluminum-clad wood
+  const alClad = /aluminum.clad/i.test(lower) && /wood/i.test(lower);
+  const vinylClad = /vinyl.clad/i.test(lower) && /wood/i.test(lower);
+  const fgClad = /fiberglass.clad/i.test(lower) && /wood/i.test(lower);
+  if (alClad) return { ...MATERIAL_CEILINGS['aluminum-clad wood'], label: materialClass };
+  if (fgClad) return { ...MATERIAL_CEILINGS['fiberglass-clad wood'], label: materialClass };
+  if (vinylClad) return { ...MATERIAL_CEILINGS['vinyl-clad wood'], label: materialClass };
+  if (/fiberglass|pultruded|ultrex|duracast/i.test(lower)) return { ...MATERIAL_CEILINGS['fiberglass'], label: materialClass };
+  if (/vinyl/i.test(lower) && !vinylClad) return { ...MATERIAL_CEILINGS['vinyl'], label: materialClass };
+  if (/composite|fibrex/i.test(lower)) return { ...MATERIAL_CEILINGS['composite'], label: materialClass };
   // Default to most conservative if unrecognized
   console.warn(`[MATERIAL_CEILING] WARNING: "${materialClass}" not matched in MATERIAL_CEILINGS table — defaulting to vinyl tier (base 5, ceiling 6). If this is wrong, add an entry to the table.`);
   return { base: 6, ceiling: 7, label: materialClass + ' (unrecognized — defaulting to vinyl)' };
@@ -325,7 +337,7 @@ function extractMaterialClass(bot1Output) {
           raw = fullContext.includes('extruded') ? 'Aluminum-clad wood (extruded aluminum)' : 'Aluminum-clad wood';
         }
         // Normalize: "Wood protected by aluminum exterior" → "Aluminum-clad wood"
-        if (/wood\s+protected\s+by\s+aluminum/i.test(raw) || /wood.*aluminum\s+exterior/i.test(raw)) {
+        if (/wood\s+protected\s+by\s+aluminum/i.test(raw) || /wood.*aluminum[\s-]+(?:clad\s+)?exterior/i.test(raw) || /wood.*aluminum.clad/i.test(raw)) {
           raw = 'Aluminum-clad wood';
         }
         // Normalize: "Wood with vinyl exterior" or "Perma-Shield vinyl" → "Vinyl-clad wood"
@@ -350,7 +362,7 @@ function extractMaterialClass(bot1Output) {
   const materialKeywords = [
     { pattern: /vinyl\s+window|vinyl\s+frame|vinyl\s+construction/i, label: 'Vinyl' },
     { pattern: /aluminum.clad\s+wood|clad.wood|wood.clad/i, label: 'Aluminum-clad wood' },
-    { pattern: /wood\s+protected\s+by\s+aluminum|wood.*aluminum\s+exterior/i, label: 'Aluminum-clad wood' },
+    { pattern: /wood\s+protected\s+by\s+aluminum|wood.*aluminum[\s-]+(?:clad\s+)?exterior|wood.*aluminum.clad/i, label: 'Aluminum-clad wood' },
     { pattern: /fiberglass\s+frame|pultruded\s+fiberglass|ultrex|duracast/i, label: 'Pultruded fiberglass' },
     { pattern: /vinyl.clad(?:ding)?\s+wood|wood.*vinyl\s+(?:clad|exterior)|perma.?shield.*wood/i, label: 'Vinyl-clad wood' },
     { pattern: /fiberglass.clad(?:ding)?\s+wood|wood.*fiberglass\s+(?:clad|exterior)/i, label: 'Fiberglass-clad wood' },
