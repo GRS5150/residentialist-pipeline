@@ -220,7 +220,17 @@ function scoreComponentQuality(data, materialClass) {
   return report;
 }
 
-// ─── MANUFACTURING QUALITY (1B) — Complaint Severity Framework ───────────────
+// ─── MANUFACTURING QUALITY (1B) — Pattern-Based Complaint Assessment ─────────
+//
+// CHANGE LOG:
+//   March 15, 2026 (Fix B): Added BUSINESS_MODEL_MAP lookup table.
+//     Products with null business_model now resolve via this map instead of
+//     defaulting to assembler (7.0). Follows MATERIAL_CLASS_OVERRIDES pattern.
+//   March 15, 2026 (Fix C): Replaced per-complaint deduction math with
+//     pattern-based assessComplaintPattern(). Ray's principle: detect PATTERNS,
+//     not individual complaints. A one-off from 2013 isn't significant; five
+//     lawsuits spanning years IS significant. Haiku's systemic flag and year
+//     metadata are used to assess pattern severity.
 
 const BUSINESS_MODEL_BASE = {
   manufacturer_own_factory: 8.0,
@@ -231,26 +241,182 @@ const BUSINESS_MODEL_BASE = {
   rebrander: 3.0,
 };
 
-const COMPLAINT_DEDUCTIONS = {
-  SAFETY:            { red: -1.0,  yellow: -0.5,  note: -0.5,  cap: -3.0 },
-  STRUCTURAL_DEFECT: { red: -0.75, yellow: -0.25, note: -0.125, cap: -2.0 },
-  DELIVERY:          { red: -0.5,  yellow: -0.5,  note: -0.25, cap: -1.5 },
-  COSMETIC:          { red: -0.25, yellow: -0.25, note: -0.125, cap: -1.0 },
-  INSTALL_DEPENDENT: { red: 0,     yellow: 0,     note: 0,     cap: 0 },
+// Fix B: Product-level business model lookup table.
+// When source_parser can't determine business_model from web search,
+// this provides the ground truth. Same pattern as MATERIAL_CLASS_OVERRIDES.
+// Key: lowercase product name (must match product_name in DB).
+const BUSINESS_MODEL_MAP = {
+  'sierra pacific':        'manufacturer_own_factory',  // Owns plants in Merced/Red Bluff CA
+  'andersen 400 series':   'manufacturer_own_factory',  // Andersen Corporation — Bayport MN
+  'andersen 100 series':   'manufacturer_own_factory',  // Andersen Corporation — Renewal line
+  'andersen e-series':     'manufacturer_own_factory',  // Andersen Eagle line
+  'jeld-wen v-2500':       'manufacturer_own_factory',  // Jeld-Wen — own factories worldwide
+  'milgard tuscany':       'manufacturer_own_factory',  // Milgard (MI Windows) — own factories
+  'pella 250 series':      'manufacturer_own_factory',  // Pella Corporation — Pella IA
+  'pella impervia':        'manufacturer_own_factory',  // Pella Corporation
+  'marvin signature ultimate': 'manufacturer_own_factory', // Marvin — Warroad MN
+  'loewen':                'manufacturer_own_factory',  // Loewen — Steinbach MB Canada
+  'alpen zr-7':            'manufacturer_own_factory',  // Alpen HPP — Louisville CO
+  'simonton reflections 5500': 'manufacturer_own_factory', // Simonton (Cornerstone) — own plants
+  'reliabilt 3500':        'rebrander',                  // Lowe's store brand — manufactured by various
+  'ply gem pro series':    'manufacturer_own_factory',  // Ply Gem (Cornerstone Building Brands)
 };
 
-function scoreManufacturingQuality(data) {
-  const report = { subscore: 'manufacturing_quality', method: 'complaint_severity_framework' };
-
-  // Base score from business model
-  const model = (data.business_model || '').toLowerCase().replace(/[\s-]+/g, '_');
-  const base = BUSINESS_MODEL_BASE[model];
-  if (base === undefined) {
-    report.warning = `Unknown business_model "${data.business_model}" — defaulting to assembler (7.0)`;
+/**
+ * Resolve business model: check data.business_model first, then BUSINESS_MODEL_MAP,
+ * then fall back to assembler (7.0).
+ * @param {Object} data — manufacturing_quality data with business_model and product name
+ * @param {string} [productName] — product name for lookup table match
+ * @returns {{model: string, base: number, source: string}}
+ */
+function resolveBusinessModel(data, productName) {
+  // 1. Check if Bot 2 / source parser provided a business_model
+  const directModel = (data.business_model || '').toLowerCase().replace(/[\s-]+/g, '_');
+  if (directModel && BUSINESS_MODEL_BASE[directModel] !== undefined) {
+    return { model: directModel, base: BUSINESS_MODEL_BASE[directModel], source: 'bot2_classification' };
   }
-  report.base = base !== undefined ? base : 7.0;
 
-  // Certification bonus
+  // 2. Check BUSINESS_MODEL_MAP by product name
+  if (productName) {
+    const key = productName.toLowerCase().trim();
+    const mapped = BUSINESS_MODEL_MAP[key];
+    if (mapped && BUSINESS_MODEL_BASE[mapped] !== undefined) {
+      return { model: mapped, base: BUSINESS_MODEL_BASE[mapped], source: 'business_model_map' };
+    }
+  }
+
+  // 3. Fallback to assembler
+  return { model: 'assembler', base: 7.0, source: 'default_fallback' };
+}
+
+// Fix C: Pattern-based complaint assessment
+// Instead of per-complaint deductions that max out caps, assess the PATTERN.
+// Ray's principle: individual complaints are noise; patterns are signal.
+//
+// Tier 0: 0 verified complaints → no deduction
+// Tier 1: 1-2 isolated, none recent (>5yr) → minimal (-0.25 to -0.5)
+// Tier 2: 1-2, recent (within 5yr) → moderate (-0.5 to -1.0)
+// Tier 3: 3+ spanning years, pattern active → significant (-1.5 to -2.5)
+// Tier 4: 3+ but cold (nothing recent) → reduced (-0.5 to -1.0)
+//
+// Haiku's systemic flag shifts severity UP within the tier.
+// Haiku's year metadata determines recency.
+
+function assessComplaintPattern(complaints) {
+  const report = { method: 'pattern_based_v1' };
+
+  if (!complaints || complaints.length === 0) {
+    report.tier = 0;
+    report.tier_label = 'CLEAN';
+    report.deduction = 0;
+    report.rationale = 'No verified complaints';
+    return report;
+  }
+
+  const currentYear = new Date().getFullYear();
+  const RECENCY_THRESHOLD = 5; // years
+
+  // Analyze complaint properties
+  const total = complaints.length;
+  const withYears = complaints.filter(c => c.year && typeof c.year === 'number');
+  const recentComplaints = withYears.filter(c => (currentYear - c.year) <= RECENCY_THRESHOLD);
+  const oldComplaints = withYears.filter(c => (currentYear - c.year) > RECENCY_THRESHOLD);
+  const systemicCount = complaints.filter(c => c.systemic === true).length;
+  const safetyCount = complaints.filter(c => (c.classification || '').toUpperCase() === 'SAFETY').length;
+  const redCount = complaints.filter(c => (c.evidence_level || '').toUpperCase() === 'RED').length;
+
+  // Determine span (how many distinct years)
+  const years = withYears.map(c => c.year);
+  const uniqueYears = [...new Set(years)];
+  const yearSpan = uniqueYears.length >= 2 ? Math.max(...uniqueYears) - Math.min(...uniqueYears) : 0;
+
+  report.analysis = {
+    total_verified: total,
+    with_year_data: withYears.length,
+    recent: recentComplaints.length,
+    old: oldComplaints.length,
+    systemic: systemicCount,
+    safety: safetyCount,
+    red_evidence: redCount,
+    unique_years: uniqueYears.sort(),
+    year_span: yearSpan,
+  };
+
+  let deduction = 0;
+  let tier, tierLabel, rationale;
+
+  if (total >= 3 && recentComplaints.length > 0) {
+    // TIER 3: 3+ complaints with at least one recent — active pattern
+    tier = 3;
+    tierLabel = 'ACTIVE_PATTERN';
+
+    // Base: -1.5
+    deduction = -1.5;
+
+    // Severity modifiers
+    if (systemicCount >= 2) deduction -= 0.5;    // Multiple systemic = worse
+    if (safetyCount >= 1) deduction -= 0.25;      // Safety issues present
+    if (redCount >= 2) deduction -= 0.25;          // Multiple official/red-level
+    if (yearSpan >= 5) deduction -= 0.25;          // Long-running pattern
+
+    // Cap at -2.5
+    deduction = Math.max(deduction, -2.5);
+    rationale = `${total} verified complaints spanning ${yearSpan}+ years, ${recentComplaints.length} recent, ${systemicCount} systemic`;
+
+  } else if (total >= 3 && recentComplaints.length === 0) {
+    // TIER 4: 3+ complaints but all old — cold pattern
+    tier = 4;
+    tierLabel = 'COLD_PATTERN';
+
+    deduction = -0.5;
+    if (systemicCount >= 2) deduction -= 0.25;
+    if (safetyCount >= 1) deduction -= 0.25;
+    deduction = Math.max(deduction, -1.0);
+    rationale = `${total} verified complaints but none in last ${RECENCY_THRESHOLD} years — pattern appears resolved`;
+
+  } else if (total >= 1 && recentComplaints.length > 0) {
+    // TIER 2: 1-2 complaints, at least one recent
+    tier = 2;
+    tierLabel = 'RECENT_ISOLATED';
+
+    deduction = -0.5;
+    if (systemicCount >= 1) deduction -= 0.25;
+    if (safetyCount >= 1) deduction -= 0.25;
+    deduction = Math.max(deduction, -1.0);
+    rationale = `${total} verified complaint(s), ${recentComplaints.length} recent — isolated but current`;
+
+  } else {
+    // TIER 1: 1-2 complaints, all old
+    tier = 1;
+    tierLabel = 'OLD_ISOLATED';
+
+    deduction = -0.25;
+    if (safetyCount >= 1) deduction -= 0.25;
+    deduction = Math.max(deduction, -0.5);
+    rationale = `${total} verified complaint(s), all older than ${RECENCY_THRESHOLD} years — minimal pattern`;
+  }
+
+  report.tier = tier;
+  report.tier_label = tierLabel;
+  report.deduction = Math.round(deduction * 100) / 100;
+  report.rationale = rationale;
+
+  return report;
+}
+
+function scoreManufacturingQuality(data, productName) {
+  const report = { subscore: 'manufacturing_quality', method: 'pattern_based_complaint_assessment' };
+
+  // Fix B: Resolve business model via lookup table
+  const bm = resolveBusinessModel(data, productName);
+  report.base = bm.base;
+  report.business_model = bm.model;
+  report.business_model_source = bm.source;
+  if (bm.source === 'default_fallback') {
+    report.warning = `business_model not found for "${productName || data.business_model}" — defaulting to assembler (7.0). Add to BUSINESS_MODEL_MAP.`;
+  }
+
+  // Certification bonus (unchanged)
   let certBonus = 0;
   const certs = (data.certifications || []).map(c => c.toUpperCase());
   const hasAAMA = certs.includes('AAMA_GOLD');
@@ -265,54 +431,13 @@ function scoreManufacturingQuality(data) {
   certBonus = Math.min(certBonus, 1.0);
   report.cert_bonus = certBonus;
 
-  // Complaint deductions
-  let totalDeductions = 0;
-  const complaintDetails = [];
-  const capTrackers = {};
-
-  for (const complaint of (data.complaints || [])) {
-    const cls = (complaint.classification || '').toUpperCase();
-    const rules = COMPLAINT_DEDUCTIONS[cls];
-    if (!rules) {
-      complaintDetails.push({ description: complaint.description, classification: cls, deduction: 0, note: 'Unknown classification — ignored' });
-      continue;
-    }
-
-    const evidence = (complaint.evidence_level || 'NOTE').toUpperCase();
-    let deduction;
-    if (evidence === 'RED') {
-      deduction = rules.red;
-    } else if (evidence === 'YELLOW') {
-      deduction = rules.yellow;
-    } else {
-      // NOTE-level: reduce deduction by 50%
-      deduction = rules.note;
-    }
-
-    // Track per-classification cap
-    if (!capTrackers[cls]) capTrackers[cls] = 0;
-    const remainingCap = rules.cap - capTrackers[cls];
-    if (remainingCap >= 0) {
-      deduction = 0; // cap already hit (all deductions are negative, cap is negative)
-    } else {
-      deduction = Math.max(deduction, remainingCap); // don't exceed cap
-    }
-    capTrackers[cls] += deduction;
-    totalDeductions += deduction;
-
-    complaintDetails.push({
-      description: complaint.description,
-      classification: cls,
-      evidence_level: evidence,
-      deduction,
-    });
-  }
-
-  report.complaint_deductions = totalDeductions;
-  report.complaints = complaintDetails;
+  // Fix C: Pattern-based complaint assessment
+  const patternReport = assessComplaintPattern(data.complaints);
+  report.complaint_pattern = patternReport;
+  report.complaint_deductions = patternReport.deduction;
 
   // Final score
-  const raw = report.base + certBonus + totalDeductions;
+  const raw = report.base + certBonus + patternReport.deduction;
   report.score = Math.max(1.0, Math.min(10.0, Math.round(raw * 100) / 100));
   return report;
 }
@@ -590,9 +715,9 @@ function computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling
   const cqData = quality.component_quality || {};
   result.component_quality = scoreComponentQuality(cqData, materialLock.rawText);
 
-  // 1B Manufacturing Quality
+  // 1B Manufacturing Quality — pass product name for BUSINESS_MODEL_MAP lookup (Fix B)
   const mfgData = quality.manufacturing_quality || {};
-  result.manufacturing_quality = scoreManufacturingQuality(mfgData);
+  result.manufacturing_quality = scoreManufacturingQuality(mfgData, bot2Parsed.product);
 
   // 1C Professional Consensus
   const pcData = quality.professional_consensus || {};

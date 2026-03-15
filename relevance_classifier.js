@@ -340,6 +340,62 @@ Respond with ONLY a JSON object (no markdown, no explanation):
   }
 }
 
+// ─── SNIPPET-BASED PRE-FILTER ─────────────────────────────────────────────────
+// Catches obvious false positives from the Brave snippet + title alone.
+// Runs BEFORE page fetch — rejects sources where the snippet clearly indicates
+// irrelevance (e.g., "truck", "lumber", "railroad" + manufacturer name).
+// Only applies when the product name has known collision risks.
+
+/**
+ * Known false-positive patterns by manufacturer/product name.
+ * Each entry maps a lowercase product name fragment to an array of
+ * { reject: regex, reason: string } patterns.
+ *
+ * If the combined title + description + URL matches any reject pattern,
+ * the source is rejected without fetching the page.
+ */
+const SNIPPET_REJECT_PATTERNS = {
+  'sierra pacific': [
+    { reject: /\b(truck|silverado|gmc|chevy|chevrolet|pickup|diesel|fuel pump|1500|2500|3500)\b/i, reason: 'Vehicle/truck reference (not windows)' },
+    { reject: /\b(lumber|timber|forestry|sawmill|plywood|forest products|logging)\b/i, reason: 'Lumber/forestry company (Sierra Pacific Industries)' },
+    { reject: /\b(railroad|railway|locomotive|freight|rail line)\b/i, reason: 'Railroad reference (not windows)' },
+    { reject: /\b(credit union|fcu|banking|savings|checking account|atm)\b/i, reason: 'Credit union/financial (not windows)' },
+    { reject: /\b(warehouse group|food storage|cold storage|logistics)\b/i, reason: 'Warehouse/logistics company (not windows)' },
+    { reject: /\b(wage.?and.?hour|employment discrimination|eeoc|labor law|workers.?comp)\b/i, reason: 'Employment/labor lawsuit (not windows company)' },
+    { reject: /\b(camping|tent|sleeping bag|outdoor gear|backpack)\b/i, reason: 'Sierra Designs outdoor gear (not windows)' },
+    { reject: /\b(electrical components|electrical supply|wire|conduit)\b/i, reason: 'Sierra Pacific Supply (electrical distributor)' },
+    { reject: /\b(fuel pump|injection pump|cp4|duramax)\b/i, reason: 'Vehicle fuel pump lawsuit (not windows)' },
+  ],
+  // Add more products as needed — only products with known name collisions
+};
+
+/**
+ * Check if a source should be rejected based on snippet content alone.
+ * 
+ * @param {Object} src — source object with url, name, description
+ * @param {string} productName
+ * @returns {{reject: boolean, reason: string|null}}
+ */
+function snippetPreFilter(src, productName) {
+  const productKey = productName.toLowerCase().trim();
+  const patterns = SNIPPET_REJECT_PATTERNS[productKey];
+  if (!patterns) return { reject: false, reason: null };
+
+  const combined = [
+    src.name || '',
+    src.description || '',
+    src.url || '',
+  ].join(' ').toLowerCase();
+
+  for (const { reject, reason } of patterns) {
+    if (reject.test(combined)) {
+      return { reject: true, reason: `Snippet pre-filter: ${reason}` };
+    }
+  }
+
+  return { reject: false, reason: null };
+}
+
 // ─── BATCH PROCESSING ─────────────────────────────────────────────────────────
 
 /**
@@ -453,16 +509,32 @@ async function classifyRelevance(sources, productName, manufacturer, category, o
     toClassify.push(src);
   }
 
+  // Step 0.5: Snippet pre-filter — reject obvious false positives from title/description alone
+  const afterSnippet = [];
+  let snippetRejected = 0;
+  for (const src of toClassify) {
+    const check = snippetPreFilter(src, productName);
+    if (check.reject) {
+      rejected.push({ source: src, reason: check.reason, confidence: 'high' });
+      stats.rejected++;
+      snippetRejected++;
+      if (verbose) console.log(`[RELEVANCE]   SNIPPET_REJECT: ${src.url?.slice(0, 80)} — ${check.reason}`);
+    } else {
+      afterSnippet.push(src);
+    }
+  }
+
   if (verbose) {
     console.log(`[RELEVANCE] Auto-relevant (skip list): ${autoRelevant.length}`);
-    console.log(`[RELEVANCE] Need classification: ${toClassify.length}`);
+    console.log(`[RELEVANCE] Snippet pre-filter rejected: ${snippetRejected}`);
+    console.log(`[RELEVANCE] Need page-fetch + classification: ${afterSnippet.length}`);
   }
 
   // Step 1: Fetch all pages in parallel batches
-  if (verbose) console.log(`[RELEVANCE] Fetching ${toClassify.length} pages...`);
+  if (verbose) console.log(`[RELEVANCE] Fetching ${afterSnippet.length} pages...`);
 
   const fetchResults = await processBatches(
-    toClassify,
+    afterSnippet,
     CONCURRENT_FETCHES,
     async (src) => {
       const result = await fetchPageText(src.url);
@@ -478,9 +550,21 @@ async function classifyRelevance(sources, productName, manufacturer, category, o
     fetchResults,
     CONCURRENT_HAIKU,
     async ({ src, text, status, error }) => {
-      // If fetch failed, default to INCLUDE (don't lose data on transient errors)
+      // If fetch failed, check if snippet alone indicates irrelevance
       if (error || !text || text.length < 50) {
         stats.fetchFailed++;
+        // For products with known name collisions, timed-out fetches are suspicious —
+        // check the URL + title for reject patterns before defaulting to include
+        const srcDomain = extractDomain(src.url || '');
+        const isManufacturerSite = srcDomain && SKIP_CLASSIFICATION_DOMAINS.some(d => srcDomain === d || srcDomain.endsWith('.' + d));
+        if (!isManufacturerSite) {
+          // Check URL itself for reject patterns (e.g., "sierra-pacific-truck-lawsuit")
+          const urlCheck = snippetPreFilter({ url: src.url || '', name: src.name || '', description: '' }, productName);
+          if (urlCheck.reject) {
+            if (verbose) console.log(`[RELEVANCE]   FETCH_FAIL+REJECT: ${src.url?.slice(0, 80)} — ${urlCheck.reason}`);
+            return { src, relevant: false, reason: `Fetch failed + URL/title matched reject pattern: ${urlCheck.reason}` };
+          }
+        }
         if (verbose) console.log(`[RELEVANCE]   FETCH_FAIL: ${src.url?.slice(0, 80)} — ${error || 'empty page'} → INCLUDE`);
         return { src, relevant: true, reason: `Fetch failed: ${error || 'empty'} — defaulting to include` };
       }
@@ -550,6 +634,223 @@ async function classifyRelevance(sources, productName, manufacturer, category, o
   return { relevant, rejected, stats };
 }
 
+// ─── COMPLAINT VERIFICATION (Fix A) ──────────────────────────────────────────
+// When source_parser detects complaint keywords in a title/description, this
+// function reads the already-fetched page text and asks Haiku to verify:
+//   1. Is this actually a complaint about THIS product?
+//   2. What year did the complaint/incident occur?
+//   3. Status: dismissed, settled, recall, ongoing, or unknown?
+//   4. Systemic pattern indicator or isolated incident?
+//
+// Returns a verified complaint object or null if it's not a real complaint.
+// Cost: ~$0.0001 per verification (Haiku, ~200 tokens).
+
+/**
+ * Verify a potential complaint by reading the page text with Haiku.
+ *
+ * @param {Object} client — Anthropic SDK client instance
+ * @param {string} pageText — extracted text from the page (from fetchPageText)
+ * @param {string} productName — e.g. "Sierra Pacific"
+ * @param {string} manufacturer — e.g. "Sierra Pacific"
+ * @param {string} url — source URL
+ * @param {string} title — search result title
+ * @param {string} description — search result snippet
+ * @returns {Promise<{verified: boolean, complaint: Object|null}>}
+ */
+async function verifyComplaint(client, pageText, productName, manufacturer, url, title, description) {
+  // If we have no page text, fall back to snippet-only (conservative: don't verify)
+  const textToAnalyze = (pageText && pageText.length >= 50)
+    ? pageText.slice(0, 6000)
+    : ((title || '') + ' ' + (description || '')).slice(0, 1000);
+
+  const hasPageText = pageText && pageText.length >= 50;
+
+  const prompt = `You are a complaint verification system for a product research pipeline. A keyword scan flagged this page as a potential complaint about "${productName}" by ${manufacturer}. Your job is to determine if this is a REAL, VERIFIED complaint about this specific product.
+
+PAGE URL: ${url}
+SEARCH RESULT TITLE: ${title || 'N/A'}
+SEARCH SNIPPET: ${(description || '').slice(0, 300)}
+
+${hasPageText ? 'FULL PAGE TEXT (first ~6000 chars):' : 'SNIPPET ONLY (page could not be fetched):'}
+---
+${textToAnalyze}
+---
+
+ANALYZE AND DETERMINE:
+1. Is this a REAL complaint, recall, lawsuit, or defect report specifically about "${productName}" windows/doors by ${manufacturer}?
+   - NO if it's about a different company with a similar name
+   - NO if it's a positive review, comparison, or owner's manual
+   - NO if the complaint is about installation (not the product itself)
+   - NO if it's a generic article mentioning problems in passing
+   - YES only if there is a specific, substantive complaint about this product
+
+2. If YES — classify:
+   - classification: SAFETY (recall, injury, fire, CPSC) | STRUCTURAL_DEFECT (seal failure, rot, warp, leak, crack) | DELIVERY (shipping damage, delays) | COSMETIC (appearance issues)
+   - evidence_level: RED (official recall, class action, CPSC report, government action) | YELLOW (consumer complaint, forum report, BBB complaint)
+   - year: The year the complaint/incident occurred or was filed (best estimate, or null)
+   - status: dismissed | settled | recall_active | recall_closed | ongoing | unknown
+   - systemic: true if this describes a pattern affecting multiple units/customers, false if isolated incident
+   - summary: One-sentence description of the actual complaint
+
+Respond with ONLY a JSON object (no markdown, no explanation):
+{"verified": true/false, "classification": "...", "evidence_level": "RED"/"YELLOW", "year": 2020, "status": "...", "systemic": true/false, "summary": "..."}
+
+If verified is false, only include: {"verified": false, "reason": "one sentence why this is not a real complaint"}`;
+
+  try {
+    const response = await client.messages.create({
+      model: CLASSIFIER_MODEL,
+      max_tokens: 250,
+      messages: [{ role: 'user', content: prompt }],
+    });
+
+    const text = response.content[0]?.text?.trim() || '';
+
+    try {
+      const jsonStr = text.replace(/^```json\n?/, '').replace(/\n?```$/, '');
+      const parsed = JSON.parse(jsonStr);
+
+      if (!parsed.verified) {
+        return { verified: false, reason: parsed.reason || 'Haiku determined not a real complaint', complaint: null };
+      }
+
+      return {
+        verified: true,
+        complaint: {
+          description: (parsed.summary || title || '').slice(0, 200),
+          classification: parsed.classification || 'STRUCTURAL_DEFECT',
+          evidence_level: parsed.evidence_level || 'YELLOW',
+          source: url || 'web search result',
+          year: parsed.year || null,
+          status: parsed.status || 'unknown',
+          systemic: parsed.systemic === true,
+          _verified_by: 'haiku_complaint_verification',
+          _had_page_text: hasPageText,
+        },
+      };
+    } catch (parseErr) {
+      // JSON parse failed — if verified appears in text, be conservative
+      const looksVerified = /"verified"\s*:\s*true/i.test(text);
+      if (looksVerified) {
+        return {
+          verified: true,
+          complaint: {
+            description: (title || description || '').slice(0, 200),
+            classification: 'STRUCTURAL_DEFECT',
+            evidence_level: 'YELLOW',
+            source: url || 'web search result',
+            year: null,
+            status: 'unknown',
+            systemic: false,
+            _verified_by: 'haiku_complaint_verification_fallback',
+            _had_page_text: hasPageText,
+          },
+        };
+      }
+      return { verified: false, reason: `JSON parse failed, assumed not verified: ${text.slice(0, 100)}`, complaint: null };
+    }
+  } catch (err) {
+    // On API error, default to NOT including (conservative — don't add unverified complaints)
+    return { verified: false, reason: `Haiku API error: ${err.message} — skipping complaint`, complaint: null };
+  }
+}
+
+/**
+ * Batch-verify an array of potential complaints.
+ * For each candidate, fetches the page (if not already fetched) and runs Haiku verification.
+ *
+ * @param {Array<{title: string, description: string, url: string}>} candidates — potential complaints from keyword scan
+ * @param {string} productName
+ * @param {string} manufacturer
+ * @param {Object} [options] — { anthropicApiKey, verbose, pageTextCache }
+ * @returns {Promise<Array<Object>>} — array of verified complaint objects
+ */
+async function verifyComplaints(candidates, productName, manufacturer, options = {}) {
+  if (!candidates || candidates.length === 0) return [];
+
+  const Anthropic = require('@anthropic-ai/sdk');
+  const apiKey = options.anthropicApiKey || process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    console.warn('[COMPLAINT_VERIFY] No ANTHROPIC_API_KEY — skipping verification, returning all as-is');
+    return candidates.map(c => ({
+      description: (c.title || c.description || '').slice(0, 200),
+      classification: 'STRUCTURAL_DEFECT',
+      evidence_level: 'YELLOW',
+      source: c.url || 'web search result',
+      year: null,
+      status: 'unknown',
+      systemic: false,
+      _verified_by: 'unverified_no_api_key',
+    }));
+  }
+
+  const client = new Anthropic({ apiKey });
+  const verbose = options.verbose !== false;
+  const pageTextCache = options.pageTextCache || {}; // url -> text from relevance classifier
+
+  if (verbose) {
+    console.log(`\n[COMPLAINT_VERIFY] ── Verifying ${candidates.length} potential complaint(s) ──`);
+    console.log(`[COMPLAINT_VERIFY] Product: ${productName} | Manufacturer: ${manufacturer}`);
+  }
+
+  const verified = [];
+  const rejected = [];
+
+  // Process in batches of 5 (same as relevance classifier)
+  const results = await processBatches(
+    candidates,
+    CONCURRENT_HAIKU,
+    async (candidate) => {
+      const url = candidate.url || '';
+
+      // Try cache first, then fetch
+      let pageText = pageTextCache[url] || '';
+      if (!pageText && url) {
+        const fetched = await fetchPageText(url);
+        if (fetched.text && fetched.text.length >= 50) {
+          pageText = fetched.text;
+        }
+      }
+
+      const result = await verifyComplaint(
+        client,
+        pageText,
+        productName,
+        manufacturer,
+        url,
+        candidate.title || '',
+        candidate.description || ''
+      );
+
+      if (verbose) {
+        if (result.verified) {
+          const c = result.complaint;
+          console.log(`[COMPLAINT_VERIFY]   VERIFIED: ${url.slice(0, 70)} — ${c.classification}/${c.evidence_level} (${c.year || '?'}) ${c.systemic ? '[SYSTEMIC]' : '[ISOLATED]'}`);
+        } else {
+          console.log(`[COMPLAINT_VERIFY]   REJECTED: ${url.slice(0, 70)} — ${result.reason?.slice(0, 80)}`);
+        }
+      }
+
+      return result;
+    },
+    0
+  );
+
+  for (const result of results) {
+    if (result.verified && result.complaint) {
+      verified.push(result.complaint);
+    } else {
+      rejected.push({ reason: result.reason });
+    }
+  }
+
+  if (verbose) {
+    console.log(`[COMPLAINT_VERIFY] ── Results: ${verified.length} verified, ${rejected.length} rejected ──\n`);
+  }
+
+  return verified;
+}
+
 // ─── EXPORTS ──────────────────────────────────────────────────────────────────
 
 module.exports = {
@@ -557,7 +858,11 @@ module.exports = {
   fetchPageText,
   htmlToText,
   classifyWithHaiku,
+  snippetPreFilter,
+  verifyComplaint,
+  verifyComplaints,
   SKIP_CLASSIFICATION_DOMAINS,
+  SNIPPET_REJECT_PATTERNS,
 };
 
 // ─── CLI TEST ─────────────────────────────────────────────────────────────────

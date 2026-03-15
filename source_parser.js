@@ -28,7 +28,7 @@ const fs       = require('fs');
 const path     = require('path');
 const querystring = require('querystring');
 const { URL }  = require('url');
-const { classifyRelevance } = require('./relevance_classifier');
+const { classifyRelevance, verifyComplaints } = require('./relevance_classifier');
 
 // ─── CONFIGURATION ────────────────────────────────────────────────────────────
 
@@ -1115,9 +1115,12 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
 
     sources.push(sourceEntry);
 
-    // Extract complaints
-    const complaint = extractComplaint(title, description, url);
-    if (complaint) complaints.push(complaint);
+    // Extract complaint CANDIDATES (keyword pre-scan only — will be verified by Haiku later)
+    const complaintCandidate = extractComplaint(title, description, url);
+    if (complaintCandidate) {
+      // Store as candidate with original title/description for Haiku verification
+      complaints.push({ ...complaintCandidate, _candidate: true, _title: title, _description: description });
+    }
 
     // Extract certifications
     const certs = extractCertifications(title, description);
@@ -1191,18 +1194,54 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
 
       console.log(`[SOURCE PARSER] Phase 6b: ${classResult.stats.relevant} relevant, ${classResult.stats.rejected} rejected`);
 
-      // Re-extract complaints ONLY from relevant sources
-      // (We already extracted from all sources above, but rejected sources
-      //  may have contributed false complaints — rebuild from relevant only)
+      // Remove complaint candidates from rejected sources
       if (relevanceRejected.length > 0) {
         const rejectedUrls = new Set(relevanceRejected.map(r => r.source.url));
-        // Remove complaints that came from rejected sources
         const cleanedComplaints = complaints.filter(c => !rejectedUrls.has(c.source));
         const removedCount = complaints.length - cleanedComplaints.length;
         if (removedCount > 0) {
-          console.log(`[SOURCE PARSER] Phase 6b: Removed ${removedCount} complaint(s) from rejected sources`);
+          console.log(`[SOURCE PARSER] Phase 6b: Removed ${removedCount} complaint candidate(s) from rejected sources`);
           complaints.length = 0;
           complaints.push(...cleanedComplaints);
+        }
+      }
+
+      // ── Phase 6c: Haiku Complaint Verification ────────────────────────────
+      // The remaining complaint candidates were found by keyword scan only.
+      // Now verify each one with Haiku: Is this a REAL complaint about THIS product?
+      // This replaces the old keyword-only extractComplaint approach.
+      // Cost: ~$0.0001 per candidate (Haiku, ~200 tokens each).
+      if (complaints.length > 0) {
+        console.log(`[SOURCE PARSER] Phase 6c: Verifying ${complaints.length} complaint candidate(s) with Haiku...`);
+        try {
+          const candidates = complaints.map(c => ({
+            title: c._title || c.description || '',
+            description: c._description || '',
+            url: c.source || '',
+          }));
+
+          const verified = await verifyComplaints(
+            candidates,
+            productName,
+            manufacturer,
+            { anthropicApiKey: process.env.ANTHROPIC_API_KEY, verbose: true }
+          );
+
+          // Replace keyword-only complaints with Haiku-verified ones
+          const beforeCount = complaints.length;
+          complaints.length = 0;
+          complaints.push(...verified);
+          console.log(`[SOURCE PARSER] Phase 6c: ${verified.length} verified out of ${beforeCount} candidates`);
+        } catch (verifyErr) {
+          // Verification failure is non-fatal — fall back to keyword-only complaints
+          // but strip the _candidate/_title/_description internal fields
+          console.error(`[SOURCE PARSER] Phase 6c error (non-fatal): ${verifyErr.message} — keeping keyword-only complaints`);
+          for (const c of complaints) {
+            delete c._candidate;
+            delete c._title;
+            delete c._description;
+            c._verified_by = 'unverified_fallback';
+          }
         }
       }
     } catch (err) {
@@ -1211,6 +1250,12 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
     }
   } else {
     console.log('[SOURCE PARSER] Phase 6b: Skipped — no ANTHROPIC_API_KEY');
+    // Strip internal candidate fields if we couldn't verify
+    for (const c of complaints) {
+      delete c._candidate;
+      delete c._title;
+      delete c._description;
+    }
   }
 
   // ── Build component summary note ──────────────────────────────────────────
