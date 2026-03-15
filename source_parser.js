@@ -22,6 +22,7 @@
 'use strict';
 
 const https    = require('https');
+const zlib     = require('zlib');
 const fs       = require('fs');
 const path     = require('path');
 const querystring = require('querystring');
@@ -605,9 +606,20 @@ function httpsGet(hostname, urlPath, headers = {}) {
           return;
         }
 
+        // Handle gzip/deflate decompression
+        let stream = res;
+        const encoding = (res.headers['content-encoding'] || '').toLowerCase();
+        if (encoding === 'gzip') {
+          stream = res.pipe(zlib.createGunzip());
+        } else if (encoding === 'deflate') {
+          stream = res.pipe(zlib.createInflate());
+        } else if (encoding === 'br') {
+          stream = res.pipe(zlib.createBrotliDecompress());
+        }
+
         let data = '';
-        res.on('data', chunk => { data += chunk; });
-        res.on('end', () => {
+        stream.on('data', chunk => { data += chunk; });
+        stream.on('end', () => {
           try {
             resolve(JSON.parse(data));
           } catch (e) {
