@@ -1002,7 +1002,20 @@ You are researching the ${productName} in ${config} configuration. Execute all r
   }
 
   // ── MATERIAL CLASS LOCK ───────────────────────────────────────────────────
-  const materialLock = extractMaterialClass(bot1Output);
+  // Product-specific overrides for multi-material manufacturers
+  // (Bot 1 finds multiple lines and returns "Multiple offerings available")
+  const MATERIAL_CLASS_OVERRIDES = {
+    'sierra pacific': { rawText: 'Aluminum-Clad Wood', source: 'correction_memo_override', note: 'H3/CSM line — flagship aluminum-clad product' },
+  };
+  const overrideKey = productName.toLowerCase().trim();
+  let materialLock;
+  if (MATERIAL_CLASS_OVERRIDES[overrideKey]) {
+    const override = MATERIAL_CLASS_OVERRIDES[overrideKey];
+    materialLock = { found: true, rawText: override.rawText, source: override.source };
+    console.log(`[ORCHESTRATOR] Material class OVERRIDE: ${override.rawText} (${override.note})`);
+  } else {
+    materialLock = extractMaterialClass(bot1Output);
+  }
   const materialLockLine = materialLock.found
     ? `LOCKED_MATERIAL_CLASS: ${materialLock.rawText} (extracted from Bot 1 ${materialLock.source} — DO NOT RECLASSIFY without flagging per Rule 12)`
     : `LOCKED_MATERIAL_CLASS: UNDETERMINED — Bot 1 did not establish a clear material class. You MUST identify it from Bot 1 research and state it explicitly before scoring. If material class is ambiguous, flag it before scoring.`;
