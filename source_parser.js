@@ -6,9 +6,10 @@
  * Each known source type is queried individually using the Brave Search API,
  * then results are classified into Pool A / B / C based on domain rules.
  *
- * CURRENT: Uses Brave search snippets (~160 chars) for source classification.
- * FUTURE (Phase 6b): Full page fetching + AI classification for deeper accuracy.
- * See ROADMAP.md for Phase 6b trigger conditions and scope estimate.
+ * Phase 6a: Brave search snippets (~160 chars) for pool/sentiment classification.
+ * Phase 6b: Full page fetching + Haiku AI classification for relevance filtering.
+ *           Filters false positives (e.g., "Sierra Pacific" trucks vs windows).
+ *           Added March 15, 2026.
  *
  * Usage (module):
  *   const { parseSourcesForProduct } = require('./source_parser');
@@ -27,6 +28,7 @@ const fs       = require('fs');
 const path     = require('path');
 const querystring = require('querystring');
 const { URL }  = require('url');
+const { classifyRelevance } = require('./relevance_classifier');
 
 // ─── CONFIGURATION ────────────────────────────────────────────────────────────
 
@@ -1043,8 +1045,7 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
     });
   }
 
-  // Phase 1: Direct URL fetches are noted but not actually fetched here
-  // (Phase 6b will add full page parsing; for now we note them as sources)
+  // Phase 1: Direct URL fetches — noted as sources with domain classification
   const phase1Sources = buildPhase1Sources(checklist, manufacturer);
 
   // ── Run all phases ─────────────────────────────────────────────────────────
@@ -1154,12 +1155,62 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
   // (seenUrls already handles dedup for Brave results, but phase1 sources
   //  might overlap with search results if Brave returns the same URLs)
 
-  const finalSources   = [];
+  let finalSources   = [];
   const finalSourceUrls = new Set();
   for (const src of sources) {
     if (src.url && finalSourceUrls.has(src.url)) continue;
     if (src.url) finalSourceUrls.add(src.url);
     finalSources.push(src);
+  }
+
+  // ── Phase 6b: Relevance Classification ──────────────────────────────────────
+  // Full-page fetch + Haiku AI classification to filter false positives.
+  // Catches: name collisions (Sierra Pacific trucks), generic articles (DOE),
+  // Prop 65 pages (sierra.com), and other irrelevant results.
+  // Cost: ~$0.06/product. Graceful degradation on errors.
+
+  let relevanceRejected = [];
+  let relevanceStats = null;
+
+  if (process.env.ANTHROPIC_API_KEY) {
+    try {
+      console.log(`[SOURCE PARSER] Phase 6b: Running relevance classification on ${finalSources.length} sources...`);
+
+      const classResult = await classifyRelevance(
+        finalSources,
+        productName,
+        manufacturer,
+        category,
+        { anthropicApiKey: process.env.ANTHROPIC_API_KEY, verbose: true }
+      );
+
+      // Replace finalSources with only relevant ones
+      finalSources = classResult.relevant;
+      relevanceRejected = classResult.rejected;
+      relevanceStats = classResult.stats;
+
+      console.log(`[SOURCE PARSER] Phase 6b: ${classResult.stats.relevant} relevant, ${classResult.stats.rejected} rejected`);
+
+      // Re-extract complaints ONLY from relevant sources
+      // (We already extracted from all sources above, but rejected sources
+      //  may have contributed false complaints — rebuild from relevant only)
+      if (relevanceRejected.length > 0) {
+        const rejectedUrls = new Set(relevanceRejected.map(r => r.source.url));
+        // Remove complaints that came from rejected sources
+        const cleanedComplaints = complaints.filter(c => !rejectedUrls.has(c.source));
+        const removedCount = complaints.length - cleanedComplaints.length;
+        if (removedCount > 0) {
+          console.log(`[SOURCE PARSER] Phase 6b: Removed ${removedCount} complaint(s) from rejected sources`);
+          complaints.length = 0;
+          complaints.push(...cleanedComplaints);
+        }
+      }
+    } catch (err) {
+      // Phase 6b failure is non-fatal — continue with unfiltered sources
+      console.error(`[SOURCE PARSER] Phase 6b error (non-fatal): ${err.message}`);
+    }
+  } else {
+    console.log('[SOURCE PARSER] Phase 6b: Skipped — no ANTHROPIC_API_KEY');
   }
 
   // ── Build component summary note ──────────────────────────────────────────
@@ -1221,6 +1272,8 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
       reddit_pending: finalSources.filter(s => s._pending_power_user_check).length,
       complaints_found: complaints.length,
       certifications_found: certifications.size,
+      phase_6b_stats: relevanceStats,
+      phase_6b_rejected: relevanceRejected.length,
     },
   };
 
@@ -1270,7 +1323,7 @@ function buildPhase1Sources(checklist, manufacturer) {
       price_bias:  cls.price_bias,
       description: entry.purpose || '',
       phase:       'phase_1_direct_fetches',
-      _requires_fetch: true, // Flag for Phase 6b full-page parsing
+      _requires_fetch: true,
     });
   }
 

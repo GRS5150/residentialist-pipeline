@@ -8,6 +8,8 @@
  *          Check "already scored?" before starting pipeline
  * Phase 6a: Source parser runs before pipeline to discover/update evidence
  *           Requires BRAVE_SEARCH_API_KEY in .env. Skips gracefully if missing.
+ * Phase 6b: Relevance classifier filters false positives via full-page Haiku AI.
+ *           Added March 15, 2026.
  *
  * FLOW: Source Parser (6a) → Bot 1 (Research) → Bot 2 (Scoring) → Deterministic Scorer
  *       → Bot 3 (Material Safety) → Bot 4 (Challenge) → Bot 5 (Reconciliation)
@@ -231,8 +233,10 @@ async function runWithAutoCorrection(productName, config, category, researchFile
       fs.writeFileSync(evidencePath, JSON.stringify(updatedEvidence, null, 2));
       console.log(`[AUTO-RUNNER] Phase 6: Evidence file written to ${evidencePath}`);
 
+      const rejected6b = (parserResult.meta?.phase_6b_rejected) || 0;
       if (sourceCount > 0) {
-        await sendTelegram(`📚 *Source parser complete*\n${productName}: ${sourceCount} sources found\nPool A: ${poolA} | B: ${poolB} | C: ${poolC}`);
+        const rejectedNote = rejected6b > 0 ? `\n🔍 Phase 6b: ${rejected6b} false positive(s) removed` : '';
+        await sendTelegram(`📚 *Source parser complete*\n${productName}: ${sourceCount} sources found\nPool A: ${poolA} | B: ${poolB} | C: ${poolC}${rejectedNote}`);
       }
     } catch (err) {
       // Source parser failure is non-fatal — pipeline can still run with existing evidence
