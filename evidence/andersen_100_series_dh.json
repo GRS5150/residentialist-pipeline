@@ -1,0 +1,151 @@
+{
+  "product": "Andersen 100 Series",
+  "config": "DH",
+  "category": "windows",
+  "evidence_version": "2.0",
+  "created": "2026-03-15",
+  "last_verified": "2026-03-15",
+  "refresh_after_days": 90,
+  "manufacturing_quality": {
+    "business_model": null,
+    "certifications": [],
+    "complaints": []
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-ANDERS-001",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-002",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-003",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-004",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-005",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-006",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-007",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-008",
+        "name": "Andersen official technical documentation",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Official Andersen technical/performance documentation",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/for-professionals/documents/performance",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      }
+    ]
+  },
+  "component_quality": {
+    "quality_tier": null,
+    "_note": null
+  },
+  "repairability": {
+    "igu_replacement_method": null,
+    "_note": null
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    }
+  },
+  "_source_parser_meta": {
+    "productName": "Andersen 100 Series",
+    "config": "DH",
+    "category": "windows",
+    "manufacturer": "Andersen",
+    "isInternational": false,
+    "run_date": "2026-03-15T01:36:45.189Z",
+    "total_sources": 8,
+    "pool_a_count": 0,
+    "pool_b_count": 1,
+    "pool_c_count": 1,
+    "reddit_pending": 0,
+    "complaints_found": 0,
+    "certifications_found": 0
+  }
+}

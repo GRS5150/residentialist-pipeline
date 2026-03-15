@@ -28,3 +28,10 @@ patch_performance_reform.py
 read_det_scores.py
 test_reddit.js
 test_variance_3x.js
+# Temp/debug scripts
+*.pre_6b_backup
+patch_*.js
+rescore_*.js
+run_*.sh
+test_6b_*.js
+test_auth.txt

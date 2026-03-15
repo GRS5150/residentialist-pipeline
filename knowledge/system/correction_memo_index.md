@@ -69,3 +69,9 @@ All product-specific correction memos and pre-approved assumptions.
 - **File:** `pella_250_series_dh_correction_memo.md`
 - **Pre-approved specs:** Professional consensus sources exist, Mid-tier positioning valid, NFRC data non-disclosure standard, Installation confound factors documented
 - **Source:** Auto-generated
+
+## Jeld-Wen V-2500 (DH) — 2026-03-15
+- **Category:** windows
+- **File:** `jeldwen_v2500_dh_correction_memo.md`
+- **Pre-approved specs:** U-Factor 0.27-0.33, ENERGY STAR qualification with low-e2 upgrade, AAMA PG 35/50 certification, Entry-level market positioning, Undisclosed component specifications standard tier
+- **Source:** Auto-generated
