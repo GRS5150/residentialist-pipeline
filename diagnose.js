@@ -105,6 +105,23 @@ async function diagnose({ error, context, attempt = 0, product = '', step = '' }
     };
   }
 
+  // Truncated Bot 2 JSON — always RETRY, never RESTART_PIPELINE.
+  // The model intermittently emits end_turn before completing the JSON structure.
+  // RETRY re-runs Bot 2 with the same Bot 1 output (correct fix).
+  // RESTART_PIPELINE regenerates Bot 1, which can produce different findings that
+  // trigger material reclassification flags in Bot 2, causing a cascading failure.
+  // This hard rule removes Haiku's nondeterminism for this well-understood failure mode.
+  const errStr = String(error);
+  if (/Bot 2.*did not return valid JSON/i.test(errStr) && /Raw output starts with: \{/.test(errStr)) {
+    diagLog('Hard rule: Bot 2 truncated JSON → RETRY (not RESTART_PIPELINE)');
+    return {
+      action: 'RETRY',
+      reason: 'Bot 2 output truncated mid-JSON (premature end_turn). Re-running Bot 2 only — same Bot 1 context preserved.',
+      detail: 'Model intermittently stops mid-JSON on large structured outputs. Simple retry typically succeeds.',
+      autoFixed: true
+    };
+  }
+
   // Ask Claude for diagnosis
   try {
     const response = await client.messages.create({

@@ -827,7 +827,13 @@ async function runBot(botName, systemPrompt, userMessage, model, useWebSearch) {
       messages: [{ role: 'user', content: userMessage }]
     });
     const output = response.content.filter(b => b.type === "text").map(b => b.text).join("\n");
-    console.log(`[ORCHESTRATOR] ${botName} complete. (~${output.length} chars)`);
+    const stopReason = response.stop_reason;
+    const inputTokens = response.usage?.input_tokens || '?';
+    const outputTokens = response.usage?.output_tokens || '?';
+    console.log(`[ORCHESTRATOR] ${botName} complete. (~${output.length} chars) | stop_reason=${stopReason} | tokens: ${inputTokens} in / ${outputTokens} out`);
+    if (stopReason === 'max_tokens') {
+      console.log(`[ORCHESTRATOR] WARNING: ${botName} hit max_tokens (${outputTokens} output tokens). Output is truncated.`);
+    }
     return output;
   }
 
@@ -1113,6 +1119,36 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
     if (evidenceData.repairability.igu_replacement_method) {
       bot2Parsed.scores.durability.repairability.igu_replacement_method = evidenceData.repairability.igu_replacement_method;
       console.log(`[ORCHESTRATOR] RP igu_replacement_method pinned from evidence: ${evidenceData.repairability.igu_replacement_method}`);
+    }
+  }
+
+  // ── CREDIBILITY SCREEN MERGE — inject Phase 6d tags into Bot 2's PC sources before scoring ──
+  // Bot 2 doesn't know about credibility tags. The source parser stored them in the evidence
+  // file. Match by URL and inject _credibility_screen onto Bot 2's output so the deterministic
+  // scorer can apply tiered Pool C weights.
+  if (evidenceData?.professional_consensus?.sources && bot2Parsed.scores?.quality?.professional_consensus?.sources) {
+    const evSrcMap = new Map();
+    for (const evSrc of evidenceData.professional_consensus.sources) {
+      if (evSrc._credibility_screen) {
+        if (evSrc.url) evSrcMap.set(evSrc.url.toLowerCase(), evSrc._credibility_screen);
+        if (evSrc.name) evSrcMap.set(evSrc.name.toLowerCase(), evSrc._credibility_screen);
+      }
+    }
+    if (evSrcMap.size > 0) {
+      let merged = 0;
+      for (const src of bot2Parsed.scores.quality.professional_consensus.sources) {
+        if ((src.pool || '').toUpperCase() !== 'C') continue;
+        const urlMatch = src.url ? evSrcMap.get(src.url.toLowerCase()) : null;
+        const nameMatch = src.name ? evSrcMap.get(src.name.toLowerCase()) : null;
+        const credTags = urlMatch || nameMatch;
+        if (credTags) {
+          src._credibility_screen = credTags;
+          merged++;
+        }
+      }
+      if (merged > 0) {
+        console.log(`[ORCHESTRATOR] Credibility screen: merged tags onto ${merged} Pool C source(s)`);
+      }
     }
   }
 

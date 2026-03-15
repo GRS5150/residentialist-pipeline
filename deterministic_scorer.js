@@ -303,7 +303,7 @@ function resolveBusinessModel(data, productName) {
 // Haiku's year metadata determines recency.
 
 function assessComplaintPattern(complaints) {
-  const report = { method: 'pattern_based_v1' };
+  const report = { method: 'pattern_based_v2' };
 
   if (!complaints || complaints.length === 0) {
     report.tier = 0;
@@ -313,10 +313,63 @@ function assessComplaintPattern(complaints) {
     return report;
   }
 
+  // Fix D (v2): Only count Haiku-verified complaints for scoring.
+  // Three categories:
+  //   1. Verified: has _verified_by === 'haiku_complaint_verification' → scored
+  //   2. Rejected: has _verified_by === 'unverified_fallback' → excluded
+  //   3. Never verified: no _verified_by field at all → not scored, but flagged
+  //
+  // Edge case: first-run products have no _verified_by on anything because
+  // Haiku verification hasn't run yet. If we filter everything out, the
+  // product looks artificially clean. So: if zero pass the gate AND there
+  // are never-verified complaints, flag COMPLAINTS_PENDING_VERIFICATION.
+  const allComplaints = complaints;
+  const verified = complaints.filter(c =>
+    c._verified_by && c._verified_by === 'haiku_complaint_verification'
+  );
+  const neverVerified = complaints.filter(c => !c._verified_by);
+  const rejected = complaints.filter(c =>
+    c._verified_by && c._verified_by !== 'haiku_complaint_verification'
+  );
+
+  report.verification_filter = {
+    total_received: allComplaints.length,
+    haiku_verified: verified.length,
+    never_verified: neverVerified.length,
+    rejected: rejected.length,
+    note: verified.length === allComplaints.length
+      ? 'All complaints are Haiku-verified'
+      : neverVerified.length > 0 && verified.length === 0
+        ? `${neverVerified.length} complaint(s) have not been through Haiku verification — pending`
+        : `${verified.length} verified, ${neverVerified.length} never-verified (excluded), ${rejected.length} rejected`
+  };
+
+  // Use only verified complaints for pattern assessment
+  complaints = verified;
+
+  if (complaints.length === 0) {
+    // Edge case: complaints exist but none are verified
+    if (neverVerified.length > 0) {
+      // First-run product or evidence file predates Haiku verification.
+      // Do NOT score as CLEAN — flag for verification.
+      report.tier = -1;
+      report.tier_label = 'COMPLAINTS_PENDING_VERIFICATION';
+      report.deduction = 0;
+      report.rationale = `${neverVerified.length} complaint(s) awaiting Haiku verification — not scored yet`;
+      console.warn(`[DETERMINISTIC] WARNING: ${neverVerified.length} complaints pending verification — score may change after verification pass`);
+      return report;
+    }
+    report.tier = 0;
+    report.tier_label = 'CLEAN';
+    report.deduction = 0;
+    report.rationale = `No verified complaints (${rejected.length} rejected by Haiku)`;
+    return report;
+  }
+
   const currentYear = new Date().getFullYear();
   const RECENCY_THRESHOLD = 5; // years
 
-  // Analyze complaint properties
+  // Analyze complaint properties (verified only)
   const total = complaints.length;
   const withYears = complaints.filter(c => c.year && typeof c.year === 'number');
   const recentComplaints = withYears.filter(c => (currentYear - c.year) <= RECENCY_THRESHOLD);
@@ -631,16 +684,44 @@ function scoreProfessionalConsensus(data) {
     const sentiment = (src.sentiment || 'mixed').toLowerCase();
     const sentimentValue = SENTIMENT_VALUES[sentiment] !== undefined ? SENTIMENT_VALUES[sentiment] : 0;
 
-    // Price-bias filter: Pool C sources with price_bias flag get 50% weight
+    // Credibility-based weight for Pool C sources
+    // If credibility screen ran (_credibility_screen exists), use tiered discount:
+    //   Trade + Technical + no price bias → 25% discount (likely credible pro)
+    //   Trade OR Technical → 50% discount (partial signal)
+    //   Neither → 75% discount (likely noise)
+    //   price_bias_detected on any source → 50% floor regardless
+    // Fallback (no screen): original flat discount based on price_bias flag
     let weight = 1.0;
-    if (activePool === 'C' && src.price_bias) {
-      weight = 0.5;
+    if (activePool === 'C') {
+      const cs = src._credibility_screen;
+      if (cs) {
+        const isTrade = cs.claims_trade_experience === true;
+        const isTech = cs.has_technical_claims === true;
+        const isBias = cs.price_bias_detected === true;
+
+        if (isBias) {
+          // Price-bias floor: never better than 50% discount
+          weight = 0.5;
+        } else if (isTrade && isTech) {
+          // Likely credible professional — minimal discount
+          weight = 0.75;
+        } else if (isTrade || isTech) {
+          // Partial credibility signal — standard discount
+          weight = 0.5;
+        } else {
+          // No credibility signals — heavy discount
+          weight = 0.25;
+        }
+      } else {
+        // No credibility screen (legacy data) — use price_bias flag
+        weight = src.price_bias ? 0.5 : 0.5; // flat 50% for Pool C without screen
+      }
     }
 
     weightedSum += weight * sentimentValue;
     weightedCount += weight;
 
-    sourceDetails.push({
+    const detail = {
       name: src.name,
       pool: activePool,
       sentiment,
@@ -648,7 +729,16 @@ function scoreProfessionalConsensus(data) {
       weight,
       price_bias: src.price_bias || false,
       contribution: weight * sentimentValue,
-    });
+    };
+    // Include credibility screen tags if available
+    if (src._credibility_screen) {
+      detail.credibility = {
+        trade: src._credibility_screen.claims_trade_experience || false,
+        technical: src._credibility_screen.has_technical_claims || false,
+        price_bias: src._credibility_screen.price_bias_detected || false,
+      };
+    }
+    sourceDetails.push(detail);
   }
 
   const consensusRatio = weightedCount > 0 ? weightedSum / weightedCount : 0;

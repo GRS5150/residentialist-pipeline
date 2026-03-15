@@ -28,7 +28,7 @@ const fs       = require('fs');
 const path     = require('path');
 const querystring = require('querystring');
 const { URL }  = require('url');
-const { classifyRelevance, verifyComplaints } = require('./relevance_classifier');
+const { classifyRelevance, verifyComplaints, screenCredibility } = require('./relevance_classifier');
 
 // ─── CONFIGURATION ────────────────────────────────────────────────────────────
 
@@ -866,7 +866,7 @@ function buildEvidenceFile(parserResult, existingEvidence) {
     }
 
     const id = `PC-${productCode}-${String(nextSourceId).padStart(3, '0')}`;
-    base.professional_consensus.sources.push({
+    const entry = {
       id,
       name:       src.name,
       pool:       src.pool,
@@ -876,7 +876,12 @@ function buildEvidenceFile(parserResult, existingEvidence) {
       url:        src.url,
       _added_by:  'source_parser',
       _phase:     src.phase,
-    });
+    };
+    // Persist credibility screen tags (Phase 6d) if present
+    if (src._credibility_screen) {
+      entry._credibility_screen = src._credibility_screen;
+    }
+    base.professional_consensus.sources.push(entry);
     existingSourceNames.add(nameL);
     existingSourceUrls.add(urlL);
     nextSourceId++;
@@ -1191,6 +1196,27 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
       finalSources = classResult.relevant;
       relevanceRejected = classResult.rejected;
       relevanceStats = classResult.stats;
+      const pageTextCache = classResult.pageTextCache || {};
+
+      // ── Phase 6d: Credibility Screen (Pool C sources) ──────────────────
+      // Tag Pool C sources with trade experience, technical claims, and
+      // price bias signals. Uses cached page text from Phase 6b.
+      // Cost: ~$0.001 per Pool C source. Graceful degradation on errors.
+      const poolCSources = finalSources.filter(s => (s.pool || '').toUpperCase() === 'C');
+      if (poolCSources.length > 0) {
+        try {
+          console.log(`[SOURCE PARSER] Phase 6d: Running credibility screen on ${poolCSources.length} Pool C sources...`);
+          await screenCredibility(poolCSources, pageTextCache, {
+            anthropicApiKey: process.env.ANTHROPIC_API_KEY,
+            verbose: true,
+          });
+          console.log(`[SOURCE PARSER] Phase 6d: Credibility screen complete`);
+        } catch (credErr) {
+          console.error(`[SOURCE PARSER] Phase 6d error (non-fatal): ${credErr.message}`);
+        }
+      } else {
+        console.log('[SOURCE PARSER] Phase 6d: No Pool C sources to screen');
+      }
 
       console.log(`[SOURCE PARSER] Phase 6b: ${classResult.stats.relevant} relevant, ${classResult.stats.rejected} rejected`);
 

@@ -531,6 +531,8 @@ async function classifyRelevance(sources, productName, manufacturer, category, o
   }
 
   // Step 1: Fetch all pages in parallel batches
+  // Cache page text for downstream use (credibility screen, complaint verification)
+  const pageTextCache = {};
   if (verbose) console.log(`[RELEVANCE] Fetching ${afterSnippet.length} pages...`);
 
   const fetchResults = await processBatches(
@@ -538,6 +540,9 @@ async function classifyRelevance(sources, productName, manufacturer, category, o
     CONCURRENT_FETCHES,
     async (src) => {
       const result = await fetchPageText(src.url);
+      if (result.text && result.text.length >= 50) {
+        pageTextCache[src.url] = result.text;
+      }
       return { src, ...result };
     },
     FETCH_DELAY_MS
@@ -631,7 +636,7 @@ async function classifyRelevance(sources, productName, manufacturer, category, o
     console.log(`[RELEVANCE] ════════════════════════════════════\n`);
   }
 
-  return { relevant, rejected, stats };
+  return { relevant, rejected, stats, pageTextCache };
 }
 
 // ─── COMPLAINT VERIFICATION (Fix A) ──────────────────────────────────────────
@@ -851,6 +856,139 @@ async function verifyComplaints(candidates, productName, manufacturer, options =
   return verified;
 }
 
+// ─── CREDIBILITY SCREEN (Pool C sources) ────────────────────────────────────
+// Lightweight Haiku classification of forum/Reddit comments to determine if
+// the commenter is a trade professional, makes technical claims, or shows price bias.
+// Cost: ~$0.001 per source. Only runs on Pool C sources that passed Phase 6b.
+//
+// Returns three boolean tags per source:
+//   claims_trade_experience — commenter identifies as a trade pro
+//   has_technical_claims — contains specific, verifiable technical claims
+//   price_bias_detected — opinion is primarily about price, not quality
+
+/**
+ * Screen a single source for credibility signals.
+ *
+ * @param {Object} client — Anthropic SDK client instance
+ * @param {string} pageText — extracted text from the page
+ * @param {string} snippet — Brave snippet (~160 chars) as fallback
+ * @returns {Promise<{claims_trade_experience: boolean, has_technical_claims: boolean, price_bias_detected: boolean}>}
+ */
+async function screenSourceCredibility(client, pageText, snippet) {
+  const text = (pageText && pageText.length >= 100) ? pageText.slice(0, 4000) : (snippet || '');
+  if (!text || text.length < 30) {
+    return { claims_trade_experience: false, has_technical_claims: false, price_bias_detected: false };
+  }
+
+  const prompt = `Given this forum comment about a building product, answer three questions as JSON:
+{"claims_trade_experience": true/false, "has_technical_claims": true/false, "price_bias_detected": true/false}
+
+- claims_trade_experience: Does the commenter identify as a trade professional, installer, contractor, builder, architect, or similar? Look for phrases like "I install these," "been in the trade 15 years," "we spec these on our projects."
+- has_technical_claims: Does the comment contain specific, verifiable technical claims? Model numbers, U-factors, installation details, failure modes, material specs — not just "these are good/bad."
+- price_bias_detected: Does the comment's opinion appear primarily driven by price rather than quality? "Way overpriced," "not worth the money," "you're paying for the name" — flag these.
+
+Comment:
+---
+${text}
+---
+
+Respond with ONLY a JSON object (no markdown, no explanation).`;
+
+  try {
+    const response = await client.messages.create({
+      model: CLASSIFIER_MODEL,
+      max_tokens: 100,
+      messages: [{ role: 'user', content: prompt }],
+    });
+
+    const raw = response.content[0]?.text?.trim() || '';
+    try {
+      const jsonStr = raw.replace(/^```json\n?/, '').replace(/\n?```$/, '');
+      const parsed = JSON.parse(jsonStr);
+      return {
+        claims_trade_experience: parsed.claims_trade_experience === true,
+        has_technical_claims: parsed.has_technical_claims === true,
+        price_bias_detected: parsed.price_bias_detected === true,
+      };
+    } catch (parseErr) {
+      // Fallback: conservative — no credibility signals detected
+      return { claims_trade_experience: false, has_technical_claims: false, price_bias_detected: false };
+    }
+  } catch (err) {
+    // API error — conservative default
+    return { claims_trade_experience: false, has_technical_claims: false, price_bias_detected: false };
+  }
+}
+
+/**
+ * Run credibility screen on an array of Pool C sources.
+ * Tags each source with credibility_screen metadata.
+ *
+ * @param {Array<Object>} sources — Pool C source objects (must have .url)
+ * @param {Object} pageTextCache — URL → page text map from Phase 6b
+ * @param {Object} [options] — { anthropicApiKey, verbose }
+ * @returns {Promise<Array<Object>>} — same sources with _credibility_screen added
+ */
+async function screenCredibility(sources, pageTextCache, options = {}) {
+  const Anthropic = require('@anthropic-ai/sdk');
+  const apiKey = options.anthropicApiKey || process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    console.warn('[CREDIBILITY] No ANTHROPIC_API_KEY — skipping credibility screen');
+    return sources;
+  }
+
+  const client = new Anthropic({ apiKey });
+  const verbose = options.verbose !== false;
+  const cache = pageTextCache || {};
+
+  if (verbose) {
+    console.log(`\n[CREDIBILITY] ── Credibility Screen ──`);
+    console.log(`[CREDIBILITY] Pool C sources to screen: ${sources.length}`);
+  }
+
+  const results = await processBatches(
+    sources,
+    CONCURRENT_HAIKU,
+    async (src) => {
+      const pageText = cache[src.url] || '';
+      const snippet = src.summary || src.description || '';
+      const tags = await screenSourceCredibility(client, pageText, snippet);
+
+      src._credibility_screen = {
+        ...tags,
+        screened_at: new Date().toISOString(),
+        text_source: pageText.length >= 100 ? 'full_page' : 'snippet',
+      };
+
+      if (verbose) {
+        const flags = [
+          tags.claims_trade_experience ? 'TRADE' : null,
+          tags.has_technical_claims ? 'TECHNICAL' : null,
+          tags.price_bias_detected ? 'PRICE_BIAS' : null,
+        ].filter(Boolean).join('+') || 'NONE';
+        console.log(`[CREDIBILITY]   ${flags}: ${(src.name || src.url || '').slice(0, 80)}`);
+      }
+
+      return src;
+    },
+    0
+  );
+
+  const tradeCount = results.filter(s => s._credibility_screen?.claims_trade_experience).length;
+  const techCount = results.filter(s => s._credibility_screen?.has_technical_claims).length;
+  const biasCount = results.filter(s => s._credibility_screen?.price_bias_detected).length;
+
+  if (verbose) {
+    console.log(`[CREDIBILITY] ── Results ──`);
+    console.log(`[CREDIBILITY]   Trade experience: ${tradeCount}/${results.length}`);
+    console.log(`[CREDIBILITY]   Technical claims: ${techCount}/${results.length}`);
+    console.log(`[CREDIBILITY]   Price bias: ${biasCount}/${results.length}`);
+    console.log(`[CREDIBILITY] ════════════════════════════════════\n`);
+  }
+
+  return results;
+}
+
 // ─── EXPORTS ──────────────────────────────────────────────────────────────────
 
 module.exports = {
@@ -861,6 +999,8 @@ module.exports = {
   snippetPreFilter,
   verifyComplaint,
   verifyComplaints,
+  screenSourceCredibility,
+  screenCredibility,
   SKIP_CLASSIFICATION_DOMAINS,
   SNIPPET_REJECT_PATTERNS,
 };
