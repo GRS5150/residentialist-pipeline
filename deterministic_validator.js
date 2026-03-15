@@ -227,11 +227,14 @@ function validate(outputDir, productName) {
   // Pre-computed ceiling was injected into Bot 2's prompt upstream.
   // This is the final hard backstop — if Bot 2 still exceeded it, block pipeline.
   const MATERIAL_CEILINGS_V = {
-    'pultruded fiberglass': 10, 'ultrex': 10,
-    'aluminum-clad wood': 9,   'aluminum clad wood': 9,
-    'roll-form': 8,            'vinyl-clad wood': 8,
-    'composite': 7,            'fibrex': 7, 'proprietary': 7,
-    'vinyl': 6,                'aluminum': 6,
+    // Updated March 14, 2026 — matches MATERIAL_CEILINGS in bot_orchestrator_v3.js
+    'pultruded fiberglass': 10, 'ultrex': 10, 'fiberglass': 10, 'duracast': 10,
+    'aluminum-clad wood': 9,   'aluminum clad wood': 9, 'wood-clad': 9,
+    'fiberglass-clad wood': 9.5, 'fiberglass clad wood': 9.5,
+    'roll-form': 8,
+    'vinyl-clad wood': 8.5,    'perma-shield': 8.5,
+    'composite': 8,            'fibrex': 8, 'proprietary': 8,
+    'vinyl': 7,                'aluminum': 6,
   };
   const lockFilePath = path.join(outputDir, 'MATERIAL_CLASS_LOCK.json');
   if (fs.existsSync(lockFilePath)) {

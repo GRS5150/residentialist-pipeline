@@ -79,9 +79,9 @@ const MATERIAL_CEILINGS = {
 function getMaterialCeiling(materialClass) {
   if (!materialClass) return { base: 6, ceiling: 7, label: 'Unknown — defaulting to vinyl' };
   const lower = materialClass.toLowerCase();
-  // Check both directions: material string contains key, OR key contains material string
+  // Exact direction only: material string contains key (not reverse — 'vinyl' in 'vinyl-clad wood' = false positive)
   for (const [key, vals] of Object.entries(MATERIAL_CEILINGS)) {
-    if (lower.includes(key) || key.includes(lower)) {
+    if (lower.includes(key)) {
       return { ...vals, label: materialClass };
     }
   }
