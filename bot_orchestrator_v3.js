@@ -351,6 +351,23 @@ function extractMaterialClass(bot1Output) {
         if (/wood.clad/i.test(raw) && /fiberglass/i.test(fullContext)) {
           raw = 'Fiberglass-clad wood';
         }
+        // If raw is too long (verbose description), extract compound material from it
+        if (raw.length >= 80) {
+          const lower = raw.toLowerCase();
+          if (/aluminum/i.test(lower) && /wood/i.test(lower)) {
+            raw = 'Aluminum-Clad Wood';
+          } else if (/vinyl/i.test(lower) && /wood/i.test(lower) && !/aluminum/i.test(lower)) {
+            raw = 'Vinyl-Clad Wood';
+          } else if (/fiberglass/i.test(lower) && /wood/i.test(lower)) {
+            raw = 'Fiberglass-Clad Wood';
+          } else if (/fiberglass|pultruded|ultrex|duracast/i.test(lower)) {
+            raw = 'Pultruded Fiberglass';
+          } else if (/vinyl/i.test(lower)) {
+            raw = 'Vinyl';
+          } else if (/composite|fibrex/i.test(lower)) {
+            raw = 'Composite/Fibrex';
+          }
+        }
         if (raw.length > 2 && raw.length < 80) {
           return { found: true, rawText: raw, source: 'bot1_product_overview' };
         }
@@ -366,6 +383,7 @@ function extractMaterialClass(bot1Output) {
     { pattern: /fiberglass\s+frame|pultruded\s+fiberglass|ultrex|duracast/i, label: 'Pultruded fiberglass' },
     { pattern: /vinyl.clad(?:ding)?\s+wood|wood.*vinyl\s+(?:clad|exterior)|perma.?shield.*wood/i, label: 'Vinyl-clad wood' },
     { pattern: /fiberglass.clad(?:ding)?\s+wood|wood.*fiberglass\s+(?:clad|exterior)/i, label: 'Fiberglass-clad wood' },
+    { pattern: /(?:extruded\s+)?aluminum[^.]*(?:solid\s+)?wood|(?:solid\s+)?wood[^.]*(?:extruded\s+)?aluminum/i, label: 'Aluminum-Clad Wood' },
     { pattern: /all.wood|wood\s+frame|wood\s+window/i, label: 'Wood' },
     { pattern: /aluminum\s+frame|aluminum\s+window|non.clad\s+aluminum/i, label: 'Aluminum' },
     { pattern: /fibrex|composite\s+frame/i, label: 'Composite/Fibrex' },
