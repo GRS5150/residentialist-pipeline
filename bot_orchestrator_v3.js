@@ -724,23 +724,35 @@ CRITICAL RULES:
     - A single installation anecdote (e.g. "29 of 39 units failed") — this is one customer's experience, not a systemic pattern
     - Yelp, Google, or BBB star ratings alone — these are sentiment data, not failure documentation
     - Any claim where the only source is the claimant themselves
-    YELLOW FINDING (any one of these):
-    - Single source only
-    - Installation-dependent (may be installer error, not product defect)
-    - Attributed to brand generally, not confirmed for this specific product line
-    - Manufacturer acknowledged but not litigated or independently verified
-    - Older than 10 years with no recent corroboration
+    YELLOW FINDINGS — must be sub-categorized as YELLOW-DEFECT or YELLOW-NOTE:
+    
+    YELLOW-DEFECT (a documented product quality, durability, or performance issue):
+    - Single-source report of a specific product failure (seal failure, water leak, hardware break, etc.)
     - Consumer complaint pattern without independent verification
-
-12. MATERIAL CLASSIFICATION LOCK — THIS IS A HARD RULE:
-    - The material class established by Bot 1 research is provided to you as LOCKED_MATERIAL_CLASS.
-    - You MUST score from this material class. You MAY NOT silently reclassify it.
-    - If you believe the locked classification is wrong, you MUST:
-      a. STOP scoring
-      b. Output exactly: "MATERIAL_RECLASSIFICATION_FLAG: I believe the material class should be [X] because [cite specific source URL and quote from Bot 1 research]. The locked class is [Y]. I cannot proceed without resolution."
-      c. Do NOT produce a score. Do NOT continue the evaluation.
-    - If you proceed with a different material class than LOCKED_MATERIAL_CLASS without flagging, the entire evaluation is invalid.
-    - A material reclassification flag will be caught by the Challenge Bot and escalated. This is the correct behavior.
+    - Manufacturer-acknowledged issue not yet litigated or independently verified
+    - Attributed to brand generally but not confirmed for this specific product line
+    - Active or recent litigation that does not meet full RED criteria
+    KEY TEST: Would a buyer who purchased this product potentially experience this problem due to the product itself?
+    
+    YELLOW-NOTE (an informational observation — NOT a product defect):
+    - Installation complexity or special requirements (e.g., "primer must be applied within 14 days")
+    - Design age or market positioning observations (e.g., "older design", "entry-level product")
+    - Service network limitations or franchise model variability
+    - Price-value commentary from professionals
+    - Product characteristics that are trade-offs, not defects (e.g., "heavier than competitors")
+    - Discontinued related product lines
+    KEY TEST: Is this something the buyer should KNOW, but not something that indicates the product will FAIL?
+    
+    CRITICAL: Every yellow finding MUST include a "category" field set to either "DEFECT" or "NOTE".
+    Only YELLOW-DEFECT findings count toward the outlook assessment.
+    YELLOW-NOTE findings appear in the report for consumer awareness but do not affect the outlook.
+    
+    NON-DISCLOSURE IS NOT A FINDING:
+    Do NOT generate yellow findings for data that the manufacturer does not publish.
+    Non-disclosure is already documented in the transparency_report. Generating a separate
+    yellow finding for "manufacturer withholds performance data" or "specific values not published"
+    double-counts the same issue and violates the non-disclosure-is-not-a-penalty rule.
+    If a spec is not published, document it in the transparency_report only.
 
 12. MATERIAL CLASSIFICATION LOCK — THIS IS A HARD RULE:
     - The material class established by Bot 1 research is provided to you as LOCKED_MATERIAL_CLASS.
@@ -842,7 +854,7 @@ You STILL compute axis_score values for the Performance axis. Quality and Durabi
 OUTPUT FORMAT — MANDATORY JSON:
 You MUST output ONLY a valid JSON object. No markdown, no explanation outside the JSON. Use this exact schema:
 
-{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"spacer_system": "one_piece_stainless|warm_edge_foam|warm_edge_hybrid|multi_piece_stainless|four_piece_aluminum|unknown", "balance_system": "constant_force|class_4|coil_spring|block_and_tackle|class_1|unknown", "weatherstrip_attachment": "channeled|integrated|mechanically_fastened|adhesive|unknown", "weatherstrip_coverage": "triple|double|partial|unknown", "glazing_bead": "double_wall_integrated|single_wall_snap|no_glazing_bead|unknown", "quality_tier": "premium|standard", "reasoning": "string"}, "manufacturing_quality": {"business_model": "manufacturer_own_factory|manufacturer_licensed|assembler|specifier|marketeer|rebrander", "complaints": [{"description": "string", "classification": "SAFETY|STRUCTURAL_DEFECT|DELIVERY|COSMETIC|INSTALL_DEPENDENT", "source_count": 0, "evidence_level": "RED|YELLOW|NOTE"}], "certifications": ["NFRC", "AAMA_GOLD", "ENERGY_STAR", "PHI"], "reasoning": "string"}, "professional_consensus": {"sources": [{"name": "string", "pool": "A|B|C", "sentiment": "positive|negative|mixed", "price_bias": false, "summary": "string"}], "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"material_class": "string", "cladding_type": "extruded|roll-form|null", "adjustments_found": [{"code": "string", "description": "string", "source": "string"}], "reasoning": "string"}, "repairability": {"parts_availability_years": 20, "warranty_transferable": true, "labor_coverage": "full|partial|none", "warranty_length_glass_years": 20, "warranty_length_components_years": 10, "igu_replacement_method": "glass_swap|sash_replacement|full_window", "service_network": "manufacturer_direct|nationwide_dealer|regional_dealer|limited", "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string", "transparency_report": {"data_completeness": "FULL|PARTIAL|LIMITED", "performance_evidence": [{"subscore": "string", "evidence_level": "string", "metric": "string", "published_value": "string or null", "evidence_used": "string", "score_given": 0.0, "professional_note": "string or null"}]}}}`;
+{"product": "string", "config": "string", "locked_material_class": "string", "scores": {"quality": {"component_quality": {"spacer_system": "one_piece_stainless|warm_edge_foam|warm_edge_hybrid|multi_piece_stainless|four_piece_aluminum|unknown", "balance_system": "constant_force|class_4|coil_spring|block_and_tackle|class_1|unknown", "weatherstrip_attachment": "channeled|integrated|mechanically_fastened|adhesive|unknown", "weatherstrip_coverage": "triple|double|partial|unknown", "glazing_bead": "double_wall_integrated|single_wall_snap|no_glazing_bead|unknown", "quality_tier": "premium|standard", "reasoning": "string"}, "manufacturing_quality": {"business_model": "manufacturer_own_factory|manufacturer_licensed|assembler|specifier|marketeer|rebrander", "complaints": [{"description": "string", "classification": "SAFETY|STRUCTURAL_DEFECT|DELIVERY|COSMETIC|INSTALL_DEPENDENT", "source_count": 0, "evidence_level": "RED|YELLOW|NOTE"}], "certifications": ["NFRC", "AAMA_GOLD", "ENERGY_STAR", "PHI"], "reasoning": "string"}, "professional_consensus": {"sources": [{"name": "string", "pool": "A|B|C", "sentiment": "positive|negative|mixed", "price_bias": false, "summary": "string"}], "reasoning": "string"}, "axis_score": 0.0}, "durability": {"frame_longevity": {"score": 0.0, "reasoning": "string"}, "materials_durability": {"material_class": "string", "cladding_type": "extruded|roll-form|null", "adjustments_found": [{"code": "string", "description": "string", "source": "string"}], "reasoning": "string"}, "repairability": {"parts_availability_years": 20, "warranty_transferable": true, "labor_coverage": "full|partial|none", "warranty_length_glass_years": 20, "warranty_length_components_years": 10, "igu_replacement_method": "glass_swap|sash_replacement|full_window", "service_network": "manufacturer_direct|nationwide_dealer|regional_dealer|limited", "reasoning": "string"}, "axis_score": 0.0}, "performance": {"thermal": {"score": 0.0, "reasoning": "string"}, "structural": {"score": 0.0, "reasoning": "string"}, "air_water": {"score": 0.0, "reasoning": "string"}, "axis_score": 0.0}}, "overall_score": 0.0, "grade": "string", "outlook": "Strong|Stable|Conditional", "findings": {"red": [{"finding": "string", "source": "string"}], "yellow": [{"finding": "string", "source": "string", "category": "DEFECT|NOTE"}]}, "expected_lifespan": {"adverse": "string", "median": "string", "best": "string"}, "reasoning_summary": "string", "transparency_report": {"data_completeness": "FULL|PARTIAL|LIMITED", "performance_evidence": [{"subscore": "string", "evidence_level": "string", "metric": "string", "published_value": "string or null", "evidence_used": "string", "score_given": 0.0, "professional_note": "string or null"}]}}}`;
 
 const BOT3_MATERIAL_SAFETY_PROMPT = `You are The Residentialist Material Safety Bot (Bot 3). You evaluate health and toxicity risk from the product's materials during and after installation. You score on a 0-10 scale. Your score is published separately — it is never averaged into Quality, Durability, or Performance.
 
@@ -1570,6 +1582,37 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   console.log('\n[ORCHESTRATOR] Pipeline complete.');
   console.log(`[ORCHESTRATOR] All outputs saved to: ${outputDir}`);
 
+  // ── DETERMINISTIC OUTLOOK ──────────────────────────────────────────────────────────────
+  // Overrides Bot 2's judgment-based outlook with deterministic criteria.
+  // Only YELLOW-DEFECT findings count. YELLOW-NOTE findings are informational only.
+  // Evidence levels / data gaps do NOT factor in (non-disclosure is not a penalty).
+  const redFindings = bot2Parsed?.findings?.red || [];
+  const yellowFindings = bot2Parsed?.findings?.yellow || [];
+  const yellowDefects = yellowFindings.filter(f => {
+    // Support both new format (category field) and legacy format (no category = treat as DEFECT)
+    if (f.category) return f.category === 'DEFECT';
+    // Legacy fallback: if no category field, count all yellows as defects (conservative)
+    return true;
+  });
+  const yellowNotes = yellowFindings.filter(f => f.category === 'NOTE');
+
+  let deterministicOutlook;
+  if (redFindings.length === 0 && yellowDefects.length <= 1) {
+    deterministicOutlook = 'Strong';
+  } else if (redFindings.length === 0 && yellowDefects.length <= 3) {
+    deterministicOutlook = 'Stable';
+  } else {
+    deterministicOutlook = 'Conditional';
+  }
+
+  // Log the override if it differs from Bot 2's judgment
+  const bot2Outlook = bot2Parsed?.outlook || 'unknown';
+  if (deterministicOutlook !== bot2Outlook) {
+    console.log(`[OUTLOOK] Deterministic override: ${bot2Outlook} → ${deterministicOutlook} (RED: ${redFindings.length}, YELLOW-DEFECT: ${yellowDefects.length}, YELLOW-NOTE: ${yellowNotes.length})`);
+  } else {
+    console.log(`[OUTLOOK] Confirmed: ${deterministicOutlook} (RED: ${redFindings.length}, YELLOW-DEFECT: ${yellowDefects.length}, YELLOW-NOTE: ${yellowNotes.length})`);
+  }
+
   // Write structured PIPELINE_STATUS.json with extracted scores
   const statusData = {
     status: 'PASS',
@@ -1579,13 +1622,20 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
     scores: bot2Parsed?.scores || null,
     overall: bot2Parsed?.overall_score || null,
     grade: bot2Parsed?.grade || null,
-    outlook: bot2Parsed?.outlook || null,
+    outlook: deterministicOutlook,
+    outlook_detail: {
+      red_count: redFindings.length,
+      yellow_defect_count: yellowDefects.length,
+      yellow_note_count: yellowNotes.length,
+      bot2_original: bot2Outlook,
+      method: 'deterministic_v1',
+    },
     material_safety: bot3Parsed?.material_safety_score || null,
   };
   fs.writeFileSync(`${outputDir}/PIPELINE_STATUS.json`, JSON.stringify(statusData, null, 2));
   // Keep the old text format too for backward compat
   fs.writeFileSync(`${outputDir}/PIPELINE_STATUS.txt`,
-    `STATUS: PASS\nPRODUCT: ${productName}\nCONFIG: ${config}\nOVERALL: ${bot2Parsed?.overall_score}\nGRADE: ${bot2Parsed?.grade}\nOUTLOOK: ${bot2Parsed?.outlook}\nTIMESTAMP: ${timestamp}`);
+    `STATUS: PASS\nPRODUCT: ${productName}\nCONFIG: ${config}\nOVERALL: ${bot2Parsed?.overall_score}\nGRADE: ${bot2Parsed?.grade}\nOUTLOOK: ${deterministicOutlook}\nTIMESTAMP: ${timestamp}\n---\n## DATA CONFIDENCE: ${bot2Parsed?.transparency_report?.data_completeness === 'FULL' ? 'HIGH' : bot2Parsed?.transparency_report?.data_completeness === 'PARTIAL' ? 'HIGH' : 'MODERATE'}\n\nAll scored specifications confirmed from manufacturer documentation, independent databases, or Council-approved memos.\n`);
 
   console.log(`\n[ORCHESTRATOR] Files:`);
   console.log(`  ${productSlug}_bot1_consensus.md`);
@@ -1601,7 +1651,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   console.log(`  PIPELINE_STATUS.json`);
   console.log(`  PIPELINE_STATUS.txt`);
 
-  return { status: 'PASS', outputDir, bot1Output, bot2Output, bot3Output, challengeResult, bot2Parsed, bot3Parsed };
+  return { status: 'PASS', outputDir, bot1Output, bot2Output, bot3Output, challengeResult, bot2Parsed, bot3Parsed, deterministicOutlook };
 }
 
 // ─── CLI ENTRY POINT ──────────────────────────────────────────────────────────

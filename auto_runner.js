@@ -24,6 +24,9 @@
  *   March 14, 2026: Evidence pin policy fix — CERTIFICATION_FLOOR no longer pins
  *   March 14, 2026: Performance axis weights fixed (was equal thirds)
  *   March 14, 2026: Fiberglass-as-vinyl bug fix in orchestrator
+ *   March 16, 2026: Phase 9 — Deterministic outlook + yellow finding reform
+ *                    extractOutlook() now prefers orchestrator's deterministicOutlook
+ *                    over Bot 2's judgment-based outlook
  */
 
 const { runPipeline } = require('./bot_orchestrator_v3');
@@ -73,6 +76,11 @@ function extractGrade(result) {
 }
 
 function extractOutlook(result) {
+  // Phase 9: Prefer deterministic outlook computed by orchestrator (criteria-based)
+  // over Bot 2's judgment-based outlook. Falls back to Bot 2 for backward compat.
+  if (result.deterministicOutlook) {
+    return result.deterministicOutlook;
+  }
   if (result.bot2Parsed && result.bot2Parsed.outlook) {
     return result.bot2Parsed.outlook;
   }
