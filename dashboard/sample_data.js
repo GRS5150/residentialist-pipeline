@@ -165,7 +165,7 @@ function generatePoolDetails(product) {
       final_weight: 1,
       contribution: s === "positive" ? 0.5 : s === "mixed" ? 0 : -0.5,
       price_bias: false,
-      url: "https://example.com/source/" + (srcIdx + 1)
+      // No URL for sample data — real URLs come from evidence files
     });
     srcIdx++;
   }
@@ -183,7 +183,7 @@ function generatePoolDetails(product) {
       final_weight: 0.48,
       contribution: (s === "positive" ? 0.5 : s === "mixed" ? 0 : -0.5) * 0.48,
       price_bias: i === 0,
-      url: "https://example.com/source/b" + (i + 1)
+      // No URL for sample data — real URLs come from evidence files
     });
   }
   pools.B.count = bCount;
@@ -200,7 +200,7 @@ function generatePoolDetails(product) {
       final_weight: 0.15,
       contribution: (s === "positive" ? 0.5 : s === "mixed" ? 0 : -0.5) * 0.15,
       price_bias: false,
-      url: "https://example.com/source/c" + (i + 1)
+      // No URL for sample data — real URLs come from evidence files
     });
   }
   pools.C.count = cCount;

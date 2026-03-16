@@ -71,6 +71,123 @@ function readJsonFile(dir, pattern) {
   }
 }
 
+// ── Evidence File Helper ────────────────────────────────────────────────────
+const EVIDENCE_DIR = path.join(WORKSPACE, 'evidence');
+
+function getSourceUrlMap(productName) {
+  // Build a lookup: source_name → url from the evidence file
+  if (!fs.existsSync(EVIDENCE_DIR)) return {};
+  const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+  const files = fs.readdirSync(EVIDENCE_DIR).filter(f => f.endsWith('.json'));
+  const match = files.find(f => {
+    const lower = f.toLowerCase();
+    return lower.includes(slug) || slug.split('_').every(part => lower.includes(part));
+  });
+  if (!match) return {};
+  try {
+    const data = JSON.parse(fs.readFileSync(path.join(EVIDENCE_DIR, match), 'utf-8'));
+    const urlMap = {};
+    const pc = data.professional_consensus;
+    if (pc && pc.sources) {
+      for (const src of pc.sources) {
+        if (src.url && src.name) {
+          urlMap[src.name] = src.url;
+        }
+      }
+    }
+    return urlMap;
+  } catch (e) {
+    return {};
+  }
+}
+
+// ── Manufacturer Source Filter ──────────────────────────────────────────────
+// Server-side filter to reclassify manufacturer-own sources in pool_details.
+// Catches contamination from pre-fix scoring data until products are re-scored.
+const MANUFACTURER_DOMAINS = {
+  'Andersen':      ['andersenwindows.com', 'andersen.com', 'renewalbyandersen.com'],
+  'Marvin':        ['marvin.com'],
+  'Pella':         ['pella.com'],
+  'Loewen':        ['loewen.com'],
+  'Milgard':       ['milgard.com'],
+  'Jeld-Wen':      ['jeld-wen.com'],
+  'Simonton':      ['simonton.com'],
+  'Sierra Pacific': ['sierrapacificwindows.com'],
+  'Alpen':         ['alpenwindows.com'],
+  'Ply Gem':       ['plygem.com'],
+  'Window World':  ['windowworldinc.com', 'windowworld.com'],
+  'Harvey':        ['harveywindows.com', 'harveybp.com'],
+  'Lincoln':       ['lincolnwindows.com'],
+  'Weather Shield': ['weathershield.com'],
+};
+const MANUFACTURER_YT_CHANNELS = [
+  'loewen windows', 'loewenwindows', 'marvin windows', 'andersen windows',
+  'pella windows', 'milgard windows', 'jeld-wen', 'simonton windows',
+  'weather shield', 'lincoln windows', 'harvey windows', 'alpen windows',
+  'sierra pacific windows', 'window world'
+];
+
+function filterManufacturerSources(poolDetails, productName) {
+  if (!poolDetails || !productName) return poolDetails;
+  // Extract manufacturer from product name (first word or known mapping)
+  const pLower = productName.toLowerCase();
+  let mfg = null;
+  const mfgMap = {
+    'andersen': 'Andersen', 'marvin': 'Marvin', 'pella': 'Pella',
+    'loewen': 'Loewen', 'milgard': 'Milgard', 'jeld-wen': 'Jeld-Wen',
+    'simonton': 'Simonton', 'sierra pacific': 'Sierra Pacific',
+    'alpen': 'Alpen', 'ply gem': 'Ply Gem', 'window world': 'Window World',
+    'harvey': 'Harvey', 'lincoln': 'Lincoln', 'weather shield': 'Weather Shield',
+    'reliabilt': 'Reliabilt'
+  };
+  for (const [prefix, name] of Object.entries(mfgMap)) {
+    if (pLower.startsWith(prefix)) { mfg = name; break; }
+  }
+  if (!mfg) return poolDetails;
+
+  const mfgDomains = MANUFACTURER_DOMAINS[mfg] || [];
+  const mfgLower = mfg.toLowerCase();
+
+  function isManufacturerOwn(src) {
+    const srcUrl = src.url || '';
+    try {
+      const domain = new URL(srcUrl).hostname.replace(/^www\./, '').toLowerCase();
+      // Check manufacturer domains
+      if (mfgDomains.some(d => domain === d || domain.endsWith('.' + d))) return true;
+      // Check manufacturer YouTube channels and manufacturer-titled videos
+      if (domain === 'youtube.com' || domain === 'youtu.be') {
+        const nameLower = (src.name || '').toLowerCase();
+        if (MANUFACTURER_YT_CHANNELS.some(ch => nameLower.includes(ch))) return true;
+        // Also catch videos titled with manufacturer name (e.g., "YouTube — Loewen Double Hung")
+        if (nameLower.includes(mfgLower + ' ') || nameLower.includes('— ' + mfgLower + ' ') || nameLower.includes('- ' + mfgLower + ' ')) return true;
+      }
+      // Check if domain contains manufacturer name
+      if (mfgLower.length >= 4 && domain.includes(mfgLower)) return true;
+    } catch (e) {}
+    return false;
+  }
+
+  // Move manufacturer-own sources from their current pool to excluded
+  if (!poolDetails.excluded) poolDetails.excluded = { count: 0, sources: [] };
+  for (const poolKey of Object.keys(poolDetails)) {
+    if (poolKey === 'excluded') continue;
+    const pd = poolDetails[poolKey];
+    if (!pd || !pd.sources) continue;
+    const keep = [];
+    for (const src of pd.sources) {
+      if (isManufacturerOwn(src)) {
+        poolDetails.excluded.sources.push({ ...src, pool: 'excluded', source_type: 'manufacturer_own' });
+      } else {
+        keep.push(src);
+      }
+    }
+    pd.sources = keep;
+    pd.count = keep.length;
+  }
+  poolDetails.excluded.count = poolDetails.excluded.sources.length;
+  return poolDetails;
+}
+
 // ── MIME Types ───────────────────────────────────────────────────────────────
 const MIME_TYPES = {
   '.html': 'text/html',
@@ -131,6 +248,21 @@ function handleAPI(req, res, parsedUrl) {
       const generated = sampleData.generateDetailedScores(product);
       poolDetails = generated.professional_consensus.pool_details;
     }
+    // Merge URLs from evidence file into pool_details sources
+    const urlMap = getSourceUrlMap(product.product_name);
+    if (poolDetails && Object.keys(urlMap).length > 0) {
+      for (const poolKey of Object.keys(poolDetails)) {
+        const pd = poolDetails[poolKey];
+        if (pd && pd.sources) {
+          pd.sources = pd.sources.map(src => {
+            const url = urlMap[src.name];
+            return url ? { ...src, url } : src;
+          });
+        }
+      }
+    }
+    // Filter out manufacturer-own sources that leaked into consensus pools
+    filterManufacturerSources(poolDetails, product.product_name);
     sendJSON(res, { product_name: product.product_name, pool_details: poolDetails });
     return true;
   }

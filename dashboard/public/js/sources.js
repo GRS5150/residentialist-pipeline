@@ -20,11 +20,13 @@ function renderSourceExplorer(data, container) {
   const poolDetails = data.pool_details || {};
   const isAdmin = AdminMode.isAdmin();
   
-  // Flatten all sources
+  // Flatten all sources, filtering out zero-weight placeholders
   let allSources = [];
   for (const [pool, poolData] of Object.entries(poolDetails)) {
     if (pool === 'excluded') {
       for (const src of (poolData.sources || [])) {
+        // Skip zero-weight excluded sources with no real data
+        if ((src.final_weight || 0) === 0 && (src.contribution || 0) === 0) continue;
         allSources.push({ ...src, pool: 'X' });
       }
     } else {
@@ -122,9 +124,9 @@ function renderSourceRow(src, isAdmin) {
   const pool = src.pool === 'X' || src.pool === 'excluded' ? 'X' : src.pool;
   const poolClass = pool === 'X' ? 'pool-excluded' : `pool-${pool.toLowerCase()}`;
   
-  const name = isAdmin
-    ? src.name || '—'
-    : anonymizeSource(src.name || 'Unknown Source', pool);
+  const rawName = src.name || '—';
+  const displayName = isAdmin ? rawName : anonymizeSource(rawName, pool);
+  const sourceUrl = src.url || null;
 
   const sentiment = src.sentiment || 'mixed';
   const weight = src.final_weight != null ? src.final_weight.toFixed(2) : '—';
@@ -132,10 +134,15 @@ function renderSourceRow(src, isAdmin) {
   const contColor = (src.contribution || 0) > 0 ? 'var(--score-green)' : (src.contribution || 0) < 0 ? 'var(--score-red)' : 'var(--text-muted)';
   const contWidth = Math.min(60, Math.abs((src.contribution || 0)) * 120);
 
+  // In admin mode, make source name a clickable link if URL is available
+  const nameHTML = (isAdmin && sourceUrl)
+    ? `<a href="${escHtml(sourceUrl)}" target="_blank" rel="noopener" class="source-link" title="${escHtml(rawName)}">${escHtml(displayName)}</a>`
+    : `<span title="${escHtml(rawName)}">${escHtml(displayName)}</span>`;
+
   return `
     <tr>
       <td><span class="pool-badge ${poolClass}">${pool === 'X' ? '✕' : pool}</span></td>
-      <td class="source-name-cell" title="${escHtml(src.name || '')}">${escHtml(name)}</td>
+      <td class="source-name-cell">${nameHTML}</td>
       <td><span class="sentiment-badge ${sentiment}">${sentiment}</span></td>
       <td><span class="text-mono" style="font-size:0.75rem">${weight}</span></td>
       <td>

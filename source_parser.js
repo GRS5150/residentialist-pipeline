@@ -210,6 +210,13 @@ const EXCLUDED_DOMAINS = [
   'alpenwindows.com',
   'proviaproducts.com',
   'plygem.com',
+  'loewen.com',                   // Loewen Windows
+  'windowworldinc.com',           // Window World
+  'windowworld.com',              // Window World (alternate)
+  'harveywindows.com',            // Harvey Windows
+  'harveybp.com',                 // Harvey Building Products
+  'lincolnwindows.com',           // Lincoln Windows
+  'weathershield.com',            // Weather Shield
   // Legal / lawsuit sites (complaints belong in MQ, not PC)
   'consumerclassactionlawyers.com',
   'fearnotlaw.com',
@@ -269,6 +276,101 @@ const EXCLUDED_DOMAINS = [
   'pmc.ncbi.nlm.nih.gov',           // Medical research
   'business.pacificgrove.org',      // Local business directory
 ];
+
+
+/**
+ * Manufacturer-own YouTube channels — ALWAYS excluded from professional consensus.
+ * These are marketing channels, not independent opinions.
+ * Matched case-insensitively against video title + description.
+ */
+const MANUFACTURER_YOUTUBE_CHANNELS = [
+  'loewen windows',        // @LoewenWindows
+  'loewenwindows',         // Alternate matching
+  'marvin windows',        // Marvin official
+  'andersen windows',      // Andersen official
+  'pella windows',         // Pella official
+  'milgard windows',       // Milgard official
+  'jeld-wen',              // JELD-WEN official (already excluded by domain, but belt-and-suspenders)
+  'simonton windows',      // Simonton official
+  'weather shield',        // Weather Shield official
+  'lincoln windows',       // Lincoln official
+  'harvey windows',        // Harvey official
+  'alpen windows',         // Alpen official
+  'sierra pacific windows', // Sierra Pacific official
+  'window world',          // Window World official
+];
+
+/**
+ * Manufacturer-own website domain patterns derived from MANUFACTURER_MAP.
+ * Used for dynamic detection: given a product name, generate the likely
+ * manufacturer domains and check if a source URL belongs to the manufacturer.
+ *
+ * Key insight: The static EXCLUDED_DOMAINS list only catches known domains.
+ * This map lets us detect manufacturer-own sources even for new manufacturers
+ * that haven't been manually added to EXCLUDED_DOMAINS yet.
+ */
+const MANUFACTURER_DOMAIN_PATTERNS = {
+  'Andersen':       ['andersenwindows.com', 'andersen.com', 'renewalbyandersen.com'],
+  'Marvin':         ['marvin.com', 'marvinwindows.com'],
+  'Pella':          ['pella.com'],
+  'Loewen':         ['loewen.com', 'technical.loewen.com'],
+  'Milgard':        ['milgard.com'],
+  'Jeld-Wen':       ['jeld-wen.com'],
+  'Simonton':       ['simonton.com'],
+  'Sierra Pacific':  ['sierrapacificwindows.com'],
+  'Alpen':          ['alpenwindows.com', 'alpen.com'],
+  'Ply Gem':        ['plygem.com'],
+  'Window World':   ['windowworldinc.com', 'windowworld.com'],
+  'Harvey':         ['harveywindows.com', 'harveybp.com'],
+  'Lincoln':        ['lincolnwindows.com'],
+  'Weather Shield': ['weathershield.com'],
+  'Reliabilt':      ['lowes.com'],  // Lowe's house brand — already in Pool C
+};
+
+
+/**
+ * Check if a URL + title belongs to the manufacturer of the product being scored.
+ * This is the DYNAMIC detection layer that catches manufacturer-own sources
+ * even if they're not in the static EXCLUDED_DOMAINS list.
+ *
+ * @param {string} url      — Source URL
+ * @param {string} title    — Source title
+ * @param {string} domain   — Extracted domain from URL
+ * @param {string} manufacturer — Manufacturer name (from extractManufacturer)
+ * @returns {boolean}
+ */
+function isManufacturerOwn(url, title, domain, manufacturer) {
+  if (!manufacturer) return false;
+  const mfgLower = manufacturer.toLowerCase();
+
+  // Check 1: Domain matches known manufacturer domain patterns
+  const patterns = MANUFACTURER_DOMAIN_PATTERNS[manufacturer];
+  if (patterns && patterns.some(d => domain === d || domain.endsWith('.' + d))) {
+    return true;
+  }
+
+  // Check 2: YouTube — check if it's the manufacturer's own channel
+  if (domain === 'youtube.com' || domain === 'youtu.be') {
+    const titleLower = (title || '').toLowerCase();
+    // Match manufacturer YouTube channels
+    if (MANUFACTURER_YOUTUBE_CHANNELS.some(ch => titleLower.includes(ch))) {
+      return true;
+    }
+    // Also match if channel name in title starts with manufacturer name
+    // e.g., "Loewen - How We Build Our Windows" → manufacturer is Loewen
+    if (titleLower.startsWith(mfgLower + ' ') || titleLower.startsWith(mfgLower + '-') || titleLower.startsWith(mfgLower + ':')) {
+      return true;
+    }
+  }
+
+  // Check 3: Domain contains manufacturer name
+  // e.g., domain "loewen.com" contains "loewen", domain "marvinwindows.com" contains "marvin"
+  if (mfgLower.length >= 4 && domain.includes(mfgLower)) {
+    return true;
+  }
+
+  return false;
+}
 
 // ─── MANUFACTURER EXTRACTION ──────────────────────────────────────────────────
 
@@ -407,7 +509,7 @@ function extractDomain(urlStr) {
  *             is_reddit: boolean,
  *             youtube_channel: string|null }}
  */
-function classifySource(url, title, description) {
+function classifySource(url, title, description, productName) {
   const domain   = extractDomain(url) || '';
   const titleL   = (title       || '').toLowerCase();
   const descL    = (description || '').toLowerCase();
@@ -425,6 +527,11 @@ function classifySource(url, title, description) {
   } else if (EXCLUDED_DOMAINS.some(d => domain === d || domain.endsWith('.' + d))) {
     pool        = 'excluded';
     source_type = 'excluded_domain';
+  } else if (productName && isManufacturerOwn(url, title, domain, extractManufacturer(productName))) {
+    // Dynamic manufacturer-own detection — catches sources belonging to
+    // the manufacturer of the product being scored, even if not in EXCLUDED_DOMAINS
+    pool        = 'excluded';
+    source_type = 'manufacturer_own';
   } else if (POOL_A_DOMAINS.some(d => domain === d || domain.endsWith('.' + d))) {
     pool        = 'A';
     source_type = 'professional_forum';
@@ -434,9 +541,13 @@ function classifySource(url, title, description) {
     pool        = 'C';
     source_type = 'reddit';
   } else if (domain === 'youtube.com' || domain === 'youtu.be') {
-    // Check known installer channels
-    const matchedChannel = POOL_B_CHANNELS.find(ch => combined.includes(ch));
-    if (matchedChannel) {
+    // Check manufacturer-own YouTube channels first (always excluded)
+    if (MANUFACTURER_YOUTUBE_CHANNELS.some(ch => combined.includes(ch))) {
+      pool        = 'excluded';
+      source_type = 'manufacturer_youtube';
+    // Then check known installer channels
+    } else if (POOL_B_CHANNELS.find(ch => combined.includes(ch))) {
+      const matchedChannel = POOL_B_CHANNELS.find(ch => combined.includes(ch));
       pool           = 'B';
       source_type    = 'youtube_installer';
       youtube_channel = matchedChannel;
@@ -1248,7 +1359,7 @@ async function parseSourcesForProduct(productName, config, category, existingEvi
     if (!url || !title) continue;
 
     // Classify
-    const cls = classifySource(url, title, description);
+    const cls = classifySource(url, title, description, productName);
 
     // Skip certification-only domains for the source pool (handled separately)
     if (cls.pool === 'certification') {
@@ -1539,7 +1650,7 @@ function buildPhase1Sources(checklist, manufacturer) {
   // Standard mandatory URLs
   for (const entry of (phase1.urls || [])) {
     if (!entry.url) continue;
-    const cls = classifySource(entry.url, entry.purpose || '', '');
+    const cls = classifySource(entry.url, entry.purpose || '', '', manufacturer);
     sources.push({
       name:        entry.purpose || entry.url,
       url:         entry.url,
