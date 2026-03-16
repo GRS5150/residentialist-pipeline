@@ -66,6 +66,15 @@ const POOL_B_DOMAINS = [
   'passivehouse.com',
   'phius.org',
   'windowpurchase.com', // Jay Johnson — independent trade reviewer
+  'dwmmag.com',         // Door & Window Manufacturer Magazine (trade publication)
+  'brennancorp.com',    // Brennan Enterprises — known installer (Pool B YouTube channel)
+  // Phase 7b additions — trade publications
+  'usglassmag.com',         // US Glass Magazine (trade publication)
+  'architectmagazine.com',  // Architect Magazine (trade publication)
+  'buildshownetwork.com',   // Build Show Network (trade/educational content)
+  'inspectapedia.com',      // InspectAPedia (building science reference)
+  'woodworkingnetwork.com', // Woodworking Network (trade publication)
+  'facilityexecutive.com',  // Facility Executive (trade magazine)
 ];
 
 /**
@@ -100,6 +109,68 @@ const POOL_C_DOMAINS = [
   'home.google.com',
   'homedepot.com',
   'lowes.com',
+  // Phase 7 additions (March 15, 2026) — previously unknown pool:
+  'replacement-windows.com',    // Consumer forum
+  'vinyl-replacement-windows.com', // Consumer forum
+  '1stwindows.com',             // Online retailer
+  'cougarwindows.com',          // Dealer/retailer
+  'discountwd.com',             // Dealer/retailer
+  'vistaza.com',                // Consumer window blog
+  'swisco.com',                 // Parts retailer
+  'azwindowreplacement.com',    // Local installer site
+  'constructionwindows.com',    // Dealer site
+  'lakewashingtonwindows.com',  // Local dealer
+  'newmanwindows.com',          // Local dealer
+  'uswindow-door.com',          // Dealer/distributor
+  // Phase 7b additions (March 15, 2026) — second pass on unknowns:
+  'windowrama.com',             // Window comparison/parts site
+  'windowhardwaredirect.com',   // Parts retailer
+  'thewindowanddoorshoppe.com', // Dealer catalog
+  'justanswer.com',             // Q&A platform (consumer)
+  'replacementwindowsprices.com', // Consumer review/pricing site
+  'ralphsway.com',              // Consumer review blog
+  'proreplacementwindows.com',  // Consumer review/pricing site
+  'complaintsboard.com',        // Consumer complaint platform
+  'pissedconsumer.com',         // Consumer complaint platform
+  'diychatroom.com',            // DIY consumer forum
+  'opalexteriors.com',          // Local contractor comparison blog
+  'themenwithtools.com',        // Consumer review blog
+  'windowpartscenter.com',      // Parts retailer
+  'windowparts.com',            // Parts retailer
+  'qualitysmith.com',           // Consumer Q&A
+  'sidingwizard.com',           // Consumer review blog
+  'bogleheads.org',             // Financial forum (occasional home advice)
+  'unifiedhomeremodeling.com',  // Contractor site
+  'ringsend.com',               // Building supply dealer
+  'windowsolutionsplus.com',    // Local dealer
+  'hometownewindows.com',       // Local dealer
+  'familyhomeimprovements.net', // Consumer review blog
+  'harrisexteriors.com',        // Contractor site
+  'avenueswindow.com',          // Dealer site
+  'lamoriaconstruction.com',    // Contractor site
+  'mnwindows.com',              // Local dealer/installer
+  'morningstardoorsandwindows.com', // Dealer
+  'northeastarchitectural.com', // Dealer
+  'toulmincabinetry.com',       // Consumer blog/dealer
+  'rbamilwaukee.com',           // Renewal by Andersen franchise
+  'rbacentralpa.com',           // Renewal by Andersen franchise
+  'westernproducts.com',        // Contractor/dealer
+  'consumerreports.org',        // Consumer publication
+  'amazon.com',                 // Marketplace
+  // Phase 7b additions — third pass on unknowns:
+  'arcat.com',                  // Product specification database
+  'simplexhomes.com',           // Modular home builder
+  'constructioncoverage.com',   // Consumer construction info
+  'fairvu.com',                 // Window dealer
+  'shepleywood.com',            // Lumber/building supply dealer
+  'builddirect.com',            // Online building materials retailer
+  'mpglobalproducts.com',       // Flooring underlayment (tangential)
+  'manualzz.com',               // Product manual database
+  'mychemicalfreehouse.net',    // Consumer blog (healthy building)
+  'jjonesdesignco.com',         // Design company blog
+  'parlorcityfurniture.com',    // Furniture store (tangential)
+  'identifyparts.xyz',          // Parts identification site
+  'replacementwindowsreviews.co', // Consumer reviews (typo variant)
 ];
 
 /**
@@ -116,6 +187,87 @@ const CERTIFICATION_DOMAINS = [
   'cpsc.gov',
   'greenguard.org',
   'ul.com',
+];
+
+/**
+ * Excluded domains — not scored in professional consensus.
+ * Phase 7 addition (March 15, 2026).
+ * These produce sources that are NOT professional opinions about product quality:
+ *   - Manufacturer marketing sites (biased by definition)
+ *   - Legal/lawsuit sites (complaints, not consensus — handled by MQ subscore)
+ *   - Regulatory databases (data, not opinions)
+ *   - False-positive domains (irrelevant to windows)
+ */
+const EXCLUDED_DOMAINS = [
+  // Manufacturer sites (marketing, not independent opinion)
+  'milgard.com',
+  'andersenwindows.com',
+  'pella.com',
+  'jeld-wen.com',
+  'marvin.com',
+  'sierrapacificwindows.com',
+  'simonton.com',
+  'alpenwindows.com',
+  'proviaproducts.com',
+  'plygem.com',
+  // Legal / lawsuit sites (complaints belong in MQ, not PC)
+  'consumerclassactionlawyers.com',
+  'fearnotlaw.com',
+  'law360.com',
+  'classaction.org',
+  // Regulatory / safety databases
+  'oehha.ca.gov',         // California Prop 65
+  'p65warnings.ca.gov',   // California Prop 65 warnings
+  'clearinghouse.net',    // Settlement clearinghouse
+  // False positives (not related to windows)
+  'amerisleep.com',       // Mattress company
+  'phifer.com',           // Screen manufacturer
+  'bradleycorp.com',      // Commercial fixtures
+  'aeroflexusa.com',      // HVAC insulation
+  'trivantage.com',       // Fabric/awning supplies
+  'zoominfo.com',         // Business directory
+  'multiquip.com',        // Construction equipment
+  'arcedior.com',         // Door hardware
+  'nytimes.com',          // General news (not window authority)
+  // Phase 7b additions — manufacturer subsidiaries & CDNs
+  'renewalbyandersen.com',          // Andersen subsidiary (manufacturer)
+  'renewalbyandersenreplacement.com', // Andersen marketing site
+  'andersen.my.site.com',           // Andersen customer portal
+  'cmd-jeld-wen.s3.us-east-2.amazonaws.com', // JELD-WEN S3 bucket
+  'edge.sitecorecloud.io',          // Andersen CMS CDN
+  'images.thdstatic.com',           // Home Depot image CDN
+  // Industry suppliers (not independent reviewers)
+  'cardinalcorp.com',               // Cardinal Glass (glass supplier)
+  'quanex.com',                     // Quanex (hardware/component supplier)
+  'rochesterinsulatedglass.com',    // Glass fabricator
+  'sierraglassfabrication.com',     // Glass fabricator
+  'energycodeace.com',              // California energy code (regulatory)
+  'glassforum.org',                 // Industry data
+  // Legal / news / press (not professional opinion)
+  'prnewswire.com',                 // Press release wire
+  'globenewswire.com',              // Press release wire
+  'casetext.com',                   // Legal database
+  'twincities.com',                 // Local news
+  'bizjournals.com',                // Business news
+  'pennlive.com',                   // Local news
+  'hbsdealer.com',                  // Industry news
+  'appeal-democrat.com',            // Local newspaper
+  'redding.com',                    // Local news
+  'lawgud.com',                     // Legal info
+  // False positives (unrelated to windows)
+  'naturepedic.com',                // Mattress company
+  'reesehitches.com',               // Trailer hitches
+  'sierra.com',                     // Outdoor recreation retailer
+  'sierrapacificfcu.org',           // Credit union
+  'sierrapacificsupply.com',        // Building supply (not Sierra Pacific Windows)
+  'cancer.org',                     // American Cancer Society
+  'en.wikipedia.org',               // Encyclopedia
+  'naag.org',                       // National Association of Attorneys General
+  'recalls-rappels.canada.ca',      // Canadian recall database
+  'teachers.sheboygan.k12.wi.us',   // School website
+  'learnasyougrowccc.com',          // Childcare/education
+  'pmc.ncbi.nlm.nih.gov',           // Medical research
+  'business.pacificgrove.org',      // Local business directory
 ];
 
 // ─── MANUFACTURER EXTRACTION ──────────────────────────────────────────────────
@@ -270,6 +422,9 @@ function classifySource(url, title, description) {
   if (CERTIFICATION_DOMAINS.some(d => domain === d || domain.endsWith('.' + d))) {
     pool        = 'certification';
     source_type = 'certification_db';
+  } else if (EXCLUDED_DOMAINS.some(d => domain === d || domain.endsWith('.' + d))) {
+    pool        = 'excluded';
+    source_type = 'excluded_domain';
   } else if (POOL_A_DOMAINS.some(d => domain === d || domain.endsWith('.' + d))) {
     pool        = 'A';
     source_type = 'professional_forum';

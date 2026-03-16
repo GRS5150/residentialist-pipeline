@@ -246,6 +246,84 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-026",
+        "description": "Sierra Pacific Windows customers filed lawsuits alleging poor installation services, failure to honor warranty claims for defects, and unfair contract terms.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://lawgud.com/lawsuit/sierra-pacific-windows-lawsuit/",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-027",
+        "description": "User reports having read awful reviews online about Sierra Pacific H3 windows regarding problems, warranty claims, and lack of customer support.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.greenbuildingadvisor.com/question/major-window-manufacturers-marvin-andersen-sierra-pacific",
+        "year": 2019,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-028",
+        "description": "Sierra Pacific H3 window tilt sash mechanism failures with broken plastic coils and inconsistent operation across multiple units in same installation.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/1dknryi/sierra_pacific_h3_windows_vs_andersen_400_windows/",
+        "year": 2022,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-029",
+        "description": "Sierra Pacific Windows windows develop spontaneous cracks/explosions after 4 years despite having only 2-year warranty coverage, indicating a pattern of defective manufacturing.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.yelp.com/brands/sierra-pacific-windows",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-030",
+        "description": "Sierra Pacific windows experienced seal/structural failures within 12 years, with manufacturer ignoring customer outreach, refusing warranty coverage, and charging for replacements instead of honoring",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/1j1qji7/marvin_or_sierra_pacific_windows/",
+        "year": 2012,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-031",
+        "description": "Sierra Pacific triple pane windows frost at sash seals in cold temperatures while competing casement windows do not, indicating a potential seal or design defect.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/s1sxvy/new_househow_do_i_prevent_this_on_the_next_one_we/",
+        "year": 2022,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -254,321 +332,350 @@
       {
         "id": "PC-SIERRA-001",
         "name": "energycodeace.com — 3.3 Fenestration (Window/Skylight/Glazed Door) and Opaque Do",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "2. National Fenestration Rating Council (NFRC) Permanent Label The permanent label must, at a minimum, identify the certifying organization and have an ID number or code to allow tracking ‘back to the",
         "price_bias": false,
         "url": "https://energycodeace.com/site/custom/public/reference-ace-2019/Documents/33fenestrationwindowskylightglazeddoorandopaquedoors.htm",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-002",
         "name": "energycodeace.com — (NR) 3.2 Fenestration",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "The Administrative Regulations §10-111 and §110.6 of the Standards require that fenestration products have labels that list the U-factor, SHGC, VT and the method used to determine those values. The la",
         "price_bias": false,
         "url": "https://energycodeace.com/site/custom/public/reference-ace-2013/Documents/32fenestration.htm",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-003",
         "name": "1stwindows.com — Understanding Permanent Window Labeling",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "The AAMA permanent labels are affixed the five different classes of window and door products shown below. <strong>R = Residential LC = Light Commercial C = Commercial HC = Heavy Commercial AW = Archit",
         "price_bias": false,
         "url": "https://1stwindows.com/labels.htm",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-004",
         "name": "business.pacificgrove.org — Sierra Pacific Windows - Pacific Grove Chamber of Commerce",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "Although more expensive to manufacture, all our clad color collections are <strong>AAMA 2604</strong> or AAMA 2605 powder coated for greater surface hardness, scratch resistance and color retention, t",
         "price_bias": false,
         "url": "https://business.pacificgrove.org/directory/Details/sierra-pacific-windows-4135073",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-005",
         "name": "inspectapedia.com — InspectApedia Diagnose & Fix What's Wrong at Your Building",
-        "pool": "unknown",
+        "pool": "B",
         "sentiment": "mixed",
         "summary": "In 1997, the two groups joined forces to establish a unified standard for evaluating fenestration products, known as AAMA/NWWDA 101/I.S. 2-97 “Voluntary Specification for Aluminum, Vinyl and Wood Wind",
         "price_bias": false,
         "url": "https://inspectapedia.com/BestPractices/Window_Standards.php",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-006",
         "name": "toulmincabinetry.com — Sierra Pacific’s New Window Designs for Your Alabama Home",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "positive",
         "summary": "Top-tier finishes: Powder coat finishes that meet AAMA 2605 specs—offering excellent color retention and weather resistance · Superior performance: <strong>Rated PG50</strong> for air, water, and stru",
         "price_bias": false,
         "url": "https://www.toulmincabinetry.com/blog/new-sierra-pacific-window-designs",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-007",
         "name": "pmc.ncbi.nlm.nih.gov — Polyisobutylene and Silicone in Warm Edge Glazing Systems—Ev",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Figure 1 shows examples of seal displacements found in the literature [11]. In addition, the authors of [11] studied cold flow displacement behaviour of various seal spacer assemblies in laboratory te",
         "price_bias": false,
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8269632/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-008",
         "name": "rochesterinsulatedglass.com — Spacers - Rochester Insulated Glass",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Conventional aluminum, stainless steel, and plastic spacers “short circuit” the edge seal. Warm Seal’s extremely low level of thermal conductivity leads to greatly reduced IGU condensation and improve",
         "price_bias": false,
         "url": "https://rochesterinsulatedglass.com/spacers/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-009",
         "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "positive",
         "summary": "They are particularly effective over traditional metal spacers, which makes them a preferred choice in modern window systems. Durability and Design Flexibility: Dual-seal systems are <strong>designed ",
         "price_bias": false,
         "url": "https://vistaza.com/warm-edge-spacers/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-010",
         "name": "sierraglassfabrication.com — Thermo Plastic Spacer (TPS®) – Sierra Glass Fabrication Inc.",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "This warm edge system <strong>offers a wide variety of insulating glass unit (IGU) shapes and design, excellent thermal performance, maximum gas tightness and low Moisture Vapor Transmission Rate</str",
         "price_bias": false,
         "url": "https://sierraglassfabrication.com/glass/thermo-plastic-spacer-tps/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-011",
         "name": "glassforum.org — Insulating Glass Spacers: All You Need to Know Comprehensive",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "Assembly: The spacer is then assembled ... may enter the air space. Sealing: <strong>The edges of the IGU are then sealed with a high-quality sealant to prevent air and moisture from entering the air ",
         "price_bias": false,
         "url": "https://glassforum.org/insulating-glass-spacers-all-you-need-to-know/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-012",
         "name": "northeastarchitectural.com — Sierra Pacific Windows Owner’s Manual",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "negative",
         "summary": "For additional information, please contact your Sierra · Pacific Service Center or Dealer. 4 Note: Failure to follow these cleaning and maintenance instructions may void ... The sill on an inswing Fre",
         "price_bias": false,
         "url": "https://northeastarchitectural.com/wp-content/uploads/2023/11/Clad-and-Wood-Care-and-Maintenance-Guide-All-Products-CA.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-013",
         "name": "windowpartscenter.com — Sierra Pacific Windows & Doors Replacement Parts and Hardwar",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "Lifespan of weatherstripping depends on your climate, weather conditions of the area you live in, and other wear and tear factors that is put on the window. Can you replace the Classic Style Weather S",
         "price_bias": false,
         "url": "https://www.windowpartscenter.com/collections/sierra-pacific/casement?page=3",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-014",
         "name": "avenueswindow.com — AVENUES Window: Sierra Pacific H3",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "Ensuring easy access and a clear working space helps us complete the installation efficiently. Also remember that dust often accumulates inside the walls of your house, so remove or cover anything in ",
         "price_bias": false,
         "url": "https://avenueswindow.com/sierra-pacific-h3",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-015",
         "name": "harrisexteriors.com — What You Should Know About Installing Sierra Pacific Windows",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "positive",
         "summary": "Ready to swap out your aging windows with more durable, attractive and energy-efficient ones? With so many manufacturers to choose from, finding the best windows for your home is the first and most im",
         "price_bias": false,
         "url": "https://harrisexteriors.com/what-you-should-know-about-installing-sierra-pacific-windows/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-016",
         "name": "ralphsway.com — Sierra Pacific Windows Reviews: Why They Are Worth Your Inve",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "To keep your windows performing at their best, check the seals and weatherstripping annually. I learned this the hard way after that small leak in my casement window. Use a flashlight to inspect the e",
         "price_bias": false,
         "url": "https://ralphsway.com/why-sierra-pacific-windows/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-017",
         "name": "proreplacementwindows.com — Sierra Pacific Windows Reviews & Price List 2024 -Sierra vs",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "The Sierra Pacific Windows warranty also provides 10 year parts coverage, <strong>2 year</strong> labor coverage, and is fully transferable upon homeowner sale.",
         "price_bias": false,
         "url": "https://www.proreplacementwindows.com/reviews/sierra-pacific-windows-reviews/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-018",
         "name": "familyhomeimprovements.net — Replacement Window Reviews: Sierra Pacific Windows",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "negative",
         "summary": "Sierra Pacific offers a limited warranty that is fully transferable and includes a <strong>2-year labor coverage</strong> and 10-year parts coverage for manufacturing defects. For their AAMA 2065 clad",
         "price_bias": false,
         "url": "https://familyhomeimprovements.net/replacement-window-reviews-sierra-pacific-windows/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-019",
         "name": "lawgud.com — Sierra Pacific Windows Lawsuit [Updated] - LawGud",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "Poor Installation: Claims exist that Sierra Pacific’s installation services were inadequate, resulting in faulty installation and subsequent window problems. Failure to Honor Warranties: Some lawsuits",
         "price_bias": false,
         "url": "https://lawgud.com/lawsuit/sierra-pacific-windows-lawsuit/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-020",
         "name": "redding.com — Supreme Court declines to hear Sierra Pacific appeal",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "Sierra Pacific said in a statement that while the Supreme Court’s decision brings to an end the federal case, the issue continues to make its way through state courts.",
         "price_bias": false,
         "url": "https://www.redding.com/story/news/2018/06/26/supreme-court-declines-hear-sierra-pacific-appeal/736617002/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-021",
         "name": "law360.com — Sierra Pacific Escapes From Price-Fixing Kickback Suit - Law",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "By Nadia Dreid ( April 1, 2020, 3:54 PM EDT) -- Mortgage servicer Sierra Pacific has managed to slip out of a proposed class action by <strong>borrowers accusing it of hatching a deal with a settlemen",
         "price_bias": false,
         "url": "https://www.law360.com/articles/1259049/sierra-pacific-escapes-from-price-fixing-kickback-suit",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-022",
         "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "<strong>GREENGUARD Gold Certification level</strong>.",
         "price_bias": false,
         "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-023",
         "name": "mychemicalfreehouse.net — Making Sense of Green Certifications: GreenGuard, Floorscore",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "<strong>The certification does not limit sem-VOCs, like phthalates, biocides, and flame retardants</strong>. Nor heavy metals. Note: GreenGuard measures the emissions and not the content in the materi",
         "price_bias": false,
         "url": "https://www.mychemicalfreehouse.net/2020/12/what-green-certifications-mean-for.html",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-024",
         "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Some also prefer to sleep with a fan on for fresh air in the bedroom, though others find the noise distracting. The Greenguard Gold Certification <strong>ensures the interior products are low in chemi",
         "price_bias": false,
         "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-025",
         "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "The GREENGUARD Certification Program <strong>identifies low-emitting materials, finishes, and products for indoor environments</strong>. The GREENGUARD Gold Certification standard includes health-base",
         "price_bias": false,
         "url": "https://www.bradleycorp.com/green/greenguard",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-026",
         "name": "naturepedic.com — Mattress Off-Gassing Toxic VOCs? GREENGUARD Can Help",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "To understand why GREENGUARD Gold matters, it helps to first look at what the certification is designed to do. <strong>GREENGUARD was created to help consumers identify products that support better in",
         "price_bias": false,
         "url": "https://www.naturepedic.com/blog/why-greenguard-gold",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-027",
         "name": "identifyparts.xyz — Sierra Pacific Window Parts | Identify Window Parts",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "<strong>Yes, we ship Sierra Pacific window parts nationwide</strong>.",
         "price_bias": false,
         "url": "https://www.identifyparts.xyz/sierra-pacific-window-parts/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-028",
         "name": "reesehitches.com — Sierra Pacific",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "Sierra Pacific designs and manufactures the highest quality hinges, latches, handles, and other hardware for a wide range of industries, including electronic enclosure, transportation (service trucks,",
         "price_bias": false,
         "url": "https://www.reesehitches.com/brand/sierra-pacific",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-029",
         "name": "sierrapacificsupply.com — Products - Sierra Pacific Supply Company",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "We take pride in offering an extensive selection of certified and traceable parts sourced from reputable manufacturers. With a commitment to excellence and customer satisfaction, we strive to provide ",
         "price_bias": false,
         "url": "https://sierrapacificsupply.com/products/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-030",
@@ -639,24 +746,26 @@
       {
         "id": "PC-SIERRA-036",
         "name": "brennancorp.com — Andersen vs. Sierra Pacific Windows | Brennan Enterprises",
-        "pool": "unknown",
+        "pool": "B",
         "sentiment": "mixed",
         "summary": "When comparing Andersen and Sierra Pacific windows, discover the differences between the styles, finishes, warranties, and pricing with Brennan Enterprises.",
         "price_bias": false,
         "url": "https://brennancorp.com/blog/andersen-vs-sierra-pacific-replacement-windows-review/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-037",
         "name": "replacementwindowsreviews.co — Sierra Pacific Windows Reviews And Prices",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "Explore Sierra Pacific Windows reviews and prices (updated in 2025) on their most popular wood and aluminum clad windows and doors.",
         "price_bias": false,
         "url": "https://www.replacementwindowsreviews.co/company/sierra-pacific-windows-reviews.html",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-038",
@@ -694,24 +803,26 @@
       {
         "id": "PC-SIERRA-041",
         "name": "replacement-windows.com — Which wood clad window to pick - Sierra Pacific, Marvin, Wea",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "Among the quotes we&#x27;ve received, Pella Lifestyle is the lowest, and Marvin Elevate and Sierra Pacific Westchester and H3 and Weather Shield Signature all about the same and <strong>10-15% higher ",
         "price_bias": false,
         "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=11000",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-042",
         "name": "toulmincabinetry.com — Sierra Pacific Windows vs Pella: An In-Depth Comparison",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "positive",
         "summary": "These windows feature the latest window technology, and thanks to their innovative designs, they offer superior energy efficiency and durability. ... <strong>Sierra Pacific Windows are renowned for th",
         "price_bias": false,
         "url": "https://www.toulmincabinetry.com/blog/sierra-pacific-windows-vs-pella-an-in-depth-comparison",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-043",
@@ -727,68 +838,74 @@
       {
         "id": "PC-SIERRA-044",
         "name": "naag.org — A Review of CPSC and NHTSA Safety Information Transparency a",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "To share information about product safety, the CPSC publishes a database for consumer product injury statistics and a database on products that have been recalled8 and have violated mandatory standard",
         "price_bias": false,
         "url": "https://www.naag.org/attorney-general-journal/a-review-of-cpsc-and-nhtsa-safety-information-transparency-and-recall-authority/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-045",
         "name": "p65warnings.ca.gov — Proposition 65 Warnings Website - Your right to know",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "This website, by the California Office of Environmental Health Hazard Assessment (OEHHA), provides resources for consumers and businesses. These resources can help consumers understand what a warning ",
         "price_bias": false,
         "url": "https://www.p65warnings.ca.gov/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-046",
         "name": "oehha.ca.gov — The Proposition 65 List - OEHHA",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "The current Proposition 65 list is available on-line below, as a pdf or Excel download or through WestLaw. The Excel document also includes the listing mechanism for each chemical listing and the safe",
         "price_bias": false,
         "url": "https://oehha.ca.gov/proposition-65/proposition-65-list",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-047",
         "name": "sierra.com — Proposition 65 Warning (Prop. 65) at Sierra",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "Proposition 65 entitles California consumers to <strong>special warnings for products that contain chemicals known to the State of California to cause cancer and birth defects or other reproductive ha",
         "price_bias": false,
         "url": "https://www.sierra.com/proposition-65-warning-prop-65~g~2361/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-048",
         "name": "multiquip.com — California Proposition 65 Warning Information",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "Prop 65 warnings are required under California law only. These warnings are seen throughout California in a wide range of settings, including but not limited to restaurants, grocery stores, hotels, sc",
         "price_bias": false,
         "url": "https://www.multiquip.com/multiquip/prop65.htm",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-049",
         "name": "oehha.ca.gov — Proposition 65 - OEHHA",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "The law <strong>protects the state&#x27;s drinking water sources from being contaminated with chemicals known to cause cancer, birth defects or other reproductive harm</strong>, and requires businesse",
         "price_bias": false,
         "url": "https://oehha.ca.gov/proposition-65",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-050",
@@ -1453,156 +1570,170 @@
       {
         "id": "PC-SIERRA-110",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows - Our Story - Residential, Commercial",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "It only takes one hailstorm to demonstrate the benefit of this. Although more expensive to manufacture, all our clad color collections are <strong>AAMA 2604</strong> or AAMA 2605 powder coated for gre",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/OurStory/Index",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-111",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows - Installation, Maintenance and Warra",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "<strong>Casement windows are hinged on the side and open outward to the left or right</strong>. Usually taller than wide, their entire sash opens to provide top-to-bottom ventilation.",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/ProfessionalResources/InstallationTabs",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-112",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows P.O. Box 8489 Red Bluff, CA 96080",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "positive",
         "summary": "65 Adjust doors, hardware, and weatherstripping to provide tight fit at contact points, smooth operation, and weather-tight closure. ... 66 Clean interior and exterior surfaces immediately after insta",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/Technical/Door/Swinging/Aluminum%20Clad%20Wood/Commercial%20Outswing%20-%20CA/3%20Part%20CSI/Clad%20Wood%20Commerical%20Outswing%20and%20Inswing%20Door%20and%20Sidelights%20(CA)%20CSI%20Specification.doc",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-113",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows - How-To-Install - Residential, Comme",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "<strong>Casement windows are hinged on the side and open outward to the left or right</strong>. Usually taller than wide, their entire sash opens to provide top-to-bottom ventilation.",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/Videos/List/How-To-Install",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-114",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows - Professional Resources - Residentia",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Here you&#x27;ll find many of the resources you&#x27;ll need to make your vision come to life with Sierra Pacific windows and patio doors. If you&#x27;re unable to find something or need additional he",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/ProfessionalResources/Index",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-115",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows - Sierra Pacific Windows - Warranties",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Warranty Information for Sierra Pacific Windows Products Manufactured Prior to 4/1/2006 (51 KB)",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/HomeownerResources/Warranties",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-116",
         "name": "sierrapacificwindows.com — Effective 12/15/2017 SIERRA PACIFIC WINDOWS INTERNATIONAL LI",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "SPW disclaims any and all other warranties, express or implied, including any warranty · relating to workmanship, merchantability, fitness for particular purpose, freedom from ... <strong>No Labor Cov",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/pdf/warranties/International_Limited_Warranty.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-117",
         "name": "sierrapacificwindows.com — This Limited Warranty is effective for Sierra Pacific Window",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "This Limited Warranty is effective for Sierra Pacific Window and Door Products · manufactured on or after April 1, 2014 and installed in the United States and Canada, subject to the stated conditions ",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/pdf/warranties/SPW_20_30_Warranty.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-118",
         "name": "sierrapacificwindows.com — Hurd Lifetime Residential Product Transferable Limited Warra",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "<strong>In no event shall Hurd be responsible to pay for any handling labor, removal, disassembly, assembly, refinishing, or installation costs</strong>. Provision of replacement parts does not extend",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/pdf/warranties/Hurd%20Residential%20Warranty,%20June%202011.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-119",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows Limited Warranty",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "With 125 combined years in the window and door business, we’re a household name west of the Rockies, and our reputation is quickly making its way across the rest of the country. Who is Sierra Pacific ",
         "price_bias": false,
         "url": "https://sierrapacificwindows.com/pdf/warranties/SPW_Warranty_20060401.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-120",
         "name": "sierrapacificwindows.com — Limited Warranty",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "With 125 combined years in the window and door business, we’re a household name west of the Rockies, and our reputation is quickly making its way across the rest of the country. Who is Sierra Pacific ",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/pdf/warranties/spwLimitedWarranty_Vinyl_08.2020.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-121",
         "name": "sierrapacificwindows.com — Limited Warranty Wood/Clad Residential Products Effective Ma",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "With 125 combined years in the window and door business, we’re a household name west of the Rockies, and our reputation is quickly making its way across the rest of the country. Who is Sierra Pacific ",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/pdf/warranties/spwLimitedWarranty_8.5x11FinishedTrifold_woodCladResidentialweb_small.pdf",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-122",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows - Sierra Pacific Windows Limited Warr",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Warranty Information for Sierra Pacific Windows Products Manufactured Prior to 4/1/2006 (51 KB)",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/ProfessionalResources/Warranties",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-123",
         "name": "sierrapacificwindows.com — Sierra Pacific Windows - Replacement Parts Catalogs - Reside",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Our Architectural Services Group and ever-growing network of experienced Architectural Consultants, located across the US, is ready to provide assistance and collaboration on specifications, engineeri",
         "price_bias": false,
         "url": "https://www.sierrapacificwindows.com/ProfessionalResources/TechnicalDocuments/PartsCatalogs",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-124",
@@ -1618,24 +1749,26 @@
       {
         "id": "PC-SIERRA-125",
         "name": "energycodeace.com — (R) 3.5 Fenestration",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "The temporary label shows the U-factor and SHGC for each rated window unit. The label must also show that the product meets the air infiltration criteria. The temporary label must not be removed befor",
         "price_bias": false,
         "url": "https://energycodeace.com/site/custom/public/reference-ace-2016/Documents/35fenestration.htm",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-126",
         "name": "sierrapacificfcu.org — Ways to Bank",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "<strong>On top of our branches in Reno, Las Vegas, and Phoenix</strong>, you can access your Sierra Pacific accounts nationwide thanks again to our participation with the Co-Op Network.",
         "price_bias": false,
         "url": "https://www.sierrapacificfcu.org/about/ways-to-bank",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-127",
@@ -1662,13 +1795,14 @@
       {
         "id": "PC-SIERRA-129",
         "name": "p65warnings.ca.gov — Proposition 65 Warnings - CA.gov",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "This website, by the California Office of Environmental Health Hazard Assessment (OEHHA), provides resources for consumers and businesses. These resources can help consumers understand what a warning ",
         "price_bias": false,
         "url": "https://www.p65warnings.ca.gov/proposition-65-warnings",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-130",
@@ -1684,13 +1818,14 @@
       {
         "id": "PC-SIERRA-131",
         "name": "sierrapacificsupply.com — Home - Sierra Pacific Supply Company",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "mixed",
         "summary": "Simplify your procurement process with one call. With <strong>over 25,000 certified and fully traceable parts in stock and available for same-day shipping</strong>, we can quickly meet your demands.",
         "price_bias": false,
         "url": "https://sierrapacificsupply.com/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-132",
@@ -1706,13 +1841,14 @@
       {
         "id": "PC-SIERRA-133",
         "name": "toulmincabinetry.com — Kolbe Windows vs. Sierra Pacific Windows",
-        "pool": "unknown",
+        "pool": "C",
         "sentiment": "mixed",
         "summary": "As the window experts in Tuscaloosa and Birmingham, Toulmin Kitchen &amp; Bath brings you this advice to ensure you make the most informed decision for your home. Whether you&#x27;re looking for energ",
         "price_bias": false,
         "url": "https://www.toulmincabinetry.com/blog/kolbe-windows-vs-sierra-pacific",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
       },
       {
         "id": "PC-SIERRA-134",
@@ -1728,11 +1864,59 @@
       {
         "id": "PC-SIERRA-135",
         "name": "oehha.ca.gov — About Proposition 65 - OEHHA",
-        "pool": "unknown",
+        "pool": "excluded",
         "sentiment": "negative",
         "summary": "Proposition 65 requires businesses to provide warnings to Californians about <strong>significant exposures to chemicals that cause cancer, birth defects or other reproductive harm</strong>. These chem",
         "price_bias": false,
         "url": "https://oehha.ca.gov/proposition-65/about-proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
+      },
+      {
+        "id": "PC-SIERRA-136",
+        "name": "business.pacificgrove.org — Sierra Pacific Windows Overridden - https://www.pacificgrove",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Although more expensive to manufacture, all our clad color collections are <strong>AAMA 2604</strong> or AAMA 2605 powder coated for greater surface hardness, scratch resistance and color retention, t",
+        "price_bias": false,
+        "url": "https://business.pacificgrove.org/directory/Details/sierra-pacific-windows-4135073?rendermode=print",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
+      },
+      {
+        "id": "PC-SIERRA-137",
+        "name": "appeal-democrat.com — Terminated Sierra Pacifc worker's lawsuit settled | News | a",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Sierra Pacific said the government agency&#x27;s intervention in Elshenawy&#x27;s termination and the resulting lawsuit resul ed in years of expensive litigation. &quot;Sierra Pacific Industries spent",
+        "price_bias": false,
+        "url": "https://www.appeal-democrat.com/corning_observer/news/terminated-sierra-pacifc-workers-lawsuit-settled/article_8bc00cdb-f1d8-577c-b643-3fd10a199fce.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
+      },
+      {
+        "id": "PC-SIERRA-138",
+        "name": "jjonesdesignco.com — VOCs, GREENGUARD & Safer Home Design: A Guide for 2025 — JJo",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "... GREENGUARD Certification is <strong>a voluntary third-party certification developed by UL Environment, a division of Underwriters Laboratories</strong>. It verifies that a product has low chemical",
+        "price_bias": false,
+        "url": "https://www.jjonesdesignco.com/blogs/vocs-greenguard-certification-and-indoor-air-quality-a-designers-guide-to-safer-interiors",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_previous_pool": "unknown"
+      },
+      {
+        "id": "PC-SIERRA-139",
+        "name": "Fine Homebuilding — What’s the Definition of “Green Building”? - Fine Homebuildi",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "If you’re aiming to use materials in a resource-efficient way, remember to choose materials with low embodied energy. For more information on the topic, read the article, “All About Embodied Energy,” ",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/project-guides/insulation/whats-definition-green-building",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
       }
@@ -1774,9 +1958,9 @@
     "category": "windows",
     "manufacturer": "Sierra Pacific",
     "isInternational": false,
-    "run_date": "2026-03-15T15:31:54.008Z",
+    "run_date": "2026-03-15T20:36:07.764Z",
     "total_sources": 124,
-    "pool_a_count": 17,
+    "pool_a_count": 18,
     "pool_b_count": 1,
     "pool_c_count": 48,
     "reddit_pending": 15,

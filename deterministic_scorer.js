@@ -663,7 +663,7 @@ const POOL_CEILINGS = { S: 9.0, A: 7.5, B: 6.5, C: 5.5 };
 const SENTIMENT_VALUES = { positive: 1, mixed: 0, negative: -1 };
 
 // Pools that are excluded from consensus scoring (not opinions)
-const EXCLUDED_POOLS = new Set(['CERTIFICATION']);
+const EXCLUDED_POOLS = new Set(['CERTIFICATION', 'EXCLUDED']);
 
 function scoreProfessionalConsensus(data) {
   const report = { subscore: 'professional_consensus', method: 'deterministic_all_pool_v2' };
