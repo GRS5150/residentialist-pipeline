@@ -331,11 +331,11 @@ Respond with ONLY a JSON object (no markdown, no explanation):
       };
     }
   } catch (err) {
-    // On API error, default to INCLUDE (don't throw away data on transient errors)
+    // On API error, default to REJECT (fail-closed — unverified sources should not be included) (don't throw away data on transient errors)
     return {
-      relevant: true,
+      relevant: false,
       confidence: 'low',
-      reason: `Haiku API error: ${err.message} — defaulting to relevant`,
+      reason: `Haiku API error: ${err.message} — defaulting to NOT relevant (fail-closed)`,
     };
   }
 }
@@ -570,8 +570,17 @@ async function classifyRelevance(sources, productName, manufacturer, category, o
             return { src, relevant: false, reason: `Fetch failed + URL/title matched reject pattern: ${urlCheck.reason}` };
           }
         }
-        if (verbose) console.log(`[RELEVANCE]   FETCH_FAIL: ${src.url?.slice(0, 80)} — ${error || 'empty page'} → INCLUDE`);
-        return { src, relevant: true, reason: `Fetch failed: ${error || 'empty'} — defaulting to include` };
+        // Pool-aware fetch failure handling:
+        // Known-pool sources (A, B, C) have domain trust → keep them.
+        // Unknown-pool sources have ZERO trust → reject.
+        // This prevents unverified garbage (car warranties, RV articles) from leaking in.
+        const srcPool = (src.pool || '').toUpperCase();
+        if (srcPool === 'UNKNOWN' || srcPool === '') {
+          if (verbose) console.log(`[RELEVANCE]   FETCH_FAIL+UNKNOWN: ${src.url?.slice(0, 80)} — ${error || 'empty page'} → REJECT (no domain trust)`);
+          return { src, relevant: false, reason: `Fetch failed + pool=unknown — no domain trust to fall back on` };
+        }
+        if (verbose) console.log(`[RELEVANCE]   FETCH_FAIL: ${src.url?.slice(0, 80)} — ${error || 'empty page'} → INCLUDE (pool ${srcPool} has domain trust)`);
+        return { src, relevant: true, reason: `Fetch failed: ${error || 'empty'} — kept because pool ${srcPool} has domain trust` };
       }
 
       const classification = await classifyWithHaiku(
