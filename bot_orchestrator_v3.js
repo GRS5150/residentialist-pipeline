@@ -1066,7 +1066,23 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   try {
     const evidenceRaw = fs.readFileSync(evidencePath, 'utf-8');
     evidenceData = JSON.parse(evidenceRaw);
-    evidenceBlock = `\n\nPINNED EVIDENCE FILE (GROUND TRUTH — use these values, do not override):\n${evidenceRaw}\n\nCRITICAL: The evidence file above contains verified, pinned values. You MUST use the exact complaints, sources, pool tags, and performance scores listed. If your search finds NEW evidence not in this file, include it and flag it as "NEW — not yet verified" but do not change any pinned values.`;
+
+    // Phase 7: Strip professional_consensus sources from Bot 2's evidence injection.
+    // The deterministic scorer now reads PC sources directly from the evidence file.
+    // Bot 2 no longer needs to see them. This reduces context by ~90% (78K → ~6-8K chars).
+    const evidenceForBot2 = { ...evidenceData };
+    if (evidenceForBot2.professional_consensus) {
+      const pcSourceCount = (evidenceForBot2.professional_consensus.sources || []).length;
+      evidenceForBot2.professional_consensus = {
+        _note: `${pcSourceCount} sources stripped — scored deterministically by Phase 7 scorer`,
+        _source_count: pcSourceCount,
+      };
+    }
+    const evidenceForBot2Raw = JSON.stringify(evidenceForBot2, null, 2);
+    const strippedChars = evidenceRaw.length - evidenceForBot2Raw.length;
+    console.log(`[ORCHESTRATOR] Phase 7: stripped PC sources from Bot 2 injection (${evidenceRaw.length} → ${evidenceForBot2Raw.length} chars, saved ${strippedChars} chars)`);
+
+    evidenceBlock = `\n\nPINNED EVIDENCE FILE (GROUND TRUTH — use these values, do not override):\n${evidenceForBot2Raw}\n\nCRITICAL: The evidence file above contains verified, pinned values. You MUST use the exact complaints, pool tags, and performance scores listed. Professional consensus is scored by a deterministic formula — do NOT attempt to score it. If your search finds NEW evidence not in this file, include it and flag it as "NEW — not yet verified" but do not change any pinned values.`;
     console.log(`[ORCHESTRATOR] Loaded evidence file: ${evidencePath}`);
   } catch (e) {
     console.log(`[ORCHESTRATOR] No evidence file found at ${evidencePath} — Bot 2 will classify freely`);
@@ -1092,19 +1108,14 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
         mq.certifications = evidenceData.manufacturing_quality.certifications;
       }
     }
-    // Pin professional_consensus sources
+    // Phase 7: Professional consensus sources are now scored directly from the evidence file
+    // by the deterministic scorer. No need to pin them onto Bot 2's output.
+    // We keep a lightweight note in Bot 2's output for traceability.
     if (evidenceData.professional_consensus && bot2Parsed.scores.quality.professional_consensus) {
-      const pc = bot2Parsed.scores.quality.professional_consensus;
-      if (evidenceData.professional_consensus.sources) {
-        // Merge: keep pinned sources, append any NEW sources Bot 2 found (flagged)
-        const pinnedIds = new Set(evidenceData.professional_consensus.sources.map(s => s.id));
-        const newSources = (pc.sources || []).filter(s => !pinnedIds.has(s.id) && s.name);
-        pc.sources = [
-          ...evidenceData.professional_consensus.sources,
-          ...newSources.map(s => ({ ...s, _new: true }))
-        ];
-        console.log(`[ORCHESTRATOR] PC sources pinned from evidence: ${evidenceData.professional_consensus.sources.length} pinned + ${newSources.length} new`);
-      }
+      const pcSourceCount = (evidenceData.professional_consensus.sources || []).length;
+      bot2Parsed.scores.quality.professional_consensus._phase7_note = 
+        `PC scored deterministically from ${pcSourceCount} evidence file sources — Bot 2 sources bypassed`;
+      console.log(`[ORCHESTRATOR] Phase 7: PC scoring delegated to deterministic scorer (${pcSourceCount} evidence sources)`);
     }
     // Pin component_quality tier
     if (evidenceData.component_quality && bot2Parsed.scores.quality.component_quality) {
@@ -1122,39 +1133,16 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
     }
   }
 
-  // ── CREDIBILITY SCREEN MERGE — inject Phase 6d tags into Bot 2's PC sources before scoring ──
-  // Bot 2 doesn't know about credibility tags. The source parser stored them in the evidence
-  // file. Match by URL and inject _credibility_screen onto Bot 2's output so the deterministic
-  // scorer can apply tiered Pool C weights.
-  if (evidenceData?.professional_consensus?.sources && bot2Parsed.scores?.quality?.professional_consensus?.sources) {
-    const evSrcMap = new Map();
-    for (const evSrc of evidenceData.professional_consensus.sources) {
-      if (evSrc._credibility_screen) {
-        if (evSrc.url) evSrcMap.set(evSrc.url.toLowerCase(), evSrc._credibility_screen);
-        if (evSrc.name) evSrcMap.set(evSrc.name.toLowerCase(), evSrc._credibility_screen);
-      }
-    }
-    if (evSrcMap.size > 0) {
-      let merged = 0;
-      for (const src of bot2Parsed.scores.quality.professional_consensus.sources) {
-        if ((src.pool || '').toUpperCase() !== 'C') continue;
-        const urlMatch = src.url ? evSrcMap.get(src.url.toLowerCase()) : null;
-        const nameMatch = src.name ? evSrcMap.get(src.name.toLowerCase()) : null;
-        const credTags = urlMatch || nameMatch;
-        if (credTags) {
-          src._credibility_screen = credTags;
-          merged++;
-        }
-      }
-      if (merged > 0) {
-        console.log(`[ORCHESTRATOR] Credibility screen: merged tags onto ${merged} Pool C source(s)`);
-      }
-    }
-  }
+  // Phase 7: Credibility screen merge is no longer needed here.
+  // The deterministic scorer reads sources directly from the evidence file,
+  // which already contains _credibility_screen tags from Phase 6d.
+  // The old merge was needed when Bot 2's output was the scoring source.
+  // Keeping this comment for audit trail.
+  console.log(`[ORCHESTRATOR] Phase 7: credibility screen merge skipped — scorer reads evidence file directly`);
 
   // ── DETERMINISTIC SCORER — compute 5 reformed subscores from Bot 2 classifications ──
   try {
-    const deterministicResult = computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling);
+    const deterministicResult = computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling, evidenceData);
 
     // Override the 5 reformed subscores with deterministic scores
     // Preserve the classification data as reasoning context
@@ -1564,3 +1552,4 @@ if (require.main === module) {
 }
 
 module.exports = { runPipeline };
+

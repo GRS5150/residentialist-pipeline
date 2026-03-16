@@ -3,15 +3,20 @@
  * Computes 5 reformed subscores from Bot 2's classification output using
  * lookup tables and formulas instead of LLM judgment.
  *
- * Reformed subscores:
+ * Reformed subscores (ALL deterministic — Phase 7 complete):
  *   1A component_quality      — Deterministic components (60%) + tier classification (40%)
- *   1B manufacturing_quality  — Complaint Severity Framework
- *   1C professional_consensus — Source-Weighted Formula
- *   2B materials_durability   — Fixed Adjustment Menu
- *   2C repairability          — Component Scoring
+ *   1B manufacturing_quality  — Pattern-based complaint assessment
+ *   1C professional_consensus — All-pool weighted formula (Phase 7, March 15 2026)
+ *   2B materials_durability   — Fixed adjustment menu
+ *   2C repairability          — Component scoring
  *
- * Unchanged subscores (still scored by Bot 2):
+ * Subscores still scored by Bot 2:
  *   2A frame_longevity, 3A thermal, 3B structural, 3C air_water
+ *
+ * Phase 7 note: 1C was the last subscore to become deterministic.
+ *   Previously Bot 2 read 156 sources but only cited ~6 (attention decay).
+ *   Now the scorer reads ALL sources from the evidence file directly,
+ *   and Bot 2 no longer sees PC sources (93% context reduction).
  *
  * NON-DISCLOSURE POLICY (March 14, 2026):
  * Products are NEVER penalized for not disclosing component specifications.
@@ -597,27 +602,73 @@ function scoreRepairability(data) {
   return report;
 }
 
-// ─── PROFESSIONAL CONSENSUS (1C) — Pool-Based Source System ──────────────────
-// Sources are classified into pools by Bot 2. The scorer picks the highest
-// available pool, applies that pool's ceiling, and computes a weighted score.
-// No blending between pools — clean fallback chain.
+// ─── PROFESSIONAL CONSENSUS (1C) — Fully Deterministic All-Pool Scorer ───────
 //
-// Pool S: True testing authorities (e.g., StarCraft Custom for faucets). Ceiling 9.0.
-//         Reserved for categories that have them. Empty for windows.
-// Pool A: Expert forums — GBA, Fine Homebuilding, JLC, BSC. Ceiling 7.5.
-// Pool B: Verified trade pros — Jay Johnson, curated Reddit pros, contractor forums. Ceiling 6.5.
-// Pool C: General field feedback — unverified Reddit, homeowner forums, consumer reviews. Ceiling 5.5.
-//         Sources with price_bias flag get 50% weight reduction.
+// CHANGE LOG:
+//   March 15, 2026 (Phase 7): Complete rewrite. Professional consensus is now the
+//     6th and final subscore to become fully deterministic.
+//
+// OLD SYSTEM (v1, retired):
+//   Bot 2 read the evidence file (156 sources), picked ~6, wrote them into its output.
+//   The scorer then used only the "highest pool" with no blending between pools.
+//   Problem: Bot 2 skimmed due to 79K token context overload. Most sources were ignored.
+//
+// NEW SYSTEM (v2, current):
+//   The scorer reads ALL sources directly from the evidence file (passed by orchestrator).
+//   Every source from every pool is counted. Pools are weighted by authority tier.
+//   Bot 2 no longer handles professional consensus — it's pure math now.
+//
+// HOW IT WORKS:
+//   1. Every source gets a pool weight (authority tier) and a per-source weight (credibility).
+//   2. Sentiment maps to a value: positive = +1, mixed = 0, negative = -1.
+//   3. Each source's contribution = pool_weight × per_source_weight × sentiment_value.
+//   4. Consensus ratio = sum of contributions / sum of absolute weights.
+//   5. Score = midpoint (5.0) + consensus_ratio × swing (2.5) × confidence_multiplier.
+//   6. Ceiling = weighted average of pool ceilings based on which pools contributed.
+//   7. Final score = min(computed_score, blended_ceiling), clamped to [1.0, 10.0].
+//
+// POOL WEIGHTS (authority tiers — how much a pool's opinion matters):
+//   Pool S: 1.50 — True testing authorities (reserved for categories that have them)
+//   Pool A: 1.00 — Expert forums (GBA, Fine Homebuilding, JLC, BSC)
+//   Pool B: 0.75 — Verified trade pros (Jay Johnson, curated channels)
+//   Pool C: 0.40 — General field feedback (consumer forums, Reddit, reviews)
+//                   Further adjusted by per-source credibility screen weights.
+//   Pool unknown: treated as Pool C with minimum credibility weight.
+//   Pool certification: excluded (certifications are not opinions).
+//
+// PER-SOURCE CREDIBILITY WEIGHTS (Pool C only — other pools get 1.0):
+//   Has credibility screen:
+//     Trade + Technical, no price bias: 0.75 (likely credible professional)
+//     Trade OR Technical:               0.50 (partial credibility signal)
+//     Neither trade nor technical:       0.25 (likely noise)
+//     price_bias_detected:               0.50 floor regardless of other signals
+//   No credibility screen (legacy):      0.50 flat
+//
+// CONFIDENCE MULTIPLIER (dampens score swing when effective sources are few):
+//   <3 effective sources:   0.30 — very low confidence, score stays near midpoint
+//   3-5 effective sources:  0.50 — low confidence
+//   6-10 effective sources: 0.70 — moderate confidence
+//   11-20 effective sources: 0.85 — good confidence
+//   21+ effective sources:  1.00 — full confidence
+//
+// DESIGN RATIONALE:
+//   The old system's "highest pool wins" made sense when only ~6 sources were in play.
+//   With 100+ sources, all pools should contribute — but higher pools carry more weight.
+//   A product praised by 5 GBA experts but panned by 80 Reddit users should still score
+//   well because the expert signal is stronger per-source than consumer noise.
+//   The blended ceiling prevents Pool C from inflating scores beyond what experts support.
 
+const POOL_WEIGHTS = { S: 1.50, A: 1.00, B: 0.75, C: 0.40 };
 const POOL_CEILINGS = { S: 9.0, A: 7.5, B: 6.5, C: 5.5 };
-const POOL_PRIORITY = ['S', 'A', 'B', 'C'];
 const SENTIMENT_VALUES = { positive: 1, mixed: 0, negative: -1 };
 
-function scoreProfessionalConsensus(data) {
-  const report = { subscore: 'professional_consensus', method: 'pool_based_source_system' };
+// Pools that are excluded from consensus scoring (not opinions)
+const EXCLUDED_POOLS = new Set(['CERTIFICATION']);
 
-  // Deduplicate sources by name — pinned evidence sources (with id) take precedence
-  // over _new sources that Bot 2 found independently with the same name.
+function scoreProfessionalConsensus(data) {
+  const report = { subscore: 'professional_consensus', method: 'deterministic_all_pool_v2' };
+
+  // ── Step 1: Collect and deduplicate all sources ──
   const rawSources = data.sources || [];
   const seenNames = new Map();
   for (const src of rawSources) {
@@ -633,8 +684,9 @@ function scoreProfessionalConsensus(data) {
       }
     }
   }
-  const sources = [...seenNames.values()];
-  if (sources.length === 0) {
+  const allSources = [...seenNames.values()];
+
+  if (allSources.length === 0) {
     report.score = 5.0;
     report.note = 'No sources found — midpoint default';
     report.confidence_flag = 'LOW_CONFIDENCE';
@@ -643,160 +695,199 @@ function scoreProfessionalConsensus(data) {
     return report;
   }
 
-  // Group sources by pool
+  // ── Step 2: Group sources by pool, excluding non-opinion pools ──
   const poolGroups = { S: [], A: [], B: [], C: [] };
-  for (const src of sources) {
+  let excludedCount = 0;
+  for (const src of allSources) {
     const pool = (src.pool || 'C').toUpperCase();
+    if (EXCLUDED_POOLS.has(pool)) {
+      excludedCount++;
+      continue;
+    }
     if (poolGroups[pool]) {
       poolGroups[pool].push(src);
     } else {
-      poolGroups.C.push(src); // Unknown pool defaults to C
+      // Unknown pool (including 'unknown') → treat as Pool C
+      poolGroups.C.push(src);
     }
   }
 
-  // Find the highest available pool (no blending)
-  let activePool = null;
-  let activeSources = [];
-  for (const pool of POOL_PRIORITY) {
-    if (poolGroups[pool].length > 0) {
-      activePool = pool;
-      activeSources = poolGroups[pool];
-      break;
-    }
-  }
-
-  const ceiling = POOL_CEILINGS[activePool] || 5.5;
-  report.active_pool = activePool;
-  report.pool_ceiling = ceiling;
   report.pool_counts = {
     S: poolGroups.S.length,
     A: poolGroups.A.length,
     B: poolGroups.B.length,
     C: poolGroups.C.length,
+    excluded: excludedCount,
   };
 
-  // Compute weighted sentiment from active pool sources
-  let weightedSum = 0;
-  let weightedCount = 0;
-  const sourceDetails = [];
-
-  for (const src of activeSources) {
-    const sentiment = (src.sentiment || 'mixed').toLowerCase();
-    const sentimentValue = SENTIMENT_VALUES[sentiment] !== undefined ? SENTIMENT_VALUES[sentiment] : 0;
-
-    // Credibility-based weight for Pool C sources
-    // If credibility screen ran (_credibility_screen exists), use tiered discount:
-    //   Trade + Technical + no price bias → 25% discount (likely credible pro)
-    //   Trade OR Technical → 50% discount (partial signal)
-    //   Neither → 75% discount (likely noise)
-    //   price_bias_detected on any source → 50% floor regardless
-    // Fallback (no screen): original flat discount based on price_bias flag
-    let weight = 1.0;
-    if (activePool === 'C') {
-      const cs = src._credibility_screen;
-      if (cs) {
-        const isTrade = cs.claims_trade_experience === true;
-        const isTech = cs.has_technical_claims === true;
-        const isBias = cs.price_bias_detected === true;
-
-        if (isBias) {
-          // Price-bias floor: never better than 50% discount
-          weight = 0.5;
-        } else if (isTrade && isTech) {
-          // Likely credible professional — minimal discount
-          weight = 0.75;
-        } else if (isTrade || isTech) {
-          // Partial credibility signal — standard discount
-          weight = 0.5;
-        } else {
-          // No credibility signals — heavy discount
-          weight = 0.25;
-        }
-      } else {
-        // No credibility screen (legacy data) — use price_bias flag
-        weight = src.price_bias ? 0.5 : 0.5; // flat 50% for Pool C without screen
-      }
-    }
-
-    weightedSum += weight * sentimentValue;
-    weightedCount += weight;
-
-    const detail = {
-      name: src.name,
-      pool: activePool,
-      sentiment,
-      sentiment_value: sentimentValue,
-      weight,
-      price_bias: src.price_bias || false,
-      contribution: weight * sentimentValue,
-    };
-    // Include credibility screen tags if available
-    if (src._credibility_screen) {
-      detail.credibility = {
-        trade: src._credibility_screen.claims_trade_experience || false,
-        technical: src._credibility_screen.has_technical_claims || false,
-        price_bias: src._credibility_screen.price_bias_detected || false,
-      };
-    }
-    sourceDetails.push(detail);
+  const totalScorable = poolGroups.S.length + poolGroups.A.length + poolGroups.B.length + poolGroups.C.length;
+  if (totalScorable === 0) {
+    report.score = 5.0;
+    report.note = `All ${allSources.length} sources were excluded (certification pool) — midpoint default`;
+    report.confidence_flag = 'LOW_CONFIDENCE';
+    report.sources_processed = 0;
+    return report;
   }
 
-  const consensusRatio = weightedCount > 0 ? weightedSum / weightedCount : 0;
+  // ── Step 3: Score every source — pool_weight × per_source_weight × sentiment ──
+  let weightedSum = 0;    // Sum of (weight × sentiment)
+  let totalWeight = 0;    // Sum of absolute weights (for denominator)
+  const poolDetails = {};  // Per-pool breakdown for transparency
+  let effectiveSources = 0; // Count of sources with non-zero weight
 
-  // Confidence multiplier: dampens effect when source count is low.
-  // 1 source: 0.3x (max ±0.75 from midpoint)
-  // 2 sources: 0.5x (max ±1.25)
-  // 3 sources: 0.7x (max ±1.75)
-  // 4+ sources: 1.0x (full effect, max ±2.5)
-  const sourceCount = activeSources.length;
-  const confidenceMultiplier = sourceCount >= 4 ? 1.0 :
-                               sourceCount === 3 ? 0.7 :
-                               sourceCount === 2 ? 0.5 : 0.3;
+  for (const poolKey of ['S', 'A', 'B', 'C']) {
+    const sources = poolGroups[poolKey];
+    if (sources.length === 0) continue;
 
-  // Base: midpoint + sentiment-driven swing (dampened by confidence)
+    const poolWeight = POOL_WEIGHTS[poolKey] || 0.40;
+    const poolDetail = { count: sources.length, pool_weight: poolWeight, sources: [] };
+
+    for (const src of sources) {
+      const sentiment = (src.sentiment || 'mixed').toLowerCase();
+      const sentimentValue = SENTIMENT_VALUES[sentiment] !== undefined ? SENTIMENT_VALUES[sentiment] : 0;
+
+      // Per-source credibility weight
+      let credWeight = 1.0;
+      if (poolKey === 'C') {
+        const cs = src._credibility_screen;
+        if (cs) {
+          const isTrade = cs.claims_trade_experience === true;
+          const isTech = cs.has_technical_claims === true;
+          const isBias = cs.price_bias_detected === true;
+
+          if (isBias) {
+            credWeight = 0.50;
+          } else if (isTrade && isTech) {
+            credWeight = 0.75;
+          } else if (isTrade || isTech) {
+            credWeight = 0.50;
+          } else {
+            credWeight = 0.25;
+          }
+        } else {
+          // No credibility screen — flat 50%
+          credWeight = 0.50;
+        }
+      }
+
+      const finalWeight = poolWeight * credWeight;
+      const contribution = finalWeight * sentimentValue;
+
+      weightedSum += contribution;
+      totalWeight += finalWeight;
+      if (finalWeight > 0) effectiveSources++;
+
+      const detail = {
+        name: src.name,
+        pool: poolKey,
+        sentiment,
+        sentiment_value: sentimentValue,
+        pool_weight: poolWeight,
+        cred_weight: credWeight,
+        final_weight: Math.round(finalWeight * 1000) / 1000,
+        contribution: Math.round(contribution * 1000) / 1000,
+        price_bias: src.price_bias || false,
+      };
+      if (src._credibility_screen) {
+        detail.credibility = {
+          trade: src._credibility_screen.claims_trade_experience || false,
+          technical: src._credibility_screen.has_technical_claims || false,
+          price_bias: src._credibility_screen.price_bias_detected || false,
+        };
+      }
+      poolDetail.sources.push(detail);
+    }
+
+    poolDetails[poolKey] = poolDetail;
+  }
+
+  // ── Step 4: Compute consensus ratio ──
+  const consensusRatio = totalWeight > 0 ? weightedSum / totalWeight : 0;
+
+  // ── Step 5: Confidence multiplier based on effective source count ──
+  const confidenceMultiplier = effectiveSources >= 21 ? 1.00 :
+                               effectiveSources >= 11 ? 0.85 :
+                               effectiveSources >= 6  ? 0.70 :
+                               effectiveSources >= 3  ? 0.50 : 0.30;
+
+  // ── Step 6: Compute base score ──
+  // Midpoint + sentiment-driven swing (dampened by confidence)
   const base = 5.0 + (consensusRatio * 2.5 * confidenceMultiplier);
 
-  // Apply pool ceiling
-  const raw = Math.min(base, ceiling);
+  // ── Step 7: Compute blended ceiling ──
+  // Ceiling is the weighted average of pool ceilings based on actual weight contribution.
+  let ceilingWeightedSum = 0;
+  let ceilingWeightTotal = 0;
+  for (const poolKey of ['S', 'A', 'B', 'C']) {
+    const sources = poolGroups[poolKey];
+    if (sources.length === 0) continue;
+    const poolCeiling = POOL_CEILINGS[poolKey] || 5.5;
+    const poolWeight = POOL_WEIGHTS[poolKey] || 0.40;
+    // Use count × pool_weight as the ceiling contribution weight
+    const poolContrib = sources.length * poolWeight;
+    ceilingWeightedSum += poolCeiling * poolContrib;
+    ceilingWeightTotal += poolContrib;
+  }
+  const blendedCeiling = ceilingWeightTotal > 0
+    ? ceilingWeightedSum / ceilingWeightTotal
+    : 5.5;
 
-  // Confidence flag
-  if (sourceCount <= 1) {
+  // ── Step 8: Apply ceiling and clamp ──
+  const raw = Math.min(base, blendedCeiling);
+
+  // ── Step 9: Confidence flag ──
+  if (effectiveSources < 3) {
     report.confidence_flag = 'LOW_CONFIDENCE';
     report.confidence_message = 'Insufficient professional sources — score has limited reliability';
-  } else if (sourceCount <= 2) {
+  } else if (effectiveSources < 6) {
     report.confidence_flag = 'MODERATE_CONFIDENCE';
     report.confidence_message = 'Limited professional sources — directional only';
   } else {
     report.confidence_flag = 'ADEQUATE';
   }
 
-  report.sources_processed = sourceCount;
-  report.source_details = sourceDetails;
+  // ── Step 10: Assemble report ──
+  report.sources_processed = totalScorable;
+  report.effective_sources = effectiveSources;
+  report.excluded_sources = excludedCount;
+  report.pool_details = poolDetails;
   report.consensus_ratio = Math.round(consensusRatio * 1000) / 1000;
   report.confidence_multiplier = confidenceMultiplier;
   report.base_before_ceiling = Math.round(base * 100) / 100;
-  report.ceiling_applied = base > ceiling;
+  report.blended_ceiling = Math.round(blendedCeiling * 100) / 100;
+  report.ceiling_applied = base > blendedCeiling;
   report.score = Math.round(Math.max(1.0, Math.min(10.0, raw)) * 100) / 100;
+
+  // Summary stats for quick debugging
+  report.summary = {
+    positive: allSources.filter(s => (s.sentiment || '').toLowerCase() === 'positive' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
+    mixed: allSources.filter(s => (s.sentiment || '').toLowerCase() === 'mixed' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
+    negative: allSources.filter(s => (s.sentiment || '').toLowerCase() === 'negative' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
+  };
+
   return report;
 }
 
 // ─── MAIN ENTRY POINT ───────────────────────────────────────────────────────
 
 /**
- * Compute deterministic scores for the 4 reformed subscores.
+ * Compute deterministic scores for the 5 reformed subscores.
  * @param {Object} bot2Parsed - Parsed Bot 2 JSON output (with classification data)
  * @param {Object} materialLock - Material lock info { rawText, found, source }
  * @param {Function} getMaterialCeiling - Function from orchestrator to look up material ceilings
- * @returns {Object} Scoring report with all 4 computed scores
+ * @param {Object|null} evidenceData - Evidence file data (optional). When provided,
+ *   professional_consensus sources are read directly from the evidence file instead of
+ *   Bot 2's output. This guarantees ALL sources are counted (Phase 7 reform).
+ * @returns {Object} Scoring report with all 5 computed scores
  */
-function computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling) {
+function computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling, evidenceData) {
   const scores = bot2Parsed.scores || {};
   const quality = scores.quality || {};
   const durability = scores.durability || {};
 
   const result = {
     timestamp: new Date().toISOString(),
-    method: 'deterministic_scorer_v1',
+    method: 'deterministic_scorer_v2',
     product: bot2Parsed.product,
     material_class: materialLock.rawText,
   };
@@ -809,8 +900,17 @@ function computeDeterministicScores(bot2Parsed, materialLock, getMaterialCeiling
   const mfgData = quality.manufacturing_quality || {};
   result.manufacturing_quality = scoreManufacturingQuality(mfgData, bot2Parsed.product);
 
-  // 1C Professional Consensus
-  const pcData = quality.professional_consensus || {};
+  // 1C Professional Consensus — Phase 7: read directly from evidence file
+  // If evidenceData has professional_consensus sources, use those (deterministic path).
+  // Otherwise fall back to Bot 2's output (legacy path for products without evidence files).
+  let pcData;
+  if (evidenceData?.professional_consensus?.sources?.length > 0) {
+    pcData = { sources: evidenceData.professional_consensus.sources };
+    console.log(`[DETERMINISTIC] PC sources: reading ${pcData.sources.length} sources from evidence file (Phase 7 deterministic path)`);
+  } else {
+    pcData = quality.professional_consensus || {};
+    console.log(`[DETERMINISTIC] PC sources: using Bot 2 output (no evidence file or no evidence sources)`);
+  }
   result.professional_consensus = scoreProfessionalConsensus(pcData);
 
   // 2B Materials Durability
