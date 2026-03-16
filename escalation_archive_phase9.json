@@ -1,0 +1,150 @@
+{
+  "archived_at": "2026-03-16T17:14:11.340222Z",
+  "reason": "Phase 9 cleanup \u2014 all 13 escalations resolved by Phases 7-9 fixes. Batch re-score underway.",
+  "count": 13,
+  "escalations": [
+    {
+      "name": "Simonton Reflections 5500",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-16 04:52:23",
+      "completed_at": "2026-03-16 04:52:23",
+      "notes": "Escalated: This challenge requires human review due to multiple Bot 2 fabricated facts not present in Bot 1's research:\n\n1. **Component Quality Fabrication**: Bot 2 scored \"spacer_system\": \"unknown\" despite Bot "
+    },
+    {
+      "name": "Sierra Pacific",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-15 06:20:32",
+      "completed_at": "2026-03-15 06:20:32",
+      "notes": "Escalated: This challenge requires human escalation due to a **material hierarchy ceiling violation** that cannot be resolved through a correction memo.\n\n**SPECIFIC VIOLATION:**\nBot 2 has locked the material cla"
+    },
+    {
+      "name": "Pella Impervia",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-14 07:08:27",
+      "completed_at": "2026-03-14 07:08:27",
+      "notes": "Escalated: The Challenge Bot FLAG reveals a **structural rubric disagreement** that requires human escalation:\n\n**CRITICAL RUBRIC VIOLATION:**\nIn the durability section, Bot 2 contains a fundamental classificati"
+    },
+    {
+      "name": "Reliabilt 3500",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-14 05:44:15",
+      "completed_at": "2026-03-14 05:44:15",
+      "notes": "Escalated: This Challenge Bot flag requires human escalation due to a material hierarchy ceiling violation.\n\n**ISSUE:** Bot 2 assigned a Quality axis score of 4.2, which violates the material hierarchy ceiling f"
+    },
+    {
+      "name": "Ply Gem Pro Series",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-14 05:38:32",
+      "completed_at": "2026-03-14 05:38:32",
+      "notes": "Escalated: This Challenge Bot Flag requires human escalation due to a **material hierarchy ceiling violation**. \n\nSpecifically, Bot 2's scoring contains significant structural rubric disagreements with Bot 1's f"
+    },
+    {
+      "name": "Pella 250 Series",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 2,
+      "error_count": 0,
+      "started_at": "2026-03-14 05:31:43",
+      "completed_at": "2026-03-14 05:31:43",
+      "notes": "Escalated: This challenge requires human review due to a **calibration conflict without documented justification**.\n\n**Specific Issue**: Bot 2 assigned an axis score of 5.2 for Quality when the evidence strongly"
+    },
+    {
+      "name": "Marvin Signature Ultimate",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 2,
+      "error_count": 0,
+      "started_at": "2026-03-14 05:06:54",
+      "completed_at": "2026-03-14 05:06:54",
+      "notes": "Max attempts reached"
+    },
+    {
+      "name": "Andersen E-Series",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 2,
+      "error_count": 0,
+      "started_at": "2026-03-14 01:45:27",
+      "completed_at": "2026-03-14 01:45:27",
+      "notes": "Escalated: This flag requires human escalation due to fabricated facts in Bot 2 that are not supported by Bot 1's research:\n\n**FABRICATED FACTS REQUIRING ESCALATION:**\n\n1. **Safety Recall Misattribution**: Bot 2"
+    },
+    {
+      "name": "Andersen E-Series",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-13 21:04:34",
+      "completed_at": "2026-03-13 21:04:34",
+      "notes": "Escalated: This flag requires human escalation due to a **material hierarchy ceiling violation**.\n\nThe research shows Bot 1 classified this product as \"Aluminum-clad wood\" with Bot 2 applying a \"2B MATERIALS DUR"
+    },
+    {
+      "name": "Marvin Signature Ultimate DH",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-13 16:14:24",
+      "completed_at": "2026-03-13 16:14:24",
+      "notes": "Escalated: This flag requires human escalation due to a **fabricated facts violation**.\n\n**FABRICATED FACTS ERROR:**\nBot 2 assumed the Marvin Signature Ultimate DH achieves exactly 0.30 cfm/ft\u00b2 air infiltration "
+    },
+    {
+      "name": "Marvin Signature Ultimate DH",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-13 15:20:11",
+      "completed_at": "2026-03-13 15:20:11",
+      "notes": "Escalated: This flag requires human escalation due to a calibration conflict without documented justification.\n\n**ISSUE IDENTIFIED:**\n\nBot 2 applied a materials_durability score of 8.0 (base 8, no adjustments) f"
+    },
+    {
+      "name": "Marvin Signature Ultimate DH",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-13 15:11:02",
+      "completed_at": "2026-03-13 15:11:02",
+      "notes": "Escalated: Material hierarchy ceiling violation detected. Bot 2 scores for materials_durability (8.0) and thermal (7.0) exceed established material hierarchy maximum ceiling for aluminum-clad wood, which caps at"
+    },
+    {
+      "name": "Reliabilt 3500",
+      "config": "DH",
+      "run_dir": null,
+      "status": "ESCALATED",
+      "attempts": 1,
+      "error_count": 0,
+      "started_at": "2026-03-13 04:03:56",
+      "completed_at": "2026-03-13 04:03:56",
+      "notes": "Escalated: This requires human review due to Bot 2 fabricated facts not present in Bot 1's research.\n\n**FABRICATED FACTS IDENTIFIED:**\n\n1. **Manufacturing Quality Score (3.5)**: Bot 2 quotes \"constantly cutting "
+    }
+  ]
+}
