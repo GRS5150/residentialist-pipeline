@@ -30,6 +30,16 @@
  *   - Root cause: Before v3, the same product would randomly HALT or PASS
  *     across runs because Bot 5 would sometimes flag deterministic subscores
  *     as "disagreements" and sometimes not — pure LLM variance.
+ *
+ * v3.1 changes (Phase 9 — March 16, 2026):
+ *   - BLANKET EXCLUSION: Material hierarchy ceiling violations and axis
+ *     weight arithmetic are now excluded from debate regardless of which
+ *     subscore they surface in. v3 excluded by subscore number (1A,1B,etc)
+ *     but Haiku would still flag ceiling logic when it appeared in commentary
+ *     about in-scope subscores like 2A Frame Longevity. This caused false
+ *     escalations (e.g., Alpen batch re-score). The fix teaches the detector
+ *     that ceiling enforcement is deterministic system territory by concept,
+ *     not just by subscore label.
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
@@ -75,6 +85,14 @@ NOT a disagreement:
 - Bot 2 scoring at midpoint for undisclosed specs Bot 1 could not find (this is correct methodology)
 - Minor phrasing differences that don't affect scores
 - ANY disagreement about component quality, manufacturing quality, professional consensus, materials/durability, or market quality (these are deterministic — out of scope)
+
+BLANKET EXCLUSIONS — DETERMINISTIC SYSTEM TERRITORY:
+The following logic is ALWAYS handled by the deterministic scoring system, even when it surfaces in commentary about in-scope subscores. NEVER flag these as disagreements regardless of context:
+- Material hierarchy ceiling violations (e.g., vinyl capped at X, fiberglass capped at Y)
+- Material class ceiling tables and their application to any subscore
+- Axis weight arithmetic (the 35/35/30 weighting formula and its outputs)
+- Any score being capped or constrained because of material classification
+If Bot 2 mentions a material ceiling in the context of an in-scope subscore (like 2A Frame Longevity), that ceiling enforcement is still deterministic territory — do NOT flag it.
 
 Output format:
 
@@ -123,6 +141,7 @@ For each disagreement item:
 - If Bot 2 DEFENDED and the defense is rubric-sound: mark resolved, score stands.
 - If Bot 2 DEFENDED but the defense contradicts the rubric or ignores documented evidence: mark UNRESOLVED.
 - If the item is about a deterministic subscore (1A, 1B, 1C, 2B, 2C): mark RESOLVED — out of scope.
+- If the item involves material hierarchy ceiling logic (material class caps, ceiling table enforcement) regardless of which subscore it references: mark RESOLVED — deterministic system territory.
 
 Output format:
 
