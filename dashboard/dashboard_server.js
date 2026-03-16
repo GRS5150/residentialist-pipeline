@@ -43,16 +43,52 @@ function queryDB(sql) {
 }
 
 // ── File Helpers ────────────────────────────────────────────────────────────
+function productSlugVariants(productName) {
+  // Generate multiple slug variants to handle naming mismatches between DB and filesystem.
+  // DB names like "E-Series" become e_series but dirs use "eseries". "ZR-7" becomes zr_7 but dirs use "zr7".
+  // "JELD-WEN" becomes jeld_wen but dirs use "jeldwen".
+  const base = productName.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+  const variants = new Set([base]);
+  // Without trailing _dh (old pipeline dirs had _dh suffix, new ones don't)
+  if (base.endsWith('_dh')) variants.add(base.slice(0, -3));
+  // Collapse isolated single-char segments: e_series -> eseries, zr_7 -> zr7
+  const collapsed = base.replace(/(?<=_)([a-z0-9])_/g, '$1').replace(/_([a-z0-9])$/g, '$1');
+  variants.add(collapsed);
+  if (collapsed.endsWith('_dh')) variants.add(collapsed.slice(0, -3));
+  // Also try hyphenated-word collapse: jeld_wen -> jeldwen (original word had hyphen)
+  // We detect this by checking if the original name had hyphens
+  if (productName.includes('-')) {
+    const hyphenCollapsed = productName.toLowerCase().replace(/-/g, '').replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+    variants.add(hyphenCollapsed);
+  }
+  // Also try removing _dh then collapsing
+  const noDh = base.replace(/_dh$/, '');
+  if (noDh !== base) {
+    variants.add(noDh);
+    const collapsedNoDh = noDh.replace(/(?<=_)([a-z0-9])_/g, '$1').replace(/_([a-z0-9])$/g, '$1');
+    variants.add(collapsedNoDh);
+  }
+  return [...variants];
+}
+
 function findLatestRunDir(productName) {
   if (!fs.existsSync(OUTPUTS_DIR)) return null;
-  const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+  const slugs = productSlugVariants(productName);
   const dirs = fs.readdirSync(OUTPUTS_DIR)
     .filter(d => {
       const lower = d.toLowerCase();
-      return lower.includes(slug) || slug.split('_').every(part => lower.includes(part));
+      return slugs.some(slug => lower.includes(slug));
     })
-    .sort()
-    .reverse();
+    .sort((a, b) => {
+      // Sort by embedded timestamp (YYYY-MM-DDTHH-MM-SS), newest first
+      const tsA = (a.match(/\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}/) || [''])[0];
+      const tsB = (b.match(/\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}/) || [''])[0];
+      return tsB.localeCompare(tsA);
+    });
+  // Prefer the newest dir that has DETERMINISTIC_SCORES.json (complete run)
+  const complete = dirs.find(d => fs.existsSync(path.join(OUTPUTS_DIR, d, 'DETERMINISTIC_SCORES.json')));
+  if (complete) return path.join(OUTPUTS_DIR, complete);
+  // Fall back to newest dir even without DETERMINISTIC_SCORES
   return dirs.length > 0 ? path.join(OUTPUTS_DIR, dirs[0]) : null;
 }
 
@@ -77,11 +113,11 @@ const EVIDENCE_DIR = path.join(WORKSPACE, 'evidence');
 function getSourceUrlMap(productName) {
   // Build a lookup: source_name → url from the evidence file
   if (!fs.existsSync(EVIDENCE_DIR)) return {};
-  const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+  const slugs = productSlugVariants(productName);
   const files = fs.readdirSync(EVIDENCE_DIR).filter(f => f.endsWith('.json'));
   const match = files.find(f => {
     const lower = f.toLowerCase();
-    return lower.includes(slug) || slug.split('_').every(part => lower.includes(part));
+    return slugs.some(slug => lower.includes(slug));
   });
   if (!match) return {};
   try {
