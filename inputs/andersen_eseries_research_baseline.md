@@ -1,92 +1,87 @@
 # Baseline Research: Andersen E-Series (DH)
-# Auto-generated: 2026-03-14T06:43:21.308Z
+# Auto-generated: 2026-03-16T18:10:10.562Z
 # This file is automatically loaded on re-runs to avoid redundant web research.
 # To force a full re-research, delete this file.
 # Sections marked [LOCKED] are preserved on refresh runs.
 
 I'll now conduct the mandatory verification searches and updates for the Andersen E-Series Double-Hung window based on the baseline research file. Let me start with the required searches and fetches:
-Based on my comprehensive verification searches and review of the baseline research file, I can now provide a complete updated findings document for the Andersen E-Series Double-Hung window:
+Now let me search for current E-Series AAMA certification and structural performance data:
+Now let me search for current safety recalls specifically mentioning E-Series:
+Now let me search for some Reddit field sources and E-Series specific feedback:
+Let me search for additional verification on current recalls and any E-Series specific AAMA documentation:
+Based on my comprehensive verification searches and review of the baseline research file, I can now provide the complete updated findings document for the Andersen E-Series Double-Hung window:
 
-# Andersen E-Series Double-Hung Window Research Findings - Updated March 14, 2026
+# Andersen E-Series Double-Hung Window Research Findings - Updated March 16, 2026
 
 ## 1. PRODUCT OVERVIEW
 
 **Manufacturer:** Andersen Corporation (Bayport, Minnesota, USA)  
 **Material Class:** 
-Wood with an aluminum exterior to resist water and seal out the elements
+Wood protected by aluminum exterior
   
 **Configuration Type:** Double-Hung (DH)  
 **Country of Origin:** USA  
 **Product Line:** 
-E-Series windows & patio doors, as part of the Architectural Collection, are made to your exact specifications for unmatched flexibility and design freedom
-
+The E-Series is a part of Andersen's luxury line of products
+ and is part of the Architectural Collection
 
 ## 2. CONFIRMED FINDINGS
 
 ### Frame & Construction (Verified March 2026)
 - **Frame Material:** 
-Wood with an aluminum exterior to resist water and seal out the elements
+This series uses solid wood for the interior window sash and frames and uses aluminum for the exterior of the window
 
 - **Exterior Cladding:** 
 E-Series windows are clad with extruded aluminum, a stronger and more energy-efficient material than roll-form aluminum
 
 - **Operation:** 
-E-Series double hung windows have two operating sash that move up and down, granting ventilation on the top, bottom, or both simultaneously. The sash tilt in for an easy clean from the inside of your home
+Sizes can be up to 4-feet wide and 7'6-feet high, custom sizes available in 1/8" increments
 
+- **Tilt Feature:** Double-hung sashes tilt in for cleaning
 
-### AAMA Performance Certification (Verified March 2026)
-- **Performance Grade:** 
-AAMA/WDMA/CSA 101/I.S.2/A440 Performance Grade (PG)
- - E-Series double-hung windows certified under North American Fenestration Standard
-- **Certification Status:** 
-Andersen® windows and patio doors are National Fenestration Rating Council (NFRC) certified
+### AAMA/NAFS Performance Certification (Verified March 2026)
+- **Certification Standard:** 
+AAMA/WDMA/CSA 101/I.S 2/A440-08; North American Fenestration Standard/Specification for windows, doors, and skylights
+
+- **NFRC Compliance:** 
+Andersen® windows and patio doors are National Fenestration Ratings Council (NFRC) certified
 
 
 ### Hardware & Features (Verified March 2026)
-- **Hardware Finishes:** 
-These are in the antique brass finish
- with multiple finish options available
-- **Tilt Feature:** 
-You can actually tilt the window and clean the exterior glass from inside the home
+- **Hardware Options:** 
+There are two hardware styles available for double-hung windows, the Lock and Keeper and the Sash Lift – both are beautiful options
 
-- **Grilles:** 
-These interior grills, these are wood. They're painted, obviously. The exterior grill is the extruded aluminum with a powder coat finish
+- **Hardware Finishes:** 
+2 hardware styles with up to 10 finish options
 
 
 ### Customization Options (Verified 2026)
 - **Exterior Colors:** 
-E-Series also offers an additional 40+ color options
+50 exterior colors and 14 interior colors along with natural, unfinished or stained wood
 
-- **Interior Options:** 
-This one has the interior, factory painted birch bark, which is one of, I believe, 10 colors. Andersen will factory paint the interior
-
-- **Wood Species:** 
-Pine + Maple + Oak + Cherry + Mahogany + Vertical Grain Douglas Fir + Alder + Walnut + Mixed Grain Douglas Fir + Hickory + Custom, Andersen will work with you to find the right wood species for your project
-
+- **Wood Species:** Multiple wood species available for interior
+- **Grilles:** 
+standard grille patterns
+ available
 
 ### Energy Performance (Verified March 2026)
 - **Energy Star Qualification:** 
 Most E-Series products meet ENERGY STAR criteria
 
-- **ENERGY STAR v7.0:** 
-Through our A-Series, E-Series, and 400 Series product lines, there are more window products available that will meet requirements for all climate zones
-
 - **Glass Options:** 
-Variety of High-Performance Low-E glass options available to help control heating and cooling costs in any climate
+Andersen offers its highest performing glass packages for this series including Low-E4 and Triple-Pane glass
 
 
 ### Warranty Coverage (Verified March 2026)
 - **Owner-2-Owner Transferability:** 
-All of Andersen's products are covered by an Owner 2 Owner Limited Warranty
+Every E-Series window and door comes with one of the industry's best limited warranties. The warranty is even transferable
 
-- **Glass Coverage:** 20 years (verified from baseline research)
-- **Wood Components:** Interior wood - 10 years; Exterior wood - 5 years (verified from baseline research)
-- **Hardware Coverage:** 10 years including hardware, weatherstripping, blinds, and insect screens (verified from baseline research)
-- **Labor Coverage:** Not covered (verified from baseline research)
+- **Glass Coverage:** 20 years (from baseline research)
+- **Wood Components:** Interior wood - 10 years; Exterior wood - 5 years (from baseline research)  
+- **Hardware Coverage:** 10 years including hardware, weatherstripping, blinds, and insect screens (from baseline research)
+- **Labor Coverage:** Not covered (from baseline research)
 
 ## 3. UNKNOWN / NOT DISCLOSED
-
-The following specifications are **NOT PUBLISHED** by Andersen for E-Series Double-Hung configuration:
 
 ### Performance Specifications - NOT PUBLISHED
 - **U-factor (whole window, dual pane standard config)** - 
@@ -95,8 +90,9 @@ Your Andersen dealer can give you NFRC-certified ratings when you order windows 
 - **SHGC (whole window, dual pane standard config)** - 
 Your Andersen dealer can give you NFRC-certified ratings when you order windows and doors
 
-- **Visible Transmittance (VT)** - NOT PUBLISHED by Andersen publicly
+- **Visible Transmittance (VT)** - NOT PUBLISHED by Andersen publicly for E-Series specific values
 - **Air Infiltration (cfm/ft²)** - NOT PUBLISHED by Andersen publicly for E-Series double-hung specific values
+- **Specific Performance Grade (PG) Rating** - NOT FOUND for E-Series double-hung in accessible documentation
 
 ### Technical Construction Details - NOT FOUND
 - **Spacer system type (warm-edge vs aluminum)** - NOT FOUND in E-Series specific documentation
@@ -108,13 +104,10 @@ Your Andersen dealer can give you NFRC-certified ratings when you order windows 
 
 ### Current Safety Recall (February 2026) - DOES NOT AFFECT E-SERIES
 
-
-Recall Date: February 26, 2026. This recall involves window opening control devices sold individually as kits or as factory-installed accessories and applied to 100 Series casement windows that were manufactured prior to November 19, 2025
-
-
-
+This recall involves window opening control devices sold individually as kits or as factory-installed accessories and applied to 100 Series casement windows that were manufactured prior to November 19, 2025
+. 
 The window opening control devices can break or detach after accidental or other impact, allowing the window to be opened, posing fall and serious injury hazards
-
+. 
 
 **NOTE:** This recall specifically affects 100 Series casement windows with window opening control devices, NOT E-Series double-hung windows.
 
@@ -128,11 +121,11 @@ Your Andersen dealer can give you NFRC-certified ratings when you order windows 
 ### Energy Performance Limitations (Independent Assessment)
 
 I just reviewed efficiency ratings for dozens of packages in the E-Series casement windows as an example. I couldn't find anything with a U-Factor lower than 0.27 for a triple pane window. Lower is better when it comes to U-Factors and 0.27 for triple pane isn't great
-
+ (The Window Dog - Dan Schweihs, industry expert)
 
 ## 6. CONFIDENCE ASSESSMENT
 
-**MODERATE** - While basic product specifications, material construction, AAMA certification status, and warranty terms are confirmed through official Andersen sources and independent documentation, critical performance data (NFRC U-factor, SHGC, specific air infiltration rates) are deliberately not publicly disclosed and require dealer consultation per manufacturer policy. The manufacturer's dealer-dependent model for technical specifications affects transparency scoring.
+**MODERATE** - While basic product specifications, material construction, AAMA certification status, and warranty terms are confirmed through official Andersen sources and independent documentation, critical performance data (NFRC U-factor, SHGC, specific air infiltration rates, specific performance grades) are deliberately not publicly disclosed and require dealer consultation per manufacturer policy. The manufacturer's dealer-dependent model for technical specifications affects transparency scoring.
 
 ## 7. FIELD SOURCE OPINIONS
 
@@ -144,10 +137,10 @@ I just reviewed efficiency ratings for dozens of packages in the E-Series caseme
 Make sure you're looking at National Fenestration Rating Council (NFRC) certified ratings, which assess whole unit performance, not just the center of glass performance
  - NFRC certified but values require dealer consultation
 - **AAMA/WDMA/CSA 101:** 
-AAMA/WDMA/CSA 101/I.S.2/A440 Performance Grade (PG)
+AAMA/WDMA/CSA 101/I.S 2/A440-08; North American Fenestration Standard/Specification for windows, doors, and skylights
  - Certified under harmonized North American standard
 - **ENERGY STAR:** 
-Most E-Series products meet ENERGY STAR criteria. Many E-Series double-hung windows have options that make them ENERGY STAR v. 7.0 certified throughout the U.S.
+Most E-Series products meet ENERGY STAR criteria
 
 
 ## 9. SPECIALTY FORUM FINDINGS
@@ -182,21 +175,25 @@ If you were comparing these windows vs vinyl windows you'll find vinyl windows t
 The main disadvantages to Andersen E-Series windows are the cost, the not-so-great efficiency and the short warranty. We'll get into more detail below, but there are reasons that these aren't the most popular windows in the world
 
 
-## PROFESSIONAL VIDEO ASSESSMENT
+## PROFESSIONAL PERSPECTIVES
 
 ### Brennan Corporation (Dallas, TX) - Professional Installation Review
+Confirmed E-Series construction details including 
+solid wood for the interior window sash and frames and uses aluminum for the exterior of the window
+, with 
+extruded aluminum
+ cladding providing protection and aesthetic options.
 
+### This Old House Assessment (2026)
 
-So everything you see on the exterior of this window could potentially be exposed to the elements-- is a extruded aluminum with a powder coated finish. Andersen gives the option to do an AAMA, or A-A-M-A, 2604, or 2605 powder coat finish
+While more expensive, Andersen's most energy-efficient models include the A-Series and E-Series, both of which come in triple-pane glass options
 
-
-**Construction Details:** Confirmed wood interior with aluminum exterior cladding, tilt-in cleaning feature, and professional-grade hardware options.
 
 ---
 
-**Research completed:** March 14, 2026  
+**Research completed:** March 16, 2026  
 **Confidence level:** Moderate (limited by manufacturer's dealer-dependent disclosure policy for performance specifications)
 
 ## SOURCES CONSULTED
 
-Comprehensive web research conducted March 14, 2026, including: Andersen Corporation official website and technical documentation; The Window Dog professional reviews; CPSC recall database; Brennan Corporation professional installation videos; ENERGY STAR certification data; AAMA/WDMA/CSA standards documentation; and industry technical specification documents. Performance data remains dealer-dependent per manufacturer policy.
+Comprehensive web research conducted March 16, 2026, including: Andersen Corporation official website and technical documentation; The Window Dog professional reviews by Dan Schweihs; CPSC recall database; Brennan Corporation professional installation videos; ENERGY STAR certification data; AAMA/WDMA/CSA standards documentation; This Old House reviews; consumer review platforms; and industry technical specification documents. Performance data remains dealer-dependent per manufacturer policy.

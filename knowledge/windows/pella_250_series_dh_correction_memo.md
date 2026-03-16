@@ -1,35 +1,26 @@
 # MEMO: Pella 250 Series DH — Correction Memo
 
-**Date:** December 19, 2024  
-**Status:** RESOLVED - Pre-Approved Correction  
-**Triggered by:** Component scoring inconsistency and missing professional consensus data
+**Date**: March 15, 2026  
+**Status**: Challenge Bot Flag Resolution  
+**Triggered by**: Bot 2 structural fabrication - pocket sill design complaint without Bot 1 source
 
 ## FLAGGED ITEMS RESOLVED
 
-**1. Professional Consensus Scoring Gap**
-- Bot 1 found mixed professional reviews from The Window Dog and field sources
-- Bot 2 scored professional consensus as empty with no Tier 1/2 sources found
-- **Resolution:** The Window Dog review ("decent window model, but not as nice as higher end options") constitutes valid professional source data that should be reflected in scoring
+**FABRICATED COMPLAINT REMOVAL**: Bot 2 included complaint about "pocket sill design which many installers feel is inferior to a true welded sloped sill and can trap water and debris" with classification "STRUCTURAL_DEFECT" and evidence level "YELLOW". This complaint does not appear in Bot 1 research findings and represents fabricated content violating material hierarchy protocols.
 
-**2. Quality Tier Classification**  
-- Bot 1 research indicates this is now Pella's "top vinyl line" after 350 series discontinuation
-- Bot 2 classified as "standard" quality tier
-- **Resolution:** Market positioning as manufacturer's premium vinyl offering supports mid-tier classification despite being vinyl material class
+**BALANCE SYSTEM CORRECTION**: Bot 2 scored balance system as "block_and_tackle" when Bot 1 clearly states "TruGlide balance system helps ensure your double-hung windows open and close easily with less resistance compared to a traditional constant force balance system." TruGlide is a proprietary system, not traditional block and tackle.
 
-**3. Performance Data Disclosure Standards**
-- Bot 1 extensively documented "UNKNOWN / NOT DISCLOSED" NFRC values
-- Industry standard practice for established manufacturers to reference but not fully disclose all performance specs in marketing materials
-- **Resolution:** Standard practice confirmation - no fabrication flag required
-
-## PRE-APPROVED ASSUMPTIONS TABLE
+## PRE-APPROVED ASSUMPTIONS
 
 | Spec | Evidence Basis | Confidence |
 |------|---------------|------------|
-| Professional consensus sources exist | The Window Dog review documented, GBA discussions found | HIGH |
-| Mid-tier positioning valid | Manufacturer's top vinyl line designation | MEDIUM |
-| NFRC data non-disclosure standard | Industry practice for marketing vs. technical docs | HIGH |
-| Installation confound factors documented | Multiple field reports of air infiltration | HIGH |
+| Spacer System: Standard aluminum | No warm-edge claims found in comprehensive manufacturer documentation; vinyl price tier position | 75% |
+| Glazing Bead: Interior accessible | Standard vinyl window construction practice for this price tier | 70% |
+| Weatherstrip Attachment: Compression fit | Triple-weatherstrip design on vinyl frame; standard industry practice | 80% |
 
 ## PIPELINE INSTRUCTION
 
-Proceed with corrected professional consensus scoring reflecting documented Window Dog review and field source data. Maintain vinyl material class ceiling constraints while acknowledging premium positioning within class. No escalation required - standard manufacturer disclosure patterns confirmed.
+**REMOVE**: All fabricated pocket sill complaints and references  
+**CORRECT**: Balance system classification to "proprietary_truglide" with reasoning updated to reflect manufacturer's comparison to constant force systems  
+**RETAIN**: All other quality assessments and professional consensus findings as documented in Bot 1 research  
+**MAINTAIN**: Manufacturing quality concerns based on documented CPSC recalls for other Pella product lines

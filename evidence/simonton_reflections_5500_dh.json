@@ -41,6 +41,32 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIMONT-003",
+        "description": "Customer reported super-spacer debris between panes and shadow weld grinding defects in newly installed Simonton 5500 windows, with forum discussion indicating this is a recurring quality control issu",
+        "classification": "COSMETIC",
+        "evidence_level": "YELLOW",
+        "source": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=2760",
+        "year": 2009,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIMONT-004",
+        "description": "Water intrusion between double panes of Simonton Reflections 5500 picture window causing seal failure and inability to dry.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.houzz.com/discussions/2632741/getting-a-replacement-replacement-window-simonton",
+        "year": 2009,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -1988,12 +2014,103 @@
           "screened_at": "2026-03-16T04:46:20.984Z",
           "text_source": "snippet"
         }
+      },
+      {
+        "id": "PC-SIMONT-128",
+        "name": "parlorcityfurniture.com — What is Greenguard Certification?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The certification <strong>focuses on evaluating the chemical emissions of products and materials used in indoor spaces</strong>. By subjecting products to rigorous testing, Greenguard aims to identify",
+        "price_bias": false,
+        "url": "https://parlorcityfurniture.com/blogs/insights/what-is-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T15:43:34.761Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-129",
+        "name": "p65warnings.ca.gov — Proposition 65 Warnings Website - Your right to know",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "This website, by the California Office of Environmental Health Hazard Assessment (OEHHA), provides resources for consumers and businesses. These resources can help consumers understand what a warning ",
+        "price_bias": false,
+        "url": "https://www.p65warnings.ca.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-130",
+        "name": "oehha.ca.gov — Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The law <strong>protects the state&#x27;s drinking water sources from being contaminated with chemicals known to cause cancer, birth defects or other reproductive harm</strong>, and requires businesse",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-131",
+        "name": "oehha.ca.gov — The Proposition 65 List - OEHHA - CA.gov",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65, officially known as the Safe Drinking Water and Toxic Enforcement Act of 1986, was enacted as a ballot initiative in November 1986. The law <strong>protects the state&#x27;s drinking w",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/proposition-65-list",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-132",
+        "name": "oehha.ca.gov — About Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65 requires businesses to provide warnings to Californians about <strong>significant exposures to chemicals that cause cancer, birth defects or other reproductive harm</strong>. These chem",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/about-proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-133",
+        "name": "GBA — A Buyer's Guide to Windows - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "The lab’s scientists concluded ... could be dramatically more efficient. <strong>This coating is transparent to visible light, but blocks long- and short-wave radiation by reflecting it</strong>....",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/article/a-buyers-guide-to-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-SIMONT-134",
+        "name": "ReplacementWindowDiscussions — Simonton vs Pella vs Andersen vinyl windows—worth the extra",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We&#x27;re finally replacing our old drafty windows (yay, adulting) and narrowed it down to Simonton and either Pella or Andersen&#x27;s vinyl lines. Simonton seems more budget-friendly, but I&#x27;ve",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/simonton-windows/simonton-vs-pella-vs-andersen-vinyl-windows-worth-the-extra/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T15:43:43.019Z",
+          "text_source": "snippet"
+        }
       }
     ]
   },
   "component_quality": {
     "quality_tier": null,
-    "_note": "Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, triple-pane available, Cardinal Glass IGU, Fibrex composite material"
+    "_note": "Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, triple-pane available, Cardinal Glass IGU, Fibrex composite material | Source parser added: Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, Cardinal Glass IGU, Fibrex composite material, triple-pane available"
   },
   "repairability": {
     "igu_replacement_method": null,
@@ -2030,21 +2147,21 @@
     "category": "Windows",
     "manufacturer": "Simonton",
     "isInternational": false,
-    "run_date": "2026-03-16T04:47:42.270Z",
-    "total_sources": 127,
-    "pool_a_count": 1,
+    "run_date": "2026-03-16T15:44:58.683Z",
+    "total_sources": 130,
+    "pool_a_count": 2,
     "pool_b_count": 4,
-    "pool_c_count": 78,
+    "pool_c_count": 79,
     "reddit_pending": 24,
     "complaints_found": 2,
     "certifications_found": 5,
     "phase_6b_stats": {
-      "total": 140,
-      "relevant": 127,
-      "rejected": 13,
+      "total": 139,
+      "relevant": 130,
+      "rejected": 9,
       "skipped": 29,
-      "fetchFailed": 81
+      "fetchFailed": 85
     },
-    "phase_6b_rejected": 13
+    "phase_6b_rejected": 9
   }
 }

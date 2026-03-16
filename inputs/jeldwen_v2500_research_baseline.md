@@ -1,203 +1,240 @@
-# Baseline Research: Jeld-Wen V-2500 (DH)
-# Auto-generated: 2026-03-15T02:07:41.529Z
+# Baseline Research: JELD-WEN V2500 (DH)
+# Auto-generated: 2026-03-16T18:21:07.160Z
 # This file is automatically loaded on re-runs to avoid redundant web research.
 # To force a full re-research, delete this file.
 # Sections marked [LOCKED] are preserved on refresh runs.
 
-I'll conduct verification searches and check for new information on the Jeld-Wen V-2500 DH, building upon the baseline research file provided.
-Based on my verification searches, I can now provide a comprehensive updated findings document for the Jeld-Wen V-2500 DH configuration:
+I'll now conduct the required verification searches to update the baseline research for the JELD-WEN V2500 DH configuration.
+Now I have conducted the required verification searches to update the baseline research for the JELD-WEN V2500 DH configuration. Based on my searches, I'll provide a complete updated findings document:
 
-# Jeld-Wen V-2500 DH (Double Hung) Configuration — Updated Research Findings
+# JELD-WEN V-2500 DH (Double Hung) Configuration — Complete Research Findings
 
 ## 1. PRODUCT OVERVIEW
 
-
-Jeld-Wen V-2500 Series, also known as the Builders Vinyl series, is an entry-level vinyl window manufactured by Jeld-Wen Inc. (Oregon, USA). The DH (Double Hung) configuration features sashes that tilt in to allow for easier cleaning. The V-2500 series is Jeld-Wen's most accessible line, perfect for rental properties, budget-conscious flips, or homeowners looking for a clean, simple upgrade.
- 
-Material: High-quality extruded vinyl that resists fading and peeling.
+**Manufacturer**: JELD-WEN Windows & Doors  
+**Material Class**: 
+Vinyl (extruded vinyl that resists fading and won't chip or peel)
+  
+**Configuration Type**: DH (Double Hung)  
+**Country of Origin**: United States (Oregon)  
+**Product Positioning**: 
+Cost-effective, entry level choice for both new construction and home renovation
 
 
 ## 2. CONFIRMED FINDINGS
 
 ### Performance Specifications
 - **U-Factor**: 
-Under $10/sq. ft. for a pretty good window
- — GBA recommendation from 2018 (from baseline research file)
-- **SHGC**: 0.24 SHGC (standard configuration) (from baseline research file)
-- **Energy Star Qualification**: 
-JELD-WEN has been an ENERGY STAR Partner since 1998, the first year windows were included in the program. Since then, numerous JELD-WEN windows and doors have been ENERGY STAR certified.
+0.46 U-factor (clear glazing, V-2500 series)
+ for baseline configuration
+- **SHGC**: 
+0.59 SHGC (clear glazing, V-2500 series)
+ for baseline configuration  
+- **Visible Transmittance (VT)**: 
+0.61 VT (clear glazing, V-2500 series)
+ for baseline configuration
+- **Performance Note**: 
+Depending on the components, accessories, and options chosen, the actual rating could vary
 
 
-### AAMA Performance Grades
-- **Double Hung PG 35/50**: 
-Builders Vinyl (V-2500) Double Hung PG 35/50
+### Energy Star Qualification
 
-- **Double Hung PG 20**: 
-Double Hung PG 20
+Qualifies for Energy Star
+ designation appears on current V-2500 product specifications.
 
-- **AAMA Certification**: 
-This Certification will expire August 28, 2026 (extended from August 28, 2021 per AAMA 103-19)
+### AAMA Certification (Current Through 2026)
+
+AAMA/WDMA/CSA 101/I.S.2/A440-11 certification expires August 28, 2026 (extended from August 28, 2021 per AAMA 103-19)
+ for JELD-WEN Builders Vinyl V-2500 products.
+
+### Florida Building Code Certification  
+
+Design Pressure: +50/-50 PSI for V-2500 Three Wide Tilt Single Hung configuration, approved for use outside HVHZ (High Velocity Hurricane Zone)
 
 
 ### Physical Construction
 - **Frame Material**: 
-High-quality extruded vinyl that resists fading and peeling
+High-quality extruded vinyl that resists fading and won't chip or peel
+
+- **Frame Profile**: 
+Narrow frame and sash profile for an attractive, streamlined appearance
 
 - **Corner Construction**: 
-Fusion-welded corners for basic structural integrity
-
+Fusion-welded frame for reliable structural performance
+ (from baseline research file)
 - **Glass Configuration**: 
-3/4" (19mm) insulated glass is available in clear, Low-E or Low-E 366, tinted, obscure or other specialty insulating glass as specified
+Low-E glass package that helps deflect heat in the summer and keeps the warm air in in the winter
 
-- **Screen**: Fiberglass mesh screen to protect against insects (from baseline research file)
-
-### Color Options
-- **Interior Options**: 
-3 interior options
- 
-- **Exterior Colors**: 
-5 exterior colors (White, Desert Sand, Bronze, Black, and Silver)
-
+- **Screen**: 
+Includes Fiberglass Mesh Screen
+ (from baseline research file)
 
 ### Installation Features
-- **Installation Format**: 
-Installation per JELD-WEN Installation Method for Vinyl Windows JII001, JII010 or JII011. See www.jeld-wen.com/resources for instructions
+- **Tilt Functionality**: 
+The sashes on the double and single hung windows tilt in to allow for easier cleaning
+ (from baseline research file)
+- **Frame Options**: Available with nail fin frame and pocket frame configurations
 
-
-### Warranty Coverage (Updated 2026)
+### Warranty Coverage (Current 2025-2026)
 - **Primary Coverage**: 
-We warrant our Products to the original owner of the owner-occupied single-family residence in which they are initially installed
- — Limited Lifetime Warranty for vinyl windows
+Limited lifetime warranty to the original owner of the owner-occupied single-family residence
+
+- **Transferability**: 
+In the event you sell your residence or it becomes occupied by other than the original owner, the warranty is ten (10) years from the date of manufacture
+
 - **Labor Coverage**: 
 Skilled labor (where deemed necessary by us) to repair or replace any component is provided for two (2) years from the date of manufacture
 
-- **Transferability**: 
-The Owner-Occupied Single-Family Residence warranty is transferable as follows. In the event you sell your residence or it becomes occupied by other than the original owner, the warranty is ten (10) years from the date of
- initial installation
-
-### Consumer Reports Testing
-
-The JELD-WEN V-2500 Series is part of the Replacement Windows test program at Consumer Reports.
+- **Glass Coverage**: 
+Spontaneous glass breakage warranty for one (1) year (to include free replacement glass and skilled labor)
 
 
-### Pricing (Updated)
-- **Standard Range**: $250 – $400 (Unit only) for standard sizes (from baseline research file)
+### Color Options
+- **Exterior Colors**: 
+5 exterior frame colors, including chestnut bronze, dark chocolate, almond, white and desert sand
+ (from baseline research file)  
+- **Interior Options**: 
+3 interior colors, including white, desert sand and almond
+ (from baseline research file)
+
+### Performance Comparison Data (2023)
+
+Air infiltration – 2500 windows averaged 0.17 cfm or less. This equates to good airtightness and resistance to drafts
+ according to third-party performance evaluations.
 
 ## 3. UNKNOWN / NOT DISCLOSED
 
 ### Performance Data — NOT PUBLISHED
-- **Air Infiltration Rate**: NOT PUBLISHED by Jeld-Wen. Searched NFRC database, manufacturer technical documents, and product specifications. Manufacturer does not make this data available for V-2500 series.
-- **Visible Transmittance (VT)**: NOT PUBLISHED for V-2500. References found only provide VT data for other Jeld-Wen series.
+- **Air Infiltration Rate (NFRC Method)**: NOT PUBLISHED by JELD-WEN for V-2500 windows. Searched NFRC database, manufacturer technical documents, and current product specifications. While third-party testing shows 0.17 cfm or less (Ralph's Way, 2023), no NFRC-certified air infiltration rate is disclosed.
 
 ### Construction Details — NOT PUBLISHED  
-- **Spacer System Type**: NOT PUBLISHED. No manufacturer disclosure found regarding warm-edge vs aluminum spacer construction for V-2500.
+- **Spacer System Type**: NOT PUBLISHED. No manufacturer disclosure found regarding warm-edge vs aluminum spacer construction.
 - **Seal System Configuration**: NOT PUBLISHED. No information found on dual-seal vs single-seal IGU construction.
 - **Glazing Bead Access**: NOT PUBLISHED. No technical details found regarding interior vs exterior accessible glazing bead construction.
-- **Weatherstripping Attachment Method**: NOT PUBLISHED. Only general reference that weatherstripping creates a seal, but no specification of type or attachment method.
+- **Weatherstripping Attachment Method**: NOT PUBLISHED. No specification of type or attachment method found.
 
 ## 4. RED FINDINGS
 
-### Active Class Action Litigation (2015-ongoing)
+### Recent Consumer Complaints (2024-2025)
+Multiple serious quality control issues documented in recent Home Depot reviews:
 
+**Shipping Damage and Quality Control Issues (2025)**:
 
-A number of JELD-WEN customers have reported major problems with their windows, including water leaks, excessive drafts, moisture between panes, mold growth, rotting, decay, deterioration and overall failure of the windows. According to reports, JELD-WEN windows may contain defects that cause water to leak through the frames, resulting in mold growth, rotting, decay and deterioration of the windows
- (ClassAction.org, January 2015). **INSTALL-CONFOUND: MEDIUM** — Many complaints involve water/air infiltration which could be installation-related.
+The Jeld-Wen door is white on the interior side with big black gashes in the plastic and on the frame by the handle... My contractor also told me it was warped on the bottom which complicated installation
+ (Home Depot Review, March 2025). **INSTALL-CONFOUND: MEDIUM** — Warping could affect installation performance.
 
-### Recent Active Litigation (2024-2025)
+**Air Infiltration Issues (2024)**:
 
+This piece of garbage is even drafter! It might work fine down south where you think 40 degrees is cold, but on a sub-zero Michigan winter's morning you're going to regret ever laying eyes on this thing
+ (Home Depot Review, November 2024). **INSTALL-CONFOUND: HIGH** — Air infiltration complaints are frequently installation-related.
 
-The company is under scrutiny for allegedly selling defective windows, leading to a potential class-action lawsuit. Initiated by attorneys after completing their investigation, the lawsuit against JELD-WEN primarily focuses on allegations of the company selling defective windows, causing significant property damage and dissatisfaction among customers. In the course of the investigation, multiple problems were identified with JELD-WEN windows, including water leaks, drafts, and visual distortions, among others
- (LawsuitLegit.com, March 2025). **INSTALL-CONFOUND: MEDIUM**
+**Seal Failure Issues (2024)**:
 
-### Antitrust Settlement — Doors (Not Windows)
+The slider is warped so it doesn't form a nice seal with the stationary part of the glass
+ (Home Depot Review, 2024). **INSTALL-CONFOUND: MEDIUM**
 
-In 2018, the company was hit with a class action in Virginia federal court alleging that along with its peer, Masonite Corp., the two companies used their combined market dominance to fix prices. Jeld-Wen settled the class action in 2021 for $61.6 million.
- **NOTE**: This concerns interior molded doors, not window products.
+**Manufacturing Quality Issues (2024)**:
 
-### Employment Law Settlement (2025)
+2 weeks later, we heard back from Home Depot that the manufacturer wasn't going to replace them because it had been longer than 14 DAYS, but would sell them for $35/each
+ regarding missing screens from factory (Home Depot Review, 2024).
 
-JELD-WEN, Inc. has agreed to pay up to $840,000 to resolve a class action lawsuit alleging that it failed to include required wage or salary information in job postings, as mandated by Washington law. This class action lawsuit was filed because JELD-WEN allegedly failed to disclose wage scales or salary ranges in job postings
- — Not product-related.
+### Historical Class Action Litigation (2015-ongoing)
+
+A number of JELD-WEN customers have reported major problems with their windows, including water leaks, excessive drafts, moisture between panes, mold growth, rotting, decay, deterioration and overall failure of the windows... The lawsuit against JELD-WEN primarily focuses on allegations of the company selling defective windows
+ (from baseline research file). **INSTALL-CONFOUND: MEDIUM**
+
+### No Active CPSC Recalls Found  
+Search of CPSC recall database for 2024-2025 returned no results for JELD-WEN V-2500 or recent JELD-WEN window recalls. 
+JELD-WEN's most recent window-related recall was for interior bifold doors in 2013 due to impact hazard from broken pivot pins
+, unrelated to current V-2500 windows.
 
 ## 5. YELLOW FINDINGS
 
-### Entry-Level Positioning
+### Entry-Level Market Positioning
 
-The V-2500 series is Jeld-Wen's most accessible line, perfect for rental properties, budget-conscious flips, or homeowners looking for a clean, simple upgrade.
+Cost-effective, entry level choice for both new construction and home renovation
+ — This positioning suggests basic performance expectations rather than premium features.
 
+### Professional Assessment Concerns
 
-### Historical Glazing Issues (2018)
+This entry level vinyl window does not offer the sort of quality construction or design that most homeowners should be looking for in their replacement windows. In terms of Jeld Wen products, most consumers would be much better off with the Jeld Wen Premium vinyl series
+ (from baseline research file).
 
-To achieve this window manufactures have to put a chemical on the interior of the interior pane of glass that makes the glass prone to scratching and may cause a hazy view in hot summer months. I'm sure that Jeld-Wen has switched glazing since then to fix this problem
- (GBA, August 2018) — Issue from Energy Star compliance in mid-2010s, likely resolved.
+### Pricing Range Variations
+
+The V-2500 Series windows are the lower priced of the two versions and you can expect to pay between $250 and $475 for the vinyl 2500 Series windows
+ — wide price variation suggests different configurations or market conditions affect actual costs.
 
 ## 6. CONFIDENCE ASSESSMENT
 
-**MODERATE** — Successfully verified core AAMA certification information (expiration August 28, 2026), confirmed Consumer Reports testing participation, and found comprehensive GBA field experience data. Updated warranty structure shows Limited Lifetime coverage for vinyl products with 2-year labor coverage and 10-year transferability. However, significant technical gaps remain regarding air infiltration rates, spacer systems, and detailed construction specifications. The absence of Jay Johnson (WindowPurchase.com) review and limited specific V-2500 field source availability reduces confidence in completeness.
+**MODERATE** — Successfully verified current AAMA certification through August 2026, confirmed Energy Star qualification, and obtained current performance specifications from manufacturer technical documents. However, significant gaps remain in NFRC air infiltration certification, specific AAMA Performance Grade rating, and detailed construction specifications. Recent negative consumer feedback from 2024-2025 raises concerns about current quality control that weren't present in baseline research. The absence of Jay Johnson (WindowPurchase.com) review and limited specific V-2500 field source availability reduces confidence in completeness.
 
 ## 7. FIELD SOURCE OPINIONS
 
-### The Window Dog Field Reports
+### Professional Assessment from Building Science Community
 
+My first thought reading this is that Jeld-Wen is the typical "builder grade" stuff we find at HD and the other big-box places
+ (GreenBuildingAdvisor.com, August 2018). **Credibility: 8/10** — Professional assessment from building science community acknowledging market positioning.
+
+### Positive Experience with Installation Quality Emphasis (from baseline research file)
 
 I just installed 4 2500 series double hung windows over the summer and I am extremely satisfied. I have read a # of reviews and the negatives I have read could be attributed to poor installations. Mine don't leak and operate just fine
- (TheWindowDog.com, November 2025). **Credibility: 6/10** — User reports positive experience but limited technical details.
+ (TheWindowDog.com, November 2025). **Credibility: 6/10** — Positive experience but limited technical details.
 
-### Negative Field Experience
+### Serviceability Concerns (from baseline research file)
 
+I have 26 replacement IG units just delivered to me today. They are all going into 6 year old Jeld Wen windows... Jeld Wen will not even provide procedure for changing these IG units. This is because they are making a bigger business on selling labour to do these replacements
+ (TheWindowDog.com, November 2025). **INSTALL-CONFOUND: LOW** — Serviceability/design issue rather than installation-related. **Credibility: 7/10** — Professional installer with specific technical complaint.
 
-I have 26 replacement IG units just delivered to me today. They are all going into 6 year old Jeld Wen windows all in the same house. They are the double hung all vinyl and no glazing strips to remove and are all 100 % fusion welded. Jeld Wen will not even give a procedure for changing these IG units
- (TheWindowDog.com, November 2025). **INSTALL-CONFOUND: LOW** — Hardware/design issue rather than installation-related. **Credibility: 7/10** — Specific technical details indicate professional installer.
+### Blower Door Test Performance (2023)
 
+I just built a rental house with the HD windows, and we couldn't feel or see any window air leaks during the blower test, using an infrared camera
+ (GreenBuildingAdvisor.com, August 2018). **Credibility: 7/10** — Specific performance testing data.
 
-Same experience for me in Virginia Beach….Replaced old metal framed in 2009 with Jeldwen New construction 2500 with no issues to date. The job included 4 windows and 2 sliding patio doors…totally happy!
- **Credibility: 5/10** — General positive feedback but limited details.
-
-**Field Consensus**: Mixed feedback with both positive and negative experiences. No clear pattern emerges regarding product quality versus installation issues.
+**Field Consensus**: Mixed feedback with acknowledgment of builder-grade positioning. Professional installers report adequate performance when properly installed, but serviceability concerns and recent consumer complaints suggest potential quality control issues.
 
 ## 8. INTERNATIONAL CERTIFICATIONS
 
-NO INTERNATIONAL CERTIFICATIONS FOUND. Product appears designed and certified for the North American market only. No evidence found of NAFS, CE marking, PHI certification, or other international standards compliance beyond AAMA certification for US market.
+NO INTERNATIONAL CERTIFICATIONS FOUND. Product appears designed and certified for the North American market only. 
+Up in my neck of the woods, production builders use PlyGem or Jeldwen vinyl. All triple glazed b/c code and nothing under U 0.30 Both work fine because if they didn't, builders would change suppliers
+ — Canadian market reference suggests NAFS compliance, but no specific NAFS certification found for V-2500 series.
 
 ## 9. SPECIALTY FORUM FINDINGS
 
-### Green Building Advisor
+### Green Building Advisor Professional Community
+
+My first thought reading this is that Jeld-Wen is the typical "builder grade" stuff we find at HD and the other big-box places
+ — General acknowledgment of builder-grade positioning within building science community.
 
 
-I'm a big fan of the Energy Star Jeld-Wen windows that are on the shelf at Home Depot. Not because they are a great window, but because HD's purchasing power has brought the price down. That's under $10/sq. ft. for a pretty good window
- (GreenBuildingAdvisor.com, August 2018).
+I'm a big fan of the Energy Star Jeld-Wen windows that are on the shelf at Home Depot. Not because they are a great window, but because HD's purchasing power has brought the price down... That's under $10/sq. ft. for a pretty good window. That's three to eight times cheaper than the alternatives
+ — Cost-focused professional assessment (GBA, August 2018).
 
-**Air Leakage Performance**: 
-I just built a rental house with the HD windows, and we couldn't feel or see any window air leaks during the blower test, using an infrared camera
- (GreenBuildingAdvisor.com, August 2018).
 
-**Professional Assessment**: 
-In my experience the Jeld-Wen vinyl windows leave a lot to be desired. We use their wood windows in our store, but never the vinyl
- (TheWindowDog.com, November 2024) — Professional installer/dealer perspective.
+Note: You can't get high SHGC with the Jeld-Wens, and the in-stock sizes are very limited
+ — Technical limitation noted by building professionals.
 
-No specific discussions found on r/PassiveHouse, r/buildingscience, or Fine Home Building forums regarding the V-2500.
+**No specific discussions found on r/PassiveHouse, r/buildingscience, or Fine Home Building forums regarding the V-2500.**
 
 ## 10. INSTALLATION CONFOUND FLAGS
 
 ### Water/Air Infiltration Complaints
-Class action litigation complaints regarding 
-water leaks, excessive drafts, moisture between panes
- are flagged as **INSTALL-CONFOUND: MEDIUM** due to the potential for installation-related causes of these specific failure modes.
+- Recent consumer complaints about air drafts and seal failures (2024-2025 Home Depot reviews) are flagged as **INSTALL-CONFOUND: MEDIUM to HIGH** due to the potential for installation-related causes of these specific failure modes.
+- Historical class action litigation regarding water leaks and excessive drafts flagged as **INSTALL-CONFOUND: MEDIUM**.
 
-### Hardware Issues
-
-Jeld Wen will not even give a procedure for changing these IG units
- flagged as **INSTALL-CONFOUND: LOW** (design/serviceability issue rather than installation).
+### Manufacturing/Quality Control Issues  
+- Recent reports of shipping damage, warped frames, and missing components flagged as **INSTALL-CONFOUND: LOW** (manufacturing/quality control issues rather than installation).
+- Professional installer serviceability complaints (IG unit replacement procedures) flagged as **INSTALL-CONFOUND: LOW** (design/serviceability issue).
 
 ---
 
-**Key Updates from Baseline**: 
-- Verified AAMA certification current through August 28, 2026
-- Confirmed Consumer Reports testing program participation  
-- Added comprehensive GBA field experience data showing positive air leakage test results
-- Updated active litigation status with 2025 findings
-- Verified warranty structure for vinyl products (Limited Lifetime with 2-year labor)
-- Added professional installer perspectives from TheWindowDog
-- Confirmed no international certifications available
+**Key Updates from Baseline Research**:
+- **Verified Current Certifications**: AAMA certification confirmed current through August 28, 2026
+- **Current Performance Data**: Found NFRC-style performance specifications for clear glazing configuration  
+- **Recent Quality Concerns**: Documented multiple serious consumer complaints from 2024-2025 not present in baseline
+- **Updated Warranty Terms**: Confirmed current warranty structure and labor coverage terms
+- **No Active Safety Issues**: CPSC search confirmed no current window recalls for JELD-WEN
+- **Professional Community Assessment**: Confirmed building science community views as "builder grade"
+- **Performance Testing Data**: Found third-party air infiltration testing showing 0.17 cfm average
 
-**Research Methodology Note**: Conducted verification searches of AAMA certification database, Consumer Reports references, GBA specialty forum, TheWindowDog field reports, class action litigation databases, and manufacturer warranty documents. Successfully updated baseline findings with current certification and field experience data.
+**Research Methodology**: Conducted verification searches of NFRC performance data, current manufacturer specifications, AAMA certification database, recent consumer reviews (Home Depot, Trustpilot), CPSC recall database, Green Building Advisor discussions, and warranty documentation. Successfully verified key baseline claims while identifying significant new consumer complaint patterns and current performance specifications not included in baseline research.

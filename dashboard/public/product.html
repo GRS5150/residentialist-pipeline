@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail — Residentialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>document.write('<base href="' + (location.pathname.startsWith('/scores') ? '/scores/' : '/') + '">')</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-left">
+      <a href="./" class="site-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="28" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
+          <rect x="7" y="14" width="4" height="12" rx="1" fill="currentColor" opacity="0.4"/>
+          <rect x="14" y="9" width="4" height="17" rx="1" fill="currentColor" opacity="0.6"/>
+          <rect x="21" y="5" width="4" height="21" rx="1" fill="currentColor" opacity="0.9"/>
+        </svg>
+        <span>Residentialist</span>
+      </a>
+      <div class="header-meta">
+        <span class="dot"></span>
+        <span>Score Dashboard</span>
+      </div>
+    </div>
+    <div class="header-right">
+      <button id="mode-toggle" class="mode-toggle" title="Toggle Admin/Public mode"></button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <div id="product-detail-root">
+      <div class="loading-state">
+        <div class="spinner"></div>
+        <span>Loading product detail...</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">
+      Created with Perplexity Computer
+    </a>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/sources.js"></script>
+  <script src="js/product.js"></script>
+</body>
+</html>

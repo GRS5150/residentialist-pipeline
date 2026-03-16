@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Residentialist — Score Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>document.write('<base href="' + (location.pathname.startsWith('/scores') ? '/scores/' : '/') + '">')</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-left">
+      <a href="./" class="site-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="28" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
+          <rect x="7" y="14" width="4" height="12" rx="1" fill="currentColor" opacity="0.4"/>
+          <rect x="14" y="9" width="4" height="17" rx="1" fill="currentColor" opacity="0.6"/>
+          <rect x="21" y="5" width="4" height="21" rx="1" fill="currentColor" opacity="0.9"/>
+        </svg>
+        <span>Residentialist</span>
+      </a>
+      <div class="header-meta">
+        <span class="dot"></span>
+        <span>Score Dashboard</span>
+        <span class="dot"></span>
+        <span id="header-timestamp"></span>
+      </div>
+    </div>
+    <div class="header-right">
+      <button id="mode-toggle" class="mode-toggle" title="Toggle Admin/Public mode"></button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <!-- Controls -->
+    <div class="controls-bar">
+      <div class="controls-left">
+        <h1 class="page-title">Scored Products</h1>
+        <span class="product-count" id="product-count">—</span>
+      </div>
+      <div class="controls-right">
+        <input type="text" class="search-input" id="search-input" placeholder="Search products...">
+        <button class="sort-btn active" data-sort="score">Score ↓</button>
+        <button class="sort-btn" data-sort="name">Name</button>
+        <button class="sort-btn" data-sort="material">Material</button>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div id="product-container">
+      <div class="loading-state">
+        <div class="spinner"></div>
+        <span>Loading products...</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">
+      Created with Perplexity Computer
+    </a>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

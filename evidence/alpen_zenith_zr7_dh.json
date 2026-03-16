@@ -1365,6 +1365,134 @@
           "screened_at": "2026-03-16T04:04:58.611Z",
           "text_source": "snippet"
         }
+      },
+      {
+        "id": "PC-ALPENZ-094",
+        "name": "aebuildingsystems.com — Zenith Series NFRC Data",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Alpen HPP | www.ThinkAlpen.com | info@ThinkAlpen.com | Ph: 303.834.3600 | 800.882.4466 | FX: 303.834.3541 · 02/2017-v4 · ZR-6 / 625 · Description · NFRC Full-Frame / Total Unit · Performance · Air · I",
+        "price_bias": false,
+        "url": "https://aebuildingsystems.com/wp-content/uploads/2017/04/NFRC-Data-Tables-All-Zenith-ZRX-X25-2017-02-CURRENT.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-095",
+        "name": "rochesterinsulatedglass.com — Spacers - Rochester Insulated Glass",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Conventional aluminum, stainless steel, and plastic spacers “short circuit” the edge seal. Warm Seal’s extremely low level of thermal conductivity leads to greatly reduced IGU condensation and improve",
+        "price_bias": false,
+        "url": "https://rochesterinsulatedglass.com/spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-096",
+        "name": "aeroflexusa.com — What is GREENGUARD Gold Certification? | Aeroflex USA",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>UL GREENGUARD Gold Certification</strong>: added health-based criteria with lower total VOC (TVOC) emission levels of over 360 VOC’s in sensitive indoor environments such as schools and health",
+        "price_bias": false,
+        "url": "https://aeroflexusa.com/what-is-greenguard-gold-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-097",
+        "name": "lerchrv.com — Route 66 RV Network | Nationwide RV Service and Support | Le",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The extensive network of dealers in the United States combined our alliance with the RV Care Network in Canada. We are providing <strong>over 150 locations and 1,200 dealer service bays across North A",
+        "price_bias": false,
+        "url": "https://lerchrv.com/parts-service/route-66-rv-network/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-098",
+        "name": "geeksonsite.com — Home Network Services | 24/7 Availability | Geeks on Site",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "We offer our home network services and Wi-Fi installation <strong>across all major metropolitan areas nationwide</strong>. In most cases, we can dispatch a technician to your home or business on the s",
+        "price_bias": false,
+        "url": "https://geeksonsite.com/services/wireless-network-installation/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-099",
+        "name": "GBA — A Positive Review of Alpen Windows - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "My spouse and I are building a home in zone 6b in Colorado. We are new to home building, and learning everything we can about building an energy efficient pretty good house. Heck, we didn’t even know ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/alpen-windows-positive-experience",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-100",
+        "name": "GBA — Fine Homebuilding subscription questions - GreenBuildingAdvi",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Hello all. I didn’t get a response from the Taunton email, so I will ask here. I went to recently renew/reinstate my GBA membership and noticed the FineHomeBuilding option. Since […]",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/membership-finehomebuilding-qs",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-101",
+        "name": "usatoday.com — Consumer Product Recalls | USA TODAY",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Find the latest consumer product recalls from the U.S. Consumer Product Safety Commission (CPSC). Curated by USA TODAY.",
+        "price_bias": false,
+        "url": "https://www.usatoday.com/recalls/consumer-products/CPSC-10174/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-102",
+        "name": "acaia.co — California Proposition 65 Warning – acaia",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "WARNING:<strong>This product can expose you to chemicals including Nickel (Metallic), which is known to the State of California to cause cancer and/or birth defects or other reproductive harm</strong>",
+        "price_bias": false,
+        "url": "https://acaia.co/pages/ca-prop65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ALPENZ-103",
+        "name": "Reddit — r/Homebuilding on Reddit: Window recommendations",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We all know Marvin/Anderson/Pella are all good, but has anyone had a good experience with some of the other lesser known window manufacturers? We…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/su4bkb/window_recommendations/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:11:32.115Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ALPENZ-104",
+        "name": "GBA — Triple glazed window manufacturers - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "I have Alpen and would hardly call them &quot;budget&quot;. I love the windows, but they were 23% more expensive than Marvin Elite double glazed. ... We used the Zenith Series casements in triple pane",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/triple-glazed-window-manufacturers",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
       }
     ]
   },
@@ -1403,24 +1531,24 @@
   "_source_parser_meta": {
     "productName": "Alpen Zenith ZR-7",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Alpen",
     "isInternational": false,
-    "run_date": "2026-03-16T04:05:44.566Z",
-    "total_sources": 93,
+    "run_date": "2026-03-16T17:12:22.642Z",
+    "total_sources": 89,
     "pool_a_count": 8,
     "pool_b_count": 1,
-    "pool_c_count": 46,
-    "reddit_pending": 22,
+    "pool_c_count": 45,
+    "reddit_pending": 21,
     "complaints_found": 0,
     "certifications_found": 7,
     "phase_6b_stats": {
       "total": 133,
-      "relevant": 93,
-      "rejected": 40,
+      "relevant": 89,
+      "rejected": 44,
       "skipped": 7,
-      "fetchFailed": 76
+      "fetchFailed": 71
     },
-    "phase_6b_rejected": 40
+    "phase_6b_rejected": 44
   }
 }

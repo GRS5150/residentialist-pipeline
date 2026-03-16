@@ -4,24 +4,2217 @@
   "category": "windows",
   "evidence_version": "1.2",
   "created": "2026-03-13",
-  "last_verified": "2026-03-14",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
       "NFRC",
-      "ENERGY_STAR"
+      "ENERGY_STAR",
+      "AAMA",
+      "GREENGUARD",
+      "PROP_65_WARNING"
     ],
-    "complaints": []
+    "complaints": [
+      {
+        "id": "MQ-PELLA2-001",
+        "description": "Pella 250 Series windows have a design defect allowing water infiltration that causes wood frame rot beneath aluminum cladding, resulting in a certified class action lawsuit settled in 2018 for $26 mi",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/pella-defective-proline-window-class-action/",
+        "year": 2010,
+        "status": "settled",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PELLA2-002",
+        "description": "Pella issued a CPSC recall for sliding patio doors and windows with remote controls due to battery hazard risk to children.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://hbsdealer.com/pella-recalls-sliding-patio-doors-and-windows",
+        "year": null,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PELLA2-003",
+        "description": "Pella 250 Series vinyl windows experience warping issues over time, particularly on south-facing windows exposed to direct sunlight.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.replacementwindowdiscussions.com/community/window-brand-comparisons-recommendations/window-shopping-dilemma-andersen-100-or-pella-250-for-the-budget-conscious-homeowner/",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PELLA2-004",
+        "description": "Pella 250 Series windows have a design defect allowing water infiltration that causes wood frame rot beneath aluminum cladding, resulting in a $26 million class action settlement in 2018.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/pella-defective-proline-window-class-action/",
+        "year": 2010,
+        "status": "settled",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      }
+    ]
   },
   "professional_consensus": {
-    "sources": [],
+    "sources": [
+      {
+        "id": "PC-PELLA2-001",
+        "name": "quanex.com — Warm Edge Spacer Systems for Windows & Doors - Quanex",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Warm edge spacers play a critical role in overall window performance by <strong>reducing heat transfer at the edge of the glass, the area most vulnerable to energy loss, condensation, and seal stress<",
+        "price_bias": false,
+        "url": "https://www.quanex.com/product/residential/insulating-glass-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-002",
+        "name": "pellaatlowes.com — Pella 250 Series Windows | Pella at Lowe's",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Pella 250 Series offers options to meet or exceed ENERGY STAR® in all 50 states, helping to save you money on heating and cooling costs.1 · Tested for any environment. We test our insulating glass at ",
+        "price_bias": false,
+        "url": "https://www.pellaatlowes.com/product-lines/windows/pella-250-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-003",
+        "name": "Reddit — r/HomeImprovement on Reddit: Pella windows quote",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Pella does have a fabulous insulated glass system that has a <strong>0.2% failure rate at 20 years, and a 0.47% failure rate at 50 years</strong>. It&#x27;s called the Cardinal XL insulated glass spac",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/svwwli/pella_windows_quote/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:51.492Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-004",
+        "name": "windowhardwaredirect.com — The Ultimate Guide to Pella Push-In Bulb Weatherseal — Windo",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Installing the Pella Push-In Bulb Weatherseal is a straightforward process. Here’s a step-by-step guide to help you through the installation: ... Before you begin, make sure you have all the necessary",
+        "price_bias": false,
+        "url": "https://windowhardwaredirect.com/blogs/news/the-ultimate-guide-to-pella-push-in-bulb-weatherseal-enhancing-home-comfort-and-efficiency",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:52.433Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-005",
+        "name": "assets.contentstack.io — Pella ® 250 Series VINYL 1, 2, 3, 4, 5, 6 See back cover for",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Pella’s cam-action locks pull the sashes against the weatherstripping for a tighter seal.",
+        "price_bias": false,
+        "url": "https://assets.contentstack.io/v3/assets/bltf589e66bcaecd79c/bltedf0318cfd14c75b/250-series-vinyl-windows-doors-spec-sheet.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-006",
+        "name": "pella.custhelp.com — Replacing Weatherstrip",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Instructions are available for replacing weatherstrip; however, they vary according to product type. To receive the corresponding instructions for your product have the serial number for your product(",
+        "price_bias": false,
+        "url": "https://pella.custhelp.com/app/answers/detail/a_id/502/~/replacing-weatherstrip",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-007",
+        "name": "Today's Homeowner — Pella Windows Warranty: What You Need To Know (2026) | Today",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "However, if you decide to move and want to transfer the warranty to the new owner, you can, but the next owner will receive a shorter warranty ranging from <strong>ten to twenty years</strong>. It’s i",
+        "price_bias": true,
+        "url": "https://todayshomeowner.com/windows/guides/pella-windows-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:51.461Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-008",
+        "name": "azwindowreplacement.com — Do Pella replacement windows have a lifetime warranty?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This includes the following product ... for as long as the buyer owns and occupies the home, or <strong>ten (10) years from the date of original purchase if the home is sold</strong> (transferable)...",
+        "price_bias": false,
+        "url": "https://azwindowreplacement.com/do-pella-replacement-windows-have-a-lifetime-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:51.455Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-009",
+        "name": "themenwithtools.com — Replacement Window Warranties | themenwithtools",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Read more about Alside’s Mezzo lifetime limited warranty here. Accidental glass breakage isn’t covered. Like its counterparts, <strong>the warranty is transferable</strong>, however there are a ton of",
+        "price_bias": false,
+        "url": "https://www.themenwithtools.com/posts/not-all-replacement-window-warranties-are-the-same",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:51.450Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-010",
+        "name": "pellaomaha.com — Pella Lifetime Limited Warranty - Pella Windows & Doors of O",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The Pella Care Guarantee is available ... as well as a service agreement that cover your products and their installation — including labor — for <strong>up to 10 years</strong>....",
+        "price_bias": false,
+        "url": "https://www.pellaomaha.com/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-011",
+        "name": "pellamontreal.com — Pella | Warranties",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Pella advises against painting these components. The product would not be covered by the guarantee if the paint is a contributing factor to its defect. Why am I paying service fees for a product that ",
+        "price_bias": false,
+        "url": "https://www.pellamontreal.com/warranties/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-012",
+        "name": "topclassactions.com — Pella ProLine Windows Defect Class Action Settlement",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "If you are a current or former ... the product. In 2009, <strong>plaintiffs Kent Eubank, Jerry Davis, Ricky Falaschetti, and others, filed a class action lawsuit alleging Pella ProLine windows were de",
+        "price_bias": false,
+        "url": "https://topclassactions.com/lawsuit-settlements/closed-settlements/pella-proline-windows-defect-class-action-settlement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-013",
+        "name": "dwmmag.com — Lawsuit Alleges Pella Architect Series Windows Were Defectiv",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "“In addition, following discovery, <strong>this action may have class action status requiring an amended complaint</strong>.” According to Hamlin, Pella failed to disclose in a timely fashion that the",
+        "price_bias": false,
+        "url": "https://dwmmag.com/lawsuit-alleges-pella-architect-series-windows-were-defective/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-014",
+        "name": "topclassactions.com — Pella Defective ProLine Window Class Action",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The Pella ProLine defective window class action lawsuit covers the entire ProLine series of windows, in addition to the “250 Series” and “450 Series” windows sold through major retailers such as Lowe’",
+        "price_bias": false,
+        "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/pella-defective-proline-window-class-action/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-015",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Products that have achieved GREENGUARD ... chemical emissions standards, helping to reduce indoor air pollution and the risk of chemical exposure. The GREENGUARD Certification Program identifies low-e",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-016",
+        "name": "formica.com — Emissions and GREENGUARD",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The standards establish certification ... toxicity limits and acceptance. The GREENGUARD certification procedure <strong>identifies interior products and materials with low chemical and particle emiss",
+        "price_bias": false,
+        "url": "https://www.formica.com/en-ca/campaigns/sustainability/emissions-and-greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-017",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>GREENGUARD Gold Certification level</strong>.",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-018",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "After one or two weeks, the certifying agencies test the VOC levels in the chamber. <strong>If the emission levels are low, the products earn the Greenguard Gold or Greenguard Certification mark</stro",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-019",
+        "name": "swisco.com — Pella Hardware : SWISCO.com",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Customer Service · Contact Us FAQ Policies About Us · Available <strong>8AM - 4:30PM EST, Mon - Fri at (888) 991-1929</strong> · Open Mobile Menu · Part Search · Sign In Sign In · Sign In · Sign In To",
+        "price_bias": false,
+        "url": "https://www.swisco.com/catalog/pella-hardware",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:53.099Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-020",
+        "name": "amazon.com — Amazon.com: Pella Door Replacement Parts",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>Amazon.com</strong>: pella door replacement parts",
+        "price_bias": false,
+        "url": "https://www.amazon.com/pella-door-replacement-parts/s?k=pella+door+replacement+parts",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:52.993Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-021",
+        "name": "replacementwindowsprices.com — Pella 250 Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Explore Pella 250 windows reviews, prices and warranty information on this economy vinyl window option. <strong>The Pella 250 vinyl window is a much improved design over previous models such as the Th",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsprices.com/reviews/pella-250-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:53.298Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PELLA2-022",
+        "name": "Reddit — r/HomeImprovement on Reddit: Anyone have experience with Pel",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "<strong>They are thicker frames, better insulated windows, they have 2 locks instead of one</strong>. It’s worth it for those. Go look at the difference side by side. If they are not heavier , feel mo",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/n6lyz5/anyone_have_experience_with_pella_trying_to/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:52.994Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-023",
+        "name": "Reddit — r/homeowners on Reddit: Pella 250 Sliding Windows: Build Qua",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Go to your local Pella showroom (not Lowe’s) and you can see how the 250 window is supposed to dot feel. ... This was uninstalled. Not going to miraculously improve when installed. ... I installed the",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1aivj3o/pella_250_sliding_windows_build_quality_no_better/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:53.078Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-024",
+        "name": "replacementwindowsreviews.co — Pella 250 Series Reviews And Ratings",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Explore Pella 250 series reviews and consumer ratings on this mid range vinyl window series from this well known manufacturer.",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsreviews.co/company/pella-250-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:54.322Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PELLA2-025",
+        "name": "diychatroom.com — Pella 250 vs 350 series | DIY Home Improvement Forum",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Still looking for opinions between the 250 and 350 as we need to finalize soon. ... Is it because they are vinyl? The 350 series for vinyl is rated #1 in Consumer Reports. What would you suggest, Ande",
+        "price_bias": false,
+        "url": "https://www.diychatroom.com/threads/pella-250-vs-350-series.708159/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:53.973Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-026",
+        "name": "consumerreports.org — Pella 250 Series Replacement Window Review - Consumer Report",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We&#x27;ve tested and reviewed products since 1936. Read CR&#x27;s review of the Pella 250 Series replacement window to find out if it&#x27;s worth it.",
+        "price_bias": false,
+        "url": "https://www.consumerreports.org/home-garden/replacement-windows/pella-250-series/m261291/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:53.911Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-027",
+        "name": "kachinacontracting.com — Pella 250 Vs. 350 Series Replacement Windows: An In-depth Co",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "On the contrary, <strong>the Pella 350 provides 80% greater strength than generic vinyl windows with unmatched impact, noise, and hurricane resistance</strong>. To be honest, these windows are both st",
+        "price_bias": false,
+        "url": "https://kachinacontracting.com/pella-250-vs-350-series-replacement-windows-an-in-depth-comparison/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-028",
+        "name": "mgahv.in — Pella Recalls Casement Windows Due to Injury Hazard (Recall",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Consumers should keep the recalled casement windows shut and locked at all times and contact Pella to receive a free repair by a Pella-designated service technician. The firm has received one report o",
+        "price_bias": false,
+        "url": "http://www.mgahv.in/blog/ypxa-pella-recalls-casement-windows-due-to-injury-hazard-recall-alert-cpscgov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-029",
+        "name": "hbsdealer.com — Pella recalls sliding patio doors and windows | HBS Dealer",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The Pella logo is printed on the lower 1/3 of the front panel of the remote. The UPC code on the packaging is 748171618722. According to CPSC, consumers should immediately remove the battery in the se",
+        "price_bias": false,
+        "url": "https://hbsdealer.com/pella-recalls-sliding-patio-doors-and-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-030",
+        "name": "dwmmag.com — Pella Recalls Sliding Patio Doors and Windows",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "The batteries are button-cell batteries located in the sensor panels of sliding doors and the remote controls for windows, both of which the company has determined can be “easily” accessed by children",
+        "price_bias": false,
+        "url": "https://www.dwmmag.com/2025/02/07/pella-recalls-sliding-patio-doors-and-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-031",
+        "name": "cancer.org — Cancer Warning Labels Based on California's Proposition 65 |",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Labels warning that <strong>a product contains compounds that may cause cancer, birth defects, or reproductive harm</strong> are now required on many household items sold in California. But people in ",
+        "price_bias": false,
+        "url": "https://www.cancer.org/cancer/risk-prevention/understanding-cancer-risk/cancer-warning-labels-based-on-californias-proposition-65.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-032",
+        "name": "compliancegate.com — List of Products Covered by California Proposition 65: An Ov",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "You must either ensure that the product does not contain restricted substances above the set limits or <strong>affix a warning label informing consumers of potentially harmful substance contents</stro",
+        "price_bias": false,
+        "url": "https://www.compliancegate.com/california-proposition-65-product-list/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-033",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Does anyone have experience with how to determine whether the Prop 65 warning is required? EDIT: I just found on the OEHHA website the companies under 10 are exempt from the warnings. Kind of an odd d",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:54.050Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-034",
+        "name": "oehha.ca.gov — The Proposition 65 List - OEHHA - CA.gov",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65, officially known as the Safe Drinking Water and Toxic Enforcement Act of 1986, was enacted as a ballot initiative in November 1986. The law <strong>protects the state&#x27;s drinking w",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/proposition-65-list",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-035",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "<strong>It mandates that the Governor of California maintain and publish a list of chemicals known to cause cancer, birth defects, and/or other reproductive harm</strong>. The list, which is updated a",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-036",
+        "name": "Reddit — r/HomeImprovement on Reddit: Are Pella windows any good?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Did have to pay labor though. ... We have installed both Pella and reliabuilt windows ourselves that were purchased from Lowe&#x27;s. <strong>The Pella windows were better quality and both were easy t",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/c4rfgo/are_pella_windows_any_good/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:53.926Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-037",
+        "name": "Reddit — r/Home on Reddit: $17,000 for 10 Pella 250 windows. Are thes",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Bought Pella 250 windows from Lowe’s and had it installed by them. But some of the autolocks doesn’t seem to be locking when I shut the window. Also…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Home/comments/1gvaraw/17000_for_10_pella_250_windows_are_these_noises/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:54.942Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-038",
+        "name": "Reddit — r/homeowners on Reddit: Any customer reviews of Pella Window",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I think I&#x27;ve opened the windows 3-4 times total since they were installed. The hidden screens are garbage. ... Since this thread seems to be a top Google result for searching Pella 250 screens, I",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1bsn9vq/any_customer_reviews_of_pella_window_hidden_screen/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:54.993Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-039",
+        "name": "Reddit — r/homeowners on Reddit: Do these Pella estimates seem... INS",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "So that seems high to me for vinyl! My vinyl quotes for 13 windows were more like 15k. ... Not sure what the install portion costs, but I recently purchased 22 Pella 250s of various sizes and styles a",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/12arf5i/do_these_pella_estimates_seem_insane/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:55.276Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-040",
+        "name": "Reddit — r/Homebuilding on Reddit: Need help validating a $29K window",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Crap window but seems right. Why Pella? Paying for a brand name when there are many better options for less.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1kxx74f/need_help_validating_a_29k_window_quote_in_ma/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:54.928Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-041",
+        "name": "Reddit — r/homeowners on Reddit: Pella 250 Vs Simonton 6500",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Pella 250 series is aluminum reinforced frames. I have them they look great and I got the sun defense glass. No hot sun comes threw. I had also every window in all my properties. Pella by far comes ou",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/14mpzi5/pella_250_vs_simonton_6500/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:55.551Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-042",
+        "name": "Reddit — r/HomeImprovement on Reddit: Window Advice: Pella 250 vs Mil",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Did auto lock windows and hidden screen with the foam insulation in the frame. Supposedly Pella is really solid and the price wasn&#x27;t that different, but we&#x27;ll see! I think the only thing abo",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/190gd8w/window_advice_pella_250_vs_milgard_tuscany/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:56.389Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-043",
+        "name": "Reddit — r/HomeImprovement on Reddit: 29k window quote from Pella",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Just prior to Covid I got two fixed 4 ft wide floor to ceiling windows and an 8 ft slider, black exterior, white interior for just over $8,000 including install. Surprised your quote does not include ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1kxxamr/29k_window_quote_from_pella/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:56.194Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-044",
+        "name": "Reddit — r/HomeImprovement on Reddit: Anderson VS. Pella window and d",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "How are people getting Andersen, Pella, etc. windows installed for $1,000 per window? ... Anderson 100 series vs. Pella 250",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1b6kj76/anderson_vs_pella_window_and_doors/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:56.202Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-045",
+        "name": "Reddit — r/homeowners on Reddit: DO NOT BUY Pella Windows and Doors u",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "As a builder I have used Pella windows often over the past 40 years and have always been happy with the result until my most recent experience with the Pella Lifestyle series. The fit and finish is no",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/16h258r/do_not_buy_pella_windows_and_doors_until_you_read/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:56.091Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-046",
+        "name": "Reddit — r/homeowners on Reddit: Had to hire a contractor to fix Pell",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I work for avanti, we use pella products and windows, I can assure you these windows are terrible quality compared to other brands, and they also don’t seem to care too much about their customers eith",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/123w2yp/had_to_hire_a_contractor_to_fix_pellas_botched/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:56.310Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-047",
+        "name": "Reddit — r/homeowners on Reddit: Pella window problems",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Has anyone else had a similar Pella experience? Share ... I have an update...turns out the windows screens &quot;fell off the order&quot; between original bid and final order. There is an independent ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1l496fs/pella_window_problems/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:56.985Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-048",
+        "name": "Reddit — r/homeowners on Reddit: Pella windows and doors- good compan",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Window World is literally the last company you want to use. I have heard multiple horror stories about their installation as well as product quality. ... Pella is super expensive.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/irxcte/pella_windows_and_doors_good_company_and_products/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:56.985Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-049",
+        "name": "Reddit — r/homeowners on Reddit: Pella Windows",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "They have a known problem with their windows that <strong>allows water to get in and it rots the window</strong>. They were sued for this but never actually changed the design and still sell it but lo",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1gqrsgu/pella_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:57.034Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-050",
+        "name": "Reddit — r/Homebuilding on Reddit: Getting shafted with Pella incompe",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Long story short, I’m an owner builder, I ordered my Pella windows back in September and my rep forgot to key in two large picture frame windows that were on our order (and that we paid for). Windows ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/10qhgdx/getting_shafted_with_pella_incompetency_and/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:57.055Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-051",
+        "name": "Reddit — r/Home on Reddit: $50k Pella windows, did I get screwed?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Pella windows should be installed by a Pella authorized contractor. This installation does not meet Pella standards. Much of the damage is unacceptable. Some dings may happen but should be repaired. Y",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Home/comments/1ia59ye/50k_pella_windows_did_i_get_screwed/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:57.013Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-052",
+        "name": "Reddit — r/Home on Reddit: Cold Room New Build Pella Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In my case, you can slide the window open &gt; pull the triggers on the bottom sash &gt; lean window sash in and the screws were hidden there. They should be somewhere alongside the rails. In order to",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Home/comments/1q20ju5/cold_room_new_build_pella_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:57.611Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-053",
+        "name": "Reddit — r/HomeImprovement on Reddit: Pella 250 vs Andersen 100 serie",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Hi! Building a new home in north-central Florida (don&#x27;t need impact windows) what do you think about the Pella 250 series vinyl vs the Andersen 10…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1rlpxj5/pella_250_vs_andersen_100_series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:57.712Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-054",
+        "name": "Reddit — r/Homebuilding on Reddit: 4 panel sliding glass door: Pella",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Thanks for the heads up. I can get the pella for $3452 and the milgard for $4630.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1bcjcz9/4_panel_sliding_glass_door_pella_250_or_milgard/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:57.897Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-055",
+        "name": "Reddit — r/HomeImprovement on Reddit: Pella 250 Replacement Window In",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Thanks for the reply! I know how to use shims for leveling and such. In the Pella instructions they show placing the window on these shims that you tape to the window sill.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/7zs4f0/pella_250_replacement_window_installation/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:57.797Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-056",
+        "name": "Reddit — r/Homebuilding on Reddit: Pella windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "12 votes, 16 comments. <strong>We are building a house and installed around 80+ windows from Pella</strong>. Paid for an upgrade for the SDL grilles and we were…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1aclbhu/pella_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:57.598Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-057",
+        "name": "Reddit — r/Homebuilding on Reddit: Anyone compared Vinylmax vs Pella",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;m working on a full window replacement for a house in Massachusetts. Got a detailed quote from Lowe’s for Pella 250 Series (vinyl, black exterior, white interior).",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1l3z6eu/anyone_compared_vinylmax_vs_pella_250_for_black/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:58.507Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-058",
+        "name": "Reddit — r/buildingscience on Reddit: Cost-Efficient European Style W",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I doubt they are cheap for resi but I’ve used Alpen Tyrol windows as a value item in commercial construction. Stay away from Pella I’ve heard they’re having manufacturing issues",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1ify4x9/costefficient_european_style_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:58.955Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-059",
+        "name": "Reddit — r/buildingscience on Reddit: Zone 3A: Pella Impervia vs Marv",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Looking for what everyone wants-best performance for best cost. What do you think is the best balance between pretty good house and passive? Ideally less than $10,000. I know it will be probably be at",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1qnxixw/zone_3a_pella_impervia_vs_marvin_essential_vs_upvc/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:14:58.563Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-060",
+        "name": "GBA — Logic Vs. Pella - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "I’m currently in the process of building a PGH, and I had a question regarding window selection. I’m new to the high performance world, so I’ve gotten a quote from Pella and Logic. I was really surpri",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/logic-vs-pella",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-PELLA2-061",
+        "name": "GBA — Another triple-pane thread...they just are not making a lot",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "Serious, while good numbers, I am hestiant, like many, of the films so I will make it easy and toss them too. Thermotech has the best numbers of the group, but the price came in pushing double any of ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/another-triple-pane-thread-they-just-are-not-making-a-lot-of-sense",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-PELLA2-062",
+        "name": "Houzz — Pella 250 series vs Renewal by Andersen Fibrex",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This made the whole experience much more efficient and stress-free. ... I am looking to replace my casement windows (17 in total) and have received two quotes. <strong>Pella and Renewal by Andersen</s",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6280564/pella-250-series-vs-renewal-by-andersen-fibrex",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:58.947Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-063",
+        "name": "Houzz — Pella 250 vs Andersen 400?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6318993/pella-250-vs-andersen-400",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:58.475Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-064",
+        "name": "Houzz — Window decision Marvin, Soft-Lite, Pella 250, input requeste",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "While I know these are very different options I have 1 slider and maybe 32 Windows in a new house build and builder suggested Pella and uses them a lot. I will give rough neighborhood n the quotes so ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/3989825/window-decision-marvin-soft-lite-pella-250-input-requested",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:59.561Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-065",
+        "name": "Houzz — CHICAGO PELLA PLATINUM CERTIFIED CONTRACTORS - Project Photo",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/chicago-pella-platinum-certified-contractors-pfvwus-pf~252674424",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:59.552Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-066",
+        "name": "Houzz — PELLA WINDOWS AND DOORS - Project Photos & Reviews - Pella,",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Tired of reading all the DIY tutorials? We are here to help. With over 1 million home professionals on Houzz, you’ll easily find the trusted Replacement Window Contractor for your next project in Pell",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/pella-windows-and-doors-pfvwus-pf~562038467",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:59.552Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-067",
+        "name": "Houzz — Pella Proline Windows \"250 and 450 Series\" ....Any experienc",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We recently purchased a larger home with Pella ProLine 450 Series windows throughout. Many are custom. Not too long ago, we found out that these windows (those manufactured as Pella ProLine brand case",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/425819/pella-proline-windows-250-and-450-series-any-experience-you-can-share",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:59.561Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-068",
+        "name": "Houzz — Andersen 100 and Pella 250 - same quote, which to pick? | Ho",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This made the whole experience much more efficient and stress-free. ... I got a few quotes for <strong>Andersen and Pella Windows</strong> from various dealers on replacement windows: (material only, ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/5936314/andersen-100-and-pella-250-same-quote-which-to-pick",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:14:59.955Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-069",
+        "name": "Houzz — Power Windows vs Pella Direct | Houzz Forum",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This made the whole experience much more efficient and stress-free. ... So I&#x27;ve had 4 different companies come to give me sales pitches for replacing 34 windows in our home. I believe I&#x27;ve n",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/5977508/power-windows-vs-pella-direct",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:00.641Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-070",
+        "name": "Houzz — PAUL RASMUSSEN CONSTRUCTION INC. - Project Photos & Reviews",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Ivy ... *Authorized Pella Certified Contractor* With over 32 years in the business, <strong>Paul Rasmussen Construction</strong> has the skills and experience to take on the most challenging of projec",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/kitchen-and-bath-remodelers/paul-rasmussen-construction-inc-pfvwus-pf~1099999503",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:00.571Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-071",
+        "name": "Houzz — VALDICASS INC. - Project Photos & Reviews - Brookfield, IL U",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/valdicass-inc-pfvwus-pf~345055181",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:00.578Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-072",
+        "name": "ReplacementWindowDiscussions — Window Shopping Dilemma: Andersen 100 or Pella 250 for the B",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "On the other hand, Pella 250s have slightly better insulation ratings and seem to handle temperature swings a bit better. But keep in mind, the vinyl quality on the Pellas isn&#x27;t exactly premium—I",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-brand-comparisons-recommendations/window-shopping-dilemma-andersen-100-or-pella-250-for-the-budget-conscious-homeowner/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:00.675Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-073",
+        "name": "ReplacementWindowDiscussions — thinking about andersen 100 series vs pella 250 windows ...",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-user-reviews-product-experiences/thinking-about-andersen-100-series-vs-pella-250-windows-anyone-have-a-preference/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:00.571Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-074",
+        "name": "ReplacementWindowDiscussions — anyone else had issues with pella window warranty claims?",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/pella-windows/anyone-else-had-issues-with-pella-window-warranty-claims/paged/6/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:01.485Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-075",
+        "name": "ReplacementWindowDiscussions — Thinking about fiberglass windows from Pella, are they worth",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/pella-windows/thinking-about-fiberglass-windows-from-pella-are-they-worth-it/paged/3/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:01.345Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-076",
+        "name": "ReplacementWindowDiscussions — Trying to decide between Andersen and Pella windows—any thou",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I replaced mine with Pella 250 Series last fall—my house is a 1980s ranch, so energy loss was a big deal. I did notice a drop in heating bills, maybe 10-15%. Noise reduction was pretty good, not total",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-brand-comparisons-recommendations/trying-to-decide-between-andersen-and-pella-windows-any-thoughts/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:01.324Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-077",
+        "name": "ReplacementWindowDiscussions — Sticker shock: are Milgard or Pella windows more budget-frie",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "In my experience, Milgard’s warranty is pretty solid and their customer service is decent, especially on the West Coast. Pella’s stuff looks a bit sharper, but repairs or parts can get pricey down the",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/milgard-windows/sticker-shock-are-milgard-or-pella-windows-more-budget-friendly/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:01.244Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-078",
+        "name": "ReplacementWindowDiscussions — My Experience With Pella Windows—Worth the Hype?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We replaced ours with Pella about three years ago, and yeah, the upfront cost was a bit eye-watering. At first, I didn&#x27;t notice much difference, but then winter rolled around...and wow, night and",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/pella-windows/my-experience-with-pella-windows-worth-the-hype/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:02.198Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-079",
+        "name": "ReplacementWindowDiscussions — best windows to keep the chill out—Pella Lifestyle vs. Pella",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Been looking into replacing my old drafty windows before winter hits hard again, and I&#x27;m kinda stuck between Pella Lifestyle and Pella Impervia. Lifestyle seems nice with the wood interior, warme",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/pella-windows/best-windows-to-keep-the-chill-out-pella-lifestyle-vs-pella-impervia/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:02.821Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-080",
+        "name": "ReplacementWindowDiscussions — Are Pella Windows Really Worth the Extra Cash?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The installation went smoothly, and honestly, the performance has been excellent so far. No noticeable drafts or leaks, and our heating bills dropped noticeably during winter months. While Pella undou",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/pella-windows/are-pella-windows-really-worth-the-extra-cash/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:15:02.881Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-081",
+        "name": "ReplacementWindowDiscussions — Page 5 | are Pella windows really worth the extra cash?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "The higher-end Pella lines do have some nice touches—especially if you&#x27;re picky about finishes or hardware—but in terms of pure energy efficiency or noise reduction, the difference isn&#x27;t alw",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/pella-windows/are-pella-windows-really-worth-the-extra-cash-2/paged/5/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:02.987Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-082",
+        "name": "YouTube — Pella 250 Series Single Hung Window - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In this video we take a close look at Pella 250 series Single Hung Window. You will be able to see the interior and exterior design, energy efficiency featur...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=pOuy17LjaGY",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:03.028Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-083",
+        "name": "YouTube — Dan Kittilsen Explains Pella 250 Series Windows - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Dan Kittilsen, President of DJK Custom Homes explains the Pella 250 Series Window. The Pella 250 Series Windows are standard on every new DJK Home.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=x7sY8CmmjUM",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:02.922Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-084",
+        "name": "YouTube — Pella 250 Series Vinyl Windows - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Pella 250 Series Vinyl Windows give your home a high quality look and offer more style features than ordinary vinyl. With the option to choose between double...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=MQRKrTHH65c",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:03.587Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-085",
+        "name": "YouTube — Pella 250 Series Standard and Premium Fixed Panel Replacemen",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Visit pella.com/support for more information",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=76ADxMl2Ljk",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:04.563Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-086",
+        "name": "YouTube — Enhanced Security and Privacy with Pella 250 Series - YouTub",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Pella 250 Series products offer innovative and enhanced security and privacy features for more peace of mind. Made with high-quality, easy-care vinyl, these ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=hzRJ1naDcg0",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:04.083Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-087",
+        "name": "YouTube — Get Enhanced Security and Privacy with Pella 250 Series - Yo",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Enjoy peace of mind with Pella 250 Series windows. Made from our energy-efficient, high-quality vinyl, these windows are backed by a strong warranty. Help pr...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=8CJ3kFhiwEg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:03.632Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-088",
+        "name": "YouTube — Pella 250 Series Standard and Premium Sliding Patio Door Ven",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Visit pella.com/support for more information",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=26_xbJxRrMY",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:03.744Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-089",
+        "name": "YouTube — Pella 250 series - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "A quick intro into one of Pella&#x27;s vinyl product lines#pella #nashville #nashvillerealestate #construction #buildingscience #luxuryhomes",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=Tpmeg2hTd00",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:05.218Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-090",
+        "name": "YouTube — An Innovation Like No Other – Pella 250 Series Hidden Screen",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The latest in a long line of innovations from Pella, this exclusive feature is redefining the game for vinyl windows. Nearly 100 years after our founding, we...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=uteU144zIX8",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:05.153Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-091",
+        "name": "YouTube — Pella 250 Series Premium Hinged Door Weatherstrip Replacemen",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Visit pella.com/support for more information",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=gA0lgQtdxKg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:05.352Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-092",
+        "name": "YouTube — Add Style, Security and Privacy with a Pella 250 Series Slid",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Get the style, security and privacy your home deserves with the Pella 250 Series sliding patio door. Featuring innovative features and styles, like the integ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=CuyF7_rqZUE",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:05.368Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-093",
+        "name": "YouTube (matt risinger) — One Man Window Install from the INSIDE - Pella's Steady Set",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Check out the latest innovation from Pella - the Steady Set window installation system! In this video, Matt Risinger showcases the revolutionary features of ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=Vvy-5yM9NXI",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers"
+      },
+      {
+        "id": "PC-PELLA2-094",
+        "name": "YouTube — Pella Windows Reviews | As Unbiased A Review As You Can Get!",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Welcome to our Pella Windows Reviews video where we&#x27;ll breakdown down the company and discuss what they sell and their overall price point. -- Get free local...",
+        "price_bias": true,
+        "url": "https://www.youtube.com/watch?v=Gtwgb2gy_kk",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:05.405Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-095",
+        "name": "YouTube — Pella Windows and Doors | Consumer Review | Price, Warranty",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "👉Wacky Window Woman Price Comparison Chart for Homeowners: https://wackywindowwoman.com/comparison-chartContact Joe: JoeVirtualView@gmail.comPella was the...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=Qbe_sjdSdTw",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.107Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-096",
+        "name": "YouTube — Pella® Window Installation Process & Performance - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "&quot;Learn about window installation for your new windows. Your new Pella windows must be properly installed to ensure best energy efficiency, performance and co...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=LThwsXMhwiQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.056Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-097",
+        "name": "YouTube — Pella Window Review (TL:DR Don’t do it) - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My review of my experience in buying windows from Pella. #pella #pellawindows",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=W8xDZ_Pmvek",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.004Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-098",
+        "name": "YouTube — Pella® Windows and Doors Installation Methods - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "&quot;Pella&#x27;s window installation and door installation methods ensure maximum performance in our products. Our engineering experts developed unique methods in ou...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=1AWhkY3-mKE",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.065Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-099",
+        "name": "YouTube — Pella Windows and Doors - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Pella’s YouTube channel offers window and door installation instructions, tips on caring for your windows and home, product demonstrations, and information about the company. Pella Corporation is a le",
+        "price_bias": false,
+        "url": "https://www.youtube.com/pellawindowsanddoors",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.089Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-100",
+        "name": "YouTube — Pella's New Window Design is an Installation Game Changer -",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "www.protradecraft.com | SUBSCRIBE, please!https://www.youtube.com/channel/UC-w8-a4UPNynP8v8A4Jlz1w?sub_confirmation=1The world premiere of Pella&#x27;s new window...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=-n6MYqdc29o",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.698Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-101",
+        "name": "YouTube — Pella vs Andersen Windows | Get The Skinny On The Companies,",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Welcome to our Pella vs Andersen Windows video where we&#x27;ll breakdown down the companies, price points, discuss their windows and more. -- Get free local wind...",
+        "price_bias": true,
+        "url": "https://www.youtube.com/watch?v=n0ITU7PQqhQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:15:06.709Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-102",
+        "name": "YouTube — Renewal By Andersen vs Pella | Get The Skinny On These Compa",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Welcome to our Renewal By Andersen vs Pella video where we&#x27;ll breakdown down the companies, price points, discuss the available windows and much more. -- Get...",
+        "price_bias": true,
+        "url": "https://www.youtube.com/watch?v=phO7qXkiThk",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.696Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-103",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PELLA2-104",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PELLA2-105",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PELLA2-106",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PELLA2-107",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PELLA2-108",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PELLA2-109",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.618Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-110",
+        "name": "Pella official technical documentation",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Official Pella technical/performance documentation",
+        "price_bias": false,
+        "url": "https://www.pella.com/resources/energy-performance/",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PELLA2-111",
+        "name": "media.pella.com — DH-1 Product Selection Guide",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "https://media.pella.com/professional/adm/Vinyl250/PellaSKP_250Series_Double-Hung.zip?utm_source=pdfdoc ... Microsoft and Microsoft Word are registered trademarks of Microsoft Corp. ... (1) Published p",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Vinyl250/Pella-250Series_DoubleHung.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-112",
+        "name": "pella.com — Pella Performance Information | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>The lower the U-factor, the less heat transfer occurs through a product</strong>. U-factor is particularly important during the winter heating season in colder climates. For more information s",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/performance-information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-113",
+        "name": "media.pella.com — Pella Architectural Design Manual",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "250 Series Single-Hung · Rev. 02/07/2025 · SH-5 · Glazing Performance - Total Unit · R-Value = 1/U-Factor · SHGC = Solar Heat Gain Coefficient · VLT % = Visible Light Transmission · CR = Condensation ",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Vinyl250/Pella-250Series_SingleHung.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-114",
+        "name": "media.pella.com — FF-1 Product Selection Guide",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "https://media.pella.com/professional/adm/Vinyl250/PellaSKP_250Series_FixedRectangular.zip?utm_source=pdfdoc ... Microsoft and Microsoft Word are registered trademarks of Microsoft Corp. ... S = Standa",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Vinyl250/Pella-250Series_Fixed.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-115",
+        "name": "media.pella.com — 44",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "these numbers with the &quot;whole unit&quot; SHGC ratings and U Factors · printed on the NFRC label found on every Window and door or.",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Misc/Intro-Performance.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-116",
+        "name": "pella.com — Energy Methodology | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The calculations did not include any assumed energy efficiency improvements for improved air infiltration · The existing window selected to compare against in all locations was a wood or vinyl single-",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/energy-methodology/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-117",
+        "name": "media.pella.com — SW-1 Product Selection Guide",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "(2) Published performance data for air infiltration is determined by testing a minimum of four (4) products of NFRC model size. Testing is conducted in accordance with ASTM E283.",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Vinyl250/Pella-250Series_SlidingWindow.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-118",
+        "name": "media.pella.com — Pella® 250 Series Vinyl Windows and Patio Doors",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Pella 250 Series products offer innovative and enhanced security and privacy features for more peace of mind.",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Misc/V250_Overview.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-119",
+        "name": "media.pella.com — 250 Series Sliding Patio Door",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Block Frame.....................................................................................................................................250-SPD-21 · Pella 2024 Architectural Design Manual | Di",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Vinyl250/Pella-250Series_SlidingDoor.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-120",
+        "name": "pella.com — Product Disclosures | Pella",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>41.</strong> Pella Impervia sliding patio door sill height is lower than the standard sill heights of all leading national brands. High performance refers to air, water and structural performa",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/warranties/disclosures/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-121",
+        "name": "media.pella.com — Test Report Information Pella® 250 Series Products",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Note: These charts are to be used for documentation of independent testing compliance of published Performance Class &amp; Grade shown in the Design and Performance data",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/CertificationReports/Test_Reports_Vinyl-250.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-122",
+        "name": "pella.com — Shop 250 Series Vinyl Double-Hung Windows Online | Pella",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Cam-Action Locks – Pella standard cam-action locks are designed to increase leverage as the window is closed to assure a superior weathertight seal.",
+        "price_bias": false,
+        "url": "https://www.pella.com/shop/windows/250-series/double-hung-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-123",
+        "name": "media.pella.com — Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/installation/PR_BFI.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-124",
+        "name": "media.pella.com — 250 Series - Installation Details",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Block frame units may be installed (using the <strong>frame screw method</strong>) from either the exterior or interior. • Integral Fin Installation — Allows the door frame to be integrated into the b",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/adm/Vinyl250/V250-InstallDetails.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-125",
+        "name": "media.pella.com — BFRPF – 2 © 2019 Pella Corporation Revised 03/31/2023",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "* <strong>Use Factory Drilled installation holes if present</strong>. ** For DH &amp; SH units &gt;62&quot; tall add 2 screws per jamb, midway between top and bottom pre-drilled holes. *** For light g",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/installation/PR_BFC.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-126",
+        "name": "media.pella.com — Pella Installation Instructions Nail Fin, ...",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "D. For continuous exterior insulation panels up to 1&quot; thick, utilize <strong>standard installation methods</strong>.",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/installation/NC_NFAW.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-127",
+        "name": "media.pella.com — © 2024 Pella Corporation Page 1 of 31 GIF-000002945- Part Nu",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Installation instructions for use with other construction methods or",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/installation/GIF-000002945-_V989415.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-128",
+        "name": "media.pella.com — PELLA INSTALLATION INSTRUCTIONS - ADVANCED PERFORMANCE NAIL",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Note: To maintain proper product performance do not paint, finish or remove the weatherstripping, mohair dust pads, gaskets or vinyl parts.",
+        "price_bias": false,
+        "url": "https://media.pella.com/professional/installation/Nail-Fin_Booklet_IRW.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-129",
+        "name": "pella.com — Window and Door Warranties | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Why am I being charged for service ... components and service labor within a product warranty. <strong>The product warranties cover the cost of labor for the first two (2) years from the date your pro",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/warranties/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-130",
+        "name": "pella.com — The Pella Promise | Pella",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Extra protection for your investment is built in, literally. In addition to our product warranties, you get a <strong>10-year Installation Warranty and Service Agreement</strong>.",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/warranties/pella-care-guarantee/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-131",
+        "name": "pella.com — Arbitration and Class Action Waiver Information | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "View information about the arbitration and class action waiver. If you are dissatisfied with our products or service, please <strong>contact Pella Customer Service</strong>.",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/warranties/arbitration/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-132",
+        "name": "pella.com — Customer Support Center | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "When you order parts online, you’ll receive an email when your products are on their way with a link to track your shipment at any time.",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-133",
+        "name": "pella.com — Shop Window and Door Replacement Parts | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>Virtually any part of your Pella window can be replaced</strong>. From window hardware to installation accessories to sash, panel and frame parts. Discover the parts you need for your project ",
+        "price_bias": false,
+        "url": "https://www.pella.com/shop/parts/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-134",
+        "name": "TheWindowDog — Pella 250 Series Windows Reviews - See Real Reader Feedback",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "With that said, <strong>the 250 series is a decent window model, but not as nice as the higher end options that you can get from other manufacturers</strong>. I don’t know why they discontinued their ",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/pella-250-series-windows-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:15:06.641Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-135",
+        "name": "pella.com — Pella 250 Series Window Ratings & Reviews | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Available with enhanced, innovative security and privacy features, you can have more peace of mind with Pella 250 Series windows.",
+        "price_bias": false,
+        "url": "https://www.pella.com/ideas/windows/250-series/ratings-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-136",
+        "name": "pella.com — 250 Series Vinyl Windows | Pella",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "With multichambered frames and reinforced sashes, Pella 250 Series window frames are <strong>52% stronger than ordinary vinyl and resist warping and twisting</strong>.8 They are made to last with Pell",
+        "price_bias": false,
+        "url": "https://www.pella.com/ideas/windows/250-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-137",
+        "name": "azvalleywindows.com — Understanding The Pella Window Warranty - AZ Valley Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Labor Costs: <strong>Many window warranties exclude labor costs for repair or replacement</strong>. However, Pella’s Limited Lifetime Warranty includes coverage for these costs as well. This means tha",
+        "price_bias": false,
+        "url": "https://azvalleywindows.com/blog/understanding-the-pella-window-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-138",
+        "name": "builddirect.com — Greenguard Certified: What It Means and Why It’s Important",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "In simple terms, <strong>a product with Greenguard certification has passed a test to show that it meets low chemical emissions limits</strong>. That should mean better indoor air quality for consumer",
+        "price_bias": false,
+        "url": "https://www.builddirect.com/blogs/expert-advice-on-flooring/greenguard-certified-what-it-means-and-why-its-important",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:32:15.018Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-139",
+        "name": "parlorcityfurniture.com — What is Greenguard Certification?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The certification <strong>focuses on evaluating the chemical emissions of products and materials used in indoor spaces</strong>. By subjecting products to rigorous testing, Greenguard aims to identify",
+        "price_bias": false,
+        "url": "https://parlorcityfurniture.com/blogs/insights/what-is-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:32:14.949Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PELLA2-140",
+        "name": "pellawi.com — Parts & Service | Pella Windows & Doors of Wisconsin",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "There Are Often Adjustments In Consumer Cost And Other Factors That May Not Apply To This Offer. Only Valid On Select Pella® Products And Installation Methods. Not Valid With Any Other Offer Or Promot",
+        "price_bias": false,
+        "url": "https://pellawi.com/parts-and-service/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-141",
+        "name": "oehha.ca.gov — Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The law <strong>protects the state&#x27;s drinking water sources from being contaminated with chemicals known to cause cancer, birth defects or other reproductive harm</strong>, and requires businesse",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLA2-142",
+        "name": "oehha.ca.gov — About Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65 requires businesses to provide warnings to Californians about <strong>significant exposures to chemicals that cause cancer, birth defects or other reproductive harm</strong>. These chem",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/about-proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      }
+    ],
     "_note": "No professional reviews found from any pool. TheWindowDog, Jay Johnson, GBA, FHB, JLC — no specific 250 Series DH evaluations found. LOW_CONFIDENCE flag should be applied."
   },
   "component_quality": {
     "quality_tier": "standard",
-    "_note": "Standard vinyl frame construction with multi-chamber design. Warm-edge spacer documented but specific type undisclosed. Compression seal system basic."
+    "_note": "Standard vinyl frame construction with multi-chamber design. Warm-edge spacer documented but specific type undisclosed. Compression seal system basic. | Source parser added: Low-E coating, stainless steel spacer, Intercept spacer (PPG), Swiggle Seal spacer, weatherstripping noted, triple-pane available, Fibrex composite material"
   },
   "repairability": {
     "igu_replacement_method": "glass_swap",
@@ -57,5 +2250,28 @@
         "note": "NOT from Pella directly. NOT in NFRC database. Cannot confirm if this is DH-specific or from another configuration. Per rubric, unverified third-party claims do not qualify as PUBLISHED or BOUNDED evidence."
       }
     }
+  },
+  "_source_parser_meta": {
+    "productName": "Pella 250 Series",
+    "config": "DH",
+    "category": "windows",
+    "manufacturer": "Pella",
+    "isInternational": false,
+    "run_date": "2026-03-16T19:33:35.770Z",
+    "total_sources": 138,
+    "pool_a_count": 1,
+    "pool_b_count": 4,
+    "pool_c_count": 82,
+    "reddit_pending": 28,
+    "complaints_found": 3,
+    "certifications_found": 5,
+    "phase_6b_stats": {
+      "total": 177,
+      "relevant": 138,
+      "rejected": 39,
+      "skipped": 35,
+      "fetchFailed": 98
+    },
+    "phase_6b_rejected": 39
   }
 }

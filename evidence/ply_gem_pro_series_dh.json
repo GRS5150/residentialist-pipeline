@@ -4,14 +4,19 @@
   "category": "windows",
   "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-14",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
       "NFRC",
-      "ENERGY_STAR"
+      "ENERGY_STAR",
+      "AAMA",
+      "NAFS",
+      "GREENGUARD",
+      "WERS",
+      "PROP_65_WARNING"
     ],
     "complaints": [
       {
@@ -29,6 +34,45 @@
         "evidence_level": "YELLOW",
         "source": "Consumer complaint patterns (multiple independent reports)",
         "note": "YELLOW — pattern of complaints but individual consumer reports, not systematic testing"
+      },
+      {
+        "id": "MQ-PLYGEM-003",
+        "description": "Class action lawsuit alleges Ply Gem windows have defective seals causing water pooling, moisture transfer, and resulting mold and wood rot damage in a South Carolina neighborhood.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.dwmmag.com/2025/08/06/class-action-lawsuit-alleges-defective-ply-gem-windows-in-south-carolina-neighborhood/",
+        "year": 2025,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PLYGEM-004",
+        "description": "Consumer reports Ply Gem windows as defective with unresolved service issues, escalating to potential lawsuit and attorney general complaint.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/1jlhfyh/ply_gem_windows/",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PLYGEM-005",
+        "description": "Ply Gem windows have poor manufacturing quality checks and a 'fix it in the field' approach to addressing manufacturing defects rather than fixing them at the source.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Calgary/comments/1iuc7uu/im_so_torn_between_lux_window_or_ply_gem_window/",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -41,13 +85,1520 @@
         "sentiment": "mixed",
         "summary": "Described as 'on par or better with most other manufacturers Professional windows' and 'balanced value/quality.' Mixed — adequate but not exceptional.",
         "price_bias": false
+      },
+      {
+        "id": "PC-PLYGEM-002",
+        "name": "replacementwindowsprices.com — Ply Gem Pro Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "For the U-factor on the Ply Gem 800 Series double hung to vary from .36 to .29. Expect the SHGC to vary pretty significantly, anywhere from .40 to .26. The Ply Gem Pro model comes standard as a DP30. ",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsprices.com/reviews/ply-gem-pro-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:38.446Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-003",
+        "name": "replacementwindowsprices.com — Ply Gem Windows Prices And Consumer Reviews",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "The one exception here is the 1500 Collection, which is only offered in the single hung model. Ply Gem 1500 Collection: .35 U-value, .19 Air Infiltration Ply Gem Contractor: .30 U Factor, .27 SHGC, .1",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsprices.com/companies/ply-gem-windows-prices.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:38.230Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-004",
+        "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Durability and Design Flexibility: Dual-seal systems are <strong>designed to absorb stress caused by thermal expansion and contraction</strong>. This ability increases durability, with sealed IGU last",
+        "price_bias": false,
+        "url": "https://vistaza.com/warm-edge-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:38.107Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-005",
+        "name": "frontierwindows.net — A W H O L E N E W P O I N T O F V I E W. W E S T",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Ply Gem Replacement Pro windows and patio doors with the",
+        "price_bias": false,
+        "url": "https://www.frontierwindows.net/wp-content/uploads/2019/09/PlyGem-Pro200-Series.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-006",
+        "name": "homedepot.plygemwindows.com — Pro Series - Ply Gem",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>Screens out up to 71% of damaging UV rays that cause interior fading while allowing warmth and light into your home</strong> ... Standard Argon gas, which is six times denser than air, is seal",
+        "price_bias": false,
+        "url": "https://homedepot.plygemwindows.com/windows/simonton-pro-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-007",
+        "name": "homedepot.plygemwindows.com — Ply-Gem-Installation-Instructions.pdf",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The steps in these instructions will help you properly install your Ply Gem Windows.",
+        "price_bias": false,
+        "url": "https://homedepot.plygemwindows.com/wp-content/uploads/2020/02/Ply-Gem-Installation-Instructions.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-008",
+        "name": "protradecraft.com — 5 Window Installation Tips and A MultiSlide Patio Door from",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The doors ride on stainless steel rollers embedded in the bottom, and weatherstripping seals the door to the sill track. <strong>The first panel is installed on the innermost track, at the top first.<",
+        "price_bias": false,
+        "url": "https://www.protradecraft.com/home/video/55182015/5-window-installation-tips-and-a-multislide-patio-door-from-ply-gem",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-009",
+        "name": "YouTube — Ply Gem Windows How-To - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "At Ply Gem Windows, we are dedicated to providing information and resources to make our customers’ lives simpler. With that in mind, we are creating educatio...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/playlist?list=PLPSy0J12psw4TCWKPZ5vNRFbta9EZM4HM",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:38.107Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-010",
+        "name": "rkcconstruction.com — L I F E T I M E L I M I T E D WARRANTY",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "... In the event the original property ... to the subsequent · property owner/consumer; however, coverage will be twenty (20) years for material and <strong>five (5) years</strong> for labor......",
+        "price_bias": false,
+        "url": "https://rkcconstruction.com/wp-content/uploads/2017/07/Plygem-Warranty.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-011",
+        "name": "Today's Homeowner — Ply Gem Windows Review: Read This Before Installing (2026) |",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Their labor warranty is weak — just <strong>one year on select window lines, and none at all on others</strong>. Compared to brands that back their installation with strong guarantees, this can be a d",
+        "price_bias": true,
+        "url": "https://todayshomeowner.com/windows/reviews/ply-gem-windows-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:38.269Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-012",
+        "name": "images.thdstatic.com — REGISTERED 15-YEAR LIMITED WARRANTY",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "<strong>the event of a transfer of this Warranty, this Warranty may not be further transferred</strong>. ... defect in the manufacture of the Product, at our sole option, we will either repair, replac",
+        "price_bias": false,
+        "url": "https://images.thdstatic.com/catalog/pdfImages/da/daf6faee-49c3-4b06-b29e-c3bb031ef742.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-013",
+        "name": "bbb.org — Ply Gem Siding Group | BBB Complaints | Better Business Bure",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I built my home in 2016, I selected Forest Ridge siding by PG from Ply Gem for my siding from WI Home Builders in Appleton, WI. It was installed in roughly Oct 2016. Since then, it has faded 3x. To da",
+        "price_bias": false,
+        "url": "https://www.bbb.org/us/mo/kansas-city/profile/siding-contractors/ply-gem-siding-group-0714-99141129/complaints",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:39.331Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-014",
+        "name": "dwmmag.com — Class Action Lawsuit Alleges Defective Ply Gem Windows in So",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "<strong>Defects have resulted in water pooling and moisture transfer to window frames, sills and adjacent walls</strong>, plaintiffs allege, resulting in “potentially mold, wood rot, and other harmful",
+        "price_bias": false,
+        "url": "https://www.dwmmag.com/2025/08/06/class-action-lawsuit-alleges-defective-ply-gem-windows-in-south-carolina-neighborhood/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-015",
+        "name": "Reddit — r/Homebuilding on Reddit: Ply Gem Windows",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I recently tracked down the VP in charge of service who also promised to have someone follow up. At this point my intent is to either file a lawsuit or a complaint to the attorney general or both. The",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1jlhfyh/ply_gem_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:39.005Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-016",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Products that have achieved GREENGUARD ... chemical emissions standards, helping to reduce indoor air pollution and the risk of chemical exposure. The GREENGUARD Certification Program identifies low-e",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-017",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "with GREENGUARD Certification (formerly known as · GREEN GUARD Indoor Air Quality Certification) are · <strong>compliant with stringent emission levels for over 360</strong> · VOCs, plus a limit on th",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-018",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Airing out certain products like furniture and mattresses limits the emissions. Yes, plants can absorb VOCs. Growing indoor plants is a great way to reduce chemical pollutants in your home. Peace lili",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-019",
+        "name": "mpglobalproducts.com — What is GREENGUARD Gold Certification? - MP Global Products,",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>Its standards require that all products should be tested yearly for over 10,000 different volatile organic compounds (VOCs).</strong> However, the certification process is meant for a diverse ",
+        "price_bias": false,
+        "url": "https://mpglobalproducts.com/what-is-greenguard-gold-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:39.053Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-020",
+        "name": "naturepedic.com — Mattress Off-Gassing Toxic VOCs? GREENGUARD Can Help",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Earning a GREENGUARD Gold certification isn’t as simple as filling out paperwork. Products go through a scientific, third-party testing process that measures emissions over time, and only those that m",
+        "price_bias": false,
+        "url": "https://www.naturepedic.com/blog/why-greenguard-gold",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-021",
+        "name": "mychemicalfreehouse.net — Making Sense of Green Certifications: GreenGuard, Floorscore",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Chemical substances (on the CREL or other lists) that are not VOCs (e.g., metals, acids, semi-VOC plasticizers (eg, phthalates), semi-VOC pesticides/biocides) are not required to be analyzed under thi",
+        "price_bias": false,
+        "url": "https://www.mychemicalfreehouse.net/2020/12/what-green-certifications-mean-for.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:39.295Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-022",
+        "name": "ply-gem.pissedconsumer.com — Ply Gem Customer Service Phone Number 1 (888) 975-9436, Emai",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Was referred to a Ply gem supplier who asked for info I did not have&gt; Gave him dimensions of sash I needed replaced. He said he would get back to me. Have heard nothing. ... Ordered parts for my wi",
+        "price_bias": false,
+        "url": "https://ply-gem.pissedconsumer.com/customer-service.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:40.515Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-023",
+        "name": "homedepot.com — Ply Gem - Doors & Windows - The Home Depot",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Get to know the essential parts and terms to make informed decisions for your project. Designed for new construction and renovation projects in the Southern and Western USA, Ply Gem offers complete ex",
+        "price_bias": false,
+        "url": "https://www.homedepot.com/b/Doors-Windows/Ply-Gem/N-5yc1vZaqihZd4s",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:41.068Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-024",
+        "name": "homedepot.com — Ply Gem - The Home Depot",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Get free shipping on qualified Ply Gem products or Buy Online Pick Up in Store today.",
+        "price_bias": false,
+        "url": "https://www.homedepot.com/b/Ply-Gem/N-5yc1vZd4s",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:41.299Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-025",
+        "name": "glassmaninc.com — Ply Gem Windows | Installation - Replacement - Repair | Glas",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Outstanding service. Gary, was very helpful. He helped me. Got the part I needed. I bought a shower door from them.",
+        "price_bias": false,
+        "url": "https://glassmaninc.com/residential/windows/ply-gem/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-026",
+        "name": "GBA — Simonton or PlyGem Windows? - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Up in my neck of the woods, production builders use PlyGem or Jeldwen vinyl. All triple glazed b/c code and nothing under U 0.30 Both work fine because if they didn&#x27;t, builders would change suppl",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/simonton-or-plygem-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-027",
+        "name": "GBA — Fine Homebuilding subscription questions - GreenBuildingAdvi",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Hello all. I didn’t get a response from the Taunton email, so I will ask here. I went to recently renew/reinstate my GBA membership and noticed the FineHomeBuilding option. Since […]",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/membership-finehomebuilding-qs",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-028",
+        "name": "Reddit — r/HomeImprovement on Reddit: Is anyone here a member of Gree",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Create the following style and apply to greenbuildingadvisor.com: ... No more pop-ups, no more restrictions on scrolling up and down the pages. Considering most of the content on their website, especi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/58txyh/is_anyone_here_a_member_of_green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:41.064Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-029",
+        "name": "Reddit — r/Homebuilding on Reddit: Is this… overkill?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "You will want a vapor permeable Water Resistant Barrier over your sheeting’s outside then insulation outside of that. Zip Sheeting will do you well, comes with the WRB on it already but I prefer liqui",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/14b9xi6/is_this_overkill/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:41.106Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-030",
+        "name": "Reddit — r/Homebuilding on Reddit: DIY basement insulation",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Most people are not aware of the research, experimenting, and peer review that has occurred. You can read the professional papers over the internet at BuildingScience(dot)com Understanding Basements B",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1e0v85m/diy_basement_insulation/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:41.240Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-031",
+        "name": "GBA — 1952 Cape Cod - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Hello, First-time poster. In the past 2 months, I’ve read a hundred or so GBA articles and comment threads; I’ve been amazed by the expertise and generosity of the community. I’ve also read extensivel",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/1952-cape-cod",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-032",
+        "name": "Reddit — r/Homebuilding on Reddit: Rough cost estimates of finished p",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Normal studs function as posts holding up load, shear is provided by layers of reinforced wire mesh plaster. https://www.finehomebuilding.com/2018/10/10/houses-design-case-straw-bale-houses · https://",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/jsne1f/rough_cost_estimates_of_finished_polebarn_vs/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:41.903Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-033",
+        "name": "vinyl-replacement-windows.com — Ply Gem Pro Series vs Deceuninck Energex- Discussion Board F",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Assuming that is up to par at Genex, it should actually be a great choice. <strong>The Plygem Pro is okay. Not bad, not great. I&#x27;d recommend the Premium as a potentially closer comparison, althou",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=5694",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:42.106Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-034",
+        "name": "replacement-windows.com — Ply Gem Pro vs. Premium -- on the West Coast - Replacement W",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Concerning the Ply-Gem windows, <strong>I have a preference of the Premium over the Pro primarily because of the extra insulation</strong> (energy efficiency is something I am going for, especially gi",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=4333",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:42.128Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-035",
+        "name": "replacement-windows.com — Ply Gem Pro Series vs Mi Designer Series - Replacement Windo",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I&#x27;m not familiar with which product that they designate as designer, but in my experience, all of their other products leave much to be desired. <strong>The ply gem pro is a decent middle of the ",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=4778",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:42.081Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-036",
+        "name": "homewindowreplacementcost.com — Ply Gem Window Reviews | Unbiased Ratings, Great Pro Tips",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Browse Ply Gem window reviews from contractors and homeowners on their Contractor, Pro and Premium windows.",
+        "price_bias": false,
+        "url": "https://www.homewindowreplacementcost.com/reviews/ply-gem-window-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-037",
+        "name": "replacementwindowsreviews.co — Ply Gem Windows Reviews And Ratings",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Explore Ply Gem Windows reviews and ratings from contractors and homeowners on their most popular window and door series.",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsreviews.co/company/ply-gem-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:42.414Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-038",
+        "name": "Houzz — Ply-Gem Pro Series 700 vs. Andersen 100 Series",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Efficiency and light transmission are important to us. We also want a window that will last. Please provide comments and opinions below to help us decide. Thanks! ... Andersen 100&#x27;s out of those ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6111873/ply-gem-pro-series-700-vs-andersen-100-series",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:42.954Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-039",
+        "name": "brennancorp.com — Andersen vs. Ply Gem Windows - Replacement Windows Review",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "When you’re looking to replace windows in your home, it’s often hard to know which vendor to select - it’s so hard to look at your options without a direct, side-by-side comparison. Well, we’ve decide",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/andersen-vs-ply-gem-windows-replacement-windows-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-040",
+        "name": "saferproducts.gov — Home - SaferProducts",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Your report will let CPSC and other Americans know you found a dangerous product.",
+        "price_bias": false,
+        "url": "https://www.saferproducts.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-041",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Prop 65 warnings are required under California law only. These warnings are seen throughout California in a wide range of settings, including but not limited to restaurants, grocery stores, hotels, sc",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-042",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "For those of you not familiar, California has a well-intended but poorly-executed proposition called Prop 65 (https://oehha.ca.gov/proposition-65/about-proposition-65) that is intended to warn consume",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:42.969Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-043",
+        "name": "Reddit — r/HomeImprovement on Reddit: Cheapest place to buy windows?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "They then provided a with/without install labor cost. Quotes range a great deal by region, so I’m not sure that pricing is that helpful, but for 10 windows delivered it was $2600 (Ply Gem Pro Series, ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/pfrv1d/cheapest_place_to_buy_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:42.958Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-044",
+        "name": "Reddit — r/Calgary on Reddit: I'm so torn between lux window or Ply G",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Go with Lux <strong>the quality checks with Ply Gem at the manufacturing level are poorly done</strong> and the company has a ‘fix it in the field’ mentality rather than addressing the manufacturing d",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Calgary/comments/1iuc7uu/im_so_torn_between_lux_window_or_ply_gem_window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:45.700Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-045",
+        "name": "Reddit — r/Homebuilding on Reddit: Ply gem MIRA windows",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Here’s how many igu failures I’ve had with Ply Gem Mira windows, had to replace myself. Have about 10-15 more replacements that I have to apply finish to, swap hardware from old sashes and install. An",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1njo1fk/ply_gem_mira_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:43.063Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-046",
+        "name": "Reddit — r/HomeImprovement on Reddit: Experiences with Ply Gem window",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Just got a very reasonable (too reasonable?) quote for some Ply Gem windows. I have no experience with this as this is my first time having windows replaced. Anyone have any experience with these or i",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/imjed4/experiences_with_ply_gem_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.364Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-047",
+        "name": "Reddit — r/HomeImprovement on Reddit: Considering DIY window replacem",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Am I crazy for seeing all the upsides to the off-the-shelf Home Depot route? Note: the primary concern I&#x27;ve heard about the Ply Gem windows is that in my area (CA) <strong>they use a green tint t",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/udhcfv/considering_diy_window_replacement_with_home/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.299Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-048",
+        "name": "Reddit — r/HomeImprovement on Reddit: Am I too picky? PlyGem warranty",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Several of my 6 year old PlyGem windows had buildup and other stuff growing between panes so I had them replaced under warranty. Every replacement…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/xz05d3/am_i_too_picky_plygem_warranty_replacement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.333Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-049",
+        "name": "Reddit — r/Homebuilding on Reddit: Plygem 1100 vs 1500 windows - need",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Plygem is <strong>low to mid-range quality at best</strong>. If you are on a tight budget, there are many better options on the market, so a few things to consider when approaching a windows project: ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/16xwxiv/plygem_1100_vs_1500_windows_need_to_order_today/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:37:46.298Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-050",
+        "name": "Reddit — r/Homebuilding on Reddit: Andersen vs Ply Gem Silver Line wi",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Silver line is opening price point vinyl. Quality has been real bad last few years. Go with Andersen 100 every day of the week. ... So, I went to my local HD today and checked out their display window",
+        "price_bias": true,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1byhsmw/andersen_vs_ply_gem_silver_line_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.298Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-051",
+        "name": "Reddit — r/homeowners on Reddit: Opinions wanted: entry-level vinyl w",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I can’t find anything on Plygem windows really. Were also considering Plygem Pro 200 on west coast and Milgard Tuscany ... We ended up going with Marvin fiberglass actually. It didn’t cost that much m",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1c0saj2/opinions_wanted_entrylevel_vinyl_windows_milgard/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.935Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-052",
+        "name": "Reddit — r/HomeImprovement on Reddit: ply gem vs pella windows?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Milgard may not be considered high-end, but they&#x27;re a good quality manufacturer that stands behind their product; IMHO. ... Wood or vinyl? Stay away from Pella vinyl windows. The Ply Gem Pro is a",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/pnp0fx/ply_gem_vs_pella_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.919Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-053",
+        "name": "Reddit — r/Homebuilding on Reddit: Which is better: Ply-Gem Pro Serie",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Does anyone have a recommendation on vinyl windows for new construction? I&#x27;m comparing Ply-Gem Pro Series Classic against Pella Encompass or maybe…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1fj9ugd/which_is_better_plygem_pro_series_classic_vs/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.990Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-054",
+        "name": "Reddit — r/Homebuilding on Reddit: Variform siding by Ply Gem - has a",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We really like their Sagebrook color. We&#x27;re having a very hard time finding siding in a color we like. We&#x27;re doing vinyl siding, primarily in a cedar…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1ipt6ot/variform_siding_by_ply_gem_has_anyone_used_it/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.907Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-055",
+        "name": "Reddit — r/Homebuilding on Reddit: Board and batten siding by PLY GEM",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Which color should I choose? The siding is by ply gem mastic I’m thinking something grey. I have white windows and will have white trims. Please help!! Also, does anyone have experience with the board",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1f682y2/board_and_batten_siding_by_ply_gem_mastic_which/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:46.943Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-056",
+        "name": "Houzz — Ply Gem Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Thanks for your response.....have ... proposed builder has utilized their contractor line in several custom homes.....had good success installing them. I don&#x27;t know that we would use the contract",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2630615/ply-gem-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:47.495Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-057",
+        "name": "Houzz — Vinyl - Plygem vs Simonton, need help ASAP",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I know that installation has much to do with the final product and in that area I feel good. Should I press our builder to look into the <strong>Simonton ProFinish Contractor</strong> series instead?",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2632150/vinyl-plygem-vs-simonton-need-help-asap",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:47.496Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-058",
+        "name": "Houzz — Ply gem Pro 200 vs. Comfort Design (CDI). which is better? |",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I have 3 bids for 12 windows &amp; a sliding glass door Plygem Pro 200 triple pane (.21 U value) $8,800 Comfort Design Comfort Series (.28 U value) $7,800 Milgard Tuscany 0.28 U value $12,300 The only",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/4242685/ply-gem-pro-200-vs-comfort-design-cdi-which-is-better",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:37:47.734Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-059",
+        "name": "Houzz — New Construction Window Options",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/5990491/new-construction-window-options",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:47.582Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-060",
+        "name": "Houzz — Ply Gem Pro 200 cost and buyer's remorse",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2630058/ply-gem-pro-200-cost-and-buyer-s-remorse",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:47.558Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-061",
+        "name": "Houzz — Ply Gem 1500 - Is this a new name for their builder grade?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Houzz Pro vs. Ivy ... Finding limited information on this other than the fact they consolidated a lot of their similar windows into one series known as the &quot;1500&quot; series. Another note... jus",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/3006999/ply-gem-1500-is-this-a-new-name-for-their-builder-grade",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.321Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-062",
+        "name": "Houzz — Ply Gem or Atrium?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Houzz Pro vs. Ivy ... I have a quote in hand for windows for our new construction carriage house. Here are the basics: 7 windows (6 sliders, 1 fixed, all of them either 4&#x27;x4&#x27; or close to it)",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2642275/ply-gem-or-atrium",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.292Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-063",
+        "name": "Houzz — Ply-Gem vs Jeld-Wen vs Milgard vs Andersen vs ?? windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6087818/ply-gem-vs-jeld-wen-vs-milgard-vs-andersen-vs-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.314Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-064",
+        "name": "Houzz — Ply Gem 4800 series windows.",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6082670/ply-gem-4800-series-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.296Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-065",
+        "name": "YouTube — Ply Gem Pro Series Sliding Doors - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The Ply Gem Pro 960 and Pro 980 series sliding glass doors California vinyl retrofit style frames.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=ln9JKJRQ1Lg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.287Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-066",
+        "name": "YouTube — Home Depot Custom Impact Window NIGHTMARE! (Ply Gem/American",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Planning on purchasing a Ply Gem (American Craftsman) window at Home Depot for your home? If so, you&#x27;ll definitely want to watch this video regarding quality...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=n9i5lEcK0vI",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.962Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-067",
+        "name": "YouTube — Review of the Ply Gem Patio Door #plygem #replacementwindows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "A review of the Ply Gem sliding patio door. It’s a pretty good entry level product at an affordable price. @PlyGem @moderncogroup",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=OXzDkORBUpw",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:49.046Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-068",
+        "name": "YouTube — Ply Gem Window Mulbar Installation - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Step by step demonstration of joining two Ply Gem 510 series windows with a Mulbar.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=kfbGGbqzxFo",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.962Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-069",
+        "name": "YouTube — Ply Gem - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Ply Gem, a leader in the exterior building products space, provides informational videos on their YouTube channel.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/channel/UCA0zA4kKyYAya2M3bQD1UPQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.962Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-070",
+        "name": "YouTube — Experience the Ply Gem Difference | Our Commitment to Excell",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Join us on a virtual tour of our cutting-edge facilities to witness firsthand the rigorous quality measures we employ at every stage of production. Our dedic...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=Marv8yZyI6U&pp=0gcJCdgAo7VqN5tD",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:48.962Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-071",
+        "name": "YouTube — Hidden costs of low end replacement windows: American Crafts",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In this short, I show the hidden time costs of prepping low-end windows, in this case American Craftsman Ply gem 70 replacement windows. I quickly work throu...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/shorts/_nw1DoTTSvg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:49.601Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-072",
+        "name": "YouTube — Ply Gem 1500 Window Collection Installation - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "The 1500 collection consolidates the company&#x27;s multiple vinyl window options into one platform. It comes with jamb alignment clips to help center the window ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=jgCsV0lHlG0",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:50.309Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-073",
+        "name": "YouTube — Why Work At Ply Gem Windows & Doors - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "What makes Ply Gem Windows &amp; Doors a great place to work? Hear from one of our employees about their experience working at Ply Gem. #PlyGem #manufacturingemp...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=-vP-6vUw9Tg&pp=ygUNI2JhbmdsYWdlbXBseQ%3D%3D",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:49.678Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-074",
+        "name": "YouTube — Ply Gem Pro 200 Series windows - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Ply Gem Pro 200 series California vinyl retrofit and replacement windows.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=xJrwyFjI4IU",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:49.565Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-075",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PLYGEM-076",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PLYGEM-077",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PLYGEM-078",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PLYGEM-079",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PLYGEM-080",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PLYGEM-081",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:37:49.628Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-082",
+        "name": "Ply Gem official technical documentation",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Official Ply Gem technical/performance documentation",
+        "price_bias": false,
+        "url": "https://www.plygem.com/resources/",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-PLYGEM-083",
+        "name": "plygem.com — Resources for Window Professionals - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "This specialized Low-E glass allows the sun’s warmth to help with heating a home. Window Styles &amp; Air Infiltration Controlling drafts is essential for maintaining home comfort and energy efficienc",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows-doors/for-window-pros/technical-data/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-084",
+        "name": "plygem.com — Product Literature - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Mix and match Ply Gem siding, stone, trim and accessories to create the perfect exterior aesthetic for any home. Start designing here · Welcome to the literature library. Here you’ll find product broc",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows-doors/support/literature-library/specification-sheets/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-085",
+        "name": "plygem.com — ENERGY STAR® Windows & Doors - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>The lower the U-factor, the longer it takes for heat to pass through the window, meaning less energy is required to maintain steady indoor temperatures</strong>. SHGC refers to a window’s capa",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows-doors/windows-ideas-learning/energy-star-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-086",
+        "name": "plygem.com — Plygem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Ply Gem is the #1 exterior home building products manufacturer in North America. Browse our vast selection of residential building products.",
+        "price_bias": false,
+        "url": "https://www.plygem.com/wp-content/uploads/2018/10/3707145291101-West-Builder-Contractor-400-Series-Brochure_RevB_Aug-2015_WEB-3.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-087",
+        "name": "pella.com — Pella Performance Information | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>The lower the U-factor, the less heat transfer occurs through a product</strong>. U-factor is particularly important during the winter heating season in colder climates. For more information s",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/performance-information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-088",
+        "name": "plygem.com — Your Window Glossary - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>DP CERTIFIED</strong> – Ply Gem windows are tested to meet the air, water and structure requirements of AAMA/WDMA 101/I.S.2.",
+        "price_bias": false,
+        "url": "https://www.plygem.com/ideas-inspiration/blog/your-window-glossary/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-089",
+        "name": "plygem.com — Warranty Information for Windows & Patio Doors - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Design Pressure (DP) focuses on ... or deforming. Performance Grade (PG) <strong>evaluates multiple aspects of window and door performance, including structural strength, air infiltration resistance a",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-090",
+        "name": "plygem.com — WINDOWS & PATIO DOORS CONSUMER LIFETIME WARRANTY",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Product Ratings: Ply Gem Windows’ products are often designed and tested in · accordance with required standard procedures established by industry association · such as the American Architectural Manu",
+        "price_bias": false,
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Windows%20Website/Warranties/PGW_East-Replacement-Series-Warranty_3751107771143.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-091",
+        "name": "plygem.com — For Pros - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Simonton Inovo Sliding Door features A variety of colors, hardware, glass, grilles and screens to fit any design aesthetic Premium vinyl is durable, thermal efficient and resistant to weather, insects",
+        "price_bias": false,
+        "url": "https://www.plygem.com/siding/for-pros/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-092",
+        "name": "plygem.com — Ply Gem Performance Technical Data",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Mix and match Ply Gem siding, stone, trim and accessories to create the perfect exterior aesthetic for any home. Start designing here · Welcome to the literature library. Here you’ll find product broc",
+        "price_bias": false,
+        "url": "https://www.plygem.com/siding/for-siding-pros/technical-data/ply-gem-performance-technical-data/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-093",
+        "name": "plygem.com — Energy Efficiency - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The warm-edge glass spacer system <strong>separates glass panes and seals in gases in the insulating glass unit</strong>. Its U-shaped design interrupts the natural temperature flow for increased ener",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows-doors/windows-ideas-learning/energy-efficiency/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-094",
+        "name": "plygem.com — Installation Instructions - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Browse our guides, for step-by-step instructions with detailed visuals to ensure a smooth installation process. Consult your local building codes, customs and building practices for any additional ins",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows/installation-instructions/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-095",
+        "name": "plygem.com — East Pro Series Windows - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Keep Weather Out. Each window is designed with multiple layers of strategically placed weatherstripping for excellent protection against wind and rain.",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows/products/east-pro-series-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-096",
+        "name": "plygem.com — Ply Gem East Pro Series - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proper Installation Window and door efficiency and performance rely on correct installation using flashing and insulating foam to add an extra barrier against air leaks. Be sure to follow the manufact",
+        "price_bias": false,
+        "url": "https://www.plygem.com/ply-gem-east-pro-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-097",
+        "name": "plygem.com — Installation Guide",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Ply Gem is the #1 exterior home building products manufacturer in North America. Browse our vast selection of residential building products.",
+        "price_bias": false,
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-098",
+        "name": "plygem.com — East Pro Series Patio Doors - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Weather Resistant Design. Welded frame and panels with full perimeter weatherstripping and interlocking components help shield your build from wind and rain.",
+        "price_bias": false,
+        "url": "https://www.plygem.com/doors/products/east-pro-series-patio-doors/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-099",
+        "name": "plygem.com — Warranty Information - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Mix and match Ply Gem siding, stone, trim and accessories to create the perfect exterior aesthetic for any home. Start designing here · Warranty coverage for The Ply Gem Portfolio is considered among ",
+        "price_bias": false,
+        "url": "https://www.plygem.com/support/warranty-information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-100",
+        "name": "plygem.com — Siding Warranty Information - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Learn more about your warranty coverage by clicking here. <strong>Yes – Ply Gem portfolio warranties are transferrable to the next owners</strong>. Taking a minute to transfer the warranties ensures t",
+        "price_bias": false,
+        "url": "https://www.plygem.com/siding/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-101",
+        "name": "plygem.com — Contact - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Have questions about the Ply Gem Portfolio? Ply Gem, Mastic and Variform are supported by a nationwide team that is ready to assist.",
+        "price_bias": false,
+        "url": "https://www.plygem.com/contact/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-102",
+        "name": "plygem.com — Support - Ply Gem",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Whether you’re a homeowner looking for a professional to help with installation or a pro interested in purchasing Ply Gem brands and product lines, we’ve got you covered.",
+        "price_bias": false,
+        "url": "https://www.plygem.com/support/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-103",
+        "name": "plygem.com — Warranty Request",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.plygem.com/windows-doors/support/warranty/warranty-request/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
       }
     ],
     "_note": "Single Pool B source with mixed sentiment. Limited professional evaluation data available."
   },
   "component_quality": {
     "quality_tier": "standard",
-    "_note": "Multi-chamber vinyl construction. Standard Intercept spacer system (aluminum-based). Argon gas fill, standard low-E glass."
+    "_note": "Multi-chamber vinyl construction. Standard Intercept spacer system (aluminum-based). Argon gas fill, standard low-E glass. | Source parser added: Low-E coating, dual-seal IGU, weatherstripping noted, vinyl-clad, triple-pane available"
   },
   "repairability": {
     "igu_replacement_method": "glass_swap",
@@ -55,8 +1606,8 @@
   },
   "performance": {
     "thermal": {
-      "u_factor": null,
-      "u_factor_source": null,
+      "u_factor": "0.30",
+      "u_factor_source": "https://www.greenbuildingadvisor.com/question/simonton-or-plygem-windows",
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 5.5,
       "note": "NFRC certified, Energy Star qualified. Multi-chamber vinyl frame. No specific DH U-Factor published."
@@ -77,5 +1628,28 @@
       "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for vinyl material class. Actual performance may be significantly better.",
       "non_disclosure_flag": true
     }
+  },
+  "_source_parser_meta": {
+    "productName": "Ply Gem Pro Series",
+    "config": "DH",
+    "category": "windows",
+    "manufacturer": "Ply Gem",
+    "isInternational": false,
+    "run_date": "2026-03-16T19:38:25.525Z",
+    "total_sources": 105,
+    "pool_a_count": 3,
+    "pool_b_count": 3,
+    "pool_c_count": 55,
+    "reddit_pending": 19,
+    "complaints_found": 3,
+    "certifications_found": 7,
+    "phase_6b_stats": {
+      "total": 144,
+      "relevant": 105,
+      "rejected": 39,
+      "skipped": 32,
+      "fetchFailed": 59
+    },
+    "phase_6b_rejected": 39
   }
 }

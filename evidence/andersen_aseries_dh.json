@@ -108,6 +108,110 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-008",
+        "description": "Vinyl track on A-Series sliding doors warps in sun causing screen door to fall out, affecting multiple units with unresolved distributor support.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.bbb.org/us/mn/bayport/profile/windows/andersen-corporation-0704-18/complaints",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-009",
+        "description": "Class action lawsuit alleging Andersen products contain lower argon gas concentration than advertised and dual seals fail to prevent or slow gas leakage.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.houzz.com/discussions/2633372/andersen-faces-class-action-argon-lawsuit",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-010",
+        "description": "Class action lawsuit investigation into Andersen Windows warranty denial for repair and replacement costs related to product defects.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.complaintsboard.com/andersen-windows-do-not-honor-warranty-c6796",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-011",
+        "description": "Andersen window opening control devices can break or detach after impact, allowing windows to open and posing fall and serious injury hazards, triggering a CPSC recall.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://hbsdealer.com/andersen-recalls-window-opening-devices",
+        "year": null,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-012",
+        "description": "Multiple Andersen windows experiencing cracked or broken window cranks, described as a design defect affecting multiple units.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/11kju78/andersen_window_problems/",
+        "year": 2023,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-013",
+        "description": "Customer reports defective Andersen windows in 9-month-old house with company refusing to work toward resolution, requiring full window replacement.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1ivl7x6/experience_with_andersen_windows/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-014",
+        "description": "Multiple Andersen Series 100 windows developed extensive cracks in sashes and lost glazing beads, with manufacturer refusing warranty coverage despite field inspection.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1faoqgt/andersen_series_100_windows_failure/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-015",
+        "description": "Multiple Andersen windows experienced seal failure and operational defects within 10 years of installation, with one user reporting all windows broken.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
+        "year": 2014,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -2176,6 +2280,136 @@
         "url": "https://www.andersenwindows.com/support/replacement-parts",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-139",
+        "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Durability and Design Flexibility: Dual-seal systems are <strong>designed to absorb stress caused by thermal expansion and contraction</strong>. This ability increases durability, with sealed IGU last",
+        "price_bias": false,
+        "url": "https://vistaza.com/warm-edge-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:54:28.881Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-140",
+        "name": "rbamilwaukee.com — The Role of Window Spacers -",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Double-Seal – <strong>A primary sealant seals the spacer to the glass to prevent gas loss and moisture, while a secondary sealant, usually in the form of silicone, provides structural strength</strong",
+        "price_bias": false,
+        "url": "https://rbamilwaukee.com/blog/the-role-of-window-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:54:28.676Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-141",
+        "name": "GBA — How to weatherstrip Andersen Gliding Window - GreenBuildingA",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "A better explanation may be in the pictures here: http://www.andersenwindows.com/-/media/aw/files/technical-docs/parts-catalog/partscatalog-windows-1940-1971–primedgliding.pdf · The issue is that thes",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/how-to-weatherstrip-andersen-gliding-window",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-142",
+        "name": "bbb.org — Andersen Corporation | BBB Complaints | Better Business Bure",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I have three A-series sliding doors. The vinyl track where the screen door goes in warps in the sun and the door falls out. These are expensive doors and I see on TV that ******** claims they never pu",
+        "price_bias": false,
+        "url": "https://www.bbb.org/us/mn/bayport/profile/windows/andersen-corporation-0704-18/complaints",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T17:54:29.530Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-143",
+        "name": "Reddit — r/HomeImprovement on Reddit: Can you recommend any websites,",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "And finehomebuilding.com too. Similar to family handyman. ... ToH videos are awesome, great source of knowledge. ... Green Building Advisor. Great website and blog on green technologies and building s",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/3tyzsw/can_you_recommend_any_websites_blogs_books_that/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:54:30.823Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-144",
+        "name": "Reddit — r/HomeImprovement on Reddit: Are Renewal By Andersen windows",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Neighbor worked about 20 years for Andersen and told us they are good windows but others are just as good for way less. He put one of the local brands in his last house and said they were the best. Un",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/p8xtw9/are_renewal_by_andersen_windows_truly_worth_the/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T17:54:36.963Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-145",
+        "name": "ReplacementWindowDiscussions — What made me stick with Andersen after shopping around",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/andersen-windows/what-made-me-stick-with-andersen-after-shopping-around/paged/4/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:54:43.939Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-146",
+        "name": "andersenwindows.com — 200 SERIES PRODUCT PERFORMANCE HALLMARK CERTIFICATION",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "In the example above, a <strong>PG 30</strong> performance grade rating, which passes a · 30 psf design pressure, should be used for determining code compliance, not the structural · test pressure of ",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/-/media/Project/AndersenCorporation/AndersenWindows/AndersenWindows/files/technical-docs/performance/performance-windows-patiodoors-performancegrade-airinfiltration-soundtransmissionratings--200series.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
       }
     ]
   },
@@ -2209,25 +2443,25 @@
   "_source_parser_meta": {
     "productName": "Andersen A-Series",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Andersen",
     "isInternational": false,
-    "run_date": "2026-03-16T04:18:28.647Z",
-    "total_sources": 142,
-    "pool_a_count": 7,
+    "run_date": "2026-03-16T17:55:59.547Z",
+    "total_sources": 141,
+    "pool_a_count": 6,
     "pool_b_count": 5,
-    "pool_c_count": 79,
-    "reddit_pending": 30,
-    "complaints_found": 7,
+    "pool_c_count": 81,
+    "reddit_pending": 31,
+    "complaints_found": 8,
     "certifications_found": 7,
     "phase_6b_stats": {
       "total": 184,
-      "relevant": 142,
-      "rejected": 42,
-      "skipped": 25,
+      "relevant": 141,
+      "rejected": 43,
+      "skipped": 26,
       "fetchFailed": 107
     },
-    "phase_6b_rejected": 42
+    "phase_6b_rejected": 43
   },
   "council_resolution": {
     "date": "2026-03-16",

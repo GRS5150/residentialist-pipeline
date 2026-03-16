@@ -174,6 +174,23 @@ const server = http.createServer((req, res) => {
       return;
     }
 
+    // ── Score Dashboard Proxy ──────────────────────────────────────────────
+    if (url.startsWith('/scores')) {
+      const dashPath = url === '/scores' ? '/' : url.replace(/^\/scores/, '');
+      const dashUrl = 'http://127.0.0.1:7824' + dashPath;
+      const proxyReq = http.request(dashUrl, { method: req.method, headers: { 'Accept': req.headers.accept || '*/*' } }, (proxyRes) => {
+        res.writeHead(proxyRes.statusCode, proxyRes.headers);
+        proxyRes.pipe(res);
+      });
+      proxyReq.on('error', (e) => {
+        res.writeHead(502, { 'Content-Type': 'text/html' });
+        res.end('<html><body><h2>Dashboard Not Running</h2><p>Start with: cd dashboard && node dashboard_server.js</p></body></html>');
+      });
+      if (body) proxyReq.write(body);
+      proxyReq.end();
+      return;
+    }
+
     const auth = req.headers['x-api-key'];
     if (auth !== API_KEY) {
       res.writeHead(401, { 'Content-Type': 'application/json' });

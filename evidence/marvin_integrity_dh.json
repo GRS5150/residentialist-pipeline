@@ -107,6 +107,136 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": true,
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-008",
+        "description": "Marvin Integrity windows reported to have air infiltration issues that fail to perform adequately compared to competing products.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://thewindowdog.com/marvin-infinity-reviews/",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-009",
+        "description": "Fiberglass cladding on exterior of window arrived broken during shipment; manufacturer refused replacement claiming notification delay exceeded 90 days.",
+        "classification": "DELIVERY",
+        "evidence_level": "YELLOW",
+        "source": "https://www.bbb.org/us/mn/warroad/profile/windows/marvin-windows-0704-7661/complaints",
+        "year": null,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-010",
+        "description": "Multiple verified complaints report dry wood rot, sash deterioration, and sliding door track failures in Marvin windows and doors, with evidence of a settled class action lawsuit on the same defect is",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.complaintsboard.com/marvin-windows-and-doors-b128568",
+        "year": 2021,
+        "status": "settled",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-011",
+        "description": "Marvin front entry door leaked from day one of installation despite $25,000 cost, with customer reporting seven months of unresolved issues and no repairs from Marvin.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://marvin-windows-and-doors.pissedconsumer.com/complaints/RT-P.html",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-012",
+        "description": "Class action lawsuit against Marvin over rot problems in windows caused by defective wood preservative, settled with customer compensation available by 9/30/2004.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.houzz.com/discussions/2642859/marvin-windows-old-news",
+        "year": 2004,
+        "status": "settled",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-013",
+        "description": "Marvin wood sashes treated with PILT pretreatment experienced deterioration complaints that exceeded complaints about older Penta-treated products from 1990-1992, leading to litigation against PPG Ind",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://caselaw.findlaw.com/court/us-8th-circuit/1203423.html",
+        "year": 1993,
+        "status": "settled",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-014",
+        "description": "Marvin Integrity/Ultrex windows emit strong chemical/fiberglass resin odors that persist over time, causing customer dissatisfaction despite functional performance.",
+        "classification": "COSMETIC",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/cd5q90/how_long_will_marvin_integrity_windows_smell_of/",
+        "year": 2020,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-015",
+        "description": "Multiple Marvin fiberglass windows and patio door experienced cracking and flaking on exterior surfaces within 80 days of installation.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Renovations/comments/1dw5vq9/marvin_window_install_issues/",
+        "year": 2024,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-016",
+        "description": "Marvin Integrity windows experiencing interior wood mold/rotting.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/ztll7r/marvin_essentials_vs_andersen_100_windows/",
+        "year": 2022,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-017",
+        "description": "Marvin Integrity All Ultrex door hinge mechanically slipping, causing operational failure.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.finehomebuilding.com/forum/marvin-integrity-all-ultrex-door-problem",
+        "year": 2013,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -2373,6 +2503,53 @@
         "url": "https://www.marvin.com/support/connected-home",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-157",
+        "name": "complaintsboard.com — Marvin Windows And Doors Homeowners And Builders Reviews 202",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "It turns out <strong>Marvin lost a class action lawsuit on this very issue</strong>. https://www.yourlawyer.com/construction-defects/marvin-windows-lawsuit/. Apparently, their product team feels they ",
+        "price_bias": false,
+        "url": "https://www.complaintsboard.com/marvin-windows-and-doors-b128568",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:44:21.677Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-158",
+        "name": "recalls.gov",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The U.S. Consumer Product Safety Commission (CPSC) has jurisdiction over more than 15,000 kinds of consumer products used in and around the home, in sports, recreation and schools including: · electro",
+        "price_bias": false,
+        "url": "https://www.recalls.gov/cpsc.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-159",
+        "name": "Houzz — Marvin Integrity Wood Ultrex performance? | Houzz Forum",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2647643/marvin-integrity-wood-ultrex-performance",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:44:33.326Z",
+          "text_source": "snippet"
+        }
       }
     ]
   },
@@ -2410,24 +2587,24 @@
   "_source_parser_meta": {
     "productName": "Marvin Integrity",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Marvin",
     "isInternational": false,
-    "run_date": "2026-03-16T04:34:23.665Z",
-    "total_sources": 156,
-    "pool_a_count": 21,
+    "run_date": "2026-03-16T18:46:11.618Z",
+    "total_sources": 148,
+    "pool_a_count": 20,
     "pool_b_count": 3,
-    "pool_c_count": 78,
-    "reddit_pending": 25,
-    "complaints_found": 7,
-    "certifications_found": 6,
+    "pool_c_count": 76,
+    "reddit_pending": 23,
+    "complaints_found": 10,
+    "certifications_found": 5,
     "phase_6b_stats": {
       "total": 187,
-      "relevant": 156,
-      "rejected": 31,
-      "skipped": 21,
-      "fetchFailed": 118
+      "relevant": 148,
+      "rejected": 39,
+      "skipped": 20,
+      "fetchFailed": 111
     },
-    "phase_6b_rejected": 31
+    "phase_6b_rejected": 39
   }
 }

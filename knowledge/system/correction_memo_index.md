@@ -75,3 +75,27 @@ All product-specific correction memos and pre-approved assumptions.
 - **File:** `jeldwen_v2500_dh_correction_memo.md`
 - **Pre-approved specs:** U-Factor 0.27-0.33, ENERGY STAR qualification with low-e2 upgrade, AAMA PG 35/50 certification, Entry-level market positioning, Undisclosed component specifications standard tier
 - **Source:** Auto-generated
+
+## Andersen A-Series (DH) — 2026-03-16
+- **Category:** Windows
+- **File:** `andersen_aseries_dh_correction_memo.md`
+- **Pre-approved specs:** Spacer System: Warm-edge, Balance System: Block and tackle with weather stripping, Weatherstrip Coverage: Full perimeter, Quality Tier: Premium
+- **Source:** Auto-generated
+
+## Marvin Signature Ultimate (DH) — 2026-03-16
+- **Category:** windows
+- **File:** `marvin_signature_ultimate_dh_correction_memo.md`
+- **Pre-approved specs:** Premium quality tier, Performance adequacy for Energy Star, Component quality "unknown" scoring valid, Quality concerns properly weighted
+- **Source:** Auto-generated
+
+## Milgard Tuscany (DH) — 2026-03-16
+- **Category:** windows
+- **File:** `milgard_tuscany_dh_correction_memo.md`
+- **Pre-approved specs:** Balance System: Block & tackle or constant force spring, Weatherstrip Coverage: Full perimeter multi-point, Weatherstrip Attachment: Integrated kerf/compression hybrid, Spacer System: Foam spacer (confirmed in NFRC data), Glazing Bead: Structural glazing tape, Quality Tier: Mid-tier
+- **Source:** Auto-generated
+
+## Pella 250 Series (DH) — 2026-03-16
+- **Category:** windows
+- **File:** `pella_250_series_dh_correction_memo.md`
+- **Pre-approved specs:** Spacer System: Standard aluminum, Glazing Bead: Interior accessible, Weatherstrip Attachment: Compression fit
+- **Source:** Auto-generated

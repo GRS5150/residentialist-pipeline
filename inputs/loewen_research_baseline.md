@@ -1,12 +1,11 @@
 # Baseline Research: Loewen (DH)
-# Auto-generated: 2026-03-14T06:31:04.559Z
+# Auto-generated: 2026-03-16T18:34:50.470Z
 # This file is automatically loaded on re-runs to avoid redundant web research.
 # To force a full re-research, delete this file.
 # Sections marked [LOCKED] are preserved on refresh runs.
 
-I'll now execute the comprehensive research protocol for the Loewen DH window, verifying the baseline data and searching for any new information.
-Now let me search for more recent information to verify the baseline and find any additional data not covered.
-Based on my comprehensive verification research, I can now provide the complete updated findings document for the Loewen DH window. All the baseline data has been verified and remains current, with additional confirmations found in recent reviews.
+I'll execute the comprehensive research protocol for Loewen DH windows, verifying the baseline data and searching for any new information since the previous run.
+Now I'll compile the complete updated findings document based on my verification research and the baseline data:
 
 # Loewen Double-Hung (DH) Window Research Findings
 
@@ -75,6 +74,16 @@ Argon insulation between the layers
 Low-E glass and ½-inch glazing
 
 
+### Window Operation
+
+**Balance System:** 
+Thanks to the innovative balance system, Loewen Double Hung windows open and close smoothly
+
+
+**Lock/Tilt Mechanism:** 
+A single-handed lock/tilt mechanism allows for inward tilting of the sash for easy cleaning – or complete removal. Our architecturally correct proprietary sash lock allows for single-handed unlocking of the system. Once unlocked, rotating the sash lock a little further allows the sash to tilt out of the jamb for easy cleaning and/or removal
+
+
 ### Warranty Coverage (2021 Document - Verified Current)
 
 **Transferable:** 
@@ -89,7 +98,9 @@ The warranty is even fully transferable to the next homeowner, increasing your h
 Loewen provides a limited warranty, with metal-clad products typically covered for 20 years on the paint, glass, and wood components
 
 
-**Labor Coverage:** Limited to within 60 miles of original point of purchase (from baseline warranty documentation)
+**Labor Coverage:** 
+Labor is not covered by warranty and will be limited to within 60 miles of original point of purchase (from baseline warranty documentation)
+
 
 ### Certifications
 
@@ -113,7 +124,9 @@ The Loewen Window Series gets a 4.7 out of 5 star rating
 ## UNKNOWN / NOT DISCLOSED
 
 ### Missing Performance Data
-**Air Infiltration (cfm/ft²):** NOT PUBLISHED by Loewen for standard double-hung windows. NFRC ratings page exists but specific DH air infiltration values not disclosed (except 0.02 for StormForce series)
+**Air Infiltration (cfm/ft²):** NOT PUBLISHED by Loewen for standard double-hung windows. NFRC ratings page exists but specific DH air infiltration values not disclosed (except 
+0.02 for StormForce series
+)
 
 ### Missing Technical Specifications
 **AAMA Performance Class/Grade:** NOT FOUND in web search. 
@@ -130,7 +143,9 @@ Loewen adheres to universally recognized accreditation and certification program
 
 ### Installation Requirements
 
-**Paint Primer:** Factory applied primer requires exterior painting within 14 days which is unusually short compared to industry standards
+**Paint Primer:** 
+Factory applied primer requires exterior painting within 14 days which is unusually short compared to industry standards
+
 
 ### Service Limitations
 
@@ -150,7 +165,11 @@ Loewen Windows specializes in luxury handcrafted wood windows made from coastal 
 
 ## CONFIDENCE ASSESSMENT
 
-**HIGH** - Comprehensive verification of baseline data found all claims remain current and accurate. Additional verification through multiple independent reviews (This Old House 2025, Engineer Fix 2025, Today's Homeowner 2025) confirms baseline performance data, pricing, and product characteristics. Found strong corroborating evidence from GBA community discussions and professional installer feedback.
+**HIGH** - Comprehensive verification of baseline data found all claims remain current and accurate. Additional verification through multiple independent reviews 
+(This Old House 2025, Engineer Fix 2025, Today's Homeowner 2025)
+ confirms baseline performance data, pricing, and product characteristics. 
+Found strong corroborating evidence from GBA community discussions and professional installer feedback
+.
 
 ## FIELD SOURCE OPINIONS [LOCKED] [LOCKED] 
 
@@ -204,6 +223,20 @@ I have used Loewen windows on at least three projects and have never had any pro
 
 **GBA Consensus:** Highly positive sentiment from building science community with specific praise for performance, quality, and air tightness. Some concerns noted about high cost and delivery times.
 
+### Fine Homebuilding Forum Findings
+
+**Professional Builder Experience:** 
+I used their triple pane windows throughout the house I built for myself. Outstanding quality, and great looking when stained. Their doors are also very nice. There was a couple of minor problems with the windows they sent- a bent screen & a non functioning lock, but they sent replacement parts within a couple days of me contacting them. I looked at Marvin, Pella, Anderson & Lowen, and Lowen came out on top
+
+
+**Installation Experience:** 
+Not a pro, but I've installed several different styles of Lowen windows. Solid wood (fir as I recall) and very well built. To me, they are a step above Andersen, Hurd, etc.
+
+
+**Service Quality:** 
+I'm using them on a third project at this time. We have had absolutely no problems with any of their (Loewens) windows or doors and my clients have loved them. They always get the highest reviews from those that respect fine construction details
+
+
 ## INSTALLATION CONFOUND FLAGS
 
 ### High-Confound Installation Issues (From 2013 Houzz Report)
@@ -224,6 +257,12 @@ Note: This 2013 Houzz complaint is over 12 years old and primarily concerns door
 I found some negative reviews on Houzz and noticed a common theme of seal failure. Several customers reported air leakage, and a few cited issues with water leaks. One customer, Ginger, commented, "The double-hung lets in a ton of cold air in Winter- and we have several of these. I have to buy the temporary winter caulk for the windows that costs a ton of money." Justin M. reported, "All the windows are leaking around the seals – a few of them I can actually see daylight."
  - INSTALL-CONFOUND: MEDIUM (seal failure could be product or installation related)
 
+### Double-Hung Operational Issues (2005 Report)
+
+
+The Loewen windows, whenever you unlatch them to open the lower sash, the upper sashes drop down a quarter inch or more. In order to close them again, tightly, you need to push up on the upper sash before locking.These windows seem to be droopy all over
+ - INSTALL-CONFOUND: MEDIUM (could be adjustment or product design issue)
+
 ### Updated Professional Reviews (2025-2026 Data)
 
 **No Jay Johnson Review Found:** Despite extensive search of WindowPurchase.com, no specific Loewen review by Jay Johnson was located.
@@ -234,4 +273,13 @@ Loewen offers luxury, premium materials that are durable enough to last decades 
 
 ---
 
-**Sources:** Loewen official websites (2025-2026), NFRC ratings pages, GBA forum discussions (2018-2025), This Old House reviews (2025), Today's Homeowner (2025), Engineer Fix technical review (2025), replacement window industry publications, CPSC recall database, manufacturer warranty documents (2021), Reddit power user analysis (2026) - all verified March 14, 2026
+**Sources:** 
+
+Loewen official websites (2025-2026), NFRC ratings pages
+, 
+GBA forum discussions (2018-2025)
+, 
+This Old House reviews (2025), Today's Homeowner (2025)
+, 
+Engineer Fix technical review (2025)
+, replacement window industry publications, CPSC recall database, manufacturer warranty documents (2021), Reddit power user analysis (2026) - all verified March 16, 2026

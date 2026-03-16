@@ -1,0 +1,1212 @@
+{
+  "product": "STATUS_CHECK",
+  "config": "DH",
+  "category": "Windows",
+  "evidence_version": "2.0",
+  "created": "2026-03-16",
+  "last_verified": "2026-03-16",
+  "refresh_after_days": 90,
+  "manufacturing_quality": {
+    "business_model": null,
+    "certifications": [
+      "NFRC",
+      "AAMA",
+      "NAFS",
+      "GREENGUARD",
+      "WERS",
+      "PROP_65_WARNING"
+    ],
+    "complaints": []
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-STATUS-001",
+        "name": "energycodeace.com — (NR) 3.2 Fenestration",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The Administrative Regulations §10-111 and §110.6 of the Standards require that fenestration products have labels that list the U-factor, SHGC, VT and the method used to determine those values. The la",
+        "price_bias": false,
+        "url": "https://energycodeace.com/site/custom/public/reference-ace-2013/Documents/32fenestration.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-002",
+        "name": "energycodeace.com — 3.3 Fenestration (Window/Skylight/Glazed Door) and Opaque Do",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "1. Temporary Label for NFRC Certified Manufactured Fenestration Products The Energy Standards require that manufactured fenestration have both temporary and permanent labels. <strong>The temporary lab",
+        "price_bias": false,
+        "url": "https://energycodeace.com/site/custom/public/reference-ace-2019/Documents/33fenestrationwindowskylightglazeddoorandopaquedoors.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-003",
+        "name": "improveitusa.com — SHGC, U Factor, and How to Read Your NFRC Window Sticker - I",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>SHGC ranges from 0 to 1, and the lower the number, the better</strong>. While you want to keep the sun’s heat out, letting in as much light as possible will keep your home bright so you can re",
+        "price_bias": false,
+        "url": "https://www.improveitusa.com/blog/how-to-read-your-nfrc-window-sticker/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-004",
+        "name": "aamanet.org — AAMA - Performance Class Overview | AAMA Standards & Ballots",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "To qualify for a given performance grade (PG), a representative specimen of the product must pass all required performance tests for the following, in addition to all required auxiliary (durability) t",
+        "price_bias": false,
+        "url": "https://aamanet.org/pages/performance-class-overview",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-005",
+        "name": "inspectapedia.com — InspectApedia Diagnose & Fix What's Wrong at Your Building",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "In 1997, the two groups joined forces to establish a unified standard for evaluating fenestration products, known as AAMA/NWWDA 101/I.S. 2-97 “Voluntary Specification for Aluminum, Vinyl and Wood Wind",
+        "price_bias": false,
+        "url": "https://inspectapedia.com/BestPractices/Window_Standards.php",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-006",
+        "name": "chicagowindowsdoors.com — AAMA Ratings for Windows and Doors | Chicago Windows and Doo",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Some of them include: 1. Structural ... that are AAMA certified would mean that <strong>it has been tested to one of the highest standards of performance in the fenestration industry</strong>....",
+        "price_bias": false,
+        "url": "https://chicagowindowsdoors.com/blog/what-are-aama-ratings-for-windows-doors/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-007",
+        "name": "1stwindows.com — Understanding Permanent Window Labeling",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The AAMA permanent labels are affixed the five different classes of window and door products shown below. R = Residential LC = Light Commercial C = Commercial HC = Heavy Commercial AW = Architectural ",
+        "price_bias": false,
+        "url": "https://www.1stwindows.com/labels",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:50.378Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-008",
+        "name": "fgiaonline.org — AAMA Gold Label Certification Program Overview | FGIA",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "It is <strong>used to show that production grade units are built to the same standards as the original prototype unit and perform as stated in the original test report</strong>. The AAMA-sponsored Cer",
+        "price_bias": false,
+        "url": "https://fgiaonline.org/product-certification/gold-label-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-009",
+        "name": "rochesterinsulatedglass.com — Spacers - Rochester Insulated Glass",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "RIG provides the latest in warm edge technology. This completely replaces the conventional spacer profile with state of the art, hot-applied thermoplastic technology that chemically bonds to both the ",
+        "price_bias": false,
+        "url": "https://rochesterinsulatedglass.com/spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-010",
+        "name": "quanex.com — Warm Edge Spacer Systems for Windows & Doors - Quanex",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "High-performance warm edge spacer systems for IG units. Improve thermal efficiency, reduce seal failures, and streamline IG production with Quanex.",
+        "price_bias": false,
+        "url": "https://www.quanex.com/product/residential/insulating-glass-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-011",
+        "name": "cardinalcorp.com — XL Edge Insulating Glass | Cardinal Glass Industries",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>XL Edge is a leading-edge stainless steel spacer with airtight bent corners and a dual-seal construction of compressed polyisobutylene (PIB) and silicone</strong>. Desiccants eliminate any pot",
+        "price_bias": false,
+        "url": "https://www.cardinalcorp.com/products/insulating-glass/xl-edge/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-012",
+        "name": "aladdininsulation.com — Energy Efficient Window Glass Spacers Comparison",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "PPG Intercept spacer features “Warm-Edge” technology that <strong>reduces condensation problems around the window perimeter</strong>. Compare the Intercept insulating glass window (below left) with a ",
+        "price_bias": false,
+        "url": "https://aladdininsulation.com/2015/02/1068/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-013",
+        "name": "cardinalcorp.com — Endur Warm Edge Insulating Glass | Cardinal Glass Industries",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "<strong>Stainless steel spacer features a roll formed design to provide maximum area for primary and secondary sealant coverage</strong>. It provides increased resistance to condensation and less stre",
+        "price_bias": false,
+        "url": "https://www.cardinalcorp.com/products/insulating-glass/endur/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-014",
+        "name": "quanex.com — Duralite® Warm-Edge Spacer - Quanex Residential Products",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>Duralite® from Quanex is a warm-edge spacer system used in the high-volume production of dual- and triple-pane insulating glass (IG) units</strong>. Windows made with Duralite spacer systems h",
+        "price_bias": false,
+        "url": "https://www.quanex.com/products/residential-window-duralite-warm-edge-spacers-for-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-015",
+        "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They are particularly effective over traditional metal spacers, which makes them a preferred choice in modern window systems. Durability and Design Flexibility: Dual-seal systems are <strong>designed ",
+        "price_bias": false,
+        "url": "https://vistaza.com/warm-edge-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:50.335Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-016",
+        "name": "This Old House — The Essential Guide to Weatherstripping - This Old House",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Install the weatherstripping: <strong>Follow the specific installation instructions for your chosen weatherstripping type</strong>. For adhesive-backed options, peel and stick carefully. For nail-in t",
+        "price_bias": false,
+        "url": "https://www.thisoldhouse.com/doors/21018244/the-essential-guide-to-weatherstripping",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:50.433Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-017",
+        "name": "bobvila.com — 15 Types of Weatherstripping to Help Cut Energy Costs",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Check for rattling panes or drafts on windy days to identify weak points. <strong>Combine weatherstripping with caulk around the frame for maximum air sealing</strong>. Replace worn tape or felt strip",
+        "price_bias": false,
+        "url": "https://www.bobvila.com/articles/weatherstripping-101/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-018",
+        "name": "home.howstuffworks.com — How to Install Weatherstripping: Tips and Guidelines | HowSt",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>Flare the edge of a spring-metal strip with a screwdriver to render a snug fit</strong>. Spring-metal strips (V-shape or single) are available in bronze, copper, stainless-steel, and aluminum ",
+        "price_bias": false,
+        "url": "https://home.howstuffworks.com/home-improvement/repair/how-to-apply-weatherstripping.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-019",
+        "name": "peasedoors.com — Complete Guide - Buy and Install Weather Stripping on Doors",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Repeat the procedure for the other vertical jamb, then install the short weatherstrip piece into the head jamb, cutting the excess with a utility knife · Now go outside the door, armed with a putty kn",
+        "price_bias": false,
+        "url": "https://peasedoors.com/pages/weatherstrip",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-020",
+        "name": "american-apartment-owners-association.org — Tips for Selecting the right weatherstripping",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Most new doors now come with this ... installation is simply a matter of <strong>cutting the replacement material to length and tucking the flange on the weatherstripping into the slot on the door sto",
+        "price_bias": false,
+        "url": "https://american-apartment-owners-association.org/property-management/latest-news/choosing-the-right-weatherstripping/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-021",
+        "name": "greenleafair.com — Trane HVAC Warranty Explained: What’s Covered, How To Regist",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Note: Product Registration and Warranty Transfer exclusions vary by state in the US and province in Canada. Please check your local laws for any specific exclusions. Now, you must be wondering how do ",
+        "price_bias": false,
+        "url": "https://greenleafair.com/trane-hvac-warranty-explained/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-022",
+        "name": "consumeraffairs.com — Is Labor Covered Under Warranty? | ConsumerAffairs®",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Labor often accounts for a large portion of a repair bill, and coverage depends on your specific warranty. Understanding how your plan handles labor costs can help you plan for repairs and avoid unexp",
+        "price_bias": false,
+        "url": "https://www.consumeraffairs.com/automotive/is-labor-covered-under-warranty.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:50.266Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-023",
+        "name": "consumer.ftc.gov — Warranties | Consumer Advice",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Do you have to pay for labor or to ship the product back for repairs? Federal law says a manufacturer can&#x27;t require you to use specific parts or services to keep the warranty coverage unless it g",
+        "price_bias": false,
+        "url": "https://consumer.ftc.gov/articles/warranties",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-024",
+        "name": "lennox.com — Lennox Warranty Lookup | Check Your Coverage | Lennox",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Extended Limited Warranty, except where prohibited by law, is extended to the original owner only, and is not transferable. <strong>If labor coverage was added to the Extended Limited Warranty coverag",
+        "price_bias": false,
+        "url": "https://www.lennox.com/residential/owners/assistance/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-025",
+        "name": "m.lennoxpros.com — Lennox HVAC Warranty | Warranty Your Way® | LennoxPros",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "For the Dave Lennox Signature® Collection, homeowners have the opportunity to receive 3 years of labor coverage or an additional 2 years of parts only coverage (for a total of 12 years parts only). Th",
+        "price_bias": false,
+        "url": "https://m.lennoxpros.com/warranty-your-way",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-026",
+        "name": "en.wikipedia.org — Warranty - Wikipedia",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "<strong>Written warranties on new major ... and labor to repair defects in materials or workmanship which appear under normal home use</strong>. Warranties often cover defects up to a year after purch",
+        "price_bias": false,
+        "url": "https://en.wikipedia.org/wiki/Warranty",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-027",
+        "name": "buick.com — Buick Owners | Vehicle Warranty and Protection Plans",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "<strong>Covers the components below for repairs, including parts and labor, due to defects in materials and/or workmanship for the duration of the warranty</strong>. Typical powertrain warranties last",
+        "price_bias": false,
+        "url": "https://www.buick.com/owners/warranty-protection-plans",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-028",
+        "name": "lemonmyvehicle.com — If My Car Is Under Warranty, Do I Have to Pay for Service? -",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Issued by the automaker, these “full” warranties cover defects in workmanship or materials for a specific period, commonly <strong>3 years/36,000 miles bumper-to-bumper and 5 years/60,000 miles powert",
+        "price_bias": false,
+        "url": "https://lemonmyvehicle.com/blog/if-my-car-is-under-warranty-do-i-have-to-pay-for-a-service/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-029",
+        "name": "consumer-action.org — Consumer Action - Class Action Database",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Consumer Action: Consumer education and advocacy since 1971",
+        "price_bias": false,
+        "url": "https://www.consumer-action.org/lawsuits/by-status/open",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-030",
+        "name": "gmauthority.com — GM V8 Engine Lifters Lawsuit Aims For Class Action Status",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "<strong>A class action lawsuit filed against GM over alleged faulty lifters in certain V8 engines has still not received class action status after more than four years</strong>.",
+        "price_bias": false,
+        "url": "https://gmauthority.com/blog/2025/12/gm-v8-engine-lifters-lawsuit-aims-for-class-action-status/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-031",
+        "name": "kiaengineclasssettlement.com — Kia Engine Class Settlement",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "8:18-cv-02223-JLS-JDE (C.D. Cal.). <strong>The lawsuit alleges that certain Kia vehicles (called the &quot;Class Vehicles&quot;) have a defect that can cause engine seizure, stalling, engine failure, ",
+        "price_bias": false,
+        "url": "https://kiaengineclasssettlement.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-032",
+        "name": "topclassactions.com — Open Class Action Settlements | Available Claims to Join",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "You must contact the Settlement Administrator or lead counsel for any updates regarding your claim status, Claim Form or questions about when payments are expected to be mailed out. ... Browse our act",
+        "price_bias": false,
+        "url": "https://topclassactions.com/category/lawsuit-settlements/open-lawsuit-settlements/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-033",
+        "name": "simpluris.com — Case Search - Simpluris",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "You can check the status of your payment, file a claim, or check class member eligibility by searching the name of your case.",
+        "price_bias": false,
+        "url": "https://www.simpluris.com/case-search/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-034",
+        "name": "law.cornell.edu — Rule 23. Class Actions | Federal Rules of Civil Procedure |",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Clause (A): One person may have rights against, or be under duties toward, numerous persons constituting a class, and be so positioned that conflicting or varying adjudications in lawsuits with indivi",
+        "price_bias": false,
+        "url": "https://www.law.cornell.edu/rules/frcp/rule_23",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-035",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "GREENGUARD Select Certification) includes safety · factors to account for sensitive individuals (such as · children and the elderly) and ensures that a product is · acceptable for use in environments ",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-036",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Some also prefer to sleep with a fan on for fresh air in the bedroom, though others find the noise distracting. The Greenguard Gold Certification <strong>ensures the interior products are low in chemi",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-037",
+        "name": "mychemicalfreehouse.net — Making Sense of Green Certifications: GreenGuard, Floorscore",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Here are the most common certifications ... off-gassing and toxicity of the products. ... GreenGuard has <strong>two levels of certification that measure VOC levels in products</strong>....",
+        "price_bias": false,
+        "url": "https://www.mychemicalfreehouse.net/2020/12/what-green-certifications-mean-for.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:50.317Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-038",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD Certification Program <strong>identifies low-emitting materials, finishes, and products for indoor environments</strong>. The GREENGUARD Gold Certification standard includes health-base",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-039",
+        "name": "thousandeyes.com — Internet Outages Map | ThousandEyes",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "To grasp the impact of outages on your networks over time, Internet Insights provides detailed, tailored analysis for continuous optimization. ... The Internet Outages Map harnesses ThousandEyes’ glob",
+        "price_bias": false,
+        "url": "https://www.thousandeyes.com/outages/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-040",
+        "name": "nationwide.co.uk — Service status | Nationwide",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Get live updates on any disruptions to our Internet Bank and Nationwide Banking app. You can also check whether we&#x27;ve got any work planned.",
+        "price_bias": false,
+        "url": "https://www.nationwide.co.uk/ways-to-bank/service-status",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-041",
+        "name": "downdetector.com — Downdetector - Check real-time service problems and outages",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Check if services are down based on real-time user reports. Downdetector shows live status updates and outages people are experiencing.",
+        "price_bias": false,
+        "url": "https://downdetector.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-042",
+        "name": "nationwide.com — Help Center Resources and Contact Information - Nationwide",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "File or check on your auto claim. Broken windshield? File a glass claim. ... Search our network for shops that are pre-screened and pre-qualified for the highest level of service.",
+        "price_bias": false,
+        "url": "https://www.nationwide.com/personal/contact/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-043",
+        "name": "Reddit — r/buildingscience on Reddit: Green Building Advisor???",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "What is everyone’s thought on this as a source of reputable information? I was a big fan as this website as an intro to green building until I met…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/9bf85x/green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:51.205Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-044",
+        "name": "linkedin.com — Green Building Advisor | LinkedIn",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Green Building Advisor | 2,132 followers on LinkedIn. A leading authority on residential green building | Green Building Advisor is a digital-only media platform in its second decade covering environm",
+        "price_bias": false,
+        "url": "https://www.linkedin.com/showcase/green-building-advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-045",
+        "name": "Reddit — r/HomeImprovement on Reddit: Is anyone here a member of Gree",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Create the following style and apply to greenbuildingadvisor.com: ... No more pop-ups, no more restrictions on scrolling up and down the pages. Considering most of the content on their website, especi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/58txyh/is_anyone_here_a_member_of_green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:51.017Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-046",
+        "name": "facebook.com — GreenBuildingAdvisor.com | Facebook",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "GreenBuildingAdvisor.com. 24,448 likes · 81 talking about this. Dedicated to sharing accurate and complete information about designing, building, and remodeling high-performance homes.",
+        "price_bias": false,
+        "url": "https://www.facebook.com/GreenBuildingAdvisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-047",
+        "name": "brennancorp.com — Replacement Window Brand Reviews",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Window Product Reviews and Comparisons · Window Company Comparisons · Alside Windows Review · Amsco Windows Review · Andersen Windows Review · Brennan Windows Review · Burris Window Review · Jeld-Wen ",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/replacement-window-brand-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-048",
+        "name": "fmb.org.uk — How we review windows: Tests, analysis and comparisons",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "We check if the company has received any awards or recognition for their products, customer service, or business practices, indicating a respected and well-regarded company. Another good indicator is ",
+        "price_bias": false,
+        "url": "https://www.fmb.org.uk/homepicks/windows/how-we-review-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-049",
+        "name": "saferproducts.gov — Home - SaferProducts",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "<strong>Each report is reviewed by our staff of investigators and consumer product safety experts to determine what actions should be taken to protect the American public</strong>. Your report could p",
+        "price_bias": false,
+        "url": "https://www.saferproducts.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-050",
+        "name": "recalls.gov",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "To provide better service in alerting the American people to unsafe, hazardous or defective products, six federal agencies with vastly different jurisdictions have joined together to create www.recall",
+        "price_bias": false,
+        "url": "https://www.recalls.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-051",
+        "name": "washingtontimes.com — CPSC recalls helmets, magnets over injury risks, swallowing",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The CPSC advises consumers to destroy the helmets by cutting the straps before submitting proof of destruction to the company. In a separate recall, Stoney Games LLC, of Bexley, Ohio, is recalling its",
+        "price_bias": false,
+        "url": "https://www.washingtontimes.com/news/2026/mar/12/cpsc-recalls-prorider-helmets-kluster-magnets-injury-risks-swallowing/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-052",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "There are various substances that ... for lead is 0.5 μg/day, which is well below the federal and international standards. <strong>Products sold in California require Prop 65 labelling</strong> while ",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-053",
+        "name": "cancer.org — Cancer Warning Labels Based on California's Proposition 65 |",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "For any product made after August 2018, the Prop 65 labels typically say something like this: WARNING: <strong>This product can expose you to [name of chemical], which is known to the State of Califor",
+        "price_bias": false,
+        "url": "https://www.cancer.org/cancer/risk-prevention/understanding-cancer-risk/cancer-warning-labels-based-on-californias-proposition-65.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-054",
+        "name": "en.wikipedia.org — 1986 California Proposition 65 - Wikipedia",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The first statutory requirement ... water sources. The second <strong>prohibits businesses from knowingly exposing individuals to listed substances without providing a clear and reasonable warning</st",
+        "price_bias": false,
+        "url": "https://en.wikipedia.org/wiki/1986_California_Proposition_65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-055",
+        "name": "Reddit — r/HomeImprovement on Reddit: How did you estimate constructi",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "How do homeowners estimate construction cost before talking to a builder? r/Homebuilding • · r/Homebuilding · This sub is for discussion and questions concerning all aspects of the home building proce",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1r1zmlp/how_did_you_estimate_construction_costs_before/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:50.968Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-056",
+        "name": "Reddit — r/Homebuilding",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>This sub is for discussion and questions concerning all aspects of the home building process</strong> - whether in a development by a large builder, custom homes, or DIY projects. While the pe",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:50.980Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-057",
+        "name": "Reddit — r/Homebuilding on Reddit: Seeking Sanity Check for New Home",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I am embarking on a new home build project and would appreciate a sanity check from this knowledgeable community. I&#x27;m planning to act as the GC for…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/163pjq9/seeking_sanity_check_for_new_home_build_project/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:51.026Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-058",
+        "name": "Reddit — r/Homebuilding on Reddit: Sanity check on construction quote",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "14 votes, 14 comments. We recently got a quote for this house. It came in in the ballpark for $375k. We are in Oregon. I know construction costs are…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/lsgjuz/sanity_check_on_construction_quote/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.071Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-059",
+        "name": "Reddit — r/Homebuilding on Reddit: New construction - how do you get",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "However, I just spent an hour in the car to go validate that my windows were shut in my build because we have rain possibilities tonight. If you want to engage on a build like this, you’re going to ha",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/14iobe5/new_construction_how_do_you_get_regular_progress/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.128Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-060",
+        "name": "Reddit — r/HomeImprovement on Reddit: Things to know for new construc",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Absolutely this. I just had an independent inspection done on the new construction that I&#x27;m buying. Nothing major was found but several small things were that could cause future issues. Examples ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/13if91v/things_to_know_for_new_construction_home/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:51.973Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-061",
+        "name": "Reddit — r/Homebuilding on Reddit: Builder Brigade New Home Check Lis",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I’ve been following builder brigade on Instagram and noticed he has a new home walk through check list. Saw on the site that’s it’s a paid product…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1ko6wxh/builder_brigade_new_home_check_list/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.241Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-062",
+        "name": "Reddit — r/Homebuilding on Reddit: Anyone purchased the ultimate home",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I bought it a week or so ago. This is my first time building my own house, so I’ve done hundreds of hours of research prior to this. The checklist seems like a good summary of the information I’ve lea",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1f0906j/anyone_purchased_the_ultimate_home_building/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:51.772Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-063",
+        "name": "Reddit — r/Homebuilding on Reddit: Best website / ways to check revie",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Google isn&#x27;t doing much for me here -- trying to figure out who to talk to about building a house, but it seems like most of them aren&#x27;t on BBB and…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1kz0rhm/best_website_ways_to_check_reviews_for/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.845Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-064",
+        "name": "Reddit — r/Homebuilding on Reddit: New Construction - Home Inspection",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "82 votes, 68 comments. Just checking in to see what crazy things were noted on your new construction home builds and custom projects… we have our 1st…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1pq7i7v/new_construction_home_inspection/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.799Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-065",
+        "name": "Houzz — How to Check the Quality of a Contractor’s Work",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Trim A quality trim installation is similar to a quality tile installation in the sense that it is very geometrical and straight. Look up at the crown molding: Are the corners mitered together seamles",
+        "price_bias": false,
+        "url": "https://www.houzz.com/magazine/how-to-check-the-quality-of-a-contractors-work-stsetivw-vs~79473338",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.921Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-066",
+        "name": "Houzz — STATUS CONSTRUCTION LTD. - Project Photos & Reviews - Concor",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Houzz Pro · Houzz Pro vs. Ivy ... Status Construction Ltd. is <strong>a full service contractor specializing in custom homes , renovations / additions, and Architectural / interior designs</strong>.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/status-construction-ltd-pfvwus-pf~973506394",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.758Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-067",
+        "name": "Houzz — What to Look for in a Contractor's Contract",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "While in some cities getting a contractor&#x27;s license may be more a matter of writing a check than verifying skill, <strong>check to see that your contractor lists a license required for the work b",
+        "price_bias": false,
+        "url": "https://www.houzz.com/magazine/what-to-look-for-in-a-contractor-s-contract-stsetivw-vs~4393199",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:52.881Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-068",
+        "name": "Houzz — 10 Things to Ask Your Contractor Before You Start Your Proje",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/magazine/10-things-to-ask-your-contractor-before-you-start-your-project-stsetivw-vs~14602570",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:53.613Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-069",
+        "name": "Houzz — MARK S CHECK CONSTRUCTION - Project Photos & Reviews - Charl",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "From one simple dashboard, you can manage all the General Contractor quotes you got. Mark S Check Construction provides the following services: Basement Remodeling, Bathroom Remodeling, Custom Home, D",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/mark-s-check-construction-pfvwus-pf~1636595547",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:53.532Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-070",
+        "name": "Houzz — How to handle a situation with builder.",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I will support the concept of flying in a licensed contractor from another state or city. Sierraeast is also correct regarding the foundation. Having it literally inspected, and it will cost you, will",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2346966/how-to-handle-a-situation-with-builder",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:53.449Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-071",
+        "name": "Houzz — Questions to ask Contractor",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "4:<strong>How long have they been in business, 4+ years indicates a necessary experience</strong>. 5. How many employees do they have in house and for which skills as certain part of the job might be ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/615363/questions-to-ask-contractor",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:53.479Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-072",
+        "name": "Houzz — Best 15 General Contractors in New York, NY | Houzz",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Or browse our complete list of 26,528 General Contractors in the New York area, look at past projects, read real client reviews, and reach out to the professionals you like for a quote. ... Check the ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractor/new-york-city-ny-us-probr0-bo~t_11786~r_5128581",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:53.533Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-073",
+        "name": "Houzz — 5 Steps to Help You Hire the Right Contractor",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Did the older finished project stand the test of time?4. Check references. Ask for a list of references. In private, discuss with previous clients their experiences working with the contractor.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/magazine/5-steps-to-help-you-hire-the-right-contractor-stsetivw-vs~16338453",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:54.187Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-074",
+        "name": "Houzz — Best 15 General Contractors in Chicago, IL | Houzz",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Or browse our complete list of 9,557 General Contractors in the Chicago area, look at past projects, read real client reviews, and reach out to the professionals you like for a quote. ... Check the fo",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractor/chicago-il-us-probr0-bo~t_11786~r_4887398",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:54.146Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-075",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-STATUS-076",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-STATUS-077",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-STATUS-078",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-STATUS-079",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-STATUS-080",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-STATUS-081",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:54.371Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-082",
+        "name": "simonton.com — The NFRC Label The National Fenestration Rating Council (NFR",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Energy efficiency and air infiltration · performance results · U-Factor - Measures the amount of heat · that is transferred through a window or · door. The lower the U-value, the slower · the rate of ",
+        "price_bias": false,
+        "url": "https://www.simonton.com/wp-content/uploads/2022/12/Simonton-NFRC-Window-Label.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-STATUS-083",
+        "name": "TheWindowDog — Replacement Window Reviews Archives - TheWindowDog | Replace",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "To sum up this Simonton Reflections 5500 window review I’d say overall it’s a fine product from a reputable manufacturer (despite my nitpicking), but you can usually do better for a lower price. Keep ",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/category/replacement-window-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T17:50:54.493Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-STATUS-084",
+        "name": "TheWindowDog — Replacement Window Reviews (2026) | Brands, Prices & Warrant",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Compare the best replacement window brands for 2026, including Gentek, ProVia, Simonton, Okna, and Alside. Ratings, warranties, and prices.",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/replacement-window-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:50:54.524Z",
+          "text_source": "snippet"
+        }
+      }
+    ]
+  },
+  "component_quality": {
+    "quality_tier": null,
+    "_note": "Low-E coating, AAMA 2605 Kynar coating, stainless steel spacer, Cardinal Glass IGU, dual-seal IGU, Intercept spacer (PPG), warm-edge spacer, triple-pane available, weatherstripping noted"
+  },
+  "repairability": {
+    "igu_replacement_method": null,
+    "_note": "transferable"
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    }
+  },
+  "_source_parser_meta": {
+    "productName": "STATUS_CHECK",
+    "config": "DH",
+    "category": "Windows",
+    "manufacturer": "STATUS_CHECK",
+    "isInternational": false,
+    "run_date": "2026-03-16T17:51:50.782Z",
+    "total_sources": 84,
+    "pool_a_count": 0,
+    "pool_b_count": 3,
+    "pool_c_count": 30,
+    "reddit_pending": 12,
+    "complaints_found": 0,
+    "certifications_found": 6,
+    "phase_6b_stats": {
+      "total": 138,
+      "relevant": 84,
+      "rejected": 54,
+      "skipped": 10,
+      "fetchFailed": 74
+    },
+    "phase_6b_rejected": 54
+  }
+}

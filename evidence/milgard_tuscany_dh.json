@@ -158,6 +158,45 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MILGAR-012",
+        "description": "Relative experienced condensation/seal failure in Milgard Tuscany windows after 10+ years of use, prompting inquiry about warranty coverage and company response options.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/955onq/milgard_window_spacers_tuscany_line/",
+        "year": 2018,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MILGAR-013",
+        "description": "Customer reports 75% failure rate on Milgard windows with glass seal failures and warranty denial by regional office.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.consumeraffairs.com/homeowners/milgard.html?page=15",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MILGAR-014",
+        "description": "Milgard Tuscany vinyl windows experiencing cold air infiltration and sound transmission after 22 years of use, with customer seeking solutions.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1gpb3ze/should_i_replace_my_old_aluminum_window_with/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -1974,6 +2013,35 @@
           "screened_at": "2026-03-16T03:11:15.509Z",
           "text_source": "snippet"
         }
+      },
+      {
+        "id": "PC-MILGAR-159",
+        "name": "replacementwindowsconnect.com — Milgard Windows Reviews | Replacement Windows Connect",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Here are some standard hardware features on most products 36″ or larger – super spacers, triple weatherstripping, double strength glass, tilt ins on their single hungs, brass rollers, 8 vinyl &amp; sl",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsconnect.com/replacement-windows-reviews/milgard-windows-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MILGAR-160",
+        "name": "consumeraffairs.com — Milgard Reviews: Written By Customers | Page 2",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "<strong>The builder of the house inspected the windows and wrote a letter stating no evidence of installation error and no building movement</strong>. Milgard ignored both written reports. Milgard ins",
+        "price_bias": false,
+        "url": "https://www.consumeraffairs.com/homeowners/milgard.html?page=2",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:08:40.992Z",
+          "text_source": "snippet"
+        }
       }
     ]
   },
@@ -2011,24 +2079,24 @@
   "_source_parser_meta": {
     "productName": "Milgard Tuscany",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Milgard",
     "isInternational": false,
-    "run_date": "2026-03-16T03:12:36.893Z",
-    "total_sources": 148,
-    "pool_a_count": 6,
-    "pool_b_count": 5,
-    "pool_c_count": 97,
+    "run_date": "2026-03-16T19:09:55.158Z",
+    "total_sources": 145,
+    "pool_a_count": 5,
+    "pool_b_count": 4,
+    "pool_c_count": 101,
     "reddit_pending": 30,
     "complaints_found": 3,
     "certifications_found": 5,
     "phase_6b_stats": {
       "total": 173,
-      "relevant": 148,
-      "rejected": 25,
-      "skipped": 28,
-      "fetchFailed": 108
+      "relevant": 145,
+      "rejected": 28,
+      "skipped": 27,
+      "fetchFailed": 106
     },
-    "phase_6b_rejected": 25
+    "phase_6b_rejected": 28
   }
 }

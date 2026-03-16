@@ -185,6 +185,84 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-014",
+        "description": "Andersen 100 Series casement windows with factory-installed or kit window stops may break or detach after impact, posing fall and serious injury hazards, triggering a CPSC recall in February 2026.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://www.johnsonbecker.com/product-liability/anderson-windows-window-stop-recall-lawsuit/",
+        "year": 2026,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-015",
+        "description": "Window opening control devices on Andersen 100 Series casement windows may malfunction and fail to control window opening, creating a fall hazard.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://recalls-rappels.canada.ca/en/alert-recall/window-opening-control-devices-applied-andersen-100-series-casement-windows-recalled",
+        "year": 2026,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-016",
+        "description": "User reports two Andersen 100 Series casement windows that are warped and do not close properly.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/rhrj5f/experience_with_andersen_windows/",
+        "year": 2021,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-017",
+        "description": "Multiple Andersen window cranks splitting or breaking completely, indicating a design defect affecting multiple units.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/11kju78/andersen_window_problems/",
+        "year": 2023,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-018",
+        "description": "Multiple Andersen Series 100 windows developed extensive cracks in sashes and glazing bead failures in high heat climate, with manufacturer refusing warranty service despite field representative inspe",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1faoqgt/andersen_series_100_windows_failure/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-019",
+        "description": "Multiple Andersen windows failed/broke within 10 years of installation, suggesting a pattern of premature seal or structural failure.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
+        "year": 2014,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -2114,6 +2192,86 @@
         "url": "https://www.greenbuildingadvisor.com/article/andersen-corporation-wants-to-invest-more-in-the-circular-economy",
         "_added_by": "source_parser",
         "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-169",
+        "name": "goclward.com — 100 series - windows & doors",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Council® (NFRC) performance information. It’s ... THAT ARE RIGHT FOR YOU. Building an energy-efficient home doesn’t mean you have to restrict · your dreaming. Andersen® 100 Series windows and doors co",
+        "price_bias": false,
+        "url": "http://www.goclward.com/wp-content/uploads/2015/05/2015-Andersen-100-S-Windows.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-170",
+        "name": "brennancorp.com — What is the Warranty on Andersen 100 Series Doors?",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Like other Andersen products, the warranty for the Series 100 gliding door is <strong>fully transferable</strong>. Andersen refers to this as an Owner2Owner transferable warranty. If you sell your hom",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/what-is-the-warranty-on-andersen-100-series-doors/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-171",
+        "name": "johnsonbecker.com — Anderson Windows Window Opening Control Devices Recall Lawsu",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Yes, <strong>Andersen Windows, Inc., of Bayport, Minnesota announced a product safety recall</strong>. This recall involves window stops that may have been sold individually as kits, or as factory-ins",
+        "price_bias": false,
+        "url": "https://www.johnsonbecker.com/product-liability/anderson-windows-window-stop-recall-lawsuit/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-172",
+        "name": "foley.com — Prop 65: Changes to Short-Form Warnings Will Cause Long-Term",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Prop 65 is a “right to know” ... warning” before <strong>knowingly and intentionally exposing consumers in California to a chemical listed as known to the state of California to cause cancer or reprod",
+        "price_bias": false,
+        "url": "https://www.foley.com/insights/publications/2025/04/prop-65-changes-to-short-form-warnings-will-cause-long-term-impacts/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-173",
+        "name": "Reddit — r/HomeImprovement on Reddit: Are Renewal By Andersen windows",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Neighbor worked about 20 years for Andersen and told us they are good windows but others are just as good for way less. He put one of the local brands in his last house and said they were the best. Un",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/p8xtw9/are_renewal_by_andersen_windows_truly_worth_the/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T17:23:54.326Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-174",
+        "name": "Reddit — r/HomeImprovement on Reddit: Andersen 100 vs Andersen Renewa",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Does anyone know if these two products use the exact same Fibrex material and same glass? Andersen’s contractors are telling me the materials are identical. However, Andersen Renewal is telling me tha",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/nk6eea/andersen_100_vs_andersen_renewal_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T17:23:57.147Z",
+          "text_source": "snippet"
+        }
       }
     ]
   },
@@ -2153,23 +2311,23 @@
   "_source_parser_meta": {
     "productName": "Andersen 100 Series",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Andersen",
     "isInternational": false,
-    "run_date": "2026-03-16T03:14:01.513Z",
-    "total_sources": 163,
-    "pool_a_count": 8,
-    "pool_b_count": 9,
+    "run_date": "2026-03-16T17:25:18.852Z",
+    "total_sources": 164,
+    "pool_a_count": 6,
+    "pool_b_count": 11,
     "pool_c_count": 106,
     "reddit_pending": 31,
     "complaints_found": 8,
     "certifications_found": 6,
     "phase_6b_stats": {
-      "total": 196,
-      "relevant": 163,
+      "total": 197,
+      "relevant": 164,
       "rejected": 33,
-      "skipped": 23,
-      "fetchFailed": 123
+      "skipped": 22,
+      "fetchFailed": 122
     },
     "phase_6b_rejected": 33
   }

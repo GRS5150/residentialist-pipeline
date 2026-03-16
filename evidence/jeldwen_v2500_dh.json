@@ -96,6 +96,110 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-007",
+        "description": "Multiple Jeld-Wen windows and doors installed in 2001 experienced seal failures within 12-13 years, with all sun-exposed units failing by 2013-2014.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.dwmmag.com/2022/09/06/civil-suit-accuses-jeld-wen-of-selling-defective-windows/",
+        "year": 2001,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-008",
+        "description": "Consumer reported visible gaps between sashes at the frame on Jeld-Wen best-tier vinyl windows installed in garage conversion.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/menards/comments/1gz8u4k/jeldwen_good_better_best_windows/",
+        "year": null,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-009",
+        "description": "JELD-WEN V2500 windows offer poor value with long lead times and marginal quality compared to higher-end options, with the product being 'okay to not worth the little savings.'",
+        "classification": "DELIVERY",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/jf2vbw/insight_on_new_windows/",
+        "year": 2020,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-010",
+        "description": "Consumer reports cold drafts and seal failure in Jeld-Wen windows after approximately 5 years, indicating long-term durability issues with window seals.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.replacementwindowdiscussions.com/community/jeld-wen-reliabilt-windows/thinking-about-giving-jeld-wen-another-shot-worth-it-or-nah/",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-011",
+        "description": "Jeld-Wen windows and doors from 2001 installation experienced widespread seal failures within 12-13 years on units exposed to direct sunlight, affecting 35 windows and 7 doors in a single custom build",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.dwmmag.com/2022/09/06/civil-suit-accuses-jeld-wen-of-selling-defective-windows/",
+        "year": 2001,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-012",
+        "description": "Visible gaps between window sashes at frame on Jeld-Wen best-tier windows installed in garage conversion.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/menards/comments/1gz8u4k/jeldwen_good_better_best_windows/",
+        "year": null,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-013",
+        "description": "JELD-WEN V2500 series windows with flat casing and brick mold provide poor value relative to savings, with reports of long lead times and quality concerns compared to higher-end V-4500 series.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/jf2vbw/insight_on_new_windows/",
+        "year": 2020,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-014",
+        "description": "Consumer reports cold drafts and seal failure in Jeld-Wen windows after approximately 5 years, indicating long-term seal degradation affecting product durability.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.replacementwindowdiscussions.com/community/jeld-wen-reliabilt-windows/thinking-about-giving-jeld-wen-another-shot-worth-it-or-nah/",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -1533,6 +1637,75 @@
         "url": "https://bringithome.jeld-wen.com/what-to-consider-when-exploring-building-materials/",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-123",
+        "name": "arcat.com — SECTION 08115 STEEL DOORS",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Fire-Rated Door Assemblies: Meet ... complying with specified requirements, based on testing manufacturer&#x27;s doors representative of those specified: <strong>AAMA 1304</strong>, ASTM E283, ASTM E3",
+        "price_bias": false,
+        "url": "https://www.arcat.com/sdspecs/htm/08115jwi.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:09:40.078Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-124",
+        "name": "odl.com — Important Safety Recall Information | ODL",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "ODL also sold these products to intermediate distributors, who typically resold the products as a part of a completed “door and doorglass” product under different brand names. Jeld-Wen is one of the b",
+        "price_bias": false,
+        "url": "https://www.odl.com/product-safety-recall",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-125",
+        "name": "YouTube — How to Install a JELD-WEN Impact Window in Concrete Block (S",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In this video, I walk you through the full process of installing a JELD-WEN impact window into a CBS (concrete block) wall. This is the method we use on high...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=FnNiFZNsVZA",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:09:50.470Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-126",
+        "name": "arcedior.com — GREENGUARD Certification Furniture Guide (Gold & Checklist)",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "GREENGUARD certification <strong>verifies that furniture has been tested by UL Solutions and meets strict VOC emission limits for healthier indoor air quality</strong>.GREENGUARD certification is a te",
+        "price_bias": false,
+        "url": "https://arcedior.com/blog/greenguard-certification-furniture-guide",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-127",
+        "name": "wenproducts.com — California Proposition 65 — WEN Products",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "WARNING: Motor vehicles contain fuel, oils and fluids, battery posts, terminals and related accessories which contain lead and lead compounds and other chemicals known to the State of California to ca",
+        "price_bias": false,
+        "url": "https://wenproducts.com/pages/california-proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
       }
     ]
   },
@@ -1550,7 +1723,8 @@
       "u_factor_source": "https://www.reddit.com/r/HomeImprovement/comments/p1yvrc/window_quotes_assistance_please/",
       "evidence_level": null,
       "score": null,
-      "note": null
+      "note": null,
+      "shgc": "0.2"
     },
     "structural": {
       "aama_class": null,
@@ -1569,24 +1743,24 @@
   "_source_parser_meta": {
     "productName": "JELD-WEN V2500",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Jeld-Wen",
     "isInternational": false,
-    "run_date": "2026-03-16T03:08:20.797Z",
-    "total_sources": 111,
-    "pool_a_count": 2,
+    "run_date": "2026-03-16T18:18:57.828Z",
+    "total_sources": 105,
+    "pool_a_count": 1,
     "pool_b_count": 6,
-    "pool_c_count": 69,
-    "reddit_pending": 20,
-    "complaints_found": 4,
+    "pool_c_count": 64,
+    "reddit_pending": 19,
+    "complaints_found": 5,
     "certifications_found": 8,
     "phase_6b_stats": {
       "total": 151,
-      "relevant": 111,
-      "rejected": 40,
-      "skipped": 19,
-      "fetchFailed": 89
+      "relevant": 105,
+      "rejected": 46,
+      "skipped": 21,
+      "fetchFailed": 81
     },
-    "phase_6b_rejected": 40
+    "phase_6b_rejected": 46
   }
 }

@@ -833,6 +833,14 @@ For 5 subscores (1A, 1B, 1C, 2B, 2C), you output CLASSIFICATION DATA, not final 
 A deterministic scorer module computes the final numbers from your classifications.
 You STILL compute and output scores directly for: 2A frame_longevity, 3A thermal, 3B structural, 3C air_water.
 
+2A FRAME LONGEVITY — EVIDENCE HIERARCHY APPLIES:
+The judgment half of 2A (expected lifespan / track record) follows the SAME evidence hierarchy as performance subscores (Rule 7 above). Material class properties alone (e.g., "fiberglass is stronger than vinyl", "Fibrex won't crack or peel") are NOT documented track record. To place a product in the structured tiers:
+- 30+ year tier (9-10): Requires documented real-world installations at 30+ years with verified condition. Not material science extrapolation.
+- 20-30 year tier (7-8): Requires documented installations or manufacturer-published expected lifespan data at 20+ years.
+- 15-20 year tier (5-6): Field evidence or professional consensus supporting this range.
+- Below 15 years (3-4): Documented premature failures or degradation patterns.
+If no manufacturer-published lifespan exists and no documented installations at the claimed age exist, score from professional consensus (5.5-7.0) or field evidence (5.0-6.0), not from material strength inference. Principle 5 applies: a score above 5 requires positive evidence. "Material X is twice as strong as material Y" is engineering reasoning, not evidence of installed lifespan.
+
 For 1A component_quality, you MUST identify these 5 components and classify a quality tier:
 - spacer_system: one_piece_stainless | warm_edge_foam | warm_edge_hybrid | multi_piece_stainless | four_piece_aluminum | unknown
 - balance_system: constant_force | class_4 | coil_spring | block_and_tackle | class_1 | unknown

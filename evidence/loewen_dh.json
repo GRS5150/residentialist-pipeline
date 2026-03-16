@@ -4,14 +4,21 @@
   "category": "windows",
   "evidence_version": "2.0",
   "created": "2026-03-13",
-  "last_verified": "2026-03-14",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth. v2.0: Added complete source roster from manual search (5 Pool A, 3 Pool B, 6 Pool C). Fixed structural/air_water non-disclosure scoring.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
       "NFRC",
-      "ENERGY_STAR"
+      "ENERGY_STAR",
+      "PASSIVE_HOUSE",
+      "AAMA",
+      "NAFS",
+      "GREENGUARD",
+      "WERS",
+      "PROP_65_WARNING",
+      "CSA_A440"
     ],
     "complaints": [
       {
@@ -29,6 +36,32 @@
         "evidence_level": "YELLOW",
         "source": "Multiple professional sources including GBA architect and Houzz threads",
         "note": "YELLOW — specific to large casement configuration, does NOT affect double-hung. Multiple independent sources confirm. Design limitation, not manufacturing defect."
+      },
+      {
+        "id": "MQ-LOEWEN-003",
+        "description": "Loewen windows in newly completed house (Jun 2020) exhibit significant air leakage with visible daylight between sash and frame, with homeowner reporting they are working with supplier and manufacture",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.greenbuildingadvisor.com/question/humidity-air-moving-from-cold-outside-to-warm-inside",
+        "year": 2020,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-LOEWEN-004",
+        "description": "Customer reports receiving wrong size windows, wrong size jambs, and non-mulled units from Loewen, suggesting potential manufacturing or order fulfillment defects.",
+        "classification": "DELIVERY",
+        "evidence_level": "YELLOW",
+        "source": "https://www.finehomebuilding.com/forum/loewen-windows-any-problems",
+        "year": 2001,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -124,13 +157,1999 @@
         "summary": "This Old House: $1,513 avg cost, A+ BBB rating. Today's Homeowner: 51/100 rating — PRICE-BIASED, typical of consumer sites rating premium products against mass-market price expectations.",
         "price_bias": true,
         "_note": "Today's Homeowner score is textbook price-bias per our filter rules. A+ BBB is meaningful. Apply 50% discount on price-biased Pool C source."
+      },
+      {
+        "id": "PC-LOEWEN-012",
+        "name": "loewen.com — NFRC Ratings - Loewen Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Key to NFRC Codes · Egress Calculator · Passive House · Product: -Select- Awning · Casement · Double Hung · LiftSlide · Bifold · MultiSlide · Patio Door · Picture · Terrace Door · Curtain Wall Model: ",
+        "price_bias": false,
+        "url": "https://www.loewen.com/professionals/performance-data/nfrc-ratings/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-013",
+        "name": "energycodeace.com — (NR) 3.2 Fenestration",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The Administrative Regulations §10-111 and §110.6 of the Standards require that fenestration products have labels that list the U-factor, SHGC, VT and the method used to determine those values. The la",
+        "price_bias": false,
+        "url": "https://energycodeace.com/site/custom/public/reference-ace-2013/Documents/32fenestration.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-014",
+        "name": "1stwindows.com — Understanding Permanent Window Labeling",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The AAMA permanent labels are affixed the five different classes of window and door products shown below. <strong>R = Residential LC = Light Commercial C = Commercial HC = Heavy Commercial AW = Archit",
+        "price_bias": false,
+        "url": "https://www.1stwindows.com/labels",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:13.529Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-015",
+        "name": "fgiaonline.org — AAMA Gold Label Certification Program Overview | FGIA",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Tests were performed at an independent AAMA Accredited Test Lab and met the following criteria · Prescribed maximum levels of air leakage through the assembly · No water penetration through the assemb",
+        "price_bias": false,
+        "url": "https://fgiaonline.org/product-certification/gold-label-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-016",
+        "name": "karolywindows.com — The AAMA Certification Gold Label on window and door product",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "AAMA-accredited testing laboratory. • An Independent (third-party) Validator through ... DH-double hung, HS-horz. slider, etc. ... Performance grade: <strong>15, 20, 25, 30, 35,</strong> etc.",
+        "price_bias": false,
+        "url": "https://www.karolywindows.com/wp-content/uploads/2021/02/What-is-AAMA-Certification.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-017",
+        "name": "brennancorp.com — AAMA Certification Windows Explained",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Windows with an AAMA Silver Certification Label have been certified for thermal performance without certifying for air, water, and structural performance.",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/aama-certification-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-018",
+        "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They are particularly effective over traditional metal spacers, which makes them a preferred choice in modern window systems. Durability and Design Flexibility: Dual-seal systems are <strong>designed ",
+        "price_bias": false,
+        "url": "https://vistaza.com/warm-edge-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:13.495Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-019",
+        "name": "rochesterinsulatedglass.com — Spacers - Rochester Insulated Glass",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Conventional aluminum, stainless steel, and plastic spacers “short circuit” the edge seal. Warm Seal’s extremely low level of thermal conductivity leads to greatly reduced IGU condensation and improve",
+        "price_bias": false,
+        "url": "https://rochesterinsulatedglass.com/spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-020",
+        "name": "quanex.com — Warm Edge Spacer Systems for Windows & Doors - Quanex",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "When manufacturers evaluate warm edge spacer systems, they look beyond individual products to the performance factors that impact IGU quality, production efficiency, and long-term field results. Quane",
+        "price_bias": false,
+        "url": "https://www.quanex.com/product/residential/insulating-glass-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-021",
+        "name": "glassforum.org — Insulating Glass Spacers: All You Need to Know Comprehensive",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "In conclusion, warm edge spacers are <strong>a cutting-edge solution for those looking to improve the energy efficiency of their IGUs</strong>. With their ability to reduce heat transfer at the edges ",
+        "price_bias": false,
+        "url": "https://glassforum.org/insulating-glass-spacers-all-you-need-to-know/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-022",
+        "name": "loewen.com — DOUBLE HUNG WINDOW INSTALLATION GUIDE",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "the frame weatherstrip makes adequate contact with the sash. This is vital to the product performance. Ensure that no ... Frame. Using a T25 Torx screwdriver, turn the Jamb Jacks Screw · clockwise to ",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2020/08/Loewen-DoubleHung-InstallationGuide.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-023",
+        "name": "loewen.com — Window Installation Guide New Construction",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "conditions unique to your project may require methods different ... Barrier on a 45 degree angle. Temporarily tape ... Two or more people will be required to accomplish this step. • Set the window fro",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2019/07/Loewen-Window-InstallationGuide.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-024",
+        "name": "loewen.com — Technical Guide | 1 Window & Door Technical Guide",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Technical Guide | 1",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2018/05/Loewen.Technical.Guide-A.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-025",
+        "name": "loewen.com — WINDOW INSTALLATION GUIDE",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "• Loewen is not responsible for site measurements nor the · structural and architectural requirements for the installation · of the windows. • Building design, construction methods, building materials",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2020/08/Loewen-Window-InstallationGuide-1.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-026",
+        "name": "loewen.com — Installation & Maintenance | Technical Resources",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Adjustments to Loewen products are required as part of the installation process. It is up to the installer to ensure that all products operate properly and seal adequately. Adjustments to hinges and o",
+        "price_bias": false,
+        "url": "https://www.loewen.com/professionals/installation-maintenance-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-027",
+        "name": "loewen.com — SLIDING PATIO DOOR INS TALL ATION GUIDE Wood Framing - New C",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Adjustments to Loewen products are required as part of the · installation process. It is up to the installer to ensure that all · products operate properly and seal adequately. Adjustments to hinges a",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2021/11/Loewen-SlidingPatioDoor-InstallationGuide-2024-WEB.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-028",
+        "name": "loewen.com — window installation Guide wood FRaMinG New Construction",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>system designed to manage water, with a weather resistant barrier applied prior to the window installation</strong>. • These instructions are not to be used with other construction methods.",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2018/06/WindowInstallGuide.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-029",
+        "name": "swisco.com — Loewen Door weatherstrip replacement : SWISCO.com",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "It looks like your 58-173 weatherstrip can replace my old Loewen push in weatherstrip, however, my doors are 92 inches in height.",
+        "price_bias": false,
+        "url": "https://www.swisco.com/discussions/Loewen-Door-weatherstrip-replacement-77-98410",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:13.450Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-030",
+        "name": "loewen.com — 77 Highway 52 West Steinbach, Manitoba Canada, R5G 1B2 1 Loe",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "This limited warranty supersedes all previous versions and notifications, is transferable, and applies to product purchased and · installed in the United States. The warrantor is Loewen Inc., a Georgi",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2021/01/2021-Warranty_USA-1.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-031",
+        "name": "loewen.com — Page: 1 of 6 C.P. LOEwEN ENTERPRISES LTD. CANADIAN LIMITED W",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "installation of all glass must meet Loewen approved specifications to remain valid for the warranty period. At its option, Loewen may elect to refund the customer’s purchase price of the insulating gl",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2018/07/Warranty_CDN_Jan2015.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-032",
+        "name": "loewen.com — Performance & Warranty - Loewen Windows",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Our industry-leading warranty is the written proof of our commitment to quality. Our windows and doors are made to last, and we always have and always will stand behind our product. Not prorated, givi",
+        "price_bias": false,
+        "url": "https://www.loewen.com/product-features/performance-and-durability/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-033",
+        "name": "loewen.com — 77 Highway 52 West Steinbach, MB Canada R5G 1B2 800.563.9367",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "This limited warranty supersedes all previous versions and notifications, is transferable, and applies to product · purchased and installed in Canada. The warrantor is C.P. Loewen Enterprises Ltd. ...",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2020/09/Warranty_CDN_Jan2018.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-034",
+        "name": "loewen.com — Effective Jan 1, 2019 C.P. LOEWEN ENTERPRISES LTD. CANADIAN",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "All warranty categories are non-prorated except as listed. This limited warranty supersedes all previous versions and notifications, is <strong>not transferable</strong>, and applies to product · purc",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/warranties2019/CDN_Warranty_PreFinishing_2019.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-035",
+        "name": "loewen.com — Effective June 11, 2013 LIMITED GLASS WARRANTY",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "In coastal environments and areas of high salt concentration, the solder · joints can be affected differently. In these environments, this is to be expected and is not warranted. ... Replacement parts",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2018/07/Warranty_USA_Jun2013.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-036",
+        "name": "loewen.com — www.loewen.com",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Loewen is the leading manufacturer of premium windows and doors for the luxury architectural market in North America and abroad · Genuine White Oak on our Timber Curtain Wall. Real wood, real metal. W",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2018/06/warranty-document.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-037",
+        "name": "loewen.com — Loewen",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Loewen is the leading manufacturer of premium windows and doors for the luxury architectural market in North America and abroad · Genuine White Oak on our Timber Curtain Wall. Real wood, real metal. W",
+        "price_bias": false,
+        "url": "https://www.loewen.com/wp-content/uploads/2018/06/Loewen-Warranty.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-038",
+        "name": "law.justia.com — Murray v. Loewen Group, 133 F. Supp. 2d 1110 (E.D. Wis. 2001",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Chubb Insurance&#x27;s Motion to Dismiss for Failure to State a Claim · Chubb Insurance moves the court to dismiss Murray&#x27;s claims against it because Murray is unable to state a claim upon which ",
+        "price_bias": false,
+        "url": "https://law.justia.com/cases/federal/district-courts/FSupp2/133/1110/2292745/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-039",
+        "name": "theburial.org — The Case Of The Burial | OKeefe v Loewen",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The number of insurance company ... such failures had occurred in the Southeast from 1991 to 1995, the year of the trial. Mississippi insurance industry regulators, often understaffed in relation to t",
+        "price_bias": false,
+        "url": "https://www.theburial.org/the-case-of-the-burial",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-040",
+        "name": "canlii.org — The Loewen Group, Inc. and Raymond L. Loewen (Claimants) v.",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The Loewen Group, Inc. and Raymond L. Loewen (Claimants) v.",
+        "price_bias": false,
+        "url": "https://www.canlii.org/en/commentary/doc/2003CanLIIDocs508",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-041",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>GREENGUARD Gold Certification level</strong>.",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-042",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Some also prefer to sleep with a fan on for fresh air in the bedroom, though others find the noise distracting. The Greenguard Gold Certification <strong>ensures the interior products are low in chemi",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-043",
+        "name": "mychemicalfreehouse.net — Making Sense of Green Certifications: GreenGuard, Floorscore",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The certification does not limit sem-VOCs, like phthalates, biocides, and flame retardants. Nor heavy metals. Note: GreenGuard measures the emissions and not the content in the material so these numbe",
+        "price_bias": false,
+        "url": "https://www.mychemicalfreehouse.net/2020/12/what-green-certifications-mean-for.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:13.557Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-044",
+        "name": "naturepedic.com — Mattress Off-Gassing Toxic VOCs? GREENGUARD Can Help",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Earning a GREENGUARD Gold certification isn’t as simple as filling out paperwork. Products go through a scientific, third-party testing process that measures emissions over time, and only those that m",
+        "price_bias": false,
+        "url": "https://www.naturepedic.com/blog/why-greenguard-gold",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-045",
+        "name": "builddirect.com — Greenguard Certified: What It Means and Why It’s Important",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "In simple terms, <strong>a product with Greenguard certification has passed a test to show that it meets low chemical emissions limits</strong>. That should mean better indoor air quality for consumer",
+        "price_bias": false,
+        "url": "https://www.builddirect.com/blogs/expert-advice-on-flooring/greenguard-certified-what-it-means-and-why-its-important",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:13.706Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-046",
+        "name": "aeroflexusa.com — What is GREENGUARD Gold Certification? | Aeroflex USA",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Must comply with California Department of Public Health (CDPH) Standard Method for the Testing and Evaluation of Volatile Organic Chemical Emissions from the Indoor Sources Using Environmental Chamber",
+        "price_bias": false,
+        "url": "https://aeroflexusa.com/what-is-greenguard-gold-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-047",
+        "name": "technical.loewen.com — Installation & Maintenance | Technical Resources",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Loewen representatives are carefully chosen and are required to undergo rigorous and specific training on the Loewen campus before they are permitted to perform service, repair and warranty work. Our ",
+        "price_bias": false,
+        "url": "https://technical.loewen.com/installation-maintenance-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-048",
+        "name": "identifyparts.com — Loewen Window Parts | Identify Window Parts",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "However, over time, parts may wear out, break, or become damaged, causing issues with the functionality of your windows. That’s where we come in – <strong>we offer window part identification services ",
+        "price_bias": false,
+        "url": "https://www.identifyparts.com/loewen-window-parts/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-049",
+        "name": "loewen.com — Installation & Maintenance - Loewen Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Loewen representatives are carefully chosen and are required to undergo rigorous and specific training on the Loewen campus before they are permitted to perform service, repair and warranty work. Our ",
+        "price_bias": false,
+        "url": "https://www.loewen.com/installation-maintenance-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-050",
+        "name": "swisco.com — Loewen Window parts : SWISCO.com",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Customer Service · Contact Us FAQ Policies About Us · Available <strong>8AM - 4:30PM EST, Mon - Fri at (888) 991-1929</strong> · Open Mobile Menu · Part Search · Sign In Sign In · Sign In · Sign In To",
+        "price_bias": false,
+        "url": "https://www.swisco.com/discussions/Loewen-Window-parts-77-322998",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:14.370Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-051",
+        "name": "loewen.millworkcenter.com — Millwork Center – Premium Windows, Doors & More!",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "We have a refined list of preferred Architects and Designers that we can share with you and you may choose the right partner to sharpen the vision of your dream. ... We pride ourselves on our relation",
+        "price_bias": false,
+        "url": "https://loewen.millworkcenter.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-052",
+        "name": "loewen.com — Home - Loewen Windows",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Loewen is the leading manufacturer of premium windows and doors for the luxury architectural market in North America and abroad · Genuine White Oak on our Timber Curtain Wall. Real wood, real metal. W",
+        "price_bias": false,
+        "url": "https://www.loewen.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-053",
+        "name": "Fine Homebuilding — GreenBuildingAdvisor.com - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Become a member and get instant access to thousands of videos, how-tos, tool reviews, and design features.",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/greenbuildingadvisor-com",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-054",
+        "name": "Reddit — r/HomeImprovement on Reddit: Is anyone here a member of Gree",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Create the following style and apply to greenbuildingadvisor.com: ... No more pop-ups, no more restrictions on scrolling up and down the pages. Considering most of the content on their website, especi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/58txyh/is_anyone_here_a_member_of_green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:14.369Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-055",
+        "name": "Reddit — r/buildingscience on Reddit: Green Building Advisor???",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "What is everyone’s thought on this as a source of reputable information? I was a big fan as this website as an intro to green building until I met…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/9bf85x/green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:14.371Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-056",
+        "name": "GBA — GreenBuildingAdvisor - Green Building Advisor is the one-sto",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Green Building Advisor is the one-stop source for builders, remodelers, architects &amp; homeowners looking for expert advice on green products, strategies &amp; proven construction details.",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-057",
+        "name": "GBA — Choosing High-Performance Windows - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Seeing the samples, <strong>I expected the Zola performance to be quite a bit better than the Loewen package as they were much more robust</strong>. As far as my knowledge goes, Zola is only modestly ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/help-me-choose-my-high-performance-windows-please",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-058",
+        "name": "This Old House — Loewen Windows Review",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Instead, Loewen covers different window components for different lengths of time. For example, some glass and window spacers are warranted for 20 years and others for 10. This limited warranty, combin",
+        "price_bias": false,
+        "url": "https://www.thisoldhouse.com/windows/loewen-windows-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:14.371Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-059",
+        "name": "Today's Homeowner — Loewen Windows Review: Read This Before Installing (2025) |",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Loewen offers a range of premium window materials and stacks up well against other window providers in this respect. But homeowners may miss the option for durable fiberglass windows or more affordabl",
+        "price_bias": true,
+        "url": "https://todayshomeowner.com/windows/review/loewen-window-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:14.371Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-060",
+        "name": "forums.jlconline.com — Loewen windows vs the competition - JLC-Online Forums",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "They always get the highest reviews from those that respect fine construction details. In my experience, these windows are of <strong>comparable quality to Marvin and Anderson but generally cost less,",
+        "price_bias": false,
+        "url": "https://forums.jlconline.com/forums/forum/jlc-online-expert-forums/finish-carpentry/7142-loewen-windows-vs-the-competition",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-061",
+        "name": "costguide.com — Compare Loewen vs. Marvin: Ultimate Guide for Homeowners - C",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "In comparing these two giants of the window world – Loewen’s specialization in luxurious Douglas Fir wood windows positions them uniquely for those seeking unparalleled elegance whereas Marvin offers ",
+        "price_bias": false,
+        "url": "https://costguide.com/compare-loewen-vs-marvin/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-062",
+        "name": "Fine Homebuilding — Marvin v. Loewen - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "For the single large window in our kitchen (52w x 37h) we found that <strong>Loewen was about half ($670) the cost of Marvin ($1300).</strong> Unfinished wood interior, aluminum cladding exterior to m",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/marvin-v-loewen",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-063",
+        "name": "replacementwindowsreviews.co — Loewen Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Explore Loewen windows reviews and consumer price quotes on the company&#x27;s most popular wood clad windows and doors.",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsreviews.co/company/loewen-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:15.193Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-064",
+        "name": "modernize.com — Loewen Windows Review 2026",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "They also offer wood replacement windows with metal cladding, in aluminum, copper, and bronze, and have a special knack for products that hold up to low temperatures and are storm and impact resistant",
+        "price_bias": false,
+        "url": "https://modernize.com/windows/brands/loewen-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-065",
+        "name": "Reddit — r/Edmonton on Reddit: Has anyone had Loewen or Marvin wood w",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "The Loewen dealer in Edmonton is a design company. The Marvin dealer in Edmonton does not list Marvin as a supplier on their website, and when I asked about that they said not many people want the Mar",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Edmonton/comments/1cgelq8/has_anyone_had_loewen_or_marvin_wood_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:14.953Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-066",
+        "name": "replacement-windows.com — Marvin Ultimate, Marvin Infinity, Loewen, or Kolbe? - Replac",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Pine is a softer wood that tends to rot which is why cladding was invented in the first place. Marvin&#x27;s cladding system and wood preservative do a good job of protecting the wood. <strong>If Loew",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=456",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T18:31:15.320Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-067",
+        "name": "saferproducts.gov — Home - SaferProducts",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Your report will let CPSC and other Americans know you found a dangerous product.",
+        "price_bias": false,
+        "url": "https://www.saferproducts.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-068",
+        "name": "recalls.gov",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The U.S. Consumer Product Safety Commission (CPSC) has jurisdiction over more than 15,000 kinds of consumer products used in and around the home, in sports, recreation and schools including: · electro",
+        "price_bias": false,
+        "url": "https://www.recalls.gov/cpsc.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-069",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "For those of you not familiar, California has a well-intended but poorly-executed proposition called Prop 65 (https://oehha.ca.gov/proposition-65/about-proposition-65) that is intended to warn consume",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:15.340Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-070",
+        "name": "en.wikipedia.org — 1986 California Proposition 65 - Wikipedia",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The first statutory requirement ... water sources. The second <strong>prohibits businesses from knowingly exposing individuals to listed substances without providing a clear and reasonable warning</st",
+        "price_bias": false,
+        "url": "https://en.wikipedia.org/wiki/1986_California_Proposition_65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-071",
+        "name": "honeywellaircomfort.com — What is Proposition 65, and Should You Be Concerned About It",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Placed upon appliances to disclose ... put, the warning means that <strong>the manufacturer believes the product might contain any of the 800-plus chemicals that the State of California considers harm",
+        "price_bias": false,
+        "url": "https://honeywellaircomfort.com/blogs/news/what-is-proposition-65-and-should-you-be-concerned-about-it",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-072",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Prop 65 warnings are <strong>required under California law only</strong>. These warnings are seen throughout California in a wide range of settings, including but not limited to restaurants, grocery s",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-LOEWEN-073",
+        "name": "Reddit — r/HomeImprovement on Reddit: Windows windows windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>They come with great hardware and a wide option of styles</strong>. You can get them custom made to your dimensions. One great option on casement windows are integrated pull down screens. Bewa",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/36k7po/windows_windows_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:14.945Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-074",
+        "name": "Reddit — r/Homebuilding on Reddit: Who REALLY makes quality windows a",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I would never install Milgard in my own home. I have them in a house we bought and they are very low end windows. I have worked on a handful of very large custom homes and they often go with aluminum ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1j1gd6z/who_really_makes_quality_windows_and_doors_at_a/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:15.903Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-075",
+        "name": "Reddit — r/BurlingtonON on Reddit: Window companies?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "If you were to lift up an Andersen window and then a Loewen window, you&#x27;d find that the Loewen window weighed twice as much as the Andersen window. Andersen is made in the USA as opposed to Canad",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/BurlingtonON/comments/1bw5y8f/window_companies/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:16.010Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-076",
+        "name": "Reddit — r/buildingscience on Reddit: Window Technical Information",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>They are phenomenal windows</strong>. Beyond strong. You pick up a Loewen window and it weighs triple what an Andersen window weighs. And I like Andersen, they make good windows.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1darb12/window_technical_information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:16.070Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-077",
+        "name": "Reddit — r/Architects on Reddit: What are the best windows money can",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Loewen, Fleetwood etc. Are a step above. Usually steel framed windows are the most expensive. A step above wood and clad options. Quantum Windows and Doors, for example, we’re getting into high end ar",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Architects/comments/1f8zuo6/what_are_the_best_windows_money_can_buy/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:16.078Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-078",
+        "name": "Reddit — r/homeowners on Reddit: Marvin vs Anderson vs Window World v",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Local partner installer with great reviews, had them all done in a couple of hours. Even had a warranty issue that was taken care of quickly on a very large picture window. Great windows and experienc",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/14ecn9f/marvin_vs_anderson_vs_window_world_vs/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:16.385Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-079",
+        "name": "Reddit — r/steinbach on Reddit: Loewen Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I will say this though, a lot of employers in the southeast seem to go out of there way to be a shitty employer (excuse the language) and Loewen’s doesn’t do that-they don’t pay half bad, they actuall",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/steinbach/comments/1oiih00/loewen_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:16.930Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-080",
+        "name": "Reddit — r/VictoriaBC on Reddit: Recommendation for a window company?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "If you&#x27;re looking for wood you&#x27;re probably going to want to look for a general contractor and a specific window manufacturer rather than a supply and install company. Loewen are decent for w",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/VictoriaBC/comments/10dwbk2/recommendation_for_a_window_company/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:16.971Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-081",
+        "name": "Reddit — r/Homebuilding on Reddit: Windows and Doors for New Build, w",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They don&#x27;t deal in standard sizes, they literally take any measurement you give them and make the window or door to order. You want a 333cm patio door? Weird, but ok, they&#x27;ll make it. ... Pe",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1nqhgsc/windows_and_doors_for_new_build_where_to_buy/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:16.934Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-082",
+        "name": "Reddit — r/Homebuilding on Reddit: Windows are expensive!",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "You can get any of the Marvin replacements, or new Construction Marvin or Loewen for the same money, even custom sizes! Heck, you can even re-frame the opening and add new trim for less! PSA - Replace",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1idmu6u/windows_are_expensive/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T18:31:17.093Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-083",
+        "name": "Reddit — r/Edmonton on Reddit: Any recommendations for window install",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "All-Weather Windows: seemed like a good product, competitive on pricing, but had (IMO) horrid sliding doors (only available in some weird off-brown interior color). Quote came in at about $33K. Loewen",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Edmonton/comments/6c4suu/any_recommendations_for_window_installation/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T18:31:17.062Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-084",
+        "name": "Reddit — Which window brand Marvin or Loewen? : r/Homebuilding",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1qjgwqb/which_window_brand_marvin_or_loewen/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:17.660Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-085",
+        "name": "Reddit — r/Homebuilding on Reddit: Lowe’s has taken over 2 years for",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "20 votes, 20 comments. My dad hired Lowe’s to do a lot of work in our house. They have been hired to redo 2 bathrooms, changing all the windows in…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1g9bgl4/lowes_has_taken_over_2_years_for_home_improvement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:17.635Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-086",
+        "name": "Reddit — Window brand ranking : r/Homebuilding",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "<strong>Loewen is #1, their tolerances are 1/32” while the rest of the industry is 1/8”,</strong> they have true triple pane at a 5% increase while everyone else is 25% or more. All their finishes are",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1hgj7o6/window_brand_ranking/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:18.925Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-087",
+        "name": "Reddit — r/Homebuilding on Reddit: Help with windows? Anderson 100?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I just put some metal clad Loewen in a renovation for a house to match what they had - and I was pretty happy with them.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1nkqw5t/help_with_windows_anderson_100/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:17.701Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-088",
+        "name": "Reddit — r/Homebuilding on Reddit: I have quite a few clients that ar",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I’ve installed Loewen.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/11w2k9q/i_have_quite_a_few_clients_that_are_interested_in/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:17.093Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-089",
+        "name": "Reddit — r/Homebuilding",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>This sub is for discussion and questions concerning all aspects of the home building process</strong> - whether in a development by a large builder, custom homes, or DIY projects. While the pe",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:19.469Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-090",
+        "name": "Reddit — r/buildingscience on Reddit: Window Flashing on Existing",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "It’s definitely wrong and Loewen is not one of those manufacturers who recommends taping the bottom flange. I don’t actually know of any who would show a taped flange in their install guide.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1jjqj8a/window_flashing_on_existing/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:19.498Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-091",
+        "name": "GBA — Icebreaker - replacing windows in Zone 6A - GreenBuildingAdv",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "Out of the brands they carry we’ve narrowed it down to Loewen and Andersen A Series (Sierra Pacific was in the running due to the proposition of the H3 line, but ultimately I think we want avoid even ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/icebreaker-replacing-windows-in-zone-6a-balancing-expectations-loewen-vs-andersen-a-series",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-092",
+        "name": "GBA — Conflict between Solitex Mento and Loewen Window installatio",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "We’re using Solitex Mento 1000 as a WRB along with metal-clad Loewen windows with an integral flange. Installation instructions for Mento published on 475’s web site are similar to the manufacturer’s ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/conflict-between-solitex-mento-and-loewen-window-installation-instructions",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-093",
+        "name": "GBA — Does anybody know of a window manufacturer who makes/sells d",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "Sure, use a European casement or tilt turn with simulated divided lights, but make the divisions an overall grid, rather than faking a 6 over 6 DH. That said, we&#x27;ve been using Loewen DH in zone 5",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/does-anybody-know-of-a-window-manufacturer-who-makes-sells-double-hung-windows-that-are-very-energy-efficient",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-094",
+        "name": "GBA — Quality Windows for zone 6 recommendations - GreenBuildingAd",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "https://thinkalpen.com/products/tyrol-series-windows-doors/ https://www.zolawindows.com/upvc#Slide4 https://eurotekwindows.com/ https://logicwd.com/tilt-turn-windows/ https://www.loewen.com/dealers/vi",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/quality-windows-for-zone-6-recommendations-2",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-095",
+        "name": "GBA — Liquid Flashing The Threshold of a Large Patio Doorway - Gre",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "It&#x27;s incredibly versatile. In my case I was installing large a Loewen window/door mulled unit and was told by the Loewen installer that ideally I should have had a metal drain pan put in, but as ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/liquid-flashing-the-threshold-of-a-large-patio-doorway",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-096",
+        "name": "GBA — few questions on window selections - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "&quot;We only got quotes from Canadian suppliers - Marvin, Weathershield, Windsor, Loewen&quot;",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/few-questions-on-window-selections",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-097",
+        "name": "GBA — Humidity – Air moving from cold outside to warm inside ? - G",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "New house completed Jun 2020. Yes, there are a lot of issues w/ the windows (Loewen) leaking air that we are working w/ the local supplier and mfr on.",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/humidity-air-moving-from-cold-outside-to-warm-inside",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-098",
+        "name": "Fine Homebuilding — Loewen windows, anybody? - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Discussion Forum · Markb | Posted in General Discussion on January 4, 2000 11:52am · * Anybody have experience with these? Casement, in particular. Thanks. Reply · Guest_ | Dec 02, 1999 11:03pm | #1 ·",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/loewen-windows-anybody",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-099",
+        "name": "Fine Homebuilding — Loewen Windows? - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Building a home and came acrosse this brand of windows as an upgrade. The appearance really struck me. Anyone had any experience with them? They come from Canada (no political […]",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/loewen-windows-2",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-100",
+        "name": "Fine Homebuilding — Loewen vs Pella... How to justify 10K? - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Working on a new house with a lot of casement windows and sliders. We have a real desire to go with Loewen but the price difference between the two and […]",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/loewen-vs-pella-how-to-justify-10k",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-101",
+        "name": "Fine Homebuilding — Lowen Window's - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Discussion Forum · ms4343 | Posted in General Discussion on September 24, 2009 11:16am · Hello all, Does anyone have any thoughts about Lowen windows? I was considering them for an addition project of",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/lowen-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-102",
+        "name": "Fine Homebuilding — loewen windows-any problems? - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "Discussion Forum · | Posted in General Discussion on September 26, 2001 03:25am · * wondering if anyone has had the hassles we’ve had with the company-wrong size windows, wrong size jambs, not mulled,",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/loewen-windows-any-problems",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-103",
+        "name": "Fine Homebuilding — Window Suggestions - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "The best windows I know of in wood or wood/aluminum clad are Loewen.",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/window-suggestions",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-104",
+        "name": "Fine Homebuilding — Budget windows with wood interior - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "The Loewen&#x27;s are supposed to be a nice window. We have looked at them for our house and are considering them. Do a search on Loewen.",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/budget-windows-with-wood-interior",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-105",
+        "name": "Fine Homebuilding — Windows-New Construction -no clue - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "* We&#x27;ve just done some research for a project and have discovered Loewen windows. <strong>They are Canadian made, match Marvin specs, but cost 5 to 10% less</strong>. The feature I like the best ",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/windows-new-construction-no-clue",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-106",
+        "name": "Fine Homebuilding — Your Favorite Windows - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "*At this point, windows aren&#x27;t my specialty, but a subcontractor in high end custom that I met at a Christmas party only sell Loewen Windows. He has been in the window business for 20 years, says",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/your-favorite-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-107",
+        "name": "Houzz — LOEWEN - Project Photos & Reviews - Steinbach, MB CA | Houzz",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "From one simple dashboard, you can manage all the Replacement Window Contractor quotes you got. Loewen provides the following services: Custom Windows, Window Sales · Loewen provides services in the f",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/loewen-pfvwus-pf~277354847",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:19.793Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-108",
+        "name": "Houzz — LOEWEN DEVELOPMENTS - Project Photos & Reviews - Penticton,",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Landscape Lighting Installation · Outdoor Lighting &amp; Audio/Visual Specialists · Home Theater &amp; Home Automation Services · Handyman Services · Closet Designers · Professional Organizers · Furni",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/loewen-developments-pfvwus-pf~186774818",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:22.846Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-109",
+        "name": "Houzz — LOEWEN DESIGN STUDIOS - Project Photos & Reviews - Fonthill,",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan ... more efficient and stress-free. ... Houzz vs. Houzz Pro · Houzz Pro vs. Ivy ... <strong>Loewen Design Studios</strong> is a family business....",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/furniture-and-accessories/loewen-design-studios-pfvwus-pf~1295151457",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:19.558Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-110",
+        "name": "Houzz — MILLWORK CENTER - LOEWEN WINDOW CENTER - Project Photos & Re",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>Millwork Center</strong> - Loewen Window Center provides the following services: Bifold Windows, Custom Exterior Doors, Custom Windows, Window Installation, Window Replacement, Window Sales",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/millwork-center-loewen-window-center-pfvwus-pf~1480968423",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:23.401Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-111",
+        "name": "Houzz — TOP Home Window Replacement Companies in Santa Fe, NM - Upda",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "... Houzz vs. Houzz Pro · Houzz Pro vs. Ivy ... Washington D.C. ... <strong>Architecture Windows and Doors LLC</strong>, also known as The Loewen Window Center of Santa Fe is the dealer of choice for.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/windows/santa-fe-nm-us-probr0-bo~t_11797~r_5490263",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:23.380Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-112",
+        "name": "Houzz — Loewen vs. Marvin or cheaper Windows",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2591350/loewen-vs-marvin-or-cheaper-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:23.457Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-113",
+        "name": "Houzz — Loewen, Marvin, or Pella?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Marvin is one of the best wood or wood aluminum clad production windows available. Loewen is a solid product as well.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6400467/loewen-marvin-or-pella",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:23.678Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-114",
+        "name": "Houzz — Problems with Loewen Windows and Doors | Houzz Forum",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2633621/problems-with-loewen-windows-and-doors",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:23.588Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-115",
+        "name": "Houzz — Loewen price quote",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We plan to build the guest house first live in it for several years and then tackle the larger one. Our architect is finishing the blueprints but the floorplans are complete and we are starting to get",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2642701/loewen-price-quote",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:24.568Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-116",
+        "name": "Houzz — Loewen Windows - Service",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6145632/loewen-windows-service",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:24.242Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-117",
+        "name": "ReplacementWindowDiscussions — sierra pacific vs loewen windows—your pick?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I&#x27;ve installed both brands for clients, and honestly, they&#x27;re both solid choices. Sierra Pacific tends to offer a bit more bang for your buck—good quality without breaking the bank. Loewen, ",
+        "price_bias": true,
+        "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands/sierra-pacific-vs-loewen-windows-your-pick/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:24.539Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-118",
+        "name": "ReplacementWindowDiscussions — SIERRA PACIFIC VS LOEWEN WINDOWS - WHICH WAY TO GO?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Yeah, I get what you&#x27;re saying about Loewen&#x27;s rep—it&#x27;s definitely earned. We went with Loewen windows about five years ago, and honestly, they&#x27;ve held up great. Solid build, smooth",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands/sierra-pacific-vs-loewen-windows-which-way-to-go/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:24.321Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-119",
+        "name": "forums.jlconline.com — Windows and Doors - Quality vs Cost - JLC-Online Forums",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "Re: Windows and Doors - Quality vs Cost For what my .02 is worth, I&#x27;ve installed Loewen on two jobs (whole house) in the past few years, and <strong>they are a fantastic window</strong>. Very wel",
+        "price_bias": false,
+        "url": "https://forums.jlconline.com/forums/forum/jlc-online-expert-forums/exterior-details/24344-windows-and-doors-quality-vs-cost",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-LOEWEN-120",
+        "name": "YouTube — Loewen Double Hung Installation - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Nicholas Mazerolle demonstrates the proper installation of a Loewen Double Hung window.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=MzWzK6JFiqo",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:24.239Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-121",
+        "name": "YouTube — Loewen Windows - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Established in 1905, Loewen crafts luxurious windows and doors that are the statement pieces of custom architecture. Our spectrum of products are built with ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/@LoewenWindows/videos",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:25.360Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-122",
+        "name": "YouTube — Loewen Window Install with Poly Wall Aluma Flash Plus",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=hUj_KvCJNG0",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:25.132Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-123",
+        "name": "YouTube — Loewen Lift & Slide Doors inside a Curtain Wall Window Syste",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This is the first residential curtain wall window installation of these massive Loewen Windows. They also have a lift and slide door system inside! Matt to...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=_1H5dR_EJP0",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:25.154Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-124",
+        "name": "YouTube — Loewen Picture Window - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>This Picture Window is a brilliant redesign from its predecessors</strong>. With a largerglass area for enhanced viewing and a clean interior free from glazing stops,...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=StZmbil98jY",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:25.370Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-125",
+        "name": "YouTube — Loewen Door Installation - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Lawrence Dueck takes you through a proper door installation.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=Gzu_p8_xTLY",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:25.425Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-126",
+        "name": "YouTube — DOUBLE HUNG WINDOWS - Showroom Walkthrough - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Ray van Boven demonstrates the operation of a Loewen Double Hung window and discusses some of the main highlights.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=9IrBdZFFn3U",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.047Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-127",
+        "name": "YouTube — Loewen Windows & Doors - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "True to our beginnings over a hundred years ago, every item that leaves our plant is completely made-to-order, ensuring our designs never get in the way of y...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=X_GXUP44M4g",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.235Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-128",
+        "name": "YouTube — How to operate Loewen windows #installation #howto #construc",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The correct operation of the push out casement, standard casement and awning windows #howto #certifiedinstaller #installation #windows",
+        "price_bias": false,
+        "url": "https://www.youtube.com/shorts/owt8MN-R5hg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.047Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-129",
+        "name": "YouTube — Introducing the Loewen MultiSlide - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This flexible offering includes straight-stacking, bi-parting, pocketing, and corner configurations. Dramatic indoor/outdoor transitions are easily achievabl...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=Cx0rDCidHeg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.040Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-130",
+        "name": "YouTube — Loewen True Triple Glazing - 50th Anniversary - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Nick Wall celebrates 50 years of True Triple Glazing; and also dives into the world of high performance glazing in general.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=m9o4j5Zhvpo",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:27.137Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-131",
+        "name": "YouTube — Loewen Double Hung - Classic American Architecture - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Our Double Hung has been meticulously designed for architectural correctness making it the ideal market choice for new builds and heritage replacements. All ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=wIu8KU1-NFE",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.860Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-132",
+        "name": "YouTube — AWNING & CASEMENT WINDOWS - Showroom Walkthrough - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Duane Koop demonstrates the operation of our Loewen Awning and Casement windows and discusses some of the main highlights.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=iH8rYfiaY9I",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.917Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-133",
+        "name": "YouTube — 2-minute Loewen plant tour - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy &amp; SafetyHow YouTube worksTest new featuresNFL Sunday Ticket · © 2024 Google LLC",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=8TJFrernczc",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.902Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-134",
+        "name": "store.fgiaonline.org — AAMA/WDMA/CSA 101/I.S.2/A440-05-Standard/Specification for W",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "This standard <strong>identifies the requirements for windows, glass doors, skylights and for the first time side-hinged exterior doors</strong>. Included (when applicable) are performance requirement",
+        "price_bias": false,
+        "url": "https://store.fgiaonline.org/101/I.S.2/A440-05/",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-135",
+        "name": "boabc.org — NAFS-08 & CSA A440S1-09 Fenestration Standards",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Index of /wp-content/uploads/ · Proudly Served by LiteSpeed Web Server at boabc.org Port 443",
+        "price_bias": false,
+        "url": "https://boabc.org/wp-content/uploads/2015/10/Cascadia-Windows-Ltd-NAFS-Presentation-BOABC.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-136",
+        "name": "store.fgiaonline.org — AAMA/WDMA/CSA 101/I.S.2/A440-08-North American Fenestration",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The following significant changes from the previous edition of this Standard/Specification have been made: (a) reduction of the number of window and door performance classes from five to four by elimi",
+        "price_bias": false,
+        "url": "https://store.fgiaonline.org/101/I.S.2/A440-08/",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-137",
+        "name": "loewen.com — Performance Data - Loewen Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Loewen products are designed to meet most major building codes. Our extensive product line, custom capability and years of market experience make even the most stringent codes achievable.",
+        "price_bias": false,
+        "url": "https://www.loewen.com/professionals/performance-data/",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-138",
+        "name": "Passive House Institute",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "DEUTSCH ENGLISCH 中文 · The Passive House Institute (PHI) has introduced <strong>efficiency classes for windows and other transparent building components in order to help set highly energy efficient pro",
+        "price_bias": false,
+        "url": "https://passivehouse.com/03_certification/01_certification_components/02_certification_criteria/01_transparentcomponents/01_transparentcomponents.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-139",
+        "name": "passivehousenetwork.org — PHI Component Certification Q&A - The Passive House Network",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The first step of component certification is for the manufacturer to provide the Passive House Institute’s Component Certification team with the design and specifications of their product. The team th",
+        "price_bias": false,
+        "url": "https://passivehousenetwork.org/phi-component-certification-qa/",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-140",
+        "name": "PHIUS",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "The standards are locally tailored and globally applicable. More on the Phius Standard · <strong>Phius certifies windows and prefabricated panels (with more categories coming soon) with an eye specifi",
+        "price_bias": false,
+        "url": "https://www.phius.org/",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-141",
+        "name": "passiv.de — i Efficiency first – why the need for certification?",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "PHI is an independent research institute that has played an · especially crucial role in the development of the Passive House · concept – an internationally recognized, performance-based · energy stan",
+        "price_bias": false,
+        "url": "https://passiv.de/downloads/03_flyer_component_certification_window_NY.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-142",
+        "name": "greenbuildingtalk.com — My Loewen Window (triple pane) Quote - GreenBuildingTalk - G",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "We have 1335 sq ft of glazing in our new house. Approx 10 would be operable, two sliding doors ...We&#x27;re getting 3 quotes: Loewen, Duxton and Innotech. Today, Loewen came back with $105,000 which ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingtalk.com/Forums/tabid/53/aff/16/aft/80763/afv/topic/Default.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-143",
+        "name": "greenbuildingtalk.com — Re-painting Loewen? - GreenBuildingTalk - GreenBuildingTalk",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "I ust bought a group of Loewen windows for a project, and I lucked out and bought a patio door as a floor model.Both the windows and door are currently Loewen&#x27;s &quot;tuscany brown&quot;, but we&",
+        "price_bias": false,
+        "url": "https://www.greenbuildingtalk.com/Forums/tabid/53/aff/16/aft/37743/afv/topic/Default.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-144",
+        "name": "greenbuildingtalk.com — Kolbe Ultra EP vs. Loewen - GreenBuildingTalk - GreenBuildin",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Was interested in getting opinions and experiences with the following window alternatives: Kolbe Ultra EP (1 3/8&quot; triple pane glass) vs. Loewen with triple pane. Location is western Washington (w",
+        "price_bias": false,
+        "url": "https://www.greenbuildingtalk.com/Forums/tabid/53/aff/16/aft/81723/afv/topic/Default.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-145",
+        "name": "greenbuildingtalk.com — Casement window comparison - GreenBuildingTalk - GreenBuildi",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Does anyone have any experience with Lepage Windows? I am looking at comparing Marvin, Loewen and Lepage. The windows are clad casements. Any information would be appreciated.Thanks",
+        "price_bias": false,
+        "url": "https://www.greenbuildingtalk.com/Forums/tabid/53/aff/16/aft/82922/afv/topic/Default.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-146",
+        "name": "greenbuildingtalk.com — Window quotes from 8 companies - GreenBuildingTalk - GreenBu",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Hi Everyone,I have gotten quotes from a number of manufacturers. Intus, Zola, Bieber, HHWindows, SolarInnovations, Jeld-Wen, Sfera, Cometal.I have a total of 36 windows, but some of them can be combin",
+        "price_bias": false,
+        "url": "https://www.greenbuildingtalk.com/Forums/tabid/53/aff/16/aft/81457/afv/topic/Default.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_6_international"
+      },
+      {
+        "id": "PC-LOEWEN-147",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-LOEWEN-148",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-LOEWEN-149",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-LOEWEN-150",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-LOEWEN-151",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-LOEWEN-152",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-LOEWEN-153",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T18:31:26.860Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-LOEWEN-154",
+        "name": "Loewen official technical documentation",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Official Loewen technical/performance documentation",
+        "price_bias": false,
+        "url": "https://www.lfrp.com/technical-resources/",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
       }
     ],
     "_note": "v2.0: Complete source roster. 5 Pool A (GBA x2, FHB x3), 3 Pool B (Risinger, WESKetch, Reddit installer), 3 Pool C (Houzz, Trustpilot, consumer media). Strong positive consensus from professionals; mixed-to-negative from price-sensitive consumer sources."
   },
   "component_quality": {
     "quality_tier": "premium",
-    "_note": "Coastal Douglas Fir core, AAMA 2605 Kynar 500 PVDF paint system, mortise and tenon joinery, Cardinal Glass with stainless steel spacers, dual weatherstripping."
+    "_note": "Coastal Douglas Fir core, AAMA 2605 Kynar 500 PVDF paint system, mortise and tenon joinery, Cardinal Glass with stainless steel spacers, dual weatherstripping. | Source parser added: triple-pane available, Super Spacer (Edgetech), Swiggle Seal spacer, dual-seal IGU, weatherstripping noted, Low-E coating, aluminum-clad, Coastal Douglas Fir core, AAMA 2605 Kynar coating"
   },
   "repairability": {
     "igu_replacement_method": "glass_swap",
@@ -138,8 +2157,8 @@
   },
   "performance": {
     "thermal": {
-      "u_factor": null,
-      "u_factor_source": null,
+      "u_factor": "0.35",
+      "u_factor_source": "https://efficientwindows.org/faq/",
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6.5,
       "note": "NFRC certified, Energy Star qualified. Douglas Fir frame with aluminum cladding — inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published. Score above midpoint for material advantage and certifications.",
@@ -161,5 +2180,28 @@
       "note": "Manufacturer does not publish air infiltration value for DH configuration. GBA anecdotal report (0.03 cfm/ft² whole-house) suggests excellent air sealing. Energy Star / NFRC certified. Scored at certification floor for wood_clad material class. Actual performance may be significantly better.",
       "non_disclosure_flag": true
     }
+  },
+  "_source_parser_meta": {
+    "productName": "Loewen",
+    "config": "DH",
+    "category": "windows",
+    "manufacturer": "Loewen",
+    "isInternational": true,
+    "run_date": "2026-03-16T18:32:15.191Z",
+    "total_sources": 144,
+    "pool_a_count": 22,
+    "pool_b_count": 4,
+    "pool_c_count": 60,
+    "reddit_pending": 22,
+    "complaints_found": 2,
+    "certifications_found": 9,
+    "phase_6b_stats": {
+      "total": 222,
+      "relevant": 144,
+      "rejected": 78,
+      "skipped": 8,
+      "fetchFailed": 98
+    },
+    "phase_6b_rejected": 78
   }
 }

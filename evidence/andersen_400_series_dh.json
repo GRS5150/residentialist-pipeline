@@ -224,6 +224,84 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": true,
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-017",
+        "description": "Class action lawsuit alleging Andersen 400 Series Tilt Wash vinyl clad windows have a manufacturing defect causing moisture intrusion, mold growth, and premature deterioration affecting multiple consu",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://casetext.com/case/allen-v-andersen-windows-inc",
+        "year": 2010,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-018",
+        "description": "Andersen 400 Series windows exhibit drafting, leaking, and condensation issues affecting multiple customers, with a class action lawsuit filed in Massachusetts.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://thewindowdog.com/review-andersen-400-series-window/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-019",
+        "description": "Andersen 400 Series Tilt Wash windows experienced mold and fungus growth due to window seal gaps allowing moisture infiltration, leading to lawsuit by homeowners.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/lawsuit-links-andersen-windows-mold-and-fungus-growth",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-020",
+        "description": "User reported experiencing multiple problems with Andersen 400 Series windows and doors installed 10 years ago in new construction.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Construction/comments/18k0vo5/anderson_windows/",
+        "year": 2014,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-021",
+        "description": "Consumer reports that all Andersen windows installed 10 years ago are broken, indicating potential systemic seal or structural failure.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
+        "year": 2014,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-022",
+        "description": "Top latch mechanism mechanically disconnected from bottom latch on Andersen 400 Series casement window, preventing top latch from functioning despite normal window operation.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.finehomebuilding.com/forum/anderson-400-top-latch-broke",
+        "year": 2011,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -2368,12 +2446,63 @@
           "screened_at": "2026-03-16T03:13:01.931Z",
           "text_source": "snippet"
         }
+      },
+      {
+        "id": "PC-ANDERS-185",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "After one or two weeks, the certifying agencies test the VOC levels in the chamber. <strong>If the emission levels are low, the products earn the Greenguard Gold or Greenguard Certification mark</stro",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-186",
+        "name": "greatplainswindows.com — Andersen Windows A-Series vs 400 Series Comparison",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Andersen offers one of the industries most extensive lines of glass options, so you’re certain to find the right choice for your home and your needs. Keep in mind, glass can affect energy efficiency m",
+        "price_bias": false,
+        "url": "https://greatplainswindows.com/andersen-windows-a-series-vs-400-series-comparison/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-187",
+        "name": "Reddit — r/HomeImprovement on Reddit: Are Renewal By Andersen windows",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Neighbor worked about 20 years for Andersen and told us they are good windows but others are just as good for way less. He put one of the local brands in his last house and said they were the best. Un",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/p8xtw9/are_renewal_by_andersen_windows_truly_worth_the/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T17:42:59.302Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-188",
+        "name": "andersenwindows.com — 200 SERIES PRODUCT PERFORMANCE HALLMARK CERTIFICATION",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "In the example above, a <strong>PG 30</strong> performance grade rating, which passes a · 30 psf design pressure, should be used for determining code compliance, not the structural · test pressure of ",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/-/media/Project/AndersenCorporation/AndersenWindows/AndersenWindows/files/technical-docs/performance/performance-windows-patiodoors-performancegrade-airinfiltration-soundtransmissionratings--200series.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
       }
     ]
   },
   "component_quality": {
     "quality_tier": null,
-    "_note": "Low-E coating, Fibrex composite material, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), dual-seal IGU, weatherstripping noted, vinyl-clad | Source parser added: Low-E coating, Fibrex composite material, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), weatherstripping noted, vinyl-clad"
+    "_note": "Low-E coating, Fibrex composite material, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), dual-seal IGU, weatherstripping noted, vinyl-clad | Source parser added: Low-E coating, Fibrex composite material, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), weatherstripping noted, vinyl-clad | Source parser added: Low-E coating, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), dual-seal IGU, weatherstripping noted, vinyl-clad, Fibrex composite material"
   },
   "repairability": {
     "igu_replacement_method": null,
@@ -2407,24 +2536,24 @@
   "_source_parser_meta": {
     "productName": "Andersen 400 Series",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Andersen",
     "isInternational": false,
-    "run_date": "2026-03-16T03:14:31.231Z",
-    "total_sources": 176,
-    "pool_a_count": 19,
-    "pool_b_count": 8,
-    "pool_c_count": 102,
+    "run_date": "2026-03-16T17:44:19.643Z",
+    "total_sources": 169,
+    "pool_a_count": 15,
+    "pool_b_count": 7,
+    "pool_c_count": 98,
     "reddit_pending": 30,
-    "complaints_found": 8,
+    "complaints_found": 7,
     "certifications_found": 6,
     "phase_6b_stats": {
       "total": 200,
-      "relevant": 176,
-      "rejected": 24,
-      "skipped": 28,
-      "fetchFailed": 126
+      "relevant": 169,
+      "rejected": 31,
+      "skipped": 30,
+      "fetchFailed": 119
     },
-    "phase_6b_rejected": 24
+    "phase_6b_rejected": 31
   }
 }
