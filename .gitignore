@@ -35,3 +35,6 @@ rescore_*.js
 run_*.sh
 test_6b_*.js
 test_auth.txt
+
+# Generated NotebookLM exports
+exports/
