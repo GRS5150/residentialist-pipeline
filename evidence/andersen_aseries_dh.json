@@ -1,0 +1,2264 @@
+{
+  "product": "Andersen A-Series",
+  "config": "DH",
+  "category": "Windows",
+  "evidence_version": "2.0",
+  "created": "2026-03-16",
+  "last_verified": "2026-03-16",
+  "refresh_after_days": 90,
+  "manufacturing_quality": {
+    "business_model": null,
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR",
+      "AAMA",
+      "NAFS",
+      "GREENGUARD",
+      "PASSIVE_HOUSE",
+      "PROP_65_WARNING"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-ANDERS-001",
+        "description": "Class action lawsuit alleging Andersen products contain lower argon concentration than advertised and dual seals fail to prevent or slow gas leakage.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.houzz.com/discussions/2633372/andersen-faces-class-action-argon-lawsuit",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-002",
+        "description": "Class action lawsuit investigation alleging Andersen Windows & Doors fails to honor warranty claims for repair and replacement issues affecting multiple consumers.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.complaintsboard.com/andersen-windows-do-not-honor-warranty-c6796",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-003",
+        "description": "Class action lawsuit filed against Andersen alleging argon gas loss and seal failure in insulated glass units, with discussion of inadequate warranty coverage for condensation between panes.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=1915",
+        "year": 2007,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-004",
+        "description": "Andersen window opening control devices can break or detach after impact, allowing uncontrolled window opening and posing fall and serious injury hazards.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://hbsdealer.com/andersen-recalls-window-opening-devices",
+        "year": null,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-005",
+        "description": "Multiple Andersen window cranks have split or broken completely, described as a design defect affecting numerous units.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/11kju78/andersen_window_problems/",
+        "year": 2023,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-006",
+        "description": "Multiple Andersen Series 100 windows developed extensive cracks in sashes and lost glazing beads; manufacturer refused warranty coverage despite field inspection.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1faoqgt/andersen_series_100_windows_failure/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-007",
+        "description": "Multiple Andersen windows experienced seal failure and operational defects within 10 years of installation, with one user reporting all windows in their installation were broken.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
+        "year": 2014,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-ANDERS-001",
+        "name": "renewalbyandersen.com — ENERGY EFFICIENCY Energy Efﬁciency and Long-Lasting Beauty F",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "2 \u0007Renewal by Andersen and its parent company, Andersen Corporation, are the only window companies to receive Scientific Certification Systems (SCS) Indoor Advantage Gold™ certification for indoor air",
+        "price_bias": false,
+        "url": "https://www.renewalbyandersen.com/-/media/Files/Downloadable-Documents/renewal_by_andersen_energy_efficiency_sell_sheet-(1).pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-002",
+        "name": "rbastl.com — ENERGY PERFORMANCE RATINGS: READING THE NFRC LABEL - Renewal",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Charles County, <strong>the maximum U-factor and SHGC ratings every window must have are 0.30 and 0.40</strong>, respectively. ... This measures how much daylighting the window provides. Expressed in ",
+        "price_bias": false,
+        "url": "https://www.rbastl.com/2018/12/20/energy-performance-ratings-reading-the-nfrc-label/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-003",
+        "name": "thewindowanddoorshoppe.com — Page 221 - Andersen Architectural Collection A-Series 2018-1",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "NAFS is also referred to easily recognizable means of identifying products that have been manufactured and tested Andersen Product Construction Performance Grade (PG) Design Pressure (DP) Class (STC) ",
+        "price_bias": false,
+        "url": "https://www.thewindowanddoorshoppe.com/catalogs/anderson/A-Series/files/basic-html/page221.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:03.952Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-ANDERS-004",
+        "name": "cardinalcorp.com — XL Edge Insulating Glass | Cardinal Glass Industries",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>Launched in 1993, XL Edge is the pioneer of highly durable and energy-efficient spacer systems</strong>. XL Edge is available today in double and triple-pane configurations. XL Edge IG comes w",
+        "price_bias": false,
+        "url": "https://www.cardinalcorp.com/products/insulating-glass/xl-edge/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-005",
+        "name": "pmc.ncbi.nlm.nih.gov — Polyisobutylene and Silicone in Warm Edge Glazing Systems—Ev",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Figure 1 shows examples of seal displacements found in the literature [11]. In addition, the authors of [11] studied cold flow displacement behaviour of various seal spacer assemblies in laboratory te",
+        "price_bias": false,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8269632/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-006",
+        "name": "rochesterinsulatedglass.com — Spacers - Rochester Insulated Glass",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Conventional aluminum, stainless steel, and plastic spacers “short circuit” the edge seal. Warm Seal’s extremely low level of thermal conductivity leads to greatly reduced IGU condensation and improve",
+        "price_bias": false,
+        "url": "https://rochesterinsulatedglass.com/spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-007",
+        "name": "cardinalcorp.com — Endur Warm Edge Insulating Glass | Cardinal Glass Industries",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "<strong>Stainless steel spacer features a roll formed design to provide maximum area for primary and secondary sealant coverage</strong>. It provides increased resistance to condensation and less stre",
+        "price_bias": false,
+        "url": "https://www.cardinalcorp.com/products/insulating-glass/endur/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-008",
+        "name": "justanswer.com — Anderson Door Weatherstripping Replacement Guide - FAQ",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Locate the etched glass corner for exact Andersen door model info. Remove old weatherstripping carefully using a putty knife. Clean the channel thoroughly before installing new seals. Use Andersen’s s",
+        "price_bias": false,
+        "url": "https://www.justanswer.com/home-improvement/axd6t-doors-are-installed-1995.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:03.993Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-009",
+        "name": "engineerfix.com — How to Replace Andersen Sliding Door Weather Stripping - Eng",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "For kerf-in or pile weatherstripping in the head and jambs, <strong>use needle-nose pliers to firmly grip one end of the strip and pull it out of the kerf, or narrow groove, which releases the T-shape",
+        "price_bias": false,
+        "url": "https://engineerfix.com/how-to-replace-andersen-sliding-door-weather-stripping/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-010",
+        "name": "homedepot.com — Weatherstripping - Andersen - The Home Depot",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Brand: AndersenFeatures: WeatherstrippingClear All · (3.7 / 24) $1,547.80 · View Package · Expert Installation Available · (4 / 8) Model# 9207459 · $1,262.80 · Add to Cart · (3.7 / 18) $1,547.80 · Vie",
+        "price_bias": false,
+        "url": "https://www.homedepot.com/b/Andersen/Weatherstripping/N-5yc1vZ5oZ1z0sfra",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:03.758Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-011",
+        "name": "Reddit — r/HomeImprovement on Reddit: Bulk casement window weatherstr",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "You can very likely buy the correct weatherstrip from their site. You just need to identify the window. The strips from Andersen fit perfectly and are cut to the correct length.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/y2idjb/bulk_casement_window_weatherstripping_source/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:03.846Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-012",
+        "name": "brennancorp.com — What is the Warranty on Andersen A-Series Windows",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "The A-Series offers a <strong>limited owner2owner transferable warranty with noted exclusions</strong>. Like most manufacturers, Andersen does not offer a blanket warranty on the entire unit. Instead,",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/what-is-the-warranty-on-andersen-a-series-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-013",
+        "name": "renewalbyandersen.com — Renewal by Andersen Warranty",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Your Renewal by Andersen® Ensemble™ entry door products are warranted under a <strong>fully transferable limited warranty covering parts, labor, and installation services</strong>.",
+        "price_bias": false,
+        "url": "https://www.renewalbyandersen.com/homeowners/Warranty",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-014",
+        "name": "renewalbyandersenreplacement.com — Renewal by Andersen Warranty: The Most Comprehensive & Trans",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Many competitors offer much shorter terms, especially for labor, or exclude it entirely, creating potential out-of-pocket expenses for issues related to the installation. <strong>Yes, the Renewal by A",
+        "price_bias": false,
+        "url": "https://renewalbyandersenreplacement.com/blog/rba-comprehensive-transferable-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-015",
+        "name": "rbawindowreplacements.com — Warranty | Renewal by Andersen®",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Your Renewal by Andersen® Ensemble™ entry door products are warranted under a <strong>fully transferable limited warranty covering parts, labor, and installation services</strong>.",
+        "price_bias": false,
+        "url": "https://rbawindowreplacements.com/why-renewal/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-016",
+        "name": "rbastl.com — Warranties | Renewal by Andersen of St. Louis | Maryland Hei",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Renewal by Andersen’s warranty is fully transferable, and does not end when you sell your home. <strong>Full coverage can be transferred from owner to owner as long as the warranty is still in effect<",
+        "price_bias": false,
+        "url": "https://www.rbastl.com/renewal-by-andersen-2/warranties/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-017",
+        "name": "Today's Homeowner — Andersen Windows Warranty: What You Need To Know (2026) | To",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "If an Andersen-certified contractor installs the new windows, most Andersen products have 20 years of glass and Fibrex coverage, 10 years of hardware coverage, and a <strong>five-year labor warranty</",
+        "price_bias": true,
+        "url": "https://todayshomeowner.com/windows/guides/andersen-windows-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:03.954Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-018",
+        "name": "Reddit — r/homeowners on Reddit: Negative sales experience with Renew",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "We are evaluating a class action lawsuit to help buyers get some of their money back. If you’ve made any purchases with Renewal by Andersen and are interested in exploring your rights to recover some ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/14pw4rr/negative_sales_experience_with_renewal_by_anderson/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:04.681Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-019",
+        "name": "Reddit — r/homeowners on Reddit: New Windows? Renewal by Andersen vs",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Renewal by Andersen Class Action Investigation We are investigating a class action lawsuit against Renewal by Andersen, the window replacement company.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1cxcpnd/new_windows_renewal_by_andersen_vs_other_options/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:05.652Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-020",
+        "name": "Houzz — Andersen Faces Class action Argon Lawsuit",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "The plaintiff, David Yancey, on ... <strong>claim that the Andersen products they purchased have a lower initial concentration of inert glass than what was presented, and that the productsÂ dual seal ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2633372/andersen-faces-class-action-argon-lawsuit",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:04.681Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-021",
+        "name": "complaintsboard.com — Andersen Windows & Doors Review: \"Do not honor warranty!\"",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "My law firm is investigating consumer ... any of these problems, please contact me. <strong>We are preparing a class action lawsuit to recover damages for consumers for repair/replacement costs</stron",
+        "price_bias": false,
+        "url": "https://www.complaintsboard.com/andersen-windows-do-not-honor-warranty-c6796",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:04.681Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-022",
+        "name": "replacement-windows.com — Andersen Faces Class action Argon Lawsuit - Replacement Wind",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Nor do I doubt Andersen&#x27;s ability to mount a vigorous and protracted defense. I do, however, doubt their willingness to do so. Class action lawsuits are typically little more than extortion, whic",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=1915",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:04.690Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-ANDERS-023",
+        "name": "caselaw.findlaw.com — DROBNAK v. ANDERSEN CORPORATION (2009) | FindLaw",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "<strong>The amended complaint alleged that Andersen failed to remedy the breach and that “[f]urther notice by additional Plaintiffs and Class members would be futile.”</strong> The plaintiffs in the a",
+        "price_bias": false,
+        "url": "https://caselaw.findlaw.com/court/us-8th-circuit/1137792.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-024",
+        "name": "bbb.org — Renewal by Andersen, LLC | BBB Complaints | Better Business",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "A broken frame compromises both structural integrity and thermal performance and remains unresolved.Renewal by Andersen representatives also committed to conducting a thermal imaging camera inspection",
+        "price_bias": false,
+        "url": "https://www.bbb.org/us/mn/roseville/profile/windows/renewal-by-andersen-llc-0704-21003390/complaints",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.216Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-025",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD Certification Program <strong>identifies low-emitting materials, finishes, and products for indoor environments</strong>. The GREENGUARD Gold Certification standard includes health-base",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-026",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>GREENGUARD Gold Certification level</strong>.",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-027",
+        "name": "trivantage.com — All About GREENGUARD: Products Certified to Support Healthie",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "To earn GREENGUARD Certification, a product must undergo: <strong>Comprehensive lab testing in environmental chambers that simulate typical indoor environments</strong> · Evaluation against establishe",
+        "price_bias": false,
+        "url": "https://www.trivantage.com/blog/products/all-about-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-028",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>It meets strict standards of low emission levels to maintain your indoor air quality</strong>. Sometimes, high concentrations of certain VOCs can affect you. You may experience exhaustion, as ",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-029",
+        "name": "mpglobalproducts.com — What is GREENGUARD Gold Certification? - MP Global Products,",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Basically, the GREENGUARD Indoor Air Quality Certification Program <strong>pin-points low-emission materials, finishes, and products</strong>. Therefore, it maintains quality, safe, and toxic-free ind",
+        "price_bias": false,
+        "url": "https://mpglobalproducts.com/what-is-greenguard-gold-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.222Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-030",
+        "name": "curtislumber.com — Andersen Windows Warranty Service",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The dealer service network allows an Andersen-trained, Curtis Lumber employee to perform Andersen Window warranty service. Our on-staff dealer service network employees coordinate in-home warranty wor",
+        "price_bias": false,
+        "url": "https://www.curtislumber.com/tools/andersen-windows-warranty-service/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-031",
+        "name": "windowhardwaredirect.com — Where to Buy Andersen Window Parts — Window Hardware Direct",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "You can <strong>visit their website to see what&#x27;s in stock at your local store</strong>. Lowe&#x27;s also provides helpful customer service to assist you in finding the right parts. Don&#x27;t fo",
+        "price_bias": false,
+        "url": "https://windowhardwaredirect.com/blogs/news/where-to-buy-andersen-window-parts",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.325Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-032",
+        "name": "windowrama.com — Andersen Window & Door Repair Parts Near Me | WindowRama",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Andersen Window &amp; Door Repair Parts <strong>available at WindowRama</strong>. As part of Andersen&#x27;s dealer network we offer additional 2-year warranty!",
+        "price_bias": false,
+        "url": "https://windowrama.com/services/andersen-window-door-repair-parts-only/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.222Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-033",
+        "name": "andersen-windows.pissedconsumer.com — Andersen Windows Customer Service Phone Number 1 (888) 888-7",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "If you require parts, <strong>call Anderson customer services at 1-877-835-9090</strong>. For general inquiries, their headquarters can be reached at 1-651-264-5150. Additionally, you can contact Ande",
+        "price_bias": false,
+        "url": "https://andersen-windows.pissedconsumer.com/customer-service.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.222Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-034",
+        "name": "windowparts.com — Andersen Window & Door Replacement Parts | Shop Window Repai",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Andersen door hardware and window repair parts for homes. View our window parts catalogs online to find window hardware. Buy door window parts and door hardware at WindowParts.com. We sell Andersen, P",
+        "price_bias": false,
+        "url": "https://www.windowparts.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.841Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-035",
+        "name": "GBA — Andersen windows: PassiveSun? Heatlock? LowE4? - GreenBuildi",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "The Marvin windows are looking better on performance #s, if we can afford them. Marvin lists out performance on their Passive House doc that includes a high solar gain option with U-factors much less ",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/andersen-windows-passivesun-heatlock-lowe4",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-036",
+        "name": "Reddit — r/buildingscience on Reddit: What are the best entry level t",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Edit: https://www.greenbuildingadvisor.com/ and https://www.energyvanguard.com/ are websites that have a lot of great information from experts.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/eeph9s/what_are_the_best_entry_level_textbooks_on/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:07.019Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-037",
+        "name": "Reddit — r/HomeImprovement on Reddit: Is anyone here a member of Gree",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Create the following style and apply to greenbuildingadvisor.com: ... No more pop-ups, no more restrictions on scrolling up and down the pages. Considering most of the content on their website, especi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/58txyh/is_anyone_here_a_member_of_green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.841Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-038",
+        "name": "Reddit — r/buildingscience on Reddit: Window Technical Information",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>They are phenomenal windows</strong>. Beyond strong. You pick up a Loewen window and it weighs triple what an Andersen window weighs. And I like Andersen, they make good windows.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1darb12/window_technical_information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:06.868Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-039",
+        "name": "Reddit — r/buildingscience on Reddit: Window and rain screen details",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "https://www.greenbuildingadvisor.com/article/persistent-worries-about-exterior-rigid-foam#comment-205271",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1qa1e8y/window_and_rain_screen_details_for_my_rockwool/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:07.577Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-040",
+        "name": "Fine Homebuilding — Green Building Resources - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "As Scott Gibson explores in his article, What Does Green Really Mean?, green building is a definable philosophy that many people in the industry are beginning to adopt. Interest is […]",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/2007/02/01/green-building-resources",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-041",
+        "name": "brennancorp.com — Andersen A Series vs E Series: Replacement Window Review",
+        "pool": "B",
+        "sentiment": "positive",
+        "summary": "<strong>Andersen offers the same high-quality glass packages for the A-Series and E-Series</strong>. Remember, glass is one of the components that most affect energy efficiency in addition to frame ma",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/andersen-a-series-vs-e-series-replacement-window-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-042",
+        "name": "brennancorp.com — Andersen 100 Series vs A Series - Replacement Windows Review",
+        "pool": "B",
+        "sentiment": "positive",
+        "summary": "<strong>The 100 Series is made of Fibrex material which is an excellent insulator and has far better thermal performance than aluminum</strong>. It is also thermally on par with a product like vinyl.",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/andersen-100-series-vs-a-series-replacement-windows-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-043",
+        "name": "greatplainswindows.com — Andersen Windows A-Series vs 400 Series Comparison",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "These windows, similar to those in the A-Series, have weather-stripping designed to keep out cold drafts, wind, and water. Not all glass insulates the same. Andersen offers one of the industries most ",
+        "price_bias": false,
+        "url": "https://greatplainswindows.com/andersen-windows-a-series-vs-400-series-comparison/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-044",
+        "name": "opalexteriors.com — Andersen Windows A-Series Vs. E-Series | Opal Enterprises",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "High-quality, energy-efficient windows in your home ... The Andersen A-series has a composite exterior option with 11 exterior colors. <strong>Composite is an alternative to vinyl as it is two times s",
+        "price_bias": false,
+        "url": "https://www.opalexteriors.com/blog/comparing-andersen-windows-a-series-with-the-e-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:08.276Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-ANDERS-045",
+        "name": "greatplainswindows.com — What's the Difference Between Andersen Windows Series?",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Window shopping can be tricky with so many great options to choose from. We carry 4 different series or lines of Andersen Windows at Great Plains Windows: 100 Series, 400 Series, E-Series (Eagle) and ",
+        "price_bias": false,
+        "url": "https://greatplainswindows.com/whats-difference-andersen-windows-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-046",
+        "name": "brennancorp.com — Andersen A-Series vs 400 Series Windows",
+        "pool": "B",
+        "sentiment": "positive",
+        "summary": "The 400 series, Andersen’s most favored of their longest-standing products, provides the best overall blend of performance and style to satisfy a variety of window needs. Both are available as constru",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/andersen-a-series-vs-400-series-wood-windows-replacement-windows-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-047",
+        "name": "clearview-windows.com — Andersen Windows A Series Vs E Series | Clearview Windows",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "In the Andersen A-Series vs. E-Series comparison, each line offers distinct advantages, making them excellent choices for durable, aesthetically pleasing window replacements.",
+        "price_bias": false,
+        "url": "https://clearview-windows.com/andersen-windows-a-series-vs-e-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-048",
+        "name": "unifiedhomeremodeling.com — Andersen A-Series vs. 400 Series Window Comparison",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "One of the significant factors in choosing between the Andersen A-Series and 400 Series Windows is the cost. This section provides a detailed comparison of the cost differences and the factors influen",
+        "price_bias": false,
+        "url": "https://www.unifiedhomeremodeling.com/detailed-andersen-a-series-vs-400-series-window-comparison/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:08.457Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-ANDERS-049",
+        "name": "consumerreports.org — Andersen A-Series Replacement Window Review - Consumer Repor",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We&#x27;ve tested and reviewed products since 1936. Read CR&#x27;s review of the Andersen A-Series replacement window to find out if it&#x27;s worth it.",
+        "price_bias": false,
+        "url": "https://www.consumerreports.org/home-garden/replacement-windows/andersen-a-series/m394414/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:08.234Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-050",
+        "name": "hbsdealer.com — Andersen recalls window opening devices | HBS Dealer",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The Consumer Safety Product Commission reports that the <strong>window opening control devices can break or detach after accidental or other impact, allowing the window to be opened, posing fall and s",
+        "price_bias": false,
+        "url": "https://hbsdealer.com/andersen-recalls-window-opening-devices",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-051",
+        "name": "recalls.gov",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The U.S. Consumer Product Safety Commission (CPSC) has jurisdiction over more than 15,000 kinds of consumer products used in and around the home, in sports, recreation and schools including: · electro",
+        "price_bias": false,
+        "url": "https://www.recalls.gov/cpsc.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-052",
+        "name": "saferproducts.gov — Home - SaferProducts",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Para reportar un producto inseguro, <strong>complete este formulario y envíelo a clearinghouse@cpsc.gov</strong>. Para buscar y obtener información sobre productos inseguros, llame gratuitamente a la ",
+        "price_bias": false,
+        "url": "https://www.saferproducts.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-053",
+        "name": "recalls-rappels.canada.ca — Window Opening Control Devices applied to Andersen 100 Serie",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "When force is applied to the window sash of some 100 Series casement windows with the window opening control device applied, the device may not perform as intended and can cause the window opening con",
+        "price_bias": false,
+        "url": "https://recalls-rappels.canada.ca/en/alert-recall/window-opening-control-devices-applied-andersen-100-series-casement-windows-recalled",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-054",
+        "name": "pennlive.com — Andersen Windows is recalling 91,000 devices that could put",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Andersen Windows has recalled 91,000 opening control devices sold in kits or installed on 100 Series casement windows because <strong>the devices can break or detach after impact, posing a risk of fal",
+        "price_bias": false,
+        "url": "https://www.pennlive.com/news/2026/02/andersen-windows-is-recalling-91000-devices-that-could-put-your-family-at-risk.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-055",
+        "name": "foley.com — Prop 65: Changes to Short-Form Warnings Will Cause Long-Term",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Prop 65 is a “right to know” ... warning” before <strong>knowingly and intentionally exposing consumers in California to a chemical listed as known to the state of California to cause cancer or reprod",
+        "price_bias": false,
+        "url": "https://www.foley.com/insights/publications/2025/04/prop-65-changes-to-short-form-warnings-will-cause-long-term-impacts/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-056",
+        "name": "nytimes.com — What Is Prop 65? And Why Is There a Warning Label on This Th",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "In 2018, there were 829 settlements (PDF) totaling more than $35 million. Probably not. The Prop 65 label is like <strong>a noisy alarm that rings equally loudly about smaller amounts of low-risk subs",
+        "price_bias": false,
+        "url": "https://www.nytimes.com/wirecutter/blog/what-is-prop-65/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-057",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "For those of you not familiar, California has a well-intended but poorly-executed proposition called Prop 65 (https://oehha.ca.gov/proposition-65/about-proposition-65) that is intended to warn consume",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:08.158Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-058",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Prop 65 warnings are <strong>required under California law only</strong>. These warnings are seen throughout California in a wide range of settings, including but not limited to restaurants, grocery s",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-059",
+        "name": "en.wikipedia.org — 1986 California Proposition 65 - Wikipedia",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The first statutory requirement ... water sources. The second <strong>prohibits businesses from knowingly exposing individuals to listed substances without providing a clear and reasonable warning</st",
+        "price_bias": false,
+        "url": "https://en.wikipedia.org/wiki/1986_California_Proposition_65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-060",
+        "name": "Reddit — r/homeowners on Reddit: How much should Andersen windows cos",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I was in HD today and was floored when their chart said window installation was only $350 per. The Andersen A-series, however with minimal upgrades was $2K for a 4-0 x 4-0.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1d76h4h/how_much_should_andersen_windows_cost_installed/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:08.158Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-061",
+        "name": "Reddit — r/Homebuilding on Reddit: Andersen 100’s worth extra $45k?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "It cost about 10K for 19 windows and a 200 series sliding door. He charged about 10K so around 20K total. Seems like your contractor is way overcharging IMO. We had another bid from a large contractor",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1hsft8e/andersen_100s_worth_extra_45k/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:08.964Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-062",
+        "name": "Reddit — Renewal by Andersen pricing feels like a rip off? : r/Home",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "... My neighbor&#x27;s went through them. They are an elderly couple, they paid 16k for 5 plastic 2 pane windows. We have the same shape of house. I got triple pane plastic framed for 1.6k at home Dep",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Home/comments/1n5c970/renewal_by_andersen_pricing_feels_like_a_rip_off/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:09.431Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-063",
+        "name": "Reddit — r/Construction on Reddit: Does anyone hate their Anderson wi",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Andersen was no help when I called. ... Yeah it’s the same shit every subzero cold spell here. ... We regularly install Anderson E-series and love them. Can’t speak for the 400 series. Only downside w",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Construction/comments/1989g1u/does_anyone_hate_their_anderson_windows_as_badly/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:08.945Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-064",
+        "name": "Reddit — r/bullcity on Reddit: Renewal by Andersen (windows) any good",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They are a franchise and <strong>there is no quality control</strong>. I used them for two doors, spending thousands more than needed because I believed their ads: a) doors made in their factory; b) l",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/bullcity/comments/19dp9rt/renewal_by_andersen_windows_any_good/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:09.171Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-065",
+        "name": "Reddit — Andersen Window Problems : r/homeowners",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I don&#x27;t have any advice but just wanted to say I&#x27;m also in a house with Anderson windows and nearly all of the cranks have split or are completely broken. What a terrible design. It seems to",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/11kju78/andersen_window_problems/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:08.983Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-066",
+        "name": "Reddit — r/homeowners on Reddit: Experience with Andersen Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "To make matters worse, they refuse to work with customers to reach a resolution to the problem. We are left with one option: replace all the windows in a 9-month-old house. You can be sure the replace",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1ivl7x6/experience_with_andersen_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:09.911Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-067",
+        "name": "Reddit — r/HomeImprovement on Reddit: Renewal by Andersen Window pric",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They were acquired by a PE firm ... advertising budget. 10 years ago they were a solid top tier option, now they are <strong>wildly overpriced</strong> and you should stay away. ... Andersen is still ",
+        "price_bias": true,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1rfl4xd/renewal_by_andersen_window_prices_are_crazy/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:10.312Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-068",
+        "name": "Reddit — r/Homebuilding on Reddit: My goodness, I can't believe how t",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Andersen&#x27;s quality is solid but <strong>their supply chain and dealer network can be hit or miss depending on your region</strong>. ... Years ago I bought Andersen windows but not any more. When ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1otpnt4/my_goodness_i_cant_believe_how_terrible_andersen/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:09.941Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-069",
+        "name": "Reddit — r/homeowners on Reddit: Was working with Renewal by Andersen",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Wood is better than Fibrex in many climates except for maybe the PNW where wood rot is a bigger issue than most places. Ironically, Andersen&#x27;s wood windows allspice better than the RbA windows an",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1k9wipq/was_working_with_renewal_by_andersen_worth_the/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:09.928Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-070",
+        "name": "Reddit — r/homeowners on Reddit: Andersen Series 100 Windows Failure",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Had Andersen Series 100 windows (recommended for high heat areas) installed in my new home. Three of the windows now have extensive cracks on the sashes and the glazing beads have fallen off. I have c",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1faoqgt/andersen_series_100_windows_failure/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:09.961Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-071",
+        "name": "Reddit — r/homeowners on Reddit: Mother was quoted 75k for windows re",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "But the exorbitant costs company&#x27;s like Anderson ask for are merely based on their marketing costs, not the quality product. (Everyone chooses the specific windows they want, obv) ... Got all And",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:10.797Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-072",
+        "name": "Reddit — r/homeowners on Reddit: Anderson Windows Replacement",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Anecdotally, renewal by Andersen ... windows. Pella is a step below them and the quote we got from them was so gutbustingly ridiculous that we canceled our Andersen appointment. We asked our local sub",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/17nf409/anderson_windows_replacement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:11.006Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-073",
+        "name": "Reddit — r/HomeImprovement on Reddit: Andersen Window Decision New Co",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Alright, I&#x27;ve done a ton of research on the differences between the Andersen A and 400 Series of windows. I&#x27;m starting a new construction in the…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/lhsdml/andersen_window_decision_new_construction_a/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:10.806Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-074",
+        "name": "Reddit — r/Homebuilding on Reddit: Andersen Window Series Choice",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We are building too and I am going with 100 series casement windows and two sets of A series hinged doors. This is partly based on interior color selection. For the windows we are going with the brown",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1h7dlro/andersen_window_series_choice/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:10.796Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-075",
+        "name": "Reddit — r/HomeImprovement on Reddit: Anderson Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Below is from the company website: “We developed a material that is 2x as strong as vinyl, performs better when exposed to extreme temperatures and delivers exteriors that won&#x27;t fade, flake, blis",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/17m0bxd/anderson_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:10.796Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-076",
+        "name": "Reddit — r/Homebuilding on Reddit: Anderson windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The A Series is <strong>wood core with Fibrex and Fiberglass plus what the sales person said was &quot;only a tiny bit of vinyl&quot;.</strong> ... Yeah, window pricing can spiral quick once you start",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1mejrjv/anderson_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:11.538Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-077",
+        "name": "Reddit — r/homeowners on Reddit: Changes in Andersen 400 series windo",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "r/Homebuilding • · upvotes · · comments · Is Renewal by Andersen crazy for charging this much for windows? Any other window company suggestions? r/rva • · upvotes · · comments · Andersen 400 Series ti",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1m9wegj/changes_in_andersen_400_series_windows_and_doors/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:11.544Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-078",
+        "name": "Reddit — r/Homebuilding on Reddit: Andersen A Series Interior White P",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Can anyone tell me if Andersen A Series Factory Painted White are the same color as SW 6196 Frosty White? Years ago we were told this for our 40…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1ida5ng/andersen_a_series_interior_white_paint_match_color/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:11.536Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-079",
+        "name": "Reddit — JeldWen vs Andersen Windows : r/Homebuilding",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "As someone who recently spent over $18K on Andersen doors and windows (200, 400 and A series) for the addition I&#x27;m building (workshop, garage and garden shed) I can tell you that the 100 series a",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1jnqnpf/jeldwen_vs_andersen_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:11.689Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-080",
+        "name": "Reddit — r/Homebuilding on Reddit: Andersen 200 vs 400 windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "You’d have to go to Andersen’s website to compare. I don’t do enough windows tell you off the top of my head in detail. ... 100% this. I’ved installed hundreds of both models (and A-series, not 100s t",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1liwef9/andersen_200_vs_400_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:12.693Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-081",
+        "name": "GBA — Solar Heat Gain: Marvin vs. Andersen Windows - GreenBuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "It looks like “standard” Andersen A-Series are Low E-4, whereas Marvin is Low E-2, and both have alternative glazing (for $).",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/higher-shgc-glazing-for-marvin-or-andersen-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-082",
+        "name": "GBA — Major window manufacturers: Marvin, Andersen, Sierra Pacific",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Performance is important, but I think Marvin Integrity and Andersen Architectural A series are both sufficient.",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/major-window-manufacturers-marvin-andersen-sierra-pacific",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-083",
+        "name": "GBA — Andersen's Standard Low-E vs. Low-E Smart Sun with Heatlock",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "If the contract calls for sunguard and heatlok then my vote would be insist on new sash for the frames. Or a completely free window package to cover future energy costs. ... Andersen SmartSun is Cardi",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/zone-6-andersen-100-window-glaze",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-084",
+        "name": "GBA — Andersen Window installation. Seal bottom or assume failure",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "What kind of failure are you envisioning? If the opening is properly flashed it shouldn&#x27;t depend upon the window to keep water out. ... Malcom is correct, one should never seal the exterior botto",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/andersen-window-installation-seal-bottom-or-assume-failure-at-some-point",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-085",
+        "name": "Houzz — ANDERSEN CONSTRUCTION - Project Photos & Reviews - Bellflowe",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/andersen-construction-pfvwus-pf~940703823",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:12.263Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-086",
+        "name": "Houzz — ANDERSEN BUILT CONSTRUCTION - Project Photos & Reviews - Eag",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>Andersen Built Construction</strong> is currently rated 4.2 overall out of 5 · <strong>Andersen Built Construction</strong> provides the following services: Bathroom Remodeling, Custom Homes, ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/andersen-built-construction-pfvwus-pf~692732211",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:12.260Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-087",
+        "name": "Houzz — Marvin vs Andersen, help me decide? Quotes are very closed",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I was expecting Marvin to be a lot more expensive and the price difference between Andersen series is less then then I expected. Lumberyard thinks 400 may be the best option, though I hear Marvin is a",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/5687250/marvin-vs-andersen-help-me-decide-quotes-are-very-closed",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:12.264Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-088",
+        "name": "Houzz — WINDOW AND DOOR PRO - Project Photos & Reviews - Brooklyn, N",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Custom Windows, Window Installation, Window Replacement, Window Sales, Landmark Windows, Door Sales · Atlantic Beach, Breezy Point, Brooklyn, Far Rockaway, Garden City, Jersey City, Manhattan, New Yor",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/window-and-door-pro-pfvwus-pf~1956415065",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:12.264Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-089",
+        "name": "Houzz — RENEWAL BY ANDERSEN OF ATLANTA - Project Photos & Reviews -",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "The national Renewal brand is supremely confident in their ability to manufacture replacement windows that will last, and that confidence has lead them to provide us with warranties that keep our loca",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/renewal-by-andersen-of-atlanta-pfvwus-pf~1260009514",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:13.199Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-090",
+        "name": "Houzz — windows- Andersen or local window manufacturer???",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6201798/windows-andersen-or-local-window-manufacturer",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:14.419Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-091",
+        "name": "Houzz — RENEWAL BY ANDERSEN ORANGE COUNTY - Project Photos & Reviews",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This made the whole experience much more efficient and stress-free. ... Houzz vs. Houzz Pro · Houzz Pro vs. Ivy ... Renewal by Andersen of Orange County is <strong>a full service replacement window an",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/renewal-by-andersen-orange-county-pfvwus-pf~1350845271",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:13.207Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-092",
+        "name": "Houzz — Andersen A Series, Loewen, or Marvin?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;m starting to get quotes on double hung windows. Looking for &quot;wood&quot; as I have an old house and I prefer the &quot;original&quot; look of wood to anything synthetic. Just my preference",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2645892/andersen-a-series-loewen-or-marvin",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:13.312Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-093",
+        "name": "Houzz — OPAL ENTERPRISES, INC. - Project Photos & Reviews - Napervil",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/siding-and-exteriors/opal-enterprises-inc-pfvwus-pf~562428467",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:13.312Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-094",
+        "name": "ReplacementWindowDiscussions — Just got Renewal by Andersen windows installed—here's how it",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The cheaper windows started fogging up between panes after just a couple winters—pretty frustrating. Andersen&#x27;s definitely pricier up front, but our energy bills dropped noticeably, and they&#x27",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-user-reviews-product-experiences/just-got-renewal-by-andersen-windows-installed-heres-how-it-went/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:14.930Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-095",
+        "name": "ReplacementWindowDiscussions — thinking about andersen 100 series vs pella 250 windows ...",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-user-reviews-product-experiences/thinking-about-andersen-100-series-vs-pella-250-windows-anyone-have-a-preference/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:15.187Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-096",
+        "name": "ReplacementWindowDiscussions — Did you know Andersen has a 100 series made from Fibrex?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Fibrex seems to make a difference there. I do wish they hadn’t gone so light on the hardware, though. The old Andersen 400s in our living room have those chunky metal latches and they just feel solid—",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/andersen-windows/did-you-know-andersen-has-a-100-series-made-from-fibrex/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:14.941Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-097",
+        "name": "ReplacementWindowDiscussions — Window Shopping Dilemma: Andersen 100 or Pella 250 for the B",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "A few years back, I helped my brother replace some windows in his older home. He went with Andersen 100s because they fit the budget and seemed solid enough. We spent a whole weekend carefully sealing",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-brand-comparisons-recommendations/window-shopping-dilemma-andersen-100-or-pella-250-for-the-budget-conscious-homeowner/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:14.968Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-098",
+        "name": "ReplacementWindowDiscussions — Trying to decide between Andersen and Pella windows—any thou",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Install’s the big thing, no question. I’ve swapped out both brands on jobs—honestly, a poorly-set Andersen won’t outperform a well-installed Pella. Fibrex is tough, but I’ve seen corners split if the ",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-brand-comparisons-recommendations/trying-to-decide-between-andersen-and-pella-windows-any-thoughts/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:14.916Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-099",
+        "name": "ReplacementWindowDiscussions — Trying to budget for new Andersen double hung windows—what s",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My heating bill actually dropped noticeably, and the house is way quieter. If I could do it over, I’d maybe look harder at some of the less expensive vinyl options, but I do like the look and feel of ",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/andersen-windows/trying-to-budget-for-new-andersen-double-hung-windows-what-should-i-expect/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:15.741Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-100",
+        "name": "ReplacementWindowDiscussions — Page 2 | Trying to budget for new Andersen double hung windo",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Old houses almost always throw a curveball or two when you start pulling things apart—sometimes it’s just old insulation, sometimes it’s a mess of wires or some odd repair from decades ago. Most of th",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/andersen-windows/trying-to-budget-for-new-andersen-double-hung-windows-what-should-i-expect/paged/2/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:16.050Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-101",
+        "name": "ReplacementWindowDiscussions — anyone had luck claiming andersen window warranty?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I&#x27;ve had Andersen windows in my house for about 8 years now, and overall they&#x27;ve been pretty solid. But recently, one of the windows started fogging up between the panes, which is kinda anno",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/andersen-windows/anyone-had-luck-claiming-andersen-window-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:16.050Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-102",
+        "name": "ReplacementWindowDiscussions — Figuring out what you’ll really pay for new Andersen windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "When I did my windows, I asked each installer to quote me a “turnkey price—no surprises, one number. Some balked, but a few actually worked with me and it saved me a ton of headaches. And honestly, if",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/andersen-windows/figuring-out-what-youll-really-pay-for-new-andersen-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:15.738Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-103",
+        "name": "ReplacementWindowDiscussions — Curious about Andersen windows—worth the hype or nah?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;ve had Andersen windows installed for about 8 years now, and honestly, they&#x27;ve held up well—no leaks or drafts so far. But I sometimes wonder if the premium price was entirely justified. I",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/andersen-windows/curious-about-andersen-windows-worth-the-hype-or-nah/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:17:15.755Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-104",
+        "name": "forums.jlconline.com — Andersen A-Series. Feedback, please. - JLC-Online Forums",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Re: Andersen A-Series. Feedback, please. You are right about the Marvin Integrity. Fantastic window. Have you seen the Infinity windows by Marvin? The casements are a very nice piece of engineering. B",
+        "price_bias": false,
+        "url": "https://forums.jlconline.com/forums/forum/jlc-online-peer-to-peer-forums/materials-techniques/45921-andersen-a-series-feedback-please",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-105",
+        "name": "YouTube — Installing Andersen A-Series Windows with Sweenor Builders |",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Installing windows in a harsh coastal environment requires skill and attention to detail as Sweenor Builders demonstrates in this step-by-step video.For more...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=4V0JTvcFtZc",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:16.868Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-106",
+        "name": "YouTube — Andersen (A-Series) window installation! - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "#andersen #window #aseries Today we install an Andersen A-series combination window. This is a huge window that was very challenging! What would you have don...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=NhXDMNzB1tI",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:18.945Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-107",
+        "name": "YouTube — How to Install an Andersen A-Series Double Hung Window: Barr",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Watch the Shepley Service team demonstrate the proper steps to install an Andersen A-Series double hung window using the barrier method.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=hZcmQVgyF60",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:16.516Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-108",
+        "name": "YouTube — Installing Andersen A-Series Windows | How-To | Sawdust S2 E",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Building in coastal conditions requires the right tools and the right products. Follow along with this how-to episode, as we show you how to properly install...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=gypYRTIming",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:16.511Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-109",
+        "name": "YouTube — Are Andersen Windows Worth the Cost? A Window Installer Expl",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Andersen Windows are one of the most recognized window brands in the United States, but many homeowners wonder if they are actually worth the cost. In this v...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=PMscpcv4bKo",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:16.547Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-110",
+        "name": "YouTube — Renewal by Andersen Review: My Honest Experience with Renewa",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Get an honest review of Renewal by Andersen, covering my personal experience with their windows, installation process, and overall quality.👉 Get Renewal by ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=pg-VjSondz8",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:19.519Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-111",
+        "name": "YouTube — Installation of an Andersen 400 Series Tilt-Wash Window with",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The Award-winning Shepley service team demonstrate the installation of an Andersen 400 series tilt-wash window with the energy-performance panel. This instal...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=-2d07swhZ8g",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:19.512Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-112",
+        "name": "YouTube — Andersen A Series Double Hung Window Installation - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Produced with CyberLink PowerDirector 12",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=V3zvVPQ3OKU",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:19.438Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-113",
+        "name": "YouTube — Become a Window Installer | Renewal by Andersen - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "What&#x27;s it like to work as an installer for Renewal by Andersen? Watch this video to hear from leaders and crew about their experience installing Renewal by A...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=0zmBTDp-oB0",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:20.058Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-114",
+        "name": "YouTube — Installing 100 Series Windows with Jake Bruton | Andersen Wi",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "High-performance builder Jake Bruton of Aarow Building explains how he approaches window installation in this Onsite with Andersen video. “All we’re doing is...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=IJIb_SUdNSk",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:19.428Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-115",
+        "name": "YouTube — Renewal By Andersen Reviews 2024 | An Unbiased Review (At Le",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Welcome to our Renewal By Andersen reviews and analysis in 2024. We&#x27;ll breakdown down the company and discuss their fibrex composite window. Get Free local w...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=FDJLd-Grvjg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:20.900Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-116",
+        "name": "YouTube — Windows and water management: How one coastal builder approa",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In this video, you&#x27;ll learn about window and water management and how Adam Spink, a coastal builder from Sweenor Builders, approaches installation. For more ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=GhgkFhRpuAw",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:20.832Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-117",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-118",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-119",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-120",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-121",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-122",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-123",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:20.874Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-124",
+        "name": "Andersen official technical documentation",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Official Andersen technical/performance documentation",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/for-professionals/documents/performance",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-ANDERS-125",
+        "name": "andersenwindows.com — Window performance labels | Andersen Windows & Doors®",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Andersen windows and patio doors are NFRC certified, and labels list performance data, including U-Factor, SHGC, visible transmittance, and air leakage.",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/for-professionals/pro-views/window-performance-labels",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-126",
+        "name": "andersenwindows.com — Andersen A-Series Windows & Door NFRC Ratings",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "We cannot provide <strong>a</strong> description for this page right now",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/-/media/aw/files/technical-docs/performance/performance-windows-patiodoors-nfrcratings--a-series.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-127",
+        "name": "helpcenter.andersenwindows.com — Andersen Windows Help Center",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Loading · ×Sorry to interrupt · Refresh",
+        "price_bias": false,
+        "url": "https://helpcenter.andersenwindows.com/aw/s/article/Andersen-NFRC-Certified-Total-Unit-Performance",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-128",
+        "name": "TheWindowDog — 400/200 Series Performance Grade, Air Infiltration, Sound ..",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In the example above, a PG 50 performance grade rating, which passes a 50 PSF · design pressure, should be used for determining code compliance, not the structural test ... Andersen supplier. If you n",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/wp-content/uploads/2015/05/andersen-400series-structural-ratings.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:17:20.653Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-129",
+        "name": "helpcenter.andersenwindows.com — Knowledge: Performance Grade and Air Infiltrations for ...",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Performance Grade Ratings measure product performance throughout window and door units. Andersen® window and patio door units receive independently tested ratings for performance grade and air infiltr",
+        "price_bias": false,
+        "url": "https://helpcenter.andersenwindows.com/aw/articles/Knowledge/Performance-Grade-and-Air-Infiltration-for-Andersen-Products",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-130",
+        "name": "andersenwindows.com — 100 SERIES PRODUCT PERFORMANCE HALLMARK CERTIFICATION",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "In the example above, a <strong>PG 40</strong> performance grade rating, which passes a · 40 psf design pressure, should be used for determining code compliance, not the structural · test pressure of ",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/-/media/Project/AndersenCorporation/AndersenWindows/AndersenWindows/files/technical-docs/performance/performance-windows-patiodoors-performancegrade-airinfiltration-soundtransmissionratings--100series.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-131",
+        "name": "andersenwindows.com — WDMA Structural Performance PG/DP and Air Infiltration ...",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "In the example above, a <strong>PG 50</strong> performance grade rating, which passes a · 50 psf design pressure, should be used for determining code compliance, not the structural · test pressure of ",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/-/media/Project/AndersenCorporation/AndersenWindows/AndersenWindows/files/technical-docs/performance/performance-windows-patiodoors-performancegrade-airinfiltration--400series.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-132",
+        "name": "helpcenter.andersenwindows.com — Performance Grade and Air Infiltrations for Andersen® ...",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Loading · ×Sorry to interrupt · Refresh",
+        "price_bias": false,
+        "url": "https://helpcenter.andersenwindows.com/aw/s/article/Performance-Grade-and-Air-Infiltration-for-Andersen-Products",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-133",
+        "name": "helpcenter.andersenwindows.com — Interlock Weatherstrip Installation for 400 and 200 Series .",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Loading · ×Sorry to interrupt · Refresh",
+        "price_bias": false,
+        "url": "https://helpcenter.andersenwindows.com/aw/s/article/Interlock-Weatherstrip-Installation-for-400-and-200-Series-Gliding-Patio-Doors",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-134",
+        "name": "parts.andersenwindows.com — Andersen 400 Series Casement Weatherstrip",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Find your weatherstrip by selecting your window sash visible glass width and height in the grid below. ... Sign up to receive promotions and updates from Andersen® Windows &amp; Doors.",
+        "price_bias": false,
+        "url": "https://parts.andersenwindows.com/items_w_casement_ws.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-135",
+        "name": "parts.andersenwindows.com — Replacement Weatherstrip 1347524 | Andersen Windows & Doors",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "400 Series Casement Window · Unit Number &amp; Size · C13 · A31 · A231 · C23 · C33 · Lead Time · 8 · Warranty · 10 Years Limited · Dimensions (in inches) Visible Glass Width · 19 5/16 · 31 1/8 · Visib",
+        "price_bias": false,
+        "url": "https://parts.andersenwindows.com/detail_1347524__w_casement_ws.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-136",
+        "name": "andersenwindows.com — Andersenwindows",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Find out if your Andersen® product is still under warranty by calling 888-888-7020. ... Here comes the sun! With spring in full bloom, it’s time to get your home ready for warmer weather with our easy",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/support",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-137",
+        "name": "parts.andersenwindows.com — Window & Patio Door Replacement Parts Catalog - Buy Direct f",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Buy window parts &amp; patio door parts direct from Andersen&#x27;s online parts catalog. Find replacement parts for windows, patio doors, etc. Shop the Andersen online parts catalog.",
+        "price_bias": false,
+        "url": "https://parts.andersenwindows.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-138",
+        "name": "andersenwindows.com — Andersen® replacement parts",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Shipping directly from Andersen® to your home or business. <strong>Over 32,000 items including replacement parts, accessories, and supplies</strong>; more are being added every day.",
+        "price_bias": false,
+        "url": "https://www.andersenwindows.com/support/replacement-parts",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      }
+    ]
+  },
+  "component_quality": {
+    "quality_tier": null,
+    "_note": "Low-E coating, triple-pane available, Cardinal Glass IGU, Super Spacer (Edgetech), dual-seal IGU, stainless steel spacer, weatherstripping noted, Fibrex composite material"
+  },
+  "repairability": {
+    "igu_replacement_method": null,
+    "_note": "2-year warranty; transferable"
+  },
+  "performance": {
+    "thermal": {
+      "score": 7,
+      "u_factor": 0.26,
+      "evidence_level": "MARKETING_MATERIAL",
+      "source_note": "U-Factor 0.26 derived from Andersen marketing materials (Low-E4 triple pane example), not verified NFRC specification for DH configuration. Accepted by Ray 2026-03-16 as reasonable proxy for a reputable manufacturer.",
+      "ray_decision": "2026-03-16: Accept marketing value. Andersen is reputable. Internal note only."
+    },
+    "structural": {
+      "score": 6.5,
+      "evidence_level": "CLASS_FLOOR",
+      "source_note": "AAMA performance grade unpublished. Bot 2 scored 5.0, class floor raised to 6.5."
+    },
+    "air_water": {
+      "score": 6.5,
+      "evidence_level": "CLASS_FLOOR",
+      "source_note": "Energy Star certified, no specific air infiltration value published. Class floor applied."
+    }
+  },
+  "_source_parser_meta": {
+    "productName": "Andersen A-Series",
+    "config": "DH",
+    "category": "Windows",
+    "manufacturer": "Andersen",
+    "isInternational": false,
+    "run_date": "2026-03-16T04:18:28.647Z",
+    "total_sources": 142,
+    "pool_a_count": 7,
+    "pool_b_count": 5,
+    "pool_c_count": 79,
+    "reddit_pending": 30,
+    "complaints_found": 7,
+    "certifications_found": 7,
+    "phase_6b_stats": {
+      "total": 184,
+      "relevant": 142,
+      "rejected": 42,
+      "skipped": 25,
+      "fetchFailed": 107
+    },
+    "phase_6b_rejected": 42
+  },
+  "council_resolution": {
+    "date": "2026-03-16",
+    "resolved_by": "Ray",
+    "run_dir": "andersen_aseries_2026-03-16T04-18-29",
+    "disputes": [
+      {
+        "id": 1,
+        "subscore": "thermal_3A",
+        "ruling": "Accept 7.0 from marketing materials",
+        "rationale": "Reputable manufacturer, marketing proxy acceptable"
+      },
+      {
+        "id": 2,
+        "subscore": "structural_3B",
+        "ruling": "Accept 6.5 class floor",
+        "rationale": "Class floor correctly handles non-disclosure"
+      },
+      {
+        "id": 3,
+        "subscore": "installation_risk",
+        "ruling": "No adjustment",
+        "rationale": "Installation complaints are industry-generic, not A-Series specific. Real Andersen issues (seals, argon, cranks) already captured in MQ 5.5"
+      }
+    ],
+    "final_scores": {
+      "overall": 6.94,
+      "quality": 5.7,
+      "durability": 8.41,
+      "performance": 6.67,
+      "grade": "C+"
+    }
+  }
+}

@@ -4,7 +4,7 @@
   "category": "windows",
   "evidence_version": "2.0",
   "created": "2026-03-14",
-  "last_verified": "2026-03-15",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "manufacturing_quality": {
     "business_model": null,
@@ -111,6 +111,110 @@
       {
         "id": "MQ-ANDERS-008",
         "description": "Top latch mechanism on Andersen 400 Series casement window became mechanically disconnected from bottom latch, preventing proper latching operation on windows built in 1996.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.finehomebuilding.com/forum/anderson-400-top-latch-broke",
+        "year": 2011,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-009",
+        "description": "Class action lawsuit alleging Andersen 400 Series Tilt Wash vinyl clad windows have a manufacturing defect allowing moisture intrusion that causes mold growth, rot, decay, and premature system failure",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://casetext.com/case/allen-v-andersen-windows-inc",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-010",
+        "description": "Andersen 400 Series windows exhibit drafting, leaking, and condensation issues with a class action lawsuit filed in Massachusetts.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://thewindowdog.com/review-andersen-400-series-window/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-011",
+        "description": "Class-action lawsuit filed by homeowners alleging Andersen 400 Series Tilt Wash vinyl-clad windows have a defect allowing moisture intrusion that causes rotting.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.twincities.com/2010/03/29/regional-report-couple-alleges-defective-andersen-windows-rotted/",
+        "year": 2010,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-012",
+        "description": "Andersen 400 Series Tilt Wash windows experienced seal failure allowing moisture infiltration and mold/fungus growth within four years, triggering a lawsuit by homeowners.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/lawsuit-links-andersen-windows-mold-and-fungus-growth",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-013",
+        "description": "User reports experiencing nothing but problems with 400 Series Andersen windows and door installed in new construction home over 10-year period.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Construction/comments/18k0vo5/anderson_windows/",
+        "year": 2014,
+        "status": "ongoing",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-014",
+        "description": "Multiple Andersen windows experiencing cracked or broken window cranks, described as a design flaw affecting numerous units.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/11kju78/andersen_window_problems/",
+        "year": 2023,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-015",
+        "description": "Consumer reports that all Andersen windows installed 10 years prior experienced complete failure across multiple units.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
+        "year": 2014,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-016",
+        "description": "Top latch mechanism mechanically disconnected from bottom latch on Andersen 400 Series casement window installed in 1996, causing inability to fully latch the window.",
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "https://www.finehomebuilding.com/forum/anderson-400-top-latch-broke",
@@ -2050,12 +2154,226 @@
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches",
         "_previous_pool": "unknown"
+      },
+      {
+        "id": "PC-ANDERS-170",
+        "name": "sidingwizard.com — Andersen 400 Woodwright Series Window Review - SIDING & WIND",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The glass of the window has Low-E coating and Argon Gas. This is a double hung window. Both sashes can be tilted in for easy cleaning. The Air Infiltration rating is <strong>below 0.30</strong>, which",
+        "price_bias": false,
+        "url": "https://www.sidingwizard.com/posts/andersen-400-woodwright-series-window-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:12:50.805Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-171",
+        "name": "sidingwizard.com — Andersen 400 Series Windows Review-Worthy Windows in Princet",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "It means that both sashes are moving and can be tilted into the house for the easy cleaning. The air infiltration rating is <strong>below 0.30</strong>, which is slightly below the industry average of",
+        "price_bias": false,
+        "url": "https://www.sidingwizard.com/posts/andersen-400-series-window-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:12:50.730Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-172",
+        "name": "kuikenbrothers.com — Andersen Windows & Doors 400 Series Product Guide for ...",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Kuiken Brothers A Leading Supplier of Residential &amp; Commercial Building Materials w/ locations in NJ &amp; NY Windows, Doors, Moulding, Lumber, Drywall, Studs",
+        "price_bias": false,
+        "url": "https://www.kuikenbrothers.com/wp-content/uploads/400-series-product-guide.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-173",
+        "name": "shepleywood.com — Andersen A-Series, 400 Series… | Shepley Wood Products - Cap",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "For knock down frame kits the enhanced interlock weatherstrip is included in the kits. New installation instructions clarify how to assemble the interlock to the stationary panel. It is possible to re",
+        "price_bias": false,
+        "url": "https://shepleywood.com/news/andersen-a-series-400-series-and-200-series-new-interlock-weatherstrip-and-sill-block",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:12:51.478Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-ANDERS-174",
+        "name": "brennancorp.com — What is the Warranty on Andersen 400 Series Windows?",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "It is important to note that <strong>this agreement does not cover installation or labor</strong>. It is critical that you register your warranty after your windows are installed. It is important to n",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/what-is-the-warranty-on-andersen-400-series-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-175",
+        "name": "brennancorp.com — How to Read Andersen Windows & Doors Warranties",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "For example, The Andersen 200 &amp; ... years instead of the standard <strong>ten years. Exclusions might also appear as a separate list or section in the contract. Labor and installation are not cove",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/how-to-read-andersen-windows-doors-warranties/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-176",
+        "name": "bbb.org — Andersen Corporation | BBB Complaints | Better Business Bure",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "<strong>The 2 patio doors (1 set in dining room and 1 set in basement fireplace room) were installed incorrectly on the 1st try</strong> (Andersen installed them and just left, and then made me do all",
+        "price_bias": false,
+        "url": "https://www.bbb.org/us/mn/bayport/profile/windows/andersen-corporation-0704-18/complaints",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:12:52.236Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-177",
+        "name": "brennancorp.com — Andersen 200 Series vs 400 Series - Replacement Window Revie",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Because the 200 Series and 400 ... is the glass package that is chosen for the window. <strong>Andersen&#x27;s 400 Series has more options in the style department than the 200 Series</strong>....",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/andersen-200-series-vs-400-series-replacement-window-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-178",
+        "name": "pennlive.com — Andersen Windows is recalling 91,000 devices that could put",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Andersen Windows has recalled <strong>91,000 opening control devices that can break or detach after impact</strong>. This defect allows windows to be opened unexpectedly, posing fall and injury risks.",
+        "price_bias": false,
+        "url": "https://www.pennlive.com/news/2026/02/andersen-windows-is-recalling-91000-devices-that-could-put-your-family-at-risk.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-179",
+        "name": "foley.com — Prop 65: Changes to Short-Form Warnings Will Cause Long-Term",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Prop 65 is a “right to know” ... warning” before <strong>knowingly and intentionally exposing consumers in California to a chemical listed as known to the state of California to cause cancer or reprod",
+        "price_bias": false,
+        "url": "https://www.foley.com/insights/publications/2025/04/prop-65-changes-to-short-form-warnings-will-cause-long-term-impacts/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-180",
+        "name": "Reddit — r/DIY on Reddit: Andersen Narroline Double Hung Windows Conv",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "If you&#x27;re in the market for a window replacement, I recently upgraded my aging Andersen 400 series windows, which had served me well for 30 years, using a straightforward conversion kit. Undertak",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/DIY/comments/17txm5e/andersen_narroline_double_hung_windows_conversion/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:12:57.339Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-181",
+        "name": "Reddit — r/homeowners on Reddit: Anderson Windows Replacement",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Anecdotally, renewal by Andersen ... windows. Pella is a step below them and the quote we got from them was so gutbustingly ridiculous that we canceled our Andersen appointment. We asked our local sub",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/17nf409/anderson_windows_replacement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T03:12:58.781Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-182",
+        "name": "GBA — Andersen Corporation Wants to Invest More in the Circular Ec",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "The company claims that its Fibrex windows are twice as strong as vinyl, block thermal transfer “nearly 700 times better” than aluminum, and retain their rigidity and stability in all climates. Fibrex",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/article/andersen-corporation-wants-to-invest-more-in-the-circular-economy",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-183",
+        "name": "GBA — Pella Impervia Casement Windows - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "A U factor of .23 on a triple pane window is not very good, in fact there are dual panes that do better than that. A triple should have a U factor at .18 or better. U factor is the reciprocal of R-val",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/pella-impervia-casement-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-ANDERS-184",
+        "name": "Houzz — Anderson Woodwright versus 400 series",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I like the fact you won&#x27;t see the vinyl jamb liners which I have in my current 400-series windows and don&#x27;t like. Not sure that alone is worth the extra $$$ though. Any thoughts on the Ander",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/3261378/anderson-woodwright-versus-400-series",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T03:13:01.931Z",
+          "text_source": "snippet"
+        }
       }
     ]
   },
   "component_quality": {
     "quality_tier": null,
-    "_note": "Low-E coating, Fibrex composite material, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), dual-seal IGU, weatherstripping noted, vinyl-clad"
+    "_note": "Low-E coating, Fibrex composite material, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), dual-seal IGU, weatherstripping noted, vinyl-clad | Source parser added: Low-E coating, Fibrex composite material, stainless steel spacer, Cardinal Glass IGU, warm-edge spacer, triple-pane available, Super Spacer (Edgetech), weatherstripping noted, vinyl-clad"
   },
   "repairability": {
     "igu_replacement_method": null,
@@ -2070,11 +2388,14 @@
       "note": null
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": null,
+      "aama_class": "LC-PG40",
+      "design_pressure": "DP-40",
+      "evidence_level": "PUBLISHED",
       "score": null,
-      "note": null
+      "note": "Standard rating for full-frame Tilt-Wash Double-Hung (3862 and smaller): Class LC-PG40, size tested 45.6\" x 76.9\", DP 40/40. Range PG30-PG40-PG50 by size/configuration. Data as of Dec 2024.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.andersenwindows.com/-/media/Project/AndersenCorporation/AndersenWindows/AndersenWindows/files/technical-docs/performance/performance-windows-patiodoors-performancegrade-airinfiltration--400series.pdf",
+      "upgrade_rating": "LC-PG50 available for smaller sizes (3052 and smaller). Florida approvals up to DP50."
     },
     "air_water": {
       "air_infiltration": "0.2",
@@ -2086,24 +2407,24 @@
   "_source_parser_meta": {
     "productName": "Andersen 400 Series",
     "config": "DH",
-    "category": "windows",
+    "category": "Windows",
     "manufacturer": "Andersen",
     "isInternational": false,
-    "run_date": "2026-03-15T21:07:08.566Z",
-    "total_sources": 173,
-    "pool_a_count": 18,
-    "pool_b_count": 2,
-    "pool_c_count": 76,
+    "run_date": "2026-03-16T03:14:31.231Z",
+    "total_sources": 176,
+    "pool_a_count": 19,
+    "pool_b_count": 8,
+    "pool_c_count": 102,
     "reddit_pending": 30,
     "complaints_found": 8,
     "certifications_found": 6,
     "phase_6b_stats": {
-      "total": 201,
-      "relevant": 173,
-      "rejected": 28,
-      "skipped": 30,
-      "fetchFailed": 122
+      "total": 200,
+      "relevant": 176,
+      "rejected": 24,
+      "skipped": 28,
+      "fetchFailed": 126
     },
-    "phase_6b_rejected": 28
+    "phase_6b_rejected": 24
   }
 }

@@ -4,7 +4,7 @@
   "category": "windows",
   "evidence_version": "2.0",
   "created": "2026-03-15",
-  "last_verified": "2026-03-15",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "manufacturing_quality": {
     "business_model": null,
@@ -315,6 +315,84 @@
       {
         "id": "MQ-SIERRA-031",
         "description": "Sierra Pacific triple pane windows frost at sash seals in cold temperatures while competing casement windows do not, indicating a potential seal or design defect.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/s1sxvy/new_househow_do_i_prevent_this_on_the_next_one_we/",
+        "year": 2022,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-032",
+        "description": "Sierra Pacific Windows customers filed lawsuits alleging inadequate installation services, failure to honor warranty claims for window defects, and unfair contract terms.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://lawgud.com/lawsuit/sierra-pacific-windows-lawsuit/",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-033",
+        "description": "Consumer reports reading awful reviews online about Sierra Pacific H3 windows regarding problems, warranty claims, and lack of customer support.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.greenbuildingadvisor.com/question/major-window-manufacturers-marvin-andersen-sierra-pacific",
+        "year": 2019,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-034",
+        "description": "Sierra Pacific H3 windows have defective tilt sash mechanism with plastic coils breaking prematurely, affecting multiple units with inconsistent operation.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/1dknryi/sierra_pacific_h3_windows_vs_andersen_400_windows/",
+        "year": 2022,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-035",
+        "description": "Sierra Pacific Windows allegedly manufacture windows with defects and low quality that spontaneously crack after 4 years, with warranty only covering 2 years.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.yelp.com/brands/sierra-pacific-windows",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-036",
+        "description": "Sierra Pacific windows failed after ~12 years and company ignored customer outreach, refused warranty claims, charged for replacements, and forced customer toward litigation.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/1j1qji7/marvin_or_sierra_pacific_windows/",
+        "year": 2012,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIERRA-037",
+        "description": "Sierra Pacific triple pane windows exhibit frosting and condensation at sash seals in cold temperatures, indicating potential seal or insulation defect affecting multiple units.",
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "https://www.reddit.com/r/Homebuilding/comments/s1sxvy/new_househow_do_i_prevent_this_on_the_next_one_we/",
@@ -1919,6 +1997,28 @@
         "url": "https://www.finehomebuilding.com/project-guides/insulation/whats-definition-green-building",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIERRA-140",
+        "name": "jm.com — The 3 Tiers of GREENGUARD Certification and What They Mean |",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "GREENGUARD Certification: <strong>Total VOC emission rate of 500 μg/m3</strong> · GREENGUARD Gold Certification: Total VOC emission rate of 220 μg/m3",
+        "price_bias": false,
+        "url": "https://www.jm.com/en/blog/2020/july/the-3-tiers-of-greenguard-certification-of-what-they-mean-/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIERRA-141",
+        "name": "GBA — Triple glazed window manufacturers - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Reach out to Viking in Belfast if you would like US made aluminum clad wood options that cost less than the other wood/clad brands you mentioned. Specifically, Sierra Pacific Windows H3 line is a mid-",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/triple-glazed-window-manufacturers",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
       }
     ]
   },
@@ -1955,23 +2055,23 @@
   "_source_parser_meta": {
     "productName": "Sierra Pacific",
     "config": "DH",
-    "category": "windows",
+    "category": "Windows",
     "manufacturer": "Sierra Pacific",
     "isInternational": false,
-    "run_date": "2026-03-15T20:36:07.764Z",
-    "total_sources": 124,
-    "pool_a_count": 18,
-    "pool_b_count": 1,
-    "pool_c_count": 48,
+    "run_date": "2026-03-16T03:12:35.578Z",
+    "total_sources": 126,
+    "pool_a_count": 17,
+    "pool_b_count": 3,
+    "pool_c_count": 63,
     "reddit_pending": 15,
     "complaints_found": 6,
     "certifications_found": 6,
     "phase_6b_stats": {
-      "total": 170,
-      "relevant": 124,
+      "total": 172,
+      "relevant": 126,
       "rejected": 46,
       "skipped": 23,
-      "fetchFailed": 91
+      "fetchFailed": 93
     },
     "phase_6b_rejected": 46
   }

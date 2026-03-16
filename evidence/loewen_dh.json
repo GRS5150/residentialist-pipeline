@@ -146,12 +146,13 @@
       "non_disclosure_flag": true
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 6.5,
-      "note": "Manufacturer does not publish structural test data for DH configuration. Mortise and tenon construction suggests solid structural integrity. Scored at certification floor for wood_clad material class. Actual performance may be better.",
-      "non_disclosure_flag": true
+      "aama_class": "LC-PG30 to LC-PG55",
+      "design_pressure": "DP-30 to DP-55",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "LC-PG30 to LC-PG55 by size. Highest for DH is LC-PG55 (e.g., 41.8x64.3 clad/non-clad). Water 8.25 PSF. Florida approvals FL14692, FL15772. Clad LC-PG30-55, non-clad LC-PG25-55.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.loewen.com/performance-data/air-water-structural-and-performance-grade-testing/"
     },
     "air_water": {
       "air_infiltration": null,

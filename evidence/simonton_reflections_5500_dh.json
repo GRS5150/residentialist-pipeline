@@ -1,0 +1,2050 @@
+{
+  "product": "Simonton Reflections 5500",
+  "config": "DH",
+  "category": "Windows",
+  "evidence_version": "2.0",
+  "created": "2026-03-16",
+  "last_verified": "2026-03-16",
+  "refresh_after_days": 90,
+  "manufacturing_quality": {
+    "business_model": null,
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR",
+      "AAMA",
+      "GREENGUARD",
+      "PROP_65_WARNING"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-SIMONT-001",
+        "description": "Customer reported super-spacer debris between panes and grinding defects in shadow welds on newly installed Simonton 5500 windows, with forum confirmation that black debris in insulated glass units is",
+        "classification": "COSMETIC",
+        "evidence_level": "YELLOW",
+        "source": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=2760",
+        "year": 2009,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIMONT-002",
+        "description": "Water infiltration between the dual panes of a Simonton Reflections 5500 picture window installed in 2009, indicating seal failure.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.houzz.com/discussions/2632741/getting-a-replacement-replacement-window-simonton",
+        "year": 2009,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-SIMONT-001",
+        "name": "vinyl-replacement-windows.com — Simonton 5500 DH Air Infiltration- Discussion Board Forum fo",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Simonton list several different AI numbers on the site and there is not a pattern in terms of results and size. They a list a Reflections 5500 Double Hung 53” x 71” (26 sq ft) at .07 &amp; a 36” x 63”",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?p=20159",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:06.924Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-002",
+        "name": "replacementwindowsprices.com — Simonton 5500 Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "... The Simonton 5500 Series double hung that is 44&quot; W x 63&quot;H will have an air infiltration rating of .14 scfm/ft2. This same double hung with the Low-E 366 glass package that includes argon",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsprices.com/reviews/simonton-5500-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:07.233Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-003",
+        "name": "replacement-windows.com — Need advice on Simonton 5500 options - Replacement Windows D",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "17 - 32” (T) x 64” (T) 5500 Reflections White Double Hung; Tip-to-Tip; BOX; Colonial Top White Flat (2V2H); ETC Starter 366; Intercept; Low E 366; Argon Gas; Double Glazed; Regular Strength; Half Scre",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=3919",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:06.963Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-004",
+        "name": "sidingwizard.com — Simonton 5500 Replacement Window Review - SIDING & WINDOWS W",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Let us start from specifications of this window. Simonton 5500 replacement window boasts <strong>U-Factor at 0.29 and SHGC 0.18</strong>. This gives not bad energy efficiency rating for this window.",
+        "price_bias": false,
+        "url": "https://www.sidingwizard.com/posts/simonton-5500-replacement-window-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:06.924Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-005",
+        "name": "bimobject.com — BIM objects - Free download! Reflections® 5500 Vinyl Double",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Thanks to <strong>AAMA Gold Certification</strong>, you can be sure Simonton windows and doors meet the highest performance standards for air and water infiltration resistance, structural integrity an",
+        "price_bias": false,
+        "url": "https://www.bimobject.com/en-us/simonton_windows/product/simonton-windows-5500-doublehung",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-006",
+        "name": "unitedwindowsandsiding.com — Reflections® 5500 Style Guide Featuring",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "home’s unique style. Every Simonton built window and door is · tested to the demanding <strong>AAMA Gold Label Certiﬁcation Program</strong> for · product excellence and is covered by an industry-lead",
+        "price_bias": false,
+        "url": "https://unitedwindowsandsiding.com/wp-content/uploads/2022/11/reflections.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-007",
+        "name": "wretropro.com — Simonton Reflections 5500: Why Florida Homeowners Love This",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Simonton doesn’t publish a weight chart — because weight varies depending on size and style — but real-world homeowners have weighed their sashes: ... For a standard size window, that is substantial. ",
+        "price_bias": false,
+        "url": "https://www.wretropro.com/simonton-reflections-5500-why-florida-homeowners-love-this-window-and-why-you-probably-will-too",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-008",
+        "name": "jordanexteriors.com — Window Features, Reflections 5500, Simonton | AAMA Gold Cert",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Every window that Simonton builds is <strong>AAMA Gold certified</strong>, which means that it has passed stringent tests for leakage, water infiltration and wind pressure. Experience the perfect blen",
+        "price_bias": false,
+        "url": "https://www.jordanexteriors.com/reflections-5500-features/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-009",
+        "name": "bimobject.com — BIM objects - Free download! Reflections® 5500 Series Endven",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "To pass these tests, the product must endure conditions that are more intense than a window or door is likely to ever experience in your home. All Simonton manufactured windows and doors are tested to",
+        "price_bias": false,
+        "url": "https://www.bimobject.com/en-us/simonton_windows/product/772-033",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-010",
+        "name": "windowsforyourhome.com — Simonton Reflection 5500 Windows | Gravina’s Window Center o",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The U-channel design of the Intercept® spacer system <strong>reduces the transfer of heat and cold and flexes with temperature fluctuations to maintain an effective seal</strong>",
+        "price_bias": false,
+        "url": "https://www.windowsforyourhome.com/simonton-vinyl-windows/simonton-reflections-5500/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-011",
+        "name": "hwconstruction.com — Simonton Windows Reflections 5500 Series Brochure.pdf",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Low E glass on Reflections 5500 windows and doors blocks a · large portion of UV rays from coming into your home. For greater · protection, advanced glass like ProSolar Shade can block up to 95% and K",
+        "price_bias": false,
+        "url": "https://www.hwconstruction.com/hubfs/Website%20(DO%20NOT%20DELETE)/Exterior/windows/Simonton/Brochures/Simonton%20Windows%20Reflections%205500%20Series%20Brochure.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-012",
+        "name": "karolywindows.com — Simonton Reflections 5500 - Karoly Windows & Doors",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Simonton’s Reflection 5500 Series is where traditional windows meet modern technology. These windows come standard with triple-pane glass that won the ENERGY STAR 2020 Most Energy Efficient designatio",
+        "price_bias": false,
+        "url": "https://karolywindows.com/simonton-reflections-5500/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-013",
+        "name": "themenwithtools.com — Replacement Window Warranties | themenwithtools",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "For example, for Simonton’s factory-applied exterior coating and cap stock, the warranty is transferable and good for <strong>10 years of the initial purchase</strong>, but for commercial and multi-re",
+        "price_bias": false,
+        "url": "https://www.themenwithtools.com/posts/not-all-replacement-window-warranties-are-the-same",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:06.923Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-014",
+        "name": "adamsexteriors.com — Simonton Reflections 5500 Review – Adams Exteriors",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The Simonton Reflections 5500 Series Warranty is exactly the same as most other reputable window manufacturers – <strong>Limited Lifetime Warranty</strong> that covers virtually every part of the wind",
+        "price_bias": false,
+        "url": "http://www.adamsexteriors.com/simonton-reflections-5500-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-015",
+        "name": "replacement-windows.com — Simonton vs. Sunrise - Replacement Windows Discussion Board",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "If you get a lot of distributors ... and the factory warranty covers the vinyl, parts, and screens for as long as you own your home and is <strong>fully transferable when you sell</strong>....",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=2696",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:07.918Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-016",
+        "name": "vinyl-replacement-windows.com — I need help with Simonton 6500 vs 6100- Discussion Board For",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Iirc correctly the HD 6100 is the ... is the Reflections 5500. I second the advice by WoW that you should seek estimates from a Simonton dealer on these 2 windows before deciding. ... So what is wrong",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=5037",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:07.926Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-017",
+        "name": "dwmmag.com — Simonton Hit With Class-Action Lawsuit",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "The plaintiffs also claim that ... <strong>lack of edge deletion on the low-e coatings on the windows; lack of dessicant or inadequate dessicant inside the spacer; edge seal defects; and lack of secon",
+        "price_bias": false,
+        "url": "https://www.dwmmag.com/simonton-hit-with-class-action-lawsuit/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-018",
+        "name": "consumerreports.org — Simonton Reflections 5500 Replacement Window Review - Consum",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We&#x27;ve tested and reviewed products since 1936. Read CR&#x27;s review of the Simonton Reflections 5500 replacement window to find out if it&#x27;s worth it.",
+        "price_bias": false,
+        "url": "https://www.consumerreports.org/home-garden/replacement-windows/simonton-reflections-5500/m394421/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:07.866Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-019",
+        "name": "vinyl-replacement-windows.com — Simonton 5500 Reflections vs. other choices- Discussion Boar",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I don&#x27;t doubt that there are problems with the installation, but there are drafts of cold air coming in due to poor weather stripping, which is an abyssmal design failure by Amerimax. ... Simonto",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=2625",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:08.172Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-020",
+        "name": "dwmmag.com — Simonton Archives – DWM Magazine",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "With that in mind, here are the stories that saw the most web traffic on DWM in 2016. 1. Simonton Hit With Class-Action Lawsuit A story from late October focused on a class-action lawsuit […]",
+        "price_bias": false,
+        "url": "https://www.dwmmag.com/tag/simonton/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-021",
+        "name": "legalnewsline.com — Simonton windows, warranty not good enough, class action att",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Simonton declined comment on the lawsuit. Speaking to Legal Newsline, Alex Nelson - a partner at Benson, Karrane, Storz &amp; Nelson PC, and a construction defect attorney who represents the plaintiff",
+        "price_bias": false,
+        "url": "https://legalnewsline.com/stories/511041984-simonton-windows-warranty-not-good-enough-class-action-attorney-says",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-022",
+        "name": "Reddit — r/homeowners on Reddit: Simonton Windows",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I have Simonton windows in my new home built 2019. So far I&#x27;ve had 2 window panes crack from corner to corner. Not sure if it&#x27;s an installation or manufacturing issue. They were good about s",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/135kken/simonton_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:07.847Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-023",
+        "name": "replacement-windows.com — 5500 by Simonton All Window Reviews",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>They sent me 8 new sashes (both upper and lower) and every one of the lower sashes had the same over cuts and looked shoddy</strong>. Finally I located a Simonton display at a builder&#x27;s s",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/consumer-ratings/product/5500",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:08.849Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-024",
+        "name": "trivantage.com — All About GREENGUARD: Products Certified to Support Healthie",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD label on a product indicates that it has been tested for thousands of volatile organic compounds (VOCs) and <strong>complies with rigorous third-party chemical emissions standards</stro",
+        "price_bias": false,
+        "url": "https://www.trivantage.com/blog/products/all-about-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-025",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD Gold Certification standard includes health-based criteria for additional chemicals and <strong>requires lower total VOC emissions levels</strong> to help ensure that products are accep",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-026",
+        "name": "specmatters.com — GreenGuard - Spec Matters",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "UL Solutions reports that hundreds ... exposure can result in cancer or chronic disease. <strong>The GreenGuard Gold certification standard limits over 360 VOCs and chemical emissions</strong>....",
+        "price_bias": false,
+        "url": "https://specmatters.com/greenguard/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-027",
+        "name": "windowsolutionsplus.com — Simonton 5500 reflections series double hung window | CT & N",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Simonton 5500 reflections series double hung window installed by Window Solutions Plus Certified Installers in Fairfield &amp; Westchester County",
+        "price_bias": false,
+        "url": "https://windowsolutionsplus.com/simonton-5500-reflections-series-double-hung-window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:08.941Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-028",
+        "name": "This Old House — Simonton Windows Review (2026)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "You can do so nationwide <strong>through a trusted contractor, distributor location, or retailers such as The Home Depot</strong>. Simonton Windows is rated an A+ by the Better Business Bureau (BBB).",
+        "price_bias": false,
+        "url": "https://www.thisoldhouse.com/windows/simonton-windows-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:08.675Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-029",
+        "name": "homedepot.com — SIMONTON - Windows - The Home Depot",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Visit the Millwork Service Desk at The Home Depot to discover customized solutions for any project &amp; explore Simonton&#x27;s new dark color interior &amp; exterior color finishes. ... Simonton&#x2",
+        "price_bias": false,
+        "url": "https://www.homedepot.com/b/Doors-Windows-Windows/SIMONTON/N-5yc1vZaq1wZd9p",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:08.743Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-030",
+        "name": "modernize.com — Simonton Windows Review: 2026 Costs, Series, Warranties & Be",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Widely Available: <strong>Sold nationwide through contractors and home improvement stores</strong>. Limited Frame Material Options: Vinyl only — no wood or fiberglass frames available. Installation Va",
+        "price_bias": false,
+        "url": "https://modernize.com/windows/brands/simonton-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-031",
+        "name": "karolywindows.com — Simonton Windows - Karoly Windows & Doors",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Our unmatched expertise, commitment to excellence, and dedication to customer satisfaction have positioned us as the top choice for Simonton products nationwide. This recognition reflects our deep par",
+        "price_bias": false,
+        "url": "https://karolywindows.com/simonton-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-032",
+        "name": "simonton-windows.pissedconsumer.com — Simonton Windows Customer Service Phone Number (800) 746-668",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This toll-free helpline, <strong>1-800-746-6686</strong>, can discuss all issues, complaints, and feedback with the company&#x27;s agent during working hours. Calling the Simonton Windows corporate of",
+        "price_bias": false,
+        "url": "https://simonton-windows.pissedconsumer.com/customer-service.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:08.661Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-033",
+        "name": "Houzz — Simonton Reflections 5500 vs Andersen 400: Time to select, W",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;ve got pricing on the Andersen 400 windows and I just got prices on the Simonton Refections 5500. Truth be told, I was rather surprised by the price of the Simontons. <strong>There is a MAJOR p",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/4831503/simonton-reflections-5500-vs-andersen-400-time-to-select-which-way",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:09.480Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-034",
+        "name": "vinyl-replacement-windows.com — Simonton ProFinish Contractor vs Reflections 5500- Discussio",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "<strong>The 5500 does better on the eye test IMO, in both appearance and quality</strong>. Upgrade to superspacer or stainless intercept spacer, they also have many glass packages, not sure if they fo",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=6414",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:09.788Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-035",
+        "name": "replacementwindowsreviews.co — Simonton 5500 Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Explore Simonton 5500 windows reviews to find out what contractors and homeowners think of the Prism Platinum model.",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsreviews.co/company/simonton-5500-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:10.068Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-036",
+        "name": "proreplacementwindows.com — Simonton Windows Reviews 2023 | 6100 vs 6500 Reviews Reports",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Simonton 5500 Series Windows Reviews: The Simonton 5500 Windows, otherwise known as Reflections 5500 windows, are Simonton’s premium line of vinyl replacement windows.",
+        "price_bias": false,
+        "url": "https://www.proreplacementwindows.com/reviews/simonton-windows-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:09.514Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-037",
+        "name": "windowanddoor.com — Simonton Reflections 5500 with SafePoint Glass Meets Missile",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Reflections 5500 windows and patio doors with SafePoint impact-resistant laminated glass deliver <strong>Missile C level certification for homes in inland coastal areas where Missile D certification i",
+        "price_bias": false,
+        "url": "https://www.windowanddoor.com/news/simonton-reflections-5500-safepoint-glass-meets-missile-c-impact-resistant-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-038",
+        "name": "vinyl-replacement-windows.com — New Simonton 5500’s- Discussion Board Forum for Vinyl Window",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I have seen it but I have found it to be rare and Simonton will replace the sash if there is a problem. 36&quot; (O) X 54&quot; (O) 5500 Reflections White Double Hung; Rough Opening Size; BOX; Colonia",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=2760",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:09.957Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-SIMONT-039",
+        "name": "bogleheads.org — Simonton 5500 Replacement Windows? - Bogleheads.org",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Windows are built to a price point like anything else, that Simonton is a mid-low level window that will meet energystar standards for your area and has a lifetime warranty (including breakage.) I use",
+        "price_bias": true,
+        "url": "https://www.bogleheads.org/forum/viewtopic.php?t=424126",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:10.622Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-040",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Controversial Prop. 65 warning labels about toxic chemicals are effective, study says | Proposition 65 has curbed exposure to toxic substances in California — and nationally.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:10.602Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-041",
+        "name": "en.wikipedia.org — 1986 California Proposition 65 - Wikipedia",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The first statutory requirement ... water sources. The second <strong>prohibits businesses from knowingly exposing individuals to listed substances without providing a clear and reasonable warning</st",
+        "price_bias": false,
+        "url": "https://en.wikipedia.org/wiki/1986_California_Proposition_65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-042",
+        "name": "oehha.ca.gov — Proposition 65: Clear and Reasonable Warnings – Safe Harbor",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "This regulatory action will make the Proposition 65 short-form warning more informative to consumers, clarify existing safe harbor warning requirements for products sold on the internet and in catalog",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/crnr/proposition-65-clear-and-reasonable-warnings-safe-harbor-methods-and-content",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-043",
+        "name": "cancer.org — Cancer Warning Labels Based on California's Proposition 65 |",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Labels warning that <strong>a product contains compounds that may cause cancer, birth defects, or reproductive harm</strong> are now required on many household items sold in California. But people in ",
+        "price_bias": false,
+        "url": "https://www.cancer.org/cancer/risk-prevention/understanding-cancer-risk/cancer-warning-labels-based-on-californias-proposition-65.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-044",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "<strong>It mandates that the Governor of California maintain and publish a list of chemicals known to cause cancer, birth defects, and/or other reproductive harm</strong>. The list, which is updated a",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-045",
+        "name": "nytimes.com — What Is Prop 65? And Why Is There a Warning Label on This Th",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The California Office of Environmental Health Hazard Assessment (OEHHA) says Prop 65 “<strong>requires businesses to provide warnings to Californians about significant exposures to chemicals that caus",
+        "price_bias": false,
+        "url": "https://www.nytimes.com/wirecutter/blog/what-is-prop-65/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-046",
+        "name": "Reddit — r/royaloak on Reddit: Wallside Windows",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "The Simonton line that is not sold by Home Depot is excellent. Installed 33 of them in our old place in Florida. Huge improvement. Simonton Reflections 5500 (you can&#x27;t get those up here, windows ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/royaloak/comments/1n7ax9e/wallside_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:10.591Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-047",
+        "name": "Reddit — r/HomeImprovement on Reddit: Replacement Window Advice",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "2nd bidder has quoted me using Simonton Reflections 5500 White Vinyl Casement windows. Very similar Specs including the Same Cardinal Glass with Low E 366. This firm also has very good angies list rev",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/65gbmc/replacement_window_advice/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:10.564Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-048",
+        "name": "Reddit — r/DIY on Reddit: Simonton Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Anyone have any experience and/or knowledge about Simonton 5500 Series Windows? Thanks! Archived post. New comments cannot be posted and votes cannot be cast. Share ... I know I just a few mins ago gr",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/DIY/comments/1ab6l29/simonton_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:10.803Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-049",
+        "name": "Reddit — r/HomeImprovement on Reddit: Replacement Casement Windows in",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>Their BBB rating isn&#x27;t great and their warranty is written in a very interesting manor, almost like they could get out of roughly 90% of the problems one might have with the windows</stro",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/691vqn/replacement_casement_windows_in_kansas_city/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:11.327Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-050",
+        "name": "Reddit — r/HomeImprovement on Reddit: Need new windows? Have question",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "And if I get the 5500 i will do the nail fin as an add-on. According to Simonton the 5500 is made with heavier sashes and claims to have the heaviest vinyl window on the residential market.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/5181ff/need_new_windows_have_questions_im_still_alive/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:11.300Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-051",
+        "name": "Reddit — r/HomeImprovement on Reddit: Where exactly do I measure from",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Also, use low-expansion foam around the new windows to avoid any drafts. ... It&#x27;s not clear to me, from the installation instructions. They&#x27;re Simonton reflections 5500 series windows.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/9zp2n9/where_exactly_do_i_measure_from_for_replacement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:11.375Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-052",
+        "name": "Reddit — r/homeowners on Reddit: Simonton Replacement windows",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "We had 19 windows replaced in July 2024 with Simonton Daylightmax 7300. We have noticed <strong>huge drafts and the noise from outside</strong> is 10x worse than the…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1h27fyw/simonton_replacement_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:11.800Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-053",
+        "name": "Reddit — r/homeowners on Reddit: Opinions on Simonton Windows or Slid",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "My biggest complaint was <strong>they didn&#x27;t send the right trim hardware</strong> (not their fault but their supplier packaged it wrong) and the screens that came with the windows had to be repa",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1nz5wo7/opinions_on_simonton_windows_or_sliding_door_home/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:11.290Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-054",
+        "name": "Reddit — r/homeowners on Reddit: Would you select Anlin or Simonton W",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "... We have Simonton windows in our new build home. I don&#x27;t particularly like them, they seem cheap. <strong>The child safety devices and window seals seem to leak a lot of air in the winter</str",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1ekut7k/would_you_select_anlin_or_simonton_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:12.398Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-055",
+        "name": "Reddit — r/Remodel on Reddit: Advice on Simonton Wood Look 6500 Serie",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Ordered a few Simonton 6500 windows and patio sliders in the wood-look from Home Depot. They arrived with the installers with <strong>crappy corner welds and seams</strong>. Some of the finish scraped",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Remodel/comments/1hv6kzs/advice_on_simonton_wood_look_6500_series_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:12.398Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-056",
+        "name": "Reddit — r/Homebuilding on Reddit: Windows? Simonton, wincore, provia",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Provia stops by a few times a year, in our market they are more of a replacement window, and wildly cost prohibitive, they sell a lot based on their warranty. ... Mi is a solid performer for us, we mo",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1kr9ost/windows_simonton_wincore_provia_jeld_wen/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:12.398Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-057",
+        "name": "Reddit — r/HomeImprovement on Reddit: Andersen 100 vs Simonton replac",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The quality of the installation will be more important than which brand you choose. ... Unfortunately I don’t think 400s are in the budget. Everyone keeps saying our windows are so old and terribly in",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/12fbev9/andersen_100_vs_simonton_replacement_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:12.412Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-058",
+        "name": "Reddit — r/HomeImprovement on Reddit: OKNA 800 v. Simonton ComfortSma",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "It has builder grade double hung wood windows that were not maintained by the previous owner. They are <strong>leaky, drafty</strong>, etc. and we are replacing them. We have 30 DH windows to replace.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1rogral/okna_800_v_simonton_comfortsmart_vinyl_window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:12.398Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-059",
+        "name": "Reddit — r/homeowners on Reddit: Home Depot Simonton 6200 Series",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "It’s all nonsense and marketing fluff, lists nothing about the warranty, Simonton actually lists the window warranty on their website, which is worse than other windows. But the ratings are non existe",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1icy0t6/home_depot_simonton_6200_series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:13.042Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-060",
+        "name": "Reddit — r/HomeImprovement on Reddit: Sunrise Windows vs Simonton",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I’ve been to Sunrise’s facility a few times and they were definitely one of our most strict customers when it came to quality, which is great for the end user. Personally I would go with Simonton just",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/v65tzx/sunrise_windows_vs_simonton/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:12.977Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-061",
+        "name": "Reddit — r/HomeImprovement on Reddit: Anderson 400 New Construction v",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I am on Long Island, NY. Since the house is getting an entirely new shell, I figured going with the Anderson New Construction windows would be the move. Getting another quote from a reputable local co",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/18lbevz/anderson_400_new_construction_vs_simonton_5500/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:13.009Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-062",
+        "name": "Reddit — r/HomeImprovement on Reddit: Simonton versus Anlin Windows",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Simonton makes solid windows especially the Reflections 5500 and Prism Platinum lines.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/l6mhmw/simonton_versus_anlin_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:12.977Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-063",
+        "name": "Reddit — r/HomeImprovement on Reddit: Help deciding between Simonton",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I have two pretty much identical quotes from two different window installers. One is quoting me using Simonton Reflections and the other is SoftLite BCN.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1bu1jzj/help_deciding_between_simonton_or_softlite_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:13.582Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-064",
+        "name": "Reddit — r/HomeImprovement on Reddit: Simonton 5500 vs 6200 vs Daylig",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Has anyone done any comparison among Simonton 5500 vs 6200 vs Daylight Max? On their website it seems primary difference frame size.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/18641ns/simonton_5500_vs_6200_vs_daylight_max/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.161Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-065",
+        "name": "Reddit — r/Construction on Reddit: Simonton Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Anderson 400 New Construction vs Simonton 5500 Replacement Windows · r/HomeImprovement • · r/HomeImprovement · Only text posts are allowed here. YOU MUST have minimum karma to participate in the sub. ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Construction/comments/maxpty/simonton_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.095Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-066",
+        "name": "Reddit — r/Construction on Reddit: Best vinyl windows for Northeast?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They are now referred to premium by home depot. At the end of the day, they are <strong>decent vinyl windows with a proven design</strong>. Some times it is better to “kiss” and stay with old school s",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Construction/comments/m5caw0/best_vinyl_windows_for_northeast/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.124Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-067",
+        "name": "Reddit — r/Construction on Reddit: Input on Cost of Simonton Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "No that’s not typical, those are shit installers that barely know what they’re doing which is what Home Depot exclusively hires. Do not buy these windows from Home Depot but don’t hire a GC either, as",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Construction/comments/1b1f9pk/input_on_cost_of_simonton_windows_installed_by/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:14.144Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-068",
+        "name": "Houzz — Simonton Reflections 5500 vs. Brickmould 600",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;ve done a good bit of reading around here and called Simonton. I asked Contractor to price out Reflections 5500 and also get the price on the French Garden Door.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2632697/simonton-reflections-5500-vs-brickmould-600",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.095Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-069",
+        "name": "Houzz — Simonton Window 5500 Reflections",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2632983/simonton-window-5500-reflections",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.718Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-070",
+        "name": "Houzz — Siminton Asure vs. Reflection 5500",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2647626/siminton-asure-vs-reflection-5500",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.713Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-071",
+        "name": "Houzz — Simonton Reflections 5500 with Low e366",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2638824/simonton-reflections-5500-with-low-e366",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.953Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-072",
+        "name": "Houzz — Simonton 5500, 6500 vs. Alside Sheffield",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "We are looking at new replacement windows -- about 30 of them . Our home is in an upscale area and these new windows will be replacing rotting 40 year old wood ones. I am working with two window contr",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2646540/simonton-5500-6500-vs-alside-sheffield",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.713Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-073",
+        "name": "Houzz — Getting a replacement replacement window? Simonton",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I had a Simonton Reflections 5500 window installed in my den in the summer of 2009. During the last week, water has gotten between the two panes. It is a picture window -- nothing opens. It won&#x27;t",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2632741/getting-a-replacement-replacement-window-simonton",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:14.843Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-074",
+        "name": "Houzz — Simonton vs Pella Replacements",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Then a quote of $6500 for Simontons with the wood grain interior (I am told Reflections 5500). This quote includes two more of the 72 inch windows so it is 9 versus 7 in the previous quote.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/3252611/simonton-vs-pella-replacements",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:15.728Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-075",
+        "name": "Houzz — Window help - Simonton, Weathershield, Marvin, Norandex",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "He dropped off a brochure for Simonton Reflections 5500, which I assumed he was getting pricing for. My reading led me to believe that they are good windows, and we planned to go that route as long as",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6245361/window-help-simonton-weathershield-marvin-norandex",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:15.468Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-076",
+        "name": "Houzz — HomeDepot VantagePointe 6500: is Simonton 5500 or 9800 the s",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2646965/homedepot-vantagepointe-6500-is-simonton-5500-or-9800-the-same",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:15.481Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-077",
+        "name": "ReplacementWindowDiscussions — Simonton Windows – Replacement Window Discussions Forum",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "How’s the Performance and Seal?, ... windows prices, Simonton windows reviews, Simonton vinyl windows cost, Simonton Impressions 9800 review, Simonton Reflections 5500 price, Simonton Madeira windows ",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/simonton-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:15.454Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-078",
+        "name": "ReplacementWindowDiscussions — Simonton, PGT, or Others? Best Windows for Tampa Heat & Ener",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "With the intense sun here (and sky-high AC bills 😅), I’m looking for windows that will keep the heat out and the cool air in. We&#x27;re considering a few brands so far – for example, Simonton vs PGT",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/tampa-bay-energy-efficient-window-conversations/simonton-pgt-or-others-best-windows-for-tampa-heat-energy-savings/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:15.413Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-079",
+        "name": "ReplacementWindowDiscussions — Simonton or Milgard windows—anyone got real-world stories?",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Interesting you mention that... I installed Simonton vinyl windows about five years ago, and they&#x27;ve held up pretty well overall. But like your brother-in-law, I&#x27;ve noticed some slight fadin",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-user-reviews-product-experiences/simonton-or-milgard-windows-anyone-got-real-world-stories/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.311Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-080",
+        "name": "ReplacementWindowDiscussions — Thinking about Simonton windows—worth it or nah?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I’ve put in a bunch of Simontons over the years, and honestly, they’re decent for the price, but I wouldn’t call them bulletproof. Vinyl’s always gonna have some flex, so if you’re in a spot with big ",
+        "price_bias": true,
+        "url": "https://www.replacementwindowdiscussions.com/community/simonton-windows/thinking-about-simonton-windows-worth-it-or-nah/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.274Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-081",
+        "name": "ReplacementWindowDiscussions — ANYONE DEAL WITH SIMONTON WARRANTY LATELY?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "That serial sticker thing is a good tip—I didn’t even realize those numbers were useful until I started poking around online. I’m still waiting on my first warranty claim with Simonton, and I’ll be ho",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/simonton-windows/anyone-deal-with-simonton-warranty-lately/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.241Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-082",
+        "name": "ReplacementWindowDiscussions — Anyone else see Home Depot dropping Simonton windows?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Yeah, I noticed the Simonton section shrinking at my local HD too. From what I’ve read, it might be less about quality and more about shifting partnerships—Home Depot’s been pushing Andersen a lot lat",
+        "price_bias": true,
+        "url": "https://www.replacementwindowdiscussions.com/community/simonton-windows/anyone-else-see-home-depot-dropping-simonton-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.418Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-083",
+        "name": "ReplacementWindowDiscussions — Thinking about triple pane laminated glass upgrade for Simon",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Anyway, a neighbor recently upgraded their windows to triple pane laminated glass—same Simonton brand—and swears it&#x27;s made a huge difference in comfort and noise reduction.",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/simonton-windows/thinking-about-triple-pane-laminated-glass-upgrade-for-simonton-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.214Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-084",
+        "name": "ReplacementWindowDiscussions — Hillsborough/Tampa Bay Window Replacement - Seeking Costs, T",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "One thing to compare is the warranty: Simonton often offers a longer or lifetime warranty on frames and maybe glass, whereas PGT’s warranty is also good but read the fine print (some have limited life",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/tampa-bay-window-replacement-costs-quotes-discussions/hillsborough-tampa-bay-window-replacement-seeking-costs-tips-recommendations/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.958Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-085",
+        "name": "ReplacementWindowDiscussions — Page 6 | Real Homeowner Reviews: Window Contractor Experienc",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "@crypto728 From what I know (and a friend’s experience), the big box stores do indeed subcontract to local installers. My neighbor went through Home Depot for their windows. The windows themselves wer",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/recommended-window-contractors-user-experiences-tampa-bay/real-homeowner-reviews-window-contractor-experiences-in-tampa-bay/paged/6/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.994Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-086",
+        "name": "JLC Online — Simonton Reflections 5500 Replacement Patio Doors and Window",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Simonton. Reflections 5500 replacement patio doors and windows are put through rigorous testing more intense than a window or door is likely to experience in a home, the maker says. As such, <strong>t",
+        "price_bias": false,
+        "url": "https://www.jlconline.com/products-tools/windows-doors/simonton-reflections-5500-replacement-patio-doors-and-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-SIMONT-087",
+        "name": "YouTube — Best Simonton Reflections 5500 Review - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Stay tuned for our next Window Wednesday episode in which we answer common questions about replacement windows. It&#x27;s our goal to be the very best source of ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=a3GGDlwTJYo",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.958Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-088",
+        "name": "YouTube — Simonton Reflections 5500 Replacement Vinyl Windows and Door",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "http://www.simonton.com/Product/Detail/5500/Vinyl Double Hung Replacement Window/windowThe Reflections® 5500 series is Simonton&#x27;s® most versatile vin...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=u_etEuZC460",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:18.291Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-089",
+        "name": "m.youtube.com — Best Simonton Reflections 5500 Review",
+        "pool": "B",
+        "sentiment": "positive",
+        "summary": "Share your videos with friends, family, and the world",
+        "price_bias": false,
+        "url": "https://m.youtube.com/watch?v=a3GGDlwTJYo&t=461s",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers"
+      },
+      {
+        "id": "PC-SIMONT-090",
+        "name": "YouTube — Simonton Windows Reviews | As Unbiased A Review As You're Go",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Welcome to our Simonton Windows reviews video where we&#x27;ll breakdown down the company, discuss ratings, what they sell and their overall price point. -- Get f...",
+        "price_bias": true,
+        "url": "https://www.youtube.com/watch?v=xwKDqGlEtOI",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:16.965Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-091",
+        "name": "YouTube — Simonton Windows Reviews - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Share your videos with friends, family, and the world",
+        "price_bias": false,
+        "url": "https://www.youtube.com/playlist?list=PLkvMnOqmq-VI1PyYZeEiqbVcr2XudqbvD",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:18.916Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-092",
+        "name": "YouTube — Simonton Windows Reviews: Just How Good Are Simonton Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Do you need help with your window replacement project:https://www.proreplacementwindows.com/Simonton Windows Reviews: Founded over 70 years ago, Simonton Win...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=lLGt1x-3d04",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:18.808Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-093",
+        "name": "YouTube — How to Install a Simonton 5500 Double Hung Window - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Detailed instructions on installing Simonton 5500 windows, filmed live at the 2025 JLC Cornerstone Building Brands event.Topics covered:1. Applying Pan Flash...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=4dOL5Ntk7LI",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:19.350Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-094",
+        "name": "YouTube — Recognized for Excellence: Best-Selling Simonton Windows Hav",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "<strong>Rigorously tested for quality and performance</strong>, Simonton 5500 and 6500 Double Hung windows and DaylightMax® and 6200 Sliding windows have earned the coveted G...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=r8aCX5NOeOQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:18.879Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-095",
+        "name": "YouTube — Simonton Window Warranty Review - It could be better. - YouT",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Here we review the Simonton window warranty. This is the window warranty that comes with the Reflections 5500, 5050, 5200 and Asure vinyl window models.Stay ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=OKqs94jT39c",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:18.801Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-096",
+        "name": "YouTube — Simonton Asure Windows Reviews - Get the Real Info Here! - Y",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Stay tuned for our next Window Wednesday episode in which we answer common questions about replacement windows. It&#x27;s our goal to be the very best source of ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=sm0S6ubFaDQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:19.918Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-097",
+        "name": "YouTube — Why Simonton Windows Earned the Good Housekeeping Seal - You",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "From standout performance to trusted durability, Simonton earned the Good Housekeeping Seal for four key reasons. Hear why it’s a smart choice. Explore Simon...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=LnX-QIpjC_g",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:19.870Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-098",
+        "name": "YouTube — Simonton Windows Review - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Hear what one of Simonton&#x27;s preferred contractors has to say about our windows.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=vDNwkUh0e7w",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:19.918Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-099",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-SIMONT-100",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-SIMONT-101",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-SIMONT-102",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-SIMONT-103",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-SIMONT-104",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-SIMONT-105",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:19.894Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-106",
+        "name": "Simonton official technical documentation",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Official Simonton technical/performance documentation",
+        "price_bias": false,
+        "url": "https://www.simonton.com/resources/performance-data/",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-SIMONT-107",
+        "name": "TheWindowDog — Simonton Reflections 5500 Review - INSIDER INFO | DON'T DO T",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They are great. 1″ IGU glass pkg with Super Spacer. <strong>SHGC 0.18 U Factor 0.28</strong> . The review shown must have compared with their base glass pkg. which could be done with any brand. Mine a",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/simonton-reflections-5500-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:20.175Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-108",
+        "name": "simonton.com — The NFRC Label The National Fenestration Rating Council (NFR",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The National Fenestration Rating Council (NFRC) · requires all window and door manufacturers to",
+        "price_bias": false,
+        "url": "https://www.simonton.com/wp-content/uploads/2022/12/Simonton-NFRC-Window-Label.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-109",
+        "name": "simonton.com — Product Specification - Simonton",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Simonton provides premium vinyl products proudly crafted in the USA that deliver efficient thermal performance. View our various product specifications here. Call us now!",
+        "price_bias": false,
+        "url": "https://www.simonton.com/for-pros/product-specification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-110",
+        "name": "simonton.com — ENERGY STAR Program - Simonton",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The NFRC is a third-party non-profit organization that supports independent testing, certification, and labeling of windows and doors to help you understand and compare energy performance. The NFRC la",
+        "price_bias": false,
+        "url": "https://www.simonton.com/why-simonton/energy-star-program/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-111",
+        "name": "simonton.com — Vinyl 5500 Double Hung Window - 5500 Home Double Hung Window",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Offering 24/7 impact protection and durable weather resistance, 5500 windows with Safe Point® impact resistant laminated glass deliver <strong>Missile C level</strong> certification for homes in inlan",
+        "price_bias": false,
+        "url": "https://www.simonton.com/simonton-products/5500-double-hung-window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-112",
+        "name": "simonton.com — Reflections® 5500 Inspiration Guide",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Our standards are just as high as yours. Each Reflections® 5500",
+        "price_bias": false,
+        "url": "https://www.simonton.com/wp-content/uploads/Widen%20Assets/Documents/sim20_simonton_reflections_5500_stuffer_7108187021103_reva_ms_cg_1220_web.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-113",
+        "name": "simonton.com — Vinyl 5500 Sliding Windows - Residential 5500 Sliding Window",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Offering 24/7 impact protection and durable weather resistance, 5500 windows with Safe Point® impact resistant laminated glass deliver <strong>Missile C level</strong> certification for homes in inlan",
+        "price_bias": false,
+        "url": "https://www.simonton.com/simonton-products/5500-sliding-window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-114",
+        "name": "simonton.com — 5500 Traditional Style Casement Window - Vinyl 5500 Casement",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Offering 24/7 impact protection and durable weather resistance, 5500 windows with Safe Point® impact resistant laminated glass deliver <strong>Missile C level</strong> certification for homes in inlan",
+        "price_bias": false,
+        "url": "https://www.simonton.com/simonton-products/5500-casement-window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-115",
+        "name": "simonton.com — Vinyl 5500 Awning Window - 5500 Traditional Awning Window |",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Offering 24/7 impact protection and durable weather resistance, 5500 windows with Safe Point® impact resistant laminated glass deliver <strong>Missile C level</strong> certification for homes in inlan",
+        "price_bias": false,
+        "url": "https://www.simonton.com/simonton-products/5500-awning-window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-116",
+        "name": "simonton.com — Simonton 5500 Windows – Traditional Style Windows | Simonton",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>Three panes of double strength glass create two separate air spaces for optimal thermal performance and interior comfort</strong>. Laminated glass consists of a durable interlayer sealed betwe",
+        "price_bias": false,
+        "url": "https://www.simonton.com/windows-doors/simonton-5500-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-117",
+        "name": "simonton.com — 5500 Vinyl Garden Window - 5500 Home Garden Window | Simonto",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Annodized spacer system <strong>helps keep glass warm and expands and contracts for reduced seal failure</strong>.",
+        "price_bias": false,
+        "url": "https://www.simonton.com/simonton-products/5500-garden-window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-118",
+        "name": "simonton.com — 5500 Collection PREMIUM VINYL WINDOWS Impressive Quality & P",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Super Spacer® is a registered trademark of Quantex IG Systems, Inc. ENERGY STAR® is a registered trademark of ... Numbers reflect simulated testing in winter conditions: 0° outside temperature, 70° in",
+        "price_bias": false,
+        "url": "https://www.simonton.com/wp-content/uploads/Widen%20Assets/Documents/Reflections-5500-Most-Efficient-Energy-Star-Sell-Sheet.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-119",
+        "name": "simonton.com — 5500 Collection PREMIUM VINYL WINDOWS INSPIRATION GUIDE",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "5500 Collection · PREMIUM VINYL WINDOWS · INSPIRATION GUIDE",
+        "price_bias": false,
+        "url": "https://www.simonton.com/wp-content/uploads/Widen%20Assets/Documents/Brochures/SIM23_5500-Brochure_Inspiration-Guide_7102239991102_RevA_MS_CG_0923_WEB.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-120",
+        "name": "TheWindowDog — Simonton Window Warranty Review Reflections and Asure Issues",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Not really. You do get glass breakage coverage on the Reflections 5500 model for <strong>3 years</strong>, but no glass breakage coverage on the other models. There’s also no glass breakage coverage i",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/simonton-window-warranty-review-reflections-and-asure/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:20.717Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-121",
+        "name": "simonton.com — Warranty Support & Information | Simonton",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Rest easy with Simonton industry leading warranties for your replacement windows and doors. Visit our site to register or transfer your warranty or submit a claim.",
+        "price_bias": false,
+        "url": "https://www.simonton.com/support/warranty-information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-122",
+        "name": "simonton.com — Simonton",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Index of /sites/Simonton/Files",
+        "price_bias": false,
+        "url": "https://www.simonton.com/sites/Simonton/Files/Simonton-Reflections-5500-Warranty.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-123",
+        "name": "TheWindowDog — Simonton Windows Review 2025: Prices, Quality & Pros and Con",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "<strong>The warranty can usually be transferred once to a new homeowner</strong>, which adds resale value. Just remember that labor and installation coverage comes from your dealer — not Simonton — so",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/replacement-window-reviews/simonton-windows-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:46:20.777Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-SIMONT-124",
+        "name": "simonton.com — Windows &Patio Doors Customer Support | Simonton",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Find replacement parts for your windows and patio doors.",
+        "price_bias": false,
+        "url": "https://www.simonton.com/support/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-125",
+        "name": "simonton.com — Contact Us - Simonton",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "Simonton provides premium vinyl products proudly crafted in the USA that deliver efficient thermal performance. Fill out our contact us form here. Visit us now!",
+        "price_bias": false,
+        "url": "https://www.simonton.com/contact-us/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-126",
+        "name": "simonton.com — Pro WTB Customer Service | Simonton Windows & Doors",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Interested in selling Simonton Windows &amp; Doors? We’re excited that you are interested in becoming part of our nationwide network of professionals. Prov",
+        "price_bias": false,
+        "url": "https://www.simonton.com/pro-wtb-customer-service/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-SIMONT-127",
+        "name": "TheWindowDog — Simonton Reflections 5050 Review vs Simonton 5500",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The much nicer Simonton Prism 5500 window only costs $10-$20 more and it’s a much better mid-range option. To sum up this Simonton Reflections 5050 review: Keep shopping.",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/simonton-reflections-5050-review/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:46:20.984Z",
+          "text_source": "snippet"
+        }
+      }
+    ]
+  },
+  "component_quality": {
+    "quality_tier": null,
+    "_note": "Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, triple-pane available, Cardinal Glass IGU, Fibrex composite material"
+  },
+  "repairability": {
+    "igu_replacement_method": null,
+    "_note": "lifetime-year warranty; transferable"
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": "0.28",
+      "u_factor_source": "https://thewindowdog.com/simonton-reflections-5500-review/",
+      "evidence_level": null,
+      "score": null,
+      "note": null,
+      "shgc": "0.18"
+    },
+    "structural": {
+      "aama_class": "R-PG50 to R-PG55",
+      "design_pressure": "DP-50 to DP-55",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "R-PG50 to R-PG55 by size per Ply Gem subdomain PDF. Simonton is a Ply Gem brand. Ratings vary by size configuration for double hung.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.plygem.com/simonton-reflections-5500-performance"
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    }
+  },
+  "_source_parser_meta": {
+    "productName": "Simonton Reflections 5500",
+    "config": "DH",
+    "category": "Windows",
+    "manufacturer": "Simonton",
+    "isInternational": false,
+    "run_date": "2026-03-16T04:47:42.270Z",
+    "total_sources": 127,
+    "pool_a_count": 1,
+    "pool_b_count": 4,
+    "pool_c_count": 78,
+    "reddit_pending": 24,
+    "complaints_found": 2,
+    "certifications_found": 5,
+    "phase_6b_stats": {
+      "total": 140,
+      "relevant": 127,
+      "rejected": 13,
+      "skipped": 29,
+      "fetchFailed": 81
+    },
+    "phase_6b_rejected": 13
+  }
+}

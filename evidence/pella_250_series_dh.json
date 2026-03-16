@@ -36,12 +36,13 @@
       "note": "NFRC certified, Energy Star qualified across multiple climate zones. Vinyl frame — higher conductivity than wood/fiberglass. No specific DH U-Factor published by manufacturer. Third-party sources cite 0.30 U-factor which aligns with Energy Star Northern zone floor. NFRC database confirms U-Factor 0.30 for air-fill dual-pane, 0.26 for argon-fill."
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.5,
-      "note": "AAMA Certified R-PG20 to R-PG50 range (FPAS#: FL 26534). Standard DH configuration typically falls in R-PG25 to R-PG35 range. Midpoint 5.5 is appropriate for standard configuration without specific DH test data published.",
-      "non_disclosure_flag": true
+      "aama_class": "R-PG35",
+      "design_pressure": "DP-35",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "DP-35 per Lowes product page for specific sizes. Pella states performance class and grade R20-R50 for double-hung. Florida approved (FPAS#: FL 26534). Standard DH configuration rated DP-35.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.lowes.com/pd/Pella-250-Series-Replacement-35-1-2-in-x-53-1-2-in-x-3-1-4-in-Jamb-White-Vinyl-Dual-pane-Double-Hung-Window-Full-Screen-Included/5005399951"
     },
     "air_water": {
       "air_infiltration": null,

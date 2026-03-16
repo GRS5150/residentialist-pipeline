@@ -4,7 +4,7 @@
   "category": "windows",
   "evidence_version": "2.0",
   "created": "2026-03-15",
-  "last_verified": "2026-03-15",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "manufacturing_quality": {
     "business_model": null,
@@ -110,6 +110,45 @@
       {
         "id": "MQ-MILGAR-008",
         "description": "Milgard Tuscany vinyl windows experiencing cold air infiltration and sound transmission after 22 years of use, with customer questioning if thicker panes or full replacement is needed.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1gpb3ze/should_i_replace_my_old_aluminum_window_with/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MILGAR-009",
+        "description": "Relative experienced condensation/seal failure in Milgard Tuscany windows after 10+ years of use, raising concerns about product durability and seal integrity.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/955onq/milgard_window_spacers_tuscany_line/",
+        "year": 2018,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MILGAR-010",
+        "description": "Customer reports 75% failure rate on Milgard windows with glass seal failures and warranty denial by Denver regional office.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.consumeraffairs.com/homeowners/milgard.html?page=15",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MILGAR-011",
+        "description": "Milgard Tuscany vinyl windows experiencing cold air and sound infiltration after 22 years of use, with degraded seal performance despite previous warranty service.",
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "https://www.reddit.com/r/homeowners/comments/1gpb3ze/should_i_replace_my_old_aluminum_window_with/",
@@ -1906,6 +1945,35 @@
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches",
         "_previous_pool": "unknown"
+      },
+      {
+        "id": "PC-MILGAR-157",
+        "name": "GBA — Windows for my Pretty Good House - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Out of that list there is no doubt that Intus would provide the best quality and best efficiency out of those three choices. <strong>I would definitively stay away from Milgard</strong>. I&#x27;ve hav",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/windows-for-my-pretty-good-house",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MILGAR-158",
+        "name": "Reddit — Preventing Mold in a New Construction : r/Homebuilding",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "https://www.greenbuildingadvisor.com/article/do-humidifiers-create-iaq-problems",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/175e8fj/preventing_mold_in_a_new_construction/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:11:15.509Z",
+          "text_source": "snippet"
+        }
       }
     ]
   },
@@ -1943,24 +2011,24 @@
   "_source_parser_meta": {
     "productName": "Milgard Tuscany",
     "config": "DH",
-    "category": "windows",
+    "category": "Windows",
     "manufacturer": "Milgard",
     "isInternational": false,
-    "run_date": "2026-03-15T22:05:37.856Z",
-    "total_sources": 147,
-    "pool_a_count": 4,
-    "pool_b_count": 1,
-    "pool_c_count": 77,
+    "run_date": "2026-03-16T03:12:36.893Z",
+    "total_sources": 148,
+    "pool_a_count": 6,
+    "pool_b_count": 5,
+    "pool_c_count": 97,
     "reddit_pending": 30,
-    "complaints_found": 4,
+    "complaints_found": 3,
     "certifications_found": 5,
     "phase_6b_stats": {
-      "total": 174,
-      "relevant": 147,
-      "rejected": 27,
-      "skipped": 27,
-      "fetchFailed": 110
+      "total": 173,
+      "relevant": 148,
+      "rejected": 25,
+      "skipped": 28,
+      "fetchFailed": 108
     },
-    "phase_6b_rejected": 27
+    "phase_6b_rejected": 25
   }
 }

@@ -4,7 +4,7 @@
   "category": "windows",
   "evidence_version": "2.0",
   "created": "2026-03-15",
-  "last_verified": "2026-03-15",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "manufacturing_quality": {
     "business_model": null,
@@ -111,6 +111,71 @@
       {
         "id": "MQ-ANDERS-008",
         "description": "Reddit user reports all Andersen windows installed 10 years ago are broken, indicating potential seal failure or mechanical defect affecting multiple units.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
+        "year": 2014,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-009",
+        "description": "Window opening control devices on Andersen 100 Series casement windows may malfunction and stop functioning, allowing windows to open uncontrollably and creating a fall hazard to consumers.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://recalls-rappels.canada.ca/en/alert-recall/window-opening-control-devices-applied-andersen-100-series-casement-windows-recalled",
+        "year": 2026,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-010",
+        "description": "Window opening control devices (WOCD) on Andersen 100 Series casement windows can break or detach after impact, posing fall and serious injury hazards.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://www.andersenwindows.com/100seriescasementwocdrecall",
+        "year": null,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-011",
+        "description": "Multiple Andersen windows experiencing cracked or broken window cranks, described as a design flaw affecting many units.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/11kju78/andersen_window_problems/",
+        "year": 2023,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-012",
+        "description": "Multiple Andersen Series 100 windows developed extensive cracks on sashes and glazing bead failures; manufacturer refused warranty coverage despite multiple contact attempts.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/1faoqgt/andersen_series_100_windows_failure/",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-ANDERS-013",
+        "description": "Reddit user reports all Andersen windows failed/became broken within 10 years of installation.",
         "classification": "STRUCTURAL_DEFECT",
         "evidence_level": "YELLOW",
         "source": "https://www.reddit.com/r/homeowners/comments/1qc0j0r/mother_was_quoted_75k_for_windows_replacement_by/",
@@ -1987,6 +2052,68 @@
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches",
         "_previous_pool": "unknown"
+      },
+      {
+        "id": "PC-ANDERS-164",
+        "name": "brennancorp.com — Andersen 100 Series - Fibrex Specialty Shape Windows",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "<strong>Grilles applied to the interior and exterior of the window with aluminum spacers between the glass create an authentic look</strong>.",
+        "price_bias": false,
+        "url": "https://brennancorp.com/products/windows/andersen-100-series-specialty-shape-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-165",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "After one or two weeks, the certifying agencies test the VOC levels in the chamber. <strong>If the emission levels are low, the products earn the Greenguard Gold or Greenguard Certification mark</stro",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-166",
+        "name": "GBA — Andersen windows: PassiveSun? Heatlock? LowE4? - GreenBuildi",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "<strong>The 100 Series is a &quot;Fibrex&quot; composite</strong>. The 400 Series is a vinyl-clad wood window. I used three 400 Series sliding french doors on my last house and was generally satisfied",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/andersen-windows-passivesun-heatlock-lowe4",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-ANDERS-167",
+        "name": "Reddit — r/homeowners on Reddit: Anderson Windows Replacement",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Anecdotally, renewal by Andersen ... windows. Pella is a step below them and the quote we got from them was so gutbustingly ridiculous that we canceled our Andersen appointment. We asked our local sub",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/17nf409/anderson_windows_replacement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T03:12:54.785Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-ANDERS-168",
+        "name": "GBA — Andersen Corporation Wants to Invest More in the Circular Ec",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "The company claims that its Fibrex windows are twice as strong as vinyl, block thermal transfer “nearly 700 times better” than aluminum, and retain their rigidity and stability in all climates. Fibrex",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/article/andersen-corporation-wants-to-invest-more-in-the-circular-economy",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
       }
     ]
   },
@@ -2008,11 +2135,13 @@
       "shgc": "0.21"
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": null,
+      "aama_class": "LC-PG30",
+      "design_pressure": "DP-30",
+      "evidence_level": "PUBLISHED",
       "score": null,
-      "note": null
+      "note": "LC-PG30 per WDMA Hallmark Certification label. Size tested 47.5\" x 77.5\". Design Pressure +30/-30 psf (equivalent to +1920/-1920 Pa). Optional PG50 upgrade mentioned in brochures but not in official performance doc.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.andersenwindows.com/-/media/Project/AndersenCorporation/AndersenWindows/AndersenWindows/files/technical-docs/performance/performance-windows-patiodoors-nfrcratings-100series-double-hung.pdf"
     },
     "air_water": {
       "air_infiltration": "0.2",
@@ -2024,24 +2153,24 @@
   "_source_parser_meta": {
     "productName": "Andersen 100 Series",
     "config": "DH",
-    "category": "windows",
+    "category": "Windows",
     "manufacturer": "Andersen",
     "isInternational": false,
-    "run_date": "2026-03-15T20:51:10.797Z",
-    "total_sources": 167,
+    "run_date": "2026-03-16T03:14:01.513Z",
+    "total_sources": 163,
     "pool_a_count": 8,
-    "pool_b_count": 2,
-    "pool_c_count": 79,
+    "pool_b_count": 9,
+    "pool_c_count": 106,
     "reddit_pending": 31,
     "complaints_found": 8,
     "certifications_found": 6,
     "phase_6b_stats": {
-      "total": 197,
-      "relevant": 167,
-      "rejected": 30,
+      "total": 196,
+      "relevant": 163,
+      "rejected": 33,
       "skipped": 23,
-      "fetchFailed": 125
+      "fetchFailed": 123
     },
-    "phase_6b_rejected": 30
+    "phase_6b_rejected": 33
   }
 }

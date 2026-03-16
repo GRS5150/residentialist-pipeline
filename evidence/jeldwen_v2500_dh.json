@@ -4,7 +4,7 @@
   "category": "windows",
   "evidence_version": "2.0",
   "created": "2026-03-15",
-  "last_verified": "2026-03-15",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "manufacturing_quality": {
     "business_model": null,
@@ -15,7 +15,8 @@
       "NAFS",
       "GREENGUARD",
       "WERS",
-      "PROP_65_WARNING"
+      "PROP_65_WARNING",
+      "PASSIVE_HOUSE"
     ],
     "complaints": [
       {
@@ -38,6 +39,58 @@
         "evidence_level": "YELLOW",
         "source": "https://www.reddit.com/r/HomeImprovement/comments/17b0cct/vinyl_windows_that_dont_suck/",
         "year": 2023,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-003",
+        "description": "Consumer reports seal failures in Jeld-Wen windows and doors installed in 2001, with multiple units failing within 12-13 years of exposure to direct sunlight.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.dwmmag.com/2022/09/06/civil-suit-accuses-jeld-wen-of-selling-defective-windows/",
+        "year": 2001,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-004",
+        "description": "Visible gaps between window sashes at the frame reported on Jeld-Wen best-tier vinyl windows installed in garage conversion.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/menards/comments/1gz8u4k/jeldwen_good_better_best_windows/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-005",
+        "description": "Multiple JELD-WEN windows experienced manufacturing defect where left and right sash sides were different lengths, creating gaps.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/17b0cct/vinyl_windows_that_dont_suck/",
+        "year": 2023,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-JELDWE-006",
+        "description": "V2500 series windows with flat casing and brick mold are described as inadequate value with poor performance relative to cost, long lead times, and associated with Jeld-Wen's quality control issues.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/jf2vbw/insight_on_new_windows/",
+        "year": 2020,
         "status": "unknown",
         "systemic": true,
         "_verified_by": "haiku_complaint_verification",
@@ -1193,12 +1246,299 @@
         "url": "https://thewindowdog.com/replacement-window-reviews/jeld-wen-windows-reviews/",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-102",
+        "name": "claytonnotes.com — JELD-WEN V2500 VS. V4500: The Ultimate Showdown",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "The V4500 series is JELD-WEN’s premium line of vinyl windows, offering enhanced performance, greater customization options, and a wider range of styles. This series is available in single-hung, double",
+        "price_bias": false,
+        "url": "https://claytonnotes.com/jeld-wen-v2500-vs-v4500/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-103",
+        "name": "manualshelf.com — JELD-WEN V2500 Left-Operable Vinyl Double Pane Double Streng",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "PRODUCT GUIDE Vinyl Horizontal Sliding/Rolling Windows (JPG007) This guide contains procedures for common user serviceable repair tasks found on vinyl horizontal operating windows. If a condition aris",
+        "price_bias": false,
+        "url": "https://www.manualshelf.com/manual/jeld-wen/lowoljw232900571/how-to-guide-english.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-104",
+        "name": "homedepot.com — JELD-WEN - Weatherstripping - The Home Depot",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Brand: JELD-WENFeatures: Weatherstripping · Doors &amp; Windows · 54 &amp; Up3 &amp; Up2 &amp; Up1 &amp; Up0 · View Results · All Filters · Category · Review Rating · Price · Brand · In Stock at Store",
+        "price_bias": false,
+        "url": "https://www.homedepot.com/b/JELD-WEN/Weatherstripping/N-5yc1vZ2heZ1z0sfra",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:07:01.847Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-105",
+        "name": "Reddit — r/HomeImprovement on Reddit: What is this missing weatherstr",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "There is a small piece of weatherstripping missing that goes in the bottom corner of the frame that can be added on for extra protection but does not come that way from the factory. If your door is no",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/jzi9pc/what_is_this_missing_weatherstripping_called_for/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:07:01.870Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-106",
+        "name": "swisco.com — Weather stripping for Jeld Wen Windows : SWISCO.com",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I believe the windows are Jeld Wen double hung windows vinyl 2000 series purchased from Lowe&#x27;s in 1989. Lowes part #89256. ... Hello there. There are two possible options that may be a possible r",
+        "price_bias": false,
+        "url": "https://www.swisco.com/discussions/Weather-stripping-for-Jeld-Wen-Windows-77-121861",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:07:01.848Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-107",
+        "name": "lawsuitlegit.com — Defective JELD-WEN Windows Spark Massive Lawsuit | Lawsuit L",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "These complaints imply a breach of trust between JELD-WEN and its customers, due to the company’s failure to deliver on its promise of quality and durability.",
+        "price_bias": false,
+        "url": "https://lawsuitlegit.com/defective-jeld-wen-windows-spark-massive-lawsuit/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-108",
+        "name": "topclassactions.com — JELD-WEN & Masonite Interior Molded Doors $19.5M Antitrust C",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The minimum payment for each Class Member who files a valid claim is estimated to be at least $25. The interior molded doors class action lawsuit <strong>alleged that the defendants had worked to arti",
+        "price_bias": false,
+        "url": "https://topclassactions.com/lawsuit-settlements/closed-settlements/interior-molded-doors-19-5m-antitrust-class-action-settlement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-109",
+        "name": "retrofitmagazine.com — JELD-WEN Earns GREENGUARD Gold Certification for Its Doors -",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Additionally, all JELD-WEN interior doors are CARB Phase II compliant to further demonstrate JELD-WEN’s commitment to our customers. Earning the <strong>GREENGUARD Gold Certification requires an in-de",
+        "price_bias": false,
+        "url": "https://retrofitmagazine.com/jeld-wen-earns-greenguard-gold-certification-doors/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-110",
+        "name": "trivantage.com — All About GREENGUARD: Products Certified to Support Healthie",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD label on a product indicates that it has been tested for thousands of volatile organic compounds (VOCs) and <strong>complies with rigorous third-party chemical emissions standards</stro",
+        "price_bias": false,
+        "url": "https://www.trivantage.com/blog/products/all-about-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-111",
+        "name": "homedepot.com — Reviews for JELD-WEN 23.5 in. x 47.5 in. V-2500 Series White",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "During a recent winter storm the windows were covered with freezing rain which turned to ice and didn&#x27;t melt off outside window panes for 3 days!...the inside pane didn&#x27;t transfer the heat f",
+        "price_bias": false,
+        "url": "https://www.homedepot.com/p/reviews/JELD-WEN-23-5-in-x-47-5-in-V-2500-Series-White-Vinyl-Single-Hung-Window-with-Fiberglass-Mesh-Screen-THDJW143800648/205688135/1",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:07:05.069Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-112",
+        "name": "diychatroom.com — homedepot vs lowes instock windows = jeld-wen v2500 vs pella",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "at my local stores homedepot has jeld-wen $168 , lowes pella $180 looking carefully through the catalog, the the jeld-wen has e glass with argon gas. the thermastar doesn&#x27;t have either. seems the",
+        "price_bias": true,
+        "url": "https://www.diychatroom.com/threads/homedepot-vs-lowes-instock-windows-jeld-wen-v2500-vs-pella-thermastar.299738/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T03:07:05.635Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-113",
+        "name": "prnewswire.com — JELD-WEN Recalls to Repair Interior Bifold Doors Due to Impa",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "(Logo: http://photos.prnewswire.com/prnh/20030904/USCSCLOGO) ... Name of product: JELD-WEN and Reliabilt Interior Bifold Doors Hazard: <strong>The lower pivot pin can break causing the door to disenga",
+        "price_bias": false,
+        "url": "https://www.prnewswire.com/news-releases/jeld-wen-recalls-to-repair-interior-bifold-doors-due-to-impact-hazard-175418301.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-114",
+        "name": "woodworkingnetwork.com — JELD-WEN Recalls 171,000 Wood Bifold Doors | Woodworking Net",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "The U.S. Consumer Product Safety Commission said <strong>the lower pivot pin can break, causing the interior hollow-core bifold doors to disengage from the overhead track and pose an impact hazard</st",
+        "price_bias": false,
+        "url": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/jeld-wen-recalls-171000-wood-bifold-doors",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-115",
+        "name": "p65warnings.ca.gov — Proposition 65 Warnings Website - Your right to know",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "This website, by the California Office of Environmental Health Hazard Assessment (OEHHA), provides resources for consumers and businesses. These resources can help consumers understand what a warning ",
+        "price_bias": false,
+        "url": "https://www.p65warnings.ca.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-116",
+        "name": "p65warnings.ca.gov — Furniture Products - Proposition 65 Warnings Website",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65 <strong>requires businesses to determine if they must provide a warning about significant exposure to listed chemicals</strong>.",
+        "price_bias": false,
+        "url": "https://www.p65warnings.ca.gov/fact-sheets/furniture-products",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-117",
+        "name": "p65warnings.ca.gov — Furniture Products - Proposition 65 Warnings Website - CA.go",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The law does this by <strong>requiring businesses to provide warnings when their products or places of business can expose consumers to chemicals</strong> on the Proposition 65 list. Proposition 65 is",
+        "price_bias": false,
+        "url": "https://www.p65warnings.ca.gov/products/furniture-products",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-JELDWE-118",
+        "name": "Reddit — r/HomeImprovement on Reddit: Jeld Wen Window Installation -",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Jeld-Wen window glass replacement/warranty question. ... Only text posts are allowed here. YOU MUST have minimum karma to participate in the sub. Submit here: https://diy.stackexchange.com/ ... A plac",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/vglyi1/jeld_wen_window_installation_fillet_caulking/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:07:09.406Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-119",
+        "name": "GBA — Passive house exterior door for reasonable price? - GreenBui",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "If you go for a simple style and you don&#x27;t need a high-grade fake wood grain finish, you can get a neo-por insulated Jeld-Wen set up with a multipoint latching system for probably less than $1000",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/passive-house-exterior-door-for-reasonable-price",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-JELDWE-120",
+        "name": "Houzz — new construction windows...Pella vs Jeld wen",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2279550/new-construction-windows-pella-vs-jeld-wen",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:07:11.160Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-121",
+        "name": "Houzz — JELD-WEN WINDOWS & DOORS - Project Photos & Reviews - Edmont",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/jeld-wen-windows-and-doors-pfvwus-pf~1797047094",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T03:07:11.526Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-JELDWE-122",
+        "name": "bringithome.jeld-wen.com — What to Consider When Exploring Building Materials - Bring I",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Check out these tips from JELD-WEN in order to learn how to understand and calculate the performance grade for your project. Builders need to pass several window performance tests that the NAFS requir",
+        "price_bias": false,
+        "url": "https://bringithome.jeld-wen.com/what-to-consider-when-exploring-building-materials/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
       }
     ]
   },
   "component_quality": {
     "quality_tier": null,
-    "_note": "Low-E coating, aluminum-clad, weatherstripping noted"
+    "_note": "Low-E coating, aluminum-clad, weatherstripping noted | Source parser added: Low-E coating, aluminum-clad, warm-edge spacer, weatherstripping noted"
   },
   "repairability": {
     "igu_replacement_method": "glass_swap",
@@ -1227,26 +1567,26 @@
     }
   },
   "_source_parser_meta": {
-    "productName": "Jeld-Wen V-2500",
+    "productName": "JELD-WEN V2500",
     "config": "DH",
-    "category": "windows",
+    "category": "Windows",
     "manufacturer": "Jeld-Wen",
     "isInternational": false,
-    "run_date": "2026-03-15T21:17:52.627Z",
-    "total_sources": 108,
-    "pool_a_count": 1,
-    "pool_b_count": 2,
-    "pool_c_count": 57,
-    "reddit_pending": 21,
-    "complaints_found": 2,
-    "certifications_found": 7,
+    "run_date": "2026-03-16T03:08:20.797Z",
+    "total_sources": 111,
+    "pool_a_count": 2,
+    "pool_b_count": 6,
+    "pool_c_count": 69,
+    "reddit_pending": 20,
+    "complaints_found": 4,
+    "certifications_found": 8,
     "phase_6b_stats": {
       "total": 151,
-      "relevant": 108,
-      "rejected": 43,
-      "skipped": 21,
-      "fetchFailed": 82
+      "relevant": 111,
+      "rejected": 40,
+      "skipped": 19,
+      "fetchFailed": 89
     },
-    "phase_6b_rejected": 43
+    "phase_6b_rejected": 40
   }
 }

@@ -70,12 +70,14 @@
       "note": "NFRC certified, Energy Star qualified. Basic vinyl replacement window frame. No specific DH U-Factor published."
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.5,
-      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for vinyl material class. Actual performance may be better.",
-      "non_disclosure_flag": true
+      "aama_class": "R",
+      "design_pressure": "DP-35",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "DP-35 standard per Lowe's product page. Consistent across multiple Lowes pages and manufacturer video. Florida approved. No explicit AAMA/FGIA PG listing found.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.lowes.com/pd/ReliaBilt-3500-Vinyl-Replacement-White-Exterior-Double-Hung-Window-Rough-Opening-32-in-x-73-75-in-Actual-31-75-in-x-73-5-in/3712316",
+      "upgrade_rating": "DP-50 upgrade available"
     },
     "air_water": {
       "air_infiltration": null,

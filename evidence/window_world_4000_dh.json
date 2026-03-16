@@ -1,0 +1,1855 @@
+{
+  "product": "Window World 4000",
+  "config": "DH",
+  "category": "Windows",
+  "evidence_version": "2.0",
+  "created": "2026-03-16",
+  "last_verified": "2026-03-16",
+  "refresh_after_days": 90,
+  "manufacturing_quality": {
+    "business_model": null,
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR",
+      "AAMA",
+      "NAFS",
+      "WERS",
+      "GREENGUARD",
+      "PROP_65_WARNING",
+      "PASSIVE_HOUSE"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-WINDOW-001",
+        "description": "Window World windows developed seal failures and began leaking within 18 months of installation, with manufacturer refusing warranty coverage on installation labor.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/homeowners/comments/oehymn/i_regret_my_window_world_windows/",
+        "year": 2021,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-WINDOW-001",
+        "name": "windowworldlexington.com — What to Know Before Replacing Your Windows | Window World",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The NFRC label can be found on all ENERGY STAR qualified windows, doors, and skylights and provides performance ratings in five categories: <strong>U-Factor measures the rate of heat transfer and tell",
+        "price_bias": false,
+        "url": "https://www.windowworldlexington.com/top-10-things-to-know-before-replacing-your-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-002",
+        "name": "optimalwindows.com — SHGC Ratings: How to Read NFRC Labels - Optimal Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "An example for the label showing – “SHGC 0.32”, this means <strong>the window allows 32% of solar heat to pass through while blocking the remaining 68%</strong>. SHGC values are always displayed as a ",
+        "price_bias": false,
+        "url": "https://www.optimalwindows.com/shgc-ratings-how-to-read-nfrc-labels/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-003",
+        "name": "buildingcodegeek.com — How Windows Fit Into The Energy Code: U-Factor & SHGC",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "NFRC label showing U-Factor and SHGC (if required) Air infiltration rating (must be on the label or separately certified)",
+        "price_bias": false,
+        "url": "https://buildingcodegeek.com/how-windows-fit-into-the-energy-code/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-004",
+        "name": "optimumwindow.com — Understanding NFRC Ratings for Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The lower the U-Factor, the better the window insulates. <strong>Values typically range from 0.20 to 1.20</strong>. A lower U-Factor means less heat escapes your home, keeping you cozy and reducing he",
+        "price_bias": false,
+        "url": "https://optimumwindow.com/understanding-nfrc-ratings-for-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-005",
+        "name": "windowworldphoenix.com — Improving Homes. Changing Lives. AMERICA’S EXTERIOR REMODELE",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Improving Homes. Changing Lives · AMERICA’S EXTERIOR REMODELER",
+        "price_bias": false,
+        "url": "https://www.windowworldphoenix.com/wp-content/uploads/2021/01/4000-Series-Double-Hung.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-006",
+        "name": "windowworldtx.com — How Do Windows And Doors Qualify For An ENERGY STAR® Rating?",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "A lower AL value relates to less air leakage, and most buildings require an AL rate of 0.3. <strong>In the Southern zone, the NFRC requires windows to have a U-Factor of 0.60 or lower</strong> and an ",
+        "price_bias": false,
+        "url": "https://www.windowworldtx.com/blog/how-do-windows-and-doors-qualify-for-an-energy-star-rating/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-007",
+        "name": "1stwindows.com — Understanding Permanent Window Labeling",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The number establishes the design pressure, in this case 15 psf. <strong>The structural test pressure for all windows and doors is 50% higher than the design pressure</strong> which, for the example H",
+        "price_bias": false,
+        "url": "https://www.1stwindows.com/labels",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:27.763Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-008",
+        "name": "brennancorp.com — AAMA Windows Certification | Brennan Enterprises",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "<strong>Gold Label windows withstand at least 94 mph wind pressure</strong>. Structural strength is tested by measuring the amount of wind pressure the window can resist before it breaks. There are a ",
+        "price_bias": false,
+        "url": "https://brennancorp.com/blog/what-is-aama-certification-for-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-009",
+        "name": "karolywindows.com — What is AAMA Certification for Windows? - Karoly Windows & D",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Enhanced Durability and Performance: AAMA-certified windows are <strong>rigorously tested for durability, structural integrity, and resistance to weather elements</strong>. This means that replacement",
+        "price_bias": false,
+        "url": "https://karolywindows.com/what-is-aama-certification-for-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-010",
+        "name": "quanex.com — Warm Edge Spacer Systems for Windows & Doors - Quanex",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Warm edge spacers play a critical role in overall window performance by <strong>reducing heat transfer at the edge of the glass, the area most vulnerable to energy loss, condensation, and seal stress<",
+        "price_bias": false,
+        "url": "https://www.quanex.com/product/residential/insulating-glass-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-011",
+        "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Durability and Design Flexibility: Dual-seal systems are <strong>designed to absorb stress caused by thermal expansion and contraction</strong>. This ability increases durability, with sealed IGU last",
+        "price_bias": false,
+        "url": "https://vistaza.com/warm-edge-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:28.051Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-012",
+        "name": "cardinalcorp.com — Endur Warm Edge Insulating Glass | Cardinal Glass Industries",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "<strong>Stainless steel spacer features a roll formed design to provide maximum area for primary and secondary sealant coverage</strong>. It provides increased resistance to condensation and less stre",
+        "price_bias": false,
+        "url": "https://www.cardinalcorp.com/products/insulating-glass/endur/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-013",
+        "name": "aladdininsulation.com — Energy Efficient Window Glass Spacers Comparison",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>Intercept features a unique, one-piece stainless steel alloy that creates an effective thermal barrier to help reduce conducted heat loss</strong>. This keeps the edges of glass warmer, too.",
+        "price_bias": false,
+        "url": "https://aladdininsulation.com/2015/02/1068/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-014",
+        "name": "michianawindowworld.com — Double Hung Windows Granger IN – Window World of Michiana",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "PPG InterceptTM Warm Edge Spacer system <strong>maximizes performance and Longevity</strong>. Metal reinforcement for added strength at the meeting rail. Interlock at sash meeting rails creates a supe",
+        "price_bias": false,
+        "url": "https://www.michianawindowworld.com/replacement-windows/double-hung-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-015",
+        "name": "cardinalcorp.com — XL Edge Insulating Glass | Cardinal Glass Industries",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "XL Edge is <strong>a leading-edge stainless steel spacer with airtight bent corners and a dual-seal construction of compressed polyisobutylene (PIB) and silicone</strong>. Desiccants eliminate any pot",
+        "price_bias": false,
+        "url": "https://www.cardinalcorp.com/products/insulating-glass/xl-edge/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-016",
+        "name": "lowes.com — How to Weatherstrip Your Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "If you’re using <strong>adhesive-backed weatherstripping, simply peel off the backing and stick into the channel</strong>. Other weatherstripping may require a hammer and finishing nails to secure int",
+        "price_bias": false,
+        "url": "https://www.lowes.com/n/how-to/weather-strip-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:27.330Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-017",
+        "name": "This Old House — The Essential Guide to Weatherstripping - This Old House",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Apply V strip or foam tape along the sides of the frame where the sashes slide. <strong>Use tubular weatherstripping or V strip along the meeting rail where the sashes come together</strong>. Install ",
+        "price_bias": false,
+        "url": "https://www.thisoldhouse.com/doors/the-essential-guide-to-weatherstripping",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:27.309Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-018",
+        "name": "hometips.com — How to Weatherstrip Doors & Windows",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "When applying, <strong>butt the tube section snugly against the window, and maintain tension on the vinyl as you fasten it to the jambs or sill with brads</strong>. Recommended methods for weather str",
+        "price_bias": false,
+        "url": "https://www.hometips.com/repair-fix/replace-window-weatherstripping.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-019",
+        "name": "windowworlddubois.com — Replacement Windows, Windows Dubois, PA. | Window World of D",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>Double-barrier weatherstripping between the sash and jamb</strong> for superior protection from air and water infiltration.",
+        "price_bias": false,
+        "url": "https://www.windowworlddubois.com/replacement-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-020",
+        "name": "Fine Homebuilding — Weatherstripping Traditional Wood Windows Like a Pro - Fine",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "<strong>Kerf-style weatherstripping</strong> is my favorite for its balance of performance, affordability, and speed of installation. It is usually applied to the sash (or in some cases, the interior ",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/2025/08/20/window-weatherstripping",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-021",
+        "name": "bestroofhelp.com — DIY Window Weatherstripping Installation Guide: Seal Drafts",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Use a metal tape measure to record the exact dimensions of each window track, sash, and frame where weatherstripping will be applied. Measure twice to ensure accuracy, noting the width, height, and de",
+        "price_bias": false,
+        "url": "https://bestroofhelp.com/blogs/window-weatherstripping-installation-guide/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-022",
+        "name": "windowworldjackson.com — Replacement Windows, Windows Jackson, TN. | Window World of",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>Double-barrier weatherstripping between the sash and jamb</strong> for superior protection from air and water infiltration.",
+        "price_bias": false,
+        "url": "https://www.windowworldjackson.com/replacement-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-023",
+        "name": "windowworldriverregion.com — Window World Warranties | Window World of River Region",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Windows — Coverage for vinyl ... material · Transferable warranty — <strong>Should you sell your home, the warranty is transferable to the next homeowner, adding value to your property</strong> (provi",
+        "price_bias": false,
+        "url": "https://windowworldriverregion.com/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-024",
+        "name": "windowworldtx.com — Window World Warranty Information | Window World TX",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Labor warranty does not transfer to Owner’s immediate transferee.",
+        "price_bias": false,
+        "url": "https://www.windowworldtx.com/warranty-information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-025",
+        "name": "windowworldrockymount.com — I N D U S T R Y ’ S S T R O N G E S T LIFETIME WARRANTY",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Window World (“Company”) warrants ... home in which the Warranted Product(s) are installed. Upon · second transfer of ownership, <strong>all labor will be warrantied at no cost to transferee</strong>,",
+        "price_bias": false,
+        "url": "https://www.windowworldrockymount.com/pdfs/RockyMountWarranty-Revised.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-026",
+        "name": "windowworldsocal.com — Replacement Product Warranty Info | Window World of Southern",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Labor Warranty – For a period ... on all vinyl window series 3000 or above. Five-year labor guarantee on all vinyl sliding patio doors. <strong>Non Transferable</strong>....",
+        "price_bias": false,
+        "url": "https://www.windowworldsocal.com/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-027",
+        "name": "windowworlddfw.com — Replacement Product Warranty Information | Window World Dall",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Transferable Warranty – This warranty may be transferred to the Owner’s immediate transferee provided the transferee notifies the Company, in writing, at the address below, within 30 days of the prope",
+        "price_bias": false,
+        "url": "https://windowworlddfw.com/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-028",
+        "name": "bbb.org — Window World | BBB Complaints | Better Business Bureau",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "View complaints of Window World filed with BBB. BBB helps resolve disputes with the services or products a business provides.",
+        "price_bias": false,
+        "url": "https://www.bbb.org/us/fl/cantonment/profile/windows/window-world-0683-18001228/complaints",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:27.316Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-029",
+        "name": "unhappyfranchisee.com — WINDOW WORLD Lawsuit Alleges Illegal Franchise Sales",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Damaged in installation of sliders, ... and will not complete the job. <strong>I wish there was a class action lawsuit against this company to protect consumers, we were pressured to pay in full for a",
+        "price_bias": false,
+        "url": "https://unhappyfranchisee.com/window-world-lawsuit-alleges-illegal-franchise-sales/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-030",
+        "name": "window-world.pissedconsumer.com — Window World Reviews and Complaints | windowworld.com @ Piss",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I wonder how many Consumers have been charged this extra fee and didn&#x27;t even realize it. Sounds like a Class Action Lawsuit is could be Brewing!!!",
+        "price_bias": false,
+        "url": "https://window-world.pissedconsumer.com/complaints/RT-P.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:28.677Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-031",
+        "name": "caselaw.findlaw.com — WINDOW WORLD INTERNATIONAL LLC v. TOOLE (2022) | FindLaw",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "<strong>The district court dismissed the false-advertising and trademark-dilution claims and all claims against O&#x27;Toole personally for failure to state a claim. The court ruled that Window World&",
+        "price_bias": false,
+        "url": "https://caselaw.findlaw.com/court/us-8th-circuit/2158251.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-032",
+        "name": "justanswer.com — Expert Answers to Your Window World Concerns | JustAnswer",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I also have a problem with Window World. I did not give deposit. I signed a little contract with them. 6 months passed",
+        "price_bias": false,
+        "url": "https://www.justanswer.com/consumer-protection-law/i57st-problem-window-world-not-give.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:28.738Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-033",
+        "name": "dwmmag.com — Window World Sued for Wrongful Death",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "Among the actions the complaint lists as negligent and careless are causing damage to the propane gas line and, in turn, causing propane gas to enter the Kocanyar home. Additional claims of negligence",
+        "price_bias": false,
+        "url": "https://www.dwmmag.com/2025/04/02/window-world-sued-for-wrongful-death/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-034",
+        "name": "Reddit — r/321 on Reddit: Window World",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "They have been horrible so far. They get high on the job site and mess up the area around the windows. Every time they say they are showing up to fix things they don’t show. I am ready to send complai",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/321/comments/1lh5vaz/window_world/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:28.570Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-035",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD Certification Program <strong>identifies low-emitting materials, finishes, and products for indoor environments</strong>. The GREENGUARD Gold Certification standard includes health-base",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-036",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>GREENGUARD Gold Certification level</strong>.",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-037",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "After one or two weeks, the certifying agencies test the VOC levels in the chamber. <strong>If the emission levels are low, the products earn the Greenguard Gold or Greenguard Certification mark</stro",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-038",
+        "name": "trivantage.com — All About GREENGUARD: Products Certified to Support Healthie",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "To earn GREENGUARD Certification, a product must undergo: <strong>Comprehensive lab testing in environmental chambers that simulate typical indoor environments</strong> · Evaluation against establishe",
+        "price_bias": false,
+        "url": "https://www.trivantage.com/blog/products/all-about-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-039",
+        "name": "signatureglassandwindows.com — 7 Best Windows for Home Replacement in 2025: A Guide for Mon",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "While they specialize in vinyl, their offerings are comprehensive enough to meet the needs of most standard home replacement projects. <strong>Their nationwide presence ensures consistent service and ",
+        "price_bias": false,
+        "url": "https://signatureglassandwindows.com/best-windows-for-home-replacement/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-040",
+        "name": "consumerrating.org — Window Nation Window Replacement Review | ConsumerRating",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Availability: While both companies are widely available, Window World’s service area is a bit more expansive, with <strong>more than 200 locations nationwide</strong> and availability in all U.S. stat",
+        "price_bias": false,
+        "url": "https://consumerrating.org/window-replacements/reviews/window-nation/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-041",
+        "name": "windowworlddfw.com — Contact Us | Window World | Replacement Windows Dallas TX",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "We are happy to provide free, in-home estimates to our customers for all of our replacement products! Contact us today to schedule your estimate.",
+        "price_bias": false,
+        "url": "https://windowworlddfw.com/contact/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-042",
+        "name": "windowsneworleans.com — Contact Us | Window World New Orleans LA",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "We are happy to provide free, in-home estimates to our customers for all of our replacement products! Contact us today to schedule your estimate.",
+        "price_bias": false,
+        "url": "https://www.windowsneworleans.com/contact/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-043",
+        "name": "Reddit — r/buildingscience on Reddit: Window and rain screen details",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "https://www.greenbuildingadvisor.com/article/persistent-worries-about-exterior-rigid-foam#comment-205271",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1qa1e8y/window_and_rain_screen_details_for_my_rockwool/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:28.563Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-044",
+        "name": "Reddit — r/buildingscience on Reddit: ERV Exhaust effectiveness",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "There are a lot of discussion about this on greenbuildingadvisor. It doesn&#x27;t seem like it is clear cut.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/buildingscience/comments/1digazd/erv_exhaust_effectiveness/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:28.778Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-045",
+        "name": "Reddit — r/Westchester on Reddit: Does anyone have a recommendation f",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Otherwise I wouldn’t touch it because you won’t easily know if there is a roof leak. Instead just insulate the attic floor. For walls, you should look at blown-in rock wool. Look at greenbuildingadvis",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Westchester/comments/10eij96/does_anyone_have_a_recommendation_for_spray_foam/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:29.384Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-046",
+        "name": "replacementwindowsprices.com — Window World 4000 Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I personally don&#x27;t love wood clad for the longevity and energy efficiency issues, but <strong>the Reserve is a much better value than the 4000 series quote you have</strong>. I&#x27;d continue to",
+        "price_bias": true,
+        "url": "https://www.replacementwindowsprices.com/reviews/window-world-4000-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:29.489Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-WINDOW-047",
+        "name": "vinyl-replacement-windows.com — Window World 4000 Series by Window World Reviews - Product R",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I think Window World could care less, when I called to complain. I tried getting them on the phone to complain, but i couldn&#x27;t get any returned calls. will never use this company again. ... $7,56",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/consumer-ratings/product/window-world-4000-series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:29.566Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-WINDOW-048",
+        "name": "bogleheads.org — Anybody recommending Windows World? - Bogleheads.org",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I got the attached bid from my 25 windows. Salesguy pushing 4000 series but upon researching I found out that they make money on the 4000 than the 6000 But <strong>6000 has a huge advantage in power s",
+        "price_bias": false,
+        "url": "https://www.bogleheads.org/forum/viewtopic.php?t=281489",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:29.530Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-049",
+        "name": "vinyl-replacement-windows.com — Window World 4000 vs. 6000- Discussion Board Forum for Vinyl",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The Alside guy brought an Ultramaxx and it certainly is beefier, but the Window World guy said for the size of windows we have (about 90% are 94 Sq. In.), he would go with the 4000/Excaliber.",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=2722",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:29.643Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-WINDOW-050",
+        "name": "diychatroom.com — WW Recommending 4000 instead of 6000?? Hmmm | DIY Home Impro",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I can get the 6000 Series for $35 more which is their step up and he explained it as a heavier frame window that wasn&#x27;t really necessary where I live (Central Illinois) which is why he still reco",
+        "price_bias": false,
+        "url": "https://www.diychatroom.com/threads/ww-recommending-4000-instead-of-6000-hmmm.39696/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:30.196Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-051",
+        "name": "replacement-windows.com — Window World 4000 vs 6000 — Discussion Board Forum Replaceme",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "You mean Window World&#x27;s low end cheaper window isn&#x27;t $189 like their advertising says? Yours comes out to $300. per window. That doesn&#x27;t sound fair. ... The 4000 is the mid range they h",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/window-board/read.php?board=1&id=11442",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:30.236Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-WINDOW-052",
+        "name": "replacement-windows.com — Window world 4000 or alside mezzo - Replacement Windows Disc",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "masterext wrote:<strong>The Okna is so much better than window world or alside which are both lower end</strong>. Contrary to what you were told, window world does not make their own windows. They are",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=6119",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:30.395Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-WINDOW-053",
+        "name": "wackywindowwoman.com — Window World Review",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "They guarantee that they are the ... Window Comparison Chart to see how the larger Replacement Window companies stack up when compared one against the other.Window World sells Alside 4000 series windo",
+        "price_bias": false,
+        "url": "https://www.wackywindowwoman.com/post/window-world-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-054",
+        "name": "replacementwindowsreviews.co — Window World 4000 Series Reviews And Costs",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Explore Window World 4000 Series reviews on this .",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsreviews.co/company/window-world-4000-series-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:31.032Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-WINDOW-055",
+        "name": "usglassmag.com — MI Windows and Doors Recalls Nearly 2,000 Sliding Glass Door",
+        "pool": "B",
+        "sentiment": "negative",
+        "summary": "According to CPSC, the glass in ... doors, <strong>can separate from the frame during hurricane conditions, posing a serious injury hazard. A CPSC notice says consumers should avoid areas with the rec",
+        "price_bias": false,
+        "url": "https://www.usglassmag.com/mi-windows-and-doors-recalls-nearly-2000-sliding-glass-doors/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-056",
+        "name": "p65warnings.ca.gov — Proposition 65 Warnings Website - Your right to know",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "This website, by the California Office of Environmental Health Hazard Assessment (OEHHA), provides resources for consumers and businesses. These resources can help consumers understand what a warning ",
+        "price_bias": false,
+        "url": "https://www.p65warnings.ca.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-057",
+        "name": "oehha.ca.gov — The Proposition 65 List - OEHHA",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The current Proposition 65 list is available on-line below, as a pdf or Excel download or through WestLaw. The Excel document also includes the listing mechanism for each chemical listing and the safe",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/proposition-65-list",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-058",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Does anyone have experience with how to determine whether the Prop 65 warning is required? EDIT: I just found on the OEHHA website the companies under 10 are exempt from the warnings. Kind of an odd d",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:30.713Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-059",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Prop 65 warnings are required under California law only. These warnings are seen throughout California in a wide range of settings, including but not limited to restaurants, grocery stores, hotels, sc",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-060",
+        "name": "piloteers.org — California Owners... OK to remove sticker from window? | Hon",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Looks like it&#x27;s California specific. Can we remove this sticker? ... Sure, I removed mine before I drove it off the lot. It&#x27;s basically a warning for the buyer. I think the general public co",
+        "price_bias": false,
+        "url": "https://www.piloteers.org/threads/california-owners-ok-to-remove-sticker-from-window.12244/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-061",
+        "name": "Reddit — r/HomeImprovement on Reddit: Window World 4000/6000 Solarzon",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "WindowWorld uses either Alside or MI which are decent windows, but their installers are hit or miss. ... We notice you have a post regarding a project quote. If you did not get 3 quotes, please explai",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/rzb4ox/window_world_40006000_solarzone/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:31.550Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-062",
+        "name": "Reddit — r/homeowners on Reddit: Have you replaced your windows?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "They also manage any warranty claims since they are also the manufacturer. Research on the company in my area showed that <strong>most of the negative reviews had more to do with installation delays t",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/dsipah/have_you_replaced_your_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:31.533Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-063",
+        "name": "Reddit — r/HomeImprovement on Reddit: Help with Choosing New Windows!",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "The first company was Window World, who can replace our 15 windows with new Series 4000 Vinyl windows for just under $8k. They have surprisingly positive reviews, my only concern is whether these wind",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/pb1zwo/help_with_choosing_new_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:31.552Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-064",
+        "name": "Reddit — r/boston on Reddit: Window World 4000 series windows vs. Har",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Window World 4000 series windows vs. Harvey Classic · I got similar quotes from window world to install their 4000 series windows and one from a local company to install Harvey Classics. Is one window",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/boston/comments/1pdko2v/window_world_4000_series_windows_vs_harvey_classic/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:31.606Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-065",
+        "name": "Reddit — r/HomeImprovement on Reddit: New Windows - Question on Costs",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Do these installation companies warranty their work against leaks and water damage? That would be the only reason I would not do it myself. ... Yes, 50 years. ... We just replaced 25 windows (Ontario)",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/rmgx5h/new_windows_question_on_costs/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:31.565Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-066",
+        "name": "Reddit — r/newjersey on Reddit: Window World Experience?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The salesman said they don&#x27;t ... Continue this thread Continue this thread Continue this thread ... <strong>Window world sales and install was stellar</strong>....",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/newjersey/comments/1mp6jzi/window_world_experience/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:32.148Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-067",
+        "name": "Reddit — r/HomeImprovement on Reddit: Need some help deciding who to",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Windiw world are rebranded Alside and MI windows. In many WW branches, the Window World 4000 model is a relabeled MI 1650 series. This window is considered by most in the industry to be a builder grad",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/qrzgxa/need_some_help_deciding_who_to_go_with_for_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:32.456Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-068",
+        "name": "Reddit — r/Homebuilding on Reddit: ProVia vs Window World",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Window World actually installed all the windows in our house. I think they’re M1 windows. <strong>Pretty solid for the price point</strong> ... Yea the majority of the vinyl windows are very similar.",
+        "price_bias": true,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1m422zt/provia_vs_window_world/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:32.155Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-069",
+        "name": "Reddit — Window World 4000 series windows vs. Harvey Classic",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/massachusetts/comments/1pdknr3/window_world_4000_series_windows_vs_harvey_classic/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:32.149Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-070",
+        "name": "Reddit — r/FortCollins on Reddit: Window World windows?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;ve heard mixed things about the nationwide Window World company. And I imagine one can probably say the same for other companies. I&#x27;m looking for a &quot;middle of the road&quot; solution:",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/FortCollins/comments/1d53rwk/window_world_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:32.149Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-071",
+        "name": "Reddit — r/homeowners on Reddit: Window World is the WORST",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "You dodged a bullet my friend. My story is the one above yours. Poor quality. Poor installation. Horrendous customer service. Can&#x27;t believe they&#x27;re still in business. ... Im happy with my wi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1d4ya3s/window_world_is_the_worst/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:33.179Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-072",
+        "name": "Reddit — r/homeowners on Reddit: I regret my Window World Windows.",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Window world didn’t back any of their install labor. After 20,000 paid to them , after 18 months their <strong>poorly installed windows began leaking</strong> like you wouldn’t believe. They stood beh",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/oehymn/i_regret_my_window_world_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:32.967Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-073",
+        "name": "Reddit — r/TwinCities on Reddit: Any experience with Window World?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;m trying to replace five windows in my house. So far I&#x27;ve met with Renewal (who uses some composite), Window World (vinyl), and a local contractor (fiberglass), and I&#x27;ve got Pella and",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/TwinCities/comments/1doe37i/any_experience_with_window_world/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:33.190Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-074",
+        "name": "Reddit — r/houston on Reddit: Window World a decent company?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We did a lot of research used Window World. Apparently their windows are great, the problems come with the installers who are subcontracted out. Some do a HORRIBLE job. You will need to read up on how",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/houston/comments/ohsl3p/window_world_a_decent_company/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:32.987Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-075",
+        "name": "Reddit — r/rva on Reddit: Thoughts on “Window World” or “Williamsburg",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Window world did such a poor job with my window world I had to get the EPA involved due to <strong>lead contamination</strong>. ... Check out Hammer and Nails construction. They installed 25 high qual",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/rva/comments/1dw6pmc/thoughts_on_window_world_or_williamsburg_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:32.991Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-076",
+        "name": "Reddit — r/homeowners on Reddit: Marvin vs Anderson vs Window World v",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Actually super happy with the quality of install and the windows. This franchise manager works off of taking care of customers. Your experience may differ. Had 3 screens messed up, wrong window ordere",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/14ecn9f/marvin_vs_anderson_vs_window_world_vs/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:35.121Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-077",
+        "name": "Reddit — r/phoenix on Reddit: Performance Windows?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We got quoted by valley windows and doors a few weeks after getting a quote from performance and window world. Performance had a good presentation but they were the most expensive. Window world was a ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/phoenix/comments/18eiou0/performance_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:33.990Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-078",
+        "name": "Reddit — r/HomeImprovement on Reddit: Window World Replacement Window",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Has anyone used Window World replacement windows? I need to replace about 15 double hung windows in my house - and I want to know if these are any…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/9yi6r6/window_world_replacement_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:33.706Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-079",
+        "name": "Reddit — r/HomeImprovement on Reddit: Window World vs local contracto",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Hey everyone! It&#x27;s amazing how sales pitchy and discount based this is. Totally insane. Now what I&#x27;m trying to do is figure out if, given equal…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/f3lp9x/window_world_vs_local_contractor_thats_been/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:33.693Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-080",
+        "name": "Reddit — r/homeowners on Reddit: Energy Efficient Home Improvement Cr",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Window World 4000 series windows vs.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1qilg7l/energy_efficient_home_improvement_credit_from/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:33.695Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-081",
+        "name": "Reddit — r/Homebuilding on Reddit: Window recommendations",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We all know Marvin/Anderson/Pella are all good, but has anyone had a good experience with some of the other lesser known window manufacturers? We have an ecoview and window world supplier locally, as ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/su4bkb/window_recommendations/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:35.630Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-082",
+        "name": "GBA — What would you consider to be a \"pretty good\" window in CZ5?",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Window specs are in U-factor, not R-value. If it helps you to convert to R-value, that&#x27;s fine, but the window world operates on &quot;U&quot; and you&#x27;ll quickly get a feeling for how U and R",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/what-would-you-consider-to-be-a-pretty-good-window-in-cz5",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-WINDOW-083",
+        "name": "Houzz — Comfort World Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2638270/comfort-world-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:35.633Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-084",
+        "name": "Houzz — Window world or sunrise restoration",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/4757222/window-world-or-sunrise-restoration",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:36.005Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-085",
+        "name": "Houzz — Simonton 6100 vs Window World 4000 series?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/4958078/simonton-6100-vs-window-world-4000-series",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:35.630Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-086",
+        "name": "Houzz — Window World / Alside questions",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2630760/window-world-alside-questions",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:35.630Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-087",
+        "name": "Houzz — Windows USA vs Windows World vs Great Lakes | Houzz Forum",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Windows USA seems to meet all the right qualifcations but I don&#x27;t like their high pressure techniques. Window World (4000 series)is a little cheaper and they seem good too. Last, my local company",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2635448/windows-usa-vs-windows-world-vs-great-lakes",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T05:00:36.800Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-088",
+        "name": "Houzz — WINDOW WORLD TULSA - Project Photos & Reviews - Broken Arrow",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Tired of reading all the DIY tutorials? We are here to help. With over 1 million home professionals on Houzz, you’ll easily find the trusted Replacement Window Contractor for your next project in Brok",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/window-world-tulsa-pfvwus-pf~1260433222",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:36.554Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-089",
+        "name": "Houzz — WINDOW WORLD - Project Photos & Reviews - San Diego, CA US |",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/window-world-pfvwus-pf~1831117517",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:36.554Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-090",
+        "name": "Houzz — WINDOW WORLD - Project Photos & Reviews - North Wilkesboro,",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "From one simple dashboard, you can manage all the Replacement Window Contractor quotes you got. Window World is currently rated 3.9 overall out of 5 · Window World provides the following services: Cus",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/window-world-pfvwus-pf~1510831978",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:36.554Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-091",
+        "name": "Houzz — WINDOW WORLD & SIDING CO. - Project Photos & Reviews - Charl",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "... Since 1988, <strong>Window World &amp; Siding</strong> has served thousands and thousands of customers like yourself. Never compromising on product or installation, Window World and Siding has bec",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/window-world-and-siding-co-pfvwus-pf~128520224",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:36.648Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-092",
+        "name": "Houzz — WINDOW WORLD OF LAFAYETTE - Project Photos & Reviews - Lafay",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/window-world-of-lafayette-pfvwus-pf~2081640429",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:38.188Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-093",
+        "name": "YouTube — Window World 4000 Series Demo - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Window World 4000 Series Window Demo",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=bmDYTds29Bg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:37.322Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-094",
+        "name": "m.youtube.com — Window World 4000 Series Demo",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Share your videos with friends, family, and the world",
+        "price_bias": false,
+        "url": "https://m.youtube.com/watch?v=bmDYTds29Bg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers"
+      },
+      {
+        "id": "PC-WINDOW-095",
+        "name": "YouTube — Window World - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "What&#x27;s it like getting brand new windows from Window World? In this video you&#x27;ll see what the install process looks like &amp; hear first hand as to why getting...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=Qihdoh9E5VM",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:37.339Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-096",
+        "name": "YouTube — What To Expect Before Your Replacement Window Installation f",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "So it’s time for new windows! Take a look at what to expect when you choose Window World. If you don’t have an install appointment yet, head to WindowWorld.c...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=nZA3vRYeuac",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:37.317Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-097",
+        "name": "YouTube — Window World Reviews 2024 | This Is As Unbiased A Review As",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Welcome to our Window World Reviews 2024. We&#x27;ll breakdown down their franchise company structure, what they sell (which is confusing) and how they price out ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=o-9H66miXA4&pp=0gcJCdgAo7VqN5tD",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:37.327Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-098",
+        "name": "YouTube — My Experience With Window World (Was It Worth It?) - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Full Blog Post: https://retipster.com/window-world-review/?utm_source=youtube&amp;utm_medium=social&amp;utm_campaign=blog&amp;utm_content=yt-JX8nlwekftcJoin Our Communi...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=JX8nlwekftc",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:38.805Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-099",
+        "name": "YouTube — Window Installation By Window World of Baton Rouge - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "When it comes to installing windows, siding, and doors, nobody does it as efficiently and effectively as Window World. Learn more about our quick and profes...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=b0g8sYJd95M",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:38.806Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-100",
+        "name": "YouTube — Window World Replacement Windows - Customer Review - Milwauk",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My recent installation of new double pane 4000 series Windows from Window World, Milwaukee Franchise. <strong>Very professional, quick, and Quality</strong>. I will see thi...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=JI-Ri_WNCRk",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:38.862Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-101",
+        "name": "YouTube — Window World - Honest Review of Price, Product and Presentat",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "👉Wacky Window Woman Price Comparison Chart for Homeowners: https://www.wackywindowwoman.com/comparison-chart?source=youtube&amp;video=windowworldIn this video,...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=vErWyPJQ974",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:38.806Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-102",
+        "name": "YouTube — Replacement Window Installation Process | Window World of Yo",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We understand your home is important to you. That’s why Window World of Youngstown makes sure that every step of our replacement window installation process ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=omq3kRweTvA",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:38.806Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-103",
+        "name": "YouTube — Window World Reviews: Are Window World Windows Any Good? - Y",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Do you need help with your window replacement project:https://www.proreplacementwindows.com/Window World Reviews: Window World has been around for nearly 30 ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=6Rz3x77Pg7M",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:39.482Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-104",
+        "name": "YouTube — Replacing Your Windows With Window World (Extended Version)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This testimonial walks you through the experience of having windows replaced with Window World.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=8xJrPCV4Nro",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:39.369Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-105",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-WINDOW-106",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-WINDOW-107",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-WINDOW-108",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-WINDOW-109",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-WINDOW-110",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-WINDOW-111",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:39.314Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-WINDOW-112",
+        "name": "windowworld.com — Accolades and Accreditations | Window World",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "ASTM International, formerly the American Society for Testing and Materials, is the globally recognized leader in the development and delivery of voluntary consensus standards. Its mission is to impro",
+        "price_bias": false,
+        "url": "https://www.windowworld.com/accreditations",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-113",
+        "name": "windowworld.com — Window World Warranty Information | Learn More",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "If you move, <strong>the window and patio door warranty may be transferred to the subsequent homeowner provided Window World receives the warranty transfer form along with the then-current transfer fe",
+        "price_bias": false,
+        "url": "https://www.windowworld.com/warranties",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-114",
+        "name": "windowworld.com — Window World Products | Windows, Doors, Shutters and More",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "We&#x27;re more than just windows; we&#x27;re the solution for all your home exterior needs. <strong>Over 200 locations nationwide</strong>, materials sourced in US. View all our products",
+        "price_bias": false,
+        "url": "https://www.windowworld.com/products/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-115",
+        "name": "windowworld.com — Window World Support & FAQ | Get Installation & Other Help",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Explore FAQs, or ask our customer service team a question. Window World is here to help. Do you have specific questions about operating and maintaining your new windows? Get in touch with our support ",
+        "price_bias": false,
+        "url": "https://www.windowworld.com/support",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-116",
+        "name": "windowworld.com — Contact us | Window World",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Connect with your local Window World or contact the corporate office today for support or to learn more about our products &amp; services.",
+        "price_bias": false,
+        "url": "https://www.windowworld.com/contact",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-117",
+        "name": "windowworld.com — Window Replacement, Entry Doors & More | Window World",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "We provide the customer service of a small business backed by a nationally recognized brand.",
+        "price_bias": false,
+        "url": "https://www.windowworld.com/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-118",
+        "name": "windowworld.com — About Window World: Locations, Who We Are, Staff, & Services",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "With <strong>over 200 locations nationwide</strong>, we serve homeowners from coast to coast with quality window replacement, exterior doors, and more.",
+        "price_bias": false,
+        "url": "https://www.windowworld.com/about",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-WINDOW-119",
+        "name": "TheWindowDog — Window World Reviews - INSIDER INFO | DON'T DO THIS WH...",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I had a salesman come to my home today and he showed me his “4000 Series” (no Comfort World text on the brochure) window and left the brochure. In looking at the picture of the window and comparing it",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/replacement-window-reviews/window-world-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T05:00:39.345Z",
+          "text_source": "snippet"
+        }
+      }
+    ]
+  },
+  "component_quality": {
+    "quality_tier": null,
+    "_note": "Low-E coating, stainless steel spacer, Cardinal Glass IGU, dual-seal IGU, Super Spacer (Edgetech), weatherstripping noted"
+  },
+  "repairability": {
+    "igu_replacement_method": null,
+    "_note": "lifetime-year warranty; transferable"
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null,
+      "shgc": "0.32"
+    },
+    "structural": {
+      "aama_class": "R",
+      "design_pressure": "DP-40",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "DP-40 base model for sizes up to 48\"x84\". Auto ST (steel reinforced) for larger sizes at DP-50. Water 6.0 psf base, 7.5 psf ST. No PG or FGIA directory listing found. No Florida approvals found.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.windowworldhuntsville.com/wp-content/uploads/2020/09/ww-huntsville-ww-4000-series-double-hung-sliding-windows-brochure.pdf",
+      "upgrade_rating": "DP-50 with steel reinforcement (ST) for larger sizes"
+    },
+    "air_water": {
+      "air_infiltration": "0.30",
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    }
+  },
+  "_source_parser_meta": {
+    "productName": "Window World 4000",
+    "config": "DH",
+    "category": "Windows",
+    "manufacturer": "Window World",
+    "isInternational": false,
+    "run_date": "2026-03-16T05:01:35.637Z",
+    "total_sources": 119,
+    "pool_a_count": 2,
+    "pool_b_count": 5,
+    "pool_c_count": 64,
+    "reddit_pending": 26,
+    "complaints_found": 1,
+    "certifications_found": 8,
+    "phase_6b_stats": {
+      "total": 168,
+      "relevant": 119,
+      "rejected": 49,
+      "skipped": 15,
+      "fetchFailed": 94
+    },
+    "phase_6b_rejected": 49
+  }
+}

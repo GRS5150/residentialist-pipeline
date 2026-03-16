@@ -64,12 +64,13 @@
       "_rescore_expected": "Bot 1's U-factor 0.48 should produce a score around 6.5-7.5 depending on Bot 2's thermal scoring scale."
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 6,
-      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for fiberglass material class. Actual performance may be better.",
-      "non_disclosure_flag": true
+      "aama_class": "LC-PG30 to LC-PG50",
+      "design_pressure": "DP-30 to DP-50",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "LC-PG30 to LC-PG50 by size/configuration. Confirmed in multiple spec sheets and product pages. Individual models e.g. DP30 at Lowes. Range is the published performance grade for double-hung specifically.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.pella.com/shop/windows/pella-impervia/double-hung-windows/"
     },
     "air_water": {
       "air_infiltration": null,

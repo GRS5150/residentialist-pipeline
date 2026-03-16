@@ -1,0 +1,2433 @@
+{
+  "product": "Marvin Integrity",
+  "config": "DH",
+  "category": "Windows",
+  "evidence_version": "2.0",
+  "created": "2026-03-16",
+  "last_verified": "2026-03-16",
+  "refresh_after_days": 90,
+  "manufacturing_quality": {
+    "business_model": null,
+    "certifications": [
+      "NFRC",
+      "ENERGY_STAR",
+      "AAMA",
+      "GREENGUARD",
+      "WERS",
+      "PROP_65_WARNING"
+    ],
+    "complaints": [
+      {
+        "id": "MQ-MARVIN-001",
+        "description": "Marvin Integrity windows reported to have air infiltration performance issues that do not meet expected standards.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://thewindowdog.com/marvin-infinity-reviews/",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-002",
+        "description": "Class action lawsuit settled against Marvin windows involving rot problems caused by a defective wood preservative affecting multiple customers.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.houzz.com/discussions/2642859/marvin-windows-old-news",
+        "year": 2004,
+        "status": "settled",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-003",
+        "description": "A $25,000 front entry door/window leaked from installation day for seven months with no resolution despite repeated contact with Marvin, suggesting a potential pattern of defective products and poor c",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://marvin-windows-and-doors.pissedconsumer.com/complaints/RT-P.html",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-004",
+        "description": "Marvin Integrity/Ultrex windows emit strong chemical smell from fiberglass resin off-gassing that persists over time.",
+        "classification": "COSMETIC",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/HomeImprovement/comments/cd5q90/how_long_will_marvin_integrity_windows_smell_of/",
+        "year": 2020,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-005",
+        "description": "Multiple Marvin fiberglass windows and patio door experienced cracking and flaking on exteriors within 80 days of installation.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Renovations/comments/1dw5vq9/marvin_window_install_issues/",
+        "year": 2024,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-006",
+        "description": "Marvin Integrity windows experiencing interior wood mold/rot, suggesting moisture intrusion and potential weatherstripping design defects.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/ztll7r/marvin_essentials_vs_andersen_100_windows/",
+        "year": 2022,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-MARVIN-007",
+        "description": "Marvin Integrity All Ultrex door experiences persistent vertical adjustment failure where hinges slip and lose adjustment within days, causing door to sag and jam at the bottom.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.finehomebuilding.com/forum/marvin-integrity-all-ultrex-door-problem",
+        "year": 2013,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      }
+    ]
+  },
+  "professional_consensus": {
+    "sources": [
+      {
+        "id": "PC-MARVIN-001",
+        "name": "globalhomeinc.com — Marvin Integrity's AAMA 624-10 Certification | Blog",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Since the Marvin Integrity window ... will see a boost to the following:: <strong>Outdoor weathering and eroding in the first 5 years ... The big difference is that Marvin Integrity windows are tested",
+        "price_bias": false,
+        "url": "https://globalhomeinc.com/about-us/news-and-events/marvin-integritys-aama-624-10-certification-and-what-that-means-for-homeowners/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-002",
+        "name": "JLC Online — Why AAMA 450 Is Key To Successful Window Wall Assembly",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "A tested, single-source window wall assembly built to an <strong>AAMA 450</strong>-certified standard helps simplify project design and management, speeds installation, and reduces callback risk. Lear",
+        "price_bias": false,
+        "url": "https://www.jlconline.com/how-to/exteriors/why-aama-450-is-key-to-successful-window-wall-assembly",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-003",
+        "name": "retrofitmagazine.com — Marvin and Integrity Expand Mulling Capabilities and Options",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "This factory-prepped mulling solution comes with step-by-step instructions and allows builders to assemble AAMA 450-certified window walls on the job site. Readily Available Performance Grade Informat",
+        "price_bias": false,
+        "url": "https://retrofitmagazine.com/marvin-and-integrity-expand-mulling-capabilities-and-options-for-window-walls/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-004",
+        "name": "lbmjournal.com — Marvin and Integrity expand mulling capabilities | LBM Journ",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "• Narrow Frame (Contemporary) 3/8” MRF • Standard Full Frame 3/8” MRF • Expanded AAMA 450-Certified Assemblies • Prep for Field Mull: Starting mid-2018, window walls that are too large to be shipped f",
+        "price_bias": false,
+        "url": "https://www.lbmjournal.com/industry-news/news/15778143/marvin-and-integrity-expand-mulling-capabilities",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-005",
+        "name": "houstonwindowexperts.com — Marvin Integrity Windows are Aptly Named | Houston Window Ex",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Marvin Integrity Double Hung Windows are made using the Ultrex® pultruded fiberglass process which received the American Architectural Manufacturers Association’s <strong>AAMA 624-10</strong> verified",
+        "price_bias": false,
+        "url": "https://houstonwindowexperts.com/marvin-integrity-double-hung-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-006",
+        "name": "replacement-windows.com — Other folks opinions on the Marvin Integrity line, the XL Ed",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I don&#x27;t have any firm data, but I hear things through the grapevine from Manufacturers who buy sealed units from Cardinal. Mainly Eagle. ... This is way too long...but what the heck~! I very much",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/window-board/read.php?board=1&id=10134",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:32:50.510Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-MARVIN-007",
+        "name": "pmc.ncbi.nlm.nih.gov — Polyisobutylene and Silicone in Warm Edge Glazing Systems—Ev",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Figure 1 shows examples of seal displacements found in the literature [11]. In addition, the authors of [11] studied cold flow displacement behaviour of various seal spacer assemblies in laboratory te",
+        "price_bias": false,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8269632/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-008",
+        "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Durability and Design Flexibility: Dual-seal systems are <strong>designed to absorb stress caused by thermal expansion and contraction</strong>. This ability increases durability, with sealed IGU last",
+        "price_bias": false,
+        "url": "https://vistaza.com/warm-edge-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:50.373Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-009",
+        "name": "Houzz — Spacers in Marvin & Andersen?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Hi- We are considering Marvin &amp; Andersen windows as replacement windows in a house that we are renovating. Curious if anyone knows what type of spacers each uses? I keep reading all of these thing",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2647604/spacers-in-marvin-andersen",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:50.373Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-010",
+        "name": "nextdoorandwindow.com — 4 Benefits of Installing Integrity from Marvin Windows | Nex",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "3. These windows are ENERGY STAR® qualified, which guarantees they can lessen power consumption. However, because of the quality of these windows, they exceed the performance requirements through Argo",
+        "price_bias": false,
+        "url": "https://nextdoorandwindow.com/4-benefits-of-installing-integrity-from-marvin-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-011",
+        "name": "rochesterinsulatedglass.com — Spacers - Rochester Insulated Glass",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Conventional aluminum, stainless steel, and plastic spacers “short circuit” the edge seal. Warm Seal’s extremely low level of thermal conductivity leads to greatly reduced IGU condensation and improve",
+        "price_bias": false,
+        "url": "https://rochesterinsulatedglass.com/spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-012",
+        "name": "eta-publications.lbl.gov — LBNL-6122E Window Spacers and Edge Seals in",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>at a fixed distance apart</strong>. Because the primary seal does not contribute to the structural integrity of the IG unit, it",
+        "price_bias": false,
+        "url": "https://eta-publications.lbl.gov/sites/default/files/6122e.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-013",
+        "name": "windowhardwaredirect.com — WRS Marvin Elevate or Integrity Series Beige Top Jamb Weathe",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This weatherstripping is compatible with Marvin Elevate and Marvin Integrity Series windows, ensuring a perfect fit and seamless integration. Sold in convenient 79-inch sticks, it provides an effectiv",
+        "price_bias": false,
+        "url": "https://windowhardwaredirect.com/products/wrs-marvin-elevate-or-integrity-series-beige-top-jamb-weatherstripping-79-stick",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:50.372Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-014",
+        "name": "ebay.com — Marvin Door Sweep Integrity V1890 Weatherstrip For Primary 3",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Marvin Profile: V1890. Note; This weatherstrip is made for different door widths and is cut out (notched) at both ends for multipoint locks. Integrity by Marvin door sweep fits the bottom of the prima",
+        "price_bias": false,
+        "url": "https://www.ebay.com/itm/256664962811",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-015",
+        "name": "windowhardwaredirect.com — Marvin Elevate and Integrity Series Beige Top Jamb Weatherst",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Effective weatherstripping protects your home from moisture, dust, and insects, contributing to the longevity of your windows and doors. Proper sealing also helps in reducing outdoor noise, creating a",
+        "price_bias": false,
+        "url": "https://windowhardwaredirect.com/blogs/news/marvin-elevate-and-integrity-series-beige-top-jamb-weatherstripping",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:50.385Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-016",
+        "name": "diychatroom.com — Marvin Integrity window weatherstripping | DIY Home Improvem",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The house I bought has Marvin Integrity windows (2004). The weatherstripping is coming out of some of their &quot;tracks&quot;. Can they be glued back in place?",
+        "price_bias": false,
+        "url": "https://www.diychatroom.com/threads/marvin-integrity-window-weatherstripping.719793/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:50.995Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-017",
+        "name": "diychatroom.com — Replacing weatherstripping on Marvin wood casement windows |",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Pulling sashes on this Marvin casement windows of this era is not &quot;easy&quot;. That&#x27;s part of the reason I asked for suggestions, by which I meant constructive ones, not condescending ones. ",
+        "price_bias": false,
+        "url": "https://www.diychatroom.com/threads/replacing-weatherstripping-on-marvin-wood-casement-windows.103871/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:51.028Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-018",
+        "name": "swisco.com — Marvin sliding door weatherstripping : SWISCO.com",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I have an oversized (8 foot) Marvin sliding patio door. It&#x27;s about 10 years old and the outside weather strip is in need of replacement. Who do I call to it replaced. I tried to call a local dist",
+        "price_bias": false,
+        "url": "https://www.swisco.com/discussions/Marvin-sliding-door-weatherstripping-77-4493",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:51.050Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-019",
+        "name": "doorstoreandwindows.com — Integrity Owner's Manual",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Owner’s Manual · Care and Maintenance · Introduction · Integrity Windows and · Doors · thanks · choosing · performance · Ultrex ® · products for your home",
+        "price_bias": false,
+        "url": "https://doorstoreandwindows.com/wp-content/uploads/2018/02/integrity-owners-manual.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-020",
+        "name": "tcsidingprofessionals.com — Marvin Warranty | Twin Cities Siding and Roofing | St. Paul,",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The Marvin replacement windows and doors installed by Twin Cities Siding and Roofing are covered by Marvin’s fully transferable <strong>10-Year limited warranty</strong> that includes parts, labor, an",
+        "price_bias": false,
+        "url": "https://www.tcsidingprofessionals.com/marvin-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-021",
+        "name": "nextdoorandwindow.com — Warranty | Door and Window Installation | Next Door And Wind",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "All windows and doors made by Marvin are covered by a limited warranty guaranteeing they’ll remain free from defects in manufacturing, materials, and workmanship for <strong>up to 10 years from the pu",
+        "price_bias": false,
+        "url": "https://nextdoorandwindow.com/resource-center/warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-022",
+        "name": "callcupcake.com — Everything You Need to Know About Marvin Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Exclusions: Normal wear and tear, improper installation, and environmental damage are not covered. Pella: Offers a limited lifetime warranty but restricts labor coverage to <strong>two years</strong> ",
+        "price_bias": false,
+        "url": "https://www.callcupcake.com/blog/everything-you-need-to-know-about-marvin-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-023",
+        "name": "thinkbordner.com — Marvin Integrity vs. Infinity Windows: Key Differences",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Integrity windows automatically come with a 10/29 warranty and are <strong>fully transferable in all circumstances</strong>, rather than just if the original homeowner moves, making it a more flexible",
+        "price_bias": false,
+        "url": "https://www.thinkbordner.com/marvin-integrity-vs-infinity/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-024",
+        "name": "bbb.org — Marvin Windows | BBB Complaints | Better Business Bureau",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "When the first window was removed and the window to go in his place was unwrapped The fiberglass cladding on the exterior of the window near one of the sash was broken. The cardboard around that area ",
+        "price_bias": false,
+        "url": "https://www.bbb.org/us/mn/warroad/profile/windows/marvin-windows-0704-7661/complaints",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:51.396Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-025",
+        "name": "law.justia.com — Marvin Lumber and Cedar Company; Marvin Windows of Tennessee",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The Magistrate Judge&#x27;s Report and Recommendation noted that &quot;the only written warranties between Marvin [] and PPG, which are evidenced in the Record, are a pair of warranties for topcoats a",
+        "price_bias": false,
+        "url": "https://law.justia.com/cases/federal/appellate-courts/F3/223/873/577768/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-026",
+        "name": "homesteady.com — Problems with Marvin Replacement Windows | Homesteady",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Customers affected by the prematurely decaying Marvin window products brought a class action lawsuit against Marvin Windows and Doors <strong>seeking resolution of the problems with the defective wind",
+        "price_bias": false,
+        "url": "https://homesteady.com/13636659/problems-with-marvin-replacement-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-027",
+        "name": "Houzz — marvin windows - old news",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "A Federal Court found the preservative manufacturer at fault. <strong>The class action suit was then settled and all Marvin customers who experienced the rot problem could file for settlements by 9/30",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2642859/marvin-windows-old-news",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:51.801Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-028",
+        "name": "marvin-windows-and-doors.pissedconsumer.com — Marvin Windows And Doors Reviews and Complaints | marvin.com",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "If there is ever a lawsuit against these crooks I would happily join ... Preferred solution: I would at least like them to pay for the drywall repairs we had to cover for their defective window ... Ha",
+        "price_bias": false,
+        "url": "https://marvin-windows-and-doors.pissedconsumer.com/complaints/RT-P.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:52.319Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-029",
+        "name": "yourlawyer.com — Marvin Windows Class Action Lawsuit",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Some of the most common defects brought up in lawsuits include: ... <strong>Industrial accidents due to the failure of construction materials</strong> are the responsibility of builders, contractors, ",
+        "price_bias": false,
+        "url": "https://www.yourlawyer.com/construction-defects/marvin-windows-lawsuit/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-030",
+        "name": "Reddit — r/Homebuilding on Reddit: Marvin windows fail",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "<strong>We started installing our Marvin Ultimate windows and doors that we waited 3 months to produce</strong>. We had custom color painting done interior and exterior. Every window and door that we ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1bgom7a/marvin_windows_fail/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:52.319Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-031",
+        "name": "caselaw.findlaw.com — MARVIN LUMBER AND CEDAR COMPANY v. PPG INDUSTRIES INC (2005)",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The proposed corrective measures listed in the memo all relate to the joints and attachments of the sashes; there is no indication that a failure of wood pretreatment, whether Penta or PILT (we cannot",
+        "price_bias": false,
+        "url": "https://caselaw.findlaw.com/court/us-8th-circuit/1203423.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-032",
+        "name": "replacement-windows.com — Marvin rotting windows lawsuit — Discussion Board Forum Repl",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "What is the current status of Marvin windows <strong>$138 million</strong> lawsuit againts PPG? I know they won but have they collected a dime yet? It was about all their windows rotting in the 1990&#",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/window-board/read.php?board=1&id=11531",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:52.457Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-MARVIN-033",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>GREENGUARD Gold Certification level</strong>.",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-034",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD Certification Program <strong>identifies low-emitting materials, finishes, and products for indoor environments</strong>. The GREENGUARD Gold Certification standard includes health-base",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-035",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>It meets strict standards of low emission levels to maintain your indoor air quality</strong>. Sometimes, high concentrations of certain VOCs can affect you. You may experience exhaustion, as ",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-036",
+        "name": "parlorcityfurniture.com — What is Greenguard Certification?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The certification <strong>focuses on evaluating the chemical emissions of products and materials used in indoor spaces</strong>. By subjecting products to rigorous testing, Greenguard aims to identify",
+        "price_bias": false,
+        "url": "https://parlorcityfurniture.com/blogs/insights/what-is-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:52.319Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-037",
+        "name": "aeroflexusa.com — What is GREENGUARD Gold Certification? | Aeroflex USA",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "UL GREENGUARD Gold Certification: added health-based criteria with lower total VOC (TVOC) emission levels of over 360 VOC’s in sensitive indoor environments such as schools and healthcare facilities.",
+        "price_bias": false,
+        "url": "https://aeroflexusa.com/what-is-greenguard-gold-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-038",
+        "name": "windowdoorhardwareparts.com — For All Your Marvin Window and Door Parts Needs Nationwide |",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Need Parts ID Help? Info@WindowDoorHardwareParts.com WE&#x27;RE VETERAN OWNED - Thanks for Your Support &amp; Business .. May God Bless You! Welcome to your best resource for thousands of old Marvin c",
+        "price_bias": false,
+        "url": "https://www.windowdoorhardwareparts.com/content/all-your-marvin-window-and-door-parts-needs-nationwide%C2%A0%C2%A0",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-039",
+        "name": "autorepairx.com — Marvin's Auto Service - AutoRepairX",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>Have in place and provide a nationwide warranty of no less than 12 months and 12,000 miles</strong> on parts and labor for all work performed, unless otherwise specified in writing.",
+        "price_bias": false,
+        "url": "https://autorepairx.com/shop/marvins-auto-service/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-040",
+        "name": "GBA — Marvin Integrity triple-pane glass? - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "I was poking around on the NFRC website looking up some ratings, and I noticed under Marvin, they have an Integrity window option in a triple pane window. The ratings are quite good (u= low .20-23) wh",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/marvin-integrity-triple-pane-glass",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-041",
+        "name": "GBA — Marvin Integrity- All Ultrex vs Wood? - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "The Integrity windows seem to be popular here, when I pull up the NFRC it looks like the all-ultrex go down to U0.25/SHGC0.19 in a double pane w/ 2 coatings (one room-side).",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/marvin-integrity-all-ultrex-vs-wood",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-042",
+        "name": "GBA — Major window manufacturers: Marvin, Andersen, Sierra Pacific",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "I&#x27;ve been in a similar analysis and narrowed things down to Andersen A series and Marvin Integrity as well. I&#x27;m all but settled on the A series. <strong>I&#x27;m sure the Integrity is an exc",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/major-window-manufacturers-marvin-andersen-sierra-pacific",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-043",
+        "name": "GBA — Windows for my Pretty Good House - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "The limitation I found with Marvin Integrity for a project in NH was that <strong>you can get triple pane, and you can get high SHGC, but you can&#x27;t get triple pane with high SHGC</strong>. The tr",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/windows-for-my-pretty-good-house",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-044",
+        "name": "Reddit — r/HomeImprovement on Reddit: Is anyone here a member of Gree",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Create the following style and apply to greenbuildingadvisor.com: ... No more pop-ups, no more restrictions on scrolling up and down the pages. Considering most of the content on their website, especi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/58txyh/is_anyone_here_a_member_of_green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:52.320Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-045",
+        "name": "GBA — Anyone Familiar with Enerlux windows? - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "They even offer to send you a full casement window(smaller size) for $175 which goes towards your purchase if you go with them, or return it and they will give you $125 back. It&#x27;s a leap of faith",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/anyone-familiar-with-enerlux-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-046",
+        "name": "buildshownetwork.com — Marvin vs Integrity Window Review",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "<strong>On the Marvin Integrity, instead of wood, uses fiberglass. There are a few details that make is slightly less appealing, but it&#x27;s 25% less expensive and they still maintain a good appeara",
+        "price_bias": false,
+        "url": "https://buildshownetwork.com/contents/marvin-vs-integrity-window-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-047",
+        "name": "replacement-windows.com — Marvin Infinity Windows vs Integrity Reviews - What's the di",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Also, what is the normal difference ... WM ... <strong>Infinity is an all Ultrex product with the Everwood (simulated wood laminate that is paintable and stainable) interior option whereas the Integri",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=4211",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:53.450Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-MARVIN-048",
+        "name": "oldhouseguy.com — Marvin Window Reviews - OldHouseGuy Blog",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Old House Guy’s Marvin window reviews will make shopping simpler for you. We will examine Marvin Full Line, Marvin Integrity Windows, and Marvin Infinity Windows and compare the differences. You must ",
+        "price_bias": false,
+        "url": "https://www.oldhouseguy.com/marvin-window-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-049",
+        "name": "ringsend.com — Review of Marvin Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>These updated collections improved upon the Integrity line, offering better durability and performance with enhanced design options</strong>. The Marvin window brand includes Signature Ultimat",
+        "price_bias": false,
+        "url": "https://www.ringsend.com/blog/post/marvin-windows-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:53.444Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-050",
+        "name": "YouTube — Marvin vs Integrity Window Review - YouTube",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I&#x27;m reviewing the differences between Marvin Full Line windows and Marvin&#x27;s Integrity window lines. Both are excellent products but there are differences. ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=2vZZ_EMGseY",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:52.912Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-051",
+        "name": "vinyl-replacement-windows.com — Marvin Integrity- Discussion Board Forum for Vinyl Windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Anyway, to answer your question, <strong>the performance across the Marvin lines will be very close</strong>. In my experience, they delivery exceptional customer service. Personally, I prefer the Ult",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?p=35504",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:53.497Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-MARVIN-052",
+        "name": "replacementwindowsprices.com — Marvin Integrity Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>The Integrity lacks some of the nicer options of the Infinity model, although it also runs about $75 less per window then it&#x27;s Infinity counterpart</strong>. Homeowners can expect less si",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsprices.com/reviews/marvin-integrity-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:53.627Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-MARVIN-053",
+        "name": "scgmn.com — Top Window Reviews: Marvin, Andersen, Pella, Kolbe, Lincoln",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "It used to be called the Marvin Integrity and they switched the name in 2020. <strong>It sits at the perfect crossroads of cost, quality, and performance, and provides a lot of bang for the buck</stro",
+        "price_bias": true,
+        "url": "https://scgmn.com/window-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-054",
+        "name": "saferproducts.gov — Home - SaferProducts",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Your report will let CPSC and other Americans know you found a dangerous product.",
+        "price_bias": false,
+        "url": "https://www.saferproducts.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-055",
+        "name": "saferproducts.gov — Public Incident Reporting - SaferProducts",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Report your unsafe product online to CPSC in 4 easy steps.",
+        "price_bias": false,
+        "url": "https://www.saferproducts.gov/IncidentReporting",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-056",
+        "name": "p65warnings.ca.gov — Proposition 65 Warnings Website - Your right to know",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "This website, by the California Office of Environmental Health Hazard Assessment (OEHHA), provides resources for consumers and businesses. These resources can help consumers understand what a warning ",
+        "price_bias": false,
+        "url": "https://www.p65warnings.ca.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-057",
+        "name": "en.wikipedia.org — 1986 California Proposition 65 - Wikipedia",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "It also says that &quot;<strong>no person in the course of doing business shall knowingly and intentionally expose&quot; anyone to those chemicals &quot;without first giving clear and reasonable warni",
+        "price_bias": false,
+        "url": "https://en.wikipedia.org/wiki/1986_California_Proposition_65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-058",
+        "name": "oehha.ca.gov — Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The law <strong>protects the state&#x27;s drinking water sources from being contaminated with chemicals known to cause cancer, birth defects or other reproductive harm</strong>, and requires businesse",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-059",
+        "name": "nytimes.com — What Is Prop 65? And Why Is There a Warning Label on This Th",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The California Office of Environmental Health Hazard Assessment (OEHHA) says Prop 65 “<strong>requires businesses to provide warnings to Californians about significant exposures to chemicals that caus",
+        "price_bias": false,
+        "url": "https://www.nytimes.com/wirecutter/blog/what-is-prop-65/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-060",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Prop 65 warnings are required under California law only. These warnings are seen throughout California in a wide range of settings, including but not limited to restaurants, grocery stores, hotels, sc",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-061",
+        "name": "oehha.ca.gov — The Proposition 65 List - OEHHA",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The current Proposition 65 list is available on-line below, as a pdf or Excel download or through WestLaw. The Excel document also includes the listing mechanism for each chemical listing and the safe",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/proposition-65-list",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-062",
+        "name": "oehha.ca.gov — About Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65 requires businesses to provide warnings to Californians about <strong>significant exposures to chemicals that cause cancer, birth defects or other reproductive harm</strong>. These chem",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/about-proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-063",
+        "name": "infinitywindows.com — California Users Notice - Proposition 65 | Infinity from Mar",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Notice for California users and customers regarding risks and warnings about installation and use of product materials, per California Proposition 65.",
+        "price_bias": false,
+        "url": "https://www.infinitywindows.com/legal/california-users",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-064",
+        "name": "amazon.com — California Proposition 65 - Amazon Customer Service",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Proposition 65, officially the Safe Drinking Water and Toxic Enforcement Act of 1986, is a law that <strong>requires warnings be provided to Californians when they might be exposed to chemicals identi",
+        "price_bias": false,
+        "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GJPM3F77G54LXXFW",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.095Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-065",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Controversial Prop. 65 warning labels about toxic chemicals are effective, study says | Proposition 65 has <strong>curbed exposure to toxic substances in California</strong> — and nationally.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.153Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-066",
+        "name": "Reddit — r/HomeImprovement on Reddit: Marvin Integrity vs Andersen A",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "There&#x27;s a reason why the Marvin ... sell their products are generally more satisfied with them. <strong>Overall the integrity window is a much better window aside from cost</strong>....",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/8un3qe/marvin_integrity_vs_andersen_a_series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:32:54.142Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-067",
+        "name": "Reddit — r/Homebuilding on Reddit: Marvin Integrity?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Based on the full fiberglass, it seems like Essentials would be it, but I’m wondering if integrity was a completely different window that’s not offered anymore. My parents’ windows seem very nice &amp",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1joynaw/marvin_integrity/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.295Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-068",
+        "name": "Reddit — r/HomeImprovement on Reddit: Marvin Infinity windows",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Do you mean Marvin Integrity? I&#x27;ve used their ultimate double hung and a fiberglass composite I thought was called integrity. They make premium windows, similar to Anderson. I like their windows,",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1ag9bk7/marvin_infinity_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.125Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-069",
+        "name": "Reddit — r/HomeImprovement on Reddit: Marvin Integrity windows are ch",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "It also sounds like operator error caused the sash pivot to come out of the balancer shoe as well as ripping the weatherstrip while trying to replace it. Marvin Integrity which is now called the Eleva",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1mlobtp/marvin_integrity_windows_are_cheaply_made/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.972Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-070",
+        "name": "Reddit — r/HomeImprovement on Reddit: How long will Marvin Integrity",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "<strong>The chemical smell is unbearable. This is a huge problem. Will they ever stop off gassing? They are nice and work and all that, but the off gas problem with these Marvin Ultrex windows is a di",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/cd5q90/how_long_will_marvin_integrity_windows_smell_of/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.881Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-071",
+        "name": "Reddit — r/HomeImprovement on Reddit: Install casement window (Marvin",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Second, when I look at the install on website, there are a lot of technical install PDFs. I&#x27;ve read them all at this point and think &quot;Essential Through Jamb&quot; is the doc I need but it re",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/124cp7r/install_casement_window_marvin_essential/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.885Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-072",
+        "name": "Reddit — r/HomeImprovement on Reddit: Windows - Difference between Ma",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Final quote was roughly 14k for 10 casement windows and included a pretty enlarging a window opening. ... Mor than likely it&#x27;s the glass options and warranty. ... Looks like the Marvin Integrity ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/pgonoq/windows_difference_between_marvin_infinity_and/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.880Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-073",
+        "name": "Reddit — r/Costco on Reddit: Replacing Windows through Costco",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I’m definitely not seeing anyone installing any of the brands you mentioned in Austin for less than $1,500/window turnkey and most are closer to $2,000. ... ALWAYS get multiple estimates with everythi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Costco/comments/1q1zpii/replacing_windows_through_costco/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:54.882Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-074",
+        "name": "Reddit — r/HomeImprovement on Reddit: Replacement Casement Windows -",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We have only had them for a couple of years though, so I can’t say much about longevity. ... I&#x27;ve got Marvin Integrity casement windows since our remodel 2.5 years ago and so far <strong>they&#x2",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/9npae5/replacement_casement_windows_pella_prodesigner_or/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:55.497Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-075",
+        "name": "Reddit — r/HomeImprovement - Marvin Integrity fiberglass window, wood",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I have integrity with wood but it was def chosen to match rest of house trim. I wish I had the all white fiberglass as we are painting everything soon. I think those Midgard windows are better though.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/98urcp/marvin_integrity_fiberglass_window_wood_interior/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:55.495Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-076",
+        "name": "Reddit — r/HomeImprovement on Reddit: Bizarre experience with Marvin",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "How can the quality control be so poor that they ship a bunch of brand new windows which can barely be opened? Did we make some sort of mistake ordering double hung? We did so to stay with the charact",
+        "price_bias": true,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/10hz1ah/bizarre_experience_with_marvin_windows_anyone/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:55.501Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-077",
+        "name": "Reddit — r/Renovations on Reddit: Marvin Window install issues",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "<strong>marvin quality and warranty is trash</strong>. All my 7 windows 1 patio door fiberglass exteriors Cracked/Flaking within 80 days from installation began.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Renovations/comments/1dw5vq9/marvin_window_install_issues/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:55.501Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-078",
+        "name": "Reddit — r/Contractor on Reddit: Marvin Window install issues",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I like the windows themselves, but the work that they did <strong>installing the trim and caulking around them seemed very sloppy</strong>. They also caused some damage and left dirt and smudges on my",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Contractor/comments/1dw6xns/marvin_window_install_issues/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:55.501Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-079",
+        "name": "Reddit — r/Homebuilding on Reddit: Is this $124,782 quote for Marvin",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I’ve priced Milgard Trinsic windows, with black exterior option and it is more expensive than all black or gunmetal, Marvin essentials (interior/exterior). The black Milgard uses, is just a thin layer",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1jgt4d6/is_this_124782_quote_for_marvin_windows_crazy_or/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:32:56.352Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-080",
+        "name": "Reddit — r/Homebuilding on Reddit: Marvin Windows Quote",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "What window brand did you go with? Do you mind sharing a picture ... Alpen performance and kolbe forget series were both comparable quotes. I can upload em when home later. ... Also it&#x27;s importan",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1cfhgg3/marvin_windows_quote/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:56.044Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-081",
+        "name": "Reddit — r/Homebuilding on Reddit: Am I being naive? Marvin Infinity",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "<strong>Miters not cut to fit on the exterior trim joint window right by our front door, and caulk either excessive or already exposing gap after one week</strong>. I don’t expect perfect, but the gap",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1re016o/am_i_being_naive_marvin_infinity_french_door_and/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:56.052Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-082",
+        "name": "Reddit — r/HomeImprovement on Reddit: Marvin Elevate … too expensive",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I bought 13 Marvin elevate windows and to be honest I&#x27;m not impressed with the quality. <strong>Some are difficult to open and are loud to open and close</strong>. The wood interior is also extre",
+        "price_bias": true,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/ru7ajp/marvin_elevate_too_expensive_for_houseneighborhood/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:56.464Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-083",
+        "name": "Reddit — r/Homebuilding on Reddit: Marvin Elevate",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "For 40 windows, yes that is a fair price. Marvin Elevate are fantastic windows ... Thanks for the insight! ... Perhaps at one point Marvin was quality. 7 windows 1 patio door purchased because of all ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1ab6vqo/marvin_elevate/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:56.011Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-084",
+        "name": "Reddit — r/HomeImprovement on Reddit: Thoughts on Marvin Fiberglass W",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In the past, my windows were never this expensive. So it wasn&#x27;t such a debate. In 2012, I had a home twice this size. We installed Marvin Elevate (called Integrity at the time) full renovation fo",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/njwoin/thoughts_on_marvin_fiberglass_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T04:32:57.007Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-085",
+        "name": "Reddit — r/Homebuilding on Reddit: Marvin Essentials vs Andersen 100",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "The windows were built by visionary Marvin window engineers who probably live in California, and another team had to design the weatherstripping AFTER the windows were built. Some guy said, you know w",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/ztll7r/marvin_essentials_vs_andersen_100_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:56.972Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-086",
+        "name": "Reddit — r/Homebuilding on Reddit: Marvin window quote - New Construc",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I love my Marvin’s, which replace the Anderson renewals(which weren’t that great). Beautiful solid and amazing what the did for noise reduction ... Very fair, good job! ... Looks like a fair price. We",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/19befeo/marvin_window_quote_new_construction_near/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:56.949Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-087",
+        "name": "Reddit — r/HomeImprovement on Reddit: New construction torn between A",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Marvin Integrity vs Andersen A series? r/HomeImprovement • · r/HomeImprovement · Only text posts are allowed here. YOU MUST have minimum karma to participate in the sub. Submit here: https://diy.stack",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/198qm2m/new_construction_torn_between_andersen_400_vs/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:57.305Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-088",
+        "name": "GBA — Marvin and Pella Window issues - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "We chose Marvin Integrities double hung and casements for our last 2 remodels as they were a good balance between cost, exterior maintenance and were energy star rated at the time - plus they look goo",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/marvin-and-pella-window-issues",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-089",
+        "name": "GBA — Understanding NFRC site Low-E Information - GreenBuildingAdv",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "So the Marvin window I was looking at has that combination. Looks like all the 0.25 to 0.27 U factor options have that combination. At 0.28 they have the 0.022 366 coating on one inside surface only.",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/understanding-nfrc-site-low-e-information",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-090",
+        "name": "Fine Homebuilding — Marvin Integrity windows - any good? - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "Discussion Forum · MrSQL | Posted in General Discussion on January 24, 2005 10:59am · Hello, I’m building in Central North Carolina (owner/builder) and am planning to go with the Marvin Integrity wind",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/marvin-integrity-windows-any-good",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-091",
+        "name": "Fine Homebuilding — Marvin Integrity All Ultrex Fiberglass Windows experiences -",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Discussion Forum · KWOLSEN | Posted in General Discussion on August 25, 2010 11:13am · I’m doing a remodel to my ’56 ranch in So. Cal. Considering using Marvin Integrity All Ultrex fiberglass windows ",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/marvin-integrity-all-ultrex-fiberglass-windows-experiences",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-092",
+        "name": "Fine Homebuilding — Marvin Integrity All Ultrex door problem - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "Have you contacted Marvin about this? thanks. Edit: Is there an adjustable threshold? If so, you could back that down and maybe achieve a solution............. DanH | Oct 10, 2013 07:23pm | #4 · Sure ",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/marvin-integrity-all-ultrex-door-problem",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-093",
+        "name": "Fine Homebuilding — Pella Proline or Marvin Integrity Cas... - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Discussion Forum · | Posted in General Discussion on April 27, 1999 06:07am · * New construction West coast of Florida, 1/2 mile to Gulf. R value not a big factor. Solar heat gain is a big factor. I w",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/pella-proline-or-marvin-integrity-cas",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-094",
+        "name": "Fine Homebuilding — Extending jambs, Marvin Integrity window - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "negative",
+        "summary": "Discussion Forum · Gene_Davis | Posted in Construction Techniques on November 20, 2008 09:45am · How do others find the barbed plastic spline extrusion, offered as a feature of the all-Ultrex models o",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/extending-jambs-marvin-integrity-window",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-095",
+        "name": "Fine Homebuilding — Choice for New Construction Windows - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Have not used their Integrity line, but this co. usually produces a good product. I&#x27;ve installed the above and pellas and have been pretty lucky with customer service in all the brands. I have ha",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/choice-for-new-construction-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-096",
+        "name": "Fine Homebuilding — New construction window choice - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Looking for feedback on the Marvin Integrity Wood Ultrex window. How does this compare with the Andersen 200 window, and which would you choose for a new construction build. Mostly looking at double h",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/new-construction-window-choice",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-097",
+        "name": "Fine Homebuilding — Kolbe & Kolbe vs. Marvin windows - Forum",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "* I have used the Marvin Integrity Fiberglass outside wood inside) With good results.",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/kolbe-kolbe-vs-marvin-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-098",
+        "name": "Fine Homebuilding — Extruded Aluminum VS. Fiberglass Windows - Fine Homebuilding",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "I am debating the choice of windows to put in my new house. The two frontrunners are Lincoln’s extruded aluminum frame windows and Marvin Integrity Wood/Ultrex windows. Both of these […]",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/forum/extruded-aluminum-vs-fiberglass-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-099",
+        "name": "Houzz — Can who does an install affect window warranty?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Neither Andersen nor Marvin can say we required &quot;authorized installers&quot; otherwise your warranty is impacted or void?",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2645376/can-who-does-an-install-affect-window-warranty",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:57.067Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-100",
+        "name": "Houzz — Major Problems with Marvin Integrity Dealer",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Because of good reports here, high ratings on consumer reports and just generally liking the windows we decide to go with Marvin Integrity. We were replacing a bay window above the sink, 2 double hung",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2640487/major-problems-with-marvin-integrity-dealer",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:57.927Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-101",
+        "name": "Houzz — Has Marvin quality and service deteriorated in the last year",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6387189/has-marvin-quality-and-service-deteriorated-in-the-last-year-or-two",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:57.852Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-102",
+        "name": "Houzz — Painting Marvin Integrity Wood Ultrex Sliding Glass Door",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/4209735/painting-marvin-integrity-wood-ultrex-sliding-glass-door",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:57.850Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-103",
+        "name": "Houzz — Marvin Integrity Windows - Pics and review",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2633746/marvin-integrity-windows-pics-and-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:57.850Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-104",
+        "name": "Houzz — WINDOW AND DOOR SHOWPLACE - Project Photos & Reviews - Sterl",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Dealer/Distributor for Marvin Windows, Integrity Windows, JELD-WEN Windows, Simpson Doors, Therma-Tru Doors, Provia Doors, Emtek Hardware, Fypon (molded polyurethane products), Authorized Installing R",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/window-sales-and-installation/window-and-door-showplace-pfvwus-pf~1200584504",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:58.155Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-105",
+        "name": "Houzz — Marvin Replacement Installers in the Seattle Area",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6299921/marvin-replacement-installers-in-the-seattle-area",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:58.626Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-106",
+        "name": "Houzz — Marvin Integrity Window Review",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2630750/marvin-integrity-window-review",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:58.934Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-107",
+        "name": "Houzz — Anderson 400 series OR Marvin Integrity Windows?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/1077739/anderson-400-series-or-marvin-integrity-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:58.658Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-108",
+        "name": "Houzz — 'Authorized' dealer/installer vs independent installer?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I have a question regarding choosing an installer. If youÃ¯Â¿Â½ve seen my other thread regarding which brand to use, you know I am leaning towards the Marvin Integrity windows. One of the companies th",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2633221/authorized-dealer-installer-vs-independent-installer",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:58.769Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-109",
+        "name": "ReplacementWindowDiscussions — Page 11 | CHOOSING BETWEEN MARVIN AND OLD INTEGRITY WINDOWS",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I’ve got both Marvin and old Integrity in different parts of the house (long story), and honestly, the Marvin finish seems to hold up a bit better against fading and chipping. The old Integrity’s fibe",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/marvin-windows/choosing-between-marvin-and-old-integrity-windows-any-regrets/paged/11/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:58.647Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-110",
+        "name": "ReplacementWindowDiscussions — Anyone have a ballpark on Marvin window pricing lately?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/marvin-windows/anyone-have-a-ballpark-on-marvin-window-pricing-lately/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:59.497Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-111",
+        "name": "ReplacementWindowDiscussions — Figuring out pricing for Marvin Coastline hurricane windows",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/marvin-windows/figuring-out-pricing-for-marvin-coastline-hurricane-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:59.497Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-112",
+        "name": "ReplacementWindowDiscussions — marvin windows: are they really worth the extra cash?",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I get why you&#x27;re hesitating—Marvin windows definitely aren&#x27;t cheap. But honestly, from what I&#x27;ve seen, <strong>they&#x27;re pretty legit</strong>. My neighbor installed them about five ",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/marvin-windows/marvin-windows-are-they-really-worth-the-extra-cash/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:59.498Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-113",
+        "name": "ReplacementWindowDiscussions — Marvin Vs Andersen Windows: Which Ones Hold Up Better Long-T",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Had Marvin Ultrex fiberglass installed about 9 years ago—no issues yet. Andersen&#x27;s Fibrex seems solid too, but I preferred Marvin&#x27;s fiberglass for thermal stability and minimal expansion/con",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-user-reviews-product-experiences/marvin-vs-andersen-windows-which-ones-hold-up-better-long-term/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:59.498Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-114",
+        "name": "ReplacementWindowDiscussions — My experience choosing Marvin windows and what I'd do differ",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Next, we talked to neighbors who had Marvins installed already. Got some pretty honest feedback about durability and energy efficiency. After that, we got three different quotes from local dealers—pri",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/window-user-reviews-product-experiences/my-experience-choosing-marvin-windows-and-what-id-do-differently/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:32:59.787Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-115",
+        "name": "ReplacementWindowDiscussions — Fiberglass Windows—Which Brands Do You Trust Most?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "<strong>Good breakdown, matches my experience pretty closely</strong>. Marvin&#x27;s fiberglass line has always been rock solid for me—can&#x27;t remember the last time I had to go back and fix someth",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/fiberglass-composite-window-frames/fiberglass-windows-which-brands-do-you-trust-most/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:00.728Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-116",
+        "name": "forums.jlconline.com — Marvin Integrity clad windows - JLC-Online Forums",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "JLC Online: Best practices for professional builders and remodelers",
+        "price_bias": false,
+        "url": "https://forums.jlconline.com/forums/forum/jlc-online-expert-forums/exterior-details/39099-marvin-integrity-clad-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-117",
+        "name": "forums.jlconline.com — Windows, Anderson, Marvin, Jeld Wen - JLC-Online Forums",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "Hello, My wife and I are in the ... vinyl type windows. I have been looking at other windows. Anderson 100 series, seem similar to jen weld vinyls, Anderson 400 series look like they are really good q",
+        "price_bias": false,
+        "url": "https://forums.jlconline.com/forums/forum/jlc-online-expert-forums/exterior-details/56679-windows-anderson-marvin-jeld-wen",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-118",
+        "name": "JLC Online — Energy Savers | JLC Online",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "Marvin Integrity Windows has added a triple-pane glazing option to its Wood-Ultrex casements and awnings. The glazing uses three panes of glass, two low-e coatings, and argon gas fill to achieve U-fac",
+        "price_bias": false,
+        "url": "https://www.jlconline.com/products-tools/energy-savers_o",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-119",
+        "name": "forums.jlconline.com — Pella Pro-Line vs. Marvin Integrity/Marvin - JLC-Online Foru",
+        "pool": "A",
+        "sentiment": "positive",
+        "summary": "JLC Online: Best practices for professional builders and remodelers",
+        "price_bias": false,
+        "url": "https://forums.jlconline.com/forums/forum/jlc-online-expert-forums/exterior-details/43160-pella-pro-line-vs-marvin-integrity-marvin",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-MARVIN-120",
+        "name": "YouTube — Marvin Integrity Window Review - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In this whole house remodel project the Architect Nick Deaver specified Marvin Integrity windows so I thought I&#x27;d give a quick video review of my impressions...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=64whAP5eoUc",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:00.307Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-121",
+        "name": "YouTube — IBS 2015 - New Window Reveals - Marvin & Marvin Integrity -",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Subscribe to Journal of Light Construction for only $9.99 right here: http://goo.gl/r7XHHU Only available online through my YouTube channel. I HIGHLY recomme...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=6FmK_w1WmuQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:00.381Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-122",
+        "name": "m.youtube.com — Marvin Integrity Window Review",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Share your videos with friends, family, and the world",
+        "price_bias": false,
+        "url": "https://m.youtube.com/watch?v=64whAP5eoUc",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers"
+      },
+      {
+        "id": "PC-MARVIN-123",
+        "name": "YouTube — Marvin Window Installation Mountain Lakes NJ - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "We removed old Pella clad windows that were all beginning to fail and installed these Marvin Integrity units.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=oxXl8wke16E",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:00.574Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-124",
+        "name": "YouTube — Marvin Integrity Swinging Door Proper Use Of Multipoint Hard",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "How to use the multipoint hardware on the Marvin integrity swinging door",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=K7jSQzrbfZ8",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:00.286Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-125",
+        "name": "YouTube — Marvin Integrity Hinge Replacement 3rd Generation Converting",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Tutorial video on how to replace a old integrity hinge with the new integrity hinge.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=V9qrBsowmMo",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:01.178Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-126",
+        "name": "YouTube — Marvin Ultimate Window Review (Design, Function, Options) -",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Shopping for replacement windows can be hard. There are so many options to choose from when looking at the material of the window, design elements, efficienc...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=TfR8riYOkbI",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:01.203Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-127",
+        "name": "YouTube — Marvin Modern Casement Window Installation - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Share your videos with friends, family, and the world",
+        "price_bias": false,
+        "url": "https://www.youtube.com/playlist?list=PLUYVRttwmO3TA8gv2K3brMD38R1TNsYMK",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:01.248Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-128",
+        "name": "YouTube — 3 Tips for Efficient, Effective Marvin Windows Installation",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Check out some helpful tips for a successful Marvin window installation with this guide. Long-lasting performance and minimal challenges post-installation ar...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=A5fdkoemOEA",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:01.204Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-129",
+        "name": "YouTube — Marvin Window Installation with Huber Engineered Woods ZIP S",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Watch our experts demonstrate the best practice installation of a Marvin Elevate Double Hung Window in Huber Engineered Woods ZIP System Sheathing, which inc...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=fBsSr5ps_Vs",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:01.510Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-130",
+        "name": "YouTube — Marvin Window Installation with Dupont Weathermate Plus Hous",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Watch our experts demonstrate the best practice installation of a Marvin Elevate Double Hung Window in traditional plywood sheathing wrapped Dupont Weatherma...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=uCqYk21qWX0",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.451Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-131",
+        "name": "YouTube — Tips for a Quality Installation Featuring the Marvin Ultimat",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Marvin offers helpful tips for each step of a quality replacement install on our most popular window, the Ultimate Double Hung Next Generation. Installation ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=sWArYvnZAic",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.047Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-132",
+        "name": "YouTube — Marvin Ultimate Double Hung Insert G2 Window Installation Ti",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "The Marvin® Ultimate Insert Double Hung Next Generation Window adds quality craftsmanship, beauty and energy efficiency to your home without compromising arc...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=ZL--m0CWbZg",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.046Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-133",
+        "name": "YouTube — Installing the Marvin Next Generation Ultimate Double Hung -",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=V5SA8BxfWDQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.161Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-134",
+        "name": "YouTube — Infinity® by Marvin Windows Installation Process",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=KjC0_f6M680",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.047Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-135",
+        "name": "YouTube — Marvin Window Installation with Henry Blueskin VP100 - YouTu",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Watch our experts demonstrate the best practice installation of a Marvin Elevate Double Hung Window in a Henry Blueskin VP100 opening, which includes Step-by...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=RRsdRO2-EeQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.954Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-136",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-MARVIN-137",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-MARVIN-138",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-MARVIN-139",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-MARVIN-140",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-MARVIN-141",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-MARVIN-142",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.944Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-143",
+        "name": "Marvin official technical documentation",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Official Marvin technical/performance documentation",
+        "price_bias": false,
+        "url": "https://www.marvin.com/resources/technical-documents",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-MARVIN-144",
+        "name": "marvin.com — Prod Perf 11708532 Architectural Detail Manual",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "When reading a NFRC Label, it is important to remember that the U-Factor, Solar Heat Gain Coefficient (SHGC), and Visible",
+        "price_bias": false,
+        "url": "https://www.marvin.com/f/1019562/x/4319e66c8c/adm-elevate-essential-product-performance.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-145",
+        "name": "marvin.com — Marvin Windows & Doors Energy Data | Marvin",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Window and door energy data resources. For further questions please contact a Marvin Dealer in your area.",
+        "price_bias": false,
+        "url": "https://www.marvin.com/support/energy-data",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-146",
+        "name": "www3.marvin.com — Technical Specifications & Installation Instructions | Marvi",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Find technical specifications, installation instructions, construction specifications (CSI), CAD details/BIM models, DWG files and parts catalogs and parts manuals for all Marvin products.",
+        "price_bias": false,
+        "url": "https://www3.marvin.com/WebDoc/Integrity%20ADM%20Prod%20Perf.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-147",
+        "name": "marvin.com — Energy Efficient Windows and Doors | Marvin",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Certification programs such as those administered by the National Fenestration Rating Council (NFRC) and ENERGY STAR provide ratings designed to indicate a window or door’s efficiency. Various perform",
+        "price_bias": false,
+        "url": "https://www.marvin.com/support/energy-efficiency",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-148",
+        "name": "marvin.com — INTRO/PRODUCT 19972255 Architectural Detail Manual",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>radiated, conducted, or convected into space</strong>. The lower a window&#x27;s SHGC, the less solar heat it transmits to the interior, and the",
+        "price_bias": false,
+        "url": "https://www.marvin.com/f/1019562/x/ecd6a53ac3/adm-ultimate-product-performance.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-149",
+        "name": "marvin.com — Windows are an integral part of all residential and light co",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The code prescribes the climate zone specific levels of performance which need to be documented on NFRC labels. This includes maximum U-factors along with maximum SHGC. The maximum air infiltration ra",
+        "price_bias": false,
+        "url": "https://www.marvin.com/f/1019562/x/3736090d84/energy-efficiency-white-paper_understanding-energy-standards_19983496_6-2024.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-150",
+        "name": "TheWindowDog — Marvin Infinity Windows Review (2025 Edition): Real Costs, Q",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Choosing between vinyl YKK and Marvin Integrity All Ultrex. Marvin warranty is only 20/10 (glass/window components) where the YKK is “Lifetime” and not transferable. If the average homeowner lives in ",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/marvin-infinity-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T04:33:02.970Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-MARVIN-151",
+        "name": "marvin.com — Marvin Product Warranties | Marvin",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "If you cannot determine the name of the retailer or distributor, search the Marvin retailer locator or call 1-800-346-5128 to find the one nearest you. The retailer’s service representative will help ",
+        "price_bias": false,
+        "url": "https://www.marvin.com/support/warranty",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-152",
+        "name": "marvin.com — Marvin Customer Support | Marvin",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Find resources for service requests, replacement parts, technical documents, and product help.",
+        "price_bias": false,
+        "url": "https://www.marvin.com/support",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-153",
+        "name": "marvin.com — Replacement Windows and Doors | Marvin",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The Infinity by Marvin replacement product line is sold and installed by our expert, independent partner network that specializes in hassle-free window and patio door replacement.",
+        "price_bias": false,
+        "url": "https://www.marvin.com/replacement",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-154",
+        "name": "marvin.com — Replacement Parts Specifications and technical data are",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Mull Kit Components - Discontinued No Availability (NA)................................................................... 14 · Installation Accessories................................................",
+        "price_bias": false,
+        "url": "https://www.marvin.com/f/1019562/x/63b94c0c16/essential-accessories-parts.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-155",
+        "name": "marvin.com — Replacement Parts | Marvin",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Order replacement parts for your existing Marvin windows and doors by filling out the Marvin contact form or calling support at <strong>1-888-262-4192</strong>.",
+        "price_bias": false,
+        "url": "https://www.marvin.com/support/replacement-parts",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-MARVIN-156",
+        "name": "marvin.com — Marvin Connected Home Support | Marvin",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Get technical specifications and support for Marvin Connected home products. Find answers to FAQs, product specifications, and Connected Home availability.",
+        "price_bias": false,
+        "url": "https://www.marvin.com/support/connected-home",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      }
+    ]
+  },
+  "component_quality": {
+    "quality_tier": null,
+    "_note": "Low-E coating, AAMA 2605 Kynar coating, pultruded fiberglass frame, Super Spacer (Edgetech), Swiggle Seal spacer, warm-edge spacer, weatherstripping noted, triple-pane available, aluminum-clad, vinyl-clad, Fibrex composite material"
+  },
+  "repairability": {
+    "igu_replacement_method": null,
+    "_note": "10-year warranty; non-transferable"
+  },
+  "performance": {
+    "thermal": {
+      "u_factor": null,
+      "u_factor_source": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null,
+      "shgc": "0.19"
+    },
+    "structural": {
+      "aama_class": null,
+      "design_pressure": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    },
+    "air_water": {
+      "air_infiltration": null,
+      "evidence_level": null,
+      "score": null,
+      "note": null
+    }
+  },
+  "_source_parser_meta": {
+    "productName": "Marvin Integrity",
+    "config": "DH",
+    "category": "Windows",
+    "manufacturer": "Marvin",
+    "isInternational": false,
+    "run_date": "2026-03-16T04:34:23.665Z",
+    "total_sources": 156,
+    "pool_a_count": 21,
+    "pool_b_count": 3,
+    "pool_c_count": 78,
+    "reddit_pending": 25,
+    "complaints_found": 7,
+    "certifications_found": 6,
+    "phase_6b_stats": {
+      "total": 187,
+      "relevant": 156,
+      "rejected": 31,
+      "skipped": 21,
+      "fetchFailed": 118
+    },
+    "phase_6b_rejected": 31
+  }
+}

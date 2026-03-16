@@ -94,12 +94,13 @@
       "note": "NFRC certified, Energy Star qualified. Wood frame with aluminum cladding — inherently low frame conductivity. Triple-pane available. No specific DH U-Factor published. Andersen requires dealer consultation for values but certifications confirm above-minimum thermal performance."
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 6.5,
-      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for wood_clad material class. Actual performance may be better.",
-      "non_disclosure_flag": true
+      "aama_class": "LC-PG55",
+      "design_pressure": "DP-55",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "LC-PG55 for Double-Hung Full-Frame Venting. Test size 40\" x 78\", +/- 55/65 psf. From Andersen E-Series product performance impact PDF (Jan 2019/Oct 2018). PG ratings may vary by unit size.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.andersenwindows.com/-/media/Project/AndersenCorporation/AndersenWindows/AndersenWindows/files/technical-docs/performance/1704_e-series_productperformance_impact.pdf"
     },
     "air_water": {
       "air_infiltration": null,

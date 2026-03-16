@@ -62,12 +62,13 @@
       "note": "NFRC certified, Energy Star qualified. Multi-chamber vinyl frame. No specific DH U-Factor published."
     },
     "structural": {
-      "aama_class": null,
-      "design_pressure": null,
-      "evidence_level": "CERTIFICATION_FLOOR",
-      "score": 5.5,
-      "note": "Manufacturer does not publish structural test data for DH configuration. Scored at certification floor for vinyl material class. Actual performance may be better.",
-      "non_disclosure_flag": true
+      "aama_class": "R",
+      "design_pressure": "DP-35",
+      "evidence_level": "PUBLISHED",
+      "score": null,
+      "note": "DP-35 for most double hung windows per official Ply Gem East Replacement Pro Series brochure PDF. Size guide notes some configurations achieve DP +50/-59.",
+      "non_disclosure_flag": false,
+      "source_url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Windows%20Website/Brochures/PGW_EastReplacementProSeriesBrochure_3751106601107.pdf"
     },
     "air_water": {
       "air_infiltration": null,

@@ -101,6 +101,21 @@ function getMaterialCeiling(materialClass) {
   return { base: 6, ceiling: 7, label: materialClass + ' (unrecognized — defaulting to vinyl)' };
 }
 
+// ─── PARENT COMPANY MAP ──────────────────────────────────────────────────────
+// Maps product brands to their parent companies for expanded search coverage.
+// Bot 1 uses this to search parent company domains when manufacturer site lacks data.
+// Applies across ALL categories (windows, faucets, etc. when added).
+const PARENT_COMPANY_MAP = {
+  // Windows
+  'simonton':         { parent: 'Ply Gem',       domain: 'plygem.com' },
+  'reliabilt':        { parent: 'JELD-WEN',      domain: 'jeld-wen.com' },
+  'ply gem':          { parent: 'Ply Gem',       domain: 'plygem.com' },
+  'window world':     { parent: 'Window World',  domain: 'windowworld.com', mfg: 'Great Lakes Windows' },
+  'milgard':          { parent: 'MI Windows',    domain: 'miwindows.com' },
+  'american craftsman': { parent: 'Andersen',    domain: 'andersenwindows.com' },
+  // Add more as new categories are scored
+};
+
 // ─── AXIS RECALCULATION FUNCTIONS ────────────────────────────────────────────
 // Recompute axis scores from subscores after deterministic scoring overrides.
 // Weights from the rubric (LOCKED).
@@ -463,6 +478,35 @@ First-world nation standards are ALL meaningful. You must search for and recogni
 
 DO NOT assume a manufacturer lacks certifications just because you cannot find AAMA or NFRC data. Canadian manufacturers test to NAFS/CSA A440 — the exact same structural and air/water tests. European manufacturers test to EN standards. Report what you find under the standard it was tested to. DO NOT attempt to convert between standards (e.g., European U-values use different test conditions than NFRC U-values). Report each value with its standard clearly noted.
 
+PHASE 2C — STRUCTURAL / DESIGN PRESSURE DEEP SEARCH:
+If the AAMA search in Phase 2 (#7) did NOT return a specific DP or PG rating, perform ALL of the following fallback searches:
+
+7a. Search: "[Product Name] design pressure DP rating"
+7b. Search: "[Product Name] performance grade PG rating double hung"
+7c. Search: "[Manufacturer] [Product Line] technical specifications PDF filetype:pdf"
+7d. Search: "[Product Name] site:lowes.com OR site:homedepot.com design pressure"
+7e. Search: "[Parent Company if known] [Product Name] structural performance"
+7f. Search: "[Product Name] Florida product approval FPAS"
+7g. Search: "[Manufacturer] AAMA NAFS test results air water structural"
+
+PARENT COMPANY LOOKUP TABLE (use parent company domain in search 7e):
+- Simonton → Ply Gem (plygem.com) — Simonton is a Ply Gem brand
+- Reliabilt → JELD-WEN (jeld-wen.com) — Reliabilt is JELD-WEN's Lowe's-exclusive brand
+- Ply Gem Pro Series → Ply Gem (plygem.com)
+- Window World → Window World corporate (windowworld.com), often uses Great Lakes Windows manufacturing
+- Pella 250 Series → Pella (pella.com) — budget line, check Florida approvals
+- Andersen 100 Series → Andersen Corporation (andersenwindows.com) — Fibrex/composite line
+
+For every structural data point found, record:
+- The exact DP or PG rating
+- The AAMA/NAFS class (R, LC, CW, or AW)
+- The specific configuration tested (e.g., "double hung 40x64")
+- The source URL
+- Whether this is for BASE configuration or an UPGRADE option
+
+CRITICAL: Report BOTH the base/standard configuration rating AND any upgrade ratings separately.
+Do not average base and upgrade. The Evaluator Bot needs the BASE configuration rating.
+
 PHASE 3 — FIELD SOURCE RESEARCH (Reddit trade professionals):
 19. Search: site:reddit.com "[Product Name]" window install review — find installer/contractor opinions
 20. Search: site:reddit.com "[Manufacturer]" windows quality problems — find field complaints and praise
@@ -603,6 +647,15 @@ CRITICAL RULES:
 3. Professional Consensus (1C) hard ceiling: 7.5.
 4. Show all arithmetic for every weighted calculation.
 5. Score the standard production configuration, not premium upgrade options.
+5b. BASE CONFIGURATION SCORING — CRITICAL:
+    Score the product configuration that the consumer actually buys by default.
+    - If a product has a base DP-35 rating and an optional upgrade to DP-50, score from DP-35.
+    - Do NOT average base and upgrade ratings (e.g., do NOT score from "(35+50)/2 = 42.5").
+    - Treat materially different paid configurations as separate rated variants, not as notes.
+    - If Bot 1 reports both a standard rating and an upgrade rating, use the STANDARD rating.
+    - Upgrades may be noted in the transparency report but do not enter the score calculation.
+    - Example: Reliabilt 3500 has DP-35 standard, DP-50 upgrade → score from DP-35.
+    - Example: Andersen 400 has LC-PG40 standard, LC-PG50 for smaller sizes → score from LC-PG40.
 6. Composite/Fibrex net 2B ceiling = 7. Show base + adjustments explicitly.
 7. PERFORMANCE EVIDENCE HIERARCHY — How to score when specific data is missing:
    Your job is to score the WINDOW'S PERFORMANCE, not the manufacturer's data transparency.
@@ -987,10 +1040,28 @@ async function runPipeline(productName, config, researchFiles) {
       supplementalNote = `\n\nSUPPLEMENTAL RESEARCH FILE (pre-verified by human researcher — see RULE E1):\n${researchContent}\n\nIMPORTANT: The supplemental file above contains pre-verified data. Per RULE E1, treat its sourced claims as confirmed facts. Still perform all required searches to find ADDITIONAL data not covered by the supplemental file. If your web search finds data that contradicts the supplemental file, note the conflict and cite both sources — do not silently override the supplemental file.`;
     }
   }
-  const bot1Input = `PRODUCT: ${productName}
+  let bot1Input = `PRODUCT: ${productName}
 CONFIGURATION: ${config}${supplementalNote}
 
 You are researching the ${productName} in ${config} configuration. Execute all required searches and fetches now. Do not stop after one sentence. Complete all required searches and URL fetches, then write the full structured findings document. Apply all EDITORIAL JUDGMENT rules (E1-E5) when filtering and prioritizing your findings.`;
+
+  // ── PARENT COMPANY CONTEXT INJECTION ─────────────────────────────────────
+  // If this product's brand has a known parent company, inject context so Bot 1
+  // can search parent company domains for technical data (especially structural).
+  const lowerProduct = productName.toLowerCase();
+  let parentCompanyContext = '';
+  for (const [brand, info] of Object.entries(PARENT_COMPANY_MAP)) {
+    if (lowerProduct.includes(brand)) {
+      parentCompanyContext = `\n\nPARENT COMPANY CONTEXT: "${productName}" is manufactured by/under ${info.parent} (${info.domain}).`;
+      if (info.mfg) parentCompanyContext += ` Manufacturing partner: ${info.mfg}.`;
+      parentCompanyContext += ` Search ${info.domain} for technical documents, test data, and specifications that may not appear on the product-specific brand site.`;
+      break;
+    }
+  }
+  if (parentCompanyContext) {
+    bot1Input += parentCompanyContext;
+  }
+
   const bot1Output = await runBot('Bot 1 (Consensus)', BOT1_CONSENSUS_PROMPT, bot1Input, 'claude-sonnet-4-20250514', true);
   fs.writeFileSync(`${outputDir}/${productSlug}_bot1_consensus.md`, bot1Output);
   validateBotOutput(bot1Output, 'Bot 1 (Consensus)', productName, outputDir);
