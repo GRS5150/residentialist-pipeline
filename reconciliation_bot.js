@@ -1,5 +1,5 @@
 /**
- * THE RESIDENTIALIST — Reconciliation Bot (Bot 5) v2
+ * THE RESIDENTIALIST — Reconciliation Bot (Bot 5) v3
  *
  * Runs after Bot 2 (Evaluator) and before the FLAG GATE.
  * Compares Bot 1 (Consensus/research) and Bot 2 (Evaluator/scoring) outputs.
@@ -20,6 +20,16 @@
  *   - If 1 round can't resolve it, a human should see it anyway.
  *   - Max API calls: 4 (1 detector + 1 Bot1 advocate + 1 Bot2 advocate + 1 synthesis)
  *     Down from worst-case 10 (1 detector + 3 rounds × 3 calls).
+ *
+ * v3 changes (Phase 7b — March 15, 2026):
+ *   - SCOPE NARROWING: Excludes deterministic subscores from debate.
+ *     Since Phase 7, five subscores are computed by deterministic formulas
+ *     that override Bot 2's LLM output. Debating these is pointless — the
+ *     deterministic scorer will replace whatever Bot 2 wrote anyway.
+ *     Bot 5 now only debates subscores Bot 2 still controls.
+ *   - Root cause: Before v3, the same product would randomly HALT or PASS
+ *     across runs because Bot 5 would sometimes flag deterministic subscores
+ *     as "disagreements" and sometimes not — pure LLM variance.
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
@@ -32,17 +42,39 @@ const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const DISAGREEMENT_DETECTOR_PROMPT = `You are the Residentialist Reconciliation Bot. Your first job is to compare the research output from Bot 1 (Consensus) and the scoring output from Bot 2 (Evaluator) and identify any genuine disagreements.
 
+CRITICAL — SCOPE RESTRICTION:
+The following subscores are computed by a DETERMINISTIC FORMULA after Bot 2 runs.
+Bot 2's scores for these are OVERRIDDEN and DO NOT appear in the final output.
+You MUST NOT flag disagreements about these subscores — they are out of scope:
+
+  EXCLUDED FROM DEBATE (deterministic overrides):
+  - 1A Component Quality (formula-scored from material class + spec data)
+  - 1B Manufacturing Quality (formula-scored from complaint patterns)
+  - 1C Professional Consensus (formula-scored from evidence file pool analysis)
+  - 2B Materials/Durability (formula-scored from material class ceiling tables)
+  - 2C Market Quality / Warranty (formula-scored from complaint data + warranty terms)
+
+  IN SCOPE FOR DEBATE (Bot 2 still controls these):
+  - 2A Frame Longevity (Bot 2 judgment on expected lifespan)
+  - 3A Thermal Performance (Bot 2 scoring of U-factor/SHGC data)
+  - 3B Structural Performance (Bot 2 scoring of DP rating, AAMA certification)
+  - 3C Air/Water/Sound Performance (Bot 2 scoring of infiltration, water resistance)
+  - Material Safety (Bot 3 handles this — not part of Bot 2 debate)
+
+Only flag disagreements about IN SCOPE subscores. If all disagreements fall in the EXCLUDED list, output VERDICT: AGREEMENT.
+
 A GENUINE DISAGREEMENT exists when:
-- Bot 2 scores a subscore positively but Bot 1 found no supporting data for it
-- Bot 2 ignores or underweights a finding that Bot 1 explicitly flagged as significant
-- Bot 2 treats a spec as confirmed that Bot 1 listed as UNKNOWN or NOT DISCLOSED
-- Bot 2 draws a conclusion that contradicts a source Bot 1 cited
-- Bot 1 found a RED or YELLOW finding that Bot 2 did not score or address
+- Bot 2 scores an IN SCOPE subscore positively but Bot 1 found no supporting data for it
+- Bot 2 ignores or underweights a finding that Bot 1 explicitly flagged as significant (for IN SCOPE subscores)
+- Bot 2 treats a spec as confirmed that Bot 1 listed as UNKNOWN or NOT DISCLOSED (for IN SCOPE subscores)
+- Bot 2 draws a conclusion that contradicts a source Bot 1 cited (for IN SCOPE subscores)
+- Bot 1 found a RED or YELLOW finding relevant to an IN SCOPE subscore that Bot 2 did not address
 
 NOT a disagreement:
 - Bot 2 applying rubric judgment to data Bot 1 provided (this is expected)
 - Bot 2 scoring at midpoint for undisclosed specs Bot 1 could not find (this is correct methodology)
 - Minor phrasing differences that don't affect scores
+- ANY disagreement about component quality, manufacturing quality, professional consensus, materials/durability, or market quality (these are deterministic — out of scope)
 
 Output format:
 
@@ -51,7 +83,7 @@ Product: [name]
 
 AGREEMENT AREAS: [list subscore areas where Bot 1 data and Bot 2 scoring are consistent]
 
-DISAGREEMENT AREAS: [list each genuine disagreement with specific reference to Bot 1 finding vs Bot 2 scoring decision]
+DISAGREEMENT AREAS: [list each genuine IN SCOPE disagreement with specific reference to Bot 1 finding vs Bot 2 scoring decision, or state "None — all differences fall within deterministic override scope"]
 
 VERDICT: [AGREEMENT — no reconciliation needed] or [DISAGREEMENT — reconciliation required]
 
@@ -61,6 +93,8 @@ If DISAGREEMENT: number each disagreement item clearly (1, 2, 3...) for debate r
 
 const BOT1_ADVOCATE_PROMPT = `You are speaking from the perspective of the Residentialist Consensus Bot (Bot 1). You conducted the web research on this product. You are now in a structured debate with the Evaluator Bot (Bot 2) about specific disagreements in how the research was used.
 
+IMPORTANT: This debate is ONLY about performance subscores (frame longevity, thermal, structural, air/water/sound). Component quality, manufacturing quality, professional consensus, materials/durability, and market quality are scored by deterministic formulas and are NOT part of this debate.
+
 Your job: For each disagreement item, explain what the research actually found and why you believe the Evaluator Bot either missed it, misapplied it, or drew an unsupported conclusion. Be specific — cite the exact source or finding from your research output.
 
 You are not trying to score the product. You are defending the integrity of the research findings.
@@ -68,6 +102,8 @@ You are not trying to score the product. You are defending the integrity of the 
 Be direct and specific. Reference exact findings. Do not hedge.`;
 
 const BOT2_ADVOCATE_PROMPT = `You are speaking from the perspective of the Residentialist Evaluator Bot (Bot 2). You scored this product using the deterministic rubric. You are now in a structured debate with the Consensus Bot (Bot 1) about specific disagreements.
+
+IMPORTANT: This debate is ONLY about performance subscores (frame longevity, thermal, structural, air/water/sound). Component quality, manufacturing quality, professional consensus, materials/durability, and market quality are scored by deterministic formulas and are NOT part of this debate.
 
 Your job: For each disagreement item, explain your scoring decision — either defend it with rubric justification, or acknowledge that Bot 1's research finding should have changed your score and state what the corrected score would be.
 
@@ -78,12 +114,15 @@ Be specific. Reference the rubric rules that governed your decision.`;
 
 const SYNTHESIS_PROMPT = `You are the Residentialist Reconciliation Synthesizer. You have just read a structured debate between the Consensus Bot (Bot 1) and the Evaluator Bot (Bot 2) over specific disagreements in a product evaluation.
 
+IMPORTANT: This debate covers ONLY performance subscores (frame longevity, thermal, structural, air/water/sound). If any item references component quality, manufacturing quality, professional consensus, materials/durability, or market quality, mark it RESOLVED immediately — those are deterministic overrides, not debatable.
+
 Your job: Determine whether the debate has resolved the disagreements.
 
 For each disagreement item:
 - If Bot 2 issued a REVISION: accept it. State the corrected subscore.
 - If Bot 2 DEFENDED and the defense is rubric-sound: mark resolved, score stands.
 - If Bot 2 DEFENDED but the defense contradicts the rubric or ignores documented evidence: mark UNRESOLVED.
+- If the item is about a deterministic subscore (1A, 1B, 1C, 2B, 2C): mark RESOLVED — out of scope.
 
 Output format:
 
@@ -103,16 +142,7 @@ If any items UNRESOLVED: list them clearly for Council escalation.`;
 async function runDebateRound(disagreements, bot1Output, bot2Output, productName) {
   console.log(`[RECONCILIATION] Debate round 1 (of 1)...`);
 
-  const context = `PRODUCT: ${productName}
-
-DISAGREEMENTS TO DEBATE:
-${disagreements}
-
-BOT 1 RESEARCH OUTPUT (source of truth for findings):
-${bot1Output.slice(0, 5000)}
-
-BOT 2 EVALUATOR OUTPUT (source of truth for scoring decisions):
-${bot2Output.slice(0, 5000)}`;
+  const context = `PRODUCT: ${productName}\n\nDISAGREEMENTS TO DEBATE:\n${disagreements}\n\nBOT 1 RESEARCH OUTPUT (source of truth for findings):\n${bot1Output.slice(0, 5000)}\n\nBOT 2 EVALUATOR OUTPUT (source of truth for scoring decisions):\n${bot2Output.slice(0, 5000)}`;
 
   // Bot 1 perspective
   const bot1Response = await client.messages.create({
@@ -155,7 +185,7 @@ ${bot2Output.slice(0, 5000)}`;
 // ─── MAIN RECONCILIATION FUNCTION ─────────────────────────────────────────────
 
 async function runReconciliationBot(bot1Output, bot2Output, productName, outputDir) {
-  console.log(`\n[RECONCILIATION] Starting Bot 5 for: ${productName}`);
+  console.log(`\n[RECONCILIATION] Starting Bot 5 (v3) for: ${productName}`);
 
   // Step 1: Detect disagreements
   const detectorResponse = await client.messages.create({
@@ -174,7 +204,7 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
   // If no disagreements, tag HIGH CONFIDENCE and exit
   const assessLower = assessment.toLowerCase();
   if (assessLower.includes('verdict: agreement') || assessLower.includes('verdict:** agreement') || (assessLower.includes('no genuine disagreement') && !assessLower.includes('disagreement areas:'))) {
-    console.log('[RECONCILIATION] No disagreements found — HIGH CONFIDENCE tag applied.');
+    console.log('[RECONCILIATION] No in-scope disagreements found — HIGH CONFIDENCE tag applied.');
     const result = {
       status: 'AGREEMENT',
       confidenceTag: 'HIGH CONFIDENCE',
@@ -182,7 +212,7 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
       debateTranscript: null
     };
     fs.writeFileSync(`${outputDir}/${productName.toLowerCase().replace(/\s+/g, '_')}_bot5_reconciliation.md`,
-      `# Reconciliation Bot Report\nProduct: ${productName}\nStatus: HIGH CONFIDENCE\n\n${assessment}`
+      `# Reconciliation Bot Report (v3)\nProduct: ${productName}\nStatus: HIGH CONFIDENCE\nScope: Performance subscores only (deterministic subscores excluded)\n\n${assessment}`
     );
     return result;
   }
@@ -201,7 +231,7 @@ async function runReconciliationBot(bot1Output, bot2Output, productName, outputD
     disagreementBlock, bot1Output, bot2Output, productName
   );
 
-  const fullTranscript = `# Reconciliation Debate Transcript\nProduct: ${productName}\n\n## INITIAL ASSESSMENT\n${assessment}\n\n${debateResult.transcript}\n\n## FINAL SYNTHESIS\n${debateResult.synthesis}`;
+  const fullTranscript = `# Reconciliation Debate Transcript (v3)\nProduct: ${productName}\nScope: Performance subscores only (1A, 1B, 1C, 2B, 2C excluded — deterministic)\n\n## INITIAL ASSESSMENT\n${assessment}\n\n${debateResult.transcript}\n\n## FINAL SYNTHESIS\n${debateResult.synthesis}`;
 
   // Save full transcript
   const transcriptPath = `${outputDir}/${productName.toLowerCase().replace(/\s+/g, '_')}_bot5_reconciliation.md`;
