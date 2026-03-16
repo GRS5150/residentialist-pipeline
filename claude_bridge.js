@@ -240,13 +240,30 @@ const server = http.createServer((req, res) => {
         if (!data.product) { res.writeHead(400); res.end(JSON.stringify({ error: 'No product' })); return; }
         const config = data.config || 'DH';
         const category = data.category || 'Windows';
-        log('RUN: ' + data.product + ' ' + config + ' ' + category);
-        const child = spawn('node', ['auto_runner.js', data.product, config, category], {
+        const force = data.force === true;
+        log('RUN: ' + data.product + ' ' + config + ' ' + category + (force ? ' [FORCE]' : ''));
+        const args = ['auto_runner.js', data.product, config, category];
+        if (force) args.push('--force');
+        const child = spawn('node', args, {
           cwd: WORKSPACE, detached: true, stdio: 'ignore'
         });
         child.unref();
         res.writeHead(200);
-        res.end(JSON.stringify({ started: true, product: data.product, config, category }));
+        res.end(JSON.stringify({ started: true, product: data.product, config, category, force }));
+        return;
+      }
+
+      // Phase 9: POST /run-script — run an arbitrary node script in the workspace
+      if (req.method === 'POST' && url === '/run-script') {
+        const data = JSON.parse(body);
+        if (!data.script) { res.writeHead(400); res.end(JSON.stringify({ error: 'No script' })); return; }
+        log('RUN-SCRIPT: ' + data.script);
+        const child = spawn('node', [data.script], {
+          cwd: WORKSPACE, detached: true, stdio: 'ignore'
+        });
+        child.unref();
+        res.writeHead(200);
+        res.end(JSON.stringify({ started: true, script: data.script }));
         return;
       }
 

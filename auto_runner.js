@@ -198,15 +198,20 @@ function generateDataConfidence(bot2Output, challengeOutput) {
 
 // ── MAIN RUNNER ──────────────────────────────────────────────────────────────
 
-async function runWithAutoCorrection(productName, config, category, researchFiles = []) {
-  console.log(`\n[AUTO-RUNNER] Starting: ${productName} (${config})`);
+async function runWithAutoCorrection(productName, config, category, researchFiles = [], { force = false } = {}) {
+  console.log(`\n[AUTO-RUNNER] Starting: ${productName} (${config})${force ? ' [FORCE RE-SCORE]' : ''}`);
 
-  // Phase 5: Check if already scored
-  if (db.isScored(productName, config)) {
+  // Phase 5: Check if already scored (skip if --force)
+  if (!force && db.isScored(productName, config)) {
     const existing = db.getScore(productName, config);
     console.log(`[AUTO-RUNNER] Already scored: ${productName} (${config}) — ${existing.overall} ${existing.grade}`);
     await sendTelegram(`ℹ️ *${productName} (${config})* already scored: *${existing.overall}/10 ${existing.grade}*\n_Use RERUN to re-score._`);
     return { status: 'ALREADY_SCORED', productName, config, existing };
+  }
+  if (force && db.isScored(productName, config)) {
+    const existing = db.getScore(productName, config);
+    console.log(`[AUTO-RUNNER] Force re-score: ${productName} (${config}) — previous: ${existing.overall} ${existing.grade}`);
+    await sendTelegram(`🔁 *Force re-score*\n${productName} — previous: *${existing.overall}/10 ${existing.grade}*`);
   }
 
   await sendTelegram(`🔄 *Pipeline starting*\n${productName} — ${config}`);
@@ -396,8 +401,10 @@ module.exports = { runWithAutoCorrection, sendTelegram, generateDataConfidence }
 
 if (require.main === module) {
   const args = process.argv.slice(2);
-  if (args.length < 3) { console.log('Usage: node auto_runner.js "Product Name" CONFIG category'); process.exit(1); }
-  runWithAutoCorrection(args[0], args[1], args[2], args.slice(3))
+  const forceFlag = args.includes('--force');
+  const positional = args.filter(a => a !== '--force');
+  if (positional.length < 3) { console.log('Usage: node auto_runner.js "Product Name" CONFIG category [--force]'); process.exit(1); }
+  runWithAutoCorrection(positional[0], positional[1], positional[2], positional.slice(3), { force: forceFlag })
     .then(r => { db.close(); process.exit(r.status === 'PASS' ? 0 : 1); })
     .catch(err => {
       console.error('[AUTO-RUNNER] FATAL:', err);
