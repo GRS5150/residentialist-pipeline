@@ -686,7 +686,21 @@ function scoreProfessionalConsensus(data) {
   }
   const allSources = [...seenNames.values()];
 
-  if (allSources.length === 0) {
+  // ── Step 1b: Skip quarantined sources (V5 noise reduction) ──
+  // Sources with quarantined: true are filtered out UNLESS restored by human override.
+  const activeSources = allSources.filter(s => !s.quarantined || s.restored === true);
+  const quarantinedCount = allSources.length - activeSources.length;
+  if (quarantinedCount > 0) {
+    const reasons = {};
+    for (const s of allSources) {
+      if (s.quarantined && s.restored !== true) {
+        reasons[s.quarantine_reason || 'unknown'] = (reasons[s.quarantine_reason || 'unknown'] || 0) + 1;
+      }
+    }
+    console.log(`[DETERMINISTIC] V5 quarantine: ${quarantinedCount} source(s) filtered — ${JSON.stringify(reasons)}`);
+  }
+
+  if (activeSources.length === 0) {
     report.score = 5.0;
     report.note = 'No sources found — midpoint default';
     report.confidence_flag = 'LOW_CONFIDENCE';
@@ -698,7 +712,7 @@ function scoreProfessionalConsensus(data) {
   // ── Step 2: Group sources by pool, excluding non-opinion pools ──
   const poolGroups = { S: [], A: [], B: [], C: [] };
   let excludedCount = 0;
-  for (const src of allSources) {
+  for (const src of activeSources) {
     const pool = (src.pool || 'C').toUpperCase();
     if (EXCLUDED_POOLS.has(pool)) {
       excludedCount++;
@@ -723,7 +737,7 @@ function scoreProfessionalConsensus(data) {
   const totalScorable = poolGroups.S.length + poolGroups.A.length + poolGroups.B.length + poolGroups.C.length;
   if (totalScorable === 0) {
     report.score = 5.0;
-    report.note = `All ${allSources.length} sources were excluded (certification pool) — midpoint default`;
+    report.note = `All ${activeSources.length} sources were excluded (certification pool) — midpoint default`;
     report.confidence_flag = 'LOW_CONFIDENCE';
     report.sources_processed = 0;
     return report;
@@ -860,10 +874,22 @@ function scoreProfessionalConsensus(data) {
 
   // Summary stats for quick debugging
   report.summary = {
-    positive: allSources.filter(s => (s.sentiment || '').toLowerCase() === 'positive' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
-    mixed: allSources.filter(s => (s.sentiment || '').toLowerCase() === 'mixed' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
-    negative: allSources.filter(s => (s.sentiment || '').toLowerCase() === 'negative' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
+    positive: activeSources.filter(s => (s.sentiment || '').toLowerCase() === 'positive' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
+    mixed: activeSources.filter(s => (s.sentiment || '').toLowerCase() === 'mixed' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
+    negative: activeSources.filter(s => (s.sentiment || '').toLowerCase() === 'negative' && !EXCLUDED_POOLS.has((s.pool || '').toUpperCase())).length,
   };
+
+  // V5: Quarantine stats
+  report.quarantined_count = quarantinedCount;
+  if (quarantinedCount > 0) {
+    const reasons = {};
+    for (const s of allSources) {
+      if (s.quarantined && s.restored !== true) {
+        reasons[s.quarantine_reason || 'unknown'] = (reasons[s.quarantine_reason || 'unknown'] || 0) + 1;
+      }
+    }
+    report.quarantine_reasons = reasons;
+  }
 
   return report;
 }

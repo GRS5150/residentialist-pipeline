@@ -1158,6 +1158,53 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
     const evidenceRaw = fs.readFileSync(evidencePath, 'utf-8');
     evidenceData = JSON.parse(evidenceRaw);
 
+    // V5: Run quarantine filters on PC sources before scoring
+    if (evidenceData?.professional_consensus?.sources) {
+      const { quarantineSources } = require('./source_quarantine');
+      const quarantineRules = require('./quarantine_rules.json');
+      evidenceData.professional_consensus.sources = await quarantineSources(
+        evidenceData.professional_consensus.sources,
+        productName,
+        { productSlug: evidenceSlug, rules: quarantineRules }
+      );
+
+      // V5: Inject Pool S expert comparison sources if not already present
+      const poolSSources = quarantineRules.pool_s_sources?.windows || [];
+      for (const psSrc of poolSSources) {
+        // Check if this Pool S source is already in the evidence file
+        const alreadyPresent = evidenceData.professional_consensus.sources.some(
+          s => s.id && s.id === psSrc.id
+        );
+        if (!alreadyPresent && psSrc.products) {
+          // Resolve product-specific sentiment/summary from the Pool S source.
+          // evidenceSlug is like "marvin_signature_ultimate_dh"; product keys are like "marvin_signature_ultimate"
+          const productKey = evidenceSlug.replace(/_dh$/, '');
+          const productData = psSrc.products[productKey] ||
+            Object.entries(psSrc.products).find(([k]) => productKey.includes(k))?.[1];
+          if (productData) {
+            evidenceData.professional_consensus.sources.push({
+              id: psSrc.id,
+              name: psSrc.name,
+              pool: 'S',
+              url: psSrc.url,
+              sentiment: productData.sentiment,
+              summary: productData.summary,
+              _preset_rec: productData._preset_rec,
+            });
+          }
+        }
+      }
+
+      const psCount = evidenceData.professional_consensus.sources.filter(s => (s.pool || '').toUpperCase() === 'S').length;
+      if (psCount > 0) {
+        console.log(`[ORCHESTRATOR] V5: ${psCount} Pool S source(s) present in evidence`);
+      }
+
+      // Save updated evidence file with quarantine flags + Pool S
+      fs.writeFileSync(evidencePath, JSON.stringify(evidenceData, null, 2));
+      console.log(`[ORCHESTRATOR] V5: saved quarantine state to ${evidencePath}`);
+    }
+
     // Phase 7: Strip professional_consensus sources from Bot 2's evidence injection.
     // The deterministic scorer now reads PC sources directly from the evidence file.
     // Bot 2 no longer needs to see them. This reduces context by ~90% (78K → ~6-8K chars).

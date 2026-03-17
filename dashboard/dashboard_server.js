@@ -107,8 +107,48 @@ function readJsonFile(dir, pattern) {
   }
 }
 
+function getQuarantineStats(product) {
+  const slug = product.slug || product.product_name.toLowerCase().replace(/[^a-z0-9]+/g, '_');
+  const evidenceDir = path.join(WORKSPACE, 'evidence');
+  const evData = readJsonFile(evidenceDir, new RegExp(slug + '.*\\.json$'));
+  if (!evData) return { count: 0, reasons: {} };
+  const sources = (evData.professional_consensus && evData.professional_consensus.sources) || [];
+  const quarantined = sources.filter(s => s.quarantined && !s.restored);
+  const reasons = {};
+  quarantined.forEach(s => {
+    const r = s.quarantine_reason || 'unknown';
+    reasons[r] = (reasons[r] || 0) + 1;
+  });
+  return { count: quarantined.length, reasons };
+}
+
+
 // ── Evidence File Helper ────────────────────────────────────────────────────
 const EVIDENCE_DIR = path.join(WORKSPACE, 'evidence');
+
+function findEvidenceFile(productName) {
+  if (!fs.existsSync(EVIDENCE_DIR)) return null;
+  const slugs = productSlugVariants(productName);
+  const files = fs.readdirSync(EVIDENCE_DIR).filter(f => f.endsWith('.json'));
+  const match = files.find(f => {
+    const lower = f.toLowerCase();
+    return slugs.some(slug => lower.includes(slug));
+  });
+  if (!match) return null;
+  return path.join(EVIDENCE_DIR, match);
+}
+
+function parseRequestBody(req) {
+  return new Promise((resolve, reject) => {
+    const chunks = [];
+    req.on('data', c => chunks.push(c));
+    req.on('end', () => {
+      try { resolve(JSON.parse(Buffer.concat(chunks).toString())); }
+      catch (e) { reject(e); }
+    });
+    req.on('error', reject);
+  });
+}
 
 function getSourceUrlMap(productName) {
   // Build a lookup: source_name → url from the evidence file
@@ -303,6 +343,81 @@ function handleAPI(req, res, parsedUrl) {
     return true;
   }
 
+  // GET /api/product/:id/quarantine
+  const quarantineMatch = pathname.match(/^\/api\/product\/(\d+)\/quarantine$/);
+  if (quarantineMatch && req.method === 'GET') {
+    const id = parseInt(quarantineMatch[1]);
+    let product;
+    if (USE_SAMPLE) {
+      product = sampleData.SAMPLE_PRODUCTS.find(p => p.id === id);
+    } else {
+      const rows = queryDB(`SELECT * FROM products WHERE id = ${id}`);
+      product = rows[0];
+    }
+    if (!product) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+
+    const evidencePath = findEvidenceFile(product.product_name);
+    if (!evidencePath) {
+      sendJSON(res, { product_name: product.product_name, quarantined: [], restored: [], total_sources: 0, active_count: 0 });
+      return true;
+    }
+    try {
+      const data = JSON.parse(fs.readFileSync(evidencePath, 'utf-8'));
+      const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
+      const quarantined = sources.filter(s => s.quarantined && s.restored !== true).map(s => ({
+        id: s.id, name: s.name, pool: s.pool, url: s.url,
+        quarantine_reason: s.quarantine_reason, quarantined_at: s.quarantined_at,
+        summary: (s.summary || '').replace(/<[^>]+>/g, ' ').substring(0, 200)
+      }));
+      const restored = sources.filter(s => s.quarantined && s.restored === true).map(s => ({
+        id: s.id, name: s.name, pool: s.pool, quarantine_reason: s.quarantine_reason
+      }));
+      const active = sources.filter(s => !s.quarantined || s.restored === true).length;
+      sendJSON(res, { product_name: product.product_name, quarantined, restored, total_sources: sources.length, active_count: active });
+    } catch (e) {
+      sendJSON(res, { error: 'Failed to read evidence file' }, 500);
+    }
+    return true;
+  }
+
+  // POST /api/product/:id/quarantine/restore
+  const restoreMatch = pathname.match(/^\/api\/product\/(\d+)\/quarantine\/restore$/);
+  if (restoreMatch && req.method === 'POST') {
+    const id = parseInt(restoreMatch[1]);
+    let product;
+    if (USE_SAMPLE) {
+      product = sampleData.SAMPLE_PRODUCTS.find(p => p.id === id);
+    } else {
+      const rows = queryDB(`SELECT * FROM products WHERE id = ${id}`);
+      product = rows[0];
+    }
+    if (!product) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+
+    parseRequestBody(req).then(body => {
+      const sourceId = body && body.source_id;
+      if (!sourceId) { sendJSON(res, { error: 'Missing source_id' }, 400); return; }
+
+      const evidencePath = findEvidenceFile(product.product_name);
+      if (!evidencePath) { sendJSON(res, { error: 'No evidence file' }, 404); return; }
+
+      try {
+        const data = JSON.parse(fs.readFileSync(evidencePath, 'utf-8'));
+        const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
+        const src = sources.find(s => s.id === sourceId);
+        if (!src) { sendJSON(res, { error: 'Source not found' }, 404); return; }
+        src.restored = true;
+        fs.writeFileSync(evidencePath, JSON.stringify(data, null, 2));
+        console.log(`[QUARANTINE] Restored source ${sourceId} for ${product.product_name}`);
+        sendJSON(res, { success: true, source_id: sourceId });
+      } catch (e) {
+        sendJSON(res, { error: 'Failed to restore source' }, 500);
+      }
+    }).catch(() => {
+      sendJSON(res, { error: 'Invalid request body' }, 400);
+    });
+    return true;
+  }
+
   // GET /api/product/:id
   const productMatch = pathname.match(/^\/api\/product\/(\d+)$/);
   if (productMatch && req.method === 'GET') {
@@ -331,6 +446,7 @@ function handleAPI(req, res, parsedUrl) {
     if (!product) { sendJSON(res, { error: 'Not found' }, 404); return true; }
 
     // Try real output files
+    const qStats = getQuarantineStats(product);
     const runDir = findLatestRunDir(product.product_name);
     const detScoresRaw = readJsonFile(runDir, 'DETERMINISTIC_SCORES.json');
     const bot2 = readJsonFile(runDir, /bot2_evaluator\.json$/) || sampleData.generateBot2Findings(product);
@@ -365,6 +481,8 @@ function handleAPI(req, res, parsedUrl) {
             professional_consensus: {
               ...(bot2.scores.quality.professional_consensus || {}),
               score: (detScoresRaw.professional_consensus && detScoresRaw.professional_consensus.score) || (bot2.scores.quality.professional_consensus && bot2.scores.quality.professional_consensus.score),
+              quarantined_count: qStats.count,
+              quarantine_reasons: qStats.reasons,
             }
           },
           durability: {

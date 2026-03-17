@@ -209,6 +209,7 @@
       ${renderSubScoreItem('mq', 'Manufacturing Quality', mqScore, '', mfgDetail)}
       ${renderSubScoreItem('pc', 'Professional Consensus', pcScore, '', `
         <div class="pool-summary">${poolHTML}</div>
+        ${renderQuarantinePanel(ds)}
         <button class="sort-btn mt-sm" onclick="toggleSourceExplorer()" style="width:100%;text-align:center;margin-top:8px">
           View All Sources →
         </button>
@@ -492,6 +493,115 @@
       });
     });
   }
+
+  // ── Quarantine Panel ───────────────────────────────────────────────────
+  function renderQuarantinePanel(ds) {
+    const pc = ds.professional_consensus || {};
+    const qCount = pc.quarantined_count || 0;
+    if (qCount === 0 || !isAdmin()) return '';
+
+    const reasons = pc.quarantine_reasons || {};
+    const reasonChips = Object.entries(reasons).map(([r, c]) => 
+      `<span class="quarantine-reason-chip">${esc(r.replace(/_/g, ' '))} (${c})</span>`
+    ).join('');
+
+    return `
+      <div class="quarantine-panel" data-quarantine-panel>
+        <button class="quarantine-toggle" onclick="event.stopPropagation(); toggleQuarantinePanel()">
+          <span class="quarantine-icon">&#x1f512;</span>
+          <span class="quarantine-count">${qCount} source${qCount !== 1 ? 's' : ''} quarantined</span>
+          <span class="quarantine-reasons">${reasonChips}</span>
+          <span class="quarantine-chevron">${ICONS.chevronDown}</span>
+        </button>
+        <div class="quarantine-list" id="quarantine-list" style="display:none">
+          <div class="quarantine-loading">Loading quarantined sources...</div>
+        </div>
+      </div>`;
+  }
+
+  window.toggleQuarantinePanel = async function() {
+    const list = document.getElementById('quarantine-list');
+    if (!list) return;
+    const isVisible = list.style.display !== 'none';
+    list.style.display = isVisible ? 'none' : 'block';
+    const chevron = list.parentElement.querySelector('.quarantine-chevron');
+    if (chevron) chevron.style.transform = isVisible ? '' : 'rotate(180deg)';
+
+    if (!isVisible && !list.dataset.loaded && productData) {
+      list.dataset.loaded = 'true';
+      try {
+        const data = await fetchAPI(`product/${productData.product.id}/quarantine`);
+        if (data.quarantined.length === 0) {
+          list.innerHTML = '<div class="quarantine-empty">No quarantined sources</div>';
+          return;
+        }
+        // Group by reason
+        const grouped = {};
+        for (const s of data.quarantined) {
+          const r = s.quarantine_reason || 'unknown';
+          if (!grouped[r]) grouped[r] = [];
+          grouped[r].push(s);
+        }
+        let html = '';
+        for (const [reason, sources] of Object.entries(grouped)) {
+          const label = reason.replace(/_/g, ' ');
+          html += `<div class="quarantine-group">
+            <div class="quarantine-group-header">${esc(label)} <span class="quarantine-group-count">(${sources.length})</span></div>`;
+          for (const s of sources) {
+            const name = (s.name || '').substring(0, 50);
+            const summary = (s.summary || '').substring(0, 120);
+            const pool = (s.pool || 'C').toUpperCase();
+            html += `<div class="quarantine-item" data-source-id="${esc(s.id)}">
+              <div class="quarantine-item-info">
+                <div class="quarantine-item-name"><span class="pool-chip-mini">${pool}</span> ${esc(name)}</div>
+                <div class="quarantine-item-summary">${esc(summary)}</div>
+              </div>
+              <button class="quarantine-restore-btn" onclick="event.stopPropagation(); restoreQuarantinedSource('${esc(s.id)}', this)">Restore</button>
+            </div>`;
+          }
+          html += '</div>';
+        }
+        if (data.restored.length > 0) {
+          html += `<div class="quarantine-group">
+            <div class="quarantine-group-header restored-header">Restored <span class="quarantine-group-count">(${data.restored.length})</span></div>`;
+          for (const s of data.restored) {
+            html += `<div class="quarantine-item restored">
+              <div class="quarantine-item-info">
+                <div class="quarantine-item-name"><span class="pool-chip-mini">${(s.pool || 'C').toUpperCase()}</span> ${esc(s.name || '')} <span class="quarantine-was">was: ${esc((s.quarantine_reason || '').replace(/_/g, ' '))}</span></div>
+              </div>
+            </div>`;
+          }
+          html += '</div>';
+        }
+        list.innerHTML = html;
+      } catch (e) {
+        list.innerHTML = '<div class="quarantine-empty">Failed to load quarantined sources</div>';
+      }
+    }
+  };
+
+  window.restoreQuarantinedSource = async function(sourceId, btn) {
+    if (!productData) return;
+    btn.disabled = true;
+    btn.textContent = '...';
+    try {
+      const resp = await fetch(`${getBasePath()}api/product/${productData.product.id}/quarantine/restore`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source_id: sourceId })
+      });
+      const result = await resp.json();
+      if (result.success) {
+        const item = btn.closest('.quarantine-item');
+        if (item) {
+          item.style.opacity = '0.4';
+          item.querySelector('.quarantine-restore-btn').textContent = 'Restored';
+        }
+      }
+    } catch (e) {
+      btn.textContent = 'Error';
+    }
+  };
 
   // ── Escape HTML ─────────────────────────────────────────────────────────
   function esc(str) {

@@ -1,0 +1,61 @@
+{
+  "bad_pool_a": {
+    "marvin_signature_ultimate_dh": [
+      { "match": "fine-homebuilding-summit-2025", "field": "url" },
+      { "match": "what-is-building-science", "field": "url" },
+      { "match": "budget-friendly-windows-that-you-can", "field": "url" }
+    ],
+    "andersen_400_series_dh": [
+      { "match": "pella-impervia-casement-windows", "field": "url" }
+    ],
+    "pella_impervia_dh": [],
+    "reliabilt_3500_dh": [
+      { "match": "fine-homebuilding-summit-2025", "field": "url" },
+      { "match": "greenbuildingadvisor.com/article/green-building", "field": "url" }
+    ],
+    "window_world_4000_dh": [
+      { "match": "fine-homebuilding-summit-2025", "field": "url" },
+      { "match": "what-is-building-science", "field": "url" }
+    ]
+  },
+  "pool_s_sources": {
+    "windows": [
+      {
+        "id": "PS-WIN-001",
+        "name": "Summit Construction Group",
+        "pool": "S",
+        "url": "https://scgmn.com/window-reviews/",
+        "sentiment": "varies_by_product",
+        "products": {
+          "marvin_signature_ultimate": { "sentiment": "positive", "summary": "Marvin Ultimate: 47.5/50 overall. Quality & Durability 10/10, Appearance 10/10. 'One of the highest grade windows available on the market. Virtually unmatched in customizability, build construction, performance, longevity and finished look.' Compared to Andersen E-Series: 'on par' but Marvin service/warranty 'more impressive.'", "_preset_rec": "strong_recommend" },
+          "andersen_400_series": { "sentiment": "positive", "summary": "Andersen 400 Series: 38/50 overall. Quality 8/10, Appearance 8/10. Mid-tier Andersen line with Fibrex composite. Solid but not in the same class as Marvin Ultimate or Andersen E-Series (47/50).", "_preset_rec": "recommend" },
+          "pella_impervia": { "sentiment": "positive", "summary": "Comparable Pella lines: Architect 43.5/50, Lifestyle 42.5/50. Pella Reserve top at 47/50 but 'exterior cladding slightly less durable than Marvin or Andersen E-Series.' Uses rolled aluminum on some lines.", "_preset_rec": "recommend" }
+        }
+      },
+      {
+        "id": "PS-WIN-002",
+        "name": "Argo Glass Expert",
+        "pool": "S",
+        "url": "https://argowindowrepair.com/blog/window/best-window-brands",
+        "sentiment": "varies_by_product",
+        "products": {
+          "marvin_signature_ultimate": { "sentiment": "positive", "summary": "Window repair specialist: 'Andersen and Marvin offer a higher-quality product than Pella.' Marvin uses extruded aluminum with interlocking keys into LVL wood core. Superior construction vs Pella's glued rolled aluminum.", "_preset_rec": "strong_recommend" },
+          "andersen_400_series": { "sentiment": "positive", "summary": "Expert states Andersen and Marvin higher quality than Pella. Note: applies to Andersen clad lines (Eagle). The 400 uses Fibrex composite, different construction.", "_preset_rec": "recommend" },
+          "pella_impervia": { "sentiment": "positive", "summary": "Expert: 'All three make high-quality windows. However, Andersen and Marvin offer higher quality than Pella.' Pella uses rolled aluminum glued to wood core, has had delamination issues.", "_preset_rec": "recommend" }
+        }
+      },
+      {
+        "id": "PS-WIN-003",
+        "name": "Weatherguard Construction",
+        "pool": "S",
+        "url": "https://wgccinc.com/window-brand-comparison-pella-marvin-andersen-kolbe",
+        "sentiment": "varies_by_product",
+        "products": {
+          "marvin_signature_ultimate": { "sentiment": "positive", "summary": "Brand-neutral contractor: Marvin offers 'premium customization,' best for 'design-conscious homeowners and architecturally significant projects.' Positioned at luxury tier.", "_preset_rec": "strong_recommend" },
+          "andersen_400_series": { "sentiment": "positive", "summary": "Andersen: 'strongest brand trust and composite technology.' Fibrex 2x stronger than vinyl. 400 is mid-tier workhorse.", "_preset_rec": "recommend" },
+          "pella_impervia": { "sentiment": "positive", "summary": "Pella 'leads in innovative features and value.' Positioned as accessible/value tier among the big three.", "_preset_rec": "recommend" }
+        }
+      }
+    ]
+  }
+}
