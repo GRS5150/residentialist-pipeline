@@ -311,7 +311,7 @@ function handleAPI(req, res, parsedUrl) {
       products = sampleData.SAMPLE_PRODUCTS;
     } else {
       products = queryDB(
-        "SELECT id, product_name, product_line, category, overall_score, quality_score, durability_score, performance_score, material_safety_score, material_class, config FROM products WHERE overall_score IS NOT NULL AND (status IS NULL OR status != 'rejected') ORDER BY overall_score DESC"
+        "SELECT id, product_name, product_line, category, overall_score, quality_score, durability_score, performance_score, material_safety_score, material_class, config, price_amount, price_unit, price_reference_spec, price_note, price_integrity FROM products WHERE overall_score IS NOT NULL AND (status IS NULL OR status != 'rejected') ORDER BY overall_score DESC"
       );
     }
     // Add computed fields
