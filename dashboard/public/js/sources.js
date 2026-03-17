@@ -179,13 +179,18 @@ function renderSourceRow(src, isAdmin, evidenceMap) {
   // Checkbox for admin: only on active (non-quarantined) sources that exist in evidence
   let checkboxCell = "";
   if (isAdmin) {
-    const safeName = rawName.replace(/"/g, '&quot;');
-    const safeUrl = sourceUrl ? sourceUrl.replace(/"/g, '&quot;') : '';
-    checkboxCell = `<td class="source-select-col"><input type="checkbox" class="source-select-cb" data-source-name="${safeName}" data-source-url="${safeUrl}"></td>`;
+    if (src.is_quarantined) {
+      checkboxCell = '<td class="source-select-col"><span style="color:var(--text-muted);font-size:0.65rem" title="Already quarantined">⊘</span></td>';
+    } else {
+      const safeName = rawName.replace(/"/g, '&quot;');
+      const safeUrl = sourceUrl ? sourceUrl.replace(/"/g, '&quot;') : '';
+      checkboxCell = `<td class="source-select-col"><input type="checkbox" class="source-select-cb" data-source-name="${safeName}" data-source-url="${safeUrl}"></td>`;
+    }
   }
 
+  const rowClass = src.is_quarantined ? ' style="opacity:0.45;text-decoration:line-through"' : '';
   return `
-    <tr>
+    <tr${rowClass}>
       ${checkboxCell}
       <td><span class="pool-badge ${poolClass}">${pool === "X" ? "✕" : pool}</span></td>
       <td class="source-name-cell">${nameHTML}</td>

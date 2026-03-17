@@ -341,6 +341,36 @@ function handleAPI(req, res, parsedUrl) {
     }
     // Filter out manufacturer-own sources that leaked into consensus pools
     filterManufacturerSources(poolDetails, product.product_name);
+    // Merge quarantine status from evidence file into pool_details sources
+    const evidencePathForQ = findEvidenceFile(product.product_name);
+    if (evidencePathForQ) {
+      try {
+        const evData = JSON.parse(fs.readFileSync(evidencePathForQ, 'utf-8'));
+        const evSources = (evData.professional_consensus && evData.professional_consensus.sources) || [];
+        // Build a set of quarantined source names and URLs
+        const qNames = new Set();
+        const qUrls = new Set();
+        evSources.forEach(s => {
+          if (s.quarantined && !s.restored) {
+            if (s.name) qNames.add(s.name.toLowerCase().trim());
+            if (s.url) qUrls.add(s.url.toLowerCase().trim());
+          }
+        });
+        // Mark matching sources in pool_details
+        for (const poolKey of Object.keys(poolDetails)) {
+          const pd = poolDetails[poolKey];
+          if (pd && pd.sources) {
+            pd.sources.forEach(src => {
+              const sName = (src.name || '').toLowerCase().trim();
+              const sUrl = (src.url || '').toLowerCase().trim();
+              if (qNames.has(sName) || (sUrl && qUrls.has(sUrl))) {
+                src.is_quarantined = true;
+              }
+            });
+          }
+        }
+      } catch(e) { /* ignore errors, quarantine status is optional */ }
+    }
     sendJSON(res, { product_name: product.product_name, pool_details: poolDetails });
     return true;
   }
