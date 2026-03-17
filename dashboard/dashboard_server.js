@@ -640,6 +640,47 @@ function handleAPI(req, res, parsedUrl) {
     return true;
   }
 
+  // POST /api/products/:id/quarantine/add
+  const productsQuarantineAddMatch = pathname.match(/^\/api\/products\/(\d+)\/quarantine\/add$/);
+  if (productsQuarantineAddMatch && req.method === "POST") {
+    const id = parseInt(productsQuarantineAddMatch[1]);
+    let product;
+    if (USE_SAMPLE) {
+      product = sampleData.SAMPLE_PRODUCTS.find(p => p.id === id);
+    } else {
+      const rows = queryDB(`SELECT * FROM products WHERE id = ${id}`);
+      product = rows[0];
+    }
+    if (!product) { sendJSON(res, { error: "Not found" }, 404); return true; }
+    parseRequestBody(req).then(body => {
+      const source_indices = (body && body.source_indices) || [];
+      if (!Array.isArray(source_indices) || source_indices.length === 0) {
+        sendJSON(res, { error: "source_indices must be a non-empty array" }, 400); return;
+      }
+      const evidencePath = findEvidenceFile(product.product_name);
+      if (!evidencePath) { sendJSON(res, { error: "No evidence file" }, 404); return; }
+      try {
+        const data = JSON.parse(fs.readFileSync(evidencePath, "utf-8"));
+        const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
+        let quarantined_count = 0;
+        source_indices.forEach(idx => {
+          if (sources[idx] && !sources[idx].quarantined) {
+            sources[idx].quarantined = true;
+            sources[idx].quarantine_reason = "manual";
+            sources[idx].quarantined_at = new Date().toISOString();
+            quarantined_count++;
+          }
+        });
+        fs.writeFileSync(evidencePath, JSON.stringify(data, null, 2));
+        console.log(`[QUARANTINE] Manually quarantined ${quarantined_count} sources for ${product.product_name}`);
+        sendJSON(res, { success: true, quarantined_count });
+      } catch (e) {
+        sendJSON(res, { error: "Failed to update evidence file" }, 500);
+      }
+    }).catch(() => { sendJSON(res, { error: "Invalid request body" }, 400); });
+    return true;
+  }
+
   // GET /api/products/:id/report-preview
   const reportPreviewMatch = pathname.match(/^\/api\/products\/(\d+)\/report-preview$/);
   if (reportPreviewMatch && req.method === 'GET') {
