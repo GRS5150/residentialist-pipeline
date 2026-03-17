@@ -63,6 +63,19 @@ function formatScore(score) {
 function getTier(score) { if (score >= 90) return 'Best in Class'; if (score >= 75) return 'Excellent'; if (score >= 60) return 'Good'; if (score >= 40) return 'Fair'; return 'Poor'; }
 function getGrade(score) { return getTier(score); }
 
+function applySafetyCap(tier, safetyScore) {
+  // If safety score exists and is below 60, cap at Good
+  if (safetyScore !== null && safetyScore !== undefined && safetyScore < 60) {
+    const tierRank = { "Best in Class": 4, "Excellent": 3, "Good": 2, "Fair": 1, "Poor": 0 };
+    const maxTierRank = tierRank["Good"]; // 2
+    const currentRank = tierRank[tier] || 0;
+    if (currentRank > maxTierRank) {
+      return "Good";
+    }
+  }
+  return tier;
+}
+
 function getOutlook(score) {
   if (score >= 80) return 'Strong';
   if (score >= 70) return 'Positive';

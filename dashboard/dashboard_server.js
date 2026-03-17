@@ -294,7 +294,7 @@ function handleAPI(req, res, parsedUrl) {
     // Add computed fields
     products = products.map(p => ({
       ...p,
-      grade: sampleData.getGrade(p.overall_score),
+      grade: sampleData.applySafetyCap(sampleData.getGrade(p.overall_score), p.material_safety_score),
       outlook: sampleData.getOutlook(p.overall_score)
     }));
     sendJSON(res, products);
