@@ -504,7 +504,7 @@
   function renderQuarantinePanel(ds) {
     const pc = ds.professional_consensus || {};
     const qCount = pc.quarantined_count || 0;
-    if (qCount === 0 || !isAdmin()) return '';
+    if (qCount === 0 || !AdminMode.isAdmin()) return '';
 
     const reasons = pc.quarantine_reasons || {};
     const reasonChips = Object.entries(reasons).map(([r, c]) => 
@@ -633,7 +633,7 @@
   // ── Quarantine Review Section ─────────────────────────────────────────────
 
   function renderQuarantineReviewSection() {
-    if (!isAdmin()) return '';
+    if (!AdminMode.isAdmin()) return '';
     return `
       <div class="section" id="quarantine-review-section" style="margin-top:var(--space-xl)">
         <div class="section-header" style="cursor:pointer" onclick="toggleQuarantineReviewSection()">
@@ -650,7 +650,7 @@
   }
 
   async function loadQuarantineReviewSection(id) {
-    if (!isAdmin()) return;
+    if (!AdminMode.isAdmin()) return;
     const body = document.getElementById('quarantine-review-body');
     if (!body) return;
     try {
