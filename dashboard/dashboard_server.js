@@ -665,15 +665,18 @@ function handleAPI(req, res, parsedUrl) {
         const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
         let quarantined_count = 0;
         if (source_names.length > 0) {
-          const nameSet = new Set(source_names.map(n => n.toLowerCase().trim()));
+          const nameLower = source_names.map(n => n.toLowerCase().trim());
           sources.forEach(s => {
-            if (!s.quarantined && nameSet.has((s.name || "").toLowerCase().trim())) {
+            const sName = (s.name || "").toLowerCase().trim(); if (!s.quarantined && nameLower.some(n => sName.includes(n) || n.includes(sName) || sName === n)) {
               s.quarantined = true;
               s.quarantine_reason = "manual";
               s.quarantined_at = new Date().toISOString();
               quarantined_count++;
             }
           });
+          if (quarantined_count === 0) {
+            console.log('[QUARANTINE-DEBUG] No matches found. Evidence source names sample:', sources.slice(0,3).map(s => s.name));
+          }
         } else {
           source_indices.forEach(idx => {
             if (sources[idx] && !sources[idx].quarantined) {

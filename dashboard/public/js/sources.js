@@ -286,7 +286,7 @@ function _updateQuarantineFab() {
 async function _handleManualQuarantine() {
   if (!_sourceExplorerProductId || _selectedEvidenceIndices.size === 0) return;
   const btn = document.getElementById("source-quarantine-fab-btn");
-  if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; }
+  if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; btn.textContent = "Quarantining..."; }
 
   try {
     const resp = await fetch(`${getBasePath()}api/products/${_sourceExplorerProductId}/quarantine/add`, {
@@ -295,20 +295,26 @@ async function _handleManualQuarantine() {
       body: JSON.stringify({ source_names: Array.from(_selectedEvidenceIndices) })
     });
     const result = await resp.json();
-    if (result.success) {
+    if (result.success && result.quarantined_count > 0) {
+      // Clear selection and reload
       _selectedEvidenceIndices = new Set();
       _updateQuarantineFab();
-      // Reload the source explorer to reflect changes
       const container = document.getElementById("source-explorer-container");
       if (container) {
         await loadSourceExplorer(_sourceExplorerProductId, container);
       }
+    } else if (result.success && result.quarantined_count === 0) {
+      alert("Those sources were already quarantined or could not be matched. Try refreshing the page.");
+      _selectedEvidenceIndices = new Set();
+      _updateQuarantineFab();
     } else {
-      console.error("[QUARANTINE] Failed:", result.error);
-      if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+      alert("Quarantine failed: " + (result.error || "Unknown error"));
     }
   } catch (e) {
     console.error("[QUARANTINE] Error:", e);
+    alert("Network error — could not quarantine sources.");
+  } finally {
+    // ALWAYS re-enable button
     if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
   }
 }
