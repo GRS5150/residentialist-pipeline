@@ -38,20 +38,20 @@ const AdminMode = {
 
 // ── Score Formatting ────────────────────────────────────────────────────────
 function scoreColor(score) {
-  if (score >= 8.0) return 'green';
-  if (score >= 6.5) return 'amber';
+  if (score >= 80) return 'green';
+  if (score >= 65) return 'amber';
   return 'red';
 }
 
 function scoreCSSColor(score) {
-  if (score >= 8.0) return 'var(--score-green)';
-  if (score >= 6.5) return 'var(--score-amber)';
+  if (score >= 80) return 'var(--score-green)';
+  if (score >= 65) return 'var(--score-amber)';
   return 'var(--score-red)';
 }
 
 function scoreHex(score) {
-  if (score >= 8.0) return '#3fb950';
-  if (score >= 6.5) return '#d29922';
+  if (score >= 80) return '#3fb950';
+  if (score >= 65) return '#d29922';
   return '#f85149';
 }
 
@@ -134,7 +134,7 @@ function createSparkBars(q, d, p) {
   const labels = ['Q', 'D', 'P'];
   const scores = [q, d, p];
   return `<div class="card-bars">${scores.map((s, i) => {
-    const h = Math.max(2, (s / 10) * maxH);
+    const h = Math.max(2, (s / 100) * maxH);
     const c = scoreCSSColor(s);
     return `<div class="spark-bar" style="height:${h}px;background:${c}">
       <span class="spark-bar-label">${labels[i]}</span>
