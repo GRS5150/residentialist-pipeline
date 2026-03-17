@@ -685,7 +685,7 @@
           <td style="padding:8px 10px">
             <input type="checkbox" class="quarantine-restore-check" value="${esc(s.id || String(idx))}" style="accent-color:var(--accent-blue)">
           </td>
-          <td style="padding:8px 10px;color:var(--text-primary);text-decoration:line-through;text-decoration-color:var(--text-muted)">${esc((s.name || '').substring(0, 60))}</td>
+          <td style="padding:8px 10px;color:var(--text-primary);text-decoration:line-through;text-decoration-color:var(--text-muted)">${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" class="source-link">${esc((s.name || '').substring(0, 60))}</a>` : esc((s.name || '').substring(0, 60))}</td>
           <td style="padding:8px 10px">
             <span class="pool-chip-mini" style="width:auto;padding:2px 6px">${esc((s.pool || 'C').toUpperCase())}</span>
           </td>
@@ -698,7 +698,7 @@
       const restoredRows = restored.map(s => `
         <tr style="opacity:0.5">
           <td style="padding:8px 10px"><input type="checkbox" disabled></td>
-          <td style="padding:8px 10px;color:var(--score-green)">${esc((s.name || '').substring(0, 60))} <span style="font-size:0.7rem;color:var(--text-muted)">(restored)</span></td>
+          <td style="padding:8px 10px;color:var(--score-green)">${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" class="source-link">${esc((s.name || '').substring(0, 60))}</a>` : esc((s.name || '').substring(0, 60))} <span style="font-size:0.7rem;color:var(--text-muted)">(restored)</span></td>
           <td style="padding:8px 10px"><span class="pool-chip-mini" style="width:auto;padding:2px 6px">${esc((s.pool || 'C').toUpperCase())}</span></td>
           <td style="padding:8px 10px">&mdash;</td>
           <td style="padding:8px 10px;color:var(--text-muted);font-size:0.8rem">${esc((s.quarantine_reason || '&mdash;').replace(/_/g, ' '))}</td>

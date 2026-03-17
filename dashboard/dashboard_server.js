@@ -372,7 +372,7 @@ function handleAPI(req, res, parsedUrl) {
         summary: (s.summary || '').replace(/<[^>]+>/g, ' ').substring(0, 200)
       }));
       const restored = sources.filter(s => s.quarantined && s.restored === true).map(s => ({
-        id: s.id, name: s.name, pool: s.pool, quarantine_reason: s.quarantine_reason
+        id: s.id, name: s.name, pool: s.pool, url: s.url, quarantine_reason: s.quarantine_reason
       }));
       const active = sources.filter(s => !s.quarantined || s.restored === true).length;
       sendJSON(res, { product_name: product.product_name, quarantined, restored, total_sources: sources.length, active_count: active });
