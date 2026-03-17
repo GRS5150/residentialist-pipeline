@@ -303,7 +303,7 @@ async function _handleManualQuarantine() {
       _selectedEvidenceIndices = new Set();
       _updateQuarantineFab();
       // Reload the source explorer to reflect changes
-      const container = document.querySelector("[data-source-explorer]");
+      const container = document.getElementById("source-explorer-container");
       if (container) {
         await loadSourceExplorer(_sourceExplorerProductId, container);
       }
