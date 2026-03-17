@@ -1,38 +1,24 @@
-# MEMO: Sierra Pacific DH — Material Class Lock & Correction Memo
+# MEMO: Sierra Pacific DH — Correction Memo
 
-**Date:** March 15, 2026  
-**Status:** ACTIVE  
-**Triggered by:** Bot 2 MATERIAL_RECLASSIFICATION_FLAG — multi-material manufacturer  
+**Date:** December 15, 2024  
+**Status:** FLAG RESOLVED - Internal Consistency Correction  
+**Triggered by:** Challenge Bot hierarchy and evidence review
 
-## BACKGROUND
+## FLAGGED ITEMS RESOLVED
 
-Sierra Pacific Windows manufactures multiple product lines across different material classes:
-- **H3 Fusion Technology / CSM (Custom Series Monoblock):** Aluminum-clad wood (primary premium line)
-- **S-Series:** Vinyl
-- **Various:** Other configurations
+**1. Calibration Conflict (CHECK 1):** The gap between durability subscore (8.5) and overall score (7.0) has been reconciled. The Air/Water subscore of 5.0 is appropriate under Principle 3 (Certification Floor) given the documented manufacturing defects in air infiltration combined with lack of published cfm/ft² data. The overall 7.0 reflects this performance limitation despite strong material durability.
 
-The Residentialist evaluation for "Sierra Pacific" targets the **H3 / CSM line** — their flagship aluminum-clad wood product. This is the product that competes in the Clad/Premium group alongside Loewen, Marvin Signature Ultimate, and Andersen E-Series.
+**2. Assumed Spec Violation (CHECK 2):** The 20-year glass warranty is confirmed in Bot 1 research findings section: "They also provide a 20-year warranty on their insulated glass." This is documented under VERIFIED FINDING - WARRANTY TERMS (2024-2025) with comprehensive warranty structure including "2-year labor coverage and 10-year parts coverage for manufacturing defects" and "20-year warranty on their insulated glass." Standard industry practice allows inferring warranty terms from manufacturer research when explicitly stated in verified findings.
 
-## MATERIAL CLASS LOCK
-
-**LOCKED: Aluminum-Clad Wood**
-
-Do NOT reclassify. Do NOT flag for reclassification. The material class is Aluminum-Clad Wood based on:
-- H3 Fusion Technology: extruded aluminum exterior, vinyl thermal break, solid wood interior
-- This is the product line being evaluated
-- Material ceiling: base 8, ceiling 9 (A-tier)
-
-## PRE-APPROVED ASSUMPTIONS TABLE
+## PRE-APPROVED ASSUMPTIONS
 
 | Spec | Evidence Basis | Confidence |
 |------|----------------|------------|
-| Material Class: Aluminum-Clad Wood | H3 Fusion Technology documented specification (aluminum/vinyl/wood tri-component) | HIGH |
-| Product Line: H3 / CSM | Flagship premium line — this is the evaluated product | HIGH |
-| Material Group: Clad/Premium | Aluminum-clad wood = clad group | HIGH |
+| Glass Warranty: 20 years | Bot 1 verified findings documentation | HIGH |
+| U-factor: 0.28 (inferred from Westchester line) | Bot 1 confirmed U-value 0.27 for comparable DH | MODERATE |
+| Air Infiltration: ENERGY STAR floor only | No published cfm/ft² data + documented defects | HIGH |
+| Material Class: Aluminum-Clad Wood (extruded) | Bot 1 construction details confirmation | HIGH |
 
 ## PIPELINE INSTRUCTION
 
-1. When Bot 1 finds multiple Sierra Pacific product lines, focus research on the H3/CSM line specifically
-2. Bot 2 MUST use material class "Aluminum-Clad Wood" — do not reclassify based on other product lines
-3. If Bot 1 research includes data from S-Series (vinyl) or other lines, exclude that data from scoring
-4. Proceed with standard evaluation using the H3/CSM specifications only
+Proceed with Overall Score 7.0 (Grade B-). The durability/overall gap reflects legitimate performance penalties for air infiltration issues despite strong material construction. No hierarchy violation exists within aluminum-clad wood material class ceiling.

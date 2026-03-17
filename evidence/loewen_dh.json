@@ -196,7 +196,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:13.529Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-015",
@@ -247,7 +250,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:13.495Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-019",
@@ -536,7 +542,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:13.557Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-044",
@@ -565,7 +574,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:13.706Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-046",
@@ -627,7 +639,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:14.370Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:56.061Z"
       },
       {
         "id": "PC-LOEWEN-051",
@@ -678,7 +693,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:14.369Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-055",
@@ -696,7 +714,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:14.371Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-056",
@@ -852,7 +873,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T18:31:15.320Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:56.061Z"
       },
       {
         "id": "PC-LOEWEN-067",
@@ -892,7 +916,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:15.340Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-070",
@@ -961,7 +988,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:15.903Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-075",
@@ -997,7 +1027,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:16.070Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:56.061Z"
       },
       {
         "id": "PC-LOEWEN-077",
@@ -1033,7 +1066,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:16.385Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-079",
@@ -1051,7 +1087,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:16.930Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-080",
@@ -1159,7 +1198,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:17.635Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-086",
@@ -1231,7 +1273,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:19.469Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-090",
@@ -1461,7 +1506,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:22.846Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-109",
@@ -1479,7 +1527,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:19.558Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-110",
@@ -1641,7 +1692,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:24.321Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:15.153Z"
       },
       {
         "id": "PC-LOEWEN-119",
@@ -1706,7 +1760,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:25.132Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-123",
@@ -1724,7 +1781,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:25.154Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-124",
@@ -1742,7 +1802,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:25.370Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-125",
@@ -1760,7 +1823,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:25.425Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-126",
@@ -1778,7 +1844,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:26.047Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-127",
@@ -1796,7 +1865,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:26.235Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-128",
@@ -1832,7 +1904,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:26.040Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-130",
@@ -1850,7 +1925,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:27.137Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-131",
@@ -1868,7 +1946,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:26.860Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-132",
@@ -1886,7 +1967,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:26.917Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-133",
@@ -1904,7 +1988,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:31:26.902Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:12.376Z"
       },
       {
         "id": "PC-LOEWEN-134",

@@ -57,30 +57,17 @@ function scoreHex(score) {
 
 function formatScore(score) {
   if (score === null || score === undefined) return '—';
-  return parseFloat(score).toFixed(2);
+  return Math.round(parseFloat(score));
 }
 
-function getGrade(score) {
-  if (score >= 9.3) return 'A+';
-  if (score >= 8.7) return 'A';
-  if (score >= 8.0) return 'A-';
-  if (score >= 7.7) return 'B+';
-  if (score >= 7.3) return 'B';
-  if (score >= 7.0) return 'B-';
-  if (score >= 6.7) return 'C+';
-  if (score >= 6.3) return 'C';
-  if (score >= 6.0) return 'C-';
-  if (score >= 5.7) return 'D+';
-  if (score >= 5.3) return 'D';
-  if (score >= 5.0) return 'D-';
-  return 'F';
-}
+function getTier(score) { if (score >= 90) return 'Best in Class'; if (score >= 75) return 'Excellent'; if (score >= 60) return 'Good'; if (score >= 40) return 'Fair'; return 'Poor'; }
+function getGrade(score) { return getTier(score); }
 
 function getOutlook(score) {
-  if (score >= 8.0) return 'Strong';
-  if (score >= 7.0) return 'Positive';
-  if (score >= 6.0) return 'Stable';
-  if (score >= 5.0) return 'Watch';
+  if (score >= 80) return 'Strong';
+  if (score >= 70) return 'Positive';
+  if (score >= 60) return 'Stable';
+  if (score >= 50) return 'Watch';
   return 'Concern';
 }
 
@@ -92,7 +79,7 @@ function outlookClass(outlook) {
 function createScoreCircleSVG(score, size = 'sm') {
   const r = size === 'lg' ? 44 : 22;
   const circumference = 2 * Math.PI * r;
-  const pct = Math.min(score / 10, 1);
+  const pct = Math.min(score / 100, 1);
   const offset = circumference * (1 - pct);
   const color = scoreCSSColor(score);
   const cx = size === 'lg' ? 50 : 26;

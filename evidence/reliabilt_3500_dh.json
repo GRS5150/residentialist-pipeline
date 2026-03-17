@@ -4,14 +4,19 @@
   "category": "windows",
   "evidence_version": "1.1",
   "created": "2026-03-13",
-  "last_verified": "2026-03-14",
+  "last_verified": "2026-03-16",
   "refresh_after_days": 90,
   "_comment": "PINNED EVIDENCE FILE — Bot 2 must use these values as ground truth.",
   "manufacturing_quality": {
     "business_model": "manufacturer_own_factory",
     "certifications": [
       "NFRC",
-      "ENERGY_STAR"
+      "ENERGY_STAR",
+      "AAMA",
+      "NAFS",
+      "GREENGUARD",
+      "WERS",
+      "PROP_65_WARNING"
     ],
     "complaints": [
       {
@@ -29,6 +34,32 @@
         "evidence_level": "YELLOW",
         "source": "Consumer complaint patterns",
         "note": "YELLOW — consumer complaints corroborate professional assessment"
+      },
+      {
+        "id": "MQ-RELIAB-003",
+        "description": "Manufacturing defect in ReliaBilt slider windows prevented water drainage through weep holes, affecting all 10 units installed in new construction home.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Construction/comments/18n0mzt/anyone_have_issues_with_reliabilt_windows/",
+        "year": 2023,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-RELIAB-004",
+        "description": "Manufacturing defect in ReliaBilt slider windows prevented water from reaching weep holes, affecting all 10 units installed in a new construction home.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Construction/comments/18n0mzt/anyone_have_issues_with_reliabilt_windows/",
+        "year": 2023,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -49,13 +80,1876 @@
         "sentiment": "negative",
         "summary": "Consumer and DIY community reports echo professional concerns about quality. Some price-bias present but core complaints are about function, not value.",
         "price_bias": true
+      },
+      {
+        "id": "PC-RELIAB-003",
+        "name": "energycodeace.com — (R) 3.5 Fenestration",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The temporary label shows the U-factor and SHGC for each rated window unit. The label must also show that the product meets the air infiltration criteria. The temporary label must not be removed befor",
+        "price_bias": false,
+        "url": "https://energycodeace.com/site/custom/public/reference-ace-2016/Documents/35fenestration.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-004",
+        "name": "cvpwindowsanddoors.com — NFRC U-FACTOR, SHGC, VT, & CONDENSATION RESISTANCE COMPUTER",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "WINDOW 7.4.14. The method gives overall product SHGC and VT indexed on center of glass",
+        "price_bias": false,
+        "url": "https://cvpwindowsanddoors.com/wp-content/uploads/2020/12/SHA4-Thermal.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-005",
+        "name": "energycodeace.com — (NR) 3.2 Fenestration",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The Administrative Regulations §10-111 and §110.6 of the Standards require that fenestration products have labels that list the U-factor, SHGC, VT and the method used to determine those values. The la",
+        "price_bias": false,
+        "url": "https://energycodeace.com/site/custom/public/reference-ace-2013/Documents/32fenestration.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-006",
+        "name": "prlglass.com — AAMA Certification Guide | Durability, Performance & Coating",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The look of the coating, its resistance to weather, fading, and wear, not only defines a project’s aesthetics: it directly impacts maintenance needs, lifecycle costs, and overall structural integrity.",
+        "price_bias": false,
+        "url": "https://prlglass.com/blog/aama-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-007",
+        "name": "aegisfinishing.com — The Architecture of Resilience: Decoding and Using AAMA 2603",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Specifying coatings that meet AAMA ... that the structure maintains its envisioned look for many years to come. Additionally, these specifications can influence material choices and the selection of a",
+        "price_bias": false,
+        "url": "https://aegisfinishing.com/the-architecture-of-resilience-decoding-and-using-aama-2603-2604-and-2605/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-008",
+        "name": "reliabilt.atriumwindows.com — Technical Data Sheets | RELIABILT at Lowes",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "A collection of technical data sheets for RELIABILT windows and patio doors.",
+        "price_bias": false,
+        "url": "https://reliabilt.atriumwindows.com/for-lowes-pros/product-specifications/technical-data-sheets/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-009",
+        "name": "vistaza.com — A Quick Guide to Warm Edge Spacers for Windows – Vistaza",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Durability and Design Flexibility: Dual-seal systems are <strong>designed to absorb stress caused by thermal expansion and contraction</strong>. This ability increases durability, with sealed IGU last",
+        "price_bias": false,
+        "url": "https://vistaza.com/warm-edge-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:49.859Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-010",
+        "name": "rochesterinsulatedglass.com — Spacers - Rochester Insulated Glass",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Conventional aluminum, stainless steel, and plastic spacers “short circuit” the edge seal. Warm Seal’s extremely low level of thermal conductivity leads to greatly reduced IGU condensation and improve",
+        "price_bias": false,
+        "url": "https://rochesterinsulatedglass.com/spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-011",
+        "name": "quanex.com — Warm Edge Spacer Systems for Windows & Doors - Quanex",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Warm edge spacers play a critical role in overall window performance by <strong>reducing heat transfer at the edge of the glass, the area most vulnerable to energy loss, condensation, and seal stress<",
+        "price_bias": false,
+        "url": "https://www.quanex.com/product/residential/insulating-glass-spacers/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-012",
+        "name": "aladdininsulation.com — Energy Efficient Window Glass Spacers Comparison",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "<strong>Intercept features a unique, one-piece stainless steel alloy that creates an effective thermal barrier to help reduce conducted heat loss</strong>. This keeps the edges of glass warmer, too.",
+        "price_bias": false,
+        "url": "https://aladdininsulation.com/2015/02/1068/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-013",
+        "name": "cardinalcorp.com — XL Edge Insulating Glass | Cardinal Glass Industries",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>Launched in 1993, XL Edge is the pioneer of highly durable and energy-efficient spacer systems</strong>. XL Edge is available today in double and triple-pane configurations. XL Edge IG comes w",
+        "price_bias": false,
+        "url": "https://www.cardinalcorp.com/products/insulating-glass/xl-edge/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-014",
+        "name": "glassforum.org — Insulating Glass Spacers: All You Need to Know Comprehensive",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "Cutting: The spacer is then cut to the desired length, taking into account the size of the IGU and the width of the spacer required. Bending: The spacer is then bent to fit the shape of the window, en",
+        "price_bias": false,
+        "url": "https://glassforum.org/insulating-glass-spacers-all-you-need-to-know/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-015",
+        "name": "thermoflexwarmedge.com — Thermoflex Diagram | THERMOFLEXWARMEDGE.COM",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The design differs to standard Thermoflex Warm Edge Spacer in that <strong>it has steps along its edges for the application of Polyisobutylene (PIB) primary sealant</strong>.",
+        "price_bias": false,
+        "url": "https://www.thermoflexwarmedge.com/dual-seal-spacer",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-016",
+        "name": "reliabiltco.com — Reliabilt 3500 Series Windows - Reliabilt",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "For weatherstripping: I gently wipe with a damp cloth and inspect for any signs of wear or damage. This entire maintenance routine takes me about 30 minutes for all 12 windows in my home, and I do it ",
+        "price_bias": false,
+        "url": "https://reliabiltco.com/reliabilt-3500-series-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-017",
+        "name": "lowes.com — RELIABILT Door Weatherstripping at Lowes.com",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This can be used on interior and exterior light switches. Save on energy by reducing the loss of heat or air through switch plates. <strong>Install with a screwdriver</strong>.View More · M-D 3-ft x 1",
+        "price_bias": false,
+        "url": "https://www.lowes.com/pl/weatherstripping/reliabilt/door/4294929691-811991473980-4294836298",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:49.516Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-018",
+        "name": "thereliabilt.com — Reliabilt 3500 Series Windows",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Speaking of quality, you might be wondering – what exactly are Reliabilt 3500 windows made from? ... Frame – Rigid vinyl that resists weathering and provides insulation. Available in white or beige. S",
+        "price_bias": false,
+        "url": "https://thereliabilt.com/reliabilt-3500-series-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-019",
+        "name": "manuals.plus — RELIABILT 3500 Advanced Series Double Hung Window User Guide",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The user manual for the RELIABILT 3500 Advanced Series Double Hung Window provides product information, features, and usage instructions. Learn about its design pressure, insulation, and weather strip",
+        "price_bias": false,
+        "url": "https://manuals.plus/reliabilt/3500-advanced-series-double-hung-window-manual",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-020",
+        "name": "device.report — RELIABILT 3500 Advanced Series Double Hung Window User Guide",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "ReliaBilt products are the industries strongest rated in correlation with our High DP ratings. The higher the wind capacity the stronger the window will be. Warm Edge Glass The spacing system between ",
+        "price_bias": false,
+        "url": "https://device.report/manual/9253827",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-021",
+        "name": "reliabilt.atriumwindows.com — RELIABILT Series 3500 Feature Sheet 2023 - Lowes ReliaBilt M",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "All other file types should automatically start downloading after clicking the Download button. ... RELIABILT offers a complete line-up of vinyl windows for any new construction or replacement home im",
+        "price_bias": false,
+        "url": "https://reliabilt.atriumwindows.com/resource-download/reliabilt-series-3500-feature-sheet-2023/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-022",
+        "name": "Reddit — r/HomeImprovement on Reddit: Need some help deciding who to",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Fusion Welded Frame &amp; Sash Construction, Full Interlock: Overlap interlock features dual weatherstripping, Beveled Exterior Frame, Warm Edge Insulated Glass: 3/4&quot; overall thickness, Recessed ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/qrzgxa/need_some_help_deciding_who_to_go_with_for_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:49.635Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-023",
+        "name": "reliabilt.atriumwindows.com — RELIABILT Series 3500 Double Hung Technical Data Sheet - Low",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "All other file types should automatically start downloading after clicking the Download button. ... RELIABILT offers a complete line-up of vinyl windows for any new construction or replacement home im",
+        "price_bias": false,
+        "url": "https://reliabilt.atriumwindows.com/resource-download/reliabilt-series-3500-double-hung-technical-data-sheet/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-024",
+        "name": "reliabilt.atriumwindows.com — ReliaBilt Series 3500 Slider | Lowes ReliaBilt Media Site",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "ReliaBilt offers a complete line-up of vinyl windows for any new construction or replacement home improvement need. With easy installation and long lasting performance, ReliaBilt windows will enhance ",
+        "price_bias": false,
+        "url": "http://reliabilt.atriumwindows.com/wpfb-file/reliabilt-series-3500-slider-pdf/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-025",
+        "name": "reliabiltco.com — Reliabilt Windows",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Multiple weatherstrip barriers create overlapping protection against air and water infiltration while accommodating the normal expansion and contraction that occurs with temperature changes. Insulatio",
+        "price_bias": false,
+        "url": "https://reliabiltco.com/reliabilt-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-026",
+        "name": "device.report — RELIABILT Vinyl Window Series User Manual",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "WARRANTY REGISTRATION AND CLAIMS ... Warranty as an ordered selection. This warranty is limited to the original single family homeowner only and is <strong>not transferable</strong>. For warranty clai",
+        "price_bias": false,
+        "url": "https://device.report/manual/9251352",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-027",
+        "name": "manualshelf.com — ReliaBilt 3201DH3165340002 : Warranty Guide",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Transferable <strong>Lifetime Limited Warranty</strong> Replacement Products SERIES 3050, 3100, 3201, 3500, 3900, SILENT GUARD®, 700 CASEMENT, 705 AWNING, #998 GARDEN WINDOW, 600 HOPPER At ReliaBilt w",
+        "price_bias": false,
+        "url": "https://www.manualshelf.com/manual/reliabilt/3201dh3165340002/warranty-guide-english.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-028",
+        "name": "lowes.com — RELIABILT 3500 Series 31-3/4-in x 73-1/2-in White Exterior W",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Standard manufacturer warranty includes a <strong>transferable Limited Lifetime Warranty on vinyl materials and parts</strong>, 25-year accidental glass breakage warranty, and a lifetime prorated warr",
+        "price_bias": false,
+        "url": "https://www.lowes.com/pd/ReliaBilt-3500-Vinyl-Replacement-White-Exterior-Double-Hung-Window-Rough-Opening-32-in-x-73-75-in-Actual-31-75-in-x-73-5-in/3712316",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:49.500Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-029",
+        "name": "device.report — RELIABILT All Inclusive East Brochure",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "a n/a O O O n/a n/a O O O DESIGN ... number Transferable, limited lifetime warranty 25-year glass breakage warranty Lifetime glass breakage warranty Lifetime service coverage warranty Lifetime glass b",
+        "price_bias": false,
+        "url": "https://device.report/m/5fb395f04d7f845bbb0787a9aff97512c67b53671bbb41eb089cb916f9424e64",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-030",
+        "name": "manualshelf.com — ReliaBilt 3500DH3165340001 : Warranty Guide",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Transferable <strong>Lifetime Limited Warranty</strong> Replacement Products SERIES 3050, 3100, 3201, 3500, 3900, SILENT GUARD®, 700 CASEMENT, 705 AWNING, #998 GARDEN WINDOW, 600 HOPPER At ReliaBilt w",
+        "price_bias": false,
+        "url": "https://www.manualshelf.com/manual/reliabilt/3500dh3165340001/warranty-guide-english.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-031",
+        "name": "manuals.plus — RELIABILT Window and Door Systems User Manual",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "This warranty is limited to the original single family homeowner only and is <strong>not transferable</strong>. For warranty claims please contact either the dealer or ReliaBilt. Attn: ReliaBilt Warra",
+        "price_bias": false,
+        "url": "https://manuals.plus/reliabilt/window-and-door-systems-manual",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-032",
+        "name": "mycarvoice.com — 5.7 & 6.4 Hemi Valve Train Problems Class Action Lawsuit - M",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "I have 2 trucks 3500 and 2500 the 3500-6.4 hemmi 2020 with 89k start doing the kicking I take it to the dealer and warranty is expire. They want 12k or over to fixed! I still own 28k on it! I may just",
+        "price_bias": false,
+        "url": "https://mycarvoice.com/news/hemi-problems-leads-to-class-action-lawsuit/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-033",
+        "name": "reliabilt-windows.pissedconsumer.com — ReliaBilt Windows Reviews | reliabiltwindows.net @ PissedCon",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Most users ask ReliaBilt Windows for the delivery of goods as a solution to their issues. Consumers are not pleased with Customer service and Exchange, Refund and Cancellation Policy. The price level ",
+        "price_bias": false,
+        "url": "https://reliabilt-windows.pissedconsumer.com/review.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:48:49.564Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-034",
+        "name": "thelemonfirm.com — General Motors Auto Defects Archives - California Consumer A",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "<strong>Faulty power-unlatching tailgates</strong>, ... control module failures are the key concerns. These defects could lead to increased risks of crashes and unsafe driving conditions, spurring GM ",
+        "price_bias": false,
+        "url": "https://www.thelemonfirm.com/category/general-motors-auto-defects/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-035",
+        "name": "classlawgroup.com — Auto Lawsuits | Car & Auto Class Action Lawsuits | Auto Lawy",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "Gibbs Mura has represented millions of vehicle owners across the United States in class action lawsuits, delivering significant recoveries and benefits ranging from cash reimbursements to free repairs",
+        "price_bias": false,
+        "url": "https://www.classlawgroup.com/consumer-protection/auto/class-actions",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-036",
+        "name": "Reddit — r/hondapassport on Reddit: Honda Hit With Lawsuit Over Wides",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "64 votes, 51 comments. Original recall: NHTSA Recall No. 23V-751 250,000 Honda/Acura vehicles with the 3.5L J-series V6 (J35Y6) Cause: Improperly…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/hondapassport/comments/1quo9xz/honda_hit_with_lawsuit_over_widespread_v6_engine/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:50.435Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-037",
+        "name": "parlorcityfurniture.com — What is Greenguard Certification?",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "The certification <strong>focuses on evaluating the chemical emissions of products and materials used in indoor spaces</strong>. By subjecting products to rigorous testing, Greenguard aims to identify",
+        "price_bias": false,
+        "url": "https://parlorcityfurniture.com/blogs/insights/what-is-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:50.507Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-038",
+        "name": "phifer.com — GREENGUARD Certification For Indoor Air Quality / Low ...",
+        "pool": "excluded",
+        "sentiment": "positive",
+        "summary": "<strong>GREENGUARD Gold Certification level</strong>.",
+        "price_bias": false,
+        "url": "https://www.phifer.com/wp-content/uploads/2017/03/GREENGUARDOverviewSheetV13B-2.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-039",
+        "name": "amerisleep.com — What Does a GREENGUARD Gold Certification Mean? - Amerisleep",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "After one or two weeks, the certifying agencies test the VOC levels in the chamber. <strong>If the emission levels are low, the products earn the Greenguard Gold or Greenguard Certification mark</stro",
+        "price_bias": false,
+        "url": "https://amerisleep.com/blog/greenguard-gold-certified/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-040",
+        "name": "trivantage.com — All About GREENGUARD: Products Certified to Support Healthie",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "To earn GREENGUARD Certification, a product must undergo: <strong>Comprehensive lab testing in environmental chambers that simulate typical indoor environments</strong> · Evaluation against establishe",
+        "price_bias": false,
+        "url": "https://www.trivantage.com/blog/products/all-about-greenguard-certification",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-041",
+        "name": "coretecfloors.com — UL Solutions: What Does \"GREENGUARD Certified\" Mean?",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Breathing these pollutants is linked ... and some forms of cancer. <strong>If a product has been UL GREENGUARD Certified, it has been tested and scientifically proven to have low chemical emissions</s",
+        "price_bias": false,
+        "url": "https://coretecfloors.com/en-us/newest-stories/ul-solutions-what-does-greenguard-certified-mean",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-042",
+        "name": "bradleycorp.com — GREENGUARD Certification - Bradley Corp",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "The GREENGUARD Certification Program <strong>identifies low-emitting materials, finishes, and products for indoor environments</strong>. The GREENGUARD Gold Certification standard includes health-base",
+        "price_bias": false,
+        "url": "https://www.bradleycorp.com/green/greenguard",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-043",
+        "name": "lowes.com — RELIABILT® at Lowe’s",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Prices and availability of products and services are subject to change without notice. Errors will be corrected where discovered, and Lowe&#x27;s reserves the right to revoke any stated offer and to c",
+        "price_bias": false,
+        "url": "https://www.lowes.com/b/reliabilt",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:53.998Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-044",
+        "name": "justanswer.com — ReliaBilt Sliding Door Warranty Help: Parts & Repair Guide",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Lubricate with a silicone-based spray to prevent rust and ensure smooth operation. Check for debris in the track that can cause wheel jamming. Contact ReliaBilt customer service with your purchase det",
+        "price_bias": false,
+        "url": "https://www.justanswer.com/home-improvement/irtom-purchased-reliabilt-sliding-door-2020-70x80.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:50.400Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-045",
+        "name": "pdffiller.com — Reliabilt Replacement Parts - Fill Online, Printable, Fillab",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "To fill out reliabilt doors replacement parts, gather all the necessary information related to the replacement parts needed. This includes the specific model and size of the door, as well as any other",
+        "price_bias": false,
+        "url": "https://www.pdffiller.com/398954824--reliabilt-door-replacement-partspdf-reliabilt-doors-replacement-parts-",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-046",
+        "name": "Reddit — r/Lowes on Reddit: Anyone ever filed a warranty claim for gl",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Normally they just have us process a no charge RP as it&#x27;s called in store. They tell us to reference the warranty #, what part you need. IE: top sash for window warranty# 2222222. Then we fax or ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Lowes/comments/17a3tzz/anyone_ever_filed_a_warranty_claim_for_glass/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:50.463Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-047",
+        "name": "claimsservicing.nationwide.com — Personal self service",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "if(window.location.hostname == &#x27;claimsservicing.nationwide.com&#x27; || window.location.hostname == &#x27;www.claimsservicing.nationwide.com&#x27;){ · } else{",
+        "price_bias": false,
+        "url": "https://claimsservicing.nationwide.com/find-repair-shop",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-048",
+        "name": "geeksonsite.com — Home Network Services | 24/7 Availability | Geeks on Site",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "We offer our home network services and Wi-Fi installation <strong>across all major metropolitan areas nationwide</strong>. In most cases, we can dispatch a technician to your home or business on the s",
+        "price_bias": false,
+        "url": "https://geeksonsite.com/services/wireless-network-installation/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-049",
+        "name": "Reddit — r/HomeImprovement on Reddit: Can you recommend any websites,",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "And finehomebuilding.com too. Similar to family handyman. ... ToH videos are awesome, great source of knowledge. ... Green Building Advisor. Great website and blog on green technologies and building s",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/3tyzsw/can_you_recommend_any_websites_blogs_books_that/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:54.652Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-050",
+        "name": "Reddit — r/HomeImprovement on Reddit: Is anyone here a member of Gree",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Create the following style and apply to greenbuildingadvisor.com: ... No more pop-ups, no more restrictions on scrolling up and down the pages. Considering most of the content on their website, especi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/58txyh/is_anyone_here_a_member_of_green_building_advisor/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:54.655Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-051",
+        "name": "Reddit — r/Westchester on Reddit: Does anyone have a recommendation f",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Otherwise I wouldn’t touch it because you won’t easily know if there is a roof leak. Instead just insulate the attic floor. For walls, you should look at blown-in rock wool. Look at greenbuildingadvis",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Westchester/comments/10eij96/does_anyone_have_a_recommendation_for_spray_foam/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:55.218Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-052",
+        "name": "GBA — Fine Homebuilding Summit 2025 - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Experience the Fine Homebuilding Summit 2025 for in-depth industry education, networking, and insights into the future of home building.",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/article/fine-homebuilding-summit-2025",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-053",
+        "name": "replacementwindowsprices.com — Reliabilt 3500 Windows Reviews And Prices",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "This reinforced sash should improve the performance of the window. Standard features on the 3500 include a beveled exterior, push button night vents, a constant force balance system, and an aluminum c",
+        "price_bias": false,
+        "url": "https://www.replacementwindowsprices.com/reviews/reliabilt-3500-windows-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:54.857Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-RELIAB-054",
+        "name": "vinyl-replacement-windows.com — Okna vs ReliaBilt Windows Series 3500- Discussion Board Foru",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "For all those Replacement Window decisions - just read, review or post a question. You will be helped! ... Hello, I am looking to replace 17 windows and a sliding patio door in Dayton, OH. I got a quo",
+        "price_bias": false,
+        "url": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=5969",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:54.959Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-RELIAB-055",
+        "name": "reliabilt.atriumwindows.com — RELIABILT IHC 3900 vs 3500 Comparison Feature Sheet 2023 - L",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "With easy installation and long lasting performance, RELIABILT windows will enhance your home for years to come.",
+        "price_bias": false,
+        "url": "https://reliabilt.atriumwindows.com/resource-download/reliabilt-ihc-3900-vs-3500-comparison-feature-sheet-2023/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-056",
+        "name": "consumerreports.org — Reliabilt (Lowe's) 3500 Series Replacement Window Review - C",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "We&#x27;ve tested and reviewed products since 1936. Read CR&#x27;s review of the Reliabilt (Lowe&#x27;s) 3500 Series replacement window to find out if it&#x27;s worth it.",
+        "price_bias": false,
+        "url": "https://www.consumerreports.org/home-garden/replacement-windows/reliabilt-lowe-s-3500-series/m408669/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:55.991Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-057",
+        "name": "diychatroom.com — Lowes Reliabilt 3500 (Atrium 8700) a decent vinyl replacemen",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I can&#x27;t speak for performance yet, but i recommend the reliabilt&#x27;s based on side by side initial comparison and operation. ... AAMA Certified The Reliabilt 3500 double hung replacements I ju",
+        "price_bias": false,
+        "url": "https://www.diychatroom.com/threads/lowes-reliabilt-3500-atrium-8700-a-decent-vinyl-replacement-window.53972/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:55.878Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-058",
+        "name": "replacement-windows.com — Is this forum boycotting reliabuilt windows? - Replacement W",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I said if I was to buy a window from a hardware store, that Reliabilt would be near the top of my list. Reliabilt is made by Atrium and <strong>the 3500 is the same window as the Atrium 8700</strong>.",
+        "price_bias": false,
+        "url": "https://www.replacement-windows.com/windowbb/viewtopic.php?t=3635",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:48:56.135Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-RELIAB-059",
+        "name": "homewindowreplacementcost.com — Reliabilt Window Reviews | Unbiased Ratings, Great Pro Tips",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Browse our Reliabilt window reviews from our editors, installers and homeowners on many of their most popular models, including the 300, 3201 and Reliabilt 3900 windows series.",
+        "price_bias": false,
+        "url": "https://www.homewindowreplacementcost.com/reviews/reliabilt-window-reviews.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-060",
+        "name": "recalls.gov",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "The U.S. Consumer Product Safety Commission (CPSC) has jurisdiction over more than 15,000 kinds of consumer products used in and around the home, in sports, recreation and schools including: · electro",
+        "price_bias": false,
+        "url": "https://www.recalls.gov/cpsc.html",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-061",
+        "name": "saferproducts.gov — Home - SaferProducts",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "<strong>Each report is reviewed by our staff of investigators and consumer product safety experts to determine what actions should be taken to protect the American public. Your report could provide in",
+        "price_bias": false,
+        "url": "https://www.saferproducts.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-062",
+        "name": "en.wikipedia.org — 1986 California Proposition 65 - Wikipedia",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Many Proposition 65 complaints are filed on behalf of straw man plaintiffs by private attorneys, some of whose businesses are built entirely on filing Proposition 65 lawsuits. The law has also been cr",
+        "price_bias": false,
+        "url": "https://en.wikipedia.org/wiki/1986_California_Proposition_65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-063",
+        "name": "Reddit — r/manufacturing on Reddit: Does anyone have experience with",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Does anyone have experience with how to determine whether the Prop 65 warning is required? EDIT: I just found on the OEHHA website the companies under 10 are exempt from the warnings. Kind of an odd d",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/manufacturing/comments/1ehybtb/does_anyone_have_experience_with_avoiding/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:56.112Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-064",
+        "name": "nytimes.com — What Is Prop 65? And Why Is There a Warning Label on This Th",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "In 2018, there were 829 settlements (PDF) totaling more than $35 million. Probably not. The Prop 65 label is like <strong>a noisy alarm that rings equally loudly about smaller amounts of low-risk subs",
+        "price_bias": false,
+        "url": "https://www.nytimes.com/wirecutter/blog/what-is-prop-65/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-065",
+        "name": "multiquip.com — California Proposition 65 Warning Information",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Moreover, a Prop 65 warning does not mean that a product is in violation of any product safety standards or requirements. In fact, the California government has clarified that a Prop 65 warning “is no",
+        "price_bias": false,
+        "url": "https://www.multiquip.com/multiquip/prop65.htm",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-066",
+        "name": "Reddit — r/HomeImprovement on Reddit: Yet another window replacement",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Of these options, I&#x27;ve actually found that the Reliabilt 3500 has the lowest u value and SHGC.",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/jm2u3e/yet_another_window_replacement_question/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:56.000Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-067",
+        "name": "Reddit — r/HomeImprovement on Reddit: Window help! How to finish the",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "I am replacing a window that broke in our 1920s brick veneered house using a Reliabilt 3500 replacement window from Lowes. I understand how to…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/g5g5re/window_help_how_to_finish_the_outside_of/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:56.701Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-068",
+        "name": "Reddit — r/Construction on Reddit: Anyone have issues with ReliaBilt",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "We build a new construction home with 10 square slider ReliaBilt Windows and every single one of them had a <strong>manufacturing defect that prevented any water from reaching the weep holes and exiti",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Construction/comments/18n0mzt/anyone_have_issues_with_reliabilt_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:56.701Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-069",
+        "name": "Reddit — Anyone have issues with ReliaBilt Windows? : r/Construction",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Construction/comments/18n0mzt/anyone_have_issues_with_reliabilt_windows_w/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:57.237Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-070",
+        "name": "Reddit — r/Carpentry on Reddit: Reliabilt 3201 Windows",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "When looking at windows you can spend a fortune or choose the “lower” end models at the big box stores. Does anyone have any experience with the Reliabilt brand from Lowe’s? See both good and bad revi",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Carpentry/comments/121thiu/reliabilt_3201_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:56.720Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-071",
+        "name": "Reddit — r/homeowners on Reddit: Lowe’s Reliabilt Basement Window",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I am planning on installing a Reliabilt basement window into a 32”x14”opening in my basement but I can’t seem to remove the glass door portion from…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/homeowners/comments/1ba0ozy/lowes_reliabilt_basement_window/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:56.729Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-072",
+        "name": "Reddit — r/HomeImprovement on Reddit: Anyone have experience with REL",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I&#x27;m looking for some cheap double pane windows to install in my detached garage. I&#x27;m not so much concerned about the insulation value, but rather having that extra pane there if one of them ",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/17go0s7/anyone_have_experience_with_reliabilt_151_series/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:48:58.021Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-073",
+        "name": "Reddit — r/lehighvalley on Reddit: Replacement windows, five white, b",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "I just got a flyer in the mail from them, $489 I think for their middle of the road model window. Finally, your base model Chevy would be hiring a general contractor and getting windows from Home Depo",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/lehighvalley/comments/1dlswqv/replacement_windows_five_white_basic_standard/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:48:57.829Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-074",
+        "name": "Reddit — r/Lowes on Reddit: Lowes Window Installation Error. Advice o",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Check to see if the associate entered foam insulated windows on the quote sheet. If you see insulation type: foam insulated frame =&gt; Reliabilt fucked up. Don’t jump to conclusions and spazz out. Lo",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Lowes/comments/9a3cex/lowes_window_installation_error_advice_on/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:58.359Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-075",
+        "name": "Reddit — r/HomeImprovement on Reddit: analysis paralysis on vinyl rep",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Final thoughts - How big of a deal is Insert vs Full frame? the DH windows are a decent size. Reliabilt looks the most &quot;basic&quot;: flat, clean lines. The Sunrise window was awesome: great detai",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/9mv458/analysis_paralysis_on_vinyl_replacement_windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:57.780Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-076",
+        "name": "Reddit — r/HomeImprovement on Reddit: Reliabilt Sliding Door",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "To get that info, I need to remove the door, which I&#x27;m afraid of because it is sliding (although it&#x27;s difficult) if I take it apart I&#x27;m afraid of losing all the ball bearings and the do",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/10wam9a/reliabilt_sliding_door/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:57.738Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-077",
+        "name": "Reddit — r/HomeImprovement on Reddit: Stuck w/ the boxes for windows,",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Typically Simonton windows from HD don&#x27;t meet my most basic of reqs (Super Spacer) so in this case I would say go for the Reliabilts as they offer Super Spacer as a standard in their high-grade l",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/7wdyxz/stuck_w_the_boxes_for_windows_is_there_a/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:59.709Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-078",
+        "name": "Reddit — r/Homebuilding on Reddit: What’s the best RTA Cabinets?",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My current project is a laundry room. I consulted Reddit and did put in some inquiries with RTA cabinet websites. Ultimately I went with $2k of cabinets (8 total) from Lowes - Reliabilt Creston in Nav",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/Homebuilding/comments/1oefpe6/whats_the_best_rta_cabinets/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:59.003Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-079",
+        "name": "Reddit — r/HomeImprovement on Reddit: Cheaper Patio Sliding Doors? Re",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "Reliabilt is awful awful awful. They used to be cheap and it was a get what you pay for kind of thing. Now they’re more expensive and they don’t work. The wheels jam up and break off instantly. I high",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/138lzp6/cheaper_patio_sliding_doors_reliabilt/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": true,
+          "screened_at": "2026-03-16T19:48:59.674Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-080",
+        "name": "Reddit — r/HomeImprovement on Reddit: Sliding Screen Door Extender",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "I purchased a new sliding screen door (Reliabilt) from Lowe&#x27;s recently and came to find it is about 2 inches too short at its full extension. Looking…",
+        "price_bias": false,
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/1bi8eer/sliding_screen_door_extender/",
+        "_added_by": "source_parser",
+        "_phase": "phase_3_reddit",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:58.923Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-081",
+        "name": "GBA — What makes a \"good\" window? - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "I’m looking at Atrium’s Reliabilt windows series which have a u-value of 0.27 and a SHGC of around 0.2 (paper not with me right now) vs. a Pella 250 series with a u-value of 0.2 and similar SHGC. Both",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/what-makes-a-good-window",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
+      },
+      {
+        "id": "PC-RELIAB-082",
+        "name": "Houzz — Pricing for RELIABILT doors...too good to be true? | Houzz F",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2630307/pricing-for-reliabilt-doors-too-good-to-be-true",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:48:58.957Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-083",
+        "name": "Houzz — RELIABLE CONTRACTOR SERVICES - Project Photos & Reviews - Cl",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Houzz Pro · Houzz Pro vs. Ivy ... Reliable Contractor Services <strong>provides expert Northeast Ohio residential, commercial, municipal and industrial plumbing, drainage and foundation waterproofing ",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/plumbers/reliable-contractor-services-pfvwus-pf~724561438",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:00.314Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-084",
+        "name": "Houzz — Reliabilt Interior Doors",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/6168960/reliabilt-interior-doors",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:00.268Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-085",
+        "name": "Houzz — Therma-Tru vs. Reliabilt Fiberglass Door | Houzz Forum",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/2589653/therma-tru-vs-reliabilt-fiberglass-door",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:00.352Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-086",
+        "name": "Houzz — RELIABLE HOME BUILDERS - Project Photos & Reviews - San Jose",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Reliable Home Builders. &quot;Lead by Mario Silva Reliable Home Builders is <strong>a high end Full Service General Contractor and Custom Home Builders serving the greater Bay Area</strong>....",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/reliable-home-builders-pfvwus-pf~973442026",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:00.915Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-087",
+        "name": "Houzz — RELIABUILT CONSTRUCTION - Project Photos & Reviews - Las Veg",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/decks-patios-and-outdoor-enclosures/reliabuilt-construction-pfvwus-pf~186170482",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:00.273Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-088",
+        "name": "Houzz — Windows- ply gem, Pella, reliabilt",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "My builder uses <strong>Houzz Pro</strong> to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build.",
+        "price_bias": false,
+        "url": "https://www.houzz.com/discussions/5818511/windows-ply-gem-pella-reliabilt",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:01.553Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-089",
+        "name": "Houzz — RELIABLE CONSTRUCTION SOLUTIONS INC - Project Photos & Revie",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "This made the whole experience much more efficient and stress-free. ... Reliable Construction Solutions Inc. is <strong>a general contractor service company that provides all kinds of remodeling and n",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/reliable-construction-solutions-inc-pfvwus-pf~1169455569",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:01.569Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-090",
+        "name": "Houzz — RELIABLE HOME CONTRACTORS LLC - Project Photos & Reviews - B",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "My builder uses Houzz Pro to plan the timeline and give detailed estimates and daily updates with photos of progress, and provide invoices at pre-agreed key points in the build. This made the whole ex",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/general-contractors/reliable-home-contractors-llc-pfvwus-pf~221032661",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": true,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:01.501Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-091",
+        "name": "Houzz — RELIABLE HOME IMPROVEMENT - Project Photos & Reviews - Naper",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Tired of reading all the DIY tutorials? We are here to help. With over 1 million home professionals on Houzz, you’ll easily find the trusted Design-Build Contractor for your next project in Naperville",
+        "price_bias": false,
+        "url": "https://www.houzz.com/professionals/design-build-firms/reliable-home-improvement-pfvwus-pf~2080853049",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:01.498Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-092",
+        "name": "ReplacementWindowDiscussions — Regretting My ReliaBilt Choice? Long-Term Durability Woes",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "We cannot provide a description for this page right now",
+        "price_bias": false,
+        "url": "https://www.replacementwindowdiscussions.com/community/jeld-wen-reliabilt-windows/regretting-my-reliabilt-choice-long-term-durability-woes/paged/10/",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:02.124Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-093",
+        "name": "YouTube — ReliaBilt 3500 Vinyl Replacement Windows (Old Version) - You",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "There is a new version of this video located at: https://youtu.be/cgoElTqpV68",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=iftbezjeuUs",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:02.707Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-094",
+        "name": "YouTube — Reliabilt 3500 Vinyl Replacement Windows (Spanish Version) -",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Spanish version of the ReliaBilt 3500 replacement window product video.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=_0xdG8ytyzM",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:02.752Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-095",
+        "name": "YouTube — Lowes ReliaBilt 3201 Series Replacement Window - Review - Yo",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "In this video Danny is doing a review on a Lowes Reliabilt vinyl replacement window. See what he thinks!",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=4FNKdWnl_Sw",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:02.702Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-096",
+        "name": "YouTube — Installing ReliaBilt 3201 Replacement Windows - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Step-by-step process showing how to install replacement windows. See part 1 for window removal here: https://www.youtube.com/watch?v=4i7t8ixCHu0This is part...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=WCr8b6fILNM",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:04.693Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-097",
+        "name": "YouTube — Installing a new Reliabilt window in our bedroom ~ cottage r",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Moving on in our cottage remodelling, in this video, we removed the old window and replaced it with a window to match the other ones we have replaced in the ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=e4yS0bmqVuQ",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:03.250Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-098",
+        "name": "YouTube — ReliaBilt New Construction Windows - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "ReliaBilt&#x27;s new construction product video provides a detailed look at all of our new construction window offerings. Discover the unique features and options...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=eVe0LXfjiyE",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.305Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-099",
+        "name": "YouTube — ReliaBilt Series 3500 Replacement Windows - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Learn more about ReliaBilt’s advanced replacement window, the Series 3500. <strong>The 3500 window offers advanced features and outstanding performance</strong>. It boasts a ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=cgoElTqpV68",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.304Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-100",
+        "name": "YouTube — ReliaBilt Windows 101 Vinyl Replacement Window Installation",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Learn how to install a vinyl replacement window into a wood window opening.In this ReliaBilt replacement window installation tutorial, we’ll cover:Preparing ...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=xE3Xna7JkFc",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.305Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-101",
+        "name": "YouTube — ReliaBilt Windows 101 Vinyl Window Installation for New ...",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=cc-Rr5ZqkXw",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.305Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-102",
+        "name": "YouTube — ReliaBilt Windows 101: Window Anatomy - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Learn about the important parts of a window and where they are located.In this ReliaBilt window parts overview, we’ll cover these common terms in installatio...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=MIG45qsiAdc",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.305Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-103",
+        "name": "YouTube — ReliaBilt Windows 101 Vinyl Window Installation for Wood Win",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "A new version of this video is located at: https://www.youtube.com/watch?v=xE3Xna7JkFc",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=qyga_jaL8I0",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.921Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-104",
+        "name": "YouTube — ReliaBilt Series 3900 Replacement Windows - YouTube",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "Learn more about ReliaBilt’s ultimate replacement and new construction window. The 3900 features a number of deluxe enhancements made standard, a lifetime gl...",
+        "price_bias": false,
+        "url": "https://www.youtube.com/watch?v=3zhxuKCzL90",
+        "_added_by": "source_parser",
+        "_phase": "phase_5_youtube_installers",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.916Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:29.151Z"
+      },
+      {
+        "id": "PC-RELIAB-105",
+        "name": "NFRC certified performance data",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "NFRC certified performance data",
+        "price_bias": false,
+        "url": "https://search.nfrc.org/search/Searchdefault.aspx",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-RELIAB-106",
+        "name": "Energy Star certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Energy Star certification verification",
+        "price_bias": false,
+        "url": "https://www.energystar.gov/productfinder/product/certified-windows",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-RELIAB-107",
+        "name": "CPSC recall check",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "CPSC recall check",
+        "price_bias": false,
+        "url": "https://recalls.cpsc.gov",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-RELIAB-108",
+        "name": "AAMA certification verification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "AAMA certification verification",
+        "price_bias": false,
+        "url": "https://www.aama.net",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-RELIAB-109",
+        "name": "Declare label certification",
+        "pool": "certification",
+        "sentiment": "mixed",
+        "summary": "Declare label certification",
+        "price_bias": false,
+        "url": "https://declare.living-future.org",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-RELIAB-110",
+        "name": "Jay Johnson independent review (highest authority)",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Jay Johnson independent review (highest authority)",
+        "price_bias": false,
+        "url": "https://www.windowpurchase.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches"
+      },
+      {
+        "id": "PC-RELIAB-111",
+        "name": "TheWindowDog review (Pool C — demoted)",
+        "pool": "C",
+        "sentiment": "mixed",
+        "summary": "TheWindowDog review (Pool C — demoted)",
+        "price_bias": true,
+        "url": "https://www.thewindowdog.com",
+        "_added_by": "source_parser",
+        "_phase": "phase_1_direct_fetches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.917Z",
+          "text_source": "snippet"
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:31.440Z"
+      },
+      {
+        "id": "PC-RELIAB-112",
+        "name": "pella.com — Pella Performance Information | Pella",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "<strong>The lower the U-factor, the less heat transfer occurs through a product</strong>. U-factor is particularly important during the winter heating season in colder climates. For more information s",
+        "price_bias": false,
+        "url": "https://www.pella.com/support/performance-information/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-113",
+        "name": "TheWindowDog — Reliabilt Windows Review 2025 | Are Lowe’s Replacement Windo",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "Reliabilt’s warranty is fairly standard for a low-cost vinyl window: Limited lifetime warranty on frame and sash. Glass seal warranty (often prorated after 10 years). Labor warranty (<strong>usually 1",
+        "price_bias": true,
+        "url": "https://thewindowdog.com/reliabilt-by-lowes-windows-reviews/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": true,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:49:05.938Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-RELIAB-114",
+        "name": "nfrccommunity.org — Technical Documents - National Fenestration Rating Council",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "With more than 35 years of expertise, NFRC is the standard-bearer in fenestration performance certification, providing the public with objective data that helps stakeholders make informed decisions ab",
+        "price_bias": false,
+        "url": "https://nfrccommunity.org/page/TD",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-115",
+        "name": "pdf.lowes.com — At ReliaBilt we are proud of the quality and workmanship of",
+        "pool": "C",
+        "sentiment": "positive",
+        "summary": "At ReliaBilt we are proud of the quality and workmanship of our windows · and patio doors and want you to be satisfied with them. We are pleased · to offer you the following <strong>Transferable Lifet",
+        "price_bias": false,
+        "url": "http://pdf.lowes.com/warrantyguides/719801222589_warranty.pdf",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T20:15:12.732Z",
+          "text_source": "full_page"
+        }
+      },
+      {
+        "id": "PC-RELIAB-116",
+        "name": "thelemonfirm.com — GM Lawsuits & Recalls: Multiple Manufacturing Defects - Cali",
+        "pool": "unknown",
+        "sentiment": "negative",
+        "summary": "GM also has announced recalls of 700,000 Chevy Silverado, GMC Sierra Truck for multiple defects, including one that will have truck owners waiting for months for the replacement parts to come in. That",
+        "price_bias": false,
+        "url": "https://www.thelemonfirm.com/2021/11/04/gm-lawsuits-recalls-multiple-manufacturing-defects/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-117",
+        "name": "aeroflexusa.com — What is GREENGUARD Gold Certification? | Aeroflex USA",
+        "pool": "excluded",
+        "sentiment": "mixed",
+        "summary": "UL GREENGUARD Certification: <strong>establishes standard VOC emission limits for furniture and commercial building products</strong>.",
+        "price_bias": false,
+        "url": "https://aeroflexusa.com/what-is-greenguard-gold-certification/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-118",
+        "name": "Fine Homebuilding — What’s the Definition of “Green Building”? - Fine Homebuildi",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "If you’re aiming to use materials in a resource-efficient way, remember to choose materials with low embodied energy. For more information on the topic, read the article, “All About Embodied Energy,” ",
+        "price_bias": false,
+        "url": "https://www.finehomebuilding.com/project-guides/insulation/whats-definition-green-building",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-119",
+        "name": "p65warnings.ca.gov — Proposition 65 Warnings Website - Your right to know",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "This website, by the California Office of Environmental Health Hazard Assessment (OEHHA), provides resources for consumers and businesses. These resources can help consumers understand what a warning ",
+        "price_bias": false,
+        "url": "https://www.p65warnings.ca.gov/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-120",
+        "name": "oehha.ca.gov — About Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Learn about how consumers can use Proposition 65 warnings to protect their health. The Office of Environmental Health Hazard Assessment (OEHHA) administers the Proposition 65 program. OEHHA, which is ",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/about-proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-121",
+        "name": "oehha.ca.gov — Proposition 65 - OEHHA",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "The law <strong>protects the state&#x27;s drinking water sources from being contaminated with chemicals known to cause cancer, birth defects or other reproductive harm</strong>, and requires businesse",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-RELIAB-122",
+        "name": "oehha.ca.gov — The Proposition 65 List - OEHHA - CA.gov",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65, officially known as the Safe Drinking Water and Toxic Enforcement Act of 1986, was enacted as a ballot initiative in November 1986. The law <strong>protects the state&#x27;s drinking w",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/proposition-65-list",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
       }
     ],
     "_note": "Strong negative consensus across both professional and consumer pools. Price-bias flagged on Pool C but substantive complaints align with professional assessment."
   },
   "component_quality": {
     "quality_tier": "standard",
-    "_note": "Base vinyl with aluminum sash reinforcement and welded construction. Spacer type undisclosed. Standard classification."
+    "_note": "Base vinyl with aluminum sash reinforcement and welded construction. Spacer type undisclosed. Standard classification. | Source parser added: Low-E coating, dual-seal IGU, triple-pane available, Cardinal Glass IGU, warm-edge spacer, weatherstripping noted, Super Spacer (Edgetech)"
   },
   "repairability": {
     "igu_replacement_method": "sash_replacement",
@@ -63,8 +1957,8 @@
   },
   "performance": {
     "thermal": {
-      "u_factor": null,
-      "u_factor_source": null,
+      "u_factor": "0.35",
+      "u_factor_source": "https://efficientwindows.org/faq/",
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 5.5,
       "note": "NFRC certified, Energy Star qualified. Basic vinyl replacement window frame. No specific DH U-Factor published."
@@ -86,5 +1980,28 @@
       "note": "Manufacturer does not publish air infiltration value for DH configuration. Energy Star / NFRC certified indicates minimum standards met. Scored at certification floor for vinyl material class. Actual performance may be significantly better.",
       "non_disclosure_flag": true
     }
+  },
+  "_source_parser_meta": {
+    "productName": "Reliabilt 3500",
+    "config": "DH",
+    "category": "windows",
+    "manufacturer": "Reliabilt",
+    "isInternational": false,
+    "run_date": "2026-03-16T20:16:22.088Z",
+    "total_sources": 118,
+    "pool_a_count": 2,
+    "pool_b_count": 1,
+    "pool_c_count": 60,
+    "reddit_pending": 22,
+    "complaints_found": 1,
+    "certifications_found": 6,
+    "phase_6b_stats": {
+      "total": 153,
+      "relevant": 118,
+      "rejected": 35,
+      "skipped": 9,
+      "fetchFailed": 97
+    },
+    "phase_6b_rejected": 35
   }
 }

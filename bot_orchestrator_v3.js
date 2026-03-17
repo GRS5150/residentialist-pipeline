@@ -1507,7 +1507,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
       const q = bot2Parsed.scores.quality.axis_score;
       const d = bot2Parsed.scores.durability.axis_score;
       const p = bot2Parsed.scores.performance.axis_score;
-      bot2Parsed.overall_score = Math.round(((q * 0.35) + (d * 0.35) + (p * 0.30)) * 100) / 100;
+      bot2Parsed.overall_score = Math.round(((q * 0.35) + (d * 0.35) + (p * 0.30)) * 10);  // 0-100 scale
     }
 
     // Save the deterministic scoring report

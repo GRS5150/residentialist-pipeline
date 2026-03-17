@@ -99,3 +99,15 @@ All product-specific correction memos and pre-approved assumptions.
 - **File:** `pella_250_series_dh_correction_memo.md`
 - **Pre-approved specs:** Spacer System: Standard aluminum, Glazing Bead: Interior accessible, Weatherstrip Attachment: Compression fit
 - **Source:** Auto-generated
+
+## Ply Gem Pro Series (DH) — 2026-03-16
+- **Category:** windows
+- **File:** `ply_gem_pro_series_dh_correction_memo.md`
+- **Pre-approved specs:** Vinyl frame construction, Warm-edge spacer system, Standard quality tier components, −1.5 structural defect adjustment
+- **Source:** Auto-generated
+
+## Sierra Pacific (DH) — 2026-03-16
+- **Category:** windows
+- **File:** `sierra_pacific_dh_correction_memo.md`
+- **Pre-approved specs:** Glass Warranty: 20 years, U-factor: 0.28 (inferred from Westchester line), Air Infiltration: ENERGY STAR floor only, Material Class: Aluminum-Clad Wood (extruded)
+- **Source:** Auto-generated

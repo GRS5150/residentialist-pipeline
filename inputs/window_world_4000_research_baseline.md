@@ -1,12 +1,14 @@
-# Baseline Research: Window World 4000 (vinyl-dh)
-# Auto-generated: 2026-03-16T17:00:50.564Z
+# Baseline Research: Window World 4000 (DH)
+# Auto-generated: 2026-03-16T20:35:11.450Z
 # This file is automatically loaded on re-runs to avoid redundant web research.
 # To force a full re-research, delete this file.
 # Sections marked [LOCKED] are preserved on refresh runs.
 
-I'll conduct a refresh research on the Window World 4000 DH configuration, verifying the baseline claims and searching for new information. Let me begin with key verification searches and new data discovery.
-Now let me search for recent complaints, reviews, and field sources:
-Based on my comprehensive refresh research, I can now provide an updated complete findings document for the Window World 4000 DH configuration. The baseline research data appears accurate, and I've found some additional recent information and confirmations.
+I'll conduct a comprehensive web research to refresh and verify the baseline findings for the Window World 4000 DH configuration. Let me begin with the mandatory direct fetches and searches.
+Now let me search for more current information and verify pricing data:
+Now let me search for more recent service issues or field reports:
+Now let me search for information about recent service complaints and check for recalls:
+Based on my comprehensive refresh research, I can now provide a complete updated findings document for the Window World 4000 DH configuration. The baseline research appears to be accurate and current, and I've verified key information with additional sources.
 
 # WINDOW WORLD 4000 DH - RESEARCH FINDINGS (UPDATED)
 
@@ -33,23 +35,35 @@ The 4000 series has manufacturing variability, with some locations previously us
 - **Air Infiltration**: NOT PUBLISHED by manufacturer in accessible specifications
 
 ### Frame and Construction:
-- **Frame Material**: Virgin vinyl frames
-- **Spacer System**: PPG Intercept™ Warm Edge Spacer System
+- **Frame Material**: 
+Virgin vinyl frames
+
+- **Spacer System**: 
+PPG Intercept™ Warm Edge Spacer System
+
 - **Glazing System**: Dual-pane, double-strength insulated glass
-- **Weatherstripping**: Quad 4 weatherstripping at the header
-- **Meeting Rail**: Metal reinforcement for added strength at the meeting rail
+- **Weatherstripping**: 
+Quad 4 weatherstripping at the header
+
+- **Meeting Rail**: 
+Metal reinforcement for added strength at the meeting rail
+
 
 ### Performance Classification:
 - **Energy Star Certification**: 
 All Window World double hung windows are ENERGY STAR® Certified
 
-- **Good Housekeeping Seal**: Window World windows hold the Good Housekeeping Seal with two-year limited warranty
+- **Good Housekeeping Seal**: 
+Window World windows hold the Good Housekeeping Seal with two-year limited warranty
+
 
 ### Warranty Terms:
 - **Product Warranty**: 
 Limited lifetime warranty that's comparable to Champion's but shorter than Andersen's 20-year coverage
 
-- **Labor Coverage**: Five-year labor guarantee on all vinyl window series 3000 or above
+- **Labor Coverage**: 
+Five-year labor guarantee on all vinyl window series 3000 or above
+
 - **Transferability**: Transferable warranty with $250 transfer fee
 - **Labor Transfer**: Labor warranty does not transfer to new homeowner
 
@@ -75,22 +89,25 @@ While AAMA certification requires testing for air infiltration resistance, water
 
 ### Manufacturing Quality Concerns:
 
+
 Professional assessment indicates the 4000 series "is actually the MI 1600. Its a rather flimsy window."
  **INSTALL-CONFOUND: LOW** - This represents a design/material quality concern rather than installation.
 
 ### Product Performance Assessment:
 
+
 Independent reviewer assessment: "Generally not a vinyl series I would recommend for homeowners looking to stay in their homes long term. If consumers are considering WW, I would recommend upgrading to the company's higher end model."
 
 
 ### No Active Recalls Found:
-Search of CPSC database found no active recalls for Window World products as of March 2026. 
-Recent window recalls in 2026 have been limited to specific Andersen 100 Series casement window control devices
+
+Search of CPSC database found no active recalls for Window World products as of March 2026. Recent window recalls in 2026 have been limited to specific Andersen 100 Series casement window control devices
 , not affecting Window World products.
 
 ## 5. YELLOW FINDINGS
 
 ### Manufacturing Variability:
+
 
 Consumer confusion reported: "On the WW website, cross reference is made to an AMI window and a MIWD xact window relating to the 4000 series based on select features"
  - indicates potential regional manufacturing variations.
@@ -101,11 +118,12 @@ Some locations previously offered models equivalent to "Alside Mezzo" with "very
 
 ### Mixed Service Reviews:
 
+
 Recent service complaint: "Window World cancelled on me and told me my home was too old for them to even look at. You would think that true professionals would look, evaluate, and assess, but nope, just a phone call saying your home is too old."
  (July 2025)
 
-Positive service experience: 
-Customer report: "I had a Window World door-sized window get broken by a lawnmower rock. Window World replaced [it] at no charge on a very timely basis, and installers were on time and professionals."
+
+Positive service experience: Customer report: "I had a Window World door-sized window get broken by a lawnmower rock. Window World replaced [it] at no charge on a very timely basis, and installers were on time and professionals."
  (September 2025)
 
 ## 6. CONFIDENCE ASSESSMENT
@@ -115,6 +133,7 @@ Customer report: "I had a Window World door-sized window get broken by a lawnmow
 ## 7. FIELD SOURCE OPINIONS
 
 ### Professional Window Forum Assessments:
+
 
 Window professional assessment: "Neither are great or considered top performers or even above average. You can do better."
  (Regarding Window World 4000 vs Harvey Tribute comparison)
@@ -136,6 +155,7 @@ No qualified specialty forum sources (GBA, r/PassiveHouse, r/buildingscience) id
 ## 10. INSTALLATION CONFOUND FLAGS
 
 ### Service and Installation Quality Variability:
+
 
 Industry context: "Unfortunately, these complaints are relatively common among many window companies, not just Window World. Many top window installers outsource work to contractors, so your specific experience may vary depending on your location."
  **INSTALL-CONFOUND: HIGH** - Franchise model creates installation quality variability.

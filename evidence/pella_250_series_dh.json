@@ -187,7 +187,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:51.455Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-009",
@@ -205,7 +208,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:51.450Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-010",
@@ -238,7 +244,10 @@
         "price_bias": false,
         "url": "https://topclassactions.com/lawsuit-settlements/closed-settlements/pella-proline-windows-defect-class-action-settlement/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "quarantined": true,
+        "quarantine_reason": "lawsuit_10yr",
+        "quarantined_at": "2026-03-17T18:29:16.587Z"
       },
       {
         "id": "PC-PELLA2-013",
@@ -412,7 +421,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T19:14:54.322Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-025",
@@ -532,7 +544,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:54.050Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-034",
@@ -734,7 +749,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:56.091Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-046",
@@ -986,7 +1004,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T19:14:58.563Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-060",
@@ -1080,7 +1101,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:59.552Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-066",
@@ -1098,7 +1122,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:59.552Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-067",
@@ -1116,7 +1143,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:59.561Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-068",
@@ -1152,7 +1182,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:00.641Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-070",
@@ -1170,7 +1203,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:00.571Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-071",
@@ -1188,7 +1224,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:00.578Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-072",
@@ -1332,7 +1371,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:02.821Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-080",
@@ -1404,7 +1446,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:02.922Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-084",
@@ -1422,7 +1467,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:03.587Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-085",
@@ -1440,7 +1488,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:04.563Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-086",
@@ -1458,7 +1509,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:04.083Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-087",
@@ -1476,7 +1530,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:03.632Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-088",
@@ -1494,7 +1551,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:03.744Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-089",
@@ -1512,7 +1572,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:05.218Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-090",
@@ -1530,7 +1593,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:05.153Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-091",
@@ -1548,7 +1614,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:05.352Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-092",
@@ -1566,7 +1635,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:05.368Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-093",
@@ -1577,7 +1649,10 @@
         "price_bias": false,
         "url": "https://www.youtube.com/watch?v=Vvy-5yM9NXI",
         "_added_by": "source_parser",
-        "_phase": "phase_5_youtube_installers"
+        "_phase": "phase_5_youtube_installers",
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-094",
@@ -1595,7 +1670,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:05.405Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-095",
@@ -1613,7 +1691,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.107Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-096",
@@ -1631,7 +1712,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.056Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-097",
@@ -1649,7 +1733,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.004Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-098",
@@ -1667,7 +1754,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.065Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-099",
@@ -1685,7 +1775,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.089Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-100",
@@ -1703,7 +1796,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.698Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-101",
@@ -1721,7 +1817,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T19:15:06.709Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-102",
@@ -1739,7 +1838,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.696Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:14.018Z"
       },
       {
         "id": "PC-PELLA2-103",
@@ -1823,7 +1925,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:06.618Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-110",
@@ -2156,7 +2261,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:32:15.018Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-139",
@@ -2174,7 +2282,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:32:14.949Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:16.586Z"
       },
       {
         "id": "PC-PELLA2-140",

@@ -364,7 +364,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:03.846Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:40.130Z"
       },
       {
         "id": "PC-ANDERS-012",
@@ -455,7 +458,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:04.681Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-019",
@@ -473,7 +479,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:05.652Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-020",
@@ -509,7 +518,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:04.681Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-022",
@@ -527,7 +539,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:04.690Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-023",
@@ -556,7 +571,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:06.216Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-025",
@@ -618,7 +636,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:06.222Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-030",
@@ -730,7 +751,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:07.019Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-037",
@@ -748,7 +772,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:06.841Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-038",
@@ -766,7 +793,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:06.868Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-039",
@@ -784,7 +814,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:07.577Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-040",
@@ -1010,7 +1043,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:08.158Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-058",
@@ -1068,7 +1104,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:08.964Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-062",
@@ -1086,7 +1125,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:09.431Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-063",
@@ -1104,7 +1146,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:08.945Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-064",
@@ -1122,7 +1167,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:09.171Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-065",
@@ -1176,7 +1224,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:10.312Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-068",
@@ -1212,7 +1263,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:09.928Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-070",
@@ -1230,7 +1284,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:09.961Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-071",
@@ -1248,7 +1305,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:10.797Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:40.130Z"
       },
       {
         "id": "PC-ANDERS-072",
@@ -1266,7 +1326,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:11.006Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-073",
@@ -1284,7 +1347,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:10.806Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:40.130Z"
       },
       {
         "id": "PC-ANDERS-074",
@@ -1302,7 +1368,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:10.796Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-075",
@@ -1356,7 +1425,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:11.544Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-078",
@@ -1392,7 +1464,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:17:11.689Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-080",
@@ -1410,7 +1485,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:12.693Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-081",
@@ -1472,7 +1550,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:12.263Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-086",
@@ -1490,7 +1571,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:12.260Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-087",
@@ -1526,7 +1610,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:12.264Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-089",
@@ -1544,7 +1631,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:13.199Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-090",
@@ -1562,7 +1652,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:14.419Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-091",
@@ -1580,7 +1673,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:13.207Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-092",
@@ -1616,7 +1712,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:13.312Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-094",
@@ -1688,7 +1787,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:14.968Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-098",
@@ -1760,7 +1862,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:16.050Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:28:40.130Z"
       },
       {
         "id": "PC-ANDERS-102",
@@ -1843,7 +1948,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:18.945Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-107",
@@ -1861,7 +1969,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:16.516Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-108",
@@ -1879,7 +1990,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:16.511Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-109",
@@ -1897,7 +2011,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:16.547Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-110",
@@ -1915,7 +2032,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:19.519Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-111",
@@ -1933,7 +2053,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:19.512Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-112",
@@ -1951,7 +2074,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:19.438Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-113",
@@ -1969,7 +2095,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:20.058Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-114",
@@ -1987,7 +2116,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:19.428Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-115",
@@ -2005,7 +2137,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:20.900Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-116",
@@ -2023,7 +2158,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:20.832Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:41.554Z"
       },
       {
         "id": "PC-ANDERS-117",
@@ -2107,7 +2245,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:20.874Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-124",
@@ -2169,7 +2310,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:17:20.653Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-129",
@@ -2362,7 +2506,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T17:54:30.823Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:44.211Z"
       },
       {
         "id": "PC-ANDERS-144",
@@ -2380,7 +2527,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T17:54:36.963Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:28:08.282Z"
       },
       {
         "id": "PC-ANDERS-145",

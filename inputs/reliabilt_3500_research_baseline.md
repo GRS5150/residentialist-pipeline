@@ -1,5 +1,5 @@
 # Baseline Research: Reliabilt 3500 (DH)
-# Auto-generated: 2026-03-14T07:28:15.983Z
+# Auto-generated: 2026-03-16T20:18:13.142Z
 # This file is automatically loaded on re-runs to avoid redundant web research.
 # To force a full re-research, delete this file.
 # Sections marked [LOCKED] are preserved on refresh runs.
@@ -12,24 +12,18 @@ Based on my refresh verification of the baseline findings for Reliabilt 3500 DH,
 ## 1. PRODUCT OVERVIEW
 
 **Manufacturer:** 
-
 Reliabilt (Atrium Windows & Doors), sold exclusively through Lowe's
 
 
 **Material Class:** 
-
 Vinyl replacement window
 
 
 **Configuration Type:** 
+3500 Series DH (Double Hung) - relabeled Atrium 8700 window
 
-3500 Series DH (Double Hung) - relabeled Atrium window
 
-
-**Country of Origin:** 
-
-Made proudly in the USA
-
+**Country of Origin:** Made proudly in the USA
 
 ---
 
@@ -38,17 +32,14 @@ Made proudly in the USA
 ### Performance Data
 
 **U-Factor:** 
-
 0.31 (whole window, dual pane standard config)
 
 
 **SHGC:** 
-
 0.21 (whole window, dual pane standard config)
 
 
 **Design Pressure Rating:** 
-
 DP35 (standard), upgradeable to DP50 for coastal zone compliance
 
 
@@ -59,23 +50,20 @@ DP35 (standard), upgradeable to DP50 for coastal zone compliance
 ### Structural Performance
 
 **AAMA Certification:** 
-AAMA Certified - "from what I've read, this is a pretty good certification that not all window manufacturers are willing to apply for"
+AAMA Certified - confirmed through Florida Building Code certification documents
 
 
 ### Construction Details
 
 **Frame Material:** 
-
 Vinyl with aluminum sash reinforcement
 
 
 **Frame Construction:** 
-
 All-welded frame and sash corners
 
 
 **Balance System:** 
-
 Constant force coil balance system
 
 
@@ -86,25 +74,21 @@ Constant force coil balance system
 **Glazing Bead Construction:** NOT PUBLISHED in manufacturer specifications
 
 **Weatherstripping:** 
-
-Push button night vents, constant force balance system
+Dual-fin weather stripping and rubber bulb seal
 
 
 **Glass Type:** 
-
 Insulated glass for reduced condensation and better energy efficiency, Low-E glass with Argon gas
 
 
 ### Energy Performance
 
 **Energy Star Qualification:** 
-
 Energy Star qualified in all 4 zones. Consumers should double check this with their contractor prior to purchase
 
 
 **Energy Star V7.0 Status:** 
-
-Some Reliabilt windows do meet ENERGY STAR® Version 7.0 standards, particularly the Series 3500 and 3900 models
+Some Reliabilt windows do meet ENERGY STAR® Version 7.0 standards, particularly with glass packages that qualify in the specific climate zones
 
 
 ### Warranty Coverage
@@ -126,7 +110,6 @@ Warranty transferable to subsequent owner - warranty period for second owner is 
 ### Pricing
 
 **Cost Range:** 
-
 $600-$750 per window installed (typical costs)
 , 
 $350 to $600 fully installed
@@ -139,7 +122,7 @@ $350 to $600 fully installed
 The following critical data targets could NOT be confirmed despite extensive searching:
 
 - **Visible Transmittance (VT)** - NOT PUBLISHED by manufacturer. Searched NFRC database, manufacturer technical documents, Energy Star database
-- **Air Infiltration (cfm/ft²)** - NOT PUBLISHED by manufacturer. Standard NFRC specification not disclosed
+- **Air Infiltration (cfm/ft²)** - NOT PUBLISHED by manufacturer. Standard NFRC specification not disclosed  
 - **Spacer System Type** (warm-edge vs aluminum) - NOT PUBLISHED by manufacturer
 - **Seal System** (dual vs single) - NOT PUBLISHED in construction specifications
 - **Glazing Bead Construction** (interior vs exterior accessible) - NOT PUBLISHED by manufacturer
@@ -152,49 +135,36 @@ The following critical data targets could NOT be confirmed despite extensive sea
 ### Consumer Complaints and Quality Issues
 
 **Poor Consumer Reviews:** 
-
 Reliabilt Windows has 1.7 star rating based on 40 customer reviews. Consumers are mostly dissatisfied
 
 
 **Water Leakage Issues:** 
-
 Consumer reports of leaking windows with difficulty getting service resolution
  **[INSTALL-CONFOUND: MEDIUM]**
 
-**Quality Control Problems:** 
-
+**Quality Control Problems:** Consumer report: 
 Frames AND sashes not square. The factory rep while looking at defective windows told consumer "that the Atrium company was aware of the manufactured defective windows for the last two years"
 
 
-**Professional Installer Reports:** 
-
-Large-scale installer: "I deal with atrium windows on a large scale as a installer from a local company. These windows are crap their quality control sucks we get windows that don't function properly all the time"
-
+**Professional Installer Reports:** Large-scale installer: "I deal with atrium windows on a large scale as a installer from a local company. These windows are crap their quality control sucks we get windows that don't function properly all the time"
 
 **Manufacturing Defects:** 
-
 Consumer report: "My window was built wrong"
 
 
-**Construction Quality Issues:** 
-
-Professional installer: "Turned to reliabilt when another suppliers windows were coming in with no quality control. These are just as bad. Of 16 windows two came in with damaged balances. All look like they're built by Monkees covered in silicone"
-
+**Construction Quality Issues:** Professional installer: "Turned to reliabilt when another suppliers windows were coming in with no quality control. These are just as bad. Of 16 windows two came in with damaged balances. All look like they're built by Monkees covered in silicone"
 
 ### Installation and Service Issues
 
 **Installation Quality Concerns:** 
-
 Lowe's does not have in-house installers. Instead, they contract with independent crews. While some subcontractors are excellent, others may not specialize in windows at all
 
 
 **Service Resolution Problems:** 
-
 Expect finger-pointing. Lowe's may refer you to the installer, who then blames the manufacturer. Unfortunately, this is one of the most common complaints from homeowners who buy replacement windows through a retail store
 
 
 **Customer Service Issues:** 
-
 Poor service, no customer service rated as main consumer complaints
 
 
@@ -209,33 +179,24 @@ Poor service, no customer service rated as main consumer complaints
 ### Performance Limitations
 
 **Energy Performance Concerns:** 
-
 Many configurations fall short of the performance levels you'll see in higher-end products. Higher air infiltration rates (meaning more drafts)
 
 
-**Limited Advanced Features:** 
-
-Limited glass system upgrades. No advanced warm-edge spacer systems used in premium lines
-
+**Limited Advanced Features:** Limited glass system upgrades. No advanced warm-edge spacer systems used in premium lines
 
 ### Professional Assessments
 
 **Design Priority Concerns:** 
-
-Products "designed primarily to meet price expectations rather than performance benchmarks." Design priorities "lean toward hitting price points rather than long-term performance"
+Products "designed primarily to meet price expectations rather than performance benchmarks."
+ Design priorities 
+"lean toward hitting price points rather than long-term performance"
 
 
 ### Mixed Quality Reports
 
-**Some Positive Field Experience:** 
+**Some Positive Field Experience:** Consumer preference over Pella Thermastar: "The 3500 are much better in my opinion. I just bought 10 more and switched to the reliabilt. They are sturdier, lock tighter, have less vinyl frays from manufacturing/quality control"
 
-Consumer preference over Pella Thermastar: "The 3500 are much better in my opinion. I just bought 10 more and switched to the reliabilt. They are sturdier, lock tighter, have less vinyl frays from manufacturing/quality control"
-
-
-**Professional Assessment - Budget Tier:** 
-
-Professional installer: "if I was to buy a window from a hardware store, that Reliabilt would be near the top of my list... Not a bad window, certainly not junk, and a good buy for a DIY or someone on a tight budget"
-
+**Professional Assessment - Budget Tier:** Professional installer: "if I was to buy a window from a hardware store, that Reliabilt would be near the top of my list... Not a bad window, certainly not junk, and a good buy for a DIY or someone on a tight budget"
 
 ---
 
@@ -245,7 +206,7 @@ Professional installer: "if I was to buy a window from a hardware store, that Re
 
 **Rationale:**
 - **Strengths:** Confirmed core performance specifications from multiple independent sources, verified warranty terms, extensive field source feedback from both professionals and consumers, verified AAMA certification
-- **Weaknesses:** Manufacturer does not publish critical technical specifications (VT, air infiltration, spacer systems); consistent pattern of quality control issues from professional installers; poor consumer satisfaction ratings
+- **Weaknesses:** Manufacturer does not publish critical technical specifications (VT, air infiltration, spacer systems); consistent pattern of quality control issues from professional installers; poor consumer satisfaction ratings  
 - **Updated Data:** Recent 2025/2026 sources confirm Energy Star V7.0 qualification status and warranty transferability terms
 
 **Key Limitation:** While basic thermal performance meets industry minimums, the preponderance of quality control complaints from professional installers and consistently poor consumer reviews suggest significant real-world performance gaps.
@@ -256,26 +217,19 @@ Professional installer: "if I was to buy a window from a hardware store, that Re
 
 ### Qualified Reddit Power Users Found
 
-**u/BlackendLight (62,771 karma, 140-month account):** 
-Price-bias assessment: Trade professional active in plumbing/roofing, comparing technical specifications
+**u/BlackendLight (62,771 karma, 140-month account):** Price-bias assessment: Trade professional active in plumbing/roofing, comparing technical specifications
 
 ### Professional Field Sources
 
-**Large-Scale Professional Installer:** 
-
-Working professional: "I deal with atrium windows on a large scale as a installer from a local company. These windows are crap their quality control sucks we get windows that don't function properly all the time. We are constantly cutting welds back sashes don't fit"
+**Large-Scale Professional Installer:** Working professional: "I deal with atrium windows on a large scale as a installer from a local company. These windows are crap their quality control sucks we get windows that don't function properly all the time. We are constantly cutting welds back sashes don't fit"
 
 - **Credibility: HIGH (working professional with large-scale experience)**
 
-**Professional Window Forum Assessment:** 
-
-Professional installer preference for Reliabilt over competing big-box vinyl products: "OTOH if I was a homeowner and was looking for a decent window at a certain price, the upper end Reliabilt would be near the top of my list"
+**Professional Window Forum Assessment:** Professional installer preference for Reliabilt over competing big-box vinyl products: "OTOH if I was a homeowner and was looking for a decent window at a certain price, the upper end Reliabilt would be near the top of my list"
 
 - **Credibility: MODERATE**
 
-**DIY Consumer Experience:** 
-
-Homeowner with direct comparison experience: "The 3500 are much better in my opinion. I just bought 10 more and switched to the reliabilt... I recommend the reliabilt's based on side by side initial comparison and operation"
+**DIY Consumer Experience:** Homeowner with direct comparison experience: "The 3500 are much better in my opinion. I just bought 10 more and switched to the reliabilt... I recommend the reliabilt's based on side by side initial comparison and operation"
 
 - **Credibility: MODERATE (direct comparison with Pella)**
 
@@ -299,12 +253,11 @@ Energy Star qualified in all 4 zones
 
 ## 9. SPECIALTY FORUM FINDINGS
 
-**No GBA/Passive House Community Discussion Found:** Extended searches of GBA, r/PassiveHouse, and r/buildingscience yielded no substantial technical discussions of this product, likely due to its positioning as budget/big-box store product rather than high-performance option.
+**GBA Discussion Found:** 
+GBA community member comparing "Atrium's Reliabilt windows series which have a u-value of 0.27 and a SHGC of around 0.2" vs. Pella 250 series. Installation contractor "didn't think Reliabilt were 'good' windows but liked Pella."
 
-**Professional Window Forums:** 
 
-Mixed assessment - "upper end Reliabilt would be near the top of my list" for budget price point, described as budget-tier product
-
+**Professional Assessment from GBA:** The discussion focused on thermal performance vs. cost, with GBA members noting the significant price difference but questioning overall window quality beyond just U-factor ratings.
 
 ---
 
@@ -316,9 +269,7 @@ Water leakage complaints
  **[INSTALL-CONFOUND: MEDIUM]** - insufficient installer information to determine causation
 
 **LOW CONFOUND:**
-- 
-Quality control issues (frames not square, manufacturing defects, damaged balances)
- **[INSTALL-CONFOUND: LOW]** - manufacturing defects
+- Quality control issues (frames not square, manufacturing defects, damaged balances) **[INSTALL-CONFOUND: LOW]** - manufacturing defects
 - 
 Product construction errors ("My window was built wrong. Rollers are on the top of the window. They should be on the bottom")
  **[INSTALL-CONFOUND: LOW]** - design/manufacturing issues
@@ -327,4 +278,4 @@ Product construction errors ("My window was built wrong. Rollers are on the top 
 
 ---
 
-*Research completed March 14, 2026. All citations linked to specific source documents and dates.*
+*Research completed March 16, 2026. All citations linked to specific source documents and dates.*

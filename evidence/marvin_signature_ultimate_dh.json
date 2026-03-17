@@ -204,7 +204,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:28.342Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-010",
@@ -262,7 +265,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:29.349Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-014",
@@ -280,7 +286,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:27.610Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-015",
@@ -298,7 +307,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:30.897Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-016",
@@ -316,7 +328,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:29.963Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-017",
@@ -334,7 +349,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:29.964Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-018",
@@ -352,7 +370,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:29.963Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-019",
@@ -439,7 +460,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:31.524Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-025",
@@ -504,7 +528,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:32.292Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-029",
@@ -625,7 +652,10 @@
         "price_bias": false,
         "url": "https://www.greenbuildingadvisor.com/article/fine-homebuilding-summit-2025",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "quarantined": true,
+        "quarantine_reason": "bad_pool_a",
+        "quarantined_at": "2026-03-17T01:50:50.274Z"
       },
       {
         "id": "PC-MARVIN-040",
@@ -643,7 +673,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:33.324Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-041",
@@ -654,7 +687,10 @@
         "price_bias": false,
         "url": "https://www.greenbuildingadvisor.com/article/what-is-building-science",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "quarantined": true,
+        "quarantine_reason": "bad_pool_a",
+        "quarantined_at": "2026-03-17T01:50:50.275Z"
       },
       {
         "id": "PC-MARVIN-042",
@@ -672,7 +708,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:32.934Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-043",
@@ -690,7 +729,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:33.187Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-044",
@@ -719,7 +761,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:32.935Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-046",
@@ -832,7 +877,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:34.030Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-055",
@@ -872,7 +920,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:34.018Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-058",
@@ -980,7 +1031,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T18:47:35.794Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-064",
@@ -998,7 +1052,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:35.857Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-065",
@@ -1016,7 +1073,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T18:47:35.847Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-066",
@@ -1052,7 +1112,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:36.659Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-068",
@@ -1070,7 +1133,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:36.618Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-069",
@@ -1088,7 +1154,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:36.617Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-070",
@@ -1124,7 +1193,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:37.267Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-072",
@@ -1196,7 +1268,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:38.188Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-076",
@@ -1232,7 +1307,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T18:47:38.803Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-078",
@@ -1250,7 +1328,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T18:47:38.830Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-079",
@@ -1261,7 +1342,10 @@
         "price_bias": false,
         "url": "https://www.greenbuildingadvisor.com/question/budget-friendly-windows-that-you-can-still-get-a-good-blower-door-test-with",
         "_added_by": "source_parser",
-        "_phase": "phase_4_professional_forums"
+        "_phase": "phase_4_professional_forums",
+        "quarantined": true,
+        "quarantine_reason": "bad_pool_a",
+        "quarantined_at": "2026-03-17T01:50:50.275Z"
       },
       {
         "id": "PC-MARVIN-080",
@@ -1297,7 +1381,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:38.884Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-082",
@@ -1351,7 +1438,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T18:47:39.488Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-085",
@@ -1369,7 +1459,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:39.488Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-086",
@@ -1387,7 +1480,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:39.488Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-087",
@@ -1405,7 +1501,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:40.025Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-088",
@@ -1423,7 +1522,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:42.007Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:06.039Z"
       },
       {
         "id": "PC-MARVIN-089",
@@ -1549,7 +1651,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:42.603Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-096",
@@ -1567,7 +1672,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:42.855Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-097",
@@ -1585,7 +1693,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:43.363Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-098",
@@ -1603,7 +1714,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:43.441Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-099",
@@ -1668,7 +1782,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:43.744Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-103",
@@ -1686,7 +1803,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:44.318Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-104",
@@ -1704,7 +1824,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:44.256Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-105",
@@ -1722,7 +1845,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:44.292Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-106",
@@ -1740,7 +1866,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:44.509Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-107",
@@ -1758,7 +1887,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:44.385Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-108",
@@ -1776,7 +1908,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:45.119Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-109",
@@ -1794,7 +1929,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:45.119Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-110",
@@ -1812,7 +1950,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:47.265Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-111",
@@ -1830,7 +1971,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:45.310Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-112",
@@ -1848,7 +1992,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:45.271Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T01:50:50.276Z"
       },
       {
         "id": "PC-MARVIN-113",
@@ -1932,7 +2079,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T18:47:47.843Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T01:50:53.353Z"
       },
       {
         "id": "PC-MARVIN-120",

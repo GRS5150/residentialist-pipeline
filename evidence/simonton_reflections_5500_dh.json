@@ -67,6 +67,58 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIMONT-005",
+        "description": "Multiple Simonton 5500 windows exhibited quality control issues including super-spacer debris between panes and improperly ground shadow welds, with other forum users confirming similar defects occur ",
+        "classification": "COSMETIC",
+        "evidence_level": "YELLOW",
+        "source": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=2760",
+        "year": 2009,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIMONT-006",
+        "description": "Simonton Reflections 5500 picture window developed seal failure with water condensation between panes approximately 10 years after installation.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.houzz.com/discussions/2632741/getting-a-replacement-replacement-window-simonton",
+        "year": 2009,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIMONT-007",
+        "description": "Customer reported super-spacer debris between panes and grinding defects in shadow weld on multiple newly installed Simonton 5500 windows, with industry professional confirming this represents a patte",
+        "classification": "COSMETIC",
+        "evidence_level": "YELLOW",
+        "source": "https://www.vinyl-replacement-windows.com/forum/viewtopic.php?t=2760",
+        "year": 2009,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": true,
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-SIMONT-008",
+        "description": "Water penetration between dual panes of Simonton Reflections 5500 picture window causing seal failure and condensation that will not dry.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.houzz.com/discussions/2632741/getting-a-replacement-replacement-window-simonton",
+        "year": 2009,
+        "status": "unknown",
+        "systemic": false,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -277,7 +329,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:07.918Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-016",
@@ -295,7 +350,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:07.926Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-017",
@@ -342,7 +400,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:08.172Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-020",
@@ -563,7 +624,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:09.788Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-035",
@@ -628,7 +692,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:09.957Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-039",
@@ -664,7 +731,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:10.602Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:40.749Z"
       },
       {
         "id": "PC-SIMONT-041",
@@ -845,7 +915,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:11.800Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:40.749Z"
       },
       {
         "id": "PC-SIMONT-053",
@@ -899,7 +972,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:12.398Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:40.749Z"
       },
       {
         "id": "PC-SIMONT-056",
@@ -971,7 +1047,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:13.042Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:40.749Z"
       },
       {
         "id": "PC-SIMONT-060",
@@ -1486,7 +1565,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:18.291Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-089",
@@ -1515,7 +1597,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:16.965Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-091",
@@ -1551,7 +1636,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:18.808Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-093",
@@ -1569,7 +1657,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:19.350Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-094",
@@ -1587,7 +1678,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:18.879Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-095",
@@ -1605,7 +1699,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:18.801Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-096",
@@ -1623,7 +1720,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:19.918Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-097",
@@ -1641,7 +1741,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:19.870Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-098",
@@ -1659,7 +1762,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:46:19.918Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:38.652Z"
       },
       {
         "id": "PC-SIMONT-099",
@@ -2013,7 +2119,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:46:20.984Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:40.749Z"
       },
       {
         "id": "PC-SIMONT-128",
@@ -2031,7 +2140,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T15:43:34.761Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:40.749Z"
       },
       {
         "id": "PC-SIMONT-129",
@@ -2110,7 +2222,7 @@
   },
   "component_quality": {
     "quality_tier": null,
-    "_note": "Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, triple-pane available, Cardinal Glass IGU, Fibrex composite material | Source parser added: Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, Cardinal Glass IGU, Fibrex composite material, triple-pane available"
+    "_note": "Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, triple-pane available, Cardinal Glass IGU, Fibrex composite material | Source parser added: Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, Cardinal Glass IGU, Fibrex composite material, triple-pane available | Source parser added: Super Spacer (Edgetech), Intercept spacer (PPG), Low-E coating, weatherstripping noted, Cardinal Glass IGU, Fibrex composite material, triple-pane available"
   },
   "repairability": {
     "igu_replacement_method": null,
@@ -2144,24 +2256,24 @@
   "_source_parser_meta": {
     "productName": "Simonton Reflections 5500",
     "config": "DH",
-    "category": "Windows",
+    "category": "windows",
     "manufacturer": "Simonton",
     "isInternational": false,
-    "run_date": "2026-03-16T15:44:58.683Z",
-    "total_sources": 130,
+    "run_date": "2026-03-16T20:35:43.282Z",
+    "total_sources": 131,
     "pool_a_count": 2,
     "pool_b_count": 4,
-    "pool_c_count": 79,
+    "pool_c_count": 80,
     "reddit_pending": 24,
     "complaints_found": 2,
     "certifications_found": 5,
     "phase_6b_stats": {
       "total": 139,
-      "relevant": 130,
-      "rejected": 9,
-      "skipped": 29,
-      "fetchFailed": 85
+      "relevant": 131,
+      "rejected": 8,
+      "skipped": 30,
+      "fetchFailed": 84
     },
-    "phase_6b_rejected": 9
+    "phase_6b_rejected": 8
   }
 }

@@ -125,7 +125,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:49.766Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-010",
@@ -216,7 +219,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:49.255Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-017",
@@ -271,7 +277,10 @@
         "price_bias": false,
         "url": "https://www.planet-9.com/threads/pcna-settles-class-action-lawsuit-for-ims-failures.80579/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "quarantined": true,
+        "quarantine_reason": "lawsuit_10yr",
+        "quarantined_at": "2026-03-17T18:27:35.791Z"
       },
       {
         "id": "PC-ALPENZ-022",
@@ -417,7 +426,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:49.316Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-034",
@@ -559,7 +571,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:51.593Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-045",
@@ -779,7 +794,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:52.677Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-058",
@@ -815,7 +833,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:04:54.374Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-060",
@@ -851,7 +872,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:54.375Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-062",
@@ -869,7 +893,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:54.827Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-063",
@@ -887,7 +914,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:54.396Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-064",
@@ -992,7 +1022,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:55.709Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-071",
@@ -1010,7 +1043,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:55.401Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-072",
@@ -1028,7 +1064,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:56.274Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-073",
@@ -1064,7 +1103,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:56.290Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-075",
@@ -1082,7 +1124,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:56.631Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-076",
@@ -1100,7 +1145,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:56.184Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-077",
@@ -1136,7 +1184,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.326Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-079",
@@ -1154,7 +1205,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.142Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-080",
@@ -1172,7 +1226,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.151Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-081",
@@ -1190,7 +1247,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.388Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-082",
@@ -1208,7 +1268,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.857Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-083",
@@ -1244,7 +1307,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.999Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-085",
@@ -1262,7 +1328,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.884Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-086",
@@ -1280,7 +1349,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:57.909Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:27:33.824Z"
       },
       {
         "id": "PC-ALPENZ-087",
@@ -1364,7 +1436,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:58.611Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-094",
@@ -1481,7 +1556,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T17:11:32.115Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:27:35.790Z"
       },
       {
         "id": "PC-ALPENZ-104",

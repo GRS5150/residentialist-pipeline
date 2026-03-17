@@ -1,0 +1,11 @@
+const db = require("better-sqlite3")("residentialist.db");
+const prods = db.prepare("SELECT id, product_name, overall_score FROM products WHERE category = ?").all("windows");
+console.log("=== PRODUCTS ===");
+prods.forEach(r => console.log(r.id, (r.overall_score||"null").toString().padEnd(6), r.product_name));
+console.log("\n=== RUN HISTORY (recent) ===");
+const hist = db.prepare("SELECT r.product_id, p.product_name, r.status, r.started_at, r.completed_at FROM run_history r JOIN products p ON p.id = r.product_id ORDER BY r.started_at DESC LIMIT 25").all();
+hist.forEach(h => console.log(h.status.padEnd(12), (h.product_name||"?").padEnd(40), h.completed_at || "running..."));
+console.log("\n=== ESCALATIONS ===");
+const esc = db.prepare("SELECT r.product_id, p.product_name, r.status, r.notes FROM run_history r JOIN products p ON p.id = r.product_id WHERE r.status = ?").all("ESCALATED");
+esc.forEach(e => console.log(e.product_name, "-", (e.notes||"no notes").substring(0,100)));
+if(esc.length === 0) console.log("None");

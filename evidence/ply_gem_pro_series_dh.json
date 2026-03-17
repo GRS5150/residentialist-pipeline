@@ -73,6 +73,45 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PLYGEM-006",
+        "description": "Class action lawsuit alleges defective Ply Gem windows causing water pooling, moisture transfer, and resulting mold and wood rot damage in South Carolina neighborhood.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "RED",
+        "source": "https://www.dwmmag.com/2025/08/06/class-action-lawsuit-alleges-defective-ply-gem-windows-in-south-carolina-neighborhood/",
+        "year": 2025,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PLYGEM-007",
+        "description": "Customer reports Ply Gem windows as defective and plans legal action against the company, indicating widespread quality problems.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Homebuilding/comments/1jlhfyh/ply_gem_windows/",
+        "year": null,
+        "status": "ongoing",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PLYGEM-008",
+        "description": "Ply Gem windows have poor quality control at manufacturing level with manufacturing defects addressed through field fixes rather than at source.",
+        "classification": "STRUCTURAL_DEFECT",
+        "evidence_level": "YELLOW",
+        "source": "https://www.reddit.com/r/Calgary/comments/1iuc7uu/im_so_torn_between_lux_window_or_ply_gem_window/",
+        "year": null,
+        "status": "unknown",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -138,7 +177,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:38.107Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-005",
@@ -258,7 +300,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:39.331Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-014",
@@ -338,7 +383,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:39.053Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-020",
@@ -367,7 +415,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:39.295Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-022",
@@ -421,7 +472,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:41.299Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-025",
@@ -472,7 +526,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:41.064Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-029",
@@ -490,7 +547,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:41.106Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-030",
@@ -508,7 +568,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:41.240Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-031",
@@ -537,7 +600,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:41.903Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-033",
@@ -591,7 +657,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:42.081Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-036",
@@ -689,7 +758,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:42.969Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-043",
@@ -743,7 +815,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:43.063Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-046",
@@ -905,7 +980,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:46.907Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-055",
@@ -923,7 +1001,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:46.943Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-056",
@@ -995,7 +1076,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:47.582Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-060",
@@ -1013,7 +1097,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:47.558Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-061",
@@ -1067,7 +1154,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:48.314Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-064",
@@ -1085,7 +1175,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:48.296Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:26.619Z"
       },
       {
         "id": "PC-PLYGEM-065",
@@ -1121,7 +1214,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:48.962Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-067",
@@ -1139,7 +1235,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:49.046Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-068",
@@ -1157,7 +1256,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:48.962Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-069",
@@ -1193,7 +1295,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:48.962Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-071",
@@ -1229,7 +1334,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:50.309Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-073",
@@ -1247,7 +1355,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:49.678Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-074",
@@ -1265,7 +1376,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:37:49.565Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:24.473Z"
       },
       {
         "id": "PC-PLYGEM-075",
@@ -1592,6 +1706,35 @@
         "url": "https://www.plygem.com/windows-doors/support/warranty/warranty-request/",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PLYGEM-104",
+        "name": "bbb.org — Ply Gem Industries, Inc. | Complaints",
+        "pool": "C",
+        "sentiment": "negative",
+        "summary": "He further stated that there were no cracks in the foundation, nor in the drywall, and most importantly no indications of settling, and that an engineer would call to set up an appointment.5. When no ",
+        "price_bias": false,
+        "url": "https://www.bbb.org/us/nc/cary/profile/building-materials/ply-gem-industries-inc-0593-90170862/complaints",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches",
+        "_credibility_screen": {
+          "claims_trade_experience": false,
+          "has_technical_claims": false,
+          "price_bias_detected": false,
+          "screened_at": "2026-03-16T19:57:55.284Z",
+          "text_source": "snippet"
+        }
+      },
+      {
+        "id": "PC-PLYGEM-105",
+        "name": "GBA — Where are commercially available VIG windows? Are they vapor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "J.M., I don&#x27;t see any evidence the Ply Gem has released a product using vacuum-insulated glazing.",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/where-are-commercially-available-vig-windows-are-they-vaporware",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
       }
     ],
     "_note": "Single Pool B source with mixed sentiment. Limited professional evaluation data available."
@@ -1635,21 +1778,21 @@
     "category": "windows",
     "manufacturer": "Ply Gem",
     "isInternational": false,
-    "run_date": "2026-03-16T19:38:25.525Z",
-    "total_sources": 105,
+    "run_date": "2026-03-16T19:58:41.993Z",
+    "total_sources": 103,
     "pool_a_count": 3,
     "pool_b_count": 3,
-    "pool_c_count": 55,
+    "pool_c_count": 56,
     "reddit_pending": 19,
     "complaints_found": 3,
     "certifications_found": 7,
     "phase_6b_stats": {
-      "total": 144,
-      "relevant": 105,
-      "rejected": 39,
-      "skipped": 32,
+      "total": 145,
+      "relevant": 103,
+      "rejected": 42,
+      "skipped": 30,
       "fetchFailed": 59
     },
-    "phase_6b_rejected": 39
+    "phase_6b_rejected": 42
   }
 }

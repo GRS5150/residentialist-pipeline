@@ -45,6 +45,19 @@
         "_verified_by": "haiku_complaint_verification",
         "_had_page_text": "",
         "_added_by": "source_parser"
+      },
+      {
+        "id": "MQ-PELLAI-003",
+        "description": "Pella recalled sliding patio doors and windows due to button-cell batteries in sensor panels and remote controls that are easily accessible to children, creating an ingestion hazard.",
+        "classification": "SAFETY",
+        "evidence_level": "RED",
+        "source": "https://www.dwmmag.com/2025/02/07/pella-recalls-sliding-patio-doors-and-windows/",
+        "year": 2025,
+        "status": "recall_active",
+        "systemic": true,
+        "_verified_by": "haiku_complaint_verification",
+        "_had_page_text": "",
+        "_added_by": "source_parser"
       }
     ]
   },
@@ -96,7 +109,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:03.345Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-005",
@@ -267,7 +283,10 @@
         "price_bias": false,
         "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/pella-reaches-26m-window-defect-class-action-settlement/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "quarantined": true,
+        "quarantine_reason": "lawsuit_10yr",
+        "quarantined_at": "2026-03-17T18:29:21.911Z"
       },
       {
         "id": "PC-PELLAI-018",
@@ -318,7 +337,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:04.406Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-022",
@@ -358,7 +380,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:04.564Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-025",
@@ -376,7 +401,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:04.550Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-026",
@@ -641,7 +669,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:06.927Z",
           "text_source": "full_page"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-045",
@@ -725,7 +756,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:07.387Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-052",
@@ -934,7 +968,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:08.967Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-064",
@@ -952,7 +989,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:09.389Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-065",
@@ -970,7 +1010,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:08.967Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-066",
@@ -988,7 +1031,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:10.139Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-067",
@@ -1006,7 +1052,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:10.077Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-068",
@@ -1060,7 +1109,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:10.102Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-071",
@@ -1078,7 +1130,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:10.760Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-072",
@@ -1096,7 +1151,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:10.862Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-073",
@@ -1204,7 +1262,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:11.397Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-079",
@@ -1298,7 +1359,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:12.551Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-085",
@@ -1442,7 +1506,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:14.290Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-093",
@@ -1460,7 +1527,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:15.725Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-094",
@@ -1550,7 +1620,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T19:27:16.314Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-099",
@@ -1597,7 +1670,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:16.374Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-102",
@@ -1615,7 +1691,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:16.456Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-103",
@@ -1633,7 +1712,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:16.290Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-104",
@@ -1651,7 +1733,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:17.197Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-105",
@@ -1669,7 +1754,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:17.186Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-106",
@@ -1687,7 +1775,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:17.091Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-107",
@@ -1705,7 +1796,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:17.433Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-108",
@@ -1723,7 +1817,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:17.583Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-109",
@@ -1741,7 +1838,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:18.502Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-110",
@@ -1759,7 +1859,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:18.166Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-111",
@@ -1777,7 +1880,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:18.202Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-112",
@@ -1795,7 +1901,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:19.678Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-113",
@@ -1813,7 +1922,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:18.135Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-114",
@@ -1831,7 +1943,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.278Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-115",
@@ -1842,7 +1957,10 @@
         "price_bias": false,
         "url": "https://www.youtube.com/watch?v=Vvy-5yM9NXI",
         "_added_by": "source_parser",
-        "_phase": "phase_5_youtube_installers"
+        "_phase": "phase_5_youtube_installers",
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-116",
@@ -1860,7 +1978,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.316Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-117",
@@ -1878,7 +1999,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.255Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-118",
@@ -1896,7 +2020,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.231Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-119",
@@ -1914,7 +2041,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.290Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-120",
@@ -1932,7 +2062,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.904Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-121",
@@ -1968,7 +2101,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.918Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-123",
@@ -1986,7 +2122,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T19:27:20.958Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-124",
@@ -2004,7 +2143,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:20.888Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-17T18:29:19.096Z"
       },
       {
         "id": "PC-PELLAI-125",
@@ -2088,7 +2230,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:27:21.738Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-17T18:29:21.910Z"
       },
       {
         "id": "PC-PELLAI-132",
@@ -2375,6 +2520,72 @@
         "url": "https://www.pella.com/ideas/windows/pella-impervia/ratings-reviews/",
         "_added_by": "source_parser",
         "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLAI-158",
+        "name": "PHIUS — Pella Impervia Direct Set | Phius",
+        "pool": "B",
+        "sentiment": "mixed",
+        "summary": "Phius product certificates provide the component-level data needed for actual-size thermal performance calculations. Phius Blue Path and Orange Path certificates are functionally equivalent for use in",
+        "price_bias": false,
+        "url": "https://www.phius.org/products/w-101513",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLAI-159",
+        "name": "azvalleywindows.com — Understanding The Pella Window Warranty - AZ Valley Windows",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "Labor Costs: <strong>Many window warranties exclude labor costs for repair or replacement</strong>. However, Pella’s Limited Lifetime Warranty includes coverage for these costs as well. This means tha",
+        "price_bias": false,
+        "url": "https://azvalleywindows.com/blog/understanding-the-pella-window-warranty/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLAI-160",
+        "name": "pellaofpnw.com — Parts and Service | Expert Help From Pella Seattle Tacoma",
+        "pool": "unknown",
+        "sentiment": "mixed",
+        "summary": "The Pella Promise is not available for purchase through lumberyards, national home centers such as Lowe’s and through independent contractors, including Pella Certified Contractors, Pella Select Contr",
+        "price_bias": false,
+        "url": "https://pellaofpnw.com/parts-and-service/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLAI-161",
+        "name": "houstonwindowexperts.com — Are Pella Windows Any Good? What's the Pella difference?",
+        "pool": "unknown",
+        "sentiment": "positive",
+        "summary": "Contemporary style windows from Pella only come in awning windows, casement windows, and fixed (or picture) windows. We’re not going to even get into all of the countless options that are available in",
+        "price_bias": false,
+        "url": "https://houstonwindowexperts.com/an-introduction-to-pella-windows/",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLAI-162",
+        "name": "oehha.ca.gov — The Proposition 65 List - OEHHA - CA.gov",
+        "pool": "excluded",
+        "sentiment": "negative",
+        "summary": "Proposition 65, officially known as the Safe Drinking Water and Toxic Enforcement Act of 1986, was enacted as a ballot initiative in November 1986. The law <strong>protects the state&#x27;s drinking w",
+        "price_bias": false,
+        "url": "https://oehha.ca.gov/proposition-65/proposition-65-list",
+        "_added_by": "source_parser",
+        "_phase": "phase_2_web_searches"
+      },
+      {
+        "id": "PC-PELLAI-163",
+        "name": "GBA — New home - window choices - GreenBuildingAdvisor",
+        "pool": "A",
+        "sentiment": "mixed",
+        "summary": "Dave Check out the links Martin posted, as well as check into the fiberglass companies I suggested. Even looking at their double pane options, their air sealing tests and overall u values still beat a",
+        "price_bias": false,
+        "url": "https://www.greenbuildingadvisor.com/question/new-home-window-choices",
+        "_added_by": "source_parser",
+        "_phase": "phase_4_professional_forums"
       }
     ],
     "_note": "Pool B professional sources with mixed sentiment. No Pool A (GBA/FHB/JLC/BSC) sources found specifically for Impervia DH."
@@ -2395,7 +2606,8 @@
       "evidence_level": "CERTIFICATION_FLOOR",
       "score": 6,
       "note": "NFRC certified, Energy Star qualified. Pultruded fiberglass frame — inherently low frame conductivity. Bot 1 found U-factor 0.48, SHGC 0.58-0.59, VT 0.61-0.62 — these should be picked up by Bot 2 on rescore. This evidence file's score=6 is a FALLBACK only, not pinned.",
-      "_rescore_expected": "Bot 1's U-factor 0.48 should produce a score around 6.5-7.5 depending on Bot 2's thermal scoring scale."
+      "_rescore_expected": "Bot 1's U-factor 0.48 should produce a score around 6.5-7.5 depending on Bot 2's thermal scoring scale.",
+      "shgc": "0.40"
     },
     "structural": {
       "aama_class": "LC-PG30 to LC-PG50",
@@ -2420,21 +2632,21 @@
     "category": "windows",
     "manufacturer": "Pella",
     "isInternational": false,
-    "run_date": "2026-03-16T19:28:29.775Z",
-    "total_sources": 158,
-    "pool_a_count": 11,
-    "pool_b_count": 4,
-    "pool_c_count": 86,
+    "run_date": "2026-03-16T19:49:11.770Z",
+    "total_sources": 161,
+    "pool_a_count": 12,
+    "pool_b_count": 5,
+    "pool_c_count": 85,
     "reddit_pending": 28,
     "complaints_found": 1,
     "certifications_found": 5,
     "phase_6b_stats": {
-      "total": 194,
-      "relevant": 158,
-      "rejected": 36,
+      "total": 193,
+      "relevant": 161,
+      "rejected": 32,
       "skipped": 35,
-      "fetchFailed": 107
+      "fetchFailed": 110
     },
-    "phase_6b_rejected": 36
+    "phase_6b_rejected": 32
   }
 }
