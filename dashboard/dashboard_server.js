@@ -277,6 +277,8 @@ const MIME_TYPES = {
   '.woff': 'font/woff'
 };
 
+const activeJobs = new Map();
+
 // ── API Routes ──────────────────────────────────────────────────────────────
 function handleAPI(req, res, parsedUrl) {
   const pathname = parsedUrl.pathname;
@@ -551,6 +553,149 @@ function handleAPI(req, res, parsedUrl) {
     return true;
   }
 
+
+  // POST /api/pipeline/run
+  if (pathname === '/api/pipeline/run' && req.method === 'POST') {
+    parseRequestBody(req).then(body => {
+      const { product_name, category, config } = body || {};
+      if (!product_name) { sendJSON(res, { error: 'Missing product_name' }, 400); return; }
+      const jobId = Date.now();
+      const pipelineCode = "const p = require('../bot_orchestrator_v3'); p.runPipeline('" + product_name + "', '" + (config || '') + "');";
+      const child = require('child_process').spawn('node', ['-e', pipelineCode], { cwd: path.join(__dirname, '..'), detached: true, stdio: 'ignore' });
+      child.unref();
+      activeJobs.set(jobId, { product_name, category, config, status: 'running', startedAt: new Date() });
+      sendJSON(res, { success: true, job_id: jobId });
+    }).catch(() => { sendJSON(res, { error: 'Invalid request body' }, 400); });
+    return true;
+  }
+
+  // GET /api/products/:id/quarantine
+  const productsQuarantineMatch = pathname.match(/^\/api\/products\/(\d+)\/quarantine$/);
+  if (productsQuarantineMatch && req.method === 'GET') {
+    const id = parseInt(productsQuarantineMatch[1]);
+    let product;
+    if (USE_SAMPLE) {
+      product = sampleData.SAMPLE_PRODUCTS.find(p => p.id === id);
+    } else {
+      const rows = queryDB(`SELECT * FROM products WHERE id = ${id}`);
+      product = rows[0];
+    }
+    if (!product) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+    const evidencePath = findEvidenceFile(product.product_name);
+    if (!evidencePath) {
+      sendJSON(res, { product_name: product.product_name, sources: [], quarantined_count: 0, active_count: 0 });
+      return true;
+    }
+    try {
+      const data = JSON.parse(fs.readFileSync(evidencePath, 'utf-8'));
+      const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
+      const result = sources.map(s => ({
+        name: s.name,
+        pool: s.pool,
+        sentiment: s.sentiment,
+        summary: (s.summary || '').replace(/<[^>]+>/g, ' ').substring(0, 200),
+        quarantined: !!s.quarantined,
+        quarantine_reason: s.quarantine_reason || null,
+        restored: !!s.restored
+      }));
+      const quarantined_count = result.filter(s => s.quarantined && !s.restored).length;
+      const active_count = result.filter(s => !s.quarantined || s.restored).length;
+      sendJSON(res, { product_name: product.product_name, sources: result, quarantined_count, active_count });
+    } catch (e) {
+      sendJSON(res, { error: 'Failed to read evidence file' }, 500);
+    }
+    return true;
+  }
+
+  // POST /api/products/:id/quarantine/restore
+  const productsRestoreMatch = pathname.match(/^\/api\/products\/(\d+)\/quarantine\/restore$/);
+  if (productsRestoreMatch && req.method === 'POST') {
+    const id = parseInt(productsRestoreMatch[1]);
+    let product;
+    if (USE_SAMPLE) {
+      product = sampleData.SAMPLE_PRODUCTS.find(p => p.id === id);
+    } else {
+      const rows = queryDB(`SELECT * FROM products WHERE id = ${id}`);
+      product = rows[0];
+    }
+    if (!product) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+    parseRequestBody(req).then(body => {
+      const source_indices = (body && body.source_indices) || [];
+      if (!Array.isArray(source_indices)) { sendJSON(res, { error: 'source_indices must be an array' }, 400); return; }
+      const evidencePath = findEvidenceFile(product.product_name);
+      if (!evidencePath) { sendJSON(res, { error: 'No evidence file' }, 404); return; }
+      try {
+        const data = JSON.parse(fs.readFileSync(evidencePath, 'utf-8'));
+        const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
+        let restored_count = 0;
+        source_indices.forEach(idx => {
+          if (sources[idx]) { sources[idx].restored = true; restored_count++; }
+        });
+        fs.writeFileSync(evidencePath, JSON.stringify(data, null, 2));
+        sendJSON(res, { success: true, restored_count });
+      } catch (e) {
+        sendJSON(res, { error: 'Failed to restore sources' }, 500);
+      }
+    }).catch(() => { sendJSON(res, { error: 'Invalid request body' }, 400); });
+    return true;
+  }
+
+  // GET /api/products/:id/report-preview
+  const reportPreviewMatch = pathname.match(/^\/api\/products\/(\d+)\/report-preview$/);
+  if (reportPreviewMatch && req.method === 'GET') {
+    const id = parseInt(reportPreviewMatch[1]);
+    let product;
+    if (USE_SAMPLE) {
+      product = sampleData.SAMPLE_PRODUCTS.find(p => p.id === id);
+    } else {
+      const rows = queryDB(`SELECT * FROM products WHERE id = ${id}`);
+      product = rows[0];
+    }
+    if (!product) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+    const overall_score = product.overall_score || 0;
+    const tier = sampleData.getGrade ? sampleData.getGrade(overall_score) : (overall_score >= 85 ? 'A' : overall_score >= 70 ? 'B' : overall_score >= 55 ? 'C' : 'D');
+    const red_flags = [];
+    const yellow_flags = [];
+    const evPath = findEvidenceFile(product.product_name);
+    if (evPath) {
+      try {
+        const evData = JSON.parse(fs.readFileSync(evPath, 'utf-8'));
+        const evSources = (evData.professional_consensus && evData.professional_consensus.sources) || [];
+        evSources.forEach(s => {
+          if (s.flags) {
+            (s.flags.red || []).forEach(f => red_flags.push(f));
+            (s.flags.yellow || []).forEach(f => yellow_flags.push(f));
+          }
+        });
+      } catch (e) {}
+    }
+    const runDir2 = findLatestRunDir(product.product_name);
+    const bot2findings = readJsonFile(runDir2, /bot2_evaluator\.json$/);
+    if (bot2findings && bot2findings.findings) {
+      (bot2findings.findings.red || []).forEach(f => { if (!red_flags.includes(f)) red_flags.push(f); });
+      (bot2findings.findings.yellow || []).forEach(f => { if (!yellow_flags.includes(f)) yellow_flags.push(f); });
+    }
+    const scores = {
+      quality: product.quality_score || 0,
+      durability: product.durability_score || 0,
+      performance: product.performance_score || 0,
+      safety: product.material_safety_score || 0
+    };
+    const what_we_love = [];
+    const things_to_watch = [];
+    if (overall_score >= 60) {
+      [['Quality', scores.quality], ['Durability', scores.durability], ['Performance', scores.performance], ['Safety', scores.safety]].forEach(([name, score]) => {
+        if (score > 70) what_we_love.push({ title: name, text: `Scores well at ${score}/100 on ${name.toLowerCase()} metrics.` });
+      });
+    }
+    [['Quality', scores.quality], ['Durability', scores.durability], ['Performance', scores.performance], ['Safety', scores.safety]].forEach(([name, score]) => {
+      if (score < 60) things_to_watch.push({ title: name, text: `Scores below average at ${score}/100 on ${name.toLowerCase()} metrics.` });
+    });
+    yellow_flags.forEach(f => things_to_watch.push({ title: 'Note', text: f }));
+    red_flags.forEach(f => things_to_watch.push({ title: 'Warning', text: f }));
+    sendJSON(res, { product_name: product.product_name, overall_score, tier, what_we_love, things_to_watch, findings: { red: red_flags, yellow: yellow_flags }, scores });
+    return true;
+  }
   return false;
 }
 
@@ -560,7 +705,7 @@ function sendJSON(res, data, status = 200) {
   res.writeHead(status, {
     'Content-Type': 'application/json',
     'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type'
   });
   res.end(body);
@@ -593,7 +738,7 @@ const server = http.createServer((req, res) => {
   if (req.method === 'OPTIONS') {
     res.writeHead(204, {
       'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, OPTIONS',
+      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type'
     });
     res.end();

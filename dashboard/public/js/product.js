@@ -59,11 +59,17 @@
           ${renderDataConfidence(score_history)}
           ${renderScoreHistory(score_history, product)}
         </div>
-      </div>`;
+      </div>
+      ${renderQuarantineReviewSection()}
+      ${renderReportPreviewSection()}`;
 
     // Bind interactions
     bindTreeInteractions();
     bindSubScoreInteractions();
+
+    // Load async sections
+    loadQuarantineReviewSection(product.id);
+    loadReportPreviewSection(product.id);
   }
 
   // ── Breadcrumb ──────────────────────────────────────────────────────────
@@ -624,4 +630,264 @@
   };
 
   window.getProductData = function() { return productData; };
+  // ── Quarantine Review Section ─────────────────────────────────────────────
+
+  function renderQuarantineReviewSection() {
+    if (!isAdmin()) return '';
+    return `
+      <div class="section" id="quarantine-review-section" style="margin-top:var(--space-xl)">
+        <div class="section-header" style="cursor:pointer" onclick="toggleQuarantineReviewSection()">
+          <span class="section-title">&#x1F512; Source Quarantine Review</span>
+          <span id="quarantine-review-chevron" style="color:var(--text-muted);transition:transform 0.2s">${ICONS.chevronDown}</span>
+        </div>
+        <div id="quarantine-review-body" class="section-body">
+          <div style="display:flex;align-items:center;gap:8px;color:var(--text-muted);font-size:0.85rem">
+            <div class="spinner" style="width:16px;height:16px;border-width:2px"></div>
+            Loading quarantine data&hellip;
+          </div>
+        </div>
+      </div>`;
+  }
+
+  async function loadQuarantineReviewSection(id) {
+    if (!isAdmin()) return;
+    const body = document.getElementById('quarantine-review-body');
+    if (!body) return;
+    try {
+      const data = await fetchAPI(`product/${id}/quarantine`);
+      const active = (data.active || []);
+      const quarantined = (data.quarantined || []);
+      const restored = (data.restored || []);
+
+      if (quarantined.length === 0 && restored.length === 0) {
+        body.innerHTML = `<div class="empty-state" style="padding:var(--space-md)">No quarantined sources for this product.</div>`;
+        return;
+      }
+
+      const statsHtml = `
+        <div style="display:flex;gap:var(--space-lg);margin-bottom:var(--space-lg);flex-wrap:wrap">
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <span style="font-family:var(--font-mono);font-weight:700;font-size:1.2rem;color:var(--score-green)">${active.length}</span>
+            <span style="font-size:0.75rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em">Active Sources</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <span style="font-family:var(--font-mono);font-weight:700;font-size:1.2rem;color:var(--score-amber)">${quarantined.length}</span>
+            <span style="font-size:0.75rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em">Quarantined</span>
+          </div>
+          ${restored.length > 0 ? `<div style="display:flex;flex-direction:column;gap:2px">
+            <span style="font-family:var(--font-mono);font-weight:700;font-size:1.2rem;color:var(--accent-blue)">${restored.length}</span>
+            <span style="font-size:0.75rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em">Restored</span>
+          </div>` : ''}
+        </div>`;
+
+      const tableRows = quarantined.map((s, idx) => `
+        <tr style="opacity:0.75">
+          <td style="padding:8px 10px">
+            <input type="checkbox" class="quarantine-restore-check" value="${esc(s.id || String(idx))}" style="accent-color:var(--accent-blue)">
+          </td>
+          <td style="padding:8px 10px;color:var(--text-primary);text-decoration:line-through;text-decoration-color:var(--text-muted)">${esc((s.name || '').substring(0, 60))}</td>
+          <td style="padding:8px 10px">
+            <span class="pool-chip-mini" style="width:auto;padding:2px 6px">${esc((s.pool || 'C').toUpperCase())}</span>
+          </td>
+          <td style="padding:8px 10px">
+            <span class="sentiment-badge ${(s.sentiment || 'mixed').toLowerCase()}">${esc(s.sentiment || '&mdash;')}</span>
+          </td>
+          <td style="padding:8px 10px;color:var(--score-amber);font-size:0.8rem">${esc((s.quarantine_reason || '&mdash;').replace(/_/g, ' '))}</td>
+        </tr>`).join('');
+
+      const restoredRows = restored.map(s => `
+        <tr style="opacity:0.5">
+          <td style="padding:8px 10px"><input type="checkbox" disabled></td>
+          <td style="padding:8px 10px;color:var(--score-green)">${esc((s.name || '').substring(0, 60))} <span style="font-size:0.7rem;color:var(--text-muted)">(restored)</span></td>
+          <td style="padding:8px 10px"><span class="pool-chip-mini" style="width:auto;padding:2px 6px">${esc((s.pool || 'C').toUpperCase())}</span></td>
+          <td style="padding:8px 10px">&mdash;</td>
+          <td style="padding:8px 10px;color:var(--text-muted);font-size:0.8rem">${esc((s.quarantine_reason || '&mdash;').replace(/_/g, ' '))}</td>
+        </tr>`).join('');
+
+      body.innerHTML = `
+        ${statsHtml}
+        <div style="overflow-x:auto">
+          <table style="width:100%;border-collapse:collapse;font-size:0.85rem">
+            <thead>
+              <tr style="border-bottom:1px solid var(--border-default)">
+                <th style="padding:6px 10px;width:36px"></th>
+                <th style="padding:6px 10px;text-align:left;color:var(--text-tertiary);font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em">Source Name</th>
+                <th style="padding:6px 10px;text-align:left;color:var(--text-tertiary);font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em">Pool</th>
+                <th style="padding:6px 10px;text-align:left;color:var(--text-tertiary);font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em">Sentiment</th>
+                <th style="padding:6px 10px;text-align:left;color:var(--text-tertiary);font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em">Reason Quarantined</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tableRows}
+              ${restoredRows}
+            </tbody>
+          </table>
+        </div>
+        <div id="quarantine-restore-bar" style="display:none;margin-top:var(--space-md);padding-top:var(--space-md);border-top:1px solid var(--border-default);align-items:center;gap:var(--space-md)">
+          <button class="sort-btn" id="quarantine-restore-btn" onclick="restoreSelectedSources('${id}')" style="background:var(--accent-blue-dim);border-color:var(--accent-blue);color:var(--accent-blue)">
+            Restore Selected Sources
+          </button>
+          <span id="quarantine-restore-count" style="font-size:0.8rem;color:var(--text-secondary)">0 selected</span>
+        </div>`;
+
+      bindQuarantineCheckboxes();
+    } catch(e) {
+      if (body) body.innerHTML = `<div class="empty-state">Failed to load quarantine data.</div>`;
+    }
+  }
+
+  function bindQuarantineCheckboxes() {
+    const body = document.getElementById('quarantine-review-body');
+    if (!body) return;
+    body.addEventListener('change', (e) => {
+      if (!e.target.classList.contains('quarantine-restore-check')) return;
+      const checked = body.querySelectorAll('.quarantine-restore-check:checked');
+      const bar = document.getElementById('quarantine-restore-bar');
+      const count = document.getElementById('quarantine-restore-count');
+      if (bar) bar.style.display = checked.length > 0 ? 'flex' : 'none';
+      if (count) count.textContent = `${checked.length} selected`;
+    });
+  }
+
+  window.toggleQuarantineReviewSection = function() {
+    const body = document.getElementById('quarantine-review-body');
+    const chevron = document.getElementById('quarantine-review-chevron');
+    if (!body) return;
+    const hidden = body.style.display === 'none';
+    body.style.display = hidden ? '' : 'none';
+    if (chevron) chevron.style.transform = hidden ? '' : 'rotate(-90deg)';
+  };
+
+  window.restoreSelectedSources = async function(id) {
+    const body = document.getElementById('quarantine-review-body');
+    if (!body) return;
+    const checked = body.querySelectorAll('.quarantine-restore-check:checked');
+    const sourceIds = Array.from(checked).map(cb => cb.value);
+    if (sourceIds.length === 0) return;
+
+    const btn = document.getElementById('quarantine-restore-btn');
+    if (btn) { btn.disabled = true; btn.textContent = 'Restoring...'; }
+
+    try {
+      const resp = await fetch(`${getBasePath()}api/product/${id}/quarantine/restore`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source_ids: sourceIds })
+      });
+      if (resp.ok) {
+        await loadQuarantineReviewSection(id);
+      } else {
+        if (btn) { btn.disabled = false; btn.textContent = 'Restore Selected Sources'; }
+      }
+    } catch(e) {
+      if (btn) { btn.disabled = false; btn.textContent = 'Restore Selected Sources'; }
+    }
+  };
+
+  // ── Report Preview Section ────────────────────────────────────────────────
+
+  function renderReportPreviewSection() {
+    return `
+      <div class="section" id="report-preview-section" style="margin-top:var(--space-md);margin-bottom:var(--space-xl)">
+        <div class="section-header" style="cursor:pointer" onclick="toggleReportPreviewSection()">
+          <span class="section-title">&#x1F4CB; Report Preview</span>
+          <span id="report-preview-chevron" style="color:var(--text-muted);transition:transform 0.2s">${ICONS.chevronDown}</span>
+        </div>
+        <div id="report-preview-body" class="section-body">
+          <div style="display:flex;align-items:center;gap:8px;color:var(--text-muted);font-size:0.85rem">
+            <div class="spinner" style="width:16px;height:16px;border-width:2px"></div>
+            Loading report preview&hellip;
+          </div>
+        </div>
+      </div>`;
+  }
+
+  async function loadReportPreviewSection(id) {
+    const body = document.getElementById('report-preview-body');
+    if (!body) return;
+    try {
+      const data = await fetchAPI(`product/${id}/report-preview`);
+      body.innerHTML = renderReportPreviewBody(data);
+    } catch(e) {
+      if (body) body.innerHTML = `<div class="empty-state" style="padding:var(--space-md)">Report preview not available for this product.</div>`;
+    }
+  }
+
+  function renderReportPreviewBody(data) {
+    const whatWeLove = data.what_we_love || [];
+    const watchOutFor = data.watch_out_for || [];
+    const knownIssues = data.known_issues || [];
+
+    const loveItems = whatWeLove.map(item => `
+      <div style="margin-bottom:var(--space-md)">
+        <div style="font-weight:700;color:var(--text-primary);margin-bottom:4px;font-size:0.9rem">${esc(item.title || '')}</div>
+        <p style="font-size:0.85rem;color:var(--text-secondary);line-height:1.6;margin:0">${esc(item.body || item.text || '')}</p>
+      </div>`).join('');
+
+    const watchItems = watchOutFor.map(item => `
+      <div style="margin-bottom:var(--space-md)">
+        <div style="font-weight:700;color:var(--text-primary);margin-bottom:4px;font-size:0.9rem">${esc(item.title || '')}</div>
+        <p style="font-size:0.85rem;color:var(--text-secondary);line-height:1.6;margin:0">${esc(item.body || item.text || '')}</p>
+      </div>`).join('');
+
+    const hasBoth = whatWeLove.length > 0;
+    const gridStyle = hasBoth
+      ? 'display:grid;grid-template-columns:1fr 1fr;gap:var(--space-xl);margin-bottom:var(--space-xl)'
+      : 'margin-bottom:var(--space-xl)';
+
+    const loveCol = hasBoth ? `
+      <div style="background:var(--bg-tertiary);border:1px solid rgba(232,185,60,0.2);border-radius:var(--radius-lg);padding:var(--space-lg)">
+        <div style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--score-amber);margin-bottom:var(--space-md);display:flex;align-items:center;gap:6px">
+          &#x2728; What We Love About This Product
+        </div>
+        ${loveItems || '<p style="font-size:0.85rem;color:var(--text-muted)">No highlights available.</p>'}
+      </div>` : '';
+
+    const watchCol = `
+      <div style="background:var(--bg-tertiary);border:1px solid rgba(255,138,128,0.2);border-radius:var(--radius-lg);padding:var(--space-lg)">
+        <div style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--score-red);margin-bottom:var(--space-md);display:flex;align-items:center;gap:6px">
+          &#x26A0;&#xFE0F; Things to Watch Out For
+        </div>
+        ${watchItems || '<p style="font-size:0.85rem;color:var(--text-muted)">No concerns flagged.</p>'}
+      </div>`;
+
+    const narrativeHtml = `<div style="${gridStyle}">${loveCol}${watchCol}</div>`;
+
+    let issuesHtml = '';
+    if (knownIssues.length > 0) {
+      const issueItems = knownIssues.map(issue => {
+        const sev = (issue.severity || 'caution').toLowerCase();
+        const isCritical = sev === 'critical' || sev === 'red';
+        const color = isCritical ? 'var(--score-red)' : 'var(--score-amber)';
+        const bg = isCritical ? 'var(--score-red-bg)' : 'var(--score-amber-bg)';
+        const label = isCritical ? 'Critical' : 'Caution';
+        return `
+          <div style="display:flex;align-items:flex-start;gap:var(--space-sm);padding:var(--space-sm) 0;border-bottom:1px solid var(--border-subtle)">
+            <span style="display:inline-flex;padding:2px 8px;border-radius:var(--radius-sm);font-size:0.72rem;font-weight:700;text-transform:uppercase;background:${bg};color:${color};flex-shrink:0;margin-top:2px">${label}</span>
+            <div>
+              <div style="font-size:0.88rem;font-weight:600;color:var(--text-primary)">${esc(issue.title || issue.finding || '')}</div>
+              ${issue.description ? `<p style="font-size:0.82rem;color:var(--text-secondary);margin:2px 0 0">${esc(issue.description)}</p>` : ''}
+            </div>
+          </div>`;
+      }).join('');
+
+      issuesHtml = `
+        <div style="margin-top:var(--space-md);padding-top:var(--space-md);border-top:1px solid var(--border-default)">
+          <div style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-secondary);margin-bottom:var(--space-md)">Known Issues</div>
+          ${issueItems}
+        </div>`;
+    }
+
+    return narrativeHtml + issuesHtml;
+  }
+
+  window.toggleReportPreviewSection = function() {
+    const body = document.getElementById('report-preview-body');
+    const chevron = document.getElementById('report-preview-chevron');
+    if (!body) return;
+    const hidden = body.style.display === 'none';
+    body.style.display = hidden ? '' : 'none';
+    if (chevron) chevron.style.transform = hidden ? '' : 'rotate(-90deg)';
+  };
+
 })();

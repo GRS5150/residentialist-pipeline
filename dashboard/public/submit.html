@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Residentialist — Submit Product</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>document.write('<base href="' + (location.pathname.startsWith('/scores') ? '/scores/' : '/') + '">')</script>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .submit-layout {
+      display: grid;
+      grid-template-columns: 520px 1fr;
+      gap: var(--space-xl);
+      align-items: start;
+    }
+    @media (max-width: 900px) { .submit-layout { grid-template-columns: 1fr; } }
+    .form-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+    }
+    .form-card-header {
+      padding: var(--space-lg);
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+    }
+    .form-card-icon {
+      width: 32px; height: 32px;
+      background: var(--accent-blue-dim);
+      border: 1px solid rgba(108,182,255,0.2);
+      border-radius: var(--radius-md);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--accent-blue);
+    }
+    .form-card-title { font-size: 0.95rem; font-weight: 600; color: var(--text-primary); }
+    .form-card-subtitle { font-size: 0.78rem; color: var(--text-tertiary); }
+    .form-body { padding: var(--space-lg); }
+    .form-group { margin-bottom: var(--space-lg); }
+    .form-label {
+      display: block;
+      font-size: 0.78rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--text-secondary); margin-bottom: var(--space-sm);
+    }
+    .form-label span { color: var(--text-muted); font-weight: 400; text-transform: none; letter-spacing: 0; }
+    .form-input, .form-select {
+      width: 100%; padding: 10px 14px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      color: var(--text-primary);
+      font-size: 0.88rem; font-family: var(--font-body);
+      outline: none; appearance: none;
+      transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    }
+    .form-input::placeholder { color: var(--text-muted); }
+    .form-input:focus, .form-select:focus {
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 3px rgba(108,182,255,0.1);
+    }
+    .form-select-wrap { position: relative; }
+    .form-select-wrap::after {
+      content: "";
+      position: absolute; right: 12px; top: 50%;
+      transform: translateY(-50%);
+      width: 0; height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 5px solid var(--text-muted);
+      pointer-events: none;
+    }
+    .form-select option { background: var(--bg-elevated); }
+    .submit-btn {
+      width: 100%; padding: 12px var(--space-lg);
+      background: var(--accent-blue); color: #0d1117;
+      border: none; border-radius: var(--radius-md);
+      font-size: 0.9rem; font-weight: 700; font-family: var(--font-body);
+      cursor: pointer; display: flex; align-items: center;
+      justify-content: center; gap: var(--space-sm);
+      letter-spacing: 0.02em; margin-top: var(--space-md);
+      transition: all var(--transition-fast);
+    }
+    .submit-btn:hover:not(:disabled) {
+      background: #93cdff; transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(108,182,255,0.25);
+    }
+    .submit-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+    .btn-spinner {
+      width: 14px; height: 14px;
+      border: 2px solid rgba(13,17,23,0.3);
+      border-top-color: #0d1117;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    /* Status */
+    .status-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-xl);
+      overflow: hidden; display: none;
+    }
+    .status-card.visible { display: block; }
+    .status-header {
+      padding: var(--space-md) var(--space-lg);
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .status-title { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-secondary); }
+    .status-badge { font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: var(--radius-sm); font-family: var(--font-mono); }
+    .status-badge.running { background: var(--accent-blue-dim); color: var(--accent-blue); border: 1px solid rgba(108,182,255,0.2); }
+    .status-badge.success { background: var(--score-green-dim); color: var(--score-green); border: 1px solid rgba(63,185,80,0.2); }
+    .status-badge.error   { background: var(--score-red-dim); color: var(--score-red); border: 1px solid rgba(248,81,73,0.2); }
+    .status-body { padding: var(--space-lg); }
+    .status-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-subtle); font-size: 0.85rem;
+    }
+    .status-row:last-child { border-bottom: none; }
+    .status-row-label { color: var(--text-secondary); }
+    .status-row-value { color: var(--text-primary); font-family: var(--font-mono); font-weight: 500; }
+    .status-progress { margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-subtle); }
+    .progress-bar-wrap { background: var(--bg-primary); border-radius: var(--radius-sm); height: 4px; overflow: hidden; margin-top: 6px; }
+    .progress-bar-fill { height: 100%; background: var(--accent-blue); border-radius: var(--radius-sm); transition: width 0.5s ease; width: 0%; }
+    .progress-label { font-size: 0.75rem; color: var(--text-tertiary); display: flex; justify-content: space-between; }
+    /* Recent */
+    .recent-card { background: var(--bg-secondary); border: 1px solid var(--border-default); border-radius: var(--radius-xl); overflow: hidden; }
+    .recent-header { padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border-subtle); display: flex; align-items: center; justify-content: space-between; }
+    .recent-title { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-secondary); }
+    .clear-btn { font-size: 0.72rem; color: var(--text-muted); background: none; border: none; cursor: pointer; font-family: var(--font-body); transition: color var(--transition-fast); }
+    .clear-btn:hover { color: var(--score-red); }
+    .recent-list { padding: var(--space-sm) 0; max-height: 480px; overflow-y: auto; }
+    .recent-item { display: flex; align-items: center; justify-content: space-between; padding: var(--space-sm) var(--space-lg); transition: background var(--transition-fast); gap: var(--space-md); }
+    .recent-item:hover { background: var(--bg-tertiary); }
+    .recent-item-info { flex: 1; min-width: 0; }
+    .recent-item-name { font-size: 0.88rem; font-weight: 500; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .recent-item-meta { font-size: 0.75rem; color: var(--text-tertiary); margin-top: 1px; font-family: var(--font-mono); }
+    .recent-item-badge { font-size: 0.72rem; padding: 2px 8px; border-radius: var(--radius-sm); font-family: var(--font-mono); font-weight: 500; white-space: nowrap; flex-shrink: 0; background: var(--bg-tertiary); color: var(--text-secondary); border: 1px solid var(--border-subtle); }
+    .recent-empty { padding: var(--space-xl) var(--space-lg); text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+    .status-error-msg { font-size: 0.85rem; color: var(--score-red); line-height: 1.5; padding: var(--space-sm); background: var(--score-red-bg); border-radius: var(--radius-sm); margin-top: var(--space-md); }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-left">
+      <a href="./" class="site-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="28" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
+          <rect x="7" y="14" width="4" height="12" rx="1" fill="currentColor" opacity="0.4"/>
+          <rect x="14" y="9" width="4" height="17" rx="1" fill="currentColor" opacity="0.6"/>
+          <rect x="21" y="5" width="4" height="21" rx="1" fill="currentColor" opacity="0.9"/>
+        </svg>
+        <span>Residentialist</span>
+      </a>
+      <div class="header-meta">
+        <span class="dot"></span>
+        <span>Score Dashboard</span>
+        <span class="dot"></span>
+        <span>Submit Product</span>
+      </div>
+    </div>
+    <div class="header-right">
+      <a href="./" style="color:var(--text-secondary);text-decoration:none;font-size:0.8rem;padding:6px 12px;border:1px solid var(--border-default);border-radius:var(--radius-md);display:inline-flex;align-items:center;gap:4px;transition:all 120ms ease-out;"
+         onmouseover="this.style.color='var(--text-primary)';this.style.borderColor='var(--border-emphasis)'"
+         onmouseout="this.style.color='var(--text-secondary)';this.style.borderColor='var(--border-default)'">
+        ← Dashboard
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <div class="controls-bar">
+      <div class="controls-left">
+        <h1 class="page-title">Submit Product</h1>
+      </div>
+    </div>
+
+    <div class="submit-layout">
+      <!-- Left col: Form + Status -->
+      <div>
+        <div class="form-card" style="margin-bottom:var(--space-lg);">
+          <div class="form-card-header">
+            <div class="form-card-icon">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                <path d="M8 1v14M1 8h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="form-card-title">New Pipeline Run</div>
+              <div class="form-card-subtitle">Queue a product for scoring analysis</div>
+            </div>
+          </div>
+          <div class="form-body">
+            <form id="submit-form">
+              <div class="form-group">
+                <label class="form-label" for="category">Category</label>
+                <div class="form-select-wrap">
+                  <select class="form-select" id="category" name="category" required>
+                    <option value="" disabled selected>Select a category…</option>
+                    <option value="Windows">Windows</option>
+                    <option value="Countertops">Countertops</option>
+                    <option value="Cabinets">Cabinets</option>
+                    <option value="Faucets">Faucets</option>
+                    <option value="Sinks">Sinks</option>
+                    <option value="Toilets">Toilets</option>
+                    <option value="Flooring-Wood">Flooring — Wood</option>
+                    <option value="Flooring-Carpet">Flooring — Carpet</option>
+                    <option value="Flooring-LVP">Flooring — LVP</option>
+                    <option value="Ovens-Ranges">Ovens / Ranges</option>
+                    <option value="Dishwashers">Dishwashers</option>
+                    <option value="Refrigerators">Refrigerators</option>
+                    <option value="Microwaves">Microwaves</option>
+                    <option value="Range-Hoods">Range Hoods</option>
+                    <option value="Coffee-Systems">Coffee Systems</option>
+                    <option value="Exterior-Doors">Exterior Doors</option>
+                    <option value="HVAC">HVAC</option>
+                    <option value="Water-Heaters">Water Heaters</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="product-name">Product Name <span>e.g. Pella 250 Series</span></label>
+                <input class="form-input" type="text" id="product-name" name="product_name" placeholder="Pella 250 Series" required autocomplete="off">
+              </div>
+              <div class="form-group" style="margin-bottom:0;">
+                <label class="form-label" for="config">Configuration <span>e.g. DH for double hung</span></label>
+                <input class="form-input" type="text" id="config" name="config" placeholder="DH" autocomplete="off">
+              </div>
+              <button type="submit" class="submit-btn" id="submit-btn">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                  <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Run Pipeline
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Status Card -->
+        <div class="status-card" id="status-card">
+          <div class="status-header">
+            <span class="status-title">Pipeline Status</span>
+            <span class="status-badge running" id="status-badge">Running</span>
+          </div>
+          <div class="status-body">
+            <div class="status-row">
+              <span class="status-row-label">Job ID</span>
+              <span class="status-row-value" id="status-job-id">—</span>
+            </div>
+            <div class="status-row">
+              <span class="status-row-label">Product</span>
+              <span class="status-row-value" id="status-product">—</span>
+            </div>
+            <div class="status-row">
+              <span class="status-row-label">Category</span>
+              <span class="status-row-value" id="status-category">—</span>
+            </div>
+            <div class="status-row">
+              <span class="status-row-label">Submitted</span>
+              <span class="status-row-value" id="status-time">—</span>
+            </div>
+            <div class="status-progress">
+              <div class="progress-label">
+                <span id="progress-step">Queued…</span>
+                <span id="progress-pct">0%</span>
+              </div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar-fill" id="progress-bar"></div>
+              </div>
+            </div>
+            <div class="status-error-msg" id="status-error" style="display:none;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right col: Recent Submissions -->
+      <div class="recent-card">
+        <div class="recent-header">
+          <span class="recent-title">Recent Submissions</span>
+          <button class="clear-btn" id="clear-recent">Clear</button>
+        </div>
+        <div class="recent-list" id="recent-list">
+          <div class="recent-empty" id="recent-empty">No submissions yet.</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <span style="font-size:0.7rem;color:var(--text-muted);">Residentialist — All Rights Reserved</span>
+  </footer>
+
+  <script src="js/submit.js"></script>
+</body>
+</html>
