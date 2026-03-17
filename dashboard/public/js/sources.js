@@ -140,10 +140,11 @@ function renderSourceExplorer(data, container, productId, quarantineData) {
     container.querySelectorAll(".source-select-cb").forEach(cb => {
       cb.addEventListener("change", () => {
         const srcName = cb.dataset.sourceName;
+        const srcUrl = cb.dataset.sourceUrl || '';
         if (cb.checked) {
-          _selectedEvidenceIndices.add(srcName);
+          _selectedEvidenceIndices.add(JSON.stringify({name: srcName, url: srcUrl}));
         } else {
-          _selectedEvidenceIndices.delete(srcName);
+          _selectedEvidenceIndices.delete(JSON.stringify({name: srcName, url: srcUrl}));
         }
         _updateQuarantineFab();
       });
@@ -179,7 +180,8 @@ function renderSourceRow(src, isAdmin, evidenceMap) {
   let checkboxCell = "";
   if (isAdmin) {
     const safeName = rawName.replace(/"/g, '&quot;');
-    checkboxCell = `<td class="source-select-col"><input type="checkbox" class="source-select-cb" data-source-name="${safeName}"></td>`;
+    const safeUrl = sourceUrl ? sourceUrl.replace(/"/g, '&quot;') : '';
+    checkboxCell = `<td class="source-select-col"><input type="checkbox" class="source-select-cb" data-source-name="${safeName}" data-source-url="${safeUrl}"></td>`;
   }
 
   return `
@@ -292,7 +294,7 @@ async function _handleManualQuarantine() {
     const resp = await fetch(`${getBasePath()}api/products/${_sourceExplorerProductId}/quarantine/add`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ source_names: Array.from(_selectedEvidenceIndices) })
+      body: JSON.stringify({ source_entries: Array.from(_selectedEvidenceIndices).map(s => { try { return JSON.parse(s); } catch(e) { return {name: s, url: ''}; } }) })
     });
     const result = await resp.json();
     if (result.success && result.quarantined_count > 0) {

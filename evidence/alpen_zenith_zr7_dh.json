@@ -626,7 +626,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T04:04:51.455Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "manual",
+        "quarantined_at": "2026-03-17T21:42:57.868Z"
       },
       {
         "id": "PC-ALPENZ-048",
@@ -788,7 +791,10 @@
           "price_bias_detected": true,
           "screened_at": "2026-03-16T04:04:53.043Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "manual",
+        "quarantined_at": "2026-03-17T21:43:03.525Z"
       },
       {
         "id": "PC-ALPENZ-057",
@@ -1509,7 +1515,10 @@
         "price_bias": false,
         "url": "https://geeksonsite.com/services/wireless-network-installation/",
         "_added_by": "source_parser",
-        "_phase": "phase_2_web_searches"
+        "_phase": "phase_2_web_searches",
+        "quarantined": true,
+        "quarantine_reason": "manual",
+        "quarantined_at": "2026-03-17T21:29:32.289Z"
       },
       {
         "id": "PC-ALPENZ-099",

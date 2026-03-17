@@ -653,44 +653,94 @@ function handleAPI(req, res, parsedUrl) {
     }
     if (!product) { sendJSON(res, { error: "Not found" }, 404); return true; }
     parseRequestBody(req).then(body => {
+      const source_entries = (body && body.source_entries) || [];
       const source_names = (body && body.source_names) || [];
-      const source_indices = (body && body.source_indices) || [];
-      if (source_names.length === 0 && source_indices.length === 0) {
-        sendJSON(res, { error: "source_names or source_indices required" }, 400); return;
+      if (source_entries.length === 0 && source_names.length === 0) {
+        sendJSON(res, { error: "source_entries or source_names required" }, 400); return;
       }
       const evidencePath = findEvidenceFile(product.product_name);
       if (!evidencePath) { sendJSON(res, { error: "No evidence file" }, 404); return; }
+      
       try {
         const data = JSON.parse(fs.readFileSync(evidencePath, "utf-8"));
         const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
         let quarantined_count = 0;
-        if (source_names.length > 0) {
-          const nameLower = source_names.map(n => n.toLowerCase().trim());
-          sources.forEach(s => {
-            const sName = (s.name || "").toLowerCase().trim(); if (!s.quarantined && nameLower.some(n => sName.includes(n) || n.includes(sName) || sName === n)) {
+        
+        // Build URL and name sets for matching
+        const urlSet = new Set();
+        const nameSet = new Set();
+        if (source_entries.length > 0) {
+          source_entries.forEach(e => {
+            if (e.url) urlSet.add(e.url.toLowerCase().trim());
+            if (e.name) nameSet.add(e.name.toLowerCase().trim());
+          });
+        } else {
+          source_names.forEach(n => nameSet.add(n.toLowerCase().trim()));
+        }
+        console.log('[Q-ADD] URLs:', urlSet.size, 'Names:', nameSet.size, 'product:', product.product_name);
+        console.log('[Q-ADD] Evidence:', sources.length, 'total,', sources.filter(s=>!s.quarantined).length, 'active');
+        
+        sources.forEach((s, idx) => {
+          if (s.quarantined) return;
+          
+          // Strategy 1: URL match (most reliable)
+          if (s.url && urlSet.has(s.url.toLowerCase().trim())) {
+            console.log('[Q-ADD] URL match:', s.name, s.url);
+            s.quarantined = true;
+            s.quarantine_reason = 'manual';
+            s.quarantined_at = new Date().toISOString();
+            quarantined_count++;
+            return;
+          }
+          
+          // Strategy 2: Name substring match
+          const sName = (s.name || '').toLowerCase().trim();
+          for (const n of nameSet) {
+            if (sName === n || sName.includes(n) || n.includes(sName)) {
+              console.log('[Q-ADD] Name match:', s.name);
               s.quarantined = true;
-              s.quarantine_reason = "manual";
+              s.quarantine_reason = 'manual';
               s.quarantined_at = new Date().toISOString();
               quarantined_count++;
+              return;
             }
-          });
-          if (quarantined_count === 0) {
-            console.log('[QUARANTINE-DEBUG] No matches found. Evidence source names sample:', sources.slice(0,3).map(s => s.name));
           }
-        } else {
-          source_indices.forEach(idx => {
-            if (sources[idx] && !sources[idx].quarantined) {
-              sources[idx].quarantined = true;
-              sources[idx].quarantine_reason = "manual";
-              sources[idx].quarantined_at = new Date().toISOString();
-              quarantined_count++;
+          
+          // Strategy 3: URL domain+path partial match
+          if (s.url) {
+            const sUrl = s.url.toLowerCase();
+            for (const u of urlSet) {
+              try {
+                const sDom = new URL(sUrl).hostname.replace(/^www\./, '');
+                const rDom = new URL(u).hostname.replace(/^www\./, '');
+                if (sDom === rDom) {
+                  const sPath = new URL(sUrl).pathname;
+                  const rPath = new URL(u).pathname;
+                  if (sPath === rPath || sPath.includes(rPath) || rPath.includes(sPath)) {
+                    console.log('[Q-ADD] Domain+path match:', s.url);
+                    s.quarantined = true;
+                    s.quarantine_reason = 'manual';
+                    s.quarantined_at = new Date().toISOString();
+                    quarantined_count++;
+                    return;
+                  }
+                }
+              } catch(e) {}
             }
-          });
+          }
+        });
+        
+        if (quarantined_count === 0) {
+          console.log('[Q-ADD] NO MATCHES! URLs sent:', Array.from(urlSet).slice(0,2));
+          console.log('[Q-ADD] Names sent:', Array.from(nameSet).slice(0,2));
+          console.log('[Q-ADD] Sample evidence:', sources.filter(s=>!s.quarantined).slice(0,2).map(s=>({n:s.name?.substring(0,50), u:s.url?.substring(0,50)})));
         }
+        
         fs.writeFileSync(evidencePath, JSON.stringify(data, null, 2));
-        console.log(`[QUARANTINE] Manually quarantined ${quarantined_count} sources for ${product.product_name}`);
+        console.log('[Q-ADD] Quarantined', quarantined_count, 'of', source_entries.length || source_names.length, 'requested');
         sendJSON(res, { success: true, quarantined_count });
       } catch (e) {
+        console.error('[Q-ADD] Error:', e.message);
         sendJSON(res, { error: "Failed to update evidence file" }, 500);
       }
     }).catch(() => { sendJSON(res, { error: "Invalid request body" }, 400); });
