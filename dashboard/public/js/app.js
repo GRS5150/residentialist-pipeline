@@ -153,6 +153,7 @@
           ${createScoreCircleSVG(score, 'sm')}
           ${createGradeBadge(score)}
         </div>
+${product.price_amount ? `<div class="price-row"><span class="price-tag">${product.price_amount.toLocaleString()}</span>${product.price_integrity_label ? `<span class="price-integrity-badge pi-badge-small ${product.price_integrity_label.css}">${product.price_integrity_label.label}</span>` : ''}</div>` : ''}
       </a>`;
   }
 

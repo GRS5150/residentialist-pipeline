@@ -891,3 +891,65 @@
   };
 
 })();
+
+
+// ═══ Price Integrity & Score Tier Display ═══
+function renderPriceIntegrity(container, data) {
+  if (!data) return;
+  
+  // Score Tier Label
+  if (data.score_tier) {
+    const tierClass = 'score-tier-' + data.score_tier.toLowerCase().replace(/\s+/g, '-');
+    const tierEl = document.querySelector('.overall-score-value, .score-value, [class*="overall"]');
+    if (tierEl) {
+      const badge = document.createElement('span');
+      badge.className = 'score-tier-label ' + tierClass;
+      badge.textContent = data.score_tier;
+      tierEl.parentNode.insertBefore(badge, tierEl.nextSibling);
+    }
+  }
+  
+  // Price Integrity Section
+  if (data.price_amount || data.price_integrity_label) {
+    const section = document.createElement('div');
+    section.className = 'price-integrity-section';
+    
+    let html = '<h3>Price Integrity</h3>';
+    
+    if (data.price_amount) {
+      html += '<div class="price-display">';
+      html += '<span class="price-amount">$' + data.price_amount.toLocaleString() + '</span>';
+      if (data.price_reference_spec) {
+        html += '<span class="price-spec">' + escHtml(data.price_reference_spec) + '</span>';
+      }
+      if (data.price_unit) {
+        html += '<span class="price-spec">' + escHtml(data.price_unit) + '</span>';
+      }
+      html += '</div>';
+      if (data.price_note) {
+        html += '<div class="price-note">' + escHtml(data.price_note) + '</div>';
+      }
+    }
+    
+    if (data.price_integrity_label) {
+      const pi = data.price_integrity_label;
+      html += '<div style="margin-top:12px">';
+      html += '<span class="price-integrity-badge ' + pi.css + '">';
+      html += pi.label;
+      html += ' <span class="price-integrity-detail">— ' + pi.detail + '</span>';
+      html += '</span>';
+      html += '</div>';
+    }
+    
+    section.innerHTML = html;
+    
+    // Insert after the score section
+    const scoreSection = container.querySelector('.score-section, .product-scores, .scores-container');
+    if (scoreSection) {
+      scoreSection.parentNode.insertBefore(section, scoreSection.nextSibling);
+    } else {
+      // Fallback: insert at top of container
+      container.insertBefore(section, container.firstChild);
+    }
+  }
+}

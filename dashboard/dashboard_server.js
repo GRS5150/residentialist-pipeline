@@ -177,6 +177,27 @@ function getSourceUrlMap(productName) {
   }
 }
 
+// Score tier labels
+function getScoreTier(score) {
+  if (score == null) return null;
+  if (score >= 90) return 'Best in Class';
+  if (score >= 75) return 'Excellent';
+  if (score >= 60) return 'Good';
+  if (score >= 40) return 'Fair';
+  return 'Below Standard';
+}
+
+// Price Integrity labels
+function getPriceIntegrityLabel(pi) {
+  const labels = {
+    exceeds: { label: 'Exceeds Its Class', detail: 'Scores above what its price should deliver', css: 'pi-exceeds' },
+    meets: { label: 'Meets Its Class', detail: 'Performs where you\'d expect for the money', css: 'pi-meets' },
+    below: { label: 'Below Its Class', detail: "You're paying for the name, not the product", css: 'pi-below' }
+  };
+  return labels[pi] || null;
+}
+
+
 // ── Manufacturer Source Filter ──────────────────────────────────────────────
 // Server-side filter to reclassify manufacturer-own sources in pool_details.
 // Catches contamination from pre-fix scoring data until products are re-scored.
@@ -298,7 +319,14 @@ function handleAPI(req, res, parsedUrl) {
       ...p,
       grade: sampleData.applySafetyCap(sampleData.getGrade(p.overall_score), p.material_safety_score),
       outlook: sampleData.getOutlook(p.overall_score)
-    }));
+    ,
+      score_tier: getScoreTier(p.overall_score),
+      price_amount: p.price_amount,
+      price_unit: p.price_unit,
+      price_reference_spec: p.price_reference_spec,
+      price_note: p.price_note,
+      price_integrity: p.price_integrity,
+      price_integrity_label: getPriceIntegrityLabel(p.price_integrity)}));
     sendJSON(res, products);
     return true;
   }

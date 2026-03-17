@@ -1479,3 +1479,121 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
+
+/* ═══ Price Integrity ═══ */
+.price-integrity-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.price-integrity-badge.pi-exceeds {
+  background: rgba(34, 139, 34, 0.12);
+  color: #1a7a1a;
+  border: 1px solid rgba(34, 139, 34, 0.25);
+}
+.price-integrity-badge.pi-meets {
+  background: rgba(100, 100, 100, 0.08);
+  color: #555;
+  border: 1px solid rgba(100, 100, 100, 0.2);
+}
+.price-integrity-badge.pi-below {
+  background: rgba(184, 114, 42, 0.12);
+  color: #8B5E2B;
+  border: 1px solid rgba(184, 114, 42, 0.25);
+}
+.price-integrity-detail {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  opacity: 0.8;
+}
+
+/* Score Tier Label */
+.score-tier-label {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+.score-tier-below-standard { background: #f5e6e6; color: #8b3a3a; }
+.score-tier-fair { background: #f5efe6; color: #8b6e2b; }
+.score-tier-good { background: #e6f0e6; color: #3a6b3a; }
+.score-tier-excellent { background: #e6eaf5; color: #3a4a8b; }
+.score-tier-best-in-class { background: #f0e6f5; color: #6b3a8b; }
+
+/* Price Display */
+.price-display {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 8px 0;
+}
+.price-amount {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary, #1a1a1a);
+}
+.price-spec {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  color: var(--text-muted, #888);
+}
+.price-note {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  color: var(--text-muted, #888);
+  font-style: italic;
+}
+
+/* Price Integrity section on product detail */
+.price-integrity-section {
+  background: var(--surface-secondary, #faf8f5);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 16px 0;
+  border: 1px solid var(--border-color, #e8e0d8);
+}
+.price-integrity-section h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary, #555);
+  margin: 0 0 12px 0;
+}
+
+/* Product card price row */
+.product-card .price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-color, #e8e0d8);
+}
+.product-card .price-row .price-tag {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.product-card .pi-badge-small {
+  font-size: 0.62rem;
+  padding: 3px 8px;
+}

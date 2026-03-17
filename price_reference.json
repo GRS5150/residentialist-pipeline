@@ -1,0 +1,55 @@
+{
+  "windows": {
+    "reference_spec": "36x60 double-hung",
+    "unit": "per unit",
+    "fallback_sizes": ["36x48", "36x72", "30x60"],
+    "fallback_configs": ["tilt-turn", "casement", "fixed"]
+  },
+  "countertops": {
+    "reference_spec": "3cm slab",
+    "unit": "per sq ft"
+  },
+  "cabinets": {
+    "reference_spec": "standard base config",
+    "unit": "per linear ft"
+  },
+  "appliances": {
+    "reference_spec": "MSRP",
+    "unit": "per unit"
+  },
+  "flooring": {
+    "reference_spec": "standard",
+    "unit": "per sq ft"
+  },
+  "doors": {
+    "reference_spec": "36x80 entry door",
+    "unit": "per unit"
+  },
+  "score_tiers": {
+    "below_standard": { "range": [0, 39], "label": "Below Standard" },
+    "fair": { "range": [40, 59], "label": "Fair" },
+    "good": { "range": [60, 74], "label": "Good" },
+    "excellent": { "range": [75, 89], "label": "Excellent" },
+    "best_in_class": { "range": [90, 100], "label": "Best in Class" }
+  },
+  "price_integrity": {
+    "method": "peer_comparison",
+    "exceeds_threshold": 8,
+    "below_threshold": -8,
+    "peer_price_range_pct": 20,
+    "labels": {
+      "exceeds": {
+        "label": "Exceeds Its Class",
+        "detail": "Scores above what its price should deliver"
+      },
+      "meets": {
+        "label": "Meets Its Class",
+        "detail": "Performs where you'd expect for the money"
+      },
+      "below": {
+        "label": "Below Its Class",
+        "detail": "You're paying for the name, not the product"
+      }
+    }
+  }
+}
