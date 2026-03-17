@@ -653,9 +653,10 @@ function handleAPI(req, res, parsedUrl) {
     }
     if (!product) { sendJSON(res, { error: "Not found" }, 404); return true; }
     parseRequestBody(req).then(body => {
+      const source_names = (body && body.source_names) || [];
       const source_indices = (body && body.source_indices) || [];
-      if (!Array.isArray(source_indices) || source_indices.length === 0) {
-        sendJSON(res, { error: "source_indices must be a non-empty array" }, 400); return;
+      if (source_names.length === 0 && source_indices.length === 0) {
+        sendJSON(res, { error: "source_names or source_indices required" }, 400); return;
       }
       const evidencePath = findEvidenceFile(product.product_name);
       if (!evidencePath) { sendJSON(res, { error: "No evidence file" }, 404); return; }
@@ -663,14 +664,26 @@ function handleAPI(req, res, parsedUrl) {
         const data = JSON.parse(fs.readFileSync(evidencePath, "utf-8"));
         const sources = (data.professional_consensus && data.professional_consensus.sources) || [];
         let quarantined_count = 0;
-        source_indices.forEach(idx => {
-          if (sources[idx] && !sources[idx].quarantined) {
-            sources[idx].quarantined = true;
-            sources[idx].quarantine_reason = "manual";
-            sources[idx].quarantined_at = new Date().toISOString();
-            quarantined_count++;
-          }
-        });
+        if (source_names.length > 0) {
+          const nameSet = new Set(source_names.map(n => n.toLowerCase().trim()));
+          sources.forEach(s => {
+            if (!s.quarantined && nameSet.has((s.name || "").toLowerCase().trim())) {
+              s.quarantined = true;
+              s.quarantine_reason = "manual";
+              s.quarantined_at = new Date().toISOString();
+              quarantined_count++;
+            }
+          });
+        } else {
+          source_indices.forEach(idx => {
+            if (sources[idx] && !sources[idx].quarantined) {
+              sources[idx].quarantined = true;
+              sources[idx].quarantine_reason = "manual";
+              sources[idx].quarantined_at = new Date().toISOString();
+              quarantined_count++;
+            }
+          });
+        }
         fs.writeFileSync(evidencePath, JSON.stringify(data, null, 2));
         console.log(`[QUARANTINE] Manually quarantined ${quarantined_count} sources for ${product.product_name}`);
         sendJSON(res, { success: true, quarantined_count });

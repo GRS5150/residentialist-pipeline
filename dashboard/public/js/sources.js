@@ -139,11 +139,11 @@ function renderSourceExplorer(data, container, productId, quarantineData) {
   if (isAdmin) {
     container.querySelectorAll(".source-select-cb").forEach(cb => {
       cb.addEventListener("change", () => {
-        const idx = parseInt(cb.dataset.evidenceIdx);
+        const srcName = cb.dataset.sourceName;
         if (cb.checked) {
-          _selectedEvidenceIndices.add(idx);
+          _selectedEvidenceIndices.add(srcName);
         } else {
-          _selectedEvidenceIndices.delete(idx);
+          _selectedEvidenceIndices.delete(srcName);
         }
         _updateQuarantineFab();
       });
@@ -178,12 +178,8 @@ function renderSourceRow(src, isAdmin, evidenceMap) {
   // Checkbox for admin: only on active (non-quarantined) sources that exist in evidence
   let checkboxCell = "";
   if (isAdmin) {
-    const entry = evidenceMap[rawName];
-    if (entry && entry.isActive) {
-      checkboxCell = `<td class="source-select-col"><input type="checkbox" class="source-select-cb" data-evidence-idx="${entry.evidenceIdx}"></td>`;
-    } else {
-      checkboxCell = "<td class=\"source-select-col\"></td>";
-    }
+    const safeName = rawName.replace(/"/g, '&quot;');
+    checkboxCell = `<td class="source-select-col"><input type="checkbox" class="source-select-cb" data-source-name="${safeName}"></td>`;
   }
 
   return `
@@ -296,7 +292,7 @@ async function _handleManualQuarantine() {
     const resp = await fetch(`${getBasePath()}api/products/${_sourceExplorerProductId}/quarantine/add`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ source_indices: Array.from(_selectedEvidenceIndices) })
+      body: JSON.stringify({ source_names: Array.from(_selectedEvidenceIndices) })
     });
     const result = await resp.json();
     if (result.success) {
