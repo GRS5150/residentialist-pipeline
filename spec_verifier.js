@@ -215,8 +215,17 @@ Return as JSON:
         }
       }
 
-      // If we can't parse JSON, try to extract specs from text
-      console.warn(`[SPEC_VERIFIER] Could not parse Perplexity JSON — returning raw text for manual review`);
+      // Perplexity returned prose instead of JSON — use Sonnet to extract specs from it
+      console.log(`[SPEC_VERIFIER] Perplexity returned prose (${text.length} chars) — extracting specs with Sonnet...`);
+      try {
+        const extracted = await extractSpecsFromProse(text, productName);
+        if (extracted && extracted.specs && extracted.specs.length > 0) {
+          console.log(`[SPEC_VERIFIER]   Sonnet extracted ${extracted.specs.length} specs from Perplexity prose`);
+          return extracted;
+        }
+      } catch (extractErr) {
+        console.warn(`[SPEC_VERIFIER]   Sonnet extraction failed: ${extractErr.message}`);
+      }
       return { raw_text: text, specs: [], not_found: SPEC_NAMES, pdfs_not_read: [] };
 
     } catch (err) {
@@ -225,6 +234,57 @@ Return as JSON:
     }
   }
   return null;
+}
+
+// ─── Sonnet Prose Extraction (fallback when Perplexity returns prose) ────────
+
+async function extractSpecsFromProse(proseText, productName) {
+  const client = getClient();
+  // Truncate to avoid token limits — first 12K chars usually has all specs
+  const truncated = proseText.substring(0, 12000);
+
+  const response = await client.messages.create({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 2000,
+    messages: [{
+      role: 'user',
+      content: `Extract verified specifications for ${productName} from this research report. Only include specs that are explicitly stated with specific values — do not infer or estimate.
+
+REPORT:
+${truncated}
+
+Return ONLY this JSON, no other text:
+{
+  "specs": [
+    {"spec_name": "u_factor", "value": "0.24", "unit": "BTU/hr·ft²·°F", "source_url": "", "source_type": "perplexity_lookup", "test_standard": "NFRC"},
+    {"spec_name": "glass_warranty", "value": "20", "unit": "years", "source_url": "", "source_type": "perplexity_lookup", "test_standard": "manufacturer"}
+  ],
+  "not_found": ["shgc"],
+  "pdfs_not_read": []
+}
+
+Valid spec_names: ${SPEC_NAMES.join(', ')}.
+For warranty_transferable, use value "yes" or "no".
+For frame_material, use a short descriptive string.
+Only include specs with explicit values in the report.`
+    }]
+  });
+
+  const text = response.content[0].text;
+  // Try parsing JSON — handle code fences
+  let cleaned = text.trim();
+  if (cleaned.startsWith('```json')) cleaned = cleaned.slice(7);
+  else if (cleaned.startsWith('```')) cleaned = cleaned.slice(3);
+  if (cleaned.endsWith('```')) cleaned = cleaned.slice(0, -3);
+  cleaned = cleaned.trim();
+
+  try {
+    return JSON.parse(cleaned);
+  } catch (e) {
+    const match = cleaned.match(/\{[\s\S]*\}/);
+    if (match) return JSON.parse(match[0]);
+    throw new Error(`Could not parse Sonnet extraction: ${e.message}`);
+  }
 }
 
 // ─── Step 2.5 Tier 1: PDF Download + Sonnet ─────────────────────────────────
