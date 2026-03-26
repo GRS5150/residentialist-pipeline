@@ -331,7 +331,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:53.099Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-21T03:40:57.361Z"
       },
       {
         "id": "PC-PELLA2-020",
@@ -349,7 +352,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:52.993Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-20T22:36:11.590Z"
       },
       {
         "id": "PC-PELLA2-021",
@@ -587,7 +593,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:53.926Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "cross_product",
+        "quarantined_at": "2026-03-20T22:36:11.590Z"
       },
       {
         "id": "PC-PELLA2-037",
@@ -713,7 +722,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:14:56.194Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-21T03:56:09.819Z"
       },
       {
         "id": "PC-PELLA2-044",
@@ -1353,7 +1365,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:02.198Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-21T03:40:57.361Z"
       },
       {
         "id": "PC-PELLA2-079",
@@ -1410,7 +1425,10 @@
           "price_bias_detected": false,
           "screened_at": "2026-03-16T19:15:02.987Z",
           "text_source": "snippet"
-        }
+        },
+        "quarantined": true,
+        "quarantine_reason": "dedup",
+        "quarantined_at": "2026-03-21T03:41:38.071Z"
       },
       {
         "id": "PC-PELLA2-082",

@@ -152,6 +152,16 @@
       subScoresHTML = renderPerformanceSubScores(axisData);
     }
 
+    // Show Sonnet reasoning and key sources when available
+    const reasoning = axisData.reasoning || '';
+    const keySources = axisData.key_sources || '';
+    const reasoningHTML = reasoning ? `
+      <div class="sonnet-reasoning" style="margin-top:8px;padding:8px 10px;background:var(--bg-elevated,#1a1a2e);border-radius:6px;border-left:3px solid var(--accent-blue,#4a9eff);">
+        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:4px;font-weight:600;">Sonnet Analysis</div>
+        <div style="font-size:0.75rem;color:var(--text-secondary);line-height:1.5;white-space:pre-line;">${esc(reasoning)}</div>
+        ${keySources ? `<div style="margin-top:6px;font-size:0.68rem;color:var(--text-muted);">Key sources: ${esc(keySources)}</div>` : ''}
+      </div>` : '';
+
     return `
       <div class="tree-branch">
         <div class="tree-node ${expanded ? 'expanded' : ''}" data-branch="${key}">
@@ -164,6 +174,7 @@
           <div class="sub-scores">
             <div class="sub-score-list">
               ${subScoresHTML}
+              ${reasoningHTML}
             </div>
           </div>
         </div>

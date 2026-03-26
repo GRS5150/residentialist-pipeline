@@ -12,10 +12,25 @@ const url = require('url');
 
 // ── Configuration ───────────────────────────────────────────────────────────
 const PORT = 7824;
-const WORKSPACE = process.env.RESIDENTIALIST_WORKSPACE || path.resolve(__dirname, '..');
+let WORKSPACE = process.env.RESIDENTIALIST_WORKSPACE || path.resolve(__dirname, '..');
+// Auto-detect: if DB not found at workspace root, try /residentialist subdirectory
+if (!fs.existsSync(path.join(WORKSPACE, 'residentialist.db')) && fs.existsSync(path.join(WORKSPACE, 'residentialist', 'residentialist.db'))) {
+  WORKSPACE = path.join(WORKSPACE, 'residentialist');
+}
 const DB_PATH = path.join(WORKSPACE, 'residentialist.db');
 const OUTPUTS_DIR = path.join(WORKSPACE, 'outputs');
 const PUBLIC_DIR = path.join(__dirname, 'public');
+
+// ── Phase 2 Directories ─────────────────────────────────────────────────────
+const CURATION_DIR = path.join(WORKSPACE, 'curation');
+const DEEP_DIVES_DIR = path.join(WORKSPACE, 'deep_dives');
+const MANUFACTURERS_DIR = path.join(WORKSPACE, 'manufacturers');
+[CURATION_DIR, DEEP_DIVES_DIR, MANUFACTURERS_DIR].forEach(d => { if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true }); });
+
+let deterministicScorer = null;
+let deepDiveQueue = null;
+try { deterministicScorer = require('../deterministic_scorer'); } catch (e) { console.log('[DASHBOARD] deterministicScorer not available:', e.message); }
+try { deepDiveQueue = require('../deep_dive_queue'); } catch (e) { console.log('[DASHBOARD] deepDiveQueue not available'); }
 
 // ── Sample Data Fallback ────────────────────────────────────────────────────
 const sampleData = require('./sample_data');
@@ -190,9 +205,9 @@ function getScoreTier(score) {
 // Price Integrity labels
 function getPriceIntegrityLabel(pi) {
   const labels = {
-    exceeds: { label: 'Exceeds Its Class', detail: 'Scores above what its price should deliver', css: 'pi-exceeds' },
-    meets: { label: 'Meets Its Class', detail: 'Performs where you\'d expect for the money', css: 'pi-meets' },
-    below: { label: 'Below Its Class', detail: "You're paying for the name, not the product", css: 'pi-below' }
+    exceeds: { label: 'Strong value for the category', detail: 'Delivers more quality than its price tier suggests', css: 'pi-exceeds' },
+    meets: { label: 'Priced mid-range for this category', detail: 'Quality matches what you pay', css: 'pi-meets' },
+    below: { label: 'Overpriced relative to performance', detail: 'Quality falls short of its price point', css: 'pi-below' }
   };
   return labels[pi] || null;
 }
@@ -301,8 +316,268 @@ const MIME_TYPES = {
 const activeJobs = new Map();
 
 // ── API Routes ──────────────────────────────────────────────────────────────
-function handleAPI(req, res, parsedUrl) {
+async function handleAPI(req, res, parsedUrl) {
+
   const pathname = parsedUrl.pathname;
+
+  // ── Phase 2: Curation Routes ──────────────────────────────────────────
+
+  // GET /api/curation — list all products with curation status
+  if (pathname === '/api/curation' && req.method === 'GET') {
+    try {
+      const curationFiles = fs.existsSync(CURATION_DIR) ? fs.readdirSync(CURATION_DIR).filter(f => f.endsWith('_sources.json')) : [];
+      const products = curationFiles.map(f => {
+        try {
+          const data = JSON.parse(fs.readFileSync(path.join(CURATION_DIR, f), 'utf8'));
+          return {
+            slug: f.replace('_sources.json', ''),
+            product_name: data.product_name || f.replace('_sources.json', '').replace(/_/g, ' '),
+            curation_status: data.curation_status || 'staged',
+            total_sources: data.auto_classification_summary?.total || data.sources?.length || 0,
+            score_sources: data.auto_classification_summary?.score || 0,
+            report_only_sources: data.auto_classification_summary?.report_only || 0,
+            quarantine_sources: data.auto_classification_summary?.quarantine || 0,
+            deep_dive_date: data.deep_dive_date || null,
+            bottom_line: data.bottom_line || '',
+            manufacturer_slug: data.manufacturer_slug || ''
+          };
+        } catch { return null; }
+      }).filter(Boolean);
+      sendJSON(res, products);
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // GET /api/curation/:slug — full curation data
+  const curationSlugMatch = pathname.match(/^\/api\/curation\/([^/]+)$/);
+  if (curationSlugMatch && req.method === 'GET') {
+    try {
+      const slug = curationSlugMatch[1];
+      const filePath = path.join(CURATION_DIR, slug + '_sources.json');
+      if (!fs.existsSync(filePath)) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      sendJSON(res, data);
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // POST /api/curation/:slug/classify — classify a single source
+  const classifyMatch = pathname.match(/^\/api\/curation\/([^/]+)\/classify$/);
+  if (classifyMatch && req.method === 'POST') {
+    try {
+      const slug = classifyMatch[1];
+      const body = await readBody(req);
+      const filePath = path.join(CURATION_DIR, slug + '_sources.json');
+      if (!fs.existsSync(filePath)) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      const source = data.sources?.find(s => s.id === body.source_id);
+      if (!source) { sendJSON(res, { error: 'Source not found' }, 404); return true; }
+      source.classification = body.classification;
+      source.classification_reason = body.reason || source.classification_reason;
+      if (!data.human_overrides) data.human_overrides = [];
+      data.human_overrides.push({ source_id: body.source_id, action: 'classify', new_value: body.classification, timestamp: new Date().toISOString() });
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+      sendJSON(res, { success: true, source });
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // POST /api/curation/:slug/bulk-classify — bulk classify
+  const bulkClassifyMatch = pathname.match(/^\/api\/curation\/([^/]+)\/bulk-classify$/);
+  if (bulkClassifyMatch && req.method === 'POST') {
+    try {
+      const slug = bulkClassifyMatch[1];
+      const body = await readBody(req);
+      const filePath = path.join(CURATION_DIR, slug + '_sources.json');
+      if (!fs.existsSync(filePath)) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      let changed = 0;
+      for (const change of (body.changes || [])) {
+        const source = data.sources?.find(s => s.id === change.source_id);
+        if (source) { source.classification = change.classification; changed++; }
+      }
+      const summary = { total: data.sources.length, score: 0, report_only: 0, quarantine: 0, uncertain: 0 };
+      for (const s of data.sources) {
+        if (s.classification === 'score') summary.score++;
+        else if (s.classification === 'report_only') summary.report_only++;
+        else if (s.classification === 'quarantine') summary.quarantine++;
+        else summary.uncertain++;
+      }
+      data.auto_classification_summary = summary;
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+      sendJSON(res, { success: true, changed });
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // POST /api/curation/:slug/release — release to pipeline
+  const releaseMatch = pathname.match(/^\/api\/curation\/([^/]+)\/release$/);
+  if (releaseMatch && req.method === 'POST') {
+    try {
+      const slug = releaseMatch[1];
+      const filePath = path.join(CURATION_DIR, slug + '_sources.json');
+      if (!fs.existsSync(filePath)) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      data.curation_status = 'released';
+      data.curation_date = new Date().toISOString();
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+      sendJSON(res, { success: true, status: 'released' });
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // GET /api/curation/:slug/pipeline-status — poll pipeline progress
+  const pipelineStatusMatch = pathname.match(/^\/api\/curation\/([^/]+)\/pipeline-status$/);
+  if (pipelineStatusMatch && req.method === 'GET') {
+    const slug = pipelineStatusMatch[1];
+    const progressPath = path.join(CURATION_DIR, slug + '_pipeline_progress.json');
+    try {
+      if (fs.existsSync(progressPath)) {
+        const progress = JSON.parse(fs.readFileSync(progressPath, 'utf8'));
+        sendJSON(res, progress);
+      } else {
+        sendJSON(res, { status: 'idle', message: 'No pipeline running' });
+      }
+    } catch (err) {
+      sendJSON(res, { status: 'error', message: err.message });
+    }
+    return true;
+  }
+
+    // POST /api/curation/:slug/rescore — run scoring pipeline on curated product
+  const rescoreMatch = pathname.match(/^\/api\/curation\/([^/]+)\/rescore$/);
+  if (rescoreMatch && req.method === 'POST') {
+    try {
+      const slug = rescoreMatch[1];
+      const curationFile = path.join(CURATION_DIR, slug + '_sources.json');
+      const deepDiveDir = path.join(path.dirname(CURATION_DIR), 'deep_dives', slug);
+
+      // Check if this product has a curation file (deep dive path)
+      if (fs.existsSync(curationFile) && fs.existsSync(deepDiveDir)) {
+        // Fork score_from_curation_v2.js as a child process (pipeline takes minutes)
+        const { fork } = require('child_process');
+        const pipelinePath = path.join(WORKSPACE, 'score_from_curation_v2.js');
+
+        if (!fs.existsSync(pipelinePath)) {
+          sendJSON(res, { error: 'score_from_curation_v2.js not found' }, 500);
+          return true;
+        }
+
+        console.log(`[RESCORE] Forking curation pipeline for: ${slug}`);
+        const child = fork(pipelinePath, [slug], {
+          cwd: WORKSPACE,
+          env: { ...process.env, OPENCLAW_WORKSPACE: WORKSPACE },
+          stdio: ['pipe', 'pipe', 'pipe', 'ipc']
+        });
+
+        let logOutput = '';
+        child.stdout.on('data', d => { logOutput += d.toString(); console.log(`[PIPELINE:${slug}] ${d.toString().trim()}`); });
+        child.stderr.on('data', d => { logOutput += d.toString(); console.error(`[PIPELINE:${slug}] ERR: ${d.toString().trim()}`); });
+
+        child.on('exit', (code) => {
+          console.log(`[PIPELINE:${slug}] Exited with code: ${code}`);
+          // Save log to output for debugging
+          const logPath = path.join(WORKSPACE, 'curation', slug + '_pipeline_log.txt');
+          try { fs.writeFileSync(logPath, logOutput); } catch (e) {}
+        });
+
+        sendJSON(res, {
+          started: true,
+          message: `Pipeline started for ${slug} (Bot 2 → Scorer → Council)`,
+          note: 'Pipeline runs in background. Check curation list for updated score.'
+        });
+      } else if (deterministicScorer) {
+        // No curation file — use existing Bot 2 output for rescore
+        let result;
+        if (typeof deterministicScorer.rescoreProduct === 'function') {
+          result = deterministicScorer.rescoreProduct(slug, 'windows');
+        } else {
+          sendJSON(res, { error: 'No scoring function available' }, 500);
+          return true;
+        }
+        if (result && typeof result.then === 'function') result = await result;
+        sendJSON(res, result || { success: true });
+      } else {
+        sendJSON(res, { error: 'Neither curation file nor scorer module available' }, 500);
+      }
+    } catch (err) {
+      console.error('[RESCORE ERROR]', err);
+      sendJSON(res, { error: err.message }, 500);
+    }
+    return true;
+  }
+
+    // POST /api/deepdive/start — start full pipeline (deep dive → V2 score) via nohup
+  if (pathname === '/api/deepdive/start' && req.method === 'POST') {
+    try {
+      const body = await readBody(req);
+      if (!body.product_name) { sendJSON(res, { error: 'product_name required' }, 400); return true; }
+      const productName = body.product_name;
+      const operationType = body.operation_type || 'double_hung';
+      const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '') + '_' + operationType;
+
+      // Write initial progress so polling starts immediately
+      const progressPath = path.join(CURATION_DIR, `${slug}_pipeline_progress.json`);
+      fs.writeFileSync(progressPath, JSON.stringify({
+        slug, step: 0, total: 6, current_bot: 'Starting full pipeline...', status: 'running',
+        updated: new Date().toISOString(), phase: 'starting'
+      }, null, 2));
+
+      // Launch full_pipeline.js as a detached nohup background process
+      const logPath = path.join(WORKSPACE, 'deep_dives', `${slug}_pipeline.log`);
+      const fullPipelinePath = path.join(WORKSPACE, 'full_pipeline.js');
+      const { spawn } = require('child_process');
+      const nodePath = process.execPath; // use same node binary that runs the dashboard
+      const child = spawn('nohup', [nodePath, fullPipelinePath, productName, operationType], {
+        cwd: WORKSPACE,
+        detached: true,
+        stdio: ['ignore', fs.openSync(logPath, 'a'), fs.openSync(logPath, 'a')],
+        env: { ...process.env }
+      });
+      child.unref();
+
+      console.log(`[DASHBOARD] Full pipeline launched for "${productName}" (${operationType}), PID=${child.pid}, log=${logPath}`);
+      sendJSON(res, { success: true, message: 'Full pipeline launched (deep dive → scoring)', product: productName, slug, pid: child.pid });
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // GET /api/deepdive/status — queue status
+  if (pathname === '/api/deepdive/status' && req.method === 'GET') {
+    const queue = deepDiveQueue ? deepDiveQueue.getQueue() : null;
+    if (!queue) { sendJSON(res, { processing: false, queued: 0 }); return true; }
+    sendJSON(res, queue.getStatus());
+    return true;
+  }
+
+  // GET /api/manufacturer/:slug — get manufacturer file
+  const mfgMatch = pathname.match(/^\/api\/manufacturer\/([^/]+)$/);
+  if (mfgMatch && req.method === 'GET') {
+    try {
+      const slug = mfgMatch[1];
+      const filePath = path.join(MANUFACTURERS_DIR, slug + '.json');
+      if (!fs.existsSync(filePath)) { sendJSON(res, { error: 'Manufacturer not found' }, 404); return true; }
+      sendJSON(res, JSON.parse(fs.readFileSync(filePath, 'utf8')));
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // GET /api/score-history/:slug — get score history
+  const historyMatch = pathname.match(/^\/api\/score-history\/([^/]+)$/);
+  if (historyMatch && req.method === 'GET') {
+    try {
+      const slug = historyMatch[1];
+      const Database = require('better-sqlite3');
+      const db = new Database(DB_PATH, { readonly: true });
+      const rows = db.prepare('SELECT * FROM score_history WHERE product_slug = ? ORDER BY created_at DESC LIMIT 50').all(slug);
+      db.close();
+      sendJSON(res, rows);
+    } catch (err) { sendJSON(res, []); }
+    return true;
+  }
+
+  // ── End Phase 2 Routes ────────────────────────────────────────────────
+
 
   // GET /api/products
   if (pathname === '/api/products' && req.method === 'GET') {
@@ -351,8 +626,44 @@ function handleAPI(req, res, parsedUrl) {
     if (detScores && detScores.professional_consensus && detScores.professional_consensus.pool_details) {
       poolDetails = detScores.professional_consensus.pool_details;
     } else {
-      const generated = sampleData.generateDetailedScores(product);
-      poolDetails = generated.professional_consensus.pool_details;
+      // Try curation sources (V2 pipeline)
+      const productSlugForSrc = product.product_name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+      let curationData = null;
+      const srcVariants = [productSlugForSrc + '_double_hung', productSlugForSrc];
+      for (const sv of srcVariants) {
+        const cp = path.join(CURATION_DIR, sv + '_sources.json');
+        if (fs.existsSync(cp)) { try { curationData = JSON.parse(fs.readFileSync(cp, 'utf8')); } catch(e) {} break; }
+      }
+      // Also try glob match
+      if (!curationData && fs.existsSync(CURATION_DIR)) {
+        const cFiles = fs.readdirSync(CURATION_DIR).filter(f => f.endsWith('_sources.json'));
+        const slugBase = productSlugForSrc.replace(/_/g, '');
+        const match = cFiles.find(f => f.replace(/_/g, '').includes(slugBase));
+        if (match) { try { curationData = JSON.parse(fs.readFileSync(path.join(CURATION_DIR, match), 'utf8')); } catch(e) {} }
+      }
+
+      if (curationData && curationData.sources && curationData.sources.length > 0) {
+        // Build pool_details from curation sources with real names
+        const pools = {};
+        for (const src of curationData.sources) {
+          if (src.classification === 'quarantine') continue;
+          const poolKey = src.pool || 'C';
+          if (!pools[poolKey]) pools[poolKey] = { count: 0, sources: [] };
+          pools[poolKey].sources.push({
+            name: src.source_name || src.id,
+            url: src.url || '',
+            summary: src.snippet || '',
+            pool: poolKey,
+            platform: src.platform || 'other',
+            classification: src.classification
+          });
+          pools[poolKey].count = pools[poolKey].sources.length;
+        }
+        poolDetails = pools;
+      } else {
+        const generated = sampleData.generateDetailedScores(product);
+        poolDetails = generated.professional_consensus.pool_details;
+      }
     }
     // Merge URLs from evidence file into pool_details sources
     const urlMap = getSourceUrlMap(product.product_name);
@@ -510,7 +821,30 @@ function handleAPI(req, res, parsedUrl) {
     const runDir = findLatestRunDir(product.product_name);
     const detScoresRaw = readJsonFile(runDir, 'DETERMINISTIC_SCORES.json');
     const bot2 = readJsonFile(runDir, /bot2_evaluator\.json$/) || sampleData.generateBot2Findings(product);
-    const bot3 = readJsonFile(runDir, /bot3_material_safety\.json$/) || sampleData.generateBot3MaterialSafety(product);
+    let bot3 = readJsonFile(runDir, /bot3_material_safety\.json$/);
+    if (!bot3 && detScoresRaw && detScoresRaw.health_label) {
+      // V2 pipeline — construct material health from DETERMINISTIC_SCORES + REPORT
+      const reportData = readJsonFile(runDir, 'REPORT.json');
+      const healthLabel = detScoresRaw.health_label;
+      const materialClass = (product.material_class || '').toLowerCase();
+      // Vinyl baseline: 7.0-7.5 (Moderate)
+      let healthScore = materialClass.includes('vinyl') || materialClass.includes('pvc') ? 7.2
+        : materialClass.includes('fiberglass') ? 8.5
+        : materialClass.includes('wood') ? 7.8
+        : materialClass.includes('composite') || materialClass.includes('fibrex') ? 7.0
+        : materialClass.includes('aluminum') ? 7.5
+        : 7.0;
+      bot3 = {
+        material_safety_score: healthScore,
+        grade: healthLabel,
+        tier: healthLabel,
+        flags: healthScore < 7.0 ? ['PVC content in frame material'] : [],
+        certifications_found: healthScore >= 8.0 ? ['ENERGY STAR Certified', 'NFRC Certified', 'GREENGUARD'] : ['ENERGY STAR Certified', 'NFRC Certified'],
+        buyer_note: (reportData && reportData.material_health_summary) || '',
+        reasoning: (reportData && reportData.material_health_summary) || ''
+      };
+    }
+    if (!bot3) bot3 = sampleData.generateBot3MaterialSafety(product);
     const pipeline = readJsonFile(runDir, 'PIPELINE_STATUS.json') || { status: 'PASS', corrections: [], outlook: sampleData.getOutlook(product.overall_score) };
 
     // Merge deterministic scores with bot2 scores structure
@@ -568,30 +902,80 @@ function handleAPI(req, res, parsedUrl) {
       };
     } else if (detScoresRaw) {
       // No bot2 — build structure from deterministic + product table
+      // Load V2 pipeline data: SONNET_SCORES.json for reasoning, curation for source names
+      const sonnetScores = readJsonFile(runDir, 'SONNET_SCORES.json');
+      const reportData = readJsonFile(runDir, 'REPORT.json');
+
+      // Try to load curation sources for real source names
+      let curationSources = [];
+      const productSlug = product.product_name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+      const curationVariants = [productSlug + '_double_hung', productSlug, productSlug.replace(/_series$/, '')];
+      for (const cv of curationVariants) {
+        const cPath = path.join(CURATION_DIR, cv + '_sources.json');
+        if (fs.existsSync(cPath)) {
+          try {
+            const cData = JSON.parse(fs.readFileSync(cPath, 'utf8'));
+            curationSources = (cData.sources || []).filter(s => s.classification === 'score');
+          } catch (e) {}
+          break;
+        }
+      }
+      // Also try glob match
+      if (curationSources.length === 0 && fs.existsSync(CURATION_DIR)) {
+        const cFiles = fs.readdirSync(CURATION_DIR).filter(f => f.endsWith('_sources.json'));
+        const slugBase = productSlug.replace(/_/g, '');
+        const match = cFiles.find(f => f.replace(/_/g, '').includes(slugBase));
+        if (match) {
+          try {
+            const cData = JSON.parse(fs.readFileSync(path.join(CURATION_DIR, match), 'utf8'));
+            curationSources = (cData.sources || []).filter(s => s.classification === 'score');
+          } catch (e) {}
+        }
+      }
+
+      // Build source key_sources display from curation or sonnet
+      const qualitySources = sonnetScores && sonnetScores.quality ? (sonnetScores.quality.key_sources || []).join(', ') : '';
+      const durabilitySources = sonnetScores && sonnetScores.durability ? (sonnetScores.durability.key_sources || []).join(', ') : '';
+      const performanceSources = sonnetScores && sonnetScores.performance ? (sonnetScores.performance.key_sources || []).join(', ') : '';
+
+      // Build reasoning from Sonnet
+      const qReasoning = sonnetScores && sonnetScores.quality ? (sonnetScores.quality.reasoning || []).join('\n\n') : '';
+      const dReasoning = sonnetScores && sonnetScores.durability ? (sonnetScores.durability.reasoning || []).join('\n\n') : '';
+      const pReasoning = sonnetScores && sonnetScores.performance ? (sonnetScores.performance.reasoning || []).join('\n\n') : '';
+
       detScores = {
         ...detScoresRaw,
         overall: product.overall_score,
         grade: sampleData.getGrade(product.overall_score),
         outlook: pipeline.outlook || sampleData.getOutlook(product.overall_score),
+        outlook_detail: reportData ? (reportData.product_summary || '') : '',
         material_safety: (bot3 && bot3.material_safety_score) || product.material_safety_score,
+        sonnet_scores: sonnetScores || null,
+        curation_sources: curationSources,
         scores: {
           quality: {
             axis_score: product.quality_score,
             component_quality: detScoresRaw.component_quality || {},
             manufacturing_quality: detScoresRaw.manufacturing_quality || {},
-            professional_consensus: detScoresRaw.professional_consensus || {}
+            professional_consensus: detScoresRaw.professional_consensus || {},
+            reasoning: qReasoning,
+            key_sources: qualitySources
           },
           durability: {
             axis_score: product.durability_score,
-            frame_longevity: { score: 0, reasoning: '' },
-            materials_durability: detScoresRaw.materials_durability || {},
-            repairability: detScoresRaw.repairability || {}
+            frame_longevity: { score: 0, reasoning: dReasoning ? dReasoning.split('\n\n')[0] : '' },
+            materials_durability: detScoresRaw.materials_durability || { reasoning: dReasoning },
+            repairability: detScoresRaw.repairability || { reasoning: dReasoning ? dReasoning.split('\n\n').slice(-1)[0] : '' },
+            reasoning: dReasoning,
+            key_sources: durabilitySources
           },
           performance: {
             axis_score: product.performance_score,
-            thermal: { score: 0, reasoning: '' },
-            structural: { score: 0, reasoning: '' },
-            air_water: { score: 0, reasoning: '' }
+            thermal: { score: 0, reasoning: pReasoning ? pReasoning.split('\n\n')[0] : '' },
+            structural: { score: 0, reasoning: pReasoning ? pReasoning.split('\n\n')[1] || '' : '' },
+            air_water: { score: 0, reasoning: pReasoning ? pReasoning.split('\n\n').slice(-1)[0] : '' },
+            reasoning: pReasoning,
+            key_sources: performanceSources
           }
         }
       };
@@ -865,6 +1249,19 @@ function handleAPI(req, res, parsedUrl) {
 }
 
 // ── Response Helpers ────────────────────────────────────────────────────────
+
+function readBody(req) {
+  return new Promise((resolve, reject) => {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', () => {
+      try { resolve(JSON.parse(body)); }
+      catch { resolve({}); }
+    });
+    req.on('error', reject);
+  });
+}
+
 function sendJSON(res, data, status = 200) {
   const body = JSON.stringify(data);
   res.writeHead(status, {
@@ -895,7 +1292,7 @@ function serveStatic(res, filePath) {
 }
 
 // ── HTTP Server ─────────────────────────────────────────────────────────────
-const server = http.createServer((req, res) => {
+const server = http.createServer(async (req, res) => {
   const parsedUrl = url.parse(req.url, true);
   const pathname = parsedUrl.pathname;
 
@@ -912,7 +1309,7 @@ const server = http.createServer((req, res) => {
 
   // API routes
   if (pathname.startsWith('/api/')) {
-    if (!handleAPI(req, res, parsedUrl)) {
+    if (!(await handleAPI(req, res, parsedUrl))) {
       sendJSON(res, { error: 'Unknown endpoint' }, 404);
     }
     return;
@@ -922,6 +1319,12 @@ const server = http.createServer((req, res) => {
   let filePath;
   if (pathname === '/' || pathname === '/index.html') {
     filePath = path.join(PUBLIC_DIR, 'index.html');
+  } else if (pathname === '/curation' || pathname === '/curation.html') {
+    filePath = path.join(PUBLIC_DIR, 'curation.html');
+  } else if (pathname.startsWith('/curation-product') || pathname === '/curation-product.html') {
+    filePath = path.join(PUBLIC_DIR, 'curation-product.html');
+  } else if (pathname === '/manufacturer' || pathname === '/manufacturer.html') {
+    filePath = path.join(PUBLIC_DIR, 'manufacturer.html');
   } else if (pathname.startsWith('/product/') || pathname === '/product.html') {
     filePath = path.join(PUBLIC_DIR, 'product.html');
   } else {

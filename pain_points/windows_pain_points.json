@@ -1,0 +1,117 @@
+{
+  "category": "windows",
+  "version": "1.0",
+  "created": "2026-03-18",
+  "pain_points": [
+    {
+      "id": "WIN-PP-001",
+      "title": "Seal Failure & IGU Fogging",
+      "description": "The seal between double- or triple-pane glass fails, allowing moisture between panes.",
+      "why_buyers_care": "Most common window failure. Fix costs $200-400 per window even under warranty because most warranties cover parts but not labor.",
+      "trigger_terms": ["seal failure", "IGU failure", "fogging between panes", "condensation inside glass", "argon leak"],
+      "financial_impact": "$200-800 per window for IGU replacement",
+      "gate": 1,
+      "scoring_axes": ["durability"],
+      "surfacing_rule": "If product warranty excludes IGU seal after any period, or is parts-only for seal replacement, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-002",
+      "title": "Warranty Registration Deadlines",
+      "description": "Many warranties require registration within 30-60 days of purchase or installation. Missing the deadline can reduce coverage by 50-75%.",
+      "why_buyers_care": "Buyers often don't know about the registration requirement until they need to file a claim years later.",
+      "trigger_terms": ["warranty registration", "register within", "registration deadline", "must register", "registration required"],
+      "financial_impact": "Full warranty value at risk — can reduce 20-year coverage to 5 years",
+      "gate": 2,
+      "scoring_axes": ["durability"],
+      "surfacing_rule": "If product warranty requires registration within any time period to maintain full coverage, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-003",
+      "title": "Parts-Only Warranty Coverage",
+      "description": "Many window warranties cover replacement parts but not the labor to install them. Labor often costs more than the part itself.",
+      "why_buyers_care": "A 'lifetime warranty' sounds comprehensive but covers $50 in parts while you pay $300 in labor.",
+      "trigger_terms": ["parts only", "labor not covered", "does not cover installation", "parts-only warranty", "labor exclusion"],
+      "financial_impact": "$150-400 per window for labor on component replacement",
+      "gate": 1,
+      "scoring_axes": ["durability"],
+      "surfacing_rule": "If warranty is parts-only for any component, or labor is excluded after any period, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-004",
+      "title": "Non-Transferable or Limited Transfer Warranty",
+      "description": "Warranty either doesn't transfer to the next owner or transfers with significantly reduced coverage.",
+      "why_buyers_care": "Reduces resale value. A buyer paying premium prices expects the warranty to follow the product, not the original purchaser.",
+      "trigger_terms": ["non-transferable", "not transferable", "warranty transfer", "second owner", "subsequent owner", "original purchaser only"],
+      "financial_impact": "Indirect — reduces home resale value by the remaining warranty value",
+      "gate": 3,
+      "scoring_axes": ["durability"],
+      "surfacing_rule": "If warranty is non-transferable or has significant reduction on transfer, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-005",
+      "title": "Limited Dealer or Service Network",
+      "description": "Product is only available through limited channels or direct-to-consumer, making service, replacement parts, and warranty claims difficult.",
+      "why_buyers_care": "When something breaks in 5 years, you need a local dealer who can order parts and arrange service. No local presence means shipping windows across the country.",
+      "trigger_terms": ["direct to consumer", "no dealer network", "limited availability", "factory direct", "no local dealer", "limited distribution"],
+      "financial_impact": "$200-500+ for shipping large replacement components",
+      "gate": 3,
+      "scoring_axes": ["performance"],
+      "surfacing_rule": "If product lacks a broad dealer/service network or is only available direct-to-consumer, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-006",
+      "title": "Lead Time and Availability Issues",
+      "description": "Product has long lead times (8+ weeks) or frequent availability problems that can delay construction schedules.",
+      "why_buyers_care": "A 12-week lead time on windows can delay an entire construction project. Contractors may need to hold crews or pay penalties.",
+      "trigger_terms": ["lead time", "backorder", "long wait", "weeks to deliver", "availability", "out of stock", "production delay"],
+      "financial_impact": "$500-5000+ in construction delays per week",
+      "gate": 1,
+      "scoring_axes": ["performance"],
+      "surfacing_rule": "If documented lead times exceed 8 weeks or availability issues are a pattern, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-007",
+      "title": "Warranty Claim Difficulties",
+      "description": "Brand has documented patterns of denying warranty claims, slow service response, or requiring extensive documentation.",
+      "why_buyers_care": "A warranty is only as good as the company standing behind it. Patterns of claim denial turn a 20-year warranty into paper decoration.",
+      "trigger_terms": ["claim denied", "warranty denied", "slow response", "service complaints", "won't honor warranty", "difficult warranty process"],
+      "financial_impact": "Full replacement cost if claims are denied — $300-1500+ per window",
+      "gate": 3,
+      "scoring_axes": ["quality"],
+      "surfacing_rule": "If professional sources or curated evidence report consistent patterns of warranty claim difficulties, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-008",
+      "title": "Finish Degradation in UV-Heavy Climates",
+      "description": "Exterior finish (paint, coating, vinyl color) degrades prematurely in high UV environments, causing chalking, fading, or peeling.",
+      "why_buyers_care": "A $600 window that looks washed out in 3 years costs another $200+ per window to refinish. Southern and western exposures are worst.",
+      "trigger_terms": ["chalking", "fading", "UV degradation", "color fade", "finish peeling", "exterior coating failure", "sun damage"],
+      "financial_impact": "$150-300 per window for refinishing or $400-800 for replacement",
+      "gate": 1,
+      "scoring_axes": ["durability"],
+      "surfacing_rule": "If evidence shows finish degradation patterns, especially in UV-heavy climates, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-009",
+      "title": "Proprietary Hardware and Replacement Parts",
+      "description": "Product uses proprietary hardware (locks, balances, operators) that can only be sourced from the manufacturer.",
+      "why_buyers_care": "If the manufacturer discontinues the product line or goes out of business, replacement parts become impossible to find.",
+      "trigger_terms": ["proprietary hardware", "custom parts", "non-standard", "can't find parts", "discontinued parts", "manufacturer-only parts"],
+      "financial_impact": "$100-400 per window for custom part sourcing or workarounds",
+      "gate": 1,
+      "scoring_axes": ["durability"],
+      "surfacing_rule": "If product uses proprietary hardware that cannot be sourced from third parties, surface as Buyer Consideration"
+    },
+    {
+      "id": "WIN-PP-010",
+      "title": "Class Action or Pattern Defect History",
+      "description": "Brand has class action lawsuits or documented pattern defects in the past decade related to product failure.",
+      "why_buyers_care": "Past pattern defects suggest systemic quality control issues that may not be fully resolved, even if the specific issue was 'fixed'.",
+      "trigger_terms": ["class action", "lawsuit", "pattern defect", "recall", "settlement", "litigation", "product defect"],
+      "financial_impact": "Varies — potential total window replacement if defect recurs",
+      "gate": 3,
+      "scoring_axes": ["quality", "durability"],
+      "surfacing_rule": "If brand has class action or pattern defect lawsuits within the past 10 years, surface as Buyer Consideration with plain language description"
+    }
+  ]
+}

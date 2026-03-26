@@ -1,0 +1,37 @@
+{
+  "product": "MI Windows 1620",
+  "operation_type": "double_hung",
+  "slug": "mi_windows_1620_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 154393
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 42006
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 18,
+      "cost_estimate": 0.114159
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/mi_windows_1620_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T22:30:27.800Z"
+}

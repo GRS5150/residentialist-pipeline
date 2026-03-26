@@ -1,0 +1,447 @@
+{
+  "product": "MI Windows 1620",
+  "product_note": "Marketed as double-hung but confirmed single-hung vinyl window",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "U.S. Consumer Product Safety Commission – MI Windows 1620 WOCD Recall",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Voluntary recall of ~25,000 units of 1620 vinyl single-hung impact windows manufactured before November 2022. Tilt latches could cause window opening control devices to malfunction, posing fall and serious injury hazards. Free in-home repair remedy offered. No injuries reported.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Official safety recall — documents a legal/safety action rather than a product quality score",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "MI Windows Marketing Materials (Tony Matter, Marketing Director)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Company marketing claims energy-efficiency, safety, and style are integral to 1620 design, positioning it as suitable for any project type and climate. Highlights archtop configuration availability and impact-resistance capabilities.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content — not independent assessment",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Qualified Remodeler – Trade Publication Feature on MI 1620",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Recognized trade publication highlighted the 1620 as a coastal replacement and impact window designed from the start for impact resistance, with structural reinforcements positioned toward the interior to preserve aesthetic appearance.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed trade publication with specific product assessment and design analysis",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Bella Vista Windows and Doors – MI vs. Gentek vs. Simonton Comparison",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Dealer-prepared comparison characterizes MI as providing cost-effective solutions for budget-conscious homeowners. Notes impact-resistant and windstorm-rated windows meeting STC sound control and windstorm requirements for Florida and Texas.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer comparison with structured product positioning and specs across competing brands",
+      "topics": [
+        "performance",
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Demers Glass – Pella vs. Andersen Window Comparison",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Analysis establishes pricing hierarchy: Andersen averages 15–25% higher than Pella after installation; premium lines exceed that spread. Used to contextualize MI's lower market position relative to both brands.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with pricing data relevant to MI's market positioning, though MI is not the primary subject",
+      "topics": [
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "MI Windows 1620 Product Technical Specification Sheet",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents multi-chambered mainframe with honeycomb webbing, 3.25-inch frame depth, 5-degree sloped sill with deflection shield, fusion-welded frame/sash, inverted constant-force stainless steel balance coils, dual opposing locks, and double-strength base glass.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published specs with measurable technical data enabling verification; manufacturer-sourced but specifications are objectively checkable",
+      "topics": [
+        "specs",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "MI Windows ENERGY STAR Compliance Data – 1620 Glass Packages",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "With Low-E and argon gas, the 1620 achieves U-Value 0.29 and SHGC 0.30, meeting ENERGY STAR requirements in North-Central, South-Central, and Southern climate zones. Does not qualify for Northern zone.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Verified ENERGY STAR compliance data constitutes independent performance rating",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Better Business Bureau Complaint Records – MI Windows (2019–2025)",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple BBB complaints document condensation pooling inside sash, water running into framing causing black mold in homes under five years old, paint peeling with corrosion beneath, lengthy warranty delays, unreachable installers, and complications following Sunrise Windows acquisition.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple independent BBB complaints across years establishing corroborated pattern of moisture intrusion and warranty service failure — meets threshold for pattern-based scoring",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "MI Windows Warranty Document – Lifetime Limited Warranty Terms",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Warranty covers frame/sash defects for owner's lifetime in owner-occupied single-family homes; glass 20 years from manufacture date; laminated/impact glass 5 years. Excludes interior moisture/condensation, corrosion beyond 2 years, and installation non-conformance. Commercial use capped at 10 years.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Primary warranty document with specific coverage terms directly relevant to scoring warranty gap topics",
+      "topics": [
+        "warranty",
+        "service",
+        "legal"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz Forum – Professional Installer and Contractor Discussions on MI Windows",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Professionals characterize MI as 'pure junk' and 'builder grade,' warning of flimsy frames, high air infiltration, and cheap appearance. One professional states no true window pro recommends MI. A minority view suggests adequate value if properly installed.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple credentialed professional voices in forum expressing consistent negative product assessment — corroborated pattern across multiple posters",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Houzz Forum – Consumer Grid and Advertising Discrepancy Complaints",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple homeowners report receiving grids applied at job site with razor knife rather than factory-installed, with gaps, misalignment, and thin flat appearance inconsistent with marketing images. One homeowner spent $30k and called it deceptive advertising.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple independent consumers reporting same factory vs. delivered product discrepancy — corroborated pattern qualifying for scoring",
+      "topics": [
+        "quality",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "CPSC Recall Notice – MI Windows 1620 Impact Windows WOCD",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "CPSC formal recall notice covering 25,000 units sold September 2017–November 2022 through distributors in AL, FL, GA, LA, MS, NC, SC, TX at $500–$700 retail. Tilt latch/WOCD malfunction creates fall hazard. Free in-home repair provided.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory action — documents recall rather than product quality scoring",
+      "topics": [
+        "legal",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Class Action Lawsuit – MI Windows Moisture Intrusion (8500, 4300, 3500 Series)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Class action alleges design defect in seal at bottom bead of double-pane glass in MI single-hung models 8500, 4300, and 3500 allows water infiltration causing mold, mineral deposits, and structural damage. Alleges company knew of defect and failed to disclose.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal proceeding — documents lawsuit pattern relevant to 1620 moisture concerns but 1620 not named; report_only per classification rules",
+      "topics": [
+        "legal",
+        "quality",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "CPSC Recall Notice – MI Windows 1615/1617 Sliding Glass Doors (and Window World Models)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Approximately 1,900 impact-resistant or DP50 sliding glass doors manufactured before March 7, 2023 recalled for potential glass separation from frame during hurricane conditions, posing serious injury risk.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Recall on related but different product line (1615/1617 doors, not 1620 window) — report_only per different product line rule",
+      "topics": [
+        "legal",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "MI Windows – Milgard Acquisition Announcement (2019)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "MI completed acquisition of Milgard Windows & Doors from Masco Corporation in November 2019, combining regional brands into a national manufacturer with plants in AZ, PA, and TX. Strategy emphasized complementary geographic strengths.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate ownership/structure information — relevant context but not a product quality assessment",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "MI Windows – Sunrise Windows Acquisition Announcement (2020)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "MI acquired Sunrise Windows & Doors in 2020 to expand dealer-direct channel in eastern US. Legacy Sunrise customers reported warranty complications and service delays post-acquisition as claims migrated to MI systems.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate acquisition context — service disruption documented but relates to organizational structure, not direct product quality",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "BBB Individual Complaint – Paint Peeling and Corrosion Coverage Dispute",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Homeowner with aluminum-frame MI windows reports paint blistering and peeling within a few years; professional painter states he has never seen that from any manufacturer. MI covered peeling for 10 years but denied corrosion beneath as beyond 2-year coverage limit.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical product defect documented with third-party professional corroboration and warranty gap pattern — qualifies for scoring",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "BBB Individual Complaint – Transom Window Repeated Manufacturing Defects",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Consumer reports transom window replaced twice for thick-line defect through glass; awaiting third replacement with no response to multiple calls to MI Windows/Sunrise. Documents repeated manufacturing defect and communication failure.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Recurring physical manufacturing defect with documented pattern of service non-responsiveness — corroborated by similar BBB complaints",
+      "topics": [
+        "quality",
+        "service",
+        "warranty"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "quality",
+      "expert": "Mixed — trade pub acknowledges budget tier; CPSC recall confirms safety defect in impact units",
+      "review": "Negative — dealer comparisons place MI below Simonton; builder-grade characterization consistent",
+      "forum": "Negative — widespread complaints about moisture, paint failure, grid defects, and frame quality",
+      "agreement": "low_quality_consensus"
+    },
+    {
+      "topic": "durability",
+      "expert": "Limited data — fusion welding and coated coils cited as positives; class action on related lines raises systemic concerns",
+      "review": "Negative — professionals warn of 10–15 year degradation window; Simonton preferred",
+      "forum": "Negative — homes under 5 years showing mold, rot, and frame corrosion",
+      "agreement": "negative_consensus"
+    },
+    {
+      "topic": "performance",
+      "expert": "Adequate — ENERGY STAR compliant in 3 zones; DP-50 rated for coastal use; impact resistance design confirmed",
+      "review": "Adequate to poor — dealers confirm coastal suitability but professionals cite high air infiltration",
+      "forum": "Negative — professionals in forums flag flimsy frames and air leakage",
+      "agreement": "split_expert_positive_forum_negative"
+    },
+    {
+      "topic": "warranty",
+      "expert": "Problematic — warranty document reveals major exclusions including moisture/condensation and 2-year corrosion cap",
+      "review": "Not assessed by review sources",
+      "forum": "Negative — widespread reports of denied claims, delays, and exclusion misapplication",
+      "agreement": "negative_consensus"
+    },
+    {
+      "topic": "service",
+      "expert": "Negative — acquisition complexity documented as causing service deterioration for legacy Sunrise customers",
+      "review": "Not assessed",
+      "forum": "Negative — multiple reports of no-contact installers, multi-month delays, and dismissive responses",
+      "agreement": "negative_consensus"
+    },
+    {
+      "topic": "value",
+      "expert": "Conditional — adequate for budget new construction in warm climates with qualified installers",
+      "review": "Conditional — dealers position as cost-effective for budget-conscious buyers",
+      "forum": "Mixed — minority view that price is appropriate given budget expectations; majority dissatisfied",
+      "agreement": "conditional_value_consensus"
+    },
+    {
+      "topic": "legal",
+      "expert": "Concerning — CPSC recall on 1620 WOCD; class action on related lines; 1615/1617 door recall",
+      "review": "Not assessed",
+      "forum": "Referenced anecdotally in complaints",
+      "agreement": "documented_legal_exposure"
+    },
+    {
+      "topic": "specs",
+      "expert": "Documented — U-0.29 / SHGC-0.30 with Low-E+argon; DP-50; 3.25-inch frame depth; ENERGY STAR 3 zones",
+      "review": "Confirmed by dealer comparisons and trade publications",
+      "forum": "Not independently assessed",
+      "agreement": "positive_consensus_on_paper_specs"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [],
+    "underperforms_expectations": [
+      "Marketed as 'Lifetime Limited' but condensation and interior moisture explicitly excluded — the most common consumer complaint category is entirely outside coverage",
+      "Corrosion covered only 2 years despite paint peeling (which triggers corrosion) covered 10 years — creates logical gap that denies legitimate claims",
+      "Glass coverage runs from manufacture date, not installation date — inventory time reduces actual in-home coverage without disclosure",
+      "Commercial and non-owner-occupied residential capped at 10 years despite 'Lifetime' marketing language",
+      "Warranty voided if homeowner sells property, with transferability limited to second owner only within 5 years of manufacture"
+    ],
+    "surprises": [
+      "Installation non-conformance exclusion allows MI to deny claims by asserting improper installation without burden of proof",
+      "Sunrise Windows acquisition created warranty complexity not anticipated by pre-acquisition Sunrise customers",
+      "Impact glass (StormArmor/laminated) carries only 5-year glass coverage versus 20 years for standard IG units — shorter coverage on the premium safety product"
+    ]
+  },
+  "verified_specs": {
+    "product_type": "Single-hung vinyl window (NOT double-hung as queried)",
+    "frame_material": "Multi-chambered vinyl with honeycomb webbing",
+    "frame_depth": "3.25 inches (standard replacement pocket size)",
+    "glass": "Double-strength base glass; Low-E and argon gas optional; impact-resistant/tempered available",
+    "u_factor": "0.29 (with Low-E + argon)",
+    "shgc": "0.30 (with Low-E + argon)",
+    "air_infiltration": "Not independently verified; forum professionals cite high infiltration rating",
+    "dp_rating": "DP-50 (50 psf design pressure)",
+    "stc": "STC-rated available per dealer comparison; specific rating not documented",
+    "energy_star_zones": [
+      "North-Central",
+      "South-Central",
+      "Southern"
+    ],
+    "impact_wind_speed_claim": "Up to 140 mph (manufacturer claim; independent third-party verification not documented)",
+    "balance_system": "Inverted constant-force, coated stainless steel coils in protective plastic housing with detent clip",
+    "sill": "5-degree slope with deflection shield and offset runoffs",
+    "locks": "Dual opposing locks standard on widths 24.125 inches and wider",
+    "welding": "Fusion welded with robotic cleaning process",
+    "sizing_increments": "Width in 1/8-inch increments; height in 1/4-inch increments",
+    "egress_compliance": "3'0\" x 5'2\" standard; 3'0\" x 5'6\" impact egress"
+  },
+  "red_flags": [
+    {
+      "type": "recall",
+      "description": "CPSC voluntary recall of approximately 25,000 units of MI Windows 1620 vinyl single-hung impact windows manufactured before November 2022. Tilt latches cause WOCD malfunction posing fall/injury hazard. Sold in AL, FL, GA, LA, MS, NC, SC, TX from September 2017 through November 2022.",
+      "status": "Resolved via free in-home repair; no injuries reported"
+    },
+    {
+      "type": "recall",
+      "description": "CPSC recall of approximately 1,900 MI Windows 1615 and 1617 sliding glass doors (impact or DP50 upgrade) and related Window World models manufactured before March 7, 2023 for potential glass separation from frame during hurricane conditions.",
+      "status": "Active recall — related product line, not 1620 directly"
+    },
+    {
+      "type": "lawsuit",
+      "description": "Class action lawsuit alleging design defect causing seal failure at bottom bead of double-pane glass in MI Windows 8500, 4300, and 3500 single-hung series, allowing water infiltration causing mold, structural damage, and property value loss. Alleges company knew of defect and concealed it.",
+      "status": "Filed; resolution not documented in available sources; 1620 not named but moisture pattern consistent with 1620 consumer complaints"
+    },
+    {
+      "type": "stability_concern",
+      "description": "Rapid dual acquisitions (Milgard 2019, Sunrise 2020) have created organizational complexity resulting in documented warranty service degradation for legacy brand customers. Multiple homeowners report claims lost or significantly delayed during brand transitions.",
+      "status": "Ongoing operational concern"
+    },
+    {
+      "type": "warranty_gap",
+      "description": "Warranty explicitly excludes interior moisture and condensation — the single most frequently cited consumer complaint category — creating a systematic gap between marketing representations and actual coverage that may constitute deceptive trade practice exposure.",
+      "status": "Structural warranty concern; no FTC action documented"
+    }
+  ],
+  "bottom_line": "The MI Windows 1620 is a single-hung vinyl window (not double-hung as commonly mischaracterized) positioned firmly in the budget tier for coastal new construction and warm-climate replacement applications. On paper, it delivers adequate specs — U-0.29/SHGC-0.30 with Low-E+argon, ENERGY STAR in three southern zones, DP-50 coastal rating, and a thoughtfully engineered sill and balance system. In practice, the product is undermined by three compounding problems. First, a documented pattern of moisture intrusion and condensation failure — corroborated across BBB complaints, Houzz forums, and a parallel class action against related MI product lines — that the warranty explicitly excludes from coverage, creating a systematic protection gap precisely where the product most frequently fails. Second, a CPSC recall covering 25,000 units of 1620 impact windows for a WOCD fall hazard and a second recall on closely related 1615/1617 door lines, signaling systemic quality control vulnerabilities rather than isolated events. Third, a post-acquisition service infrastructure that professional accounts and consumer complaints consistently describe as unresponsive, delay-prone, and prone to claim denial through broad application of installation and exclusion clauses. Professional window contractors in trade forums strongly favor Simonton over MI at comparable price points. The 'Lifetime Limited' warranty marketing overstates actual protection significantly once exclusions for moisture, condensation, and corrosion-beyond-two-years are understood. Buyers with strict budget constraints in coastal or warm climates who can verify qualified installation and retain all documentation may find the 1620 acceptable for basic function. Buyers prioritizing durability, moisture resilience, or reliable warranty follow-through should budget upward to Simonton or Pella, where professional consensus and warranty terms more reliably align with consumer expectations.",
+  "product_slug": "mi_windows_1620",
+  "product_name": "MI Windows 1620",
+  "manufacturer_slug": "mi",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 115810,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 18,
+    "score": 11,
+    "report_only": 6,
+    "quarantine": 1
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.114159,
+  "verification_date": "2026-03-23T19:45:15.147Z"
+}

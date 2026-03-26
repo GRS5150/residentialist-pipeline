@@ -1,0 +1,647 @@
+{
+  "product": "Pella 250 Series Double-Hung Window",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Pella 250 Series Official Specs",
+      "url": "https://pella.com/shop/windows/250-series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official specs document 3.25-inch frame depth, heat-fused PVC corners, constant-force balances, R20-R50 performance class, STC 26 dual-pane and 28 triple-pane, size range 14.5x23.5 to 53.5x78 inches, dual-pane and triple-pane glazing options.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published manufacturer specs with measurable performance data; usable for specification scoring despite manufacturer origin.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Lowe's 250 Series Product Listing",
+      "url": "https://lowes.com/pd/Pella-250-Series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retail listing documents DP35 design pressure rating, SHGC 0.52, half-screen included, flat frame profile. Represents retail-channel specification data for the 250 Series.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Retail listing with measurable specs including DP rating and SHGC; usable for specification scoring.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Pella Warranty Page",
+      "url": "https://pella.com/support/warranties",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Limited lifetime warranty for original purchaser in owner-occupied single-family residence. Labor coverage only two years from purchase. Component coverage varies. Pella Care Guarantee extends labor to ten years via in-house installation only. Restricts arbitration rights.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Official warranty documentation with specific, verifiable coverage terms directly relevant to warranty scoring.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Siding & Windows Wizards LLC – Pella 250 vs Impervia Video",
+      "url": "https://youtube.com/watch?v=Zh6jto5Q-MM",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional contractor side-by-side comparison. Notes premium look, full-length sash lift rail, triple-layer weatherstripping, smooth tilt mechanism, well-insulated meeting rail. Criticizes inability to specify dark colors on both sides and weep-hole water management approach.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed contractor providing structured comparison with direct product handling observations; qualifies as professional expert evaluation.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "TheWindowDog – Pella 250 Series Review",
+      "url": "https://thewindowdog.com/pella-250-series",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Professional review site characterizes 250 Series as decent but mid-range, now Pella's top vinyl after 350 Series discontinuation. Flags absent published efficiency ratings as negative signal. Warranty termed 'not a selling point'—shorter than competitors with arbitration restrictions.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent professional review site with structured scoring and specific comparative analysis; qualifies as expert review with clear product opinion.",
+      "topics": [
+        "performance",
+        "value",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Consumer Affairs – Pella Reviews",
+      "url": "https://consumeraffairs.com/homeowners/pella",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Aggregated 4.1/5 stars from 1,304 verified reviews using contact-verified methodology. Range of experiences from satisfactory double-hung operation to significant service issues. Moderated platform with integrity software employed.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review platform with verified reviewer methodology and structured scoring; sufficient for aggregate sentiment scoring.",
+      "topics": [
+        "quality",
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Modernize – Pella vs Andersen Comparison",
+      "url": "https://modernize.com/windows/brands/pella-vs-andersen",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Comparative analysis placing 250 Series as Pella mid-range vinyl against Andersen 400 Series. Starting prices $200–$300 per window. Pella noted for material versatility; Andersen for premium wood/clad design. Both offer broad configuration ranges.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with pricing and specification data; qualifies for scoring with modest pool weight.",
+      "topics": [
+        "value",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "This Old House – Pella vs Andersen 2025",
+      "url": "https://thisoldhouse.com/windows/pella-vs-andersen",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Survey of 1,000 homeowners shows average Pella installation cost $8,506 vs Andersen $7,586. Per-unit range $149–$1,416 for Pella. Detailed comparison table covering warranty, materials, and installation process. Pella skews higher in total project cost.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Established trade publication with primary survey data and structured comparison; qualifies as credentialed expert comparative source.",
+      "topics": [
+        "value",
+        "specs",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "ClassAction.org – Pella Windows Lawsuit",
+      "url": "https://classaction.org/pella-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Documents $35M+ settlements for Pella Architect, Designer, and Proline series water infiltration defects causing hidden wood rot behind aluminum cladding. Alleges Pella knew of defects but withheld information. 250 Series vinyl not directly implicated.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; involves different product lines than 250 Series but establishes relevant corporate defect-response pattern.",
+      "topics": [
+        "legal",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Clifford Law – Pella Class Action Page",
+      "url": "https://cliffordlaw.com/class-actions-lawsuits/pella-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Proline casement window settlement details with KCC claims administrator. Water infiltration causing wood rot behind cladding. Warranty expiration before visible damage discovery cited as aggravating factor. Different product line than 250 Series.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit documentation per auto-classification rules; different product line from 250 Series vinyl.",
+      "topics": [
+        "legal",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "BBB – Pella Corporation Complaint Profile",
+      "url": "https://bbb.org/us/ia/pella/profile",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple complaints document defective felt seals, molding separation, 6-month repair delays, missing flashing on Pella-supervised installs, door panel defects unresolved for months. Pella not BBB accredited. Pattern of parts availability and service responsiveness failures.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple BBB complaints establishing a corroborating pattern of physical product defects and service failures; qualifies for scoring under forum-with-corroborating-pattern rule.",
+      "topics": [
+        "quality",
+        "service",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Houzz Forum – Pella 250 vs Andersen 400",
+      "url": "https://houzz.com/discussions/6318993/pella-250-vs-andersen-400",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports wind whistling through 4-year-old 250 Series windows with a manufacturing flaw identified under warranty. Second homeowner reports confusion over hurricane impact rating claims made at point of sale. Mixed owner satisfaction.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread with multiple corroborating reports of physical product defects (wind infiltration, manufacturing flaw) qualifies for scoring under corroborated-defect-pattern rule.",
+      "topics": [
+        "performance",
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Green Building Advisor Forum – Logic vs Pella 250",
+      "url": "https://greenbuildingadvisor.com/question/logic-vs-pella",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Forum participant misinterprets Pella U-value 0.23 as superior to competitor 0.15, confusing U-value and R-value scales. Corrected in thread. Suggests Pella marketing may present efficiency data in ways that appear favorable when raw specs are less impressive.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Technical forum discussion with professional-grade correction of efficiency metric interpretation; relevant to performance scoring despite forum platform.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Fine Homebuilding Forum – Pella vs JELD-WEN",
+      "url": "https://finehomebuilding.com/forum/pella-versus-jeld-wen",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Experienced professionals debate product quality. One rates Proline above Andersen 400; another calls it 'cheap crap.' 22-year inspector notes early Pella windows still operating well. Concerns raised about post-warranty service responsiveness versus Andersen's approach.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "FHB forum with credentialed contractor participants providing corroborating observations on durability and service; pattern supports scoring.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "AB Edward – Are Pella Windows Worth It?",
+      "url": "https://abedward.com/are-pella-windows-worth-it",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Chicago Pella contractor assesses 100-year brand reputation driving customer loyalty. Notes 15–30 year service life reports. Acknowledges competitors (Simonton, Marvin, custom) offer comparable performance at lower prices. Premium partly reflects brand equity, not solely engineering.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Contractor-published analysis with direct product experience and specific competitor comparisons; dealer content but knowledgeable and substantive.",
+      "topics": [
+        "value",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Altadena Government Technical Specs PDF",
+      "url": "https://romi.gov/DocumentCenter/View/35987",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Government procurement document specifies 250 Series: 52% stronger than standard vinyl, dual-pane U-factor 0.27–0.33, SHGC 0.20–0.51, STC 25; triple-pane U-factor 0.21–0.26, SHGC 0.22–0.44, STC 28. Vinyl laminate 2.6x more durable than painted vinyl.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Government procurement specification document with independently compiled performance metrics; qualifies as independent testing/spec data at Pool A.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Pella Installation Video – Fixed Panel Replacement",
+      "url": "https://youtube.com/watch?v=76ADxMl2Ljk",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Manufacturer tutorial demonstrates complex fixed-panel replacement requiring sealant removal, 25-minute frame cleaning, precise setting block positioning, and specific sealant reapplication. Highlights procedural complexity of warranty repairs.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation and repair procedures, not product quality directly; classified as report_only per installation-quality rule.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Pella Weatherstrip Replacement Guide",
+      "url": "https://youtube.com/watch?v=gA0lgQtdxKg",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Manufacturer tutorial for weatherstrip replacement on 250 Series hinged doors. Requires 45-degree angle cuts, 24-hour cure time, specific triple-layer configuration knowledge. Indicates maintenance requires precise execution for optimal performance.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source covers maintenance/installation procedure, not inherent product quality; report_only per installation-quality rule.",
+      "topics": [
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Kachina Contracting – Pella 250 vs 350 Comparison",
+      "url": "https://kachinacontracting.com/pella-250-vs-350",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Contractor analysis compares 250 Series (52% stronger than standard vinyl) to discontinued 350 Series (80% stronger). Notes 350 offered superior Low-E shield glass and energy efficiency advantages. Warranties described as identical across both lines.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published contractor comparative review with specific strength and efficiency differentials; provides context for 250 Series positioning within Pella lineup.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Encompass vs 250 Series Comparison Video",
+      "url": "https://youtube.com/watch?v=fSTDz7R02Mg",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Contractor video comparing Encompass entry-level to 250 Series mid-range. Documents frame thickness differences, metal reinforcement distinctions, and color option expansion at 250 tier. Positions 250 as meaningful step up from entry-level Pella vinyl.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published contractor comparison video with structural and specification observations supporting product tier scoring.",
+      "topics": [
+        "quality",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Pella Performance Information Page",
+      "url": "https://pella.com/support/performance-information",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official definitions and values for U-factor, SHGC, VLT, Design Pressure, Performance Class, and Performance Grade for Pella product lines including 250 Series.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Manufacturer spec page with standardized NFRC-defined metrics; usable for specification scoring despite manufacturer origin.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Pella Finishes & Colors Page",
+      "url": "https://pella.com/ideas/windows/features-options/finishes-and-colors/vinyl",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official page documents three solid colors (White, Almond, Fossil) and two dual-color options (White/Brown, White/Black exterior). Vinyl laminate cited as 2.6x more durable than painted vinyl. Confirms no dark interior option available with dark exterior.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Manufacturer spec content directly relevant to design limitation scoring; confirms color constraint noted by multiple expert sources.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Modernize / Today's Homeowner – Pella vs JELD-WEN",
+      "url": "https://todayshomeowner.com/windows/reviews/pella-vs-jeld-wen",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Professional review comparing Pella and JELD-WEN on service offerings, installation process, warranty coverage, and value. Highlights differentiation in service network and warranty terms between the two brands.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review site with structured comparison and warranty analysis; qualifies for scoring at Pool B.",
+      "topics": [
+        "warranty",
+        "service",
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Marvin vs Pella Fiberglass Comparison",
+      "url": "https://nextdoorandwindow.com/fiberglass-windows-pella-vs-marvin",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Dealer comparison of Marvin Ultrex (8x stronger than vinyl) against Pella Impervia thermoset fiberglass. Provides competitive durability and efficiency context for evaluating 250 Series vinyl positioning within broader market.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Source compares Impervia and Marvin fiberglass lines, not the 250 Series vinyl product; quarantined per different-product-line rule.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Pella Double-Hung Sash Removal Guide",
+      "url": "https://youtube.com/watch?v=aNgCYuWLI14",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Manufacturer maintenance video covering balance shoe tension adjustment, weatherstrip maintenance procedures, and shoe alignment requirements for 250 Series double-hung sash removal and reinstallation.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Covers installation and maintenance procedures rather than inherent product quality; report_only per installation-quality rule.",
+      "topics": [
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Pella Architect Balance Replacement Video",
+      "url": "https://youtube.com/watch?v=R3jJdQiCvmk",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Manufacturer video on balance replacement for Architect series demonstrating tension management, jam liner removal, and repair complexity. Indicates repair sophistication level for balance systems across Pella lines.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Source addresses Pella Architect series, not 250 Series; quarantined per different-product-line rule.",
+      "topics": [
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Pella Company History – FundingUniverse",
+      "url": "https://fundinguniverse.com/company-histories/pella-corporation-history",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Documents Pella founded 1925, family-owned by Kuyper family, 370 showrooms by 1990s, acquisitions of Cole Sewell, Viking, and Pease. Provides corporate stability and longevity context for brand reliability assessment.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate history relevant to stability assessment but does not score product quality directly; report_only.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Pella – How to Choose Soundproof Windows",
+      "url": "https://pella.com/professionals/windows/how-to-choose-soundproof-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer educational page explaining STC ratings, triple-pane sound benefits, laminated glass noise reduction, and material mass importance. Contextualizes 250 Series STC 26–28 performance.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/educational content without independent testing data; quarantined per manufacturer marketing content rule.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Pella Window Condensation Tips",
+      "url": "https://pella.com/ideas/windows/window-condensation-tips",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer guidance on interior condensation causes, exhaust fan recommendations, dehumidifier use, and seal failure diagnosis. Addresses common owner concerns without product-specific performance claims.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer educational content; no independent data or scoring relevance; quarantined per manufacturer marketing content rule.",
+      "topics": [
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Pella Omaha Dealer – Condensation Management Guide",
+      "url": "https://pellaomaha.com/blog/how-to-get-rid-of-window-condensation",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Dealer blog covering mold risk from persistent condensation, ventilation improvements, High-E glass effectiveness, and seal maintenance. Sponsored dealer content with practical but non-independent guidance.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Dealer/sponsored content without independent testing; quarantined per manufacturer marketing content rule.",
+      "topics": [
+        "durability",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "quality",
+      "expert": "Solid mid-range vinyl with precision heat-fused welds, 52% stronger than standard vinyl; not premium-grade; occasional finishing details need refinement",
+      "review": "Adequate materials for mid-range positioning; some manufacturing defects documented (seals, molding); not top-tier vs. competitors",
+      "forum": "Mix of reports; some units arrive with defective seals or molding; long-term owners report durable performance",
+      "agreement": "moderate — experts and reviews align on mid-range quality; forum adds defect-frequency concern"
+    },
+    {
+      "topic": "durability",
+      "expert": "15–30 year service life documented by contractors; early Pella windows still operating after decades with routine maintenance",
+      "review": "Rated 20–25+ year service life; less durable than fiberglass but superior to low-cost vinyl",
+      "forum": "Generally positive long-term reports; some premature failures (wind infiltration after 4 years) noted",
+      "agreement": "high — broad agreement on 15–25 year realistic service life contingent on proper installation"
+    },
+    {
+      "topic": "performance",
+      "expert": "Middle-of-the-road efficiency; absent voluntary published ratings interpreted negatively by professional reviewers",
+      "review": "U-factor 0.21–0.33; SHGC 0.20–0.51; qualifies for ENERGY STAR but does not lead market",
+      "forum": "No widespread complaints about energy inefficiency; GBA forum flags that Pella marketing can obscure true efficiency ranking",
+      "agreement": "high — consistent characterization as adequate but not exceptional energy performer"
+    },
+    {
+      "topic": "warranty",
+      "expert": "Adequate scope but 'not a selling point'; shorter labor coverage (2 years) than competitors; arbitration restrictions noted",
+      "review": "Limited lifetime on parts with varying component terms; Pella Care Guarantee extends labor to 10 years via in-house install only",
+      "forum": "Multiple BBB complaints of 4–6 month warranty resolution delays; parts availability failures; service responsiveness below expectations",
+      "agreement": "high — consistent finding that warranty scope is adequate but execution quality and coverage terms are below competitive standard"
+    },
+    {
+      "topic": "service",
+      "expert": "Installation quality identified as primary performance determinant; in-house Pella installation recommended over independent contractors",
+      "review": "Pella offers multiple install channels; in-house specialists trained to company standards provide superior warranty coverage",
+      "forum": "Complaints about slow service, missing flashing on Pella-supervised installs, rescheduling delays, 6-month replacement waits",
+      "agreement": "moderate — experts recommend in-house install; forum and BBB data show even that channel has service responsiveness failures"
+    },
+    {
+      "topic": "value",
+      "expert": "Premium pricing reflects brand equity and R&D investment; comparable performance available at lower cost from Simonton, Marvin, custom alternatives",
+      "review": "Average install cost $8,506 vs. $7,586 for Andersen; per-unit range overlaps but Pella projects trend higher",
+      "forum": "Widespread perception of unjustified price premium; homeowners research alternatives due to cost",
+      "agreement": "high — consistent across all source types that value proposition is weak relative to pricing"
+    },
+    {
+      "topic": "specs",
+      "expert": "Frame depth 3.25 inches; PVC extruded sash; dual/triple glazing; STC 26–28; R20–R50 performance class",
+      "review": "Dual-pane U 0.27–0.33 SHGC 0.20–0.51 STC 25; triple-pane U 0.21–0.26 SHGC 0.22–0.44 STC 28; DP35 retail listing",
+      "forum": "U-value interpretation confusion noted; suggests published specs may not be prominently disclosed by Pella in sales materials",
+      "agreement": "high — specification data consistent across government, manufacturer, and independent sources"
+    },
+    {
+      "topic": "legal",
+      "expert": "No 250 Series-specific litigation; Architect/Designer/Proline $35M+ settlements establish corporate defect-response pattern",
+      "review": "Legal sources confirm settlements for wood-rot water intrusion in different product lines; vinyl 250 Series not implicated",
+      "forum": "No forum-level legal claims specific to 250 Series identified",
+      "agreement": "high — 250 Series not subject to known litigation; corporate pattern noted as contextual risk factor only"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [],
+    "underperforms_expectations": [
+      "Labor coverage is only 2 years from purchase, significantly shorter than the 5–10 years offered by competing brands such as Andersen and Marvin",
+      "Warranty dispute resolution includes arbitration restrictions that limit homeowner legal recourse, a clause flagged by professional reviewers as adversarial",
+      "Real-world warranty execution involves documented 4–6 month delays for parts and service appointments, substantially eroding the practical value of stated coverage",
+      "The 10-year Pella Care Guarantee labor extension is available only through Pella's own in-house installation channel, excluding Lowe's or independent contractor installations"
+    ],
+    "surprises": [
+      "Warranty claim process requires only serial number or purchase order number — administratively simpler than many competitors",
+      "Pella's in-house Care Guarantee extends labor coverage to 10 years, a competitive term, but the channel restriction means most buyers never access it",
+      "Despite 'limited lifetime' terminology, effective coverage for many components is considerably shorter, creating a gap between marketing language and actual protection scope"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "dual_pane": "0.27–0.33",
+      "triple_pane": "0.21–0.26",
+      "source": "SRC-016 (Altadena Government Specs), SRC-001 (Pella Official Specs)"
+    },
+    "shgc": {
+      "dual_pane": "0.20–0.51",
+      "triple_pane": "0.22–0.44",
+      "source": "SRC-016, SRC-001"
+    },
+    "air_infiltration": "not_published",
+    "frame_material": "Extruded rigid PVC, mitered and heat-fused corners; vinyl laminate exterior available (2.6x more durable than painted vinyl)",
+    "glass": {
+      "standard": "Quality float glass per ASTM C1036",
+      "options": "Dual-pane standard, 1-inch triple-pane available; Advanced Low-E Insulating Glass packages offered",
+      "source": "SRC-001"
+    },
+    "dp_rating": "DP35 (retail listing SRC-002); R20–R50 performance class (SRC-001, SRC-016)",
+    "stc": {
+      "dual_pane": "25–26",
+      "triple_pane": "28",
+      "source": "SRC-001 (26 dual, 28 triple), SRC-016 (25 dual, 28 triple)"
+    },
+    "frame_depth": "3.25 inches overall",
+    "frame_strength": "52% stronger than standard vinyl per manufacturer and government procurement document",
+    "size_range": "14.5 x 23.5 inches (minimum) to 53.5 x 78 inches (maximum)",
+    "hardware": "Zinc die-cast self-aligning sash locks; dual locks on frames 29.5 inches wide or greater; constant-force stainless steel coil spring balances",
+    "weatherstripping": "Fin-type pile with vinyl-wrapped foam; triple-layer configuration",
+    "vlt": "not_published",
+    "color_options": "White, Almond, Fossil solid; White/Brown and White/Black dual-color; no dark interior + dark exterior combination available",
+    "energy_star": "Qualifies in all 50 states (implied by U-factor range)"
+  },
+  "red_flags": [
+    {
+      "type": "class_action_settlement",
+      "description": "Pella settled class action lawsuits totaling at least $35 million related to defective Architect, Designer, and Proline series windows that allowed water penetration behind aluminum cladding causing hidden wood rot. Pella allegedly knew of defects but did not inform consumers or initiate recalls. The 250 Series vinyl is not directly implicated, but the corporate pattern of defect concealment is documented.",
+      "sources": [
+        "SRC-009",
+        "SRC-010"
+      ],
+      "relevance_to_250_series": "Indirect — different product lines affected; vinyl construction eliminates the wood-rot failure mode but corporate defect-response pattern applies"
+    },
+    {
+      "type": "warranty_service_failure_pattern",
+      "description": "Multiple BBB complaints from 2025 document systemic parts availability failures and service scheduling delays of 4–6 months for warranty claims, including cases where Pella's own field technicians confirmed defects but did not schedule repairs. Pattern suggests operational service quality issues, not isolated incidents.",
+      "sources": [
+        "SRC-011"
+      ],
+      "relevance_to_250_series": "Direct — complaints reference current Pella window and door products"
+    },
+    {
+      "type": "installation_malpractice_by_pella_contractor",
+      "description": "One BBB complaint from March 2025 documents a Pella-supervised installation lacking waterproofing and flashing, confirmed by a Pella representative's inspection, with Pella subsequently refusing responsibility. Undermines the premise that in-house Pella installation reliably exceeds independent contractor quality.",
+      "sources": [
+        "SRC-011"
+      ],
+      "relevance_to_250_series": "Direct — affects trust in Pella Care Guarantee installation quality claim"
+    },
+    {
+      "type": "misleading_sales_claim",
+      "description": "Houzz forum homeowner reports being told by Pella sales representative that 250 Series windows were hurricane impact rated at time of purchase, then being told otherwise when ordering additional units. Suggests potential for sales channel misrepresentation of performance ratings.",
+      "sources": [
+        "SRC-012"
+      ],
+      "relevance_to_250_series": "Direct — specific to 250 Series product sales claims"
+    },
+    {
+      "type": "absent_published_efficiency_ratings",
+      "description": "Professional reviewer TheWindowDog notes Pella advertises glass package names without publishing actual NFRC efficiency ratings, interpreting the absence as implicit acknowledgment that efficiency numbers are not competitive. Efficiency data is available in government procurement docs but not prominently disclosed in consumer marketing.",
+      "sources": [
+        "SRC-005"
+      ],
+      "relevance_to_250_series": "Direct — applies specifically to 250 Series marketing"
+    }
+  ],
+  "bottom_line": "The Pella 250 Series double-hung window is a competent mid-range vinyl product that delivers adequate energy performance (U-factor 0.21–0.33), solid durability (realistic 15–25 year service life), and attractive contemporary aesthetics within material constraints. It qualifies for ENERGY STAR in all 50 states, achieves a respectable STC of 26–28, and benefits from a 100-year brand reputation with demonstrated long-term serviceability. However, it does not justify its pricing premium on engineering merit alone: energy performance is middle-of-the-road, the warranty's 2-year labor term and arbitration restrictions are below competitive standard, documented warranty service delays of 4–6 months are a systemic concern, and the inability to specify dark colors on both interior and exterior surfaces is a meaningful design constraint. The brand's $35M+ class-action settlement history—while involving different product lines—establishes a concerning defect-response pattern. Professional installers consistently identify installation quality as the primary performance determinant, making Pella's in-house Care Guarantee channel the recommended purchase path when available. Homeowners prioritizing value, superior energy efficiency, design flexibility, or responsive warranty service should seriously evaluate Andersen 400 Series, Marvin Essential, or Pella's own Impervia fiberglass line before committing to the 250 Series.",
+  "product_slug": "pella_250_series",
+  "product_name": "Pella 250 Series",
+  "manufacturer_slug": "pella",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-20",
+  "structuring_duration_ms": 163421,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 30,
+    "score": 19,
+    "report_only": 6,
+    "quarantine": 5,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.16781400000000002
+}

@@ -1,0 +1,49 @@
+[dotenv@17.3.1] injecting env (35) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+
+[V2] ════════════════════════════════════════════════════════════
+[V2] NEW PIPELINE V2: pella_250_series_double_hung
+[V2] Category: windows | Config: DH
+[V2] ════════════════════════════════════════════════════════════
+
+[V2] Product: Pella 250 Series
+[V2] Sources: 30 total, 12 score, 9 report_only
+[V2] Loaded manufacturer: pella
+[V2] Output dir: /Users/Residentialist/.openclaw/workspace/residentialist/outputs/pella_250_series_2026-03-21T22-12-25
+
+[V2] ── Step 1: Sonnet Scorer ──────────────────────────────────
+[SONNET_SCORER] Scoring Pella 250 Series with 12 curated score sources...
+[SONNET_SCORER] Sonnet responded (attempt 1): Q=6.3, D=5.8, P=6.2, confidence=high
+[V2] Step 1 complete: Q=6.3, D=5.8, P=6.2
+
+[V2] ── Step 2: Haiku Auditor ──────────────────────────────────
+[HAIKU_AUDITOR] Auditing scores for Pella 250 Series...
+[HAIKU_AUDITOR] Audit complete (attempt 1): Q=6.3, D=5.5, P=6.2, passed=true
+[HAIKU_AUDITOR] Adjustment: durability 5.8 → 5.5 (SRC-011 (BBB complaints, quarantine pool C) was appropriately excluded from scoring, but Sonnet should have more heavily weighted the documented warranty service delays (4-6 months) as a critical durability/ownership confidence issue. The manufacturing defect reported in SRC-012 (Houzz forum, pool C) provides corroborating evidence of durability concerns that justifies slightly lower score.)
+[HAIKU_AUDITOR] ⚠️ CONTAMINATION DETECTED in Sonnet scores
+[V2] Step 2 complete: Q=6.3, D=5.5, P=6.2, passed=true
+
+[V2] ── Step 3: Score Calculator ───────────────────────────────
+[SCORE_CALC] Raw axis scores: Q=6.3, D=5.5, P=6.2
+[SCORE_CALC] Stretched: Q=6.35, D=4.31, P=5.67
+[SCORE_CALC] Overall: 5.4/10 (54/100) — Fair (F)
+[SCORE_CALC] Method: geometric, Weights: Q=0.35, D=0.35, P=0.3
+[V2] Step 3 complete: 54/100 (Fair) — F
+
+[V2] ── Step 4: Report Writer ──────────────────────────────────
+[REPORT_WRITER] Generating editorial report for Pella 250 Series...
+[REPORT_WRITER] Report generated (attempt 1)
+[V2] Step 4 complete: summary=320 chars, considerations=3
+
+[V2] ── Writing to Database ────────────────────────────────────
+[V2] ✅ DB updated: id=5, name=Pella 250 Series, score=54/100, label=Fair
+[V2] ✅ Wrote 3 buyer considerations
+[V2] ✅ Score history recorded
+
+[V2] ════════════════════════════════════════════════════════════
+[V2] PIPELINE COMPLETE in 43s
+[V2] Score: 54/100 (Fair) — F
+[V2] Axes: Q=6.3 → 6.35, D=5.5 → 4.31, P=6.2 → 5.67
+[V2] Output: /Users/Residentialist/.openclaw/workspace/residentialist/outputs/pella_250_series_2026-03-21T22-12-25
+[V2] Files: SONNET_SCORES.json, HAIKU_AUDIT.json, DETERMINISTIC_SCORES.json, REPORT.json, PIPELINE_STATUS.json
+[V2] ════════════════════════════════════════════════════════════
+

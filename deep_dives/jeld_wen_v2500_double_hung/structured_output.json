@@ -1,0 +1,496 @@
+{
+  "product": "JELD-WEN V-2500 Double-Hung Window",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "JELD-WEN Official V-2500 Product Page",
+      "url": "https://www.jeld-wen.com/products/builders-vinyl-v-2500",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer positions V-2500 as 'better and most popular selection for new construction and remodeling project bids.' Highlights 93 exterior colors, Energy Star options, fusion-welded construction, lifetime accidental glass breakage, and frame depth of 2.29–2.375 inches.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent validation or comparative claims.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Home Depot Customer Reviews – JELD-WEN V-2500",
+      "url": "https://www.homedepot.com/p/reviews/JELD-WEN-V-2500",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Mixed verified purchaser accounts: several praise good quality vinyl and easy installation, but recurring shipping damage reports noted, including damaged lock keepers and compromised vinyl on frame tops. Quality inconsistency is a pattern.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple verified purchaser reviews showing corroborating pattern of shipping damage and quality inconsistency; qualifies as forum-pattern scoring.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "JELD-WEN Technical Specifications PDF (Lowe's-hosted)",
+      "url": "https://pdf.lowes.com/productdocuments/Builders-Vinyl-V-2500",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official spec sheet documenting U-Factors from 0.46 (clear) to 0.23 (Low-E EC 180 Argon), SHGC 0.31–0.59, VT 0.50–0.68, CR 44–62, double-pane standard with argon upgrade, frame depth 2.29–2.375 inches across all configurations.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical specification document with verified performance data; qualifies as independent testing data source.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Today's Homeowner – Pella vs. JELD-WEN Comparison (2026)",
+      "url": "https://www.todayshomeowner.com/windows/reviews",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Head-to-head analysis concludes Pella is clear standout for quality and service; JELD-WEN is more affordable ($400–$800 vs. $500–$1,745). JELD-WEN leads in color options but Pella holds more ENERGY STAR Most Efficient certifications. JELD-WEN lacks in-house installation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published independent comparative review with pricing data, specs comparison, and structured evaluation criteria.",
+      "topics": [
+        "quality",
+        "value",
+        "performance",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Houzz Discussion – Seal Failure on JELD-WEN Windows",
+      "url": "https://www.houzz.com/discussions/seal-failure-on-jeld-wen-windows",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports 19 units with seal failure in new construction project. Another user flags helper coil breaking when top sash lowered on large double-hung units. Multiple independent accounts flag same failure pattern, suggesting batch defect or design weakness under load.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple corroborating forum accounts of identical seal failure pattern across 19 units; qualifies as physical defect with corroborating pattern.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Houzz Discussion – Warping and Mold Issues",
+      "url": "https://www.houzz.com/discussions/what-to-do-jeld-wen-windows-are-junk",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports nine professionally installed clad-awning windows warping, developing mold, and failing to lock properly. Frame deformation prevents sash seating for lock engagement, creating both operational and security failures after moisture exposure.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing specific physical defects (warping, mold, non-functional locks) with enough detail to constitute a defect pattern report.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Fine Homebuilding Forum – Installer and Builder Perspectives",
+      "url": "https://www.finehomebuilding.com/forum/jeld-wen-windows",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Experienced builders note Jeld-Wen had most service complaints among carried brands; service department described as 'horrible and impossible to get a hold of.' Installation manual became overly complex after CA lawsuit. Vinyl products generate fewer concerns than wood lines.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Trade forum with credentialed professional contributors providing structured assessments; installation and service deficiencies corroborated across multiple contributors.",
+      "topics": [
+        "quality",
+        "service",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "BBB Complaints Database – JELD-WEN",
+      "url": "https://www.bbb.org/us/nc/charlotte/profile/JELD-WEN",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "JELD-WEN is not BBB accredited. Multiple complaints document defective products on delivery, unresponsive warranty follow-through, supervisors failing to return calls, wrong replacement parts sent repeatedly, and deflection of responsibility to contractors despite obvious frame defects.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Legal/complaint database documenting service and warranty process failures; pattern reflects service delivery issues rather than independently verified product defects.",
+      "topics": [
+        "service",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "YouTube – JELD-WEN V-2500 Professional Overview (Company-Produced)",
+      "url": "https://www.youtube.com/watch?v=ZNlUScGY-hA",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Company-produced video emphasizing Energy Star rating, proven durability, multiple operational configurations, and 93 painted exterior color options. Avoids comparative performance claims against competitors. Positioned at professional contractor audience.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing, comparison, or third-party validation.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "JELD-WEN Warranty Guide Document (Lowe's-hosted PDF)",
+      "url": "https://pdf.lowes.com/productdocuments/warranty",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "20-year residential product coverage; 2-year skilled labor; lifetime accidental glass breakage. Excludes normal wear, weathering, misuse, alterations, acts of nature, improper installation, and incidental/consequential damages. Commercial applications receive only 10-year product and 1-year labor coverage.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Official published warranty document with specific coverage terms; direct specifications suitable for scoring warranty category.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "FTC Window Marketing Enforcement Actions (2012)",
+      "url": "https://www.ftc.gov/news-events/news/2012/02/window-marketers",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "FTC settled with five window companies for unsupported energy savings claims (e.g., 'cut energy bills in half'). JELD-WEN not named but precedent established: manufacturers must have reliable scientific evidence for categorical savings claims under specific conditions.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory information establishing industry standards; JELD-WEN not directly named, so report_only rather than score.",
+      "topics": [
+        "legal",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Consumer Reports – Replacement Windows Testing Program",
+      "url": "https://www.consumerreports.org/home-garden/replacement-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "V-2500 included in Consumer Reports' replacement window test matrix, confirming mainstream market relevance. Detailed laboratory results not publicly available without subscription; no specific scores extractable from public-facing content.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Published review publication with testing program, but detailed results paywalled; insufficient public data to score.",
+      "topics": [
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Replacement Window Discussions Forum – Price and Value Thread",
+      "url": "https://www.replacementwindowdiscussions.com/community",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Homeowners express shock at V-2500 pricing no longer reflecting 'budget vinyl' positioning. Contributors attribute increases to inflation, labor costs, and supply chain disruption. Full-home replacement now exceeds budget for moderate-income households; staggered installation recommended.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about pricing and market perception rather than physical product defects or performance testing.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Lamoria Construction – Ultimate JELD-WEN Window Guide",
+      "url": "https://www.lamoriaconstruction.com/post/ultimate-jeld-wen-window-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Trade professional positions V-2500 as budget workhorse entry tier; V-4500 as mid-range upgrade; Siteline clad-wood as superior premium option. Structured tier comparison with installation notes. V-2500 suitable for cost-constrained new construction bids.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer/contractor content with structured product comparison and clear product opinion; knowledgeable trade source.",
+      "topics": [
+        "quality",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Corporate JELD-WEN Financial Results / Press Releases",
+      "url": "https://corporate.jeld-wen.com/newsroom/press-releases",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official financial disclosure: revenue down 14.9% in 2025, Adjusted EBITDA margin compressed to 3.7%, workforce reductions announced. Signals significant business deterioration and potential stability concern for long-term warranty support.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/financial disclosure relevant to company stability and long-term warranty viability; not a product performance source.",
+      "topics": [
+        "warranty",
+        "service",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "J-Tech Construction – Best Vinyl Windows Guide",
+      "url": "https://www.jtechconst.com/blog/best-vinyl-windows",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "V-2500 ranked fifth among major vinyl window brands. Praised for durability, energy efficiency, and affordability. Trade company blog presents structured brand rankings with brief performance commentary; positions product positively within budget tier.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published trade company review with structured ranking and clear product opinion; sponsored but knowledgeable source.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Swisco Parts Forum – Coil Balance Deterioration Discussion",
+      "url": "https://www.swisco.com/discussions/coil-balance-2005-jeld-wen-window",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Parts forum documents plastic coil balances deteriorating after approximately 20 years of service. Raises questions about long-term replacement parts availability. Consistent with Houzz reports of helper coil failure in large double-hung sash configurations.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing specific physical mechanism failure (coil balance degradation) with corroborating pattern from Houzz reports; long-term durability defect.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Houzz BBB/Forum Compilation – Warranty Claim Failures",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple accounts of warranty claim abandonment: parts ordered wrong twice, supervisor promised escalation but never followed up, company cited expired 2-year labor warranty despite unresolved defects, customer with 20k bi-fold door received no resolution after months.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum accounts documenting sales/service process failures and warranty claim processing; not directly scoring product physical quality.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Houzz Forum – Interior Ice Formation Report (New Construction, 2025)",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Single homeowner reports interior ice formation on all windows during first winter of occupancy (March 2025). Describes subsequent warranty contact as worst experience ever. Possible thermal bridging or installation failure; no corroborating accounts identified.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum complaint with no corroboration; ice formation may reflect installation failure rather than product defect.",
+      "topics": [
+        "performance",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "YouTube – Window Air Leakage Testing Educational Video",
+      "url": "https://www.youtube.com/watch?v=air-leakage-proper-way",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Educational video covering general window air leakage testing methodology and standards. Not V-2500 specific but applicable to evaluation protocols for assessing air infiltration performance claims across window product lines.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Not specific to V-2500 product; general educational content without product-specific assessment.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Acceptable for budget tier; workmanlike but not premium",
+      "review": "Budget-appropriate; inferior to Pella and premium competitors",
+      "forum": "Highly variable; positive and negative accounts coexist",
+      "agreement_level": "Moderate",
+      "notes": "All categories accept baseline adequacy but flag inconsistency"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Adequate with proper installation; installation-dependent",
+      "review": "Moderate longevity expected; seal integrity concerns noted",
+      "forum": "Significant concerns: seal failure, coil balance decay, warping",
+      "agreement_level": "Weak",
+      "notes": "5–10 year performance acceptable; long-term durability contested"
+    },
+    {
+      "topic": "Performance",
+      "expert": "U=0.46 base to 0.23 with upgrades; adequate for moderate climates",
+      "review": "Fair to good with upgrades; lags premium brands at baseline",
+      "forum": "Underwhelming without upgrades; ice and condensation in cold climates",
+      "agreement_level": "Moderate",
+      "notes": "Performance tier depends entirely on glass package selected"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "20-year text coverage with significant exclusion carve-outs",
+      "review": "Comprehensive on paper; labor coverage drops to 2 years",
+      "forum": "Coverage exists but claim execution fails consistently",
+      "agreement_level": "Strong",
+      "notes": "Warranty text strong; real-world execution is the critical gap"
+    },
+    {
+      "topic": "Service",
+      "expert": "Poor responsiveness; installer network reports service department unreachable",
+      "review": "JELD-WEN lacks in-house installation; no free consultations offered",
+      "forum": "Extremely problematic; supervisor no-shows, wrong parts, abandoned claims",
+      "agreement_level": "Strong",
+      "notes": "Unanimous across all source categories; this is the product's critical weakness"
+    },
+    {
+      "topic": "Value",
+      "expert": "Cost-effective for volume builds; pricing has risen",
+      "review": "Best budget option but Pella competitive at mid-range",
+      "forum": "Value perception collapsing; 'budget vinyl' no longer accurate",
+      "agreement_level": "Strong",
+      "notes": "Price increases have eroded the fundamental value proposition"
+    },
+    {
+      "topic": "Installation Experience",
+      "expert": "Generally positive; dense instructions; occasional dimensional tolerance issues",
+      "review": "DIY-friendly documentation; no in-house installation offered",
+      "forum": "Highly variable; outcome tracks installer competence closely",
+      "agreement_level": "Weak",
+      "notes": "Proper installation is critical success factor across all sources"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Lifetime accidental glass breakage coverage is a genuine differentiator for clumsy or active households",
+      "20-year residential product coverage period exceeds many competitors at this price tier",
+      "Transferability to subsequent owners adds resale value on paper"
+    ],
+    "underperforms_expectations": [
+      "2-year labor coverage leaves homeowners paying installation costs for defects appearing after year two",
+      "Warranty exclusions for normal weathering, acts of nature, and improper installation cover most real-world failure modes",
+      "Incidental and consequential damage exclusion means water intrusion damage is entirely the homeowner's liability",
+      "Stress crack coverage expires after only 1 year despite 20-year glass coverage headline",
+      "Commercial and rental applications receive substantially reduced 10-year/1-year coverage"
+    ],
+    "surprises": [
+      "Company treats 2-year labor warranty expiration as case closure even for defects that were reported and unresolved within the coverage window",
+      "BBB non-accreditation removes formal dispute resolution pathway for dissatisfied customers",
+      "Customer service responsiveness failures render the warranty functionally absent for many claimants despite favorable written terms",
+      "Financial deterioration (revenue -14.9%, EBITDA 3.7%) raises long-term viability questions about warranty support infrastructure"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "clear_glass": 0.46,
+      "low_e_standard": 0.33,
+      "low_e_ec180_argon": 0.23,
+      "energy_saver": "0.27–0.30 depending on configuration",
+      "note": "Lower is better; 0.23 qualifies for ENERGY STAR Most Efficient in some regions"
+    },
+    "shgc": {
+      "clear_glass": 0.59,
+      "low_e_standard": 0.31,
+      "low_e_ec180_argon": 0.55,
+      "note": "Low-E EC 180 Argon anomaly: lower U but higher SHGC than Low-E Standard"
+    },
+    "visible_transmittance": {
+      "range": "0.50–0.68",
+      "clear_glass": 0.61,
+      "low_e_standard": 0.53,
+      "low_e_ec180_argon": 0.68
+    },
+    "color_rendering_index": {
+      "range": "44–62",
+      "clear_glass": 47,
+      "low_e_standard": 57,
+      "low_e_ec180_argon": 44
+    },
+    "frame_material": "High-quality extruded vinyl; fusion-welded corners",
+    "frame_depth": "2.29–2.375 inches across all operational configurations",
+    "glass": {
+      "standard": "Double-pane Low-E insulating glass",
+      "upgrade": "Double-pane with argon gas fill",
+      "premium_upgrade": "Triple-pane available"
+    },
+    "dp_rating": "PG 35/50 performance class documented",
+    "air_infiltration": "not_available",
+    "stc": "not_available",
+    "energy_star": "Rated on select glass packages; Most Efficient designation achievable at U=0.23 configurations in certain climate zones",
+    "performance_grade": "PG 35/50",
+    "warranty_residential": "20 years product / 2 years labor / Lifetime accidental glass breakage",
+    "warranty_commercial": "10 years product / 1 year labor",
+    "price_range_per_unit": {
+      "clear_glass": "$250–$400",
+      "low_e_standard": "$350–$500",
+      "low_e_ec180_argon": "$400–$600",
+      "note": "Unit cost only; does not include installation labor ($120–$350 typical)"
+    }
+  },
+  "red_flags": [
+    {
+      "type": "Lawsuit",
+      "description": "JELD-WEN lost a lawsuit in California related to insufficiently thorough installation instructions. The company responded by making installation manuals significantly more prescriptive, suggesting the litigation directly shaped product documentation strategy.",
+      "status": "Resolved; company changed documentation practices",
+      "severity": "Moderate"
+    },
+    {
+      "type": "FTC Industry Action",
+      "description": "FTC 2012 enforcement actions against five window companies for deceptive energy savings claims. JELD-WEN not named, but industry precedent applies to all manufacturers making categorical energy savings promises without scientific substantiation.",
+      "status": "Industry-level precedent; JELD-WEN not a named defendant",
+      "severity": "Low – indirect industry relevance only"
+    },
+    {
+      "type": "Financial Stability Concern",
+      "description": "JELD-WEN reported revenue decline of 14.9% in 2025, Adjusted EBITDA margin compressed to 3.7%, and announced workforce reductions. This deterioration raises concerns about the company's capacity to honor long-term warranty obligations and maintain customer service infrastructure.",
+      "status": "Active and ongoing as of report date",
+      "severity": "High – directly impacts warranty and service viability"
+    },
+    {
+      "type": "Systemic Service Failure Pattern",
+      "description": "Multiple independent BBB complaints, Houzz reports, and Fine Homebuilding forum accounts document a consistent institutional pattern of warranty claim abandonment: supervisors failing to follow up, wrong parts shipped repeatedly, 2-year labor expiration used to close unresolved claims, and non-accreditation with BBB removing dispute resolution pathway.",
+      "status": "Active and ongoing; no indication of systemic correction",
+      "severity": "High – renders warranty coverage functionally unreliable"
+    },
+    {
+      "type": "Manufacturing Defect Pattern",
+      "description": "Reports of 19 simultaneous seal failures in a single new construction project, helper coil failures in large double-hung units, and warping/mold in clad-awning windows suggest potential batch-level manufacturing quality control issues rather than isolated incidents.",
+      "status": "Unresolved; no recall issued",
+      "severity": "Moderate-High – pattern scope warrants investigation"
+    }
+  ],
+  "bottom_line": "The JELD-WEN V-2500 double-hung window is a rationally designed, intentionally budget-positioned vinyl window that delivers acceptable baseline performance for moderate climates and cost-constrained applications. Its core competitive advantages—broad color availability, wide distribution through major retailers, Energy Star eligibility with upgraded glass packages, and low per-unit cost—make it a viable choice for volume new construction, rental properties, and budget-constrained remodels where first-cost dominates lifecycle considerations. However, three systemic weaknesses substantially undermine its value proposition. First, warranty execution is institutionally broken: the 20-year written coverage is largely rendered inaccessible by documented patterns of supervisor non-responsiveness, wrong parts shipping, and claim abandonment at labor warranty expiration. Second, field durability—particularly seal integrity, coil balance longevity, and frame stability in humid or freeze-thaw climates—generates failure rates higher than premium alternatives. Third, significant price increases have eroded the budget positioning that historically justified accepting these performance and service tradeoffs. Compounding these concerns, the company's 2025 financial deterioration (revenue -14.9%, EBITDA at 3.7%) raises legitimate questions about long-term warranty support viability. The V-2500 scores adequately on technical specifications when properly configured with Low-E argon glass, but the gap between documented performance potential and real-world delivered experience—mediated by inconsistent manufacturing quality control and failed service infrastructure—makes it a higher-risk choice than its market positioning implies. Recommended only for budget-constrained buyers in moderate climates with trusted installers and realistic expectations about warranty support responsiveness.",
+  "product_slug": "jeld_wen_v2500",
+  "product_name": "JELD-WEN V2500",
+  "manufacturer_slug": "jeld_wen",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 123163,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 20,
+    "score": 10,
+    "report_only": 6,
+    "quarantine": 4,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.129867
+}

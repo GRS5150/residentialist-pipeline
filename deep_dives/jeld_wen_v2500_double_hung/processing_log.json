@@ -1,0 +1,32 @@
+{
+  "product": "JELD-WEN V2500",
+  "operation_type": "double_hung",
+  "slug": "jeld_wen_v2500_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 41193
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 20,
+      "cost_estimate": 0.129867
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/jeld_wen_v2500_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T20:48:33.241Z"
+}

@@ -1,0 +1,32 @@
+{
+  "product": "Reliabilt 3500",
+  "operation_type": "double_hung",
+  "slug": "reliabilt_3500_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 43611
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 23,
+      "cost_estimate": 0.151437
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/reliabilt_3500_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T18:48:25.197Z"
+}

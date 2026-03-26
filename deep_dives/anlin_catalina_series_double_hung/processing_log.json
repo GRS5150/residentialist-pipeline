@@ -1,0 +1,32 @@
+{
+  "product": "Anlin Catalina Series",
+  "operation_type": "double_hung",
+  "slug": "anlin_catalina_series_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 38355
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 24,
+      "cost_estimate": 0.12442799999999998
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/anlin_catalina_series_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-25T20:59:07.210Z"
+}

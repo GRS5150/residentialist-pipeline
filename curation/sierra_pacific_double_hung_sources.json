@@ -1,0 +1,607 @@
+{
+  "product": "Sierra Pacific Double-Hung Windows",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Monmouth Millwork - H3 Double Hung Review",
+      "url": "https://youtube.com/watch?v=MdrnNngm9JE",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional detailed review praising H3 hybrid design combining real wood interiors, extruded aluminum exterior, and fusion-welded vinyl core. Highlights constant-force balance systems with metal locks, CoreGuard Plus wood treatment, and Sierra Pacific's vertical integration from seed to product delivery.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional reviewer (established millwork company) with structured product opinion covering design, materials, and engineering features.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Sierra Pacific Product Specifications - H3 Double Hung and Premium 8000 Series",
+      "url": "https://sierrapacificwindows.com/Product/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer technical specifications for H3 Double Hung and Premium Double Hung 8000 Series including 0.078-inch vinyl base frame, 0.055-inch extruded aluminum cladding, heavy-duty 3-1/4 inch multi-chamber vinyl construction, constant force balances, Intercept warm-edge spacer, and integral nailing fins.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing and specification content; no independent verification or testing data.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Sierra Pacific Warranty Information",
+      "url": "https://sierrapacificwindows.com/HomeownerResources/Warranties",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official warranty terms: 30-year AAMA 2605 powder coat, 10-year AAMA 2604, 20-year insulated glass, 10-year parts and labor. Explicitly disclaims anticipated water infiltration and condensation damage. Shifts water management responsibility to installer and owner.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document provides factual coverage terms and exclusions relevant to consumer decision-making but is not independent scoring content.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Sierra Pacific H3 FeelSafe Impact Rated - Company Press Release",
+      "url": "https://sierrapacificwindows.com/OurStory/CompanyNewsD",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Company press release announcing H3 FeelSafe storm-tested windows achieving PG +50/-60 Zone III hurricane rating. Claims maintained aesthetics with impact protection, continuous head and sill designs, AAMA 2604 standard and optional 2605 powder coat finish.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content / product announcement with no independent corroboration of performance claims.",
+      "topics": [
+        "performance",
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Houzz Forum - General Contractor Positive Review (San Diego)",
+      "url": "https://houzz.com/professionals/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "General contractor in San Diego praises account representative Dylan, company accessibility, product education opportunities, installation guidance, and warranty support. Highlights responsiveness and ability to let clients learn, see, and touch products before purchase.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post focused on sales process, dealer/rep experience, and company accessibility rather than product quality or physical performance.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Houzz Forum - $50k Remodel Quality Issues",
+      "url": "https://houzz.com/professionals/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner spent over $50,000 on Sierra Pacific windows and doors. Black prefinished interiors had peeling paint, missing finish areas, and rough underlying wood. H3 windows and doors creaked and popped with temperature changes while Aspen series in same structure remained silent.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects (peeling finish, mechanical noise) with internal corroborating pattern comparing H3 vs. Aspen in the same installation, establishing product-line-specific defect evidence.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Houzz Forum - Defective Delivery / Shoddy Construction",
+      "url": "https://houzz.com/professionals/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner ordered complete window package for new house; received units in terrible shape with shoddy construction and flimsy material. Several windows arrived malfunctional requiring repairs before move-in. Customer service dismissed issues as within company standards and refused returns.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing multiple physical manufacturing defects in a single order with corroborating pattern of identical failures; aligns with other reported quality control complaints establishing systemic concern.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz Forum - Screen Defects ($53k Hangar Installation)",
+      "url": "https://houzz.com/professionals/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Customer installed $53,000 in Sierra Pacific windows for new house and hangar. Windows described as beautiful but several developed leaks requiring field caulking. Of twelve subsequently purchased windows, eight exhibited identical screen problems, indicating systematic manufacturing defect rather than random variability.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects with strong corroborating pattern: eight of twelve units showing identical screen failures in a single order establishes systemic manufacturing concern beyond isolated incident.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "value",
+        "warranty"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz Forum - Aspen vs H3 Product Line Comparison",
+      "url": "https://houzz.com/professionals/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Customer owning both Aspen and H3 products reports Aspen quality extremely high with outstanding locking mechanisms, while H3 latching mechanisms were poorly engineered with bending despite careful operation. Recommends divesting H3 into a separate brand to protect Aspen reputation.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with direct physical product comparison between two product lines in the same ownership context, corroborating pattern from other sources distinguishing Aspen vs. H3 quality.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz Forum - 10+ Year Long-term Satisfaction",
+      "url": "https://houzz.com/discussions/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner with over ten years of Sierra Pacific casement, awning windows, and French-style sliding doors reports zero operational issues throughout ownership. Praises ease of operation, screen integrity, and bug exclusion effectiveness. Describes as excellent product and highly recommends.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with documented long-term ownership providing meaningful durability data point; ten-year trouble-free performance is substantive evidence corroborating professional positive assessments.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "YouTube - Sierra Pacific Vinyl Window Review",
+      "url": "https://youtube.com/watch?v=v5u9QeuNIeA",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional breakdown of Sierra Pacific vinyl windows examining performance, durability, value, and energy efficiency. Notes heavy-gauge vinyl construction, double locks, tight tolerances, and comparative positioning against competitors in the vinyl segment.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published professional review with structured product assessment covering performance, specs, and comparative data.",
+      "topics": [
+        "performance",
+        "durability",
+        "value",
+        "specs",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "YouTube - Sierra Pacific Aspen Series (The Window Experts, IBS)",
+      "url": "https://youtube.com/watch?v=UfuL5DIwZIE",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "The Window Experts detailed professional review of Sierra Pacific Aspen casement windows at International Builder Show. Covers frame sizes, hardware robustness, integrated locking mechanism, wash hinge options, 60+ color options, AAMA 2605 powder coat standard, and flex screen features.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert trade channel review with structured scoring covering hardware, specs, finish options, and engineering features from a recognized industry event context.",
+      "topics": [
+        "quality",
+        "specs",
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "YouTube - Sierra Pacific Elevating Quality (Jeff's Review)",
+      "url": "https://youtube.com/watch?v=q-g37RoFLsM",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Jeff's comprehensive review of Sierra Pacific Aspen wood windows covering premium hardware, impact-rated hurricane options, customization depth, integrated tilt functions, and material quality comparisons against competing manufacturers. Presents detailed product analysis.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published detailed professional review with comparative product analysis, specs discussion, and clear product opinion meeting score classification criteria.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "specs",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Fine Homebuilding Forum - Aluminum Cladding Water Infiltration Concern",
+      "url": "https://finehomebuilding.com/forum/",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Professional installer notes aluminum cladding on Sierra Pacific doors stops abruptly at the top, leaving a sharp fresh edge and creating a water infiltration risk between the aluminum clad and wood substrate. Identifies this as contradicting premium quality expectations.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Expert-level forum (Fine Homebuilding) with professional installer identifying a specific physical design defect with water infiltration implications; source quality elevates this beyond typical forum post.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "GreenBuildingAdvisor Forum - H3 Triple Pane Installation Report",
+      "url": "https://greenbuildingadvisor.com/question/",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Professional installer reports high quality experience across multiple Sierra Pacific H3 triple-pane projects with argon fill. Praises perfectly accurate dimensions, straight jambs, and easy installation. Notes counterweight springs may be slightly tighter than expected upon delivery.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "GBA forum with professional installer providing structured multi-project performance report; GBA platform elevates above typical consumer forum, corroborating professional positive assessments. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "quality",
+        "performance",
+        "specs",
+        "durability"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Land Report - Sierra Pacific Industries Largest Private Landowner",
+      "url": "https://landreport.com/red-emmerson-becomes-americas-largest-landowner",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Third-party article documenting Red Emmerson's acquisition of Seneca Jones Timber making Sierra Pacific Industries America's largest private landowner at 2.3 million acres. Discusses family ownership structure, in-house Fab Shop equipment manufacturing, and vertical integration business model.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published third-party article providing factual company background and ownership information; not a product quality assessment.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "BBB Business Profile - Sierra Pacific Windows Red Bluff CA",
+      "url": "https://bbb.org/us/ca/red-bluff/profile/",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "Sierra Pacific Windows holds an F rating from BBB and is not BBB accredited. Reason for F rating documented as failure to respond to three complaints filed against the business. Business started 1990, incorporated 1996.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Regulatory/consumer protection agency record; provides factual complaint non-response data relevant to service reliability but is not a product quality scoring source.",
+      "topics": [
+        "service",
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Strauss Borrelli PLLC - Sierra Pacific Data Breach Investigation",
+      "url": "https://straussborrelli.com/2023/01/13/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Sierra Pacific Industries experienced data breach June 10-11, 2022 exposing names and Social Security numbers of over 3,700 individuals. Breach notification delayed until January 11, 2023, over six months post-discovery. Law firm offering legal consultation to affected individuals.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal/security incident information relevant to company operational competence assessment; not a product quality source.",
+      "topics": [
+        "legal",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Justia - Sierra Pacific Wage and Hour Class Action (C099436M)",
+      "url": "https://law.justia.com/cases/california/court-of-appeal/2026/c099436m.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Former hourly employee filed class action in October 2018 alleging wage and hour violations at Sierra Pacific Industries. Case proceeded through California Court of Appeal indicating ongoing employment law disputes and potential systemic labor compliance issues.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; employment litigation does not directly assess product quality.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Sierra Pacific CoreGuard Plus Product Page",
+      "url": "https://sierrapacificwindows.com/OurStory/CoreGuardPlus",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer description of CoreGuard Plus patented wood protection penetrating wood core to repel water and prevent warping and swelling. Water-based organic treatment with near-zero VOCs. Claims tested in Hawaiian rainforest simulating decades of exposure.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content for a specific product feature; no independent testing verification provided.",
+      "topics": [
+        "durability",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "NFRC Database - Sierra Pacific Clad Direct Set Performance Data",
+      "url": "https://search.nfrc.org/search/cpd/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official NFRC certified performance ratings for Sierra Pacific Clad Direct Set windows: U-factors 0.23-0.31, air leakage at or below 0.3, SHGC 0.18-0.32 depending on configuration. Energy Star ratings provided for applicable climate zones.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent third-party certified performance database with quantitative testing data; meets published review with specs and testing data criteria.",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Sierra Pacific Limited Warranty PDF",
+      "url": "https://sierrapacificwindows.com/pdf/warranties/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Detailed warranty document specifying coverage periods and exclusions: anticipated water infiltration, condensation, normal wear, wood variation, installation errors, chemical damage explicitly excluded. 5-year vinyl workmanship, 2-year glass stress crack warranty terms included.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document providing factual contractual terms; relevant to consumer decision-making but not an independent scoring source.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Houzz Forum - Arizona 5+ Year Owner",
+      "url": "https://houzz.com/professionals/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Arizona custom home owner with over five years of ownership reports excellent window quality and ability to handle tough summer temperatures. Praises warranty support from company representative Ray and maintenance team. Rates overall experience as excellent.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with documented multi-year ownership providing climate-specific durability data point; corroborates other long-term positive testimonies.",
+      "topics": [
+        "durability",
+        "performance",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Houzz Forum - Windows Too Tight / Safety Concern",
+      "url": "https://houzz.com/professionals/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner purchased Sierra Pacific vinyl windows on sales rep recommendation for cost savings. Upon installation found finish quality poor and windows barely slide open. Raised safety concern about inability to use windows for emergency egress. Negative comparison to competitors.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical operational defect (windows too tight to open) with safety implications; corroborated by other reports of operational tightness establishing pattern.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Houzz Forum - Marvin vs Sierra Pacific Warranty Comparison",
+      "url": "https://houzz.com/discussions/4853851/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum discussion comparing Marvin, Hurd, and Sierra Pacific windows. Favorable comments specifically on Sierra Pacific's 30-year AAMA 2605 powder coat paint warranty and powder coat durability advantages over competitors in same price range.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum comparative discussion providing structured warranty assessment with specific competitive comparison; sufficient to inform scoring on warranty topic.",
+      "topics": [
+        "warranty",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Houzz Forum - Pella vs Competitors Market Position Discussion",
+      "url": "https://houzz.com/discussions/2576383/",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Comparison discussion including Sierra Pacific alongside Pella and other competitors. Notes Sierra Pacific not available on East Coast, limiting market reach. Comment observes price savings significant over Pella while quality remains acceptable for the application.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum comparative discussion providing market positioning and value assessment with specific competitive reference; contributes to value and specs topic scoring.",
+      "topics": [
+        "value",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "YouTube - Window Paint Peeling Educational Video",
+      "url": "https://youtube.com/watch?v=26",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "General educational video about window paint peeling caused by condensation and improper primer use. Not specific to Sierra Pacific but contextually relevant to reported finish quality complaints about paint peeling on Sierra Pacific prefinished interiors.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "General educational content not specific to Sierra Pacific product; does not provide direct product assessment and cannot be attributed to this product line.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "quality",
+      "expert": "Mixed - Aspen praised consistently; H3 generates technical concerns about mechanical design and finish consistency",
+      "review": "Published specs competitive; thicker aluminum cladding than competitors; CoreGuard Plus treatment documented",
+      "forum": "Highly polarized: Aspen owners report excellent quality; H3 owners report defects, peeling finish, shoddy construction",
+      "agreement_level": "low"
+    },
+    {
+      "topic": "durability",
+      "expert": "Professional expectation of 25+ year lifespan if properly installed; CoreGuard Plus treatment credible",
+      "review": "NFRC data and SFI/FSC certification support durability claims; limited independent long-term data",
+      "forum": "Split: Some report 10+ years trouble-free; others report failures within months of delivery",
+      "agreement_level": "low"
+    },
+    {
+      "topic": "performance",
+      "expert": "Mid-to-upper range market performance; U-values solid but not best-in-class; triple pane options competitive",
+      "review": "NFRC U-factors 0.23-0.31; SHGC 0.18-0.32; air leakage ≤0.3; ENERGY STAR certified",
+      "forum": "Generally positive when windows function properly; operational tightness complaints undermine performance claims",
+      "agreement_level": "moderate"
+    },
+    {
+      "topic": "warranty",
+      "expert": "30-year AAMA 2605 powder coat praised as competitive advantage; condensation and water infiltration exclusions noted as significant limitations",
+      "review": "Coverage terms documented: 30-year powder coat, 20-year IG, 10-year parts and labor; exclusions broad",
+      "forum": "Mixed: Some report responsive warranty support; others report dismissive responses and refusal to remedy defective units",
+      "agreement_level": "low"
+    },
+    {
+      "topic": "service",
+      "expert": "Account representatives praised by professionals; company accessible and educational for contractors",
+      "review": "BBB F rating for failure to respond to complaints; professional support resources documented",
+      "forum": "Highly variable: Individual reps praised; institutional responses to complaints described as dismissive",
+      "agreement_level": "low"
+    },
+    {
+      "topic": "value",
+      "expert": "H3 priced below Marvin Ultimate with comparable engineering; Aspen competitive in premium tier",
+      "review": "Mid-tier pricing; price savings over Pella noted in comparisons; value eroded by quality control risk",
+      "forum": "Positive when product performs; strongly negative when defective units received at premium prices",
+      "agreement_level": "low"
+    },
+    {
+      "topic": "legal",
+      "expert": "Not addressed by expert sources",
+      "review": "BBB F rating documented; data breach 2022; wage and hour class action filed 2018",
+      "forum": "Not a primary forum discussion topic",
+      "agreement_level": "moderate"
+    },
+    {
+      "topic": "specs",
+      "expert": "Dimensional accuracy praised; triple-pane options available; TrueWarm Edge polymer spacers highlighted",
+      "review": "NFRC certified: U 0.23-0.31, SHGC 0.18-0.32, air leakage ≤0.3; 0.055-inch extruded aluminum cladding",
+      "forum": "Dimensions accurate per professional installers; individual units reported out of spec in defective orders",
+      "agreement_level": "moderate"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "30-year AAMA 2605 powder coat warranty exceeds most competitors in the mid-tier market",
+      "20-year insulated glass coverage is at the high end of industry norms",
+      "Some individual warranty representative interactions praised as highly responsive and professional"
+    ],
+    "underperforms_expectations": [
+      "Company failed to respond to three BBB complaints resulting in F rating, contradicting warranty support claims",
+      "Customer reports of warranty representatives dismissing clearly defective units as within standards",
+      "Company refusal to accept returns on units customers describe as malfunctional upon delivery",
+      "Condensation exclusion eliminates coverage for one of the most common consumer window complaints"
+    ],
+    "surprises": [
+      "Warranty explicitly disclaims responsibility for anticipated water infiltration, shifting wall system design responsibility entirely to buyer and installer",
+      "Wood color and grain consistency explicitly not guaranteed, potentially leaving prefinished interior customers without recourse for finish variation",
+      "5-year vinyl workmanship and 2-year glass stress crack warranty terms are significantly shorter than headline warranty durations suggest",
+      "Warranty exclusions for condensation contradict marketing of superior thermal efficiency and TrueWarm Edge spacer technology"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.23-0.31 (NFRC certified; Clad Direct Set configurations; triple-pane aluminum-clad achieves approximately U-0.14 per professional report)",
+    "shgc": "0.18-0.32 depending on glazing configuration and climate zone",
+    "air_infiltration": "≤0.3 (NFRC certified for Clad Direct Set configurations)",
+    "frame_material": "H3 line: extruded aluminum exterior (0.055-inch), fusion-welded vinyl core, real wood interior; Aspen line: full aluminum-clad wood frame; Premium 8000 Series: heavy-duty vinyl multi-chamber (3-1/4 inch)",
+    "glass": "Dual and triple pane configurations; argon gas fill; single and dual low-E coatings; laminated glass options available; TrueWarm Edge polymer structural foam spacers (no-metal warm-edge)",
+    "dp_rating": "H3 FeelSafe: PG +50/-60 Zone III (hurricane-rated impact line)",
+    "stc": "Not independently verified; offset glass configuration noted to reduce sound transmission in certain configurations",
+    "wood_treatment": "CoreGuard Plus: water-based organic penetrating treatment, near-zero VOCs, SFI and FSC certified sourcing",
+    "exterior_finish": "AAMA 2604 powder coat standard; AAMA 2605 optional (30-year warranty); 70+ color options reported",
+    "nailing_fin": "Integral rigid nailing fin; 0.055-inch extra heavy-duty extruded aluminum cladding on H3"
+  },
+  "red_flags": [
+    {
+      "type": "regulatory",
+      "description": "BBB F Rating - Sierra Pacific Windows (Red Bluff, CA) holds an F rating from the Better Business Bureau and is not BBB accredited. Reason documented as failure to respond to three complaints filed against the business."
+    },
+    {
+      "type": "data_breach",
+      "description": "2022 Data Security Breach - Sierra Pacific Industries experienced a data breach June 10-11, 2022 exposing names and Social Security numbers of over 3,700 individuals. Notification delayed over six months until January 11, 2023. Under investigation by Strauss Borrelli PLLC."
+    },
+    {
+      "type": "lawsuit",
+      "description": "Wage and Hour Class Action Litigation - Former hourly employee filed class action in October 2018 alleging wage and hour violations. Case proceeding through California Court of Appeal (C099436M) indicating unresolved employment law disputes."
+    },
+    {
+      "type": "quality_pattern",
+      "description": "Systematic Manufacturing Defect Pattern - Multiple independent customer reports of identical defects within single orders (8 of 12 screens failing identically; multiple units arriving inoperable). Concentration of identical failures suggests systemic production issue rather than random variability."
+    },
+    {
+      "type": "service_failure",
+      "description": "Documented Warranty Non-Response Pattern - Multiple customer reports of warranty representatives dismissing defective units as within standards and refusing remediation, compounded by BBB F rating for institutional non-response to formal complaints."
+    }
+  ],
+  "bottom_line": "Sierra Pacific double-hung windows present a sharply bifurcated value proposition that depends critically on product line selection and quality control outcomes. The premium Aspen series garners consistent praise from professionals and long-term owners for engineering excellence, mechanical reliability, and finish quality, representing a legitimate mid-to-premium market contender with genuine competitive advantages in environmental stewardship through 2.4 million acres of SFI/FSC certified timberland and true vertical integration. NFRC-verified specs (U-factors 0.23-0.31, SHGC 0.18-0.32, air leakage ≤0.3) place performance solidly in the upper-mid market. However, the mid-range H3 line generates disproportionate complaints about peeling prefinished interiors, creaking and popping with temperature changes, operational tightness, and systematic screen defects appearing identically across multiple units in single orders. These patterns indicate systemic manufacturing quality control failures rather than isolated incidents. Compounding product concerns, the company holds a BBB F rating for failure to respond to formal complaints, experienced a 2022 data breach affecting 3,700+ individuals with delayed notification, and faces an active wage and hour class action. The 30-year AAMA 2605 powder coat warranty headline is attractive but significantly undermined by broad exclusions covering water infiltration, condensation, and wood variation, combined with documented institutional dismissiveness toward warranty claims. Recommendation: Specify Aspen series if budget permits and professional installation oversight is available. Avoid H3 line for retail purchase without professional quality verification capability. All prospective buyers should document delivery condition photographically and establish clear defect acceptance criteria before installation.",
+  "metadata": {
+    "total_sources_parsed": 27,
+    "sources_scored": 15,
+    "sources_report_only": 8,
+    "sources_quarantined": 4,
+    "pool_distribution": {
+      "S": 0,
+      "A": 5,
+      "B": 10,
+      "C": 12
+    },
+    "platform_distribution": {
+      "youtube": 5,
+      "houzz": 9,
+      "gba": 1,
+      "fhb": 1,
+      "bbb": 1,
+      "other": 10
+    }
+  },
+  "product_slug": "sierra_pacific",
+  "product_name": "Sierra Pacific",
+  "manufacturer_slug": "sierra_pacific",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 152769,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 27,
+    "score": 15,
+    "report_only": 7,
+    "quarantine": 5
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.15625499999999998,
+  "verification_date": "2026-03-23T19:47:22.226Z"
+}

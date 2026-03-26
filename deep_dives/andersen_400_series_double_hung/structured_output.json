@@ -1,0 +1,724 @@
+{
+  "product": "Andersen 400 Series Double-Hung Window",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Window Dog Review",
+      "url": "https://www.thewindowdog.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Concludes the 400 Series 'looks great but does not seal well.' Praises the nearly invisible tilt-latch clip design as effective. Flags size-dependent air infiltration degradation, noting large Tilt-Wash double-hungs perform worse (DP40) than smaller Woodwright (DP50). Missing hardware reported; Andersen shipped screws without installation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published independent review with technical testing data on air infiltration, DP ratings, and product comparison; structured product opinion present.",
+      "topics": [
+        "performance",
+        "quality",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Andersen Technical Performance PDF",
+      "url": "https://www.andersenwindows.com/technical-docs",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Laboratory-confirmed air infiltration less than 0.2 CFM/ft² for standard double-hung sizes. Documents size-dependent performance degradation. Includes U-factor, SHGC, and DP rating specifications across configurations. Official Andersen technical documentation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published specs and testing data from manufacturer; usable for verified specs despite manufacturer origin; treat as B-pool due to self-reported nature.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Home Depot 400 Series Customer Reviews",
+      "url": "https://www.homedepot.com/p/reviews",
+      "platform": "review_site",
+      "column": "forum",
+      "snippet": "Aggregated customer reviews praise ease of installation and general build quality. Long-term positive reports from coastal installations over 15 years. Recurring complaints include missing hardware components; Andersen's remedy was shipping screws rather than pre-assembling complete units.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum-level individual reviews but pattern of missing hardware across multiple purchasers constitutes corroborating physical defect pattern sufficient for scoring.",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Andersen Warranty Page",
+      "url": "https://www.andersenwindows.com/support/warranty",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official Owner-2-Owner warranty: 20 years on glass seal failure, 10 years on non-glass components. Explicitly excludes labor for repairs, condensation, improper installation, coastal chemical damage, and finish maintenance. Binding arbitration required unless homeowner opts out in writing within prescribed period.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document; factual policy record, not an independent product opinion. Critical for warranty_reality extraction.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Argo Window Repair Brand Comparison",
+      "url": "https://www.argowindowrepair.com/blog/window/best-window-brands",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Comparative brand analysis praises Andersen Fibrex material strength, competitive pricing, and transferable warranty as key differentiators. Positions 400 Series favorably within midrange clad-wood segment against Pella and Marvin.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review from a window repair service with structured brand assessment; independent perspective with product opinion.",
+      "topics": [
+        "value",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Brennan Corp: Andersen 400 vs E-Series",
+      "url": "https://www.brennancorp.com/blog/andersen-400-vs-e-series",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Detailed dealer comparison finds 400 Series offers better value for standard replacements; E-Series provides aluminum cladding, ten interior wood species, and more customization. Recommends 400 Series for buyers wanting real wood aesthetics at affordable maintenance-free price point.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Structured product comparison from a dealer/contractor firm with clear scoring rationale; knowledgeable sponsored source.",
+      "topics": [
+        "value",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Fine Homebuilding Forum – Contractor Discussions",
+      "url": "https://www.finehomebuilding.com/forum",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Experienced contractors with thousands of installations praise 400 Series for being square out of the box, reducing installation complexity. One pro rates it equal to Marvin Integrity. Universal emphasis that performance is only as good as the installer; proper installation research is essential.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional installers with extensive documented experience providing structured product opinions; FHB forum with expert contributor base qualifies as Pool A.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz – Dark Color / Chalking Discussion",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner thread discussing dark exterior colors causing chalking and concerns about vinyl thermal expansion on 400 Series. Warranty noted to cover manufacturing defects but not color fade. Limited corroboration across thread.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum thread on aesthetic/color issue with no corroborating pattern; color fade is a maintenance exclusion, not a structural defect category.",
+      "topics": [
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz – Home Depot Purchasing Experience",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum discussion questioning whether Andersen windows from Home Depot differ from dealer-sourced units. Notes significant price disparities between white and specialty colors; concerns about service continuity and parts sourcing through big-box retail versus independent dealers.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about sales/dealer/purchasing experience, not product quality. No physical defect described.",
+      "topics": [
+        "value",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Andersen Performance Grade PDF",
+      "url": "https://www.andersenwindows.com/technical-docs",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official DP rating documentation confirms 400 Series Tilt-Wash achieves DP40 for standard sizes and DP30 for oversized configurations. Confirms size-dependent air infiltration data. Documents meeting ENERGY STAR criteria for most U.S. climate zones.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical specification document with DP ratings and infiltration data; usable as verified specs reference.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Modernize 2026 Window Review",
+      "url": "https://www.modernize.com/windows/brands/andersen",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Price analysis places 400 Series installed cost between $500 and $3,000 per window. Positions product in mid-range market segment. Notes Andersen's broad contractor recommendation base and value relative to premium alternatives like Marvin.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published consumer-facing review with pricing data and comparative market positioning; structured product analysis.",
+      "topics": [
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "YouTube – WindowRama Tilt-Wash vs Woodwright Comparison",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional retailer video details mechanical differences between Tilt-Wash and Woodwright: wood vs vinyl jamb liners, automated vs manual tilt locking, Fibrex vs painted wood exterior. Price difference approximately $80–100 per window. Fibrex noted for superior color retention.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Video from professional retailer with structured comparative analysis and pricing data; knowledgeable source with clear product opinion.",
+      "topics": [
+        "specs",
+        "quality",
+        "value",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "YouTube – Andersen 400 Series Product Overview",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Product overview video covering compression jam liners, tilt-in cleaning mechanism, weather stripping design, and wash assist features on standard 400 Series double-hung. Demonstrates operational features for consumer-facing comparison.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published video review with product feature documentation and specifications; structured consumer guidance content.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Woodworking Network – Mold/Seal Failure Lawsuit",
+      "url": "https://www.woodworkingnetwork.com",
+      "platform": "trade_pub",
+      "column": "forum",
+      "snippet": "Reports Troy and Lorie Gratke lawsuit against Andersen for seal failure in eleven 400 Series Tilt-Wash windows causing mold and fungus growth within four years of installation. Complaint alleges multiple customers reported the same issue and that Andersen's fix only slowed decay. Seeks class-action status.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information; trade publication reporting on litigation. Classified report_only per auto-classification rules for legal information.",
+      "topics": [
+        "legal",
+        "durability",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Andersen 100 Series WOCD Recall Notice",
+      "url": "https://www.andersenwindows.com/100seriescasementWOCDrecall",
+      "platform": "other",
+      "column": "review",
+      "snippet": "February 2026 recall of approximately 91,000 window opening control devices for 100 Series casements; devices break or detach on impact, posing fall hazard. Eight malfunction reports, no injuries. Free in-home repair offered. Does not directly apply to 400 Series double-hung product line.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Recall applies to 100 Series product line, not the 400 Series double-hung under review. Different product line per auto-classification rules.",
+      "topics": [
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "BBB – Andersen Corporation Customer Reviews",
+      "url": "https://www.bbb.org/us/mn/bayport/profile",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple BBB reviews characterize products as defective and customer service as blame-shifting toward installers. Specific complaints include windows leaking into wall cavities causing mold and reported chronic mold toxicity illness, flimsy slider hardware, and repeated replacement failures.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "BBB complaints showing corroborating pattern of physical product defects (seal failure, mold, hardware) across multiple independent reviewers; pattern sufficient for scoring.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "TINA.org – Renewal by Andersen FTC Complaint",
+      "url": "https://www.truthinadvertising.org",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "TINA.org filed FTC complaint July 2025 alleging Renewal by Andersen's 'Custom Built in the USA' claims violate Made in USA Labeling Rule due to imported components. Over $400M in advertising spend since January 2023 implicated. Potential penalties of $53,088 per violation.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory action information; relates to marketing ethics of Renewal by Andersen subsidiary, not direct 400 Series product quality. Classified report_only per legal auto-classification rule.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Green Building Advisor – Window Buying and Installation Science",
+      "url": "https://www.greenbuildingadvisor.com/article/buying-windows",
+      "platform": "gba",
+      "column": "expert",
+      "snippet": "Building science expert emphasizes installation quality over product selection. Notes that all window seals eventually fail and water intrusion is universal, reframing some 400 Series complaints as normal aging rather than defects. Details proper flashing and weep hole management to prevent failures.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed building science expert source on GBA platform with structured technical opinion that directly contextualizes 400 Series performance claims.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Houzz – Vinyl Delamination Discussion",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple owners report interior vinyl film bonded to wood trim bubbling and blistering on windows installed circa 2003, with failure emerging around 2012–2018. Andersen declined warranty coverage citing expired 10-year term. Self-repair using heat gun documented.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread with corroborating pattern of same physical defect (vinyl delamination) across multiple independent owners at consistent time intervals; qualifies as scored physical defect pattern.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Houzz – Woodwright vs 400 Series Variant Comparison",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner forum comparing 400 Tilt-Wash ($315) and Woodwright ($500) variants, questioning aesthetic difference between vinyl and wood jamb liners. Community responses distinguish cosmetic versus structural differences between models.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about purchasing decision and aesthetics; no physical defect described; no corroborating defect pattern present.",
+      "topics": [
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Fine Homebuilding Forum – Dark Green Color / Thermal Expansion",
+      "url": "https://www.finehomebuilding.com/forum",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Forum thread discussing dark exterior color chalking on 400 Series vinyl cladding and concerns about thermal expansion differentials between vinyl cladding and wood substrate. Aesthetic and long-term color retention concerns raised.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum thread on aesthetic color issue; no corroborating physical defect pattern; color fade explicitly excluded by warranty and not a structural defect.",
+      "topics": [
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "EcoWatch – Pella vs Andersen Comparison",
+      "url": "https://www.ecowatch.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Brand comparison finds Andersen receives more positive reviews than Pella overall. Identifies installation and service quality as the primary differentiating variable between positive and negative owner outcomes across both brands.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review from consumer-facing outlet with structured brand-level product assessment.",
+      "topics": [
+        "quality",
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "YouTube – Window Flashing and Water Management",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Expert installation video on proper water management strategy for window installation. States proper installation assumes eventual seal failure and designs for drainage. Weep holes, bottom flange sealing, and flashing techniques identified as critical failure prevention factors.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality and technique, not product quality itself. Classified report_only per installation quality auto-classification rule.",
+      "topics": [
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Andersen About Page",
+      "url": "https://www.andersenwindows.com/about",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Company background: founded 1903 in Bayport, MN; 12,000+ employees; operates multiple window brands. Provides corporate context and ownership structure. No product quality claims.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/background content with no product quality assessment. Classified quarantine per manufacturer marketing content rule.",
+      "topics": []
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Andersen 400 Series Product Page",
+      "url": "https://www.andersenwindows.com/windows-and-doors",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Marketing page claiming 400 Series is most recommended by contractors per 2022 brand survey. Emphasizes decades of engineering heritage and volume of units sold. Promotional content without independent verification.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; contractor recommendation claim is self-reported brand survey. Classified quarantine per manufacturer marketing content rule.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Consumer Reports – 400 Series Woodwright",
+      "url": "https://www.consumerreports.org",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "400 Series Woodwright included in Consumer Reports replacement window test program. Full findings restricted to members. Confirms product inclusion in structured independent testing program but specific scores unavailable for this report.",
+      "pool": "S",
+      "classification": "quarantine",
+      "classification_reason": "Known expert comparison source but data is behind paywall and not accessible; cannot extract scoring data. Quarantine pending member data retrieval.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Andersen Warranty PDF – Technical/Legal Document",
+      "url": "https://www.andersenwindows.com/warranty/400series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Full warranty legal document detailing comprehensive exclusions including labor, condensation, improper installation, coastal chemical damage, and maintenance failures. Mandates binding arbitration for disputes. Documents opt-out provision not prominently communicated to consumers.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Official legal warranty document; factual policy record rather than independent product review. Essential for warranty_reality analysis.",
+      "topics": [
+        "warranty",
+        "legal",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Ring's End – Andersen Fibrex Material Review",
+      "url": "https://www.ringsend.com/blog/post/andersen-fibrex-windows",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Dealer analysis of Fibrex composite material finds it twice as strong as vinyl, composed of wood fiber and thermoplastic polymer, and fade-resistant. Primarily applicable to 100 Series; relevant to 400 Series Woodwright's Fibrex exterior versus standard Tilt-Wash's vinyl cladding.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Knowledgeable dealer source with material analysis and structured comparison; sponsored but technically credible.",
+      "topics": [
+        "durability",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Houzz – Paint Finish / Color Options Discussion",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum thread inquiring about finish type (satin versus gloss) and limited exterior color options on 400 Series. No defect described; aesthetic preference discussion only.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum post about aesthetic preferences with no corroborating defect pattern and no physical product issue described.",
+      "topics": []
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "US Quality Construction – 400 Series Benefits",
+      "url": "https://www.usqualityconstruction.com/blog",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Contractor blog promoting 400 Series durability, energy efficiency, and transferable warranty value. Emphasizes warranty transfer as key resale benefit. Promotional in nature; aligned with contractor sales interests.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Promotional contractor content emphasizing manufacturer talking points without independent testing or critical analysis; classified as manufacturer marketing analog.",
+      "topics": [
+        "durability",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Ring's End – Andersen 400 vs A-Series Comparison",
+      "url": "https://www.ringsend.com/blog/post/andersen-400-vs-a-series",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Dealer comparison: 400 Series offers 7 styles, pine interior, vinyl exterior cladding. A-Series offers 6 interior wood species and fiberglass exterior. Identifies specific structural and material differences between lines for professional audience.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published structured comparison from knowledgeable dealer source with specific material and specification data; sufficient for scoring.",
+      "topics": [
+        "specs",
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Fine Homebuilding Forum – Dealer/Service Experience Discussion",
+      "url": "https://www.finehomebuilding.com/forum",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Contractor discussion emphasizing value of purchasing through local Andersen dealer versus Home Depot for long-term service continuity. Notes that identical windows carry dramatically different service experiences by retail channel. Warns about big-box warranty parts ordering errors.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Discussion focuses on dealer/service experience and purchasing channel, not product quality. Classified report_only per sales/dealer experience rule.",
+      "topics": [
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Owner Forum Posts – Mold Toxicity / Repeat Leak Reports (BBB/Forum)",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Owner reports 400 Series windows leaking into wall cavities causing black mold and reported chronic mold toxicity in child. Owner states same leak failure pattern repeated on second Andersen purchase 20 years after first. Corroborated by similar BBB complaints.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical product defect (seal failure causing mold) with corroborating pattern across multiple independent sources spanning 20-year period; qualifies for scoring per forum defect pattern rule.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Owner Forum Posts – Vinyl Delamination Self-Repair (Multiple Forums)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple independent owners across forums report interior vinyl film blistering at 10–15 years post-installation on 400 Series. Warranty expired; Andersen declined assistance. Heat-gun adhesive softening identified as self-repair method. Consistent failure timeline across geographic locations.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Corroborating physical defect pattern (vinyl delamination) documented consistently across multiple independent owners at predictable time intervals across different forum platforms.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Owner Report – Circle of Excellence Installer Observation",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Homeowner observes Andersen's certified Circle of Excellence installers using non-standard techniques: no nail flange nailing, excessive frame gaps sealed by foam. Raises question of whether certified installer designation ensures adherence to manufacturer guidelines.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single owner observation about installation technique quality, not product quality. Classified report_only per installation quality auto-classification rule.",
+      "topics": [
+        "service"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Manufacturing Quality",
+      "expert": "Generally solid; square frames and tight tolerances praised by professional installers",
+      "review": "Good build quality noted; material composition sound for price tier",
+      "forum": "Mixed; hardware defects and missing components reported with corroborating frequency",
+      "agreement": "Qualified agreement: Frame quality is strong; component-level QC is inconsistent"
+    },
+    {
+      "topic": "Durability",
+      "expert": "30+ year expected life for wood windows when properly maintained",
+      "review": "Moderate; better durability with proper maintenance and professional installation",
+      "forum": "Highly variable; vinyl delamination at 10–15 years and seal failures reported consistently",
+      "agreement": "Conditional: Long-term durability heavily dependent on climate, maintenance, and installation quality"
+    },
+    {
+      "topic": "Performance",
+      "expert": "Installation-dependent; size matters greatly for air infiltration; adequate for midrange",
+      "review": "Air infiltration adequate for midrange tier; size-dependent degradation documented in specs",
+      "forum": "Significant variation; large windows reported drafty; smaller units generally satisfactory",
+      "agreement": "Confirmed: Size-dependent infiltration degradation is real and acknowledged in manufacturer's own specifications"
+    },
+    {
+      "topic": "Quality – Seal / Water Intrusion",
+      "expert": "Not highlighted as concern when properly installed; reframed as universal aging issue",
+      "review": "Not primary focus of most reviews; Window Dog flags poor sealing explicitly",
+      "forum": "Multiple independent reports of seal failure, mold growth, and water intrusion spanning decades",
+      "agreement": "Concern identified: Pattern across time and geography suggests systemic vulnerability, not isolated incidents"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Described as responsive and industry-leading; transferable warranty valued",
+      "review": "Transferable Owner-2-Owner warranty cited as differentiator",
+      "forum": "Frequently criticized; parts shipped without labor coverage; disputes over installation vs defect causation",
+      "agreement": "Problematic: Paper warranty is extensive but practical coverage narrowed by labor exclusions and broad exceptions"
+    },
+    {
+      "topic": "Service",
+      "expert": "Channel-dependent; local dealer experience superior to big-box retail",
+      "review": "Variable by retail channel; Andersen direct service rated positively in some reports",
+      "forum": "Mixed; some report friendly customer service; others report blame-shifting and parts-only responses",
+      "agreement": "Channel-dependent: Service quality is significantly determined by purchase channel, not uniform across all buyers"
+    },
+    {
+      "topic": "Value",
+      "expert": "Good mid-range value; less expensive than Marvin; comparable base performance to premium lines",
+      "review": "Adequate performance for price tier; $500–$3,000 installed positions competitively",
+      "forum": "Generally acceptable; some find comparable alternatives at lower cost",
+      "agreement": "Reasonable: Mid-tier pricing justified by market position when properly installed"
+    },
+    {
+      "topic": "Specs",
+      "expert": "U-factor 0.27–0.32; SHGC 0.18–0.40; DP40 standard / DP30 oversized; ENERGY STAR qualified most zones",
+      "review": "Specs confirmed by multiple technical documents; competitive within midrange wood window category",
+      "forum": "Not directly assessed by owners",
+      "agreement": "Strong: Technical specifications are well-documented and confirmed across multiple sources"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Owner-2-Owner transferability to subsequent homeowners adds genuine resale value not offered by all competitors",
+      "20-year glass seal warranty is longer than many competing products in the same price tier",
+      "Customer service reported as friendly and responsive in positive interactions",
+      "Andersen proactively ships replacement parts for covered defects without requiring return of defective units"
+    ],
+    "underperforms_expectations": [
+      "Labor costs for all warranty repairs are explicitly excluded, leaving homeowners to pay installation costs even on legitimate manufacturing defects",
+      "Condensation is explicitly excluded despite being a common consumer complaint attributed to window quality",
+      "Coastal chemical and salt-air damage excluded, disadvantaging a significant segment of the customer base",
+      "Vinyl delamination failures occur after 10-year non-glass warranty expiration, leaving owners without coverage for a documented systematic failure mode",
+      "Binding arbitration requirement limits homeowner legal remedies; opt-out provision not prominently disclosed"
+    ],
+    "surprises": [
+      "Installation-related exclusions create a broad gray area where Andersen can attribute failures to improper installation rather than manufacturing defects, effectively reducing coverage in disputed cases",
+      "Finish and maintenance exclusions require homeowners to properly seal exposed wood portions, a maintenance task many owners are unaware of at purchase",
+      "The 60-day written response window for disputes gives Andersen significant processing time before resolution is required",
+      "Special glazings and non-factory-installed glass are excluded from the 20-year glass warranty, affecting owners who upgrade glass post-purchase",
+      "The warranty does not cover paint or stain work on any repaired or replaced components, adding significant finishing costs to warranty repair scenarios"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.27–0.32 BTU/hr·ft²·°F (Low-E4 glass, varies by configuration and frame size)",
+    "shgc": "0.18–0.40 (varies by glass package selection; Low-E4 standard range 0.18–0.32)",
+    "air_infiltration": "<0.2 CFM/ft² for standard double-hung sizes; <0.3 CFM/ft² for larger configurations at standard test pressure",
+    "frame_material": "Solid pine interior (standard); maple and oak available on Woodwright variant; vinyl exterior cladding (Perma-Shield) on Tilt-Wash; Fibrex composite exterior on Woodwright",
+    "glass": "Double-pane standard; Low-E4 coating available; multiple SHGC configurations; sealed insulating glass unit",
+    "dp_rating": "DP40 for standard sizes; DP30 for oversized configurations (Tilt-Wash double-hung)",
+    "stc": "not_available",
+    "visible_transmittance": "0.54–0.58 (Low-E4 configuration)",
+    "energy_star_qualified": "Yes, for most U.S. climate zones depending on configuration",
+    "jamb_liners": "Vinyl compression jamb liners (Tilt-Wash); natural wood jamb liners (Woodwright)",
+    "warranty_glass": "20 years from date of purchase",
+    "warranty_non_glass": "10 years from date of purchase",
+    "installed_cost_range": "$500–$3,000 per window depending on size and local labor rates",
+    "wind_load_resistance": "Approximately 80–90 mph equivalent for DP40 rating"
+  },
+  "red_flags": [
+    {
+      "type": "Lawsuit",
+      "description": "Class-action litigation by Troy and Lorie Gratke alleging seal failure in eleven 400 Series Tilt-Wash windows caused mold and fungus growth within four years of installation. Filed in U.S. District Court, Minneapolis. Sought damages exceeding $50,000 per claim across eight counts including breach of contract, breach of express and implied warranty, consumer protection violations, unjust enrichment, reckless misrepresentation, and negligence. Complaint alleged Andersen's fix only slowed decay.",
+      "sources": [
+        "SRC-014"
+      ],
+      "product_line": "400 Series Tilt-Wash",
+      "severity": "high"
+    },
+    {
+      "type": "FTC Complaint",
+      "description": "TINA.org filed complaint with FTC in July 2025 alleging Renewal by Andersen (Andersen subsidiary) violated FTC Made in USA Labeling Rule by advertising 'Custom Built in the USA' while disclosing in fine print that products contain imported parts. Potential penalties of $53,088 per violation. Over $400 million in advertising spend implicated since January 2023. Does not directly affect 400 Series product quality but raises corporate ethics and transparency concerns.",
+      "sources": [
+        "SRC-017"
+      ],
+      "product_line": "Renewal by Andersen (subsidiary)",
+      "severity": "medium"
+    },
+    {
+      "type": "Recall",
+      "description": "February 26, 2026 recall of approximately 91,000 window opening control devices for 100 Series casement windows. Devices found to break or detach after impact, posing fall and serious injury hazards. Eight malfunction reports filed; no injuries. Free in-home repair by authorized technicians offered. Does not apply to 400 Series double-hung product line reviewed here.",
+      "sources": [
+        "SRC-015"
+      ],
+      "product_line": "100 Series Casement (not 400 Series)",
+      "severity": "low_for_400_series"
+    },
+    {
+      "type": "Systemic Defect Pattern",
+      "description": "Multiple independent owner reports across BBB, Houzz, and specialty forums document interior vinyl film delamination (blistering and bubbling) on 400 Series windows installed in the 2000s, with failures emerging consistently at 10–15 years post-installation after the non-glass warranty expires. Andersen reportedly declined warranty assistance citing expired 10-year term. Pattern appears across multiple geographic locations and installation contexts.",
+      "sources": [
+        "SRC-019",
+        "SRC-034"
+      ],
+      "product_line": "400 Series",
+      "severity": "medium"
+    },
+    {
+      "type": "Systemic Defect Pattern",
+      "description": "Corroborating reports across BBB and homeowner forums document seal failure causing water intrusion, wood rot, and mold growth in 400 Series Tilt-Wash windows. One owner reports identical failure pattern on second Andersen purchase 20 years after experiencing the same problem on a prior installation. Litigation corroborates the pattern as systemic rather than isolated.",
+      "sources": [
+        "SRC-014",
+        "SRC-016",
+        "SRC-033"
+      ],
+      "product_line": "400 Series Tilt-Wash",
+      "severity": "high"
+    }
+  ],
+  "bottom_line": "The Andersen 400 Series double-hung window is a solid mid-tier clad-wood product that delivers reliable performance when professionally installed in appropriate applications, but carries meaningful documented vulnerabilities that warrant careful pre-purchase consideration. Professional installers consistently praise its manufacturing precision and position it competitively against Marvin Integrity at lower cost. Its transferable Owner-2-Owner warranty and ENERGY STAR qualification across most climate zones represent genuine value differentiators. However, three categories of evidence undermine a straightforward recommendation: (1) air infiltration performance degrades substantially with window size, meaning large 400 Series double-hungs may not perform to the same standard as smaller units despite sharing the same product designation; (2) corroborating patterns of seal failure causing mold growth and interior vinyl delamination at 10–15 years post-installation suggest systemic vulnerabilities that emerge outside of warranty coverage periods; and (3) the warranty's exclusion of all labor costs and its broad installation-related carve-outs significantly narrow practical coverage compared to marketing descriptions. Installation quality is the single most consequential variable in performance outcomes—arguably as important as the product itself—yet the warranty structure places failure causation disputes in Andersen's favor. The 400 Series is best suited for mid-size replacement windows installed by competent professionals in non-coastal environments, where its value proposition is strongest. It should be approached cautiously for oversized applications, coastal salt-air environments, or any scenario involving DIY installation without professional water management expertise.",
+  "metadata": {
+    "total_sources_parsed": 35,
+    "sources_scored": 17,
+    "sources_report_only": 9,
+    "sources_quarantined": 9,
+    "pool_distribution": {
+      "S": 1,
+      "A": 5,
+      "B": 18,
+      "C": 11
+    },
+    "confidence_note": "Pool S source (Consumer Reports) quarantined due to paywall access restriction. Verified specs derived primarily from Andersen's own technical documentation cross-referenced against independent review site data; treat with appropriate manufacturer-source caution."
+  },
+  "product_slug": "andersen_400_series",
+  "product_name": "Andersen 400 Series",
+  "manufacturer_slug": "andersen",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 185605,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 35,
+    "score": 18,
+    "report_only": 9,
+    "quarantine": 8,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.18016800000000002
+}

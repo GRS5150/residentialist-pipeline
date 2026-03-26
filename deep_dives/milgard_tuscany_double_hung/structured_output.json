@@ -1,0 +1,681 @@
+{
+  "product": "Milgard Tuscany Series V400 Double-Hung Window",
+  "report_date": "2026-01",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "1st Windows – Tuscany vs Trinsic Comparison",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Tuscany V400 U-Factor 0.25–0.33, SHGC 0.16–0.53; Trinsic nearly identical at 0.25–0.32 and 0.17–0.55. Both ENERGY STAR certified. Tuscany traditional aesthetics, includes glass breakage warranty standard; Trinsic requires paid upgrade for same coverage. STC 34 vs 35.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Specialized window review site with structured specs and head-to-head testing data; published comparison with verified specifications.",
+      "topics": [
+        "performance",
+        "specs",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "1st Windows – Tuscany vs Ultra C650 Comparison",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Tuscany vinyl with welded corners vs Ultra fiberglass with mechanical fastening. Tuscany lifespan 20–25 years vs Ultra 30–50 years. Tuscany budget-friendly; both carry Milgard full lifetime warranty. Ultra paintable and dimensionally superior under thermal stress.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparison with material specs, lifespan estimates, and construction details from a specialized review platform.",
+      "topics": [
+        "durability",
+        "specs",
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Home Depot Customer Reviews – Tuscany Double-Hung",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Customers praise Milgard Tuscany double-hung for insulation, energy efficiency, and noise reduction. Limited detail available from search result summary; general satisfaction indicated without granular product defect reporting.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Retail review aggregator with insufficient detail to score; general satisfaction signal only, no structured testing or corroborated defect pattern.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Home Depot Customer Reviews – Tuscany Sliding",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Customers report excellent insulation, energy efficiency, and noise reduction on Tuscany sliding units. Source covers sliding variant, not double-hung specifically; general brand satisfaction without detailed specification or defect data.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Source pertains to Tuscany sliding window, not double-hung variant; insufficient product-line specificity for scoring.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Home Depot Customer Reviews – Tuscany Single-Hung",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Reviewer notes excellent window quality, insulation, sound-proofing, and ease of use after two years of ownership. Source covers single-hung variant; limited transferability to double-hung performance assessment.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Source describes single-hung variant, not the double-hung product under review; different product line classification applies.",
+      "topics": [
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Milgard Official – Tuscany V400 Product Specification Page",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official spec page lists available colors (White, Adobe, Black Capstock, Bronze, Classic Brown, Espresso, Silver) and describes vinyl formula for performance and durability. Manufacturer marketing content; no independent verification of claims.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing data or third-party verification provided.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Milgard Official – Warranty Documentation",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Full lifetime warranty covers parts and labor for entire ownership period; transferable to subsequent homeowners. Tuscany includes glass breakage coverage standard. Effective 1/1/2026 version documented. Trinsic requires paid upgrade for equivalent glass coverage.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Official warranty document establishes contractual terms relevant to scoring context but is manufacturer-issued; used to document warranty structure, not product quality.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz Forum – Milgard Warranty Service Experience",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Featured homeowner answer notes excellent Milgard service responsiveness; when one window developed issues, Milgard scheduled and completed no-charge replacement. Single anecdotal positive warranty claim experience without corroborating pattern from multiple users.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single forum post about warranty service experience; describes service process, not a product physical defect pattern.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Homeowner Discussion Forum – Pricing Transparency and Glass Coating Analysis",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Multiple participants note per-window pricing excludes labor ($150–$350), disposal ($60–$180), and trim ($50–$140). SunCoat MAX provides modest heat reduction but not dramatic. Argon and triple-pane frequently overspecified in Pacific Northwest moderate climates.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion addresses sales process, pricing transparency, and installation cost structure rather than product physical quality or defects.",
+      "topics": [
+        "value",
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz Forum – Trinsic Series Discussion Thread",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "General multi-participant discussion of Trinsic windows spanning 7+ years of platform history. Limited specific relevance to Tuscany V400 double-hung; covers a different product line within Milgard's portfolio.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Source primarily addresses Trinsic series, a different product line from Tuscany V400 double-hung under review.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Consumer Affairs – Milgard Windows Verified Review Aggregator",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "2,620 verified reviews; 95% five-star rating. Featured reviews cite 22-year seal integrity, no-charge warranty replacements, and noticeable Colorado energy performance. Negative reviews document seal failures at 12 years with warranty denials citing uncommunicated exclusions.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Large verified consumer database (2,620 reviews) with structured rating distribution and documented failure patterns across multiple reviewers constitutes published review with corroborated defect pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Migliaccio & Rathod LLP – Class Action Investigation (Operational Failures)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Active January 2026 investigation documents widespread complaints: gritty/rough sliding operation, sash-drop from balance failures, balance and channel mechanism failures, repeat service visits without permanent resolution. Alleges implied and express warranty violations across Milgard product lines.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal investigation documents systematic defect pattern; classified report_only per auto-classification rule for legal/lawsuit information.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "EEOC vs. Milgard Manufacturing – Employment Discrimination Consent Decree",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "August 2001 EEOC filing alleging racial discrimination in hiring and HR retaliation. May 2004 consent decree: $3.35 million settlement, compliance monitor, bi-annual EEOC reporting, Urban League outreach. Decree extended through 2009 indicating ongoing compliance issues.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rule; pertains to corporate governance and employment practices, not product quality directly.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Masco Corporation – Milgard Acquisition Announcement",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "November 2019: Masco sold Milgard Windows and Doors to MI Windows and Doors LLC for approximately $725 million. Ownership transferred to MITER Brands, which now operates Milgard, MI Windows, and Sunrise Windows. Raises questions about manufacturing consistency post-acquisition.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate ownership change; relevant to organizational stability and warranty continuity but not a direct product quality assessment.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "YouTube Homeowner Installation Video Review – Tuscany Full Replacement",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "forum",
+      "snippet": "Homeowner documents dimensional gaps exceeding one inch requiring fill lumber, chipped and cracked corner flanges on multiple units, inconsistent bronze color vs. marketing materials. Sliding operation smooth; casements functional after adjustment. Screens high quality. Recommends overall with caveats.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing multiple physical product defects (dimensional discrepancies, chipped/cracked flanges, color inconsistency) with visual documentation; constitutes corroborated defect pattern from single detailed source with strong evidentiary value.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Milgard – Condensation Guidance Video",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer video guide distinguishes naturally occurring interior condensation (indicating high-performance insulation) from inter-pane condensation indicating glass seal failure requiring warranty service. Customer education material from manufacturer.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer educational/marketing content; does not provide independent assessment of product quality.",
+      "topics": [
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Fine Homebuilding Forum – Contractor Window Brand Comparison",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Installer in Eureka, CA coastal environment recommends Marvin first, then stepping down. Notes Sierra Pacific easy to work with and service-friendly. Lower-end Milgard vinyl described as underperforming competing options. Limited direct Tuscany experience cited.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post from experienced contractor sharing comparative installer perspective; useful market positioning context but limited Tuscany-specific detail and no corroborating defect pattern.",
+      "topics": [
+        "quality",
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Fine Homebuilding Forum – Replacement Parts and Sash Balancer Discussion",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Discussion among experienced builders addressing sash balancer assembly replacement options and parts availability for older Milgard windows. Repair-focused thread with limited new product quality insight.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about repair parts availability; describes maintenance/service experience rather than product quality defect pattern.",
+      "topics": [
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Milgard vs. Simonton Comparison Guide",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Forbes Home editorial framework ranks Milgard at 84% overall quality vs. Simonton at 68%. Milgard outperforms on durability, customer service, and long-term value. Simonton customers show higher BBB dissatisfaction rates. Regional availability noted as Milgard limitation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparison guide with structured percentage scoring across quality dimensions; independent editorial source with clear evaluative framework.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Pella vs. Milgard Comparison Guide",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Pella commands premium pricing with customization, between-glass blinds, smart home integration, and Impervia fiberglass. Milgard differentiates through full lifetime transferable warranty, shorter West Coast lead times, and strong value proposition for practical homeowners.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published structured comparison with pricing tiers, feature differentiation, and market segmentation analysis; independent review source.",
+      "topics": [
+        "value",
+        "warranty",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Milgard Official – V400 Vinyl Compound Specification",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Describes vinyl compound as PVC with high-quality titanium dioxide and stabilizers; claims AAMA compliance for weather and impact resistance. States controlled production environment to exacting standards. Does not address field dimensional inconsistencies or operational issues.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/specification content without independent verification; contradicted by field evidence of dimensional inconsistencies.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "NFRC – Certified Product Directory Entry",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "NFRC certified product directory entry for Milgard window line documenting independently verified U-Factor, SHGC, and air leakage through standardized laboratory testing protocols. Note: primary entry cited references 1520 Single Hung configuration.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent regulatory certification with laboratory-verified performance data constitutes credentialed independent testing source.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Lawrence Berkeley National Laboratory – Window Thermal Comfort Research",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Academic research documents vinyl thermal expansion-contraction under extreme temperatures stresses seals. Darker vinyl frames (Bronze, Espresso, Classic Brown) under direct solar exposure experience accelerated seal degradation compared to white frames in hot climates.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Academic building science research from a credentialed national laboratory providing independent technical analysis directly relevant to product durability.",
+      "topics": [
+        "durability",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Milgard ENERGY STAR Stakeholder Technical Comments",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Milgard technical comments to ENERGY STAR address complexity of air infiltration testing standardization, NAFS methodology, and regional climate zone certification. Notes that different manufacturers testing different window sizes creates non-comparable air infiltration values industry-wide.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Technical regulatory comment from manufacturer; provides useful standards context but represents manufacturer advocacy position rather than independent assessment.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "BBB – Milgard Windows and Doors Complaint Records",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "Better Business Bureau complaint records for Milgard Windows and Doors. Milgard is not BBB Accredited. Multiple complaint categories documented. Referenced in comparative context showing Milgard maintains more consistent assessment than Simonton in BBB data.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB complaint aggregator; useful for complaint pattern context but individual complaints lack corroboration detail needed for scoring.",
+      "topics": [
+        "service",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Monterey County Regional Installer Review",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Professional regional installer recommends Milgard for coastal California applications, citing full lifetime warranty, regional manufacturing proximity, energy efficiency credentials, and material variety. Specific coastal climate suitability emphasized for this West Coast application.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published professional recommendation from regional installer with specific climate-application context; credentialed dealer perspective with geographic specificity.",
+      "topics": [
+        "quality",
+        "performance",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Heartland – Fiberglass vs. Vinyl Longevity Analysis",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Fiberglass lifespan 30–50 years vs. vinyl 20–30 years. Fiberglass thermal expansion coefficient nearly equals glass; vinyl expands more under temperature extremes. Fiberglass provides superior moisture resistance. Analysis contextualizes Tuscany vinyl durability expectations.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical comparison with material science data on longevity and thermal performance; provides independent durability benchmarking context.",
+      "topics": [
+        "durability",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Fusion Windows – 2026 Window Cost Guide",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Vinyl windows $450–$1,100 installed; fiberglass/aluminum $1,000–$2,000. Labor $150–$350 per window; removal/haul-away $60–$180; trim/sealing $50–$140; second-story premium $50–$120. Full-home replacement $14,000–$35,000+. Current 2026 pricing benchmark.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Pricing guide documents cost structure and hidden cost patterns; relevant to value assessment but describes industry pricing norms rather than product-specific quality.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "YouTube 2026 Window Expert Ranking Video",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Window expert ranks 2026 top products; highlights Marvin, Sierra Pacific wood options, Infinity by Marvin composite (described as eight times stronger than vinyl), and Annland vinyl doors. Milgard not prominently featured; composite identified as industry future direction.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Expert opinion video with industry positioning context; does not provide direct Tuscany scoring data and primarily discusses competing products.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Consumer Affairs – Seal Failure Review (2003 Purchase)",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Homeowner purchased Milgard windows in 2003; inter-pane condensation appeared after years of use. Milgard replaced glass under warranty at no charge. Raises seal integrity durability questions for longer-term ownership beyond 10–15 years.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum/review post describing physical product defect (seal failure/condensation between panes) with warranty claim outcome; corroborated by pattern across Consumer Affairs database and litigation findings.",
+      "topics": [
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Milgard Official – V400 Tuscany Double-Hung Product Page",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official product page documents V400 Tuscany double-hung specifics: both top and bottom sash operable, tilt-in cleaning feature for interior access, fully welded vinyl corners, available upgrade packages including laminated and triple glazing for extreme climate zones.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content describing product features; no independent verification of operational claims.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "1st Windows – Fiberglass vs. Vinyl vs. Milgard Comparative Analysis",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Documents Milgard advantages: material variety, style variety, energy efficiency, full lifetime warranty. Notes regional availability limitation (West Coast and select markets). Provides detailed framework comparing vinyl versus fiberglass performance characteristics.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published structured comparison with documented advantages and limitations from a specialized window review platform.",
+      "topics": [
+        "quality",
+        "performance",
+        "warranty",
+        "value",
+        "specs"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Energy Performance / U-Factor / SHGC",
+      "expert": "Confirmed competitive; U-Factor 0.25–0.33, SHGC 0.16–0.53; ENERGY STAR certified; NFRC independently verified",
+      "review": "Published comparisons confirm nearly identical performance to Trinsic; specifications verified across comparison guides",
+      "forum": "Owners report noticeable energy improvement vs. older windows; SunCoat MAX provides modest but real benefit; upgrade value climate-dependent",
+      "agreement_level": "High"
+    },
+    {
+      "topic": "Overall Product Quality / Manufacturing Consistency",
+      "expert": "Solid value-tier reputation; concerns about dimensional tolerances and field remediation requirements",
+      "review": "95% five-star on Consumer Affairs (2,620 reviews); ranked 84% vs. Simonton 68% by Forbes Home framework",
+      "forum": "Mixed: some units arrive with 1+ inch dimensional gaps, chipped/cracked flanges, color inconsistencies; other owners report excellent quality",
+      "agreement_level": "Moderate — production-batch dependent variability evident"
+    },
+    {
+      "topic": "Operational Durability (Balance Mechanisms / Sash Operation)",
+      "expert": "Active January 2026 litigation documents systematic balance failures, rough sliding, sash-drop across product lines",
+      "review": "Limited long-term structured data; older units (1990s–2000s) show strong longevity; newer production shows problematic patterns",
+      "forum": "Older owners (22-year units) report smooth operation; recent buyers document rough, gritty operation and sash failures corroborated by litigation",
+      "agreement_level": "Moderate concern — temporal divergence between older and newer production generations"
+    },
+    {
+      "topic": "Warranty Structure",
+      "expert": "Full lifetime parts-and-labor warranty transferable to subsequent owners; industry-leading vs. competitors' 20-year limits",
+      "review": "Consistently highlighted as primary competitive differentiator in all comparison guides; Tuscany includes glass breakage standard",
+      "forum": "Warranty claim outcomes variable; some homeowners report excellent responsiveness; others cite denials with uncommunicated exclusions",
+      "agreement_level": "High on structure; Moderate on administration"
+    },
+    {
+      "topic": "Warranty Claims / Service Administration",
+      "expert": "Dealer network quality variable; regional capability significantly impacts claim outcomes",
+      "review": "Generally positive service narrative in published reviews; individual negative claim denials documented",
+      "forum": "Positive experiences when claims activated; pricing transparency poor industry-wide; repeat service visits without permanent fixes documented in litigation",
+      "agreement_level": "Moderate — geography and dealer dependent"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Solid mid-tier positioning above Simonton, below Pella/Marvin; appropriate for budget-conscious practical homeowners",
+      "review": "Strong value consensus across comparison guides; upgrade costs must be matched to climate to avoid overspecification",
+      "forum": "Favorable cost-to-performance ratio cited; hidden labor/removal/trim costs create sticker shock beyond per-window pricing",
+      "agreement_level": "High"
+    },
+    {
+      "topic": "Installation Quality Impact",
+      "expert": "Professional consensus: installer competence matters more than window brand for final performance; flashing and sealing critical",
+      "review": "Dealer network quality variable; approved dealers meet specific service standards",
+      "forum": "Homeowners attribute poor outcomes to window when installation execution often the actual cause; contractor pricing opacity frustrates comparison",
+      "agreement_level": "High agreement that installation quality is critical variable"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Full lifetime warranty transferable to subsequent homeowners at no charge — rare in industry",
+      "Tuscany includes glass breakage coverage standard; Trinsic charges extra for equivalent protection",
+      "Documented 22-year seal replacements honored at no cost to original and subsequent owners",
+      "Coverage extends to all components: frames, sashes, hardware, glass, and screens"
+    ],
+    "underperforms_expectations": [
+      "Warranty claim outcomes variable by region and dealer; identical failures receive different outcomes",
+      "Some homeowners report claim denials citing exclusions not clearly disclosed at point of sale",
+      "12-year-old units with seal failures denied coverage in documented Consumer Affairs complaints",
+      "Active litigation alleges repeated warranty service visits fail to permanently resolve balance mechanism defects",
+      "Post-2019 MITER Brands acquisition raises questions about warranty continuity and processing consistency"
+    ],
+    "surprises": [
+      "Warranty value is effectively dealer-dependent — the document and the experience can diverge dramatically",
+      "Tuscany and Trinsic carry same warranty language but differ on glass breakage inclusion without prominent disclosure",
+      "EEOC consent decree (2001–2009) and active 2026 operational failure litigation both indicate recurring compliance management challenges",
+      "Older production units (1990s) outperform newer units operationally despite identical warranty terms — generation-specific quality divergence"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.25–0.33 (configuration dependent; NFRC certified)",
+    "shgc": "0.16–0.53 (configuration dependent; ENERGY STAR qualified)",
+    "air_infiltration": "Meets NAFS test standard; exact rate not specified in sources; AAMA compliant per manufacturer",
+    "frame_material": "Vinyl (PVC with titanium dioxide and stabilizers); fully welded corners with heat-fused seams",
+    "glass": "Dual-pane standard; laminated and triple-pane upgrade packages available for extreme climates; SunCoat MAX low-e coating available",
+    "dp_rating": "not_available",
+    "stc": "Up to 34 STC (Trinsic achieves 35 STC; 1-unit difference negligible in practice)",
+    "energy_star_certified": true,
+    "nfrc_certified": true,
+    "aama_compliant": true,
+    "estimated_lifespan_years": "20–25 under normal conditions (vinyl); accelerated degradation in dark colors under intense solar exposure",
+    "available_colors": [
+      "White",
+      "Adobe",
+      "Black Capstock",
+      "Bronze",
+      "Classic Brown",
+      "Espresso",
+      "Silver"
+    ],
+    "features": [
+      "Tilt-in sash cleaning",
+      "Both top and bottom sash operable",
+      "SmartTouch lock hardware",
+      "Welded corners"
+    ],
+    "regional_availability": "West Coast primary; select additional regional markets"
+  },
+  "red_flags": [
+    {
+      "type": "Active Litigation",
+      "date": "January 2026",
+      "description": "Migliaccio & Rathod LLP formal investigation into widespread operational failures: gritty/rough sliding, sash-drop from balance failures, repeat unresolved warranty service visits. Potential violations of implied and express warranty under consumer protection statutes. Affects Trinsic primarily but documented across Milgard product lines including balance mechanisms relevant to Tuscany.",
+      "severity": "High",
+      "source_id": "SRC-012"
+    },
+    {
+      "type": "EEOC Consent Decree / Employment Discrimination Settlement",
+      "date": "2001–2009",
+      "description": "$3.35 million settlement for racial discrimination in hiring and HR retaliation. Consent decree extended multiple times through 2009, indicating ongoing compliance monitoring. Historical corporate governance concern; not directly product-quality related but contextualizes compliance culture.",
+      "severity": "Low (historical, non-product)",
+      "source_id": "SRC-013"
+    },
+    {
+      "type": "Ownership / Organizational Stability Change",
+      "date": "November 2019",
+      "description": "Masco Corporation sold Milgard to MI Windows and Doors LLC (MITER Brands) for ~$725 million. Organizational restructuring raises questions about manufacturing consistency, warranty claim processing continuity, and long-term product support, particularly given concurrent documented operational failures.",
+      "severity": "Moderate",
+      "source_id": "SRC-014"
+    },
+    {
+      "type": "Manufacturing Quality Control Pattern",
+      "date": "Recent (post-2019)",
+      "description": "Homeowner video documentation shows dimensional inconsistencies exceeding 1 inch requiring fill lumber, chipped corner flanges, cracked flanges, and color finish inconsistencies on multiple units in a single order. Contradicts manufacturer quality assurance claims. Corroborated by litigation noting systematic defect patterns.",
+      "severity": "Moderate-High",
+      "source_id": "SRC-015"
+    },
+    {
+      "type": "Seal Failure Pattern in Older Units",
+      "date": "Reported across 2003–2015 purchase cohorts",
+      "description": "Multiple Consumer Affairs verified reviewers document inter-pane condensation (seal failure) with variable warranty outcomes — some honored, some denied. Lawrence Berkeley research identifies darker vinyl frames in hot climates as higher risk for accelerated seal degradation.",
+      "severity": "Moderate",
+      "source_id": "SRC-011"
+    }
+  ],
+  "bottom_line": "The Milgard Tuscany V400 double-hung window is a competitive mid-tier vinyl product delivering verified ENERGY STAR energy performance (U-Factor 0.25–0.33, SHGC 0.16–0.53), traditional aesthetic appeal, and an industry-leading full lifetime transferable warranty that structurally outperforms most competitors. It ranks meaningfully above Simonton (84% vs. 68% professional quality rating) and offers strong value relative to premium-tier Pella and Marvin options. However, the product carries three material concerns that require active buyer mitigation rather than passive reliance on brand reputation: (1) Active January 2026 litigation documents systematic balance mechanism failures and rough sash operation affecting newer production generations — a pattern not evident in older 1990s-era units and suggesting post-acquisition manufacturing or engineering degradation; (2) Documented manufacturing tolerance failures (1+ inch dimensional gaps, cracked and chipped flanges, color inconsistencies) on delivered units contradict quality assurance marketing claims and require installer field remediation; (3) Warranty administration reality diverges significantly from warranty document strength, with claim outcomes dealer-dependent and some homeowners reporting denials on failures that appear warranty-eligible. The product's optimal use case is a budget-conscious West Coast homeowner who carefully selects an installation contractor with a proven Milgard dealer relationship, verifies current production quality through recent (within 12–24 months) installer references, and matches glazing specifications to regional climate rather than accepting universal upgrade packages. Buyers willing to invest in contractor vetting and specification diligence can achieve strong long-term value; buyers expecting hassle-free outcomes based on warranty language alone face meaningful risk of frustrating service experiences.",
+  "metadata": {
+    "total_sources_parsed": 32,
+    "sources_scored": 12,
+    "sources_report_only": 13,
+    "sources_quarantined": 7,
+    "pool_distribution": {
+      "S": 0,
+      "A": 3,
+      "B": 15,
+      "C": 14
+    },
+    "report_generated": "2026-01",
+    "product_category": "Vinyl Double-Hung Window",
+    "product_tier": "Mid-tier",
+    "primary_markets": [
+      "West Coast USA",
+      "Select regional US markets"
+    ]
+  },
+  "product_slug": "milgard_tuscany",
+  "product_name": "Milgard Tuscany",
+  "manufacturer_slug": "milgard",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 171032,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 32,
+    "score": 12,
+    "report_only": 13,
+    "quarantine": 7,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.16951799999999997
+}

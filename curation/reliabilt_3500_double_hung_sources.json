@@ -1,0 +1,543 @@
+{
+  "product": "ReliaBilt 3500 Double-Hung Replacement Window",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "ReliaBilt 3500 Product Listing – Lowe's",
+      "url": "https://www.lowes.com/pd/ReliaBilt-3500",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Standard specifications: 31-3/4\" x 73-1/2\" actual dimensions, DP-35 standard (upgradeable to DP-50), double-pane Low-E glass with argon gas fill, constant-force coil balance system, extruded half-screen, three jamb adjusters per side, head expander and sill angle included.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published retail listing with verified specs and product configuration data enabling direct comparison; structured product data qualifies as scoreable specification source.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "ReliaBilt Product Overview Video (Manufacturer)",
+      "url": "https://www.youtube.com/user/ReliaBiltWindows",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Manufacturer explains I-beam reinforced frame, aluminum-reinforced meeting rails, dual-durometer glazing bead, 16 weather-stripping contact points, DP-35 to DP-50 upgrade path, and claims 11 CFM air infiltration—172% below AAMA 30 CFM baseline standard.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; performance claims are self-reported and unverified by independent testing. Specs extracted and cross-referenced elsewhere but source itself is promotional.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "ReliaBilt Series 3500 Replacement Windows Product Video (Manufacturer)",
+      "url": "https://www.youtube.com/user/ReliaBiltWindows",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Highlights rounded sash profile, constant-force balance system, Low-E argon glass, aluminum-reinforced cavity construction, coastal building code compliance options, and customizable grid styles. Primary marketing and product positioning content.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing or third-party verification. Specs cross-referenced with other sources but source itself provides no independent evidentiary value.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "ReliaBilt Manufacturing Story Video (Manufacturer)",
+      "url": "https://www.youtube.com/user/ReliaBiltWindows",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Documents vertically integrated U.S. manufacturing in North Carolina: 480,000 sq ft facility, ~1,300 employees, capacity for one million units annually, full in-house production from vinyl compounding through final assembly, Lowe's partnership since 1989.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer corporate content with no product quality assessment. Provides useful company background but functions as promotional material, not independent analysis.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "The Window Dog – Professional Review",
+      "url": "https://www.thewindowdog.com",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Assigns ReliaBilt 3500 score of 72/100: Quality 65, Efficiency 70, Warranty 68, Price 85. Characterizes product as 'designed for affordability not excellence,' basic hollow-frame construction, higher air infiltration than premium brands, explicitly not recommended for primary residences.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Known expert comparison source with structured numerical scoring methodology across multiple performance dimensions; professional reviewer with credentialed window evaluation focus.",
+      "topics": [
+        "quality",
+        "performance",
+        "warranty",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Lowe's Product Page – Customer Reviews",
+      "url": "https://www.lowes.com/pd/ReliaBilt-3500",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Mixed owner reviews: damaged screens delivered repeatedly, windows arriving out of square with visible gaps, seal failures within five months of purchase, one customer reporting 10+ hours of service escalation over three months without resolution, quality control described as unacceptable.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple corroborating forum-style reviews describing consistent physical defect patterns (out-of-square units, damaged screens, premature seal failure) across independent purchasers; pattern corroboration elevates from quarantine.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "ReplacementWindowsReviews.co – Comparative Review Site",
+      "url": "https://www.replacementwindowsreviews.co",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Estimates ReliaBilt 3500 at $450–$600 installed; describes it as 'decent low to mid end vinyl window' and 'good product for the price.' Notes installation quality matters more than brand choice at this tier; recommends Simonton as slight alternative but defers to installer quality.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with pricing data and structured brand-level assessments; knowledgeable third-party source positioned between expert and forum.",
+      "topics": [
+        "value",
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "ReplacementWindowDiscussions.com – Homeowner Forum",
+      "url": "https://www.replacementwindowdiscussions.com",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Multiple owners report windows sticking after two years, premature compression seal wear, difficulty sourcing replacement gaskets across incompatible product sub-lines, temperature-driven popping/cracking sounds, and progressive draft infiltration requiring weatherstripping workarounds.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple independent forum contributors describing corroborating physical defect patterns (seal wear, gasket incompatibility, thermal noise) consistent with known material failure modes; pattern qualifies for scoring per corroboration rule.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Consumer Reports – Best Replacement Windows Guide",
+      "url": "https://www.consumerreports.org",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "ReliaBilt included in Consumer Reports lab testing of replacement windows. Methodology involves 3x5 double-hung units tested at 25 and 50 mph winds, 0°F and 70°F temperatures, and 5 gal/sq ft/hr simulated rain. Finds some budget vinyl outperforms pricier wood-frame alternatives.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Consumer Reports is a known expert comparison source with structured laboratory testing methodology and numerical scoring; inclusion of ReliaBilt in their tested cohort qualifies as Pool S structured scoring.",
+      "topics": [
+        "performance",
+        "quality",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "ReliaBilt Official Warranty Document",
+      "url": "https://pdf.lowes.com/warrantyguides",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Lifetime limited warranty on components, transferable once to subsequent owner. Glass coverage: 100% years 0–25, 25% co-pay years 26–40, 50% co-pay year 41+. Excludes labor, condensation, mold, water intrusion not from manufacturing defect, hardware tarnish, and caulking maintenance.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Published manufacturer warranty document with specific coverage terms, exclusions, and prorated co-pay schedules; primary source for warranty reality analysis and direct scoring of warranty dimension. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "warranty",
+        "service"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Lowe's Quality Assurance Program Page",
+      "url": "https://www.lowes.com/l/about/lowes-quality-assurance",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Lowe's QA program for private-label brands includes supplier audits, compliance testing, and process verification requirements. Does not guarantee individual product quality outcomes; program confirms process compliance only, not unit-level performance consistency.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate policy document describing QA framework rather than product performance. Relevant context for understanding brand oversight but not a product quality assessment.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "ReliaBilt Manufacturing Video Transcript (Vertical Integration)",
+      "url": "https://www.youtube.com/user/ReliaBiltWindows",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Claims facility is 'most vertically integrated vinyl window manufacturing facility'; in-house vinyl formulation, automated welding and glass cutting, on-site QA checkpoints at each production stage. Supports U.S.-origin manufacturing claims countering homeowner speculation about Chinese production.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer self-promotional content; no independent verification of QA claims. Useful for cross-referencing origin claims only.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "ReliaBilt Window Sash Removal Tutorial Video",
+      "url": "https://www.youtube.com/user/ReliaBiltWindows",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Official manufacturer instructions for sash removal and balance shoe reinstallation; highlights common mis-seating of tilt pins as a maintenance challenge. Implies non-trivial service complexity and suggests owners may encounter recurring maintenance requirements.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Instructional/service content describing maintenance procedures rather than product quality or performance scoring. Relevant to service experience but not scoreable performance data.",
+      "topics": [
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Andersen Windows Recall Notice – Top Class Actions",
+      "url": "https://www.topclassactions.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "91,000 Andersen window opening control devices recalled for fall hazards; devices can break or detach; 8 malfunction reports with no injuries as of February 2024 recall date. Competitor product recall included for industry liability context only.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Source concerns a different product and manufacturer (Andersen), not ReliaBilt 3500. Included only as industry liability context; no relevance to ReliaBilt product scoring.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "FTC Warranty Guidance – consumer.ftc.gov",
+      "url": "https://consumer.ftc.gov",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Federal regulatory guidance requires warranty information be available pre-purchase and covers length, coverage limitations, and claims process. Applies to all manufacturers; provides framework for evaluating whether ReliaBilt warranty terms comply with consumer protection requirements.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Government regulatory guidance providing legal context for warranty evaluation; not a product-specific assessment. Relevant to warranty reality analysis but not scoreable product opinion.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Consumer Reports – Window Shopping Guide (Buying Guidance)",
+      "url": "https://www.consumerreports.org",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Emphasizes installation quality over brand selection; recommends independent contractors over big-box stores; advises comparing NFRC ratings including U-factor, SHGC, VT, and air infiltration. Notes budget vinyl windows can outperform expensive wood-frame alternatives in wind/rain resistance.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Consumer Reports expert buying guidance with structured methodology and NFRC-based evaluation framework; qualifies as Pool S expert comparison source with structured scoring criteria.",
+      "topics": [
+        "performance",
+        "value",
+        "service",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Houzz Window Forum",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "General replacement window discussion threads on Houzz; limited ReliaBilt-specific content identified. Discussions focus on contractor selection and installation process rather than brand-specific product performance data.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "General forum discussion focused on process and contractor selection rather than ReliaBilt-specific product quality. No corroborated defect pattern identified in this source.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Atrium Windows & Doors Corporate Site",
+      "url": "https://www.atrium.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Confirms ReliaBilt is manufactured by Atrium Doors & Windows; Atrium positions itself as design/quality-focused manufacturer while ReliaBilt functions as the volume and affordability sub-brand. Establishes corporate hierarchy and parent company identity.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate identity and brand hierarchy information; no product performance scoring. Relevant for understanding brand positioning and warranty accountability chain.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "The Window People – Professional Installer Comparison",
+      "url": "https://www.thewindowpeople.net",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Professional installer comparison focusing on Andersen, ProVia, and Marvin windows; does not specifically rank ReliaBilt. Notes ProVia offers strong cost/performance balance; emphasizes that installation quality is critical determinant of window performance regardless of brand.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Source does not address the ReliaBilt 3500 specifically; focuses on different product lines. Included for installation quality context only; quarantined per different-product-line rule.",
+      "topics": [
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "BBB Business Profile – Masonite/ReliaBilt",
+      "url": "https://www.bbb.org",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "BBB file opened March 27, 2006; company is NOT BBB accredited; BBB states it 'does not have sufficient information to issue a rating.' Company located in Kirkwood, NY. No accreditation and no active rating represent neutral-to-negative regulatory standing signal.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB listing provides company standing information without product-specific quality assessment. Absence of accreditation is a report-only flag rather than scoreable product defect evidence.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Fine Homebuilding Forum",
+      "url": "https://www.finehomebuilding.com",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "General homebuilding and window replacement discussions; no specific ReliaBilt 3500 content identified in this source. References GreenBuildingAdvisor sister site for energy-related discussions. Provides industry forum context only.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "No ReliaBilt-specific content identified; general construction forum reference only. Cannot score a product not discussed in the source.",
+      "topics": [
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Contractor Assessments via ReplacementWindowsReviews.co (Aggregated)",
+      "url": "https://www.replacementwindowsreviews.co",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Multiple contractor responses rank ReliaBilt and Jeld-Wen 'at the bottom' versus Milgard and Ply Gem as 'best.' One contractor places ReliaBilt 'on par with Revere and Alside.' Separate contractor calls 3900 series 'decent middle of the road' for short-term ownership only.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional contractor assessments with comparative brand rankings published on a structured review platform; multiple independent professional voices with consistent directional findings.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Consumer Reports – Independent Contractor Recommendation Article",
+      "url": "https://www.consumerreports.org",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Independent contractor identified rot under exterior sill undetected by big-box salespeople; diagnosed structural issue and included remediation in pricing. Article argues independent contractors provide multi-brand expertise unavailable from single-brand big-box salespeople.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Consumer Reports expert analysis with case study illustrating systemic installation and service quality differences between distribution channels; directly relevant to ReliaBilt's primary retail channel risk.",
+      "topics": [
+        "service",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Product Quality",
+      "expert": "Mid-tier construction designed for affordability; basic hollow-frame vinyl; less rigid than premium; acceptable baseline for budget applications",
+      "review": "Described as 'decent low to mid end vinyl window'; included in Consumer Reports testing cohort; basic construction limits performance ceiling",
+      "forum": "Highly variable outcomes; complaints about out-of-square units, damaged screens on delivery, failures within 2–5 years; some satisfaction in first 3 years",
+      "agreement_level": "HIGH — All three columns converge on acceptable-but-limited quality with meaningful unit-to-unit variance"
+    },
+    {
+      "topic": "Durability",
+      "expert": "DP-35 standard adequate for non-coastal; temperature-related material movement expected; I-beam reinforcement better than entry-level but below premium",
+      "review": "No independent long-term durability testing published; Consumer Reports ongoing; compression seal wear flagged in professional assessments",
+      "forum": "Frames flex and crack/pop during thermal cycling; compression seals wear out in 2–4 years; warping noted on arrival in some batches; duct tape remediation reported",
+      "agreement_level": "HIGH — Convergent evidence of premature seal and gasket degradation as primary failure mode; 5–10 year realistic lifespan vs. 20–30 year expectation"
+    },
+    {
+      "topic": "Performance",
+      "expert": "Manufacturer claims 11 CFM air infiltration (172% below AAMA baseline); ENERGY STAR achieved only on select configurations; higher infiltration than premium brands",
+      "review": "SHGC 0.54 documented; some configurations fail ENERGY STAR; advanced warm-edge spacer systems absent; lab testing included but specific rankings not published",
+      "forum": "Consistent draft complaints; foggy panes and condensation within years 2–4; cold-climate owners report particular difficulty; thermal cycling creates noise and stress",
+      "agreement_level": "HIGH — Specification-level performance claims not reliably reproduced in real-world conditions; installation sensitivity amplifies gap between spec and reality"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Lifetime component warranty technically broad but prorated glass coverage and labor exclusion create minimal practical protection; claims process involves three parties",
+      "review": "Warranty document confirms: labor excluded, condensation excluded, water intrusion only covered if manufacturing defect proven; 30-day registration requirement",
+      "forum": "Homeowners report claims bouncing between retailer, installer, and manufacturer; responsibility denied by all parties; warranty described as difficult to invoke",
+      "agreement_level": "HIGH — Strong three-column consensus that warranty provides limited practical consumer protection despite lifetime component framing"
+    },
+    {
+      "topic": "Service",
+      "expert": "Big-box subcontractor model creates accountability gaps; per-window installer payment incentivizes speed over quality; independent contractors strongly preferred",
+      "review": "BBB non-accreditation noted; installation quality identified as more determinative than product choice at this price tier; multi-party service escalation documented",
+      "forum": "3+ month delays for replacements; multiple customers report escalation loops; damaged replacement screens; responsibility finger-pointing across Lowe's, installer, and manufacturer",
+      "agreement_level": "HIGH — Universal convergence across all three columns on service and installation quality as critical risk factor"
+    },
+    {
+      "topic": "Value",
+      "expert": "Price advantage real but eroded by 5–10 year replacement cycle; recommended only for temporary/rental/secondary use; not cost-effective for permanent residence",
+      "review": "$450–$600 installed estimate; positioned as top-tier among big-box options; attractive upfront price; hidden costs from failures offset savings",
+      "forum": "$4,500 multi-window investments reported with regret by year 3–5; customers express surprise that budget windows require early replacement; some satisfied buyers acknowledge uncertainty",
+      "agreement_level": "MODERATE — Agreement on attractive upfront price; divergence on whether total cost of ownership justifies purchase; forum regret not universal"
+    },
+    {
+      "topic": "Specs",
+      "expert": "DP-35 standard / DP-50 optional; 11 CFM air infiltration claimed; Low-E + argon standard; I-beam frame; aluminum-reinforced meeting rails; 16-point weather stripping",
+      "review": "SHGC 0.54 confirmed; 31-3/4\" x 73-1/2\" standard size; constant-force coil balance; dual-durometer glazing bead; multiple size configurations documented",
+      "forum": "No specification verification from forum users; complaints about real-world performance diverging from spec claims",
+      "agreement_level": "MODERATE — Specifications well-documented by manufacturer and retail sources; independent verification limited; real-world performance diverges from spec claims per forum evidence"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Transferable lifetime component warranty is technically broader than many competitors at this price point",
+      "25-year glass breakage warranty covering accidental breakage is relatively uncommon at budget tier",
+      "100% glass seal failure coverage for years 0–25 without co-pay is a genuine benefit if claim is successfully filed"
+    ],
+    "underperforms_expectations": [
+      "Labor costs entirely excluded from all warranty coverage, meaning any service visit requires out-of-pocket installer fees",
+      "Condensation, mold, and mildew explicitly disclaimed as non-covered, shifting moisture management responsibility entirely to homeowner",
+      "Water intrusion covered only if manufacturing defect is definitively proven—a high evidentiary bar that effectively denies most infiltration claims",
+      "Prorated glass coverage creates confusing cost-sharing: 0% co-pay years 0–25, 25% co-pay years 26–40, 50% co-pay year 41+",
+      "Three-party accountability gap (Lowe's, installer, manufacturer) means claims frequently go unresolved in practice"
+    ],
+    "surprises": [
+      "30-day registration requirement creates a claim barrier that many purchasers miss, potentially voiding certain warranty provisions",
+      "Hardware tarnish and corrosion explicitly excluded despite being foreseeable weathering outcomes",
+      "Warranty excludes delivery damage unless caused by ReliaBilt itself, leaving retailer-damaged units in an ambiguous coverage gap",
+      "Exterior paint or laminate limited to only 10 years despite lifetime framing of overall warranty",
+      "BBB non-accreditation and absence of rating signal limited external accountability for warranty fulfillment"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "not_available — not independently verified in sources reviewed; ENERGY STAR configuration-dependent",
+    "shgc": "0.54 (standard Low-E configuration)",
+    "air_infiltration": "0.11 CFM/sq ft per manufacturer claim (11 CFM absolute); independent verification not available",
+    "frame_material": "Vinyl (PVC) with I-beam reinforcement; aluminum-reinforced meeting rails",
+    "glass": "Double-pane insulated glass unit (IGU), Low-E coating, argon gas fill; dual-durometer glazing bead retention",
+    "dp_rating": "DP-35 standard; DP-50 optional upgrade",
+    "stc": "not_available",
+    "size_standard": "31-3/4\" W x 73-1/2\" H actual dimensions (primary size); multiple configurations available from ~31-3/4\" x 37-1/2\" to ~35-3/4\" x 45-3/4\"",
+    "balance_system": "Constant-force coil balance",
+    "weather_stripping": "16 contact points: compression weather stripping at vinyl-to-vinyl press points; wool pile friction stripping at vinyl-to-vinyl rub points",
+    "energy_star": "Achieved on select configurations only; not all ReliaBilt 3500 configurations qualify",
+    "screen": "Extruded half-screen standard; full-screen optional",
+    "colors": "White and almond standard; bronze on white optional",
+    "grids": "Flat or contoured factory-installed grids available optionally",
+    "jamb_adjusters": "Three per side plus head expander and sill angle for variable rough opening accommodation",
+    "manufacturer": "Atrium Windows & Doors (Atrium Doors & Windows), manufactured in Kirkwood, NY and North Carolina facility"
+  },
+  "red_flags": [
+    {
+      "type": "BBB Standing",
+      "description": "ReliaBilt/Masonite BBB file opened 2006; company is NOT BBB accredited; BBB states insufficient information to issue a rating. Absence of accreditation and rating represents a consumer accountability gap for warranty disputes.",
+      "severity": "moderate",
+      "source": "SRC-020"
+    },
+    {
+      "type": "Manufacturing Quality Control Variability",
+      "description": "Multiple independent homeowners and at least one professional contractor documented receiving out-of-square windows and warped side rails directly from factory packaging, suggesting batch-level manufacturing consistency issues rather than isolated incidents.",
+      "severity": "high",
+      "source": "SRC-006, SRC-008"
+    },
+    {
+      "type": "Warranty Labor Exclusion",
+      "description": "All warranty coverage explicitly excludes labor costs, meaning every warranty service event requires the homeowner to independently hire and pay an installer. This provision substantially reduces the practical value of the lifetime component warranty.",
+      "severity": "high",
+      "source": "SRC-010"
+    },
+    {
+      "type": "Three-Party Accountability Gap",
+      "description": "Distribution model through Lowe's with subcontracted installation creates a documented pattern where warranty responsibility bounces unresolved between the retailer, the installer, and the manufacturer, with none accepting final accountability.",
+      "severity": "high",
+      "source": "SRC-005, SRC-006, SRC-007"
+    },
+    {
+      "type": "Premature Seal and Gasket Failure Pattern",
+      "description": "Corroborated forum pattern of compression seal failure within 2–4 years across multiple independent owners in different climates, combined with documented difficulty sourcing compatible replacement gaskets across incompatible sub-line configurations.",
+      "severity": "high",
+      "source": "SRC-008"
+    },
+    {
+      "type": "Condensation and Mold Liability Disclaimer",
+      "description": "Warranty explicitly disclaims all liability for condensation, mold, and mildew damage including consequential damages, shifting risk entirely to homeowner. This provision is unusually broad and may conflict with reasonable consumer expectations for a sealed insulated glass unit.",
+      "severity": "moderate",
+      "source": "SRC-010"
+    },
+    {
+      "type": "ENERGY STAR Compliance Gap",
+      "description": "Many ReliaBilt 3500 configurations do not meet ENERGY STAR Version 7.0 standards despite manufacturer marketing implying energy efficiency as a product benefit. Consumers may purchase expecting ENERGY STAR compliance without verifying the specific configuration.",
+      "severity": "moderate",
+      "source": "SRC-005"
+    },
+    {
+      "type": "Industry Recall Context",
+      "description": "Andersen window opening control devices (91,000 units) recalled February 2024 for fall hazards. Not a ReliaBilt recall; included as industry liability context demonstrating that window hardware safety failures result in federal recalls. No ReliaBilt-specific recall identified.",
+      "severity": "low",
+      "source": "SRC-014"
+    }
+  ],
+  "bottom_line": "The ReliaBilt 3500 is a budget-tier vinyl double-hung replacement window manufactured by Atrium Windows & Doors and sold exclusively through Lowe's. It delivers honest baseline performance within its design intent—affordable windows with documented DP-35/DP-50 structural ratings, Low-E argon glass, and manufacturer-claimed air infiltration well below AAMA minimums—but is not engineered for multi-decade primary residence ownership. Expert professional consensus (Window Dog score 72/100; contractor rankings placing ReliaBilt near the bottom of vinyl manufacturers) aligns with forum-documented failure patterns: compression seal degradation within 2–4 years, out-of-square manufacturing variability, thermal cycling noise, and progressive draft infiltration particularly in cold climates. The warranty is technically broad on paper—lifetime transferable component coverage—but practically narrow through total labor exclusion, explicit condensation/mold disclaimer, and a three-party accountability structure (Lowe's, subcontractor installer, manufacturer) that consistently fails homeowners in claim resolution. At $450–$600 installed, the upfront value proposition is real, but the 5–10 year realistic performance window versus a 20–30 year ownership expectation makes total cost of ownership unfavorable for permanent residences. The product is appropriately suited for rental properties, secondary structures, sheds, garages, and short-term homeownership scenarios where budget constraints are paramount and replacement cycle expectations are calibrated accordingly. Homeowners seeking long-term primary residence windows should invest modestly more in products from manufacturers with independent professional endorsement, stronger installation accountability, and warranty structures that cover real-world failure modes.",
+  "metadata": {
+    "product": "ReliaBilt 3500 Double-Hung Replacement Window",
+    "manufacturer": "Atrium Windows & Doors",
+    "retail_channel": "Lowe's (exclusive)",
+    "report_generated": "2025",
+    "total_sources_parsed": 23,
+    "sources_scored": 9,
+    "sources_report_only": 7,
+    "sources_quarantined": 7,
+    "pool_distribution": {
+      "S": 3,
+      "A": 4,
+      "B": 10,
+      "C": 6
+    }
+  },
+  "product_slug": "reliabilt_3500",
+  "product_name": "Reliabilt 3500",
+  "manufacturer_slug": "reliabilt",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 150109,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 23,
+    "score": 9,
+    "report_only": 6,
+    "quarantine": 8
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.151437,
+  "verification_date": "2026-03-23T19:46:56.727Z"
+}

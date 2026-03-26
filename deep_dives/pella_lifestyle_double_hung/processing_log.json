@@ -1,0 +1,32 @@
+{
+  "product": "Pella Lifestyle",
+  "operation_type": "double_hung",
+  "slug": "pella_lifestyle_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 47954
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 47,
+      "cost_estimate": 0.225756
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/pella_lifestyle_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T22:01:15.752Z"
+}

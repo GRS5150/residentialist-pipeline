@@ -1,0 +1,589 @@
+{
+  "product": "Window World 4000 Double-Hung Window",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "REtipster Window World Review",
+      "url": "https://retipster.com/window-world-review",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Documents 24-window rental duplex replacement costing approximately $11,000 installed with 4000 Series. Three-day installation by single installer. Characterized as 'major improvement' in property appearance. Provides detailed ROI analysis showing 20-year payback period at $25/month rent increase per unit.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with real-world pricing data, documented case study, and ROI analysis. Knowledgeable source with structured reporting though not an independent testing lab.",
+      "topics": [
+        "quality",
+        "value",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Replacement Windows Reviews 2024 (YouTube)",
+      "url": "https://www.youtube.com/watch?v=o-9H66miXA4",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Industry specialist notes Window World uses relabeled windows from various manufacturers. Classifies 4000 Series as builder-grade. Stresses franchise variability as critical risk. Warns lower-end windows are poor long-term investment. Strongly recommends researching specific local franchise reviews before purchase.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Expert provides professional analysis and franchise structure critique but focuses heavily on sales process and dealer experience variability rather than direct product testing or scoring.",
+      "topics": [
+        "quality",
+        "service",
+        "value",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Window World 4000 Series Brochure (Huntsville)",
+      "url": "https://windowworldhuntsville.com/wp-content/uploads/2020/09/ww-huntsville-ww-4000-series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official spec sheet documenting dual-pane double-strength glass, multiple SolarZone Low-E glazing packages, U-Factors ranging 0.27–0.46 depending on configuration, air infiltration 0.04–0.08 cfm/ft², DP40–DP50 structural ratings, and composite meeting-rail reinforcement options.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published specification document with detailed NFRC performance metrics. Provides quantifiable spec data suitable for scoring despite being manufacturer-originated content distributed by a franchise dealer.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Window World Warranty Information",
+      "url": "https://windowworld.com/warranties",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Lifetime limited warranty covers vinyl components, mechanical parts, and insulated glass units. Coverage is transferable to the next homeowner. Warranty applies for as long as original purchaser owns the home. Restrictions apply and specific exclusions are documented in warranty terms.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Official warranty documentation provides verifiable coverage terms relevant to consumer scoring. While manufacturer-sourced, the content is factual warranty language rather than marketing claims.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "BBB Complaints - Window World Youngstown, OH",
+      "url": "https://www.bbb.org/us/oh/youngstown/profile/windows/window-world-0432-16000643/complaints",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "20 total complaints over 3 years documenting installation defects, scratched frames, undelivered products, warranty denial, and delayed fulfillment. One $6,416 door installation with unresolved leaks after three repair attempts. Financing complaint: 120-month plan reported as maxed credit card to bureaus.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple corroborated complaints across a single franchise documenting recurring physical defect patterns (seal failures, installation defects, warranty denials) meet the threshold of a corroborating pattern rather than isolated single complaints.",
+      "topics": [
+        "quality",
+        "service",
+        "warranty",
+        "durability",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "EcoWatch Window Company Comparison",
+      "url": "https://ecowatch.com/windows/replacement",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Rates Window World 4.5 out of 5 stars overall. Highlights BBB A+ rating, nationwide availability across 200+ locations, lifetime warranty, and wide product variety. Notes quality varies significantly by franchise location. Does not distinguish 4000 Series performance specifically from other product lines.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review by a credible consumer-facing publication with structured rating. Covers Window World brand broadly with some specificity relevant to the 4000 Series.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Wacky Window Woman Comparison (YouTube)",
+      "url": "https://www.youtube.com/watch?v=vErWyPJQ974",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Homeowner documents Window World quote of $10,062 for 12 windows. Compares 4000 Series builder-grade classification against Alside Mezzo Quattro, which offers Energy Star 7.0 rating and memory mesh screens at similar pricing. Identifies standard fiberglass screens in 4000 Series as inferior to competing mid-range products.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with documented pricing, feature-by-feature analysis, and specification comparisons across competing products. Knowledgeable source with structured content despite non-credentialed presenter.",
+      "topics": [
+        "value",
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "REtipster Video Experience (YouTube)",
+      "url": "https://www.youtube.com/watch?v=JX8nlwekftc",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Video documents 24-window installation over three days in 100-year-old Grand Rapids duplex. Installer navigated lead-based paint and uncooperative tenants. Owner characterizes completed work as a 'major improvement.' Corroborates written REtipster review with visual documentation of before and after conditions.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published video review with documented installation process and outcome. Corroborates SRC-001 with visual evidence. Not a controlled test but provides meaningful real-world performance documentation.",
+      "topics": [
+        "quality",
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Window World 4000 vs 2000 Comparison Article",
+      "url": "https://differencebetweenshoes.com/window-world-2000-series-vs-4000",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Structured comparison highlights 4000 Series advantages: modern design, larger glass area, wider color options, Low-E glass standard, thicker frames, and enhanced thermal performance. Assigns 4000 Series a 4.5 out of 5 satisfaction rating versus 4.0 out of 5 for the 2000 Series.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published structured comparison with numerical ratings and feature-by-feature analysis. Relevant to 4000 Series scoring though methodology for ratings is not fully disclosed.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Ask the Builder - Window Comparisons",
+      "url": "https://askthebuilder.com/anderson-pella-and-marvin-window-comparisons",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Expert guidance on premium window brands Marvin, Andersen, and Pella. Discusses AAMA gold label criteria, importance of sealed vs unsealed windows, installation quality as critical performance driver, and material comparisons across fiberglass, wood, and vinyl. Does not directly address Window World 4000 Series.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Source addresses a different product category (premium wood and fiberglass windows from Marvin, Andersen, Pella) and does not directly evaluate the Window World 4000 Series.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Consumer Reports Replacement Window Testing",
+      "url": "https://www.consumerreports.org/home-garden/replacement-windows/best-replacement-windows-a5584322282",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Lab-tests 3x5-foot double-hung windows for wind resistance at 25 and 50 mph and rain resistance at 5 gallons per sq ft per hour. Tests at 0°F and 70°F. Finds budget-friendly vinyl windows sometimes outperform expensive wood frames. Window World 4000 not individually named but falls within tested segment.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent laboratory testing organization using structured, repeatable test methodology. Though Window World 4000 is not individually named, the testing methodology and category findings directly inform scoring for this product class.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Houzz Forum - Simonton 6100 vs Window World 4000 Series",
+      "url": "https://www.houzz.com/discussions",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Discussion thread comparing Simonton 6100 and Window World 4000 Series. Multiple respondents suggest Okna windows as superior to both. No definitive consensus emerges. General positioning of 4000 Series as acceptable budget option. One comment specifically states 'Okna is a much better window than both brands.'",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion expressing general product preferences without physical defect documentation or structured evidence. Reflects consumer opinion and brand perception rather than documented performance issues.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "UnhappyFranchisee - Window World Lawsuit Article",
+      "url": "https://unhappyfranchisee.com/window-world-lawsuit",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Documents 2011 Window World CEO admission of illegal franchise sales without FTC-required disclosure documents. Details David Hampton lawsuit alleging Illinois Franchise Disclosure Act violations, fraudulent misrepresentation, and territorial rights violation. Multiple commenters express class action interest citing product defects and warranty refusals.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules. Documents regulatory non-compliance and franchise litigation but does not directly evaluate product quality through testing or structured review.",
+      "topics": [
+        "legal",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Angi (Angie's List) - Window World of Long Island Reviews",
+      "url": "https://www.angi.com/companylist/us/ny/farmingdale/window-world-of-long-island",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "74% of reviewers assign 5-star ratings to this specific franchise. Reviewers highlight professional installation, timely appointments, thorough post-installation cleanup, and excellent work quality. Represents a geographically specific franchise with above-average performance relative to complaint-heavy locations.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Aggregated consumer review data from a structured review platform with a statistically meaningful sample. Relevant to understanding franchise quality variability, though location-specific rather than universal.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Alside UltraMaxx Brochure",
+      "url": "https://alside.com/wp-content/uploads",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Alside premium vinyl window spec sheet documenting Definity technology, EliteWeld fusion corners, multi-chamber frame design, Intercept warm-edge spacer system, and lifetime warranty. Relevant as comparative reference given Window World's use of Alside-manufactured products in some franchise territories.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Source addresses a different product line (Alside UltraMaxx premium tier) rather than the Window World 4000 Series directly. Useful as comparative context but not scoreable for this product.",
+      "topics": [
+        "specs",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Window World 4000 Series Review - ReplacementWindowsReviews.co",
+      "url": "https://replacementwindowsreviews.co/company/window-world-4000-series-reviews",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Assigns Window World 4000 Series a 5 out of 10 quality rating. Describes product as 'a very mid range vinyl window' at a 'fair price for what you're getting.' Recommends consumers collect multiple competing bids before committing. Highlights significant local franchise quality variation as key consumer risk.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published structured review by an independent window review organization with explicit numerical quality rating and actionable consumer guidance. Meets criteria for expert source with clear product opinion.",
+      "topics": [
+        "quality",
+        "value",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Energy Star Certified Windows Database",
+      "url": "https://www.energystar.gov/productfinder",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Government database confirming Energy Star certification standards including U-factor and SHGC thresholds by climate zone. Establishes that Window World 4000 Series with appropriate Low-E glazing packages qualifies for Energy Star certification. Most Efficient designation requires more stringent performance metrics than base certification.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Government certification database constitutes independent third-party verification of energy performance claims. Provides authoritative standards context for evaluating the 4000 Series efficiency claims.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "BBB Complaints - Window World Florida (Cantonment)",
+      "url": "https://www.bbb.org/us/fl/cantonment/profile/windows/window-world-0683",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "11 total complaints over 3 years. Recurring issues include delivery delays, seal failures appearing after 3+ years of service, discolored window frames, and significant response delays from the franchise. Pattern corroborates Youngstown BBB data suggesting systemic service and durability concerns across multiple locations.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple complaints at a separate geographic franchise location corroborating the same defect patterns (seal failures, discoloration, service non-response) documented in SRC-005. Cross-franchise corroboration elevates from quarantine to score.",
+      "topics": [
+        "durability",
+        "service",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Alside Windows Broken Seals Discussion - Houzz",
+      "url": "https://www.houzz.com/discussions/4958078/simonton-6100-vs-window-world-4000-series",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports purchasing five Alside windows in 2006 that experienced seal failure by approximately 2011, with mold appearing inside sealed glass units. Alside replaced all affected sashes through warranty procedures. Documents 5-year seal failure timeline relevant to Window World products using Alside manufacturing.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing a specific physical product defect (seal failure with mold) with a documented timeline and corroboration via warranty replacement. Pattern aligns with similar reports across multiple platforms.",
+      "topics": [
+        "durability",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "J.D. Power Customer Satisfaction Award",
+      "url": "https://windowworld.com/news/j-d-power-gives-window-world-top-customer-satisfaction-ranking",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Window World received highest retail window customer satisfaction ranking from J.D. Power in 2018, scoring 879 out of 1,000 points, 37 points above the retailer average. Recognition specifically noted price-performance relationship. Award is now approximately 7 years old and predates current franchise complaint volumes.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party structured scoring from a recognized consumer research organization. Though dated (2018), it represents legitimate independent assessment of brand-level customer satisfaction relevant to product evaluation.",
+      "topics": [
+        "value",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Wincore Acquisition News - Window and Door Magazine",
+      "url": "https://windowanddoor.com/news/wincore-windows-and-doors-acquired-investment-firm",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Trade publication reports Wincore Windows and Doors acquired by Fernweh Group investment firm. 485 employees retained. Management team kept in place. Commitment to Wood County operations maintained. Relevant as supply chain context for Window World product manufacturing sourcing.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Trade publication covering manufacturer acquisition news. Relevant as supply chain stability context but does not evaluate product quality directly. Legal/business information per report_only classification guidance.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Window World ROI Blog - windowworldmn.com",
+      "url": "https://windowworldmn.com/blog/entryid/195/which-has-the-highest-roi",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Franchise blog citing industry data that vinyl windows return approximately 77.5% of initial cost at home resale. Positions window replacement among highest ROI home improvement projects alongside hardwood flooring and entry door replacement. Content is manufacturer-affiliated though citing third-party industry figures.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content from a Window World franchise blog. While citing industry ROI data, the source represents promotional content designed to support sales rather than independent evaluation.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Most Energy Efficient Windows Guide - SolarTech Online",
+      "url": "https://solartechonline.com/blog/most-energy-efficient-windows-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Consultant guide comparing frame material thermal performance, positioning fiberglass as superior to vinyl for efficiency. Notes installation quality as critical determinant of actual in-field performance. Provides U-factor ranges by product category. Does not address Window World 4000 Series directly.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Expert guidance on energy efficiency principles and frame material comparisons. Provides useful context for evaluating 4000 Series performance claims but does not directly score or test this specific product.",
+      "topics": [
+        "performance",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "FTC Franchise Enforcement Reference",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "FTC enforcement action documenting consequences of franchise disclosure violations. Cited as precedent context for Window World's 2011 FDD non-compliance admission. Illustrates regulatory framework within which Window World operated improperly. $17M settlement cited as illustrative of enforcement consequences.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory information documenting enforcement context relevant to Window World's franchise compliance history. Classified as report_only per auto-classification rules for legal information.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Pella vs Andersen Comparison - Modernize",
+      "url": "https://modernize.com/windows/brands/pella-vs-andersen",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Structured comparison of premium window brands Pella and Andersen covering pricing, customization options, energy efficiency ratings, and ROI data. Does not address Window World 4000 Series. Useful only as premium tier pricing benchmark for contextualizing 4000 Series value positioning.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Source addresses different product lines (premium Pella and Andersen brands) and does not evaluate the Window World 4000 Series. Quarantined per auto-classification rule for sources about different product lines.",
+      "topics": [
+        "value",
+        "specs"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality Classification",
+      "expert": "Mid-range builder-grade vinyl; adequate but not premium; 5/10 rating",
+      "review": "Mid-range 5/10 rating; acceptable performance; 4.5/5 on aggregated consumer platforms",
+      "forum": "Functional but variable quality; some units have defects; Okna cited as better alternative",
+      "agreement_level": "MODERATE — Consistent mid-tier classification across all source types; forum dissatisfaction skews slightly more negative"
+    },
+    {
+      "topic": "Energy Efficiency Performance",
+      "expert": "Adequate efficiency when configured with Low-E; qualifies for Energy Star; not leading-edge",
+      "review": "Meets contemporary Energy Star standards; U-factors 0.27–0.46 depending on package selected",
+      "forum": "Generally satisfied with thermal performance when properly installed; some report worse performance than old windows",
+      "agreement_level": "STRONG — Clear consensus that properly configured units meet efficiency standards; installation quality mediates actual results"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Builder-grade; typical 20–30 year vinyl lifespan expected under normal conditions",
+      "review": "No independent long-term durability testing conducted; relies on manufacturer claims",
+      "forum": "Seal failures documented at 5–7 years across multiple platforms; quality variation by unit evident",
+      "agreement_level": "WEAK — Expert expectations are positive; forum data reveals meaningful early seal failure rate; limited independent long-term data"
+    },
+    {
+      "topic": "Installation Quality",
+      "expert": "Highly variable by franchise; identified as the single most critical performance determinant",
+      "review": "Not independently evaluated in published reviews; acknowledged as franchise-dependent",
+      "forum": "Major complaints about installation defects including improper sealing, water intrusion, and operational failures",
+      "agreement_level": "STRONG — Universal agreement that installation quality varies dramatically and is the primary risk factor for consumers"
+    },
+    {
+      "topic": "Warranty Administration",
+      "expert": "Franchise direct-employment theoretically enables smoother warranty handling than third-party contractors",
+      "review": "Lifetime coverage comparable to competitors; Good Housekeeping Seal adds $2,000 backup protection",
+      "forum": "Numerous documented warranty denials; 8-month non-response periods; multiple failed repair attempts",
+      "agreement_level": "MODERATE — Warranty terms theoretically adequate; actual administration practice frequently problematic per consumer documentation"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Fair pricing; competing alternatives offer superior features at comparable price points",
+      "review": "'Fair price for what you're getting'; multiple bids recommended; not best-in-category value",
+      "forum": "Mixed; some consumers feel overcharged relative to quality received; others satisfied with price-performance",
+      "agreement_level": "MODERATE — Acceptable but not exceptional value; strategic shopping across competitors may yield better outcomes"
+    },
+    {
+      "topic": "Service and Support",
+      "expert": "Franchise-dependent; specific local reputation research strongly recommended before purchase",
+      "review": "J.D. Power 2018 highest satisfaction ranking; current aggregated reviews more mixed",
+      "forum": "Substantial documented complaints; poor responsiveness; extended non-response periods requiring BBB intervention",
+      "agreement_level": "WEAK — Significant documented service failures; franchise variability makes generalization unreliable; current service experience appears worse than 2018 J.D. Power data suggests"
+    },
+    {
+      "topic": "Seal Durability",
+      "expert": "Not specifically addressed beyond general vinyl window lifespan expectations",
+      "review": "Not independently tested in available published reviews",
+      "forum": "Failures documented at 5–7 years in multiple reports; warranty replacement provided in some cases",
+      "agreement_level": "WEAK — Forum evidence suggests meaningful early seal failure rate; no expert or independent test data available to confirm or refute scale of issue"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Window World employs its own installation teams rather than subcontracting, enabling direct warranty handling without manufacturer-contractor disputes",
+      "Good Housekeeping Seal provides additional $2,000 repair/replace/refund backup coverage within two years of purchase",
+      "Warranty is transferable to subsequent homeowners, adding resale value benefit"
+    ],
+    "underperforms_expectations": [
+      "Multiple documented cases of warranty claims denied despite customer belief that lifetime coverage applied",
+      "Response times of 3–8 months documented in BBB complaints before action was taken",
+      "Paint damage and seal failures reported as explicitly excluded from coverage in some franchise warranty administrations",
+      "Repeated repair attempts failing to resolve leakage issues with no escalation path documented"
+    ],
+    "surprises": [
+      "Franchise structure means warranty administration quality varies as dramatically as installation quality; the same lifetime warranty can mean smooth resolution or years of non-response depending on geographic location",
+      "Consumer financing offered alongside warranties has resulted in serious credit damage in at least one documented case, suggesting warranty value can be undermined by problematic ancillary business practices",
+      "FTC franchise disclosure violations suggest the company has operated at regulatory boundaries, raising questions about long-term franchise stability that could affect warranty fulfillment capacity"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "base_clear_glass_double_hung": 0.46,
+      "base_clear_glass_sliding": 0.45,
+      "solarzone_lowe_double_hung": 0.29,
+      "solarzone_lowe_sliding": 0.28,
+      "solarzone_thermd_elite_double_hung": 0.27,
+      "solarzone_thermd_elite_sliding": 0.27,
+      "note": "Values from Window World 4000 Series official specification brochure"
+    },
+    "shgc": {
+      "base_clear_glass": 0.59,
+      "solarzone_lowe": 0.3,
+      "solarzone_thermd_elite": 0.21
+    },
+    "air_infiltration": {
+      "4000_base_no_steel": "0.04 cfm/ft² at 75 psf",
+      "4000_st_with_steel": "0.08 cfm/ft² at 75 psf"
+    },
+    "water_resistance": {
+      "4000_base": "6.0 psf",
+      "4000_st": "7.5 psf"
+    },
+    "dp_rating": {
+      "4000_base": "DP40",
+      "4000_st": "DP50"
+    },
+    "frame_material": "Vinyl (PVC) with optional composite reinforcements and steel reinforcement (ST configuration)",
+    "glass": "Dual-pane double-strength insulated glass; multiple SolarZone Low-E coating packages available; foam spacer options on advanced configurations",
+    "stc": "not_available",
+    "energy_star_qualified": true,
+    "energy_star_most_efficient": "Achievable with SolarZone ThermD Elite package in appropriate climate zones; base configuration does not qualify",
+    "installed_cost_range_per_window": "$350–$810 depending on configuration, options, and franchise location",
+    "documented_case_installed_cost": "$458 per window average for 24-window duplex project"
+  },
+  "red_flags": [
+    {
+      "type": "Regulatory Non-Compliance",
+      "description": "In 2011, Window World CEO Tammy Whitworth and President Dana Deem admitted in writing that the company had been selling unregistered franchises in violation of FTC franchise disclosure requirements for an undisclosed period. The company had failed to provide required Franchise Disclosure Documents to prospective franchisees.",
+      "status": "Resolved through administrative accommodation; company offered licensees new compliant franchise agreements or financial buyout",
+      "relevance": "Raises questions about corporate governance culture and regulatory boundary management; does not directly affect product quality but informs assessment of company trustworthiness"
+    },
+    {
+      "type": "Franchise Litigation",
+      "description": "David Hampton / Window World of Chicagoland filed federal lawsuit alleging violations of Illinois Franchise Disclosure Act, fraudulent misrepresentation in connection with sale of unregistered franchise, and violation of right of first refusal through establishment of adjacent competing territory. Plaintiff sought rescission plus damages exceeding $75,000 plus punitive damages.",
+      "status": "Litigation status not confirmed as resolved in available sources",
+      "relevance": "Documents pattern of alleged franchise misrepresentation and territorial protection failures that could affect consumer-facing franchise quality and stability"
+    },
+    {
+      "type": "Consumer Class Action Interest",
+      "description": "Multiple consumers have publicly expressed desire for class action litigation against Window World citing product defects, failure to complete installations, and systematic warranty non-compliance. One commenter stated: 'This is the worst company I have ever encountered. Their product is defective, they know it is defective and they refuse to fix it.'",
+      "status": "No confirmed class action certification found in available sources; represents expressed consumer intent rather than filed action",
+      "relevance": "Pattern of similar complaints across geographically diverse franchises suggesting systemic rather than isolated service failures"
+    },
+    {
+      "type": "Predatory Financing Practice",
+      "description": "BBB complaint documents a consumer reporting that Window World enrolled them in a 120-month financing arrangement that reported to all three major credit bureaus as a maxed-out credit card rather than an installment loan, causing significant credit damage.",
+      "status": "Single documented complaint; no regulatory action confirmed",
+      "relevance": "Indicates potential deceptive business practices in ancillary financial services offered alongside window sales"
+    },
+    {
+      "type": "Manufacturer Identity Opacity",
+      "description": "Window World does not manufacture all of its own windows; the company sells relabeled products from various manufacturers that vary by franchise location and time period. Consumers cannot easily determine the actual manufacturer of their specific windows, complicating product quality assessment and long-term parts availability.",
+      "status": "Ongoing structural characteristic of the business model",
+      "relevance": "Directly affects ability to evaluate true product quality, verify warranty manufacturer backing, and assess long-term component availability"
+    }
+  ],
+  "bottom_line": "The Window World 4000 double-hung window is a mid-range builder-grade vinyl product delivering adequate but unremarkable performance at an accessible price point ($350–$810 installed per window). Expert consensus assigns it a 5/10 quality classification — neither the worst value in its segment nor the best. When equipped with SolarZone Low-E glazing, it achieves legitimate Energy Star certification with U-factors as low as 0.27, meeting contemporary efficiency standards. The product's core design is competent: DP40–DP50 structural ratings, 0.04 cfm/ft² air infiltration on base models, and a transferable lifetime warranty are all defensible specifications for the price. However, three systemic risks overshadow the product's technical adequacy. First, installation quality varies dramatically across the 230+ independently owned franchise locations, and documented failures — improper sealing, water intrusion, operational defects — occur with sufficient frequency across multiple BBB jurisdictions to constitute a material consumer risk rather than statistical noise. Second, warranty administration in practice frequently diverges from warranty terms on paper, with documented multi-month non-response periods, denial of claims consumers believed were covered, and repeated failed repair attempts. Third, the company's 2011 admission of selling unregistered franchises in violation of FTC disclosure requirements, combined with ongoing franchise litigation and cross-geographic patterns of similar consumer complaints, suggests governance and service consistency issues that are structural rather than incidental. Consumers who research their specific local franchise's current reputation carefully, obtain multiple competitive bids (Alside Mezzo Quattro and Simonton 6100 are specifically cited as potentially superior alternatives at comparable price points), and approach the purchase with realistic expectations about mid-tier vinyl construction can find reasonable value in the 4000 Series. Consumers prioritizing warranty reliability, installation certainty, or premium performance should seriously evaluate competing manufacturers before committing.",
+  "metadata": {
+    "total_sources_parsed": 25,
+    "sources_by_pool": {
+      "S": 0,
+      "A": 6,
+      "B": 13,
+      "C": 6
+    },
+    "sources_by_classification": {
+      "score": 14,
+      "report_only": 7,
+      "quarantine": 4
+    },
+    "sources_by_platform": {
+      "review_site": 7,
+      "youtube": 4,
+      "bbb": 2,
+      "houzz": 2,
+      "other": 8,
+      "trade_pub": 1,
+      "reddit": 0,
+      "gba": 0,
+      "fhb": 0
+    }
+  },
+  "product_slug": "window_world_4000",
+  "product_name": "Window World 4000",
+  "manufacturer_slug": "window_world",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 178434,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 25,
+    "score": 15,
+    "report_only": 6,
+    "quarantine": 4,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.165111
+}

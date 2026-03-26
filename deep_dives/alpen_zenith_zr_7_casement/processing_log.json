@@ -1,0 +1,37 @@
+{
+  "product": "Alpen Zenith ZR-7",
+  "operation_type": "casement",
+  "slug": "alpen_zenith_zr_7_casement",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 118459
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 42585
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 38,
+      "cost_estimate": 0.194112
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/alpen_zenith_zr_7_casement_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T21:19:05.108Z"
+}

@@ -1,0 +1,37 @@
+{
+  "product": "JELD-WEN Reliabilt 3500 Lowe",
+  "operation_type": "double_hung",
+  "slug": "jeld_wen_reliabilt_3500_lowe_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 127821
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 1530
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 0,
+      "cost_estimate": 0.010686000000000001
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/jeld_wen_reliabilt_3500_lowe_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T14:42:52.971Z"
+}

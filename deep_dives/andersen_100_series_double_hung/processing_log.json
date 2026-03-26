@@ -1,0 +1,32 @@
+{
+  "product": "Andersen 100 Series",
+  "operation_type": "double_hung",
+  "slug": "andersen_100_series_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 57589
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 25,
+      "cost_estimate": 0.159951
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/andersen_100_series_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T05:16:16.076Z"
+}

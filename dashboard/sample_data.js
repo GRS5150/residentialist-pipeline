@@ -268,13 +268,13 @@ function getPerformanceReasoning(product, type) {
   return r[type][level];
 }
 
-function getTier(score) { if (score >= 90) return "Best in Class"; if (score >= 75) return "Excellent"; if (score >= 60) return "Good"; if (score >= 40) return "Fair"; return "Poor"; }
+function getTier(score) { if (score >= 90) return "Best in Class"; if (score >= 75) return "Excellent"; if (score >= 60) return "Good"; if (score >= 40) return "Fair"; return "Below Standard"; }
 function getGrade(score) { return getTier(score); }
 
 function applySafetyCap(tier, safetyScore) {
   // If safety score exists and is below 60, cap at Good
   if (safetyScore !== null && safetyScore !== undefined && safetyScore < 60) {
-    const tierRank = { "Best in Class": 4, "Excellent": 3, "Good": 2, "Fair": 1, "Poor": 0 };
+    const tierRank = { "Best in Class": 4, "Excellent": 3, "Good": 2, "Fair": 1, "Below Standard": 0 };
     const maxTierRank = tierRank["Good"]; // 2
     const currentRank = tierRank[tier] || 0;
     if (currentRank > maxTierRank) {
@@ -318,7 +318,7 @@ function generateBot2Findings(product) {
       { finding: "Historical quality control concerns noted in professional forums", source: "GBA forum discussion", category: "NOTE" }
     );
   }
-  if (product.material_class.toLowerCase().includes("vinyl")) {
+  if ((product.material_class || '').toLowerCase().includes("vinyl")) {
     findings.yellow.push(
       { finding: "Vinyl frame material has inherent thermal expansion limitations", source: "Material science analysis", category: "NOTE" },
       { finding: "Limited color customization due to material constraints", source: "Product specification review", category: "NOTE" }
@@ -334,24 +334,26 @@ function generateBot2Findings(product) {
 
 function generateBot3MaterialSafety(product) {
   const score = product.material_safety_score;
+  // Approved labels: Excellent (9.0+), Good (8.0-8.9), Moderate (7.0-7.9), Material Concern (<7.0)
+  const healthLabel = score >= 9.0 ? "Excellent" : score >= 8.0 ? "Good" : score >= 7.0 ? "Moderate" : "Material Concern";
   return {
     material_safety_score: score,
-    grade: score >= 9 ? "A" : score >= 8 ? "B+" : score >= 7 ? "B" : score >= 6 ? "C" : "D",
-    tier: score >= 8.5 ? "Tier 1" : score >= 7 ? "Tier 2" : score >= 5.5 ? "Tier 3" : "Tier 4",
-    flags: score < 6 ? ["PVC content in frame material", "Potential off-gassing concern"] : score < 7 ? ["Minor VOC considerations during manufacturing"] : [],
-    certifications_found: score >= 8.5
+    grade: healthLabel,
+    tier: healthLabel,
+    flags: score < 7.0 ? ["PVC content in frame material", "Potential off-gassing concern"] : score < 8.0 ? ["Minor VOC considerations during manufacturing"] : [],
+    certifications_found: score >= 9.0
       ? ["ILFI Declare Red List Approved", "PHIUS Passive House Certified", "GREENGUARD Gold", "Cradle to Cradle Bronze"]
-      : score >= 7
+      : score >= 7.0
       ? ["ENERGY STAR Certified", "NFRC Certified"]
       : ["NFRC Certified"],
-    buyer_note: score >= 8
+    buyer_note: score >= 8.0
       ? "Excellent material safety profile. No Red List chemicals detected. Suitable for health-sensitive installations including schools and healthcare facilities."
-      : score >= 6.5
+      : score >= 7.0
       ? "Acceptable material safety profile for standard residential use. Some material components warrant consideration for chemically-sensitive individuals."
       : "Material safety concerns noted. PVC-based frame material may not be suitable for health-priority installations. Consider fiberglass or wood alternatives.",
-    reasoning: score >= 8
+    reasoning: score >= 8.0
       ? "Product uses premium, health-conscious materials throughout. Fiberglass frame avoids PVC concerns. Low-E coatings are inert and stable. No volatile adhesives detected in available documentation."
-      : score >= 6.5
+      : score >= 7.0
       ? "Standard material selection with no critical health concerns. Some components use industry-standard adhesives and sealants. Adequate for general residential application."
       : "Vinyl (PVC) frame material presents known concerns regarding chlorine content and potential plasticizer off-gassing, particularly when new and in high-temperature environments."
   };

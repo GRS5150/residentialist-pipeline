@@ -1,0 +1,643 @@
+{
+  "product": "Anlin Del Mar Series Double-Hung Window",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "The Window Experts (YouTube)",
+      "url": "youtube.com/watch?v=xG6WE_pOoQU",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Reviews Del Mar E series emphasizing narrow 2⅞-inch frame, foam-filled construction, offset glass, composite reinforcement, NEAT glass, and 50% sound reduction. Highlights double lifetime warranty including labor coverage as a competitive differentiator absent from most competitors.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional installer channel providing structured product opinion with feature-level analysis and warranty assessment.",
+      "topics": [
+        "quality",
+        "performance",
+        "warranty",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Anlin Del Mar Performance Data Sheet",
+      "url": "anlin.com/wp-content/uploads/2024/03/DM-Performance-Data-5.01.24.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official technical data sheet listing U-factor as low as 0.18 with SunMatrix Plus/QuadraTherm glazing, SHGC 0.22–0.53, air infiltration 0.03 CFM/LF, structural ratings LC30 to HC50, and visible light transmittance 73–99% depending on glass and grid selection.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer-published specification document; provides verified specs but is primary marketing/technical literature, not independent testing.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Anlin 5-Star Service Reviews",
+      "url": "anlin.com/5-star-service/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Company-hosted customer testimonials touting professional installation and customer satisfaction. Content is curated manufacturer marketing material with no independent verification of claims.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; curated testimonials without independent corroboration are not suitable for scoring.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Anlin Warranty Information Page",
+      "url": "anlin.com/warranty-information/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Documents Double Lifetime Warranty covering free parts, labor, glass, and shipping for original purchaser's lifetime; transferable to next owner; includes accidental glass breakage; excludes laminated glass, salt-air damage, improper installation, and customer-applied films.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Primary manufacturer warranty documentation; essential for spec capture but not an independent assessment suitable for scoring.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "BBB Business Profile – Anlin Windows and Doors",
+      "url": "bbb.org/us/ca/clovis/profile/vinyl-windows",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "Anlin Windows and Doors listed as NOT BBB Accredited; profile provides Clovis, CA contact information and business classification. No complaint volume or resolution rate data surfaced in available documentation.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "BBB profile notes non-accreditation status but provides no complaint pattern or resolution data sufficient to score product quality.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "PGT Innovations Acquisition Press Release (BusinessWire)",
+      "url": "businesswire.com/news/home/20211029005122",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Announces PGT Innovations' acquisition of Anlin Windows completed October 2021 for $113.5M plus up to $12.6M earnout. Cited strategic expansion into high-growth West Coast residential market. No product quality implications documented.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Trade news documenting ownership change; relevant to corporate stability context but contains no product quality data suitable for scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "CalShowcase Del Mar vs Catalina Comparison",
+      "url": "calshowcase.com/2026/01/08/del-mar-vs-catalina",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Professional comparison concludes Del Mar is the superior choice for homeowners seeking highest long-term value within Anlin's vinyl lineup; built for best window experience, higher comfort, efficiency, and sound reduction; justifies premium for long-term occupants.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer comparison with structured product opinion and feature-level rationale; knowledgeable but dealer-affiliated source.",
+      "topics": [
+        "quality",
+        "performance",
+        "value",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Southwest Exteriors – Pella vs Anlin Comparison",
+      "url": "southwestexteriors.com/blog/2022/april/pella-windows-vs-anlin",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Comparison documents Pella offers wood and fiberglass frame options while Anlin manufactures exclusively vinyl. Both described as durable with similar energy efficiency; material flexibility cited as key Pella differentiator for buyers seeking non-vinyl options.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published dealer comparison useful for market context; addresses material options rather than specific Del Mar product defects or performance testing.",
+      "topics": [
+        "quality",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz Discussion – 'Anlin Windows Poor Quality'",
+      "url": "houzz.com/discussions/6408436",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports internal scratches and gasket trim falling off after $40,000+ window and door installation. Installer attributed trim failure to installation methodology. No warranty resolution outcome documented; defect cause ambiguous between manufacturing and installation error.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum complaint with ambiguous causation (installation vs. manufacturing defect) and no documented corroborating pattern or resolution outcome.",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "TexAgs Forum – DFW Homeowner Experience",
+      "url": "texags.com/forums/61/topics/3383249",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Homeowner referred by Houston Window Experts reports satisfaction with Anlin installation quality and notes rapid resolution of a frame delivery defect by regional Anlin representatives, suggesting manufacturer escalation mechanisms function when dealer network is engaged.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post primarily describes dealer referral and regional service responsiveness rather than physical product performance; no defect pattern corroboration.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Houzz Discussion – Positive Anlin Experience",
+      "url": "houzz.com/discussions/2630041",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports Anlin windows are easy to clean, very energy efficient, and trouble-free over ownership period; contrasts positively against acquaintances' Milgard experiences, suggesting quality installation execution yields high satisfaction.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Individual forum post providing affirmative product durability and performance report; corroborated directionally by professional assessments of same attributes.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Fine Homebuilding Forum – Rolling System Assessment",
+      "url": "finehomebuilding.com/forum/anlin-replacement-windows",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Professional forum contributor assigns Del Mar overall rating of 8.5 and separately rates the rolling mechanism 10-plus for exceptional smoothness, aligning with professional installer observations regarding operational quality of sliding variants.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional forum with structured numerical rating from knowledgeable contributor; professional trade publication platform adds credibility.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "GreenBuildingAdvisor – Triple-Pane Comparison Thread",
+      "url": "greenbuildingadvisor.com/question/windows-triple-pane",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Experienced homeowner in Climate Zone 5B reports Del Mar with SunMatrix/QuadraTherm glazing achieves slightly better U-factor than their existing triple-pane windows, confirming advanced glazing packages approach triple-pane efficiency within a dual-pane platform.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "GreenBuildingAdvisor is a credentialed building science platform; contributor provides measurable real-world thermal performance data corroborating published specs.",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Anlin Performance Data Hub",
+      "url": "anlin.com/performance-data/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer's online hub aggregating energy efficiency ratings, thermal and STC sound data, structural performance classifications, and minimum/maximum size configurations across the Del Mar product line.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer-hosted data aggregation page; useful for spec verification but not independent testing data.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Houston Window Experts – Anlin Del Mar E Review",
+      "url": "houstonwindowexperts.com/anlin-windows-del-mar-e-review",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional installer review explains foam-filled frames reduce sound and heat transmission; flood-filled argon units achieve 90%+ fill without seal penetrations; fiberglass reinforcement reduces thermal bridging vs. metal; NEAT glass uses titanium dioxide for dust reduction.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional installer providing technically detailed, feature-specific product assessment with building science rationale.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "American Window Concepts – Vinyl Window Brand Comparison (YouTube)",
+      "url": "youtube.com/watch?v=aGxPqNLJOWE",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Comparative video places Anlin in premium, high-grade tier relative to Milgard for western U.S. buyers; classifies Anlin as superior construction for homeowners prioritizing durability and performance; structured brand-versus-brand evaluation format.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional installer conducting structured comparative analysis across major brands; expert channel with clear product opinion and competitive positioning.",
+      "topics": [
+        "quality",
+        "value",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Anlin Factory Tour",
+      "url": "anlin.com/factory-tour/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer-hosted virtual factory tour showcasing production facility and manufacturing processes; includes warranty coverage information framed as marketing content.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; factory tour is promotional material not suitable for independent scoring.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Energy Core – Del Mar vs Catalina Comparison Blog",
+      "url": "energycore.net/anlin-del-mar-windows-vs-anlin-catalina",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Comparison notes both Del Mar and Catalina include ComfortCore foam; Del Mar adds third weatherstripping contact point, fiberglass reinforcement instead of metal, premium rollers, and exclusive screen frames—upgrades characterized as substantive rather than cosmetic.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published comparison article with feature-level differentiation data; useful for spec context but dealer/sponsored content without independent testing.",
+      "topics": [
+        "quality",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "SelectHI – Security Features of Anlin Del Mar Windows",
+      "url": "selecthi.com/security-features-of-anlin-del-mar-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Documents Del Mar security specifications: double-pane forced entry resistance, PVC frame strength, fiberglass reinforcement on interlocking rails, and optional True Action Locks providing automatic locking when sashes close.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specific security feature specifications and testing context; provides independently framed product assessment beyond manufacturer marketing.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Anlin AAMA Gold Label",
+      "url": "anlin.com/aama-gold-label/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer page documenting that all three AAMA Gold Label certificates are held, confirming independent third-party testing for air infiltration, water resistance, and structural performance through AAMA protocols.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer-hosted certification page; confirms third-party AAMA testing exists but page itself is promotional; AAMA certification noted for spec record.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Window Replacement Cost Estimator – Anlin Window Costs",
+      "url": "windowreplacementcostestimator.com/anlin-window-costs",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Pricing data indicates Del Mar double-hung windows run $775–$1,025 fully installed, positioned as premium versus Monte Verde entry-level at $400–$650; documents Del Mar frame specifications and product tier context.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published price comparison providing market positioning data; useful for value assessment but no independent product testing.",
+      "topics": [
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "SelectHI – Del Mar vs Catalina Comparison",
+      "url": "selecthi.com/anlin-del-mar-windows-vs-anlin-catalina",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Details Del Mar exclusive features versus Catalina: ComfortCore foam, triple-fin antimicrobial weatherstripping, fiberglass reinforcement, extruded aluminum screen frames resisting bending, precision needle-bearing rollers with stainless axles, and standard sound-reduction package.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published feature comparison with detailed spec-level differentiation; knowledgeable but sponsored/dealer-adjacent content without independent test results.",
+      "topics": [
+        "quality",
+        "specs",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Federal Court Case – Anlin Industries v. Golden State Windows (Justia)",
+      "url": "law.justia.com/cases/federal/district-courts/california",
+      "platform": "other",
+      "column": "review",
+      "snippet": "2014 federal district court case resulted in final judgment and permanent injunction against Golden State Windows; characterized as intellectual property or trade practice matter. Case closed with no ongoing consumer product or warranty implications documented.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal source must always be classified report_only per classification rules; resolved IP/trade case with no consumer product safety or warranty impact identified.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Anlin Warranty Booklet PDF 2024",
+      "url": "anlin.com/wp-content/uploads/2024/06/20240424-Warranty-Booklet.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Full warranty document detailing Double Lifetime coverage terms: accidental glass breakage inclusion, specialty glass coverage, 12-year exterior color warranty, 15-year capstock coverage, and explicit exclusions for salt-air, improper installation, and customer-applied films.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Primary manufacturer warranty document; essential for warranty spec capture but not an independent assessment.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "BM Windows CA – Anlin Windows Reviews (Dealer Blog)",
+      "url": "bmwindowsca.com/8619/blog/anlin-windows-reviews",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Authorized dealer reports honoring of warranty claims 15–20 years post-installation; describes Anlin as very responsive to customer claims over many years of selling products; suggests dealer-mediated claims receive more attentive treatment than direct consumer contact.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer review with longitudinal warranty claim evidence spanning 15–20 years; sponsored but knowledgeable source with documented service pattern.",
+      "topics": [
+        "warranty",
+        "service",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "CS Windows – NEAT Glass Technology Article",
+      "url": "cswindows.com/blog/neat-glass-option",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical article explains Cardinal NEAT+ titanium dioxide coating makes glass 40% less attractive to dust; self-cleaning in rain; lifetime surface durability claimed; invisible and compatible with low-e coatings without sacrificing energy efficiency.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published technical article on coating technology; informative for spec context but dealer content without independent long-term durability testing data.",
+      "topics": [
+        "specs",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Anlin AAMA Installation Standard PDF",
+      "url": "anlin.com/wp-content/uploads/2023/02/2400-21.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "AAMA 2400-21 installation standard document covering professional installation methodology including flashing, sealing, and structural requirements necessary for warranty compliance; addresses installation process not product manufacturing quality.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality and compliance standards, not product manufacturing quality; classified report_only per installation-vs-product rule.",
+      "topics": [
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "American Window Concepts – Sliding Window Maintenance (YouTube)",
+      "url": "youtube.com/watch?v=rVqoneDKgf8",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional maintenance guidance specifies track cleaning with soft brushes, keeping weep holes clear, using only dry film lubricant, and strictly avoiding WD-40 or petroleum-based products that create track residue degrading roller performance.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses maintenance and installation care practices rather than product manufacturing quality or defect patterns.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "MITER Brands – PGT Acquisition News",
+      "url": "miterbrands.com/news/article/MITER-Brands-to-acquire-PGTI",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Announces MITER Brands acquisition of PGT Innovations at $42/share, $3.1B enterprise value, closed mid-2024. Koch Equity Development provided financing. Anlin becomes private MITER subsidiary; PGT reported $1.5B net sales in 2023.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Trade news documenting corporate ownership change; relevant to stability assessment but contains no product quality data for scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Anlin XTRU Construction Brochure 2024",
+      "url": "anlin.com/wp-content/uploads/2020/10/Anlin_Brochure.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Marketing brochure documenting XTRU vinyl construction with air-tight fusion-welded corners; provides model lineup overview and feature summary across Anlin product series.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing brochure; promotional content not suitable for scoring.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Del Mar Series Product Brochure",
+      "url": "anlin.com/wp-content/uploads/2019/12/Anlin_DelMar_Windows_Brochure.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer luxury series marketing brochure describing Del Mar as ultimate dual-pane efficiency solution; narrow frame, full feature overview. Promotional framing without independent data.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing brochure; promotional content not suitable for scoring.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "PGT Innovations / MITER Strategy Analysis (MatrixBCG)",
+      "url": "matrixbcg.com/blogs/growth-strategy/pgtinnovations",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Strategy analysis documenting MITER acquisition of PGT in March 2024 at $3.1B, PGT financial performance of $1.5B sales in 2023, and new parent integration context; no product quality data included.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate strategy analysis relevant to stability context only; no product quality, defect, or performance data present.",
+      "topics": [
+        "value"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Premium-tier vinyl with strong engineering; foam-filled frames, fiberglass reinforcement, and NEAT glass praised consistently",
+      "review": "Published specs confirm premium positioning; feature differentiation from entry-level substantive not cosmetic",
+      "forum": "Mixed: positive durability reports coexist with installation-related complaints; causation ambiguous",
+      "agreement_level": "Qualified Agreement"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Exceptional rolling system and frame construction; fiberglass reinforcement preferred over metal for longevity",
+      "review": "Design specifications support long-term performance; NEAT glass lifetime durability claimed but unverified long-term",
+      "forum": "Limited long-term data; 15–20 year warranty claims documented as honored by dealer; no widespread failure pattern reported",
+      "agreement_level": "Qualified Agreement"
+    },
+    {
+      "topic": "Performance",
+      "expert": "Sound reduction and thermal efficiency verified as primary strengths; argon fill methodology robust",
+      "review": "Energy Star certified; U-factor 0.18 achievable; approaches triple-pane in advanced glazing; STC noise reduction 50% documented",
+      "forum": "Real-world thermal performance confirmed in Climate Zone 5B; user satisfaction with energy efficiency consistent",
+      "agreement_level": "Strong Agreement"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Double lifetime with labor inclusion highlighted as industry-leading differentiator",
+      "review": "Comprehensive coverage documented: parts, labor, glass, shipping, accidental breakage; transferable terms detailed",
+      "forum": "Dealer reports 15–20 year claim honoring; direct consumer service access variable by region",
+      "agreement_level": "Strong Agreement"
+    },
+    {
+      "topic": "Service",
+      "expert": "Professional installers report responsive regional support when escalated through dealer network",
+      "review": "Warranty coverage terms comprehensive; dealer-mediated claims process more reliable than direct consumer contact",
+      "forum": "Positive outcomes when escalated through professional dealer; inconsistent experiences with direct manufacturer contact",
+      "agreement_level": "Qualified Agreement"
+    },
+    {
+      "topic": "Value",
+      "expert": "Premium pricing ($775–$1,025 installed) justified by feature set, warranty depth, and long-term performance",
+      "review": "50–70% premium over entry-level Catalina; below some absolute market-premium competitors; strong ROI for long-term occupants",
+      "forum": "Owner satisfaction varies with installation quality; value perception correlates with installer competence and dealer responsiveness",
+      "agreement_level": "Qualified Agreement"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Labor cost inclusion in warranty claims is rare in the residential window industry; Anlin covers labor, parts, glass, and shipping",
+      "Accidental glass breakage coverage for original purchaser's lifetime including specialty glass types (tempered, tinted, obscured)",
+      "Transferability to next homeowner preserves partial coverage value at resale, reducing ownership risk for non-permanent residents",
+      "Documented instances of warranty claims honored 15–20 years post-installation by authorized dealer network"
+    ],
+    "underperforms_expectations": [
+      "Salt-air environment exclusion impacts coastal California homeowners in Anlin's primary geographic market",
+      "Customer-applied films and finishes void coverage, limiting aftermarket solar film or privacy film applications",
+      "Direct consumer claim access reportedly less responsive than dealer-mediated claims, creating service tiering",
+      "Laminated glass excluded from accidental breakage coverage despite being a common safety and security upgrade"
+    ],
+    "surprises": [
+      "Exterior color warranty (12 years) and capstock surface warranty (15 years) are shorter than the lifetime frame warranty, creating coverage asymmetry",
+      "Normal weathering and wear explicitly excluded, which may create dispute ambiguity for gradual seal or gasket degradation",
+      "Warranty value depends significantly on local dealer network quality rather than solely on manufacturer policy, creating geographic service disparities",
+      "Antimicrobial weatherstripping treatment included as standard but long-term efficacy data is limited in published independent sources"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "As low as 0.18 with SunMatrix Plus/QuadraTherm glazing; range varies by glazing package",
+    "shgc": "0.22 to 0.53 depending on glazing selection",
+    "air_infiltration": "0.03 CFM per linear foot of sash perimeter (standard configurations); up to 0.04 for some configurations",
+    "frame_material": "Anlin XTRU vinyl with air-tight fusion-welded corners; fiberglass composite reinforcement embedded in sash and frame",
+    "frame_depth": "2¾ inches (2⅞ inch nominal noted in some sources)",
+    "glass": "Dual-pane dissimilar-thickness (⅛-inch and 3/16-inch) with flood-filled argon (90%+ fill); Cardinal NEAT+ titanium dioxide coating; low-e options including SunMatrix Plus and QuadraTherm (4th surface)",
+    "dp_rating": "LC30 standard configurations; HC50 maximum view/egress models",
+    "stc": "Up to 50% noise reduction versus typical dual-pane; STC improvement via dissimilar glass thickness acoustic strategy",
+    "visible_light_transmittance": "73–99% depending on glass type and grid option",
+    "weatherstripping": "Triple-fin antimicrobial design providing three points of sash contact",
+    "frame_insulation": "ComfortCore Green Foam filling strategic frame chambers",
+    "max_single_hung_vent_height": "36 inches",
+    "certifications": "Energy Star certified; AAMA Gold Label (air, water, structural)",
+    "argon_fill": "90%+ flood-filled argon without internal seal penetrations"
+  },
+  "red_flags": [
+    {
+      "type": "Legal – Intellectual Property / Trade Practice",
+      "description": "2014 federal court case Anlin Industries v. Golden State Windows resulted in final judgment and permanent injunction. Case characterized as IP or trade practice matter, now closed. No ongoing consumer product or warranty implications documented.",
+      "severity": "Low – resolved historical matter",
+      "source": "SRC-023"
+    },
+    {
+      "type": "Corporate Stability – Multiple Ownership Transitions",
+      "description": "Anlin acquired by PGT Innovations in October 2021 ($113.5M); PGT subsequently acquired by MITER Brands in mid-2024 ($3.1B enterprise value). Two ownership changes within three years create moderate uncertainty regarding long-term brand continuity and warranty support infrastructure, though no discontinuation or warranty repudiation has been announced.",
+      "severity": "Moderate – ongoing monitoring warranted",
+      "source": "SRC-006, SRC-029"
+    },
+    {
+      "type": "Service Access Inconsistency",
+      "description": "Documented pattern where dealer-mediated warranty claims receive more responsive treatment than direct consumer claims. Homeowners without established dealer relationships may face elevated friction in accessing warranty support, particularly outside California and Western U.S. markets.",
+      "severity": "Moderate – geographic and dealer-network dependent",
+      "source": "SRC-025, SRC-010"
+    },
+    {
+      "type": "Installation Quality Variability",
+      "description": "Forum reports document gasket trim failure and internal scratches attributed ambiguously to installation versus manufacturing defect. No class-action, recall, or widespread documented pattern identified, but single complaint without resolution outcome in Houzz thread (SRC-009) warrants monitoring for emerging pattern.",
+      "severity": "Low – isolated, unresolved causation",
+      "source": "SRC-009"
+    }
+  ],
+  "bottom_line": "The Anlin Del Mar double-hung window is a genuinely well-engineered premium vinyl window with verifiable performance advantages: flood-filled argon at 90%+ fill rates, dissimilar-thickness glass achieving documented 50% sound reduction, fiberglass reinforcement interrupting thermal bridging, ComfortCore foam-filled frames, and Energy Star-certified U-factors as low as 0.18. The double lifetime warranty with labor inclusion is a rare and substantive consumer-favorable term that most competitors do not match. Expert and professional sources across YouTube, Fine Homebuilding, GreenBuildingAdvisor, and Houston Window Experts align strongly on product quality and performance. Pricing at $775–$1,025 installed carries a 50–70% premium over Anlin's entry-level offerings, justified for long-term occupants by the acoustic, thermal, and durability differentials. Key risks are not product-intrinsic: installation quality variability can undermine manufacturing excellence; warranty value depends on local dealer network responsiveness rather than manufacturer policy alone; and two ownership transitions in three years warrant monitoring for continuity of warranty support. Homeowners in California and Western U.S. markets with access to Anlin-trained installers and established dealer networks face the lowest service access risk. Buyers in markets with sparse dealer presence should verify regional support quality before committing to a premium-tier purchase whose warranty value depends on escalation access.",
+  "metadata": {
+    "total_sources_identified": 32,
+    "sources_classified_score": 11,
+    "sources_classified_report_only": 16,
+    "sources_classified_quarantine": 5,
+    "pool_distribution": {
+      "S": 0,
+      "A": 9,
+      "B": 19,
+      "C": 4
+    }
+  },
+  "product_slug": "anlin_del_mar_series",
+  "product_name": "Anlin Del Mar Series",
+  "manufacturer_slug": "anlin",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-25",
+  "structuring_duration_ms": 158995,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 32,
+    "score": 9,
+    "report_only": 18,
+    "quarantine": 5
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.157164,
+  "verification_date": "2026-03-25T19:08:53.689Z"
+}

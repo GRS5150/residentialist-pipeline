@@ -1,3 +1,7 @@
+// Phase 1: Bot 2 Service Reputation Instruction
+const BOT2_SERVICE_REPUTATION_INSTRUCTION = `
+
+When expert sources or curated evidence report consistent patterns of warranty claim difficulties, service responsiveness problems, or post-sale support failures for a brand, weight this evidence in the 1C Professional Consensus evaluation. Service reputation is a Professional Consensus signal, not a Durability signal. A brand with documented patterns of claim denials or service delays should see that reflected in Professional Consensus, even if the product itself tests well structurally.`;
 /**
  * THE RESIDENTIALIST — Bot Orchestrator v3
  * Sequences Bot 1 (Consensus) → Bot 2 (Evaluator) → Bot 3 (Material Safety) → Bot 4 (Challenge)
@@ -21,6 +25,21 @@ const { validate: deterministicValidate } = require('./deterministic_validator')
 const { computeDeterministicScores } = require('./deterministic_scorer');
 // sendTelegram defined locally to avoid circular dependency with auto_runner
 const https = require('https');
+
+// ── Pipeline Progress Tracker ────────────────────────────────────────────────
+function writeProgress(outputDir, slug, step, total, botName, status) {
+  const progressPath = path.join(outputDir, 'PIPELINE_PROGRESS.json');
+  const data = {
+    slug, step, total, current_bot: botName, status,
+    started_at: global._pipelineStartTime || new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  };
+  try { fs.writeFileSync(progressPath, JSON.stringify(data, null, 2)); } catch(e) {}
+  // Also write to curation dir for easy lookup by slug
+  const curationProgressPath = path.join(__dirname, 'curation', slug + '_pipeline_progress.json');
+  try { fs.writeFileSync(curationProgressPath, JSON.stringify(data, null, 2)); } catch(e) {}
+}
+
 function sendTelegram(message) {
   return new Promise((resolve) => {
     try {
@@ -150,34 +169,87 @@ function validateBotOutput(output, botName, productName, outputDir) {
     return true;
   }
 
+  // Save raw output immediately (before validation) so we don't lose it on crash
+  if (outputDir) {
+    const slug = productName.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
+    const botLabel = botName.includes('2') ? 'bot2_evaluator' : botName.includes('3') ? 'bot3_material_safety' : botName.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+    const rawPath = path.join(outputDir, `${slug}_${botLabel}_raw.md`);
+    try { fs.writeFileSync(rawPath, output); } catch (e) { /* ignore */ }
+  }
+
   // For Bots 2-6: output should be JSON. Try to parse it.
+  let parsed;
+  
+  // Attempt 1: Direct parse
   try {
-    const parsed = JSON.parse(output);
-    // Bot 2 must have scores
-    if (botName === 'Bot 2 (Evaluator)' && !parsed.scores) {
-      throw new Error('Bot 2 output missing scores object');
+    parsed = JSON.parse(output);
+  } catch (e1) {
+    // Attempt 2: Extract JSON from markdown fences
+    const jsonMatch = output.match(/```json\n?([\s\S]*?)\n?```/);
+    if (jsonMatch) {
+      try { parsed = JSON.parse(jsonMatch[1]); } catch (e2) { /* continue */ }
     }
-    // Bot 3 must have material_safety
-    if (botName === 'Bot 3 (Material Safety)' && parsed.material_safety_score === undefined) {
-      throw new Error('Bot 3 output missing material_safety_score');
-    }
-    return parsed;
-  } catch (e) {
-    if (e instanceof SyntaxError) {
-      // JSON parse failed — try to extract JSON from markdown-wrapped response
-      const jsonMatch = output.match(/```json\n?([\s\S]*?)\n?```/);
-      if (jsonMatch) {
-        try {
-          const parsed = JSON.parse(jsonMatch[1]);
-          return parsed;
-        } catch (e2) {
-          // Fall through to error
+
+    // Attempt 3: Extract JSON using multiple strategies
+    if (!parsed) {
+      const firstBrace = output.indexOf('{');
+      if (firstBrace !== -1) {
+        // Strategy A: Find the LAST balanced closing brace (largest object)
+        let depth = 0;
+        let lastBalanced = -1;
+        for (let i = firstBrace; i < output.length; i++) {
+          if (output[i] === '{') depth++;
+          if (output[i] === '}') { depth--; if (depth === 0) { lastBalanced = i; /* don't break — find LAST */ } }
+        }
+        if (lastBalanced > firstBrace) {
+          try { parsed = JSON.parse(output.substring(firstBrace, lastBalanced + 1)); } catch (e3a) { /* continue */ }
+        }
+
+        // Strategy B: If JSON is truncated (unbalanced braces), find the last } and add closing braces
+        if (!parsed) {
+          const lastBrace = output.lastIndexOf('}');
+          if (lastBrace > firstBrace) {
+            let candidate = output.substring(firstBrace, lastBrace + 1);
+            // Count unbalanced braces and close them
+            let opens = 0;
+            for (const ch of candidate) { if (ch === '{') opens++; if (ch === '}') opens--; }
+            if (opens > 0) candidate += '}'.repeat(opens);
+            try { parsed = JSON.parse(candidate); } catch (e3b) { /* continue */ }
+          }
+        }
+
+        // Strategy C: Strip trailing non-JSON text (everything after last })
+        if (!parsed) {
+          const stripped = output.substring(firstBrace).replace(/\}[^}]*$/, '}');
+          try { parsed = JSON.parse(stripped); } catch (e3c) { /* continue */ }
         }
       }
+    }
+
+    // Attempt 4: jsonrepair fallback
+    if (!parsed) {
+      try {
+        const { jsonrepair } = require('jsonrepair');
+        const repaired = jsonrepair(output);
+        parsed = JSON.parse(repaired);
+        console.log(`[VALIDATE] jsonrepair succeeded for ${botName}`);
+      } catch (e4) { /* continue */ }
+    }
+
+    if (!parsed) {
       throw new Error(`BOT FAILURE: ${botName} did not return valid JSON. Raw output starts with: ${output.substring(0, 200)}`);
     }
-    throw e;
   }
+
+  // Bot 2 must have scores
+  if (botName === 'Bot 2 (Evaluator)' && !parsed.scores) {
+    throw new Error('Bot 2 output missing scores object');
+  }
+  // Bot 3 must have material_safety
+  if (botName === 'Bot 3 (Material Safety)' && parsed.material_safety_score === undefined) {
+    throw new Error('Bot 3 output missing material_safety_score');
+  }
+  return parsed;
 }
 
 // ─── DATA COMPLETENESS CHECKER ───────────────────────────────────────────────
@@ -999,7 +1071,7 @@ function addLockedTags(bot1Output) {
 
 // ─── MAIN PIPELINE ────────────────────────────────────────────────────────────
 
-async function runPipeline(productName, config, researchFiles) {
+async function runPipeline(productName, config, researchFiles, options = {}) {
   const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
   const productSlug = productName.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
   const outputDir = `/Users/Residentialist/.openclaw/workspace/residentialist/outputs/${productSlug}_${timestamp}`;
@@ -1082,10 +1154,30 @@ You are researching the ${productName} in ${config} configuration. Execute all r
     bot1Input += parentCompanyContext;
   }
 
-  const bot1Output = await runBot('Bot 1 (Consensus)', BOT1_CONSENSUS_PROMPT, bot1Input, 'claude-sonnet-4-20250514', true);
+// ── CURATION PIPELINE: Skip Bot 1 when using curated deep dive sources ──
+  let bot1Output;
+  if (options.skipBot1 && options.syntheticBot1Output) {
+    bot1Output = options.syntheticBot1Output;
+    global._pipelineStartTime = new Date().toISOString();
+    writeProgress(outputDir, productSlug, 1, 6, 'Bot 1 (Skipped)', 'running');
+    console.log(`[ORCHESTRATOR] SKIP BOT 1: Using synthetic findings from curation pipeline (${bot1Output.length} chars)`);
+    fs.writeFileSync(`${outputDir}/${productSlug}_bot1_consensus.md`, bot1Output);
+    fs.writeFileSync(`${outputDir}/CURATION_PIPELINE.json`, JSON.stringify({
+      curation_slug: options.curationSlug || productSlug,
+      skip_bot1: true,
+      synthetic_findings_length: bot1Output.length,
+      timestamp: new Date().toISOString()
+    }, null, 2));
+    // Still run data completeness check on synthetic output
+    await runDataCompletenessCheck(bot1Output, productName, 'windows', outputDir);
+  } else {
+    global._pipelineStartTime = global._pipelineStartTime || new Date().toISOString();
+    writeProgress(outputDir, productSlug, 1, 6, 'Bot 1 (Research)', 'running');
+    bot1Output = await runBot('Bot 1 (Consensus)', BOT1_CONSENSUS_PROMPT, bot1Input, 'claude-sonnet-4-20250514', true);
   fs.writeFileSync(`${outputDir}/${productSlug}_bot1_consensus.md`, bot1Output);
-  validateBotOutput(bot1Output, 'Bot 1 (Consensus)', productName, outputDir);
-  await runDataCompletenessCheck(bot1Output, productName, 'windows', outputDir);
+    validateBotOutput(bot1Output, 'Bot 1 (Consensus)', productName, outputDir);
+    await runDataCompletenessCheck(bot1Output, productName, 'windows', outputDir);
+  } // end skipBot1 else block
 
   // ── AUTO-SAVE: Persist Bot 1 output as baseline research for future runs ──
   // Post-process to add [LOCKED] tags to key sections for deterministic stability
@@ -1227,6 +1319,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
   }
 
   const bot2Input = `PRODUCT: ${productName}\nCONFIGURATION: ${config}\n${materialLockLine}\n\n${ceilingConstraint}${evidenceBlock}\n\nKNOWLEDGE BASE:\n${knowledgeContent}\n\nBOT 1 CONSENSUS FINDINGS:\n${bot1Output}\n\nORIGINAL RESEARCH (for source verification):\n${cappedResearch}\n\nScore this product now. Show all math.`;
+  writeProgress(outputDir, productSlug, 2, 6, 'Bot 2 (Evaluator)', 'running');
   const bot2Output = await runBot('Bot 2 (Evaluator)', BOT2_EVALUATOR_PROMPT, bot2Input, 'claude-sonnet-4-20250514');
   const bot2Parsed = validateBotOutput(bot2Output, 'Bot 2 (Evaluator)', productName, outputDir);
 
@@ -1525,6 +1618,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
 
   // ── BOT 3: Material Safety ────────────────────────────────────────────────
   const bot3Input = `PRODUCT: ${productName}\nCONFIGURATION: ${config}\n\nBOT 1 FINDINGS (for material identification):\n${bot1Output}\n\nORIGINAL RESEARCH:\n${researchContent}\n\nEvaluate material safety now.`;
+  writeProgress(outputDir, productSlug, 3, 6, 'Bot 3 (Material Safety)', 'running');
   const bot3Output = await runBot('Bot 3 (Material Safety)', BOT3_MATERIAL_SAFETY_PROMPT, bot3Input, 'claude-haiku-4-5-20251001');
   const bot3Parsed = validateBotOutput(bot3Output, 'Bot 3 (Material Safety)', productName, outputDir);
   fs.writeFileSync(`${outputDir}/${productSlug}_bot3_material_safety.json`, JSON.stringify(bot3Parsed, null, 2));
@@ -1532,6 +1626,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
 
     // ── BOT 5: Reconciliation ──────────────────────────────────────────────────────────────────
   console.log('\n[ORCHESTRATOR] Running Bot 5 (Reconciliation)...');
+  writeProgress(outputDir, productSlug, 5, 6, 'Bot 5 (Reconciliation)', 'running');
   const reconciliationResult = await runReconciliationBot(bot1Output, bot2Output, productName, outputDir);
   fs.writeFileSync(`${outputDir}/RECONCILIATION_STATUS.txt`,
     `STATUS: ${reconciliationResult.status}\nCONFIDENCE: ${reconciliationResult.confidenceTag}\nPRODUCT: ${productName}\nTIMESTAMP: ${new Date().toISOString()}`
@@ -1562,6 +1657,7 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
 
   // ── BOT 4: Challenge Bot ──────────────────────────────────────────────────
   console.log('\n[ORCHESTRATOR] Running Bot 4 (Challenge Bot)...');
+  writeProgress(outputDir, productSlug, 4, 6, 'Bot 4 (Challenge)', 'running');
   const challengeResult = await runChallengeBot(bot1Output, bot2Output, bot3Output, productName);
   fs.writeFileSync(`${outputDir}/${productSlug}_bot4_challenge.md`, challengeResult);
 
@@ -1635,6 +1731,8 @@ This is not a rubric rule — it is a pre-computed constraint injected by the pi
 
   // ── PASS ────────────────────────────────────────────────────────────────────────────────
   console.log('\n[ORCHESTRATOR] Pipeline complete.');
+  writeProgress(outputDir, productSlug, 6, 6, 'Complete', 'done');
+  console.log('');
   console.log(`[ORCHESTRATOR] All outputs saved to: ${outputDir}`);
 
   // ── DETERMINISTIC OUTLOOK ──────────────────────────────────────────────────────────────

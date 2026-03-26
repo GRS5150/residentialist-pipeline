@@ -1,0 +1,32 @@
+{
+  "product": "Andersen E-Series",
+  "operation_type": "double_hung",
+  "slug": "andersen_e_series_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 36717
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 20,
+      "cost_estimate": 0.13473000000000002
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/andersen_e_series_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T21:53:55.636Z"
+}

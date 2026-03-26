@@ -1,0 +1,32 @@
+{
+  "product": "Marvin Essential",
+  "operation_type": "double_hung",
+  "slug": "marvin_essential_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 48989
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 28,
+      "cost_estimate": 0.158304
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/marvin_essential_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T21:39:46.602Z"
+}

@@ -1,0 +1,514 @@
+{
+  "product": "Andersen E-Series Double-Hung Window",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Brennan Enterprises Installation Video",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Dallas-area installer documents E-Series installation replacing 80-year-old wood windows. Highlights AAMA 2604/2605 powder coat standards, extruded aluminum trim flexibility, five SDL grid widths, two profile styles, ten interior color choices, and tilt-in sash cleaning functionality as professional-grade advantages.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published installer video with structured product feature evaluation and technical specification commentary qualifies as a knowledgeable dealer/contractor source with clear product opinion.",
+      "topics": [
+        "quality",
+        "specs",
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Houzz Forum – Contractor Comment on E-Series vs. Integrity by Marvin",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Contractor states E-Series is 'horrible' with massive production delays, quality control issues in fit and finish, and recurring hardware failures. Comment appears in thread comparing E-Series to Integrity by Marvin windows.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects (hardware failures, fit and finish QC) with corroborating pattern across multiple independent sources including BBB and Consumer Affairs.",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "GreenBuildingAdvisor Forum – Builder/Energy Modeler",
+      "url": "not_available",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Experienced builder and energy modeler notes installation quality—particularly flashing and air sealing—matters more than window brand. Cautions against window-only improvements without addressing full building envelope. General satisfaction with Andersen series but no E-Series-specific defect claims.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post focuses on installation quality and whole-envelope strategy rather than product quality defects. No direct E-Series product scoring data provided.",
+      "topics": [
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Consumer Reports – Replacement Window Laboratory Testing 2026",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Systematic lab testing of 3x5-foot double-hung windows at 25 and 50 mph wind, 0°F and 70°F air leakage, and rain resistance at 5 gal/ft²/hr. Notes some budget vinyl windows match or outperform expensive wood-frame windows. Andersen products tested for wind and rain resistance.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent publication with structured laboratory testing methodology and comparative scoring across products; clear product performance data.",
+      "topics": [
+        "performance",
+        "specs",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Andersen Corporation – Air Infiltration Technical Documentation",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Andersen technical documentation states E-Series performance grades R, LC, and CW allow maximum air infiltration of 0.3 cfm/ft² of frame. High-performance competitors achieve as low as 0.02 cfm/ft², indicating E-Series air sealing is adequate but not industry-leading.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Manufacturer specification document provides testable, quantified performance data usable for comparative scoring, though source is manufacturer-originated.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "The Window Dog – E-Series Technical Review",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Independent window review site finds no E-Series casement option achieves U-factor below 0.27 for triple-pane; most competitors reach 0.22 or lower. Criticizes anodized finish warranty (5 years) versus 'unaffected by sun' marketing claim. Concludes primary advantage is aesthetics only.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent trade review site with specific U-factor data, warranty fine-print analysis, and direct product comparison. Structured opinion with quantified specs.",
+      "topics": [
+        "performance",
+        "specs",
+        "warranty",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Demers Glass – Andersen vs. Pella Comparative Analysis",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Dealer-comparative analysis places E-Series in premium architectural category emphasizing design over efficiency. Andersen averages 15–25% higher cost than comparable Pella. Andersen exterior coating warranty 20 years vs. Pella's 10 years. Some Pella aluminum-clad wood achieves superior U-factors.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with pricing data, warranty term comparison, and U-factor benchmarking. Dealer source but structured and knowledgeable with cited specs.",
+      "topics": [
+        "value",
+        "warranty",
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Andersen Corporation – E-Series Limited Warranty Documentation",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official warranty: 20-year glass, 10-year non-glass components, 5-year exterior wood, 20-year standard paint finish, 5-year anodized finish. Excludes labor, removal, painting costs. Excludes improper installation water infiltration. Requires arbitration/mediation before litigation. Fully transferable owner-to-owner.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Manufacturer warranty document provides specific, structured coverage terms directly relevant to product scoring on warranty topics.",
+      "topics": [
+        "warranty",
+        "legal"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Consumer Affairs – Andersen Windows Customer Reviews",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "4.4-star average across 824 verified reviews. Primary negative feedback centers on operational failures including French door locks requiring adjustment every two days. One verified buyer spent $3,500/unit and reported continuous operational problems. Suggests brand reputation outpaces actual ownership experience.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published aggregated review platform with verified purchasers and sufficient volume (824 reviews) to establish reliability pattern. Structured rating system qualifies as scored review source.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Better Business Bureau – Andersen Corporation Complaint File",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "BBB complaints document production delays, incorrect parts shipments, locking hardware failures across multiple newly installed windows, warranty denial on self-cleaning glass degradation after 12 years, and dealer-corporate policy communication failures. Remediation attempts (hardware replacement) repeatedly insufficient.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "BBB complaints describing physical product defects (locking failures across seven units, glass coating degradation) with corroborating pattern across Consumer Affairs, Houzz, and contractor sources.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "CPSC / Andersen Corporation – 100-Series Window Opening Control Device Recall",
+      "url": "not_available",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "February 2026 recall of approximately 91,000 Andersen 100-Series window opening control devices. Devices can break or detach after impact, allowing unexpected window opening and creating fall hazards. Eight malfunction reports, no injuries. Free in-home repair offered. Affects units manufactured before November 19, 2025.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Recall specifically affects 100-Series, not E-Series. Relevant as organizational quality control context but cannot score E-Series product directly. Legal/recall information classified report_only per rules.",
+      "topics": [
+        "quality",
+        "legal",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Andersen Corporation – Product Line Comparison (E-Series vs. 400-Series vs. A-Series)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Internal comparative data: E-Series offers 50 exterior colors vs. 400-Series' 7; 10 operating styles vs. 8; 11 hardware finishes vs. 4. A-Series achieves U-factors ~0.22 vs. E-Series minimum 0.27. 100-Series Fibrex units start at $350–$550 vs. E-Series $1,000–$1,500 for comparable size.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Manufacturer comparative specification data with quantified metrics across product lines. Provides structured, testable claims usable for scoring despite manufacturer origin.",
+      "topics": [
+        "specs",
+        "value",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Replacement Window Discussions Forum – ROI and Value Thread",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Forum participants note typical window replacement ROI spans 10–15+ years. One member replaced windows with mid-range vinyl and experienced underwhelming energy bill savings despite comfort improvement. Consensus: windows provide quality-of-life gains (noise, drafts) not compelling financial returns.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion addresses financial ROI and sales/value considerations rather than physical product defects. No corroborated E-Series-specific defect pattern present.",
+      "topics": [
+        "value",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Andersen Corporation – Company Profile and Stability Data",
+      "url": "not_available",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Andersen Corp: 13,000+ employees (2023), founded 1903, Forbes #167 top private company (2024), ENERGY STAR Partner of the Year Sustained Excellence (2024), Forbes Best Employers for Engineers (Jan 2025). $50.8M profit sharing (2024). North America's largest window/door manufacturer.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Organizational stability and background information. No direct product quality scoring data. Relevant context for red flags assessment.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Andersen Corporation – Warranty Dispute Resolution Terms",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Warranty dispute process requires 60-day response window after consumer Notice of Dispute submission. Unresolved disputes subject to mandatory alternative dispute resolution (mediation or arbitration) before any court litigation. Effectively restricts consumer access to judicial remedies.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal/dispute resolution terms within warranty. Classified report_only per legal/lawsuit information rule. Relevant to warranty and legal topics.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Marvin Windows – Signature Line Competitive Reference",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Marvin Signature Modern achieves Passive House performance standards in some configurations. Fiberglass exteriors resist coastal corrosion and thermal cycling better than aluminum. Similar customization depth to E-Series. Signature Ultimate competes directly in premium custom segment.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Source describes a competing product line (Marvin Signature), not the Andersen E-Series. Quarantined per rule: source about a different product line.",
+      "topics": [
+        "performance",
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Florida Building Code – E-Series Structural Performance Evaluation",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Independent engineering firms verified E-Series compliance with Florida Building Code structural requirements. Detailed performance evaluations available for various configurations. Confirms code-level structural performance but does not address energy or hardware reliability.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent third-party engineering evaluation with structured compliance verification. Credentialed professional assessment of structural performance specifications.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Andersen Corporation – ENERGY STAR Certification Status",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "E-Series meets baseline ENERGY STAR standards but lacks ENERGY STAR Most Efficient certification, which requires top-tier performance. Andersen received ENERGY STAR Partner of the Year Sustained Excellence (2024) at corporate level, but E-Series does not represent company's leading efficiency line.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Certification status is a structured, binary, independently verified performance classification directly relevant to product scoring.",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "GreenBuildingAdvisor Forum – Premium Window Installation Failure Case",
+      "url": "not_available",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Builder reports professional installer made flashing errors on premium windows causing water problems requiring full reinstallation. Illustrates that even high-quality windows fail without expert installation. Not E-Series specific; general installation quality argument.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about installation quality failure, not product quality. Classified report_only per rule: source about installation quality, not product quality.",
+      "topics": [
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Andersen Corporation – Fibrex Material and 100-Series Specification Reference",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fibrex composite: 40% reclaimed wood fiber, 60% thermoplastic polymer, expands 70% less than vinyl reducing seal failures. 100-Series uses Fibrex; E-Series uses traditional wood-aluminum. 100-Series U-factors 0.27–0.30 comparable to E-Series at $350–$550 vs. E-Series $1,000–$1,500.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Primarily describes 100-Series Fibrex product specifications, not E-Series. Quarantined per rule: source about a different product line. Used contextually in report but not scoreable for E-Series.",
+      "topics": [
+        "specs",
+        "value",
+        "durability"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "quality",
+      "expert": "Design and materials praised; aluminum cladding mechanical lock system noted as robust; production QC concerns flagged by contractors",
+      "review": "Consumer Affairs 4.4/5 across 824 reviews; hardware failures and operational issues documented as primary negatives",
+      "forum": "Multiple independent sources corroborate hardware locking failures, fit-and-finish inconsistencies, and inadequate remediation",
+      "agreement_level": "Moderate concern — aesthetic/design quality acknowledged but manufacturing execution and hardware reliability consistently questioned across all columns"
+    },
+    {
+      "topic": "durability",
+      "expert": "Aluminum cladding with mechanical interlocking keys avoids delamination; powder coat AAMA 2604 adequate for most climates",
+      "review": "Hardware covered only 10 years; anodized finish only 5 years; glass coating degradation complaints after 12 years documented",
+      "forum": "Locking failures in newly installed units; glass self-cleaning coating failing after 12 years with warranty denial",
+      "agreement_level": "Low agreement — experts optimistic on cladding system; reviews and forum data reveal durability concerns beyond warranty periods"
+    },
+    {
+      "topic": "performance",
+      "expert": "Adequate for residential application; installation quality dominates outcome; not leading-edge efficiency",
+      "review": "U-factor minimum 0.27 triple-pane lags competitors at 0.22; air infiltration 0.3 cfm/ft² vs. 0.02 for high-performance products; no ENERGY STAR Most Efficient",
+      "forum": "Homeowners report comfort and draft improvements but underwhelming energy bill savings",
+      "agreement_level": "Strong agreement — all columns converge that E-Series performance is adequate but not premium for its price tier"
+    },
+    {
+      "topic": "warranty",
+      "expert": "Transferable owner-to-owner warranty cited as resale advantage; 20-year paint warranty vs. Pella's 10-year noted positively",
+      "review": "Labor exclusions, anodized finish 5-year gap vs. marketing claims, mandatory arbitration clause, and coastal exclusions criticized",
+      "forum": "Warranty denials on glass coating degradation; corporate-dealer policy miscommunication blocking legitimate claims",
+      "agreement_level": "Low agreement — experts highlight transfer provision positively; reviews and forum data reveal significant exclusions undermining practical coverage"
+    },
+    {
+      "topic": "service",
+      "expert": "Production delays and quality inconsistencies flagged by contractors as systemic pain points",
+      "review": "BBB and Consumer Affairs document repeated inadequate remediation, parts errors, and policy communication failures",
+      "forum": "Multiple accounts of 6-week repeated delay cycles, executive brush-off on escalation, and failed hardware remediation",
+      "agreement_level": "Strong agreement — all columns identify service and delivery reliability as significant organizational weaknesses"
+    },
+    {
+      "topic": "value",
+      "expert": "Questions raised about E-Series vs. 400-Series and A-Series value; 100-Series Fibrex delivers comparable efficiency at fraction of cost",
+      "review": "Andersen 15–25% more expensive than comparable Pella; Window Dog concludes primary advantage is aesthetics only",
+      "forum": "ROI 10–15+ years; energy savings underwhelming; skepticism about premium pricing justification",
+      "agreement_level": "Strong agreement — all columns converge that value proposition is questionable except for specific customization-driven use cases"
+    },
+    {
+      "topic": "specs",
+      "expert": "50 exterior colors, 10 operating styles, 11 hardware finishes; AAMA 2604 standard coating; wood interior/aluminum exterior",
+      "review": "U-factor min 0.27 triple-pane; air infiltration 0.3 cfm/ft²; no ENERGY STAR Most Efficient; Florida Building Code structural compliance verified",
+      "forum": "No direct spec testing from forum sources",
+      "agreement_level": "High agreement on specifications — data consistent across expert and review columns; customization breadth confirmed, efficiency limitations confirmed"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "20-year paint finish warranty on standard colors exceeds competitor Pella's 10-year finish warranty",
+      "Full owner-to-owner transferability on all warranty terms provides resale value advantage not offered by all competitors",
+      "20-year glass warranty is consistent with industry premium tier"
+    ],
+    "underperforms_expectations": [
+      "Anodized finishes marketed as 'unaffected by sun' carry only 5-year warranty coverage",
+      "Zero labor coverage — homeowner bears all removal, installation, finishing, and carpentry costs even on valid warranty claims",
+      "Exterior wood covered only 5 years despite 20-year glass coverage on same unit",
+      "Anodized finish exclusions for air pollutants and salt deposits void coverage in coastal and urban environments where protection is most needed",
+      "Water infiltration coverage limited to manufacturing defects only; installation-caused infiltration fully excluded"
+    ],
+    "surprises": [
+      "Mandatory alternative dispute resolution clause (mediation/arbitration) required before any court litigation — restricts consumer legal access",
+      "Modifications including glass tinting, insulated coverings, or security system installation void coverage entirely",
+      "Units mulled by third parties receive no warranty coverage whatsoever",
+      "Non-Andersen hardware components on any part of the window void coverage for those components",
+      "Anodized finish warranty remediation options include repainting in potentially non-matching color rather than guaranteed like-for-like replacement"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "Minimum 0.27 for triple-pane configurations; no E-Series option achieves lower than 0.27 (competitors reach 0.22)",
+    "shgc": "PassiveSun glass available for solar heat gain; SmartSun glass blocks 95% UV — specific SHGC values not quantified in report",
+    "air_infiltration": "0.3 cfm/ft² maximum for performance grades R, LC, and CW; high-performance competitors achieve as low as 0.02 cfm/ft²",
+    "frame_material": "Wood interior construction with extruded aluminum exterior cladding; mechanical interlocking key system (not adhesive-bonded)",
+    "glass": "Standard dual-pane and triple-pane configurations available; SmartSun (95% UV block), PassiveSun (solar heat gain), and Protector/HarborMaster laminated options",
+    "dp_rating": "Not specifically quantified in report; Florida Building Code structural compliance verified by independent engineering firms",
+    "stc": "Not quantified in report; noise reduction cited as owner-reported benefit",
+    "exterior_colors": "50 standard colors plus 7 anodized finishes",
+    "interior_options": "9 factory-finished stain options; 14 painted interior color choices; primed option for custom paint",
+    "hardware_finishes": "11 styles",
+    "operating_styles": "10 configurations including awning, casement, double-hung, gliding, picture, bay/bow, specialty",
+    "grille_options": "5 SDL grid widths; 2 profile styles (colonial and putty)",
+    "exterior_coating_standard": "AAMA 2604 standard; AAMA 2605 available for coastal/high-humidity applications",
+    "unit_cost_range": "$1,000–$1,500+ for 24-inch x 38-inch double-hung without installation",
+    "energy_star": "Meets baseline ENERGY STAR; does NOT achieve ENERGY STAR Most Efficient designation"
+  },
+  "red_flags": [
+    {
+      "type": "Product Recall",
+      "description": "February 26, 2026 CPSC recall of approximately 91,000 Andersen 100-Series window opening control devices. Devices can break or detach after impact, allowing unexpected window opening and creating fall hazards. Eight malfunction reports filed. Affects products manufactured before November 19, 2025 and sold October 2015 through December 2025. Note: affects 100-Series, not E-Series directly, but signals systemic QC challenges across Andersen product lines.",
+      "severity": "High — safety hazard with fall risk; company-wide quality control implication",
+      "status": "Active recall; free in-home repair by authorized technicians offered"
+    },
+    {
+      "type": "Systemic Hardware Failure Pattern",
+      "description": "Multiple independent sources (BBB, Consumer Affairs, Houzz contractor, Consumer Reports) corroborate recurring locking hardware failures across newly installed E-Series and broader Andersen product lines. Remediation pattern of 'keep locked for months to settle' repeatedly fails. Suggests hardware component selection or assembly quality control deficiency.",
+      "severity": "Moderate-High — affects core functionality and security utility of product",
+      "status": "Ongoing; no formal recall or corrective action announced for E-Series hardware"
+    },
+    {
+      "type": "Production Delay Pattern",
+      "description": "Multiple sources document chronic 6-week rolling delivery delays extending months beyond original schedules for custom E-Series orders. Contractor and homeowner reports confirm pattern. Delays impose financial consequences on renovation projects dependent on scheduled delivery.",
+      "severity": "Moderate — financial and project timeline risk for buyers",
+      "status": "Ongoing based on multiple recent complaint sources"
+    },
+    {
+      "type": "Mandatory Arbitration Clause",
+      "description": "E-Series limited warranty requires alternative dispute resolution (mediation or arbitration) before consumers may pursue court litigation. This clause restricts consumer access to judicial remedies and represents a legal risk factor for buyers with legitimate warranty disputes.",
+      "severity": "Moderate — legal rights limitation",
+      "status": "Active warranty term"
+    },
+    {
+      "type": "Warranty Marketing Misalignment",
+      "description": "Anodized finishes marketed as 'unaffected by the sun' carry only 5-year warranty coverage with exclusions for air pollutants and salt deposits. Glass self-cleaning coating claims not substantiated by warranty coverage after 12 years with denial of valid-appearing claims documented in BBB complaints.",
+      "severity": "Moderate — potential FTC deceptive marketing concern; consumer expectation gap",
+      "status": "Ongoing; no FTC action documented in report"
+    },
+    {
+      "type": "Corporate-Dealer Policy Communication Failure",
+      "description": "BBB complaint documents Andersen corporate policy confirming customers may make configuration changes outside 30-day window, but dealer refused to honor corporate-confirmed policy. Pattern suggests organizational breakdown between corporate warranty/policy commitments and dealer implementation.",
+      "severity": "Low-Moderate — service reliability and trust concern",
+      "status": "Documented in January 2023 complaint; no systemic correction confirmed"
+    }
+  ],
+  "bottom_line": "The Andersen E-Series double-hung window is a premium-priced architectural product whose primary competitive advantage is exceptional customization flexibility — 50 exterior colors, 10 operating styles, 11 hardware finishes — rather than leading-edge energy efficiency or reliability. At $1,000–$1,500+ per unit, it costs 15–25% more than comparable Pella products and dramatically more than Andersen's own 100-Series Fibrex alternative, which delivers comparable U-factors (0.27–0.30) at $350–$550. The E-Series' minimum U-factor of 0.27 for triple-pane configurations lags competitor best-in-class performance of 0.22 by approximately 18–22%, and the product fails to achieve ENERGY STAR Most Efficient designation. Multiple independent sources — contractors, BBB complaints, Consumer Affairs reviews, and The Window Dog — corroborate systemic locking hardware failures, chronic production delays, and warranty claim denials. Warranty terms carry significant hidden limitations: zero labor coverage on replacements, only 5-year anodized finish coverage despite 'unaffected by sun' marketing, mandatory arbitration before litigation, and broad exclusions that void coverage in coastal and urban environments. A concurrent 100-Series recall affecting 91,000 units signals cross-product quality control challenges. The E-Series is defensible only for specific high-customization architectural applications — historic restoration, luxury custom builds — where its design flexibility justifies premium pricing and buyers accept documented reliability and efficiency trade-offs. For the majority of replacement window buyers prioritizing energy efficiency, reliability, or value, the Andersen 400-Series, 100-Series Fibrex, Andersen A-Series, or competitive Pella and Marvin offerings present more compelling propositions at lower or equivalent price points.",
+  "scoring_summary": {
+    "scoreable_sources": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-012",
+      "SRC-017",
+      "SRC-018"
+    ],
+    "report_only_sources": [
+      "SRC-003",
+      "SRC-011",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-019"
+    ],
+    "quarantined_sources": [
+      "SRC-016",
+      "SRC-020"
+    ],
+    "pool_distribution": {
+      "S": 0,
+      "A": 3,
+      "B": 9,
+      "C": 5
+    }
+  },
+  "product_slug": "andersen_e_series",
+  "product_name": "Andersen E-Series",
+  "manufacturer_slug": "andersen",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 146687,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 20,
+    "score": 12,
+    "report_only": 6,
+    "quarantine": 2
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.13473000000000002,
+  "verification_date": "2026-03-23T19:42:45.962Z"
+}

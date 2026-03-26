@@ -1,0 +1,37 @@
+{
+  "product": "Ply Gem Pro Series",
+  "operation_type": "double_hung",
+  "slug": "ply_gem_pro_series_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 17664
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 55658
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 31,
+      "cost_estimate": 0.17420100000000002
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/ply_gem_pro_series_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T21:01:58.584Z"
+}

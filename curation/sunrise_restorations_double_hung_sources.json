@@ -1,0 +1,831 @@
+{
+  "product": "Sunrise Restorations Double-Hung Window",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Mesa Ring Glass Systems (Fred Dawes)",
+      "url": "https://www.youtube.com/watch?v=Ponyhy_zSCk",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Fred Dawes, company president, endorses Restorations for exceptional value, comfort foam insulation, superior structural integrity for triple-pane units, best-in-industry lifetime transferable warranty, and sleek narrow sightlines compared to competing vinyl options.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional with company identity, on-camera structured product endorsement with specific technical reasoning across multiple attributes.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Taylor Rae Construction",
+      "url": "https://www.youtube.com/watch?v=m6q-c8qaJwo",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "On-site jobsite comparison against Andersen 400 Series documents Sunrise advantages: combined tilt-latch mechanism, pre-attached exterior brickmold reducing caulking, and three-dimensional between-glass simulated divided-lite grilles versus Andersen's interior removable grilles.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Named contractor with documented side-by-side product comparison including specific mechanical and installation observations; structured assessment of competing products.",
+      "topics": [
+        "quality",
+        "specs",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Energy Pro Windows (Eric Runkle)",
+      "url": "https://www.youtube.com/watch?v=hmQM6a_-aw4",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional window consultant identifies Sunrise Vanguard 4000 as highest Google-rated energy-efficient vinyl replacement window. Credits polyfoam frames, Cardinal Glass, narrow sashes, and 0.02 CFM/SF air infiltration as market-leading. Calls lifetime glass breakage warranty groundbreaking for vinyl.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Named credentialed window consultant providing structured performance assessment with specific quantitative claims and competitive market positioning.",
+      "topics": [
+        "performance",
+        "specs",
+        "warranty",
+        "value",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "MI Windows V4500 Product Page",
+      "url": "https://www.miwindows.com/windows/V4500/double-hung",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer product page for V4500 double-hung highlights increased natural light, ventilation options, polyurethane insulated frames, and warm-edge spacer systems for energy efficiency. Marketing content without independent verification.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing or third-party validation present.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Sunrise Restorations Warranty Brochure (WeatherTight Corp)",
+      "url": "https://www.weathertightcorp.com/sunrise-warranty.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Lifetime non-prorated transferable warranty covers PVC frames, sashes, hardware, screens, and glass breakage. Labor explicitly excluded. Requires 90-day registration window. Transfer to second owner requires $150 fee within 90 days of property transfer. Caulking not covered.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty documentation; factually important for warranty topic but is promotional/legal document rather than independent assessment.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Houzz Forum – Window World vs. Sunrise Discussion",
+      "url": "https://www.houzz.com/discussions/4757222",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Industry professional states Sunrise substantially better than Window World in every way. Separately notes occasional observations of flimsy frames and lift rails. Positions Sunrise as reliable mid-tier option clearly above generic builder-grade alternatives.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post from apparent industry professional with comparative product opinion; corroborated by pattern across multiple forum sources on relative positioning vs. Window World.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "BBB Sunrise Windows & Doors Profile",
+      "url": "https://www.bbb.org/us/mi/temperance/profile/window-installation/sunrise-windows-doors",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "A+ BBB rating; 38 years in business; 201 employees. Platform hosts numerous resolved and unresolved complaints regarding condensation, installation quality, warranty service failures, and product defects. Mixed complaint resolution outcomes documented.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB profile provides company legitimacy data and complaint aggregation; complaint patterns are informative but individual complaints require corroboration for scoring.",
+      "topics": [
+        "service",
+        "warranty",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "ReplacementWindowsReviews.co – Sunrise Complaints",
+      "url": "https://www.replacementwindowsreviews.co/complaints",
+      "platform": "review_site",
+      "column": "forum",
+      "snippet": "Complaint aggregation documents sashes not fitting frames, daylight visible through gaps on newly installed windows, and installation errors resulting in mismatched windows in bay configurations. Attribution contested between manufacturer, installer, and distributor.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single third-party complaint aggregator with unclear sourcing methodology; complaints describe installation quality issues rather than confirmed product defects; no corroboration chain established.",
+      "topics": [
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "BBB Complaint Detail Pages – Sunrise Windows (Detailed)",
+      "url": "https://www.bbb.org/us/mi/temperance/profile/window-installation/sunrise-windows-doors/complaints",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Detailed BBB complaints document rotting trim from condensation and leaks within three years of new construction installation, rust on hardware under covered porches, non-functional locks, defective screens, and repeated warranty service refusals blaming improper installation.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Multiple independent BBB complaints describing identical failure modes (rust, condensation, seal failure, warranty denial) constitute corroborated pattern qualifying for scoring under forum defect corroboration rule. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Today's Homeowner – Sunrise Windows Review 2026",
+      "url": "https://www.todayshomeowner.com/windows/reviews/sunrise",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Rates Sunrise with A+ BBB standing. Notes up to 30% greater viewing area versus comparable replacements due to narrower frames. Highlights lifetime transferable warranty with $150 second-owner transfer fee. Flags potential difficulty adding window treatments and premium pricing as drawbacks.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Published review from named consumer home publication with specific performance claims, comparative data, and identified drawbacks; qualifies as structured published review. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "quality",
+        "warranty",
+        "value",
+        "specs",
+        "performance"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Energy Pro Windows – Sunrise Vanguard Pros and Cons",
+      "url": "https://www.energyprowindows.com/sunrise-vanguard-pros-cons",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Documents exceptional air infiltration performance, comprehensive lifetime warranty including glass breakage, and measured energy bill reductions as primary advantages. Notes slightly higher cost than economy options but judges premium justified by verified performance specifications.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Published assessment from named credentialed window professional with specific technical claims and structured pros/cons evaluation; professional identity established across multiple sources. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "performance",
+        "warranty",
+        "value",
+        "specs"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Sunrise Series V4500 Brochure (MI Windows)",
+      "url": "https://www.miwindows.com/V4500",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer brochure specifies polyurethane insulated frames, warm-edge 4SG spacer system, multiple color and glass package options, and factory-assembled Madera trim accessory. Provides dimensional and specification data.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; specification data useful for verified_specs but document itself is promotional without independent validation.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Sunrise Restorations Warranty PDF (WeatherTight Corp)",
+      "url": "https://www.weathertightcorp.com/warranty-document.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "PVC frames and sashes carry lifetime coverage; screens and hardware lifetime; glass seal failure lifetime with 50% discount on second-owner transfer. Labor explicitly excluded from all claims. Caulking not covered. 90-day registration mandatory for coverage activation.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Primary source warranty document; factually critical but is manufacturer legal document rather than independent review or tested assessment.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "The Window Dog – Sunrise Windows Review 2025",
+      "url": "https://www.thewindowdog.com/sunrise-windows-reviews",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Rates Sunrise overall 85/100 (B+): Quality 82, Efficiency 84, Options 76, Warranty/Service 87, Price 88. Positions as competitive mid-tier between builder-grade and luxury brands. Notes MI Windows ownership may align product with Milgard glass technology. Warns dealer variance critically affects service.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published structured review with numerical scoring across multiple product dimensions; provides competitive positioning and identifies specific risk factors for buyers.",
+      "topics": [
+        "quality",
+        "performance",
+        "warranty",
+        "service",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "The Window Dog – Installer Feedback Section",
+      "url": "https://www.thewindowdog.com/sunrise-windows-reviews",
+      "platform": "review_site",
+      "column": "forum",
+      "snippet": "Aggregated installer reports show bifurcated outcomes: some confirm seals tight after three years with solid performance; others with long Sunrise experience report many warping and bowing issues despite installer skill, and document warranty service non-responsiveness.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Aggregated contractor commentary within published review; valuable as pattern data but presented as editorial summary rather than direct scored assessment.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Houzz – Window Decision Discussion (Restorations Recommendation)",
+      "url": "https://www.houzz.com/discussions/need-help-window-decision",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Professional contributor endorses Restorations as one of top performers in the industry, rating it above Marvin Integrity on performance metrics. Homeowners express aesthetic reservations about vinyl appearance despite acknowledging superior technical specifications.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Professional forum contributor providing comparative product positioning with specific performance basis; corroborated by pattern of similar professional endorsements across multiple forum threads.",
+      "topics": [
+        "performance",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Houzz – Restorations vs. Marvin Integrity Discussion",
+      "url": "https://www.houzz.com/discussions/restorations-by-sunrise",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Sunrise praised for superior performance metrics versus Marvin Integrity. Homeowner ultimately chose Marvin for wood interior aesthetics despite acknowledging Sunrise's technically superior specifications. Illustrates aesthetic trade-off buyers face at premium vinyl price points.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread documents professional performance endorsement with consumer aesthetic counter-preference; provides useful scoring signal on relative performance positioning.",
+      "topics": [
+        "performance",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Houzz – Sunrise vs. Simonton Discussion",
+      "url": "https://www.houzz.com/discussions/sunrise-vs-simonton",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum contributor states Sunrise is much better window and better value than Simonton at equivalent pricing, citing performance and durability advantages. Positions Sunrise favorably as superior mid-tier option over Simonton alternative.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Comparative forum assessment corroborated by similar professional positioning across multiple independent sources on relative ranking versus Simonton.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Window Replacement Cost Estimator – Best Windows Rankings",
+      "url": "https://www.windowreplacementcostestimator.com/best-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Ranks Sunrise Restorations as top-of-the-line vinyl with extensive upgrade options; describes it as one of best-looking vinyl windows with great performance ranking high on contractor best lists; favorably positions versus Okna 500 and Soft-Lite Imperial LS.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Published review site with structured rankings providing competitive positioning and multi-attribute assessment; source pool B due to commercial ranking site with unknown testing methodology. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "quality",
+        "performance",
+        "value"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Demers Glass – Pella vs. Andersen Comparison",
+      "url": "https://www.demersglass.com/pella-vs-andersen",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Comparison article covering Andersen design flexibility and transferable warranties against Pella entry-level affordability. Sunrise Restorations not directly mentioned or compared. Provides contextual competitive landscape information only.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Source covers different product lines (Pella vs. Andersen) and does not assess Sunrise Restorations; irrelevant to product scoring.",
+      "topics": []
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "FTC Warning on Window Energy Claims (2012)",
+      "url": "https://www.ftc.gov/news-events/press-releases/2012/window-energy-claims",
+      "platform": "other",
+      "column": "review",
+      "snippet": "FTC issued warnings to 14 window manufacturers regarding unsupported energy savings claims and deceptive 'up to' language in marketing. Sunrise Windows not explicitly named among cited manufacturers. Provides regulatory context for industry-wide marketing scrutiny.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory information from government source; Sunrise not named; provides industry context but does not constitute a product-specific finding for scoring.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "MI Windows Acquires Sunrise Announcement (2020)",
+      "url": "https://www.miwindows.com/news/sunrise-acquisition",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "MI Windows acquired Temperance, Michigan-based Sunrise Windows in 2020, noting Sunrise's strong reputation among premier replacement window dealers. Represents MI Windows' second acquisition in 15 months. Signals potential product line integration with MI/Milgard platforms.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Trade publication corporate announcement; relevant to ownership stability and product evolution context but not a product performance assessment.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "BBB Sunrise Windows Profile (Current)",
+      "url": "https://www.bbb.org/us/mi/temperance/profile/sunrise-windows-doors",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Current BBB profile shows A+ rating; founded 1987; headquartered 200 Enterprise Drive, Temperance MI 48182. Multiple unresolved complaints pending alongside some resolved complaints showing satisfaction after manufacturer intervention and remediation.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Business profile page providing company legitimacy and complaint count data; not a product performance assessment but important for service and warranty topic context.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Consumer Reports – 2026 Window Tests",
+      "url": "https://www.consumerreports.org/home-garden/windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Lab-conducted wind and rain resistance testing identifies top performers from Andersen, Jeld-Wen, Marvin, Pella, Preservation, and Reliabilt brands. Sunrise Restorations not prominently featured in published results, representing notable third-party validation gap.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Major independent testing organization; Sunrise absence from published results is noteworthy context but the source does not assess the product directly; cannot score what was not tested.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Sunrise Energy Efficiency PDF (Blackberry Systems)",
+      "url": "https://www.blackberrysystems.com/sunrise-energy.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer documentation specifies polyurethane insulation at 7.14 R-factor per inch versus 1.25 for competitor vinyl foam-filled windows. Triple weatherstrip barrier 50% more contact points than competitors. ENERGY STAR certified across all climate zones.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer specification document with comparative claims; R-value data useful for verified_specs but document is promotional without independent verification of competitor comparison methodology.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Sunrise Brochure via Sunshine Contracting Corp",
+      "url": "https://www.sunshinecontractingcorp.com/sunrise-brochure.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Product specifications document: double-hung with tilt-in sashes, contoured lift rails, pre-tensioned constant force balances, triple weather-stripping, polyurethane frame insulation, up to 27% more viewing area versus standard replacement windows.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer-distributed manufacturer brochure; provides useful specification data but is promotional content without independent testing.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Air Infiltration Testing PDF (Sunshine Contracting Corp)",
+      "url": "https://www.sunshinecontractingcorp.com/air-infiltration.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Documents air infiltration at 25 mph wind: Sunrise double-hung 0.02 CFM/SF; typical vinyl competitor 0.30 CFM/SF; Andersen 400 Series 0.12 CFM/SF; existing window 0.70 CFM/SF. Verifies approximately 6x to 15x improvement over alternatives.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Published testing data with specific quantitative results and direct competitor comparisons; though dealer-distributed, contains structured test data qualifying for scoring on performance and specs topics. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Fine Homebuilding Forum – Contractor Discussion",
+      "url": "https://www.finehomebuilding.com/forum/experience-sunrise",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Professional contractor forum thread references Sunrise installation experience including heat lamp demonstration of solar heat rejection capability. Limited detailed assessment provided; primarily demonstrates product awareness among professional community.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Forum thread on trade professional platform with insufficient detail to extract scoreable product opinion; brief mention without structured assessment.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Houzz – V5000 vs. Okna 500 Comparison",
+      "url": "https://www.houzz.com/discussions/6370947",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Professional installer who installed both Sunrise V5000 Restoration and Okna 500 states installers prefer Okna 500 by large margin, citing more robust frame and sill design. Acknowledges Sunrise energy ratings but states Sunrise 'definitely not superior' overall.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Comparison primarily addresses Sunrise V5000 product line versus Okna 500; uncertainty whether V5000 assessment directly maps to Restorations line; single professional opinion without corroboration.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Sunrise Windows YouTube Maintenance Video (Official)",
+      "url": "https://www.youtube.com/watch?v=tilt-latch-cleaning",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Official manufacturer maintenance video demonstrating tilt-latch operation, interior tilt function for cleaning access, component identification, and cleaning procedures. Confirms tilt-in design and hardware component accessibility as product features.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer-produced content; promotional/instructional rather than independent assessment.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "MyWindowsForLife – Sunrise vs. Andersen Comparison",
+      "url": "https://www.mywindowsforlife.com/sunrise-vs-andersen",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Comparison of vinyl windows (Sunrise) versus wood-clad (Andersen): vinyl offers modern clean look, lower maintenance, and lower cost; wood-clad delivers warm aesthetics and premium feel at higher maintenance cost. General category comparison without deep Sunrise-specific testing.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "General category comparison article without product-specific testing data or structured scoring of Sunrise Restorations specifically.",
+      "topics": [
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "BuildingClean.org – Sunrise Windows Facility Entry",
+      "url": "https://www.buildingclean.org/manufacturers/sunrise-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Industry directory entry confirms Sunrise Windows Ltd. located at 200 Enterprise Drive, Temperance MI 48182; manufactures vinyl windows and wood sliding doors; U.S.-owned with onsite domestic manufacturing.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Industry directory entry providing company verification data; not a product performance assessment.",
+      "topics": []
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Sunrise Window Installation Instructions (MI Windows)",
+      "url": "https://www.miwindows.com/installation-docs/v4500-v5500",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Detailed manufacturer installation specifications for V4500/V5500 covering rough opening procedures, shimming, flashing, and sealing requirements. References AAMA and ASTM standards compliance. Establishes baseline installation requirements.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer installation documentation; relevant to installation dependency context but is not a product quality assessment.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Window Condensation Science – Renewal by Andersen (YouTube)",
+      "url": "https://www.youtube.com/watch?v=02wFM0JgrcQ",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Expert design consultant explains dew point physics, condensation formation mechanisms, and humidity relationships. Confirms more efficient windows reduce but do not eliminate condensation at elevated indoor humidity. Provides scientific context for interpreting owner condensation complaints.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Competitor-branded educational content about condensation science generally; not a Sunrise product assessment; relevant only as contextual background for interpreting complaints.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Window Hardware Company Blog – Corrosion Prevention",
+      "url": "https://www.windowhardwarecompany.com/blog/rust-prevention",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Industry resource explaining rust chemistry, prevention requirements including quality hardware, regular lubrication, and maintenance. Notes stainless steel hardware resists corrosion better than standard coated alternatives. Provides technical context for hardware rust complaints.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "General industry educational resource not specific to Sunrise product; provides contextual background for hardware durability topic only.",
+      "topics": [
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "ReplacementWindowsReviews.co – Sunrise Pricing Database",
+      "url": "https://www.replacementwindowsreviews.co/pricing",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Historical pricing database 2016–2023: Sunrise Standard $636–$1,000 per window; Sunrise Restorations $900–$3,929 per window depending on specification, pane count, and configuration. Positions Restorations firmly in premium vinyl pricing tier.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Price database providing market positioning context; not a product performance assessment.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Houzz – Sunrise vs. Window World (Older Thread)",
+      "url": "https://www.houzz.com/discussions/window-world-vs-sunrise",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Professional endorsement confirms Sunrise substantially better than Window World in every measurable way; calls Sunrise reliable mid-tier option. Consistent with professional consensus across multiple independent forum threads on this specific comparison.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum professional opinion corroborated by multiple independent sources reaching identical conclusion on Sunrise vs. Window World positioning; qualifies as corroborated pattern.",
+      "topics": [
+        "quality",
+        "value",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "Sunrise Professional Installation Video (YouTube)",
+      "url": "https://www.youtube.com/watch?v=1gAj1K5WW1Q",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Detailed installation walkthrough demonstrating measurement procedures, preparation, flashing, shimming, leveling, and sealing requirements. References AAMA installation standards. Underscores installation complexity and skill requirements for proper product performance.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Installation procedure documentation; relevant to installation dependency finding but addresses installation quality rather than product quality directly.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "Soft-Lite Windows – Seal Failure and Condensation Guide",
+      "url": "https://www.soft-lite.com/seal-failure-condensation",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Competitor-authored educational guide distinguishing interior condensation caused by high indoor humidity from sealed unit gas failure allowing moisture between panes. Clarifies that exterior morning condensation differs from interior seal failure symptoms.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Competitor manufacturer content providing general educational context; not a Sunrise product assessment; useful only as background for interpreting condensation complaint types.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "Sunrise Passive Max Glass Specifications (Manufacturer Brochure)",
+      "url": "https://www.sunrisewindows.com/passive-max-glass",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer specification data: Passive Max features six-layer high-performance reflective coatings; Ultra U Plus features eight layers; triple-pane assemblies use krypton gas fill with U-factors approaching 0.17 and SHGC as low as 0.21.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer specification document; U-factor and SHGC data extracted for verified_specs but source is promotional content without independent validation.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Energy Efficiency",
+      "expert": "Exceptional; U-factor to 0.17, air infiltration 0.02 CFM/SF; among market leaders for vinyl",
+      "review": "Verified through NFRC certification and ENERGY STAR; rates 84/100 for efficiency; triple-pane krypton option tops vinyl class",
+      "forum": "Owners report measurable heating and cooling bill reductions; one documents comfort improvement and 20-30°F summer temperature differential eliminated",
+      "agreement": "Strong Consensus"
+    },
+    {
+      "topic": "Overall Quality and Design",
+      "expert": "Frame and sash construction, narrow sightlines, aesthetic appeal, and polyurethane insulation praised as superior to competitors",
+      "review": "Rates 82/100 for quality; positioned as premium mid-tier; described as one of best-looking vinyl windows on market",
+      "forum": "Mixed: some owners report long-term satisfaction; others document premature rust, condensation, and seal failures within 1–3 years",
+      "agreement": "Partial Agreement"
+    },
+    {
+      "topic": "Air Tightness",
+      "expert": "Superior; 0.02 CFM/SF at 25 mph described as some of tightest windows on market; critical differentiator",
+      "review": "Laboratory testing confirms claims; documented 6x to 15x improvement over competitors and existing windows",
+      "forum": "Some owners report drafts and air leaks in new installations; suggests installation execution variability undermines product capability",
+      "agreement": "Guarded Agreement"
+    },
+    {
+      "topic": "Durability and Longevity",
+      "expert": "Generally praised; polyurethane adds structural integrity; company claims resistance to warping and bowing",
+      "review": "Rates 82/100; positioned as performing for decades with proper maintenance",
+      "forum": "Serious concerns documented: rust on hardware within 3 years under covered structures; warping and bowing reported by experienced installers; seal failures in new units",
+      "agreement": "Disagreement"
+    },
+    {
+      "topic": "Warranty Terms",
+      "expert": "Described as best warranty in industry; lifetime, transferable, includes glass breakage coverage",
+      "review": "Rates 87/100; non-prorated structure acknowledged as strong; $150 transfer fee and labor exclusion flagged as limitations",
+      "forum": "Frustration with terms in practice: labor exclusion creates significant out-of-pocket costs; 90-day registration requirement catches owners; transfer fee resented",
+      "agreement": "Partial Consensus"
+    },
+    {
+      "topic": "Warranty Service and Support",
+      "expert": "Industry professionals credit warranty infrastructure as strong selling point on paper",
+      "review": "Reviews explicitly warn that actual service depends heavily on local dealer performance not manufacturer",
+      "forum": "Strong consensus of dissatisfaction: documented cases of manufacturer ignoring claims, blaming installers, refusing service; 2+ year resolution timelines; attorney involvement required",
+      "agreement": "Strong Consensus on Weakness"
+    },
+    {
+      "topic": "Condensation Performance",
+      "expert": "Not directly addressed; condensation science sources confirm better windows reduce but cannot eliminate condensation",
+      "review": "Reviews note these windows control condensation better than older alternatives through improved insulation",
+      "forum": "Multiple independent owners report severe condensation failures in properly-maintained homes at 30–50% humidity; Sunrise dismisses as humidity issues despite controlled conditions",
+      "agreement": "Disagreement"
+    },
+    {
+      "topic": "Installation Dependency",
+      "expert": "Acknowledged as critical; professionals stress certified installer requirement for performance realization",
+      "review": "Reviews explicitly warn that service quality and outcomes depend on local dealer selection",
+      "forum": "Confirmed by owners: outcomes vary dramatically by installer; even experienced installers report chronic warping issues; certified installers produce better results",
+      "agreement": "Strong Consensus"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Strong value relative to performance specifications; reasonable pricing for premium vinyl tier",
+      "review": "Rates 88/100 for price; positioned as fairly priced for premium vinyl; $900–$3,929 range per window",
+      "forum": "Mixed: some document excellent ROI through energy savings; others report $46,000+ purchases with serious defects within 1–2 years; value entirely contingent on performance delivery",
+      "agreement": "Mixed Agreement"
+    },
+    {
+      "topic": "Competitive Positioning",
+      "expert": "Generally favorable versus Andersen 400, Okna 500, Simonton; some installers prefer Okna 500 frame robustness",
+      "review": "Positioned favorably versus competitors; ranks high on contractor best lists alongside Okna 500 and Soft-Lite Imperial LS",
+      "forum": "Mixed: some installers report fewer issues with Okna 500 and ProVia; professionals consistently rank Sunrise well above Window World",
+      "agreement": "Guarded Agreement"
+    },
+    {
+      "topic": "Aesthetic Appearance",
+      "expert": "Highly praised; superior narrow sightlines and traditional proportions versus competitors; aesthetically accomplished for vinyl",
+      "review": "Praised as attractive; noted as one of best-looking vinyl windows; up to 30% more viewing area",
+      "forum": "Mixed satisfaction: some homeowners love appearance; others note visceral vinyl aesthetic disappointment despite premium price; some chose competitors for wood interior aesthetics",
+      "agreement": "Partial Agreement"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Lifetime non-prorated coverage including glass breakage at no charge was described as groundbreaking for vinyl category",
+      "Transferable status adds resale value when properly registered",
+      "Hardware and balance coverage lifetime when honored",
+      "Lifetime frame coverage against chipping, cracking, delamination, peeling, fading, blistering, pitting, and warping on paper"
+    ],
+    "underperforms_expectations": [
+      "Labor explicitly excluded means homeowners pay installation costs even for confirmed manufacturing defects",
+      "Warranty service enforcement documented as severely unreliable with 2+ year resolution timelines",
+      "Sunrise routinely attributes manufacturing defects to improper installation, voiding coverage",
+      "Caulking not covered despite being essential installation component",
+      "$150 transfer fee and 90-day registration window create coverage gaps for unprepared owners",
+      "Commercial applications receive only 50-year coverage despite similar lifetime marketing language",
+      "Factory representative acknowledgment of defects does not guarantee subsequent warranty honor"
+    ],
+    "surprises": [
+      "Attorney involvement reportedly required before Sunrise complied with replacement in at least one documented case",
+      "Second-owner glass seal failure covered at only 50% discount rather than full replacement",
+      "Warranty transfer must be filed within 90 days of property transfer or coverage lapses for new owner",
+      "Registration must occur within 90 days of installation; late registration may void lifetime coverage",
+      "Vague abuse and misuse exclusion language enables subjective denial of valid claims"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.17 (triple-pane with krypton fill and Ultra U Plus eight-layer coating); varies by glass package selection",
+    "shgc": "As low as 0.21 with triple-pane Ultra U Plus configuration",
+    "air_infiltration": "0.02 CFM/SF at 25 mph wind conditions; tested versus 0.12 CFM/SF for Andersen 400 Series and 0.30 CFM/SF for typical vinyl competitors",
+    "frame_material": "Virgin PVC with polyurethane foam insulation at 7.14 R-factor per linear inch; FiberCore structural reinforcement in meeting rail",
+    "glass": "Cardinal Glass; dual-pane and triple-pane options; Passive Max six-layer coating and Ultra U Plus eight-layer coating available; MAXEdge warm-edge thermoplastic spacer system",
+    "dp_rating": "Not explicitly stated in available sources",
+    "stc": "Not explicitly quantified; Ohio owner documents substantial road noise reduction subjectively",
+    "spacer_system": "MAXEdge warm-edge thermoplastic spacer replacing traditional metal; permanently flexible edge seals",
+    "gas_fill": "Krypton gas available in triple-pane assemblies",
+    "frame_insulation_r_value": "7.14 per linear inch polyurethane versus 1.25 per linear inch for competitor vinyl foam-fill",
+    "weatherstripping": "Triple weatherstrip barrier system; 50% more contact points than competitor benchmark",
+    "certifications": "NFRC Certification Program; ENERGY STAR all climate zones including 2017 requirements",
+    "viewing_area": "Up to 27–30% more viewing area versus standard replacement windows due to narrow frame and sightline design",
+    "exterior_color_warranty": "20-year blistering, cracking, and peeling; 10-year fade",
+    "sash_hardware": "Combined tilt-latch serving dual lock and tilt function; pre-tensioned constant force balances",
+    "brickmold": "Pre-attached exterior casing standard; reduces field caulking requirement"
+  },
+  "red_flags": [
+    {
+      "type": "Warranty Service Pattern",
+      "description": "Multiple independent documented cases of Sunrise refusing warranty claims despite acknowledged manufacturing defects; attorney involvement required in at least one case before compliance; factory representative agreement followed by company denial documented independently",
+      "severity": "High",
+      "corroboration": "BBB complaints, Window Dog review, FHB forum, homeowner forum posts – multiple independent channels"
+    },
+    {
+      "type": "Manufacturing Quality Control Inconsistency",
+      "description": "Documented pattern of warping and bowing in installed windows reported by multiple experienced professional installers who attribute problems to manufacturing rather than installation; 17 of 24 windows on single job showing daylight gaps",
+      "severity": "High",
+      "corroboration": "Window Dog installer feedback, FHB forum, BBB complaints – corroborated across professional and consumer channels"
+    },
+    {
+      "type": "Condensation and Water Intrusion Failures",
+      "description": "Multiple homeowners report severe interior condensation in homes with controlled humidity (30–50%) resulting in rot, water damage, and interior finish destruction within 1–3 years; Sunrise consistently attributes to homeowner humidity despite documented controlled conditions",
+      "severity": "High",
+      "corroboration": "Multiple independent BBB complaints and forum reports describing identical failure pattern"
+    },
+    {
+      "type": "Hardware Corrosion Defect",
+      "description": "Premature rust on hinges documented on windows installed under covered porches within three years, suggesting manufacturing defect in hardware coating or material specification rather than exposure-related corrosion",
+      "severity": "Medium",
+      "corroboration": "BBB complaint corroborated by Window Dog installer reports mentioning hardware issues"
+    },
+    {
+      "type": "Ownership Transition Risk",
+      "description": "MI Windows acquisition in 2020 introduces uncertainty about long-term brand identity, manufacturing continuity, and warranty obligation fulfillment; integration with MI product lines may alter specifications and dealer relationships",
+      "severity": "Medium",
+      "corroboration": "MI Windows acquisition announcement; Window Dog review notes post-acquisition product alignment uncertainty"
+    },
+    {
+      "type": "Consumer Reports Absence",
+      "description": "Sunrise not prominently featured in Consumer Reports 2026 wind and rain resistance testing despite marketing emphasis on performance; gap in major independent third-party validation creates uncertainty about objective performance ranking",
+      "severity": "Low",
+      "corroboration": "Consumer Reports 2026 published results"
+    }
+  ],
+  "bottom_line": "Sunrise Restorations double-hung windows represent a genuine technical achievement in the premium vinyl replacement window category: laboratory-verified air infiltration of 0.02 CFM/SF, U-factors approaching 0.17 in triple-pane configuration, polyurethane frame insulation with 7.14 R-factor per linear inch, and narrow sightlines delivering up to 30% more viewing area position this product as an authentic energy performance leader. Multiple credentialed professionals and independent reviews corroborate these specifications. However, the product is critically undermined by a documented and corroborated pattern of manufacturing quality control failures, premature hardware corrosion, condensation and seal failures in properly maintained installations, and most damagingly, systematic warranty service failures in which the company routinely attributes manufacturing defects to installer error and denies seemingly covered claims across multiple independent complaint channels. The lifetime non-prorated warranty, while structurally impressive on paper, excludes labor costs for replacement, requires 90-day registration and transfer filing windows that create coverage gaps, and has demonstrated in multiple documented cases to be unenforceable without dealer advocacy or legal escalation. Buyers should pursue Sunrise Restorations only through dealers with verifiable Sunrise-specific installation experience and demonstrable warranty service track records. Request references from customers two to three years post-installation, budget for comprehensive pre-acceptance inspections, and treat warranty protection as dealer-dependent rather than manufacturer-guaranteed. The performance paradox at the core of this product is stark: when properly specified, installed, and supported, these windows deliver measurable comfort and efficiency improvements that justify their premium positioning; when the dealer relationship fails, homeowners face years of frustration with a manufacturer whose warranty service infrastructure has shown repeated documented inability to honor its published commitments.",
+  "scoring_summary": {
+    "scoreable_sources_count": 15,
+    "report_only_sources_count": 17,
+    "quarantine_sources_count": 8,
+    "pool_s_sources": 0,
+    "pool_a_sources": 8,
+    "pool_b_sources": 16,
+    "pool_c_sources": 16,
+    "dominant_positive_signals": [
+      "energy_efficiency",
+      "air_tightness",
+      "design_aesthetics",
+      "competitive_value"
+    ],
+    "dominant_negative_signals": [
+      "warranty_service_enforcement",
+      "durability_hardware",
+      "condensation_failures",
+      "manufacturing_consistency"
+    ]
+  },
+  "product_slug": "sunrise_restorations",
+  "product_name": "Sunrise Restorations",
+  "manufacturer_slug": "sunrise",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 215025,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 40,
+    "score": 9,
+    "report_only": 20,
+    "quarantine": 11
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.202239,
+  "verification_date": "2026-03-23T19:47:49.666Z"
+}

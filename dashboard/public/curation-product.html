@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Curation — The Residentialist</title>
+    <link rel="stylesheet" href="/scores/css/curation.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-brand"><a href="/scores/" style="color:inherit;text-decoration:none;">THE <span>RESIDENTIALIST</span></a> · Curation</div>
+      <nav class="header-nav">
+        <a href="/scores/curation.html">← Back to List</a>
+        <a href="/scores/manufacturer.html">Manufacturers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+
+      <!-- Product Header -->
+      <div class="section" id="productHeader">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <div>
+            <h1 id="productName" style="font-size:24px; font-weight:700; letter-spacing:-0.02em; margin-bottom:4px;">Loading...</h1>
+            <p id="productMeta" style="font-size:13px; color:var(--text-muted);"></p>
+          </div>
+          <div id="scoreDisplay" class="score-display" style="display:none;"></div>
+        </div>
+      </div>
+
+      <!-- Three-Column Source View -->
+      <div class="source-columns" id="sourceColumns">
+        <div class="source-column" id="expertColumn">
+          <h3>Expert Sources</h3>
+          <div class="source-list" id="expertList"></div>
+        </div>
+        <div class="source-column" id="reviewColumn">
+          <h3>Reviews & Comparisons</h3>
+          <div class="source-list" id="reviewList"></div>
+        </div>
+        <div class="source-column" id="forumColumn">
+          <h3>Forum & Owner Experiences</h3>
+          <div class="source-list" id="forumList"></div>
+        </div>
+      </div>
+
+      <!-- Consensus Matrix -->
+      <div class="section" id="consensusSection">
+        <div class="section-title">Consensus Matrix</div>
+        <table class="consensus-table" id="consensusTable">
+          <thead>
+            <tr><th>Topic</th><th>Experts</th><th>Reviews</th><th>Forums</th><th>Agreement</th></tr>
+          </thead>
+          <tbody id="consensusBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Warranty Reality -->
+      <div class="section warranty-section" id="warrantySection">
+        <div class="section-title">Warranty Reality</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px;">
+          <div class="warranty-column beats">
+            <h4>✓ Beats Expectations</h4>
+            <div id="warrantyBeats"></div>
+          </div>
+          <div class="warranty-column underperforms">
+            <h4>⚠ Underperforms</h4>
+            <div id="warrantyUnderperforms"></div>
+          </div>
+          <div class="warranty-column surprises">
+            <h4>★ Surprises</h4>
+            <div id="warrantySurprises"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Verified Specs -->
+      <div class="section" id="specsSection">
+        <div class="section-title">Verified Specs</div>
+        <table class="consensus-table" id="specsTable">
+          <thead><tr><th>Spec</th><th>Value</th></tr></thead>
+          <tbody id="specsBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Red Flags -->
+      <div class="section" id="redFlagsSection" style="display:none;">
+        <div class="section-title" style="color:var(--accent-red);">⚠ Red Flags</div>
+        <div id="redFlagsList"></div>
+      </div>
+
+      <!-- Actions -->
+      <div class="actions-bar">
+        <div class="left">
+          <span id="classificationSummary" style="font-size:13px; color:var(--text-muted);"></span>
+        </div>
+        <div class="right">
+          <button class="btn btn-ghost" onclick="quarantineAll()">Quarantine Unclassified</button>
+          <button class="btn btn-success" onclick="markReviewed()">Mark Review Complete</button>
+          <button class="btn btn-primary" onclick="runPipeline()">Run Pipeline</button>
+        </div>
+      </div>
+
+      <!-- Score History -->
+      <div class="section" id="historySection" style="display:none;">
+        <div class="section-title">Score History</div>
+        <div id="historyList"></div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="/scores/js/curation-product.js"></script>
+</body>
+</html>

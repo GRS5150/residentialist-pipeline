@@ -1,0 +1,623 @@
+{
+  "product": "Ply Gem Mira Double-Hung Window",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Ply Gem MIRA Product Brochure",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "U-Factor of approximately 0.04 achieves ENERGY STAR compliance across climate zones. Aluminum-clad wood construction with 46 exterior color options, Low-E glass with argon fill, and thermally broken frame components. Positions Mira as mid-to-premium aesthetic window product.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent verification of claims.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Ply Gem MIRA Limited Warranty Document",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Twenty-year limited warranty on materials and components for owner-occupied single-family residences. Labor coverage limited to one year. Broad exclusions for water infiltration from improper installation, normal wear, and natural wood variance. Transferable with written notification.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty documentation; factual legal terms reported without independent assessment. Critical to warranty reality analysis.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Window Dog Reviews – Ply Gem Mira",
+      "url": "https://www.thewindowdog.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Highly variable consumer experiences. Documented manufacturing defects: incomplete pre-drilled holes, loaded spring sash design causing corner breakage, cheap construction unlikely to last 30 years. Some users report successful warranty resolution after persistent effort; professional installer recommends against purchase.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review site aggregating multiple consumer and installer accounts with specific defect patterns and structured critique; constitutes corroborated pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "YouTube – MIRA Installation Instructional Video",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Step-by-step installation procedure documenting pre-fitting, sealant application, and casing snapping technique for Mira double-hung windows. Instructional content for professional installers. Does not evaluate product quality independently.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Installation procedure content; addresses installation quality, not product quality directly.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "YouTube – MIRA Balance Clip Problem (Installer Troubleshooting)",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional installer documents balance clip assemblies arriving incomplete on two of three new Mira units. Sash mechanisms non-functional at delivery, requiring manual engagement. Installer states this is not standard expectation for professional-grade windows; indicates final assembly QC failure.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Credentialed installer documenting physical manufacturing defect on new units with specific, reproducible failure mode and corroborating pattern across multiple units.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Houzz Forum – MIRA Pricing and Positioning (2012)",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Architect recommends Mira aluminum-clad wood as best price-range option at approximately $350–$400 per unit in 2012-era market. Notes competitive value positioning relative to premium alternatives. Pricing data is dated and not reflective of current market.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post with historical pricing data; no current product quality assessment. Useful for context only.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Migliaccio & Rathod LLP – Legal Investigation into Ply Gem Window Failures",
+      "url": "https://www.classlawdc.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Class action investigation identifies recurring IGU seal failures causing fogging between panes, water intrusion, warranty disputes, and repair delays across multiple consumers. Attorneys identify potential implied warranty and consumer-protection claims. Litigation activity may affect intake strategy.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules. Provides formal third-party corroboration of complaint patterns.",
+      "topics": [
+        "legal",
+        "warranty",
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Ply Gem Official Product Page – MIRA Series",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official product overview documenting MIRA series features: impact-resistant variants, 46 color options, customization capabilities, Perspective patio door integration, and limited warranty reference. No independent testing data provided.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent verification.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Modernize.com – Window Brand Comparison Report 2026",
+      "url": "https://www.modernize.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Classifies Ply Gem as best for budget replacements alongside JELD-WEN and Simonton; assigns 3.5-star rating for cost-effective solutions, wide availability, and steady (not superior) energy performance. Documents average Mira wood-clad window cost at $900–$2,200 per unit.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with pricing data, star ratings, and structured brand positioning analysis across 2026 market.",
+      "topics": [
+        "value",
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Better Business Bureau – Ply Gem Siding Group Complaint Records",
+      "url": "https://www.bbb.org",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "BBB records document warranty claim delays of up to six months, technical denials based on narrow warranty definitions, sample submission requirements, and prolonged customer service runarounds. Patterns suggest systemic warranty administration challenges across Ply Gem product portfolio.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB complaint records primarily address siding products; relevant for warranty administration pattern context but not direct Mira product quality assessment.",
+      "topics": [
+        "warranty",
+        "service",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Clayton, Dubilier & Rice – Ply Gem Acquisition Press Release",
+      "url": "https://www.cdr-inc.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "CD&R acquired Ply Gem in 2018 for $2.4 billion in go-private transaction at $21.64 per share. Immediately combined with Atrium Windows & Doors; CD&R holds approximately 70% of combined entity. Cornerstone Building Brands is current parent structure.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate ownership and stability information; relevant for company context but not direct product quality evaluation.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Ply Gem Condensation Blog Post",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer educational content asserting windows do not cause condensation; attributes moisture to indoor humidity levels. States new efficient windows trap moisture unlike older drafty units. Does not address documented systematic condensation complaints specific to Mira thermally broken frames.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/educational content that contradicts documented owner experiences without independent substantiation.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Houzz Forum – MIRA vs. Andersen/Marvin Comparison Thread",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Design professional notes Mira substantially less expensive than comparable premium products. Quality consistency concerns highlighted; warranty exclusions described as problematic for sensitive buyers. Marvin and Andersen recommended as alternatives for demanding applications.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post from design professional with corroborating quality concerns aligned with broader pattern; structured comparative opinion justifies scoring.",
+      "topics": [
+        "quality",
+        "warranty",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "YouTube – Consumer Review of Impact Windows (American Craftsman/Ply Gem)",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Installer documents severe dimensional inconsistency in Ply Gem impact windows: diagonal measurements do not match, making proper installation impossible. Wavy distortions visible in impact glass pane. Manufacturing defects required unit replacement. Two windows affected in single order.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published video review by professional installer documenting specific physical manufacturing defects with visual evidence; corroborates broader quality control pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Argo Window Repair – Window Brand Comparison",
+      "url": "https://www.argowindowrepair.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Industry resource analyzing Pella, Andersen, and Marvin with material longevity tables. Ply Gem not featured in premium competitive analysis, implying exclusion from top-tier product consideration. Provides useful competitive context for positioning Mira in market landscape.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source focuses on competing premium products; does not directly assess Mira. Useful for competitive context only.",
+      "topics": [
+        "value",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "ProLite Building Supply v. Ply Gem Windows – Federal Appellate Case (Justia)",
+      "url": "https://www.justia.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Federal appellate case documents Ply Gem windows that admitted air when closed—fundamental product failure. Builders stopped purchasing product due to dissatisfaction. ProLite summary judgment affirmed. Establishes legal precedent for Ply Gem air infiltration product defects in commercial context.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; establishes formal legal precedent for product air infiltration failures.",
+      "topics": [
+        "legal",
+        "performance",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Ply Gem MIRA Impact Double-Hung Technical Specifications (PDF)",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Impact-rated Mira configuration meets ASTM E1886/1996 Large Missile Impact standard, AAMA/WDMA/CSA 101/I.S.2/A440 compliance, and Florida Building Commission approval. NFRC-certified values tested with 3/4-inch IGU, laminated glass, Warm Edge spacer, no grilles.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Published technical specification with NFRC-certified testing data and specific compliance standards; constitutes structured scoring data despite manufacturer origin.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Ply Gem Warranty Portal",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Online warranty resource with registration requirements, installation best practices, and thermal performance standards. Mirrors warranty document terms. No independent validation of coverage accessibility or claim resolution rates provided.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer content duplicating warranty document information; no independent data.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Ply Gem Window Installation Guide",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer installation guide documenting cold weather protocols, surface preparation requirements, flashing procedures, and sealant curing requirements. Addresses installation methodology but does not assess product performance independently.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality and procedures, not product quality per auto-classification rules.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Ply Gem Energy Efficiency Blog",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer educational content explaining vinyl, wood, and aluminum frame materials; Low-E glass technology; thermal break concepts; and energy cost reduction benefits. Promotional positioning without independent testing data or third-party validation.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/educational content without independent verification.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Fine Homebuilding Forum – Owner with Seal Failures and Condensation",
+      "url": "https://www.finehomebuilding.com",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Homeowner-builder reports four units leaked from improperly sealed frame miters; five sashes developed cloudy failed glass seals. Condensation forms on aluminum frame interior despite thermal break. Wood components stained black from moisture absorption. Seven sash replacements documented within five years.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post from credentialed owner-builder describing physical product defects with specific failure counts and mechanisms; corroborated by broader documented pattern across multiple sources.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "warranty"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Fine Homebuilding Forum – Professional Builder Assessment of Ply Gem",
+      "url": "https://www.finehomebuilding.com",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Experienced builder classifies Ply Gem as balanced value product with expected quality inconsistencies. Notes PVC extrusion blemishes and frame flex are normal. States proper installation by conscious installer mitigates most complaints. Architect stopped recommending Ply Gem due to service and quality concerns.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post from professional with decade of experience providing structured product assessment with comparative context; corroborates quality limitation pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "value",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "YouTube – Marvin vs. Andersen Comparison Video",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Contractor comparison of Andersen 400 series versus Marvin Elevate fiberglass construction. Explains material durability differences and cleaning procedures. Does not directly assess Ply Gem Mira; provides competitive benchmark context for premium alternatives.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Source focuses on competing products (Andersen and Marvin), not the Ply Gem Mira product line under review.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "J.D. Power 2025 U.S. Windows and Patio Doors Satisfaction Study (via Cornerstone Building Brands)",
+      "url": "https://www.cornerstonebuildingbrands.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "American Craftsman by Ply Gem ranked #2 in manufacturer segment, improving from #3 prior year. Survey of 3,095 respondents fielded August 2024–June 2025. Measures vinyl product line satisfaction; not directly applicable to Mira aluminum-clad wood series.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independently conducted market research with structured scoring methodology and substantial respondent base; qualifies as expert comparison source despite being for a different but related Ply Gem product line.",
+      "topics": [
+        "quality",
+        "service",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Ply Gem Windows By Series – Product Portfolio Page",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Overview of Ply Gem's 18 window collections including MIRA series; documents impact options, Perspective patio door system, and regional customization emphasis. Confirms product line scope and available configurations without independent performance data.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; product portfolio overview without independent assessment.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Ply Gem Installation Instructions – Screen Options",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer installation resource documenting fiberglass mesh screen as standard on operable windows; additional screen options available. Provides professional and homeowner resources. Installation-focused content without product performance evaluation.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation procedures, not product quality per auto-classification rules.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Ply Gem Energy Efficiency Guide – Frame and Glass Materials",
+      "url": "https://www.plygem.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Educational resource detailing window material options, Low-E glass benefits, argon and krypton gas fill technology, and thermal break concepts for aluminum frames. Manufacturer-produced promotional content without independent test data validation.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer educational/marketing content without independent verification; duplicates information in other Ply Gem sources.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Mixed; adequate for value positioning but inconsistent craftsmanship; professional installers note quality limitations requiring expert remediation",
+      "review": "3.5–4.0 star ratings; positioned as mid-tier budget replacement brand; steady but not superior performance language",
+      "forum": "Widely variable; significant quality control complaint volume; manufacturing defects documented across multiple homeowner accounts",
+      "agreement": "QUALIFIED — Product meets basic minimum standards but exhibits notable and recurring deficiencies inconsistent with premium positioning"
+    },
+    {
+      "topic": "Durability",
+      "expert": "5–10 year typical lifecycle concerns for aluminum-clad wood; thermal performance degradation noted; condensation causes wood component damage",
+      "review": "No published independent durability studies; aluminum-clad wood category generally durable but Ply Gem not featured in premium longevity analyses",
+      "forum": "IGU seal failures reported at 2–5 years; some units replaced three times within 10 years; systematic rather than random failure pattern",
+      "agreement": "PROBLEMATIC — Insulating glass seal durability significantly below expected lifecycle; frame durability undermined by condensation moisture damage"
+    },
+    {
+      "topic": "Thermal Performance",
+      "expert": "Meets code requirements; thermally broken design inadequate in high-humidity or extreme climate differentials; condensation on aluminum frame interior documented",
+      "review": "ENERGY STAR certified; U-Factor approximately 0.04 competitive for mid-tier; laboratory specifications do not fully reflect real-world performance",
+      "forum": "Condensation formation reported frequently on frame interiors and weatherstrip; thermal break characterized as insufficient; wood staining from moisture accumulation",
+      "agreement": "DIVERGENT — Published specifications adequate; real-world thermal performance in demanding climates consistently underperforms expectations"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "20-year nominal term appears competitive; broad exclusions for water infiltration and installation create practical access barriers; 1-year labor limit renders extended coverage of limited value",
+      "review": "20-year material and component coverage documented; labor provision limited to 12 months; broad exclusion language noted in published analyses",
+      "forum": "Warranty denials common; water infiltration attributed to installation rather than product; labor cost barrier after year one prohibitive; some successful resolutions after persistent effort",
+      "agreement": "PROBLEMATIC — Coverage exists on paper but exclusion language and administration patterns create significant consumer access barriers"
+    },
+    {
+      "topic": "Service",
+      "expert": "Architects report service delays influencing future specification decisions; inconsistent responsiveness; warranty claim navigation requires substantial consumer effort",
+      "review": "Not formally rated in major publications; BBB records indicate systemic claim delays and technical denials across product portfolio",
+      "forum": "Highly variable; some positive resolution examples requiring persistence; majority experience delays, runarounds, and technical denials",
+      "agreement": "POOR — Inconsistent responsiveness; delayed claim resolution documented across multiple independent sources"
+    },
+    {
+      "topic": "Value",
+      "expert": "Reasonable cost relative to premium alternatives; quality does not consistently justify mid-premium pricing; professionals recommend premium alternatives when budget permits",
+      "review": "$900–$2,200 per unit for Mira wood-clad; reasonably positioned for mid-tier but American Craftsman J.D. Power ranking may not translate to Mira series",
+      "forum": "Majority view: overpriced for quality delivered; long-term costs including warranty remediation and replacement offset initial savings versus Andersen or Marvin",
+      "agreement": "WEAK — Initial cost savings relative to premium products do not offset quality deficiencies and remediation costs over product lifecycle"
+    },
+    {
+      "topic": "Performance",
+      "expert": "NFRC-certified specifications meet code; real-world air infiltration failure documented in federal court case; balance mechanism failures on delivery noted",
+      "review": "Specifications competitive for climate zone compliance; impact-rated variants meet ASTM E1886/1996 and Florida Building Code requirements",
+      "forum": "Air leakage complaints common; water infiltration from seal and frame miter failures documented; operational problems with sash mechanisms reported",
+      "agreement": "DIVERGENT — Certified specifications adequate; documented real-world operational and infiltration failures undermine performance claims"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Nominal 20-year warranty duration is competitive within mid-tier window market segment",
+      "Warranty is transferable to subsequent owners upon written notification, providing some resale value protection",
+      "Some consumers report complete warranty resolution at no cost when correct corporate contacts are identified"
+    ],
+    "underperforms_expectations": [
+      "Labor coverage limited to only 12 months; after year one, homeowners bear full installation labor costs for warranty replacements, which frequently exceed component costs",
+      "Broad water infiltration exclusion ('improper installation or flaws in building design') is applied systematically to deny valid product defect claims",
+      "Non-residential warranty reduced to 10 years and explicitly non-transferable, significantly limiting commercial application value",
+      "Claim resolution requires substantial consumer effort to navigate corporate structure; delays of up to six months documented",
+      "Some homeowners required to transport and self-install replacement components rather than receiving professional service"
+    ],
+    "surprises": [
+      "The water infiltration exclusion language is broad enough that virtually any water intrusion claim can be attributed to installation, effectively immunizing the manufacturer from the most common failure mode",
+      "Products installed within one mile of saltwater require specific additional maintenance to qualify for clad finish coverage—a restriction not prominently disclosed at point of sale",
+      "IGU seal failures requiring multiple replacements within 10 years suggest the 20-year material warranty may be largely theoretical for a subset of units",
+      "Legal investigation by Migliaccio & Rathod LLP suggests warranty disputes have reached class action threshold, indicating systemic rather than isolated administration failures"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "approximately 0.04 (NFRC-certified; tested with 3/4-inch IGU, Warm Edge spacer, no grilles)",
+    "shgc": "not_specified_in_sources",
+    "air_infiltration": "not_independently_verified; federal court case documents air infiltration failure on Ply Gem windows when closed",
+    "frame_material": "Aluminum-clad wood; extruded aluminum exterior cladding over wood frame with thermally broken components",
+    "glass": "Low-E coating with argon gas fill (HP glass option); laminated glass for impact-rated variants; 3/4-inch insulating glass units",
+    "dp_rating": "not_specified_in_sources",
+    "stc": "not_specified_in_sources",
+    "impact_rating": "Impact variants meet ASTM E1886/1996 Large Missile Impact and Cycling Test; AAMA/WDMA/CSA 101/I.S.2/A440 compliant; Florida Building Commission approved",
+    "energy_star_certified": true,
+    "exterior_colors": "46 options; Super Dynopon polyester finish; saltwater proximity maintenance requirements apply within one mile",
+    "interior_finish": "Customizable stain or paint on natural wood",
+    "warranty_term_residential": "20 years materials and components; 1 year labor; owner-occupied single-family",
+    "warranty_term_commercial": "10 years; non-transferable",
+    "price_range_per_unit": "$900–$2,200 (2026 market data; Mira wood-clad configuration)"
+  },
+  "red_flags": [
+    {
+      "type": "legal_investigation",
+      "description": "Migliaccio & Rathod LLP is actively investigating Ply Gem for potential class action based on widespread IGU seal failures, fogging between panes, water intrusion, and warranty disputes with repair delays. Consumer protection and warranty claims identified as viable causes of action.",
+      "source": "SRC-007",
+      "severity": "high"
+    },
+    {
+      "type": "legal_precedent",
+      "description": "ProLite Building Supply v. Ply Gem Windows federal appellate case confirmed that Ply Gem windows admitted air when closed, representing fundamental product failure. Builders terminated purchasing relationships due to product defect. Summary judgment affirmed against Ply Gem.",
+      "source": "SRC-016",
+      "severity": "high"
+    },
+    {
+      "type": "systematic_manufacturing_defect",
+      "description": "Multiple independent sources document IGU seal failures at 2–5 years across large-scale installations. One homeowner reports three replacement cycles within 10 years on the same units. Pattern is systematic across geographically diverse installations, suggesting design or manufacturing process deficiency.",
+      "source": "SRC-021, SRC-003",
+      "severity": "high"
+    },
+    {
+      "type": "warranty_administration_concern",
+      "description": "Documented pattern of warranty claim denials attributing water infiltration failures to installation methodology rather than product defect. Broad exclusion language effectively immunizes manufacturer from most common failure mode. BBB records confirm systemic delays and technical denials.",
+      "source": "SRC-010, SRC-002",
+      "severity": "high"
+    },
+    {
+      "type": "quality_control_deficiency",
+      "description": "New units shipped with incomplete balance clip assemblies; dimensional inconsistencies in frames requiring replacement before installation; pre-drilled holes incomplete or burred. Multiple independent installer sources document these manufacturing process failures on newly purchased units.",
+      "source": "SRC-005, SRC-014",
+      "severity": "medium"
+    },
+    {
+      "type": "corporate_stability",
+      "description": "Ply Gem underwent private equity acquisition by CD&R in 2018 ($2.4 billion), immediate merger with Atrium Windows, and subsequent acquisition by Cornerstone Building Brands. Multiple ownership transitions create integration risk and potential quality control disruption during transition periods.",
+      "source": "SRC-011",
+      "severity": "low"
+    },
+    {
+      "type": "thermal_performance_concern",
+      "description": "Despite ENERGY STAR certification and thermally broken frame design, documented condensation formation on aluminum frame interior surfaces causes wood staining and potential rot. Manufacturer's own thermal break design appears inadequate for high-humidity or extreme climate differential applications.",
+      "source": "SRC-021, SRC-022",
+      "severity": "medium"
+    }
+  ],
+  "bottom_line": "The Ply Gem Mira double-hung window is a value-oriented mid-tier product that achieves minimum competitive specifications on paper—ENERGY STAR certification, U-Factor approximately 0.04, 20-year nominal warranty—but fails to deliver consistent quality in practice. Three independent evidence streams converge on the same conclusions: professional contractors document systematic quality control failures and thermal performance inadequacy; published reviews position Ply Gem as a budget-to-mid-tier brand with steady but not superior performance; and real-world owner reports reveal premature IGU seal failures at 2–5 years, water infiltration, condensation-driven wood damage, and warranty administration barriers that render the 20-year coverage largely inaccessible. A federal appellate case has already confirmed air infiltration product failures, and an active class action investigation targeting IGU seal failures and warranty disputes signals that consumer harm has reached organized legal threshold. The one-year labor warranty limitation and the broad water infiltration exclusion together neutralize most of the warranty's practical value after year one. For price-constrained projects where premium alternatives are genuinely unaffordable, Mira windows require expert installation by professionals experienced with Ply Gem-specific protocols, realistic budgeting for potential post-warranty remediation, and active warranty claim preparation from day one. For any project where long-term performance, warranty reliability, or installation consistency are priorities, the cost premium for Andersen, Pella, or Marvin is likely justified by the quality and service differential. The 2025 J.D. Power #2 ranking for American Craftsman vinyl products suggests possible portfolio-wide quality improvement trajectory, but this signal has not yet manifested in Mira series performance data.",
+  "scoring_summary": {
+    "scoreable_sources": [
+      "SRC-003",
+      "SRC-005",
+      "SRC-009",
+      "SRC-013",
+      "SRC-014",
+      "SRC-017",
+      "SRC-021",
+      "SRC-022",
+      "SRC-024"
+    ],
+    "report_only_sources": [
+      "SRC-002",
+      "SRC-004",
+      "SRC-006",
+      "SRC-007",
+      "SRC-010",
+      "SRC-011",
+      "SRC-015",
+      "SRC-016",
+      "SRC-019",
+      "SRC-026"
+    ],
+    "quarantine_sources": [
+      "SRC-001",
+      "SRC-008",
+      "SRC-012",
+      "SRC-018",
+      "SRC-020",
+      "SRC-023",
+      "SRC-025",
+      "SRC-027"
+    ],
+    "pool_distribution": {
+      "S": 0,
+      "A": 2,
+      "B": 7,
+      "C": 18
+    },
+    "overall_signal": "NEGATIVE — Convergent evidence from professional, published review, and consumer forum streams indicates systematic quality control, durability, and warranty administration deficiencies that outweigh competitive specification credentials."
+  },
+  "product_slug": "ply_gem_mira",
+  "product_name": "Ply Gem Mira",
+  "manufacturer_slug": "ply_gem",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 153891,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 27,
+    "score": 9,
+    "report_only": 10,
+    "quarantine": 8
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.15709499999999998,
+  "verification_date": "2026-03-23T19:46:37.988Z"
+}

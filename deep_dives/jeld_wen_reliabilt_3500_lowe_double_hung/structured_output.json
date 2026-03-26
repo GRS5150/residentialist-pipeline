@@ -1,0 +1,52 @@
+{
+  "product": "JELD-WEN Reliabilt 3500 Double-Hung Window",
+  "report_metadata": {
+    "parse_status": "failed_no_source_content",
+    "reason": "The raw report contained no product research, source citations, specifications, forum findings, or review data. The submitted content was entirely a capability-disclaimer message from the research agent, explaining it could not perform real-time searches. There is no parseable source material present.",
+    "sources_found": 0,
+    "action_required": "Resubmit with a completed deep dive report containing actual sources, snippets, forum findings, expert opinions, and/or specification data."
+  },
+  "sources": [],
+  "consensus_matrix": [],
+  "warranty_reality": {
+    "beats_expectations": [],
+    "underperforms_expectations": [],
+    "surprises": []
+  },
+  "verified_specs": {
+    "u_factor": "not_available",
+    "shgc": "not_available",
+    "air_infiltration": "not_available",
+    "frame_material": "not_available",
+    "glass": "not_available",
+    "dp_rating": "not_available",
+    "stc": "not_available",
+    "notes": "No specification data was present in the submitted report."
+  },
+  "red_flags": [
+    {
+      "type": "pipeline_integrity",
+      "description": "The research agent returned a capability disclaimer instead of a completed deep dive. No actual product intelligence was gathered. Scoring pipeline cannot proceed without source content. Risk of scoring gap if this slot is left unfilled.",
+      "severity": "blocking"
+    }
+  ],
+  "bottom_line": "No synthesizable content was present in the submitted raw report. The document consisted entirely of an AI capability disclaimer with zero product-specific findings, source citations, forum data, expert opinions, or specification references. The Residentialist scoring pipeline requires a resubmission with a properly populated deep dive before any score, classification, or consensus matrix can be generated for the JELD-WEN Reliabilt 3500 double-hung window.",
+  "product_slug": "jeld_wen_reliabilt_3500_lowe",
+  "product_name": "JELD-WEN Reliabilt 3500 Lowe",
+  "manufacturer_slug": "jeld_wen",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 10444,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 0,
+    "score": 0,
+    "report_only": 0,
+    "quarantine": 0,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.010686000000000001
+}

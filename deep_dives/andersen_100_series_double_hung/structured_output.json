@@ -1,0 +1,607 @@
+{
+  "product": "Andersen 100 Series Double-Hung Windows",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Michigan Screen & Window",
+      "url": "https://www.michiganscreen.com",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Rates 100 Series 7.4/10 based on 10+ years of field installations. Notes no bowing, sagging, or color fade observed. Praises Fibrex temperature stability but criticizes limited customization and cleaning difficulty on single-hung configurations.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed regional installer with decade of documented field observations providing structured numeric rating and specific product critique.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Siding & Windows Wizards LLC (YouTube)",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Head-to-head comparison of Andersen 100 Series vs Marvin Essential. Rates Andersen lower for frame thickness (3-1/8 inch vs 2.5 inch) and drainage design. Fibrex aesthetic rated equivalent to Marvin fiberglass. Notes weep hole maintenance burden.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional installation company conducting structured comparative product analysis with specific measurable criteria and scored outcomes.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Jake Bruton, Aarow Building (YouTube)",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "High-performance builder documents 100 Series installation in new construction. Emphasizes water, air, and thermal control layer continuity. Identifies improper flashing sequencing as root cause of most reported water infiltration issues rather than product defects.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed high-performance builder with documented installation methodology providing expert opinion on product performance dependencies.",
+      "topics": [
+        "performance",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Arizona Window Replacement",
+      "url": "https://www.azwindowreplacement.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "2024 field evaluation rates 100 Series as excellent for desert climates. Fibrex 200% stronger than vinyl, handles 150°F temps. SmartSun glass blocks 95% UV. Prices $500–$1,000 installed, 10–15% premium over high-quality vinyl.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review from regional installer with thousands of installations; provides specs, pricing, and climate-specific performance data, though dealer context introduces modest bias.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Consumer Reports (2026 Lab Testing)",
+      "url": "https://www.consumerreports.org",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "2026 laboratory evaluation tests double-hung windows at 25 and 50 mph wind pressures, 0°F and 70°F, and simulated rain at 5 gal/sq ft/hr. Top performers withstand 74 mph simulated winds. Andersen included in comparative evaluation; product-specific ratings not published in report.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent laboratory testing publication using standardized methodology; provides validated testing context even without Andersen-specific published scores.",
+      "topics": [
+        "performance",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "NFRC Performance Ratings (Andersen 100 Series)",
+      "url": "https://www.andersenwindows.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Third-party certified NFRC ratings for 100 Series double-hung with Low-E SmartSun glass: U-Factor 0.29, SHGC 0.20, VT 0.48. ENERGY STAR 6.0 certified across all US climate zones. Air infiltration meets 0.3 cfm/ft² standard.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Third-party certified performance data from NFRC using standardized independent testing protocols; objective specification data suitable for scoring.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "GreenBuildingAdvisor Forum",
+      "url": "https://www.greenbuildingadvisor.com",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Divided professional opinions. One installer reports satisfaction with casements; another documents sash side-to-side play, balance hardware springing free, windows sagging crooked, and up to 30% stress crack failures in units pulled for reflashing. Water damage at top miter joints noted.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects with corroborating pattern across multiple installations by professional builder; 30% stress crack failure rate constitutes corroborated defect pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Fine Homebuilding Forum",
+      "url": "https://www.finehomebuilding.com",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Builder in Northern Utah documents installation methodology planning for 100 Series using Method 2 sealed flange approach. Explains climate-specific reasoning for deviating from drainage method. Illustrates technical complexity of proper installation decisions.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion focused on installation methodology and climate-specific decision-making rather than product quality; no product defect described.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz Forum Discussion",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowners compare Andersen 100 Series vs Marvin Integrity Ultrex. Notes Andersen lacks jam extension components. Andersen quote $5,000 lower than Marvin for same scope. Homeowners report difficulty distinguishing product lines and rely heavily on professional recommendations.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Consumer forum discussing price comparison and sales process; no documented product defect or structured quality assessment.",
+      "topics": [
+        "value",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "House Repair Talk Forum",
+      "url": "https://www.houserepairtalk.com",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Homeowner documents stuck balance hardware on single-hung window; balance jammed upright blocking sash operation and access to removal clip. Required creative problem-solving to resolve without professional help. Highlights serviceability complexity not disclosed in marketing.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical mechanical product defect consistent with balance hardware failure pattern corroborated by GreenBuildingAdvisor professional reports.",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "BBB Andersen Corporation Complaints",
+      "url": "https://www.bbb.org",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Pattern of warranty disputes: water infiltration attributed to installation; custom patio door warped after years of use; Andersen replaced parts but denied finish premium refund. Customer reported 15+ minute hold times, being called a liar, difficulty reaching management.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB complaints document warranty claim disputes and customer service experiences; warping noted but primary documentation covers dispute resolution process rather than structured product defect corroboration.",
+      "topics": [
+        "warranty",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "BBB Renewal by Andersen Complaints",
+      "url": "https://www.bbb.org",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Complaints document installation quality disputes and humidity attribution for condensation issues. Service quality concerns noted as adversarial. Distinct from 100 Series direct manufacturer complaints but reflects broader organizational customer service patterns.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Complaints target Renewal by Andersen subsidiary and primarily cover installation and service disputes rather than direct 100 Series product quality.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "CPSC Recall Announcement (February 2026)",
+      "url": "https://www.cpsc.gov",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "91,000 units recalled for window opening control devices on 100 Series casements. Devices can break or detach after impact, posing fall and injury hazards. 8 incidents reported, no injuries. Manufactured October 2015–November 2025. Free in-home repair offered.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Official regulatory recall filing; legal and safety documentation rather than product scoring event. Affects casement WOCD components, not double-hung product line directly.",
+      "topics": [
+        "quality",
+        "legal",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "TINA.org FTC Complaint (Renewal by Andersen)",
+      "url": "https://www.truthinadvertising.org",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "July 2025 FTC complaint documents 80+ examples of Renewal by Andersen deceptively marketing windows as Made in USA despite imported components. $400M+ in advertising implicated. Prior 2014 NYC DCA violation for unsubstantiated efficiency claims also referenced.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal and regulatory filing targeting Renewal by Andersen subsidiary marketing practices; not a direct product quality assessment of the 100 Series manufactured product.",
+      "topics": [
+        "legal",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Wikipedia – Andersen Corporation",
+      "url": "https://en.wikipedia.org",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Andersen Corporation founded 1903, privately held, Bayport MN. 12,000 employees, $3B revenue, largest North American window manufacturer. Recent acquisitions include Bright Wood Corp (2025). Regulatory actions include 2019 DC $50K fine and 2022 MN disability settlement.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Reference source documenting company history, stability, scale, and regulatory actions; relevant to warranty fulfillment confidence but not product quality scoring.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Brennan Corp Warranty Review",
+      "url": "https://www.brennancorp.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Documents 20-year glass and 10-year hardware Owner-2-Owner transferable warranty. Notes exclusions: labor costs, non-certified installation, impact damage, bright brass and satin nickel hardware finishes. Arbitration clause prevents class-action participation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with detailed warranty specification analysis from knowledgeable dealer source; provides structured assessment of coverage and limitations relevant to scoring.",
+      "topics": [
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Brennan Corp – Andersen 100 vs 200 Series Comparison",
+      "url": "https://www.brennancorp.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Compares 100 Series Fibrex composite vs 200 Series wood-interior/vinyl-clad. 100 Series offers 6 style options vs 3 for 200 Series. Both priced $500–$1,000 installed; identical warranty terms. 200 Series provides dual-sash operation; 100 Series limited to single-hung.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with structured specifications and pricing data from knowledgeable dealer source.",
+      "topics": [
+        "specs",
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Andersen vs Pella vs Marvin – La Grange Illinois",
+      "url": "https://www.valdicass.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Regional comparative analysis ranks Pella first for historic accuracy, Marvin for premium aesthetics, Andersen for vinyl-clad durability. Andersen 100 Series rated limited for historic profile accuracy, wood interior options, and grille pattern flexibility.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with structured product ranking across defined criteria from regional contractor; provides scored positioning versus competitors.",
+      "topics": [
+        "quality",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Andersen vs Pella vs Marvin – Texas (JP Exteriors TX)",
+      "url": "https://www.jpexteriorstx.com",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Texas contractor confirms Andersen Fibrex handles thermal expansion better than standard vinyl in extreme heat. Emphasizes installation quality equals product quality in determining long-term performance. Positions Andersen as cost-effective alternative to Marvin premium tier.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review from regional contractor with climate-specific installation experience providing structured product position and performance assessment.",
+      "topics": [
+        "performance",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Renewal by Andersen 20-Year Durability Study",
+      "url": "https://www.renewalbyandersen.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer-sponsored field study of windows installed from 1995 onward. Reports Fibrex windows pass performance requirements with no degradation observed after 20+ years. Used to support material durability claims.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content from Renewal by Andersen subsidiary; self-sponsored durability study without independent verification; potential conflict of interest disqualifies from scoring pool.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "How It's Made: Fibrex (APBS-AZ Contractor)",
+      "url": "https://www.apbs-az.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Describes Fibrex manufacturing: 40% reclaimed wood fiber combined with 60% thermoplastic PVC polymer, extruded through precision dies, automated assembly at Goodyear AZ facility. Documents material composition and production process.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published contractor content documenting verified manufacturing specifications and material composition; provides factual spec data without overt marketing bias.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Andersen Windows Official Help Center",
+      "url": "https://helpcenter.andersenwindows.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official specification documentation: Fibrex resists fading, flaking, peeling; tilt-wash design details; six exterior color options integrated into material. References drainage vs sealed installation methods.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing and product specification content; useful for spec extraction but classified quarantine as primary source due to inherent promotional bias.",
+      "topics": [
+        "specs",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Andersen 100 Series Product Brochure",
+      "url": "https://www.andersenwindows.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official product brochure: Fibrex is 40% reclaimed wood fiber; thermally blocks 700x better than aluminum; six styles available; Low-E4 glass standard; ENERGY STAR certified; hardware options in six finishes.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing brochure; provides extractable specification data but classified quarantine as scored source due to promotional origin.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Andersen Official Installation Best Practices",
+      "url": "https://www.andersenwindows.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official installation guidance documenting drainage vs sealed flange methods, flashing sequencing requirements, and water/air/thermal control layer integration. Explains why bottom flange is left untaped in drainage method.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer installation guidance; relevant context but classified quarantine as scored source. Installation methodology content rather than product quality assessment.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Top Class Actions – CPSC Recall Summary",
+      "url": "https://www.topclassactions.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "News summary of February 2026 CPSC recall: Andersen offering free in-home repair for affected WOCD units; dedicated recall phone line 844-815-7332 and website established. 91,000 units affected, 8 incidents, no injuries reported.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Secondary news reporting on regulatory recall; documents legal and safety action but not a product quality scoring source.",
+      "topics": [
+        "legal",
+        "warranty"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Highly variable; strong materials but design limitations noted",
+      "review": "Strong entry-level product with good value positioning",
+      "forum": "Mixed; durable material confirmed but specific mechanical failures documented",
+      "agreement_level": "partial",
+      "notes": "Material quality universally confirmed; execution and specific component reliability divided"
+    },
+    {
+      "topic": "Durability",
+      "expert": "10+ years without degradation documented across multiple climates",
+      "review": "20-year manufacturer study and NFRC confirm material stability",
+      "forum": "10-year success reported by some; 30% stress crack failures cited by one professional",
+      "agreement_level": "moderate",
+      "notes": "Fibrex material endures; balance hardware and miter joint design show vulnerability"
+    },
+    {
+      "topic": "Performance",
+      "expert": "Installation-dependent; water management requires expertise",
+      "review": "NFRC U-Factor 0.29, SHGC 0.20 confirmed; ENERGY STAR 6.0 certified",
+      "forum": "Homeowners report lower energy costs; water infiltration complaints correlated with installation issues",
+      "agreement_level": "strong",
+      "notes": "Energy performance meets specifications; overall performance substantially installation-dependent"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Transferable 20-year glass / 10-year hardware rated competitive advantage",
+      "review": "Coverage strong on paper; labor exclusions and arbitration clause noted",
+      "forum": "BBB complaints document adversarial claim denial; out-of-warranty determinations disputed",
+      "agreement_level": "moderate",
+      "notes": "Warranty terms strong; dispute resolution process consistently rated poorly by consumers"
+    },
+    {
+      "topic": "Service",
+      "expert": "Certified contractors provide strong support; service depends on installer selection",
+      "review": "Service quality varies significantly by installer and region",
+      "forum": "BBB complaints document 15+ minute holds, claim denials, adversarial tone",
+      "agreement_level": "weak",
+      "notes": "Service experience strongly installer-dependent; direct Andersen warranty service rated poorly"
+    },
+    {
+      "topic": "Value",
+      "expert": "85% of premium performance at 60% of premium cost; good market positioning",
+      "review": "$500–$1,000 installed; 10–15% premium over high-quality vinyl; justified by Fibrex benefits",
+      "forum": "Homeowners satisfied when properly installed; price vs Marvin gap noted as $5,000+ per project",
+      "agreement_level": "strong",
+      "notes": "Value proposition consistently rated positively across all source types"
+    },
+    {
+      "topic": "Specs",
+      "expert": "Fibrex 200% stronger than vinyl; 700x better thermal transfer than aluminum confirmed",
+      "review": "NFRC-certified U-0.29, SHGC 0.20, VT 0.48; air infiltration 0.3 cfm/ft²",
+      "forum": "Technical specs not typically discussed in forum contexts",
+      "agreement_level": "strong",
+      "notes": "Specifications consistently confirmed across expert and review sources"
+    },
+    {
+      "topic": "Legal",
+      "expert": "CPSC recall (91,000 units casement WOCD) documented; FTC investigation ongoing",
+      "review": "Recall and FTC complaint both documented in secondary reporting",
+      "forum": "Not prominently discussed in consumer forums",
+      "agreement_level": "strong",
+      "notes": "Recall and FTC action factually documented; no consumer injury reported from recall"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Owner-2-Owner transferability to subsequent homeowners without coverage loss; rare in the category",
+      "20-year glass and seal coverage represents industry-leading duration for composite window products",
+      "Six hardware finish options covered under 10-year warranty except bright brass and satin nickel"
+    ],
+    "underperforms_expectations": [
+      "Labor costs for warranty repairs explicitly excluded; homeowner bears technician fees which can exceed part costs",
+      "Water infiltration attributed to installation methodology rather than product defect; denials common",
+      "Arbitration clause prevents class-action participation even when multiple units share identical defects",
+      "Non-certified installation voids coverage; consumers often unaware of this requirement at purchase",
+      "Bright brass and satin nickel hardware finishes explicitly excluded from warranty coverage"
+    ],
+    "surprises": [
+      "Dispute resolution requires formal Notice of Dispute submission; 60-day response window can extend resolution timeline significantly",
+      "Drainage method allows water to appear in frame cavity by design; interpreted as defect by many homeowners creating warranty friction",
+      "BBB complaints reveal pattern of Andersen attributing condensation issues to interior humidity conditions rather than accepting product liability",
+      "February 2026 CPSC recall revealed only after 8 incidents across 91,000 units; no injuries but safety hazard existed for years undetected"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.29 (Low-E SmartSun glass, NFRC certified)",
+    "shgc": "0.20 (Low-E SmartSun glass, NFRC certified)",
+    "visible_transmittance": "0.48",
+    "air_infiltration": "0.30 cfm/ft² maximum (non-operant, LC, and CW configurations)",
+    "frame_material": "Fibrex composite – 40% reclaimed wood fiber, 60% thermoplastic PVC polymer",
+    "glass": "Low-E4 SmartSun standard; PassiveSun and HeatLock available; blocks 95% UV (SmartSun)",
+    "dp_rating": "Not specified in report",
+    "stc": "Not specified in report",
+    "energy_star": "ENERGY STAR 6.0 certified across all US climate zones",
+    "frame_thickness": "3-1/8 inches (frame and sash combined)",
+    "thermal_performance_vs_aluminum": "700x better thermal transfer resistance than aluminum frames",
+    "strength_vs_vinyl": "200% stronger and more rigid than conventional vinyl",
+    "color_options_exterior": "White, Sandtone, Dark Bronze, Black, Putnam Green, Terratone – color integrated into material",
+    "hardware_finish_options": "White, Sandtone, Dark Bronze, Black, Satin Nickel, Antique Brass",
+    "style_options": "Awning, casement, gliding, single-hung, picture, specialty shapes (6 total)",
+    "price_range_installed": "$500–$1,000 per window installed",
+    "warranty_glass": "20 years",
+    "warranty_hardware": "10 years",
+    "warranty_transferable": true
+  },
+  "red_flags": [
+    {
+      "type": "recall",
+      "date": "2026-02-26",
+      "authority": "US Consumer Product Safety Commission",
+      "description": "Recall of window opening control devices (WOCD) on 100 Series casement windows. Approximately 91,000 units affected manufactured prior to November 19, 2025. Devices can break or detach after impact, posing fall and serious injury hazards. 8 incidents reported; no injuries. Remedy: free in-home repair by authorized technician.",
+      "affected_units": "~91,000 casement windows with WOCD",
+      "recall_url": "https://www.andersenwindows.com/100seriescasementwocdrecall",
+      "severity": "moderate – hazard potential confirmed but no injuries reported"
+    },
+    {
+      "type": "ftc_investigation",
+      "date": "2025-07",
+      "authority": "Federal Trade Commission (complaint filed by TINA.org)",
+      "description": "Renewal by Andersen subsidiary accused of deceptive 'Made in USA' and 'Custom Built in the USA' marketing claims despite incorporating imported components. 80+ documented examples across TV, social media, and print. $400M+ in advertising implicated. FTC can seek up to $53,088 per violation. Prior 2014 NYC DCA violation for unsubstantiated efficiency claims also on record.",
+      "affected_entity": "Renewal by Andersen (subsidiary, not direct 100 Series manufacturer)",
+      "severity": "reputational and financial risk to parent organization; does not directly implicate 100 Series product quality"
+    },
+    {
+      "type": "legal_regulatory",
+      "date": "2019-08",
+      "authority": "District of Columbia",
+      "description": "Renewal by Andersen fined $50,000 for refusing service in certain DC zip codes in violation of the Human Rights Act.",
+      "affected_entity": "Renewal by Andersen subsidiary",
+      "severity": "low – isolated regulatory action, settled"
+    },
+    {
+      "type": "legal_regulatory",
+      "date": "2022-10",
+      "authority": "Minnesota Department of Human Rights",
+      "description": "Andersen Corporation settled after withdrawing job offer based on disability status. Agreed to pay $41,000 and implement workplace inclusion improvements.",
+      "affected_entity": "Andersen Corporation",
+      "severity": "low – employment matter unrelated to product quality, settled"
+    },
+    {
+      "type": "pattern_complaint",
+      "date": "ongoing",
+      "authority": "Better Business Bureau",
+      "description": "Documented pattern of warranty claim denials attributing water infiltration and condensation to installation or environmental factors rather than product defects. Arbitration clause in warranty prevents class-action aggregation. Multiple homeowners report adversarial resolution experience.",
+      "affected_entity": "Andersen Corporation / Renewal by Andersen",
+      "severity": "moderate – systemic warranty dispute pattern with consumer friction implications"
+    },
+    {
+      "type": "field_defect_pattern",
+      "date": "ongoing",
+      "authority": "GreenBuildingAdvisor professional forum",
+      "description": "One professional installer documents up to 30% stress crack failures in windows pulled for reflashing, water accumulation at top miter joints, and sash lateral play causing balance hardware failures. Pattern not corroborated by manufacturer but noted by credentialed professional.",
+      "affected_entity": "Andersen 100 Series single-hung windows",
+      "severity": "moderate – requires further corroboration but flagged as potential design defect pattern"
+    }
+  ],
+  "bottom_line": "The Andersen 100 Series double-hung windows deliver genuine material innovation through Fibrex composite technology – demonstrably more durable than vinyl, color-stable across decades, and energy-efficient enough to achieve ENERGY STAR 6.0 certification with a U-Factor of 0.29 and SHGC of 0.20. Professional field observation across Michigan, Arizona, and Texas confirms that Fibrex performs as specified in extreme climates where standard vinyl fails. At $500–$1,000 installed, the 100 Series offers approximately 85% of premium window performance at 60% of premium window cost, representing a strong value proposition for budget-conscious homeowners who do not require wood interiors, dual-sash operation, or historic profile accuracy. However, the product is meaningfully installation-dependent: water infiltration issues documented in consumer forums and GBA professional discussions trace primarily to improper flashing sequencing and drainage plane integration rather than product defects, but this distinction creates real warranty friction when Andersen denies claims on installation grounds. The single-hung configuration limits cleaning access and operational flexibility; the 3-1/8 inch frame reduces glass area versus Marvin Essential; and balance hardware serviceability represents a documented maintenance complexity concern. The February 2026 CPSC recall of casement window opening control devices (91,000 units, no injuries) and the FTC investigation into Renewal by Andersen's Made in USA claims introduce reputational and regulatory overhang without directly compromising 100 Series product integrity. The warranty is structurally competitive with 20-year glass and transferable coverage, but the arbitration clause, labor exclusions, and pattern of adversarial claim denial documented in BBB records reduce its practical value below its stated terms. Recommended for buyers who prioritize Fibrex durability, low maintenance, and energy performance; not recommended for buyers requiring dual-sash operation, wood interiors, or maximum glass real estate, or for historic renovation applications requiring profile accuracy.",
+  "metadata": {
+    "total_sources": 25,
+    "sources_by_pool": {
+      "S": 0,
+      "A": 6,
+      "B": 11,
+      "C": 8
+    },
+    "sources_by_classification": {
+      "score": 12,
+      "report_only": 9,
+      "quarantine": 4
+    },
+    "sources_by_column": {
+      "expert": 10,
+      "review": 10,
+      "forum": 5
+    },
+    "sources_by_platform": {
+      "reddit": 0,
+      "houzz": 1,
+      "gba": 1,
+      "fhb": 1,
+      "youtube": 2,
+      "trade_pub": 1,
+      "review_site": 6,
+      "bbb": 2,
+      "other": 11
+    }
+  },
+  "product_slug": "andersen_100_series",
+  "product_name": "Andersen 100 Series",
+  "manufacturer_slug": "andersen",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 146297,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 25,
+    "score": 13,
+    "report_only": 8,
+    "quarantine": 4,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.159951
+}

@@ -1,0 +1,983 @@
+{
+  "product": "Pella Lifestyle Series Double-Hung Window",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Pella Lifestyle Series Ratings & Reviews",
+      "url": "https://www.pella.com/ideas/windows/lifestyle-series/ratings-reviews",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Pella Lifestyle Series official ratings page promoting low-maintenance aluminum-clad wood awning windows with energy efficiency, sound control, and value as primary selling points. Manufacturer-hosted content presenting curated positive reviews.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content hosted on brand-owned platform; curated reviews not independently verified.",
+      "topics": [
+        "quality",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Pella Difference & Benefits Page",
+      "url": "https://www.pella.com/performance/pella-difference",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer claims Lifestyle Series is #1 performing wood window for energy, sound, and value combination; 83% better efficiency than single-pane; 52% more sound reduction available with performance glass packages.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; performance claims are self-reported and not independently verified.",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Pella Energy Efficiency Page",
+      "url": "https://www.pella.com/performance/energy-efficiency",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer states Lifestyle Series is 62% more energy efficient than single-pane average; meets ENERGY STAR in all 50 states; homeowners may recoup 60% of project cost; up to $600 annual tax credit potential.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; tax credit and efficiency claims require independent NFRC verification.",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Pella YouTube Review - TL:DR Don't Do It",
+      "url": "https://www.youtube.com/watch?v=W8xDZ_Pmvek",
+      "platform": "youtube",
+      "column": "forum",
+      "snippet": "Customer documents major delivery delays spanning two months, multiple missed deadlines, poor advance communication about supply chain issues, and compensation of only pizza and sodas. Final assessment: 'stay as far away from Pella as I possibly could.'",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single customer video documenting sales process and delivery failures, not physical product defects. Relevant to service expectations but not product quality scoring.",
+      "topics": [
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Pella Replacement Windows & Doors BBB - Rockford, IL",
+      "url": "https://www.bbb.org/us/il/rockford/profile/window-installation",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "$50,000 order for 12 replacement windows; problems began immediately with first shipment delayed; third installation required to properly inspect each sash and grill; customer frustrated with 'get it right eventually' approach from Pella.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Primarily documents installation process failures and service delivery issues rather than confirmed manufacturing defects.",
+      "topics": [
+        "service",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Pella Window & Door Company BBB - Pennsylvania",
+      "url": "https://www.bbb.org/us/pa/warrendale/profile/windows/pella-window-door-company",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "$58,600 window replacement project; condensation appeared within first week in two separate rooms; warranty claim denied as humidity issue; salesperson initially suggested manufacturing defect; technician disagreed; customer sought compensation for unresolved defects.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Documents physical product defect (early seal/condensation failure) with corroborating pattern across multiple BBB complaints; relevant to durability and warranty scoring. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Pella ProLine Class Action Settlement - Top Class Actions",
+      "url": "https://www.topclassactions.com/lawsuit-settlements/lawsuit-news/pella-reaches-26m-window-defect-class-action-settlement",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "ProLine windows class action reached $25.75M final settlement for water leaks causing wood rot; initial $90M settlement overturned as inequitable in 2014; covers windows manufactured 1991–2009; Pella denied all liability.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information documents systemic product liability concern but covers ProLine line, not Lifestyle Series directly.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Consumer Reports - Pella Lifestyle Series",
+      "url": "https://www.consumerreports.org/home-garden/replacement-windows/pella-lifestyle-series",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports lab tests rate Lifestyle Series double-hung on wind resistance and multiple performance criteria. Detailed results require membership; independent testing methodology applied to multiple product criteria.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Independent testing organization with structured scoring methodology; paywalled but credentialed testing qualifies as Pool A score source. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "performance",
+        "quality",
+        "specs"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "NerdWallet Best Window Companies 2026",
+      "url": "https://www.nerdwallet.com/home-ownership/windows/best/window-companies",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Pella ranked #4 overall with 4.5/5.0 NerdWallet rating derived from 160 data points; noted for 'best coverage' in 48 states; limited lifetime non-transferable warranty flagged as weaker than competitors; installation via third-party contractors.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with structured scoring from 160 data points; not independent lab testing but systematic comparative analysis qualifies as Pool B score.",
+      "topics": [
+        "value",
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Jeld-Wen vs. Pella Comparison - APCO Columbus",
+      "url": "https://www.apco.com/windows/manufacturers/jeld-wen-vs-pella",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Architectural Products Company professionals in Columbus note Pella carries higher price points than Jeld-Wen; SmoothSeam welded corners praised; advises basing selection on independent testing and certification numbers, not marketing claims.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer/contractor content with professional perspective; provides useful comparative context but represents sponsored knowledgeable source without independent testing.",
+      "topics": [
+        "quality",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Andersen, Pella, and Marvin Comparison - Ask the Builder",
+      "url": "https://www.askthebuilder.com/anderson-pella-and-marvin-window-comparisons",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Contractor Tim Carter reports his professional Pella installations went smoothly with no customer complaints; emphasizes installation quality is critical; AAMA Gold Label certification noted as important verification for quality assurance.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Expert contractor perspective on installation experience; focuses on installation quality, not product quality; no physical defect analysis.",
+      "topics": [
+        "quality",
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Logic vs. Pella - GreenBuildingAdvisor Forum",
+      "url": "https://www.greenbuildingadvisor.com/question/logic-vs-pella",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Building science professionals compare Pella 250 Series triple-glazed vinyl (U=0.23) against Logic windows; forum professional notes U-factor more important than SHGC for year-round performance in heating-dominated climates.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Technical forum discussion by credentialed building science professionals; discusses specs and methodology rather than direct Lifestyle Series product defects.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Pella Lifestyle Series Hidden Screen - YouTube",
+      "url": "https://www.youtube.com/watch?v=dmGOqcTvjlY",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Pella promotional video introduces Hidden Screen innovation appearing when window opens and folding away when closed; tested to 9,400 cycles equivalent to 25 years of use; positioned as industry-leading design innovation.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content in video format; promotional material without independent validation.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Pella Omaha Condensation Guide",
+      "url": "https://www.pellaomaha.com/blog/how-to-get-rid-of-window-condensation",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Pella dealer documentation distinguishes interior/exterior condensation from between-pane seal failure; acknowledges seal failure allows moisture infiltration; recommends improving ventilation, sealing leaks, and high-performance glass as remedies.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer content acknowledging seal failure as a known product issue; relevant context but not independent testing or scoring.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Pella In-Window Blinds Repair - YouTube",
+      "url": "https://www.youtube.com/watch?v=oDFXgidavRU",
+      "platform": "youtube",
+      "column": "forum",
+      "snippet": "Homeowner with 13-year-old integrated blinds documents drawstring failures, ladder string failures, and tooth belt slipping; rebuilt 10 shades; blinds lasted only two more years post-repair; detailed disassembly guidance suggests significant maintenance burden.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Documents maintenance and longevity issues of specific feature; single source without corroboration pattern sufficient for scoring; useful durability context.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Pella 100 Years History & Innovation",
+      "url": "https://pressroom.pella.com/100years",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Pella founded 1925; 100 years of innovation; 150+ patents; 18 manufacturing facilities; 250 showrooms; over 10,000 employees. Corporate history and brand background material emphasizing integrity and quality principles.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/corporate history content; no product performance data.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Andersen, Pella, Marvin Comparison - Fine Homebuilding Forum",
+      "url": "https://www.finehomebuilding.com/forum/repair-of-double-hung-pella",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Professional forum notes Pella casement options designed to eliminate seal failures and fogging; minimal seal failure issues documented in that context; discussion of whether sealed insulating space outperforms unsealed designs technically.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Trade publication forum with professional participants; discusses seal design comparatively without direct Lifestyle Series defect documentation.",
+      "topics": [
+        "durability",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Houston Window Experts - Pella Introduction",
+      "url": "https://www.houstonwindowexperts.com/an-introduction-to-pella-windows",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Pella-certified contractor notes Lifestyle Series uses Cardinal glass (industry-acknowledged superior); mid-tier in absolute market terms; integrated blinds unique to line; limitations in grille types, colors, and size versus flagship Architect series.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Credentialed contractor providing comparative product analysis with specific feature assessments; Pool B due to dealer affiliation but knowledgeable structured review.",
+      "topics": [
+        "quality",
+        "value",
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Pella Lifestyle Series Double-Hung Specs - Pella Official",
+      "url": "https://www.pella.com/shop/windows/lifestyle-series/double-hung-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official specs: dual-pane energy efficient; Hidden Screen option; performance rating LC30–LC50; STC 27–31; available up to 48\"×84\"; EnduraGuard wood protection; tilt-wash feature; 1-5/8\" sash thickness; 5\" frame depth.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer product page; specifications useful for verified_specs extraction but content is marketing material without independent verification.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Angi - Pella Windows and Doors Reviews San Diego",
+      "url": "https://www.angi.com/companylist/us/ca/san-diego/pella-windows-and-doors-reviews",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "89% five-star rating across only 19 verified reviews in San Diego; noted as high quality but expensive; free estimates available; positive sentiment but very small sample size limits statistical reliability.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Published review platform with verified reviews; small sample (19) warrants caution but structured rating system qualifies for scoring at Pool C.",
+      "topics": [
+        "quality",
+        "value",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Consumer Affairs - Pella Reviews",
+      "url": "https://www.consumeraffairs.com/homeowners/pella.html",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "4.1 overall rating from 1,304 verified reviews; 282 five-star and 707 four-star reviews versus 93 one-star; mixed positive majority with meaningful minority of severely dissatisfied customers across multiple product lines.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Large verified review database (1,304 reviews) with structured rating system; sufficient volume for statistical relevance; Pool B for independent aggregation platform.",
+      "topics": [
+        "quality",
+        "service",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Pella Warranties Page",
+      "url": "https://www.pella.com/support/warranties",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Limited lifetime warranty for original purchaser only in owner-occupied single-family residences; labor covered first two years; Pella Care Guarantee exclusively for showroom purchases; painting, tinting, and modification exclusions noted.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty documentation; essential for warranty_reality analysis but is official marketing/legal content, not independent assessment.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Pella ProLine Windows Defect Settlement - Top Class Actions (Closed)",
+      "url": "https://www.topclassactions.com/lawsuit-settlements/closed-settlements/pella-proline-windows-defect-class-action-settlement",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "$25.75 million final settlement for ProLine windows 1991–2009 covering water leaks and wood rot damages; Pella maintains no liability admission; settlement framed as extension of customer support program.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal settlement documentation; covers ProLine line not Lifestyle Series; relevant systemic context for wood rot vulnerability pattern.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Pella Architect Windows Wood Rot Class Action - Top Class Actions",
+      "url": "https://www.topclassactions.com/lawsuit-settlements/lawsuit-news/pella-class-action-lawsuit-claims-window-defect-leads-wood-rot",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Gowins v. Pella Corp. alleges Architect Series latent defect causing water seepage behind aluminum cladding leading to wood rot in sashes and frames; plaintiffs claim warranty written to intentionally avoid covering the defect.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Active litigation documentation; covers Architect Series with aluminum cladding sharing construction characteristics with Lifestyle Series; legal information classification.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Pella Windows & Doors Inc BBB - Michigan",
+      "url": "https://www.bbb.org/us/mi/auburn-hills/profile/window-door-installation/pella-windows-doors-inc",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple documented complaints: 20+ minute hold times, no response after calls, appointment delays extending months, system transition failures causing case loss, inadequate follow-up on unresolved issues across multiple customers.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Multiple corroborating BBB complaints establishing pattern of customer service failure; systemic pattern across geographic locations supports scoring classification. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "service",
+        "warranty"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Pella Battery Safety Recall - CPSC",
+      "url": "https://www.cpsc.gov/Recalls/2025/Pella-Recalls-Sliding-Patio-Doors-and-Windows-Due-to-Battery",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "2025 CPSC recall of approximately 340 Pella products with Insynctive technology; button cell batteries in sensor panels and remote controls posed child ingestion hazard; violation of mandatory federal battery safety regulations.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Federal regulatory recall action; affects sliding doors/windows with Insynctive technology, not standard Lifestyle double-hung; legal/safety information classification.",
+      "topics": [
+        "legal",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Pella Performance Information - NFRC Definitions",
+      "url": "https://www.pella.com/support/performance-information",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Pella technical documentation defining NFRC ratings: U-factor (0.15–1.20 range), SHGC, VLT, Performance Grade, Design Pressure; acknowledges actual performance varies from rated conditions and changes over product life.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer technical documentation useful for specs extraction; not independent testing or scoring content.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Southwest Exteriors - Clad vs. Wood Windows",
+      "url": "https://www.southwestexteriors.com/blog/2021/november/clad-vs-wood-windows",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional contractor analysis: clad windows provide protective barrier enhancing wood durability; extruded cladding more durable than rolled-on metal; both similarly durable overall; clad superior in moisture and harsh weather environments.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer/contractor content with professional technical perspective on cladding construction; relevant context but no direct Lifestyle Series product testing.",
+      "topics": [
+        "durability",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Argo Window Repair - Best Window Brands Comparison",
+      "url": "https://www.argowindowrepair.com/blog/window/best-window-brands",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional repair service comparison: Pella excels in material diversity and design flexibility; expert opinion rates Andersen and Marvin higher quality than Pella; Pella uses rolled aluminum cladding versus superior manufacturing techniques at competitors.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Credentialed window repair professional providing structured comparative assessment with specific material quality critique; qualifies as expert score source.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Houzz - Pella Lifestyle Series Technical Discussion",
+      "url": "https://www.houzz.com/discussions/6019761/pella-lifestyle-series-windows",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Houzz forum discussion of roll-form aluminum cladding construction and design aesthetics; professional forum participants engage in technical aspects of cladding methodology; design-focused rather than defect-focused discussion.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion focused on design and construction methodology; no documented defect pattern; informational context only.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Houzz - Pella Customer Service Experience Thread",
+      "url": "https://www.houzz.com/discussions/2640428/what-is-your-experience-with-pella-sales-and-customer-service",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "'WORST customer service' experience reported; six months unresolved with cracked sash and defective handle; unresponsive after multiple calls; contrasted by one positive experience of free replacement sash shipped within 8 days.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple Houzz participants reporting physical product defects (cracked sash, defective handle) with corroborating pattern of service failure across multiple complaint channels.",
+      "topics": [
+        "service",
+        "quality",
+        "warranty",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Energy Swing Windows - Wood Window Maintenance Guide",
+      "url": "https://www.energyswingwindows.com/blog/do-i-need-to-maintain-my-new-wood-windows",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Contractor blog covering wood window maintenance requirements; seasonal care, freeze-thaw cycle vulnerability, moisture protection critical; inspection frequency guidance; professional maintenance perspective for clad wood windows.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Third-party contractor educational content on installation and maintenance requirements; not product-specific defect documentation.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Pella Wood Protection Video - YouTube",
+      "url": "https://www.youtube.com/watch?v=_oy-BwWRdnI",
+      "platform": "youtube",
+      "column": "report_only",
+      "snippet": "Pella video explaining wood rot causation factors including installation errors, maintenance failures, and manufacturing defects; promotes EnduraGuard proprietary formula and testing methodology; emphasizes warranty backing.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing video content; promotional framing without independent validation of EnduraGuard effectiveness claims.",
+      "topics": [
+        "durability",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Pella QMID Tax Credit Information - Rebate Blue",
+      "url": "https://www.rebate.blue/qmid/pella",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Pella QMID V9W0 qualifies for 25C tax credits; 30% credit up to $600 annually on ENERGY STAR certified products; qualifying efficiency requirements listed; brand includes Weather Shield and Lawson product lines.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Third-party tax incentive documentation confirming ENERGY STAR certification compliance; useful specs context but not product performance scoring.",
+      "topics": [
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Fine Homebuilding Forum - Pella Double-Hung Repair Discussion",
+      "url": "https://www.finehomebuilding.com/forum/repair-of-double-hung-pella",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Discussion of 1970s vintage Pella double-hung windows with internal blinds; repair questions about broken cords; quality noted as very good for age; technical restoration discussion among experienced practitioners.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Trade publication forum discussion about vintage product repair; not current Lifestyle Series; installation/maintenance focus rather than product defect pattern.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "BBB Pella Corporation - Iowa (Corporate HQ Complaints)",
+      "url": "https://www.bbb.org/us/ia/pella/profile/producers/pella-corporation",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple 2025 BBB complaints documenting delivery issues, installation defects, water leaks, seal failures, and poor customer service; 58 complaints closed in last 12 months reflecting ongoing systemic issues.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Aggregated BBB complaint database showing corroborating pattern of physical defects (water leaks, seal failures) across multiple customers; systemic pattern supports scoring. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "durability",
+        "service",
+        "warranty",
+        "quality"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "U.S. Department of Energy - Window Performance Ratings",
+      "url": "https://www.energy.gov/energysaver/energy-performance-ratings-windows-doors-and-skylights",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "DOE documentation explaining NFRC label components: U-factor represents whole-window heat transfer; SHGC varies by climate; lower U-factor indicates more energy-efficient window; technical standards for consumer understanding.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Federal government reference documentation for technical standards; authoritative specs context but not a product review or scoring source.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "BBB - Michigan Sliding Door Water Leakage Complaint (2021-2025)",
+      "url": "https://www.bbb.org/us/mi/auburn-hills/profile/window-door-installation/pella-windows-doors-inc",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Customer with 2021 sliding doors experienced water seepage, missing rubber sweeps, paint chipping, silicon glue failing, and windows difficult to operate; reported issues immediately but received no resolution as of May 2025 despite repeated contacts.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Documents multiple physical product defects with corroborating pattern; four-year unresolved complaint with documented technician visits confirms manufacturing/material issues. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "durability",
+        "quality",
+        "service",
+        "warranty"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "BBB - Sliding Door Three-Panel Water Leak Complaint (2022-2025)",
+      "url": "https://www.bbb.org/us/ia/pella/profile/producers/pella-corporation",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Three Pella sliding doors installed August 2022 leaked for two years; technician confirmed caulking failure on all panels; internal wood frame completely soaked on third panel replacement; warped replacement panels discovered April 2025; still unresolved September 2025.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Corroborated by Pella's own technician confirming manufacturing defect (caulking failure across all panels); internal wood soaking confirms material failure pattern consistent with class action claims. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "service"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "Consumer Affairs - Positive Pella Review Sample",
+      "url": "https://www.consumeraffairs.com/homeowners/pella.html",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Positive Consumer Affairs reviewer reports courteous installation crew, thorough explanation of products, and satisfaction with Pella Lifestyle Series windows and doors; representative of positive minority within broader mixed review dataset.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Individual positive testimonial without product specifications or testing data; useful sentiment context but insufficient for standalone scoring.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "Consumer Affairs - Warranty Service Positive Experience",
+      "url": "https://www.consumeraffairs.com/homeowners/pella.html",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Customer reports calling Pella toll-free, reaching a real person immediately, and receiving free replacement sash within 8 days; states 'there are still companies in America who stand by their products' indicating positive warranty claim resolution.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single positive warranty experience; useful contrast to negative pattern but insufficient corroboration for standalone scoring; contributes to warranty_reality analysis.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "Pella Window Installation Instructions",
+      "url": "https://www.pella.com/professionals/installation-instructions/windows",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Official installation guidance covering new construction, full-frame replacement, and pocket replacement methods; promotes Steady Set system; emphasizes precise adherence to instructions as critical for warranty compliance.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer installation documentation; relevant to installation quality analysis but is official content not independent assessment.",
+      "topics": [
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "Pella Window Types Overview",
+      "url": "https://www.pella.com/ideas/windows/window-types",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Pella product catalog page detailing awning, casement, double-hung, single-hung, sliding, bay, bow, picture, and custom window configurations; emphasizes design flexibility and configuration options across product lines.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer product catalog content; no performance data or independent assessment.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "Southwest Exteriors - Clad vs. Wood Durability Analysis",
+      "url": "https://www.southwestexteriors.com/blog/2021/november/clad-vs-wood-windows-differences-in-durability-m",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Building science professional analysis: clad adds durability via protective barrier; wood requires heavy maintenance without cladding; clad better suited for harsh weather; extruded cladding superior to rolled-on; both similarly durable in moderate conditions.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer expert content providing building science perspective on cladding construction relevant to Lifestyle Series; no direct product testing.",
+      "topics": [
+        "durability",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-045",
+      "source_name": "Pella Wood Window Staining Guide",
+      "url": "https://www.pella.com/ideas/windows/wood/how-to-stain-wood-windows",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Manufacturer staining instructions; advises against paint on moving parts; proper primer and finish critical; exterior requires paint not stain; detailed maintenance guidance emphasizing professional-quality results for wood preservation.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer maintenance guide; marketing content with no independent product performance data.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-046",
+      "source_name": "Gowins v. Pella Corp. - Alabama Wood Rot Lawsuit",
+      "url": "https://www.topclassactions.com/lawsuit-settlements/lawsuit-news/pella-class-action-lawsuit-claims-window-defect-leads-wood-rot",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Alabama couple with 70+ Pella Architect Series windows installed 2009 discovered severe wood rot beginning 2016; alleged latent defect allows water behind aluminum cladding; Pella refused replacement, offered only discounted new windows.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Active class action litigation with specific factual allegations; covers Architect Series sharing aluminum cladding with Lifestyle; legal information classification.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-047",
+      "source_name": "BBB - Pennsylvania Parts Availability Complaint",
+      "url": "https://www.bbb.org/us/pa/warrendale/profile/windows/pella-window-door-company",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Customer called December 28 regarding parts; told two-week wait; submitted online form promising 48-hour callback; no response after three days; West Caldwell store also unresponsive; unable to use doorwall for months awaiting parts.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Documents parts availability and customer service failure; single complaint primarily about service process rather than manufacturing defect pattern.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "energy_efficiency",
+      "expert": "strong_positive",
+      "review": "positive",
+      "forum": "neutral_limited",
+      "agreement_level": "strong",
+      "notes": "Technical specs consistently supported; ENERGY STAR certification in all 50 states corroborated by third-party NFRC and DOE sources"
+    },
+    {
+      "topic": "noise_reduction",
+      "expert": "positive",
+      "review": "limited_data",
+      "forum": "neutral_limited",
+      "agreement_level": "moderate",
+      "notes": "52% improvement claim from manufacturer; STC 27-31 spec documented; limited independent owner verification"
+    },
+    {
+      "topic": "durability",
+      "expert": "mixed",
+      "review": "positive_limited",
+      "forum": "significant_negative",
+      "agreement_level": "weak",
+      "notes": "Multiple documented wood rot, seal failure, water infiltration complaints beginning 2-5 years post-installation; corroborated by class action settlements; rolled aluminum cladding flagged by experts as inferior to extruded"
+    },
+    {
+      "topic": "performance",
+      "expert": "positive",
+      "review": "positive",
+      "forum": "mixed",
+      "agreement_level": "moderate",
+      "notes": "Energy and sound specs credible; real-world thermal performance varies by installation quality"
+    },
+    {
+      "topic": "warranty",
+      "expert": "mixed",
+      "review": "neutral",
+      "forum": "strongly_negative",
+      "agreement_level": "weak",
+      "notes": "Non-transferable warranty weaker than competitors; claims frequently denied blaming humidity or installation; Pella Care Guarantee limited to showroom purchases only"
+    },
+    {
+      "topic": "service",
+      "expert": "neutral",
+      "review": "neutral",
+      "forum": "strongly_negative",
+      "agreement_level": "strong_disagreement",
+      "notes": "Extensive documentation of hold times, unresponsive staff, months-long appointment waits, and adversarial claims resolution across BBB, Houzz, and YouTube"
+    },
+    {
+      "topic": "value",
+      "expert": "generally_positive",
+      "review": "positive",
+      "forum": "mixed_negative",
+      "agreement_level": "weak",
+      "notes": "Premium pricing relative to competitors; value perception severely impacted by service and durability concerns; NerdWallet 4.5/5.0 does not reflect forum owner experiences"
+    },
+    {
+      "topic": "quality",
+      "expert": "mixed",
+      "review": "positive",
+      "forum": "mixed_negative",
+      "agreement_level": "weak",
+      "notes": "Cardinal glass praised; SmoothSeam corners noted; but rolled aluminum cladding flagged as inferior; multiple documented defects in installation and manufacturing"
+    },
+    {
+      "topic": "legal",
+      "expert": "not_applicable",
+      "review": "not_applicable",
+      "forum": "negative",
+      "agreement_level": "report_only",
+      "notes": "$25.75M ProLine settlement (no liability admission); active Gowins Architect Series suit; 2025 CPSC battery recall of Insynctive products"
+    },
+    {
+      "topic": "specs",
+      "expert": "positive",
+      "review": "positive",
+      "forum": "neutral",
+      "agreement_level": "moderate",
+      "notes": "LC30-LC50 performance rating, STC 27-31, dual-pane standard with triple-pane option; NFRC certified; specifications appear accurate and competitive"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Positive cases exist where replacement sashes were shipped free within 8 days via toll-free call",
+      "Pella Care Guarantee available for showroom purchasers provides enhanced protection beyond standard warranty",
+      "No time limit on installation allows flexible project scheduling without voiding coverage"
+    ],
+    "underperforms_expectations": [
+      "Non-transferable warranty is a significant disadvantage versus Renewal by Andersen 20-year transferable and Window Nation lifetime transferable",
+      "Labor coverage limited to first two years only, leaving owners responsible for labor costs on manufacturing defects discovered after year two",
+      "Warranty not available through Pella Certified Contractors, Pella Select Contractors, retail stores, or new construction",
+      "Condensation and seal failure claims frequently denied as customer humidity issues despite Pella documentation acknowledging seal failure as a warranty-eligible defect",
+      "Water infiltration claims blamed on installation contractor rather than product, creating circular accountability gap",
+      "Claims resolution documented as requiring months and multiple technician visits without definitive resolution"
+    ],
+    "surprises": [
+      "Pella Care Guarantee is exclusively available for showroom purchasers; contractor or retail channel buyers receive significantly reduced protection",
+      "Painting windows voids warranty coverage if paint is determined to contribute to a defect",
+      "Tinting and modifications void warranty coverage even if performed by professionals",
+      "Company not responsible for storage damage; no formal storage requirements communicated at purchase",
+      "ProLine class action settlement (1991-2009 windows) suggests moisture vulnerability pattern predating current Lifestyle Series design"
+    ]
+  },
+  "verified_specs": {
+    "product_line": "Pella Lifestyle Series Double-Hung",
+    "frame_material": "Select softwood immersion-treated with EnduraGuard; exterior clad with roll-formed aluminum",
+    "cladding_method": "Rolled aluminum (not extruded); lap-jointed and sealed with mortised and tenoned corners",
+    "sash_thickness": "1-5/8 inches",
+    "frame_depth": "5 inches",
+    "wall_depth": "3-11/16 inches",
+    "glass": "Dual-pane standard; 11/16-inch dual-seal insulating glass; triple-pane available as upgrade; Low-E available; Cardinal glass used across Pella product lines",
+    "glass_standard": "ASTM C 1036 quality float glass",
+    "dp_rating": "LC30 to LC50",
+    "stc": "27 to 31 (higher with optional sound control glass package)",
+    "u_factor": "Not directly specified for Lifestyle line; Pella 250 Series triple-pane achieves U=0.23 per GBA forum; general range 0.15-1.20 per NFRC",
+    "shgc": "Not specified in available documentation; varies by glass package and climate zone",
+    "air_infiltration": "Not directly specified in available sources",
+    "max_size": "48 inches wide by 84 inches tall",
+    "energy_star": "Meets ENERGY STAR requirements in all 50 states",
+    "efficiency_claim": "83% more energy efficient than single-pane (manufacturer claim, not independently verified)",
+    "sound_reduction_claim": "52% more sound reduction than single-pane with optional sound control glass (manufacturer claim)",
+    "performance_grade": "LC30 to LC50",
+    "nfrc_certified": true,
+    "tax_credit_eligible": "Yes; QMID V9W0; qualifies for 25C tax credit up to $600 annually",
+    "available_configurations": [
+      "double-hung",
+      "awning",
+      "picture",
+      "casement"
+    ],
+    "notable_features": [
+      "Hidden Screen (appears when window opens, tested to 9,400 cycles)",
+      "Integrated in-window blinds and shades (unique to Lifestyle Series)",
+      "Tilt-wash sash for interior cleaning",
+      "SmoothSeam welded corners",
+      "EnduraGuard wood protection treatment",
+      "Easy-Slide Operator (award-winning hardware)"
+    ],
+    "limitations_vs_flagship": "Fewer grille types, color options, and size configurations compared to Pella Architect Series"
+  },
+  "red_flags": [
+    {
+      "type": "class_action_settlement",
+      "description": "Pella ProLine Windows class action settled for $25.75 million covering water leaks and wood rot in windows manufactured 1991-2009; initial $90M settlement overturned as inequitable in 2014; Pella denied all liability",
+      "products_affected": "ProLine Series (not Lifestyle), but shares aluminum cladding over wood construction methodology",
+      "status": "Closed settlement",
+      "severity": "high"
+    },
+    {
+      "type": "active_litigation",
+      "description": "Gowins v. Pella Corp. active class action alleging Architect Series contains latent defect allowing water seepage behind aluminum cladding causing wood rot in sashes, frames, and adjoining structures; plaintiffs allege warranty intentionally written to avoid coverage of defect",
+      "products_affected": "Architect Series with aluminum cladding; construction method shares characteristics with Lifestyle Series",
+      "status": "Active as of report date",
+      "severity": "high"
+    },
+    {
+      "type": "cpsc_recall",
+      "description": "2025 CPSC recall of approximately 340 Pella sliding patio doors and windows with Insynctive technology due to button cell battery ingestion hazard in sensor panels and remote controls; violation of mandatory federal regulations",
+      "products_affected": "Sliding patio doors and windows with Insynctive technology; not standard Lifestyle double-hung",
+      "status": "Active recall 2025",
+      "severity": "medium"
+    },
+    {
+      "type": "systemic_service_failure",
+      "description": "Documented pattern across BBB (58+ complaints in 12 months at corporate level), Houzz, YouTube, and Consumer Affairs of unresponsive customer service, months-long appointment delays, adversarial warranty claim denials, and failure to resolve documented manufacturing defects",
+      "products_affected": "All Pella products; systemic organizational issue",
+      "status": "Ongoing as of 2025",
+      "severity": "high"
+    },
+    {
+      "type": "construction_concern",
+      "description": "Expert analysis (Argo Window Repair) specifically identifies Pella's rolled aluminum cladding as inferior to Andersen's manufacturing techniques; Southwest Exteriors confirms extruded cladding more durable than rolled-on; directly relevant to long-term moisture protection",
+      "products_affected": "All aluminum-clad Pella products including Lifestyle and Architect Series",
+      "status": "Ongoing design characteristic",
+      "severity": "medium"
+    },
+    {
+      "type": "warranty_gap",
+      "description": "Pella Care Guarantee available exclusively to showroom purchasers; contractor-installed and retail channel customers receive materially inferior warranty protection without disclosure at point of sale; non-transferable warranty significantly disadvantages resale value",
+      "products_affected": "All Pella products purchased outside showroom channel",
+      "status": "Ongoing policy",
+      "severity": "medium"
+    }
+  ],
+  "bottom_line": "The Pella Lifestyle Series double-hung window delivers credible technical performance in energy efficiency and innovative design features including integrated blinds and hidden screens. ENERGY STAR certification across all 50 states and Cardinal glass use represent genuine strengths. However, the product carries significant documented risks that materially affect its value proposition: (1) rolled aluminum cladding acknowledged by independent experts as inferior to extruded alternatives and consistent with moisture infiltration failures documented across ProLine settlement and active Architect Series litigation; (2) a warranty whose terms are substantially undermined in practice by systematic denial of seal failure and water infiltration claims, combined with a Pella Care Guarantee restricted to showroom purchasers without adequate disclosure; (3) severe and broadly corroborated customer service failures including months-long response delays, adversarial claims resolution, and unresponsive support documented across BBB, Houzz, YouTube, and Consumer Affairs; and (4) a 2025 CPSC battery recall indicating ongoing quality control gaps. Competitors including Andersen and Marvin are rated higher quality by independent repair professionals, offer transferable warranties, and use superior cladding methods. The Lifestyle Series is most appropriate for buyers who thoroughly vet local installers, purchase exclusively through Pella showrooms to access the Pella Care Guarantee, document all pre-purchase representations in writing, and proactively manage any warranty claims. Buyers expecting seamless post-purchase support should consider alternatives.",
+  "meta": {
+    "total_sources": 47,
+    "sources_scored": 14,
+    "sources_report_only": 22,
+    "sources_quarantined": 11,
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 5,
+      "pool_B": 16,
+      "pool_C": 26
+    },
+    "primary_concerns": [
+      "durability",
+      "service",
+      "warranty",
+      "legal"
+    ],
+    "primary_strengths": [
+      "performance",
+      "specs",
+      "energy_efficiency"
+    ]
+  },
+  "product_slug": "pella_lifestyle",
+  "product_name": "Pella Lifestyle",
+  "manufacturer_slug": "pella",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 230568,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 47,
+    "score": 6,
+    "report_only": 26,
+    "quarantine": 15
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.225756,
+  "verification_date": "2026-03-23T19:46:29.265Z"
+}

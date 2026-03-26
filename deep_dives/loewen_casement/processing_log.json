@@ -1,0 +1,37 @@
+{
+  "product": "Loewen",
+  "operation_type": "casement",
+  "slug": "loewen_casement",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 133441
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 52956
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 41,
+      "cost_estimate": 0.22122000000000003
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/loewen_casement_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T19:44:17.432Z"
+}

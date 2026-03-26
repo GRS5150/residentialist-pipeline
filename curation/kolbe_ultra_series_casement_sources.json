@@ -1,0 +1,615 @@
+{
+  "product": "Kolbe Ultra Series Casement Window",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Consumer Affairs Reviews",
+      "url": "https://www.consumeraffairs.com/homeowners/kolbe",
+      "platform": "review_site",
+      "column": "forum",
+      "snippet": "Multiple homeowner reviews from 2019–2023 documenting water leaks, wood rot, and warranty claim denials. Pattern of scattered negative reviews with recurring themes of customer service unresponsiveness and product deterioration within warranty period.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Review site aggregating individual homeowner complaints; recurring themes noted but no structured testing or expert analysis present.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Kolbe Ultra Series Product Page",
+      "url": "https://www.kolbewindows.com/product-lines/ultra-series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer marketing page describing extruded aluminum cladding, energy-efficient glazing options, multi-point locking hardware, and custom sizing capabilities. Represents Kolbe's official product positioning as a premium luxury window line.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent verification or testing data; serves promotional purpose only.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Kolbe Ultra Series Brochure",
+      "url": "https://www.kolbewindows.com/literature/ultra-series-brochure.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical brochure specifying frame jamb depth of 4-9/16 inches, triple-pane glass capability with 1-3/8 inch total thickness, extruded aluminum exterior cladding with PVDF coating, and multi-chambered frame design for thermal performance.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer-produced specification document; contains useful technical data but is unverified marketing literature without independent testing confirmation.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Kolbe Warranty Information",
+      "url": "https://www.kolbewindows.com/resources/warranties",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official warranty page specifying 10-year coverage for wood components and 20-year coverage for aluminum-clad products. Warranty is non-transferable, excludes consequential damages, and reserves Kolbe's right to determine defect causation.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document is factual specification of coverage terms, not a product quality assessment; useful for warranty gap analysis but not scoreable.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Kolbe Energy Performance Database",
+      "url": "https://www.kolbewindows.com/resources/professional-tools/energy-performance",
+      "platform": "other",
+      "column": "review",
+      "snippet": "NFRC-referenced energy performance data showing U-factors of 0.22–0.28 depending on glazing configuration. Products listed as ENERGY STAR qualified for Northern and North-Central climate zones. SHGC range of 0.17–0.40 by coating selection.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Contains NFRC-referenced energy performance specs with quantitative ratings; manufacturer-sourced but references third-party certification program with specific numerical values suitable for scoring.",
+      "topics": [
+        "specs",
+        "performance",
+        "energy"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Houzz Forum – Kolbe Forgent Discussion",
+      "url": "https://www.houzz.com/discussions/5096968",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "User reports very positive thermal performance with Kolbe Forgent windows through a harsh Iowa winter. Separately, another thread participant raises concerns about extended lead times impacting construction scheduling.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Individual forum posts about general satisfaction and lead times; no physical product defect described with corroborating pattern; references Forgent Series not Ultra Series casement.",
+      "topics": [
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Houzz Forum – Kolbe Windows Deterioration",
+      "url": "https://www.houzz.com/discussions/2646361",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "User reports Kolbe windows 'falling apart, disintegrating and bubbling everywhere' after just three years, with the company refusing to honor the 10-year warranty. Single complaint with no corroborating accounts in the same thread.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum complaint with no corroboration within the source itself; pattern of similar complaints exists elsewhere but this source alone is unverified.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz Forum – Marvin vs. Kolbe Comparison",
+      "url": "https://www.houzz.com/discussions/6035784",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowners comparing Kolbe and Marvin report Kolbe pricing runs approximately 30% higher for comparable products. Marvin sales support characterized as superior. Kolbe delivery delays and broken-panel replacement lead times of 14–16 weeks reported.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion focused primarily on sales process, dealer experience, and pricing comparisons rather than product quality defects.",
+      "topics": [
+        "value",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Fine Homebuilding Forum – Kolbe Opinions",
+      "url": "https://www.finehomebuilding.com/forum/kolbe-kolbe-opinions",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Multiple professional installers with multi-decade experience praise Kolbe Ultra Series construction quality. One contractor calls Kolbe casements 'quite possibly the smoothest operating casement' encountered professionally. Kolbe ranked alongside Andersen as a top-tier recommendation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional installers with documented multi-brand experience providing structured quality assessments on a trade publication forum; constitutes expert opinion with clear product position.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Fine Homebuilding Forum – Kolbe vs. Marvin Windows",
+      "url": "https://www.finehomebuilding.com/forum/kolbe-kolbe-vs-marvin-windows",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Professional installers note Kolbe Ultra offers superior design flexibility and extruded aluminum cladding advantage over rolled-form alternatives. Marvin noted for traditional aesthetics. Regional variation in performance noted; extruded cladding resistant to denting and marring.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Trade publication forum with professional installer commentary providing comparative product analysis; meets criteria for credentialed professional source with clear product opinion.",
+      "topics": [
+        "quality",
+        "durability",
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Fine Homebuilding Forum – Leaking Kolbe Windows",
+      "url": "https://www.finehomebuilding.com/forum/leaking-kolbe-kolbe-windows",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Licensed architect documents systematic water leaks in a nearly 40-unit commercial installation. Independent leak investigator confirmed failures were product defects—not installation errors—citing joint failures and door sill design. Kolbe acknowledged the issue but failed to resolve it.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Licensed architect with professional credentials documents a physical product defect pattern across 40 units with independent expert corroboration confirming product rather than installation failure; meets threshold for scored defect pattern.",
+      "topics": [
+        "durability",
+        "performance",
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "YouTube – Monmouth Millwork Review",
+      "url": "https://www.youtube.com/watch?v=9pv9opUXvPs",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Detailed technical video review of Kolbe Forgent Series examining welded sash construction, multi-chambered frame sections, serviceable snap-out glass design, and compression gaskets. Reviewer praises engineering but flags uncertainty about long-term durability for a recently launched product line.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Published video review by knowledgeable trade source (millwork dealer) containing specific technical observations and specs; qualifies as published review with testing-adjacent analysis. [verifier: wrong_product]",
+      "topics": [
+        "quality",
+        "specs",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "wrong_product"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Weatherguard Construction – Window Brand Comparison",
+      "url": "https://www.wgccinc.com/window-brand-comparison",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Certified multi-brand installer positions Kolbe Ultra as luxury/custom segment at $$$$–$$$$$ pricing. Identifies Kolbe strengths as ultra-custom sizing, oversized capability, German-engineered hardware, and historic replication. Best fit: luxury homes, custom builds, historic renovations.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Certified installer with structured comparative framework across multiple premium brands; knowledgeable dealer content with clear product categorization and positioning.",
+      "topics": [
+        "quality",
+        "value",
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Weatherguard Minnesota – Kolbe Windows Review",
+      "url": "https://www.wgccinc.com/blog/kolbe-windows-review-minnesota",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Regional contractor review emphasizing Kolbe's premium customization focus and warranty coverage in Minnesota climate context. Notes limited lifetime warranty claims and positions Kolbe as appropriate for design-intensive projects with budget flexibility.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published trade contractor review with regional context and product positioning; qualifies as sponsored but knowledgeable source with clear product opinion.",
+      "topics": [
+        "quality",
+        "value",
+        "warranty",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "SCG Minnesota Window Reviews",
+      "url": "https://www.scgmn.com/window-reviews",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Independent review site detailing Kolbe Ultra specifications including U-factor range of 0.27–0.30 and comparative positioning against Marvin Ultimate. Analysis suggests comparable energy performance between the two product lines at different price points.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specific technical specifications and comparative data; qualifies as published review with specs suitable for scoring.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "ClassAction.org – Kolbe Lawsuit",
+      "url": "https://www.classaction.org/kolbe-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Legal news summary of class action alleging Kolbe sold windows with design defects in wood preservation systems. K-Kron finish and PILT treatment cited as inadequate. Claims include breach of warranty, negligent design, fraudulent misrepresentation, and unjust enrichment.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; documents allegations and legal proceedings but has not reached final judicial determination of product defectivity.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Haley v. Kolbe – Seventh Circuit Appeal Decision",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca7/16-3192",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Seventh Circuit Court of Appeals vacated lower court summary judgment in class action over defective Kolbe wood windows. Lower court had excluded plaintiffs' expert testimony. Case returned without final determination on product defectivity; no binding defect finding.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal proceeding per auto-classification rules; appellate decision documents litigation without reaching final product defect determination.",
+      "topics": [
+        "legal",
+        "durability",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Shore Star Properties v. Kolbe – 2025 NJ Appellate Decision",
+      "url": "https://law.justia.com/cases/new-jersey/appellate-division",
+      "platform": "other",
+      "column": "review",
+      "snippet": "2025 New Jersey Appellate Division ruling found Kolbe products failed WDMA Hallmark Certification requirements. Forensic testing documented improper glazing sealant, missing spacers, non-compliant glue at mortise/tenon joints, and substandard wood preservative treatment. Court found misrepresentation of certifications.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; however, represents highest-authority recent judicial finding of manufacturing defects and misrepresentation; critical red flag source.",
+      "topics": [
+        "legal",
+        "quality",
+        "durability",
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Building Science Corporation – Windows Guide",
+      "url": "https://www.buildingscience.com/sites/default/files/presentation",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Building science expert guidance characterizes windows as 'the costliest, most fragile, and worst thermally performing component' of building enclosures. Emphasizes installation quality and wall integration as more determinative than product specifications alone for real-world performance.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Credentialed building science technical source providing expert framework for window performance evaluation; relevant contextual expert opinion applicable to product assessment. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "performance",
+        "specs",
+        "quality"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Green Building Advisor – Window Selection Forum",
+      "url": "https://www.greenbuildingadvisor.com/question",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "GBA forum discussion evaluating Kolbe Forgent fiberglass hybrid for high-altitude Colorado construction. Expert contributor raises concerns about selecting a new product line for altitude applications with unproven long-term performance, recommending against being a 'high altitude guinea pig.'",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Discussion concerns Forgent Series (different product line) in a specialized application; expert caution noted but references different product and installation context, not Ultra Series casement.",
+      "topics": [
+        "durability",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Kolbe Company History",
+      "url": "https://www.kolbewindows.com/our-story",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer background page documenting founding in 1946, family-owned status, Wisconsin headquarters, 75+ year operational history, and recent Arizona manufacturing expansion. No product performance claims or technical specifications.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content about company background with no product quality data; not relevant to product scoring.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "BBB Business Profile – Kolbe Gallery",
+      "url": "https://www.bbb.org/us/ny/fairport/profile/windows",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "BBB profile for Kolbe Gallery dealer location noting the business is not BBB accredited and does not meet BBB standards for accreditation. No product quality information; relates to dealer entity not manufacturer.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB non-accreditation status relates to dealer entity, not product quality; no product defect information present.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "BBB Complaints Database – Kolbe & Kolbe",
+      "url": "https://www.bbb.org/us/wi/wausau/profile/millwork/kolbe-kolbe",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple BBB complaints documenting delivery delays well beyond quoted lead times and unsatisfactory company responses to complaints. Pattern of unresolved delivery issues with company responses categorized as inadequate by complainants.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "BBB complaints primarily address delivery and sales process issues rather than physical product defects; individual complaints without independent corroboration within this source.",
+      "topics": [
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "For The People Legal Blog – Kolbe Water Infiltration",
+      "url": "https://www.forthepeople.com/blog/kolbe-windows-water-infiltration",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Legal blog documents water infiltration issues linked to K-Kron finish and PILT wood preservative systems. PILT loses protective qualities when exposed to UV light—unavoidable for exterior windows—yet was marketed as protective. Documents class action claims basis.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Legal advocacy blog with potential plaintiff interest; documents allegations rather than independent findings; classified as quarantine pending corroboration from neutral sources.",
+      "topics": [
+        "legal",
+        "durability",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Window Replacement Discussions Forum",
+      "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Recent forum users report drafts around seals, frame warping, and premature weatherstripping wear at 4–5 years of ownership. Kolbe customer support described as attributing problems to humidity rather than manufacturing defects; owners report inability to reach service representatives.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum posts describing physical product defects (weatherstripping wear, warping, seal failure) with corroborating pattern across multiple independent users consistent with complaints in other sources.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Kolbe Installation Instructions",
+      "url": "https://www.kolbewindows.com/resources/professional-tools/installation-instructions",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer-published comprehensive installation documentation covering multiple configuration options, flashing requirements, and integration with wall systems. No product performance claims; technical reference for installation professionals.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Installation documentation addresses installation quality requirements, not product quality; relevant to report context but not product scoring.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Kolbe Care & Maintenance Manual",
+      "url": "https://www.kolbewindows.com/literature/Kolbe-Care-Maintenance-Factory-Applied-Wood-Finishes",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer maintenance guide recommending bi-annual inspection cycles and noting expected wood movement. Identifies joint maintenance as critical for long-term performance. Implicitly acknowledges ongoing maintenance requirements for wood components.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer maintenance content; no product quality assessment; serves as marketing and liability documentation rather than independent product analysis.",
+      "topics": [
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Kolbe Operation Manual",
+      "url": "https://www.kolbewindows.com/literature/VL_AL_Operation_Care_Maintenance_Manual",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer operation manual providing hardware adjustment procedures, condensation prevention guidance, and detailed operating instructions. Documents hardware adjustment capability suggesting field tolerances require correction post-installation.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer operational documentation; no independent product quality data; classified as quarantine per manufacturer marketing content rule.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Consistently praised for craftsmanship; described as top-tier by multi-brand professional installers",
+      "review": "Positioned as premium luxury tier; highest price category in market comparisons",
+      "forum": "Mixed; 25-year positive experiences exist alongside reports of failures at 3–5 years",
+      "agreement_level": "Low – historical expert praise conflicts with recent owner defect reports"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Expected to last 25+ years when properly maintained; extruded cladding superior to rolled-form",
+      "review": "Comparable to Marvin/Andersen in equivalent classes based on specs",
+      "forum": "25-year positive outlier exists; recent reports of warping, weatherstripping failure, and rot at 3–5 years",
+      "agreement_level": "Low – significant divergence between historical durability and recent failure patterns"
+    },
+    {
+      "topic": "Performance",
+      "expert": "Not independently tested; installation integration cited as primary determinant of real-world performance",
+      "review": "U-factors 0.22–0.28; ENERGY STAR qualified; meets Northern/North-Central zone requirements",
+      "forum": "Few owner complaints about energy performance specifically; thermal performance generally positive",
+      "agreement_level": "High – consistent across sources that energy performance meets specifications"
+    },
+    {
+      "topic": "Water / Moisture Management",
+      "expert": "Two licensed architects document systematic water infiltration confirmed as product design failures, not installation errors",
+      "review": "Specifications indicate compliance with ASTM water test protocols; no independent comparative lab data found",
+      "forum": "Multiple homeowners report water damage, rot, and mold within warranty period",
+      "agreement_level": "High concern – expert, review, and forum sources all converge on water management as critical failure mode"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Not specifically assessed by independent experts; architects report warranty non-responsiveness",
+      "review": "10-year wood / 20-year clad limited warranty; non-transferable; excludes consequential damages",
+      "forum": "Universally criticized as non-functional in practice; multi-year delays; claims denied citing installation/humidity",
+      "agreement_level": "High concern – warranty terms exist but enforcement is consistently reported as inadequate"
+    },
+    {
+      "topic": "Service",
+      "expert": "Architects report failed follow-through on promised repairs over multi-year periods",
+      "review": "Not independently reviewed",
+      "forum": "Universally described as unresponsive; promised callbacks never materialize; chronic delays",
+      "agreement_level": "High concern – consistent across all source types that service is a major weakness"
+    },
+    {
+      "topic": "Value",
+      "expert": "Premium justified only for design-intensive custom applications; not best value for standard residential use",
+      "review": "Priced 30% above Marvin; comparable energy specs; customization differentiator",
+      "forum": "Value strongly questioned given recent failures, warranty non-enforcement, and delivery delays",
+      "agreement_level": "Moderate concern – expert and review agree value exists in niche applications; forum experience undermines general value proposition"
+    },
+    {
+      "topic": "Legal / Compliance",
+      "expert": "2025 court found misrepresentation of WDMA Hallmark Certification; manufacturing defects documented forensically",
+      "review": "Class action alleges K-Kron and PILT system defects; Haley appellate case unresolved on merits",
+      "forum": "BBB complaints corroborate delivery and service failures; legal blog documents water infiltration claims",
+      "agreement_level": "High concern – 2025 judicial finding of manufacturing defects and certification misrepresentation is most authoritative recent determination"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [],
+    "underperforms_expectations": [
+      "Warranty represented as 10-year wood / 20-year clad but multiple owners report multi-year claim delays with no resolution",
+      "Non-transferable warranty reduces value proposition for resale; competing products offer transferable coverage",
+      "Consequential damages exclusion means water infiltration damage to floors, drywall, and framing is not covered even when product defect is confirmed",
+      "Company frequently attributes failures to installation or humidity rather than acknowledging manufacturing defects, effectively denying valid claims",
+      "One owner offered less than 20% discount on replacement sashes as warranty resolution, far below full replacement cost"
+    ],
+    "surprises": [
+      "2025 court found products did not meet WDMA Hallmark Certification standards that Kolbe marketed them as meeting—warranty claims may rest on misrepresented certifications",
+      "PILT wood preservative treatment loses efficacy when exposed to UV light, yet is used on exterior window components where UV exposure is unavoidable—a fundamental materials mismatch",
+      "Warranty administration appears to function as a liability management tool rather than a customer protection mechanism based on documented owner experiences",
+      "Field fix attempts by Kolbe for documented commercial water infiltration failures were unsuccessful, suggesting company lacked engineering solution for known defect"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.22–0.28 (NFRC-referenced; varies by glazing configuration and climate zone)",
+    "shgc": "0.17–0.40 (varies by Solar Low-E coating selection)",
+    "air_infiltration": "Meets AAMA/WDMA/CSA 101/I.S.2/A440 standards per ASTM test protocols; specific CFM value not independently confirmed",
+    "frame_material": "Wood interior (kiln-dried pine) with extruded aluminum exterior cladding; 70% PVDF fluoropolymer coating meeting AAMA 2605-13",
+    "glass": "Insulating glass units; Solar Low-E coatings with argon gas fill standard; triple-pane capable with 1-3/8 inch total thickness",
+    "dp_rating": "Documented in Kolbe Air-Water-Structural Test Reports Manual per ASTM E547-00 cyclic static pressure protocol; specific DP values not extracted from available sources",
+    "stc": "Not independently verified in available sources; triple-pane configuration described as providing enhanced sound dampening",
+    "frame_depth": "4-9/16 inch (116mm) jamb depth; 3-1/4 inch basic box depth with extension options for thicker wall assemblies",
+    "sill_thickness": "1-59/64 inch (49mm)",
+    "cladding_coating": "70% PVDF fluoropolymer meeting AAMA 2605-13 for fade and weather resistance",
+    "certifications_claimed": "NFRC, ENERGY STAR, WDMA Hallmark, AAMA/WDMA/CSA 101/I.S.2/A440",
+    "certifications_disputed": "WDMA Hallmark Certification disputed by 2025 NJ Appellate Court forensic testing finding products did not meet WDMA wood preservative retention standards"
+  },
+  "red_flags": [
+    {
+      "type": "Lawsuit – Class Action",
+      "description": "Haley v. Kolbe class action (Seventh Circuit Case No. 16-3192) alleging defective wood preservation systems (K-Kron finish and PILT treatment), water infiltration, and rot. Seventh Circuit vacated summary judgment; case returned without final defect determination.",
+      "status": "Unresolved on merits; no final product defect finding",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Lawsuit – Commercial / 2025 Judicial Finding",
+      "description": "Shore Star Properties v. Kolbe (2025 NJ Appellate Division): Court found Kolbe products failed to meet WDMA Hallmark Certification standards for wood preservative retention. Forensic testing documented improper glazing sealant application, missing plastic spacers in sashes, non-compliant glue at mortise/tenon joints, and substandard wood preservative treatment. Court found misrepresentation of certifications.",
+      "status": "Decided 2025 – adverse finding against Kolbe on manufacturing defects and certification misrepresentation",
+      "severity": "Critical"
+    },
+    {
+      "type": "Systematic Product Defect – Water Infiltration",
+      "description": "Two independent licensed architects document water infiltration failures confirmed by independent leak investigators as product design defects, not installation errors. One architect documented nearly 40 leaking units in a single commercial project. Class action litigation corroborates the pattern with additional homeowner accounts.",
+      "status": "Documented across multiple independent professional sources and legal proceedings",
+      "severity": "Critical"
+    },
+    {
+      "type": "Manufacturing Quality Control Failure",
+      "description": "2025 court forensic analysis revealed systematic manufacturing process failures: improper sealant application, missing spacers, non-compliant glue, and inadequate wood preservative treatment in actual delivered products vs. certified prototype specifications.",
+      "status": "Judicially confirmed in 2025",
+      "severity": "Critical"
+    },
+    {
+      "type": "Supply Chain / Delivery Failures",
+      "description": "Multiple documented cases of deliveries 7–9 months beyond promised lead times. Company accepted orders with known 16-week delivery promises during a glass shortage (April 2022 onward) that made those timelines unachievable. Customers suffered direct financial harm from project delays and continued loan interest payments.",
+      "status": "Ongoing pattern documented across 2022–2023 timeframe; multiple independent accounts",
+      "severity": "High"
+    },
+    {
+      "type": "Warranty Administration Failure",
+      "description": "Pattern of warranty claim denials, multi-year delays without resolution, and inadequate compensation (less than 20% discount on replacement parts) documented across multiple independent owner accounts. Suggests structural rather than isolated service failures.",
+      "status": "Chronic pattern across multiple sources",
+      "severity": "High"
+    },
+    {
+      "type": "Materials Misrepresentation – PILT Treatment",
+      "description": "PILT (Preservative In-Line Treatment) marketed as protective wood preservative for exterior window components, but treatment loses efficacy upon UV light exposure—unavoidable for any exterior application. Company continued using and marketing PILT despite awareness of this limitation.",
+      "status": "Documented in class action allegations and legal blog; corroborated by Shore Star forensic findings",
+      "severity": "High"
+    }
+  ],
+  "bottom_line": "The Kolbe Ultra Series casement window occupies the highest tier of the residential window market with premium pricing approximately 30% above comparable Marvin products, justified historically by exceptional craftsmanship, extreme customization capability, and multi-decade durability in older installations. Professional installers with extensive multi-brand experience consistently praise construction quality, hardware smoothness, and extruded aluminum cladding as genuine differentiators. Energy performance is well-documented at U-factors of 0.22–0.28 with ENERGY STAR qualification across Northern climate zones.\n\nHowever, the evidence base has shifted materially in recent years. The 2025 Shore Star Properties New Jersey Appellate Court decision—the most authoritative recent judicial determination—found that Kolbe products failed to meet WDMA Hallmark Certification standards while being marketed as compliant, with forensic testing documenting systematic manufacturing defects in sealant application, component installation, and wood preservation treatment. This judicial finding corroborates independent architect accounts of systematic water infiltration failures confirmed as product defects rather than installation errors, class action litigation over inadequate wood preservation systems, and multiple owner reports of premature failures within 3–5 years.\n\nWarranty coverage that appears comprehensive on paper (10-year wood / 20-year clad) is rendered largely non-functional in practice by chronic service unresponsiveness, systematic claim attribution to installation or humidity factors, and multi-year resolution delays documented across multiple independent sources. The warranty's non-transferability and consequential damages exclusion further limit practical protection. Delivery delays of 7–9 months beyond promised lead times have created documented financial harm and caused multiple contractors to remove Kolbe from their recommendation lists.\n\nFor potential purchasers: the Kolbe Ultra Series can only be justified when extreme design customization is genuinely irreplaceable for the project, when project timelines can absorb 6–12 month delivery uncertainty, and when purchasers are prepared to independently inspect delivered products and engage in extended dispute resolution. For standard premium residential applications, the Marvin Ultimate and Andersen E-Series represent more prudent alternatives with comparable energy performance, better-documented service responsiveness, and less litigation exposure—without the manufacturing quality variability now judicially confirmed in Kolbe's recent production.",
+  "product_slug": "kolbe_ultra_series",
+  "product_name": "Kolbe Ultra Series",
+  "manufacturer_slug": "kolbe",
+  "operation_type": "casement",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 162285,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 28,
+    "score": 8,
+    "report_only": 10,
+    "quarantine": 10
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.168759,
+  "verification_date": "2026-03-23T19:43:33.579Z"
+}

@@ -1,0 +1,32 @@
+{
+  "product": "Ply Gem Mira",
+  "operation_type": "double_hung",
+  "slug": "ply_gem_mira_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 48534
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 27,
+      "cost_estimate": 0.15709499999999998
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/ply_gem_mira_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T22:13:23.195Z"
+}

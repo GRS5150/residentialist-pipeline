@@ -1,0 +1,41 @@
+{
+  "category": "windows",
+  "version": "windows_v1.0",
+  "created": "2026-03-19",
+  "parameters": {
+    "composite_method": "geometric",
+    "axis_weights": {
+      "quality": 0.35,
+      "durability": 0.35,
+      "performance": 0.30
+    },
+    "axis_stretch": {
+      "quality_ceiling_bonus": 1.2,
+      "quality_floor_penalty": 0.9,
+      "durability_ceiling_bonus": 1.0,
+      "durability_floor_penalty": 1.5,
+      "performance_ceiling_bonus": 1.2,
+      "performance_floor_penalty": 0.9
+    },
+    "category_ceilings": {
+      "quality": 1.0,
+      "durability": 1.0,
+      "performance": 1.0
+    }
+  },
+  "consensus_targets": {
+    "top": { "min": 88, "max": 96 },
+    "upper_middle": { "min": 75, "max": 87 },
+    "middle": { "min": 63, "max": 74 },
+    "lower_middle": { "min": 50, "max": 62 },
+    "bottom": { "min": 40, "max": 52 }
+  },
+  "labels": {
+    "best_in_class": { "min": 90, "max": 100 },
+    "excellent": { "min": 75, "max": 89 },
+    "good": { "min": 60, "max": 74 },
+    "fair": { "min": 40, "max": 59 },
+    "below_standard": { "min": 0, "max": 39 }
+  },
+  "notes": "Default parameters for windows category. Axis stretch values derived from scoring experiment with 5 deep-dive products compared against expert consensus targets."
+}

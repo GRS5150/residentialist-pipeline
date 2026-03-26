@@ -1,0 +1,37 @@
+{
+  "product": "Harvey Tribute",
+  "operation_type": "double_hung",
+  "slug": "harvey_tribute_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 127264
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 41777
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 32,
+      "cost_estimate": 0.17300700000000002
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/harvey_tribute_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T22:21:48.752Z"
+}

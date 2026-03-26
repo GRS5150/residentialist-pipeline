@@ -1,0 +1,37 @@
+{
+  "product": "Andersen 400 Series",
+  "operation_type": "double_hung",
+  "slug": "andersen_400_series_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 151292
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 45458
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 35,
+      "cost_estimate": 0.18016800000000002
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/andersen_400_series_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T04:27:21.448Z"
+}

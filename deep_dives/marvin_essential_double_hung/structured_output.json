@@ -1,0 +1,653 @@
+{
+  "product": "Marvin Essential Double Hung Window",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Houzz Forum – Marvin Essential Owner Feedback",
+      "url": "https://www.houzz.com/discussions/6076102",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple owners report ABS plastic base trim yellows unevenly over time under UV exposure. Several claim Marvin sales reps assured them windows were 'fully fiberglass.' One owner (Debra Danner) replaced all Essential windows with Andersen after discovering undisclosed plastic components.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Repeated, corroborated pattern of physical product defect (plastic yellowing) across multiple independent forum participants constitutes scoreable defect signal.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Matt Risinger – Marvin Ultimate Window Review (YouTube)",
+      "url": "https://www.youtube.com/watch?v=EWXfULD6_DY",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Risinger, a credentialed builder with 20 years of experience, evaluates Marvin's premium Ultimate line. Notes U-factor of 0.29 is 30–40% more efficient than 0.40–0.50 alternatives. Focuses on Ultimate; Essential limitations implied by contrast.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional with structured technical analysis and clear product opinion; addresses performance metrics directly relevant to Essential benchmarking.",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Marvin – Energy Efficiency Support Page",
+      "url": "https://www.marvin.com/support/energy-efficiency",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Official Marvin documentation confirms ENERGY STAR certification for Essential windows across multiple climate zones, but cautions that certification is a 'one-size-fits-all' guideline that may not account for home orientation, window count, or solar exposure.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing and specification content; not independent assessment.",
+      "topics": [
+        "performance",
+        "specs",
+        "energy"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Southwest Exteriors – Marvin Essential vs. Infinity Comparison (YouTube)",
+      "url": "https://www.youtube.com/watch?v=pKob4sDdEWA",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Experienced Texas installer confirms Essential and Infinity share identical Ultrex fiberglass and Cardinal Glass. Infinity costs only ~5% more but offers substantially greater size options, shape flexibility, and superior warranty transferability, diminishing Essential's cost advantage.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent credentialed installer providing structured comparative product analysis with specific pricing and performance data.",
+      "topics": [
+        "quality",
+        "value",
+        "warranty",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Southwest Exteriors – Marvin Essential Product Review (Blog)",
+      "url": "https://www.southwestexteriors.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Certified installer confirms pultruded fiberglass construction resists bending, cracking, and bowing under temperature extremes. Rates Essential as excellent for harsh Texas climate including heat, rain, snow, and hail. Top-tier energy efficiency from Cardinal Glass.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review from knowledgeable dealer/installer with climate-specific testing context and specification data.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Consumer Reports – Double Hung Window Testing",
+      "url": "https://www.consumerreports.org",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports tests double hung windows including Essential for structural performance, air infiltration, water penetration, and operation. Specific ratings and comparative rankings are behind a membership paywall; no public scoring data available for independent verification.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Independent lab testing source but specific data is paywalled; cannot extract scoreable findings without access to ratings.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Argo Window Repair – Marvin vs. Andersen Comparative Analysis",
+      "url": "https://www.argowindowrepair.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Contractor analysis states Marvin's Ultrex fiberglass windows last approximately 38% longer than vinyl alternatives. Positions Marvin at higher price points than Andersen but notes Andersen's Fibrex composite provides twice vinyl's strength, creating legitimate competition.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review from knowledgeable contractor source with specific longevity and material strength data points.",
+      "topics": [
+        "durability",
+        "quality",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Marvin – Energy Data Specifications",
+      "url": "https://www.marvin.com/support/energy-data",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Official Marvin documentation details climate-specific Low-E coating options (E1, E2, E3, ERS) for Essential windows. Low E2 suited for north/south-central climates. No triple-pane option available. Recommends dealer consultation for glazing selection.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer specification content; no independent validation.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Window Solutions Plus – Marvin Product Line Comparison (Blog)",
+      "url": "https://www.windowsolutionsplus.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Marvin Certified Contractor serving CT and NY recommends Essential for budget-constrained standard replacements prioritizing durability over design. Notes Elevate provides substantially better design flexibility at only marginally higher cost, weakening Essential's value proposition.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed certified contractor providing structured multi-line comparison with direct installation experience and explicit product positioning assessment.",
+      "topics": [
+        "quality",
+        "value",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Fine Homebuilding Forum – Midwest Homeowner Marvin Experience",
+      "url": "https://www.finehomebuilding.com",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Midwest homeowner reports satisfaction with Marvin Elevate in new construction with substantial glass exposure. Used Essential for cost management on secondary windows, upgraded to Elevate for primary glass doors, suggesting selective budgeting strategy across product lines.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single forum post describing a general product selection experience without physical defect claims; no corroborating pattern for scoring purposes.",
+      "topics": [
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "YouTube – Which Marvin Collection Is Right For You?",
+      "url": "https://www.youtube.com/watch?v=EBEQ5hrYXG8",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Presenter breaks down Marvin's collection hierarchy, characterizing Essential as a budget-conscious, durability-focused option with limited color, size, and aesthetic refinement compared to Elevate and Ultimate. Frames Essential as practical over architectural.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published expert comparison with structured product differentiation and clear product opinion on Essential positioning.",
+      "topics": [
+        "quality",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Marvin – Limited Warranty Documentation",
+      "url": "https://www.marvin.com",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "20-year glass seal warranty (units ≤60 sq ft); 10-year frame and hardware warranty. Excludes improper installation, maintenance failures, acts of God, condensation, and water infiltration unless from manufacturing defects. Removal/reinstallation costs explicitly excluded from coverage.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Official manufacturer warranty document; provides legal terms but is not an independent assessment. Relevant to warranty_reality extraction.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "GreenBuildingAdvisor Forum – Marvin Frame Corner Separation",
+      "url": "https://www.greenbuildingadvisor.com",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Homeowner documents separated frame corners at nailing fin connections on Marvin Ultimate windows ~19 months post-installation. Forum identifies missing corner gaskets as root cause—frequently lost or installed over dirty surfaces—creating moisture infiltration pathways.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing a specific physical structural defect with root cause analysis corroborated by the November 2022 Marvin installation guideline revision, establishing a cross-product pattern.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Better Business Bureau – Marvin Windows Complaint Records",
+      "url": "https://www.bbb.org/profile/marvin-windows",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "BBB records document water leakage, air infiltration, incorrect replacement dimensions, and warranty denial. One case: fiberglass cladding arrived damaged; Marvin refused replacement citing 90-day notification policy. A $250K commercial order had manufacturer errors later disputed by Marvin.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "BBB complaint records show corroborated pattern of warranty denial and quality control failures across multiple independent complainants, sufficient for scoring as a service and quality signal.",
+      "topics": [
+        "warranty",
+        "service",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Pella – Marvin Fiberglass Competitive Comparison",
+      "url": "https://www.pella.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Pella claims its fiberglass is 1.4x stronger in bend tests and 2.2x greater in tensile strength than Marvin's Ultrex, characterizing Marvin's material as 'randomly blown fiberglass rovings' vs. woven structural mats. Self-interested competitor marketing claim.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Competitor marketing content; self-interested claims lack independent verification and represent adversarial sourcing.",
+      "topics": [
+        "quality",
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Migliaccio & Rathod LLP – Marvin Windows Class Action Investigation",
+      "url": "https://www.classlawdc.com/marvin-windows",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Law firm initiated 2026 investigation into Marvin Elevate (and potentially Essential) windows based on reports of exterior cracking, flaking, and premature finish deterioration. Potential claims include implied/express warranty violations and deceptive durability marketing practices.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal investigation is report_only per classification rules; not yet adjudicated and primarily targets Elevate line, though Essential implications are noted.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Federal Trade Commission – Window Industry Energy Savings Warning Letters",
+      "url": "https://www.ftc.gov/news-events/2012",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "FTC issued 2012 warning letters to 14 window manufacturers for unsupported claims that replacement windows save more than 30% on energy bills. Marvin not specifically named. Establishes industry-wide pattern of overstated energy savings marketing.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Federal regulatory action establishing industry context; Marvin not a named target, so direct product scoring not applicable.",
+      "topics": [
+        "performance",
+        "legal",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Marvin – Company History and Ownership",
+      "url": "https://www.marvin.com/our-story/history",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Marvin Windows is a family-owned business founded in 1912, operating continuously in Warroad, MN for 110+ years under fourth-generation leadership with CEO Paul Marvin.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer corporate history content; relevant to company stability assessment but not product quality scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Marvin – 2025 Profit Sharing and Expansion News",
+      "url": "https://www.marvin.com",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Marvin distributed $13.7M in profit sharing to 8,131 employees in 2025, continuing a 68-year tradition. New 400,000-sq-ft Kansas City facility announced and Windsor, CT distribution center opened, indicating continued growth investment despite tariff and inflation headwinds.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Company news relevant to financial stability and warranty viability assessment, not product quality scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Matt Risinger – Common Window Installation Mistakes (YouTube)",
+      "url": "https://www.youtube.com/watch?v=QepQNcG2iwY",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Risinger details critical installation errors affecting window performance: improper flashing, sealed drainage holes, insufficient sealant at nailing fins, and absent rigid head flashing. Notes painters frequently seal drainage holes causing moisture accumulation in frame cavities.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Expert content addressing installation quality, not product quality directly; per rules, installation quality issues are report_only.",
+      "topics": [
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Marvin – Ultrex Fiberglass Technical Brochure",
+      "url": "https://www.marvin.com",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Marvin documentation claims Ultrex fiberglass is 8x stronger than vinyl and 3x stronger than vinyl-wood composites. Thermal expansion rate closely matches glass. Heat deflection temperature of 285°F vs. vinyl's 163°F. One sq. inch supports 34,000 lbs.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/technical content; not independently verified.",
+      "topics": [
+        "specs",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Ring's End – Marvin Corner Gasket Installation Update (YouTube Shorts)",
+      "url": "https://www.youtube.com/shorts/marvin-corner-gasket",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "November 2022 technical installer update: Marvin revised corner installation method from foam gaskets to flashing strips applied at 45-degree angles. Implies earlier installations may have water management deficiencies requiring retrofit attention.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical update from credentialed installer documenting a manufacturer procedure revision that corroborates documented field failures, constituting a scoreable installation-linked product defect pattern.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Windura – Marvin Essential Pricing and Value Analysis",
+      "url": "https://www.windura.com/pricing",
+      "platform": "other",
+      "column": "review",
+      "snippet": "2025 market analysis finds Essential cost-competitive for standard sizes but cost-prohibitive for custom dimensions. Budget-conscious homeowners ordering standard sizes receive disproportionate value; those needing custom sizes lose the Essential's pricing advantage versus Elevate.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published market analysis with specific pricing structure and value comparison data from a knowledgeable installer source.",
+      "topics": [
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Magnolia Home Remodeling – Marvin vs. Andersen Comparison",
+      "url": "https://www.magnoliahomeremodeling.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Installer comparison notes Marvin's fiberglass exteriors provide unmatched durability with slimmer frames enabling greater glass area. Marvin appeals to homeowners prioritizing durability and customization; premium pricing justified for robust weather-resistance climates.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review from knowledgeable installer with specific material and design performance assessments.",
+      "topics": [
+        "durability",
+        "quality",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Marvin – Glass and Glazing / Low-E Coating Technical Documentation",
+      "url": "https://www.marvin.com/products/design-options/glass",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Official documentation covers Low-E coating function via thin metallic layers. Notes poor installation or materials with high thermal expansion can cause seal failures. Triple pane not available for Essential. Multiple Low-E options for climate optimization.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer product specification and marketing content.",
+      "topics": [
+        "specs",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Marvin – Essential Collection Product Page",
+      "url": "https://www.marvin.com/products/collections/essential",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Official Marvin marketing page describes Essential as offering 'clean design, powerful performance' with streamlined selection and low maintenance. No disclosure of plastic component integration or material limitations.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content with no independent validation.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Marvin – Care and Maintenance Guidance",
+      "url": "https://www.marvin.com/support/care-and-maintenance",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Official maintenance guidance requires regular weatherstrip effectiveness inspection, caulking maintenance, and drainage hole verification. Implies ongoing owner maintenance burden for sustained performance.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer maintenance guidance; addresses care requirements but not product quality independently.",
+      "topics": [
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Marvin – Condensation Information Blog",
+      "url": "https://www.marvin.com/blog/condensation",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Marvin explains condensation as evidence windows are working; emphasizes interior humidity control and building moisture source management as homeowner responsibilities. Implicitly shifts condensation-related complaints away from product responsibility.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer blog content deflecting product liability; not independent.",
+      "topics": [
+        "performance",
+        "warranty"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Material Durability (Fiberglass)",
+      "expert": "Strong positive – Ultrex 8x stronger than vinyl; 38% longer lifespan; superior heat deflection",
+      "review": "Positive – pultruded fiberglass performs well in harsh climates including Texas heat and hail",
+      "forum": "Neutral to positive on fiberglass frames specifically; dissatisfaction centers on plastic components, not fiberglass itself",
+      "agreement_level": "High agreement on fiberglass performance; divergence on plastic component integration"
+    },
+    {
+      "topic": "Energy Efficiency",
+      "expert": "Strong positive – top-tier U-factors; ENERGY STAR certified; Cardinal Glass provides best-in-class performance",
+      "review": "Positive – Low-E coatings provide climate-specific optimization; meets ENERGY STAR standards",
+      "forum": "No significant complaints about thermal performance; owners confirm good energy behavior",
+      "agreement_level": "High – strong cross-column alignment"
+    },
+    {
+      "topic": "Plastic Component Quality",
+      "expert": "Not addressed by experts",
+      "review": "Not mentioned in published reviews",
+      "forum": "Strong negative – ABS plastic base yellows unevenly; screen tabs fail within 12 months; undisclosed material composition",
+      "agreement_level": "Low – major owner complaint entirely absent from expert and review sources"
+    },
+    {
+      "topic": "Design Flexibility",
+      "expert": "Negative – limited color, size, and configuration options vs. Elevate/Ultimate",
+      "review": "Negative – streamlined but constrained; Elevate offers meaningfully more for marginal cost",
+      "forum": "Negative – owners who see Essential and Elevate side-by-side consistently prefer Elevate",
+      "agreement_level": "High – strong cross-column agreement on limited customization"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Moderate negative – ~5% Elevate premium delivers substantially more; Essential advantage marginal",
+      "review": "Moderate negative – standard-size buyers benefit; custom sizing eliminates cost advantage",
+      "forum": "Negative – owners regret not spending more for Elevate; plastic compromises undermine perceived value",
+      "agreement_level": "High – consistent cross-column concern about value vs. Elevate"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Neutral – meets industry standards; Infinity transferability superior",
+      "review": "Neutral to negative – standard terms with significant exclusions",
+      "forum": "Negative – multiple BBB complaints document defensive interpretation; warranty exclusions weaponized against customers",
+      "agreement_level": "Moderate – experts neutral, forum strongly negative"
+    },
+    {
+      "topic": "Customer Service",
+      "expert": "No data",
+      "review": "Not evaluated",
+      "forum": "Strongly negative – dismissive responses to yellowing complaints; warranty denials on legitimate defects",
+      "agreement_level": "Low confidence – forum-only signal, no expert corroboration"
+    },
+    {
+      "topic": "Installation Dependency",
+      "expert": "Critical – proper flashing, drainage, corner gaskets, and foam application non-negotiable",
+      "review": "Important – installation quality affects long-term performance",
+      "forum": "Negative experiences – air infiltration at sash-jamb junctions; Marvin service declared no issues despite evidence",
+      "agreement_level": "High – strong cross-column agreement that installation is a critical variable"
+    },
+    {
+      "topic": "Long-Term Performance",
+      "expert": "Adequate – fiberglass should deliver 20–30 year lifespan",
+      "review": "Limited data – newer product line with insufficient longitudinal data",
+      "forum": "Concern – plastic yellowing represents premature aesthetic degradation; broader class action investigation pending",
+      "agreement_level": "Low to medium – experts optimistic, forum signals premature degradation of specific components"
+    }
+  ],
+  "warranty_reality": {
+    "stated_coverage": {
+      "glass_seal": "20 years (units ≤60 sq ft); 10 years (larger units)",
+      "non_tempered_glass_stress_cracks": "10 years",
+      "frame_and_hardware": "10 years",
+      "transferability": "Limited; inferior to Marvin Infinity line"
+    },
+    "beats_expectations": [
+      "20-year glass seal warranty exceeds many mid-tier competitor offerings",
+      "Frame warranty duration is competitive within the fiberglass window segment"
+    ],
+    "underperforms_expectations": [
+      "Removal, installation, finishing, and disposal costs explicitly excluded – doubles remediation cost for covered defects",
+      "Warranty caps liability at product purchase price, excluding labor, structural damage, and consequential losses",
+      "Marvin retains option to repair rather than replace even when replacement better serves homeowner",
+      "Narrowly interpreted exclusions documented in BBB complaints; warranty denial on pre-shipment manufacturing damage citing 90-day notification policy",
+      "Plastic component yellowing not acknowledged as a covered defect; characterized by Marvin as normal and homeowner's selection problem"
+    ],
+    "surprises": [
+      "Warranty explicitly excludes 'normal discoloration or fading of finishes' – may shield Marvin from plastic yellowing claims entirely",
+      "Installation flashing and water management responsibility shifted entirely to contractor, not Marvin, per warranty language",
+      "November 2022 corner gasket installation revision implies pre-2022 installations may not meet current water management standards, yet no retrofit program documented",
+      "Large commercial orders ($250K+) documented with manufacturer errors that Marvin subsequently disputed after initially acknowledging responsibility"
+    ]
+  },
+  "verified_specs": {
+    "frame_material": "Pultruded Ultrex fiberglass (proprietary to Marvin/Infinity)",
+    "glass": "Cardinal Glass with multiple Low-E coating options (Low E1, E2, E3, ERS); no triple-pane option available",
+    "u_factor": "Not explicitly stated for Essential double hung in sources; Marvin premium lines achieve 0.20–0.29; Essential expected similar range per installer confirmations",
+    "shgc": "Climate-variable based on Low-E selection; Low E2 provides medium solar heat gain for north/south-central climates",
+    "air_infiltration": "Not independently verified in available sources; BBB complaints include air infiltration reports at sash-jamb junctions",
+    "dp_rating": "Not available in reviewed sources",
+    "stc": "Not available in reviewed sources",
+    "energy_star_certified": "Yes – multiple climate zones confirmed",
+    "interior_finishes": "Factory-painted white, bronze, gunmetal, ebony; no wood interior option (Elevate differentiator)",
+    "triple_pane": "Not available for Essential line",
+    "frame_strength": "Claimed 8x stronger than vinyl per Marvin documentation (unverified independently); Pella contests claiming its fiberglass is 1.4x stronger in bend tests",
+    "heat_deflection_temp": "285°F (Marvin claim); vs. vinyl's 163°F",
+    "thermal_expansion": "Closely matches glass (manufacturer claim)",
+    "plastic_components_present": "Yes – ABS plastic base trim, sash caps on bottom sash, screen tabs, screen frame elements; not prominently disclosed in marketing"
+  },
+  "red_flags": [
+    {
+      "type": "Legal Investigation",
+      "description": "Migliaccio & Rathod LLP initiated 2026 class action investigation into Marvin windows (primarily Elevate; Essential potentially implicated) for exterior cracking, flaking, premature finish deterioration, warranty denial, and deceptive durability marketing claims.",
+      "source": "SRC-016",
+      "severity": "High – active legal investigation; adjudication pending"
+    },
+    {
+      "type": "FTC Regulatory Action",
+      "description": "FTC issued 2012 warning letters to 14 window manufacturers for unsupported energy savings claims exceeding 30%. Marvin not specifically named but industry-wide overstatement pattern confirmed.",
+      "source": "SRC-017",
+      "severity": "Low-Medium – industry-wide; Marvin not a named target"
+    },
+    {
+      "type": "Undisclosed Material Composition",
+      "description": "Multiple homeowners report that Marvin sales representatives explicitly assured them Essential windows contained no plastic components. Post-purchase discovery of extensive ABS plastic integration caused significant owner dissatisfaction and replacement decisions. Pattern consistent across multiple independent Houzz respondents.",
+      "source": "SRC-001",
+      "severity": "High – potential deceptive trade practice if misrepresentation was systemic"
+    },
+    {
+      "type": "Installation Guideline Revision",
+      "description": "Marvin issued November 2022 revision to corner gasket installation procedures, replacing foam gaskets with 45-degree flashing strips. Implies that pre-2022 installations may have water management deficiencies not covered under retrofit program.",
+      "source": "SRC-022",
+      "severity": "Medium – affects installed base pre-November 2022"
+    },
+    {
+      "type": "Pattern of Warranty Denial",
+      "description": "BBB records document multiple instances of Marvin denying warranty claims on legitimate defects using strict exclusion interpretation, including denial of pre-shipment manufacturing damage and reversal of acknowledged responsibility on large commercial orders.",
+      "source": "SRC-014",
+      "severity": "Medium-High – systematic customer service and warranty administration concern"
+    },
+    {
+      "type": "Premature Component Degradation",
+      "description": "Plastic screen tabs reported to fail within 12 months under normal use. ABS plastic base trim yellows unevenly under UV exposure in a timeframe inconsistent with premium window positioning. No recall or proactive remediation documented.",
+      "source": "SRC-001",
+      "severity": "Medium – aesthetic and functional degradation; timeline inconsistent with 10–20 year warranty positioning"
+    }
+  ],
+  "bottom_line": "The Marvin Essential double hung window delivers genuinely strong fiberglass durability and competitive energy efficiency—its Ultrex frame and Cardinal Glass combination are legitimate engineering achievements supported by consistent expert and installer consensus. However, the product is significantly undermined by the incorporation of undisclosed ABS plastic components, particularly a base trim piece that yellows unevenly under UV exposure, brittle screen tabs that fail within 12 months, and plastic sash caps that create a mixed-material aesthetic. Multiple independent homeowners report that Marvin sales representatives explicitly misrepresented the product as fully fiberglass, a pattern that exposes Marvin to deceptive marketing liability currently being explored in a 2026 class action investigation. Warranty terms meet industry minimums but are narrowly and defensively enforced per documented BBB complaints, with removal and reinstallation costs excluded—effectively doubling remediation costs for any covered defect. The product's core market argument collapses under scrutiny: Marvin's own Infinity or Elevate lines cost approximately 5% more and deliver superior design flexibility, better warranty transferability, and no plastic-component concerns. For budget-constrained buyers committed to the Marvin brand in standard configurations, Essential is adequate; for anyone comparing side-by-side with Elevate, the plastic compromises and marginal savings make Essential a difficult recommendation.",
+  "scoring_summary": {
+    "scoreable_sources": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-004",
+      "SRC-005",
+      "SRC-007",
+      "SRC-009",
+      "SRC-011",
+      "SRC-013",
+      "SRC-014",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024"
+    ],
+    "report_only_sources": [
+      "SRC-006",
+      "SRC-010",
+      "SRC-012",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-027"
+    ],
+    "quarantined_sources": [
+      "SRC-003",
+      "SRC-008",
+      "SRC-015",
+      "SRC-021",
+      "SRC-025",
+      "SRC-026",
+      "SRC-028"
+    ],
+    "pool_distribution": {
+      "S": 0,
+      "A": 4,
+      "B": 6,
+      "C": 18
+    }
+  },
+  "product_slug": "marvin_essential",
+  "product_name": "Marvin Essential",
+  "manufacturer_slug": "marvin",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 160540,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 28,
+    "score": 12,
+    "report_only": 9,
+    "quarantine": 7,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.158304
+}

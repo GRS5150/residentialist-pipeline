@@ -1,0 +1,76 @@
+{
+  "auto_classification_rules": [
+    {
+      "condition": "Expert source with clear product opinion",
+      "classification": "score",
+      "reason": "Expert opinion directly relevant to scoring"
+    },
+    {
+      "condition": "Published review with specs or testing data",
+      "classification": "score",
+      "reason": "Review with verifiable data supports scoring"
+    },
+    {
+      "condition": "Forum post describing physical product defect with corroborating pattern",
+      "classification": "score",
+      "reason": "Corroborated defect pattern is scoring evidence"
+    },
+    {
+      "condition": "Forum post about sales process, dealer experience, customer service",
+      "classification": "report_only",
+      "reason": "Service experience feeds Warranty Reality and Serviceability, not axis scores"
+    },
+    {
+      "condition": "Single forum complaint with no corroboration",
+      "classification": "quarantine",
+      "reason": "Uncorroborated single complaint does not meet evidence threshold"
+    },
+    {
+      "condition": "Source about a different product line from same manufacturer",
+      "classification": "quarantine",
+      "reason": "Wrong product line — not applicable to this evaluation"
+    },
+    {
+      "condition": "Source about installation quality, not product quality",
+      "classification": "report_only",
+      "reason": "Installation is separate from product quality scoring"
+    },
+    {
+      "condition": "Manufacturer marketing content with no independent value",
+      "classification": "quarantine",
+      "reason": "Marketing content is not independent evidence"
+    },
+    {
+      "condition": "Legal/lawsuit information about this specific product's defect",
+      "classification": "score",
+      "reason": "Product-specific legal action is direct scoring evidence"
+    },
+    {
+      "condition": "Legal/lawsuit information about company generally",
+      "classification": "report_only",
+      "reason": "Company-level legal info feeds context but not product axis scores"
+    }
+  ],
+  "pool_definitions": {
+    "S": {
+      "weight": 1.50,
+      "description": "Known expert comparison sources with structured scoring",
+      "examples": ["Summit Construction Group", "Argo Glass", "Weatherguard Construction"]
+    },
+    "A": {
+      "weight": 1.00,
+      "description": "Credentialed professionals, trade publications, independent testing",
+      "examples": ["GBA editorial", "Fine Homebuilding editorial", "Consumer Reports", "named contractors with multi-brand experience"]
+    },
+    "B": {
+      "weight": 0.75,
+      "description": "Published reviews, dealer content, sponsored but knowledgeable sources",
+      "examples": ["This Old House", "Modernize", "Matt Risinger for non-Pella content", "trade magazines"]
+    },
+    "C": {
+      "weight": 0.40,
+      "description": "Individual forum posts, Reddit comments, Houzz threads, BBB complaints",
+      "examples": ["Reddit comments", "Houzz threads", "BBB complaints"]
+    }
+  }
+}

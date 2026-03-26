@@ -1,0 +1,32 @@
+{
+  "product": "Milgard Trinsic",
+  "operation_type": "casement",
+  "slug": "milgard_trinsic_casement",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 46403
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 26,
+      "cost_estimate": 0.150702
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/milgard_trinsic_casement_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T22:07:07.601Z"
+}

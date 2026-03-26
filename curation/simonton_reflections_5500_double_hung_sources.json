@@ -1,0 +1,585 @@
+{
+  "product": "Simonton Reflections 5500 Double-Hung",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Professional Window Installer – Detailed Expert Review (cited as [1] throughout report)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Experienced installer with hundreds of window evaluations documented U-Factor 0.29, SHGC 0.24, VT 0.45. Criticized thick frames, 'cheap' constant-force balance system, sash stops on small windows, visible screw holes, and observable sash play when locked. Called design 'getting long in the tooth.'",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional with structured comparative testing, clear product opinion, and measurable performance data across multiple categories.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Simonton Official Product Page / Technical Specifications (cited as [2], [17], [42])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer specs: 3/4-inch IGU, ProSolar Low-E glass, Argon fill, Intercept spacer, fusion-welded corners, 15-chamber frame/sash, constant-force coil balance, Lap-Lok meeting rail, cam locks in multiple finishes, optional triple-pane upgrade.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/specification content; useful for specs extraction but should not contribute to scored opinion pool.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Simonton Product Comparison Tool / Technical Resource Database (cited as [3], [21])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Simonton's own comparison tools feature the 5500 prominently as a core offering; used internally to position 5500 against other Simonton lines. No independent scoring value.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent third-party evaluation.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Florida Professional Installer / Coastal Contractor Assessment (cited as [4])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Florida-focused professional praises 5500 for multi-chambered construction (15-16 chambers), fusion-welded build, sloped sill, DP-50 to DP-65 ratings, structural performance up to ±82.5 PSF, AAMA/FGIA Gold Label Certification, and Florida Product Approval. Thick frames seen as durability asset in coastal environments.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional installer with structured performance data and climate-specific comparative context; clear product opinion.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Simonton Warranty Documentation (cited as [5], [18], [41])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Double-lifetime limited warranty on vinyl, hardware, and screens; 20-year glass seal warranty; transferable once to subsequent homeowner. Excludes salt spray, harsh UV, storm door heat buildup, and installation labor. Condensation disclaimer included.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document; factually important for warranty_reality extraction but is primary-source manufacturer content, not independent evaluation.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Simonton Technical Construction Specification Sheet (cited as [6])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents fusion-welded corners, 15-chamber frame/sash construction, 3/4-inch stainless steel constant-force coil balance system. Corroborates multi-chamber count and hardware materials cited by independent professionals.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer specification document; useful for spec verification but constitutes marketing/technical content from manufacturer.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Houzz Forum – Homeowner Report: Balance Failures After ~4 Years (cited as [7], [29])",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner who installed 5500 windows reports repeated balance failures after approximately four years: 'the balancers on the windows keep breaking. Specifically the plastic piece that the metal pin pivots on.' Replacement tutorials for Simonton coil balance assemblies exist corroborating the pattern.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defect (plastic pivot shoe failure in balance system) with corroborating pattern evidenced by existence of replacement tutorials and multiple professional references to same component.",
+      "topics": [
+        "durability",
+        "quality",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "General Performance / Air Infiltration Expert Commentary (cited as [8], [14])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional reviewers characterize 5500 air infiltration at 0.17 CFM as 'very high based on today's newer standards.' Real-world testing confirms perceptible draft on windy days in cold climates. Lap-Lok meeting rail noted as positive differentiator versus older designs.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional technical reviewer with measurable performance data and comparative context; clear, substantiated product opinion.",
+      "topics": [
+        "performance",
+        "specs",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Class-Action Lawsuit: U.S. District Court, District of Minnesota (2016) (cited as [10], [19])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "October 17, 2016 class-action against Simonton Building Products LLC alleging internal condensation, metallic film corrosion, fingerprint/smudge defects, lack of edge deletion on Low-E coatings, inadequate desiccant, edge seal defects, and lack of secondary seals. Counts 1-7 and 10-11 dismissed with prejudice April 17, 2017; counts 8-9 dismissed without prejudice.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; factually critical for red_flags but classified as report_only.",
+      "topics": [
+        "legal",
+        "quality",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Industry Brand Comparison / Best Warranty and Durability Analysis (cited as [11])",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Comprehensive industry analysis identifies Simonton as offering 'best warranty and durability' among vinyl window brands; Reflections 5500 holds premium position in Simonton lineup. Positions Pella, Marvin, Andersen as superior in customization; JELD-WEN and Alside as more affordable alternatives.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with structured brand positioning and warranty/durability assessment across product landscape.",
+      "topics": [
+        "warranty",
+        "durability",
+        "value",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Cornerstone Building Brands / CD&R Acquisition Corporate Record (cited as [12])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Simonton is a subsidiary of Cornerstone Building Brands, which was taken private by Clayton, Dubilier & Rice in 2022 in an all-cash transaction valued at approximately $5.8 billion. Cornerstone also owns Ply Gem, Silver Line, Atrium, American Craftsman, and Great Lakes Window.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate ownership and stability information; relevant to manufacturer stability assessment but not a product quality opinion source.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Houzz Forum – Okna vs. Simonton Comparative Thread (cited as [14], [15])",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Professional and experienced forum contributors note Okna 500 and Soft-Lite beat Simonton 'in every category and by a considerable margin; from Ufactor to air leakage rate.' Price differential of $2,000-$3,000 for full-house retrofit equates to ~$0.85/day over 10 years per one professional analysis.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread with structured comparative data from professional contributors, specific measurable performance comparisons, and consistent pattern across multiple respondents.",
+      "topics": [
+        "performance",
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Houzz Forum – Homeowner Frame Thickness / Sill Depth Complaint During Install (cited as [1] homeowner quote)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner mid-installation reports thick 5500 frames reduced sill depth from 4.5 inches to 1 inch after installation and quarter-round trim, eliminating inside blind mounting. No functional defect reported; aesthetic and usability impact only.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single forum complaint about dimensional/aesthetic impact with no corroborating defect pattern; relates to product design characteristic rather than defect.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Consumer Reports – Window Testing Methodology Description (cited as [28])",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports tests replacement windows in sealed wooden frames at 25 mph and 50 mph simulated wind, measures air leakage at 0°F and 70°F, and tests rain resistance at 5 gallons/sq ft/hour simulating winds up to 74 mph. No Simonton 5500-specific score available in report data.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Describes testing methodology applicable to the product category but no specific Simonton 5500 score or result is available in the source data.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Soft-Lite Windows Performance Data / Elements and Imperial LS Air Infiltration (cited as [37])",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Soft-Lite Elements achieve 0.01 CFM air infiltration; Imperial LS achieves 0.02 CFM — approximately 15x and 7x more airtight than Simonton's 0.17 CFM respectively. Used as benchmark comparison by professional reviewers assessing 5500 shortcomings.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published performance specification data used in expert comparative analysis; directly benchmarks Simonton 5500 air infiltration against measurable competing products.",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "ENERGY STAR Most Efficient 2024 Recognition (cited as [16])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Select Simonton 5500 triple-pane configurations recognized as ENERGY STAR Most Efficient for 2024. Standard double-pane configurations achieve ENERGY STAR certification in most regions.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent government certification program with structured scoring criteria; applicable to specific 5500 configurations.",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Houzz Forum – South Carolina Coastal Homeowner Quote Discussion (cited as [26])",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner received quote of ~$8,900 for 2 picture windows and 15 double-hungs. Forum contributors affirm 5500 represents solid value versus Sunrise alternatives. Another homeowner documented 18 windows at ~$13,608 installed. Satisfaction reported for contractor-installed units.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about pricing and dealer/installation experience; no physical defect pattern described. Useful for value calibration.",
+      "topics": [
+        "value",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Simonton Installation Documentation / Technical Support Resources (cited as [23])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Simonton provides detailed installation instructions covering pan flashing, sealant profiles, fastener penetration, J-roll flashing application, and shimming. Professional installers note documentation and technical support exceed most competitors. Installation quality identified as critical performance variable.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Installation documentation and process; relevant to installation quality, not product quality per auto-classification rules.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Pricing Analysis – Multiple Published Sources (cited as [24], [26])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Window-only prices range $350–$1,300; installed cost typically $550–$950 per window. Remodeling Magazine 2023 Cost vs. Value Report: mid-range vinyl replacement averages $20,091 for 10 windows with 68.5% ROI at resale.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with documented pricing data and third-party ROI benchmarking (Remodeling Magazine); supports value assessment.",
+      "topics": [
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "BBB Profile – Simonton Windows (cited as [20])",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "Simonton holds A+ BBB rating but is not BBB Accredited. Company founded 1943, incorporated 2007, ~500 employees, headquartered Parkersburg, WV. One homeowner reported warranty denial for paint overspray on window edges, filed BBB complaint.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "BBB profile is a factual business record; individual complaint about warranty denial relates to service process rather than physical product defect.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Houzz Forum – Installation Quality / Contractor Workmanship Thread (cited as [1] contractor discussion)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner documents contractor providing poor caulking, improperly cut glazing beads with 1/8-inch corner gaps, and loose casement sash moving on glass during replacement. Issues attributed to contractor workmanship rather than product defect.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about installation quality, not product quality per auto-classification rules.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Houzz Forum – Andersen vs. Simonton Comparison Thread (cited as [22], [41])",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum discussion compares Simonton 5500 to Andersen 400 Series. Simonton saves $200–400 per window; Andersen offers premium hardware and aesthetics. For Florida applications, pure vinyl Simonton cited as superior to Andersen wood-vinyl composite in salt-air environments.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum comparative thread with structured cost and material performance data; pattern consistent with professional assessments and corroborated by multiple contributors.",
+      "topics": [
+        "value",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Homeowner Warranty Claim Report – Gas Leak Between Panes (cited as [10] homeowner account)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports Argon gas leaked between panes on units purchased in 2011, discovered in 2024. Simonton acknowledged the issue under warranty. Consistent with IGU seal failure pattern identified in class-action litigation.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defect (IGU seal/gas failure) with corroborating pattern established by class-action litigation and professional reviewer commentary.",
+      "topics": [
+        "durability",
+        "warranty",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Cornerstone / Simonton New Finish Announcement – January 2026 (cited as [44])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Cornerstone Building Brands announced bold black and bronze interior/exterior finish options for Simonton 5500 and other lines in January 2026, indicating continued manufacturer investment in the product line.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/product announcement content; no independent evaluation of product quality.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Pella Window Comparative Review (cited as [11], [33])",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Pella 250 and 350 series positioned 50–100% higher per window than Simonton 5500. Offers superior customization, brand recognition, and strong warranty. Preferred for homeowners prioritizing long-term aesthetic integration over cost.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review establishing Simonton 5500's relative value position; directly benchmarks against named competitor with pricing data.",
+      "topics": [
+        "value",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Okna 500 Series Expert Comparative Review (cited as [14], [15])",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional window specialist documents Okna 500 'wins on all fronts: looks, lower U-factor, MUCH lower air infiltration.' Okna features refined proportions with reduced visual frame bulk. Described as 'WORLDS better' than Simonton though at $2,000–$3,000 premium for full-house retrofit.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert comparative review with specific measurable performance criteria and structured multi-category assessment; credentialed professional source.",
+      "topics": [
+        "performance",
+        "specs",
+        "value",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Budget Window Brand Comparative Note – JELD-WEN, American Craftsman, Alside (cited as [11], [35])",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "JELD-WEN, American Craftsman, and Alside positioned as more affordable alternatives to 5500 with corresponding reductions in frame durability, hardware quality, and warranty. Noted as appropriate for rental properties or minimum-code applications.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review establishing Simonton 5500's competitive position above budget-tier products; contributes to value scoring context.",
+      "topics": [
+        "value",
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "quality",
+      "expert": "Mixed – competent mid-range construction, fusion-welded corners, 15-chamber frame praised; balance system plastic components, visible screws, sash tolerances criticized",
+      "review": "Adequate for price point; dated design elements versus newer competitors; multi-chamber frame exceeds budget alternatives",
+      "forum": "Generally satisfactory initial quality; frame thickness complaints common; some balance and IGU failures reported over time",
+      "agreement_level": "moderate"
+    },
+    {
+      "topic": "durability",
+      "expert": "Strong structural durability in coastal/high-wind environments; balance system plastic pivot shoes flagged as long-term vulnerability",
+      "review": "Multi-chambered vinyl construction rated favorably; IGU seal defects documented in litigation; proven 20+ year track record for most units",
+      "forum": "Many long-term satisfactory reports; balance failures at 4-7 years reported by some; Argon gas loss documented in 13-year-old units",
+      "agreement_level": "moderate"
+    },
+    {
+      "topic": "performance",
+      "expert": "U-Factor 0.29 adequate but not leading; air infiltration 0.17 CFM significantly below modern standards; VT 0.45 low; DP-50 to DP-65 strong for coastal",
+      "review": "ENERGY STAR certified most regions; triple-pane Most Efficient 2024; lags Okna and Soft-Lite on thermal metrics; Lap-Lok meeting rail positive",
+      "forum": "Perceptible draft noted in cold/windy conditions by some users; most report satisfactory performance versus old single-pane replacements",
+      "agreement_level": "high"
+    },
+    {
+      "topic": "warranty",
+      "expert": "Double-lifetime on vinyl/hardware, 20-year glass seal, single transferability – rated best-in-class among vinyl brands by industry analysis",
+      "review": "Warranty terms strong on paper; exclusions for coastal/salt spray environments reduce practical value for Florida/coastal buyers",
+      "forum": "Mixed claim experience; some approvals documented; one BBB complaint for denial on paint overspray; gas-leak claim acknowledged",
+      "agreement_level": "moderate"
+    },
+    {
+      "topic": "service",
+      "expert": "Installation documentation and technical support rated superior to most competitors",
+      "review": "Warranty claims handled through dealers, not manufacturer directly; labor not covered",
+      "forum": "Variable dealer responsiveness; some positive warranty resolution reports; some frustration with coverage denials",
+      "agreement_level": "low"
+    },
+    {
+      "topic": "value",
+      "expert": "Strong value for large-scale installs; 50-100% price premium for meaningfully better-performing competitors requires careful ROI analysis",
+      "review": "68.5% resale ROI per Remodeling Magazine; $350–$1,300 window-only; $550–$950 installed – genuine mid-range positioning",
+      "forum": "Widely perceived as good value versus premium brands for budget-conscious whole-house replacements",
+      "agreement_level": "high"
+    },
+    {
+      "topic": "specs",
+      "expert": "U-Factor 0.25–0.31; SHGC 0.24 typical; VT 0.45; air infiltration 0.17 CFM; DP-50 to DP-65; structural ±82.5 PSF max; 15 chambers; fusion-welded",
+      "review": "AAMA/FGIA Gold Label; Florida Product Approval; ENERGY STAR certified; triple-pane Most Efficient 2024",
+      "forum": "No independent spec verification from forum sources",
+      "agreement_level": "high"
+    },
+    {
+      "topic": "legal",
+      "expert": "2016 class-action identified IGU design defects; most counts dismissed with prejudice 2017",
+      "review": "Litigation history noted in published analyses; outcome suggests limited judicial validation of broadest claims",
+      "forum": "Individual IGU seal failure reports consistent with lawsuit allegations",
+      "agreement_level": "moderate"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Double-lifetime warranty on vinyl and hardware components is among the strongest in the vinyl window segment",
+      "20-year glass seal warranty exceeds many competing mid-range products",
+      "Single transferability to subsequent homeowner adds resale value",
+      "Simonton acknowledged Argon gas loss on 13-year-old units under warranty in at least one documented case"
+    ],
+    "underperforms_expectations": [
+      "Coastal/salt spray environments explicitly excluded – significant limitation for Florida and similar markets where 5500 is heavily marketed",
+      "Storm door and shutter heat buildup excluded – common accessory combinations that void coverage",
+      "Installation labor and related costs not covered; warranty responsibility passes to dealer, not manufacturer directly",
+      "Paint or coating overspray on window edges cited as grounds for coverage denial in at least one BBB-reported case",
+      "Condensation disclaimer in warranty documentation deflects homeowner concerns about internal IGU moisture to humidity management rather than product defect"
+    ],
+    "surprises": [
+      "Transferability feature is unusual at this price point and broadly praised by homeowners and reviewers",
+      "Warranty excludes coverage for conditions common in the exact coastal markets where the product's structural performance is most emphasized by professional installers and marketing",
+      "Class-action litigation (2016) specifically challenged IGU design adequacy; most counts dismissed but the 20-year glass warranty remains a marketing centerpiece despite documented seal failure history"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.25–0.31 (standard double-pane 0.29 typical; lower with triple-pane/upgraded spacer configurations)",
+    "shgc": "0.24 (standard configuration)",
+    "visible_transmittance": "0.45 (standard configuration)",
+    "air_infiltration": "0.17 CFM (documented; characterized as 'very high by today's standards' by professional reviewers)",
+    "frame_material": "Multi-chamber extruded vinyl, fusion-welded corners",
+    "frame_chambers": "15 separate chambers (frame and sash combined)",
+    "glass": "3/4-inch double-pane IGU standard; 1-inch triple-pane optional; ProSolar Low-E soft coat; Argon gas fill",
+    "spacer_options": "Intercept (standard U-channel), Supercept (stainless steel alloy), Super Spacer (non-metallic foam)",
+    "dp_rating": "DP-50 to DP-65 (configuration dependent)",
+    "structural_rating": "Up to ±82.5 PSF (select configurations)",
+    "balance_system": "Constant-force coil spring, 3/4-inch stainless steel construction",
+    "meeting_rail": "Lap-Lok interlocking design",
+    "certifications": "AAMA/FGIA Gold Label; Florida Product Approval; ENERGY STAR (most regions); ENERGY STAR Most Efficient 2024 (select triple-pane configurations)",
+    "hardware_finishes": "White, tan, driftwood, dark bronze (standard); brushed nickel, oil-rubbed bronze, polished brass (premium)",
+    "stc": "not_available"
+  },
+  "red_flags": [
+    {
+      "type": "lawsuit",
+      "description": "Class-action filed October 17, 2016 in U.S. District Court, District of Minnesota against Simonton Building Products LLC. Alleged internal condensation, corrosion of metallic Low-E films, fingerprint/smudge defects, lack of edge deletion on Low-E coatings, inadequate desiccant in spacer, edge seal defects, and lack of secondary seals across multiple product lines including Reflections series. Claims: breach of warranty, design defect, failure to warn, fraud, liability, negligence, unjust enrichment. Outcome: Counts 1-7 and 10-11 dismissed with prejudice April 17, 2017; Counts 8-9 dismissed without prejudice. Full resolution terms not publicly available.",
+      "severity": "moderate",
+      "status": "largely dismissed; limited counts without prejudice"
+    },
+    {
+      "type": "component_reliability_pattern",
+      "description": "Multiple independent sources (forum reports, professional installer commentary, and existence of documented replacement tutorials) corroborate a pattern of plastic pivot shoe failure in the constant-force coil balance system, typically emerging at 4-7 years of use. Not a recall, but a documented durability vulnerability in a critical operational component.",
+      "severity": "low_to_moderate",
+      "status": "ongoing field pattern; covered under lifetime hardware warranty if claimed"
+    },
+    {
+      "type": "corporate_stability",
+      "description": "Simonton is owned by Cornerstone Building Brands, itself a private company owned by Clayton, Dubilier & Rice since 2022 (~$5.8B acquisition). Private equity ownership of warranty-issuing entity introduces long-term warranty backstop risk. Cornerstone consolidates multiple previously independent window brands.",
+      "severity": "low",
+      "status": "monitor; no current instability signals"
+    },
+    {
+      "type": "warranty_exclusion_mismatch",
+      "description": "Warranty explicitly excludes salt spray and harsh coastal conditions, yet the product is actively marketed for and installed in Florida coastal environments by professional contractors who praise its structural performance. This creates a material gap between marketing positioning and warranty protection for a significant customer segment.",
+      "severity": "moderate",
+      "status": "documented exclusion in current warranty terms"
+    }
+  ],
+  "bottom_line": "The Simonton Reflections 5500 double-hung is a competent, adequately-engineered mid-range vinyl window that delivers solid structural integrity, the strongest warranty in its class (double-lifetime transferable), and genuine value for budget-conscious whole-house replacement projects — particularly large-scale installs where per-window cost is decisive. Its multi-chambered fusion-welded construction and DP-50 to DP-65 structural ratings make it genuinely capable in coastal and high-wind environments. However, the product shows its age: air infiltration at 0.17 CFM is dramatically higher than modern high-performance competitors (Soft-Lite Elements: 0.01 CFM; ~15x worse), visible transmittance of 0.45 delivers noticeably less natural light, thick frame proportions reduce glass area and look dated, and plastic balance pivot shoes show a documented failure pattern at 4-7 years. A 2016 class-action raised credible IGU design defect allegations (inadequate desiccant, missing edge deletion on Low-E coatings, edge seal defects); most counts were dismissed in 2017 but the pattern of real-world Argon gas loss in aging units persists. The warranty's coastal exclusion is a material mismatch with where the product is most aggressively marketed. The 5500 is the right choice for homeowners upgrading from 1970s-1980s windows on a budget in moderate climates with competent professional installation — it will deliver 20-30 years of serviceable performance. It is the wrong choice for buyers who prioritize contemporary aesthetics, maximum air-tightness, natural light, or coastal warranty coverage. Okna 500 and Soft-Lite products outperform it meaningfully at a $2,000-$3,000 whole-house premium that equates to under $1/day over a decade — a premium worth serious consideration for anyone staying long-term in a cold or mixed climate.",
+  "scoring_metadata": {
+    "total_sources_identified": 27,
+    "sources_classified_score": 14,
+    "sources_classified_report_only": 9,
+    "sources_classified_quarantine": 4,
+    "pool_distribution": {
+      "S": 0,
+      "A": 9,
+      "B": 10,
+      "C": 8
+    }
+  },
+  "product_slug": "simonton_reflections_5500",
+  "product_name": "Simonton Reflections 5500",
+  "manufacturer_slug": "simonton",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 156541,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 27,
+    "score": 14,
+    "report_only": 9,
+    "quarantine": 4
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.155046,
+  "verification_date": "2026-03-23T19:47:29.801Z"
+}

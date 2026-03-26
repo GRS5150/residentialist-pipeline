@@ -1,0 +1,854 @@
+{
+  "product": "Loewen Casement Windows",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Today's Homeowner Review 2025",
+      "url": "https://todayshomeowner.com/windows/review/loewen-window-reviews/",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Scored Loewen 51 out of 100 overall. Praised premium materials, artisan designs, and 121-year reputation. Criticized high pricing without in-house installation contractors, absence of workmanship warranty, and dealer-dependent service model as significant gaps for capital-intensive purchases.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with structured scoring and clear product opinion across multiple performance dimensions.",
+      "topics": [
+        "quality",
+        "value",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Loewen Technical Guide - Casement (Section B)",
+      "url": "https://loewen.com/wp-content/uploads/2018/05/Loewen-TechnicalGuide-B-final-1.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer technical guide detailing casement specs: Douglas Fir laminated sash, roto-gear operators, extruded aluminum cladding, LowE glazing options, concealed heavy-duty hinges, multipoint locking, and traditional/contemporary style configurations.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing and technical content; not independent assessment.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Loewen US Warranty Document 2024",
+      "url": "https://loewen.com/wp-content/uploads/2024/01/Warranty_USA.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official warranty terms: 20-year non-prorated coverage on glass and wood components for clad products, 10-year for non-clad. Includes 2-year labor warranty within 60 miles of purchase point. Excludes improper installation damage. Fully transferable.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document; provides factual legal terms but is not an independent assessment.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Fine Homebuilding Forum - Loewen Windows Any Problems",
+      "url": "https://finehomebuilding.com/forum/loewen-windows-any-problems",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Mixed professional forum discussion. Praised Douglas Fir construction quality and metal flanges as superior to competitors. Concerns raised about supply consistency and potential for warping over time. Professional installer noted decades without callbacks.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Credentialed professional installers providing structured product comparisons with specific construction detail observations.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Fine Homebuilding Forum - Loewen Windows Anybody",
+      "url": "https://finehomebuilding.com/forum/loewen-windows-anybody",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Professional installer with decades of experience called Loewen 'by far the best' among dozens of brands installed. Noted zero callbacks. Praised extruded aluminum flanges as vastly superior to folded plastic flanges on Marvin Integrity. Called Loewen 'the Cadillac of windows' in Canadian market.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Experienced professional installer with direct product comparison experience providing clear product quality opinion.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Houzz Forum - Problems with Loewen Windows and Doors (Main Thread)",
+      "url": "https://houzz.com/discussions/2633621/problems-with-loewen-windows-and-doors",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "48-window customer spent five figures; reported leaking doors day after installation, paint peeling on tape removal, and four-year warranty process requiring multiple reinstallations before receiving corrected doors. Called purchase 'the biggest mistake.'",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects (leaking, paint failure) with corroborating pattern across multiple thread contributors.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Houzz Forum - Loewen Leaking and Rusting Reports",
+      "url": "https://houzz.com/discussions/2633621/problems-with-loewen-windows-and-doors",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple owners reported screen roller rusting, windows whistling loudly in wind, severe locking mechanism corrosion requiring full replacement on eight sash windows, fogging between panes, and condensation failures within warranty periods.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple corroborating reports of physical hardware and seal defects across independent forum contributors form a documented pattern.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz Forum - Loewen Door Warping and Warranty Disputes",
+      "url": "https://houzz.com/discussions/2633621/problems-with-loewen-windows-and-doors",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner reported doors warped from water leakage; Loewen blamed installer not manufacturing defect. Required de-installation and verification before replacement parts shipped. Loewen charged $1,200 to lock one door panel permanently as known hardware design workaround.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Describes physical product defect (warping, hardware design flaw) with corroborating pattern; warranty enforcement behavior documented.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz Forum - 17-Year Loewen Positive Experience",
+      "url": "https://houzz.com/discussions/2633621/problems-with-loewen-windows-and-doors",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner with 17-year-old Loewen windows in highly weather-exposed location reported perfect exterior cladding, perfect interior Douglas Fir, and all seals intact with zero problems. Described performance as meeting and exceeding advertised claims.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Long-term owner report of durability and performance with specific time frame and climate exposure details.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "GreenBuildingTalk Forum - Casement Door Cost Comparison",
+      "url": "https://greenbuildingtalk.com/Forums/tabid/53/aff/16/aft/82922/afv/topic/Default.aspx",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Contractor noted Loewen casement doors are 'very expensive' — over twice the cost of comparable Marvin door. Limited reliability information available online noted as concern. No specific performance or defect data provided.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about pricing comparison and limited available data; no physical product defect described.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Garage Journal Forum - Best Casement Windows",
+      "url": "https://garagejournal.com/forum/threads/best-casement-windows.528615/",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "User considering Pella Impervia for casement windows; Loewen mentioned as alternative but no substantive product-specific discussion or experience data provided.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Incidental mention of Loewen with no product-specific opinion or experience data.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Consumer Reports - Best Replacement Windows 2026",
+      "url": "https://consumerreports.org/home-garden/replacement-windows/best-replacement-windows-a5584322282/",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports did not test Loewen due to custom manufacturing not fitting standardized 3x5-foot test protocol. Testing covers Andersen, Jeld-Wen, Marvin, Pella for wind and rain resistance. Loewen exclusion reflects testing methodology limitation, not product failure.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Loewen not tested; source provides market context only without product-specific scoring.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "GreenBuildingAdvisor - Zone 6 Window Recommendations",
+      "url": "https://greenbuildingadvisor.com/question/quality-windows-for-zone-6-recommendations-2",
+      "platform": "gba",
+      "column": "expert",
+      "snippet": "Building science advisor quoted Loewen fixed window at $687.65 for 47.25x39.375 inch unit with U-0.15, SHGC 0.50, VT 0.62. Operating casements notably more expensive with awning units exceeding $1,300. Solid climate zone 6 performance metrics noted.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Green building professional providing verified specification data and climate-specific performance assessment.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "GreenBuildingAdvisor - Triple-Glazed High Performance Windows Northeast",
+      "url": "https://greenbuildingadvisor.com/question/triple-glazed-high-performance-windows-northeast",
+      "platform": "gba",
+      "column": "expert",
+      "snippet": "Building science advisor reported owning Loewen triple-glazed windows in DC home and being very satisfied. Noted 8-month delivery times and very high cost when inquiring for a later project. Personal ownership provides credible direct experience.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed green building professional with personal ownership experience providing direct performance opinion.",
+      "topics": [
+        "performance",
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "APCO Windows - Marvin vs. Pella Comparison",
+      "url": "https://apco.com/windows/manufacturers/marvin-vs-pella/",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Dealer-published comparison of Marvin versus Pella; not directly about Loewen. Marvin 20-year AAMA 2605 warranty and extruded aluminum noted. Provides market context for premium window warranty benchmarking.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Comparison source about different product lines; relevant only for competitive benchmarking context.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Houzz Forum - Loewen Marvin or Pella",
+      "url": "https://houzz.com/discussions/6400467/loewen-marvin-or-pella",
+      "platform": "houzz",
+      "column": "expert",
+      "snippet": "Featured response from experienced professional stated: 'Marvin is one of the best wood or wood aluminum clad production windows available. Loewen is a solid product as well. Pella is not even remotely close quality wise.' Confirms Loewen's top-tier positioning.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional providing structured comparative quality opinion with clear product ranking.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Lily Pond House Blog - Marvin vs. Duratherm vs. Loewen vs. Intus",
+      "url": "https://lilypondhouse.wordpress.com/2014/12/23/marvin-vs-duratherm-vs-loewen-vs-intus/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Architectural professional compared four high-performance window manufacturers. Loewen: R-4 (U-0.25), SHGC 0.40, VT 0.45, priced 23% above Intus baseline. European Intus achieved R-10 (U-0.10), SHGC 0.50, VT 0.70. Loewen trails European performance but leads domestic value.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative analysis with verified specifications and structured performance scoring across four manufacturers.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "BBB Profile - Loewen Windows (Canadian)",
+      "url": "https://bbb.org/ca/mb/steinbach/profile/windows/loewen-windows-0057-16331",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "BBB profile shows A+ rating, not accredited. In business 121 years since 1905, located Steinbach Manitoba. Multiple customer contact listings. Rating reflects no active complaints resolved against business, not endorsement of product quality.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Business profile providing stability and complaint history context; not a product performance assessment.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Loewen Performance Glazing Document",
+      "url": "https://loewen.com/wp-content/uploads/2019/02/Loewen-Performance-Glazing.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer document comparing 'True Triple' airspace: Loewen maintains full 1/2-inch between all panes versus competitors' compressed 3/8-inch or 1/4-inch spaces. LowE coating options detailed with U-factors ranging 0.16 to 0.28 depending on configuration.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content presenting self-reported specifications; not independently verified.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Loewen Air/Water Structural Test Values",
+      "url": "https://loewen.com/performance-data/air-water-structural-test-values/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer-published lab test data for multiple configurations. Clad casements show air infiltration ratings of 25-40 CFM per square foot at 1.57 inches water column pressure depending on configuration. Indicates tight construction versus residential standards.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer-published test data; useful for spec verification but not independently validated.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Loewen Performance and Durability Page",
+      "url": "https://loewen.com/product-features/performance-and-durability/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer markets 20/20/20 warranty; cites triple-pane windows from 1976 still performing; references StormForce series for hurricane regions. Marketing claims without independent verification.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content with unverified longevity claims.",
+      "topics": [
+        "warranty",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Loewen Sustainability Certifications",
+      "url": "https://loewen.com/company/sustainability-certifications/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer reports nearly 100% sustainably certified wood sourcing with CSA, SFI, and PEFC forest certifications. Products positioned as LEED-compatible. Sustainability claims not directly relevant to casement window performance.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content about sustainability credentials; not relevant to product performance scoring.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Loewen Technical Guide A - Performance Window System",
+      "url": "https://loewen.com/wp-content/uploads/2018/06/Loewen-Technical-Guide-A-web.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical guide covering all glazing options including LowE-180, LowE2-272, LowE3-366, and i89 room-side coatings. Tranquility soundproofing glazing system achieves STC rating of 40 for operating casement units.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer technical specification document; useful for spec extraction but not independent assessment.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Loewen Warranty Marketing Document",
+      "url": "https://loewen.com/wp-content/uploads/2018/06/warranty-document.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Marketing presentation of warranty terms emphasizing non-prorated structure, transferability, and full 20-year coverage on glass, wood, and paint for clad products. Highlights extruded aluminum thickness as quality differentiator.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content about warranty; official warranty document (SRC-003) is more reliable reference.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Houzz Forum - Loewen Price Quote Discussion",
+      "url": "https://houzz.com/discussions/2642701/loewen-price-quote",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "General forum discussion of installation quotes and price expectations for Loewen windows. No specific product performance or defect information provided. Confirms premium pricing relative to alternatives.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about pricing and installation experience; no physical product quality data.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Modernize.com Loewen Windows Review 2026",
+      "url": "https://modernize.com/windows/brands/loewen-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Positioned Loewen for luxury market with installed costs $1,200-$2,800+ per casement window. Praised exceptional craftsmanship, premium sustainable wood species, and strong aluminum cladding durability. Noted Limited Lifetime Warranty and handcrafted architectural customization as standout features.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with clear product positioning, price data, and qualitative quality assessment.",
+      "topics": [
+        "quality",
+        "value",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Houzz Forum - Loewen vs. Kolbe vs. Marvin Performance",
+      "url": "https://houzz.com/discussions/2631958/loewen-vs-kolbe-vs-marvin",
+      "platform": "houzz",
+      "column": "expert",
+      "snippet": "Performance comparison thread: Loewen triple-glazed U-0.20, same as Kolbe; Marvin at U-0.23-0.24. All three considered sufficient for high-performance residential applications. Professional participants agreed on rough performance parity among domestic premium manufacturers.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional comparison discussion with specific verified U-factor data enabling direct competitive benchmarking.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Houzz Forum - Casement vs. Double-Hung Marvin Integrity",
+      "url": "https://houzz.com/discussions/2634547/double-hung-versus-casement-marvin-integrity",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "General casement versus double-hung window type discussion referencing Marvin Integrity as primary comparison. Loewen not directly evaluated. Provides casement window type context only.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "General window type discussion; Loewen not the subject and no product-specific data provided.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Houzz Forum - Loewen vs. Marvin or Cheaper Windows",
+      "url": "https://houzz.com/discussions/2591350/loewen-vs-marvin-or-cheaper-windows",
+      "platform": "houzz",
+      "column": "expert",
+      "snippet": "Loewen representative explained three-ply laminated sash advantage with opposing grain angles preventing warping, mortise-and-tenon joinery superiority, and noted 30% glass rejection rate for quality control. Disputed quality rankings placing Loewen below competitors.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Manufacturer representative providing specific construction detail comparisons; though source has inherent bias, specific technical claims are verifiable and substantive.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Fine Homebuilding Forum - Loewen Windows (Heavy Triple-Pane)",
+      "url": "https://finehomebuilding.com/forum/lowen-windows",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Professional installer reported Loewen triple-pane casements as 'heaviest units I ever handled.' Douglas Fir rails and stiles described as 'very nice.' Zero callback issues from Southwest installations. Metal flanges compared favorably to Marvin Integrity.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Experienced professional installer providing direct installation experience with specific material quality observations and callback record.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Loewen StormForce Technical Guide",
+      "url": "https://loewen.com/wp-content/uploads/2018/06/LOEWEN_StormForce_Technical_Guide_S_Section_print.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer technical guide for hurricane-resistant casements and doors. Impact-resistant laminated glass specified with DP-85 structural rating. Detailed coastal performance specifications provided for high-wind applications.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer technical document for specialized product variant; provides structural performance specs but not independent validation.",
+      "topics": [
+        "specs",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Loewen Aluminum Cladding Product Page",
+      "url": "https://loewen.com/product-features/aluminum-cladding/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer describes heavy-gauge extruded aluminum cladding set away from wood creating airspace, AAMA 2605 paint standard, and availability in Cyprium copper and bronze finishes. Claims extruded construction versus competitors' roll-formed alternatives.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; cladding quality claims corroborated by independent sources but this source itself is promotional.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Glass Doctor - Window Condensation FAQ",
+      "url": "https://glassdoctor.com/expert-tips/all-about-window-glass/condensation-between-window-panes",
+      "platform": "other",
+      "column": "review",
+      "snippet": "General explanation of insulating glass unit seal failure causing fogging; typical IG unit lifespan 10-20 years before seal degradation risk. Not Loewen-specific but provides context for evaluating reported Loewen fogging complaints.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Third-party technical reference providing industry context; not a Loewen-specific assessment.",
+      "topics": [
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Cardinal Glass Industries - Insulating Glass",
+      "url": "https://cardinalcorp.com/products/insulating-glass/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Cardinal Glass manufactures insulating glass units for Loewen, offering 20-year non-prorated 100% replacement warranty on IG unit failures. Low documented failure rates. Relevant to understanding Loewen's current glass sourcing and warranty backing.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer of component used in Loewen windows; provides warranty and quality context but not a Loewen product review.",
+      "topics": [
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Loewen Condensation Document",
+      "url": "https://loewen.com/wp-content/uploads/2020/08/Loewen-Window-Condensation-Document-Web.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer document distinguishing normal exterior condensation from defective between-pane condensation. Provides humidity guidelines by outdoor temperature and explains seal failure processes.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer educational document; useful for context but does not constitute independent assessment.",
+      "topics": [
+        "performance",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "Loewen 110th Anniversary Post 2015",
+      "url": "https://loewen.com/2015/06/12/loewen-celebrating-110-years-in-business/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer post noting Loewen founded 1905 in Steinbach Manitoba, celebrating 110 years in operation and recognition as premium North American brand.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer promotional content about company history; no product performance data.",
+      "topics": []
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Loewen YouTube Channel",
+      "url": "https://youtube.com/user/LoewenWindows",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Official manufacturer YouTube channel. Describes Loewen as established 1905, crafting luxurious windows and doors as statement pieces of custom architecture. Promotional content only.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer promotional video content; no independent assessment.",
+      "topics": []
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "Loewen Plant Tour YouTube",
+      "url": "https://youtube.com/watch?v=8TJFrernczc",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Two-minute manufacturer facility tour video emphasizing hand-selected components, testing and inspection processes, tight tolerances, and exacting production standards.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer promotional facility video; no independent product testing or assessment.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "JELD-WEN Window Lawsuit - ClassAction.org",
+      "url": "https://classaction.org/jeldwen-windows-lawsuit",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Class action investigation into JELD-WEN windows for water leakage, mold, and decay. Different manufacturer entirely; provides window industry legal context but no Loewen-specific information.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Source is about a different manufacturer product line entirely; not applicable to Loewen scoring.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "Angi - Triple-Pane Window Cost Guide",
+      "url": "https://angi.com/articles/are-triple-pane-windows-worth-investment.htm",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Market cost reference: triple-pane windows average $300-$3,000 per window with labor $100-$800. Loewen represents the high end at $1,200+ installed. Provides pricing context for premium segment positioning.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Market pricing reference providing cost context only; no Loewen-specific product assessment.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "Swisco - Loewen Replacement Parts Discussion",
+      "url": "https://swisco.com/discussions/Lowen-Replacements-options-current-crank-or-upgrade-slider--77-339968",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Forum discussion of Loewen replacement part availability including roto-gear operators and hardware with pricing. Confirms third-party parts market exists but parts availability is limited outside dealer network.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about parts availability and service access; not about product quality defects.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Excellent frame and sash construction; laminated Douglas Fir and mortise-tenon joinery praised across professional community",
+      "review": "Premium materials and craftsmanship acknowledged; Today's Homeowner 51/100 reflects service gap not material quality",
+      "forum": "Highly polarized: 17-30 year durability documented by satisfied owners; significant defect pattern reported by others",
+      "agreement": "Strong agreement on inherent product quality when properly installed; disagreement on manufacturing consistency"
+    },
+    {
+      "topic": "Thermal Performance",
+      "expert": "Competitive with premium North American competitors; U-0.15 to U-0.25 range for triple-glazed; 1/2-inch airspace and stainless spacers beneficial",
+      "review": "Respectable but not best-in-class; trails European manufacturers achieving R-10; LowE3-366 trades light transmission for efficiency",
+      "forum": "Owners report good energy performance; some condensation complaints; building science owners satisfied",
+      "agreement": "General agreement on solid but not exceptional performance; consensus that European alternatives offer superior thermal metrics"
+    },
+    {
+      "topic": "Durability",
+      "expert": "30-year lifespan with minimal component replacement documented; frame construction designed for generational longevity",
+      "review": "20-year non-prorated warranty reflects manufacturer confidence; weatherstripping and screen components identified as durability weak points",
+      "forum": "Frame and glazing longevity confirmed by long-term owners; weatherstripping UV degradation reported at 10-15 years; screen metal rusting documented",
+      "agreement": "Strong agreement on frame/glazing durability; consistent identification of seal and accessory components as shorter-lived vulnerabilities"
+    },
+    {
+      "topic": "Hardware Quality",
+      "expert": "Mortise-tenon joinery and laminated construction praised; push-out casement hinge design noted as distinctive",
+      "review": "Multiple finish options noted positively; premium hardware positioning claimed",
+      "forum": "Severe corrosion on locking mechanisms documented on eight windows; screen rollers rust; $1,200 workaround for known French door hardware design flaw",
+      "agreement": "Significant disagreement: professional praise for construction versus documented owner hardware failures; suggests quality control variability in hardware components"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Not a primary focus of professional commentary; dealer-dependent claim process flagged as concern",
+      "review": "Non-prorated 20-year coverage positioned as competitive advantage; lack of workmanship guarantee flagged as gap",
+      "forum": "Warranty terms appear strong on paper; enforcement described as adversarial; 3-5 month resolution times per claim; systematic blame-shifting to installation",
+      "agreement": "Strong disagreement between stated warranty terms and actual claim experience; paper warranty strength does not reflect customer experience"
+    },
+    {
+      "topic": "Installation and Service",
+      "expert": "Consistently identified as primary weakness; dealer-dependent model creates quality variability; no in-house installation force",
+      "review": "Flagged as significant drawback; lack of in-house contractors disadvantages customers versus Champion and similar competitors",
+      "forum": "Pervasive frustration with installation quality, unresponsive dealers, inability to purchase parts directly, geographic service monopolies",
+      "agreement": "Unanimous agreement across all source types that dealer-dependent installation and service is the product's primary and most consequential weakness"
+    },
+    {
+      "topic": "Customer Service",
+      "expert": "Not directly addressed in professional commentary beyond acknowledging dealer dependency",
+      "review": "Not explicitly scored in most published reviews; service gap implicitly reflected in Today's Homeowner 51/100 score",
+      "forum": "Overwhelmingly negative; slow response, blame-shifting to homeowners, adversarial warranty process, years-long resolution timelines documented",
+      "agreement": "Strong negative signal from forum sources; absent from professional and review discourse, suggesting problem may be underreported in structured reviews"
+    },
+    {
+      "topic": "Value for Price",
+      "expert": "Professional consensus is premium pricing justified for product quality; positioned 23% above Intus baseline in comparative study",
+      "review": "Today's Homeowner 51/100 and Modernize positioning suggest value proposition requires ideal conditions to materialize",
+      "forum": "Highly polarized: satisfied owners with trouble-free experience feel strong value; owners with defect experiences feel significantly misled given price paid",
+      "agreement": "Strong disagreement across segments; value realization appears highly dependent on dealer quality and absence of manufacturing defects"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "20-year non-prorated coverage on glass and wood components for clad products is among the strongest in the domestic premium segment",
+      "Full transferability to subsequent owners provides meaningful resale value protection",
+      "Cardinal Glass Industries separately provides 20-year non-prorated replacement warranty on insulating glass units",
+      "2-year labor warranty with coverage within 60 miles of purchase point is above industry average for labor inclusion"
+    ],
+    "underperforms_expectations": [
+      "Warranty enforcement is described as adversarial across multiple independent owner accounts",
+      "Systematic blame-shifting to installation quality as default response to claims, regardless of defect nature",
+      "Resolution timelines of 3-5 months per defect claim create cascading delays when multiple units fail",
+      "Customers required to pay for de-installation and re-installation to prove proper installation before warranty service is initiated",
+      "No workmanship guarantee separate from materials warranty creates ambiguity for warping and operational issues",
+      "Dealer-mediated claims process adds friction layer that factory cannot directly override"
+    ],
+    "surprises": [
+      "Loewen now sources IG units from Cardinal Glass rather than manufacturing in-house, creating dual warranty coverage structure customers may not know about",
+      "Replacement parts including screens cannot be purchased directly from Loewen; dealer purchase required for all components",
+      "Geographic service monopolies exist in some regions where only one authorized dealer operates within 100-200 mile radius",
+      "Known French door hardware design flaw addressed through $1,200 charge to permanently lock one panel rather than design correction",
+      "Warranty explicitly excludes improper installation damage but Loewen does not control installation quality through its dealer network, creating inherent conflict"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "triple_glazed_lowe3_366_argon": 0.18,
+      "triple_glazed_lowe2_272_argon": 0.23,
+      "triple_glazed_general_range": "0.16-0.28",
+      "fixed_window_example_u015": 0.15,
+      "r_value_equivalent": "R-4 to R-6.25 depending on configuration",
+      "note": "European competitors (Intus) achieve R-10 (U-0.10) for comparison"
+    },
+    "shgc": {
+      "triple_glazed_lowe3_366": 0.17,
+      "triple_glazed_lowe2_272": 0.26,
+      "fixed_window_example": 0.5,
+      "lily_pond_comparison_value": 0.4
+    },
+    "visible_transmittance": {
+      "triple_glazed_lowe3_366": 0.46,
+      "triple_glazed_lowe2_272": 0.62,
+      "lily_pond_comparison_value": 0.45,
+      "note": "Most efficient glazing substantially reduces daylight; tradeoff for thermal control"
+    },
+    "air_infiltration": {
+      "clad_casement_range": "25-40 CFM per square foot at 1.57 inches water column",
+      "note": "Tight versus residential standard; less tight than European high-performance alternatives"
+    },
+    "frame_material": "Three-ply laminated Douglas Fir sash with opposing grain angles; Mahogany available as premium option",
+    "cladding": "Heavy-gauge extruded aluminum (not roll-formed); AAMA 2605 paint standard; set away from wood creating ventilation airspace; Cyprium copper and bronze options available",
+    "glass": {
+      "standard_minimum_thickness": "1/8 inch",
+      "airspace": "1/2 inch between each pane (true triple); competitors often use 3/8 or 1/4 inch",
+      "spacer_bars": "Stainless steel thermal spacer bars (superior to aluminum or silicone foam alternatives)",
+      "glazing_options": [
+        "LowE-180",
+        "LowE2-272",
+        "LowE3-366",
+        "i89 room-side coating",
+        "Tranquility soundproofing laminate"
+      ],
+      "ig_manufacturer": "Cardinal Glass Industries"
+    },
+    "dp_rating": {
+      "stormforce_series": 85,
+      "note": "Standard casement DP rating not specified in reviewed sources; StormForce is specialized hurricane variant"
+    },
+    "stc": {
+      "tranquility_glazing_operating_casement": 40,
+      "configuration": "1/4-inch exterior pane, 13/16-inch argon space, 9/32-inch laminate interior pane"
+    },
+    "joinery": "Double mortise-and-tenon joints (not mitered); creates stronger assemblies than typical production windows",
+    "hardware": {
+      "operator_type": "Roto-gear crank operator; push-out casement variant also available",
+      "locking": "Multipoint locking system",
+      "hinges": "Concealed heavy-duty; rated to hold open at up to 40 mph wind speed (push-out models)"
+    },
+    "weatherstripping": "Flexible continuous system combining foam and bulb seals; UV degradation documented at 10-15 years in south-facing exposures",
+    "screen_options": [
+      "Standard fiberglass mesh",
+      "Wood-framed screens",
+      "Retractable screens",
+      "Swinging screens",
+      "Stainless steel upgrade (premium cost)"
+    ]
+  },
+  "red_flags": [
+    {
+      "type": "Service Model Risk",
+      "description": "Dealer-only installation and service model with no in-house Loewen contractors. Customers in some regions have only one authorized dealer within 100-200 miles, creating geographic service monopoly with no direct Loewen recourse if dealer becomes unresponsive or ceases operations.",
+      "severity": "High",
+      "corroboration": "Confirmed by Today's Homeowner review, multiple forum threads, and professional installer commentary"
+    },
+    {
+      "type": "Systematic Warranty Claim Disputes",
+      "description": "Multiple independent owner accounts describe Loewen customer service defaulting to installation-blame rather than manufacturing acknowledgment. Customers required to pay for de-installation and re-installation to access warranty coverage. Resolution timelines of 3-5 months per defect with cascading delays for multiple failures.",
+      "severity": "High",
+      "corroboration": "Multiple Houzz thread contributors across separate experiences; no legal action identified but pattern consistent"
+    },
+    {
+      "type": "Known Hardware Design Flaw - French Doors",
+      "description": "French door hardware design creates situation where doors cannot close properly if panels operate at different tensions. Loewen's documented solution involved charging customers $1,200 to permanently lock one door panel rather than correcting the design, essentially making half the door unit inoperable.",
+      "severity": "Medium",
+      "corroboration": "Reported by single owner account with detailed specifics; not independently corroborated but highly specific"
+    },
+    {
+      "type": "Manufacturing and Order Errors",
+      "description": "Multiple owners reported incorrect specifications on delivery: wrong grille patterns (one owner resubmitted three times), wrong window sizes, missing factory finishes, doors hinged incorrectly, and frames not mulled when ordered as multiples. Errors caused months-long replacement delays.",
+      "severity": "Medium",
+      "corroboration": "Multiple independent forum accounts with similar error categories"
+    },
+    {
+      "type": "Parts Availability Restriction",
+      "description": "Loewen will not sell replacement parts including screens directly to end users. All parts must be purchased through authorized dealer network. This creates dependency on dealer relationships for any maintenance needs regardless of product age.",
+      "severity": "Medium",
+      "corroboration": "Confirmed by multiple forum sources and indirectly by Today's Homeowner review"
+    },
+    {
+      "type": "Weatherstrip and Hardware Durability Mismatch",
+      "description": "Frame and glazing components demonstrate generational durability (17-30 years documented) but weatherstripping, screen hardware, and locking mechanisms show materially shorter functional life (10-15 years) creating a mismatch between component longevity expectations in a premium product.",
+      "severity": "Medium",
+      "corroboration": "Documented across expert, review, and forum sources consistently"
+    },
+    {
+      "type": "No Active Lawsuits or Recalls Identified",
+      "description": "No class action lawsuits, product recalls, FTC actions, or CPSC notices identified for Loewen casement windows as of report date. JELD-WEN lawsuit reference in source table is for a different manufacturer entirely and is not applicable.",
+      "severity": "Informational",
+      "corroboration": "Absence of evidence; BBB A+ rating consistent with no formal regulatory actions"
+    }
+  ],
+  "bottom_line": "Loewen casement windows present a genuine paradox: the physical product — laminated Douglas Fir sash with opposing grain angles, double mortise-and-tenon joinery, heavy-gauge extruded aluminum cladding, stainless steel spacer bars, and true triple-pane 1/2-inch airspaces — represents legitimately premium North American window manufacturing with documented 17-30 year durability in favorable conditions. Professional installers across multiple independent sources consistently rate Loewen at or near the top of domestic premium manufacturers. Thermal performance (U-factor 0.18-0.25 for triple-glazed, STC 40 with Tranquility glazing) is competitive within the domestic premium segment, though meaningfully behind European high-performance alternatives achieving R-10. The 20-year non-prorated transferable warranty is among the strongest terms in the market. However, the business model systematically undermines the product quality. Dealer-only installation with no Loewen in-house oversight creates high-variance outcomes where excellent dealer execution produces excellent long-term results and poor installation creates years of unresolvable problems. Warranty enforcement is described as adversarial across multiple independent owner accounts, with systematic blame-shifting, mandatory reinstallation requirements, and 3-5 month resolution timelines per defect. Standard screen and hardware components durability lags the frame significantly. A known French door hardware design flaw was addressed by charging customers $1,200 to permanently disable half the door rather than correcting the design. Customers who invest $30,000-$60,000 in Loewen windows and receive a competent dealer experience overwhelmingly report satisfaction and generational durability. Customers who encounter manufacturing errors, inadequate dealer installation, or warranty disputes report some of the worst ownership experiences in the premium window category. The risk is structural and unlikely to be resolved without fundamental changes to Loewen's installation oversight and customer service model. Recommended only for buyers who have thoroughly vetted their local dealer, verified installer training and warranty service record with past customers, and have budget flexibility to address potential issues independently.",
+  "metadata": {
+    "total_sources": 41,
+    "sources_by_pool": {
+      "S": 0,
+      "A": 5,
+      "B": 10,
+      "C": 26
+    },
+    "sources_by_classification": {
+      "score": 13,
+      "report_only": 16,
+      "quarantine": 12
+    },
+    "sources_by_platform": {
+      "review_site": 6,
+      "fhb": 3,
+      "houzz": 8,
+      "gba": 3,
+      "bbb": 1,
+      "youtube": 2,
+      "other": 18
+    }
+  },
+  "product_slug": "loewen",
+  "product_name": "Loewen",
+  "manufacturer_slug": "loewen",
+  "operation_type": "casement",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 221762,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 41,
+    "score": 15,
+    "report_only": 15,
+    "quarantine": 11,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.22122000000000003
+}

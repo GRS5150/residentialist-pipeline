@@ -1,0 +1,37 @@
+{
+  "product": "Sunrise Restorations",
+  "operation_type": "double_hung",
+  "slug": "sunrise_restorations_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 110392
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 40400
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 40,
+      "cost_estimate": 0.202239
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/sunrise_restorations_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T22:39:05.100Z"
+}

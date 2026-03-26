@@ -1,0 +1,37 @@
+{
+  "product": "Window World 4000",
+  "operation_type": "double_hung",
+  "slug": "window_world_4000_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 133920
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 48110
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 25,
+      "cost_estimate": 0.165111
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/window_world_4000_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T21:10:33.229Z"
+}

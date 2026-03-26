@@ -1,0 +1,600 @@
+{
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Puget Sound Window and Door – Trinsic vs. Tuscany Video Comparison",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Certified Milgard contractor video comparison confirms Trinsic features thinner contemporary frames for maximum glass area. Both series carry identical lifetime warranty on parts and labor; Tuscany includes glass breakage standard while Trinsic offers it as optional upgrade. Frame depth 2.78 inches versus Tuscany's 3.25 inches.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed contractor providing structured product comparison with specific technical details and warranty distinctions.",
+      "topics": [
+        "quality",
+        "specs",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Brennan Enterprises – Trinsic vs. Aluminum Window Comparison",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Texas contractor concludes Trinsic vinyl delivers superior energy savings over aluminum alternatives despite aluminum offering greater glass surface area. Highlights SmartTouch® single-hand locks as superior hardware. Confirms full lifetime warranty covers parts and labor with ten-year transferability.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Contractor-authored structured comparison with clear product opinions, performance trade-off analysis, and hardware evaluation.",
+      "topics": [
+        "performance",
+        "specs",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "1st Windows – Trinsic V300 vs. Tuscany V400 Specification Comparison",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Detailed specification table confirms Trinsic U-Factor 0.25–0.32, SHGC 0.17–0.55, STC 35 and OITC 30 with laminated glass. Trinsic limited to double-pane standard; Tuscany offers triple-pane. Energy performance differences between lines are marginal; primary distinction is design philosophy.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published review with laboratory-verified specs and structured side-by-side comparison table constitutes testable scoring data.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Construction Windows – Milgard vs. Andersen vs. Pella Comparison Guide",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Positions Milgard as most affordable major brand ($350–$1,200+ per window) with excellent energy efficiency. Forbes rating 90/100; customer ratings 94/100 across 49,000 reviews versus Pella's 88/100 and 82/100. Milgard limited to seven exterior colors versus Andersen's 50. Optimal for value-focused buyers.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparison guide with quantified ratings, pricing data, and structured competitive positioning across multiple dimensions.",
+      "topics": [
+        "value",
+        "performance",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Windows & Doors Near Me – Milgard vs. Pella Dealer Comparison",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Authorized dealer for both Pella and Milgard positions Trinsic as optimal for warranty coverage and value; recommends Pella for maximum design customization. Confirms warranty superiority over Pella's limited lifetime coverage as meaningful total-cost-of-ownership advantage.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Dealer source is sponsored but knowledgeable, with structured comparison opinion and warranty differentiation analysis.",
+      "topics": [
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Home Depot – Trinsic Casement Customer Reviews (Noise/Energy)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Multiple reviewers cite significant noise reduction and improved temperature control as primary satisfactions. One reviewer states Trinsic windows 'significantly reduce outside noise and improve temperature regulation.' Performance characteristics match or exceed expectations formed through manufacturer marketing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published platform aggregating verified post-purchase reviews with consistent corroborating pattern across multiple independent submissions.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Home Depot – Trinsic Installation Quality Review",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Reviewer praises installation team efficiency completing multi-window project in two days. Satisfaction appears to derive partly from installation contractor quality rather than product characteristics exclusively. No product-specific defects mentioned.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Review focuses on installation contractor competence rather than product quality; installation quality not product quality.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Consumer Affairs – Milgard Aggregated Reviews (95% Five-Star)",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Milgard achieves 95% five-star distribution across approximately 2,620 verified reviews. Featured reviewer documents 22 years of sealed unit replacements at no charge since 1998 installation, confirming warranty executes as intended for substantial customer subset.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party consumer advocacy platform with verified reviews and aggregate satisfaction metrics across large sample size.",
+      "topics": [
+        "quality",
+        "warranty",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Consumer Affairs – Low-E Coating Failure Report (70 Windows)",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Single reviewer reports catastrophic low-E film failure across all but a few of 70 Milgard windows in one home, resulting in severe cloudiness. No series, installation date, or geographic location specified. Isolated report without corroborating pattern identified.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum/review complaint with no corroborating pattern, missing key contextual data (series, date, location) preventing classification.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz Forum – Trinsic Replacement Thread (47-Year Aluminum Replacement)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner replaced 47-year-old single-pane aluminum windows with Trinsic in 2019; satisfied after two years citing noise reduction and temperature improvement. Chose premium new-construction installation method. Installation competent but trim work required independent repair.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing positive product performance pattern consistent with multiple corroborating sources across expert and review columns.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Houzz Forum – 17 Trinsic Windows Pervasive Defect Report",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner documents receiving 17 Trinsic windows and two sliding doors with pervasive defects: scuffed frames, three non-functioning hinges, patio door manufactured wrong side with lock in open position, visible glue, bunched/ripped seals, wobbling handles, missing hole coverings. Three-month wait preceded defective delivery.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing multiple specific physical product defects across an entire shipment; pattern corroborated by legal investigation and other forum complaints documenting quality control failures.",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Houzz Forum – Casement 90-to-80-Degree Workaround Complaint",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Reviewer reports Milgard responded to defective casement malfunction by restricting opening angle from 90 to 80 degrees rather than addressing underlying failure. Difficulty obtaining responsive communication; Milgard attempted to shift responsibility to dealer. Describes warranty service communication barriers.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defect and inadequate warranty resolution, corroborated by BBB complaints and legal investigation documenting the same warranty service failure pattern.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Houzz Forum – Son's Trinsic Installation Positive Report",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum participant reports son's new Trinsic installation looks and operates great. Notes reduced outside noise and improved temperature control. Satisfied with narrow frame proportions once trim installed. Consistent with professional contractor assessments of noise and thermal performance.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with positive product performance report consistent with corroborating pattern across expert and review sources on noise reduction and thermal performance.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "River Dave's Place Forum – Trinsic vs. Andersen Narrow Stile Discussion",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Homeowners note Trinsic features narrower stiles producing larger glass area than many retrofit alternatives, a genuine design advantage. Contributor confirms Trinsic installed regularly as retrofit and describes them as quality products with attractive proportions.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing product design characteristics consistent with corroborating professional and specification sources.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Fine Homebuilding Forum – Milgard vs. Simonton/Jeld-Wen/Pella Comparison",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Building professional recommends Milgard for vinyl replacement due to supply relationships and product quality trust. Notes Home Depot pricing for Milgard undercuts independent contractor suppliers, creating competitive challenges. No Trinsic-specific quality concerns raised.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion addresses dealer/supply pricing dynamics and sales process rather than product quality or performance characteristics.",
+      "topics": [
+        "value",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "GreenBuildingAdvisor Forum – Milgard Fiberglass/Vinyl General Discussion (2009)",
+      "url": "not_available",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Historical 2009 forum discussion documents appreciation for Milgard build quality and durability across product lines. General satisfaction with product quality extending across multiple product generations. Does not address Trinsic casement variant specifically.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Discussion dated 2009 predates Trinsic series introduction and does not address Trinsic-specific product line; historical context only.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Migliaccio & Rathod LLP – Milgard Trinsic Consumer Investigation (January 2026)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Law firm formal investigation documents reported Trinsic operational failures: gritty/rough sliding operation, sash-drop failures, balance and channel problems, repeat service calls without durable resolution, warranty coordination breakdowns. Cites implied warranty breach and express warranty failure as potential legal violations.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal investigation constitutes legal/lawsuit information; classified as report_only per auto-classification rules regardless of source quality.",
+      "topics": [
+        "legal",
+        "warranty",
+        "quality",
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "BBB Complaint – 12 Sliding Windows Leaking with Multi-Month Service Delay (May 2024)",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "12 of 21 sliding windows become defective and leak during storms causing drywall damage and mold risk. Warranty service call placed one month prior; Milgard will not commit to appointment date and indicates another month or longer wait, leaving home exposed to repeated rain damage.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "BBB complaint documents specific physical product defect (leaking) with corroborating service delay pattern documented across multiple independent BBB complaints and forum reports.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "BBB Complaint – Warranty Reporting Timeline Denial",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Window failure six years post-installation; Milgard denies warranty claim stating defect should have been reported at installation, making two-year reporting delay grounds for denial. Homeowner expectation of lifetime coverage conflicts with strict reporting timeline interpretation applied by Milgard.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "BBB complaint documents specific warranty interpretation pattern corroborated by other complaints showing systematic warranty claim denial practices.",
+      "topics": [
+        "warranty",
+        "service",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "BBB Complaint – Three Installation Appointment Cancellations (July 2025)",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Homeowner given three separate installation dates (March, May 16, July 25, 2025), each cancelled day-of with different excuses. Confirmed ready 72 hours prior to July appointment; post-cancellation inquiry reveals window actually on backorder. Pattern of broken promises with changing justifications.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Complaint documents dealer/service scheduling and sales process failures rather than product quality or physical defect.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "BBB Complaint – 14 Defective V400 Tuscany Windows Causing Drywall Cracking (May–June 2025)",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "11 Tuscany V400 windows installed May 2025 plus 3 more June 2025; all 14 defective causing drywall cracking. Milgard cancelled warranty claim without explanation, delaying construction and forcing $4,500 in additional mortgage interest. Milgard response offers sash replacement only, not full window units.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Complaint documents Milgard V400 Tuscany series, not Trinsic casement; different product line requires quarantine per auto-classification rules.",
+      "topics": [
+        "quality",
+        "warranty",
+        "legal",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "BBB Complaint – Two-Year Door Repair Delay",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Homeowner has waited close to two years for door repairs with repeated promises of contact 'as soon as possible' and no follow-through. Documents systematic service responsiveness failure pattern consistent with multiple other BBB complaints regarding multi-month delays.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum/BBB complaint corroborated by extensive pattern of identical service delay reports across multiple independent complaints and legal investigation findings.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Milgard Full Lifetime Warranty Documentation",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer documentation specifies Full Lifetime Warranty for original purchaser covering defects in materials and workmanship; parts and labor included. Transfers ten years to subsequent owners at no charge. Trinsic glass breakage optional upgrade; Tuscany standard. Improper installation voids coverage.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer documentation constitutes marketing/manufacturer content; warranty terms better assessed through independent contractor and consumer sources.",
+      "topics": [
+        "warranty",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Home Depot – Trinsic Product Specification Pages",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Confirms standard configuration: double-pane low-E insulating glass with argon gas fill. Folding nesting crank handle disappears when closed. Available in white, tan, bronze, black capstock exterior colors. Tempered glass safety option available. Operating styles include casement, awning, picture, single-hung.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published retail specification page confirming product specs; dealer content but factually grounded in verifiable product characteristics.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "MI Windows and Doors – Milgard Acquisition Announcement",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "MI Windows and Doors signed definitive agreement to acquire Milgard from Masco Corporation, expected to close by end of 2025. MI seeks western U.S. geographic expansion; Milgard dominates western market. Acquisition rationale cites cultural alignment around team member and customer satisfaction priorities.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate acquisition announcement constitutes company stability information; legal/structural change reported without direct product quality implication.",
+      "topics": [
+        "legal",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "NFRC / ENERGY STAR Certification Data (Trinsic V300 Series)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Independently verified ratings confirm Trinsic V300 U-Factor 0.25–0.32 by geographic region; SHGC 0.17–0.55. Meets ENERGY STAR minimum requirements in most U.S. climate zones. STC 35 and OITC 30 achievable with laminated glass configuration. Does not achieve highest efficiency tier in current market.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent third-party laboratory testing organization providing verified quantified performance specifications; highest credibility for energy performance data.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Energy Efficiency / Thermal Performance",
+      "expert": "Meets ENERGY STAR; adequate mid-range, not exceptional tier",
+      "review": "Laboratory-verified U-Factor 0.25–0.32; SHGC 0.17–0.55; certified",
+      "forum": "Generally satisfied with heating and cooling improvements",
+      "agreement": "Strong – all three columns confirm acceptable performance matching specifications"
+    },
+    {
+      "topic": "Noise Reduction",
+      "expert": "Good performance for mainstream vinyl; laminated glass improves results",
+      "review": "STC 35 / OITC 30 with laminated glass confirmed by specs",
+      "forum": "Multiple independent reports of significant interior noise improvement",
+      "agreement": "Strong – consistent positive signal across all columns; exceeds expectations"
+    },
+    {
+      "topic": "Design Aesthetics",
+      "expert": "Contemporary narrow frames appeal to modern homes; folding crank praised",
+      "review": "Narrow sightlines, maximum glass area, seven color options documented",
+      "forum": "Satisfied with appearance; minimal aesthetic complaints reported",
+      "agreement": "Strong – uniform positive assessment across all columns"
+    },
+    {
+      "topic": "Overall Product Quality / Manufacturing Consistency",
+      "expert": "Solid mainstream product; vertical integration cited as quality advantage",
+      "review": "Generally positive aggregated ratings; scattered coating failure reports",
+      "forum": "Mixed: multiple corroborated reports of defective shipments with pervasive defects",
+      "agreement": "Moderate – expert/review positive; forum documents emerging quality control failures"
+    },
+    {
+      "topic": "Durability / Long-Term Reliability",
+      "expert": "Frames perform well; no documented long-term mechanical concerns by professionals",
+      "review": "Scattered low-E coating failure reports; no systematic durability data",
+      "forum": "Growing reports of gritty sliding, sash-drop, operational degradation post-installation",
+      "agreement": "Weak – expert sources silent on emerging failures now documented in forums and legal investigation"
+    },
+    {
+      "topic": "Operational Hardware Functionality",
+      "expert": "SmartTouch locks and folding crank praised for ease of use",
+      "review": "Hardware ease of operation highlighted positively in published reviews",
+      "forum": "Growing pattern of sash-drop failures, rough operation, hinge malfunctions",
+      "agreement": "Weak – professional and review sources positive; forum and legal investigation document mechanical failure pattern"
+    },
+    {
+      "topic": "Warranty Coverage Terms",
+      "expert": "Industry-leading full lifetime warranty; ten-year transferability advantage over Pella",
+      "review": "Comprehensive warranty terms confirmed across multiple comparison publications",
+      "forum": "Warranty coverage scope acknowledged; execution increasingly problematic",
+      "agreement": "Strong on coverage terms; weak on execution reliability"
+    },
+    {
+      "topic": "Warranty Service Execution",
+      "expert": "Limited negative professional experience documented; emerging concern noted",
+      "review": "No negative service reviews in published materials identified",
+      "forum": "Extensive documentation of multi-month delays, broken appointments, communication failures",
+      "agreement": "Weak – published sources silent while forums and BBB document systemic execution problems"
+    },
+    {
+      "topic": "Overall Value Proposition",
+      "expert": "Excellent value for price-conscious buyers; competitive pricing versus Andersen/Marvin",
+      "review": "Strong value relative to premium competitors at $350–$1,200+ per window",
+      "forum": "Value undermined if quality control defects and service delays persist post-purchase",
+      "agreement": "Moderate – initial value strong; service failures erode realized value for affected customers"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Ten-year transferability to subsequent owners at no charge exceeds typical competitor warranty terms",
+      "Parts and labor both covered under full lifetime warranty eliminates cost uncertainty for original purchaser",
+      "Consumer Affairs documents 22-year sealed unit replacement history without charge for at least a substantial customer subset, confirming warranty can function as intended",
+      "Warranty applies across all operating styles and configurations without carve-outs for mechanical components"
+    ],
+    "underperforms_expectations": [
+      "Multi-month service scheduling delays documented across multiple independent BBB complaints leave homes exposed to ongoing damage during wait periods",
+      "Warranty claim denials based on strict reporting timeline interpretation conflict with homeowner expectations of lifetime coverage",
+      "Repeated appointment cancellations on day-of with changing excuses suggest service infrastructure cannot fulfill warranty commitments reliably",
+      "Responsibility deflection between Milgard and dealers creates accountability gaps that delay or prevent warranty resolution",
+      "Sash replacement offered in lieu of full window unit replacement limits remedy scope below homeowner expectations",
+      "Service scheduling rescheduled six or more times in documented cases; one case documents two-year wait with no resolution"
+    ],
+    "surprises": [
+      "Glass breakage coverage is NOT included standard on Trinsic (available as optional upgrade only) while Tuscany includes it standard – a meaningful hidden distinction between product lines",
+      "Improper installation voids warranty coverage, creating risk when homeowners use non-certified installers seeking cost savings",
+      "Warranty service infrastructure appears to have degraded concurrently with corporate ownership transition period, suggesting organizational rather than policy-level failure",
+      "Legal investigation launched January 2026 indicates warranty failure pattern has reached threshold of potential implied and express warranty breach claims",
+      "Milgard restricts window opening angle as a 'fix' for casement malfunctions rather than replacing defective units, a workaround homeowners find unacceptable under lifetime warranty expectations"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.25–0.32 (varies by geographic region and configuration; NFRC-verified)",
+    "shgc": "0.17–0.55 (varies by configuration and climate zone)",
+    "air_infiltration": "not_available",
+    "frame_material": "Proprietary signature vinyl formulation; co-extruded acrylic capstock for color options; does not peel, crack, or warp",
+    "frame_depth": "2.78 inches (Trinsic); compare 3.25 inches for Tuscany V400",
+    "glass": "Double-pane insulating unit standard; low-E coating with argon gas fill; tempered and laminated options available; triple-pane not available in standard Trinsic offering",
+    "dp_rating": "not_available",
+    "stc": "35 STC / 30 OITC with laminated glass option",
+    "energy_star_certified": true,
+    "series_designation": "V300",
+    "hardware": "SmartTouch® single-hand lock; folding and nesting crank handle (disappears when closed)",
+    "operating_styles": [
+      "casement",
+      "awning",
+      "picture",
+      "single-hung",
+      "horizontal sliding",
+      "radius"
+    ],
+    "exterior_colors": [
+      "white",
+      "tan",
+      "bronze",
+      "silver",
+      "black capstock",
+      "classic brown",
+      "espresso",
+      "specialty colors (8 premium total)"
+    ],
+    "glass_breakage_coverage": "Optional upgrade (not standard; standard on Tuscany)",
+    "warranty_transferability": "10 years to subsequent owners at no additional charge",
+    "price_range_per_window": "$350–$1,200+"
+  },
+  "red_flags": [
+    {
+      "type": "Legal Investigation",
+      "description": "Migliaccio & Rathod LLP initiated formal consumer investigation in January 2026 into Milgard Trinsic operational failures. Documented failure modes: gritty/rough sliding operation, sash-drop failures, balance and channel problems, repeat service calls without durable resolution. Potential legal violations cited: implied warranty breach, express warranty failure, economic loss from parts and replacement costs.",
+      "severity": "high",
+      "source": "SRC-017"
+    },
+    {
+      "type": "Ownership Transition",
+      "description": "MI Windows and Doors signed definitive agreement to acquire Milgard from Masco Corporation with closing expected by end of 2025. Concurrent timing with documented quality control degradation and service execution failures raises questions about operational disruption during transition period.",
+      "severity": "medium",
+      "source": "SRC-025"
+    },
+    {
+      "type": "Systematic Service Failure Pattern",
+      "description": "Multiple independent BBB complaints document multi-month warranty service delays, repeated same-day appointment cancellations with changing excuses, and two-year unresolved repair cases. Pattern indicates service infrastructure failure rather than isolated incidents.",
+      "severity": "high",
+      "source": "SRC-018, SRC-020, SRC-022"
+    },
+    {
+      "type": "Manufacturing Quality Control Deterioration",
+      "description": "Houzz forum documents receipt of 17 Trinsic windows with pervasive defects across an entire shipment including non-functioning hinges, mismanufactured patio door, visible glue, bunched seals, scuffed frames, and missing components. Pattern suggests systematic manufacturing inspection failure rather than isolated unit defects.",
+      "severity": "high",
+      "source": "SRC-011"
+    },
+    {
+      "type": "Warranty Claim Denial Pattern",
+      "description": "BBB documents Milgard applying strict reporting timeline interpretations to deny warranty claims on products that failed years post-installation, conflicting with homeowner expectations under a 'Full Lifetime Warranty' designation. Additional case documents warranty claim cancelled without explanation causing $4,500 cascading financial damage.",
+      "severity": "medium",
+      "source": "SRC-019, SRC-021"
+    }
+  ],
+  "bottom_line": "The Milgard Trinsic casement window is a competent, energy-efficient mainstream vinyl product with verified ENERGY STAR performance (U-Factor 0.25–0.32), a genuinely industry-leading transferable lifetime warranty on paper, appealing contemporary narrow-frame aesthetics, and strong noise reduction characteristics (STC 35 with laminated glass) that consistently exceed homeowner expectations. Professional contractors and independent specifications uniformly confirm the product performs as engineered and represents solid value at $350–$1,200+ per window versus premium competitors. However, the product faces serious and mounting concerns on two fronts that materially erode its value proposition: (1) emerging operational durability failures—specifically gritty sash operation, sash-drop failures, and hinge malfunctions documented in forum reports and now triggering a formal January 2026 legal investigation—suggest recent manufacturing quality control has degraded, possibly concurrent with the Masco-to-MI Windows ownership transition; and (2) warranty service execution has deteriorated substantially, with documented multi-month scheduling delays, repeated same-day appointment cancellations, responsibility deflection between Milgard and dealers, and claim denials based on strict timeline interpretations that conflict with lifetime warranty expectations. Prospective buyers with non-urgent projects should consider waiting 6–12 months to assess whether the MI Windows acquisition improves manufacturing consistency and service responsiveness. Those proceeding now should: select a certified local installer with strong independent reputation, document window condition comprehensively at installation, purchase optional glass breakage coverage, and enter the purchase with realistic expectations about potential warranty service delays. The Trinsic remains appropriate for cost-conscious homeowners prioritizing energy efficiency and modern aesthetics over premium customization, but the convergence of a legal investigation, documented quality control failures, and systemic service delays represents a meaningful risk profile that warrants caution relative to the product's historical reputation.",
+  "metadata": {
+    "product": "Milgard Trinsic Casement Window",
+    "series_designation": "V300",
+    "report_generated": "2026",
+    "total_sources_parsed": 26,
+    "sources_scored": 14,
+    "sources_report_only": 6,
+    "sources_quarantined": 6,
+    "pool_distribution": {
+      "S": 0,
+      "A": 4,
+      "B": 6,
+      "C": 16
+    }
+  },
+  "product_slug": "milgard_trinsic",
+  "product_name": "Milgard Trinsic",
+  "manufacturer_slug": "milgard",
+  "operation_type": "casement",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 156451,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 26,
+    "score": 17,
+    "report_only": 5,
+    "quarantine": 4,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.150702
+}

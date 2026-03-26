@@ -1,0 +1,759 @@
+{
+  "product": "Marvin Signature Ultimate Double-Hung Window",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Matt Risinger Builder Review",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Texas custom home builder with 20+ years experience praised keeper latch innovation, U-factor of 0.29 (30-40% better than 0.40-0.50 competitors), extensive color options, and tactile quality after deploying on a 1950s renovation project. Recommended showroom visits.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional with named identity, documented project context, structured product opinion with specific performance claims and competitive comparisons.",
+      "topics": [
+        "performance",
+        "quality",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Five Seasons Windows & Doors Analysis",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Authorized Colorado retailer detailed AAMA 2605 compliance, extruded aluminum superiority over roll-form, 20-year finish warranty, and suitability for high-altitude UV-intensive climates. Positioned Ultimate as premium customization flagship without independent impact testing documentation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specs and material testing references; dealer content is knowledgeable but sponsored, limiting pool to B.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Brennan Corp 2024 Review",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Comprehensive brand history and product line overview with energy efficiency features and competitive comparisons. Notes high demand creates extended lead times. Positions Ultimate within Marvin portfolio hierarchy.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with comparative specs and contextual data; trade/retail source with product knowledge.",
+      "topics": [
+        "performance",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Charles Pilsen Marvin Product Introduction",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Signature Ultimate product line overview covering customization philosophy and business model. Presents company positioning and design flexibility narrative without independent testing or defect discussion.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Product walkthrough with structured opinion on customization and design features; likely sponsored or affiliated content limits to Pool B.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Owen Sokso Product Walkthrough",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Technical detail on cladding durability, coastal performance, corrosion resistance, and glass options for Marvin Ultimate line. Covers material specifications and climate suitability without field defect reporting.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published product review with specs and material detail; YouTube expert format with likely brand affiliation reduces to Pool B.",
+      "topics": [
+        "durability",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Marvin Technical Specs PDF",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official manufacturer document covering complete sizing ranges, configuration options, performance rating framework, and glass options. Authoritative on specifications but represents manufacturer claims rather than independent verification.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer technical documentation; useful for verified specs but constitutes marketing/official content rather than independent scoring source.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Marvin Limited Warranty Document",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Full warranty terms: 20-year IG seal, 20-year aluminum finish, 5-year interior wood finish, 5-10 year hardware. Excludes labor costs for replacements, water infiltration unless manufacturing defect proven, improper installation, and corrosion from environmental exposure.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Official warranty document; critical for warranty reality analysis but is manufacturer content, not an independent evaluation.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Migliaccio & Rathod Law Firm Investigation",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Early 2026 formal investigation into Marvin windows exterior cracking and flaking on Elevate line; notes Ultimate aluminum-clad products also included. Identifies potential implied warranty breach, express warranty disputes, and deceptive practices claims regarding marketed vs. actual durability.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/investigation information per auto-classification rules; not yet formal litigation but signals legal scrutiny.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "GreenBuildingAdvisor Forum - Corner Separation",
+      "url": "not_available",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Owner reported corner separation on at least four Ultimate casement units approximately 19 months post-install. Marvin and dealer unresponsive. Community identified design flaw: nailing flanges cut at corners require corner gaskets that are frequently missing or improperly installed on dirty surfaces.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defect with corroborating pattern; corner gasket issue confirmed by subsequent Marvin installation guideline update (SRC-032), establishing corroboration.",
+      "topics": [
+        "durability",
+        "quality",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Fine Homebuilding Forum - Builder QC Discussion",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Experienced builder compares window brands and notes defective Marvin units arrive at approximately one-in-every-other-house frequency. Documents cracked sash with wild grain from knot, offset meeting rail preventing latch, screened sash with holes. Recommends photographing before install to preserve warranty claims.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Experienced professional installer describing recurring physical product defects with documented pattern across multiple jobs; corroborated by other installer and forum accounts.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Houzz Forum - Half Sashes Replaced Pre-Occupancy",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "New construction homeowner reported half of Ultimate double-hung windows required sash replacement before move-in due to uneven joinings and major gapping visible before shrink wrap removed. Marvin factory rep confirmed most needed replacement; replacement units exhibited identical defects.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical manufacturing defects corroborated by Marvin's own factory representative acknowledgment on-site; defects predated installation.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Consumer Reports - Marvin Evaluation",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports provides access-restricted evaluation of Marvin Essential line but does not offer publicly available detailed testing data on the Ultimate model. Full Marvin Ultimate data behind paywall, limiting independent third-party laboratory assessment availability.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Independent testing source but data not publicly available for Ultimate model; cannot be scored without accessible data.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Magnolia Windows 2025 Marvin vs. Andersen Comparison",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Detailed comparison noting Marvin Ultimate premium for customization while Andersen A-Series achieves comparable or marginally better U-factors with triple-pane configurations. Marvin positioned for personalization over absolute thermal performance. Warranty terms compared.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specs, testing data references, and structured competitive comparison; trade/retail source with product knowledge.",
+      "topics": [
+        "performance",
+        "value",
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "APCO Windows - Marvin vs. Pella Technical Comparison",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Technical comparison documenting extruded vs. roll-formed aluminum differences: Marvin meets AAMA 2605 with 20-year finish warranty; Pella uses non-extruded aluminum not achieving AAMA 2605 as standard. Marvin offers more wood species and exterior color options. Pella competitive on energy efficiency at lower cost.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specific material specs, certification standards, and structured product comparison; knowledgeable dealer source.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Ring's End - Ultimate vs. Modern Product Differentiation",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Authorized retailer review differentiating Ultimate (customization, wood, extruded aluminum) from Modern collection (contemporary aesthetics). Emphasizes customization capabilities, material specifications, warranty details, and competitive comparisons with Andersen and Pella.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with material specs and structured product comparison from authorized dealer with product expertise.",
+      "topics": [
+        "quality",
+        "specs",
+        "value",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Ring's End Comprehensive Marvin Line Review",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Line-by-line review with customization emphasis, warranty details, and competitor comparisons. Notes Ultimate as flagship for design precision. Confirms wood species options, color flexibility, and AAMA 2605 finish standard as key differentiators.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comprehensive review with specs, warranty details, and competitive positioning from authorized dealer.",
+      "topics": [
+        "quality",
+        "specs",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "HomeGuide Price Guide 2026",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Published pricing guide showing $1,200-3,000 per window installed for Marvin Signature Ultimate. Provides price comparisons with other Marvin collections and competitive products. Establishes market pricing context for value assessment.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with pricing data providing structured value comparison context.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Joe Mauceri YouTube - Andersen vs. Marvin Material Comparison",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Detailed material comparison covering Ultrex fiberglass vs. Fibrex composite properties, expansion/contraction characteristics, color fading rates over time, and installation techniques. Provides competitive context for evaluating Marvin Ultimate's material claims.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional with structured comparative analysis of material properties and documented testing context.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Ring's End Corner Gasket Installation Update Video",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Documents 2022 Marvin installation guideline change permitting standard flashing tape instead of proprietary foam gaskets at all four corners, acknowledging that field conditions frequently prevented original sealing method from functioning. Confirms design challenge with corner seals.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Installation quality and process update, not product quality scoring; documents manufacturer acknowledgment of field seal challenges.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "BBB Complaint Files - Marvin 2024-2025",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple 2024-2025 complaints documenting warranty disputes, parts delays up to 9+ months, service responsiveness failures, screen problems, labor coverage disagreements, and dealer-to-corporate deflection loops. One customer paid $86,000 in November 2024 and remained unable to use doors by August 2025.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "BBB complaints represent individual forum-level consumer reports; while patterns exist, individual BBB complaints without independent corroboration meet quarantine threshold. Legal/complaint filing rather than independent review.",
+      "topics": [
+        "service",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Houzz Forum - Exterior Cracks and Flaking Within 80 Days",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reported Marvin Ultimate exterior cracking and flaking appearing within 80 days of installation. Marvin warranty response: patch job on cracks, denied flaking as cosmetic. New cracks denied as beyond covered service. Senior CSR stated prior response was 'above and beyond.'",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical product defect (finish failure within 80 days) with corroborating pattern from Migliaccio & Rathod investigation and multiple other forum reports of finish deterioration.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Houzz Forum - Custom Build Quality Defects 2024",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "2024 custom build with hundreds of thousands in Marvin Ultimate spending: incomplete interior paint, debris in dried paint, drip regions, exterior cladding without proper powder coating exposing raw aluminum, wavy French door panels, brush-painted arched windows. Deliveries blocked; awaiting factory rep assessment.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Detailed physical defect documentation predating installation (defects visible on delivery) with corroborating pattern from multiple independent sources documenting factory finish failures.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Houzz Forum - Locking Mechanism Failure / Plastic Latch Defect",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Four separate warranty service calls for locking mechanism failure. Technician identified plastic latching piece 'manufactured wrong' and noted it was the second such replacement made that same day. Replacement parts corrected operation temporarily but reliability remained uncertain months later.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical manufacturing defect in latching component with corroboration: technician confirmed it was second identical replacement same day, establishing non-isolated pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Williams v. Marvin Windows & Doors - Class Action Settlement",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Minnesota court class action settlement regarding wood rot in Marvin window frames. Settlement contained general release extinguishing class member claims. Related to PPG PILT wood preservative failure (1985-1988). Company initially blamed customer installation before litigation established product inadequacy.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; historical litigation relevant to durability claims history.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Marvin Lumber and Cedar Company v. PPG Industries Federal Case",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "1994 federal lawsuit (223 F.3d 873) where Marvin alleged PPG's PILT wood preservative (used 1985-1988) failed to prevent rot despite claims. Marvin alleged breach of contract, express and implied warranty violations, and fraudulent concealment. Statute of limitations and burden of proof limitations constrained recovery.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; court record establishing historical wood rot product failure.",
+      "topics": [
+        "legal",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Marvin Clutch/Keeper Latch Repair Video",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Manufacturer-published tutorial demonstrating how to fix stuck keeper latch mechanisms, adjust clock timing marks, and set cord tension. Indicates that post-installation field adjustment of the locking mechanism is a normal service requirement for some percentage of Ultimate units.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Documents installation and field service process rather than product quality verdict; manufacturer content showing normal service scope.",
+      "topics": [
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Marvin Tilt Latch Timing Adjustment Repair Video",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Detailed repair procedure for timing adjustment, cord tension correction, and lock repositioning on Ultimate double-hung keeper latch system. Acknowledges cord stretching as known failure mode. Demonstrates mechanical complexity requiring periodic field service.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Operational/service tutorial; documents that mechanical complexity creates ongoing service needs but does not independently score product quality.",
+      "topics": [
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Marvin Lift Lock Innovation Demo",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Demonstration of Lift Lock feature on Ultimate Single Hung G2 repositioning locking mechanism from inaccessible check rail to lower sash. Solves accessibility problem for windows above countertops. Integrates with Lock Status Sensor for home automation. Addresses real usability constraint competitors haven't resolved.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Expert product review with specific feature demonstration and competitive comparison addressing documented usability need.",
+      "topics": [
+        "performance",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "SolarTech Energy Efficiency Context Guide",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Market context on U-factor and SHGC definitions, ENERGY STAR Most Efficient criteria (U≤0.20, SHGC≤0.25), and competing premium products achieving 0.17-0.20 U-factors with triple-pane configurations. Marvin mentioned as option but not best-in-class for efficiency designation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specs, testing standards, and structured competitive energy efficiency comparison.",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Fine Homebuilding Forum - Water Infiltration at Corner Despite Exemplary Install",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Installer used stainless fasteners, two full rolls of premium flashing tape, double-layered sill plates, and taped every contact surface; window still leaked at corner within minutes of completion. Suggests some Ultimate units have manufacturing irregularities in frame corner construction unresolvable by proper installation.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical product defect (water infiltration despite exemplary installation) with corroborating pattern from GBA corner separation report and Marvin's own guideline update acknowledging corner seal failures.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Houzz Forum - Rotted Frames Historical Account",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner documented wood rot in Marvin double-hung frame 20 years post-install after warranty expiration. Discovered windows unrepairable, requiring full replacement. Research revealed Marvin had lost a class action on this exact issue. Referenced preservative chemical failure.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Historical rot issue predates modern Ultimate product line; modern products use updated preservative treatments. Not applicable to current product evaluation.",
+      "topics": [
+        "durability",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "BBB Marvin Profile",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "A+ BBB rating; not BBB Accredited. Business first reported February 8, 1989. Recent 2024-2025 complaints on file covering warranty disputes, parts delays, service responsiveness, quality defects on delivery, and warranty coverage interpretation disputes.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB profile is background/legal context; complaint patterns documented but BBB rating data is institutional rather than product scoring.",
+      "topics": [
+        "service",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Marvin Official Product Page - Ultimate Double Hung G2",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer page covering Ultimate Double Hung G2 specifications, configuration options, design features, finish warranties, hardware details, and wood species selections. Authoritative for specification data but constitutes marketing content.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer marketing content per auto-classification rules; useful for verified specs extraction only.",
+      "topics": [
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Marvin Air Infiltration Technical Blog",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer technical explanation of air infiltration testing methodology and why casement windows outperform double-hung variants due to fewer sash seams. Casement achieves <0.01 cfm/ft²; double-hung not specifically quantified. Notes installation quality critically affects infiltration performance.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer technical content; useful for specs context but official marketing/technical documentation.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Designer Window Supply Lead Time Data",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "As of February 2026, Marvin Ultimate lead times not explicitly posted; variability by product type noted with recommendation to consult sales reps. Confirms lead times remain extended post-pandemic despite broader supply chain recovery in other sectors.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Lead time and supply chain information; relevant to service/delivery context but not product quality scoring.",
+      "topics": [
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "Houzz Forum - French Door Water Infiltration 2024",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "16x8 foot Marvin Ultimate sliding French door delivered with broken pieces, missing weather stripping, and cracked sill. After installation, water pours in every rain creating 1-meter puddles. Ongoing saga of unscheduled technician visits; no timeline for replacement parts or resolution provided.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical product defect (broken on delivery, water infiltration post-install) with corroborating pattern from multiple independent sources documenting delivery damage and water infiltration issues.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Houzz Forum - BBB Complaint Weather Stripping / Labor Dispute",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner contacted dealer within 10-year warranty period for weather stripping failure on 2014 French doors. Marvin provided replacement parts but refused labor costs. Customer argued labor should be covered for defective original product. Unresolved; customer decided to replace all windows with different manufacturer.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Documents warranty claim and service process dispute rather than physical product defect; illustrates warranty interpretation pattern.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Material Quality (frame/cladding)",
+      "expert": "Excellent — extruded aluminum superior to competitors; wood species premium",
+      "review": "Excellent — AAMA 2605 finish, durable cladding, extensive customization",
+      "forum": "Mixed — mechanical quality appears inconsistent; exterior finish cracking concerns",
+      "agreement_level": "Partial — strong agreement on material specifications; significant disagreement on manufacturing consistency"
+    },
+    {
+      "topic": "Design Flexibility",
+      "expert": "Outstanding — 19+ exterior colors, 6+ wood species, unlimited custom matching praised for historic/custom projects",
+      "review": "Excellent — consistently cited as primary competitive differentiator",
+      "forum": "Not extensively discussed; limited relevance to owner satisfaction complaints",
+      "agreement_level": "Strong agreement"
+    },
+    {
+      "topic": "Energy Performance",
+      "expert": "Adequate — U-factor 0.25-0.29 meets ENERGY STAR most zones with standard glazing; behind best-in-class triple-pane competitors",
+      "review": "Competitive — standard configuration adequate; optional upgrades available toward Most Efficient",
+      "forum": "Minimal discussion; one owner noted drafty windows suggesting infiltration failures",
+      "agreement_level": "General agreement that performance meets spec but not best-in-class"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Good — weathering resistance emphasized; no discussion of historical rot issues in modern products",
+      "review": "Positive — 20-year finish warranty cited as confidence indicator",
+      "forum": "Poor — cracking within months; finish deterioration concerns; historical rot issues referenced",
+      "agreement_level": "Strong disagreement between expert/review and forum evidence"
+    },
+    {
+      "topic": "Operational Features",
+      "expert": "Good — keeper latch and Lift Lock praised as innovative, addressing real usability gaps competitors haven't solved",
+      "review": "Positive — features noted for accessibility and ventilation control advantages",
+      "forum": "Mixed — mechanism praised conceptually but frequently requires adjustment, field repair, or part replacement",
+      "agreement_level": "Moderate disagreement on real-world reliability"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Not extensively discussed",
+      "review": "Reviews note warranty terms without detailing exclusions",
+      "forum": "Very poor — frustration with exclusions, causation disputes (especially water), labor cost exclusion, and cosmetic vs. performance disputes",
+      "agreement_level": "No expert/review coverage; strong negative forum signal on practical warranty value"
+    },
+    {
+      "topic": "Customer Service / Support",
+      "expert": "Not discussed",
+      "review": "Not discussed",
+      "forum": "Very poor — unresponsive dealers, Marvin-to-dealer deflection loops, extended parts delays, unfulfilled callback promises",
+      "agreement_level": "No expert or review perspective; consistent negative forum signal"
+    },
+    {
+      "topic": "Quality Control",
+      "expert": "Significant concern — defective units arrive frequently; professional installers expect defects as project contingency",
+      "review": "Reviews note installation critical but do not systematically report factory defects",
+      "forum": "Poor — defects documented on delivery before installation; factory rep confirmed defects on-site in one case",
+      "agreement_level": "Strong agreement among expert installers and forum owners that QC problems are systemic"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Mixed — premium price justified for customization applications; less justified for energy efficiency alone",
+      "review": "Mixed — material specifications justify premium when customization is priority; competitors more efficient per dollar",
+      "forum": "Poor — owners question whether quality delivered justifies premium pricing given defect rates and service failures",
+      "agreement_level": "Disagreement; justification depends heavily on project type and customization priority"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "20-year aluminum finish warranty meeting AAMA 2605 commercial-grade standard is genuinely above residential industry norm",
+      "20-year insulating glass seal warranty (for units ≤60 sq ft) with stainless steel spacers exceeds most competitor IG warranties",
+      "Coastal variant PVD hardware finish specifically engineered for salt spray resistance; specialty coating beyond standard offering",
+      "Factory-applied interior finishes baked twice in ovens provide more durable baseline than field-applied paint"
+    ],
+    "underperforms_expectations": [
+      "5-year interior wood finish warranty (cracking, peeling, delamination) is brief for a premium-priced product with factory-applied finishes",
+      "Labor costs for all warranty-covered component replacements explicitly excluded; homeowners must pay contractors even when Marvin supplies parts",
+      "Water infiltration explicitly excluded unless homeowner proves manufacturing defect causation — a burden difficult to meet when installation and manufacturing defects are intertwined",
+      "Coastal finish warranty drops to 10 years within one mile of saltwater; PVD hardware warranty only 5 years in coastal zones",
+      "IG seal warranty reduces from 20 to 10 years for units over 60 square feet, affecting larger custom configurations",
+      "20-year aluminum finish warranty covers chalking, fading, and adhesion loss but excludes corrosion from environmental conditions including salt, chemicals, and acid rain"
+    ],
+    "surprises": [
+      "Factory-applied primer must be painted within 90 days of installation; failure to meet this deadline can void interior finish coverage on job sites with delayed painters",
+      "Warranty explicitly states it is not a warranty of future performance — only covers manufacturing defects reported during the warranty period, limiting recourse for latent defects",
+      "Normal variation in wood color and grain is excluded, which can create disputes when customers expect consistent appearance across a large window package",
+      "Extreme or unusual atmospheric conditions exclusion is broad and undefined, creating potential denial pathways for unusual weather events",
+      "IG seal warranty covers 'visible obstruction' specifically — minor seal degradation without visible fogging may not trigger coverage",
+      "Non-standard installation including sloped or non-vertical glazing voids warranty, affecting many architectural applications that use the product's customization features"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.25–0.29 (standard Low E2 with argon fill); approximately 0.23 with optional Low E3 glazing",
+    "shgc": "0.17–0.20 (Low E2); approximately 0.15 with Low E3; 0.20–0.35 range across configuration options",
+    "air_infiltration": "Marvin states 'well below minimum requirements' per ASTM E283; specific cfm/ft² for double-hung not published. Casement variant achieves <0.01 cfm/ft²; double-hung inherently higher due to multiple sash seams",
+    "frame_material": "Solid wood interior (Pine, Douglas Fir, Vertical Grain Douglas Fir, Cherry, Mahogany, White Oak, Black Walnut); extruded aluminum exterior cladding",
+    "glass": "Insulating glass with stainless steel spacers standard. Options: standard IG, Low E1 (single metallic coating), Low E2 (double silver coating), Low E3 (triple silver coating), Low ERS (room-side Low E). Laminated impact-resistant glass for coastal/hurricane variants. Specialty: tempered, tinted, reflective, Sea Turtle Conservation Code-compliant",
+    "dp_rating": "Impact Zone 3 (IZ3) with Performance Grade 50 (PG50) available for coastal variants; higher-velocity ratings available for south Florida (Miami-Dade, Broward, Monroe counties)",
+    "stc": "Not published in available documentation",
+    "exterior_finish": "Extruded aluminum with AAMA 2605 commercial-grade fluoropolymer paint; 70% PVDF on coastal variants; 19 standard colors plus unlimited custom color matching; 20-year warranty against chalking, fading, adhesion loss",
+    "hardware": "Gallery hardware collection in traditional and contemporary styles. Standard hardware 5-year warranty; coated aluminum hardware 10-year warranty; PVD coastal hardware 5-year warranty. Keeper latch with multiple lock positions; Lift Lock on Single Hung G2 variant",
+    "sizing": "Width: approximately 1'8\" to 5'10\" standard (custom beyond); Height: approximately 2'0\" to 6'6\" standard (custom beyond)",
+    "energy_star_status": "Standard Low E2 configuration does not achieve ENERGY STAR Most Efficient (requires U≤0.20); meets ENERGY STAR for most climate zones. Low E3 upgrade moves closer to Most Efficient threshold",
+    "wood_conditioning": "Wood conditioned, stained or painted, sanded, and baked in ovens twice before assembly"
+  },
+  "red_flags": [
+    {
+      "type": "class_action_settlement",
+      "description": "Williams v. Marvin Windows & Doors (2005): Minnesota court class action settlement with general release of class member claims regarding premature wood rot in window frames. Settlement established Marvin shipped windows that failed durability claims. Company initially blamed customer installation practices before litigation.",
+      "status": "Settled — historical; related to 1985-1988 PPG PILT wood preservative",
+      "products_affected": "Pre-1990 Marvin windows using PPG PILT preservative; not confirmed in modern Ultimate products"
+    },
+    {
+      "type": "federal_litigation",
+      "description": "Marvin Lumber and Cedar Company v. PPG Industries, Inc. (223 F.3d 873, 2000): Federal court case confirming Marvin's preservative-treated wood failed to prevent rot. Marvin alleged breach of contract, express and implied warranty violations, and fraudulent concealment against PPG. Statute of limitations limitations constrained Marvin's recovery.",
+      "status": "Adjudicated — historical",
+      "products_affected": "Windows manufactured 1985-1988"
+    },
+    {
+      "type": "legal_investigation",
+      "description": "Migliaccio & Rathod law firm commenced formal investigation in early 2026 into Marvin windows exterior cracking, flaking, and premature deterioration. Targets Marvin Elevate (fiberglass) primarily; notes Ultimate aluminum-clad products also included. Identifies potential implied warranty breach, express warranty disputes, and deceptive practices claims.",
+      "status": "Active investigation as of early 2026; no confirmed formal legal action filed",
+      "products_affected": "Marvin Elevate and potentially Marvin Signature Ultimate"
+    },
+    {
+      "type": "systemic_quality_control_concern",
+      "description": "Multiple independent professional installers report defective units arriving at approximately one-in-every-other-house frequency. A Marvin factory representative confirmed on-site that most windows in one delivery needed replacement; replacement units exhibited identical defects. Pattern suggests manufacturing QC gap, not isolated incidents.",
+      "status": "Ongoing — documented across 2013-2025 forum and professional reports",
+      "products_affected": "Marvin Signature Ultimate (casement and double-hung)"
+    },
+    {
+      "type": "warranty_service_systemic_failure",
+      "description": "BBB and forum records document a recurring pattern: Marvin directs customers to local dealers for service; unresponsive dealers direct customers back to Marvin corporate; neither party assumes responsibility. One customer paid $86,000 in November 2024 and remained unable to use doors nine months later (August 2025) due to missing parts and scheduling failures.",
+      "status": "Ongoing — documented in 2024-2025 BBB complaints and forum posts",
+      "products_affected": "Marvin Signature Ultimate and general Marvin product lines"
+    }
+  ],
+  "bottom_line": "The Marvin Signature Ultimate double-hung window is a genuinely premium engineered product with legitimate competitive advantages in customization (19+ exterior colors, unlimited custom matching, 6+ wood species), material specification (extruded AAMA 2605 aluminum cladding vs. roll-formed competitors), and innovative operational features (keeper latch, Lift Lock). For historic restoration, custom architectural projects, or coastal/impact applications where design precision commands priority, these advantages justify consideration at the $1,200-3,000 per-window-installed price point. However, a substantial and well-documented convergence of professional installer accounts, forum owner reports, and BBB complaints reveals a persistent gap between engineered specifications and actual delivered quality. Defective units arrive with sufficient frequency that experienced installers treat them as expected project contingency rather than exceptions. Factory finish failures appear within weeks to months. Locking mechanisms require field adjustment or part replacement at non-trivial rates. The warranty framework, while impressive on paper (20-year finish, 20-year IG seal), proves materially narrower in practice: labor costs for all warranty replacements fall on the homeowner, water infiltration claims require proving manufacturing defect causation, and the 5-year interior finish warranty is brief for premium pricing. Customer service responsiveness is a documented systemic weakness, not an isolated complaint. For projects prioritizing energy efficiency over customization, Andersen A-Series and Pella Architect series offer comparable or superior thermal performance at lower cost. For any Ultimate purchaser, engaging certified Marvin installation contractors, budgeting 3-6 month lead times, thoroughly reviewing warranty exclusions before purchase, and documenting pre-installation condition photographically are essential risk mitigation steps. The product occupies a defensible niche but requires informed, eyes-open procurement.",
+  "scoring_pool_summary": {
+    "pool_S_sources": 0,
+    "pool_A_sources": 7,
+    "pool_B_sources": 16,
+    "pool_C_sources": 14,
+    "scored_sources": 17,
+    "report_only_sources": 16,
+    "quarantined_sources": 4
+  },
+  "product_slug": "marvin_signature_ultimate",
+  "product_name": "Marvin Signature Ultimate",
+  "manufacturer_slug": "marvin",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 203884,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 37,
+    "score": 21,
+    "report_only": 14,
+    "quarantine": 2,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.199488
+}

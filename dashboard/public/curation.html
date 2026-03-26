@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curation — The Residentialist</title>
+    <link rel="stylesheet" href="/scores/css/curation.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-brand"><a href="/scores/" style="color:inherit;text-decoration:none;">THE <span>RESIDENTIALIST</span></a> · Curation</div>
+      <nav class="header-nav">
+        <a href="/scores/curation.html" class="active">Curation</a>
+        <a href="/scores/manufacturer.html">Manufacturers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+
+      <!-- New Deep Dive Section -->
+      <div class="section">
+        <div class="section-title">New Deep Dive</div>
+        <div class="input-group">
+          <input type="text" id="productName" placeholder='Product name, e.g. "Pella 250 Double Hung"'>
+          <select id="operationType">
+            <option value="double_hung">Double Hung</option>
+            <option value="casement">Casement</option>
+            <option value="sliding">Sliding</option>
+            <option value="awning">Awning</option>
+            <option value="picture">Picture</option>
+            <option value="general">General</option>
+          </select>
+          <button class="btn btn-primary" id="startBtn" onclick="startDeepDive()">Start</button>
+        </div>
+
+        <div class="section-title" style="margin-top: 20px">Batch Input</div>
+        <div class="input-group">
+          <textarea id="batchInput" placeholder="Paste product list, one per line. Format: Product Name, Operation Type"></textarea>
+          <button class="btn btn-primary" onclick="startBatch()">Batch</button>
+        </div>
+      </div>
+
+      <!-- Queue Status -->
+      <div class="section" id="queueSection" style="display:none">
+        <div class="section-title">Processing</div>
+        <div id="queueList" class="product-list"></div>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <select id="filterStatus" onchange="filterProducts()">
+          <option value="all">All Statuses</option>
+          <option value="staged">Staged</option>
+          <option value="reviewed">Reviewed</option>
+          <option value="released">Released</option>
+          <option value="scored">Scored</option>
+        </select>
+        <select id="filterManufacturer" onchange="filterProducts()">
+          <option value="all">All Manufacturers</option>
+        </select>
+      </div>
+
+      <!-- Staged Products -->
+      <div class="section" id="stagedSection">
+        <div class="section-title">
+          <span>Staged</span>
+          <button class="btn btn-sm btn-ghost" onclick="runSelected('staged')">Run Selected</button>
+        </div>
+        <div id="stagedList" class="product-list">
+          <div class="empty-state"><div class="icon">📋</div><p>No staged products. Start a deep dive above.</p></div>
+        </div>
+      </div>
+
+      <!-- Reviewed Products -->
+      <div class="section" id="reviewedSection">
+        <div class="section-title">
+          <span>Reviewed</span>
+          <button class="btn btn-sm btn-ghost" onclick="runSelected('reviewed')">Run Selected</button>
+        </div>
+        <div id="reviewedList" class="product-list">
+          <div class="empty-state"><p>No reviewed products yet.</p></div>
+        </div>
+      </div>
+
+      <!-- Scored Products -->
+      <div class="section" id="scoredSection">
+        <div class="section-title">Scored</div>
+        <div id="scoredList" class="product-list">
+          <div class="empty-state"><p>No scored products yet.</p></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="/scores/js/curation.js"></script>
+</body>
+</html>

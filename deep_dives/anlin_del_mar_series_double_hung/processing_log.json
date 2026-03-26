@@ -1,0 +1,37 @@
+{
+  "product": "Anlin Del Mar Series",
+  "operation_type": "double_hung",
+  "slug": "anlin_del_mar_series_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 9051
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 43348
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 32,
+      "cost_estimate": 0.157164
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/anlin_del_mar_series_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-25T19:08:48.191Z"
+}

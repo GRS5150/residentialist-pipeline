@@ -1,0 +1,32 @@
+{
+  "product": "Kolbe Ultra Series",
+  "operation_type": "casement",
+  "slug": "kolbe_ultra_series_casement",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 56586
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 28,
+      "cost_estimate": 0.168759
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/kolbe_ultra_series_casement_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T21:26:17.942Z"
+}

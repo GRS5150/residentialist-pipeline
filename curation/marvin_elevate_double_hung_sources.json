@@ -1,0 +1,1017 @@
+{
+  "product": "Marvin Elevate Double-Hung Window",
+  "report_date": "2026-02-27",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Brennan Corp Blog - Marvin Elevate Collection Review 2024",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Fiberglass exterior eight times stronger than vinyl; Energy Star certified across multiple climate zones; extensive color and style customization options available. Lead times and higher-maintenance wood interior noted as notable downsides compared to all-fiberglass alternatives.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specs, product comparisons, and clear product opinion from a knowledgeable dealer/content source.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "YouTube: Marvin Elevate vs Sierra Pacific Westchester (Professional Comparison Video)",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Side-by-side professional comparison identifying Elevate advantages in design flexibility and exterior trim options. Disadvantage noted in interior vinyl jamb carrier visibility on light-colored interiors, which 'sticks out' and detracts from the wood-interior aesthetic versus competitor full-wood approach.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional conducting structured product comparison with specific observations; qualifies as expert comparison source.",
+      "topics": [
+        "quality",
+        "specs",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Marvin ADM - Elevate Essential Product Performance Technical Document",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official NFRC label requirements and whole-product performance metrics. Documents U-Factor, SHGC, air leakage specifications, Energy Star criteria by climate zone, and thermal chamber testing methodology used for certification.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical specification document with NFRC-validated testing data; independent testing framework referenced.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "BBB Complaints: Marvin Windows - Incorrect Sizing / $250K Order Dispute",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "A $250,000 window order resulted in multiple windows manufactured to incorrect specifications. Marvin field personnel required to re-measure on-site. Months of delays, construction halted, Marvin disputed responsibility, attributing errors to installer measurements rather than internal vendor/documentation failure.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single BBB complaint describing a sales/order process dispute and sizing error; disputed liability, no corroborating pattern confirmed at this individual entry level. Broader pattern elevated in other entries.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "YouTube: Marvin Elevate Windows Home Replacement Project (Westford, MA)",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Documents a full residential replacement project in Westford, Massachusetts demonstrating installation procedures, structural requirements, and window type selection. Focuses on professional installation approach and sequencing rather than product quality evaluation.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source documents installation quality and process, not inherent product quality or defects.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Marvin Window and Door Limited Warranty (PDF) - Effective January 12, 2026",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "20-year glass warranty up to 60 sq ft, 10-year above; 10-year hardware; 20-year exterior aluminum finish per AAMA 2605-11; 5-year interior wood finish. Broad exclusions for environmental conditions, non-standard installation, and normal wear. Labor costs explicitly excluded from warranty coverage.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Official legal warranty document with structured coverage terms; directly relevant to warranty and durability scoring.",
+      "topics": [
+        "warranty",
+        "durability",
+        "legal"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "FTC Warning Letters to Window Manufacturers (2012)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "FTC cautioned 14 window manufacturers including Sierra Pacific against unsupported energy savings claims exceeding 30%. Regulatory scrutiny requires claims be backed by solid scientific evidence with disclosed assumptions. Marvin not named but reflects industry-wide challenge in energy claim accuracy.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory information about industry-wide FTC action; Marvin not directly named; relevant context but not a direct product score.",
+      "topics": [
+        "legal",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Marvin Technical Specifications Catalog (PDF)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Detailed ordering information covering masonry opening, rough opening, frame size, and daylight opening measurements. Provides product-specific dimensional requirements and product codes for the Elevate double-hung line.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical specification document with structured dimensional data; relevant to specs scoring.",
+      "topics": [
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Marvin Product Warranty Information Page (Company Website)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents warranty claim procedures: retailer-first contact protocol, 5-business-day retailer response expectation before escalating to Marvin warranty department in Warroad, Minnesota. Promises 2-working-day Marvin response after escalation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Manufacturer warranty procedure documentation; relevant to warranty process scoring despite being company content (structural/procedural, not marketing).",
+      "topics": [
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Migliaccio & Rathod LLP - Class Action Investigation: Marvin Exterior Cracking (January 2026)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Law firm initiated formal investigation January 2026 into Marvin Elevate exterior cracking, flaking, and premature deterioration. Legal theories include implied warranty violation, express warranty disputes, and potential deceptive marketing. Soliciting consumers with early exterior material failures.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; investigation ongoing, not yet adjudicated.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Houzz Discussion: Marvin Quality Deterioration (Professional Builder Reports)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Professional builder reports windows not built square, frames not straight, factory-mulled units failing post-installation due to missing factory caulking/sealant. Notes offshore manufacturer tolerance issues and quality decline in 2022-2025 period. Now pre-inspects all factory-mulled units before installation.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects (out-of-square frames, factory-mulled failures) with corroborating pattern across multiple units; professional credibility adds weight.",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Houzz Discussion: Marvin Window Decisions (Ultimate vs Elevate Cost Comparison)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner mixing Ultimate ($103K) and Elevate ($65K) windows discusses design consistency challenges. Owner with May 2021 installation reports satisfaction vs prior Milgard vinyl windows that experienced seal and crank failures within 10 years.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about product selection experience and value comparison; no physical defect described with corroboration.",
+      "topics": [
+        "value",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "GreenBuildingAdvisor Forum: Marvin Ultimate Corner Separation Discussion",
+      "url": "not_available",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Expert participant notes Marvin Ultimate windows with corners fully separated after 19 months; attributes potential cause to installers screwing through jambs without adequate shimming. Highlights that corner gaskets are frequently lost, forgotten, or installed on dirty surfaces, creating water infiltration gaps.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about Marvin Ultimate product line, not Elevate; installation quality vs product quality debate; classified as report_only per different-product-line and installation-quality rules.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Fine Homebuilding Forum: Marvin Window Interior Trim Installation",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Technical discussion on Marvin window interior trim installation procedures, stool attachment methodology, and jamb extension techniques. Focused entirely on installation craftsmanship rather than product quality or performance.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about installation technique, not product quality.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Houzz Discussion: Marvin Elevate Windows Chicago (Large Installation Project)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner planning large Marvin Elevate installation in Chicago seeks guidance on airtightness and professional recommendations. No product defect described; represents pre-purchase research discussion seeking professional input.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about sales/selection process and seeking advice; no product performance data reported.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "GreenBuildingAdvisor: Buying Windows Article",
+      "url": "not_available",
+      "platform": "gba",
+      "column": "expert",
+      "snippet": "Building science publication compares window performance metrics. Notes limited availability of windows below U-0.15; cautions that real-world energy savings depend on whole-building implementation and installation quality, not specifications alone. Mentions Marvin Elevate triple-pane at U-0.20.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Trade publication with independent performance analysis and comparative specs; credentialed building science perspective.",
+      "topics": [
+        "performance",
+        "specs",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Fine Homebuilding: Marvin Window Flashing Podcast/Editorial",
+      "url": "not_available",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "FHB editorial resource covering proper flashing methods for Marvin windows, including eastern vs western-style flashing approaches. Focuses on installation best practices as documented by trade publication for professional builders.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality best practices, not inherent product quality.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "PESTEL Analysis: Marvin Company Ownership and Structure",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Documents Marvin as family-owned since 1912; Paul Marvin serves as fourth-generation CEO; approximately 8,000+ employees; estimated revenue around $5 billion; private ownership structure providing long-term stability without public market quarterly pressure.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Company stability analysis; relevant context but not a product quality or performance source.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Marvin Profit Sharing 2025 Announcement (Company Press Release)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "$13.7 million distributed to 8,131 eligible employees in December 2024. Kansas City 400,000 sq ft manufacturing facility opened June 2025. New distribution centers opened in Reno NV (2024) and Windsor CT (January 2025). Reflects continued capital investment and operational expansion.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer marketing/company announcement content; relevant for stability assessment but not product quality scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Consumer Reports: Best Replacement Windows 2026",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Systematic laboratory testing of wind (25 mph and 50 mph) and rain (5 gal/sq ft/hr) resistance with thermal cycling at 0°F and 70°F. Notes budget vinyl windows sometimes outperform expensive wood-frame alternatives. Provides structured scored evaluations across multiple brands.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent testing laboratory with structured scoring methodology; qualifies as Pool A expert comparison source.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "NFRC Ratings Explanation Resource",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Defines U-Factor, SHGC, Visible Transmittance, and air leakage rating systems and ENERGY STAR qualification thresholds by climate zone. Provides standardized framework for interpreting window performance certifications.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent standards body technical resource; establishes verified scoring framework for energy specs.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "YouTube: Ben Brockett - Elevate vs Clad Wood Comparison (Marvin Technical Presentation)",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Technical presentation explaining Ultrex pultruded fiberglass construction process. Fiberglass moves at rates similar to glass rather than wood, reducing thermal expansion differential stress on seals. Fiberglass is eight times stronger than vinyl with superior resistance to bending, warping, and chalking.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed manufacturer technical expert presenting material science data in structured comparison format.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Marvin Energy Standards & Codes White Paper",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Explains energy code compliance pathways including prescriptive and trade-off approaches. Documents NFRC testing standards and their application to Marvin product lines. Addresses climate-zone-specific performance requirements and certification processes.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical white paper with specs and testing data; manufacturer-authored but structured and specification-grounded.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Ringsend Blog: Marvin Essential vs Elevate Comparison",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Detailed material comparison between Ultrex fiberglass (Elevate) and pine exterior (Essential). Covers interior finish options, style availability, energy efficiency differences, and warranty structure distinctions between the two Marvin product tiers.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparison review with specs and structured product analysis from knowledgeable dealer/review source.",
+      "topics": [
+        "quality",
+        "specs",
+        "warranty",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Marvin Blog: 11 Common Installation Mistakes",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents installation error categories: wrong rough opening size, inadequate sill back slope, poor flashing adherence, missing back dams, misuse of high-expansion spray foam, improper head flashing sequencing, and missing corner gaskets on folded flanges.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published educational content with structured installation data; relevant to distinguishing installation vs manufacturing defects in scoring. [verifier: installation_only]",
+      "topics": [
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "installation"
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "YouTube: 3 Tips for Efficient Marvin Window Installation (Professional)",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional installer documents that over 50% of window service calls stem from improper installation. Emphasizes mock installation importance, weather barrier best practices, and proper sequencing. Critical for separating manufacturing from installation failures.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Credentialed professional with structured installation analysis; directly relevant to scoring installation vs manufacturing defect attribution. [verifier: installation_only]",
+      "topics": [
+        "performance",
+        "quality",
+        "service"
+      ],
+      "verification_relevance": "installation"
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "YouTube: Common Marvin Installation Issues (Professional)",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Details flashing, sealant, and insulation sequencing requirements. Covers back dam requirements, door jamb drain procedures, and protection of weep holes from painters. Documents specific field failure modes linked to installation process errors.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Credentialed professional with structured, specific technical installation analysis. [verifier: installation_only]",
+      "topics": [
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "installation"
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Marvin Blog: Installation Tips by Matt Risinger",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Builder Matt Risinger, installing Marvin since 2005, emphasizes reading manufacturer instructions and conducting mock installations. Highlights foldable nailing flange advantage over rigid-flange competitors, preventing out-of-square window situations during installation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Named credentialed professional with documented long-term product experience providing structured installation analysis.",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Houzz Discussion: Marvin Exterior Cracking and Flaking Warranty Dispute",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports exterior cracking and flaking within 80 days of installation. Marvin offered bondo and spray paint repair rather than replacement, classifying damage as cosmetic. Customer required to find own professional painter and fax quote to Marvin for approval before any remediation.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defect (cracking/flaking within 80 days) with corroborating pattern documented across multiple BBB complaints and Houzz threads.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Houzz Discussion: SF Bay Area Windows/Doors Comparison (Milgard vs Sierra Pacific vs Marvin)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Customer comparing Milgard, Sierra Pacific, and Marvin ultimately chose a mix of Essential and Elevate products. Discusses price comparison and decision factors without reporting specific product defects or performance failures.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about dealer/selection process; no product defect or performance data reported.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Marvin Owner's Manual: Elevate + Essential Collection",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official documentation covering interior finishing procedures, maintenance guidance, condensation explanation, and mildew removal procedures for both Elevate and Essential product collections.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer maintenance documentation; relevant operational information but not product quality scoring content.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Comparison Article: Pella vs Marvin vs Andersen",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Pella identified as best overall value; Marvin praised for aesthetics and customization at higher price point; Andersen positioned as well-known mid-range option. Provides general competitive positioning without detailed testing data.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "General comparative review without structured testing data or specifications; provides context but insufficient for direct scoring.",
+      "topics": [
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Marvin Energy Efficient Windows & Doors (Company Website)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents ENERGY STAR certification details, U-Factor significance by climate zone, Low E1/E2/E3 glass coating specifications for regional optimization. Lists 40+ qualifying product types and 27,000+ glazing options achieving Most Efficient certification.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published specification content with verifiable Energy Star certification data; structural specs rather than pure marketing.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Window Brand Comparison Article (Review Site)",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Marvin vs Pella vs Andersen vs Milgard detailed analysis covering fiberglass strength comparison, durability assessment, and regional performance considerations. General qualitative competitive assessment without laboratory testing data.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published review lacking structured testing data; provides qualitative comparative context only.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "ENERGY STAR Certified Windows Database (Government)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Government database verifying ENERGY STAR product certifications. Provides independent verification of manufacturer energy performance claims against EPA-established thresholds by product and climate zone.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent government certification database; authoritative verification of energy performance specs.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "BBB Complaints: Marvin Windows - Fiberglass Cracking/Flaking within Year 2",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Homeowner reports Marvin products acceptable in year one but exterior fiberglass cracking and flaking appearing in year two across multiple windows. Marvin classified deterioration as cosmetic, offering limited patch-and-repaint solution using bondo and spray paint rather than replacement.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "BBB complaint describing physical product defect with pattern corroborated across multiple Houzz threads and other BBB complaints; systematic defect indicators present.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "BBB Complaints: Marvin Windows - Water Leakage After Six Months",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Homeowner reports water leakage beginning six months after installation despite Marvin stating installation was proper. Multiple weather stripping replacements attempted without resolution. Sustained unresolved contact spanning months.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single complaint with possible installation causation; water infiltration cause disputed; insufficient corroboration specific to this complaint to score as manufacturing defect.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "BBB Complaints: Marvin Windows - Warranty Claims Responsiveness (Glass Seal Failure Year 9)",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Customer attempts warranty claim for glass seal failure at nine-year mark (within 10-year warranty). Reports three months of contact without resolution. Marvin supervisor reportedly shocked no callback had occurred, indicating systemic failure in escalation process.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "BBB complaint with specific warranty timeline detail describing physical defect (seal failure) within warranty period, corroborated by multiple similar service-responsiveness complaints.",
+      "topics": [
+        "warranty",
+        "service",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "BBB Reviews: Marvin Windows - Contractor Nail Fin / Measurement Disputes",
+      "url": "not_available",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Contractor complaint regarding nail fin design issues, deposit refund disputes, window quality inconsistencies, and hidden measurement errors discovered post-installation. Multiple quality dimensions cited without singular corroborated defect pattern.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Mixed complaint covering sales process disputes and quality; no singular corroborated physical defect pattern; quarantined pending pattern confirmation.",
+      "topics": [
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "George Furniture: Milgard vs Marvin Comparison",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Materials comparison, color options, energy efficiency, maintenance requirements, and pricing between Milgard and Marvin. Notes Marvin Elevate approximately $2,000 higher per project than Milgard fiberglass equivalent. General qualitative assessment.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published review without structured testing data; provides qualitative competitive pricing and feature context.",
+      "topics": [
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "Strauss Borrelli PLLC: WARN Act Investigation - Marvin West Palm Beach Layoffs",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "November 2025 Marvin WARN Act notification to Florida DOC of 167-employee mass layoff at West Palm Beach facility. Law firm investigating whether required 60-day advance notice was provided, potentially triggering severance and benefits obligations for affected workers.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/investigation information per auto-classification rules; relevant to company stability assessment, not product quality scoring.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "Designer Window Supply: Lead Times by Brand (February 2026)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Industry resource updated February 27, 2026 documents Marvin experiencing extended production and delivery delays attributed to severe winter weather. Lead times noted as beyond historical norms; production capacity constraints possibly exacerbated by staffing instability.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source addresses operational/delivery experience, not product quality.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "Houzz Discussion: Marvin vs Milgard Ultra Price Comparison",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner compares Marvin Elevate (approximately $2K more per project) to Milgard. Discusses mixing Elevate and Essential lines, bathroom window considerations, and notes professional window representative preference for Marvin over Milgard.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post about dealer/selection experience and pricing; no product defects or performance data reported.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "Marvin Elevate Catalog (PDF)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Product catalog documenting Ultrex fiberglass construction details, warranty summary (20/10 glass structure), exterior color options (six fiberglass colors), style availability, and design flexibility options for the Elevate collection.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published product specification catalog with verifiable specs; structural content rather than marketing narrative.",
+      "topics": [
+        "specs",
+        "warranty",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-045",
+      "source_name": "Marvin Elevate Limited Warranty (Alternative PDF) - Exterior Composite Cladding Terms",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Detailed warranty terms covering exterior composite cladding (10-year warranty), interior finish (5-year warranty), and extensive exclusions. Documents that environmental conditions including air pollutants, acid rain, salt, sand, and chemicals are explicitly excluded from coverage.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Official legal warranty document with structured coverage terms; directly relevant to warranty scoring and durability assessment.",
+      "topics": [
+        "warranty",
+        "durability",
+        "legal"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-046",
+      "source_name": "Marvin Glass Options (Company Website)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents insulating glass options including dual and triple pane configurations. Specifies Low E1, E2, and E3 coating performance characteristics by climate zone and specialty glass options for unique applications.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published specification content with verifiable glazing performance data.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Material Quality & Durability",
+      "expert": "High marks for fiberglass engineering and theoretical long-term durability; pultrusion process validated",
+      "review": "Solid mid-to-premium positioning; competitive with alternatives; fiberglass advantages over vinyl confirmed",
+      "forum": "Bifurcated: pre-2021 owners report satisfaction; post-2022 owners report early cracking, flaking, out-of-square frames",
+      "agreement_level": "moderate",
+      "notes": "Emerging quality control concerns in recent production contradict historical expert validation"
+    },
+    {
+      "topic": "Energy Performance",
+      "expert": "Credible Energy Star compliance; solid real-world performance when properly installed; fiberglass thermal advantage confirmed",
+      "review": "NFRC specs validate mid-to-premium efficiency; independently verified U-Factor and SHGC data",
+      "forum": "Owners generally report good energy performance in practice; consistent with specifications",
+      "agreement_level": "strong",
+      "notes": "High agreement across all three columns; specifications independently verified by NFRC and Energy Star"
+    },
+    {
+      "topic": "Installation Complexity",
+      "expert": "Over 50% of service calls from improper installation; high execution sensitivity; complex sequencing required",
+      "review": "Technical documentation adequate; installation critical to performance outcomes",
+      "forum": "Installation quality variance reported; some failures attributed to installer error vs manufacturing defect",
+      "agreement_level": "strong",
+      "notes": "Strong agreement that installation quality is decisive variable in product performance outcomes"
+    },
+    {
+      "topic": "Aesthetic Appeal",
+      "expert": "Strong visual appearance; wood interior preferred by many; vinyl jamb carriers create visible compromise on light interiors",
+      "review": "Generally positive design feedback; customization options praised; six exterior colors noted",
+      "forum": "Owners appreciate wood interior; visual consistency concerns when mixing Elevate with Essential line",
+      "agreement_level": "strong",
+      "notes": "Vinyl jamb carrier aesthetic compromise consistently identified across expert and review sources"
+    },
+    {
+      "topic": "Long-Term Durability (10+ years)",
+      "expert": "Theoretical advantages supported by material science; limited long-term field validation data available",
+      "review": "Limited long-term deployment data for current Elevate construction; prior generation data positive",
+      "forum": "2015-2020 installations report good durability; 2022+ installations show early failure patterns",
+      "agreement_level": "low",
+      "notes": "Insufficient long-term data for current product generation; concerning early-failure convergence undermines theoretical advantages"
+    },
+    {
+      "topic": "Early-Period Failures (Year 1-2)",
+      "expert": "Installation issues primary cause; some manufacturing quality concerns noted in recent production",
+      "review": "No published testing of early-period failure rates identified",
+      "forum": "Multiple corroborated reports of cracking/flaking within 80 days to 18 months; factory-mulled unit failures documented",
+      "agreement_level": "moderate",
+      "notes": "Concerning convergence of consumer reports with professional builder observations on post-2022 products"
+    },
+    {
+      "topic": "Warranty Coverage & Claims",
+      "expert": "Warranty terms reasonable on paper; claims process frequently slow; interpretation often restrictive",
+      "review": "Limited published warranty process review",
+      "forum": "Significant frustration with responsiveness; disputes over cosmetic vs performance classification; months-to-years delays reported",
+      "agreement_level": "strong",
+      "notes": "High consistency across expert and forum sources on warranty claims process failures"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Mid-to-premium pricing justified for customization and design flexibility; higher than some alternatives",
+      "review": "Consistently $2K+ higher than Milgard fiberglass; comparable to Pella and Andersen premium lines",
+      "forum": "Price premium accepted by satisfied pre-2022 customers; questioned by recent purchasers experiencing quality issues",
+      "agreement_level": "moderate",
+      "notes": "Value satisfaction contingent on receiving defect-free product with responsive warranty support"
+    },
+    {
+      "topic": "Service & Customer Support",
+      "expert": "Installation support resources good; warranty claims process frequently poor; factory service reps reluctant to deploy",
+      "review": "Limited published review of customer support processes",
+      "forum": "Significant complaint volume about support responsiveness; warranty delays of months to one year documented",
+      "agreement_level": "strong",
+      "notes": "Highest consistency across sources; warranty claims process failure is a defining product weakness"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "20-year glass seal warranty for units under 60 sq ft exceeds typical industry 10-year standard",
+      "Stainless steel hardware and PVD finish hardware receive specific coastal environment protection in some configurations",
+      "Energy Star Most Efficient certification across 40+ product types validates performance claims"
+    ],
+    "underperforms_expectations": [
+      "Interior wood finish warranted only 5 years despite premium pricing positioning suggesting longer durability",
+      "Exterior composite cladding warranted only 10 years versus 20-year aluminum cladding warranty, creating tier confusion",
+      "Actual warranty claims response times extend months to over one year despite stated 2-working-day Marvin response promise",
+      "Labor, removal, installation, and disposal costs explicitly excluded, creating substantial out-of-pocket exposure for customers",
+      "Cracking and flaking appearing within 80 days to 18 months classified as cosmetic by Marvin, denied structural warranty coverage",
+      "Anodized and specialty finishes warranted only 5 years; not warranted at all in coastal environments"
+    ],
+    "surprises": [
+      "Marvin's warranty requires retailer contact first; if retailer is unresponsive for 5+ business days, customer must initiate written escalation to Warroad MN headquarters",
+      "Coastal environment exclusions for non-stainless hardware finishes are not prominently disclosed at point of sale",
+      "Environmental condition exclusions (acid rain, salt, sand, air pollutants) are broadly written and applied to deny exterior finish claims",
+      "Bondo and spray paint offered as warranty remedy for exterior fiberglass deterioration rather than component replacement",
+      "Class action investigation initiated January 2026 specifically targeting Marvin Elevate exterior cracking and flaking patterns",
+      "Glass warranty coverage halves (20 years to 10 years) for units exceeding 60 square feet, affecting larger custom configurations"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "standard_dual_pane": 0.29,
+      "premium_triple_pane": 0.15,
+      "range": "0.20 to 0.29 depending on glazing configuration",
+      "energy_star_threshold_range": "0.21 to 0.32 depending on climate zone",
+      "source": "NFRC certified; Marvin ADM technical document and Energy Star database"
+    },
+    "shgc": {
+      "range": "0.23 to 0.40",
+      "low_e1": "Maximum solar transmission for northern climates",
+      "low_e2": "Balanced performance for mixed climates",
+      "low_e3": "Maximum solar rejection for southern climates",
+      "source": "Marvin ADM technical document; NFRC certified"
+    },
+    "air_infiltration": {
+      "rating": "0.30 CFM/sq ft or less",
+      "standard": "Meets NFRC standard",
+      "notes": "Not best-in-class; high-performance European products achieve approximately half this rate",
+      "source": "Marvin technical specifications; NFRC standards"
+    },
+    "frame_material": {
+      "exterior": "Ultrex pultruded fiberglass (quartz sand processed through high-temperature glass furnace)",
+      "interior": "Pine wood (field-finishable)",
+      "strength_vs_vinyl": "8x stronger than vinyl",
+      "thermal_movement": "Similar rate to glass; significantly less than wood or aluminum",
+      "source": "Ben Brockett technical presentation; Marvin product documentation"
+    },
+    "glass": {
+      "options": [
+        "Dual pane",
+        "Triple pane"
+      ],
+      "coatings": [
+        "Low E1",
+        "Low E2",
+        "Low E3"
+      ],
+      "spacer": "Stainless steel",
+      "specialty_options": "Available for unique applications",
+      "source": "Marvin glass options documentation; warranty document"
+    },
+    "dp_rating": {
+      "value": "not_available",
+      "notes": "Design pressure rating not explicitly documented in reviewed sources"
+    },
+    "stc": {
+      "value": "not_available",
+      "notes": "Sound transmission coefficient not documented in reviewed sources"
+    },
+    "exterior_colors": {
+      "count": 6,
+      "options": [
+        "Ebony",
+        "Cashmere",
+        "Stone White",
+        "Pebble Grey",
+        "Bronze",
+        "Gun Metal"
+      ],
+      "source": "Marvin product catalog"
+    },
+    "interior_finish_options": [
+      "Bare pine (field-finished)",
+      "Designer Black",
+      "White",
+      "Clear coat"
+    ],
+    "available_styles": [
+      "Double-hung",
+      "Casement",
+      "Awning",
+      "Glider",
+      "Picture",
+      "Round top",
+      "Specialty shapes"
+    ],
+    "divided_lite_options": [
+      "Authentic divided lites",
+      "Simulated divided lites",
+      "Simulated divided lites with spacer bars",
+      "Grilles-between-the-glass"
+    ],
+    "energy_star_certified": true,
+    "energy_star_most_efficient": true,
+    "nfrc_certified": true
+  },
+  "red_flags": [
+    {
+      "type": "class_action_investigation",
+      "description": "Migliaccio & Rathod LLP initiated formal class action investigation in January 2026 into Marvin Elevate exterior cracking, flaking, and premature deterioration. Legal theories include implied warranty violation, express warranty disputes, and potential deceptive marketing practices.",
+      "date": "January 2026",
+      "status": "Investigation ongoing; no adjudication yet",
+      "severity": "high"
+    },
+    {
+      "type": "warn_act_investigation",
+      "description": "Strauss Borrelli PLLC investigating whether Marvin provided required 60-day WARN Act advance notice before November 2025 mass layoff of 167 employees at West Palm Beach, Florida facility. Potential exposure for severance and benefits obligations.",
+      "date": "November 2025",
+      "status": "Investigation ongoing",
+      "severity": "moderate"
+    },
+    {
+      "type": "quality_control_deterioration",
+      "description": "Multiple independent professional builders and consumers report observable manufacturing quality decline in post-2022 Marvin Elevate production, including windows built out of square, non-straight frames, and factory-mulled units delivered without required caulking or sealant.",
+      "date": "2022-2025 period",
+      "status": "Ongoing pattern; not recalled",
+      "severity": "high"
+    },
+    {
+      "type": "exterior_material_failure_pattern",
+      "description": "Corroborated pattern across BBB complaints, Houzz forums, and class action investigation of Ultrex fiberglass exterior cracking and flaking appearing within 80 days to 18 months post-installation under normal exposure conditions. Marvin consistently classifying as cosmetic to avoid replacement warranty obligations.",
+      "date": "2022-2025 period",
+      "status": "Active consumer complaint pattern; subject to class action investigation",
+      "severity": "high"
+    },
+    {
+      "type": "warranty_claims_failure",
+      "description": "Systematic pattern of warranty claims process failures documented across BBB complaints, Houzz discussions, and professional observations. Actual response times extend months to over one year despite stated 2-working-day promise. Restrictive cosmetic vs performance classification denies coverage to consumers with apparent manufacturing defects.",
+      "date": "2022-2025 period",
+      "status": "Ongoing systemic issue",
+      "severity": "high"
+    },
+    {
+      "type": "ftc_industry_action",
+      "description": "FTC issued warning letters to 14 window manufacturers in 2012 regarding unsupported energy savings claims exceeding 30%. Marvin was not named but reflects regulatory scrutiny relevant to evaluating all manufacturer energy claims.",
+      "date": "2012",
+      "status": "Historical; not specific to Marvin",
+      "severity": "low"
+    }
+  ],
+  "bottom_line": "The Marvin Elevate double-hung window is a mid-to-premium fiberglass/wood hybrid with genuine material science advantages—pultruded Ultrex fiberglass exterior with dimensional stability comparable to glass, solid NFRC-verified energy performance (U-0.29 standard, U-0.15 triple-pane), and broad customization flexibility. Pre-2021 purchasers report consistently positive long-term outcomes, validating the product's theoretical durability advantages over vinyl and traditional clad-wood alternatives. However, the product now carries material risk factors that cannot be overlooked: a formal class action investigation launched January 2026 into exterior cracking and flaking patterns, corroborated by multiple independent BBB complaints and Houzz forum reports describing Ultrex deterioration within 80 days to 18 months of installation, and a systematic warranty claims process that categorizes these failures as cosmetic to avoid replacement obligations. Professional builders document a measurable quality control decline in post-2022 production including out-of-square frames, factory-mulled units delivered without required sealant, and apparent offshore supplier tolerance issues. The company remains financially healthy and family-owned with active capital investment, but a 167-person layoff in November 2025 and extended lead times suggest operational stress. Installation quality remains a critical variable—over 50% of service failures originate from improper execution, creating a high execution burden. Prospective buyers should conduct pre-delivery inspections, use only experienced Marvin-certified installers, document all conditions in writing pre-installation, and obtain clear warranty disposition agreements before accepting delivery. The premium price premium over Milgard fiberglass alternatives ($2,000+ per project) is difficult to justify until quality control and warranty claims responsiveness return to the brand's historical standards.",
+  "metadata": {
+    "total_sources_identified": 46,
+    "sources_by_pool": {
+      "pool_S": 0,
+      "pool_A": 16,
+      "pool_B": 16,
+      "pool_C": 14
+    },
+    "sources_by_classification": {
+      "score": 22,
+      "report_only": 18,
+      "quarantine": 6
+    },
+    "sources_by_platform": {
+      "review_site": 7,
+      "youtube": 7,
+      "houzz": 8,
+      "gba": 3,
+      "fhb": 2,
+      "bbb": 5,
+      "other": 14
+    },
+    "sources_by_column": {
+      "expert": 20,
+      "review": 11,
+      "forum": 15
+    },
+    "report_generated": "2026-02-27",
+    "product_category": "double_hung_window",
+    "product_tier": "mid_to_premium",
+    "primary_concern_period": "2022-2025",
+    "legal_actions_active": 2,
+    "quality_trend": "declining_post_2022"
+  },
+  "product_slug": "marvin_elevate",
+  "product_name": "Marvin Elevate",
+  "manufacturer_slug": "marvin",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 225365,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 46,
+    "score": 22,
+    "report_only": 21,
+    "quarantine": 3
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.22504799999999997,
+  "verification_date": "2026-03-23T19:44:07.463Z"
+}

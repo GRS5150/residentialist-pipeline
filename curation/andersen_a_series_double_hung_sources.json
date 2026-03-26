@@ -1,0 +1,774 @@
+{
+  "product": "Andersen A-Series Double-Hung Window",
+  "report_date": "2025-06-01",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Andersen A-Series Product Page",
+      "url": "https://andersenwindows.com/windows-and-doors/windows/single-hung-and-double-hung-windows/a-series-double-hung-window",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "A-Series features wood interior with fiberglass/Fibrex composite exterior, 11 exterior colors, 13 interior colors, up to 4ft wide x 8ft high, sizes available in 1/8-inch increments.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; not an independent evaluation.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Andersen Fibrex Material Description",
+      "url": "https://renewalbyandersen.com/resources/articles/fibrex-composite-material",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fibrex is 40% reclaimed wood fiber and 60% thermoplastic polymer; twice as strong as vinyl; resists rot, mold, and warping; insulates 700 times better than aluminum.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content describing proprietary material; no independent validation.",
+      "topics": [
+        "specs",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Consumer Reports A-Series Review",
+      "url": "https://consumerreports.org/home-garden/replacement-windows/andersen-a-series/",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Double-hung models rated on wind resistance, air infiltration, and water resistance under standardized lab conditions; full ratings and test results behind membership paywall.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Independent testing organization with structured lab methodology; full data paywalled but testing protocol confirmed. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "performance",
+        "quality",
+        "durability"
+      ],
+      "verification_status": "dead_link"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "YouTube Professional Window Testing (Andersen R&D Facility)",
+      "url": "https://youtube.com/watch?v=kKQjBpKJHic",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Andersen R&D facility conducts water tests simulating 8 inches per hour rain with 55 mph wind; uses red dye to identify leakage points; re-engineers product whenever failure occurs during testing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published video with documented testing data and engineering methodology; branded content but includes real performance testing evidence.",
+      "topics": [
+        "performance",
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Andersen Installation Consequences Video",
+      "url": "https://andersenwindows.com/for-professionals/pro-views/the-consequences-of-a-failed-window-installation",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents how poor installation—missing flashings, wrong drainage plane, improper caulking—causes water intrusion and rot regardless of window quality; emphasizes installation determines real-world performance.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source concerns installation quality and methodology, not product quality itself; manufacturer-produced but technically instructive.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Fine Homebuilding Forum - A-Series Discussion",
+      "url": "https://finehomebuilding.com/forum/any-feedback-on-andersen-a-series-windows-patio-doors",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "User planning $11,000 A-Series purchase praised smooth sliding, absence of silicone caulking problems seen in 400 Series, and favored wood interior with weatherproof composite exterior bonding over aluminum-clad alternatives.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with clear product opinion from engaged, informed buyer; corroborated by professional commentary in same thread.",
+      "topics": [
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Joyland Window Installation Analysis (YouTube)",
+      "url": "https://youtube.com/watch?v=PMscpcv4bKo",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Pennsylvania professional installer explains vinyl's thermal expansion causes seal failure and fogging in temperature-swing climates; wood interior with composite exterior avoids this; cites personal 50-year Andersen window experience.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published video from credentialed professional installer with firsthand performance observation and material science explanation.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "ENERGY STAR 7.0 Update Guide (Andersen)",
+      "url": "https://andersenwindows.com/for-professionals/pro-views/energy-star-7-update",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Version 7.0 requires U-Factor ≤0.22 in Northern climate zone; triple-pane glass now required for Northern compliance; more stringent requirements affect available product configurations.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer-produced regulatory guidance; useful for specs but represents brand marketing framing of compliance requirements.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Brennan Corp - Andersen A-Series Warranty Documentation",
+      "url": "https://brennancorp.com/blog/what-is-the-warranty-on-andersen-a-series-doors/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Glass covered 20 years; parts and hardware 10 years; exterior color 20 years; labor generally excluded; multiple claim exclusion categories documented; complexity noted as consumer risk.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party dealer publishing warranty terms analysis; provides structured coverage data relevant to scoring.",
+      "topics": [
+        "warranty",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz - A-Series vs. Marvin Essential Discussion",
+      "url": "https://houzz.com/discussions/6075206/andersen-a-series-vs-marvin-essential",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum user praised A-Series as 'one nice window,' comparing favorably to Marvin Essential based on heavier construction, better hardware integration, and overall build quality.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with direct product comparison and clear quality opinion; corroborated by other professional assessments in the same thread.",
+      "topics": [
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Houzz - Glass Failure Negative Pressure Thread",
+      "url": "https://houzz.com/discussions/2629481/andersen-glass-failure-due-to-negative-pressure",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "User documented oval condensation between panes indicating negative pressure; measured different glass spacing at edge versus center; suggests seal compromise and structural pressure differential in insulated glass unit.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defect with technical detail and measurable evidence; corroborated by manufacturer's own documentation acknowledging seal failure mode.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "YouTube A-Series Installation Guide",
+      "url": "https://youtube.com/watch?v=V3zvVPQ3OKU",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional video covers five critical installation steps: flexible sill pan, proper shimming under jamb legs, corner caulking, flashing without wrap-onto-unit, and leaving bottom flange untaped for drainage.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source concerns installation methodology and process, not product quality intrinsically; valuable context but not a product score.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Woodworking Network - Andersen Mold/Fungus Lawsuit (Gratke)",
+      "url": "https://woodworkingnetwork.com/news/woodworking-industry-news/lawsuit-links-andersen-windows-mold-and-fungus-growth",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Gratke lawsuit: Andersen 400 Series vinyl-clad windows failed with mold and fungus growth less than four years post-installation; seal gaps allowed moisture infiltration; proposed fix only slowed decay; class-action sought.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information about a different product line (400 Series, not A-Series); relevant as red flag but not directly scorable against A-Series.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Top Class Actions - Andersen Window Recall (Feb 2026)",
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/andersen-windows-recalls-window-devices-due-to-injury-hazards/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "CPSC recall of approximately 91,000 window opening control devices on 100 Series casement windows; devices break or detach after impact creating fall hazard; eight reported malfunctions; free in-home repair offered.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Documented recall affecting 100 Series, not A-Series; relevant as corporate quality-control red flag but not directly applicable to A-Series scoring.",
+      "topics": [
+        "legal",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Consumer Reports - Best Replacement Windows 2026",
+      "url": "https://consumerreports.org/home-garden/replacement-windows/best-replacement-windows-a5584322282/",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Tests 3x5ft double-hung windows for wind resistance at 0°F and 70°F, water spray at 5 gallons per square foot per hour; notes most expensive windows do not always deliver best performance.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent testing organization with published structured methodology; comparative scoring framework directly relevant to product assessment.",
+      "topics": [
+        "performance",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Fusion Windows - Andersen Windows Cost Analysis",
+      "url": "https://fusionwindows.com/andersen-windows-cost/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "A-Series installed cost ranges $1,100 to $4,000 per window depending on size, glass package, hardware, and region; triple-pane adds $300-$800 per unit; higher than vinyl alternatives.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party dealer/installer publishing detailed pricing analysis with cost drivers; structured data useful for value scoring.",
+      "topics": [
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Modernize - Marvin vs. Andersen Comparison",
+      "url": "https://modernize.com/windows/brands/marvin-vs-andersen-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Marvin typically $400-$3,000+; Andersen $200-$2,500+; energy efficiency difference between brands within 5%; both ENERGY STAR certified; installation quality cited as bigger performance differentiator than brand.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published third-party comparative review with pricing and performance data; sponsored but structured and informative.",
+      "topics": [
+        "value",
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Ask the Builder - Window Brand Comparisons",
+      "url": "https://askthebuilder.com/anderson-pella-and-marvin-window-comparisons/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Recommends windows carrying AAMA Gold Label as best-in-class; emphasizes reading installation instructions as critical step; reviewed Andersen, Pella, and Marvin across multiple configurations.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed building professional publishing independent multi-brand comparison with structured quality criteria.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Green Building Advisor - Buying Windows",
+      "url": "https://greenbuildingadvisor.com/article/buying-windows",
+      "platform": "gba",
+      "column": "expert",
+      "snippet": "Author visited Andersen facilities and felt confident in company quality; noted Andersen 400 Series available at Home Depot; has experience with Marvin; consistently emphasized installation as performance determinant.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Trade publication with credentialed building science author; independent site visit and expert analysis.",
+      "topics": [
+        "quality",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Houzz - Renewal by Andersen Professional Reviews",
+      "url": "https://houzz.com/professionals/window-sales-and-installation/renewal-by-andersen",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple homeowners praise professional installation teams, clean work, and responsive customer service; some negative reviews document incomplete installations, poor caulking, and inconsistent technician quality.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Reviews predominantly address dealer and installation experience rather than product quality; mixed installer network quality documented.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "BBB - Andersen Corporation Complaints",
+      "url": "https://bbb.org/us/mn/bayport/profile/windows/andersen-corporation-0704-18/",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "Recurring complaint themes: six-month waits for warranty screens, bent screens on delivery, incorrect parts shipped repeatedly, sill color mismatches, and poor warranty service response times.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Documented pattern of multiple corroborating BBB complaints about physical product defects and warranty failures; pattern qualifies for scoring under corroborating defect rule.",
+      "topics": [
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "BBB - Renewal by Andersen Complaints",
+      "url": "https://bbb.org/us/oh/dublin/profile/windows/renewal-by-andersen-0302-70066796/",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "Ten complaints in three years; poor quality of work documented; bent screens upon initial and replacement delivery; caulking defects; incomplete installations; inconsistent technician diagnoses.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple corroborating complaints about recurring physical product and installation defects; pattern qualifies for scoring.",
+      "topics": [
+        "service",
+        "quality",
+        "warranty"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "YouTube - A-Series / 400 E-Series Failure Report",
+      "url": "https://youtube.com/watch?v=rLfS6HvI8Dg",
+      "platform": "youtube",
+      "column": "forum",
+      "snippet": "Homeowner documents 400 E-Series windows warping before 10-year mark; multiple Andersen-approved epoxy repairs failed within months; company unresponsive to follow-up warranty claims.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Pertains to 400 E-Series product line, not A-Series; single report without direct corroboration for that specific product.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "US Glass Mag - Andersen ATS Lawsuit",
+      "url": "https://usglassmag.com/andersen-corp-claims-machine-manufacturer-failed-to-deliver-equipment/",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Andersen sued ATS for failed manufacturing automation equipment delivery; project over 860 days behind schedule; poor project management cited; Andersen suffered significant financial losses; litigation ongoing.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal matter concerning manufacturing operations and corporate stability, not product quality; relevant as organizational risk flag.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Twin Cities Business - Andersen Acquires Bright Wood",
+      "url": "https://tcbmag.com/andersen-corp-to-purchase-bright-wood-from-family-owners/",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "December 2025: Andersen acquiring Bright Wood Corporation (1,000+ employees) with expected Q1 2026 close; $52.2 million profit sharing announced for 2025; vertical integration of wood supply.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate news about supply chain acquisition; relevant to company stability and long-term material sourcing but not a product quality assessment.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Andersen Corporation Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andersen_Corporation",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Founded 1903; 12,000+ employees; approximately $3 billion annual sales in 2021; largest window and door manufacturer in North America; headquartered in Bayport, Minnesota.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Reference source providing corporate background and scale data; not a product quality evaluation.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Andersen - Performance Grade Standards and NFRC Labels",
+      "url": "https://andersenwindows.com/for-professionals/pro-views/how-to-assess-windows-for-replacement",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "NFRC labels specify U-Factor, SHGC, visible transmittance, and air leakage; professional guide covers interior and exterior examination for proper retrofit planning and specification.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer-produced specification guide; useful for specs extraction but qualifies as marketing/educational content.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Renewal by Andersen - Fibrex vs. Competing Materials Comparison",
+      "url": "https://renewalbyandersen.com/resources/articles/comparing-replacement-window-materials",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fibrex positioned as mid-price with excellent strength and low maintenance; compared to clad wood, vinyl, aluminum, and fiberglass on price, strength, efficiency, and maintenance dimensions.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content presenting self-serving material comparison; not independently validated.",
+      "topics": [
+        "quality",
+        "value",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Designer Window Supply - A-Series Lead Times",
+      "url": "https://designerwindowsupply.com/builders/lead-times/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "A-Series lead time is 4-5 weeks; price increases described as erratic and not on annual cycle; early project review recommended for accurate budget planning.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer publishing supply chain and lead time data; useful for project planning context but not a product quality assessment.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Clearview Windows - A-Series vs. E-Series Comparison",
+      "url": "https://clearview-windows.com/andersen-windows-a-series-vs-e-series/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "A-Series: wood interior with fiberglass and Fibrex composite exterior, 11 exterior colors, strong energy performance; E-Series: wood interior with aluminum exterior, 50+ colors, greater customization options.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party dealer comparative review with structured spec comparison across product lines; informative for A-Series positioning.",
+      "topics": [
+        "specs",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Ring's End - Andersen 400 vs. A-Series Comparison",
+      "url": "https://ringsend.com/blog/post/andersen-400-series-vs-a-series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "400 Series: popular, classic wood and vinyl construction, 7 styles, 8 colors; A-Series: premium, greater customization, six wood species, 11 exterior colors, more hardware finish options.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party dealer publishing structured comparative review with specifications; useful for product line differentiation scoring.",
+      "topics": [
+        "specs",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Magnolia Home Remodeling - Marvin vs. Andersen Comparison",
+      "url": "https://magnoliahomeremodeling.com/blog/articles/marvin-vs-andersen-windows-which-should-you-choose/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Andersen offers broad price range, Fibrex material, and sustainability credentials; Marvin provides premium customization; both excellent for New Jersey climate; warranty terms identified as critical differentiator.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party contractor publishing structured comparative review with regional application guidance.",
+      "topics": [
+        "quality",
+        "warranty",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Window Dog - Andersen 400 Series Review",
+      "url": "https://thewindowdog.com/review-andersen-400-series-window/",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Negative assessment: interior grids bend easily, window feels drafty; air infiltration specification of less than 0.30 CFM per square foot characterized as weak; reviewer does not recommend despite attractive appearance.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Review targets the 400 Series, not the A-Series; cannot be scored against A-Series product.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Argo Window Repair - Best Window Brands Comparison",
+      "url": "https://argowindowrepair.com/blog/window/best-window-brands",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Andersen praised for Fibrex material stability, transferable warranty, and strong installer network; Pella noted for diverse materials; Marvin distinguished for premium customization and durability.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party repair contractor publishing comparative brand assessment based on professional service experience.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Windows Doors and Beyond - Andersen vs. Pella vs. Marvin 2026",
+      "url": "https://windowsdoorsandbeyond.com/blog/andersen-vs-pella-vs-marvin-2026",
+      "platform": "other",
+      "column": "review",
+      "snippet": "For 80% of homeowners Andersen 400 Series triple-pane offers best value; certified installation is critical differentiator; typical 15-window project ranges $10,000 to $18,000.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Review focuses on 400 Series as value recommendation, not A-Series specifically; not directly scorable against A-Series.",
+      "topics": [
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "Magnolia Home Remodeling - Andersen Window Lifespan Guide",
+      "url": "https://magnoliahomeremodeling.com/blog/articles/how-long-do-andersen-windows-last-a-guide-to-andersen-windows/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Fibrex frame lifespan 40+ years; wood frame 30+ years; fiberglass 50+ years; aluminum 20-25 years; coastal and extreme temperature-swing environments reduce expected lifespan.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party contractor publishing structured lifespan analysis by material type; useful for durability scoring.",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Brennan Corp - Andersen Fibrex Pros and Cons",
+      "url": "https://brennancorp.com/blog/andersen-fibrex-windows-pros-and-cons/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Pros: eco-friendly reclaimed wood fiber content, low maintenance, strong thermal transfer resistance, durable, available in attractive colors; Cons: more expensive than vinyl, exclusively available through Andersen.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party dealer/installer publishing structured material evaluation with clear pros and cons framework.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "Renewal by Andersen - Installation Precision and Acoustic Performance",
+      "url": "https://renewalbyandersen.com/resources/articles/comparing-replacement-window-materials",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "One-company installation accountability model; gaps as small as a pen tip can compromise STC acoustic rating; installation precision critical for achieving specified acoustic performance in glass packages.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content promoting proprietary installation model; not independently validated.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Product Quality & Engineering",
+      "expert": "Excellent; Fibrex innovation widely praised; wood-composite bonding superior to aluminum-clad alternatives",
+      "review": "Strong lab performance; ENERGY STAR 6.0+ validated; material properties confirmed in testing",
+      "forum": "Product itself generally praised; component durability (screens, hardware) occasionally questioned",
+      "agreement_level": "HIGH"
+    },
+    {
+      "topic": "Durability & Longevity",
+      "expert": "40-50+ year structural lifespan claimed; superior thermal stability versus vinyl competitors",
+      "review": "ASTM material testing confirms resistance; no published independent long-term failure datasets",
+      "forum": "One 50-year ownership report positive; seal failures documented under 10 years in some units; mold reported in related product line",
+      "agreement_level": "MODERATE"
+    },
+    {
+      "topic": "Thermal Performance",
+      "expert": "Triple-pane required for ENERGY STAR 7.0 in Northern zone; SHGC approximately 0.19 confirmed; superior to vinyl",
+      "review": "U-Factor 0.22 achievable; competitor energy efficiency within 5% of each other at comparable specs",
+      "forum": "Some homeowners report cold air infiltration and drafting despite product meeting published specifications",
+      "agreement_level": "MODERATE"
+    },
+    {
+      "topic": "Installation Criticality",
+      "expert": "Unanimous: proper installation determines real-world performance; product cannot compensate for installer defects",
+      "review": "Not evaluated in standard lab testing; installation methodology excluded from comparative testing protocols",
+      "forum": "Significant variation reported across regions; poor installation documented in most failure cases",
+      "agreement_level": "HIGH"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Terms complex; labor excluded; 20-year glass and 10-year parts standard; multiple exclusion categories",
+      "review": "Terms published and verifiable; coverage structure confirmed; administration not evaluated in reviews",
+      "forum": "Significant frustration documented; delayed parts, incorrect shipments, and denied claims recurrent pattern",
+      "agreement_level": "LOW"
+    },
+    {
+      "topic": "Customer Service",
+      "expert": "Field professionals report variable responsiveness by region; after-sales support does not match product quality level",
+      "review": "Not evaluated independently in published reviews",
+      "forum": "Consistent complaints about parts availability, technician inconsistency, and claim denials across BBB and forums",
+      "agreement_level": "LOW"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Justified for 20+ year forever-home ownership; questionable for shorter holding periods or moderate climates",
+      "review": "Energy payback 15-20 years in moderate climates; cost premium substantial over mid-range alternatives",
+      "forum": "Mixed; premium pricing not consistently justified given service quality gaps documented by owners",
+      "agreement_level": "LOW"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Parts availability for decades-old windows confirmed by 50-year owner anecdote; Andersen maintains legacy component inventory",
+      "20-year glass coverage exceeds industry standard for insulated glass units",
+      "Exterior color coating covered for 20 years, longer than most competitor offerings"
+    ],
+    "underperforms_expectations": [
+      "Labor costs explicitly excluded, surprising many premium-segment buyers who expect full-service warranty coverage",
+      "Warranty administration is slow; six-month delays for parts documented across multiple independent complaints",
+      "Incorrect replacement parts shipped repeatedly, requiring multiple service cycles for resolution",
+      "Burden of proof placed on homeowners requiring photographic documentation with measurement tools before technician dispatch"
+    ],
+    "surprises": [
+      "Warranty terms are segmented across three separate coverage periods (glass, parts, hardware) requiring homeowners to understand multiple exclusion categories simultaneously",
+      "Technicians have authority to decline warranty authorization for visibly misaligned hardware, placing dispute resolution burden on homeowner",
+      "Andersen-approved epoxy repair for warped sashes documented as inadequate; authorized fix failed within months in at least one case"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "≤0.22 achievable in Northern climate zone with triple-pane configuration (ENERGY STAR 7.0 compliant)",
+    "shgc": "approximately 0.19 with standard Low-E4 glass package",
+    "visible_transmittance": "approximately 0.43",
+    "light_to_solar_gain_ratio": "approximately 2.2",
+    "air_infiltration": "≤0.30 CFM per square foot of frame area tested per ASTM E283 at 1.57 psf",
+    "frame_material": "Wood interior (six species available); Fibrex composite and fiberglass exterior (40% reclaimed wood fiber, 60% thermoplastic polymer)",
+    "glass": "Low-E4 double or triple pane insulated glass; laminated acoustic glass available; specialized coatings available",
+    "dp_rating": "Meets AAMA/WDMA/CSA 101/I.S.2/A440 performance standards; structural DP load without permanent deformation exceeding 0.4% of span",
+    "stc": "30-35 range with standard glass; higher ratings achievable with laminated or specialized acoustic glass specification",
+    "water_infiltration_test": "ASTM E547; four cycles of five minutes applied pressure with one-minute release intervals",
+    "energy_star": "Version 6.0 certified across most configurations; Version 7.0 compliance requires triple-pane in Northern zone",
+    "max_size": "Up to 4 feet wide by 8 feet high",
+    "sizing_increment": "1/8 inch increments",
+    "exterior_colors": "11 available",
+    "interior_colors": "13 available",
+    "installed_cost_range": "$1,100 to $4,000 per window depending on size, glass package, hardware, and regional labor",
+    "triple_pane_premium": "$300 to $800 per window additional",
+    "lead_time": "4-5 weeks"
+  },
+  "red_flags": [
+    {
+      "type": "lawsuit",
+      "description": "Gratke v. Andersen Corporation class-action lawsuit filed by Minnesota homeowners alleging 400 Series Tilt Wash vinyl-clad windows failed with mold and fungus growth within four years of installation; seal gaps alleged to allow moisture infiltration; Andersen-proposed fix characterized as inadequate; sales exceeded $18 million to Minnesota distributors 2001-2009; breach of warranty and consumer protection violations alleged; damages sought exceed $50,000 per claim.",
+      "product_line_affected": "400 Series (not A-Series directly)",
+      "severity": "HIGH",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "type": "recall",
+      "description": "February 2026 CPSC recall of approximately 91,000 window opening control devices (window stops) affecting 100 Series casement windows manufactured prior to November 19, 2025; devices can break or detach after impact creating fall hazard; eight reported malfunctions with no injuries; free in-home repair by authorized technicians offered.",
+      "product_line_affected": "100 Series (not A-Series directly)",
+      "severity": "MODERATE",
+      "topics": [
+        "legal",
+        "quality"
+      ]
+    },
+    {
+      "type": "litigation",
+      "description": "Andersen Corporation litigation against ATS automation equipment manufacturer for failed manufacturing equipment delivery; project over 860 days behind schedule; significant financial losses reported; raises concern about manufacturing capacity and supply chain reliability.",
+      "product_line_affected": "Corporate operations",
+      "severity": "LOW",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "type": "stability_concern",
+      "description": "BBB complaint pattern analysis across multiple regional offices documents approximately 70% of complaints centered on warranty administration failures rather than structural product defects; six-month or longer delays for parts, incorrect components shipped repeatedly, and claim denials for visible defects represent systemic service infrastructure concern.",
+      "product_line_affected": "All Andersen product lines including A-Series",
+      "severity": "MODERATE",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    }
+  ],
+  "bottom_line": "The Andersen A-Series double-hung window represents genuinely superior product engineering, with the Fibrex composite material, bonded wood-composite construction, and advanced Low-E4 glass delivering validated thermal performance and an expected 40-50+ year structural lifespan that outpaces vinyl competitors. Expert consensus is strong on engineering quality. However, the value proposition is substantially undermined by a documented and systemic failure in warranty administration and after-sales service: BBB complaints, forum evidence, and professional installer feedback consistently reveal six-month parts delays, repeated incorrect shipments, and technician reluctance to authorize coverage for visible defects. These service failures are not isolated incidents but a corroborated pattern. The A-Series earns its premium price only under specific conditions: 20+ year primary residence ownership, proper installation by an Andersen-certified contractor who rigorously follows drainage-method flashing protocols, and a climate zone where the thermal performance advantage over mid-range alternatives is meaningful. For shorter ownership periods, moderate climates, or buyers prioritizing responsive service, the 5% energy efficiency edge over quality mid-range alternatives does not justify the cost premium. Installation execution quality is the single largest determinant of real-world performance—more impactful than product selection itself.",
+  "scoring_metadata": {
+    "total_sources_parsed": 38,
+    "classified_score": 18,
+    "classified_report_only": 11,
+    "classified_quarantine": 9,
+    "pool_s_count": 0,
+    "pool_a_count": 7,
+    "pool_b_count": 17,
+    "pool_c_count": 14
+  },
+  "product_slug": "andersen_a_series",
+  "product_name": "Andersen A-Series",
+  "manufacturer_slug": "andersen",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 178163,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 38,
+    "score": 19,
+    "report_only": 9,
+    "quarantine": 10
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.179808,
+  "verification_date": "2026-03-23T19:42:14.622Z"
+}

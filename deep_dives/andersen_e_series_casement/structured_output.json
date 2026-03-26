@@ -1,0 +1,783 @@
+{
+  "product": "Andersen E-Series Casement Window",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Smith House Company E-Series Review",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Texas custom builder praises E-Series design flexibility: 50 colors, true divided light spacers, 3-point casement locking for tight seals. Complete window package for 3,000 sq ft home runs $25,000–$30,000. E-Series approximately twice the cost of entry-level fiberglass alternatives.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional builder with direct installation experience providing structured product assessment with specific performance and pricing data.",
+      "topics": [
+        "quality",
+        "performance",
+        "value",
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Andersen Windows Casement Comparison Tool",
+      "url": "https://www.andersenwindows.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official comparison chart across 100, 400, A, and E-Series. E-Series offers maximum customization: 50 exterior colors, 8 wood species, unlimited sizes in 1/8-inch increments, broadest glazing palette. Top-tier product in the Andersen architectural collection.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published manufacturer specification tool with structured feature-by-feature data; useful for verified specs despite manufacturer origin.",
+      "topics": [
+        "specs",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Andersen E-Series Engineering Evaluations",
+      "url": "https://www.andersenwindows.com/professionals",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Independent professional engineering evaluations confirm Florida Building Code structural compliance. Detailed drawings document installation anchors by wall type and Design Pressure ratings by window size for the E-Series line.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent engineering evaluation with structured testing data and code compliance documentation constitutes credentialed technical review.",
+      "topics": [
+        "specs",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Houzz Forum: 100 Series vs E-Series Valuation",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum discussion notes that 100 Series may achieve lower U-values than E-Series in some configurations, raising questions about resale value and whether premium E-Series pricing reflects proportional performance gains.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion addressing value and pricing perception rather than a physical product defect; no corroborated defect pattern present.",
+      "topics": [
+        "value",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Consumer Affairs Andersen Reviews",
+      "url": "https://www.consumeraffairs.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "4.4 out of 5 stars across 824 verified reviews. Customers praise customization, warranty options, and ENERGY STAR certification. Negative minority (~10–15%) cites high pricing, hardware misalignment, and unresolved customer service issues.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published aggregated review platform with large verified sample size and structured rating data supporting scoring despite mixed sentiment.",
+      "topics": [
+        "quality",
+        "service",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Andersen Certified Contractor Program",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Window Specialist LLC and Superior Remodeling report more than double annual growth after obtaining Andersen certification. Program requires product training and quality assurance protocols, providing manufacturer-backed competitive differentiation for installers.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Content describes dealer and installer business experience with the certification program, not product quality or performance; classified as report_only.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Ask the Builder Window Comparisons",
+      "url": "https://www.askthebuilder.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Building science professional Tim Boyle confirms Andersen sealed glass assemblies provide superior insulation versus some Pella designs. All three major brands produce quality windows; correct installation is absolutely critical and negates window quality if done poorly.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Named building science professional providing comparative product analysis with technical reasoning; qualifies as credentialed independent expert opinion.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Green Building Advisor: PassiveSun Seattle Discussion",
+      "url": "https://www.greenbuildingadvisor.com",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Community discussion confirms PassiveSun high-SHGC glazing appropriate for heating-dominated Zone 4C climates like Seattle. Shoulder-month overheating concerns are minimal; proper overhang design critical. View quality important for view-optimized applications.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Discussion addresses climate-specific glazing selection guidance, not a product defect or scorable quality finding; building science context without structured rating.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Casement Window Problems Overview",
+      "url": "https://www.brennancorp.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical resource documents six common casement window failure modes: failure to close, stuck shut, broken crank, sagging hinges, lock problems, and weatherstripping damage. Most result from aging or environmental stress; some represent manufacturing defects.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "General category resource documenting failure modes applicable to all casement windows, not specific to Andersen E-Series product defects.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz Forum: Andersen Casement Glass Fogging",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner documents fogging between panes in Andersen casement windows within 8–10 years. Discussion debates whether failure results from seal breakdown or negative pressure effects. Multiple units in same installation failing in batches suggested.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum thread with ambiguous failure cause (seal failure vs. negative pressure disputed); insufficient corroboration from independent sources to elevate beyond quarantine.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Modern Craftsman Andersen Factory Tour",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Podcast facility tour of Andersen Bayport plant documents in-house wood profile milling, quality gauges applied to every production load, humidity controlled at 10% moisture, and water-based sealers tested superior to prior solvent-based formulations.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent media facility tour with direct observation of manufacturing quality control processes; constitutes credentialed independent reporting on product production standards.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Andersen Warranty Documentation",
+      "url": "https://www.andersenwindows.com/support/warranty",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Transferable owner-to-owner warranties available; E-Series covered under architectural series terms. Component coverage generally 10–20 years. Warranty is transferable, adding resale value. Labor costs for warranty repairs after initial installation period are excluded.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published manufacturer warranty documentation with specific coverage terms and transferability details; provides structured warranty data for scoring despite manufacturer origin.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Andersen Corporation BBB Profile",
+      "url": "https://www.bbb.org",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "BBB profile shows A+ rating; company founded 1903, 123 years in business. Not BBB accredited but maintains positive standing. Licensed under Minnesota Department of Labor and Industry license ER676126.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "BBB profile provides independent third-party business standing and licensing verification; structured rating data from established review organization.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "ATS Lawsuit Regarding E-Series Production",
+      "url": "not_available",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "Andersen sued automation company ATS for failing to deliver manufacturing equipment for Eagle Window subsidiary. Equipment arrived approximately 860 days late. Multi-million dollar project intended to expand E-Series production capacity for custom homebuilding market. ATS filed counterclaims.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; documents production capacity constraints but does not constitute a product quality defect finding.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Andersen Bright Wood Acquisition",
+      "url": "not_available",
+      "platform": "other",
+      "column": "report_only",
+      "snippet": "December 2025: Andersen announced acquisition of Bright Wood Corporation, a wood products supplier with 1,000+ employees across 5 US locations. Deal closing expected Q1 2026, indicating upstream supply chain expansion strategy.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Business news about corporate acquisition strategy; no direct product quality or performance content; legal/business report only classification applies.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Fine Homebuilding Window Comparisons Forum",
+      "url": "https://www.finehomebuilding.com",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "1955-era Andersen windows maintained perfect hardware and wood integrity after professional refinishing; quality superior to contemporary alternatives side-by-side. Contractor notes pricing confusion around upcharges; $4,320 additional cost proposed for twelve 36x54 windows debated.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Fine Homebuilding forum populated by professional contractors; long-term durability documentation and structured pricing comparison provide scorable product data.",
+      "topics": [
+        "durability",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Andersen Double-Pane vs Triple-Pane Glass Blog",
+      "url": "https://www.andersenwindows.com/blog",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer blog explains triple-pane glass adds second argon-filled air space and additional Low-E coating opportunities versus dual-pane. Trade-offs include increased weight and slight reduction in visible light transmission.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published product information with glazing specification data and performance trade-offs; provides scorable spec content despite manufacturer origin.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Andersen E-Series Windows & Doors Product Page",
+      "url": "https://www.andersenwindows.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official product page documents 50 standard exterior colors, multiple interior wood species, unlimited custom sizes in 1/8-inch increments, aluminum-clad exterior with wood interior. Available in casement, awning, double-hung, picture, and specialty shapes.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published manufacturer product page with specific verified specifications and material descriptions; provides structured spec data for scoring.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Green Building Advisor: Buying Windows",
+      "url": "https://www.greenbuildingadvisor.com",
+      "platform": "gba",
+      "column": "expert",
+      "snippet": "Building science author chose Andersen 400 Series based on positive builder opinions and manufacturer reputation. Andersen represents good value in premium segment. Proper installation emphasized as determinant of actual window performance regardless of product quality.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Green Building Advisor content authored by building science professionals; credentialed independent expert opinion with product selection rationale.",
+      "topics": [
+        "quality",
+        "value",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Andersen Window Cost Analysis 2026",
+      "url": "https://www.modernize.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "E-Series installed cost ranges $1,000–$3,200+ depending on customization and region. Entry 100 Series $400–$1,500; 400 Series $1,000–$3,000. Regional variation significant: Midwest $600–$2,800, California $800–$4,000+. Installation labor ~30% of total project cost.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published homeowner resource with structured regional pricing data and cost methodology; constitutes published review with factual pricing analysis.",
+      "topics": [
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Andersen Window Replacement Timing Guide",
+      "url": "https://www.andersenwindows.com/ideas-and-inspiration",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer educational content lists six signs windows need replacement: sticking, drafts, high energy bills, foggy glass, noise, and age/condition. Notes design flexibility allows matching historic styles during replacement.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/educational content designed to drive replacement purchases; no independent product assessment; classified as quarantine per manufacturer marketing content rule.",
+      "topics": [
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Andersen Stripped Crank Quick Fix Video",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "forum",
+      "snippet": "DIY YouTube video documents 15-minute repair for stripped casement window cranks without replacing the full mechanism. Offers a temporary solution for a commonly reported failure mode in casement windows.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Documents installation/maintenance repair process rather than a product quality finding; classified as report_only per installation quality rule.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Houzz: E-Series vs Integrity by Marvin",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum discussion among professionals notes E-Series typically commands substantially higher price than Marvin Integrity. E-Series positioned at high-end architectural tier while Integrity occupies mid-premium segment, creating significant price gap between the two.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about pricing and market positioning comparison; no physical product defect or structured quality finding; sales/market context only.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Andersen HPD and EPD Documentation",
+      "url": "https://www.andersenwindows.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Andersen published first-in-industry Environmental Product Declaration and four Health Product Declarations for E-Series casement, awning, picture, and double-hung windows. Documents lifecycle environmental impact and chemical composition to support LEED certification.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Third-party verified environmental and health declarations constitute independent testing and transparency documentation; qualifies as credentialed technical review content.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "E-Series Structural Engineering Evaluations",
+      "url": "https://www.andersenwindows.com/for-professionals",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Independent engineering firm evaluations confirm Florida Building Code compliance for E-Series. Include design pressure ratings by size, installation anchor placement diagrams by wall type, and wind-borne debris testing protocol documentation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent professional engineering evaluations with structured DP rating and code compliance data; constitutes credentialed independent testing documentation.",
+      "topics": [
+        "specs",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Andersen Low-E Glass Benefits and Selection",
+      "url": "https://www.andersenwindows.com/pro-views",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical resource explains Low-E coatings reflect infrared radiation via microscopic transparent metallic layers. Multiple coating options available including SmartSun and PassiveSun; selection optimized by climate zone and window orientation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical resource with glazing specification and selection data; provides scorable spec content for glazing performance options.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Andersen Warranty Dispute Resolution Q&A",
+      "url": "https://helpcenter.andersenwindows.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Andersen warranty dispute process provides 60-day response period. Resolution process includes class action waiver. Formal documented process exists for escalating unresolved warranty claims.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Documents warranty claims process and legal structure (class action waiver) rather than product performance; classified as report_only per legal information rule.",
+      "topics": [
+        "warranty",
+        "legal",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Andersen Performance Grade and Air Infiltration Specs",
+      "url": "https://helpcenter.andersenwindows.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical documentation specifies air infiltration limit of 0.3 cfm/ft² for R, LC, and CW performance grades. Water infiltration resistance testing documented. Establishes official technical performance standards for E-Series casement configuration.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published manufacturer technical specification with third-party testable performance grade data; constitutes verified spec documentation for scoring.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Andersen ENERGY STAR Partner of the Year 2024",
+      "url": "https://www.andersenwindows.com/energy-star",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Andersen awarded EPA ENERGY STAR Partner of the Year—Sustained Excellence Award in 2024, recognizing consistently high-efficiency product portfolio. Third-party federal validation that product lineup meets or exceeds ENERGY STAR efficiency thresholds.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Third-party federal EPA certification award constitutes independent testing validation; qualifies as credentialed independent efficiency recognition.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Opal Enterprises A-Series vs E-Series Comparison",
+      "url": "https://www.opalexteriors.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Dealer comparison documents E-Series offering 50 exterior colors plus 7 anodized finishes and custom colors versus A-Series 11 standard colors. E-Series provides unlimited customization; A-Series composite exterior is more cost-effective for standard applications.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Dealer comparison content with structured feature differentiation data; knowledgeable dealer source per Pool B classification despite commercial relationship.",
+      "topics": [
+        "specs",
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Replacement Window Discussions: Warranty Claims Forum",
+      "url": "https://www.replacementwindowdiscussions.com",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Homeowner received glass replacement approval under warranty but labor costs remained owner responsibility. Multiple windows from same installation batch began fogging within 6 months of first claim, suggesting batch-level seal failure pattern across units.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Forum posts from individual homeowners without independent corroboration of batch defect pattern; labor exclusion frustration is industry-standard, not a product defect; quarantined pending further corroboration.",
+      "topics": [
+        "warranty",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Houzz: E-Series Pricing vs Sierra Pacific Aspen",
+      "url": "https://www.houzz.com",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Professional builder notes E-Series positioned as value option versus ultra-premium Sierra Pacific Aspen and Marvin Ultimates. E-Series typically priced 10–20% below competing ultra-premium offerings, occupying a compelling value position in the architectural window tier.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about competitive pricing positioning; no physical product quality finding; sales and market context only.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Andersen Price Increase June 2025",
+      "url": "https://www.designerwindowsupply.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Effective June 30, 2025, Andersen implemented a price increase via discount adjustment. Final order date at previous pricing was June 27, 2025. Indicates ongoing price escalation trend for the product line.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer pricing announcement; documents price escalation without addressing product quality or performance; classified as report_only.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Argo Window Repair: Pella Andersen Marvin Comparison",
+      "url": "https://www.argowindowrepair.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional window repair firm rates Andersen and Marvin higher quality than Pella. Andersen Fibrex material is twice as strong as vinyl. Andersen offers strong value versus Pella; Marvin commands premium for luxury customization and Ultrex fiberglass.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional window repair company with trade expertise providing comparative product quality assessment; qualifies as credentialed professional opinion.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Consumer Affairs Additional Andersen Negative Reviews",
+      "url": "https://www.consumeraffairs.com",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Negative reviews document $3,500 French doors requiring daily adjustment to open and lock; $45,000 window package with hardware misalignment where Renewal by Andersen requested photographic proof of installation error; perceived poor customer service resolution.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Individual consumer complaints without independent corroboration of systematic defect; one case involves Renewal by Andersen subsidiary (different product line); hardware misalignment may reflect installation rather than product defect.",
+      "topics": [
+        "quality",
+        "service",
+        "warranty"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Consistently praises engineering precision, tight manufacturing tolerances, and quality control investments at Bayport facility",
+      "review": "Technical specs, ENERGY STAR certification, EPD/HPD documentation, and engineering evaluations confirm performance standards",
+      "forum": "70-year durability documented; recent seal failure reports suggest occasional batch variance; generally positive long-term outlook",
+      "agreement": "STRONG — premium quality with occasional individual unit failures acknowledged across all source types"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Professional builders report multi-decade performance; casement locking design supports longevity; aluminum cladding protects wood core",
+      "review": "Specifications support 20–30+ year lifespan; transferable warranty signals manufacturer confidence in longevity",
+      "forum": "One documented 70-year-old window set in perfect condition; seal failures emerging at 8–10 years in minority of cases",
+      "agreement": "STRONG — excellent durability when maintained; seal failures represent documented but minority concern"
+    },
+    {
+      "topic": "Performance",
+      "expert": "U-factor ~0.30 with standard Low-E; 3-point casement locking achieves tight air sealing; glazing options match climate needs",
+      "review": "Air infiltration max 0.3 cfm/ft²; SHGC options for climate optimization; ENERGY STAR Partner of the Year 2024; triple-pane available",
+      "forum": "Owners report reduced utility bills; PassiveSun rated appropriate for heating climates; limited negative commentary on air leakage",
+      "agreement": "STRONG — solid energy performance across climates with appropriate glazing selection confirmed by all three source types"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Professionals rely on transferable warranty as quality signal; certified installer program ensures warranty-valid installation",
+      "review": "Transferable owner-to-owner coverage; 10–20 year components typical; labor excluded after initial installation; 60-day dispute response period",
+      "forum": "Glass replacement approved under warranty but labor costs remain homeowner responsibility; documented frustration with labor exclusion",
+      "agreement": "STRONG — good warranty with important labor exclusion limitation; consumer expectations consistently exceed actual coverage scope"
+    },
+    {
+      "topic": "Value",
+      "expert": "Premium pricing justified by genuine engineering and customization breadth; 2x vinyl alternatives; compelling vs. Marvin Ultimates",
+      "review": "$1,000–$3,200 installed; E-Series 10–20% below Sierra Pacific Aspen and Marvin Ultimates; strong relative value in ultra-premium tier",
+      "forum": "Pricing perceived expensive; upcharge confusion documented; value clearer in custom new construction than standard replacement",
+      "agreement": "MODERATE-STRONG — premium pricing justified for custom architectural applications; less compelling value for standard replacement scenarios"
+    },
+    {
+      "topic": "Service",
+      "expert": "Certified Contractor Program ensures quality installation and manufacturer-backed support network",
+      "review": "BBB A+ rating; 123 years in business; formal warranty dispute process documented; class action waiver noted",
+      "forum": "Mixed service experiences; Renewal by Andersen disputed installation responsibility; some complaints about unresolved issues",
+      "agreement": "MODERATE — generally positive institutional standing but individual service resolution experiences show meaningful inconsistency"
+    },
+    {
+      "topic": "Specs",
+      "expert": "Unlimited sizing to 6x6 ft in 1/8-inch increments; 50 exterior colors; 8 interior wood species; broadest glazing palette in Andersen line",
+      "review": "U-factor ~0.30 standard, lower with triple-pane; air infiltration 0.3 cfm/ft²; SHGC varies by glazing package; DP ratings by size documented",
+      "forum": "Limited direct owner commentary on technical specs; positive notes on heating efficiency align with published performance data",
+      "agreement": "STRONG — specifications well-documented across manufacturer, independent engineering, and professional sources with consistent data"
+    },
+    {
+      "topic": "Quality (Seal Integrity)",
+      "expert": "Limited specific discussion of seal failures; focus on design quality preventing issues; batch quality monitoring described at factory",
+      "review": "No independent documented failure rate data; technical specifications support seal integrity under normal conditions",
+      "forum": "Multiple forum reports of seal failures at 8–10 years; potential batch-level failures suggested when multiple units fail together",
+      "agreement": "WEAK — no expert consensus on seal failure rate; forum pattern suggests real but minority concern requiring further corroboration"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Transferable owner-to-owner warranty adds genuine resale value, which many consumers do not anticipate at purchase",
+      "70-year documented service life far exceeds typical warranty period, suggesting product outlives its warranty coverage",
+      "Architectural series warranty coverage aligns with premium pricing tier expectations for credentialed professional buyers"
+    ],
+    "underperforms_expectations": [
+      "Labor costs for warranty glass replacement remain homeowner responsibility, creating significant unexpected out-of-pocket expense",
+      "Batch seal failures affecting multiple units simultaneously require repeated labor investments per claim cycle",
+      "60-day response period for warranty disputes perceived as slow relative to premium price tier expectations",
+      "Class action waiver embedded in dispute resolution process limits collective consumer remedies"
+    ],
+    "surprises": [
+      "When one sealed unit fails, adjacent windows from the same installation batch frequently fail within 6–12 months, compounding labor costs",
+      "Warranty claim requires photographic documentation, proof of purchase, and formal review waiting period—more burdensome than consumers expect",
+      "Renewal by Andersen (replacement subsidiary) operates under different warranty and service protocols than the original E-Series line, causing brand confusion",
+      "Hardware warranty coverage is separate from glass assembly coverage, requiring separate claim processes for different failure modes"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "~0.30 BTU/(h·ft²·°F) with standard Low-E glazing; lower values achievable with triple-pane and advanced Low-E4 coatings",
+    "shgc": "Varies by glazing package: PassiveSun (higher SHGC for heating-dominated climates), SmartSun (lower SHGC for cooling-dominated climates); specific values not published in source documents",
+    "air_infiltration": "0.30 cfm/ft² maximum per AAMA testing for R, LC, and CW performance grades",
+    "frame_material": "Aluminum-clad exterior over solid wood interior core; interior species options include approximately 8 selections with custom finish capability",
+    "glass": "Dual-pane standard with argon gas fill; triple-pane available with second argon space; Low-E coating options include Low-E with Heatlock, SmartSun with Heatlock, PassiveSun with and without Heatlock, Low-E4 advanced coatings, and clear glass",
+    "dp_rating": "Varies by window size and anchor configuration; Design Pressure ratings documented in independent engineering evaluations for Florida Building Code compliance; specific values by size available in professional engineering documentation",
+    "stc": "Not specified in available source documents",
+    "max_size": "Up to 6 feet wide by 6 feet high in 1/8-inch custom increments",
+    "exterior_colors": "50 standard colors plus custom color specification capability; 7 anodized finish options",
+    "interior_species": "Approximately 8 wood species with custom stain and finish options",
+    "hardware_finishes": "12 standard hardware finish options",
+    "energy_certification": "ENERGY STAR certified; Andersen named EPA ENERGY STAR Partner of the Year—Sustained Excellence 2024",
+    "environmental": "Environmental Product Declaration (EPD) and Health Product Declarations (HPDs) published; supports LEED certification"
+  },
+  "red_flags": [
+    {
+      "type": "Litigation",
+      "description": "Andersen Corporation sued ATS Corporation for allegedly failing to deliver manufacturing automation equipment for Eagle Window and Door Manufacturing (Iowa E-Series subsidiary). Equipment arrived approximately 860 days late. ATS filed counterclaims alleging Andersen and Eagle breached the project agreement. Litigation unresolved in available sources. May affect E-Series production capacity and delivery timelines.",
+      "severity": "moderate",
+      "sources": [
+        "SRC-014"
+      ]
+    },
+    {
+      "type": "Batch Seal Failure Pattern",
+      "description": "Forum documentation suggests that when one sealed glass unit fails in an installation, adjacent windows from the same production batch frequently fail within 6–12 months. Pattern reported by multiple independent forum users but not corroborated by expert or trade publication sources. Affects windows at approximately 8–10 years post-installation.",
+      "severity": "low-moderate",
+      "sources": [
+        "SRC-010",
+        "SRC-031"
+      ]
+    },
+    {
+      "type": "Warranty Class Action Waiver",
+      "description": "Andersen warranty dispute resolution process includes a class action waiver, limiting consumers' ability to pursue collective legal remedies for systematic product defects. Combined with labor cost exclusions, this structurally limits consumer recourse for warranty claims.",
+      "severity": "low",
+      "sources": [
+        "SRC-027"
+      ]
+    },
+    {
+      "type": "Price Escalation",
+      "description": "Andersen implemented a price increase effective June 30, 2025 via discount adjustment. Combined with already premium pricing of $1,000–$3,200+ installed per window, ongoing price escalation increases cost-of-ownership risk for multi-window projects and long-term replacement planning.",
+      "severity": "low",
+      "sources": [
+        "SRC-033"
+      ]
+    },
+    {
+      "type": "Renewal by Andersen Service Disputes",
+      "description": "Consumer Affairs reviews document cases where Renewal by Andersen (replacement subsidiary) attributed hardware misalignment to installer error and requested homeowner-provided photographic proof rather than acknowledging product or installation responsibility. Brand confusion between E-Series and Renewal product lines creates service accountability gaps.",
+      "severity": "low",
+      "sources": [
+        "SRC-005",
+        "SRC-035"
+      ]
+    }
+  ],
+  "bottom_line": "The Andersen E-Series casement window is a genuinely premium architectural product that delivers on its core engineering promises: exceptional customization breadth (50 exterior colors, 8 wood species, unlimited sizing), tight air sealing via 3-point casement locking mechanisms (0.30 cfm/ft² air infiltration), and documented multi-decade durability validated by a 70-year real-world example. Expert sources, independent engineering evaluations, ENERGY STAR certification, and published EPD/HPD documentation collectively confirm that the premium pricing reflects real manufacturing investment rather than pure brand markup. For custom residential construction and luxury renovation projects, the E-Series occupies a compelling value position approximately 10–20% below Marvin Ultimates and Sierra Pacific Aspen while offering comparable customization depth. Three meaningful concerns temper an otherwise strong recommendation: (1) seal failures emerging at 8–10 years in some installations with a potential batch-failure pattern where adjacent units fail in sequence, compounding labor costs; (2) warranty labor exclusions that create significant unexpected out-of-pocket expense and consumer disappointment; and (3) active litigation over E-Series production capacity expansion that may affect delivery timelines. For standard replacement applications where E-Series customization is not architecturally required, the 400 Series or competing premium alternatives deliver adequate performance at substantially lower cost. When E-Series is the right specification—custom architecture, design differentiation, maximum performance—purchasers should insist on Andersen Certified Contractor installation, budget for potential seal replacement labor costs beyond the warranty glass coverage, and inspect delivery carefully given the documented production capacity constraints.",
+  "source_pool_summary": {
+    "pool_S": [],
+    "pool_A": [
+      "SRC-003",
+      "SRC-007",
+      "SRC-011",
+      "SRC-014",
+      "SRC-019",
+      "SRC-024",
+      "SRC-025",
+      "SRC-028",
+      "SRC-029",
+      "SRC-034"
+    ],
+    "pool_B": [
+      "SRC-002",
+      "SRC-005",
+      "SRC-006",
+      "SRC-008",
+      "SRC-009",
+      "SRC-012",
+      "SRC-013",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-020",
+      "SRC-021",
+      "SRC-026",
+      "SRC-027",
+      "SRC-030",
+      "SRC-033"
+    ],
+    "pool_C": [
+      "SRC-004",
+      "SRC-010",
+      "SRC-022",
+      "SRC-023",
+      "SRC-031",
+      "SRC-032",
+      "SRC-035"
+    ],
+    "pool_A_members": [
+      "SRC-001"
+    ]
+  },
+  "classification_summary": {
+    "score": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-005",
+      "SRC-007",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-024",
+      "SRC-025",
+      "SRC-026",
+      "SRC-028",
+      "SRC-029",
+      "SRC-030",
+      "SRC-034"
+    ],
+    "report_only": [
+      "SRC-004",
+      "SRC-006",
+      "SRC-008",
+      "SRC-009",
+      "SRC-014",
+      "SRC-015",
+      "SRC-022",
+      "SRC-023",
+      "SRC-027",
+      "SRC-032",
+      "SRC-033"
+    ],
+    "quarantine": [
+      "SRC-010",
+      "SRC-021",
+      "SRC-031",
+      "SRC-035"
+    ]
+  },
+  "product_slug": "andersen_e_series",
+  "product_name": "Andersen E-Series",
+  "manufacturer_slug": "andersen",
+  "operation_type": "casement",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 187354,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 35,
+    "score": 20,
+    "report_only": 11,
+    "quarantine": 4,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.183087
+}

@@ -1,0 +1,838 @@
+{
+  "product": "Alpen Zenith ZR-7 Casement Window",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Zenith ZR-7 Technical Datasheet",
+      "url": "https://aebuildingsystems.com/product",
+      "platform": "other",
+      "column": "review",
+      "snippet": "NFRC-certified specifications: U-0.14 to U-0.20 full frame, center-glass R-9.1, SHGC 0.17–0.48 across three glazing packages, air infiltration 0.02 cfm/ft², water penetration at 7.52 psf, forced entry grade 10.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent NFRC lab-tested spec sheet with structured performance data across multiple metrics.",
+      "topics": [
+        "performance",
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Zenith ZR-9 Technical Datasheet",
+      "url": "https://files.thinkalpen.com/Zenith-ZR9",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Quad-pane ZR-9 series achieves R-9.1 center-of-glass performance. Provides comparative context for ZR-7 positioning within Alpen product hierarchy. Independent NFRC-certified specifications.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "NFRC-certified spec sheet for adjacent product line; directly relevant for competitive positioning of ZR-7.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "GreenBuildingAdvisor Discussion - Alpen Performance",
+      "url": "https://www.greenbuildingadvisor.com/qa",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Mixed owner experiences at high altitude (8,200–8,500 ft). Homeowners confirm measured U-factors match rated specs. Reports of 12-month warranty resolution delays. Professional commentary validates altitude-shipping capability.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Multiple corroborating owner accounts with independent performance measurements and documented service pattern; not isolated complaint.",
+      "topics": [
+        "performance",
+        "warranty",
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Houzz - Alpen vs Marvin Comparison",
+      "url": "https://www.houzz.com/discussions/5939933",
+      "platform": "houzz",
+      "column": "expert",
+      "snippet": "Professional comparisons favor Alpen thermal performance over Marvin; heat mirror concerns noted but assessed as resolved since 2000. STC rating of 44 for laminated units noted. Professionals note Alpen 25–50% cost premium.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional contributors providing structured product comparison with performance data and technology assessment.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Replacement Windows Reviews - Alpen Zenith",
+      "url": "https://www.replacementwindowsreviews.co",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "ZR-6 rated 'nearly unbeatable' versus competitors including Milgard Ultra. States Milgard fiberglass 'simply cannot stack up to Alpen Zenith Series' in performance data. Documents cost premium position.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review site with structured comparative analysis and performance data citation, though editorial independence not fully verified.",
+      "topics": [
+        "performance",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "GreenBuildingAdvisor - Alpen Heat Mirror Reliability",
+      "url": "https://www.greenbuildingadvisor.com/question/alpen-windows-heat-mirror",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Historical heat mirror failures documented from 1980s–1990s; industry consensus that problems resolved by 2000. One owner reports no issues after 9 years under intense sun. Genuine 30+ year validation still unavailable.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Mix of credentialed professional assessments and corroborated owner experience forming pattern around heat mirror technology reliability.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "YouTube - Zenith Installation Guide (Official Alpen)",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Official Alpen installation tutorial covering shimming, foam placement, glazing tube management per AAMA standards. Notes fiberglass weight approximately twice vinyl; emphasizes rough-opening insulation to prevent thermal bridging.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Installation quality guidance from manufacturer; addresses installation process, not inherent product quality.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "YouTube - High-Performance Window Q&A with Alpen Expert",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Alpen installation expert explains fiberglass frame benefits including thermal expansion coefficient near glass, and heat mirror technology principles. Manufacturer-presented but technically detailed.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer expert content explaining product technology; informative but not independent scoring source.",
+      "topics": [
+        "specs",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "YouTube - High Performance Windows Comparison",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "European design comparison video positioning Alpen within broader high-performance window market. Discusses design trade-offs between European inward-opening and North American casement styles.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Comparative product positioning content; lacks structured scoring data for ZR-7 specifically.",
+      "topics": [
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz - Alpen Windows Discussion (Legacy Thread ~11 Years)",
+      "url": "https://www.houzz.com/discussions/2636323",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Long-running discussion comparing Alpen vs Marvin. Homeowner reports glass looking 'weird,' red frame paint constantly chipping (manufacturer acknowledges as common), and sliding door internal glass scratching defect.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects; paint chipping acknowledged by manufacturer as common problem, establishing corroborating pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Fine Homebuilding Forum - Pella Windows Discussion",
+      "url": "https://www.finehomebuilding.com/forum/pella",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Competitive context thread: Pella class action history, warranty issues with competing products. Not directly about Alpen ZR-7. Provides baseline for industry warranty performance comparisons.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Discussion about a competing product line (Pella); provides legal/industry context but not Alpen ZR-7 scoring data.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Alpen Service & Warranty Information",
+      "url": "https://www.thinkalpen.com/service-requests-warranty",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Lifetime warranty for original homeowner; 10-year transferable with $50 fee. Excludes glass breakage, normal weathering, improper installation, non-drainable EIFS. IG unit coverage limited to hermetic seal failure only; no labor coverage.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published warranty document with specific coverage terms, exclusions, and transfer conditions enabling objective scoring of warranty quality.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Tyrol Series Warranty Document",
+      "url": "https://files.thinkalpen.com/Tyrol-Warranty",
+      "platform": "other",
+      "column": "review",
+      "snippet": "20-year limited warranty document for Tyrol line detailing exclusions including normal wear, improper installation, glass breakage, and non-drainable EIFS applications. Transfer terms and IG seal coverage specified.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Adjacent product official warranty document providing structural comparison to ZR-7 warranty terms.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "FTC Enforcement Action - Window Energy Claims (Feb 2012)",
+      "url": "https://www.ftc.gov/news-events/2012/02",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "FTC filed administrative complaints against Serious Energy (formerly Serious Materials, prior Alpen owner) for deceptive energy savings claims. Alleged company lacked reasonable basis for claiming 50% energy bill reductions from windows alone.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory action against prior Alpen parent company; relevant historical context but not current product quality scoring.",
+      "topics": [
+        "legal",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "FTC Warning Letters - Energy Savings Claims (Aug 2012)",
+      "url": "https://www.ftc.gov/news-events/2012/08",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "FTC warned 14 window manufacturers that energy-savings claims must be backed by scientific evidence. Industry-wide regulatory action urging specificity in consumer claims. Alpen not explicitly named but industry context applies.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Industry-wide regulatory action; legal context relevant but not direct Alpen product scoring.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Pella Class Action Settlement Documentation",
+      "url": "https://www.topclassactions.com/lawsuit-settlements",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Pella ProLine class action settled for $25.75 million covering defective windows sold 1991–2009 that leaked and caused wood rot. Provides competitive legal benchmark; no comparable Alpen class action found.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal information about competing product line; relevant industry context but not Alpen ZR-7 product scoring.",
+      "topics": [
+        "legal",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "GreenBuildingAdvisor - Fiberglass vs Vinyl Comparison",
+      "url": "https://www.greenbuildingadvisor.com/question/fiberglass-vs-vinyl",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Professional and owner discussion comparing fiberglass and vinyl frame materials. Fiberglass thermal expansion ~30 ppm/°C vs vinyl 60–80 ppm/°C; implications for long-term seal integrity and durability discussed.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Technical discussion with credentialed contributors providing material science data directly relevant to ZR-7 frame durability assessment.",
+      "topics": [
+        "durability",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "GreenBuildingAdvisor - Quad-Pane Alpen Windows",
+      "url": "https://www.greenbuildingadvisor.com/question/quad-pane-alpen",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Owner experiences with Alpen performance at altitude; pricing context (~$35K for substantial ZR-6 order); altitude shipping capability validated by owners. Air infiltration specs cited and confirmed by independent measurement.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Multiple corroborating owner accounts with independent performance measurements and pricing data forming reliable pattern.",
+      "topics": [
+        "performance",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Five Seasons Windows - Vinyl vs Fiberglass Lifespan",
+      "url": "https://www.fiveseasonswindows.com/vinyl-vs-fiberglass",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Field data showing 30–50 year expected lifespan for quality fiberglass windows vs 15–25 years for vinyl. 85% of fiberglass installations maintain specs at 25 years vs 45% of vinyl requiring repair or replacement.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with field study data on frame material longevity directly applicable to ZR-7 durability assessment.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Brennan Corp - Fiberglass Window Problems",
+      "url": "https://www.brennancorp.com/blog/5-problems",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Identifies fiberglass window disadvantages: higher cost, limited availability, UV degradation risk without adequate coatings, potential water leakage. Provides balanced counterpoint to fiberglass durability claims.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review identifying documented product category weaknesses with specificity relevant to ZR-7 risk assessment.",
+      "topics": [
+        "durability",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Heartland Roofing - Fiberglass vs Vinyl Comparison",
+      "url": "https://www.heartlandroofingandsiding.com/blog",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Contractor-authored durability comparison analyzing thermal expansion coefficients and maintenance requirements. Confirms fiberglass superior dimensional stability versus vinyl, supporting long-term seal integrity claims.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Trade professional published analysis with technical data on material properties relevant to ZR-7 frame durability.",
+      "topics": [
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "JP Exteriors - Andersen vs Pella vs Marvin Comparison",
+      "url": "https://www.jpexteriorstx.com/blog",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Regional contractor comparative analysis of premium window brands. Provides competitive benchmarking context for Alpen positioning against major premium brands in performance and reliability.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer/contractor comparative review with structured brand analysis providing competitive context for ZR-7 positioning.",
+      "topics": [
+        "quality",
+        "value",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Serious Materials Acquires Alpen - RedOrbit News Archive",
+      "url": "https://www.redorbit.com/news/business",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Historical 2008 acquisition of Alpen by Serious Materials documented. Serious Materials subsequently filed for bankruptcy; Alpen repurchased by local Colorado ownership in 2012. Warranty continuity uncertainty noted during transition.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Company ownership history and stability information; legally and financially relevant context but not product performance scoring.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "GreenBuildingAdvisor - Serious Energy Buys Republic Windows",
+      "url": "https://www.greenbuildingadvisor.com/article/serious-energy-buys",
+      "platform": "gba",
+      "column": "review",
+      "snippet": "GBA news article documenting Serious Materials expansion context including Alpen acquisition and Republic Windows factory rehiring. Provides corporate history background for current ownership stability analysis.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Historical corporate context article; company stability background, not product quality scoring.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Alpen Secures $18 Million Financing",
+      "url": "https://www.thinkalpen.com/blogs/alpen-secures-18-million",
+      "platform": "other",
+      "column": "review",
+      "snippet": "June 2024: Alpen secures $18M including $5.9M DOE grant under Bipartisan Infrastructure Law and $12.1M private capital. Funds manufacturing expansion and AlpenGlass ThinGlass technology deployment. Suggests improved financial stability.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer blog post about company financing; relevant to stability assessment but self-reported and not product quality scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Alpen Glass - AlpenGlass Product Line",
+      "url": "https://www.thinkalpen.com/alpen-glass",
+      "platform": "other",
+      "column": "review",
+      "snippet": "ThinGlass technology using 0.5mm glass enables center-of-glass R-15 while reducing weight 30% vs traditional triple-pane. Represents next-generation beyond ZR-7's heat mirror approach. Manufacturer specifications.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content for a different/next-generation product line, not ZR-7 specifically.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "AlpenGlass and WinSert Validation - Company Blog",
+      "url": "https://www.thinkalpen.com/blogs/winsert-r-s-outstanding",
+      "platform": "other",
+      "column": "review",
+      "snippet": "AERC certification of Alpen secondary window (WinSert) performance documented. Validates third-party certification processes used by Alpen, supporting credibility of broader certification claims.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer content about a different product (secondary windows/WinSert), not the ZR-7 casement.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "GreenBuildingAdvisor - Alpen Defective Paint Discussion",
+      "url": "https://www.greenbuildingadvisor.com/question/anyone-seen-a-defective",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Forum thread documenting paint adhesion failures on Alpen bronze-colored frames. Manufacturer acknowledged paint chipping as common issue and provided touch-up paint as standard response. Contractor reports installation difficulties with stiff locks.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical product defect with manufacturer-acknowledged pattern (providing touch-up paint as standard response confirms systemic issue, not isolated complaint).",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "GreenBuildingAdvisor - Heat Mirror Longevity Discussion",
+      "url": "https://www.greenbuildingadvisor.com/question/longevity-of-window-films",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Long-term film durability analysis from credentialed building science professionals. Historical failures cited; 193-pane failure case with krypton gas leakage through sealants documented in related application. Current generation assessment mixed.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Credentialed expert forum discussion with documented failure case providing corroborated pattern of technology risk; not isolated complaint.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "GreenBuildingAdvisor - Heat Mirror Windows Discussion (GreenBuildingTalk)",
+      "url": "https://www.greenbuildingtalk.com/Forums",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Industry debate on heat mirror reliability with litigation context referenced. Homesealed Exteriors professional explicitly skeptical of heat mirror vs true triple-pane; debate on whether film technology has sufficient historical validation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional contributors providing structured technology debate with historical failure documentation and current risk assessment.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Zenith ZR-5 Specifications (525 Series)",
+      "url": "https://www.neighborsak.com/alpen-525-datasheet",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Entry-level Zenith ZR-5 achieves R-5.9. NFRC-certified datasheet providing product hierarchy context and baseline specifications for ZR-7 competitive positioning within Alpen's own lineup.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "NFRC-certified specification for adjacent product; directly supports ZR-7 product hierarchy and performance positioning.",
+      "topics": [
+        "specs",
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Aspekt+ Commercial Windows Datasheet",
+      "url": "https://files.thinkalpen.com/Aspekt+",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Commercial hybrid fiberglass/uPVC Aspekt+ achieves R-6.3. Provides commercial product comparison context. Different product line from residential ZR-7 but same manufacturer's technical documentation.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Different product line (commercial hybrid construction) from ZR-7 residential casement; not directly applicable to ZR-7 scoring.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Zenith AAMA Performance Summary",
+      "url": "https://files.thinkalpen.com/Zenith-AAMA",
+      "platform": "other",
+      "column": "review",
+      "snippet": "AAMA-certified air, water, and structural performance testing results across Zenith series. Air infiltration 0.02 cfm/ft² operable, <0.01 cfm/ft² fixed. Water penetration resistance at 7.52 psf confirmed by independent test lab.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent AAMA laboratory certification of structural, air, and water performance specifications.",
+      "topics": [
+        "performance",
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Zenith Full Frame NFRC Data",
+      "url": "https://files.thinkalpen.com/Zenith-Full-Frame",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Complete NFRC full-frame thermal and air infiltration data covering all Zenith series including ZR-7. Independent laboratory certification confirming U-0.14 to U-0.20 depending on window size and glazing package.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Core independent NFRC laboratory certification document; definitive scored thermal performance data for ZR-7.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Zenith Commercial Windows & Doors Datasheet",
+      "url": "https://www.thinkalpen.com/zenith-series-commercial",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Commercial Zenith specifications including NFRC R-10 for fixed window configurations. Documents performance ceiling of Zenith platform; confirms fiberglass frame construction and certification details.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published commercial spec sheet with NFRC data for the same Zenith platform as ZR-7; relevant performance ceiling context.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "Alpen Residential Windows & Doors Overview",
+      "url": "https://www.thinkalpen.com/residential-windows-and-doors",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer product hierarchy page covering ZR-5 through ZR-11 series, customization options, and warranty structure overview. Marketing content but provides product line context and PHIUS/PHI certification claims.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; product hierarchy overview without independent verification.",
+      "topics": [
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Alpen FAQ - Energy Efficient Windows",
+      "url": "https://www.thinkalpen.com/faq",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer FAQ explaining R-value context, lead times, high-altitude shipping capability via proprietary pressure-equalization crimping system, and customization options. Self-reported but technically detailed.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer FAQ content; informative but self-reported without independent verification.",
+      "topics": [
+        "specs",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "Window Certifications - What Do They Mean (Alpen Blog)",
+      "url": "https://www.thinkalpen.com/blogs/window-certifications",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Alpen blog explaining NFRC, Passive House (PHIUS/PHI), AAMA, Declare, OITC/STC certification standards. Notes Alpen as first North American manufacturer with dual PHIUS and PHI certification.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing blog content explaining certifications; dual PHIUS/PHI claim requires independent corroboration.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Thermal Performance",
+      "expert": "Exceptional; verified U-0.14–0.20 full frame at altitude; superior to competing products by 30–40%",
+      "review": "NFRC-certified R-5.0–5.6 casement, center-glass to R-9.1; AAMA air infiltration 0.02 cfm/ft²",
+      "forum": "Owners independently measured U-factors consistent with ratings; comfort improvements confirmed",
+      "agreement": "Strong — all three columns align on superior performance claims"
+    },
+    {
+      "topic": "Frame Durability",
+      "expert": "Fiberglass thermally compatible with glass (30 vs 33 ppm/°C); 30–50 year lifespan expected",
+      "review": "Field data: 85% fiberglass installations maintain specs at 25 years vs 45% vinyl; UV and moisture resistant",
+      "forum": "Owners report robust construction during installation; no frame structural failures reported",
+      "agreement": "Strong — consistent positive assessment across all columns"
+    },
+    {
+      "topic": "Heat Mirror Technology Reliability",
+      "expert": "Improved since 2000; some professionals retain skepticism vs true triple-pane; 30+ year data unavailable",
+      "review": "Historical failures documented 1980s–1990s; current implementation assessed as materially improved",
+      "forum": "9-year owner reports no issues; 193-pane krypton gas leakage failure case in related application noted",
+      "agreement": "Moderate — improvement acknowledged but long-term validation gap creates unresolved uncertainty"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Technically adequate; labor exclusion is significant practical limitation; IG coverage limited to fogging only",
+      "review": "Lifetime for original owner; transferable 10 years; excludes breakage, normal wear, improper installation",
+      "forum": "Mixed — some claims resolved quickly; one owner reported 12 months for partial resolution only",
+      "agreement": "Weak — coverage exists on paper but real-world accessibility is inconsistent"
+    },
+    {
+      "topic": "Customer Service",
+      "expert": "Generally responsive; provides paint touch-up, locking mechanism guidance proactively",
+      "review": "Company acknowledges paint chipping as common issue; provides free repainting in documented cases",
+      "forum": "Split — some report excellent responsiveness; others report 12-month delays and only partial fixes",
+      "agreement": "Weak — documented inconsistency prevents positive consensus"
+    },
+    {
+      "topic": "Quality Control",
+      "expert": "High-end product with occasional manufacturing variations; paint adhesion on bronze frames flagged",
+      "review": "Premium tier with isolated defect reports; interior glass scratching and paint chipping documented",
+      "forum": "Manufacturer acknowledges paint chipping as 'common problem'; sliding door internal glass scratching reported",
+      "agreement": "Moderate — high overall quality with specific recurring defect pattern on painted frames"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "25–50% premium justified for high altitude, passive solar, or Passive House; questionable for standard applications",
+      "review": "Cost premium documented at 25–50% above competing products; performance advantage documented",
+      "forum": "Cost premium accepted for altitude/passive solar applications; some owners question value for standard homes",
+      "agreement": "Moderate — context-dependent; strong value in specific use cases, weaker in standard applications"
+    },
+    {
+      "topic": "Acoustic Performance",
+      "expert": "STC 44 for laminated units rated 'pretty good' by professionals; triple-pane gaskets provide excellent attenuation",
+      "review": "OITC/STC certifications referenced; specific STC 44 for laminated variant documented",
+      "forum": "Positive reports for noise reduction; suitable for urban/traffic noise environments per owner accounts",
+      "agreement": "Moderate-Strong — consistent positive reports with limited quantified data"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Lifetime coverage for original homeowner with no time limit is longer than typical industry 20-year limited warranty",
+      "Company provided free full repainting of defective painted windows in documented cases",
+      "Responsive adjustment support provided for stiff locking mechanisms on delivered units"
+    ],
+    "underperforms_expectations": [
+      "IG unit coverage explicitly limited to hermetic seal fogging only — heat mirror film defects beyond fogging may not be covered",
+      "Replacement labor costs entirely excluded from warranty coverage, creating significant out-of-pocket exposure",
+      "One owner required 12 months of repeated contacts to achieve only partial warranty resolution",
+      "Glass breakage of any kind explicitly excluded — separate coverage required",
+      "$50 administrative fee required to transfer warranty to subsequent owner"
+    ],
+    "surprises": [
+      "Non-drainable EIFS installation explicitly voids warranty — critical limitation for certain modern construction systems",
+      "Failure to caulk window frames and trim voids warranty — maintenance obligation falls entirely on owner",
+      "Warranty continuity was uncertain during Serious Materials ownership period (2008–2012); homeowners from that era may have had coverage gaps",
+      "Heat mirror film failure modes beyond simple fogging may fall in coverage gray area despite theoretical seal-failure protection"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "full_frame_casement": "0.18–0.20",
+      "full_frame_small_to_medium": "0.14",
+      "full_frame_large": "0.16",
+      "test_standard": "NFRC",
+      "source": "SRC-001, SRC-034"
+    },
+    "r_value": {
+      "full_frame_casement": "5.0–5.6",
+      "center_of_glass_max": "9.1 (R-9.1 / U-0.11)",
+      "series_max_rated": "R-7.1",
+      "source": "SRC-001, SRC-034"
+    },
+    "shgc": {
+      "solar_control_package": "0.17–0.19",
+      "balanced_package": "mid-range (approx. 0.25–0.30)",
+      "high_gain_package": "0.38–0.48",
+      "source": "SRC-001"
+    },
+    "visible_transmittance": {
+      "range": "0.39–0.62",
+      "source": "SRC-001"
+    },
+    "air_infiltration": {
+      "operable_casement": "0.02 cfm/ft² at 1.57 psf (75 Pa)",
+      "fixed": "<0.01 cfm/ft²",
+      "test_standard": "ASTM E283",
+      "source": "SRC-001, SRC-033"
+    },
+    "water_penetration_resistance": {
+      "test_pressure": "7.52 psf",
+      "test_standard": "ASTM E331",
+      "source": "SRC-001, SRC-033"
+    },
+    "forced_entry_resistance": {
+      "grade": "10",
+      "test_standard": "ASTM F-588",
+      "source": "SRC-001"
+    },
+    "frame_material": {
+      "type": "Long-strand pultruded fiberglass (glass-reinforced polyester)",
+      "thermal_expansion_coefficient": "~30 ppm/°C",
+      "glass_thermal_expansion": "33 ppm/°C (near match)",
+      "uv_blockage": "99.5%",
+      "source": "SRC-001, SRC-017, SRC-021"
+    },
+    "glass": {
+      "construction": "Two glass panes with suspended heat mirror low-emissivity film as middle layer",
+      "glazing_packages": [
+        "Alpenglass Balanced",
+        "Alpenglass SolarControl",
+        "Alpenglass HighGain"
+      ],
+      "alternative_description": "Heat mirror suspended film (not traditional full triple-pane glass)",
+      "source": "SRC-001, SRC-006, SRC-029"
+    },
+    "dp_rating": {
+      "value": "not_available",
+      "notes": "Structural performance certified under AAMA; specific DP rating not extracted from available sources"
+    },
+    "stc": {
+      "value": "44 (laminated variant)",
+      "notes": "OITC/STC certifications referenced; STC 44 confirmed for laminated glass option",
+      "source": "SRC-004"
+    },
+    "certifications": [
+      "NFRC",
+      "AAMA",
+      "PHIUS (first North American manufacturer with dual certification)",
+      "PHI (Passive House Institute)",
+      "ENERGY STAR",
+      "Declare",
+      "AERC"
+    ],
+    "altitude_capability": {
+      "max_elevation_competitors": "5,000 ft for argon-filled windows (Marvin, Sierra Pacific)",
+      "alpen_capability": "Unlimited elevation via proprietary pressure-equalization crimping system",
+      "source": "SRC-003, SRC-018"
+    }
+  },
+  "red_flags": [
+    {
+      "type": "FTC Enforcement Action",
+      "description": "FTC filed administrative complaint against Serious Energy, Inc. (formerly Serious Materials, prior Alpen parent company) in February 2012 for deceptive energy savings claims. Alpen had separated from Serious Materials before formal complaint but shares corporate lineage.",
+      "status": "Historical — resolved; Alpen not named directly; current marketing uses NFRC-certified values",
+      "severity": "Moderate — historical context; no current active enforcement against Alpen",
+      "source": "SRC-014"
+    },
+    {
+      "type": "Parent Company Bankruptcy",
+      "description": "Serious Materials, which acquired Alpen in 2008, subsequently filed for bankruptcy. Warranty continuity for products sold during 2008–2012 ownership period was uncertain. Alpen repurchased business in 2012.",
+      "status": "Resolved — local Colorado ownership restored 2012; $18M financing secured 2024",
+      "severity": "Moderate — past instability documented; current footing appears stable",
+      "source": "SRC-023, SRC-025"
+    },
+    {
+      "type": "Warranty Coverage Gap — Heat Mirror Film",
+      "description": "IG unit warranty coverage explicitly limited to 'failure of hermetic seal only' covering fogging. Heat mirror film delamination, wrinkling, or yellowing beyond fogging definition may not be covered. Labor costs entirely excluded.",
+      "status": "Active concern — contractual limitation in current warranty documentation",
+      "severity": "High — significant financial exposure if heat mirror film fails outside fogging definition",
+      "source": "SRC-012"
+    },
+    {
+      "type": "Recurring Paint Adhesion Defect",
+      "description": "Manufacturer acknowledged red/bronze frame paint chipping as 'a common problem' and provides touch-up paint as standard response. This represents systemic quality control issue rather than isolated incident.",
+      "status": "Active — ongoing manufacturing quality control issue with documented pattern",
+      "severity": "Moderate — cosmetic defect with established pattern; manufacturer response is touch-up paint rather than root cause fix",
+      "source": "SRC-028, SRC-010"
+    },
+    {
+      "type": "Heat Mirror Film Long-Term Validation Gap",
+      "description": "No 30–40 year real-world performance data exists for current generation heat mirror film technology. Oldest deployed units still younger than warranty periods claimed. 193-pane failure case with krypton gas leakage documented in related (non-Alpen) application.",
+      "status": "Ongoing uncertainty — fundamental technology risk that cannot be resolved until future validation occurs",
+      "severity": "Moderate-High — unquantifiable long-term risk; credentialed professionals acknowledge unresolved validation gap",
+      "source": "SRC-006, SRC-029, SRC-030"
+    },
+    {
+      "type": "Customer Service Inconsistency",
+      "description": "Documented pattern of highly variable warranty claim resolution. One owner required 12 months of repeated contacts to achieve partial resolution. Other owners report quick responsive service. Inconsistency suggests process rather than policy failure.",
+      "status": "Active concern — no indication of systematic resolution; recent capital infusion may improve capacity",
+      "severity": "Moderate — material risk to warranty value in practice",
+      "source": "SRC-003, SRC-028"
+    }
+  ],
+  "bottom_line": "The Alpen Zenith ZR-7 casement is a legitimately high-performance product delivering NFRC-certified U-factors of 0.14–0.20, independently validated air infiltration of 0.02 cfm/ft², and dual PHIUS/PHI Passive House certification — performance metrics that substantially exceed competing premium products. It represents the optimal solution for high-altitude installations above 5,000 feet, passive solar designs requiring SHGC customization, and Passive House projects. However, three material concerns temper an otherwise strong performance story: (1) the heat mirror suspended film technology lacks 30+ year real-world validation and carries a contractual warranty coverage gap for film failures beyond simple fogging; (2) a recurring paint adhesion defect on colored frames has been acknowledged by the manufacturer as common rather than resolved; and (3) warranty claims require persistence — one documented case required 12 months for partial resolution. The 25–50% cost premium over competing products is justified for the specific use cases above, but may not pencil out for standard residential applications in moderate climates. Buyers should demand pre-acceptance inspection of painted surfaces, understand that IG labor costs are never covered, and budget for potential service friction. The company's 2024 capital infusion improves stability outlook, and no class-action litigation has emerged — a meaningful competitive differentiator versus Pella and other volume manufacturers.",
+  "metadata": {
+    "total_sources_identified": 38,
+    "classification_summary": {
+      "score": 20,
+      "report_only": 12,
+      "quarantine": 6
+    },
+    "pool_distribution": {
+      "S": 0,
+      "A": 6,
+      "B": 22,
+      "C": 10
+    },
+    "platforms_represented": [
+      "other",
+      "gba",
+      "houzz",
+      "review_site",
+      "youtube",
+      "fhb"
+    ],
+    "red_flag_count": 6,
+    "product_confirmed_name": "Alpen Zenith ZR-7 Casement Window",
+    "report_synthesis_confidence": "High — strong convergence across expert, review, and forum sources on thermal performance; moderate uncertainty on heat mirror long-term reliability and service consistency"
+  },
+  "product_slug": "alpen_zenith_zr_7",
+  "product_name": "Alpen Zenith ZR-7",
+  "manufacturer_slug": "alpen",
+  "operation_type": "casement",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 187029,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 38,
+    "score": 22,
+    "report_only": 10,
+    "quarantine": 6,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.194112
+}

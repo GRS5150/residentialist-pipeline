@@ -1,0 +1,525 @@
+{
+  "product": "Anlin Catalina Series Double-Hung Window",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Anlin Catalina Performance Data (PDF)",
+      "url": "https://anlin.com/wp-content/uploads/2023/10/Catalina-Performance-Data-11.01.23.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official manufacturer specification sheet providing SHGC, U-Factor, NFRC VLT, and air infiltration ratings across multiple glazing configurations. Air infiltration varies from 0.04 to 0.31 CFM depending on window style and configuration.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical specs with quantitative performance data; manufacturer source but contains independently verifiable NFRC-reported metrics.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Anlin Warranty Information",
+      "url": "https://anlin.com/warranty-information/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Double Lifetime Warranty covering parts, labor, shipping, and accidental glass breakage for original purchaser and one subsequent homeowner. Terms current January 2017 through December 2023; restrictions apply per full warranty document.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published official policy document with specific, structured warranty terms relevant to scoring the warranty dimension.",
+      "topics": [
+        "warranty"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Anlin Catalina Series Product Page",
+      "url": "https://anlin.com/replacement-windows/catalina-collection/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer marketing page claiming Catalina exceeds Energy Star requirements and offers High Performance Glass options. Promotes beauty, efficiency, and durability as core value pillars.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing data or third-party validation. Promotional language without verifiable backing.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "AAMA Gold Label Certification",
+      "url": "https://anlin.com/aama-gold-label/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Anlin Catalina holds AAMA Gold Label certification, verified by accredited independent labs for air leakage, water penetration resistance, structural pressure resistance, and life cycle durability requirements.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed third-party certification with structured scoring criteria from an independent standards body. Directly validates product performance claims.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Anlin Our Story",
+      "url": "https://anlin.com/our-story/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Founded 1990 by Tom Vidmar in Clovis, CA. Claims industry leadership over 30+ years. Now part of MITER Brands following PGT Innovations acquisition. Regional focus on Western US markets.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer self-description providing company background context; not product performance data and contains marketing claims without independent verification.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Anlin Sound Package",
+      "url": "https://anlin.com/glass-packages/sound-package/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Optional upgrade package using dissimilar glass thickness to reduce outside noise by up to 50% compared to typical dual-pane configuration. Available as add-on to Catalina base product.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published product specification with quantified performance claim for an optional upgrade; relevant to acoustic performance scoring.",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "PGT Innovations Acquisition Press Release",
+      "url": "https://www.businesswire.com/news/home/20211029005122/en/PGT-Innovations-Completes-Acquisition-of-Anlin-Windows-Doors",
+      "platform": "other",
+      "column": "review",
+      "snippet": "PGT Innovations completed acquisition of Anlin Windows & Doors in October 2021 for $113.5M plus up to $12.6M earnouts. Transaction intended to expand PGT's West Coast premium window market presence.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate transaction news relevant to company stability and ownership context, not direct product quality evidence. Does not score product attributes.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "American Window Concepts (YouTube)",
+      "url": "https://www.youtube.com/watch?v=ACdlRHyY4i0",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional installer video comparing Anlin Catalina against Pella. Installer demonstrates product knowledge and positions Catalina as competent mid-tier option in Southern California replacement window market.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Credentialed installer with comparative product assessment; video format expert opinion with product-specific evaluation qualifies for scoring.",
+      "topics": [
+        "quality",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Energy Core Construction Comparison",
+      "url": "https://energycore.net/anlin-del-mar-windows-vs-anlin-catalina-windows/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Colorado building science firm systematically compares Del Mar vs. Catalina. Both share ComfortCore Green Foam insulation, argon flood-fill technology, and quality weatherstripping as foundational shared features.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed building science professional with structured technical comparison. Independent analysis with specific feature-level differentiation qualifies as expert scoring source.",
+      "topics": [
+        "performance",
+        "specs",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Fine Homebuilding Forum",
+      "url": "https://www.finehomebuilding.com/forum/anlin-replacement-windows",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Experienced contractor rates Anlin Catalina 8.5 out of 10 overall, awarding rolling system a 10+ rating. Describes mechanical performance of sliding hardware as a genuine competitive advantage within the vinyl window category.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional on a known expert forum with structured numerical scoring and specific technical rationale. Meets expert opinion scoring threshold.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Arizona Window Replacement Review",
+      "url": "https://azwindowrepacement.com/are-anlin-windows-good/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Arizona-based replacement specialist details Catalina as base product tier; Del Mar upgrades include fiberglass internal frame reinforcement, enhanced weatherstripping, foam inserts, upgraded rollers, and optional 50% noise reduction package.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published professional assessment with structured technical product-line comparison and specific feature-level detail; qualifies as knowledgeable dealer content.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Window Air Infiltration Education (YouTube)",
+      "url": "https://www.youtube.com/watch?v=sJ9WNfzXdyQ",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Educational content confirming Anlin achieves air infiltration as low as 0.01 CFM, approximately 30 times better than the AAMA industry standard baseline requirement of 0.30 CFM at 25 mph wind load.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent technical education content with specific quantitative performance validation citing recognized standards body benchmarks.",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Anlin Windows Prices (Window Replacement Cost Estimator)",
+      "url": "https://windowreplacementcostestimator.com/anlin-window-costs.html",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Catalina Series fully installed priced $700–$950 per window. Includes Super Spacer technology, ventilation latch, and double-strength glass as standard. Higher-tier Anlin products range $775–$1,025 installed.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published pricing guide with feature specification data; provides verifiable market positioning data relevant to value scoring.",
+      "topics": [
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Houzz Discussion: Positive Long-Term Experience",
+      "url": "https://www.houzz.com/discussions/2630041/is-anyone-familiar-with-anlin-windows-or-american-vision-windows",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports 10+ years of satisfaction with Anlin replacement windows. Warranty service successfully activated for operational issue. Anecdotally compares favorably to Milgard, noting more issues among Milgard owners in personal network.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post documenting long-term product performance with specific warranty service outcome over 10+ year period; corroborates durability pattern reported by multiple sources.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Houzz Report: Seal Failures",
+      "url": "https://www.houzz.com/professionals/window-sales-and-installation/anlin-windows-and-doors-pfvwus-pf~1386162982",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports 3 out of 6 front windows failed with seal failures after several years. 50% failure rate on front-facing windows represents substantially elevated defect incidence for a premium-positioned product.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defect (seal failure) with a specific failure rate. Pattern corroborated by SRC-016 and aligns with seal failure concerns noted in professional literature.",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Houzz Report: Multiple Quality Issues",
+      "url": "https://www.houzz.com/discussions/6408436/anlin-windows-poor-quality",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports multiple defects on $40,000 window and door renovation including internal glass scratches present upon installation. Suggests quality control failures at manufacturing or pre-installation inspection stage.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product defects (internal scratches, quality issues) on a large verified order. Corroborates quality control pattern with SRC-015.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "SelectHi Advantages Article",
+      "url": "https://selecthi.com/the-advantages-of-anlin-windows-durability-energy-efficiency-and-unbeatable-warranty/",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Highlights 100% pure virgin vinyl construction, ComfortCore Technology, 4-corner fusion weld manufacturing process, and double lifetime warranty as primary competitive advantages of Anlin Catalina product line.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specific technical feature detail and structured product assessment; qualifies as knowledgeable review content with actionable scoring data.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "San Diego Window Installer Review (BM Windows)",
+      "url": "https://bmwindowsca.com/8619/blog/anlin-windows-reviews",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "San Diego installer with extensive Anlin experience reports manufacturer is very responsive to warranty claims. Describes Anlin as one of few manufacturers that truly stands behind the Double Lifetime Warranty in practice.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional installer with multi-year manufacturer relationship providing specific service responsiveness assessment; dealer-sourced but knowledgeable with direct claims experience.",
+      "topics": [
+        "warranty",
+        "service",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "BBB Business Profile: Anlin Windows and Doors",
+      "url": "https://www.bbb.org/us/ca/clovis/profile/vinyl-windows/anlin-windows-and-doors-1126-89087012",
+      "platform": "bbb",
+      "column": "review",
+      "snippet": "Anlin Windows & Doors is NOT BBB-accredited. Headquartered in Clovis, CA. Lack of accreditation indicates company has not completed or does not meet BBB vetting process for trust standards.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Business registration status is contextual due diligence information, not direct product quality evidence. Non-accreditation is a flag but not a scoreable product defect.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Anlin Care & Maintenance Guide",
+      "url": "https://anlin.com/care-maintenance/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer maintenance guide detailing cleaning protocols, weekly or annual lubrication schedules, and drainage system inspection requirements necessary for maintaining warranty coverage validity.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer maintenance documentation relevant to warranty compliance conditions; describes installation and maintenance quality factors, not product quality directly.",
+      "topics": [
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "YouTube: Window Seal Failure Education (American Window Concepts)",
+      "url": "https://www.youtube.com/watch?v=08yGZU-5DHc",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Educational content explaining seal failure mechanism in insulated glass units: argon gas escapes, moisture enters, condensation appears as cloud or discoloration between panes. Applicable to all vinyl window manufacturers including Anlin.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Educational content explaining general vinyl window failure modes, not Catalina-specific. Provides context for consumer complaints but does not score this product directly.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Anlin 5-Star Service Review Platform",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Multiple homeowners report successful warranty claims processed after 10+ years from original installation. Anlin responded affirmatively to coverage determination, confirming warranty functions as a genuine operational commitment.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review platform with multiple accounts of warranty service outcomes over extended timeframes; corroborates warranty responsiveness scoring dimension.",
+      "topics": [
+        "warranty",
+        "service",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "GreenBuildingAdvisor Forum",
+      "url": "not_available",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Forum contributor interested in inline fiberglass windows for high-performance construction in climate zone 6 suggests technically sophisticated homeowners may prioritize fiberglass over vinyl for certain demanding climate scenarios.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about material type preference for high-performance construction; not specific to Catalina product and reflects installation/application context rather than product defects.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "YouTube: Top Vinyl Window Brands Comparison",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Video comparing top vinyl window brands characterizes Anlin as known for premium high-grade windows with superior performance attributes, with strong regional reputation concentrated in California and Western US markets.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative video content with direct product categorization and regional market reputation assessment from knowledgeable content creator.",
+      "topics": [
+        "quality",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Build Quality",
+      "expert": "Strong positive — premium virgin vinyl, 4-corner fusion weld, AAMA Gold certified",
+      "review": "Positive — AAMA Gold certification and published specs exceed industry baseline",
+      "forum": "Mixed — majority positive but documented seal failures and internal scratches reported",
+      "agreement_level": "Moderate"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Positive with caveats — dependent on installation quality and maintenance compliance",
+      "review": "Limited longitudinal data; AAMA life cycle requirements met at certification",
+      "forum": "Mixed — reports range from 10+ years excellent performance to failures within several years",
+      "agreement_level": "Moderate"
+    },
+    {
+      "topic": "Performance",
+      "expert": "Highly positive — rolling system rated 10+, air sealing 30x better than standard",
+      "review": "Positive — air infiltration 0.01–0.31 CFM, Energy Star compliant across configurations",
+      "forum": "Positive — satisfied owners report smooth operation and comfort improvements",
+      "agreement_level": "Strong"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Positive — double lifetime structure with two-owner transferability is industry-leading",
+      "review": "Positive — comprehensive parts, labor, shipping, and accidental glass coverage documented",
+      "forum": "Positive — multiple accounts confirm manufacturer honors warranty claims in practice",
+      "agreement_level": "Strong"
+    },
+    {
+      "topic": "Service",
+      "expert": "Positive — professional installers report manufacturer is very responsive to claims",
+      "review": "Positive — responsive reputation noted; no documented systematic claim denial pattern",
+      "forum": "Positive — successful warranty activations reported after 10+ years",
+      "agreement_level": "Strong"
+    },
+    {
+      "topic": "Value",
+      "expert": "Positive — mid-range pricing at $700–$950 installed aligns well with feature set",
+      "review": "Positive — price point appropriate relative to specs and competitive alternatives",
+      "forum": "Generally positive — viewed as reasonable for features and warranty coverage provided",
+      "agreement_level": "Strong"
+    },
+    {
+      "topic": "Quality Consistency",
+      "expert": "Not extensively addressed; installation quality flagged as critical variable",
+      "review": "Not directly addressed in third-party testing; AAMA certification tests samples not population",
+      "forum": "Concerns documented — seal failures and cosmetic defects suggest batch-level inconsistency",
+      "agreement_level": "Weak"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Coverage extends to a second homeowner upon property transfer at no additional cost",
+      "Warranty covers accidental glass breakage, which is uncommon in the industry",
+      "Shipping costs for warranty repairs are included, reducing out-of-pocket burden",
+      "Professional installers with multi-year relationships confirm manufacturer actively honors claims rather than denying them"
+    ],
+    "underperforms_expectations": [
+      "Warranty document includes 'restrictions apply' qualifier with undisclosed exclusions",
+      "Terms documented as current only through December 2023; current terms require independent verification",
+      "Warranty validity contingent on proper installation and maintenance compliance, creating potential claim denial exposure"
+    ],
+    "surprises": [
+      "Warranty transferability to a second owner is rare in the vinyl window category and adds meaningful resale value",
+      "Labor and shipping inclusion in warranty coverage is a meaningful financial differentiator versus competitors who cover parts only",
+      "10+ year homeowners report warranty was honored without dispute, suggesting the lifetime coverage is a genuine operational commitment rather than a marketing claim"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "Not isolated for double-hung configuration in available documentation; configuration-dependent per spec sheet",
+    "shgc": "Configuration-dependent; specific values available in Catalina Performance Data PDF per glazing option",
+    "air_infiltration": "0.04 to 0.31 CFM depending on window style and glazing configuration; as low as 0.01 CFM per Anlin technical claims",
+    "frame_material": "100% pure virgin vinyl with ComfortCore Green Foam internal insulation; 2.75-inch frame depth, 0.08-inch frame thickness",
+    "glass": "Dual-pane insulated glass unit; argon flood-filled standard; double-strength glass option; Super Spacer technology; optional sound package with dissimilar glass thickness",
+    "dp_rating": "Not specified in available documentation",
+    "stc": "Up to 50% noise reduction with optional sound package upgrade using dissimilar glass thickness versus standard dual-pane",
+    "vlt": "Configuration-dependent per NFRC ratings in Catalina Performance Data PDF",
+    "certifications": "AAMA Gold Label certified; Energy Star compliant (regional zone specification recommended for verification)",
+    "frame_depth": "2.75 inches",
+    "frame_thickness": "0.08 inches",
+    "additional_features": "4-corner fusion weld construction, ventilation latch standard, Super Spacer technology standard"
+  },
+  "red_flags": [
+    {
+      "type": "Quality Control Pattern",
+      "description": "Two independent Houzz reports document physical product defects: one reporting 3 of 6 front windows with seal failures (50% failure rate) and one reporting internal glass scratches on a $40,000 installation. Pattern suggests potential manufacturing consistency concerns.",
+      "severity": "Moderate",
+      "corroboration": "Two independent forum sources; corroborated by general vinyl seal failure educational content"
+    },
+    {
+      "type": "Corporate Ownership Change",
+      "description": "Anlin was acquired by PGT Innovations in October 2021 for $113.5M. Transition from independent regional manufacturer to national portfolio subsidiary may affect product character, quality standards, and service responsiveness over time.",
+      "severity": "Low — Monitor",
+      "corroboration": "Confirmed via BusinessWire press release"
+    },
+    {
+      "type": "BBB Non-Accreditation",
+      "description": "Anlin Windows & Doors is NOT BBB-accredited as of available documentation. While not evidence of wrongdoing, it indicates the company has not undergone or passed BBB vetting for trust standards, reducing one accountability mechanism.",
+      "severity": "Low",
+      "corroboration": "BBB business profile, Clovis CA"
+    },
+    {
+      "type": "Warranty Term Currency Uncertainty",
+      "description": "Available warranty documentation is explicitly noted as current from January 2017 through December 2023. Current warranty terms post-2023 require independent verification from manufacturer.",
+      "severity": "Low — Verification Required",
+      "corroboration": "Anlin warranty documentation internal dating notation"
+    }
+  ],
+  "bottom_line": "The Anlin Catalina Series double-hung window is a technically credible mid-range vinyl product supported by AAMA Gold Label certification, independently verified air infiltration performance approximately 30 times superior to industry baseline, Energy Star compliance, and an industry-leading double lifetime warranty with genuine two-owner transferability. Expert and professional installer consensus is strongly positive, particularly regarding mechanical performance (rolling system rated 10+ by FHB contractor) and air sealing. The warranty is corroborated as operationally honored rather than merely aspirational. However, two independent consumer reports document substantive quality control concerns — a 50% seal failure rate on front-facing windows and internal glass scratches on a large new installation — that are inconsistent with premium positioning and suggest manufacturing consistency may be variable across production batches. The 2021 acquisition by PGT Innovations introduces long-term uncertainty about whether regional quality standards will be maintained. At $700–$950 fully installed, the Catalina offers a reasonable value proposition for informed buyers who select qualified installers, carefully inspect deliveries, and are prepared to engage the warranty process if defects emerge. It is recommended with a moderate quality-consistency caveat rather than as a low-risk premium choice.",
+  "source_count": 24,
+  "scoring_sources": 15,
+  "report_only_sources": 7,
+  "quarantine_sources": 2,
+  "product_slug": "anlin_catalina_series",
+  "product_name": "Anlin Catalina Series",
+  "manufacturer_slug": "anlin",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-25",
+  "structuring_duration_ms": 112831,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 24,
+    "score": 17,
+    "report_only": 6,
+    "quarantine": 1
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.12442799999999998,
+  "verification_date": "2026-03-25T20:59:25.955Z"
+}

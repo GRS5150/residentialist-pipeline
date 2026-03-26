@@ -1,0 +1,650 @@
+{
+  "product": "Windsor Pinnacle Select Double-Hung",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Windsor Windows — Double Hung Pinnacle Primed (Product Page)",
+      "url": "https://windsorwindows.com/pinnacle/primed/double-hung",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer product page detailing EZ Tilt sash, compression jambliner, block-and-tackle balance, CPVC exterior, and recessed lock features for the Pinnacle Select double-hung configuration.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/product content; no independent testing or third-party validation.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Houston Window Experts — Have You Heard About Windsor Pinnacle (YouTube)",
+      "url": "https://youtube.com/watch?v=ap9hEjRSTgs",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Expert reviewer details double-hung operation, tilt features, gasket design, color-coding track system, and frame depth requirements. Notes Pinnacle Select as great value competing with Marvin Ultimate and Andersen E-Series at a lower price point.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed YouTube window specialist with structured product comparison and technical opinion.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Windsor Pinnacle Select Series Spec Sheet",
+      "url": "https://windsorpinnacle.com/file/fbf6c88ea99ba12773e7a948111da498",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official specification document covering clad casement configurations, egress requirements, lite and vent details for the Pinnacle Select series.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer spec document; useful for verified specs extraction but not an independent source.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Houzz — Not Too Much Love for Windsor Windows (Discussion Thread)",
+      "url": "https://houzz.com/discussions/6028777",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple owners report cladding gaps, staple holes painted over, daylight visible at sill-to-vertical seal junctions, and leaky corners from improperly folded side seals. One user praises new Pinnacle as incredibly well built; severe defects documented in same thread.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple independent forum contributors corroborate a recurring physical defect pattern (seal failures, unpainted staples, cladding gaps), meeting the threshold for forum corroboration.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "BBB — Windsor Windows Business Profile and Complaints",
+      "url": "https://bbb.org/us/ia/west-des-moines/profile",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "A+ BBB-accredited company with documented complaints (2023–2025) citing late delivery, damaged products on arrival, poor factory QA, unresponsive warranty team, and a 2.5-year wait for screens. Regional management named as unresponsive.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB complaints primarily address sales process, dealer fulfillment, and warranty claim service experience rather than product defect specifications.",
+      "topics": [
+        "service",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "YouTube — Best Looking Vinyl Window Windsor Classic",
+      "url": "https://youtube.com/watch?v=Dc_bQ3L6cBk",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Expert comparison noting smooth operation, tight tolerances, double-lock mechanism, recessed locks, and grid and color options on Windsor classic line. Focused on vinyl Classic line, not Pinnacle Select.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Source discusses Windsor Classic vinyl line, not Pinnacle Select double-hung wood-clad product.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Windsor Windows Energy Performance Database",
+      "url": "https://windsorwindows.com/node/595",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer's online searchable database providing U-Value, SHGC, and VT ratings by product and feature combinations for the full Windsor line.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer-published spec data; useful for spec extraction but not an independent scoring source.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz — Windsor Window Reviews (Discussion Thread)",
+      "url": "https://houzz.com/discussions/5867736",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Detailed owner report of water intrusion persisting after five inspections; engineer discovered thermal break caulking issues. Approximately 50% of nail holes unfilled, corner chips noted. Warranty claim described as difficult to pursue.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Detailed physical defect account with engineering corroboration and a pattern matching other forum sources; qualifies as corroborated defect report.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Windsor Windows — Testimonials Page",
+      "url": "https://windsorwindows.com/testimonials",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Curated customer testimonials from Pat Hiller, Rod Cullum, Sean Sullivan, and Kelly Hoxie describing positive long-term experiences and responsive service from corporate contact Betty Deemer.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer-curated marketing testimonials; inherent selection bias, not independently verified.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Windsor Pinnacle Care & Use Guide",
+      "url": "https://windsorwindows.com/sites/default/files/product-resources/PinnLegCareandUseGuide_11-23.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official guide specifying finish must be applied within 60 days of installation; cellular PVC thermal expansion limits dark colors (LRV ≥ 50 required); extended element exposure causes deterioration, raised grain, and potential wood rot.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer maintenance documentation; relevant to durability context but not a product quality assessment source.",
+      "topics": [
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Top Class Actions — Windsor Windows Class Action Settlement",
+      "url": "https://topclassactions.com/lawsuit-settlements",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Settlement finalized July 2018 covering Pinnacle and Legend windows manufactured January 2000 to January 2018; 15 named plaintiffs alleged defective seals causing water damage to windows and structures; awards up to $2,500 cash or replacement product.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Documented legal settlement is factual legal/historical record, not a product performance score; classified report_only per legal information rule.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Pinnacle Windows Blog — Window Rating Standards",
+      "url": "https://pinnaclewindows.net/blog/window-ratings",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Industry explainer covering U-Factor benchmarks (≤0.30 considered good), SHGC solar heat gain control, and the note that Energy Star is not the only benchmark; high-performance windows may exceed standard thresholds.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "General industry education content; no specific Windsor product testing or scoring data.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Windsor Windows — Warranty Information Page",
+      "url": "https://windsorwindows.com/support/warranty-information",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Limited lifetime warranty: 20 years on insulated glass units against seal failure, 10 years on hardware and wood components including exterior cladding. Labor explicitly excluded unless specified in contract; Windsor reserves discretion on labor coverage.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty documentation; objective spec record but not an independent assessment.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Consumer Reports — Choosing Replacement Windows",
+      "url": "https://consumerreports.org/home-garden/replacement-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "CR tests double-hung windows for wind and rain resistance at 25 and 50 mph at 0°F and 70°F. Finds significant differences between brands; some budget vinyl windows outperform pricier wood-frame windows. Energy Star estimates 13% energy bill savings.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "No specific Windsor Pinnacle Select test results present in report; provides testing methodology and industry context only.",
+      "topics": [
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Fine Homebuilding Forum — Windsor Windows Pinnacle Series",
+      "url": "https://finehomebuilding.com/forum/windsor-windows-pinnacle-series",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Window dealer characterizes Windsor as mid-range quality; quotes $5,000 for Windsor Pinnacle vs $8,000 for Loewen on same project. Builder advises selecting best quality affordable; confirms mid-tier market positioning.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published trade forum with dealer-level professional assessment and direct pricing comparison; qualifies as knowledgeable comparative opinion.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "GreenBuildingAdvisor — High-Performance Windows Zone 2/3 Discussion",
+      "url": "https://greenbuildingadvisor.com/question",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Builder reports Windsor double-hung windows achieving U-factors in mid-0.20s and SHGC ~0.18 in Climate Zone 3 historic context; whole-house blower door result of 400 CFM50 and HERS 44 achieved without solar credit.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "GBA forum attracts credentialed building science professionals; verified real-world energy performance with specific measurable data.",
+      "topics": [
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "YouTube — Windsor Line of Windows & Doors",
+      "url": "https://youtube.com/watch?v=nasSC4JXHis",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Expert review comparing Windsor product lines; notes narrower profile compatibility with existing aluminum frames, tilt-wash cleaning feature, and 30-year warranty option with AAMA 2605 powder coat finish upgrade.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Structured expert product comparison with specific technical details and warranty tier information.",
+      "topics": [
+        "specs",
+        "quality",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Windsor Windows — Window Condensation Control (Technical Page)",
+      "url": "https://windsorwindows.com/node/664",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer technical page clarifying condensation is a humidity-control issue rather than a window defect; provides recommended indoor humidity levels by outdoor temperature.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer technical/marketing content designed to deflect warranty claims; not independent.",
+      "topics": [
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "BBB — Windsor Windows Complaints Detail Page",
+      "url": "https://bbb.org/us/ia/west-des-moines/profile/complaints",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "November 2023 complaint: late delivery, damaged product, poor factory QA, unresponsive warranty team. June 2023 complaint: 2.5-year wait for screens, eventually resolved. 2025 complaint: regional sales manager and production manager named as refusing all warranty assistance.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Complaints address service, fulfillment, and warranty claim process — not direct product defect patterns with corroboration.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "YouTube — Andersen vs Windsor vs Marvin Comparison",
+      "url": "https://youtube.com/watch?v=qDYiVt0GwSI",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Expert compares four major window brands; Windsor noted as 40–50% less expensive than Marvin; side-by-side evaluation of performance, operation, aesthetics, and warranty structures across brands.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Structured expert multi-brand comparison with pricing and performance analysis qualifies as a Pool A scoring source.",
+      "topics": [
+        "quality",
+        "performance",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Modernize — Windsor Windows Review 2026",
+      "url": "https://modernize.com/contractors/windsor-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Published review noting founding in 1946, mid-range pricing $400–$1,200 per window, strong energy efficiency ratings, robust warranty, limited dealer availability, and maintenance required for wood interior components.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review site with specs and pricing data; qualifies as Pool B scored review.",
+      "topics": [
+        "quality",
+        "performance",
+        "warranty",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Houzz — Sash Kit Advice: Marvin or Windsor",
+      "url": "https://houzz.com/discussions/3778964",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "User notes Windsor cladding quality concerns including chipping and peeling complaints; recommends replacing entire window rather than sash kit for quality reasons.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Physical cladding defect (chipping, peeling) corroborated across other forum sources; contributes to pattern evidence.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Windsor CAD Drawings and Sizing / Performance Specifications",
+      "url": "https://windsorwindows.com/professional-information/sizing-performance-specifications",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official professional resource with Pinnacle performance grades, thermal performance tables, Energy Star ratings, casing conversion charts, and rough opening measurements.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer spec documentation; used for verified specs extraction only.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Houzz — Andersen 400 vs Windsor Pinnacle Comparison",
+      "url": "https://houzz.com/discussions/6080888",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "User comparison of Andersen 400 vs Windsor Pinnacle; Andersen considered superior if cost is not primary constraint. One owner reports ice forming on inside of Windsor windows with 20+ degree temperature differential from thermostat.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Ice-on-interior report is a specific physical performance defect; comparative discussion adds qualitative scoring context.",
+      "topics": [
+        "performance",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "FTC Warning Letter — West Window Corp (Energy Claims)",
+      "url": "https://ftc.gov/sites/default/files/attachments",
+      "platform": "other",
+      "column": "review",
+      "snippet": "FTC warning letter to West Window Corp regarding unsubstantiated energy savings claims; illustrates regulatory scrutiny of window industry marketing practices. Not directly issued to Windsor Windows & Doors.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/regulatory action against a different company (West Window Corp, not Windsor); relevant industry context only.",
+      "topics": [
+        "legal",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "SCG Minnesota — Top Window Reviews (Marvin, Andersen, Pella, Kolbe, Lincoln, Windsor)",
+      "url": "https://scgmn.com/window-reviews",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Detailed multi-brand review ranks Windsor Pinnacle Select as great value competing with Marvin Ultimate and Andersen E-Series at lower price. Notes quality decent overall but seam and mullion finishes less refined than Kolbe's offerings.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published structured review with multi-brand comparative scoring and specific quality observations.",
+      "topics": [
+        "quality",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Windsor Pinnacle Installation Guidelines (Jan 2024)",
+      "url": "https://windsorwindows.com/sites/default/files/product-resources/PinnPrimedWindows_Install%20Guide_01_2024.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official installation guide specifying minimum 6-inch flashing width per AAMA-711, 2x6 construction depth requirement, shim placement, frame width equalization, and casement adjustment procedures.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer installation documentation; addresses installation quality requirements, not product quality assessment.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Houzz — Windsor or Marvin Windows Comparison Thread",
+      "url": "https://houzz.com/discussions/6076037",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Head-to-head Windsor Pinnacle vs Marvin Elevate discussion at similar price points. One owner reports ice forming on inside of Windsor windows with 20+ degree temperature differential; others preferred Windsor aesthetics but favored Marvin reputation.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Specific thermal failure report (ice on interior, 20°F differential) is a corroborated physical performance defect matching SRC-024.",
+      "topics": [
+        "performance",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Windsor Pinnacle Performance Grade Ratings Document",
+      "url": "https://windsorpinnacle.com/file/5504be9065f4a4db1c462f199b39fa71",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official performance grade document listing air infiltration in CFM/ft², minimum/maximum window dimensions, and design pressure values for Revive Clad and Hybrid double-hung models. LC-PG30-H rating for double-hung operating units.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer spec document; used for verified specs extraction only.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Houzz — Windsor Windows (2009 Legacy Discussion)",
+      "url": "https://houzz.com/discussions/2646325",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Older (15+ year) discussion reporting air leaking through sash and window sill; contractor and service technician confirmed air leakage issue on site. Represents a long-standing concern predating current manufacturing.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Contractor-confirmed physical air leakage defect; adds historical corroboration to the pattern of seal and air infiltration issues.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Windsor Pinnacle Limited 20/10 Warranty Document",
+      "url": "https://windsorpinnacle.com/file/97222",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official warranty document: 20-year coverage for insulated glass unit seal failure; replacement glass shipped FOB factory; details exact scope of coverage and exclusions.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer warranty documentation; objective record used for warranty_reality extraction, not independent scoring.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Windsor Windows — New Production Facility Update (Summer 2024)",
+      "url": "https://windsorwindows.com/windsor-world/summer2024/productionfacility",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Company announcement of Monroe, NC facility expansion with new vinyl production equipment installation underway through fall 2024; signals manufacturing transition period concurrent with 2024–2025 quality complaints.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Company news; contextually relevant to understanding QC degradation timing but not an independent product assessment.",
+      "topics": [
+        "quality"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Solid mid-range offering; decent construction; finishes less refined than Kolbe or Marvin at highest tier",
+      "review": "Mid-tier positioning confirmed by published reviews; specifications sound but actual product quality varies",
+      "forum": "Mixed to strongly negative in recent years; unpainted staples, cladding gaps, out-of-square frames documented by multiple owners",
+      "agreement_level": "Low — expert and review sources are neutral-positive; forum sources trend negative, especially post-2023"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Good if properly maintained and installed; wood interior requires finish within 60 days",
+      "review": "Energy ratings hold up technically; cladding on south-facing exposures shows fading",
+      "forum": "10+ year owners positive when windows rarely opened; 2024–2025 installs show systematic defects; class action covers 2000–2018 seal failures",
+      "agreement_level": "Low — long-term durability acceptable under ideal conditions; new production durability in question"
+    },
+    {
+      "topic": "Energy Performance",
+      "expert": "Excellent U-factors (0.27–0.32 range); SHGC ~0.18 achievable; meets Energy Star in most climate zones",
+      "review": "Documented 0.28 U-factor for picture windows; 0.24 cfm/ft² air infiltration for double-hung",
+      "forum": "Real-world GBA builder verified U-factors in mid-0.20s; ice-on-interior reports from two forum sources contradict rated performance in cold climates",
+      "agreement_level": "Moderate — rated performance is strong and verified in most installations; isolated cold-climate thermal failures noted"
+    },
+    {
+      "topic": "Manufacturing Quality Control",
+      "expert": "Frame depth and installation tolerances require professional assessment; wood finish slightly below top-tier competitors",
+      "review": "Specifications reliable but actual delivered product quality varies per published review notes",
+      "forum": "Multiple corroborated reports of staple holes painted over, sill seals improperly folded, out-of-square frames, and cladding gaps across multiple independent forum threads",
+      "agreement_level": "Low — significant divergence between specified quality and documented delivered quality"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Comparable to industry (20-year glass, 10-year components); labor exclusion is a notable distinction",
+      "review": "Clearly documented and competitive on paper; labor exclusion confirmed",
+      "forum": "Warranty difficult to exercise in practice; regional management named as unresponsive; claims denied or ignored per multiple 2023–2025 accounts",
+      "agreement_level": "Low — warranty terms are competitive but real-world claim experience is consistently negative"
+    },
+    {
+      "topic": "Customer Service",
+      "expert": "Not extensively addressed by expert sources",
+      "review": "Not independently reviewed by major publications",
+      "forum": "Consistently negative trend: unresponsive regional staff, extraordinary fulfillment delays (2.5-year screen wait), abrasive quality team; one positive resolution through corporate contact Betty Deemer",
+      "agreement_level": "Negative consensus across available sources"
+    },
+    {
+      "topic": "Value",
+      "expert": "40–50% less expensive than Marvin with comparable energy specs; good price-to-features ratio",
+      "review": "$400–$1,200 per window installed; cost-effective mid-tier positioning confirmed",
+      "forum": "Poor value perception when QC issues require contractor rework and warranty claims are denied; positive for owners with defect-free installs",
+      "agreement_level": "Moderate — strong specification value; execution value undermined by QC inconsistency and service failures"
+    },
+    {
+      "topic": "Installation Requirements",
+      "expert": "Deep frame requires 2x6 construction; professional consultation mandatory; incompatible with 2x4 framing without modifications",
+      "review": "Technical specs well-documented in installation guide",
+      "forum": "Installation quality highly variable; transoms installed upside-down and out-of-plumb frames documented; contractor competency appears critical variable",
+      "agreement_level": "High — all sources agree professional installation is critical; disagreement on whether defects are installer or factory origin"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "20-year IGU seal failure coverage is on par with or exceeds Marvin and Andersen at this price tier",
+      "10-year hardware coverage is competitive for mid-range wood-clad category",
+      "Optional AAMA 2605 powder coat finish upgrade provides 30-year finish warranty per YouTube expert review"
+    ],
+    "underperforms_expectations": [
+      "Labor is explicitly excluded from warranty coverage unless specifically written into the purchase contract",
+      "Windsor reserves unilateral discretion on labor coverage, creating unpredictable claim outcomes",
+      "Multiple 2023–2025 accounts document warranty claims being denied or ignored despite documented defects",
+      "Regional sales manager and production manager named in BBB complaint as actively refusing warranty assistance",
+      "Class action settlement covering 2000–2018 production suggests systemic seal failures went unresolved through warranty process for years"
+    ],
+    "surprises": [
+      "Warranty states replacement glass shipped FOB factory — owner or dealer bears freight and labor cost for glass replacement",
+      "Wood component warranty requires proof that finish was applied within 60 days of installation; failure to comply voids wood-related claims",
+      "Cellular PVC components void warranty if dark colors (LRV below 50) are specified due to thermal expansion",
+      "A+ BBB rating coexists with serious documented warranty non-performance, creating a false signal of service reliability"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.27–0.32 for double-hung configurations; as low as 0.28 for picture window configurations; mid-0.20s achievable per GBA builder report",
+    "shgc": "Approximately 0.18 documented in real-world Climate Zone 3 installation; varies by glazing package selection",
+    "air_infiltration": "0.24 cfm/ft² for double-hung operating units (LC-PG30-H rated); 0.17 cfm/ft² for picture window configuration (LC-PG30-F rated); tested per AAMA/WDMA/CSA 101/I.S.2/A440",
+    "frame_material": "Aluminum exterior cladding over wood interior construction; cellular PVC (CPVC) sash option available on Revive Clad model",
+    "glass": "Insulated glass units; dual-pane standard; specific low-e coatings and gas fill options available through Energy Performance Database",
+    "dp_rating": "LC-PG30 Performance Grade for double-hung configurations (both H-operating and F-fixed variants)",
+    "stc": "Not documented in available sources",
+    "installation_depth": "Requires 2x6 wall construction minimum for proper installation without compromising interior stool or trim",
+    "warranty_glass": "20 years against seal failure",
+    "warranty_hardware": "10 years",
+    "warranty_wood_components": "10 years; requires finish application within 60 days of installation",
+    "price_range": "$400–$1,200 per window installed; approximately 40–50% less than Marvin comparable products",
+    "finish_warranty_upgrade": "30-year finish warranty available with AAMA 2605 powder coat specification"
+  },
+  "red_flags": [
+    {
+      "type": "Class Action Settlement",
+      "description": "Multidistrict class action settlement finalized July 2018 covering Pinnacle and Legend windows manufactured January 2000 through January 5, 2018. Fifteen named plaintiffs alleged defective seals causing water damage to windows and structures. Settlement provided cash awards up to $2,500 and replacement products.",
+      "severity": "High",
+      "source": "SRC-011"
+    },
+    {
+      "type": "Recurring QC Defect Pattern (2023–2025)",
+      "description": "Multiple independent forum and BBB accounts from 2023–2025 document a corroborated pattern of manufacturing defects: staple holes painted over without filling, improperly folded sill seals creating daylight gaps, out-of-square frames, missing cladding pieces, and visible silver screws on black-finish windows.",
+      "severity": "High",
+      "source": "SRC-004, SRC-005, SRC-008, SRC-019"
+    },
+    {
+      "type": "Warranty Claim Refusal Pattern",
+      "description": "Multiple 2024–2025 accounts document named Windsor management personnel (regional sales manager Jim, production manager Matt Wells, customer service manager Nathaniel Mustin) actively refusing warranty assistance for documented defects notified to the company.",
+      "severity": "High",
+      "source": "SRC-004, SRC-019"
+    },
+    {
+      "type": "Manufacturing Facility Transition (2024)",
+      "description": "Windsor announced Monroe, NC facility expansion and new production equipment installation through fall 2024, coinciding precisely with the period of elevated QC complaints in forum and BBB sources. Transition-period production risk not disclosed to buyers.",
+      "severity": "Moderate",
+      "source": "SRC-032"
+    },
+    {
+      "type": "Thermal Performance Failure Reports",
+      "description": "Two independent forum sources report ice forming on the interior surface of Windsor Pinnacle windows with temperature differentials exceeding 20°F from thermostat setting, suggesting real-world thermal performance may not match rated specifications in cold climates.",
+      "severity": "Moderate",
+      "source": "SRC-024, SRC-028"
+    },
+    {
+      "type": "Extraordinary Fulfillment Delays",
+      "description": "BBB complaint documents 2.5-year wait for window screens ordered September 2020, not received as of June 2023. Additional complaints cite one-month-plus delivery delays causing construction schedule and cost impacts.",
+      "severity": "Moderate",
+      "source": "SRC-019"
+    }
+  ],
+  "bottom_line": "The Windsor Pinnacle Select double-hung occupies a legitimate mid-tier position in the wood-clad window market, offering competitive energy performance specifications (U-factors 0.27–0.32, air infiltration 0.24 cfm/ft²) at approximately 40–50% below Marvin pricing. For installations completed through approximately 2013–2018, long-term owner satisfaction is generally acceptable when the wood interior is properly finished and the windows are not subjected to frequent operation in harsh climates. However, the product carries three compounding risk factors that significantly erode its value proposition for new buyers: (1) a class action settlement documenting systemic seal failures across 18 years of production (2000–2018); (2) a corroborated pattern of manufacturing quality control failures in 2023–2025 production, including unpainted staple holes, improperly installed sill seals, out-of-square frames, and cladding defects reported independently across Houzz, BBB, and other forums; and (3) a documented and worsening warranty claim experience in which named corporate management personnel have been described as actively refusing valid warranty assistance. The concurrent manufacturing facility expansion through fall 2024 adds further uncertainty about production consistency. Buyers who prioritize energy efficiency at a price point below premium brands may find the rated specifications attractive, but should require written warranty terms that explicitly include labor coverage, perform delivery inspection before installer departure, and document all defects immediately upon receipt. The Residentialist scoring pipeline should weight recent QC and service signals heavily; this product's pool of corroborated defect reports and warranty non-performance places it below comparably priced competitors such as Marvin Elevate and Andersen E-Series for buyers who require reliable post-sale support.",
+  "product_slug": "windsor_pinnacle_select",
+  "product_name": "Windsor Pinnacle Select",
+  "manufacturer_slug": "windsor",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 166707,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 32,
+    "score": 13,
+    "report_only": 10,
+    "quarantine": 9,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.16232399999999997
+}

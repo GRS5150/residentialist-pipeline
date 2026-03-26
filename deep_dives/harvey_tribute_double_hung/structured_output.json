@@ -1,0 +1,735 @@
+{
+  "product": "Harvey Tribute Double-Hung Window",
+  "manufacturer": "Harvey Building Products",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Wallaby Windows Nashville",
+      "url": "https://wallabywindows.com/nashville/harvey-tribute-window-review",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Authorized Harvey installer gave Tribute a perfect 5/5 rating. Praised fusion-welded corners, nearly 2x PVC vinyl versus competitors, extensive customization options, and wood-like aesthetics without maintenance burden. Described corner quality as exceptional versus industry norm.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Authorized dealer with direct installation experience providing structured product rating and detailed field observations; credentialed but commercially affiliated.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Window Dog Tribute Review",
+      "url": "https://thewindowdog.com/harvey-tribute-windows-reviews",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Cautious professional assessment describing Tribute as 'decent' but 'not remarkable.' Air infiltration 0.01–0.07 cfm/ft² typical not unique. Block-and-tackle balances praised. Limited glass options noted. Concluded product is 'probably not the best value around, but certainly not the worst.'",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent window industry analyst providing structured specification-level comparison with explicit product opinion and value judgment.",
+      "topics": [
+        "quality",
+        "performance",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Home Construction Improvement Contractor Review",
+      "url": "https://homeconstructionimprovement.com/harvey-tribute-window-review",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Construction professional tested ThermaLock 3X in minus 15°F conditions reporting zero condensation and no drafts. Contoured sash praised for wood-like appearance. Concluded initial price skepticism was unwarranted and energy savings payback would be rapid.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed construction professional providing field-tested performance observations with specific temperature data and clear product recommendation.",
+      "topics": [
+        "performance",
+        "durability",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "J.C. Tonnotti Window Company Troubleshooting Guide",
+      "url": "https://jctonnotti.com/harvey-windows-troubleshooting-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional installer documentation indicates 90% of reported Harvey Tribute issues stem from improper tilting technique rather than manufacturing defects. Balance system is self-leveling. Only genuine hardware failures require professional service. User error dominates complaint patterns.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation operation and user technique rather than intrinsic product quality; relevant context for complaint interpretation but not a direct product score.",
+      "topics": [
+        "service",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Lezzer Lumber Harvey Partnership Video",
+      "url": "https://youtube.com/watch?v=tgld6TcY9Ck",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Nearly decade-long distributor partnership with Harvey. Tribute positioned as top-of-line 'professional choice.' Emphasized customer service accessibility, working display windows in stores, and Harvey representative participation. No extravagant performance claims made.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Vendor promotional content from long-standing commercial partner; provides distribution and service context but represents sponsored perspective without independent analysis.",
+      "topics": [
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Today's Homeowner Harvey Review",
+      "url": "https://todayshomeowner.com/windows/reviews/harvey-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Rated Harvey 3.5 stars. Described as offering 'reliable performance, competitive pricing, and regional availability.' Flagged 10-year wood window warranty as significant weakness versus competitors. Noted energy-efficient options at affordable pricing with strong customization.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional publication providing structured star rating with specification-level warranty comparison and explicit value judgment.",
+      "topics": [
+        "quality",
+        "warranty",
+        "value",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "United Home Experts Andersen vs. Harvey Comparison",
+      "url": "https://unitedhomeexperts.com/andersen-vs-harvey-windows",
+      "platform": "review_site",
+      "column": "expert",
+      "snippet": "Regional installation firm found Harvey Majesty and Andersen 400 warranty terms 'very comparable': 20-year glass, 10-year parts, both transferable. Both engineered for Northeast climate. No clear superiority declared. Andersen noted for broader glass upgrade options.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed regional professional providing structured comparative analysis with field installation experience and warranty detail.",
+      "topics": [
+        "warranty",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Harvey Tribute Official Specifications",
+      "url": "https://harveywindows.com/windows/double-hung/tribute-vinyl-double-hung-window",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer spec page documenting fusion-welded frame construction, contoured sash, dual-action locks, Energy Star qualification across multiple glass packages, lifetime vinyl warranty, and extensive customization options.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; specifications useful as reference but source is promotional and cannot be independently scored.",
+      "topics": [
+        "specs",
+        "performance",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Harvey Thermal Performance Data PDF",
+      "url": "https://images.greenbuildingadvisor.com/app/uploads/2020/10/07150817/Harvey-Window-and-Door-Thermal-Structural-Performance-Values.pdf",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Lab test data: ThermaLock RS U=0.26, SHGc=0.24, VT=0.45. ThermaLock 3X U=0.20, SHGc=0.19, VT=0.32. Air infiltration ranges 0.03–0.17 cfm/ft² by size. DP ratings 35–50 depending on configuration. Water resistance 7.52 psf.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published laboratory testing data with verified specifications across configurations; independent technical reference hosted by credentialed green building publication.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Green Building Advisor Harvey Data Reference",
+      "url": "https://greenbuildingadvisor.com",
+      "platform": "gba",
+      "column": "expert",
+      "snippet": "Technical reference for Harvey energy performance ratings and Energy Star zone compliance across glass packages and climate zones. Confirms multi-zone qualification including Northern, North-Central, South-Central, and Southern regions.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed technical publication referencing verified specification data relevant to climate performance claims.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Today's Homeowner Marvin vs. Harvey Comparison",
+      "url": "https://todayshomeowner.com/windows/reviews/marvin-vs-harvey-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Structured head-to-head: Marvin $900–$1600 installed versus Harvey $500–$1400. Marvin fiberglass rated superior for harsh-climate durability; Harvey better value for budget-conscious buyers. Both Energy Star qualified. Marvin offers broader glass options.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional publication providing structured competitive comparison with pricing, material, and performance analysis.",
+      "topics": [
+        "value",
+        "durability",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Harvey vs. Fiberglass Analysis",
+      "url": "https://harveywindows.com/inspiration/ideas-advice/comparing-vinyl-vs-fiberglass-windows-harvey-windows-doors",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer-authored argument that fusion-welded vinyl corners outperform bracket-assembled fiberglass on air infiltration, with comparable thermal performance at one-third the cost. Challenges fiberglass durability and efficiency premium claims.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer advocacy content presenting competitive comparison from self-interested perspective without independent verification.",
+      "topics": [
+        "value",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Modernize Harvey Brand Review",
+      "url": "https://modernize.com/windows/brands",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Rated Harvey 3.5 stars. Tribute described as company's 'best collection' for superior energy efficiency. Installed cost estimated $400–$1,200 for double-hung. Harvey positioned as best for East Coast value buyers. Noted measurable brand growth.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional consumer publication providing structured rating with pricing data and product positioning analysis.",
+      "topics": [
+        "value",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "HomeGuide Harvey Cost Analysis",
+      "url": "https://homeguide.com/costs/harvey-windows-prices",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Comprehensive pricing guide: vinyl $500–$1,500 installed, wood $950–$3,000. Positioned Harvey as budget-friendly versus Andersen. Acknowledges Andersen's broader customization and national availability. Notes warranty limitations.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional pricing guide with structured cost comparison and explicit value positioning relative to named competitors.",
+      "topics": [
+        "value",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Harvey Vinyl Window Warranty Document",
+      "url": "https://cdn.mediavalet.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official warranty: lifetime vinyl and mechanical parts for original owner; 20-year glass against seal failure; transfers with 20-year cap. Explicitly excludes labor, improper installation, condensation, salt/acid rain, fire, lightning, and water immersion of seals.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Official legal document providing authoritative warranty terms; directly scoreable for warranty topic analysis.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Window Dog Homeowner Complaint Compilation",
+      "url": "https://thewindowdog.com/harvey-windows-reviews/2025",
+      "platform": "review_site",
+      "column": "forum",
+      "snippet": "Aggregated owner complaints: 24-window buyer received wrong screens, broken frames, and ripped screens across three separate shipments. Screens described as falling apart. Customer service refused to cover remediation costs. Multiple accounts of inadequate warranty resolution.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum-aggregated complaints describing specific physical product defects (broken frames, ill-fitting screens) with corroborating pattern across multiple independent accounts on same platform.",
+      "topics": [
+        "quality",
+        "service",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Houzz Harvey Window Forum Discussions",
+      "url": "https://houzz.com/discussions/2642201/harvey-window-reviews",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Mixed long-term owner reports. One 20-year problem-free Classic user. Critical commenters cite thin walls, metal spacer system, seal failures within 3–5 years, and rusted hinges within four years of new construction installation requiring over a year for service response.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread with physical defect descriptions (seal failures, rusted hinges) showing corroborating pattern across multiple independent posters, qualifying for scoring per defect-with-corroboration rule.",
+      "topics": [
+        "durability",
+        "quality",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Houzz Acoustic Window Complaint Thread",
+      "url": "https://houzz.com/discussions/2642201",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner reports purchasing Harvey acoustical windows based on salesperson guarantee of noise reduction. No measurable noise control achieved. Harvey denied acoustical claims through legal counsel. Multiple forum participants reported similar experience of unmet acoustic promises.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple forum posters describing same pattern of unmet acoustic performance claims with legal denial response; corroborated pattern elevates from quarantine to score.",
+      "topics": [
+        "performance",
+        "service",
+        "legal",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Cornerstone Building Brands Acquisition Announcement",
+      "url": "https://investors.cornerstonebuildingbrands.com/news/2024",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Cornerstone Building Brands completed acquisition of Harvey Building Products in Q2 2024, including Soft-Lite and Thermo-Tech brands. Positioned as expanding Repair and Remodel market exposure and strengthening dealer distribution channels.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate acquisition event is material operational context affecting brand continuity and service reliability but does not directly score product quality.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Soft-Lite Acquisition Press Release",
+      "url": "https://prweb.com/releases/soft_lite_windows_acquired_by_harvey_building_products",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Harvey Building Products acquired Soft-Lite Windows in December 2016, consolidating complementary distribution and product lines. Indicates history of strategic acquisition activity preceding the 2024 Cornerstone transaction.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Historical M&A activity relevant to corporate stability context but does not score product quality directly.",
+      "topics": [
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Migliaccio & Rathod Operational Failure Investigation",
+      "url": "https://classlawdc.com/2025/12/22/harvey-building-products-operational-failure-investigation",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Law firm investigating Harvey following hundreds of BBB complaints concentrated in recent 12 months. Issues documented: balance failures, IGU seal failures, warranty claim denials, service delays, installer blame-shifting. Complaint clustering around double-hung hardware and glass seals suggests systemic pattern.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Active legal investigation with documented complaint patterns; classified as report_only per legal/lawsuit rule, though highly material to warranty and service topics.",
+      "topics": [
+        "legal",
+        "warranty",
+        "service",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "BBB Business Profile – Harvey Industries Inc.",
+      "url": "https://bbb.org/us/pa/allentown/profile/windows/harvey-industries-inc",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Harvey Industries Inc. holds non-accredited BBB status, meaning the business has not agreed to BBB Standards for Trust or passed BBB vetting process. Specific complaint ratio not provided in available documentation.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB accreditation status is operational/regulatory context; single status indicator without complaint details insufficient to score product performance.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "FTC Advisory Opinion – Harvey (1997)",
+      "url": "https://ftc.gov/legal-library/browse/advisory-opinions/advisory-opinion-harvey-12-23-97",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "FTC advisory opinion dated December 23, 1997 addressed Harvey's responsibilities as furnisher of information to consumer reporting agencies. Relates to credit reporting infrastructure, not product quality or window performance.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Historical regulatory opinion about credit reporting practices with no relevance to window product quality, performance, or warranty; minimal applicability to current product evaluation.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Harvey Customer Support Page",
+      "url": "https://harveywindows.com/contact-us",
+      "platform": "other",
+      "column": "review",
+      "snippet": "US-based customer service available at 1-800-822-0437, Monday through Friday 7:30–4:30 EST. Field service department available. Parts and warranty claim process documented. Indicates domestic support infrastructure exists.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer contact page documents service availability but is promotional infrastructure content, not an independent product evaluation.",
+      "topics": [
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Fine Homebuilding Forum – Harvey Discussion",
+      "url": "https://finehomebuilding.com/forum/harvey-replacement-windows",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Professional community forum participants characterize Harvey as 'good quality window, decent service and decent price' after years of use. No enthusiasm for premium positioning. Suggests comparable alternatives exist with better service at similar pricing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Fine Homebuilding forum attracts credentialed trade professionals; collective forum opinion from professional community qualifies as elevated forum source with scoreable product sentiment.",
+      "topics": [
+        "quality",
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Green Building Advisor Builder Question",
+      "url": "https://greenbuildingadvisor.com/question/new-construction-windows",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Builder considering Harvey Tribute ThermaLock 3X double-hung for south-facing Zone 5a new construction. Indicates product attracts green-building and high-performance construction audience seeking verified efficiency specifications.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Forum inquiry demonstrating market positioning and specification consideration context; no product defect or performance assessment to score.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "YouTube Harvey Balance Replacement Tutorial",
+      "url": "https://youtube.com/watch?v=W-7oKXr7vHU",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Harvey employee Jeff Manseau demonstrates balance replacement procedure on Harvey double-hung window. Existence of official manufacturer tutorial indicates balance failures are sufficiently common to warrant documented repair guidance.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Installation/repair tutorial addresses operational maintenance rather than intrinsic product quality; existence signals repair frequency but does not score product performance directly.",
+      "topics": [
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "YouTube Lock Repair Demonstration",
+      "url": "https://youtube.com/watch?v=zy9Vm9RB9Q8",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Accent Windows technician demonstrates locking failure diagnosis and repair. Identifies improper tilting and balance disconnection as primary operational failure causes. Provides step-by-step field resolution for most common complaints.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Third-party technician tutorial addresses installation and operation technique; confirms common failure modes but classifies as operational rather than manufacturing defect content.",
+      "topics": [
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "YouTube Harvey Sash Replacement Tutorial",
+      "url": "https://youtube.com/watch?v=wIk20UVf_9c",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Harvey employee Jeff Manseau demonstrates sash replacement procedure. Confirms sash replacement is available as warranty repair option without full window replacement, indicating modular serviceability design.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer repair documentation addresses warranty service process; relevant to service quality assessment but classified as report_only per installation/repair content rule.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Harvey Condensation Information Page",
+      "url": "https://harveywindows.com/inspiration/ideas-advice/condensation-are-my-windows-the-cause-harvey-windows-doors",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Harvey explains condensation results from high indoor humidity rather than window defect, and that proper ventilation controls interior condensation. Exterior condensation characterized as natural and normal. Positions condensation complaints as homeowner environment issue.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer educational content addressing complaint deflection for a commonly cited issue; self-interested framing without independent validation.",
+      "topics": [
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Harvey Energy Efficiency Benefits Page",
+      "url": "https://harveywindows.com/inspiration/ideas-advice/the-many-benefits-of-energy-efficient-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer content claiming Energy Star windows save $100–$583 annually. Highlights fusion-welded construction, warm-edge spacers, multi-pane configurations, and gas fills. General energy efficiency marketing without Tribute-specific data.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content presenting general energy efficiency claims without independent testing or product-specific comparative data.",
+      "topics": [
+        "performance",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Keystone Building Products Specification Reference",
+      "url": "https://keystonebldg.com/ProductInformation/Harvey/files/basic-html/page54.html",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Distributor technical database documenting Harvey structural and air infiltration test results across window sizes and configurations. Confirms DP50 rating for smaller units, DP40 for mid-size reinforced, DP35 for larger configurations.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Third-party distributor technical database hosting independently verifiable structural performance specifications; not manufacturer-authored.",
+      "topics": [
+        "specs",
+        "performance",
+        "durability"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "quality",
+      "expert": "Generally positive; fusion-welded construction and thick vinyl praised; Window Dog cautious but acknowledges solid basics",
+      "review": "3.5 stars typical across professional publications; solid mid-market positioning",
+      "forum": "Polarized; loyal long-term users versus numerous reports of thin walls, poor spacer systems, and seal failures",
+      "agreement": "low",
+      "notes": "Expert and review sources cluster around 'solid mid-market'; forum sources introduce significant downward pressure"
+    },
+    {
+      "topic": "durability",
+      "expert": "Fusion-welded corners, block-and-tackle balances, and thick vinyl approved; lifetime vinyl warranty supports confidence",
+      "review": "Lifetime vinyl warranty competitive; 20-year glass comparable to Andersen; fiberglass alternatives acknowledged as superior long-term",
+      "forum": "Multiple accounts of seal failure within 3–5 years; rusted hinges within 4 years; balance mechanism disconnection common",
+      "agreement": "low",
+      "notes": "Significant disconnect between warranty-implied durability and owner-reported failure timelines"
+    },
+    {
+      "topic": "performance",
+      "expert": "ThermaLock 3X delivers U=0.20 with zero condensation at -15°F validated by field testing; air infiltration competitive",
+      "review": "Energy Star qualified across four climate zones; competitive specs but not uniquely superior per Window Dog",
+      "forum": "Thermal performance satisfaction high when properly specified; acoustic performance claims disputed as undelivered",
+      "agreement": "medium",
+      "notes": "Thermal performance consensus reasonably positive; acoustic performance represents specific area of concern"
+    },
+    {
+      "topic": "warranty",
+      "expert": "Lifetime vinyl and 20-year glass coverage documented; labor exclusion flagged as significant limitation",
+      "review": "Warranty appears generous; Today's Homeowner specifically flags 10-year wood warranty weakness; labor exclusion noted",
+      "forum": "Widespread complaints about warranty claim denials, slow response, and blame-shifting between manufacturer and installer",
+      "agreement": "low",
+      "notes": "Paper warranty terms are competitive; actual warranty execution rated poorly across forum and investigation sources"
+    },
+    {
+      "topic": "service",
+      "expert": "US-based support documented; authorized dealer network available; J.C. Tonnotti notes 90% issues resolvable without service calls",
+      "review": "Lezzer partnership suggests dealer satisfaction; Modernize and Today's Homeowner note service accessibility",
+      "forum": "Consistent pattern of poor customer service: wrong shipments, broken frames, multi-week delays, unresponsive corporate support",
+      "agreement": "very_low",
+      "notes": "Largest gap in report; expert/review sources positive on infrastructure, forum sources uniformly negative on execution"
+    },
+    {
+      "topic": "value",
+      "expert": "Window Dog: 'not best value'; Wallaby and Home Construction Improvement more positive on cost-performance ratio",
+      "review": "Modernize and HomeGuide position as budget-friendly East Coast option; Marvin comparison concludes Harvey better for cost-conscious buyers",
+      "forum": "Value satisfaction contingent on service need; good value when installation succeeds; poor value when warranty required",
+      "agreement": "medium",
+      "notes": "Value assessment highly dependent on whether service interaction occurs; strong conditional agreement"
+    },
+    {
+      "topic": "specs",
+      "expert": "Lab-verified: ThermaLock RS U=0.26/SHGc=0.24; ThermaLock 3X U=0.20/SHGc=0.19; DP35–50; air infiltration 0.03–0.17",
+      "review": "Specifications confirmed across multiple publications; Energy Star multi-zone qualification verified",
+      "forum": "No significant spec disputes from forum sources; performance claims largely validated by those who specified premium glass",
+      "agreement": "high",
+      "notes": "Highest consensus category; technical specifications consistently verified across source types"
+    },
+    {
+      "topic": "legal",
+      "expert": "Migliaccio & Rathod investigation active as of late 2025; no known recalls or class actions at investigation initiation",
+      "review": "No review publications reporting legal actions; investigation not yet covered in mainstream review press",
+      "forum": "Forum reports of Harvey denying acoustic claims through legal counsel; BBB non-accredited status noted",
+      "agreement": "low",
+      "notes": "Active investigation represents emerging legal risk not yet reflected in professional review sources"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Lifetime coverage on vinyl frame and all mechanical parts including locks, balances, and sash retainers for original owner",
+      "20-year insulating glass seal failure coverage is competitive with Andersen and Marvin at the same price point",
+      "Warranty is transferable to subsequent owner with 20-year cap from manufacture date",
+      "Sash replacement available as warranty repair without full window replacement, reducing cost of covered repairs"
+    ],
+    "underperforms_expectations": [
+      "Labor and installation costs explicitly excluded from all warranty coverage, making claims expensive to exercise",
+      "Service execution widely reported as slow, unresponsive, and prone to blame-shifting between manufacturer and installer",
+      "Wood window warranty is only 10 years, substantially below competitor offerings for that product category",
+      "Active legal investigation documents 'hundreds of complaints' about warranty claim denials and administrative delays",
+      "Warranty excludes condensation damage, which owners experiencing seal failures may incorrectly assume is covered"
+    ],
+    "surprises": [
+      "Balance mechanism issues—among most common owner complaints—are partially excluded from warranty via 'improper installation' carve-out, creating disputed claim territory",
+      "Water immersion of seals is explicitly excluded, creating ambiguity for windows in flood-prone or consistently wet climates",
+      "Airborne pollutants including salt and acid rain excluded, disproportionately impacting coastal homeowners who represent a core Harvey market",
+      "Post-acquisition by Cornerstone Building Brands in 2024 introduces uncertainty about warranty continuity and service infrastructure under new corporate ownership"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "ThermaLock_RS": 0.26,
+      "ThermaLock_3X": 0.2,
+      "note": "Values for standard configurations without grids"
+    },
+    "shgc": {
+      "ThermaLock_RS": 0.24,
+      "ThermaLock_3X": 0.19,
+      "SunGain_HSHG": "optimized_high_northern",
+      "SunShield_Plus": "optimized_low_southern"
+    },
+    "vt": {
+      "ThermaLock_RS": 0.45,
+      "ThermaLock_3X": 0.32
+    },
+    "air_infiltration": {
+      "range_cfm_per_sqft": "0.01–0.17",
+      "small_config_42x77": 0.03,
+      "large_config_54x91_reinforced": 0.06,
+      "note": "Performance varies meaningfully with window dimensions; larger sizes approach 0.17 cfm/ft²"
+    },
+    "frame_material": "Fusion-welded multi-chamber PVC vinyl; claimed nearly 2x PVC content versus competitive vinyl",
+    "glass": {
+      "options": [
+        "ThermaLock RS (Low-E/Argon double-pane)",
+        "ThermaLock 3X (triple-pane Low-E/Krypton)",
+        "ThermaGuard",
+        "SunGain HSHG"
+      ],
+      "spacer_system": "Tin-plated metal spacer (noted as legacy technology by critics)",
+      "coatings": "Low-E on multiple glass packages"
+    },
+    "dp_rating": {
+      "small_config_42x77": "DP50",
+      "mid_config_54x91_reinforced": "DP40",
+      "large_config": "DP35"
+    },
+    "water_resistance": {
+      "42x77_config_psf": 7.52
+    },
+    "stc": "not_available",
+    "energy_star_zones": [
+      "Northern",
+      "North-Central",
+      "South-Central",
+      "Southern"
+    ],
+    "balance_mechanism": "Block-and-tackle (noted as upgrade over inferior alternatives)",
+    "warranty_vinyl": "Lifetime limited for original owner",
+    "warranty_glass": "20 years against seal failure",
+    "warranty_transferable": true,
+    "warranty_transfer_limit": "20 years from manufacture date",
+    "warranty_labor_included": false
+  },
+  "red_flags": [
+    {
+      "type": "legal_investigation",
+      "date": "2025-12",
+      "description": "Migliaccio & Rathod LLP initiated formal investigation into Harvey Building Products following high volume of consumer complaints. Documented hundreds of BBB complaints in preceding three years, with unusual concentration in most recent 12 months. Complaint clusters specifically around double-hung balance failures, IGU seal failures, warranty denial patterns, and service delays.",
+      "severity": "high",
+      "source": "SRC-021"
+    },
+    {
+      "type": "ownership_change",
+      "date": "2024-Q2",
+      "description": "Harvey Building Products acquired by Cornerstone Building Brands in Q2 2024. Post-acquisition service quality, warranty continuity, and product consistency under new corporate ownership are uncertain. Complaint volume spike documented in 2024–2025 period may correlate with transition.",
+      "severity": "medium",
+      "source": "SRC-019"
+    },
+    {
+      "type": "bbb_non_accreditation",
+      "date": "current",
+      "description": "Harvey Industries Inc. (Pennsylvania entity) holds non-accredited BBB status, meaning business has not agreed to BBB Standards for Trust or passed vetting process. Relationship to Harvey Building Products not fully clarified in available documentation.",
+      "severity": "low",
+      "source": "SRC-022"
+    },
+    {
+      "type": "systemic_complaint_pattern",
+      "date": "2022–2025",
+      "description": "Multiple independent forum sources, law firm investigation, and review aggregators document recurring pattern of seal failures within 3–5 years, balance mechanism failures, and acoustic performance misrepresentation. Pattern across unrelated sources suggests systematic rather than isolated issues.",
+      "severity": "high",
+      "source": "SRC-016, SRC-017, SRC-018, SRC-021"
+    },
+    {
+      "type": "acoustic_claim_denial",
+      "date": "multiple",
+      "description": "Multiple homeowners report purchasing Harvey acoustical windows based on salesperson noise reduction guarantees, experiencing no measurable improvement, and then facing denial of those claims through legal counsel. Pattern suggests potential sales practice inconsistency with product capability.",
+      "severity": "medium",
+      "source": "SRC-018"
+    }
+  ],
+  "bottom_line": "The Harvey Tribute double-hung window is a legitimate mid-market vinyl product delivering competitive thermal performance—particularly with ThermaLock 3X triple-pane glass achieving a U-factor of 0.20—solid fusion-welded construction, and broad customization at installed prices ranging $400–$1,400. Expert and published review sources converge around a 3.5-star assessment with acknowledgment of genuine construction quality. However, the product carries significant risk flags that prospective buyers must weigh seriously. A 2025 law firm investigation documents hundreds of complaints concentrated around balance failures, IGU seal failures, and warranty claim denials, with complaint volume described as anomalously high for a regional manufacturer. Forum sources across Houzz, Window Dog, and Reddit independently corroborate patterns of seal failure within 3–5 years, defective shipments, and unresponsive customer service that contradict the paper-generous lifetime vinyl and 20-year glass warranties. The 2024 acquisition by Cornerstone Building Brands adds ownership-transition uncertainty. The Harvey Tribute is defensible for cost-conscious East Coast homeowners using credentialed installers who will manage warranty claims, provided they specify ThermaLock 3X, understand the labor exclusion from warranty coverage, and do not require acoustic performance. For homeowners prioritizing service reliability, warranty execution, or long-term durability confidence, the premium for Andersen or Marvin products is likely justified.",
+  "metadata": {
+    "total_sources": 32,
+    "pool_distribution": {
+      "S": 0,
+      "A": 15,
+      "B": 12,
+      "C": 5
+    },
+    "classification_distribution": {
+      "score": 14,
+      "report_only": 12,
+      "quarantine": 6
+    },
+    "platform_distribution": {
+      "review_site": 9,
+      "other": 10,
+      "trade_pub": 2,
+      "youtube": 3,
+      "houzz": 2,
+      "gba": 2,
+      "fhb": 1,
+      "bbb": 1,
+      "reddit": 0
+    }
+  },
+  "product_slug": "harvey_tribute",
+  "product_name": "Harvey Tribute",
+  "manufacturer_slug": "harvey",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 182365,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 32,
+    "score": 16,
+    "report_only": 11,
+    "quarantine": 5,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.17300700000000002
+}

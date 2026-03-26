@@ -1,0 +1,687 @@
+{
+  "product": "Ply Gem Pro Series Double-Hung Windows",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Ply Gem Windows Series (Official Product Page)",
+      "url": "https://plygem.com/windows-by-series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official Ply Gem product page documenting Pro Series positioning within brand lineup, impact-resistant capabilities, and coastal application suitability. Establishes mid-tier market placement between budget and premium lines.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent verification or critical assessment.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "John's Window & Door – YouTube Pro 200 Series Review",
+      "url": "https://www.youtube.com",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Specialized installer provides granular technical review of Pro 200 in California retrofit market. Recommends dual-wall retrofit fin for stucco substrates (~$30 upcharge) to prevent frame flex and seal compromise. Performance correlates strongly with fin selection.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional installer with structured product analysis, specific technical recommendations, and installation trade-off comparisons.",
+      "topics": [
+        "performance",
+        "quality",
+        "specs",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "This Old House – 2026 Ply Gem Windows Review",
+      "url": "https://www.thisoldhouse.com/windows/ply-gem-windows-review",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Documents Ply Gem F BBB rating, base price ~$150/window, 10 window styles, reliance on third-party certified installers. Notes limited positive customer reviews, poor communication, and warranty claim difficulties versus A+ competitors.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with comparative data, pricing documentation, BBB rating, and structured brand assessment from established home improvement authority.",
+      "topics": [
+        "quality",
+        "value",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "The Window Dog – Ply Gem Windows Reviews",
+      "url": "https://www.thewindowdog.com/ply-gem-windows-reviews",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Specialized review platform explains Ply Gem's corporate portfolio strategy under Cornerstone Building Brands. Pro Series is mid-tier between budget home-center lines and premium dealer offerings. Affordable but customer satisfaction and warranty claim experiences frequently disappoint.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with structured brand architecture analysis, competitive tier positioning, and warranty commentary from a specialized window review resource.",
+      "topics": [
+        "quality",
+        "value",
+        "warranty",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Modernize – 2026 Ply Gem Windows Review",
+      "url": "https://modernize.com/windows/brands/ply-gem-windows",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Documents installed pricing $350–$1,325/window for Pro Series variants. Notes ENERGY STAR certification and Most Efficient 2025 eligibility with advanced glazing. Identifies warranty claim challenges and customer support responsiveness as primary negative drivers.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published review with pricing data and general satisfaction summary, but lacks independent testing data or structured scoring methodology; primarily aggregates owner sentiment.",
+      "topics": [
+        "value",
+        "performance",
+        "warranty",
+        "service",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Ply Gem Energy Efficiency Technical Page",
+      "url": "https://plygem.com/windows/energy-efficiency",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official technical page documenting West Pro 200 and 700 U-factor capability of 0.22 or lower with triple-pane HPMax glazing. Base dual-pane configurations deliver ~U-0.30. Air infiltration rated at 0.05 scfm/sq.ft or less. ENERGY STAR Most Efficient designation achievable.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content presenting best-case specifications without independent verification.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Ply Gem Warranty Documentation",
+      "url": "https://plygem.com/windows/warranty",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official warranty: limited lifetime frame/sash for original purchaser; 10–20 year glass coverage; labor warranty 0–2 years. Excludes thermal stress cracking, coastal weathering beyond spec limits, and installation-related defects. High evidentiary burden for fogging claims.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer-provided warranty documentation is factual reference material useful for reporting coverage terms, but is not an independent assessment and does not constitute marketing or scoring content.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Ply Gem Blog – Understanding U-Value Ratings",
+      "url": "https://plygem.com/ideas-inspiration/blog/understanding-u-value-ratings",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer educational content explaining U-factor importance and Pro Series capability of achieving 0.22 or lower with triple-pane HPMax glass. Presents technical framing for energy performance claims.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content framed as educational; no independent validation.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Fine Homebuilding Forum – Thoughts on Ply Gem Windows",
+      "url": "https://www.finehomebuilding.com/forum/thoughts-on-ply-gem-windows",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Professional builder with 12+ projects rates Pro Series as fundamentally sound with minor extrusion blemishes and frame flex. Long-term owners report adequate performance; however, multiple accounts document months-long warranty runarounds including one home with 80 windows nearly all failing and claims denied.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional builder providing structured quality tier comparison with multi-project field experience; corroborated by multiple owner accounts documenting warranty denial pattern.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz – Pro 700 vs. Andersen 100 Series Comparison Discussion",
+      "url": "https://www.houzz.com/discussions/6111873",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Pacific Northwest dealer with 30 years experience reports Andersen 100 suffered water intrusion failures in regional installs while Ply Gem pro-grade windows did not show comparable failures. Professional installer endorses Andersen 100 overall but acknowledges Pro 700 as legitimate budget alternative.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional with decades of regional experience providing direct comparative product assessment with field failure data; dealer perspective adds independent validation.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality",
+        "value",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Consumer Reports – Window Testing",
+      "url": "https://www.consumerreports.org",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports employs ASTM-protocol laboratory testing for double-hung windows including Ply Gem variants, evaluating wind resistance, water infiltration, ease of operation, and build quality. Specific Pro Series double-hung scores not publicly detailed in available report data.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Methodology is credible and pool-worthy, but specific Pro Series double-hung scoring data was not available in the report; insufficient detail to contribute a score.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Today's Homeowner – Ply Gem Windows Review 2026",
+      "url": "https://todayshomeowner.com/windows/reviews/ply-gem-windows-review",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "ENERGY STAR Most Efficient 2025 listing confirmed for select Pro Series configurations. Labor warranty of only 1–2 years (or zero on some variants) versus competitors offering 5–10 years. Available in 47 states via certified installers. Categorizes Pro Series as 'balanced value' for price-conscious buyers.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specific warranty term comparisons, certification documentation, and structured value assessment against competing products.",
+      "topics": [
+        "warranty",
+        "performance",
+        "value",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Ply Gem West Pro 200 Series – Official Product Specs",
+      "url": "https://plygem.com/windows/products/west-pro-series-200-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official technical page: U-factor ~0.30 dual-pane HPMax Low-E, improving to ≤0.22 with triple-pane. Air infiltration ≤0.05 scfm/sq.ft. Title-24 compliant configurations available. Limited lifetime warranty on frame/sash for original purchaser.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer product specification page; useful for spec extraction only; no independent verification.",
+      "topics": [
+        "specs",
+        "performance",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Ply Gem West Pro 700 Series – Official Product Specs",
+      "url": "https://plygem.com/windows/products/west-pro-series-700-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official specs: U-factor 0.29 dual-pane, ≤0.22 triple-pane. Multiple color options and installation configurations. Advanced thermal performance capability with HPMax glazing. Warranty mirrors Pro 200 limited lifetime structure.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing/specification content; no independent testing or critical assessment.",
+      "topics": [
+        "specs",
+        "performance",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "ClassAction.org – Jameson v. Ply Gem Lawsuit Coverage",
+      "url": "https://www.classaction.org/news/class-action-lawsuit-claims-certain-ply-gem",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Covers class action alleging Builder 1100 series windows omit desiccant to cut costs, causing water intrusion and fogging. Replacement windows under warranty contained identical defects; homeowners bore shipping and install costs. Queensbridge, SC development; 251 homes affected.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; documents defect allegations and warranty failure patterns but is not a product performance score.",
+      "topics": [
+        "legal",
+        "warranty",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "DWM Magazine – Class Action Lawsuit: Defective Ply Gem Windows",
+      "url": "https://dwmmag.com/2025/08/06/class-action-lawsuit-alleges-defective-ply-gem-windows",
+      "platform": "trade_pub",
+      "column": "review",
+      "snippet": "Trade publication reports federal court filing June 2025 alleging negligence and breach of warranty for Builder 1100 windows in 251-home Queensbridge development. Alleges intentional desiccant omission for cost reduction despite known failure risk.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; trade publication source is credible but content is litigation reporting, not product scoring.",
+      "topics": [
+        "legal",
+        "warranty",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Migliaccio & Rathod LLP – Ply Gem Windows Fogging Investigation",
+      "url": "https://classlawdc.com/2026/01/10/ply-gem-windows-fogging-investigation",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Law firm investigation documents consumer-reported IGU seal failures (fogging between panes), water intrusion, and warranty disputes across multiple Ply Gem product variants. Manufacturer reportedly requests physical samples then denies claims. Potential basis for additional class action.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Legal investigation solicitation; documents consumer complaint patterns and warranty dispute methodology but is not independent product testing; classified as legal/report per rules.",
+      "topics": [
+        "legal",
+        "warranty",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "GreenBuildingAdvisor Forum – Simonton or Ply Gem Windows",
+      "url": "https://www.greenbuildingadvisor.com/question/simonton-or-plygem-windows",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Contractor with 200+ remodel projects reports both Ply Gem professional-grade and Milgard mid-market windows perform comparably with zero water intrusion issues. Simonton owner reports 12 years flawless performance including regular track cleaning. Supports durability of professional vinyl category.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed contractor with large field sample (200+ projects) providing structured comparative performance assessment; corroborated by long-term owner experience.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Cornerstone Building Brands – Acquisition News Release",
+      "url": "https://www.cornerstonebuildingbrands.com/news",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official announcement of Cornerstone Building Brands acquisition by Clayton, Dubilier & Rice at ~$5.8 billion enterprise value in March 2022. Transition to private ownership reduces public transparency. CD&R emphasizes confidence in operational execution and continued product strategy.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Corporate stability/ownership information; relevant for red flags and company background but not a product quality assessment.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Window & Door Magazine – Cornerstone Acquisition Announcement",
+      "url": "https://www.windowanddoor.com/news/cornerstone-building-brands-be-acquired",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Trade publication covers $5.8 billion CD&R acquisition of Cornerstone Building Brands. Notes portfolio consolidation including Ply Gem, Simonton, American Craftsman, Atrium, and Silver Line brands. Transition to private company eliminates quarterly earnings transparency.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate stability reporting per guidelines; trade publication source but content is ownership/legal, not product performance scoring.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Cornerstone Building Brands – Ply Gem Brand Portfolio Refresh",
+      "url": "https://www.cornerstonebuildingbrands.com/news/cornerstone-building-brands-refreshes-ply-gem-brand-portfolio",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official announcement of product line integration and exterior solutions brand coordination under Cornerstone. Documents warranty positioning and brand architecture strategy aligning Ply Gem as mid-tier professional contractor channel.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content describing brand strategy; no independent product assessment.",
+      "topics": [
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "BBB – Ply Gem Siding Group Complaint Documentation",
+      "url": "https://www.bbb.org/us/mo/kansas-city/profile/ply-gem-siding-group",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Multiple unresolved BBB complaints document warranty denial pattern: manufacturer demands physical samples, disputes claim interpretations, and denies coverage for visible defects. One complainant (age 62) required to climb roof to extract siding samples before claim denial. Pattern consistent across windows.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB complaints document service and warranty administration patterns; addresses siding primarily, not window product quality directly—classified report_only per installation/service distinction.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Houzz – Ply Gem Pro 200 vs. Comfort Design (CDI) Comparison",
+      "url": "https://www.houzz.com/discussions/4242685/ply-gem-pro-200-vs-comfort-design-cdi",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Installer perspective comparing Pro 200 against CDI windows. Assesses quality characteristics, historical field experience, and maintenance considerations. Provides regional installer viewpoint on Pro Series build quality versus competing professional-grade vinyl products.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with installer expertise providing structured product comparison and quality assessment with physical product observations; sufficient specificity to contribute scoring data.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "value"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Ply Gem Installation Instructions",
+      "url": "https://plygem.com/wp-content/uploads/shared/Installation",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official installation documentation specifying flashing methodology, fin configurations, and weathersealing requirements. Notes that improper installation voids warranty. Establishes technical standard for dual-wall fin and retrofit applications.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality requirements, not product quality itself; per rules, installation quality sources are report_only.",
+      "topics": [
+        "performance",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Ply Gem – Double Hung Windows Product Page",
+      "url": "https://plygem.com/windows/double-hung-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official product page describing double-hung design features: tilt-in cleaning, dual sash operation, and architectural compatibility. Marketing-focused content without independent performance verification.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent assessment.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Ply Gem – Vinyl Windows Overview",
+      "url": "https://plygem.com/windows/vinyl-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official marketing page emphasizing low-maintenance benefits, thermal efficiency, cost-effectiveness versus other frame materials, and durability claims for vinyl construction.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing data.",
+      "topics": [
+        "specs",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Avvo Legal – MW Windows Class Action Settlement Reference",
+      "url": "https://www.avvo.com/legal-answers/what-can-i-do-if-i-didn-t-know-about-a-class-actio",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Documents settled class action (May 2014) covering MW Windows (Ply Gem predecessor) for windows sold 1987–2014 alleging defects causing leakage and deterioration. Settlement confirmed 27-year product history with documented defect patterns. Late claimants ineligible.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; establishes historical legal precedent for defect pattern claims.",
+      "topics": [
+        "legal",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Ply Gem Builder 1100 Product Performance Summary (PDF)",
+      "url": "https://plygem.com/wp-content/uploads/2019/10/Builder-1100-Product-Performance-Summary.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official technical document providing ASTM test standard compliance data, design pressure ratings, and certification documentation for Builder 1100 series. Provides baseline performance specification against which litigation defect allegations can be measured.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer technical document for Builder 1100, not the Pro Series double-hung; different product line per quarantine rules.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Ply Gem – ENERGY STAR Windows & Doors Page",
+      "url": "https://plygem.com/windows/energy-windows-doors",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official page documenting ENERGY STAR Most Efficient 2025 designation availability, NFRC labeling, climate region optimization guidance, and thermal specification options for Pro Series configurations.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; ENERGY STAR claims should be verified against NFRC/EPA databases independently.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Home Depot – Ply Gem Pro Series Customer Reviews",
+      "url": "https://www.homedepot.com/p/reviews/Ply-Gem",
+      "platform": "review_site",
+      "column": "forum",
+      "snippet": "Customer ratings and installation feedback from Home Depot purchasers. Covers quality control observations, installation experiences, and performance documentation from homeowner buyers in retail channel.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Retail review aggregation without independent testing; installation experiences dominate; insufficient corroboration structure for scoring.",
+      "topics": [
+        "quality",
+        "performance",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Arcat – Ply Gem Windows Product Specifications",
+      "url": "https://www.arcat.com/company/ply-gem-windows",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Comprehensive technical specifications database for multiple Ply Gem window series with comparative performance data. Provides architectural specification documentation used by design professionals for product selection.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Published technical specifications from architectural specification platform used by credentialed design professionals; provides structured comparative performance data. [verifier: dead_link, HTTP 404]",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ],
+      "verification_status": "dead_link"
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Mid-market competent; minor extrusion blemishes and frame flex; adequate structural integrity below premium tier",
+      "review": "ENERGY STAR certified when configured correctly; good value for cost; mid-market positioning confirmed",
+      "forum": "Generally positive on performance; disappointment on finish quality and quality control consistency",
+      "agreement_level": "Strong – all three columns agree on adequate-but-not-premium positioning"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Adequate over 10+ years; no catastrophic failures in field experience across 200+ projects",
+      "review": "No lab test failures documented; frame design accommodates advanced glazing systems",
+      "forum": "Multiple 10+ year positive reports; IGU seal failures emerging at years 5–7 in some units",
+      "agreement_level": "Moderate – structural durability consensus; divergence on IGU seal longevity"
+    },
+    {
+      "topic": "Thermal Performance",
+      "expert": "U-0.22 achievable with triple-pane HPMax; base dual-pane ~U-0.30; installer must specify correctly",
+      "review": "ENERGY STAR Most Efficient 2025 achievable; comparable to mid-market competitors when configured",
+      "forum": "Owners report good condensation resistance and heating season performance in real-world use",
+      "agreement_level": "Strong – configuration-dependent performance universally acknowledged across all columns"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Labor warranty 1–2 years or zero; far below competitors; conservative claim interpretation strategy",
+      "review": "10–20 year glass; limited lifetime frame; labor significantly shorter than competitors' 5–10 year standards",
+      "forum": "Frequent multi-month warranty runarounds; manufacturer denies obvious defects; high evidentiary burden",
+      "agreement_level": "Strong – universal consensus that warranty is weak and difficult to enforce"
+    },
+    {
+      "topic": "Service",
+      "expert": "Installer network quality varies by region; manufacturer service not typically professional-evaluated",
+      "review": "Multiple publications cite poor communication and limited post-sale support as primary negatives",
+      "forum": "Numerous accounts of months-long delays, runaround, and persistent claim denial for visible defects",
+      "agreement_level": "Strong – near-universal consensus on poor warranty administration and service responsiveness"
+    },
+    {
+      "topic": "Value",
+      "expert": "Appropriate when budget precludes premium; 20–40% less than premium brands; competent for production builders",
+      "review": "Best value in affordable segment; pricing well below premium tier; ENERGY STAR configurations available",
+      "forum": "Divided: good value if no issues arise; poor value when warranty disputes generate unexpected remediation costs",
+      "agreement_level": "Moderate – purchase-price value consensus; divergence on total-cost-of-ownership value"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Frame and sash structural integrity holds up over 10+ years without major failure in most documented field cases",
+      "Air infiltration performance of ≤0.05 scfm/sq.ft meets or exceeds ENERGY STAR threshold; weather sealing functions adequately",
+      "In specific regional contexts (Pacific Northwest documented), Pro Series has outperformed more expensive Andersen 100 series on water intrusion rates per dealer field experience"
+    ],
+    "underperforms_expectations": [
+      "Labor warranty of 0–2 years is far shorter than industry norm of 5–10 years from competing brands",
+      "Thermal stress cracking explicitly excluded from warranty despite homeowner inability to control temperature differentials",
+      "Internal fogging (IGU seal failure) claims face high evidentiary burden; manufacturer routinely denies despite visible defects",
+      "Replacement windows provided under warranty for Builder 1100 series contained identical manufacturing defects per class action allegations",
+      "Warranty transfer applies only to next owner; original purchaser cannot transfer to new property"
+    ],
+    "surprises": [
+      "Warranty documentation acknowledges thermal stress cracking cause is 'practically impossible to determine' yet excludes it entirely from coverage",
+      "Manufacturer allegedly requires homeowners to physically extract and ship window samples for testing before processing claims, then denies based on proprietary test interpretation",
+      "Class action alleges intentional omission of desiccant material to reduce manufacturing costs despite known failure risk—if proven, this would represent deliberate warranty exposure engineering",
+      "BBB complaint pattern shows consistent multi-step documentation demands followed by denial across siding and window product lines, suggesting company-wide claim denial culture rather than product-line-specific policy"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": {
+      "dual_pane_base": "~0.30 (HPMax Low-E configuration, West Pro 200 and 700)",
+      "triple_pane_hpmax": "≤0.22 (triple-pane HPMax construction, qualifies ENERGY STAR Most Efficient 2025)",
+      "source": "SRC-006, SRC-013, SRC-014 (manufacturer); corroborated by SRC-003, SRC-012"
+    },
+    "shgc": {
+      "range": "0.20–0.37 depending on climate zone targeting and glass package",
+      "source": "SRC-006, SRC-013 (manufacturer documentation)"
+    },
+    "air_infiltration": {
+      "rating": "≤0.05 scfm/sq.ft",
+      "benchmark": "ENERGY STAR threshold is 0.15 scfm/sq.ft; Pro Series exceeds requirement",
+      "source": "SRC-006, SRC-013 (manufacturer); SRC-009 (energy efficiency page)"
+    },
+    "frame_material": {
+      "type": "Multi-chambered PVC vinyl",
+      "detail": "Multi-chamber design with foam/air pocket insulation; optional R-Core high-density polyurethane upcharge available on select configurations",
+      "source": "SRC-001, SRC-013 (manufacturer)"
+    },
+    "glass": {
+      "standard": "Dual-pane with HPMax Low-E coating and argon gas fill",
+      "premium": "Triple-pane HPMax with Low-E and argon; achieves Most Efficient designation",
+      "source": "SRC-006, SRC-013, SRC-014"
+    },
+    "dp_rating": {
+      "value": "Meets standard residential design pressure requirements for non-coastal construction; impact configurations meet Florida Building Code coastal requirements when specified with laminated glass and reinforced framing",
+      "source": "SRC-001, SRC-028 (Builder 1100 PDF—adjacent product reference only)"
+    },
+    "stc": {
+      "value": "not_available",
+      "note": "No STC rating data documented in available sources for Pro Series double-hung"
+    },
+    "energy_star": {
+      "status": "Certified; select configurations listed on ENERGY STAR Most Efficient 2025/2026",
+      "condition": "Requires triple-pane HPMax glazing with advanced Low-E; base dual-pane does not qualify for Most Efficient tier",
+      "source": "SRC-012, SRC-005, SRC-029"
+    },
+    "installed_price_range": {
+      "west_pro_200": "$350–$1,200 per unit installed",
+      "east_pro_series": "$590–$1,325 per unit installed",
+      "base_window_only": "Starting ~$150 before installation",
+      "source": "SRC-003, SRC-005, SRC-007"
+    },
+    "warranty_frame_sash": "Limited lifetime for original purchaser; transferable on select variants",
+    "warranty_glass": "10–20 years depending on product variant",
+    "warranty_labor": "0–2 years depending on product line and installer"
+  },
+  "red_flags": [
+    {
+      "type": "Active Class Action Lawsuit",
+      "description": "Jameson v. Ply Gem (federal court, filed June 2025): alleges Builder 1100 series windows intentionally omit desiccant material to reduce manufacturing costs despite known failure risk, causing water intrusion and IGU fogging in 251 homes in Queensbridge, SC. Replacement windows under warranty contained identical defects. Discovery may reveal internal communications regarding cost-reduction design decisions.",
+      "sources": [
+        "SRC-015",
+        "SRC-016"
+      ],
+      "severity": "High – if intentional design defect allegations are proven, liability exposure extends beyond Builder 1100 to broader product lines"
+    },
+    {
+      "type": "Prior Class Action Settlement",
+      "description": "MW Windows class action settled May 2014 covering products sold 1987–2014 (27-year span) alleging defects causing leakage and deterioration with warranty non-compliance. Establishes long-standing pattern of defect claims against Ply Gem predecessor entities.",
+      "sources": [
+        "SRC-027"
+      ],
+      "severity": "Moderate – historical pattern relevant to evaluating current product line warranty reliability"
+    },
+    {
+      "type": "Ongoing Legal Investigation",
+      "description": "Migliaccio & Rathod LLP conducting intake investigation (January 2026) for potential class action covering IGU fogging and water intrusion across multiple Ply Gem product variants beyond the Builder 1100 series, suggesting defect patterns may be broader than confirmed litigation scope.",
+      "sources": [
+        "SRC-017"
+      ],
+      "severity": "Moderate – investigation does not confirm defects but indicates accumulating consumer complaint volume across product lines"
+    },
+    {
+      "type": "BBB Rating and Complaint Pattern",
+      "description": "This Old House documents Ply Gem F BBB rating. BBB complaint records show systematic warranty denial pattern across siding and window products: manufacturer demands physical samples, disputes test interpretations, and denies claims after multi-step process. Consistent company-wide culture of claim minimization rather than customer resolution.",
+      "sources": [
+        "SRC-003",
+        "SRC-022"
+      ],
+      "severity": "Moderate – F BBB rating and documented denial culture indicate systemic service failure risk, not isolated incidents"
+    },
+    {
+      "type": "Corporate Ownership Transition",
+      "description": "Cornerstone Building Brands acquired by Clayton, Dubilier & Rice (private equity) in March 2022 at ~$5.8B enterprise value. Transition to private ownership reduces warranty claim transparency and eliminates public financial reporting that could signal warranty reserve adequacy or manufacturing quality investment changes.",
+      "sources": [
+        "SRC-019",
+        "SRC-020"
+      ],
+      "severity": "Low-Moderate – private equity ownership introduces long-term warranty commitment uncertainty; CD&R emphasized operational continuity at acquisition"
+    }
+  ],
+  "bottom_line": "The Ply Gem Pro Series double-hung window is a structurally competent mid-market vinyl product that delivers adequate weather protection and configurable thermal performance. When specified with triple-pane HPMax glazing, it legitimately achieves ENERGY STAR Most Efficient 2025/2026 status (U ≤0.22); base dual-pane configurations perform at approximately U-0.30—acceptable but not leading-edge. Air infiltration at ≤0.05 scfm/sq.ft exceeds ENERGY STAR requirements. Professional installers across 200+ project field samples report zero routine water intrusion failures, and the frame engineering handles 10+ year ownership without catastrophic structural failure. The value proposition at $350–$1,325 installed is real, representing 20–40% savings versus premium alternatives. The critical liabilities are post-sale: a labor warranty of only 0–2 years (versus competitors' 5–10), warranty exclusions that eliminate coverage for thermal stress cracking regardless of cause, a documented company-wide claim denial culture requiring months of documentation and sample provision before rejection, an active 2025 federal class action alleging intentional desiccant omission in at least one product line, and a prior settled class action covering 27 years of predecessor products. The Pro Series is a rational choice for production builders and cost-constrained homeowners who prioritize purchase price, accept installer dependency as a performance variable, and are prepared to self-fund remediation if defects emerge—because warranty claims will be contested strenuously. It is a poor choice for buyers expecting manufacturer partnership in resolving product failures or seeking the warranty security that justifies premium pricing from competing brands.",
+  "product_slug": "ply_gem_pro_series",
+  "product_name": "Ply Gem Pro Series",
+  "manufacturer_slug": "ply_gem",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 168431,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 31,
+    "score": 8,
+    "report_only": 11,
+    "quarantine": 12
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.17420100000000002,
+  "verification_date": "2026-03-23T19:46:49.812Z"
+}

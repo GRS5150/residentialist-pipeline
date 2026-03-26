@@ -1,0 +1,37 @@
+{
+  "product": "Windsor Pinnacle Select",
+  "operation_type": "double_hung",
+  "slug": "windsor_pinnacle_select_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 164745
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 38027
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 32,
+      "cost_estimate": 0.16232399999999997
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/windsor_pinnacle_select_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T21:48:41.270Z"
+}

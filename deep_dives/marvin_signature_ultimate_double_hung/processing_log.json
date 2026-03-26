@@ -1,0 +1,32 @@
+{
+  "product": "Marvin Signature Ultimate",
+  "operation_type": "double_hung",
+  "slug": "marvin_signature_ultimate_double_hung",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 66115
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 37,
+      "cost_estimate": 0.199488
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/marvin_signature_ultimate_double_hung_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-22T20:00:26.914Z"
+}

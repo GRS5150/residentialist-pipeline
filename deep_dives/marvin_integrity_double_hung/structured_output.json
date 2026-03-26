@@ -1,0 +1,670 @@
+{
+  "product": "Marvin Integrity Double-Hung Window",
+  "report_date": "2025-12",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Houzz Forum - Marvin Integrity Window Review",
+      "url": "https://www.houzz.com/discussions/2630750",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multiple owners report balance tube failures after 10 years, grille breakage upon initial installation, and warranty denial. Some users praise no issues at 2 years with proper installation. Premium pricing did not guarantee durability over basic vinyl alternatives.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple corroborating reports of physical product defects (balance tube failures, grille breakage) across different users in same thread constitute a documented pattern.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Houzz Forum - Major Problems with Marvin Integrity Dealer",
+      "url": "https://www.houzz.com/discussions/2640487",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Dealer provided windows 5.5 inches narrower and 2 inches shorter than ordered. Dealer blamed customer and initially offered correct-size windows at additional charge. Legal escalation threatened. Issue stems from dealer measurement failure, not product defect.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Complaint describes dealer measurement failure and sales process misconduct, not a manufacturing or product quality defect.",
+      "topics": [
+        "service",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "IBS 2015 - New Window Reveals - Marvin & Marvin Integrity (YouTube / Journal of Light Construction)",
+      "url": "https://www.youtube.com/watch?v=6FmK_w1WmuQ",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Journal of Light Construction coverage of Marvin IBS 2015 booth; passive house certified triple-glazed windows achieve U-factor 0.22; triple-glazed aesthetics indistinguishable from double-pane appearance; Integrity line positioned for climate-conscious builders.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Trade publication coverage of live product demonstration with specific verified performance specifications from a credentialed industry event.",
+      "topics": [
+        "performance",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "ThinkBordner - Marvin Integrity vs. Infinity Windows",
+      "url": "https://www.thinkbordner.com/marvin-integrity-vs-infinity",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Comprehensive comparison: Integrity targets new construction, Infinity/Essential targets replacement market. Integrity carries 10/29 fully transferable warranty vs. Infinity's limited lifetime with restricted transfer. Integrity priced 10-15% lower with fewer hardware and glass options.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer review with structured product comparison, documented warranty specifications, and pricing data constitutes scoreable review content.",
+      "topics": [
+        "warranty",
+        "value",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "YouTube - What Makes Marvin Windows an Excellent Choice (Dave Donofrio, All Star Products)",
+      "url": "https://www.youtube.com/watch?v=51TSdWncbXE",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Dave Donofrio, CEO of independent window company All Star Products, discusses Marvin's customization flexibility, wood stain options, and fiberglass construction advantages. Emphasizes installer training requirements and project-specific evaluation over brand loyalty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed independent installer professional providing structured product opinion with specific comparative product assessments.",
+      "topics": [
+        "quality",
+        "value",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Ask the Builder - Andersen, Pella and Marvin Window Comparisons (Tim Carter)",
+      "url": "https://www.askthebuilder.com/anderson-pella-and-marvin-window-comparisons",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Tim Carter, nationally recognized construction expert, affirms Marvin sealed-unit superiority, AAMA Gold Label certification importance, and personal installation satisfaction. Notes premium windows require proper expandable foam installation to realize performance advantages.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Nationally recognized credentialed construction expert with direct installation experience providing structured technical assessment and product opinion.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "YouTube - Marvin vs. Integrity Window Review (Matt Risinger, Build Show)",
+      "url": "https://www.youtube.com/watch?v=2vZZ_EMGseY",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Matt Risinger's side-by-side comparison: full-line Marvin has thinner jamb liners, true wood, superior hardware. Integrity offers approximately 70% of detail at 75% of cost. Both deliver U-factors below Energy Star minimums. Recommends all-Ultrex for wet environments.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Building science educator with technical expertise providing side-by-side product comparison with specific performance metrics and application recommendations.",
+      "topics": [
+        "quality",
+        "performance",
+        "value",
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Consumer Reports - Marvin Essential Replacement Window Review",
+      "url": "https://www.consumerreports.org/home-garden/replacement-windows/marvin-essential",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Marvin Essential (formerly Infinity) appears in Consumer Reports database; full review requires membership. Limited publicly available data. Note: product reviewed is Essential/Infinity line, not Integrity double-hung specifically.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Source covers Marvin Essential/Infinity product line, not the Integrity double-hung specifically. Different product line per auto-classification rules.",
+      "topics": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Marvin Windows Energy Data (Official)",
+      "url": "https://www.marvin.com/support/energy-data",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official NFRC ratings for all Marvin product lines including U-factor, SHGC, visible transmittance, and air leakage data. Integrity double-hung standard dual-pane achieves U-factor 0.28-0.30 and SHGC 0.21-0.28 depending on low-E coating selection.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing and specification content; self-reported data without independent verification constitutes manufacturer content per auto-classification rules.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Five Seasons Windows - How Long Do Fiberglass Windows Last",
+      "url": "https://www.fiveseasonswindows.com/how-long-do-fiberglass-windows-last",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Material science analysis documents fiberglass windows achieving 30-40 year service life versus 15-20 years for vinyl. Field studies show 90% thermal retention after 25 years. Early 1980s fiberglass installations still operating at original specifications.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer-adjacent review with material science data, field study citations, and laboratory testing references supporting specific durability claims.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Build Show Network - Marvin vs. Integrity Window Review",
+      "url": "https://www.buildshownetwork.com/contents/marvin-vs-integrity-window-review",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional comparison: Integrity priced approximately 25% less than full-line Marvin due to fiberglass substitution for wood. Fiberglass exterior delivers superior durability in demanding climates and eliminates wood maintenance. Both lines appropriate for different builder segments.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Trade channel professional comparison with specific pricing and material construction data from credentialed builder network.",
+      "topics": [
+        "value",
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Houzz Forum - Marvin Windows Cracks and Flaking Warranty No Help",
+      "url": "https://www.houzz.com/discussions/6440893",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner reports cracks and flaking on exterior fiberglass surfaces within 80 days of installation. Marvin applied temporary bondo and spray paint repairs then declined further coverage. Complaint to CEO went unanswered by customer service.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum complaint about warranty administration and coating failure without corroborating pattern in same thread; insufficient corroboration for scoring.",
+      "topics": [
+        "warranty",
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Houzz Forum - 7 Year Old Marvin Windows Cracked",
+      "url": "https://www.houzz.com/discussions/6345799",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner reports thermal stress breakage in glass after 7 years. Technical discussion attributes cause to uneven heating and cooling creating differential stress across glass panes. Isolated incident discussed without corroborating pattern of identical failures.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single report of glass stress cracking with technical causation discussion; no corroborating pattern established. Reports a specific incident without clear manufacturing defect attribution.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Strauss Borrelli - Marvin WARN Act Investigation",
+      "url": "https://www.straussborrelli.com/2025/11/05/marvin-warn-act-investigation",
+      "platform": "other",
+      "column": "review",
+      "snippet": "WARN Act investigation filed November 2025 documenting Marvin notified Florida Department of Commerce of mass layoff affecting 167 employees at West Palm Beach facility. Investigation examines potential 60-day advance notice violation entitling employees to severance.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per auto-classification rules; reports potential regulatory violation and operational stability concern without direct product quality assessment.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Marvin Windows & Doors History (Official)",
+      "url": "https://www.marvin.com/our-story/history-of-marvin",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official company history: family-owned since 1912; headquartered in Warroad, Minnesota; 113 years of operation; multiple family generations in leadership; 7,000+ employees globally.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content about company history with no product quality assessment or relevant performance data.",
+      "topics": []
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Marvin Shares Profits with Employees - 2025 Annual Meeting (Official)",
+      "url": "https://www.marvin.com/news/marvin-shares-profits-with-employees-at-2025-annual-meeting",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official press release: $13.7M profit sharing distributed to 8,131 employees in December 2025. New 400,000 sq ft Kansas City manufacturing facility announced. CEO characterizes company as strong and healthy with positive 2026 outlook.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer press release about financial performance and expansion; relevant to operational stability assessment but not product quality scoring.",
+      "topics": []
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "NFRC Ratings Explanation - AHC Inc.",
+      "url": "https://www.ahc-inc.net/Pages/windows/education/nfrc.htm",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Educational explanation of U-factor, SHGC, visible transmittance, and air leakage ratings. Documents NFRC certification standards and testing protocols applicable to all window manufacturers including Marvin product lines.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Educational reference material about industry standards; provides context for interpreting product specifications but contains no product-specific assessment.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Marvin Limited Warranty Document (January 2026)",
+      "url": "https://www.marvin.com/f/1019562/x/42ba98fd0a/19980996_marvin-limited-warranty.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official warranty: 10-year hardware, 20-year standard insulating glass panes under 60 sq ft, 5-year factory wood finish. Extensive exclusions for non-conforming installation, environmental factors, normal wear, film application, and structural settling.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document; provides factual coverage terms and exclusion structure relevant to warranty reality assessment but is manufacturer content.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Marvin Product Collections (Official)",
+      "url": "https://www.marvin.com/products/collections",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official product page listing Ultimate, Modern, Vivid, Elevate, and Essential collections with materials, color options, hardware selections, and sizing. Essential all-fiberglass offers four colors; Elevate offers wood interior with fiberglass exterior.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content listing product options without independent testing or performance assessment.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "GreenBuildingAdvisor - Marvin Integrity Triple-Pane Glass",
+      "url": "https://www.greenbuildingadvisor.com/question/marvin-integrity-triple-pane-glass",
+      "platform": "gba",
+      "column": "forum",
+      "snippet": "Professional forum discussion documenting Marvin triple-pane Integrity development targeting mid-2015 availability with approximately $225 upcharge per unit. Early prototypes achieved U-factors 0.20-0.23. Commercial availability delayed; positioned as specialized custom option.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion about product development and availability; contains specification data but sourced from forum posts about an optional configuration rather than standard product.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Fine Homebuilding Forum - Marvin Integrity All-Ultrex Fiberglass Windows Experiences",
+      "url": "https://www.finehomebuilding.com/forum/marvin-integrity-all-ultrex-fiberglass-windows-experiences",
+      "platform": "fhb",
+      "column": "forum",
+      "snippet": "Multiple owners document joint gaps approximately 1/8 inch wide causing water infiltration every rain event. Paint peeling within one year of installation. Screen delivery failures. Fiberglass-on-fiberglass slider friction concerns. Five technician visits failed to resolve water infiltration.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple owners in same thread reporting identical physical defects (joint gaps, water infiltration, paint delamination) constitutes corroborating pattern qualifying for scoring per auto-classification rules.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "ArgoWindowRepair - Which Best Window Brand",
+      "url": "https://www.argowindowrepair.com/blog/window/best-window-brands",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Three-brand comparison: Marvin commands premium pricing for Ultrex fiberglass customization; Andersen Fibrex offers 40% reclaimed wood polymer composite; Pella uses rolled aluminum cladding with historical delamination issues. Andersen and Marvin rated superior to Pella overall.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with structured multi-brand comparison, material science assessment, and clear product opinions from a trade repair service.",
+      "topics": [
+        "quality",
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "YouTube - Marvin Integrity Wood Ultrex Double Hung Balance Tube Replacement",
+      "url": "https://www.youtube.com/watch?v=CfOPY4I4oR8",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Technical tutorial documenting balance tube replacement procedure for Marvin Integrity double-hung windows. Covers sash stop importance, common failure modes, and maintenance procedures. Confirms balance tube replacement is a known maintenance item for this product.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Technical maintenance tutorial confirms balance tube replacement as a known service item; about maintenance procedure rather than product quality assessment.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Houzz Forum - Avoid Marvin Integrity and Possibly the Company",
+      "url": "https://www.houzz.com/discussions/2641537",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner describes fiberglass sliding windows binding with fiberglass-on-fiberglass friction, doors barely rolling, and significant air infiltration. Post approximately 15 years old. Recurring complaint pattern across multiple threads suggests persistent design issue.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single dated forum post; while corroborating patterns exist in other threads, this isolated post lacks sufficient internal corroboration and is approximately 15 years old.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Windura - How Much Are Marvin Windows in 2025",
+      "url": "https://www.windura.com/how-much-are-marvin-windows-in-2025-price-breakdown-by-style-series-kansas-city",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Pricing overview for Essential, Elevate, Vivid, and Ultimate Marvin collections in 2025. Documents factors influencing costs including customization, size, and configuration. Recommends dealer consultation for accurate project pricing.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Dealer pricing guide with cost information; relevant to value assessment but contains no product performance or quality evaluation.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Marvin Technical Specifications - Ultimate Double Hung (Official)",
+      "url": "https://www.marvin.com/f/1019562/x/2024-marvin-ultimate_technical_specifications-catalog_19980961.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official technical specifications for Ultimate collection double-hung including sizing charts, NFRC ratings, WDMA standards compliance, and detailed performance metrics. Note: covers Ultimate line, not Integrity specifically.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer specification document covering Ultimate product line, not Integrity double-hung specifically. Different product line per auto-classification rules.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Marvin Paint and Stain Instructions - Elevate/Essential (Official)",
+      "url": "https://www.marvin.com/f/1019562/x/43ba98fd0a/paint-and-stain.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Official finishing instructions including warnings against painting weatherstripping and hardware, wood treatment requirements, and factory finish protocols. Provides maintenance requirements that if unmet may void warranty coverage.",
+      "pool": "B",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer technical document; relevant to warranty exclusion understanding but constitutes manufacturer content without independent assessment.",
+      "topics": [
+        "warranty",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Houzz Forum - Has Marvin Quality and Service Deteriorated",
+      "url": "https://www.houzz.com/discussions/6387189",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Mixed recent reports: some satisfied users alongside complaints of frames built out-of-square, factory mulling sealant missing from corners, and door handle failures. Thread suggests possible quality control inconsistency in recent production.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Multiple users in same thread documenting corroborating physical product defects including out-of-square frames and missing factory sealant, establishing a pattern qualifying for scoring.",
+      "topics": [
+        "quality",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "BBB Complaints - Marvin Windows",
+      "url": "https://www.bbb.org/us/mn/warroad/profile/windows/marvin-windows-0704-7661/complaints",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Over 20 documented BBB complaints spanning manufacturing defects, warranty administration failures, dealer measurement errors, and service responsiveness. Marvin blamed certified installers for defects while maintaining those installers on its dealer network.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "BBB complaint database; legal/complaint information per auto-classification rules. Pattern of complaints relevant to service and warranty reality assessment.",
+      "topics": [
+        "warranty",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "YouTube - Common Marvin Window and Door Installation Issues Explained",
+      "url": "https://www.youtube.com/watch?v=QepQNcG2iwY",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Technical video documenting common installation mistakes: improper sealant under door jamb, gasket corner handling, nail fin sealing failures, and water management system importance. Confirms installation quality is critical variable in product performance.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality and procedures, not product manufacturing quality. Per auto-classification rules, installation quality content is report_only.",
+      "topics": [
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "FGIA InstallationMasters Certification",
+      "url": "https://www.fgiaonline.org/education/professional-certification/installationmasters",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Industry certification program covering AAMA 2400-10, ASTM E2112, and FMA/AAMA installation standards. Two-day training and examination required. Establishes baseline for evaluating installer competency relevant to Marvin performance outcomes.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Industry certification standards document; provides context for installation quality assessment but contains no Marvin-specific product evaluation.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "YouTube - Brownell Quick Fix: Marvin Window Weatherstrip Replacement",
+      "url": "https://www.youtube.com/watch?v=32Z_EMGseY",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Technical weatherstrip maintenance video covering regular inspection requirements, replacement procedures, and chimney block protection importance. Confirms weatherstrip as a known maintenance item requiring periodic replacement on Marvin windows.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses maintenance procedure and installation quality rather than product manufacturing quality per auto-classification rules.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Five Seasons Windows - Fiberglass Material Science Analysis",
+      "url": "https://www.fiveseasonswindows.com/how-long-do-fiberglass-windows-last",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Detailed polymer material science: UV stabilizers and thermal additives in fiberglass resist photodegradation causing vinyl brittleness. Cyclic loading tests validate 30+ year structural specifications. Component integration including hardware and weatherstrip critical to achieving rated service life.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with material science testing data and laboratory results supporting specific durability claims with documented field evidence.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Material Quality (Ultrex Fiberglass)",
+      "expert": "Strongly positive; superior dimensional stability, UV resistance, and durability versus vinyl or wood alternatives",
+      "review": "Documented 30-40 year service life; 90% thermal retention after 25 years; laboratory validation of cyclic load performance",
+      "forum": "Generally positive on material choice; complaints focus on manufacturing execution and quality control rather than material selection",
+      "agreement": "STRONG - Material is high quality; execution and consistency inconsistent"
+    },
+    {
+      "topic": "Energy Performance",
+      "expert": "NFRC ratings competitive; casements outperform double-hung; both meet Energy Star minimums",
+      "review": "U-factor 0.28-0.30 standard dual-pane; SHGC 0.21-0.28; air infiltration below 0.30 cfm/ft² NFRC standard",
+      "forum": "Some owners report excessive air infiltration despite specifications; 1/16 inch gap at bottom sash gasket documented",
+      "agreement": "MODERATE - Specifications competitive; real-world air infiltration performance variable"
+    },
+    {
+      "topic": "Double-Hung Durability",
+      "expert": "Balance tubes are standard maintenance items; sash operation generally reliable with proper installation",
+      "review": "No specific published failure rate data on double-hung balance mechanisms",
+      "forum": "Multiple corroborated reports of balance tube failure; sash sticking; operational problems after 10 years",
+      "agreement": "WEAK - Expert view optimistic; owner experience documents recurring failures"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Not specifically addressed",
+      "review": "10/29 transferable warranty structure documented; extensive exclusions for installation, environmental, and maintenance issues",
+      "forum": "Warranty poorly honored; coverage denials common; bondo and spray paint temporary repairs before denial documented",
+      "agreement": "STRONG - Warranty terms appear comprehensive but enforcement is problematic and exclusions are extensive"
+    },
+    {
+      "topic": "Installation and Dealer Quality",
+      "expert": "Trained installer selection critical; professional certification recommended; performance depends on installation competence",
+      "review": "Technical specifications require strict installation adherence; dealer qualification important for outcome",
+      "forum": "Multiple dealer failures documented; measurement errors; improper sizing; warranty blame-shifting to installers",
+      "agreement": "STRONG - Installation and dealer quality highly variable; selection critical to ownership satisfaction"
+    },
+    {
+      "topic": "Joint Construction and Water Infiltration",
+      "expert": "Not specifically addressed for double-hung",
+      "review": "Not specifically addressed in published reviews",
+      "forum": "Multiple corroborated reports of 1/8 inch joint gaps causing water infiltration; five technician visits failed to resolve",
+      "agreement": "WEAK - Forum evidence suggests persistent joint quality issue; no expert or review corroboration"
+    },
+    {
+      "topic": "Paint and Coating Durability",
+      "expert": "Not specifically addressed",
+      "review": "Factory applied coated aluminum receives 10-year warranty; wood finish receives 5-year warranty per official documentation",
+      "forum": "Multiple corroborated reports of paint cracking and peeling within 1 year; Marvin instructed repainting rather than honoring warranty",
+      "agreement": "WEAK - Warranty terms suggest coverage; real-world experience shows premature failure and warranty denial"
+    },
+    {
+      "topic": "Value Proposition",
+      "expert": "Premium pricing justified by fiberglass durability and customization; requires 20+ year ownership horizon",
+      "review": "Integrity priced 10-25% below full-line Marvin and comparable premium alternatives; 30-40 year material life supports long-term value",
+      "forum": "Mixed; some satisfied long-term owners; frequent warranty disputes and durability concerns erode value perception",
+      "agreement": "WEAK - Long-term value achievable but highly dependent on dealer selection and installation quality"
+    },
+    {
+      "topic": "Service Responsiveness",
+      "expert": "Not specifically assessed",
+      "review": "BBB documents 20+ complaints; service appointment delays documented",
+      "forum": "Inconsistent service; multiple warranty claim denials; repeated technician visits without resolution; regional VP offered discount not correction",
+      "agreement": "STRONG - Service quality problematic across multiple independent sources"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Fully transferable 10/29 warranty structure (29-year glass, 10-year hardware) provides superior resale flexibility compared to Infinity/Essential line which restricts transfer",
+      "Warranty transferability in all circumstances positions Integrity favorably for homeowners anticipating future property sale"
+    ],
+    "underperforms_expectations": [
+      "Extensive exclusions for non-conforming installation, environmental factors, normal wear, structural settling, and film application transfer substantial risk to homeowner",
+      "Factory finish warranty limited to 5 years for wood and 10 years for coated aluminum despite premium pricing expectations",
+      "Oversized glass panes exceeding 60 square feet receive only 10-year protection versus 20-year standard coverage",
+      "Multiple documented cases of warranty denial despite apparent manufacturing defects; temporary repairs (bondo, spray paint) applied before coverage declined",
+      "Marvin has attributed defects to installer error while simultaneously maintaining those certified installers on its authorized dealer network"
+    ],
+    "surprises": [
+      "Balance tube replacement is explicitly classified as a standard maintenance item rather than a warranty-covered defect, even when failures occur within the warranty period",
+      "Homeowner agreement to preliminary repairs has been cited by Marvin as constituting acceptance of product condition, effectively waiving future warranty claims",
+      "Water infiltration is excluded from warranty unless it results specifically from a manufacturing defect, creating a difficult burden of proof for homeowners",
+      "Non-tempered glass stress cracks receive only 10-year protection, shorter than insulating glass seal warranty"
+    ]
+  },
+  "verified_specs": {
+    "u_factor": "0.28-0.30 standard dual-pane; 0.22 triple-pane passive house configuration",
+    "shgc": "0.21-0.28 depending on low-E coating selection (Low E1, E2, E3, ERS options available)",
+    "air_infiltration": "Below 0.30 cfm/ft² per NFRC testing standard per manufacturer documentation; real-world performance variable per forum reports",
+    "frame_material": "Ultrex fiberglass (proprietary composite fiberglass-polyester reinforced with glass fibers); Elevate configuration adds solid pine interior substrate",
+    "glass": "Standard dual-pane insulating glass with low-E coating and argon gas fill; triple-pane available as custom option; stainless steel spacers",
+    "dp_rating": "Not specified in available sources",
+    "stc": "Sound abatement glass option available; specific STC rating not documented in reviewed sources",
+    "interior_finish_options_elevate": "Clear coat, painted black, or painted white on solid pine substrate",
+    "interior_finish_options_essential": "Four colors: pebble gray, stone white, dark bronze, white (all-fiberglass)",
+    "hardware_finishes": "Five hardware finish options (versus eight for Infinity/Essential line)",
+    "energy_star_compliance": "Meets Energy Star threshold of U-factor 0.30 or lower per standard configuration",
+    "aama_certification": "AAMA Gold Label certification noted by experts; WDMA standards compliance documented",
+    "balance_mechanism": "Standard sash balance tube with adjustable friction control",
+    "service_life_estimate": "30-40 years per material science analysis; 90% thermal retention after 25 years per field studies"
+  },
+  "red_flags": [
+    {
+      "type": "WARN Act Investigation",
+      "description": "November 2025: Strauss Borrelli filed WARN Act investigation into Marvin's mass layoff of 167 employees at West Palm Beach, Florida facility. Investigation examines whether Marvin violated federal 60-day advance notice requirement. If substantiated, employees entitled to 60 days severance pay and benefits.",
+      "source": "SRC-014",
+      "severity": "moderate",
+      "notes": "Partially offset by December 2025 annual meeting reporting $13.7M profit sharing and new Kansas City facility expansion; layoff may reflect regional adjustment rather than systemic distress"
+    },
+    {
+      "type": "Systematic Warranty Denial Pattern",
+      "description": "Multiple independent sources (Houzz, Fine Homebuilding forum, BBB) document consistent pattern of Marvin denying warranty claims for apparent manufacturing defects by citing installation exclusions. Marvin blamed diamond-certified installers for defects while maintaining those installers on its authorized dealer network.",
+      "source": "SRC-001, SRC-021, SRC-029",
+      "severity": "high",
+      "notes": "Pattern spans multiple forum platforms and BBB database; suggests systemic warranty administration approach rather than isolated incidents"
+    },
+    {
+      "type": "Recurring Joint Construction Defect",
+      "description": "Multiple independent owners on Fine Homebuilding forum report 1/8 inch joint gaps causing water infiltration on every rain event. Five technician visits documented in one case without resolution. Marvin regional sales VP offered courtesy discount rather than acknowledging manufacturing defect.",
+      "source": "SRC-021",
+      "severity": "high",
+      "notes": "Corroborated by multiple owners in same thread; constitutes a physical product defect pattern"
+    },
+    {
+      "type": "Premature Coating Failure",
+      "description": "Multiple owners report factory paint cracking and peeling within one year of installation. Marvin's documented response was to instruct owners to repaint rather than honoring factory finish warranty. One expert noted raw fiberglass cannot be exposed to elements as it will yellow.",
+      "source": "SRC-001, SRC-021",
+      "severity": "high",
+      "notes": "Particularly concerning given that exposed fiberglass degrades with UV exposure, making coating durability essential to long-term product integrity"
+    },
+    {
+      "type": "Balance Tube Failure Pattern",
+      "description": "Multiple owners across Houzz and Fine Homebuilding forums report balance tube failures causing sash to not stay up, occurring despite minimal use and after 10+ years. Manufacturer classifies this as standard maintenance rather than warranty-covered defect.",
+      "source": "SRC-001, SRC-021, SRC-023",
+      "severity": "moderate",
+      "notes": "Balance tube replacement tutorial existence (SRC-023) confirms this is a known recurring maintenance requirement"
+    }
+  ],
+  "bottom_line": "The Marvin Integrity double-hung window presents a genuine tension between validated material quality and documented execution failures. Expert consensus strongly supports the Ultrex fiberglass construction as superior to vinyl in durability, dimensional stability, and long-term thermal retention, with credentialed professionals and building scientists consistently endorsing the material science. Published specifications are competitive with Energy Star thresholds and independent testing affirms performance capability. However, a significant and persistent gap exists between laboratory specifications and real-world ownership outcomes. Corroborated forum reports across multiple independent platforms document recurring joint construction gaps causing water infiltration, premature paint delamination, balance tube failures, and air infiltration problems that multiple technician visits failed to resolve. The warranty structure, while appearing favorable with 10/29 transferable coverage, is undermined by extensive exclusions and a documented pattern of denial that shifts defect responsibility to installation rather than manufacturing. The November 2025 WARN Act investigation introduces a minor operational stability concern, though December 2025 profit-sharing announcements and facility expansions suggest this reflects regional adjustment rather than financial distress. The core scoring conclusion is that Marvin Integrity double-hung windows deliver premium value only when paired with a rigorously qualified installer and proactive buyer oversight; the product's potential is real but its realization is not reliable. Buyers should treat dealer selection as equally important as product selection, verify measurements independently, and document all conditions before final payment acceptance.",
+  "product_slug": "marvin_integrity",
+  "product_name": "Marvin Integrity",
+  "manufacturer_slug": "marvin",
+  "operation_type": "double_hung",
+  "deep_dive_date": "2026-03-22",
+  "structuring_duration_ms": 181363,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 33,
+    "score": 12,
+    "report_only": 13,
+    "quarantine": 8,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.17907900000000002
+}
