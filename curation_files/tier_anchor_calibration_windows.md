@@ -1,0 +1,1 @@
+Anchor calibration file pending — full Marvin hierarchy research document needs to be transferred from Ray's main Mac. Evidence establishes Marvin at 90-93 range, below European PH brands and ultra-boutique domestic brands.
