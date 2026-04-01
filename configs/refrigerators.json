@@ -1,0 +1,259 @@
+{
+  "category": "refrigerators",
+  "scope": "built_in_only",
+  "display_name": "Refrigerators (Built-In)",
+  "version": "2.0",
+  "version_date": "2026-03-31",
+  "version_notes": "v2 post deep dive corrections. 3 products adjusted: Bosch Benchmark 80→79, JennAir 66→70, Dacor 53→56.",
+
+  "axis_weights": {
+    "quality": 0.30,
+    "durability": 0.40,
+    "performance": 0.30
+  },
+  "axis_notes": "Durability dominant — professional hierarchy organized around reliability and serviceability. Yale service rate data is the anchor metric. Performance NOT flat: temperature uniformity, noise, humidity retention, usable capacity all have real spread.",
+
+  "tier_anchors": {
+    "tier_1": {
+      "range": [90, 100],
+      "label": "Best in Class",
+      "anchors": [
+        {
+          "product": "Sub-Zero Classic/Designer/Pro",
+          "target": 95,
+          "rationale": "Clear #1 by every professional metric. Dual Embraco compressors (variable-speed 2023+ via Split Climate™), 5yr/12yr warranty, parts since 1986, NASA air scrubber, zero DOA in 38 years at Yale."
+        },
+        {
+          "product": "Thermador Freedom Collection",
+          "target": 90,
+          "rationale": "BSH platform (Turkey), dual compressor, best flush-integrated aesthetic. Yale 'A' grade, ~8% less reliable than Sub-Zero. Lower anchor of Tier 1."
+        }
+      ]
+    },
+    "tier_2": {
+      "range": [75, 89],
+      "label": "Excellent",
+      "anchors": [
+        {
+          "product": "Bosch Benchmark Built-In",
+          "target": 79,
+          "rationale": "Same BSH platform as Thermador. 0.4% 5yr compressor failure (lowest Yale tracks). BUT: only 1yr full warranty (Thermador gets better from same factory), iService5 proprietary diagnostic restricts service ecosystem. Entry premium."
+        }
+      ]
+    },
+    "tier_3": {
+      "range": [60, 74],
+      "label": "Good",
+      "anchors": [
+        {
+          "product": "JennAir Built-In Column",
+          "target": 70,
+          "rationale": "Whirlpool platform with variable-speed inverter (genuine differentiator). Obsidian stainless interior. 12yr sealed system warranty. Class action evaporator defect does NOT apply to column models."
+        }
+      ]
+    },
+    "tier_4": {
+      "range": [40, 59],
+      "label": "Fair",
+      "anchors": [
+        {
+          "product": "Dacor Column (DRR30980RAP)",
+          "target": 56,
+          "rationale": "Samsung platform — complete convergence (every part DA97/DA94 prefix). SteelCool stainless interior. Column has NO ice maker. 15yr compressor parts warranty. Fan-freezing design flaw acknowledged."
+        },
+        {
+          "product": "Viking 5 Series (FDRB5363)",
+          "target": 45,
+          "rationale": ">60% first-year service rate (Yale, multiple years). CR #25 of 25, score 34/100. Does not manufacture own refrigerators. Systemic QC failure."
+        }
+      ]
+    },
+    "tier_5": {
+      "range": [0, 39],
+      "label": "Below Standard",
+      "anchors": [],
+      "notes": "No built-in refrigerator scored in Tier 5 during calibration. Samsung Bespoke freestanding would likely anchor here but is out of scope (built-in only)."
+    }
+  },
+
+  "spec_fields": {
+    "compressor_architecture": {
+      "axis": "quality",
+      "type": "categorical",
+      "values": ["dual_independent", "single_inverter_dual_evap", "single_shared"],
+      "adjustments": { "dual_independent": 2, "single_inverter_dual_evap": 0, "single_shared": -2 },
+      "notes": "Dual independent compressors separate Tier 1 from everything below."
+    },
+    "compressor_oem": {
+      "axis": "quality",
+      "type": "categorical",
+      "values": ["embraco", "secop", "bsh_proprietary", "samsung", "whirlpool", "undisclosed"],
+      "adjustments": { "embraco": 1, "secop": 0, "bsh_proprietary": 0, "samsung": -1, "whirlpool": 0, "undisclosed": -1 },
+      "notes": "Embraco = longest track record in built-in refrigeration."
+    },
+    "interior_material": {
+      "axis": "quality",
+      "type": "categorical",
+      "values": ["stainless_steel", "aluminum", "abs_hips"],
+      "adjustments": { "stainless_steel": 1, "aluminum": 0, "abs_hips": -1 },
+      "notes": "Stainless resists staining, odor, bacteria."
+    },
+    "door_seal_type": {
+      "axis": "quality",
+      "type": "categorical",
+      "values": ["vacuum_magnetic", "standard_magnetic"],
+      "adjustments": { "vacuum_magnetic": 1, "standard_magnetic": 0 },
+      "notes": "Vacuum magnetic = Sub-Zero signature."
+    },
+    "source_traceability": {
+      "axis": "quality",
+      "type": "categorical",
+      "values": ["single_source", "multi_source", "unknown"],
+      "adjustments": { "single_source": 1, "multi_source": 0, "unknown": -1 },
+      "notes": "Same rule as other categories."
+    },
+    "compressor_type": {
+      "axis": "durability",
+      "type": "categorical",
+      "values": ["variable_speed_inverter", "fixed_speed"],
+      "adjustments": { "variable_speed_inverter": 1, "fixed_speed": 0 },
+      "notes": "Variable-speed = fewer start-stop cycles = longer life."
+    },
+    "warranty_full_years": {
+      "axis": "durability",
+      "type": "categorical",
+      "values": ["5_plus", "2_to_4", "1", "under_1"],
+      "adjustments": { "5_plus": 2, "2_to_4": 1, "1": 0, "under_1": -1 },
+      "notes": "Full warranty = parts + labor."
+    },
+    "warranty_sealed_system_years": {
+      "axis": "durability",
+      "type": "categorical",
+      "values": ["12_plus", "7_to_11", "5_to_6", "under_5"],
+      "adjustments": { "12_plus": 2, "7_to_11": 1, "5_to_6": 0, "under_5": -1 },
+      "notes": "Sealed system = compressor + evaporator + condenser."
+    },
+    "parts_commitment_horizon": {
+      "axis": "durability",
+      "type": "categorical",
+      "values": ["15_plus_years", "10_to_14", "under_10_or_unknown"],
+      "adjustments": { "15_plus_years": 1, "10_to_14": 0, "under_10_or_unknown": -1 },
+      "notes": "Sub-Zero parts since 1986. Dacor 15yr compressor parts."
+    },
+    "service_network": {
+      "axis": "durability",
+      "type": "categorical",
+      "values": ["factory_certified", "authorized_full", "authorized_restricted", "independent_only", "foreign_routed"],
+      "adjustments": { "factory_certified": 1, "authorized_full": 0, "authorized_restricted": -1, "independent_only": -1, "foreign_routed": -1 },
+      "notes": "Bosch Benchmark iService5 = restricted. Dacor = South Korea routing."
+    },
+    "ice_maker": {
+      "axis": "durability",
+      "type": "categorical",
+      "values": ["none", "modular", "integrated"],
+      "adjustments": { "none": 1, "modular": 0, "integrated": -1 },
+      "notes": "Ice makers = #1 failure mode (31% fail within 5yr per CR)."
+    },
+    "air_purification": {
+      "axis": "performance",
+      "type": "categorical",
+      "values": ["active_scrubber", "passive_filter", "ionizer", "none"],
+      "adjustments": { "active_scrubber": 1, "passive_filter": 0, "ionizer": 0, "none": 0 },
+      "notes": "Sub-Zero NASA ethylene scrubber."
+    },
+    "humidity_control": {
+      "axis": "performance",
+      "type": "categorical",
+      "values": ["vacuum_sealed_crisper", "active_zones", "passive_vents"],
+      "adjustments": { "vacuum_sealed_crisper": 1, "active_zones": 0, "passive_vents": -1 },
+      "notes": "Vacuum-sealed = no cross-contamination."
+    },
+    "temperature_precision": {
+      "axis": "performance",
+      "type": "categorical",
+      "values": ["half_degree", "one_degree", "two_plus_degrees"],
+      "adjustments": { "half_degree": 1, "one_degree": 0, "two_plus_degrees": -1 },
+      "notes": "Uniformity spans 2-8°F across category."
+    },
+    "noise_dba": {
+      "axis": "performance",
+      "type": "categorical",
+      "values": ["under_39", "39_to_42", "43_plus"],
+      "adjustments": { "under_39": 1, "39_to_42": 0, "43_plus": -1 },
+      "notes": "Noise spans 36-45+ dBA."
+    },
+    "insulation_type": {
+      "axis": "performance",
+      "type": "categorical",
+      "values": ["vip", "cyclopentane_pu", "standard_pu"],
+      "adjustments": { "vip": 1, "cyclopentane_pu": 0, "standard_pu": -1 },
+      "notes": "VIP = vacuum insulation panels (Liebherr only)."
+    }
+  },
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": ["Yale Appliance (Steve Sheinkopf) — service rate data"]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (15 thermocouples, 5.4M readings/unit, 30+ days)",
+        "Reviewed.com (Dr. David Ellerby, food-temp sensors)",
+        "RTINGS.com (Test Bench 1.0/1.1, publishes numeric values)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": ["r/appliancerepair", "Prudent Reviews", "CNET"]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": ["r/Appliances", "Houzz", "Trustpilot"]
+    }
+  },
+  "pool_notes": "Pool S vacant for teardown — no StarCraft equivalent exists for built-in refrigerators. Yale is Pool S for service rate data only.",
+
+  "scoring_rules": {
+    "max_spec_adjustment": 8,
+    "tier_crossing_allowed": false,
+    "minimum_sources": 5,
+    "material_safety_scoring": "report_only",
+    "lawsuits_scoring": "report_only"
+  },
+
+  "category_specific_rules": [
+    "Built-in only scope. No freestanding, no counter-depth freestanding.",
+    "Dual independent compressor architecture is the primary quality separator between Tier 1 and Tier 2+.",
+    "Ice makers are #1 failure mode (31% fail within 5yr per CR). Presence/absence scored on durability axis.",
+    "Service ecosystem is a scored durability spec: parts availability + service network + parts commitment horizon.",
+    "European brand evidence asymmetry rule applies: Miele, BSH, Liebherr have thinner US lawsuit/complaint evidence. Disclose in reports. No score impact.",
+    "BSH Turkish Factory platform disclosure MANDATORY for Miele, Thermador, Gaggenau, Bosch Benchmark reports.",
+    "Samsung/Dacor platform disclosure MANDATORY for all Dacor reports.",
+    "One deep dive per product line. Column and French door variants of same brand are DIFFERENT products (Rule 19)."
+  ],
+
+  "platform_disclosures": {
+    "bsh_turkish_factory": {
+      "brands": ["Miele", "Thermador", "Gaggenau", "Bosch Benchmark"],
+      "disclosure": "Built-in refrigeration manufactured in same BSH factory in Turkey. Yale Appliance confirmed. Score separately per Rule 19 but disclose shared platform prominently.",
+      "mandatory": true
+    },
+    "samsung_dacor": {
+      "brands": ["Samsung", "Dacor"],
+      "disclosure": "Complete component convergence. Every part carries Samsung DA97/DA94 prefix.",
+      "mandatory": true
+    },
+    "ge_monogram": {
+      "brands": ["GE Monogram", "Café", "GE Profile"],
+      "disclosure": "Same Selmer, TN factory. Reddit teardown confirmed same compressor, evaporator, mainboard.",
+      "mandatory": true
+    },
+    "whirlpool_jennair": {
+      "brands": ["Whirlpool", "JennAir", "KitchenAid"],
+      "disclosure": "Shared platform. Compressor start device W10448874 cross-applies across portfolio.",
+      "mandatory": true
+    }
+  }
+}
