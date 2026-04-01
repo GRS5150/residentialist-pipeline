@@ -1,0 +1,329 @@
+{
+  "category": "exterior_doors",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "building_envelope",
+  "notes": "Exterior entry doors (front doors, side entries). Includes fiberglass, steel, wood, and iron/decorative. NOT patio doors, NOT sliding glass, NOT garage doors, NOT storm doors. Scored by slab construction quality, weathersealing system, hardware grade, and glass/glazing quality. Material-agnostic within tiers — fiberglass, wood, and iron doors can all be Tier 1 if construction supports it.",
+
+  "axis_weights": {
+    "quality": 0.40,
+    "durability": 0.35,
+    "performance": 0.25
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Marvin Signature Ultimate Entry Door", "slug": "marvin_ultimate_entry", "target_range": [93, 96] },
+        { "name": "Therma-Tru Classic-Craft Premium", "slug": "thermatru_classiccraft", "target_range": [90, 93] }
+      ],
+      "notes": "Marvin: Architect default for $2-5M homes, engineered wood/hybrid slabs (most warp-resistant), premium factory-integrated hardware, lifetime warranty with strong Fortune Brands backing. Therma-Tru Classic-Craft: AccuGrain compression-molded fiberglass (most realistic grain), rot-proof slab, polyurethane core, multi-point locks, 50-year/lifetime warranty. Industry-leading fiberglass — consensus best from contractor forums and hierarchy research. Both represent what professionals specify for premium homes."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Pella Reserve Entry Door", "slug": "pella_reserve_entry", "target_range": [78, 83] }
+      ],
+      "notes": "Pella Reserve: Strong fiberglass/wood hybrid entry, good sealing system (R6+ rated), better than JELD-WEN but below ProVia/Therma-Tru Classic-Craft per pro consensus. #1 consumer trust (LifeStory Research), strong warranty. Not as specified as Marvin/Therma-Tru Classic-Craft in premium custom homes. Represents upper-mid accessible luxury."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Therma-Tru Benchmark (Entry)", "slug": "thermatru_benchmark", "target_range": [65, 70] },
+        { "name": "Masonite Performance Door System", "slug": "masonite_performance", "target_range": [62, 66] }
+      ],
+      "notes": "Therma-Tru Benchmark: Builder line of Therma-Tru — thinner compression molding, less realistic grain, more callbacks than Classic-Craft. Still the 'floor of acceptable' for professionals to install in $500K+ homes without hesitation. Masonite Performance: Solid mid-market, innovative weatherstrip edges out JELD-WEN, comparable to Benchmark. Fewer water intrusion issues than steel alternatives. Both represent the professional quality floor."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "JELD-WEN Builders Series (Steel/Fiberglass)", "slug": "jeldwen_builders", "target_range": [45, 50] },
+        { "name": "Reliabilt Entry Door (Lowe's)", "slug": "reliabilt_entry", "target_range": [38, 42] }
+      ],
+      "notes": "JELD-WEN Builders: AuraLast wood issues carry reputation hit (windows worse than doors), Mexico-made lines are thinner, 22-24 gauge steel warps in sun. Improved post-2020 but contractors still wary. Reliabilt: JELD-WEN-made for Lowe's — downgraded specs (24-26 gauge steel, thin fiberglass), 50%+ service call rate per contractor consensus. Pros refuse for quality homes. 5-8 year expected lifespan."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with no service infrastructure, active safety recalls, or documented structural defects making repair economically unviable. Feather River (discontinued) would sit here."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "slab_construction",
+        "type": "categorical",
+        "adjustments": {
+          "engineered_laminated_wood": 2,
+          "compression_molded_fiberglass": 1,
+          "solid_wood": 1,
+          "forged_iron_steel": 1,
+          "standard_fiberglass": 0,
+          "insulated_steel_20ga_plus": 0,
+          "thin_fiberglass": -1,
+          "insulated_steel_22_24ga": -1,
+          "insulated_steel_26ga": -2
+        },
+        "notes": "THE key differentiator. Engineered laminated wood (Marvin, Kolbe, Loewen) resists warping better than solid planks. Compression-molded fiberglass (Therma-Tru Classic-Craft AccuGrain) = most realistic grain + rot-proof. Steel gauge directly correlates with warp resistance in sun. 20-gauge+ is professional-grade, 24-26 gauge is big-box builder."
+      },
+      {
+        "field": "weatherstrip_system",
+        "type": "categorical",
+        "adjustments": {
+          "multi_layer_adjustable_compression": 2,
+          "compression_kerf_with_corner_pads": 1,
+          "standard_compression": 0,
+          "basic_foam_magnetic": -1,
+          "no_weatherstrip_or_minimal": -2
+        },
+        "notes": "Weatherstripping quality determines water and air infiltration. Premium doors use multi-layer adjustable systems (Schlegel/Quanex-sourced on most). Corner pad quality is common failure mode — fails first at 5-7 years on builder-grade. Endura/Quanex supplies majority of thresholds — confirm supplier for each brand."
+      },
+      {
+        "field": "threshold_system",
+        "type": "categorical",
+        "adjustments": {
+          "adjustable_sill_with_dam": 1,
+          "standard_aluminum_sill": 0,
+          "composite_sill_basic": 0,
+          "minimal_or_no_sill": -1
+        },
+        "notes": "Adjustable sills (Endura Z-Series or equivalent) allow field correction for settling. Standard aluminum sills are adequate but not adjustable. Composite basic is acceptable. Water intrusion at threshold is the #1 failure mode for exterior doors per contractor consensus."
+      },
+      {
+        "field": "hardware_grade",
+        "type": "categorical",
+        "adjustments": {
+          "multipoint_lock_european": 2,
+          "multipoint_lock_domestic": 1,
+          "single_deadbolt_grade_1": 0,
+          "single_deadbolt_grade_2": -1,
+          "single_deadbolt_grade_3": -2
+        },
+        "notes": "Multipoint locks (GU-Gretsch-Unitas, Winkhaus, Hoppe) engage at 3-5 points along frame — dramatically better security and seal compression. ANSI/BHMA A156.1 hinge grades: Grade 1 = premium (stainless, commercial), Grade 2 = builder. Handleset construction: forged brass/bronze (Rocky Mountain, Baldwin) vs zinc die-cast."
+      },
+      {
+        "field": "hinge_grade",
+        "type": "categorical",
+        "adjustments": {
+          "grade_1_stainless": 1,
+          "grade_1_steel": 0,
+          "grade_2": -1,
+          "grade_3": -2
+        },
+        "notes": "BHMA/ANSI A156.1 grades. Grade 1 stainless (NRP — non-removable pins, optional) = premium. Grade 2 = builder standard. Stainless vs plain steel visible in coastal and humid climates — Grade 2 hinges corrode first."
+      },
+      {
+        "field": "core_insulation",
+        "type": "categorical",
+        "adjustments": {
+          "polyurethane_foam_high_density": 1,
+          "polyurethane_foam_standard": 0,
+          "polystyrene_foam": -1,
+          "hollow_or_minimal": -2
+        },
+        "notes": "R-value driven by foam type. Polyurethane = R-5 to R-7 per inch (Therma-Tru, Masonite premium). Polystyrene = R-3.5 to R-4.5. Hollow-core steel = minimal insulation. Wood doors are exempt (N/A) — solid wood has inherent R-2 to R-3 but thermal mass behavior differs."
+      }
+    ],
+    "performance": [
+      {
+        "field": "energy_u_factor",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=0.15": 2,
+          "0.16-0.20": 1,
+          "0.21-0.30": 0,
+          "0.31-0.40": -1,
+          ">=0.41": -2
+        },
+        "notes": "NFRC-certified U-factor for entire door assembly (including glass lite if present). Fiberglass with polyurethane core: 0.14-0.21 typical. Steel: 0.17-0.35. Wood: 0.25-0.45 (worse due to thermal bridging). Glass lite size dramatically affects U-factor — full-lite fiberglass can be 0.30+ vs solid panel 0.14."
+      },
+      {
+        "field": "air_infiltration",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=0.10": 1,
+          "0.11-0.20": 0,
+          "0.21-0.30": -1,
+          ">=0.31": -2
+        },
+        "notes": "ASTM E283 tested, cfm/sq ft. Premium doors with multi-point locks and multi-layer weatherstripping achieve 0.05-0.10. Builder-grade steel with single deadbolt: 0.20-0.30+. ENERGY STAR threshold 0.30 (easily met — floor, not differentiator)."
+      },
+      {
+        "field": "glass_lite_quality",
+        "type": "categorical",
+        "adjustments": {
+          "internally_glazed_low_e_triple": 2,
+          "internally_glazed_low_e_double": 1,
+          "externally_glazed_low_e": 0,
+          "standard_double_no_low_e": -1,
+          "single_pane_or_no_glass": -2,
+          "no_glass_na": "N/A"
+        },
+        "notes": "Internal vs external glazing: internally glazed resists forced entry and water infiltration better (glass panel held by stops from inside). ODL and Western Reflections supply most door glass panels. Low-E coating = critical for energy performance. Triple-pane rare in doors but available on Marvin and Kolbe. Solid panel doors get N/A (no penalty/bonus)."
+      },
+      {
+        "field": "structural_dp_rating",
+        "type": "continuous_higher_better",
+        "adjustments": {
+          ">=DP50": 1,
+          "DP35-DP49": 0,
+          "DP20-DP34": -1,
+          "<DP20": -2
+        },
+        "notes": "ASTM E330 design pressure rating. DP50+ = coastal/hurricane zones. DP35 standard for most residential. DP20 = builder minimum. Impact-rated (Florida Building Code / Miami-Dade) options on premium brands (Kolbe, Therma-Tru Impact)."
+      }
+    ],
+    "durability": [
+      {
+        "field": "slab_material_longevity",
+        "type": "categorical",
+        "adjustments": {
+          "fiberglass_rot_proof": 2,
+          "clad_wood_exterior_protected": 1,
+          "steel_galvanized_coated": 0,
+          "solid_wood_treated": 0,
+          "solid_wood_untreated": -1,
+          "steel_thin_gauge_uncoated": -2
+        },
+        "notes": "Fiberglass is inherently rot-proof (key advantage over wood). Clad wood (aluminum exterior cladding — Kolbe, Marvin) protects wood core. Steel galvanized + powder coat is durable but dents (not repairable). Solid wood requires ongoing maintenance (re-stain/seal every 2-5 years). Material choice determines 20+ year performance."
+      },
+      {
+        "field": "finish_durability",
+        "type": "categorical",
+        "adjustments": {
+          "factory_pvd_or_refinishable": 1,
+          "factory_stain_UV_stable": 1,
+          "powder_coat": 0,
+          "factory_paint_standard": 0,
+          "field_paint_only": -1,
+          "unfinished": -2
+        },
+        "notes": "Refinishable stains (Marvin, wood doors) = 10+ year UV durability + field renewal. PVD finishes on metal hardware = 100K+ cycle abrasion resistance. Powder coat on steel = good but not repairable if chipped. Factory paint = adequate. Field-paint-only = higher maintenance, inconsistent quality."
+      },
+      {
+        "field": "warranty_term",
+        "type": "threshold",
+        "adjustments": {
+          "lifetime_full": 2,
+          "lifetime_limited_or_50yr": 1,
+          "20_year": 0,
+          "10_year": -1,
+          "less_than_10_year_or_none": -2
+        },
+        "notes": "Therma-Tru Classic-Craft: 50yr/lifetime (best in fiberglass). Marvin: lifetime (strong Fortune Brands backing). Pella: limited lifetime. JELD-WEN: varies by line. Reliabilt/big-box builder: 1-3 year or limited. Warranty exclusion consistency rule (Rule 18) applies — wood weather damage exclusions are industry-standard, don't penalize individual brands."
+      },
+      {
+        "field": "parts_serviceability",
+        "type": "categorical",
+        "adjustments": {
+          "dealer_network_full_parts": 1,
+          "manufacturer_direct_parts": 0,
+          "limited_parts_channel": -1,
+          "no_parts_support": -2
+        },
+        "notes": "Therma-Tru and Masonite: parts widely available through lumber dealers and big-box. Marvin/Kolbe/Loewen: dealer-network parts, lead time can be long for custom. JELD-WEN: mixed (post-AuraLast parts supply improved). Big-box private label: parts often unavailable after 5 years."
+      },
+      {
+        "field": "weatherstrip_replacement_ease",
+        "type": "categorical",
+        "adjustments": {
+          "field_replaceable_standard_kerf": 1,
+          "field_replaceable_proprietary": 0,
+          "factory_only_replacement": -1,
+          "not_replaceable": -2
+        },
+        "notes": "Weatherstripping is the most common maintenance item. Standard kerf = universal replacements available. Proprietary = must order from manufacturer. Factory-only = impractical in field. Corner pads fail first (5-7 years on builder-grade, 10+ years on premium)."
+      },
+      {
+        "field": "channel_quality",
+        "type": "categorical",
+        "adjustments": {
+          "dealer_pro_channel": 1,
+          "mixed_dealer_bigbox": 0,
+          "big_box_exclusive": -1
+        },
+        "notes": "Same brand, different products at different channels. Therma-Tru/Masonite/JELD-WEN ship downgraded lines to Home Depot/Lowe's (thinner steel, basic weatherstrip, no premium hinges). Dealer/showroom gets full-spec prehung options. Score the channel the product is sold through."
+      }
+    ],
+    "material_safety_report_only": [
+      "energy_star_certified",
+      "nfrc_label_present",
+      "low_voc_finish_certified",
+      "astm_impact_rated",
+      "florida_building_code_approved"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Health certs report-only, no composite impact (ENERGY STAR, NFRC label, GREENGUARD).",
+    "Channel Quality Rule: Same brand may sell different quality levels at dealer vs big-box. Score the specific product as sold in its specific channel per Rule 19. Therma-Tru Classic-Craft (dealer) and Therma-Tru Smooth-Star (big-box) are different products.",
+    "Material Class Rule: No cross-material ranking caps. A fiberglass door can score Tier 1 (Therma-Tru Classic-Craft). A wood door can score Tier 1 (Marvin). A steel door is Tier 3 max due to dent vulnerability, warping in sun, and condensation issues — unless premium construction (+20 gauge, polyurethane core, multi-point lock) justifies higher.",
+    "Glass Lite Impact Rule: Glass lites dramatically affect U-factor. Score the specific configuration (solid panel vs half-lite vs full-lite). A solid panel Therma-Tru at 0.14 U and a full-lite Therma-Tru at 0.32 U are different products per Rule 19.",
+    "JELD-WEN Reputation Rule: AuraLast wood rot/delamination issues primarily affected windows, not doors. Doors score on their own construction merits. Report the AuraLast history but do not dock door scores for window-specific failures.",
+    "Iron/Decorative Door Rule: Iron and decorative steel doors are scored as premium decorative products, not structural entry doors. Heavy gauge (11-14 gauge) forged/welded steel scores on construction quality, finish, and hardware. Most are semi-custom fabricators, not mass manufacturers. Score available specs, note what cannot be verified.",
+    "Pivot Door Rule: Follow same scoring framework. Heavy-duty pivot hardware (500+ lb capacity) and seal systems are critical. Same manufacturers dominate (Marvin, Loewen, Kolbe for premium pivots).",
+    "Wood Maintenance Rule: Ongoing maintenance requirements (re-stain every 2-5 years) are NOT a deficiency — they are inherent to the material class. Do not penalize wood doors for needing maintenance that every wood door needs (Rule 18 logic). Penalize only if maintenance requirements are WORSE than competitors in the same material class.",
+    "Corporate structure = report finding. Fortune Brands (Therma-Tru, Moen, Master Lock). Masonite International (public). JELD-WEN (public). Pella (family-owned). AuraLast supply chain noted."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "VACANT — No independent comparative door tester equivalent to StarCraft (faucets), Karin Kirk (countertops), or Yale Appliance (dishwashers). Closest analog: Green Building Advisor field reports + Fine Homebuilding testing, but these are category A sources, not S. Pool S awaits a source that does controlled, comparative, multi-brand door testing with published methodology."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Green Building Advisor (GBA) — building science expertise, contractor field reports, 15+ year forum archive with door installation/failure threads",
+        "Fine Homebuilding (FHB) — professional installer perspectives, hands-on testing, component analysis articles",
+        "Consumer Reports — controlled lab testing, reliability surveys, product comparisons (paywalled but citable)",
+        "NFRC Database — U-factor, SHGC, VT certified test results for specific door models"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "Houzz professional threads — contractor opinions on specific brands and products",
+        "r/Carpentry — professional installer community, consistent consensus on quality hierarchy",
+        "r/HomeImprovement — mix of DIY and professional, brand reputation signals",
+        "YouTube installer/contractor channels — installation videos, product comparisons, problem documentation"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/HomeImprovement owner threads — homeowner experience reports",
+        "ConsumerAffairs door reviews — individual owner complaints and ratings",
+        "Houzz owner threads — homeowner Q&A forums",
+        "Individual owner reviews and forum posts"
+      ]
+    }
+  },
+
+  "operation_type": null,
+  "operation_type_adjustments": null,
+
+  "data_sources": {
+    "nfrc_database": "https://nfrc.org/certified-products-directory/",
+    "energy_star_doors": "https://www.energystar.gov/products/building_products/residential_windows_doors_and_skylights",
+    "quanex_endura": "https://www.quanex.com/",
+    "notes": "NFRC database provides U-factor, SHGC, and VT for certified door assemblies — free, searchable by manufacturer. ENERGY STAR certification list for doors available. Quanex/Endura threshold and weatherstrip specs available on their website."
+  }
+}

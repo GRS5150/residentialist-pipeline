@@ -1,0 +1,377 @@
+{
+  "product": "Therma-Tru Classic-Craft Premium Fiberglass Entry Door",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Manufacturer Technical Specifications",
+      "url": "https://thermatru.com/classic-craft-specifications",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Classic-Craft doors utilize compression-molded fiberglass slab construction with foamed-in-place polyurethane insulation core at 1.9 pounds per cubic foot minimum density",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Core specifications affect quality and performance axes",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "NFRC Certification Database",
+      "url": "https://nfrc.org/thermatru-classiccraft",
+      "platform": "other",
+      "column": "review",
+      "snippet": "NFRC-certified U-factor data ranges from 1.19 to 1.70 depending on glass configuration, with opaque solid-panel configurations achieving U-values of 1.47",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Performance test data affects performance axis scoring",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Florida Building Code Certification",
+      "url": "https://floridabuilding.org/fbc/door-certifications",
+      "platform": "other",
+      "column": "review",
+      "snippet": "DP50 rating for both 6'8\" and 8'0\" heights, passed ASTM E283 air infiltration and ASTM E330 water penetration testing, Water Design Pressure: 80 psf",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Structural performance ratings affect quality and performance axes",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Fine Homebuilding Forum",
+      "url": "https://finehomebuilding.com/forum/thermatru-jamb-failure",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Jamb stock made out of finger-jointed white pine deteriorates where it meets the aluminum threshold after a few years of service, contradicting rot-resistant marketing claims",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional field observation of durability failure affects quality and durability axes",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Fine Homebuilding Forum Case Study",
+      "url": "https://finehomebuilding.com/forum/door-replacement-thermal-failure",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Classic-Craft door slab replaced twice due to heat trapping behind storm door causing thermal expansion and weatherstripping failure. Inner and outer skins subject to different thermal expansion rates",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Technical failure analysis by professionals affects durability and performance scoring",
+      "topics": [
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Therma-Tru Warranty Documentation",
+      "url": "https://thermatru.com/warranty-classic-craft",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Transferable lifetime limited warranty on door slab, 10-year transferable warranty on PrismaGuard finish, excludes doors installed behind storm doors",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Warranty terms and exclusions affect durability axis scoring",
+      "topics": [
+        "durability",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "BBB Complaint Records",
+      "url": "https://bbb.org/thermatru-complaints-2025",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Classic-Craft French doors with sidelights purchased June 2025 exhibited doors leaking, mold growing over outside surfaces, wood rot by November 2025 - five-month failure timeline",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Recent field failure affecting quality and durability assessment",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "BBB Complaint Records",
+      "url": "https://bbb.org/thermatru-lifetime-warranty-complaint",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Door marketed with lifetime warranty stating 'never rot like wood' but interior of door is rotted, identical to wood, indicating foam core delamination or water intrusion",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Field failure contradicting marketing claims affects quality scoring",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Therma-Tru Hardware Specifications",
+      "url": "https://thermatru.com/multipoint-lock-system",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Multi-point locking system standard on 6'8\" and 8'0\" doors, engages at three critical points with integrated mishandling device, available in Brushed Nickel, Black Nickel, Oil-Rubbed Bronze",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Hardware specifications affect quality and performance axes",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Therma-Tru Hinge Specifications",
+      "url": "https://thermatru.com/ball-bearing-hinges",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Ball-bearing hinges with 5/8 inch diameter, C-shape hole pattern, removable pins, sold as replacement parts at $16.16 to $17.54 per hinge",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Component specifications and replaceability affect quality scoring",
+      "topics": [
+        "quality",
+        "specs",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Therma-Tru Weatherstripping System",
+      "url": "https://thermatru.com/weatherstrip-system",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Medium-reach weatherstrip system with kerf-applied foam-filled polyethylene/urethane composite, 7-shape corner seal pads, field replaceable with 81-inch lengths available",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Weathersealing performance affects performance axis",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Therma-Tru Troubleshooting Guide",
+      "url": "https://thermatru.com/troubleshooting-infiltration",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Replace weatherstrip as primary remedy for draft and air infiltration problems. Door face-to-lite frame seal breakdown requires sealing with Elastomeric and Polyurethane sealant",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Field maintenance requirements affect service and durability scoring",
+      "topics": [
+        "service",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Fortune Brands Corporate Structure",
+      "url": "https://fortunebrands.com/thermatru-acquisition",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Therma-Tru is part of Fortune Brands Home & Security with manufacturing at Butler, Indiana facility, suggesting access to integrated manufacturing capacity",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate structure information relevant to buyers but doesn't affect scoring",
+      "topics": [
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Coastal Certification Testing",
+      "url": "https://thermatru.com/coastal-approval-testing",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Classic-Craft doors tested and approved for coastal use including configurations with sidelites and double doors, but finish warranty excludes coverage within 5 miles of salt water",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Environmental performance certification affects durability scoring",
+      "topics": [
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Glass Configuration Options",
+      "url": "https://thermatru.com/glass-options-classic-craft",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "13 exclusive decorative glass families, triple-pane options with tempered glass, Zaha branded glass available, maximum lite sizes of 25×66 inches",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Glass options and safety features affect quality and performance",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "PrismaGuard Finish Specifications",
+      "url": "https://thermatru.com/prisma-guard-finish",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Factory-applied PrismaGuard finish requires topcoat reapplication every 3-5 years, work must be done between 50°F-90°F with humidity less than 85%",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Finish maintenance requirements affect service and durability scoring",
+      "topics": [
+        "service",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Installation Requirements",
+      "url": "https://thermatru.com/installation-warranty-requirements",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fiberglass doors must be finished within 6 months of installation, bare wood surfaces within 2 weeks, all six surfaces must be properly finished for warranty coverage",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Installation requirements affect service scoring and warranty validity",
+      "topics": [
+        "service",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Sill System Design",
+      "url": "https://thermatru.com/sill-pan-system",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Sill pan arrangement designed to catch and shed water with adjustable sill caps, dual-bulb dual-fin door bottom gasket, requires galvanized screw anchoring for repairs",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Water management system affects performance and durability",
+      "topics": [
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Fire Rating Options",
+      "url": "https://thermatru.com/fire-rated-doors",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fiberglass 20-minute fire-rated door options available for applications requiring fire-safety performance, though not standard for Classic-Craft line",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Specialty option availability relevant to buyers but doesn't affect standard product scoring",
+      "topics": [
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Thermal Performance Analysis",
+      "url": "https://thermatru.com/thermal-expansion-guidance",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Polyurethane foam K-factor of 0.15 BTU/(hr·sq ft·°F·in) provides superior thermal resistance compared to polystyrene foam (0.24) or fiberglass board (0.25)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Insulation performance specifications affect performance axis",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "The Therma-Tru Classic-Craft Premium represents a well-engineered fiberglass door with strong thermal performance (U-factors 1.19-1.70) and comprehensive warranty coverage (lifetime slab, 10-year finish), but faces significant durability concerns in field applications. Professional contractor reports document finger-jointed pine jamb failures within years of installation, contradicting 'rot-resistant' marketing claims. Multiple cases of thermal expansion failures behind storm doors and rapid deterioration (5-month timeline in one BBB complaint) raise questions about real-world durability. While the door features quality components like multi-point locking and ball-bearing hinges, the gap between marketing promises and field performance, combined with warranty exclusions for common installation scenarios, suggests careful evaluation of installation context and realistic maintenance expectations.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-020"
+    ],
+    "sources_report_only": [
+      "SRC-013",
+      "SRC-019"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 18,
+      "pool_B": 0,
+      "pool_C": 2
+    }
+  },
+  "product_slug": "thermatru_classiccraft",
+  "product_name": "Classic-Craft Premium",
+  "manufacturer_slug": "thermatru",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 20,
+    "score": 18,
+    "report_only": 2,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "human_overrides": []
+}

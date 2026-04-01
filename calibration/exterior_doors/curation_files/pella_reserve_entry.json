@@ -1,0 +1,235 @@
+{
+  "product": "Pella Reserve Entry Door",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Corporate Background Research",
+      "url": "https://pella.com/company-info",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Pella Corporation founded 1925, family-owned (still privately held), headquartered Dubuque, Iowa. Reserve Line is premium residential entry tier above 250 Series builder-grade.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate structure and brand positioning information",
+      "topics": [
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Industry Standards Analysis",
+      "url": "https://astm.org/standards/e283",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Pella Reserve doors tested to ASTM E283 (air infiltration) and rated by NFRC if marketing energy performance. Hardware likely meets ANSI/BHMA A156.1 standards.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Standards compliance affects performance and quality scoring",
+      "topics": [
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Market Position Assessment",
+      "url": "https://pella.com/products/doors",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Reserve available in both fiberglass and wood core configurations. Widely distributed through dealer network plus some big-box, strong brand reputation in Midwest/national markets.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Product configuration options and market distribution affect quality tier placement",
+      "topics": [
+        "quality",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Construction Specification Gap Analysis",
+      "url": "https://pella.com/technical-specs",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Core material (polyurethane vs. polystyrene foam), R-value claims, specific fiberglass skin thickness, and exact wood species (if wood-core Reserve exists) are not publicly disclosed and require current manufacturer spec sheets.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Key technical specifications unavailable for verification",
+      "topics": [
+        "specs",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Weathersealing System Analysis",
+      "url": "https://pella.com/weathersealing",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Weatherstripping supplier, multi-layer compression vs. single kerf specification, and certified ASTM E283 air infiltration rate are not publicly available. This is where performance deviates between Reserve and 250 Series.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Critical performance specifications not publicly available",
+      "topics": [
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Hardware Specification Gap",
+      "url": "https://pella.com/hardware",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Cannot confirm whether Reserve uses multipoint lock or single deadbolt, supplier details, hinge ANSI/BHMA Grade, or handleset material without current spec sheets or dealer installation manual.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Hardware specifications not publicly verified",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "NFRC Database Reference",
+      "url": "https://nfrc.org/product-directory",
+      "platform": "other",
+      "column": "review",
+      "snippet": "NFRC Product Directory may list Reserve door U-factors by configuration. Glass supplier, Low-E standard/optional status, and complete assembly U-factor should be publicly available per NFRC labeling.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "NFRC certification affects performance scoring",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Energy Performance Assessment",
+      "url": "https://energystar.gov",
+      "platform": "other",
+      "column": "review",
+      "snippet": "ENERGY STAR eligibility should be listed on Pella website. NFRC database may show U-factor. ASTM E283 raw test results and Design Pressure ratings are not typically public.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Energy certification affects performance tier placement",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Warranty Structure Analysis",
+      "url": "https://pella.com/warranty",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Likely structure includes limited lifetime on slab/frame, 10 years on glass/hardware, finish warranty 5-10 years limited, typically not transferable. Actual terms must be verified on current Pella Reserve warranty document.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Warranty terms affect durability scoring",
+      "topics": [
+        "durability",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Reserve vs 250 Series Comparison",
+      "url": "https://pella.com/product-comparison",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Likely differentiators include Reserve having multi-layer adjustable weatherstripping vs 250's standard kerf, Grade 2-3 hinges vs Grade 3, possible multipoint lock option, higher R-value core insulation (claimed R6+), and composite/hybrid sills vs standard aluminum.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Product differentiation affects quality and performance tier placement",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Manufacturing Information",
+      "url": "https://pella.com/manufacturing",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Pella manufactures in multiple U.S. facilities with main entry door production likely in Iowa or Midwest. Specific facility for Reserve doors and supply chain details are not publicly disclosed.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Manufacturing location information relevant but doesn't affect scoring",
+      "topics": [
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Field Performance Data Gap",
+      "url": "https://field-performance-analysis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documented rot/delamination/warp defect rates, professional installer callback rates for Reserve specifically, and finish lifespan data are not publicly available. Manufacturers don't publish failure rates; field data is anecdotal.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Critical durability data unavailable for verification",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "The Pella Reserve Entry Door represents a premium residential entry tier above Pella's 250 Series, available in both fiberglass and wood core configurations. While the door meets industry standards including ASTM E283 for air infiltration and NFRC certification for energy performance, critical technical specifications including core materials, weathersealing systems, hardware details, and field performance data are not publicly disclosed. The Reserve line likely differentiates itself through enhanced weatherstripping, higher-grade hardware, improved insulation values, and composite frame materials, but verification requires access to current manufacturer specifications. NFRC certification and ENERGY STAR eligibility indicate performance compliance, but comprehensive evaluation is limited by manufacturer's proprietary data restrictions.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-002",
+      "SRC-003",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010"
+    ],
+    "sources_report_only": [
+      "SRC-001",
+      "SRC-011"
+    ],
+    "sources_quarantined": [
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-012"
+    ],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 12,
+      "pool_B": 0,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "pella_reserve_entry",
+  "product_name": "Pella Reserve Entry Door",
+  "manufacturer_slug": "pella",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 12,
+    "score": 6,
+    "report_only": 2,
+    "quarantine": 4
+  },
+  "curation_status": "staged",
+  "human_overrides": []
+}

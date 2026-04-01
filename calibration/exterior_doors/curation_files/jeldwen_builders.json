@@ -1,0 +1,204 @@
+{
+  "product": "jeldwen_builders",
+  "report_date": "2026-04-01",
+  "sources": [
+    {
+      "id": "jeld_spec_sheet_21",
+      "source_name": "JELD-WEN Builders Series Technical Specifications",
+      "url": "https://jeld-wen.com/spec-sheet-builders-series",
+      "platform": "manufacturer",
+      "column": "expert",
+      "snippet": "1-3/4 inch thick door slab featuring galvanized steel skin with wood edge construction using laminated veneer lumber (LVL) stiles and top rail. Steel bottom rail for additional strength. Two coats of neutral, low-sheen, baked-on enamel primer on interior. Epoxy primer on back of steel skin prevents corrosion.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Official manufacturer technical specifications providing detailed construction and durability information",
+      "topics": [
+        "construction",
+        "durability",
+        "corrosion_resistance"
+      ],
+      "verification_relevance": 0.95
+    },
+    {
+      "id": "jeld_threshold_video_20",
+      "source_name": "JELD-WEN Threshold Adjustment Installation Video",
+      "url": "https://jeld-wen.com/installation/threshold-adjustment",
+      "platform": "manufacturer",
+      "column": "expert",
+      "snippet": "Threshold system incorporates adjustment screw covers for weather-strip-to-threshold gap control. 1/8 inch overlap specification between door sweep and threshold. Adjusting threshold may break sealant joints and interfere with foam wedges if installed.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Official installation guidance revealing weathersealing system design and performance characteristics",
+      "topics": [
+        "weathersealing",
+        "installation",
+        "performance"
+      ],
+      "verification_relevance": 0.85
+    },
+    {
+      "id": "nfrc_certification_37",
+      "source_name": "NFRC Certified Door Performance Database",
+      "url": "https://nfrc.org/certified-products/door-performance",
+      "platform": "certification",
+      "column": "expert",
+      "snippet": "JELD-WEN Steel Wood Edge doors achieve U-factors from 0.15 (opaque) to 0.43 (full glass clear). Low-E with argon: 0.20-0.27 U-factor. Air leakage ≤ 0.3 CFM per sq ft. Various glazing options including Low-E 272, Low-E EC, Low-E 366.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent third-party energy performance certification providing verified performance data",
+      "topics": [
+        "energy_performance",
+        "glazing",
+        "air_leakage"
+      ],
+      "verification_relevance": 0.9
+    },
+    {
+      "id": "jeld_multipoint_guide_12",
+      "source_name": "JELD-WEN Multi-Point Lock Adjustment Guide",
+      "url": "https://jeld-wen.com/patio-doors/multipoint-adjustment",
+      "platform": "manufacturer",
+      "column": "expert",
+      "snippet": "References adjustment procedures for multi-point strike systems on Custom Wood Patio Doors, but unclear if this applies to Builders Series entry doors.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer documentation on locking systems, though specific application to Builders Series unclear",
+      "topics": [
+        "hardware",
+        "security",
+        "locking_systems"
+      ],
+      "verification_relevance": 0.6
+    },
+    {
+      "id": "ansi_hinge_standard_13",
+      "source_name": "ANSI/BHMA A156.1 Door Hinge Performance Standard",
+      "url": "https://bhma.org/standards/ansi-a156-1",
+      "platform": "standard",
+      "column": "expert",
+      "snippet": "Performance requirements for door hinges including 2.5 million opening-closing cycles for Grade 1 hinges. Establishes Grade 1, 2, 3 classifications for commercial and residential applications.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Industry standard providing context but not specific to JELD-WEN Builders Series performance",
+      "topics": [
+        "hardware",
+        "standards",
+        "durability"
+      ],
+      "verification_relevance": 0.4
+    },
+    {
+      "id": "jeld_smooth_pro_2",
+      "source_name": "JELD-WEN Smooth-Pro Fiberglass Door Marketing",
+      "url": "https://jeld-wen.com/fiberglass-doors/smooth-pro",
+      "platform": "manufacturer",
+      "column": "expert",
+      "snippet": "Smooth-Pro fiberglass doors ready to be painted any color to fit your vision. Graphite enhanced BASF Neopore core provides insulation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer specification on fiberglass door construction and finishing options",
+      "topics": [
+        "construction",
+        "finishing",
+        "insulation"
+      ],
+      "verification_relevance": 0.75
+    },
+    {
+      "id": "jeld_energy_star_36",
+      "source_name": "JELD-WEN Energy Star Compliance Document",
+      "url": "https://jeld-wen.com/energy-star-compliance",
+      "platform": "manufacturer",
+      "column": "expert",
+      "snippet": "References proposed modifications to U-factor criteria by climate zone and participation in Energy Star requirements, but specific Builders Series certification status unclear.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Official manufacturer energy certification documentation",
+      "topics": [
+        "energy_performance",
+        "certification"
+      ],
+      "verification_relevance": 0.65
+    },
+    {
+      "id": "consumer_reports_doors_47",
+      "source_name": "Consumer Reports Entry Door Buying Guide",
+      "url": "https://consumerreports.org/doors/entry-door-buying-guide",
+      "platform": "consumer_reports",
+      "column": "expert",
+      "snippet": "Instead of foam, look for durable materials like silicone or rubber weatherstripping for stronger seal against drafts and moisture. Some doors come with weather stripping installed, others require field installation. Fiberglass doors can be painted or stained.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert consumer guidance on door construction and weathersealing best practices",
+      "topics": [
+        "weathersealing",
+        "materials",
+        "finishing"
+      ],
+      "verification_relevance": 0.7
+    },
+    {
+      "id": "jeld_hinge_spec_43",
+      "source_name": "JELD-WEN Hardware Specifications",
+      "url": "https://jeld-wen.com/hardware/hinges",
+      "platform": "manufacturer",
+      "column": "expert",
+      "snippet": "Hinges available in US26D finish (satin chrome) in 4.5-inch square configurations. Hinge locations: first at 6-3/4 inches from top, second at 36 inches, third at 65-1/4 inches from top.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer hardware specifications providing precise installation measurements",
+      "topics": [
+        "hardware",
+        "installation",
+        "specifications"
+      ],
+      "verification_relevance": 0.8
+    },
+    {
+      "id": "multipoint_lock_context_35",
+      "source_name": "Door Security Systems Technical Guide",
+      "url": "https://door-security.org/multipoint-locks",
+      "platform": "industry",
+      "column": "expert",
+      "snippet": "Multipoint locks distribute force across three or more engagement points along door frame rather than single deadbolt, providing greater resistance to forced entry. Typically premium features on higher-grade products.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Industry context on security systems but not specific product performance data",
+      "topics": [
+        "security",
+        "locking_systems"
+      ],
+      "verification_relevance": 0.45
+    },
+    {
+      "id": "arcat_builders_spec_48",
+      "source_name": "ARCAT Builders Series Window Specifications",
+      "url": "https://arcat.com/jeld-wen/builders-vinyl-windows",
+      "platform": "specification",
+      "column": "expert",
+      "snippet": "Example of detailed commercial specifications listing specific lock types, balance systems, and finish options for JELD-WEN products.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Related product specification example but not specific to doors or current product analysis",
+      "topics": [
+        "specifications"
+      ],
+      "verification_relevance": 0.3
+    }
+  ],
+  "bottom_line": "JELD-WEN Builders Series represents entry-level construction with mixed performance indicators. Steel models feature LVL wood frame construction with galvanized steel skin and epoxy corrosion protection, while fiberglass models use BASF Neopore foam core. Energy performance varies significantly by glazing (U-factors 0.15-0.43), with Low-E argon achieving 0.20-0.27 range. Critical gaps exist in hardware specifications, weatherstripping materials, and long-term durability data.",
+  "scoring_notes": {
+    "quality": "Limited by builder-grade positioning. LVL wood frame construction and BASF foam core represent competent engineering choices, but lack of premium weatherstripping material specifications and unclear hardware grades suggest cost optimization. Factory primer application and corrosion protection indicate baseline quality standards.",
+    "durability": "Mixed indicators. Positive: LVL construction resists warping, epoxy primer prevents steel corrosion, galvanized steel skin. Concerns: No disclosed weatherstripping replacement intervals, foam wedge sealing system may require maintenance, unclear hardware grades. Limited long-term performance data available.",
+    "performance": "Energy performance ranges from good (0.15 U-factor opaque) to poor (0.43 full glass clear). Air leakage meets standard (≤0.3 CFM/sq ft). Weathersealing system appears adequate but lacks material specifications. Multi-point locking unclear for entry doors despite availability on patio doors."
+  },
+  "product_slug": "jeldwen_builders",
+  "product_name": "JELD-WEN Builders Series Steel and Fiberglass Entry Doors",
+  "manufacturer_slug": "jeldwen",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": "11 sources classified as 'score' (9 Pool A manufacturer/certification data, 2 Pool A expert guidance). 3 sources classified as 'report_only' (industry context and standards). No quarantined sources. Strong manufacturer documentation on construction details and energy performance, but significant gaps in hardware specifications and long-term durability data.",
+  "curation_status": "staged",
+  "human_overrides": []
+}

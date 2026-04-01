@@ -1,0 +1,283 @@
+{
+  "product": "Marvin Signature Ultimate Entry Door",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Marvin Technical Documentation",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "The Ultimate collection features all-wood OR wood core with Aluminum clad windows and doors, manufactured in Warroad, Minnesota with finely crafted wood interior and premium aluminum clad exterior",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Technical construction specifications affect quality axis scoring",
+      "topics": [
+        "quality",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Marvin Product Specifications",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Commercial-grade extruded aluminum exterior finished in commercial-grade paint for superior resistance to fading and chalking, available in nineteen colors",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Exterior finish specifications directly impact durability performance",
+      "topics": [
+        "durability",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Marvin Hardware Documentation",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Multi-point locking system as standard ensures a tight seal and security from top to bottom, equipped with weatherstripping, keyed locks, and deadbolts",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Multi-point locking affects both security performance and weathersealing quality",
+      "topics": [
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Marvin Sill System Specifications",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Durable Performance Sill engineered for years of energy-efficient and weathertight performance, Ultrex fiberglass construction available in both Performance and Accessibility configurations",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Sill construction directly affects weather performance and durability",
+      "topics": [
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Marvin Glazing Specifications",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Standard dual-pane glazing with two panes of glass with Low-E coatings and insulated with argon gas, optional triple-pane glazing with three panes and two argon-filled spaces",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Glazing specifications directly impact energy performance",
+      "topics": [
+        "performance",
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Marvin Impact Rating Documentation",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Impact-rated products rigorously tested to comply with coastal codes, withstand high wind, extreme pressure, and flying debris using layered impact resistant glass, tested with 8' long 2x4 stud at 50'/second",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Impact testing data demonstrates structural performance capability",
+      "topics": [
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Marvin Limited Warranty",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "20-year warranty on standard insulating glass against seal failure for sizes up to 60 sq ft, 10-year warranty on hardware and non-glass components, 5-year exterior finish warranty in coastal environments",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Warranty terms indicate manufacturer confidence and affect durability scoring",
+      "topics": [
+        "durability",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Marvin Replacement Parts Documentation",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Replacement parts available including stile weather strip (V020), sill liner (W8661), and sill weather strip (V794), V189 Marvin Weather Strip at $78.88 aftermarket",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Parts availability affects long-term serviceability and durability",
+      "topics": [
+        "durability",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Custom Home Designer Professional Input",
+      "url": "https://forum.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Designer with more than 20 years experience states had never heard of any complaints regarding Marvin Essential/Infinity or Elevated/Integrity products, specifies them in number of projects",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional installer feedback affects quality tier assessment",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Forum Discussion on Marvin Products",
+      "url": "https://forum.com",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Marvin's patio doors look OK, but their slider has a single point latch, some claiming they have terrible air infiltration problems, Marvin doesn't advertise their air infiltration results",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Performance concerns regarding air infiltration affect performance axis",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Better Business Bureau Complaint",
+      "url": "https://bbb.org",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Marvin windows is refusing to supply a replacement claiming the windows were held for more than 90 days before they were notified, indicating rigid warranty interpretation",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Warranty service issues affect service quality scoring",
+      "topics": [
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "BBB Installation Complaint",
+      "url": "https://bbb.org",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Complaint references crummy installers and promised professional job but have damaged belongings, complainant states there is no warranty despite published warranty terms",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Installation quality and warranty service issues affect overall quality",
+      "topics": [
+        "quality",
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Marvin Energy Data Access",
+      "url": "https://marvin.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Window and door energy data resources like SHGC, U-factor, and NFRC data available but requires contacting Marvin Dealer for specific values, creates informational barrier for performance comparison",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Data access policy affects transparency but not product performance",
+      "topics": [
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Fortune Brands Corporate Structure",
+      "url": "https://fortune.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Marvin operates as subsidiary of Fortune Brands Innovations (NYSE: FBIN) with $4.5 billion in 2025 net sales, Nicholas Fink departed as CEO March 2026 with David Barry as interim CEO",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate structure information relevant but doesn't affect product performance",
+      "topics": [
+        "specs"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Homeowner Impact Window Experience",
+      "url": "https://forum.com",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Homeowner with 2021-installed impact-rated windows noted long lead times but no specific quality issues reported",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Lead time issues affect service experience",
+      "topics": [
+        "service"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "The Marvin Signature Ultimate Entry Door represents a premium positioning with multi-point locking, commercial-grade aluminum cladding, and comprehensive warranty coverage, but significant data gaps exist around core insulation specifications, actual energy performance values, and field failure rates. Professional feedback is generally positive though limited, while warranty service shows mixed results with rigid interpretation of terms. Manufacturing quality appears solid with domestic production in Minnesota, but the lack of publicly available NFRC data and specific performance metrics prevents full validation of premium positioning claims.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-015"
+    ],
+    "sources_report_only": [
+      "SRC-013",
+      "SRC-014"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 8,
+      "pool_B": 1,
+      "pool_C": 6
+    }
+  },
+  "product_slug": "marvin_ultimate_entry",
+  "product_name": "Signature Ultimate Entry Door",
+  "manufacturer_slug": "marvin",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 15,
+    "score": 13,
+    "report_only": 2,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "human_overrides": []
+}
