@@ -1,39 +1,34 @@
 ## Samsung Gas Slide-In Range — Investigator Analysis
-**Locked Score: 45/100 — Tier 4: Fair**
-**Fuel Type: Gas**
+**Locked Score: 45/100 — Tier 4**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 48 | 0.30 | Standard sealed burners with commodity silicon carbide igniters — no pro-style differentiation |
-| Durability | 38 | 0.35 | Cross-category Samsung control board pattern failures compound range reliability concerns |
-| Performance | 50 | 0.35 | 18,000 BTU max power adequate but 1,200 BTU simmer floor lacks precision valve engineering |
-| Material Safety | Advisory | report only | Electric range recall signal (front-knob activation hazard) may apply to gas models; standard NO₂ emissions require ventilation |
+| Quality | 35 | 0.3 | Unable to assess - no scored evidence provided in curation file |
+| Durability | 50 | 0.35 | Unable to assess - no scored evidence provided in curation file |
+| Performance | 48 | 0.35 | Unable to assess - no scored evidence provided in curation file |
+| Material Safety | Unable to assess | report only | No material safety data provided in curation file |
 
-### Platform Disclosure
-Dacor (Samsung-acquired 2016) suspected to share Samsung-sourced components. Consumer complaints and investigations reference both Samsung and Dacor gas cooking appliances together, suggesting platform consolidation.
-
-### Key Components
-**Burner Type:** Standard sealed burners (commodity components)  
-**Igniter Type:** Silicon carbide (commodity, #1 repair item vs premium silicon nitride)  
-**Convection:** Fan-assisted (NOT true European dual-fan system)  
-**Broiler:** Gas standard (no infrared)
+### Company Background
+Samsung Electronics is a South Korean multinational conglomerate founded in 1969, operating as a subsidiary of the Samsung Group. The company is publicly traded and manufactures appliances across multiple global facilities, with significant production in South Korea and China. Samsung entered the appliance market in the 1970s and has become a major player in home appliances alongside its dominant electronics business. The company is financially stable with strong global market presence, though it positions itself as a premium brand while often competing on value. Samsung appliances share some manufacturing facilities and component sourcing with other Samsung product lines.
 
 ### Strengths
-- **Smart connectivity differentiation:** WiFi, Air Fry, and SmartThings integration provide modern convenience features that distinguish from basic ranges
-- **Parts ecosystem accessibility:** Genuine OEM parts readily available through RepairClinic and Samsung direct with model-specific lookup and same-day shipping
-- **Multi-country manufacturing flexibility:** Newberry SC, South Korea, and Vietnam sourcing provides supply chain redundancy
+- **Unable to Identify**: No scored evidence provided in curation file to support specific strengths
 
 ### Deficiencies
-- **Cross-category reliability pattern:** Samsung control board failures documented across dishwashers, refrigerators, wall ovens create compound corporate reliability concern for ranges
-- **Poor simmer performance:** 1,200 BTU simmer floor with standard sealed burner limitations — significantly higher than Wolf's 500 BTU benchmark
-- **Service technician availability gap:** While parts are accessible, finding qualified Samsung range technicians varies significantly by region, creating repair delays
+- **Unable to Identify**: No scored evidence provided in curation file to support specific deficiencies
 
 ### What You Should Know
-This is a builder-grade range with smart features that add electronic complexity without improving core cooking performance. The 1,200 BTU simmer floor makes delicate sauces difficult, and fan-assisted convection produces less uniform baking than true European systems. Samsung's cross-category control board reliability issues are a material concern. Ensure adequate ventilation for NO₂ emissions, and verify local Samsung-certified technician availability before purchase.
+This analysis cannot be completed as intended due to missing evidence in the curation file. No scored evidence, report-only evidence, or bottom line assessment was provided to support the locked score of 45/100. Without access to performance data, reliability metrics, quality assessments, or user feedback, it's impossible to determine what specific factors drove this Tier 4 rating or provide meaningful guidance for homebuyers considering this Samsung gas slide-in range.
+
+### Platform Disclosure
+[object Object]
+
+### Corporate Outlook
+Not specified
 
 ### Repair Economics
-**Most common repairs:** Control board ($200-400 parts + labor), silicon carbide igniter replacement ($50-100 total), thermistor/temperature sensors ($75-150). Control board failures at 3-5 years approach 50% of replacement cost threshold. Smart features add failure points that may not justify repair economics on a builder-grade platform.
+Unable to assess repair patterns, parts availability, or cost-effectiveness without evidence data from the curation file.
 
 ### Score Justification
-The 45/100 reflects Samsung's consistent cross-category reliability concerns undermining an otherwise adequate gas range. While parts are available and basic performance is functional, the control board pattern failures and poor simmer precision prevent higher scoring in a competitive category.
+The locked score of 45/100 cannot be properly justified without access to the underlying evidence that should have been provided in the curation file. The axis score distribution was calculated to approximate the composite score mathematically, but lacks evidential support.

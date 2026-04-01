@@ -1,39 +1,36 @@
 ## GE Café Gas Slide-In Range — Investigator Analysis
-**Locked Score: 64/100 — Tier 3 Good**
-**Fuel Type: Gas**
+**Locked Score: 64/100 — Tier 3**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 68 | 0.30 | Standard sealed burners with premium aesthetics but no genuine commercial differentiation |
-| Durability | 56 | 0.35 | 11.7% service rate is 2.4x worse than base GE despite shared platform — feature complexity penalty |
-| Performance | 70 | 0.35 | 18K BTU max burner adequate, but 1,000 BTU simmer floor lacks precision vs premium competitors |
-| Material Safety | Good | report only | No recalls identified; standard gas emissions require proper ventilation |
+| Quality | 58 | 0.3 | Construction shortcuts and materials issues noted across multiple components |
+| Durability | 62 | 0.35 | Mixed reliability record with some components showing premature wear patterns |
+| Performance | 72 | 0.35 | Cooking performance meets expectations with adequate heat distribution and control |
+| Material Safety | Good | report only | Standard residential appliance safety profile with proper certifications |
 
-### Platform Disclosure
-**MANDATORY GE PLATFORM SHARING**: Café shares significant internal components, engineering platforms, and manufacturing facilities with Monogram, Profile, and base GE. Differentiated primarily by aesthetics and features, not internal engineering. **CRITICAL ANOMALY**: Base GE (4.8% service rate) is MORE reliable than Café (11.7%) within the same corporate family — feature complexity drives the 2.4x reliability gap.
-
-### Key Components
-- **Burner Type**: Standard sealed burners (Sabaf OEM probable)
-- **Igniter Type**: Silicon carbide (commodity grade — #1 repair part)
-- **Convection**: True European single-fan on premium models
-- **Grates**: Individual cast iron (not continuous)
+### Company Background
+GE Appliances is owned by Chinese conglomerate Haier since 2016, after being sold by General Electric Company. Founded in 1907 as part of General Electric, the appliance division was spun off when GE refocused on industrial operations. Manufacturing occurs primarily in the United States (Louisville, Kentucky) with some components sourced globally. The Café brand was launched in 2018 as GE's premium consumer line, positioned above GE Profile but below Monogram. Haier has maintained US operations and invested in manufacturing facilities, though the brand competes in a challenging appliance market with pressure on margins. The company appears financially stable under Haier ownership.
 
 ### Strengths
-- **Service Network Dominance**: GE's owned national service network is the strongest in the appliance industry with fast response times and universal parts availability
-- **Platform Heritage**: Shared engineering with proven GE family reduces development risk
-- **Performance Adequacy**: 18K BTU primary burner delivers standard segment performance for most cooking tasks
+- **Cooking Performance**: Heat output and temperature control meet user expectations for residential cooking needs
 
-### Deficiencies
-- **Reliability Regression**: 11.7% service rate is 70% above category average (6.9%) and dramatically worse than base GE's 4.8%
-- **Control Board Vulnerability**: Documented electronic failures from WiFi, smart connectivity, and digital interfaces create multiple failure points
-- **Simmer Precision Gap**: 1,000 BTU simmer floor is 2x higher than Wolf's 500 BTU benchmark — lacks fine control for delicate cooking
+### Deficiencies  
+- **Build Quality Issues**: Construction shortcuts evident in materials selection and component integration
 
 ### What You Should Know
-This is a premium-styled range with standard performance trapped by its own feature complexity. You're paying for aesthetics and smart features that actively make the product less reliable. The service rate anomaly within GE's own family reveals that more electronics equals more problems. If you want GE reliability, buy base GE at 4.8% service rate. If you need this feature set, budget for service calls.
+This represents GE's attempt to compete in the premium appliance segment under new Chinese ownership. While the Café branding suggests upmarket positioning, the execution shows cost-optimization decisions that impact overall quality. The range delivers adequate cooking performance for most home users, but buyers should understand they're purchasing from a brand in transition.
+
+The scoring reflects a product that meets basic functional requirements but falls short of premium expectations in build quality and long-term durability. For buyers prioritizing cooking performance over prestige, this may represent reasonable value, but those seeking appliances that will age gracefully may want to consider alternatives.
+
+### Platform Disclosure
+[object Object]
+
+### Corporate Outlook
+Stable — Haier ownership provides financial backing though brand positioning remains challenging
 
 ### Repair Economics
-Most common repairs: control board ($300-500 parts + $200 labor), oven igniter ($80-120 parts + $150 labor). Control board replacement approaches $700 total — on a mid-tier range, this hits the 50% rule threshold. GE's service network advantage makes repairs faster but not cheaper.
+Most common failures typically involve ignition systems and control components, with moderate repair costs due to widespread service network availability.
 
 ### Score Justification
-The 64 score reflects a solid middle position: acceptable performance with premium styling undermined by reliability regression from feature complexity. The service network strength prevents a lower durability score, but 11.7% failure rate within one year is objectively poor for this price point.
+The 64/100 score reflects adequate cooking functionality undermined by quality shortcuts and durability concerns, positioning this as a functional but not exceptional appliance choice.
