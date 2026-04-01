@@ -1,0 +1,81 @@
+{
+  "product_name": "KitchenAid KDTM604 (M-series)",
+  "product_slug": "kitchenaid_kdtm604",
+  "category": "dishwashers",
+  "tier": "Tier 2",
+  "target_score": 81,
+  "axis_scores": { "quality": 7.9, "durability": 8.3, "performance": 8.0 },
+  "deep_dive_date": "2026-03-31",
+  "models_covered": ["KDTM604KPS", "KDTM604KBS"],
+
+  "verified_specs": {
+    "tub_material": "stainless_steel (W11120458)",
+    "motor_type": "PSC AC induction (NOT brushless — run capacitor W10753070 confirms)",
+    "motor_supplier": "Askoll (legacy M309 platform, current W11xxx evolved derivative)",
+    "circ_pump_pn": "W11612327 ($80 OEM), W11345228 (motor+sump assembly)",
+    "drain_pump_pn": "W11035709; legacy WPW10348269 (broadest-platform commodity drain pump in US)",
+    "drain_pump_price_usd": "32-71",
+    "filter_type": "self_cleaning (True Self-Cleaning Filtration — NOT manual mesh)",
+    "spray_arms": "4_spray_levels (lower, lower-mid, upper, third-level via hydraulic manifold)",
+    "third_rack": "360° Max Jets with rotating wash jets (largest third rack, unique feature)",
+    "third_rack_pn": "W11127727",
+    "rack_glides": "SatinGlide Max dual ball-bearing (KitchenAid exclusive within Whirlpool family)",
+    "noise_dba": 44,
+    "drying_technology": "ProDry fan-assisted + recessed heating element",
+    "energy_kwh_year": 270,
+    "water_gal_per_cycle": 3.2,
+    "energy_star": true,
+    "yale_service_rate_pct_2026": 8.2,
+    "warranty_years_standard": 1,
+    "warranty_parts_years_2_5": "motor, electronic controls, racks, heater",
+    "warranty_tub": "lifetime (rust-through, parts+labor)",
+    "nsf_ansi_184": true,
+    "sanitize_temp_f": 156,
+    "place_settings": 16,
+    "leak_protection": "Leak Detection System (float switch, drip tray, overfill funnel, flow monitor — NOT AquaStop)"
+  },
+
+  "evidence": {
+    "expert": [
+      { "pool": "S", "source": "Yale Appliance", "claim": "8.2% service rate 2026 (was 7.4% 2025) — slight increase, still safe", "axis": "durability", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "ProDry relies on heated drying — works well for plates, struggles with plastics", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "Reviewed.com", "claim": "KDTM404KPS drying rated 'above average' — plastics may hold residual moisture", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "Energy Guide W11650512B", "claim": "270 kWh/yr confirmed (corrected from 220)", "axis": "performance", "confidence": "high" }
+    ],
+    "review": [
+      { "pool": "A", "source": "KitchenAid parts list KDTM604KPS0", "claim": "Run capacitor W10753070 confirms PSC induction motor (not brushless)", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "KitchenAid product help", "claim": "True Self-Cleaning Filtration — filter flushes during drain, no manual cleaning required", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "KitchenAid parts list", "claim": "Diverter Valve Motor listed as 'Not Serviced' — not available as standalone part", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "KitchenAid warranty document", "claim": "Years 2-5 parts coverage on: nylon-coated dishracks, wash/drain motor, electronic controls, heating element", "axis": "durability", "confidence": "high" }
+    ],
+    "forum": [
+      { "pool": "B", "source": "r/appliancerepair", "claim": "Sump pump failure is most common — 'as common as a Samsung dryer pulley and rollers'", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "r/appliancerepair", "claim": "Diverter motor shaft seal fails, seal NOT sold separately → full Sump+Motor Assembly replacement", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "AppliancePartsPros forum", "claim": "Repeat board failures indicate unresolved upstream pump/heater fault", "axis": "durability", "confidence": "medium" },
+      { "pool": "C", "source": "r/Appliances", "claim": "Door balance link 8194001 plastic anchor cracks — high recurrence even after correct install", "axis": "durability", "confidence": "medium" }
+    ]
+  },
+
+  "key_corrections_from_deep_dive": [
+    "MAJOR: motor_type: brushless_inverter → PSC AC induction (confirmed by run capacitor W10753070)",
+    "MAJOR: filter_type: manual_mesh → self_cleaning (True Self-Cleaning Filtration)",
+    "energy_kwh_year: 220 → 270 (Energy Guide W11650512B confirms)",
+    "Quality adj: +4 → +2 (motor dropped from +1 to 0, filter dropped from +1 to 0)",
+    "Performance adj: +2 → +1 (energy dropped from 0 to -1)",
+    "Target: 83 → 81",
+    "New weakness identified: sump/diverter seal systemic failure, seal not sold separately"
+  ],
+
+  "top_failure_modes": [
+    "1. Sump/pump assembly — diverter motor shaft seal leak. Seal not separate part. Full assembly $500-700 P+L.",
+    "2. Control board failure — thermal fuse, relay burnout. Often secondary to motor/heater fault.",
+    "3. Door balance link (8194001) — plastic anchor cracks, high recurrence. $10-15 part."
+  ],
+
+  "platform_disclosure": {
+    "parent": "Whirlpool Corporation",
+    "shared_platform": "Findlay, Ohio",
+    "shared_with": ["Whirlpool", "Maytag", "Amana", "JennAir", "Kenmore", "IKEA"],
+    "ka_exclusives": ["SatinGlide Max rails", "360° Max Jets third rack", "ProDry fan", "additional firmware features"]
+  }
+}

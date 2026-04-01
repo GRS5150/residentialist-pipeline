@@ -1,0 +1,79 @@
+{
+  "product_name": "Bosch 800 Series",
+  "product_slug": "bosch_800",
+  "category": "dishwashers",
+  "tier": "Tier 1",
+  "target_score": 91,
+  "axis_scores": { "quality": 9.0, "durability": 9.2, "performance": 9.0 },
+  "deep_dive_date": "2026-03-31",
+  "models_covered": ["SHP78CM5N (current production)"],
+
+  "verified_specs": {
+    "tub_material": "stainless_steel",
+    "motor_type": "BLDC inverter (Sisme candidate, not confirmed)",
+    "circ_pump_pn": "12008381 ($131.50 Bosch direct)",
+    "drain_pump_pn": "00642239 ($143.50 Bosch direct); 00631200 ($43.74 PartSelect)",
+    "filter_type": "manual_mesh_3stage (same filter 100 through Benchmark)",
+    "spray_arms": "2_rotating_plus_passive_overhead (PowerControl on lower arm)",
+    "third_rack": "Flexible 3rd Rack / MyWay (deeper than flat tray, fold-down wings)",
+    "rack_adjustability": "RackMatic 9 positions 3 heights, adjustable while loaded",
+    "rack_glides": "EasyGlide ball-bearing on upper rack only (BSH brochure confirmed). All-three-rack ball-bearing is Benchmark exclusive. 300/500 are standard nylon.",
+    "noise_dba": 42,
+    "drying_technology": "CrystalDry zeolite (176°F at chamber) + AutoAir",
+    "energy_kwh_year": 240,
+    "water_gal_per_cycle": 3.2,
+    "energy_star": true,
+    "yale_service_rate_pct_2026": 7.8,
+    "design_life_years": "12-15 (industry consensus, BSH no formal MTBF)",
+    "warranty_years_standard": 1,
+    "warranty_pcb_years": 5,
+    "warranty_tub": "lifetime (rust-through)",
+    "nsf_ansi_184": true,
+    "sanitize_temp_f": 158,
+    "place_settings": 16,
+    "leak_protection": "AquaStop 24/7 (dual-wall hose, electronic valve, base pan, float switch)"
+  },
+
+  "evidence": {
+    "expert": [
+      { "pool": "S", "source": "Yale Appliance", "claim": "7.8% service rate 2026 — second only to Miele, consistent improving trend", "axis": "durability", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "CrystalDry delivers 40% better drying on plastics vs AutoAir (500 Series)", "axis": "performance", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "Best all-around performance without paying Benchmark premium", "axis": "quality", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "Second in washing behind Miele, first in drying", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "Reviewed.com", "claim": "99.97% soil removal Heavy cycle; 100% dry including plastics", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "Consumer Reports", "claim": "Noise 'excellent', top marks for reliability", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "EPA ENERGY STAR", "claim": "SHP78CM5N: 240 kWh/yr (corrected from 199)", "axis": "performance", "confidence": "high" }
+    ],
+    "review": [
+      { "pool": "A", "source": "BSH press releases", "claim": "New Bern NC facility since 1997, 10M+ units, $11M 2025 expansion", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "BSH parts databases", "claim": "Control boards 00746432/00676960, pump 00442548 confirmed cross-listed Bosch/Thermador/Gaggenau", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "Bosch direct", "claim": "Circ pump 12008381 at $131.50 — newer, cheaper than legacy", "axis": "durability", "confidence": "high" }
+    ],
+    "forum": [
+      { "pool": "B", "source": "r/appliancerepair", "claim": "Heater relay solder joint fatigue — multi-generation board issue since 2012. UpFix addresses for $159.99", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "r/appliancerepair", "claim": "One of the more serviceable premium brands — plug-and-play parts, documented test mode", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "r/appliancerepair Dec 2025", "claim": "Motor screen blockage emerging on 2023-2024 production — 'Bosch has officially Bosched their dishwashers'", "axis": "durability", "confidence": "medium" },
+      { "pool": "C", "source": "r/Appliances", "claim": "Multiple control board/won't start failures at 2-4 years consistent with heater relay mode", "axis": "durability", "confidence": "medium" }
+    ]
+  },
+
+  "key_corrections_from_deep_dive": [
+    "energy_kwh_year: 199 → 240 — EPA ENERGY STAR confirmed. CrystalDry regeneration adds overhead.",
+    "Performance adj: +4 → +3 (energy correction). P axis: 9.1 → 9.0.",
+    "Rack glide discrepancy: 800 deep dive says ball-bearing EasyGlide Plus; 300 deep dive says ball-bearing Benchmark only. Flag for verification.",
+    "Design life: 10 → 12-15 years (industry consensus from multiple sources)"
+  ],
+
+  "top_failure_modes": [
+    "1. E24 drainage failure — filter neglect → debris in pump. Most common service call.",
+    "2. Control board heater relay solder joint fatigue — years 3-7. UpFix repair $160.",
+    "3. E15 leak detection — inlet valve slow-leak, sump gasket wear. $30 valve."
+  ],
+
+  "bsh_platform_disclosure": {
+    "shared_brands": ["Bosch", "Thermador", "Gaggenau"],
+    "service_rate_spread": "0.4% (7.7-8.1%)",
+    "shared_components": ["control boards", "circulation pump", "drain pump", "filter", "sump", "spray arms"],
+    "price_differentiation": "features and finishes, not structural"
+  }
+}

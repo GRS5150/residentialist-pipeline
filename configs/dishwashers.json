@@ -1,0 +1,297 @@
+{
+  "category": "dishwashers",
+  "version": "1.0",
+  "created_date": "2026-03-30",
+  "parent_category": "appliances",
+  "notes": "Each appliance subcategory is its own category build with independent spec fields, anchors, and source pools.",
+
+  "axis_weights": {
+    "quality": 0.30,
+    "durability": 0.40,
+    "performance": 0.30
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Miele G7000 Series", "slug": "miele_g7000", "target_range": [94, 96] },
+        { "name": "Bosch 800 Series", "slug": "bosch_800", "target_range": [90, 92] }
+      ],
+      "notes": "Miele anchors above Bosch 800: best-in-category service rate (5.6%), 20-yr tested design life, vertical integration, 3 full spray arms. Bosch 800: best drying (zeolite/CrystalDry), excellent reliability (7.8%), universal service ecosystem. Both have strong expert consensus."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "KitchenAid (premium line, M-series)", "slug": "kitchenaid_premium", "target_range": [82, 85] }
+      ],
+      "notes": "8.2% service rate, largest third rack with 360° wash jets, Whirlpool service network (broadest US parts availability), 4-level wash action. Repair techs rate alongside Bosch as 'safe buy' for long-term repairability."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Bosch 300 Series", "slug": "bosch_300", "target_range": [68, 72] }
+      ],
+      "notes": "Full stainless tub, AutoAir drying (not zeolite), 46 dBA, same BSH platform reliability. Below 500/800 on drying tech, noise, rack adjustability. Represents the quality floor professionals cite (~$700-800 price point)."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Whirlpool (standard)", "slug": "whirlpool_standard", "target_range": [55, 60] },
+        { "name": "Samsung (mid-range)", "slug": "samsung_mid", "target_range": [42, 46] }
+      ],
+      "notes": "Whirlpool: acceptable floor per repair techs, simplest designs, most widely stocked parts in US, average everything else. Samsung: service ecosystem trap — 20-22% failure rate cited, proprietary parts with limited authorized service, repair techs unanimously warn against. Samsung scores below Whirlpool despite similar or better specs on paper because serviceability is catastrophic."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with no US service infrastructure, active safety recalls, or documented structural defects making repair economically unviable."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "tub_material",
+        "type": "categorical",
+        "adjustments": {
+          "stainless_steel": 1,
+          "hybrid_stainless_plastic": 0,
+          "plastic": -2
+        },
+        "notes": "All dishwashers $1,000+ use stainless. Stainless reduces noise ~10 dB, enables condensation drying, resists stains/odors. Hybrid = stainless walls + plastic bottom (Bosch 100). Reliable proxy for overall build tier."
+      },
+      {
+        "field": "motor_type",
+        "type": "categorical",
+        "adjustments": {
+          "brushless_inverter": 1,
+          "induction": 0,
+          "brushed_universal": -1
+        },
+        "notes": "Brushless inverter: 85-90% efficiency, 10K+ hour lifespan, sealed/moisture-resistant, variable speed. Brushed: 60-65% efficiency, 500-800 cycle brush life. LG vertically manufactures motors (noted in report)."
+      },
+      {
+        "field": "filter_type",
+        "type": "categorical",
+        "adjustments": {
+          "manual_mesh": 1,
+          "self_cleaning_mesh": 0,
+          "grinder": -1
+        },
+        "notes": "Manual mesh = finer filtration, quieter, requires user maintenance (Bosch, Miele standard). Self-cleaning mesh = quieter than grinder (some KitchenAid). Grinder = louder, zero maintenance, older American standard. Filter neglect is most common cause of repairs per repair techs."
+      },
+      {
+        "field": "spray_arm_architecture",
+        "type": "categorical",
+        "adjustments": {
+          "3_full_arms": 1,
+          "2_arms_plus_sprinkler": 0,
+          "2_arms": -1
+        },
+        "notes": "Miele and Cove use 3 independent spray arms (dedicated top arm over upper rack). BSH uses 2 arms + passive overhead sprinkler. Real cleaning difference at full loads per Yale/professional comparisons."
+      },
+      {
+        "field": "third_rack",
+        "type": "categorical",
+        "adjustments": {
+          "with_wash_jets": 1,
+          "flat_tray": 0,
+          "none": -1
+        },
+        "notes": "KitchenAid 360° Max Jets = largest with rotating wash jets (unique). Miele 3D fold-down tray creates clearance below. Bosch 800 MyWay = flexible configurations. No third rack = entry-level."
+      },
+      {
+        "field": "rack_adjustability",
+        "type": "categorical",
+        "adjustments": {
+          "loaded_adjustable": 1,
+          "multi_position": 0,
+          "fixed": -1
+        },
+        "notes": "Miele G7000 = only brand with middle rack adjustable while loaded. Bosch RackMatic = 6 configurations (3 positions × 2 heights). Fixed racks on entry-level."
+      }
+    ],
+    "performance": [
+      {
+        "field": "noise_dba",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=40": 2,
+          "41-44": 1,
+          "45-50": 0,
+          "51-55": -1,
+          ">=56": -2
+        },
+        "notes": "Most widely published and compared spec. 37 dBA (Miele Extra Quiet) to 56+ dBA (entry-level). Stainless tub reduces noise ~10 dB vs plastic. Manufacturer-reported dBA is self-certified but consistent with independent measurements."
+      },
+      {
+        "field": "drying_technology",
+        "type": "categorical",
+        "adjustments": {
+          "zeolite": 2,
+          "fan_plus_auto_open": 1,
+          "auto_open": 0,
+          "condensation": -1,
+          "heated_element": -2
+        },
+        "notes": "Zeolite (CrystalDry/StarDry) = best for plastics, volcanic mineral absorbs moisture + releases heat to 176°F. Fan-assist (Miele CleanDry, Cove) = good. Auto-open (Bosch 500) = lets steam escape. Condensation = requires stainless tub. Heated element = energy-intensive, entry-level. IMPORTANT: Thermador base models (Emerald, Sapphire) use condensation, NOT zeolite — only Star Sapphire gets zeolite."
+      },
+      {
+        "field": "energy_kwh_year",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=210": 1,
+          "211-240": 0,
+          ">=241": -1
+        },
+        "notes": "EPA ENERGY STAR database provides model-level kWh/year. Bosch 800 ~199, Miele G7000 ~200-210, KitchenAid premium ~220, Frigidaire budget ~240. Pre-2013 models up to 800 kWh."
+      },
+      {
+        "field": "water_gal_per_cycle",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=2.8": 1,
+          "2.9-3.2": 0,
+          ">=3.3": -1
+        },
+        "notes": "ENERGY STAR threshold 3.2 gal/cycle. Viking 2.58, Beko 2.59, Bosch 3.15. Source: EPA certified product database."
+      }
+    ],
+    "durability": [
+      {
+        "field": "yale_service_rate_pct",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=6.0": 2,
+          "6.1-8.5": 1,
+          "8.6-12.0": 0,
+          "12.1-17.0": -1,
+          ">=17.1": -2
+        },
+        "notes": "Yale Appliance: 33,190 real service calls. 2026 data: Miele 5.6%, Bosch Benchmark 7.7%, Bosch 7.8%, Thermador 8.1%, KitchenAid 8.2%, GE 8.9%, GE Profile 10.3%, LG 11.6%, F&P 16.6%, Café 16.6%. Whirlpool/Frigidaire/Samsung absent (Yale premium-focused). Use multi-year trend where available."
+      },
+      {
+        "field": "manufacturer_design_life_years",
+        "type": "continuous",
+        "adjustments": {
+          ">=20": 1,
+          "10-19": 0,
+          "<=9": -1
+        },
+        "notes": "Miele publishes 20-year design life (5,600 cycle test). Cove claims 20-year. Most others 7-12 years. Only score when manufacturer publishes a specific number."
+      },
+      {
+        "field": "warranty_years",
+        "type": "threshold",
+        "adjustments": {
+          ">=5": 2,
+          "2-4": 1,
+          "1": 0,
+          "<1": -1
+        },
+        "notes": "Cove: 5-year full parts+labor (best in class). Miele: 2-year standard, 5-year on top models. Gaggenau: 2-year. Most others: 1-year. Warranty exclusion consistency rule (Rule 18) applies."
+      },
+      {
+        "field": "service_network_coverage",
+        "type": "categorical",
+        "adjustments": {
+          "national_owned": 1,
+          "national_independent_widely_stocked": 1,
+          "regional_or_limited": 0,
+          "proprietary_limited_service": -2
+        },
+        "notes": "GE: owned national service network. Bosch/KitchenAid/Whirlpool: parts universally stocked, every independent tech works on them. Miele/LG: limited independent service centers (Miele proprietary + expensive). Samsung: parts ecosystem trap — owners in many markets cannot get repairs. This is the spec that separates Samsung from Whirlpool despite similar build quality."
+      },
+      {
+        "field": "parts_availability",
+        "type": "categorical",
+        "adjustments": {
+          "universal": 1,
+          "widely_stocked": 0,
+          "proprietary_available": 0,
+          "proprietary_limited": -2
+        },
+        "notes": "Whirlpool/KitchenAid: broadest parts supply chain in US. Bosch: universally stocked. Miele: proprietary, available but expensive (90-day part warranty). Samsung/Haier: proprietary with limited availability — economically unviable repair is the failure mode."
+      }
+    ],
+    "material_safety_report_only": [
+      "nsf_ansi_184_certified",
+      "ul_749_compliant",
+      "tub_material_food_grade",
+      "bpa_free_certified"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Health certs report-only, no composite impact (NSF/ANSI 184, UL 749)",
+    "BSH Platform Rule: Bosch, Thermador, and Gaggenau share the same dishwasher platform (BSH Group, NC factory). Service rate spread across all three is 0.4% — noise, not differentiation. Each product line scored separately (Rule 19) but report MUST disclose shared platform. Gaggenau price premium is design/UX, not construction.",
+    "Thermador line split: Star Sapphire (zeolite/StarDry) and Emerald/Sapphire (condensation drying) are different products with different scores per Rule 19.",
+    "Yale service rate is directional, not definitive: single-region (Boston/Cape Cod/Southern NH), premium-segment skew, brands like Whirlpool/Frigidaire/Samsung absent due to low sales volume. Disclose limitation in every report. Use multi-year trend data where available to smooth single-year spikes (e.g., LG 2026 roller issue).",
+    "Service ecosystem is a scored durability spec, not just a report finding. Parts availability + authorized service density directly affect whether a product can be repaired — this is functional lifespan, not convenience.",
+    "Score the product as sold in the US market: US warranty, US service network, US parts availability. European field performance data is valid evidence for Quality/Durability axes but service ecosystem scored on US buyer experience.",
+    "Manufacturer design life only scored when a specific number is published (Miele 20-yr/5,600 cycles, Cove 20-yr claim). Do not infer design life from warranty length.",
+    "Score base configuration per Rule 17. Bosch 500 and 800 are different products — do not average across a brand's lineup.",
+    "Corporate structure = report finding (BSH Group, Whirlpool/KitchenAid shared platform, GE/GE Profile/Café shared platform).",
+    "LG service rate volatility rule: when a single-year spike is attributed to one component (Yale: 2026 roller issue), report both the spike year and the multi-year trend. Do not anchor tier placement to a known anomaly year."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "Yale Appliance (Steve Sheinkopf) — 33,190 real service calls, brand-level service rates, multi-year trend data, published annually. Geographic limitation: Boston/Cape Cod/Southern NH, premium-segment skew."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (80K+ subscriber reliability survey, controlled lab testing, paywalled but citable methodology)",
+        "Reviewed.com (UL-owned, Cambridge MA lab, AHAM/IEC protocols, numeric soil removal % scores — best public source for cleaning performance data)",
+        "CNET (Louisville KY lab, AHAM/IEC protocols, controlled environment testing)",
+        "Good Housekeeping Institute (AHAM standards committee participation, Seal of Approval is earned certification)",
+        "J.D. Power US Appliance Reliability Study (survey-based, not repair records — triangulation source)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/appliancerepair (repair technician community, consistent consensus on brand reliability hierarchy)",
+        "Prudent Reviews (Yale data synthesis and independent analysis)",
+        "RepairClinic / ApplianceVideo / PartsDr (repair-focused YouTube, component-level diagnostics)",
+        "TWB YouTube (one Fisher & Paykel teardown — closest to component analysis in the category)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/Appliances (owner community)",
+        "Houzz owner threads",
+        "Individual owner reviews and forum posts"
+      ]
+    }
+  },
+
+  "operation_type": null,
+  "operation_type_adjustments": null,
+
+  "data_sources": {
+    "energy_star_database": "https://catalog.data.gov/dataset/energy-star-certified-residential-dishwashers-c7ad3",
+    "energy_star_product_finder": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/results",
+    "yale_reliability_data": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+    "notes": "EPA ENERGY STAR database provides model-level kWh/year and gal/cycle for every certified unit — free, continuously updated. Download for spec verification."
+  }
+}

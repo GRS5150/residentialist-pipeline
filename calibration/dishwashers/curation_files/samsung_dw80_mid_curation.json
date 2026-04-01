@@ -1,0 +1,94 @@
+{
+  "product_name": "Samsung DW80 (mid-range)",
+  "product_slug": "samsung_dw80_mid",
+  "category": "dishwashers",
+  "tier": "Tier 4",
+  "target_score": 47,
+  "axis_scores": { "quality": 5.0, "durability": 4.4, "performance": 4.8 },
+  "deep_dive_date": "2026-03-31",
+  "models_covered": ["DW80R5060US (discontinued)", "DW80CG5450SRAA ($599)", "DW80B7071US ($799)"],
+
+  "verified_specs": {
+    "tub_material": "stainless_steel (STSS designation, lifetime leakage warranty)",
+    "motor_type": "BLDC inverter (in-house Samsung DD82 series, no third-party supplier identified)",
+    "circ_pump_pn": "DD82-01314A / DD93-01025B",
+    "drain_pump_pn": "DD31-00016A ($60-120) — proprietary bayonet twist-lock, not commodity",
+    "control_board_pns": "DD92-00059H (WaterWall), DD81-02147B (DW80R), DD92-00033A (older)",
+    "filter_type": "manual_clean_3part (despite some 'self-cleaning' marketing — filter requires manual removal)",
+    "spray_arms": "3_independent_rotating (lower, middle, upper — standard plastic)",
+    "third_rack": "FlexTray (shallow cutlery organizer)",
+    "rack_adjustability": "multi_position",
+    "noise_dba": { "DW80CG5450": 46, "DW80B7071": 42, "DW80R5060": 48 },
+    "noise_dba_mid_range": 46,
+    "drying_technology": "AutoRelease door (DW80CG/DW80B); higher models add Smart Dry fan",
+    "energy_kwh_year": "225-239",
+    "water_gal_per_cycle": 3.2,
+    "energy_star": true,
+    "yale_service_rate": "NOT TRACKED (Yale does not sell Samsung)",
+    "cr_failure_rate_pct": 23,
+    "cr_designation": "Cannot recommend",
+    "warranty_years_standard": 1,
+    "warranty_pcb_years": 5,
+    "warranty_racking_years": 5,
+    "warranty_tub": "lifetime (leakage)",
+    "nsf_ansi_184": true,
+    "sanitize_temp_f": 163,
+    "leak_protection": "digital leak sensor (styrofoam float in drip tray, LC/LE error)"
+  },
+
+  "evidence": {
+    "expert": [
+      { "pool": "S", "source": "Yale Appliance / Sheinkopf", "claim": "'We don't sell Samsung anymore... nonexistent customer service and repair network'", "axis": "durability", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "Samsung not included in reliability table — not sold/serviced by Yale", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Consumer Reports", "claim": "23% repair/serious problems — most repair-prone brand. 'Cannot recommend.'", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Consumer Reports 2024-2025", "claim": "Samsung ranked 21st of 26 brands (417,629 appliances). Kitchen satisfaction 15-19/100.", "axis": "durability", "confidence": "high" }
+    ],
+    "review": [
+      { "pool": "A", "source": "Samsung parts portal / RepairClinic / PartSelect", "claim": "Parts ARE available through multiple channels — parts are NOT the constraint", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Samsung 'Beyond Boundaries'", "claim": "Claims 99% US coverage — contradicted by owner experiences across markets", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Samsung warranty PDFs", "claim": "5yr PCB + 5yr racking + lifetime tub on paper — real-world execution consistently poor", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Whirlpool Corp legal filing Oct 2025", "claim": "Patent infringement lawsuit against Samsung for copying KitchenAid 360° Max Jets third rack design", "axis": "quality", "confidence": "high" }
+    ],
+    "forum": [
+      { "pool": "B", "source": "r/appliancerepair", "claim": "'Samsung makes the worst of every appliance when it comes to breakdowns and lack of support for repairs'", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "r/appliancerepair", "claim": "5/15 repair companies: avoid Samsung entirely — parts difficult to source, few techs will service", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "Repair tech consensus", "claim": "Techs avoid Samsung work: dual-board diagnostic complexity, contractor network pays below-market", "axis": "durability", "confidence": "high" },
+      { "pool": "C", "source": "r/homeowners", "claim": "28 service visits during warranty → Samsung scheduled 'accommodation' call 2 days after expiry → denied", "axis": "durability", "confidence": "medium" },
+      { "pool": "C", "source": "r/Appliances", "claim": "Rack coating degradation 12-24 month onset, rust by 2-3 years. Warranty claims denied as 'cosmetic.'", "axis": "quality", "confidence": "high" },
+      { "pool": "C", "source": "r/SamsungHelp / r/Appliances", "claim": "Multiple markets: 'reached out to several repair places, but they don't work on Samsung'", "axis": "durability", "confidence": "high" },
+      { "pool": "C", "source": "r/appliancerepair", "claim": "Sump cover (DD81-02160A) warps → circulation bypass → poor cleaning with no error code", "axis": "quality", "confidence": "medium" },
+      { "pool": "B", "source": "Repair YouTube", "claim": "WaterWall belt fracture: 'it broke once, it's going to break again' — belt failure treated as inevitable", "axis": "durability", "confidence": "high" }
+    ]
+  },
+
+  "key_corrections_from_deep_dive": [
+    "KNOWN: parts_availability: proprietary_limited (-2) → proprietary_available (0). Parts ARE available.",
+    "The problem is technician availability, not parts. -2 penalty stays on service_network_coverage.",
+    "noise_dba: 44 → 46 for mid-range DW80CG5450 ($599). 42 only on $799 DW80B7071.",
+    "Durability adj: -4 → -2 (parts fix)",
+    "Performance adj: +1 → 0 (noise correction)",
+    "Target: 44 → 47",
+    "Barton Appliance '20-22% failure' figure: NOT independently verifiable. Directionally consistent with CR 23%.",
+    "Class action investigation active (March 2026) on rack coating defects"
+  ],
+
+  "top_failure_modes": [
+    "1. Control board / UI touchpad failure — most expensive repair. Dual-board complicates diagnosis.",
+    "2. Drain pump / circulation pump failure — usually preceded by filter neglect. 5C drainage error.",
+    "3. Sump seal / leak failure triggering LC error — requires full dishwasher removal to access."
+  ],
+
+  "service_ecosystem_analysis": {
+    "parts_available": true,
+    "parts_channels": ["RepairClinic", "PartSelect", "AppliancePartsPros", "Encompass", "Samsung direct"],
+    "technician_available": false,
+    "technician_issues": [
+      "Contracted third-party network with thin real coverage",
+      "Many independent shops refuse Samsung work",
+      "During 2016-2017 washer recall, sent Dish Network techs with zero training",
+      "Warranty service scheduling: 1-3 weeks metro, 4-8 weeks secondary markets",
+      "Contractor declines/no-shows extensively documented"
+    ],
+    "warranty_execution": "Consistently poor — denial on pretextual grounds, inability to arrange service, adversarial claims process"
+  }
+}

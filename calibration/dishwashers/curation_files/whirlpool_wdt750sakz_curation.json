@@ -1,0 +1,91 @@
+{
+  "product_name": "Whirlpool WDT750SAKZ",
+  "product_slug": "whirlpool_wdt750sakz",
+  "category": "dishwashers",
+  "tier": "Tier 3",
+  "target_score": 64,
+  "axis_scores": { "quality": 6.8, "durability": 6.5, "performance": 5.8 },
+  "deep_dive_date": "2026-03-31",
+  "models_covered": ["WDT750SAKZ (current production, suffix Z0-Z3)"],
+  "price_range": "$499-599",
+
+  "verified_specs": {
+    "tub_material": "stainless_steel (walls SS, sump plastic — standard for all residential)",
+    "motor_type": "PMSM brushless (Askoll confirmed: Encompass 'MP PMSM AW NAR ASKOLL')",
+    "motor_pn": "W11612327 ($80 OEM WhirlpoolParts)",
+    "circ_pump_pn": "W11035712 (base pump); W11460945 (full motor/sump assembly)",
+    "drain_pump_pn": "W11035709 ($35-47 aftermarket/OEM)",
+    "legacy_drain_pump": "WPW10348269 (broadest-platform commodity drain pump in US history)",
+    "control_board_pn": "W11563997 ($99 ShopJimmy)",
+    "ui_board_pn": "W11460908 ($85-150)",
+    "filter_type": "manual_mesh_2stage (upper cylindrical W10891533 + lower flat W10891539, no grinder)",
+    "spray_arms": "3_independent_zones (lower W11164607, upper W11043437, third-level W11039869)",
+    "third_rack": "flat utensil/cutlery tray (W11540175)",
+    "rack_adjustability": "upper rack 3-position adjustable",
+    "rack_glides": "nylon (W11048219)",
+    "noise_dba": 47,
+    "drying_technology": "recessed heating element + Extended Dry option (CR rated 1/5 drying)",
+    "energy_kwh_year": 270,
+    "energy_star": false,
+    "water_gal_per_cycle": 2.5,
+    "yale_service_rate_historical": { "2018": 1.4, "2019": 4.3, "2020": 2.6, "2021": 2.1, "2022": 4.1 },
+    "yale_current": "Not tracked (distribution shift to big-box, NOT reliability)",
+    "warranty_years_standard": 1,
+    "warranty_electronic_control_years": 4,
+    "warranty_tub_years": 20,
+    "nsf_ansi_184": false,
+    "place_settings": 13,
+    "leak_protection": "multi-element (flow meter, float switch, drip tray, overfill funnels — NOT AquaStop)"
+  },
+
+  "evidence": {
+    "expert": [
+      { "pool": "S", "source": "Yale Appliance (historical)", "claim": "1.4-4.1% service rates 2018-2022 — better than current Bosch (7.8%). Dropped from dataset due to distribution shift.", "axis": "durability", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance / Sheinkopf", "claim": "Absence reflects distribution strategy (big-box shift), NOT performance data", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Consumer Reports", "claim": "Washing rated 'very good'. Drying rated 1/5 (worst). Brand score 55/100 (6th of 10).", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "J.D. Power 2025", "claim": "Whirlpool #3 satisfaction (707); KitchenAid (same platform) #1 reliability", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Encompass distributor", "claim": "W11612327 listed as 'MP PMSM AW NAR ASKOLL' — confirms PMSM motor, Askoll supplier", "axis": "quality", "confidence": "high" }
+    ],
+    "review": [
+      { "pool": "A", "source": "Best Buy / Whirlpool spec sheet", "claim": "Full stainless steel tub confirmed; Hard Food Disposer: false (manual mesh filter)", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "Official Energy Guide", "claim": "270 kWh/yr — NOT Energy Star certified (heated drying driver)", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "Whirlpool warranty document", "claim": "4-year electronic control warranty (parts only); 20-year DuraPerm tub warranty", "axis": "durability", "confidence": "high" }
+    ],
+    "forum": [
+      { "pool": "B", "source": "r/appliancerepair", "claim": "'Get Bosch or Whirlpool. Decent compromise between luxury and reliability. Parts readily available.'", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "r/appliancerepair", "claim": "'Most likely problem is drain pumps fail after many years, easy fix' ($35-90 parts, 30-min DIY)", "axis": "durability", "confidence": "high" },
+      { "pool": "B", "source": "Prudent Reviews (15 repair companies)", "claim": "3/15 named Whirlpool most reliable; 0/15 named least reliable", "axis": "durability", "confidence": "high" },
+      { "pool": "C", "source": "r/Appliances / owners", "claim": "Drying weakness is known — manual door crack workaround common", "axis": "performance", "confidence": "medium" },
+      { "pool": "B", "source": "r/appliancerepair", "claim": "UI touchpad moisture ingress — membrane lifts, admits moisture, causes short. $85-150 fix.", "axis": "durability", "confidence": "medium" }
+    ]
+  },
+
+  "key_corrections_from_deep_dive": [
+    "COMPLETE REWRITE — 8 spec fields corrected:",
+    "tub_material: plastic → stainless_steel",
+    "motor_type: induction → PMSM brushless (Askoll)",
+    "filter_type: grinder → manual_mesh (no grinder, no food disposer)",
+    "spray_arms: 2_arms → 3_independent_zones",
+    "third_rack: none → flat_tray (W11540175)",
+    "rack_adjustability: fixed → 3-position adjustable",
+    "noise_dba: 53 → 47",
+    "water_gal_per_cycle: 3.5 → 2.5 (best in calibration set)",
+    "Quality adj: -6 → +3 (complete inversion)",
+    "Performance adj: -4 → -2",
+    "Target: 57 → 64",
+    "Tier: 4 → 3"
+  ],
+
+  "top_failure_modes": [
+    "1. Drain pump failure — most common, cheap and easy ($35-90 parts, 30-min DIY). W11035709.",
+    "2. UI touchpad moisture ingress — membrane pad lifts, moisture enters. $85-150 repair.",
+    "3. Door gasket and sump seal leaks — identifiable by locating water source."
+  ],
+
+  "platform_disclosure": {
+    "parent": "Whirlpool Corporation (Benton Harbor, MI)",
+    "manufacturing": "Findlay, Ohio (est. 1967, WCM certified, $300M expansion 2025)",
+    "shared_with": ["KitchenAid", "Maytag", "Amana", "JennAir", "Kenmore", "IKEA"],
+    "whirlpool_vs_kitchenaid": "Same platform. KA adds: SatinGlide Max rails, 360° Max Jets, ProDry fan, additional firmware, premium finish."
+  }
+}

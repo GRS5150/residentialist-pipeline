@@ -1,0 +1,78 @@
+{
+  "product_name": "Miele G7000 Series",
+  "product_slug": "miele_g7000",
+  "category": "dishwashers",
+  "tier": "Tier 1",
+  "target_score": 95,
+  "axis_scores": { "quality": 9.6, "durability": 9.4, "performance": 9.5 },
+  "deep_dive_date": "2026-03-31",
+  "models_covered": ["G7566 SCVi (PN 11388140)", "G7766 SCVi AutoDos (PN 12496900/12496910)"],
+
+  "verified_specs": {
+    "tub_material": "stainless_steel",
+    "motor_type": "brushless_dc_in_house",
+    "motor_manufacturer": "Miele Euskirchen (in-house), ArcelorMittal electrical steel",
+    "motor_part_number": "6060101",
+    "circulation_pump_pn": "5065033",
+    "drain_pump_pn": "11025001",
+    "drain_pump_price_usd": 85,
+    "filter_type": "manual_mesh_3stage",
+    "spray_arms": "3_full_independent",
+    "third_rack": "3D MultiFlex cutlery tray (adjustable H/W/D, no wash jets)",
+    "rack_adjustability": "middle_rack_adjustable_while_loaded",
+    "noise_dba": { "G7566": 40, "G7766": 39, "extra_quiet": 37 },
+    "drying_technology": "fan_plus_auto_open (G7766), auto_open_plus_condensation (G7566)",
+    "energy_kwh_year": 210,
+    "water_gal_per_cycle": 3.2,
+    "energy_star": true,
+    "energy_star_most_efficient": true,
+    "yale_service_rate_pct_2026": 5.6,
+    "design_life_years": "20 (development target, not guarantee — 5,600 cycles)",
+    "warranty_years_standard": 2,
+    "warranty_years_top_models": 5,
+    "parts_guarantee_years": 15,
+    "nsf_ansi_184": "NOT CONFIRMED (Rhine-Waal ≠ NSF 184)",
+    "sanitize_temp_f": 158,
+    "place_settings": 16,
+    "leak_protection": "Double WaterProof System (dual solenoid, double-walled hose, drip tray, float switch)"
+  },
+
+  "evidence": {
+    "expert": [
+      { "pool": "S", "source": "Yale Appliance / Steve Sheinkopf", "claim": "Most reliable dishwasher brand for 2026 at 5.6% service rate (33,190 calls)", "axis": "durability", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "Service rate improved from 20.5% (2020) to 5.6% (2026)", "axis": "durability", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "Miele drying rated 'very good' — Bosch CrystalDry rated superior for plastics", "axis": "performance", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "Builds nearly all parts in-house — tighter quality and parts control", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "Consumer Reports", "claim": "Top marks for reliability alongside Bosch and Thermador", "axis": "durability", "confidence": "medium" },
+      { "pool": "A", "source": "EPA ENERGY STAR", "claim": "G7766: 210 kWh/yr, 3.2 gal/cycle, Most Efficient designation", "axis": "performance", "confidence": "high" }
+    ],
+    "review": [
+      { "pool": "A", "source": "ArcelorMittal case study", "claim": "Miele motors use custom ArcelorMittal electrical steel from Eisenhüttenstadt + St-Chély d'Apcher", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "Stäubli case study", "claim": "MPS130 robotic systems on Uničov assembly lines", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "Miele USA spare parts catalog", "claim": "In-house DC motor confirmed (PN 6060101)", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "Miele USA", "claim": "15-year parts availability guarantee post-production", "axis": "durability", "confidence": "high" },
+      { "pool": "A", "source": "Miele general terms", "claim": "20-year/5,600-cycle claim is development test parameter, not product guarantee", "axis": "durability", "confidence": "high" }
+    ],
+    "forum": [
+      { "pool": "B", "source": "r/appliancerepair", "claim": "Former authorized tech: 'still expect around 20 years', acknowledges 2 failures in 10 years", "axis": "durability", "confidence": "medium" },
+      { "pool": "B", "source": "r/Miele", "claim": "AutoDos 1.0 described as 'terrible', correlates with 2020 service spike", "axis": "durability", "confidence": "medium" },
+      { "pool": "B", "source": "r/appliancerepair", "claim": "Circulation pump repair ~$800 parts + $200 labor = ~$1,000", "axis": "durability", "confidence": "medium" },
+      { "pool": "C", "source": "r/Miele", "claim": "PCB burn-out after 2 years reported, V1 AutoDos context", "axis": "durability", "confidence": "low" },
+      { "pool": "B", "source": "Repair tech consensus", "claim": "Drain pump (F11) and filter issues dominate; AutoDos failures (F44/F45/F600) are G7000-era defining category", "axis": "durability", "confidence": "high" }
+    ]
+  },
+
+  "key_corrections_from_deep_dive": [
+    "noise_dba: 42 → 39/40 (G7766/G7566) — actual is quieter than assumed",
+    "energy_kwh_year: 205 → 210 — EPA ENERGY STAR confirmed",
+    "water_gal_per_cycle: 3.0 → 3.2 — EPA confirmed",
+    "nsf_ansi_184: true → NOT CONFIRMED (Rhine-Waal cert ≠ NSF 184)",
+    "No axis score changes needed — corrections are within existing adjustment ranges"
+  ],
+
+  "top_failure_modes": [
+    "1. Drainage failure (F11) — clogged filter or drain pump ($85 parts, easy fix)",
+    "2. AutoDos errors (F44/F45/F600) — jam, hardened detergent, moisture. AutoDos 2.0 addresses.",
+    "3. Water inlet / WaterProof faults (F12/F13/F70) — inlet valve, float switch"
+  ]
+}

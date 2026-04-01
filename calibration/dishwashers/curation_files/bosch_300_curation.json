@@ -1,0 +1,77 @@
+{
+  "product_name": "Bosch 300 Series",
+  "product_slug": "bosch_300",
+  "category": "dishwashers",
+  "tier": "Tier 3",
+  "target_score": 67,
+  "axis_scores": { "quality": 7.2, "durability": 6.9, "performance": 6.0 },
+  "deep_dive_date": "2026-03-31",
+  "models_covered": ["SHE53C85N", "SGE53B55UC"],
+
+  "verified_specs": {
+    "tub_material": "stainless_steel (full SS on standard 24\" models; some ADA sub-models have Polinox base)",
+    "motor_type": "BLDC inverter (Askoll confirmed OEM supplier for BSH platform)",
+    "circ_pump_pn": "00442548 ($333-346) — same part as 800/Thermador/Gaggenau",
+    "drain_pump_pn": "00642239 — same part as 800",
+    "control_board_pn": "00746432 — same part as 800 (UpFix repair available)",
+    "sump_pn": "00668102 — same as 800",
+    "filter_type": "manual_mesh_3stage (same filter across 100-Benchmark)",
+    "spray_arms": "2_rotating_plus_passive_overhead (PrecisionWash, NO PowerControl)",
+    "third_rack": "standard flat V-shape silverware tray (not deep — no mugs/bowls)",
+    "rack_adjustability": "RackMatic 9 positions (same as 500/800)",
+    "rack_glides": "nylon rollers (NOT ball-bearing — ball-bearing is Benchmark only)",
+    "noise_dba": 46,
+    "drying_technology": "PureDry ONLY (closed condensation — NOT AutoAir, NOT CrystalDry)",
+    "energy_kwh_year": 269,
+    "water_gal_per_cycle": 3.5,
+    "energy_star": true,
+    "yale_service_rate_pct_2026": 7.8,
+    "warranty_years_standard": 1,
+    "warranty_pcb_years": 5,
+    "warranty_tub": "lifetime (rust-through)",
+    "nsf_ansi_184": true,
+    "place_settings": "13-16 (varies by model)",
+    "leak_protection": "AquaStop 24/7 (standard on 300+)"
+  },
+
+  "evidence": {
+    "expert": [
+      { "pool": "S", "source": "Yale Appliance", "claim": "300/500/800/Benchmark share platform — reliability nearly identical (7.7-8.1%)", "axis": "durability", "confidence": "high" },
+      { "pool": "S", "source": "Yale Appliance", "claim": "500 at ~$900-1,000 is the most-cited pro recommendation; 300 at ~$700-800 sits just below", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "Reviewed.com", "claim": "99.35% stain removal on Auto cycle, 98% on Heavy — on par with 500 Series", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "Reviewed.com", "claim": "79% bone dry (PureDry) — significant improvement over most, but plastics remain damp", "axis": "performance", "confidence": "high" },
+      { "pool": "A", "source": "Bosch direct confirmation", "claim": "300 uses PureDry (closed condensation). AutoAir is 500+ exclusive.", "axis": "performance", "confidence": "high" }
+    ],
+    "review": [
+      { "pool": "A", "source": "BSH parts databases", "claim": "All core components identical to 800: pump 00442548, drain 00642239, board 00746432, sump 00668102, filter", "axis": "quality", "confidence": "high" },
+      { "pool": "A", "source": "BSH press release", "claim": "New Bern NC facility — same production line as 800/Benchmark/Thermador", "axis": "quality", "confidence": "high" },
+      { "pool": "B", "source": "Prudent Reviews", "claim": "4 dB difference (46 vs 42) is ~2.5× sound intensity — perceptibly louder in open-concept", "axis": "performance", "confidence": "high" }
+    ],
+    "forum": [
+      { "pool": "B", "source": "r/appliancerepair", "claim": "No significant mechanical differences between 100/300/500/800 — same platform, different features", "axis": "quality", "confidence": "high" },
+      { "pool": "C", "source": "r/Appliances", "claim": "PureDry plastics wet — common complaint. Workaround: crack door open at cycle end.", "axis": "performance", "confidence": "medium" },
+      { "pool": "C", "source": "r/Appliances", "claim": "300 has no AutoAir door mechanism → no AutoAir failure mode (documented 500 issue)", "axis": "durability", "confidence": "medium" }
+    ]
+  },
+
+  "key_corrections_from_deep_dive": [
+    "CRITICAL: drying_technology: auto_open (AutoAir) → condensation_only (PureDry). AutoAir is 500+ exclusive.",
+    "energy_kwh_year: 235 → 269",
+    "water_gal_per_cycle: 3.2 → 3.5",
+    "Performance adj: 0 → -3 (drying -1, energy -1, water -1)",
+    "Target: 70 → 67",
+    "P axis: 7.0 → 6.0 (massive shift from 3 performance corrections)"
+  ],
+
+  "top_failure_modes": [
+    "1. E15 water in base pan — sump gasket, pump seal degradation. AquaStop catches it.",
+    "2. E24/E25 drain failure — filter clogging (user maintenance), kinked hose, drain pump.",
+    "3. Control board E01 — pump control circuit failure, typically after 5+ years. 5-yr warranty covers."
+  ],
+
+  "bsh_platform_disclosure": {
+    "identical_to_800": ["circulation pump", "drain pump", "control board", "sump", "filter", "tub spec", "AquaStop", "PrecisionWash sensors"],
+    "downgraded_vs_800": ["PureDry only (no CrystalDry/AutoAir)", "46 dBA (not 42)", "flat third rack (not MyWay deep)", "no PowerControl arm", "fewer cycles"],
+    "no_autoair_advantage": "300 avoids the AutoAir door mechanism failure mode documented on the 500"
+  }
+}
