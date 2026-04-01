@@ -4,26 +4,26 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 62 | 0.3 | Copeland two-stage scroll compressor with TXV expansion and ECM fan represents solid engineering, but non-communicating controls and 22-26 gauge cabinet construction limit refinement [S1, S4] |
-| Durability | 70 | 0.4 | Post-Daikin quality improvements combined with lifetime compressor warranty and industry-widest parts availability through major distributors create strong long-term serviceability [S3, S5] |
-| Performance | 60 | 0.3 | SEER2 18.0 and HSPF2 8.5 meet ENERGY STAR standards with two-stage modulation, but 68 dBA sound level reflects builder-grade positioning [S2] |
-| Material Safety | Good | report only | Standard residential refrigerant system with conventional components |
+| Quality | 62 | 0.3 | Solid component selection with Copeland scroll compressor and TXV expansion, but non-communicating controls and builder-grade positioning limit refinement [S1, S4] |
+| Durability | 73 | 0.4 | Exceptional warranty coverage with lifetime compressor warranty that's genuinely claimable post-Daikin acquisition, plus industry-leading parts availability [S3, S5] |
+| Performance | 58 | 0.3 | SEER2 18.0 and HSPF2 8.5 meet ENERGY STAR standards with two-stage modulation, but 68 dBA sound rating indicates moderate noise levels [S2] |
+| Material Safety | Good | report only | Standard refrigerant and electrical components with proper safety certifications |
 
 ### Company Background
-Goodman Manufacturing is owned by Daikin Industries, the world's largest HVAC manufacturer based in Japan. Originally founded as an independent American company, Goodman was acquired by Daikin in 2012, bringing significant quality improvements and corporate stability. Units are manufactured in Houston, Texas and Fayetteville, Tennessee. Goodman operates as the value-oriented brand within Daikin's portfolio, focusing heavily on new construction and replacement markets. The brand shares manufacturing platforms with Amana (same components, enhanced warranty marketing) but remains separate from Daikin's premium Fit/DX architecture. Post-acquisition, Goodman has shed much of its previous reliability concerns while maintaining competitive pricing.
+Goodman Manufacturing is owned by Daikin Industries, the world's largest HVAC manufacturer based in Japan. Daikin acquired Goodman in 2012, bringing significant quality improvements to what was previously considered a budget brand. Manufacturing occurs in Houston, Texas and Fayetteville, Tennessee. The company operates as a volume leader in new construction markets, maintaining its position as an accessible brand while benefiting from Daikin's engineering resources and quality standards. This is not a premium repositioning — Goodman remains positioned as value-oriented equipment with solid backing.
 
 ### Strengths
-- **Lifetime Compressor Warranty**: Genuinely claimable post-Daikin backing with Goodman covering compressor replacement while buyer pays labor and refrigerant costs [S3]
-- **Parts Availability**: Widest parts distribution in the industry through major suppliers like GEMAIRE, Ferguson, and Johnstone, ensuring serviceability nationwide [S3]
+- **Lifetime Compressor Warranty**: Genuinely claimable lifetime compressor coverage with Goodman replacing the compressor while buyer pays labor and refrigerant costs [S3]
+- **Parts Availability**: Widest parts distribution in the industry through GEMAIRE, Ferguson, and Johnstone, ensuring long-term serviceability [S3]
 
 ### Deficiencies
-- **Non-Communicating Controls**: Standard 24V thermostat interface lacks advanced diagnostics and efficiency optimization available in communicating systems [S4]
-- **Cabinet Construction**: 22-26 gauge metal construction reflects builder-grade positioning compared to premium alternatives [S1]
+- **Non-Communicating Controls**: Standard 24V thermostat system lacks advanced diagnostics and efficiency optimization of communicating systems [S4]
+- **Sound Levels**: 68 dBA operation indicates moderate noise that may be noticeable in quiet environments [S2]
 
 ### What You Should Know
-The GSXC18 represents Goodman's flagship two-stage offering, featuring a Copeland scroll compressor with solenoid valve modulation between 67% and 100% capacity. The unit includes quality components like TXV expansion valves and ECM condenser fans that were upgraded following Daikin's acquisition. While the brand still carries some builder-grade stigma from its pre-2012 era, current manufacturing quality has meaningfully improved under Japanese ownership.
+The GSXC18 represents Goodman's attempt to move beyond its builder-grade reputation with genuinely solid engineering. The Copeland two-stage scroll compressor uses a single compressor with solenoid valve to achieve 67%/100% modulation, paired with proper TXV expansion and ECM condenser fan motor. While the non-communicating design means you'll use a standard thermostat rather than advanced controls, this also means zero brand lock-in for future upgrades.
 
-This system operates as a non-communicating unit, meaning it works with standard thermostats and creates zero brand lock-in for future service or upgrades. The SEER2 18.0 rating meets current efficiency standards while the two-stage operation provides better humidity control and temperature consistency than single-stage alternatives. However, the 68 dBA sound level reflects its value positioning rather than premium quiet operation.
+The post-2012 Daikin ownership has meaningfully improved quality control, though the builder-grade stigma persists in the marketplace. The lifetime compressor warranty is the standout feature — unlike marketing-heavy warranties from other brands, this one is genuinely claimable and represents real protection for the most expensive component.
 
 ### Platform Disclosure
 Amana HVAC = rebadged Goodman with enhanced warranty marketing. Same compressor, coil, cabinet. Daikin Fit/DX is SEPARATE platform — different compressor, different architecture.
@@ -32,7 +32,7 @@ Amana HVAC = rebadged Goodman with enhanced warranty marketing. Same compressor,
 Strong — Daikin Industries (Japan) is world's largest HVAC manufacturer. Goodman acquisition in 2012 brought significant quality improvement. Strong corporate backing.
 
 ### Repair Economics
-Control board failures ($300-600 parts, $600-1200 installed) and compressor replacement ($600-900 parts, $1800-3000 installed) represent the most common major repairs, with the lifetime compressor warranty significantly reducing owner exposure [S4].
+Control board failures are most common ($300-600 parts, $600-1200 installed), while compressor replacement runs $600-900 parts and $1800-3000 installed. The lifetime compressor warranty significantly improves cost justification by covering the most expensive potential failure [S4].
 
 ### Score Justification
-The 64/100 score reflects solid mid-tier performance with meaningful post-acquisition improvements balanced against builder-grade positioning. Strong durability backing from Daikin and excellent parts availability elevate long-term value despite modest quality refinements.
+The 64 score reflects solid mid-tier performance with exceptional durability backing. While quality and performance metrics are respectable rather than outstanding, the lifetime compressor warranty and Daikin corporate support elevate the overall value proposition significantly.
