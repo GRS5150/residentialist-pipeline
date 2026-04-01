@@ -1,0 +1,312 @@
+{
+  "category": "hvac",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "mechanical",
+  "notes": "Central air conditioners and heat pumps (split systems — outdoor condenser/heat pump + indoor air handler/evaporator coil). NOT furnaces, NOT mini-splits/ductless, NOT packaged/rooftop units, NOT window units. The outdoor unit is the scored product. Scored by compressor technology (single/two-stage/variable-speed), efficiency (SEER2/HSPF2), construction quality, and serviceability.",
+
+  "axis_weights": {
+    "quality": 0.30,
+    "durability": 0.40,
+    "performance": 0.30
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Carrier Infinity 24VNA (Variable-Speed)", "slug": "carrier_infinity", "target_range": [93, 96] },
+        { "name": "Trane XV20i / XV18 (Variable-Speed)", "slug": "trane_xv", "target_range": [90, 93] }
+      ],
+      "notes": "Carrier Infinity: Greenspeed Intelligence, Copeland variable-speed scroll, communicating system, fewest contractor callbacks among premium lines. Yale/CR data consistent. Trane XV: TruComfort variable-speed, Copeland (or Climatuff), robust build quality, most forgiving of installation quality. Both consensus Tier 1 from HVAC professionals."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Lennox SL28XCV (Variable-Speed)", "slug": "lennox_sl28xcv", "target_range": [80, 84] }
+      ],
+      "notes": "Lennox SL28XCV: Industry-leading 28 SEER2, quietest operation, proprietary communicating system. Technologically superior but proprietary ecosystem creates service/parts premium (15-20% above Carrier/Trane). Contractors acknowledge best-in-class specs but steer some buyers away due to total cost of ownership. Tier 2 due to service ecosystem limitation."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Rheem Prestige RA20 (Two-Stage)", "slug": "rheem_prestige", "target_range": [65, 70] },
+        { "name": "Goodman GSXC18 (Two-Stage)", "slug": "goodman_gsxc18", "target_range": [62, 66] }
+      ],
+      "notes": "Rheem Prestige: Reliable mid-tier (Toyota Camry of HVAC per contractor consensus). Superior to Goodman in build quality and longevity. Open parts ecosystem. Goodman GSXC18: Daikin-owned since 2012 — meaningfully improved quality vs pre-acquisition. Widest parts availability (GEMAIRE, Ferguson, Johnstone Supply). Strong value. Both represent the floor for 'acceptable in a quality home' per professional consensus (16+ SEER2, two-stage minimum)."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Goodman GSX14 (Single-Stage Builder-Grade)", "slug": "goodman_gsx14", "target_range": [44, 50] }
+      ],
+      "notes": "Builder-grade floor. Single-stage, fixed orifice. High-volume new construction standard ($300K-600K tract homes). 8-10 year expected lifespan per repair tech consensus. Functional but no differentiation. Parts universally available. Represents the floor that every buyer should know about."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with no US service infrastructure, active safety recalls, or documented structural defects. MRCOOL DIY potentially here if research confirms professional concerns."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "compressor_type",
+        "type": "categorical",
+        "adjustments": {
+          "variable_speed_inverter": 2,
+          "two_stage": 1,
+          "single_stage": 0,
+          "budget_single_stage": -1
+        },
+        "notes": "THE key differentiator in HVAC — equivalent of cartridge for faucets. Variable-speed (Copeland ZPD, Daikin inverter): precise capacity modulation, 25-100% output, best comfort/efficiency. Two-stage: 67%/100% steps, good comfort. Single-stage: on/off only, short-cycling in oversized installs."
+      },
+      {
+        "field": "compressor_oem",
+        "type": "categorical",
+        "adjustments": {
+          "copeland_identified": 1,
+          "daikin_identified": 1,
+          "danfoss_identified": 0,
+          "bristol_nidec": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "Copeland (Emerson/Copeland) dominates residential market >60%. Copeland scroll = industry standard, proven lifespan. Daikin compressors in Daikin Fit/DX lines. Unknown/undisclosed = risk. Bristol/NIDEC adequate but lower market credibility."
+      },
+      {
+        "field": "condenser_coil_type",
+        "type": "categorical",
+        "adjustments": {
+          "copper_tube_aluminum_fin": 1,
+          "spine_fin": 0,
+          "microchannel_all_aluminum": -1
+        },
+        "notes": "CRITICAL finding from research: microchannel coils have 4-5x shorter lifespan than traditional copper/aluminum. Carrier switched some lines to microchannel. Trane Spine Fin is different construction. Traditional copper/aluminum is most repairable and durable."
+      },
+      {
+        "field": "expansion_device",
+        "type": "categorical",
+        "adjustments": {
+          "eev_electronic": 1,
+          "txv_thermostatic": 0,
+          "fixed_orifice_piston": -1
+        },
+        "notes": "EEV: precise metering, required for true variable-speed optimal performance. TXV: standard for two-stage and premium single-stage. Fixed orifice: budget, less efficient, more charge-sensitive."
+      },
+      {
+        "field": "fan_motor_type",
+        "type": "categorical",
+        "adjustments": {
+          "variable_speed_bldc": 1,
+          "ecm": 0,
+          "psc": -1
+        },
+        "notes": "Variable-speed BLDC: 75%+ efficiency, quietest. ECM: 65-75% efficiency, standard premium. PSC: 40-50% efficiency, builder-grade, higher energy, noisier."
+      },
+      {
+        "field": "cabinet_construction",
+        "type": "categorical",
+        "adjustments": {
+          "heavy_gauge_galvanized_louvered": 1,
+          "standard_galvanized": 0,
+          "light_gauge_mesh_guard": -1
+        },
+        "notes": "Cabinet quality affects outdoor unit longevity. Heavy gauge with proper powder coat and louvered fin protection = premium. Light gauge with mesh guard = budget."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "Lennox: proprietary platform (+1). Carrier: Charlotte NC identified factories (+1). Trane: Tyler TX (+1). Goodman: Houston TX (+1). Bristol compressor = identified. Unknown OEM = -1."
+      }
+    ],
+    "performance": [
+      {
+        "field": "seer2_rating",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=22.0": 2, "18.0-21.9": 1, "15.0-17.9": 0, "<15.0": -1 },
+        "notes": "SEER2 (post-2023 DOE standard, more realistic than old SEER). Range: 13.4 (code minimum) to 28+ (Lennox SL28XCV top). Real-world spread significant. Lennox leads, Carrier/Trane competitive, builder-grade at minimum."
+      },
+      {
+        "field": "hspf2_rating",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=10.0": 2, "8.5-9.9": 1, "7.5-8.4": 0, "<7.5": -1 },
+        "notes": "Heat pump heating efficiency. Only scored for heat pump products. AC-only: N/A. Range: 6.7 to 12+. Variable-speed units dominate top end."
+      },
+      {
+        "field": "sound_rating_dba",
+        "type": "continuous_lower_better",
+        "adjustments": { "<=58": 2, "59-66": 1, "67-72": 0, ">=73": -1 },
+        "notes": "Outdoor unit sound at rated conditions. Lennox as low as 56 dB. Premium variable-speed 58-65 dB. Standard single-stage 72-76 dB. Massive comfort impact for homeowner and neighbors."
+      },
+      {
+        "field": "capacity_modulation_range",
+        "type": "categorical",
+        "adjustments": {
+          "25_to_100_pct": 2,
+          "40_to_100_pct": 1,
+          "67_100_two_stage": 0,
+          "100_only_single_stage": -1
+        },
+        "notes": "Variable-speed 25-100% = best comfort (no short cycling, precise temp control, continuous dehumidification). Two-stage 67/100% = good. Single-stage on/off = worst comfort."
+      },
+      {
+        "field": "cold_weather_performance",
+        "type": "categorical",
+        "adjustments": {
+          "operates_to_neg15f_plus": 1,
+          "operates_to_0f": 0,
+          "limited_below_25f": -1,
+          "not_applicable_ac_only": 0
+        },
+        "notes": "Heat pump only. Premium heat pumps operate to -13°F or below with maintained capacity. Mid-tier drops off significantly below 17°F. AC-only: N/A."
+      }
+    ],
+    "durability": [
+      {
+        "field": "warranty_compressor_years",
+        "type": "threshold",
+        "adjustments": { ">=12": 2, "10": 1, "5-9": 0, "<5": -1 },
+        "notes": "Industry standard: 10-year compressor warranty (with registration). Goodman/Amana: lifetime compressor (genuinely claimable post-Daikin). Lennox: 10-year. Short warranty = manufacturer confidence signal."
+      },
+      {
+        "field": "warranty_parts_years",
+        "type": "threshold",
+        "adjustments": { ">=10": 1, "5-9": 0, "<5": -1 },
+        "notes": "Parts warranty separate from compressor. Most premium: 10-year registered. Budget: 5-year."
+      },
+      {
+        "field": "warranty_claim_process",
+        "type": "categorical",
+        "adjustments": {
+          "contractor_friendly": 1,
+          "standard": 0,
+          "claims_difficult": -1
+        },
+        "notes": "Daikin/Goodman and Rheem rated most claim-friendly by contractors. Lennox rated most difficult due to proprietary requirements."
+      },
+      {
+        "field": "parts_availability",
+        "type": "categorical",
+        "adjustments": {
+          "universal_multi_distributor": 1,
+          "widely_stocked": 0,
+          "proprietary_limited": -1,
+          "highly_proprietary": -2
+        },
+        "notes": "Goodman: widest availability (GEMAIRE, Ferguson, Johnstone). Carrier: Carrier Enterprise (some restriction). Lennox: highly proprietary (15-20% price premium, longer lead times). Parts availability directly impacts repair speed and cost."
+      },
+      {
+        "field": "service_network_density",
+        "type": "categorical",
+        "adjustments": {
+          "national_wide_independent": 1,
+          "national_certified": 0,
+          "regional_limited": -1
+        },
+        "notes": "Goodman/Rheem: serviced by any contractor. Carrier/Trane: certified dealer networks plus independents. Lennox: certified dealers preferred, proprietary diagnostics."
+      },
+      {
+        "field": "coil_corrosion_protection",
+        "type": "categorical",
+        "adjustments": {
+          "factory_coating_proven": 1,
+          "standard_no_coating": 0,
+          "microchannel_corrosion_risk": -1
+        },
+        "notes": "Some brands offer WeatherShield, Quantum coil, or similar coatings. Microchannel coils have documented higher corrosion rates in coastal/chemical environments (4-5x shorter lifespan). Traditional copper/aluminum without coating = standard."
+      },
+      {
+        "field": "control_board_reliability",
+        "type": "categorical",
+        "adjustments": {
+          "proven_reliable": 1,
+          "standard": 0,
+          "documented_issues": -1
+        },
+        "notes": "Control boards are a leading failure mode. Communicating systems (Carrier Infinity, Trane ComfortLink, Lennox iComfort) add complexity. Research needed on brand-specific board failure rates."
+      },
+      {
+        "field": "refrigerant_type",
+        "type": "categorical",
+        "adjustments": {
+          "r454b_a2l_ready": 1,
+          "r410a_current": 0,
+          "r22_legacy": -2
+        },
+        "notes": "R-410A being phased down (EPA 2025). R-454B (A2L mildly flammable) is next gen. Units sold 2025+ should be R-454B ready. R-22 is obsolete and service costs are prohibitive."
+      }
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Compressor type (variable-speed/two-stage/single-stage) is THE primary differentiator — equivalent of cartridge for faucets or motor for dishwashers.",
+    "Score the outdoor unit (condenser or heat pump). Indoor air handler scored as part of the system only if it meaningfully differentiates within a brand family.",
+    "Carrier/Bryant/Heil platform sharing: Carrier Infinity vs Bryant Evolution = same compressor, same board, different badge/thermostat ecosystem. Report must disclose. Score separately per Rule 19.",
+    "Trane/American Standard: Different product tiers within same parent (Johnson Controls). Not identical units at component level. Score separately.",
+    "Goodman/Amana/Daikin family: Post-2012 Daikin acquisition. Goodman and Amana are largely badge-engineered (same compressor, coil, different distributor channel). Daikin Fit/DX is separate platform. Report must disclose.",
+    "Rheem/Ruud: Same unit, different distribution channel. True badge engineering. Score Rheem, note Ruud identical.",
+    "York/Coleman/Luxaire (Johnson Controls): Badge-engineered from same platforms. Report must disclose.",
+    "Lennox proprietary ecosystem rule: Lennox proprietary distribution and communicating system create higher total cost of ownership. This is a durability/serviceability finding, NOT a quality finding.",
+    "Microchannel coil rule: If brand uses microchannel coils, apply -1 condenser coil adjustment AND note 4-5x shorter lifespan in report.",
+    "Installation sensitivity rule: HVAC performance is 80% installation quality. Top brands (Trane, Carrier) most forgiving of mediocre installs. Note installation sensitivity in report for all products.",
+    "Heat pump vs AC-only: Heat pump products score HSPF2 and cold weather performance. AC-only products: those fields are N/A (Rule 16).",
+    "Refrigerant transition rule: Note R-410A vs R-454B status. Buyer needs to know future refrigerant cost implications.",
+    "MRCOOL/DIY rule: If product sold as DIY installation, note professional consensus on DIY HVAC reliability in report.",
+    "Corporate structure = report finding"
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "VACANT — No StarCraft/Yale Appliance equivalent for HVAC. No teardown channel. No quantified service rate database. Pool S vacant for independent testing. AHRI Directory is the authoritative spec source but is not comparative."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (central AC reliability surveys, satisfaction data — covers subset of manufacturers)",
+        "AHRI Directory (certified performance data — SEER2, EER2, HSPF2, capacity, sound rating)",
+        "ENERGY STAR / DOE (efficiency specifications, program qualification lists)",
+        "HVAC School (Bryan Orr) — trade education leader, contractor training",
+        "ACHR News / HPAC Engineering (trade publications)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/HVAC (HVAC technician community — strong consensus data on reliability, parts, brand hierarchy)",
+        "HVAC-Talk.com (contractor forum, historical threads on brands/components)",
+        "YouTube HVAC channels (Technology Tom, Learning HVAC — some teardown content)",
+        "Prudent Reviews (HVAC comparisons)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/homeowners (consumer HVAC discussions)",
+        "Houzz HVAC threads",
+        "Individual contractor/consumer reviews"
+      ]
+    }
+  }
+}

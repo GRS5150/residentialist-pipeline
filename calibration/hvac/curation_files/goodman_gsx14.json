@@ -1,0 +1,86 @@
+{
+  "product": "Goodman GSX14 (Single-Stage Builder-Grade)",
+  "slug": "goodman_gsx14",
+  "system_type": "single_stage_split",
+  "category": "hvac",
+  "locked_score": 47,
+  "tier": 4,
+  "label": "Fair",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Daikin Industries (Japan) — same parent as GSXC18. Acquired Goodman in 2012.",
+  "manufacturing_location": "Houston, TX.",
+
+  "quality_evidence": {
+    "compressor": {
+      "type": "single_stage",
+      "description": "Copeland single-stage scroll compressor. On/off operation only — no modulation. 100% capacity when running.",
+      "supplier": "Copeland (Emerson/Copeland) single-stage scroll",
+      "sources": ["goodmanmfg.com", "r/HVAC"]
+    },
+    "condenser_coil": { "type": "copper_tube_aluminum_fin", "description": "Traditional construction. No premium coating.", "sources": ["goodmanmfg.com"] },
+    "expansion_device": {
+      "type": "fixed_orifice_piston",
+      "description": "Fixed orifice (piston) — cheapest expansion device. Less efficient than TXV/EEV. More sensitive to refrigerant charge accuracy. Performance degrades significantly with improper charge.",
+      "sources": ["goodmanmfg.com", "r/HVAC"]
+    },
+    "fan_motor": {
+      "type": "psc",
+      "description": "PSC (Permanent Split Capacitor) motor — 40-50% efficiency vs 65-75% ECM. Noisier. Higher energy consumption. Builder-grade standard.",
+      "sources": ["goodmanmfg.com"]
+    },
+    "cabinet": { "construction": "Light gauge steel. Mesh guard (not louvered). Adequate but not durable long-term.", "sources": ["goodmanmfg.com"] },
+    "communicating_system": {
+      "system": "None — basic 24V thermostat compatible. Simplest controls available.",
+      "proprietary_lock_in": "None",
+      "sources": ["goodmanmfg.com"]
+    }
+  },
+
+  "performance_evidence": {
+    "seer2": 14.3,
+    "hspf2": 7.5,
+    "sound_dba": 74,
+    "capacity_modulation": "100% only — single-stage on/off",
+    "cold_weather_performance": "Limited below 25°F (heat pump version)",
+    "energy_star": "Does NOT meet ENERGY STAR — at code minimum",
+    "builder_grade_reality": "This is what goes in $300K-600K tract homes across the US. Code minimum efficiency.",
+    "sources": ["goodmanmfg.com", "ahridirectory.org"]
+  },
+
+  "durability_evidence": {
+    "warranty": {
+      "compressor_years": "Lifetime (registered) — even on base model",
+      "parts_years": "10 (registered)",
+      "claim_process": "Contractor-friendly",
+      "sources": ["goodmanmfg.com"]
+    },
+    "parts_availability": {
+      "distribution": "Widest in industry — any supply house",
+      "sources": ["r/HVAC"]
+    },
+    "service_network": {
+      "type": "National wide independent — any contractor",
+      "sources": ["r/HVAC"]
+    },
+    "expected_lifespan": "8-10 years per repair tech consensus. Simple design = fewer things to break, but lower component quality limits longevity.",
+    "simplicity_advantage": "No communicating system, no inverter board, no EEV = fewer failure modes. When it does fail, repairs are cheap and fast.",
+    "refrigerant": "R-410A current",
+    "sources": ["r/HVAC"]
+  },
+
+  "platform_sharing": {
+    "family": "Goodman/Amana family",
+    "amana_identity": "Amana ASX14 = same unit. Badge engineering.",
+    "scoring_rule": "Report must disclose Goodman=Amana.",
+    "sources": ["r/HVAC"]
+  },
+
+  "professional_consensus": {
+    "installer_recommendation": "Functional but no differentiation. Builder-grade. Every buyer should know this is the floor.",
+    "builder_grade_reality": "In $300K-600K tract homes, builders overwhelmingly install this or equivalent ICP brands.",
+    "comparison_to_premium": "14.3 SEER2 vs 24+ SEER2 for premium variable-speed. 74 dB vs 56-58 dB. 8-10yr vs 15-20yr lifespan. The gulf is enormous.",
+    "sources": ["r/HVAC", "jupitairhvac.com", "modernize.com"]
+  },
+
+  "axis_scores": { "quality": 4.5, "durability": 5.5, "performance": 4.1 }
+}

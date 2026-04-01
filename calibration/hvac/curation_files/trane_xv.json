@@ -1,0 +1,98 @@
+{
+  "product": "Trane XV20i (Variable-Speed)",
+  "slug": "trane_xv",
+  "system_type": "variable_speed_split",
+  "category": "hvac",
+  "locked_score": 91,
+  "tier": 1,
+  "label": "Best in Class",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Trane Technologies (formerly Ingersoll Rand) — publicly traded. Also owns American Standard HVAC.",
+  "manufacturing_location": "Tyler, TX (primary). Spine Fin coils manufactured in-house.",
+
+  "quality_evidence": {
+    "compressor": {
+      "type": "variable_speed_inverter",
+      "description": "TruComfort variable-speed technology. Copeland variable-speed scroll compressor (some Trane lines use Climatuff, but XV20i uses Copeland). 25-100% continuous modulation.",
+      "supplier": "Copeland (Emerson/Copeland). Some Trane models use Climatuff (Trane proprietary).",
+      "sources": ["trane.com", "r/HVAC contractor consensus"]
+    },
+    "condenser_coil": {
+      "type": "spine_fin",
+      "description": "Trane proprietary Spine Fin coil — not traditional copper tube/aluminum fin, not microchannel. Spiny aluminum fins wrapped around copper tubing. Inherently more corrosion-resistant than traditional flat-fin design. Proprietary replacement required.",
+      "coil_durability_note": "Spine Fin is more durable than traditional in corrosive environments but proprietary — must be replaced with Trane Spine Fin coil, not universal.",
+      "sources": ["trane.com", "r/HVAC"]
+    },
+    "expansion_device": {
+      "type": "eev_electronic",
+      "description": "Electronic expansion valve for variable-speed compressor optimization.",
+      "sources": ["trane.com"]
+    },
+    "fan_motor": {
+      "type": "variable_speed_bldc",
+      "description": "Variable-speed brushless DC condenser fan motor.",
+      "sources": ["trane.com"]
+    },
+    "cabinet": {
+      "construction": "Heavy gauge galvanized steel, louvered coil guard, WeatherGuard II top",
+      "source_traceability": "Trane Technologies — Tyler, TX manufacturing identified",
+      "sources": ["trane.com"]
+    },
+    "communicating_system": {
+      "system": "ComfortLink II communicating system",
+      "thermostat_requirement": "Requires Trane/American Standard communicating thermostat for full ComfortLink II operation. Standard 24V thermostat works but loses communicating features.",
+      "proprietary_lock_in": "Moderate (similar to Carrier Infinity).",
+      "sources": ["trane.com", "r/HVAC"]
+    }
+  },
+
+  "performance_evidence": {
+    "seer2": 22.0,
+    "hspf2": 10.0,
+    "sound_dba": 60,
+    "capacity_modulation": "25-100% continuous variable (TruComfort)",
+    "cold_weather_performance": "Heat pump version operates to -15°F+ with maintained capacity",
+    "energy_star": "ENERGY STAR certified",
+    "sources": ["trane.com", "ahridirectory.org"]
+  },
+
+  "durability_evidence": {
+    "warranty": {
+      "compressor_years": "12 (registered) — strongest in category",
+      "parts_years": "10 (registered)",
+      "labor": "Dealer-dependent",
+      "claim_process": "Standard",
+      "transferable": "Yes, with conditions",
+      "sources": ["trane.com"]
+    },
+    "parts_availability": {
+      "distribution": "Trane Supply + independent availability. Moderate restriction.",
+      "sources": ["r/HVAC"]
+    },
+    "service_network": {
+      "type": "National certified dealer network",
+      "sources": ["trane.com"]
+    },
+    "coil_corrosion_protection": "Spine Fin inherently more corrosion-resistant than flat-fin",
+    "control_board_reliability": "ComfortLink II mature. Proven reliable.",
+    "refrigerant": "R-410A current; transitioning to R-454B",
+    "sources": ["trane.com", "r/HVAC"]
+  },
+
+  "platform_sharing": {
+    "family": "Trane/American Standard (both Trane Technologies)",
+    "sibling_product": "American Standard AccuComfort — different product tier within same parent. NOT identical to Trane XV. Different component selection and positioning.",
+    "component_identity": "Low-moderate — shares some supplier relationships but American Standard is value tier with different component choices.",
+    "scoring_rule": "Trane and American Standard scored separately.",
+    "sources": ["r/HVAC"]
+  },
+
+  "professional_consensus": {
+    "installer_recommendation": "Strong recommend. 'The durability anchor' — contractors cite fewest long-term issues. Most forgiving of installation quality.",
+    "reliability_ranking": "Top tier alongside Carrier — the 'build quality' champion",
+    "installation_sensitivity": "Low — most forgiving of mediocre installation per contractor consensus",
+    "sources": ["r/HVAC", "jupitairhvac.com", "menatworkacrepair.com"]
+  },
+
+  "axis_scores": { "quality": 9.2, "durability": 9.1, "performance": 9.1 }
+}

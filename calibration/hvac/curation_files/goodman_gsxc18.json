@@ -1,0 +1,99 @@
+{
+  "product": "Goodman GSXC18 (Two-Stage)",
+  "slug": "goodman_gsxc18",
+  "system_type": "two_stage_split",
+  "category": "hvac",
+  "locked_score": 64,
+  "tier": 3,
+  "label": "Good",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Daikin Industries (Japan) — acquired Goodman in 2012. World's largest HVAC manufacturer. Also owns Amana (HVAC brand, NOT the appliance brand).",
+  "manufacturing_location": "Houston, TX (primary). Fayetteville, TN (secondary).",
+
+  "quality_evidence": {
+    "compressor": {
+      "type": "two_stage",
+      "description": "Copeland two-stage scroll compressor (ZP or ZPK series). Single compressor + solenoid valve = two-stage modulation (not two physical compressors). R-410A.",
+      "supplier": "Copeland (Emerson/Copeland). Post-Daikin acquisition, Goodman retained Copeland on legacy platforms. Daikin compressors used in separate Daikin Fit/DX platform.",
+      "lifespan": "15-20 years if properly maintained",
+      "common_failures": "Scroll tip seal wear (most common), liquid slugging (if TXV fails), internal relief valve stiction",
+      "replacement_cost": "$600-900 parts; $1,800-3,000 fully installed with refrigerant recovery/recharge",
+      "sources": ["deep dive data", "r/HVAC", "copeland.com"]
+    },
+    "condenser_coil": {
+      "type": "copper_tube_aluminum_fin",
+      "description": "Traditional construction. NOT microchannel. Minimal corrosion coating on standard production.",
+      "replacement_cost": "$800-1,200 parts + $800-1,500 labor/recovery",
+      "repairability": "Brazeable — can be leak-repaired in field",
+      "sources": ["deep dive data"]
+    },
+    "expansion_device": {
+      "type": "txv_thermostatic",
+      "description": "TXV with external sensing bulb on suction line. Better load tracking than fixed orifice — 5-10% closer to rated SEER2 in real-world.",
+      "known_issues": "Sensing bulb migration documented (not endemic to Goodman specifically)",
+      "sources": ["deep dive data"]
+    },
+    "fan_motor": { "type": "ecm", "description": "ECM condenser fan motor. Composite blade.", "replacement_cost": "$250-450 parts; $500-900 installed", "sources": ["deep dive data"] },
+    "cabinet": { "construction": "22-26 gauge steel (mid-tier). Powder coat finish.", "sources": ["deep dive data"] },
+    "communicating_system": {
+      "system": "Non-communicating — standard 24V thermostat compatible",
+      "thermostat_requirement": "Any thermostat. No proprietary lock-in.",
+      "proprietary_lock_in": "None",
+      "sources": ["deep dive data"]
+    },
+    "control_board": {
+      "board": "Standard relay-type board. No brand-certified diagnostic tools required.",
+      "failure_modes": "Capacitor aging (contactor cap most common), moisture intrusion on indoor AH board, relay stiction in cold climates",
+      "replacement_cost": "$300-600 parts; $600-1,200 installed",
+      "sources": ["deep dive data"]
+    }
+  },
+
+  "performance_evidence": {
+    "seer2": 18.0,
+    "hspf2": 8.5,
+    "sound_dba": 68,
+    "capacity_modulation": "67%/100% two-stage",
+    "cold_weather_performance": "Heat pump version operates to 0°F",
+    "energy_star": "ENERGY STAR certified",
+    "sources": ["goodmanmfg.com", "ahridirectory.org"]
+  },
+
+  "durability_evidence": {
+    "warranty": {
+      "compressor_years": "Lifetime (registered) — genuinely claimable post-Daikin. Covers compressor failure — Goodman replaces compressor, buyer pays labor + refrigerant.",
+      "parts_years": "10 (registered)",
+      "claim_process": "Contractor-friendly — Daikin warranty process rated easy by contractors. Mixed historical reports improving post-acquisition.",
+      "transferable": "Yes, with registration conditions",
+      "sources": ["goodmanmfg.com", "deep dive data", "r/HVAC"]
+    },
+    "parts_availability": {
+      "distribution": "WIDEST IN INDUSTRY — GEMAIRE, Ferguson, Johnstone Supply all stock. Any supply house.",
+      "sources": ["r/HVAC"]
+    },
+    "service_network": {
+      "type": "National wide independent — any HVAC contractor. Zero brand lock-in. Simplest service ecosystem.",
+      "sources": ["r/HVAC"]
+    },
+    "refrigerant": "R-410A current",
+    "daikin_quality_narrative": "Post-Daikin (2012+) quality meaningfully improved. Current units genuinely better than pre-acquisition 'builder-grade throwaway' reputation. Stigma lingers among older techs, but field evidence supports improvement.",
+    "sources": ["deep dive data", "r/HVAC", "jupitairhvac.com"]
+  },
+
+  "platform_sharing": {
+    "family": "Goodman/Amana/Daikin family",
+    "amana_identity": "Amana = rebadged Goodman with enhanced warranty marketing. Same compressor, coil, cabinet. Different nameplate + better warranty positioning.",
+    "daikin_separation": "Daikin Fit/DX is SEPARATE platform from Goodman. Different compressor (Daikin vs Copeland), different architecture. Minimal component crossover.",
+    "scoring_rule": "Report must disclose Goodman=Amana badge engineering. Daikin Fit scored separately.",
+    "sources": ["deep dive data", "r/HVAC"]
+  },
+
+  "professional_consensus": {
+    "installer_recommendation": "Solid budget pick. Strong value. Best parts ecosystem in the industry.",
+    "builder_grade_stigma": "Even GSXC18 (mid-tier) carries Goodman stigma. Builder-grade perception persists despite post-Daikin improvements.",
+    "volume_leader": "Highest market share in residential HVAC new construction.",
+    "sources": ["r/HVAC", "jupitairhvac.com", "modernize.com"]
+  },
+
+  "axis_scores": { "quality": 6.2, "durability": 6.7, "performance": 6.3 }
+}
