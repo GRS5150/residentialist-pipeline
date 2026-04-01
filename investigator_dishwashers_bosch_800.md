@@ -1,10 +1,12 @@
-I cannot complete this investigator analysis because no evidence has been provided in the SCORED EVIDENCE section. The curation appears to be incomplete or missing.
+I cannot complete this investigator analysis because no scored evidence has been provided in the curation file. The "SCORED EVIDENCE:" section is empty, which means I have no source material to:
 
-To produce a proper analysis with the required variance in axis scores (Quality, Durability, Performance), specific strengths and deficiencies with source citations, company background, and all other required sections, I need:
+1. Calculate the required axis scores (Quality, Durability, Performance)
+2. Identify specific strengths and deficiencies with source citations
+3. Assess material safety
+4. Provide company background information
+5. Determine repair economics
+6. Justify the locked score of 91/100
 
-1. **Scored Evidence**: Test results, performance data, build quality assessments, durability testing, user feedback, professional reviews, etc.
-2. **Product Identification**: The specific Bosch 800 Series model being analyzed
-3. **Source Citations**: To support all claims and assessments
-4. **Bottom Line Data**: From the curation process
+Per Rule #4, every claim must trace to a source ID from the curation file, and no speculation is allowed. Without any evidence in the curation file, I cannot produce the required investigator report that would meet these standards.
 
-Without this foundational evidence, I cannot determine what drove the 91/100 score or provide the detailed analysis format you've requested. Please provide the complete curation file with scored evidence.
+To complete this analysis, I would need the scored evidence section populated with relevant data sources about the Bosch 800 Series product.

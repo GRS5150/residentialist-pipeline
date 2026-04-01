@@ -1,19 +1,15 @@
-I cannot produce this investigator analysis because no scored evidence has been provided in the curation file. The "SCORED EVIDENCE:" section is empty, which means I have no source material to:
+I cannot complete this investigator analysis because no evidence has been provided in the SCORED EVIDENCE section. The curation file that should contain the source material and evidence citations is empty.
 
-1. Calculate the required axis scores (Quality, Durability, Performance)
-2. Cite specific evidence for strengths and deficiencies
-3. Assess material safety
-4. Provide company background details
-5. Analyze repair economics
+To produce a proper investigator report for the Miele G7000 Series, I would need:
 
-Without evidence from the curation file, I cannot meet the fundamental requirement that "every claim must trace to a source ID" and would be forced to speculate, which violates Rule #4.
+1. **Scored evidence** with source IDs covering quality, durability, and performance metrics
+2. **Company background information** about Miele's ownership, manufacturing, and financial status  
+3. **Performance data** on cleaning effectiveness, cycle times, energy/water usage
+4. **Durability indicators** such as warranty terms, failure rates, component quality
+5. **Quality assessments** of build materials, fit/finish, design elements
+6. **Repair cost data** for common failures and parts availability
+7. **Material safety information** for safety labeling
 
-To complete this analysis, I need:
-- Product specifications and test results
-- Manufacturing and sourcing information
-- Company ownership and financial details
-- Performance data and user feedback
-- Reliability and repair cost data
-- Safety certifications and material disclosures
+Without this foundational evidence and source citations, I cannot fulfill the requirement that "every claim must trace to a source ID from the curation file" or decompose how the individual axis scores combine to reach the locked composite score of 95/100.
 
-Please provide the scored evidence section with source-cited information about the Miele G7000 Series dishwasher.
+Please provide the complete curation file with scored evidence and source documentation.

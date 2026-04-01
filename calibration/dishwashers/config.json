@@ -2,21 +2,17 @@
   "category": "dishwashers",
   "version": "1.0",
   "created_date": "2026-03-30",
-
   "composite_method": "geometric_mean",
   "formula_description": "geoMean(q, d, p) = (q/10)^W_q * (d/10)^W_d * (p/10)^W_p * 10, where axis scores are 0-10 scale. Display score = Math.round(geoMean * 10). Minimum axis input clamped to 0.01 before normalization.",
-
   "weights": {
-    "quality": 0.30,
-    "durability": 0.40,
-    "performance": 0.30
+    "quality": 0.3,
+    "durability": 0.4,
+    "performance": 0.3
   },
-
   "axis_stretch": {
     "enabled": false,
     "notes": "No axis stretch in v1.0. Enable when 10+ products scored to compute real category ranges."
   },
-
   "calibration_products": [
     {
       "name": "Miele G7000 Series",
@@ -32,15 +28,15 @@
       "tier": 1,
       "target": 91,
       "axis_scores_tbd": true,
-      "notes": "Tier 1 lower anchor. Yale 2026 service rate 7.8%. BSH NC factory. CrystalDry zeolite drying (best for plastics — measurably superior per Yale). 42 dBA. PowerControl spray arm. MyWay third rack. RackMatic multi-position. Manual mesh filter. Brushless inverter motor. 1-year warranty. Universal parts + every independent tech works on it. Steve Sheinkopf: 'If you care about plastics drying, get the 800.' Soil removal 99.97% Heavy cycle per Reviewed.com."
+      "notes": "Tier 1 lower anchor. Yale 2026 service rate 7.8%. BSH NC factory. CrystalDry zeolite drying (best for plastics \u2014 measurably superior per Yale). 42 dBA. PowerControl spray arm. MyWay third rack. RackMatic multi-position. Manual mesh filter. Brushless inverter motor. 1-year warranty. Universal parts + every independent tech works on it. Steve Sheinkopf: 'If you care about plastics drying, get the 800.' Soil removal 99.97% Heavy cycle per Reviewed.com."
     },
     {
       "name": "KitchenAid Premium (M-series)",
-      "slug": "kitchenaid_premium",
+      "slug": "kitchenaid_kdtm604",
       "tier": 2,
       "target": 83,
       "axis_scores_tbd": true,
-      "notes": "Tier 2 anchor. Yale 2026 service rate 8.2%. Whirlpool platform — broadest US parts supply chain. 4 levels of wash action (second rack gets dedicated jet coverage). Largest third rack in category with 360° Max Jets. ProDry fan-assisted drying. Two-stage manual filter (premium line). Repair techs rate alongside Bosch as 'safe buy' for long-term US repairability. Better loading flexibility than Bosch; Bosch better on quiet operation and plastic drying."
+      "notes": "Tier 2 anchor. Yale 2026 service rate 8.2%. Whirlpool platform \u2014 broadest US parts supply chain. 4 levels of wash action (second rack gets dedicated jet coverage). Largest third rack in category with 360\u00b0 Max Jets. ProDry fan-assisted drying. Two-stage manual filter (premium line). Repair techs rate alongside Bosch as 'safe buy' for long-term US repairability. Better loading flexibility than Bosch; Bosch better on quiet operation and plastic drying."
     },
     {
       "name": "Bosch 300 Series",
@@ -48,11 +44,11 @@
       "tier": 3,
       "target": 70,
       "axis_scores_tbd": true,
-      "notes": "Tier 3 anchor. Same BSH platform reliability as 800 (service rate ~7.8% platform-wide). Full stainless tub. AutoAir drying (door pops open — NOT zeolite). 46 dBA. Manual mesh filter. Basic rack adjustability vs 500/800. Cleaning performance nearly identical to 500/800 per Yale — the premium buys drying + noise + racks. Professional quality floor: Bosch 500 at ~$900-1,000 is most-cited quality floor by professionals; 300 at ~$700-800 sits just below."
+      "notes": "Tier 3 anchor. Same BSH platform reliability as 800 (service rate ~7.8% platform-wide). Full stainless tub. AutoAir drying (door pops open \u2014 NOT zeolite). 46 dBA. Manual mesh filter. Basic rack adjustability vs 500/800. Cleaning performance nearly identical to 500/800 per Yale \u2014 the premium buys drying + noise + racks. Professional quality floor: Bosch 500 at ~$900-1,000 is most-cited quality floor by professionals; 300 at ~$700-800 sits just below."
     },
     {
       "name": "Whirlpool (standard)",
-      "slug": "whirlpool_standard",
+      "slug": "whirlpool_wdt750sakz",
       "tier": 4,
       "target": 57,
       "axis_scores_tbd": true,
@@ -60,11 +56,11 @@
     },
     {
       "name": "Samsung (mid-range)",
-      "slug": "samsung_mid",
+      "slug": "samsung_dw80_mid",
       "tier": 4,
       "target": 44,
       "axis_scores_tbd": true,
-      "notes": "Tier 4 lower anchor. No Yale service rate (Yale doesn't sell). Independent repair analysis: 20-22% failure within first 5 years. Service ecosystem is the primary problem — proprietary parts, few authorized independent service centers, owners in many markets literally cannot get repairs. Specific failure modes: water-wall belt mechanism, rack degradation, frequent error codes, higher leak incidence. Reddit/Houzz/repair tech consensus is unanimous: hardest 'no' in the category. Scores below Whirlpool despite similar or better paper specs because serviceability is catastrophic."
+      "notes": "Tier 4 lower anchor. No Yale service rate (Yale doesn't sell). Independent repair analysis: 20-22% failure within first 5 years. Service ecosystem is the primary problem \u2014 proprietary parts, few authorized independent service centers, owners in many markets literally cannot get repairs. Specific failure modes: water-wall belt mechanism, rack degradation, frequent error codes, higher leak incidence. Reddit/Houzz/repair tech consensus is unanimous: hardest 'no' in the category. Scores below Whirlpool despite similar or better paper specs because serviceability is catastrophic."
     }
   ]
 }

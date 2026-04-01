@@ -1,13 +1,23 @@
-I cannot complete this analysis because no SCORED EVIDENCE has been provided in the input. The "SCORED EVIDENCE:" section is empty, which means I have no source material to cite for quality, durability, or performance assessments.
+I cannot produce the investigator report because the essential evidence data is missing from your request.
 
-To produce a proper investigator report for the Bosch 300 Series with a locked score of 70/100, I would need:
+**Missing Critical Components:**
 
-1. Actual evidence data with source IDs that I can cite
-2. Specific information about build quality, component reliability, and performance metrics
-3. Company and manufacturing details
-4. Material safety information
-5. Repair cost and failure data
+1. **SCORED EVIDENCE section is empty** — I need the curated evidence with source IDs to:
+   - Calculate the three axis scores (Quality, Durability, Performance)
+   - Cite specific evidence for strengths and deficiencies
+   - Determine Material Safety rating
 
-The rules explicitly state that "Every claim must trace to a source ID from the curation file. No speculation." Without any evidence provided, I cannot fulfill this requirement or decompose the 70/100 score into the three weighted axes (Quality=0.3, Durability=0.4, Performance=0.3).
+2. **BOTTOM LINE FROM CURATION is empty** — This typically contains key summary insights needed for the analysis
 
-Please provide the scored evidence data so I can complete the analysis properly.
+3. **Product identification unclear** — The format shows "Bosch 300 Series" but no specific product details
+
+**What I Need:**
+- Curated evidence entries with source IDs
+- Product specifications and test data
+- Customer feedback/review data
+- Company/manufacturing information
+- Any platform sharing or corporate structure details
+
+Without this evidence foundation, I cannot fulfill Rule #4 ("Every claim must trace to a source ID") or provide the required axis score variance and specific assessments.
+
+Please provide the complete evidence file and I'll deliver the full investigator analysis.
