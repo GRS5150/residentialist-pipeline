@@ -1,0 +1,265 @@
+{
+  "category": "faucets",
+  "version": "2.0",
+  "extracted_from": "score_faucets_calibration.js (v2 post-deep-dive)",
+  "extraction_date": "2026-03-30",
+
+  "axis_weights": {
+    "quality": 0.45,
+    "durability": 0.45,
+    "performance": 0.10
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "California Faucets", "slug": "california_faucets", "target": 94 },
+        { "name": "In2aqua", "slug": "in2aqua", "target": 92 },
+        { "name": "Waterstone", "slug": "waterstone", "target": 91 }
+      ],
+      "notes": "California Faucets: best combined cartridge sourcing (Flühs + Kerox), PVD finishes, StarCraft near-perfect. In2aqua: Kerox PVD+ 4M cycles, best warranty per StarCraft. Waterstone: best body material (316 SS bar stock), true manufacturer, but Geann cartridges and no PVD finish."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Brizo (DST Cartridge Lines)", "slug": "brizo_dst", "target": 84 }
+      ],
+      "notes": "DST cartridge (5M cycles), Brilliance PVD finish. BUT: not all Brizo models use DST (some Sedal/unknown), >2/3 China manufacturing, plastic spray wands."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Delta Mid-Range (DST models)", "slug": "delta_mid_range", "target": 69 }
+      ],
+      "notes": "Same DST tech as Brizo on -DST suffix models. ZAMAK shell + PEX waterway (-1 dock from solid brass). Massive parts availability. Must specify -DST models."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Kraus", "slug": "kraus", "target": 45 }
+      ],
+      "notes": "Marketeer importing from 3-4 Chinese factories. Uses mixed cartridges (Kerox, Flühs, Sedal, Kuching, Hain-Yo) but won't disclose which is in which faucet. 5-year cartridge warranty only."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "Reserved for uncertified/contraband faucets, products failing UPC/NSF gate, or brands with active safety recalls."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "body_material",
+        "type": "categorical",
+        "adjustments": {
+          "316_ss": 2,
+          "solid_brass": 1,
+          "zamak_shell_pex_waterway": 0,
+          "zamak_wetted": -2,
+          "plastic": -3
+        },
+        "notes": "316 SS machined bar stock = best (Waterstone monoblock). Solid brass = standard premium. ZAMAK + PEX = good innovation but not solid construction (-1 from brass). ZAMAK in wetted path = disqualifying concern."
+      },
+      {
+        "field": "body_construction",
+        "type": "categorical",
+        "adjustments": {
+          "machined_bar_stock": 1,
+          "cast": 0,
+          "die_cast": -1
+        },
+        "notes": "Machined bar stock (monoblock) eliminates casting voids. Cast = standard. Die-cast = zinc shell method."
+      },
+      {
+        "field": "cartridge_manufacturer",
+        "type": "categorical",
+        "adjustments": {
+          "fluhs_kerox": 2,
+          "kerox_pvd_plus_fluhs": 2,
+          "geann": 0,
+          "proprietary_tested": 1,
+          "sedal": -1,
+          "unknown_mixed": -3
+        },
+        "notes": "Flühs (German) and Kerox (Hungarian) are Tier 1-2 cartridge manufacturers. Geann (Taiwanese) is adequate but below Flühs/Kerox. DST (proprietary) = Kerox/Maruwa ceramic + diamond coating, Delta-assembled. Unknown/mixed = consumer cannot verify what's installed. Cartridge manufacturer IS the spec for faucets (equivalent to hardware brand for cabinets)."
+      },
+      {
+        "field": "finish_type_best",
+        "type": "categorical",
+        "adjustments": {
+          "pvd": 1,
+          "chrome": 0,
+          "powder_coat": 0,
+          "electroplate": -1
+        },
+        "notes": "PVD (Physical Vapor Deposition) = most durable finish technology. Brilliance PVD (Brizo/Delta by Vapor Technologies) = proven. Chrome = standard. Powder coat/lacquer = adequate but not PVD-grade durability."
+      },
+      {
+        "field": "business_model",
+        "type": "categorical",
+        "adjustments": {
+          "manufacturer": 1,
+          "assembler": 0,
+          "marketeer": -2
+        },
+        "notes": "Manufacturer = machines/fabricates own parts (Waterstone). Assembler = designs and hand-assembles from selected components (California Faucets, In2aqua). Marketeer = imports finished goods from OEM factories (Kraus)."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source": 1,
+          "multi_source": 0,
+          "unknown": -1
+        },
+        "notes": "Same rule as all categories. Single source/plant = +1. Multi-source = 0. Unknown factories = -1."
+      }
+    ],
+    "durability": [
+      {
+        "field": "cartridge_cycle_life",
+        "type": "threshold",
+        "adjustments": {
+          ">=500000": 2,
+          "250000-499999": 1,
+          "100000-249999": 0,
+          "<100000": -1
+        },
+        "notes": "Kerox PVD+ tested to 4M cycles. DST tested to 5M cycles. Flühs/Geann 500K+. Standard ceramic ~100-250K."
+      },
+      {
+        "field": "warranty_type",
+        "type": "categorical",
+        "adjustments": {
+          "lifetime_limited": 1,
+          "limited_10yr_plus": 0,
+          "limited_5yr": -1,
+          "limited_under_5yr": -2
+        },
+        "notes": "Warranty exclusion consistency rule (Rule 18) applies. Score on term + backing entity viability."
+      },
+      {
+        "field": "cartridge_warranty_included",
+        "type": "boolean",
+        "adjustments": {
+          "true": 0,
+          "false": -2
+        },
+        "notes": "Cartridge is the primary wear component. Excluding it from warranty is a significant durability signal. Kraus: 5-year cartridge warranty only — 'not nearly adequate' per StarCraft."
+      },
+      {
+        "field": "finish_warranty",
+        "type": "categorical",
+        "adjustments": {
+          "lifetime_pvd": 1,
+          "lifetime": 0,
+          "limited": 0,
+          "none": -1
+        },
+        "notes": "PVD lifetime guarantee = highest confidence (Brizo Brilliance). Standard lifetime on chrome = expected. Limited on decorative finishes = common. Waterstone describes colored finishes as 'semi-durable'."
+      },
+      {
+        "field": "parts_availability",
+        "type": "categorical",
+        "adjustments": {
+          "excellent": 1,
+          "good": 0,
+          "limited": -1,
+          "unavailable": -2
+        },
+        "notes": "Excellent = stocked at major distributors (Delta/Brizo via Masco network). Good = available direct from manufacturer (Waterstone, In2aqua). Limited = short-term guarantee only (Kraus 5-year parts)."
+      }
+    ],
+    "performance": [
+      {
+        "field": "spray_technology",
+        "type": "categorical",
+        "adjustments": {
+          "proprietary_advanced": 1,
+          "standard": 0,
+          "basic": -1
+        },
+        "notes": "Performance is essentially flat for faucets — all deliver water at regulated rates. Proprietary spray tech (Brizo MagneDock/ShieldSpray) earns +1. Performance axis weight is 0.10."
+      },
+      {
+        "field": "flow_certification",
+        "type": "categorical",
+        "adjustments": {
+          "watersense": 1,
+          "federal_only": 0,
+          "non_compliant": -2
+        },
+        "notes": "WaterSense = EPA voluntary certification, exceeds federal minimum. Federal only = meets legal requirement. Non-compliant = illegal for US sale (gate failure)."
+      }
+    ],
+    "material_safety_report_only": [
+      "upc_certified",
+      "nsf_61_certified",
+      "nsf_372_certified"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Health certs report-only, no composite impact (NSF 61, NSF 372 — these are gate certifications, not differentiators)",
+    "UPC certification is a gate: non-certified = not scored, flagged as potentially illegal for US sale",
+    "Cartridge manufacturer IS the spec for faucets — equivalent to hardware brand for cabinets (Blum MOVENTO 100K+ vs generic 25K)",
+    "Score the product not the brand (Rule 19): Waterstone two-handle (Geann) and Waterstone single-handle (Geann) are same product. Brizo DST and Brizo Sedal are DIFFERENT products. Delta -DST and Delta Classics are DIFFERENT products.",
+    "Performance axis essentially flat (weight 0.10) — all faucets deliver water at regulated rates. Spray technology is the only meaningful differentiator.",
+    "Source traceability same as all categories (+1 single source, 0 multi, -1 unknown)",
+    "Warranty exclusion consistency (Rule 18) applies",
+    "StarCraft Pool S — primary independent source for faucet quality assessment",
+    "Business model scoring: manufacturer > assembler > marketeer. Assembler is NOT penalized — designing and hand-assembling from selected top-tier components (California Faucets, In2aqua) is a legitimate quality model.",
+    "ZAMAK rule: ZAMAK/zinc in non-wetted ancillary parts = acceptable (In2aqua). ZAMAK as outer shell with PEX waterway = -1 dock from solid brass (Delta). ZAMAK in wetted path = disqualifying Material Safety concern."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "StarCraft Independent Reviews — systematic component-level analysis, cartridge identification, business model verification. Best Value awards. Only independent faucet teardown source in public domain."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports",
+        "Professional plumber forums (verified credentials)",
+        "Manufacturer spec sheets (verified against StarCraft data)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "Houzz professional threads",
+        "Reddit r/Plumbing (experienced contributors)",
+        "YouTube plumber channels"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "Individual owner reviews",
+        "Reddit r/HomeImprovement",
+        "Houzz owner threads"
+      ]
+    }
+  },
+
+  "operation_type": null,
+  "operation_type_adjustments": null
+}

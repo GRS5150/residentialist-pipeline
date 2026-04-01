@@ -1,0 +1,185 @@
+{
+  "category": "faucets",
+  "version": "2.0",
+  "extracted_from": "score_faucets_calibration.js (v2 post-deep-dive)",
+  "extraction_date": "2026-03-30",
+
+  "composite_method": "geometric_mean",
+  "formula_description": "geoMean(q, d, p) = (q/10)^W_q * (d/10)^W_d * (p/10)^W_p * 10, where axis scores are 0-10 scale. Display score = Math.round(geoMean * 10). Minimum axis input clamped to 0.01 before normalization.",
+
+  "weights": {
+    "quality": 0.45,
+    "durability": 0.45,
+    "performance": 0.10
+  },
+
+  "axis_stretch": {
+    "enabled": false,
+    "notes": "No axis stretch in v1.0. Enable when 10+ products scored."
+  },
+
+  "calibration_products": [
+    {
+      "name": "California Faucets",
+      "slug": "california_faucets",
+      "tier": 1,
+      "target": 94,
+      "axis_scores": { "quality": 9.5, "durability": 9.3, "performance": 9.2 },
+      "spec_adj": { "quality": 5, "durability": 5, "performance": 1, "total": 11, "capped_total": 8 },
+      "specs": {
+        "body_material": "solid_brass",
+        "body_construction": "cast",
+        "cartridge_manufacturer": "fluhs_kerox",
+        "finish_type_best": "pvd",
+        "business_model": "assembler",
+        "source_traceability": "single_source",
+        "cartridge_cycle_life": 500000,
+        "warranty_type": "lifetime_limited",
+        "cartridge_warranty_included": true,
+        "finish_warranty": "lifetime_pvd",
+        "parts_availability": "excellent",
+        "spray_technology": "standard",
+        "flow_certification": "watersense",
+        "upc_certified": true,
+        "nsf_61_certified": true,
+        "nsf_372_certified": true,
+        "material_safety_label": "Excellent"
+      }
+    },
+    {
+      "name": "In2aqua",
+      "slug": "in2aqua",
+      "tier": 1,
+      "target": 92,
+      "axis_scores": { "quality": 9.2, "durability": 9.2, "performance": 9.0 },
+      "spec_adj": { "quality": 4, "durability": 3, "performance": 1, "total": 8, "capped_total": 8 },
+      "specs": {
+        "body_material": "solid_brass",
+        "body_construction": "cast",
+        "cartridge_manufacturer": "kerox_pvd_plus_fluhs",
+        "finish_type_best": "chrome",
+        "business_model": "assembler",
+        "source_traceability": "single_source",
+        "cartridge_cycle_life": 4000000,
+        "warranty_type": "lifetime_limited",
+        "cartridge_warranty_included": true,
+        "finish_warranty": "lifetime",
+        "parts_availability": "good",
+        "spray_technology": "standard",
+        "flow_certification": "watersense",
+        "upc_certified": true,
+        "nsf_61_certified": true,
+        "nsf_372_certified": true,
+        "material_safety_label": "Excellent"
+      }
+    },
+    {
+      "name": "Waterstone",
+      "slug": "waterstone",
+      "tier": 1,
+      "target": 91,
+      "axis_scores": { "quality": 9.5, "durability": 8.7, "performance": 9.0 },
+      "spec_adj": { "quality": 5, "durability": 3, "performance": 1, "total": 9, "capped_total": 8 },
+      "specs": {
+        "body_material": "316_ss",
+        "body_construction": "machined_bar_stock",
+        "cartridge_manufacturer": "geann",
+        "finish_type_best": "powder_coat",
+        "business_model": "manufacturer",
+        "source_traceability": "single_source",
+        "cartridge_cycle_life": 500000,
+        "warranty_type": "lifetime_limited",
+        "cartridge_warranty_included": true,
+        "finish_warranty": "limited",
+        "parts_availability": "good",
+        "spray_technology": "standard",
+        "flow_certification": "watersense",
+        "upc_certified": true,
+        "nsf_61_certified": true,
+        "nsf_372_certified": true,
+        "material_safety_label": "Excellent"
+      }
+    },
+    {
+      "name": "Brizo (DST Cartridge Lines)",
+      "slug": "brizo_dst",
+      "tier": 2,
+      "target": 84,
+      "axis_scores": { "quality": 8.0, "durability": 8.8, "performance": 8.5 },
+      "spec_adj": { "quality": 4, "durability": 5, "performance": 2, "total": 11, "capped_total": 8 },
+      "specs": {
+        "body_material": "solid_brass",
+        "body_construction": "cast",
+        "cartridge_manufacturer": "proprietary_tested",
+        "finish_type_best": "pvd",
+        "business_model": "manufacturer",
+        "source_traceability": "multi_source",
+        "cartridge_cycle_life": 5000000,
+        "warranty_type": "lifetime_limited",
+        "cartridge_warranty_included": true,
+        "finish_warranty": "lifetime_pvd",
+        "parts_availability": "excellent",
+        "spray_technology": "proprietary_advanced",
+        "flow_certification": "watersense",
+        "upc_certified": true,
+        "nsf_61_certified": true,
+        "nsf_372_certified": true,
+        "material_safety_label": "Good"
+      }
+    },
+    {
+      "name": "Delta Mid-Range (DST models)",
+      "slug": "delta_mid_range",
+      "tier": 3,
+      "target": 69,
+      "axis_scores": { "quality": 6.4, "durability": 7.4, "performance": 7.0 },
+      "spec_adj": { "quality": 1, "durability": 4, "performance": 1, "total": 6, "capped_total": 6 },
+      "specs": {
+        "body_material": "zamak_shell_pex_waterway",
+        "body_construction": "die_cast",
+        "cartridge_manufacturer": "proprietary_tested",
+        "finish_type_best": "chrome",
+        "business_model": "manufacturer",
+        "source_traceability": "multi_source",
+        "cartridge_cycle_life": 5000000,
+        "warranty_type": "lifetime_limited",
+        "cartridge_warranty_included": true,
+        "finish_warranty": "limited",
+        "parts_availability": "excellent",
+        "spray_technology": "standard",
+        "flow_certification": "watersense",
+        "upc_certified": true,
+        "nsf_61_certified": true,
+        "nsf_372_certified": true,
+        "material_safety_label": "Good"
+      }
+    },
+    {
+      "name": "Kraus",
+      "slug": "kraus",
+      "tier": 4,
+      "target": 45,
+      "axis_scores": { "quality": 3.8, "durability": 5.0, "performance": 5.5 },
+      "spec_adj": { "quality": -5, "durability": 0, "performance": 0, "total": -5, "capped_total": -5 },
+      "specs": {
+        "body_material": "solid_brass",
+        "body_construction": "cast",
+        "cartridge_manufacturer": "unknown_mixed",
+        "finish_type_best": "chrome",
+        "business_model": "marketeer",
+        "source_traceability": "unknown",
+        "cartridge_cycle_life": 500000,
+        "warranty_type": "lifetime_limited",
+        "cartridge_warranty_included": false,
+        "finish_warranty": "limited",
+        "parts_availability": "limited",
+        "spray_technology": "standard",
+        "flow_certification": "federal_only",
+        "upc_certified": true,
+        "nsf_61_certified": true,
+        "nsf_372_certified": true,
+        "material_safety_label": "Good"
+      }
+    }
+  ]
+}
