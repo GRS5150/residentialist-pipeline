@@ -1,0 +1,83 @@
+{
+  "product": "Gerber Viper (21-014)",
+  "slug": "gerber_viper",
+  "category": "toilets",
+  "locked_score": 64,
+  "tier": 3,
+  "label": "Good",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Spectrum Brands Holdings — public. Diversified consumer products company (also owns Black & Decker home products, Remington, pet care brands).",
+  "manufacturing_location": "US manufacturing. Specific factory location not confirmed in deep dive.",
+  "outlook": "Stable",
+  "outlook_rationale": "Spectrum Brands is diversified public company. Gerber Plumbing is a stable mid-market brand with loyal plumber following.",
+
+  "platform_disclosure": "Gerber Viper and Gerber Avalanche use different flush mechanisms — Viper is standard gravity flapper, Avalanche uses a different flush valve design. Not interchangeable. Both are Gerber/Spectrum Brands products.",
+
+  "quality_evidence": {
+    "construction": {
+      "type": "two_piece_standard",
+      "description": "Two-piece, standard exposed trapway. Basic functional construction. Standard tank-to-bowl connection.",
+      "sources": ["Gerber spec sheet"]
+    },
+    "glazing": {
+      "type": "standard_glaze",
+      "description": "Standard vitreous china glaze. No proprietary antimicrobial or nano-coating. Below CeFiONtect, CleanCoat, and EverClean.",
+      "sources": ["Gerber product data"]
+    },
+    "trapway": {
+      "type": "fully_glazed_standard",
+      "diameter": "2 inch",
+      "description": "Fully glazed 2\" trapway. Standard diameter. Smooth internal surface.",
+      "sources": ["Gerber spec sheet"]
+    },
+    "china_body": {
+      "type": "standard_vitreous",
+      "description": "Standard vitreous china. Adequate quality. No widespread cracking reports from plumber community.",
+      "sources": ["plumber forum data"]
+    }
+  },
+
+  "performance_evidence": {
+    "map_score": {
+      "value": 800,
+      "notes": "Gerber Viper: MaP 800g (some models). MaP PREMIUM certified (600g+ threshold). Below Champion 4 (1000g) but solidly in PREMIUM range. Adequate for heavy residential use.",
+      "sources": ["MaP Testing database", "Gerber performance brochure", "homesphere.com"]
+    },
+    "flush_technology": "Standard gravity 3-inch flapper. No proprietary flush technology (no TORNADO, no AquaPiston, no Champion piston). Simple, proven gravity flush.",
+    "water_efficiency": "1.28 GPF — WaterSense certified.",
+    "bowl_cleanliness": "Good — standard rim-fed wash pattern. No special rinse technology. Standard glaze doesn't prevent adhesion as well as CeFiONtect.",
+    "noise": "Standard gravity flush noise.",
+    "sources": ["MaP Testing", "Gerber product data"]
+  },
+
+  "durability_evidence": {
+    "flush_valve": {
+      "type": "flapper_3inch_rubber",
+      "description": "Standard 3-inch rubber flapper. 3-5 year expected life before degradation. Universal replacement available ($5-10). Most common toilet repair — simple and cheap.",
+      "sources": ["parts compatibility data"]
+    },
+    "fill_valve": {
+      "type": "fluidmaster_universal",
+      "description": "Fluidmaster 400A compatible. Universal aftermarket replacement.",
+      "sources": ["parts compatibility data"]
+    },
+    "parts_ecosystem": {
+      "type": "universal_aftermarket",
+      "description": "Fully universal parts. Fluidmaster fill valve, standard flapper, standard wax ring, standard supply line. Everything available at any hardware store.",
+      "sources": ["Home Depot", "Lowes", "Amazon"]
+    },
+    "diy_repairability": "Fully DIY. Simplest possible repair path. All standard parts, all standard tools. Two-piece design makes tank access easy.",
+    "warranty": "3-year warranty (better than TOTO/Kohler 1-year on components).",
+    "sources": ["Gerber warranty policy"]
+  },
+
+  "sources": [
+    {"id": "S1", "pool": "S", "column": "performance", "classification": "score", "source_name": "MaP Testing (Veritec Consulting)", "snippet": "Gerber Viper: MaP 800g. MaP PREMIUM certified. Consistent gravity flush performance. 'CLEAR' rating on bulk waste removal."},
+    {"id": "A1", "pool": "A", "column": "durability", "classification": "score", "source_name": "Terry Love Plumbing Forum", "snippet": "Gerber Viper frequently recommended as value pick by plumbers. 'Consistent flush, cheap parts.' Reliable standard mechanism."},
+    {"id": "B1", "pool": "B", "column": "durability", "classification": "score", "source_name": "r/Plumbing", "snippet": "Gerber Viper: 'good enough for a quality bathroom at a budget price.' Universal parts, easy DIY repairs. No proprietary complications."},
+    {"id": "B2", "pool": "B", "column": "performance", "classification": "score", "source_name": "Homesphere / Gerber Performance Brochure", "snippet": "Gerber Viper 0.8 GPF model: 800g MaP PREMIUM. Strong performance at low water consumption. Consistent CLEAR scores."},
+    {"id": "C1", "pool": "C", "column": "quality", "classification": "report_only", "source_name": "Plumber consensus", "snippet": "Gerber Viper sits on the line between 'good enough for quality install' and 'value pick.' No special glazing or flush technology — reliable simplicity."}
+  ],
+
+  "bottom_line": "The Gerber Viper is the plumber's value pick. MaP 800g (PREMIUM), fully universal parts, easy DIY repairs, 3-year warranty. It lacks any special technology — no nano-glaze, no centrifugal flush, no canister valve. It's a well-built standard toilet. The 3\" rubber flapper will need replacement every 3-5 years ($5-10 DIY). It scores below the Champion 4 on both flush tech (-1 vs piston) and glazing (-1 vs EverClean). For budget-conscious quality installs, this is the floor of 'good.'"
+}

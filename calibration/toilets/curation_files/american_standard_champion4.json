@@ -1,0 +1,84 @@
+{
+  "product": "American Standard Champion 4 (2586.128ST)",
+  "slug": "american_standard_champion4",
+  "category": "toilets",
+  "locked_score": 67,
+  "tier": 3,
+  "label": "Good",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Lixil Group — public (Tokyo Stock Exchange). Acquired American Standard in 2013. Also owns Grohe (Germany), INAX (Japan). Global building products conglomerate.",
+  "manufacturing_location": "Multiple Lixil/American Standard factories. US and Mexico production. Specific factory for this model not confirmed.",
+  "outlook": "Stable",
+  "outlook_rationale": "Lixil is a diversified global building products company. No quality degradation reported post-2013 acquisition. Parts ecosystem remains strong. Champion 4 line unchanged in core design.",
+
+  "platform_disclosure": "Lixil Group owns American Standard, Grohe (Germany), and INAX (Japan). It is unclear whether American Standard models incorporate INAX flush technology. Champion 4's 4-inch piston flush valve is an American Standard proprietary design, distinct from Grohe or INAX mechanisms. Lixil's multi-brand portfolio creates potential platform sharing, but Champion 4 appears to be a legacy American Standard design maintained post-acquisition.",
+
+  "quality_evidence": {
+    "construction": {
+      "type": "two_piece_standard",
+      "description": "Two-piece, standard exposed trapway. Basic construction. Tank-to-bowl gasket and bolt connection. Not skirted, not concealed. Functional, not premium.",
+      "sources": ["American Standard spec sheet"]
+    },
+    "glazing": {
+      "type": "proprietary_antimicrobial",
+      "description": "EverClean antimicrobial surface — silver-ion based. Inhibits bacteria, mold, and mildew growth on bowl surface. Effective but different technology than CeFiONtect nano-barrier (EverClean fights microbes, CeFiONtect prevents adhesion).",
+      "sources": ["americanstandard-us.com", "deep dive analysis"]
+    },
+    "trapway": {
+      "type": "fully_glazed_standard",
+      "diameter": "2-3/8 inch (accelerator)",
+      "description": "Fully glazed 2-3/8\" trapway — among the largest in residential toilets. Combined with 4\" piston valve, creates very fast bulk water delivery. Anti-clog design.",
+      "sources": ["American Standard spec sheet", "deep dive analysis"]
+    },
+    "china_body": {
+      "type": "standard_vitreous",
+      "description": "Standard vitreous china. Adequate construction but not high-fire premium. Standard chip resistance.",
+      "sources": ["industry analysis"]
+    }
+  },
+
+  "performance_evidence": {
+    "map_score": {
+      "value": 1000,
+      "notes": "Champion 4: consistently 1000g in MaP testing. The 4-inch flush valve + 2-3/8\" trapway delivers the fastest water dump in residential toilets. Raw flush power is Tier 1 — it's the construction quality that places this in Tier 3.",
+      "sources": ["MaP Testing database", "map-testing.com", "deep dive analysis"]
+    },
+    "flush_technology": "4-inch piston flush valve — largest residential flush valve. Delivers 70% more water flow than standard 2\" flapper. Simple, powerful, effective. Not as sophisticated as TORNADO FLUSH (no centrifugal rinse) but brute-force effective.",
+    "water_efficiency": "1.28 GPF — WaterSense certified (.128 suffix confirms).",
+    "bowl_cleanliness": "Good — powerful flush moves waste but standard rim-fed wash pattern. EverClean glaze helps. Below TORNADO FLUSH for bowl surface rinse.",
+    "noise": "Can be louder than standard flush due to rapid 4\" valve water release.",
+    "sources": ["MaP Testing", "American Standard spec", "deep dive analysis"]
+  },
+
+  "durability_evidence": {
+    "flush_valve": {
+      "type": "piston_4inch",
+      "description": "4-inch piston flush valve. Simple mechanical design — piston lifts vertically for fast water delivery. Replacement parts available. Some reports of flush handle connection being a weak point on certain production runs.",
+      "sources": ["American Standard parts catalog", "deep dive analysis"]
+    },
+    "fill_valve": {
+      "type": "fluidmaster_universal",
+      "description": "Fluidmaster 400A compatible. Universal $10-20 replacement at any hardware store.",
+      "sources": ["parts compatibility data"]
+    },
+    "parts_ecosystem": {
+      "type": "universal_aftermarket",
+      "description": "Excellent parts availability. Universal Fluidmaster fill valve. Champion 4 piston valve replacement available at Home Depot/Lowes. Standard wax ring, supply line. Best DIY repairability in the lineup.",
+      "sources": ["Home Depot", "Lowes", "parts listings"]
+    },
+    "diy_repairability": "Fully DIY. All standard tools. Two-piece design allows easy tank removal. Fill valve, flush valve, handle, wax ring — all standard replacement procedures. The simplest toilet to repair.",
+    "warranty": "Limited lifetime on china body, 5-year mechanical components. Best warranty in the mid-tier — 5yr mechanical exceeds TOTO (1yr) and Kohler (1yr) on components.",
+    "sources": ["American Standard warranty policy"]
+  },
+
+  "sources": [
+    {"id": "S1", "pool": "S", "column": "performance", "classification": "score", "source_name": "MaP Testing (Veritec Consulting)", "snippet": "American Standard Champion 4: MaP 1000g consistently. 4-inch flush valve + 2-3/8\" trapway = fastest water delivery in residential. MaP PREMIUM certified."},
+    {"id": "A1", "pool": "A", "column": "durability", "classification": "score", "source_name": "Terry Love Plumbing Forum", "snippet": "Champion 4 is a 'workhorse.' Simple 4\" piston design = fewer failure modes than complex mechanisms. Parts universal. Plumber value recommendation."},
+    {"id": "A2", "pool": "A", "column": "quality", "classification": "score", "source_name": "Consumer Reports", "snippet": "American Standard Champion maintains strong flushing performance. No quality degradation noted post-Lixil acquisition."},
+    {"id": "B1", "pool": "B", "column": "durability", "classification": "score", "source_name": "r/Plumbing", "snippet": "Champion 4: 'good enough for a quality bathroom.' Universal parts, easy repairs. 5-year mechanical warranty is best mid-tier."},
+    {"id": "B2", "pool": "B", "column": "quality", "classification": "report_only", "source_name": "Deep dive analysis", "snippet": "EverClean antimicrobial surface effective for hygiene but does not prevent waste adhesion like CeFiONtect. Standard vitreous china — not high-fire premium."},
+    {"id": "C1", "pool": "C", "column": "quality", "classification": "report_only", "source_name": "plumbingmarket.ca", "snippet": "American Standard ranked in top 3 by plumbers. Champion 4 specifically praised for reliability and value. Post-Lixil quality maintained."}
+  ],
+
+  "bottom_line": "The American Standard Champion 4 is the performance/value champion. MaP 1000g with the largest flush valve in residential toilets (4 inches). Raw flush power matches TOTO and Kohler at a fraction of the price. The dock is construction quality — standard vitreous china (not high-fire), two-piece standard (not skirted), no nano-glaze. Greatest repair ecosystem in the category: universal Fluidmaster fill valve, available piston valve, 5-year mechanical warranty. Lixil parent is stable. This is what plumbers mean by 'good enough for a quality bathroom.'"
+}

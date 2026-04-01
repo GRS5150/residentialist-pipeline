@@ -1,0 +1,262 @@
+{
+  "category": "toilets",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "plumbing_fixtures",
+  "notes": "Residential toilets — one-piece, two-piece, wall-hung, smart/bidet toilets. NOT commercial, NOT urinals. MaP Testing (Maximum Performance Testing) is the gold standard independent performance test. Flush mechanism type is the critical scoring differentiator. Smart toilet features scored separately from base toilet performance.",
+
+  "axis_weights": {
+    "quality": 0.35,
+    "durability": 0.35,
+    "performance": 0.30
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "TOTO Neorest NX2", "slug": "toto_neorest_nx2", "target_range": [93, 96] },
+        { "name": "TOTO Ultramax II (MS604124CEFG)", "slug": "toto_ultramax_ii", "target_range": [90, 93] }
+      ],
+      "notes": "TOTO: clear #1 in plumber consensus across multiple sources. Neorest: integrated smart toilet benchmark — TORNADO FLUSH + CeFiONtect nano-glaze + instant-heat bidet + deodorizer. Japan manufacturing, highest-fired china. Ultramax II: one-piece TORNADO FLUSH workhorse, CeFiONtect, 1.28 GPF WaterSense, MaP 1000g. '44-year veteran: TOTO is the best period.' Both Tier 1 by professional consensus and MaP performance."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Kohler Highline Arc (K-5310)", "slug": "kohler_highline", "target_range": [78, 82] }
+      ],
+      "notes": "Kohler: #2 in plumber rankings. AquaPiston canister flush valve (360° water entry, no flapper to degrade), Revolution 360 swirl technology. Strong MaP scores. Kohler WI manufacturing on premium lines vs outsourced value lines. Excellent parts ecosystem. Loses to TOTO on glazing technology and plumber preference."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "American Standard Champion 4 (2586.128ST)", "slug": "american_standard_champion4", "target_range": [65, 69] },
+        { "name": "Gerber Viper (21-014)", "slug": "gerber_viper", "target_range": [62, 66] }
+      ],
+      "notes": "American Standard Champion 4: 4-inch piston flush valve (largest in residential), MaP 1000g, strong simple mechanism, good parts ecosystem. Lixil parent. Genuinely strong flush performance — sits at top of Tier 3 on construction quality. Gerber Viper: plumber value pick, consistent MaP 600-800g, easy DIY repairs, standard parts. 'Good enough for a quality bathroom' per plumber consensus."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Glacier Bay HD (Home Depot house brand)", "slug": "glacier_bay_hd", "target_range": [42, 48] }
+      ],
+      "notes": "Glacier Bay: Home Depot house brand, builder-grade. MaP 350-600g (spotty data), weak flushes, cracking china, running valves per plumber reports. Most service calls for clogs/valve failures. Floor of the market."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with active safety recalls, counterfeit or non-ASME-certified products, or documented structural defects."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "construction_type",
+        "type": "categorical",
+        "adjustments": {
+          "one_piece_skirted": 2,
+          "one_piece_standard": 1,
+          "two_piece_concealed_trapway": 1,
+          "two_piece_standard": 0,
+          "wall_hung": 1
+        },
+        "notes": "One-piece skirted = premium (no tank-to-bowl gasket failure point + clean aesthetics). One-piece standard = good. Two-piece concealed trapway = good aesthetics. Two-piece standard = baseline. Wall-hung = premium installation complexity but quality construction."
+      },
+      {
+        "field": "glazing_technology",
+        "type": "categorical",
+        "adjustments": {
+          "cefiontect_nano": 2,
+          "proprietary_antimicrobial": 1,
+          "standard_glaze": 0,
+          "no_special_glaze": -1
+        },
+        "notes": "TOTO CeFiONtect (zirconium-based nano-glaze = ionic barrier, reduces waste adhesion) is the benchmark. Kohler CleanCoat, American Standard EverClean (silver-ion antimicrobial), Duravit HygieneGlaze 2.0 = proprietary antimicrobial (+1). Standard glaze = baseline. No special glaze = builder-grade."
+      },
+      {
+        "field": "trapway_design",
+        "type": "categorical",
+        "adjustments": {
+          "fully_glazed_large": 2,
+          "fully_glazed_standard": 1,
+          "partially_glazed": 0,
+          "unglazed_exposed": -1
+        },
+        "notes": "Fully glazed trapway reduces clogging. Large = 2-1/8\" to 2-3/8\" (TOTO). Standard = 2\" glazed. Partially glazed = rougher internal surface. Unglazed exposed = builder-grade."
+      },
+      {
+        "field": "china_body_quality",
+        "type": "categorical",
+        "adjustments": {
+          "high_fire_premium": 1,
+          "standard_vitreous": 0,
+          "thin_wall_economy": -1
+        },
+        "notes": "High-fire = TOTO (>1200°C, denser china, chip-resistant). Standard = Kohler/American Standard. Thin-wall economy = DTC brands, Glacier Bay (cracking reports)."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "TOTO (+1, Kitakyushu Japan + Morrow/Lakewood GA USA). Kohler (0, Kohler WI + outsourced). American Standard/Lixil (0, multi-factory). Gerber (0, identified US factory). Glacier Bay (-1, unknown OEM)."
+      }
+    ],
+    "performance": [
+      {
+        "field": "map_flush_score_grams",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=1000": 2, "800-999": 1, "600-799": 0, "350-599": -1, "<350": -2 },
+        "notes": "MaP Testing (Maximum Performance) = Pool S data. 1000g = top performance (Champion 4, TOTO Ultramax II). 600g = MaP PREMIUM threshold. 350g = WaterSense minimum. Below 350g = not recommended. This is THE performance differentiator."
+      },
+      {
+        "field": "flush_technology",
+        "type": "categorical",
+        "adjustments": {
+          "tornado_cyclonic": 2,
+          "pressure_assisted": 1,
+          "aquapiston_canister": 1,
+          "piston_large_valve": 1,
+          "gravity_3in_flapper": 0,
+          "gravity_2in_flapper": -1
+        },
+        "notes": "TOTO TORNADO FLUSH (centrifugal rinse + CeFiONtect = best bowl cleanliness). Pressure-assisted (Sloan Flushmate = highest force). Kohler AquaPiston (360° water entry, no flapper degradation). American Standard Champion 4 (4\" piston = fastest water delivery). 3\" flapper = good. 2\" flapper = builder-grade."
+      },
+      {
+        "field": "water_efficiency_gpf",
+        "type": "continuous_lower_better",
+        "adjustments": { "<=0.9": 1, "1.0-1.28": 0, "1.29-1.6": 0, ">1.6": -1 },
+        "notes": "WaterSense = 1.28 GPF max. Ultra-high-efficiency (0.8-0.9 GPF) = bonus if MaP maintained. Standard 1.6 GPF = no penalty. Above 1.6 = older non-compliant. Dual-flush scores at full-flush rating."
+      },
+      {
+        "field": "bowl_cleanliness",
+        "type": "categorical",
+        "adjustments": { "excellent": 1, "good": 0, "fair": -1 },
+        "notes": "Measured as % bowl surface rinsed per flush. TOTO TORNADO FLUSH + CeFiONtect = excellent. Standard rim-feed wash = good. Weak rinse coverage = fair."
+      }
+    ],
+    "durability": [
+      {
+        "field": "flush_valve_type",
+        "type": "categorical",
+        "adjustments": {
+          "canister_tower": 2,
+          "piston_4inch": 1,
+          "flapper_3inch_silicone": 1,
+          "flapper_3inch_rubber": 0,
+          "flapper_2inch_rubber": -1,
+          "electronic_flush": 0
+        },
+        "notes": "Kohler AquaPiston canister (+2): no flapper to degrade, 360° seal, longest service life. 4\" piston (+1): American Standard Champion — simple, durable. 3\" silicone flapper (+1): 7-10 yr life vs 3-5 yr rubber. 2\" rubber flapper = builder-grade, most frequent replacement. Electronic = depends on board reliability."
+      },
+      {
+        "field": "fill_valve_type",
+        "type": "categorical",
+        "adjustments": {
+          "fluidmaster_universal": 1,
+          "proprietary_available": 0,
+          "proprietary_limited": -1
+        },
+        "notes": "Fluidmaster 400A compatible = universal replacement, $8-15, any hardware store. Proprietary but available (TOTO, Kohler OEM) = 0. Proprietary limited = smart toilet integrated systems, DTC brands with no parts."
+      },
+      {
+        "field": "parts_ecosystem",
+        "type": "categorical",
+        "adjustments": {
+          "universal_aftermarket": 1,
+          "widely_available": 0,
+          "proprietary_only": -1
+        },
+        "notes": "Universal aftermarket (Fluidmaster/Korky compatible) = any hardware store. Widely available (TOTO/Kohler parts through supply houses). Proprietary only = DTC brands, smart toilet integrated components."
+      },
+      {
+        "field": "diy_repairability",
+        "type": "categorical",
+        "adjustments": {
+          "fully_diy": 1,
+          "mostly_diy": 0,
+          "professional_required": -1
+        },
+        "notes": "Standard two-piece with universal parts = fully DIY. One-piece with accessible internals = mostly DIY. Smart toilets, wall-hung (concealed carrier), proprietary systems = professional required."
+      },
+      {
+        "field": "warranty_years",
+        "type": "threshold",
+        "adjustments": { ">=5": 1, "3-4": 0, "1-2": 0, "<1": -1 },
+        "notes": "TOTO: 1yr residential (5yr commercial). Kohler: 1yr. American Standard: limited lifetime on china, 5yr mechanical. Warranty is less differentiating in toilets than in appliances — most failures are $5-30 parts."
+      }
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "MaP Testing score is the PRIMARY performance differentiator. Products without MaP data receive Performance axis penalty.",
+    "Flush mechanism type is the PRIMARY durability differentiator. Canister/tower > piston > 3\" flapper > 2\" flapper.",
+    "Single-piece vs two-piece is a quality factor, not an automatic tier differentiator. A well-built two-piece (Champion 4) can outscore a cheap one-piece.",
+    "Smart toilet features (bidet, deodorizer, auto-flush) scored separately from base toilet performance. A TOTO Drake + Washlet = separate products vs Neorest = integrated product.",
+    "CeFiONtect and comparable nano-glazes are genuine long-term differentiators, not marketing — independent plumber consensus confirms superior bowl cleanliness over years.",
+    "Amazon/DTC brands (WoodBridge, Swiss Madison, DeerValley) with sparse or absent MaP data: score what's documented. High Amazon ratings ≠ MaP performance. Plumber consensus: 30-50% failure in year 1 vs 10% for established brands.",
+    "Wall-hung toilets: score the bowl + carrier system together. Geberit Duofix is the dominant carrier — carrier quality is a durability spec.",
+    "Corporate structure = report finding (Lixil owns American Standard + Grohe + INAX, TOTO is independent, Kohler is private family-owned)",
+    "Score base configuration. Note upgrade availability (e.g., SoftClose seat, Washlet compatibility).",
+    "Warranty exclusion consistency rule applies. All toilet warranties exclude improper installation and abuse — don't penalize one brand for universal exclusions."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "MaP Testing (Veritec Consulting) — Maximum Performance test using standardized soybean paste media. 3,000+ toilet models tested. MaP PREMIUM = 600g+ threshold. The only repeatable, independent comparative flush performance test. Pool S for performance data."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (toilet flushing/clogging/cleaning tests, reliability surveys)",
+        "Terry Love Plumbing Forum (terrylove.com — plumber consensus, 20+ yr archive)",
+        "Yale Appliance (limited toilet data but strong cross-category appliance reliability authority)",
+        "Plbg.com Forum (professional plumber community)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/Plumbing (plumber community)",
+        "Ferguson product specialists",
+        "SupplyHouse.com product reviews (verified purchaser data)",
+        "Plumber YouTube (e.g., Roger Wakefield, This Old House)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/HomeImprovement",
+        "Houzz bathroom threads",
+        "Amazon reviews (volume data only — not quality signal)",
+        "Individual homeowner reviews"
+      ]
+    }
+  },
+
+  "material_safety_report_only": [
+    "Lead content in glazes (not a concern in modern production — lead-free standard since 1990s)",
+    "Antimicrobial agent type (silver-ion in EverClean — FDA GRAS, no concern)",
+    "Smart toilet electrical safety (UL listed, GFCI required)"
+  ]
+}
