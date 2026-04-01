@@ -1,0 +1,242 @@
+{
+  "category": "cabinets",
+  "version": "1.0",
+  "extracted_from": "score_cabinets_calibration.js",
+  "extraction_date": "2026-03-30",
+
+  "axis_weights": {
+    "quality": 0.45,
+    "durability": 0.30,
+    "performance": 0.25
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Crystal Keyline (custom)", "slug": "crystal_keyline_custom", "target": 93 },
+        { "name": "Fabuwood Galaxy", "slug": "fabuwood_galaxy", "target": 91 }
+      ],
+      "notes": "Full custom and premium semi-custom with all-plywood standard, dovetail drawers, Blum hardware"
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "KraftMaid (base config)", "slug": "kraftmaid_base", "target": 80 }
+      ],
+      "notes": "Semi-custom with strong finish and hardware but particleboard base config"
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "IKEA SEKTION", "slug": "ikea_sektion", "target": 71 },
+        { "name": "Merillat Classic", "slug": "merillat_classic", "target": 64 }
+      ],
+      "notes": "Entry semi-custom and modular systems. Adequate construction, limited differentiation."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Timberlake Origins", "slug": "timberlake_origins", "target": 52 }
+      ],
+      "notes": "Builder-grade. Thermofoil, light-density particleboard, generic hardware, 1-year warranty."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for products failing KCMA baseline or with documented structural defects."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "box_substrate",
+        "type": "categorical",
+        "adjustments": {
+          "plywood_3/4": 2,
+          "plywood_1/2": 1,
+          "particleboard_M": -1,
+          "particleboard_LD": -2
+        },
+        "notes": "M-grade = medium density. LD = light density (lowest screw pull-out, moisture failure 3-5 yrs)"
+      },
+      {
+        "field": "drawer_box_joinery",
+        "type": "categorical",
+        "adjustments": {
+          "dovetail": 1,
+          "dado_rabbet": 0,
+          "cam_lock": -1
+        },
+        "notes": "Dovetail = strongest joint. Dado-rabbet = adequate. Cam-lock = RTA-grade, weakest."
+      },
+      {
+        "field": "finish_type",
+        "type": "categorical",
+        "adjustments": {
+          "catalyzed_CV": 1,
+          "catalyzed_lacquer": 0,
+          "TFL": -2,
+          "thermofoil": -2
+        },
+        "notes": "CV = conversion varnish, most durable factory finish. TFL/thermofoil = delamination risk near heat."
+      },
+      {
+        "field": "back_panel",
+        "type": "categorical",
+        "adjustments": {
+          "1/2_plywood": 1,
+          "1/4_hardboard": 0,
+          "1/8_hardboard": -1
+        },
+        "notes": "1/2 plywood = structural. 1/4 hardboard = standard. 1/8 = flexes under load."
+      },
+      {
+        "field": "frame_type",
+        "type": "conditional",
+        "adjustments": {
+          "framed": 1,
+          "frameless_plywood_box": 0,
+          "frameless_particleboard_box": -1
+        },
+        "notes": "Framed +1 (KCMA base-front joint test data). Frameless + plywood = compensated. Frameless + particleboard = real vulnerability, stacks with substrate penalty."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source": 1,
+          "multi_source": 0,
+          "unknown": -1
+        },
+        "notes": "Same rule as countertops. Single plant or identifiable origin = +1."
+      }
+    ],
+    "performance": [
+      {
+        "field": "hinge_cycle_rating",
+        "type": "threshold",
+        "adjustments": {
+          ">=100000": 1,
+          "50000-99999": 0,
+          "<50000": -1
+        },
+        "notes": "Blum CLIP top = 165K. Generic = 25-30K. Hardware brand IS the spec."
+      },
+      {
+        "field": "drawer_slide_cycle_rating",
+        "type": "threshold",
+        "adjustments": {
+          ">=75000": 1,
+          "50000-74999": 0,
+          "<50000": -1
+        },
+        "notes": "Blum MOVENTO = 100K. Blum TANDEM PLUS = 75K. Generic side-mount = 25-35K."
+      },
+      {
+        "field": "soft_close_standard",
+        "type": "boolean",
+        "adjustments": {
+          "true": 1,
+          "false": 0
+        },
+        "notes": "Standard = included at no extra cost. False = available as upgrade or absent."
+      }
+    ],
+    "durability": [
+      {
+        "field": "kcma_certified",
+        "type": "floor",
+        "adjustments": {
+          "true": 0,
+          "false": -2
+        },
+        "notes": "KCMA = floor, not differentiator. 40-50% fail first attempt. Absence is meaningful."
+      },
+      {
+        "field": "warranty_type",
+        "type": "categorical",
+        "adjustments": {
+          "lifetime_limited": 1,
+          "25yr_limited": 1,
+          "10yr": 0,
+          "5yr": 0,
+          "1yr": -1
+        },
+        "notes": "Score on term length + backing entity viability. Industry-standard exclusions (water damage, humidity, improper install) do NOT reduce score. Rule 18."
+      }
+    ],
+    "material_safety_report_only": [
+      "carb_phase2_compliant",
+      "tsca_title_vi_compliant",
+      "greenguard_gold",
+      "plywood_carb_exempt",
+      "formaldehyde_substrate_type"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Health certs report-only, no composite impact (CARB, TSCA, GREENGUARD Gold)",
+    "KCMA = floor (0 if yes, -2 if no)",
+    "Source traceability same as countertops (+1 single source, 0 multi, -1 unknown)",
+    "Score base configuration, note upgrade availability (Rule 17)",
+    "Frame type conditional on substrate (Rule: framed/frameless/frameless+particleboard)",
+    "Corporate structure = report finding only (MasterBrand disclosure)",
+    "Hardware brand and grade = verifiable performance data",
+    "Warranty exclusion consistency: industry-standard exclusions do NOT reduce score (Rule 18)",
+    "Score the product not the brand: different configs under same brand = separate scores (Rule 19)",
+    "Pool S vacant — no independent teardown source identified for cabinets"
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [],
+      "notes": "VACANT. No independent teardown or lab source equivalent to StarCraft (faucets) or Karin Kirk (countertops)."
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Main Line Kitchen Design",
+        "IST Cabinets",
+        "KCMA test data / A161.1 certificates",
+        "Blum product catalogs",
+        "Grass product catalogs",
+        "Hettich product catalogs",
+        "Accuride product catalogs"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "Reddit r/cabinetry",
+        "Houzz professional threads",
+        "YouTube teardown channels"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "Individual forum posts",
+        "Consumer review sites"
+      ]
+    }
+  },
+
+  "operation_type": null,
+  "operation_type_adjustments": null
+}
