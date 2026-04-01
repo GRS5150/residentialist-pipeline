@@ -4,33 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 45 | 0.3 | Basic construction quality with standard components but limited premium features |
-| Durability | 55 | 0.4 | Above-average longevity expectations for the price point despite basic build |
-| Performance | 41 | 0.3 | Below-average efficiency and comfort control capabilities |
-| Material Safety | Good | report only | Standard refrigerant and materials with no significant safety concerns |
+| Quality | 45 | 0.3 | Builder-grade construction with PSC fan motor achieving only 40-50% efficiency and light gauge steel cabinet [S1] |
+| Durability | 55 | 0.4 | Strong warranty protection with lifetime compressor coverage and universal parts availability, though 8-10 year expected lifespan limits longevity [S3, S4] |
+| Performance | 41 | 0.3 | Minimal efficiency at 14.3 SEER2 code minimum, single-stage only operation, and does not qualify for ENERGY STAR [S2] |
+| Material Safety | Good | report only | Standard residential HVAC refrigerant and electrical systems with no unusual concerns |
 
 ### Company Background
-Goodman Manufacturing is owned by Daikin Industries, the Japanese HVAC giant that acquired the company in 2012. Founded in 1975 in Houston, Texas, Goodman operates as Daikin's value-oriented brand in North America, manufactured primarily in Tennessee and Texas facilities. The company targets the builder-grade and replacement markets with competitively priced units. Daikin's ownership provides financial stability, though Goodman maintains its positioning as a budget-focused brand rather than premium. The brand shares some manufacturing processes and supply chains with other Daikin subsidiaries but maintains distinct product lines.
+Goodman Manufacturing is owned by Daikin Industries, the world's largest HVAC company, following acquisition in 2012. The company operates from Houston, TX manufacturing facilities and has become the volume leader in new construction markets. As a subsidiary of the Japanese industrial giant Daikin, Goodman benefits from substantial financial backing and global HVAC expertise, though it maintains its positioning as the value-oriented brand within the Daikin portfolio. The brand specifically targets the builder-grade and replacement markets where cost considerations dominate purchasing decisions.
 
 ### Strengths
-- **Value Positioning**: Competitive pricing for basic cooling functionality in the entry-level market segment
+- **Comprehensive Warranty Protection**: Lifetime compressor warranty even on base model with 10-year parts coverage provides exceptional protection for a budget unit [S3]
+- **Universal Service Network**: Widest parts availability through any supply house with service capability from any contractor due to simple, standardized design [S3]
 
 ### Deficiencies
-- **Limited Efficiency**: Single-stage operation provides minimal energy efficiency optimization compared to variable-speed alternatives
+- **Minimal Efficiency Performance**: 14.3 SEER2 rating sits at code minimum and fails to qualify for ENERGY STAR, resulting in higher operating costs [S2]
+- **Component-Level Cost Cutting**: PSC motor delivers only 40-50% efficiency while fixed orifice expansion represents the cheapest available technology [S1, S4]
 
 ### What You Should Know
-The GSX14 represents Goodman's entry-level approach to central air conditioning, prioritizing affordability over advanced features. As a single-stage unit, it operates at full capacity whenever running, which limits both energy efficiency and comfort control compared to variable-speed systems.
+The GSX14 represents the baseline of residential air conditioning — functional cooling with zero premium features. This is the unit installed in $300K-600K tract homes where builders prioritize initial cost over long-term efficiency. You're getting a Copeland scroll compressor (industry standard) wrapped in the most basic possible supporting components.
 
-This unit appeals primarily to budget-conscious buyers or contractors seeking the lowest-cost option for basic cooling needs. The Daikin ownership provides some assurance of parts availability and corporate backing, though service network quality can vary significantly by region.
+The trade-off is straightforward: lowest upfront cost and excellent warranty protection versus higher operating costs and shorter lifespan. With 8-10 year expected service life, you'll likely replace this unit 1-2 times more often than premium alternatives, but the lifetime compressor warranty and universal parts availability provide cost protection during ownership.
 
 ### Platform Disclosure
-Shares basic component sourcing and manufacturing processes with other Daikin North American brands while maintaining Goodman-specific engineering.
+Amana ASX14 = badge-engineered equivalent. Same compressor, coil, cabinet. Different brand/warranty marketing.
 
 ### Corporate Outlook
-Stable — Backed by Daikin's global presence and financial strength in the value market segment.
+Strong — Same Daikin backing as GSXC18. Even base-model Goodman benefits from world's largest HVAC company ownership.
 
 ### Repair Economics
-Most common failures involve compressor issues and control board problems, with typical repair costs ranging $800-1,500, often approaching replacement cost-justification on units over 8-10 years old.
+Most common failures involve the PSC fan motor and control boards. PSC motor replacement typically runs $200-400 in parts plus labor. With lifetime compressor warranty, the most expensive potential repair is covered, making repairs generally cost-justifiable throughout the 8-10 year expected lifespan.
 
 ### Score Justification
-The 47/100 score reflects the GSX14's position as a basic, functional unit that meets minimum cooling requirements but lacks the efficiency, comfort features, and build quality of higher-tier products.
+The 47 score reflects a product that delivers essential function at minimum cost but lacks efficiency, longevity, and refinement. Strong warranty protection prevents a lower durability score despite abbreviated lifespan expectations.

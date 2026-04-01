@@ -9,54 +9,71 @@
   "curation_date": "2026-04-01",
   "corporate_parent": "Carrier Global Corporation — independent publicly traded company (NYSE: CARR). 2020 UTC spinoff. Fortune 500. Headquarters: Palm Beach Gardens, FL.",
   "manufacturing_location": "Condenser units: Collierville, TN. Charlotte, NC facility.",
-
   "quality_evidence": {
     "compressor": {
       "type": "variable_speed_inverter",
       "description": "Copeland variable-speed scroll compressor with Greenspeed Intelligence. True DC inverter modulation from 25% to 100% capacity. Infinite staging for precise load matching.",
       "supplier": "Copeland (Emerson/Copeland) — ZPD series variable-speed scroll. Sidney, OH manufacturing.",
-      "sources": ["copeland.com", "carrier.com", "r/HVAC contractor consensus"]
+      "sources": [
+        "copeland.com",
+        "carrier.com",
+        "r/HVAC contractor consensus"
+      ]
     },
     "condenser_coil": {
       "type": "copper_tube_aluminum_fin",
       "description": "Traditional copper tube/aluminum fin construction on Infinity line. WeatherArmor Ultra corrosion protection coating. Some lower Carrier lines (Performance, Comfort) use microchannel — Infinity retains traditional for durability.",
       "coil_durability_note": "Traditional copper/aluminum coils last 4-5x longer than microchannel per industry data.",
-      "sources": ["carrier.com", "rahnindustries.com"]
+      "sources": [
+        "carrier.com",
+        "rahnindustries.com"
+      ]
     },
     "expansion_device": {
       "type": "eev_electronic",
       "description": "Electronic Expansion Valve for precise refrigerant metering. Required for optimal variable-speed compressor performance.",
-      "sources": ["carrier.com"]
+      "sources": [
+        "carrier.com"
+      ]
     },
     "fan_motor": {
       "type": "variable_speed_bldc",
       "description": "Variable-speed brushless DC condenser fan motor. 75%+ efficiency. Composite fan blade for reduced noise.",
-      "sources": ["carrier.com"]
+      "sources": [
+        "carrier.com"
+      ]
     },
     "cabinet": {
       "construction": "Heavy gauge galvanized steel, WeatherArmor Ultra protection, louvered coil guard",
       "source_traceability": "Carrier Global — Collierville, TN manufacturing identified",
-      "sources": ["carrier.com"]
+      "sources": [
+        "carrier.com"
+      ]
     },
     "communicating_system": {
       "system": "Infinity communicating system",
       "thermostat_requirement": "Requires Infinity thermostat for full communicating operation. Standard 24V thermostat requires adapter kit — loses some variable-speed features.",
       "proprietary_lock_in": "Moderate — communicating system is proprietary but adapter kit available for non-Infinity thermostats.",
-      "sources": ["carrier.com", "r/HVAC"]
+      "sources": [
+        "carrier.com",
+        "r/HVAC"
+      ]
     }
   },
-
   "performance_evidence": {
-    "seer2": 24.0,
+    "seer2": 24,
     "eer2": "Varies by configuration — check AHRI Directory for specific model/coil combination",
-    "hspf2": 10.0,
+    "hspf2": 10,
     "sound_dba": 58,
     "capacity_modulation": "25-100% continuous variable",
     "cold_weather_performance": "Heat pump version operates to -15°F+ with maintained capacity",
     "energy_star": "ENERGY STAR certified. ENERGY STAR Most Efficient eligible.",
-    "sources": ["carrier.com", "ahridirectory.org", "energystar.gov"]
+    "sources": [
+      "carrier.com",
+      "ahridirectory.org",
+      "energystar.gov"
+    ]
   },
-
   "durability_evidence": {
     "warranty": {
       "compressor_years": "10 (registered)",
@@ -64,40 +81,119 @@
       "labor": "Dealer-dependent — not manufacturer-included",
       "claim_process": "Standard — Carrier warranty process is middle-of-road per contractor consensus",
       "transferable": "Yes, with conditions",
-      "sources": ["carrier.com"]
+      "sources": [
+        "carrier.com"
+      ]
     },
     "parts_availability": {
       "distribution": "Carrier Enterprise (captive distribution). Some independent availability. Not as open as Goodman.",
       "parts_pricing_premium": "5-10% above Goodman equivalent parts",
       "lead_time": "Standard — most common parts in stock at Carrier Enterprise locations",
-      "sources": ["r/HVAC"]
+      "sources": [
+        "r/HVAC"
+      ]
     },
     "service_network": {
       "type": "National certified dealer network + independent contractors",
       "proprietary_diagnostics": "Infinity diagnostics — some advanced troubleshooting benefits from Carrier dealer tools",
-      "sources": ["carrier.com"]
+      "sources": [
+        "carrier.com"
+      ]
     },
     "coil_corrosion_protection": "WeatherArmor Ultra coating — factory-applied corrosion protection",
     "control_board_reliability": "Infinity communicating system mature (10+ years in market). Proven reliable per contractor consensus.",
     "refrigerant": "R-410A current production; transitioning to R-454B (A2L) on newer models",
-    "sources": ["carrier.com", "r/HVAC"]
+    "sources": [
+      "carrier.com",
+      "r/HVAC"
+    ]
   },
-
   "platform_sharing": {
     "family": "Carrier/Bryant/Heil/ICP (International Comfort Products)",
     "sibling_product": "Bryant Evolution 180B = same compressor and board as Carrier Infinity. Different thermostat software and badge. Different authorized dealer network.",
     "component_identity": "High — Carrier Infinity and Bryant Evolution share compressor, coil, cabinet platform. Differentiation is primarily in thermostat ecosystem and dealer channel.",
     "scoring_rule": "Report must disclose Carrier/Bryant platform sharing per Rule 19.",
-    "sources": ["r/HVAC contractor consensus", "parts cross-reference databases"]
+    "sources": [
+      "r/HVAC contractor consensus",
+      "parts cross-reference databases"
+    ]
   },
-
   "professional_consensus": {
     "installer_recommendation": "Strong recommend for premium homes. Most forgiving of installation quality alongside Trane — robust build tolerates mediocre ductwork.",
     "reliability_ranking": "Top tier — fewest callbacks among premium variable-speed per contractor consensus",
     "value_proposition": "Top-of-line Carrier, priced below Lennox flagship, competitive with Trane XV20i",
     "installation_sensitivity": "Low — forgiving of mediocre installation",
-    "sources": ["r/HVAC", "jupitairhvac.com", "menatworkacrepair.com"]
+    "sources": [
+      "r/HVAC",
+      "jupitairhvac.com",
+      "menatworkacrepair.com"
+    ]
   },
-
-  "axis_scores": { "quality": 9.5, "durability": 9.3, "performance": 9.6 }
+  "axis_scores": {
+    "quality": 9.5,
+    "durability": 9.3,
+    "performance": 9.6
+  },
+  "outlook": "Strong",
+  "outlook_rationale": "Carrier Global (NYSE: CARR) is Fortune 500, publicly traded since 2020 UTC spinoff. Dominant residential HVAC brand. Strong corporate backing.",
+  "platform_disclosure": "Bryant Evolution 180B shares same compressor and board platform as Carrier Infinity. Different thermostat software, different badge, different dealer network. Report must disclose this per Rule 19.",
+  "bottom_line": "Top-tier variable-speed split system. Copeland inverter compressor, 24 SEER2, WeatherArmor cabinet. Moderate proprietary lock-in via Infinity communicating system. Best balance of performance, durability, and serviceability in the premium tier.",
+  "sources": [
+    {
+      "id": "S1",
+      "pool": "A",
+      "column": "quality",
+      "classification": "score",
+      "source_name": "carrier.com",
+      "snippet": "Copeland variable-speed scroll compressor (ZPD series). Greenspeed Intelligence — 25-100% continuous capacity modulation. True DC inverter."
+    },
+    {
+      "id": "S2",
+      "pool": "A",
+      "column": "quality",
+      "classification": "score",
+      "source_name": "carrier.com",
+      "snippet": "WeatherArmor Ultra protection. Heavy gauge galvanized cabinet with louvered coil guard. Traditional copper/aluminum condenser coil (not microchannel on Infinity)."
+    },
+    {
+      "id": "S3",
+      "pool": "A",
+      "column": "performance",
+      "classification": "score",
+      "source_name": "carrier.com / AHRI Directory",
+      "snippet": "SEER2 up to 24.0. HSPF2 up to 10.0. Sound as low as 56-58 dBA. ENERGY STAR Most Efficient eligible."
+    },
+    {
+      "id": "S4",
+      "pool": "B",
+      "column": "durability",
+      "classification": "score",
+      "source_name": "r/HVAC contractor consensus",
+      "snippet": "10-year compressor warranty (registered). 10-year parts. Carrier Enterprise distribution — some captive pricing. Infinity communicating system requires proprietary thermostat for full features."
+    },
+    {
+      "id": "S5",
+      "pool": "B",
+      "column": "quality",
+      "classification": "score",
+      "source_name": "r/HVAC",
+      "snippet": "Electronic Expansion Valve (EEV). Variable-speed BLDC condenser fan motor. Collierville, TN manufacturing traced."
+    },
+    {
+      "id": "S6",
+      "pool": "B",
+      "column": "durability",
+      "classification": "report_only",
+      "source_name": "r/HVAC",
+      "snippet": "Bryant Evolution 180B = same compressor and board as Carrier Infinity. Different thermostat ecosystem. Carrier Enterprise vs independent dealer distribution."
+    },
+    {
+      "id": "S7",
+      "pool": "A",
+      "column": "quality",
+      "classification": "report_only",
+      "source_name": "copeland.com",
+      "snippet": "Copeland ZPD-series scroll manufactured Sidney, OH. Compressor OEM identified and traceable."
+    }
+  ]
 }

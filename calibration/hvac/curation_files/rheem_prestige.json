@@ -9,69 +9,161 @@
   "curation_date": "2026-04-01",
   "corporate_parent": "Rheem Manufacturing Company — privately held subsidiary of Paloma Industries (Japan). Also operates Ruud brand.",
   "manufacturing_location": "Fort Smith, AR (primary US manufacturing).",
-
   "quality_evidence": {
     "compressor": {
       "type": "two_stage",
       "description": "Copeland two-stage scroll compressor. 67%/100% capacity stages. Proven reliable technology.",
       "supplier": "Copeland (Emerson/Copeland) scroll",
-      "sources": ["rheem.com", "r/HVAC"]
+      "sources": [
+        "rheem.com",
+        "r/HVAC"
+      ]
     },
-    "condenser_coil": { "type": "copper_tube_aluminum_fin", "description": "Traditional construction. No premium coating. Standard durability.", "sources": ["rheem.com"] },
-    "expansion_device": { "type": "txv_thermostatic", "description": "Thermostatic expansion valve — standard for two-stage systems.", "sources": ["rheem.com"] },
-    "fan_motor": { "type": "ecm", "description": "ECM condenser fan motor — 65-75% efficiency, standard premium.", "sources": ["rheem.com"] },
-    "cabinet": { "construction": "Standard galvanized steel", "sources": ["rheem.com"] },
+    "condenser_coil": {
+      "type": "copper_tube_aluminum_fin",
+      "description": "Traditional construction. No premium coating. Standard durability.",
+      "sources": [
+        "rheem.com"
+      ]
+    },
+    "expansion_device": {
+      "type": "txv_thermostatic",
+      "description": "Thermostatic expansion valve — standard for two-stage systems.",
+      "sources": [
+        "rheem.com"
+      ]
+    },
+    "fan_motor": {
+      "type": "ecm",
+      "description": "ECM condenser fan motor — 65-75% efficiency, standard premium.",
+      "sources": [
+        "rheem.com"
+      ]
+    },
+    "cabinet": {
+      "construction": "Standard galvanized steel",
+      "sources": [
+        "rheem.com"
+      ]
+    },
     "communicating_system": {
       "system": "None — non-communicating. Standard 24V thermostat compatible.",
       "thermostat_requirement": "Any thermostat works. No proprietary lock-in.",
       "proprietary_lock_in": "None — most open system in the category.",
-      "sources": ["rheem.com", "r/HVAC"]
+      "sources": [
+        "rheem.com",
+        "r/HVAC"
+      ]
     }
   },
-
   "performance_evidence": {
-    "seer2": 19.0,
-    "hspf2": 9.0,
+    "seer2": 19,
+    "hspf2": 9,
     "sound_dba": 65,
     "capacity_modulation": "67%/100% two-stage",
     "cold_weather_performance": "Heat pump version operates to 0°F",
     "energy_star": "ENERGY STAR certified",
-    "sources": ["rheem.com", "ahridirectory.org"]
+    "sources": [
+      "rheem.com",
+      "ahridirectory.org"
+    ]
   },
-
   "durability_evidence": {
     "warranty": {
       "compressor_years": "10 (registered)",
       "parts_years": "10 (registered)",
       "claim_process": "Contractor-friendly — Rheem rated easiest warranty claims among all brands",
       "transferable": "Yes",
-      "sources": ["rheem.com", "r/HVAC"]
+      "sources": [
+        "rheem.com",
+        "r/HVAC"
+      ]
     },
     "parts_availability": {
       "distribution": "Universal — Rheem + independent supply houses. Any contractor can get parts.",
-      "sources": ["r/HVAC"]
+      "sources": [
+        "r/HVAC"
+      ]
     },
     "service_network": {
       "type": "National wide independent — any HVAC contractor can service. Zero brand lock-in.",
-      "sources": ["rheem.com", "r/HVAC"]
+      "sources": [
+        "rheem.com",
+        "r/HVAC"
+      ]
     },
     "refrigerant": "R-410A current",
-    "sources": ["rheem.com"]
+    "sources": [
+      "rheem.com"
+    ]
   },
-
   "platform_sharing": {
     "family": "Rheem/Ruud are same unit, different distribution channel. Ruud = wholesale/supply-house distribution. Identical components.",
     "scoring_rule": "Score Rheem. Note Ruud identical in report.",
-    "sources": ["r/HVAC"]
+    "sources": [
+      "r/HVAC"
+    ]
   },
-
   "professional_consensus": {
     "installer_recommendation": "The 'Toyota Camry' of HVAC — reliable, not exciting. Consistently recommended for quality homes on a budget.",
     "rheem_vs_goodman": "Contractors prefer Rheem over Goodman for superior build quality, despite Goodman's better warranty. Rheem = 'boring reliable.'",
     "prestige_vs_classic": "Prestige line meaningfully outperforms Rheem Classic — different components, diagnostics, not just badge engineering.",
     "floor_for_quality_home": "Represents the professional floor for 'acceptable in a quality home' — 16+ SEER2, two-stage minimum.",
-    "sources": ["r/HVAC", "jupitairhvac.com", "modernize.com"]
+    "sources": [
+      "r/HVAC",
+      "jupitairhvac.com",
+      "modernize.com"
+    ]
   },
-
-  "axis_scores": { "quality": 6.6, "durability": 6.8, "performance": 6.7 }
+  "axis_scores": {
+    "quality": 6.6,
+    "durability": 6.8,
+    "performance": 6.7
+  },
+  "outlook": "Stable",
+  "outlook_rationale": "Rheem Manufacturing is privately held subsidiary of Paloma Industries (Japan). Stable, mature brand. Not publicly traded. Low corporate risk.",
+  "platform_disclosure": "Rheem/Ruud are same unit, different distribution channel. Ruud = wholesale/supply-house. Identical components. Report must note.",
+  "bottom_line": "The Toyota Camry of HVAC — not exciting but reliable. Best-in-class warranty claim process. Open parts ecosystem (any supply house). Any contractor can service. Represents the floor for a quality home. Two-stage Copeland — proven technology. 19 SEER2 is adequate but not impressive.",
+  "sources": [
+    {
+      "id": "S1",
+      "pool": "A",
+      "column": "quality",
+      "classification": "score",
+      "source_name": "rheem.com",
+      "snippet": "Copeland two-stage scroll compressor. 67%/100% capacity. TXV expansion. ECM condenser fan motor. Standard galvanized cabinet."
+    },
+    {
+      "id": "S2",
+      "pool": "A",
+      "column": "performance",
+      "classification": "score",
+      "source_name": "rheem.com",
+      "snippet": "SEER2 19.0. HSPF2 9.0. Sound 65 dBA. ENERGY STAR certified. Two-stage provides better dehumidification than single-stage."
+    },
+    {
+      "id": "S3",
+      "pool": "B",
+      "column": "durability",
+      "classification": "score",
+      "source_name": "r/HVAC",
+      "snippet": "Warranty claim process rated easiest/most contractor-friendly among all brands. 10yr compressor + 10yr parts (registered). Universal parts availability. Any contractor can service."
+    },
+    {
+      "id": "S4",
+      "pool": "B",
+      "column": "quality",
+      "classification": "score",
+      "source_name": "r/HVAC",
+      "snippet": "Non-communicating — standard 24V thermostat. No proprietary lock-in. Prestige line meaningfully outperforms Rheem Classic (different components, not just badge engineering)."
+    },
+    {
+      "id": "S5",
+      "pool": "B",
+      "column": "durability",
+      "classification": "report_only",
+      "source_name": "r/HVAC",
+      "snippet": "Ruud = identical unit, wholesale distribution. Fort Smith, AR manufacturing. Paloma Industries (Japan) parent."
+    }
+  ]
 }
