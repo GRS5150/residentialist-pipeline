@@ -1,0 +1,328 @@
+{
+  "category": "wall_ovens",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "appliances",
+  "notes": "Built-in wall ovens only. No freestanding ranges, no countertop ovens. Each appliance subcategory is its own category build with independent spec fields, anchors, and source pools.",
+
+  "axis_weights": {
+    "quality": 0.30,
+    "durability": 0.35,
+    "performance": 0.35
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Miele H7000 Series", "slug": "miele_h7000", "target_range": [94, 96] },
+        { "name": "Wolf M Series", "slug": "wolf_m_series", "target_range": [90, 92] }
+      ],
+      "notes": "Miele: European dual-circulation convection, stainless cavity survives pyrolytic, 20-year parts, M Touch controls, lowest service callback rates. Wolf: dual VertiCross convection, Sub-Zero ecosystem, 2yr full warranty, professional standard. Both have strong professional consensus as top tier."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Thermador Masterpiece", "slug": "thermador_masterpiece", "target_range": [80, 84] },
+        { "name": "JennAir Rise", "slug": "jennair_rise", "target_range": [75, 78] }
+      ],
+      "notes": "Thermador: BSH platform, true European convection, professional features at lower price than Miele/Wolf. Thermador Masterpiece and Professional confirmed to share same cavity, hinges, and self-clean system internally. JennAir: Whirlpool luxury line, V2 dual-fan convection, WiFi probe integration, competent but Whirlpool platform."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "GE Café", "slug": "ge_cafe", "target_range": [63, 68] }
+      ],
+      "notes": "GE mid-luxury line. Yale first-year service rate 8.8% (surprisingly good). Café/Monogram/Profile share Selmer TN factory platform — report must disclose. True European convection on premium models. Parts availability through GE's owned national service network."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Samsung Flex Duo", "slug": "samsung_flex_duo", "target_range": [44, 49] }
+      ],
+      "notes": "Volume brand floor for built-in wall ovens. Service ecosystem concerns carry over from dishwashers/refrigerators. LG alternative candidate (Yale 10.5% service rate). Need deep dive to confirm failure patterns — control board and self-clean damage are documented patterns in owner forums."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with active safety recalls, no US service infrastructure, or documented structural defects."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "cavity_material",
+        "type": "categorical",
+        "adjustments": {
+          "true_porcelain_enamel": 1,
+          "stainless_steel": 1,
+          "painted_enamel": 0,
+          "painted_steel": -1
+        },
+        "notes": "True porcelain enamel (fired) and stainless steel both survive repeated pyrolytic self-clean without degradation. Painted enamel can discolor/crack. Painted steel flakes after repeated high-heat cycles. Premium brands use true porcelain or stainless; builder-grade often uses painted."
+      },
+      {
+        "field": "convection_system",
+        "type": "categorical",
+        "adjustments": {
+          "dual_fan_true_european": 2,
+          "true_european_single_fan": 1,
+          "fan_assisted": 0,
+          "standard_thermal": -1
+        },
+        "notes": "True European convection has a dedicated heating element surrounding the convection fan (separate from bake/broil elements). Fan-assisted just circulates air from standard elements. Dual-fan systems (Wolf VertiCross, Miele TwinPower, JennAir V2) provide measurably better uniformity. Standard thermal = no fan."
+      },
+      {
+        "field": "heating_element_design",
+        "type": "categorical",
+        "adjustments": {
+          "hidden_dual_element": 1,
+          "hidden_single_element": 0,
+          "exposed_element": 0
+        },
+        "notes": "Hidden bake element (sealed under cavity floor) = easier cleaning, more even heat distribution. Dual hidden elements provide redundancy and faster preheat. Most premium brands use hidden; some budget models still expose elements."
+      },
+      {
+        "field": "rack_system",
+        "type": "categorical",
+        "adjustments": {
+          "full_extension_ball_bearing": 1,
+          "partial_extension_ball_bearing": 0,
+          "wire_guides": -1
+        },
+        "notes": "Full-extension telescoping ball-bearing racks allow complete access without tipping. Wire guides require careful handling and oven mitts deep into cavity. Heavy-gauge racks that don't warp separate premium from budget."
+      },
+      {
+        "field": "door_engineering",
+        "type": "categorical",
+        "adjustments": {
+          "soft_close_quad_pane": 1,
+          "soft_close_triple_pane": 1,
+          "spring_loaded_triple_pane": 0,
+          "spring_loaded_double_pane": -1
+        },
+        "notes": "Soft-close hydraulic hinges vs spring-loaded. Glass pane count affects insulation and exterior temperature. Quad-pane (Wolf, Miele premium) stays coolest. Double-pane budget models can exceed safe touch temperature during self-clean."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "Same as all categories. Miele (+1, vertically integrated). Wolf (+1, Fitchburg WI). BSH (0, multi-factory identified). Samsung (0, multi-source). Unknown = -1."
+      }
+    ],
+    "performance": [
+      {
+        "field": "temperature_uniformity_delta_f",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=5": 1,
+          "6-12": 0,
+          ">=13": -1
+        },
+        "notes": "Temperature delta across cavity (rack-to-rack, side-to-side). Premium ovens maintain ±5°F. Builder-grade can swing ±20-25°F. Measured by CR, Reviewed.com, CNET with multi-point thermocouples. This is the primary performance differentiator."
+      },
+      {
+        "field": "preheat_time_350f_min",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=8": 1,
+          "9-14": 0,
+          ">=15": -1
+        },
+        "notes": "Time to reach 350°F from cold. Premium dual-element ovens typically 7-8 min. Budget single-element ovens 15-20 min. Meaningful for daily use."
+      },
+      {
+        "field": "convection_baking_evenness",
+        "type": "categorical",
+        "adjustments": {
+          "excellent": 1,
+          "good": 0,
+          "fair": -1,
+          "poor": -2
+        },
+        "notes": "Baking evenness score from independent testing (CR cookie test, GHI baking test). Maps to convection system design — dual-fan true European typically excellent, fan-assisted typically good, standard thermal fair to poor."
+      },
+      {
+        "field": "self_clean_effectiveness",
+        "type": "categorical",
+        "adjustments": {
+          "pyrolytic_high_temp": 1,
+          "pyrolytic_standard": 0,
+          "steam_clean_only": -1
+        },
+        "notes": "Pyrolytic self-clean at ~900°F incinerates residue completely. Some premium brands hit 950°F for faster clean. Steam-only cleans light soil but doesn't handle baked-on residue. Self-clean effectiveness is a real performance differentiator — but must balance against durability impact of repeated high-heat cycles."
+      },
+      {
+        "field": "noise_dba",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=40": 1,
+          "41-50": 0,
+          ">=51": -1
+        },
+        "notes": "Convection fan noise during operation. Premium ovens (Miele, Wolf) are notably quieter. Some budget convection fans are loud enough to be intrusive in open-floor kitchens."
+      },
+      {
+        "field": "steam_capability",
+        "type": "categorical",
+        "adjustments": {
+          "true_steam_injection": 1,
+          "humidity_assist": 0,
+          "none": 0
+        },
+        "notes": "True steam injection (Miele, Gaggenau) uses boiler/reservoir for precise steam. Humidity assist adds moisture but not controlled. No penalty for none — most wall ovens don't have steam and it's a differentiator, not a floor requirement."
+      }
+    ],
+    "durability": [
+      {
+        "field": "yale_service_rate_pct",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=8.0": 1,
+          "8.1-10.0": 0,
+          "10.1-15.0": -1,
+          ">=15.1": -2
+        },
+        "notes": "Yale Appliance first-year service rates for wall ovens. Yale 2026 data: Café 8.8%, Monogram 9.3%, Miele 9.6%, Bosch 9.7%, LG 10.5%. Note: tighter spread than dishwashers/refrigerators. Whirlpool/Samsung absent (Yale premium-focused)."
+      },
+      {
+        "field": "warranty_years_full",
+        "type": "threshold",
+        "adjustments": {
+          ">=3": 2,
+          "2": 1,
+          "1": 0,
+          "<1": -1
+        },
+        "notes": "Full parts + labor warranty. Wolf: 2yr full. Miele: 2yr standard. Most others: 1yr. Warranty exclusion consistency rule (Rule 18) applies."
+      },
+      {
+        "field": "service_network_coverage",
+        "type": "categorical",
+        "adjustments": {
+          "national_owned": 1,
+          "national_independent_widely_stocked": 1,
+          "regional_or_limited": 0,
+          "proprietary_limited_service": -2
+        },
+        "notes": "GE: owned national service network. BSH/Whirlpool: parts universally stocked. Wolf/Sub-Zero: factory-certified network (smaller but competent). Samsung: contracted network, thin real coverage."
+      },
+      {
+        "field": "parts_availability",
+        "type": "categorical",
+        "adjustments": {
+          "universal": 1,
+          "widely_stocked": 0,
+          "proprietary_available": 0,
+          "proprietary_limited": -2
+        },
+        "notes": "Heating elements and control boards are the most common wall oven repairs. GE/Whirlpool: universal parts ecosystem. BSH: widely stocked. Wolf: proprietary but available (Sub-Zero parts commitment). Samsung: proprietary, availability varies."
+      },
+      {
+        "field": "control_board_reliability",
+        "type": "categorical",
+        "adjustments": {
+          "proven_reliable": 1,
+          "standard": 0,
+          "documented_issues": -1,
+          "pattern_failures": -2
+        },
+        "notes": "Control board/ERC failure is the #1 non-element wall oven repair. Miele M Touch has strong reliability reputation. BSH boards have documented relay issues (same pattern as dishwashers). Samsung has documented control board pattern failures across multiple appliance categories."
+      },
+      {
+        "field": "self_clean_durability",
+        "type": "categorical",
+        "adjustments": {
+          "no_degradation_documented": 1,
+          "minor_cosmetic_wear": 0,
+          "documented_damage_patterns": -1
+        },
+        "notes": "Repeated pyrolytic self-clean cycles at ~900°F stress cavity enamel, door gaskets, lock mechanisms, and hidden elements. Premium cavities (true porcelain, stainless) withstand this. Some budget painted enamel cavities discolor, crack, or flake after repeated self-clean cycles. Door lock mechanism failure after self-clean is a documented pattern on several brands."
+      }
+    ],
+    "material_safety_report_only": [
+      "ul_858_compliant",
+      "safety_recall_history",
+      "door_glass_shatter_reports",
+      "self_clean_fume_off_gassing"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Health certs report-only, no composite impact (UL 858 compliance)",
+    "BSH Platform Rule: Bosch 800, Thermador, and Gaggenau share the same wall oven platform. Thermador Masterpiece and Professional share identical cavity, hinges, and self-clean systems — differentiation is in controls and features. Report must disclose shared platform.",
+    "Wall Oven / Range Cross-Category Platform Rule: If a brand's wall oven uses the same cavity, convection system, control board, and heating elements as its range oven, this is a mandatory platform disclosure in BOTH the wall oven report AND the future range report. Deep dive findings from one category cross-validate the other.",
+    "GE Platform Rule: Monogram, Café, GE Profile, and GE standard share the Selmer, TN factory. Report must disclose which components are shared vs differentiated.",
+    "Whirlpool Platform Rule: JennAir and KitchenAid share the Whirlpool wall oven platform. Report must disclose.",
+    "Samsung/Dacor Platform Rule: Dacor wall ovens are expected Samsung-sourced (same pattern as refrigerators). Deep dive must confirm and report must disclose.",
+    "Wolf/Sub-Zero: Likely more in-house manufacturing than other brands. Deep dive should confirm. Report must disclose manufacturing location.",
+    "Yale service rate is Pool S but directional: single-region (Boston area), premium skew. Service rate spread for wall ovens is tighter (8.8-10.5%) than dishwashers (5.6-23%) — disclose in every report.",
+    "Self-clean creates a Performance vs Durability tension: high-temp pyrolytic is best for cleaning (Performance +1) but stresses components (Durability impact). Score both independently.",
+    "Score base configuration per Rule 17. Steam-enabled and non-steam variants of the same model are different products.",
+    "Corporate structure = report finding",
+    "Score the product, not the brand (Rule 19). Single vs double wall oven = different products if internal components differ."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "Yale Appliance (Steve Sheinkopf) — first-year service rates for wall ovens, brand-level reliability data. Geographic limitation: Boston/Cape Cod/Southern NH, premium-segment skew."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (baking evenness, broiling, convection testing, owner satisfaction surveys, reliability data)",
+        "Reviewed.com (controlled lab testing, baking performance metrics)",
+        "CNET (appliance testing lab)",
+        "Good Housekeeping Institute (baking test methodology, Seal of Approval)",
+        "J.D. Power US Appliance Reliability Study"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/appliancerepair (repair technician community, consistent consensus on brand reliability)",
+        "Prudent Reviews (Yale data synthesis and independent analysis)",
+        "RepairClinic / ApplianceVideo (repair-focused YouTube, component-level diagnostics)",
+        "Don's Appliances (professional wall oven comparisons)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/Appliances (owner community)",
+        "Houzz owner threads",
+        "Individual owner reviews and forum posts"
+      ]
+    }
+  },
+
+  "operation_type": null,
+  "operation_type_adjustments": null,
+
+  "data_sources": {
+    "yale_reliability_data": "https://blog.yaleappliance.com/most-reliable-wall-ovens",
+    "energy_star_database": "https://www.energystar.gov/productfinder/",
+    "notes": "Yale wall oven service rate data available for Café, Monogram, Miele, Bosch, LG. Tighter spread than dishwashers — wall ovens are mechanically simpler."
+  }
+}
