@@ -4,33 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 8 | 0.35 | Strong brand preference among professionals but trails TOTO in glazing technology and construction quality [A2, B2] |
-| Durability | 8.2 | 0.35 | AquaPiston canister flush eliminates flapper degradation while maintaining universal parts availability [A1, B1] |
-| Performance | 7.9 | 0.3 | MaP 1000g certification delivers top-tier flushing performance with genuine bowl cleaning improvements [S1, B2] |
-| Material Safety | Excellent | report only | Standard vitreous china construction with no material safety concerns |
+| Quality | 7.5 | 0.35 | Strong brand with #2 professional preference, but CleanCoat glazing trails premium competitors [A2, B2] |
+| Durability | 8.8 | 0.35 | AquaPiston canister eliminates flapper degradation and offers universal parts availability [A1, B1] |
+| Performance | 8.2 | 0.3 | MaP 1000g certification with AquaPiston delivering top-tier flush performance [S1] |
+| Material Safety | Excellent | report only | Standard vitreous china construction with no material concerns |
 
 ### Company Background
-Kohler is a private family-owned company founded in 1873, operating for over 150 years under continuous family control. The company maintains diversified revenue streams beyond plumbing fixtures and has built strong brand equity with an extensive dealer network. As a well-established family enterprise with no ownership changes or financial distress signals, Kohler represents stable corporate backing. The company operates as a premium brand in the plumbing fixture market with manufacturing primarily in the United States, competing directly with TOTO and American Standard in the high-end residential segment.
+Kohler is a private family-owned company founded 150+ years ago, representing one of the most established names in American plumbing fixtures. The company maintains diversified revenue streams beyond plumbing and has built strong brand equity with an extensive dealer network. As a privately-held family business, Kohler avoids the quarterly pressure of public companies and shows no going-concern financial risk. Manufacturing is primarily US-based with some global sourcing for components. This is a genuine premium brand, not a repositioned value offering.
 
 ### Strengths
-- **Repair Infrastructure**: AquaPiston canister flush eliminates flapper degradation (the most common toilet repair) while using universal Fluidmaster fill valves and widely available repair kits [A1, B1]
+- **Repairability Excellence**: AquaPiston canister flush eliminates flapper degradation (the most common toilet repair) and uses universal Fluidmaster fill valves with widely available repair kits [A1, B1]
+- **Flush Performance**: MaP 1000g certification with PREMIUM designation confirms top-tier waste removal capability [S1]
 
 ### Deficiencies
-- **Glazing Technology**: CleanCoat glazing performs below TOTO's CeFiONtect technology in long-term performance, impacting bowl cleanliness over time [B2]
+- **Glazing Technology**: CleanCoat surface treatment is effective but trails CeFiONtect technology in long-term performance and stain resistance [B2]
+- **Professional Preference Gap**: Ranks #2 behind TOTO in plumber reliability preferences, indicating room for improvement in long-term durability reputation [C1, A2]
 
 ### What You Should Know
-The Kohler Highline Arc represents the best choice for buyers who prioritize long-term repairability and parts availability. The AquaPiston canister flush system eliminates the flapper mechanism that causes most toilet failures, while the universal fill valve ensures you can find replacement parts at any hardware store. With MaP 1000g certification, this toilet delivers excellent flushing performance that rivals premium competitors.
+The Kohler Highline Arc represents the sweet spot for homeowners who want premium performance without paying ultra-premium prices. The AquaPiston canister flush technology is the real story here — it eliminates the rubber flapper that causes most toilet repairs while delivering excellent 1000-gram MaP performance. You're buying into a repair ecosystem that's both reliable and economical.
 
-However, you're trading some construction refinement for this repair advantage. The two-piece design and CleanCoat glazing don't match TOTO's one-piece skirted models with CeFiONtect surfaces. Professional plumbers consistently rank Kohler second to TOTO for reliability, describing it as "reliable with occasional issues." The Revolution 360 swirl rinse does provide genuine cleaning improvements over standard rim wash systems.
+The Revolution 360 swirl rinse genuinely improves bowl cleaning over standard rim wash systems, and Kohler's design variety means you can find aesthetic options that work with your bathroom. While the CleanCoat glazing isn't quite at TOTO's CeFiONtect level for long-term stain resistance, it's still effective for most households.
 
 ### Platform Disclosure
 Kohler AquaPiston canister flush technology is shared across Kohler's toilet lineup (Highline, Cimarron, San Souci, Memoirs). The Revolution 360 swirl rinse is a shared technology add-on. Kohler's Veil and Numi smart toilets use different integrated platforms. Sterling (Kohler's value brand) shares some components.
 
 ### Corporate Outlook
-Strong — Private family-owned for 150+ years with diversified revenue streams, no going-concern risk, strong brand equity and established dealer network.
+Strong — Private family-owned for 150+ years. Diversified revenue streams. No going-concern risk. Strong brand equity and dealer network.
 
 ### Repair Economics
-Most common failure eliminated through canister flush design. Universal Fluidmaster fill valve costs $15-25, flapper-less design eliminates $50-75 seal replacement cycles, professional service calls run $150-200 but parts availability enables DIY repairs.
+Most common failure: seal wear (flapper degradation eliminated by design). AquaPiston seal replacement: $15-25. Professional repair: $75-125. The universal Fluidmaster fill valve and widely available parts make this among the most repair-friendly toilets available.
 
 ### Score Justification
-The 80/100 score reflects a well-engineered toilet that prioritizes long-term ownership value through superior repairability while delivering strong performance. Durability leads scoring due to the AquaPiston advantage, with quality and performance trailing slightly due to glazing technology and two-piece construction compromises.
+The 80/100 score reflects excellent durability and performance capabilities balanced against glazing technology that trails the absolute premium tier. Strong repairability and parts availability justify the Tier 2 positioning.
