@@ -1,0 +1,65 @@
+{
+  "product": "Mercier Design+ White Oak (Engineered, 5/8\")",
+  "slug": "mercier_design_plus",
+  "sub_type": "engineered",
+  "category": "hardwood_flooring",
+  "locked_score": 82,
+  "tier": 2,
+  "label": "Excellent",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Mercier Wood Flooring — independent, privately held. Montmagny, Québec, Canada. 70+ years manufacturing.",
+  "manufacturing_location": "Montmagny, Québec, Canada",
+
+  "quality_evidence": {
+    "veneer_specification": {
+      "thickness_mm": 3.0,
+      "cut_method": "sawn",
+      "species": "White Oak (Quercus alba)",
+      "janka_hardness": 1360,
+      "refinishing_cycles": "1-2 full sandings",
+      "sources": ["mercierfloors.com"]
+    },
+    "core_construction": {
+      "type": "multi_ply_hardwood",
+      "total_thickness": "5/8\" (15mm) total",
+      "description": "Multi-ply hardwood core with cross-grain construction. Premium quality but not Baltic birch — slightly less premium substrate than Mirage.",
+      "sources": ["mercierfloors.com"]
+    },
+    "finish_system": {
+      "type": "uv_cured_aluminum_oxide_premium",
+      "technology_name": "Generations",
+      "description": "Generations finish — UV-cured aluminum oxide with Greenguard Gold certification. Strong scratch and wear resistance.",
+      "sources": ["mercierfloors.com"]
+    },
+    "milling_precision": {
+      "type": "precision_tight_tolerance",
+      "description": "Strong milling precision — slightly below Mirage per installer consensus but well above mid-tier brands.",
+      "sources": ["installer consensus"]
+    }
+  },
+
+  "performance_evidence": {
+    "dimensional_stability": "Excellent — multi-ply cross-grain construction.",
+    "refinishing_potential": "1-2 proper sandings with 3mm sawn veneer.",
+    "installation_versatility": "All methods — glue, nail/staple, float.",
+    "radiant_heat": "Certified compatible with conditions.",
+    "sources": ["mercierfloors.com"]
+  },
+
+  "durability_evidence": {
+    "finish_warranty": { "years": 35, "sources": ["mercierfloors.com"] },
+    "structural_warranty": { "years": "Lifetime", "sources": ["mercierfloors.com"] },
+    "delamination_risk": { "status": "no_documented_patterns" },
+    "formaldehyde": { "status": "CARB Phase 2 certified, Greenguard Gold" },
+    "warranty_claim_process": "Dealer-supported"
+  },
+
+  "safety_evidence": {
+    "formaldehyde": "Greenguard Gold certified",
+    "fsc_certification": "FSC-certified options available"
+  },
+
+  "platform_disclosure": { "cross_brand": "None — independent manufacturer." },
+  "corrections": [],
+  "source_pool_classification": { "S": [], "A": ["mercierfloors.com"], "B": ["installer consensus"], "C": [] }
+}

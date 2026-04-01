@@ -1,0 +1,65 @@
+{
+  "product": "Somerset Character White Oak (Solid, 3/4\")",
+  "slug": "somerset_character",
+  "sub_type": "solid",
+  "category": "hardwood_flooring",
+  "locked_score": 67,
+  "tier": 3,
+  "label": "Good",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Somerset Hardwood Flooring — independent, privately held. Somerset, KY.",
+  "manufacturing_location": "Somerset, Kentucky, USA — single-source US manufacturing",
+
+  "quality_evidence": {
+    "species_grade": {
+      "type": "number_1_common_character",
+      "description": "Character grade = NWFA #1 Common equivalent. Moderate natural marks — knots, mineral streaks, color variation. Not a defect — it's the desired aesthetic for many buyers.",
+      "janka_hardness": 1360,
+      "sources": ["somersetfloors.com", "nwfa.org"]
+    },
+    "board_dimensions": {
+      "thickness": "3/4\" (19mm) solid",
+      "widths": "3-1/4\" to 5\" plank",
+      "sources": ["somersetfloors.com"]
+    },
+    "finish_system": {
+      "type": "uv_cured_aluminum_oxide_standard",
+      "technology_name": "AlumaPLUS",
+      "description": "AlumaPLUS aluminum oxide finish — standard UV-cured aluminum oxide. Adequate scratch and wear resistance for residential use.",
+      "sources": ["somersetfloors.com"]
+    },
+    "milling_precision": {
+      "type": "standard",
+      "description": "Standard milling — adequate for mid-tier. Not precision-grade like Carlisle or Mirage, but consistent enough for professional installation without excessive filler.",
+      "sources": ["installer consensus"]
+    },
+    "nwfa_certification": {
+      "status": "NWFA/NOFMA certified",
+      "description": "Independent inspection of manufacturing standards — grade, configuration, moisture content, average board length. Quality signal.",
+      "sources": ["nwfa.org", "somersetfloors.com"]
+    }
+  },
+
+  "performance_evidence": {
+    "refinishing_potential": "Unlimited — 3/4\" solid white oak. Same refinishing advantage as Carlisle but at mid-tier pricing.",
+    "dimensional_stability": "Good — standard kiln-dried solid. Width 3-1/4\" to 5\" is moderate risk for movement.",
+    "moisture_resistance": "Standard solid — susceptible to cupping/crowning. Not for basements or radiant heat.",
+    "sources": ["somersetfloors.com"]
+  },
+
+  "durability_evidence": {
+    "finish_warranty": { "years": 25, "sources": ["somersetfloors.com"] },
+    "structural_warranty": { "years": 25, "sources": ["somersetfloors.com"] },
+    "nwfa_certified": true,
+    "formaldehyde": { "status": "CARB Phase 2 compliant — solid hardwood inherently low VOC" },
+    "warranty_claim_process": "Standard manufacturer process"
+  },
+
+  "safety_evidence": {
+    "formaldehyde": "Solid hardwood — inherently very low formaldehyde emissions."
+  },
+
+  "platform_disclosure": { "cross_brand": "None — independent manufacturer." },
+  "corrections": [],
+  "source_pool_classification": { "S": [], "A": ["somersetfloors.com", "nwfa.org"], "B": ["installer consensus"], "C": [] }
+}

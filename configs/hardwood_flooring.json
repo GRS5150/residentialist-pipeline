@@ -1,0 +1,330 @@
+{
+  "category": "hardwood_flooring",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "flooring",
+  "notes": "Solid and engineered hardwood flooring scored within one framework. Sub-type (solid vs engineered) is a key differentiator but does NOT create an automatic tier advantage — a great engineered floor with 4mm+ sawn veneer and a great 3/4\" solid floor can both be Tier 1. For engineered: veneer thickness is THE critical spec (equivalent of compressor type for HVAC). For solid: thickness + species grade define the product. Factory-finished products only (pre-finished). Site-finished/unfinished is a different workflow, not a different product tier.",
+
+  "axis_weights": {
+    "quality": 0.35,
+    "durability": 0.35,
+    "performance": 0.30
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Carlisle Wide Plank White Oak (Solid, 3/4\")", "slug": "carlisle_solid_white_oak", "sub_type": "solid", "target_range": [93, 96] },
+        { "name": "Mirage Sweet Memories White Oak (Engineered, 5/8\" — 3.5mm sawn veneer)", "slug": "mirage_sweet_memories", "sub_type": "engineered", "target_range": [90, 93] }
+      ],
+      "notes": "Carlisle: Custom wide plank heritage manufacturer — Stoddard, NH. Single-source US manufacturing since 1966. NWFA/NOFMA certified. 3/4\" solid white oak, precision kiln-dried, hand-selected Select & Better grade. The solid wood benchmark for luxury residential. Mirage: Québec-based precision manufacturer, widely regarded as the engineering benchmark for factory-finished hardwood. 3.5mm sawn face veneer on multi-ply Baltic birch core. DuraMatt/NanoLinx finish technologies. Both represent 'if you put this floor in a $3M home, nobody questions it.'"
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Mercier Design+ White Oak (Engineered, 5/8\" — 3mm sawn veneer)", "slug": "mercier_design_plus", "sub_type": "engineered", "target_range": [80, 84] },
+        { "name": "Lauzon Designer White Oak (Engineered, 5/8\" — 3mm sawn veneer)", "slug": "lauzon_designer", "sub_type": "engineered", "target_range": [78, 82] }
+      ],
+      "notes": "Mercier and Lauzon: Both Québec-based premium manufacturers. Mercier: 70+ years, Generations finish with Greenguard Gold. Lauzon: Pure Genius/Titanium finish with air-purifying technology. Both use 3mm+ sawn veneers on quality multi-ply cores. Professional installer consensus places both just below Mirage on milling precision and finish durability, but strongly Tier 2. Both NWFA members with strong warranties."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Somerset Character White Oak (Solid, 3/4\")", "slug": "somerset_character", "sub_type": "solid", "target_range": [65, 70] },
+        { "name": "Shaw Repel Hardwood White Oak (Engineered, 1/2\" — 2mm sawn veneer)", "slug": "shaw_repel", "sub_type": "engineered", "target_range": [62, 66] }
+      ],
+      "notes": "Somerset: Somerset, KY US manufacturer — strong mid-tier with NWFA/NOFMA certification. Consistent milling, AlumaPLUS aluminum oxide finish. Good value for solid hardwood. Shaw Repel: Major US manufacturer. Repel water-resistant technology on engineered platform. 2mm sawn veneer limits refinishing to 1-2 light sandings. ScufResist Platinum finish. Shaw's distribution and warranty infrastructure are strengths. Both represent 'good enough for a quality home' floor."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Bruce Dundee White Oak (Solid, 3/4\")", "slug": "bruce_dundee", "sub_type": "solid", "target_range": [50, 55] },
+        { "name": "Bruce Hydropel White Oak (Engineered, 3/8\" — 1.2mm rotary veneer)", "slug": "bruce_hydropel", "sub_type": "engineered", "target_range": [44, 48] }
+      ],
+      "notes": "Bruce (AHF Products): Legacy brand, widest distribution. Dundee solid is the volume leader for new construction — functional 3/4\" solid with standard aluminum oxide finish, commodity milling tolerance. Hydropel engineered uses thin 1.2mm rotary-peeled veneer — not refinishable, replace-when-worn product. Both represent the builder-grade floor that every buyer should understand. Rotary-peeled veneer vs sawn veneer is a genuine quality cliff."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with formaldehyde compliance failures, active safety recalls, documented delamination patterns, or no US service/warranty infrastructure. Chinese imports with failed CARB Phase 2 testing potentially here."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "sub_type",
+        "type": "categorical",
+        "adjustments": { "solid_3_4": 0, "solid_5_16": -1, "engineered_thick_veneer": 0, "engineered_thin_veneer": -1 },
+        "notes": "Sub-type is a differentiator, not a quality hierarchy. 3/4\" solid and thick-veneer engineered (≥3mm sawn) are both premium. 5/16\" solid and thin-veneer engineered (<2mm) are budget positioning. Same approach as gas/induction in ranges."
+      },
+      {
+        "field": "veneer_thickness_mm",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=4.0": 2, "3.0-3.9": 1, "2.0-2.9": 0, "<2.0": -2 },
+        "notes": "THE critical spec for engineered hardwood — equivalent of compressor type for HVAC. ≥4mm = multiple refinishing cycles possible, effectively solid wood longevity. 3-4mm = 1-2 quality sandings. 2-3mm = 1 light screen/recoat. <2mm = not refinishable, replace when worn. This single spec separates premium engineered from commodity."
+      },
+      {
+        "field": "veneer_cut_method",
+        "type": "categorical",
+        "adjustments": { "sawn": 1, "sliced": 0, "rotary_peeled": -1 },
+        "notes": "Sawn veneers look like authentic solid hardwood with natural grain patterns. Rotary-peeled veneers have a repetitive, manufactured grain pattern and are structurally weaker. Sliced is middle ground. At ≥3mm thickness, sawn is standard for premium. At <2mm, rotary is common for budget."
+      },
+      {
+        "field": "core_construction",
+        "type": "categorical",
+        "adjustments": {
+          "multi_ply_baltic_birch": 2,
+          "multi_ply_hardwood": 1,
+          "plywood_standard": 0,
+          "hdf_core": 0,
+          "softwood_core": -1
+        },
+        "notes": "Engineered only. Baltic birch plywood core is the gold standard — no voids, excellent adhesion, superior dimensional stability. Multi-ply hardwood (poplar, eucalyptus) is strong alternative. HDF is uniform for click-lock but moisture-vulnerable. Softwood core is budget."
+      },
+      {
+        "field": "solid_thickness_inches",
+        "type": "categorical",
+        "adjustments": { "three_quarter": 1, "five_sixteenths": 0 },
+        "notes": "Solid only. 3/4\" (19mm) is the standard residential solid hardwood — provides multiple lifetime refinishing cycles. 5/16\" solid is a thin product positioned to replace engineered at lower cost, limited refinishing."
+      },
+      {
+        "field": "species_janka_hardness",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=1800": 1, "1300-1799": 0, "1000-1299": 0, "<1000": -1 },
+        "notes": "Janka hardness measures dent resistance. Hickory 1820, White Oak 1360, Red Oak 1290, American Cherry 950, Walnut 1010. Species above 1800 get durability bonus. Below 1000 is soft and dent-prone. This is NOT a quality score — it's a species characteristic that affects real-world durability."
+      },
+      {
+        "field": "species_grade",
+        "type": "categorical",
+        "adjustments": {
+          "clear_select_and_better": 1,
+          "select_natural": 0,
+          "number_1_common_character": 0,
+          "number_2_common_rustic": -1
+        },
+        "notes": "NWFA/NOFMA appearance grades. Clear/Select & Better = fewest knots, mineral streaks. #1 Common/Character = moderate natural marks. #2 Common/Rustic = heavy character. Grade is visual appearance, NOT structural quality — but premium homes specify Select or better. Manufacturer-proprietary grades must be mapped to NWFA equivalents."
+      },
+      {
+        "field": "finish_system",
+        "type": "categorical",
+        "adjustments": {
+          "uv_cured_aluminum_oxide_premium": 2,
+          "uv_cured_aluminum_oxide_standard": 1,
+          "uv_cured_urethane": 0,
+          "oil_based_finish": 0,
+          "basic_polyurethane": -1
+        },
+        "notes": "Factory-applied finish is the first line of defense. UV-cured aluminum oxide (Mirage NanoLinx, Somerset AlumaPLUS, Shaw ScufResist Platinum) provides measurably superior scratch and wear resistance. Oil-based finishes (Rubio Monocoat, Bona) are a different aesthetic — not inferior, just different maintenance profile. Basic poly is builder-grade."
+      },
+      {
+        "field": "milling_precision",
+        "type": "categorical",
+        "adjustments": {
+          "precision_tight_tolerance": 1,
+          "standard": 0,
+          "loose_tolerance_filler_needed": -1
+        },
+        "notes": "Milling quality determines how well boards fit together. Premium manufacturers (Mirage, Mercier, Lauzon) have measurably tighter tongue-and-groove tolerances. Loose milling shows as gaps, lippage, and requires more filler during installation. Installer consensus is the primary source."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_us_canada": 1,
+          "multi_source_identified": 0,
+          "unknown_or_offshore_undisclosed": -1
+        },
+        "notes": "Carlisle (+1, Stoddard NH). Mirage/Mercier/Lauzon (+1, Québec). Somerset (+1, Somerset KY). Shaw (0, multi-source identified). Bruce/AHF (0, multi-source). Unknown offshore = -1."
+      }
+    ],
+    "performance": [
+      {
+        "field": "dimensional_stability",
+        "type": "categorical",
+        "adjustments": {
+          "excellent_multi_ply_cross_grain": 1,
+          "good_solid_kiln_dried": 0,
+          "fair_solid_standard": -1
+        },
+        "notes": "Engineered inherently more dimensionally stable than solid due to cross-grain construction. Premium engineered on Baltic birch = excellent stability, suitable for radiant heat, basements, wide plank. Solid is kiln-dried but expands/contracts with humidity. Not a tier advantage — it's a physics advantage for certain applications."
+      },
+      {
+        "field": "refinishing_potential",
+        "type": "categorical",
+        "adjustments": {
+          "unlimited_solid_3_4": 2,
+          "three_plus_sandings": 1,
+          "one_to_two_sandings": 0,
+          "screen_recoat_only": -1,
+          "not_refinishable": -2
+        },
+        "notes": "3/4\" solid = unlimited refinishing over 50-100 year lifespan. Engineered ≥4mm = 3+ sandings. Engineered 3mm = 1-2 proper sandings. Engineered 2mm = screen and recoat only. Engineered <2mm = not refinishable. This is the primary performance axis where solid has a structural advantage."
+      },
+      {
+        "field": "moisture_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "enhanced_water_resistant": 1,
+          "standard_engineered": 0,
+          "standard_solid": -1
+        },
+        "notes": "Shaw Repel, Bruce Hydropel offer enhanced water resistance technology on engineered. Standard engineered is more moisture-tolerant than solid due to multi-ply construction. Solid hardwood is most susceptible to moisture damage (cupping, crowning, gaps). Not a defect in solid — it's inherent to the material."
+      },
+      {
+        "field": "installation_versatility",
+        "type": "categorical",
+        "adjustments": {
+          "all_methods_all_substrates": 1,
+          "nail_staple_glue": 0,
+          "nail_staple_only": -1
+        },
+        "notes": "Engineered can typically be glued, nailed, stapled, or floated over concrete, plywood, or existing floor. Solid typically nail/staple only over plywood subfloor. Not a tier advantage — determines application scope."
+      },
+      {
+        "field": "finish_scratch_resistance",
+        "type": "categorical",
+        "adjustments": { "excellent": 1, "good": 0, "fair": -1 },
+        "notes": "Factory-applied aluminum oxide finishes (Mirage NanoLinx, Lauzon Titanium) score measurably higher in scratch resistance testing than basic polyurethane. This is a real performance differentiator for homes with pets and children."
+      },
+      {
+        "field": "radiant_heat_compatibility",
+        "type": "categorical",
+        "adjustments": { "certified_compatible": 1, "compatible_with_conditions": 0, "not_recommended": -1 },
+        "notes": "Engineered hardwood is generally radiant-heat compatible due to dimensional stability. Solid hardwood is often not recommended (expansion/contraction risk). Some manufacturers certify specific products for radiant heat."
+      }
+    ],
+    "durability": [
+      {
+        "field": "finish_warranty_years",
+        "type": "threshold",
+        "adjustments": { ">=35": 2, "25-34": 1, "15-24": 0, "<15": -1 },
+        "notes": "Factory finish warranty duration. Mirage offers 35-year finish warranty. Mercier/Lauzon 35-year. Shaw 25-30 year. Bruce 15-25 year. Longer warranty = manufacturer confidence in finish adhesion and aluminum oxide density."
+      },
+      {
+        "field": "structural_warranty_years",
+        "type": "threshold",
+        "adjustments": { ">=lifetime": 2, "25-50": 1, "10-24": 0, "<10": -1 },
+        "notes": "Structural/manufacturing defect warranty. Mirage lifetime structural. Mercier lifetime residential. Most premium brands offer 25+ years. Builder-grade may be 10-15 years."
+      },
+      {
+        "field": "delamination_risk",
+        "type": "categorical",
+        "adjustments": {
+          "no_documented_patterns": 1,
+          "rare_isolated": 0,
+          "documented_pattern": -2
+        },
+        "notes": "Engineered only. Delamination (veneer separating from core) is the most serious engineered hardwood failure. Caused by adhesive failure, moisture intrusion, or manufacturing defect. Quality manufacturers use phenol-formaldehyde or PVA adhesives rated for thermal cycling. Budget manufacturers may use lower-grade adhesives."
+      },
+      {
+        "field": "cupping_crowning_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "excellent_engineered_multi_ply": 1,
+          "good_solid_kiln_dried_acclimated": 0,
+          "fair_moisture_sensitive": -1
+        },
+        "notes": "Cupping and crowning are moisture-related failures. Engineered multi-ply construction inherently resists cupping better than solid. Proper kiln drying and acclimation for solid are critical. Wide plank solid (5\"+) is more susceptible than narrow strip."
+      },
+      {
+        "field": "nwfa_nofma_certified",
+        "type": "categorical",
+        "adjustments": { "certified": 1, "nwfa_member": 0, "no_affiliation": -1 },
+        "notes": "NWFA/NOFMA certification = independent inspection of manufacturing standards. Certified mills commit to grade, configuration, moisture content, and average board length standards. Voluntary program — absence doesn't mean bad, but certification is a quality signal."
+      },
+      {
+        "field": "formaldehyde_compliance",
+        "type": "categorical",
+        "adjustments": {
+          "carb_phase_2_certified_greenguard": 1,
+          "carb_phase_2_compliant": 0,
+          "undisclosed_or_non_compliant": -2
+        },
+        "notes": "CARB Phase 2 / EPA TSCA Title VI compliance is mandatory for US market. Greenguard Gold certification is stricter voluntary standard. Products failing formaldehyde testing (Lumber Liquidators scandal 2015) are disqualifying. Premium manufacturers publish compliance certificates."
+      },
+      {
+        "field": "warranty_claim_process",
+        "type": "categorical",
+        "adjustments": { "dealer_supported": 1, "standard_manufacturer": 0, "adversarial_or_difficult": -1 },
+        "notes": "Warranty claims on flooring require installation inspection (often by manufacturer rep). Mirage/Mercier/Lauzon have strong dealer-supported warranty networks. Volume brands may be harder to claim against."
+      }
+    ],
+    "material_safety_report_only": [
+      "carb_phase_2_compliance",
+      "greenguard_gold_certification",
+      "lacey_act_compliance",
+      "fsc_pefc_certification",
+      "voc_emissions_post_install"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Solid and engineered scored within the same framework. Sub-type does NOT create an automatic tier advantage — a great solid and a great engineered can both be Tier 1.",
+    "For engineered: veneer thickness is THE critical spec. ≥4mm sawn = premium. 3mm sawn = good. 2mm = acceptable. <2mm rotary = commodity. This is the single most important differentiator.",
+    "For solid: thickness (3/4\" standard) + species grade (NWFA grading) + finish system are the core quality triad.",
+    "Species Janka hardness is a performance spec, not a quality spec. Cherry 950 is not 'worse' than Hickory 1820 — it's softer. Report must frame as application-dependent.",
+    "Engineered core construction matters: Baltic birch plywood > multi-ply hardwood > HDF > softwood. Core quality determines dimensional stability and delamination resistance.",
+    "Sawn veneer vs rotary-peeled veneer is a genuine quality cliff, not just aesthetics. Sawn veneers are structurally stronger and look like real wood.",
+    "Factory finish is scored — site-finished/unfinished is a different workflow, not scored as inferior. But factory aluminum oxide finish vs basic poly IS a differentiator.",
+    "Canadian manufacturers (Mirage, Mercier, Lauzon) have strong professional consensus as premium engineered — report must acknowledge this regional manufacturing cluster.",
+    "Carlisle Wide Plank represents the artisanal solid benchmark — custom milled, small batch. Different market than volume solid (Bruce, Somerset).",
+    "Shaw/Bruce/Armstrong (AHF Products): volume manufacturers with broad distribution. Report must disclose corporate parent and manufacturing location.",
+    "Formaldehyde compliance is table stakes (CARB Phase 2 mandatory). Non-compliance is disqualifying. The Lumber Liquidators scandal (2015) set the public standard.",
+    "Wide plank (5\"+) solid hardwood is more susceptible to movement than narrow strip. This is physics, not a defect — report must frame correctly.",
+    "Refinishing potential is a legitimate performance axis — 3/4\" solid can be refinished indefinitely, while thin-veneer engineered cannot. This matters for 30-50 year home ownership.",
+    "Corporate structure = report finding. AHF Products (Bruce, Armstrong, Hartco). Shaw Industries (Berkshire Hathaway subsidiary). Somerset Hardwood Flooring (independent, Somerset KY)."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "VACANT — No Yale Appliance equivalent for hardwood flooring. No quantified first-year failure rate database. No teardown channel. NWFA/NOFMA certification is the closest quality signal but is not comparative. Pool S vacant for independent comparative testing data."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (hardwood flooring ratings — scratch resistance, water resistance, appearance retention testing)",
+        "NWFA (National Wood Flooring Association) — technical standards, installation guidelines, certified manufacturer list",
+        "Hardwood Floors Magazine — trade publication, installer surveys, product reviews",
+        "ANSI/HPVA EF 2020 — American National Standard for Engineered Wood Flooring (bond line, moisture, formaldehyde)",
+        "WoodFloorBusiness.com — industry publication, contractor surveys"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/HardwoodFloors (professional installer community — strong consensus on brand quality, milling precision, finish durability)",
+        "r/Flooring (installer and owner community — brand hierarchy, product issues)",
+        "Hardwood flooring installer forums and YouTube channels (The Hardwood Guys, Matt Pate, 15 Sec Tip)",
+        "FloorNerd / Flooring Nightmares (independent product analysis)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/HomeImprovement (consumer flooring discussions)",
+        "Houzz flooring threads",
+        "Individual owner reviews and renovation forums"
+      ]
+    }
+  },
+
+  "sub_type_note": "Solid and engineered are scored within the same framework. Sub-type-specific spec fields coexist — solid-only fields (solid_thickness) are omitted for engineered products and vice versa (veneer_thickness, core_construction, delamination_risk). Same approach as gas/induction in ranges_cooktops."
+}

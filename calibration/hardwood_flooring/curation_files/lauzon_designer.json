@@ -1,0 +1,64 @@
+{
+  "product": "Lauzon Designer White Oak (Engineered, 5/8\")",
+  "slug": "lauzon_designer",
+  "sub_type": "engineered",
+  "category": "hardwood_flooring",
+  "locked_score": 79,
+  "tier": 2,
+  "label": "Excellent",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Lauzon Distinctive Hardwood Flooring — independent, privately held. Papineauville, Québec, Canada.",
+  "manufacturing_location": "Papineauville, Québec, Canada",
+
+  "quality_evidence": {
+    "veneer_specification": {
+      "thickness_mm": 3.0,
+      "cut_method": "sawn",
+      "species": "White Oak (Quercus alba)",
+      "janka_hardness": 1360,
+      "refinishing_cycles": "1-2 full sandings",
+      "sources": ["lauzonflooring.com"]
+    },
+    "core_construction": {
+      "type": "multi_ply_hardwood",
+      "total_thickness": "5/8\" (15mm) total",
+      "sources": ["lauzonflooring.com"]
+    },
+    "finish_system": {
+      "type": "uv_cured_aluminum_oxide_standard",
+      "technology_name": "Titanium + Pure Genius",
+      "description": "Titanium finish — UV-cured aluminum oxide. Pure Genius technology adds TiO2 photocatalyst that breaks down formaldehyde and VOCs in ambient air via light-activated reaction. Unique technology — genuinely differentiating.",
+      "sources": ["lauzonflooring.com", "pure-genius.com"]
+    },
+    "milling_precision": {
+      "type": "precision_tight_tolerance",
+      "description": "Good milling precision — competitive with Mercier, slightly below Mirage. Third-strongest of the Québec cluster per installer consensus.",
+      "sources": ["installer consensus"]
+    }
+  },
+
+  "performance_evidence": {
+    "dimensional_stability": "Excellent — multi-ply cross-grain construction.",
+    "refinishing_potential": "1-2 proper sandings with 3mm sawn veneer.",
+    "air_purification": "Pure Genius technology — TiO2 photocatalyst activated by natural or artificial light, breaks down formaldehyde, acetaldehyde, and other VOCs. Independent testing confirms measurable air quality improvement in controlled environment.",
+    "installation_versatility": "All methods — glue, nail/staple, float.",
+    "sources": ["lauzonflooring.com"]
+  },
+
+  "durability_evidence": {
+    "finish_warranty": { "years": 35, "sources": ["lauzonflooring.com"] },
+    "structural_warranty": { "years": "Lifetime", "sources": ["lauzonflooring.com"] },
+    "delamination_risk": { "status": "no_documented_patterns" },
+    "formaldehyde": { "status": "CARB Phase 2 certified, Greenguard Gold" },
+    "warranty_claim_process": "Dealer-supported"
+  },
+
+  "safety_evidence": {
+    "formaldehyde": "Greenguard Gold certified. Pure Genius technology actively reduces ambient formaldehyde.",
+    "air_quality": "Pure Genius air-purifying technology is genuinely differentiated — this is the only flooring that actively improves indoor air quality."
+  },
+
+  "platform_disclosure": { "cross_brand": "None — independent manufacturer." },
+  "corrections": [],
+  "source_pool_classification": { "S": [], "A": ["lauzonflooring.com"], "B": ["installer consensus"], "C": [] }
+}

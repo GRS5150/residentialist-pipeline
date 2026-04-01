@@ -1,0 +1,96 @@
+{
+  "category": "hardwood_flooring",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+
+  "composite_method": "geometric_mean",
+  "formula_description": "geoMean(q, d, p) = (q/10)^W_q * (d/10)^W_d * (p/10)^W_p * 10, where axis scores are 0-10 scale. Display score = Math.round(geoMean * 10). Minimum axis input clamped to 0.01 before normalization.",
+
+  "weights": {
+    "quality": 0.35,
+    "durability": 0.35,
+    "performance": 0.30
+  },
+
+  "axis_stretch": {
+    "enabled": false,
+    "notes": "No axis stretch in v1.0. Enable when 10+ products scored to compute real category ranges."
+  },
+
+  "sub_type_note": "Solid and engineered scored within the same framework. Sub-type does NOT create automatic tier advantage. Sub-type-specific spec fields coexist — inapplicable fields omitted per product.",
+
+  "calibration_products": [
+    {
+      "name": "Carlisle Wide Plank White Oak (Solid, 3/4\")",
+      "slug": "carlisle_solid_white_oak",
+      "sub_type": "solid",
+      "tier": 1,
+      "target": 94,
+      "axis_scores": { "quality": 9.6, "durability": 9.3, "performance": 9.4 },
+      "notes": "Tier 1 anchor (solid). Custom wide plank heritage manufacturer — Stoddard, NH since 1966. Single-source US manufacturing. NWFA member. Select & Better grade white oak. Premium factory or site finish options. Hand-selected Appalachian hardwood. Artisanal quality benchmark — 'Rolls Royce of solid hardwood.' Wide plank 5-10\"+ widths. Precision kiln-dried."
+    },
+    {
+      "name": "Mirage Sweet Memories White Oak (Engineered, 5/8\")",
+      "slug": "mirage_sweet_memories",
+      "sub_type": "engineered",
+      "tier": 1,
+      "target": 91,
+      "axis_scores": { "quality": 9.3, "durability": 9.0, "performance": 9.1 },
+      "notes": "Tier 1 anchor (engineered). Québec-based precision manufacturer — gold standard for factory-finished engineered. 3.5mm sawn white oak veneer on multi-ply Baltic birch core. NanoLinx aluminum oxide finish (7+ coats). 35-year finish warranty. Lifetime structural warranty. Greenguard Gold certified. Tightest milling tolerance in category per installer consensus. Wire-brushed texture."
+    },
+    {
+      "name": "Mercier Design+ White Oak (Engineered, 5/8\")",
+      "slug": "mercier_design_plus",
+      "sub_type": "engineered",
+      "tier": 2,
+      "target": 82,
+      "axis_scores": { "quality": 8.4, "durability": 8.1, "performance": 8.1 },
+      "notes": "Tier 2 upper anchor (engineered). Québec manufacturer, 70+ years. 3mm sawn veneer. Generations finish with Greenguard Gold. Strong installer consensus but milling slightly below Mirage precision. Competitive pricing. Strong warranty. FSC-certified options."
+    },
+    {
+      "name": "Lauzon Designer White Oak (Engineered, 5/8\")",
+      "slug": "lauzon_designer",
+      "sub_type": "engineered",
+      "tier": 2,
+      "target": 79,
+      "axis_scores": { "quality": 8.1, "durability": 7.8, "performance": 7.9 },
+      "notes": "Tier 2 lower anchor (engineered). Québec manufacturer. 3mm sawn veneer. Pure Genius air-purifying technology (TiO2 photocatalyst). Titanium finish. Competitive with Mercier, slightly narrower distribution. Third-strongest of the Québec cluster."
+    },
+    {
+      "name": "Somerset Character White Oak (Solid, 3/4\")",
+      "slug": "somerset_character",
+      "sub_type": "solid",
+      "tier": 3,
+      "target": 67,
+      "axis_scores": { "quality": 6.7, "durability": 6.8, "performance": 6.6 },
+      "notes": "Tier 3 anchor (solid). Somerset, KY US manufacturer. NWFA/NOFMA certified. Character grade (#1 Common equivalent). AlumaPLUS aluminum oxide finish. Good value solid hardwood. Consistent milling for mid-tier. Strong for price point. Independent manufacturer."
+    },
+    {
+      "name": "Shaw Repel White Oak (Engineered, 1/2\")",
+      "slug": "shaw_repel",
+      "sub_type": "engineered",
+      "tier": 3,
+      "target": 64,
+      "axis_scores": { "quality": 6.3, "durability": 6.6, "performance": 6.3 },
+      "notes": "Tier 3 lower anchor (engineered). Shaw Industries (Berkshire Hathaway). 2mm sawn veneer — limits refinishing to 1-2 light sandings. Repel water-resistant technology. ScufResist Platinum finish. Strong distribution and warranty infrastructure. 1/2\" total thickness. Adequate but not premium construction."
+    },
+    {
+      "name": "Bruce Dundee White Oak (Solid, 3/4\")",
+      "slug": "bruce_dundee",
+      "sub_type": "solid",
+      "tier": 4,
+      "target": 52,
+      "axis_scores": { "quality": 5.2, "durability": 5.4, "performance": 5.0 },
+      "notes": "Tier 4 upper anchor (solid). AHF Products (formerly Armstrong/Bruce). Volume leader for builder-grade 3/4\" solid. Standard aluminum oxide finish. Commodity milling tolerance. 2-1/4\" to 3-1/4\" strip widths. Widest distribution. Functional but no differentiation. Quality perception declining."
+    },
+    {
+      "name": "Bruce Hydropel White Oak (Engineered, 3/8\")",
+      "slug": "bruce_hydropel",
+      "sub_type": "engineered",
+      "tier": 4,
+      "target": 46,
+      "axis_scores": { "quality": 4.4, "durability": 4.9, "performance": 4.5 },
+      "notes": "Tier 4 lower anchor (engineered). AHF Products. Hydropel water-resistant technology. 1.2mm rotary-peeled veneer — NOT refinishable, replace-when-worn. 3/8\" total thickness. Click-lock floating floor. Thin rotary veneer is the quality cliff — below this it's not meaningfully 'hardwood.'"
+    }
+  ]
+}
