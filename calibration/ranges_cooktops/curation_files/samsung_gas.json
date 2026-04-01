@@ -1,0 +1,126 @@
+{
+  "product": "Samsung Gas Slide-In Range",
+  "slug": "samsung_gas",
+  "fuel_type": "gas",
+  "category": "ranges_cooktops",
+  "locked_score": 45,
+  "tier": 4,
+  "label": "Fair",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Samsung Electronics Co., Ltd. — South Korean conglomerate",
+  "manufacturing_location": "Newberry, South Carolina; South Korea; Vietnam",
+
+  "quality_evidence": {
+    "burner_system": {
+      "type": "sealed_standard",
+      "description": "Standard sealed burners — commodity components. No pro-style differentiation.",
+      "max_btu": 18000,
+      "sources": ["samsung.com"]
+    },
+    "grate_system": {
+      "type": "individual_cast_iron",
+      "description": "Individual cast iron grates — standard",
+      "sources": ["samsung.com"]
+    },
+    "construction": {
+      "body": "Residential slide-in construction — builder-grade positioning with smart features",
+      "smart_features": "WiFi, Air Fry, smart connectivity via SmartThings. These features add electronic complexity and potential failure points.",
+      "source_traceability": "Multi-source across 3 countries",
+      "sources": ["samsung.com"]
+    },
+    "oven_convection": {
+      "type": "fan_assisted",
+      "description": "Fan-assisted convection — NOT true European. Fan circulates air from standard bake/broil elements. Inferior to true European convection.",
+      "sources": ["samsung.com"]
+    },
+    "broiler": {
+      "type": "gas_standard",
+      "description": "Standard gas broiler — no infrared",
+      "sources": ["samsung.com"]
+    }
+  },
+
+  "performance_evidence": {
+    "max_btu": 18000,
+    "simmer_floor_btu": 1200,
+    "simmer_detail": "Poor simmer control — standard sealed burner limitations without precision valve engineering",
+    "oven_temp_uniformity": "≥13°F estimated — fan-assisted convection produces less uniform results than true European",
+    "boil_time": "fair — standard sealed burners, no performance advantage",
+    "broiler_performance": "Gas standard",
+    "smart_features": "WiFi, Air Fry, SmartThings — features that differentiate on paper but add failure points",
+    "sources": ["samsung.com"]
+  },
+
+  "durability_evidence": {
+    "yale_service_rate": {
+      "value": null,
+      "notes": "Samsung gas ranges NOT in Yale service data. However, cross-category Samsung pattern is consistent: dishwashers, refrigerators, wall ovens all show above-average service rates and service ecosystem problems.",
+      "sources": ["yaleappliance.com (absence noted)"]
+    },
+    "recall_history": {
+      "description": "CRITICAL SAFETY SIGNAL: Samsung recalled 1.1 million slide-in electric ranges (August 2024, CPSC). Front-mounted knobs can be accidentally activated by humans or pets, potentially igniting flammable items. 300+ incidents, ~250 fires, 40 injuries, pet deaths reported.",
+      "correction": "This recall is for ELECTRIC slide-in ranges, not gas. However, it is a material cross-category safety signal about Samsung range design (front-mounted knob activation risk applies to gas models with similar knob placement).",
+      "remedy": "Free knob locks/covers. Request via samsung.com/us/support/range-knob-kit or 833-775-0120.",
+      "sources": ["cpsc.gov", "boston25news.com", "cbsnews.com", "samsung.com"]
+    },
+    "common_failures": {
+      "control_board": "Control board failures documented across Samsung appliance categories — pattern failure. Temperature sensor (thermistor) and display panel failures also reported.",
+      "cross_category_pattern": "Samsung control board reliability issues are consistent across dishwashers, refrigerators, wall ovens, and ranges. This is a cross-category corporate engineering concern.",
+      "sources": ["classaction.org", "repairclinic.com", "consumer complaints"]
+    },
+    "igniter_type": {
+      "type": "silicon_carbide",
+      "description": "Silicon carbide — commodity. Standard component.",
+      "sources": ["samsung parts listings"]
+    },
+    "warranty": {
+      "full_years": 1,
+      "description": "1-year standard warranty. Warranty claim process documented as adversarial in multiple categories.",
+      "sources": ["samsung.com"]
+    },
+    "service_network": {
+      "type": "proprietary_limited_service",
+      "description": "Samsung offers branded in-home service with certified technicians. Third-party authorized providers (Sears Home Services, Mr. Appliance) also available. HOWEVER: service availability varies significantly by region. The gap is TECHNICIAN AVAILABILITY, not parts availability.",
+      "critical_correction": "Samsung parts ARE available at RepairClinic and Samsung direct. The problem is finding qualified technicians, not sourcing parts. This correction was established in the dishwasher category deep dive.",
+      "sources": ["samsung.com", "repairclinic.com", "searshomeservices.com"]
+    },
+    "parts_availability": {
+      "type": "proprietary_available",
+      "description": "Genuine OEM parts available through RepairClinic, Samsung direct, and authorized distributors. Model-specific lookup, same-day shipping available.",
+      "sources": ["repairclinic.com", "samsung.com"]
+    },
+    "control_board": {
+      "reliability": "pattern_failures",
+      "notes": "Cross-category pattern: control board failures are Samsung's most consistent reliability weakness. Documented in dishwashers, refrigerators, wall ovens, and ranges.",
+      "sources": ["cross-category Samsung analysis", "classaction.org"]
+    }
+  },
+
+  "safety_evidence": {
+    "recalls": "1.1M electric slide-in range recall (CPSC August 2024) — front-mounted knob activation fire hazard. 300+ incidents, ~250 fires, 40 injuries. Gas model knob placement may present similar risk.",
+    "gas_emissions": "NO₂ non-differentiated by brand — ventilation is the intervention",
+    "class_actions": "Consumer complaints and investigations into potential defects in Samsung and Dacor gas cooking appliances documented"
+  },
+
+  "platform_disclosure": {
+    "samsung_dacor": "INVESTIGATION: Dacor (acquired by Samsung 2016) suspected to share Samsung-sourced components. Consumer complaints and investigations reference both Samsung and Dacor gas cooking appliances together.",
+    "cross_category_signal": "Samsung range recall + dishwasher reliability + refrigerator reliability patterns compound to form a cross-category corporate reliability concern."
+  },
+
+  "corrections": [
+    {
+      "field": "recall_fuel_type",
+      "original_value": "1.1M gas range recall assumed",
+      "corrected_value": "Recall is for ELECTRIC slide-in ranges, not gas. Knob activation hazard may still apply to gas models with similar design.",
+      "reason": "Deep dive confirmed CPSC recall is for electric models. Calibration notes referenced it as gas — this is a material correction.",
+      "source": "cpsc.gov official recall notice"
+    }
+  ],
+
+  "source_pool_classification": {
+    "S": ["Yale Appliance (no Samsung gas range data — absence noted)"],
+    "A": ["cpsc.gov (recall data)", "repairclinic.com"],
+    "B": ["classaction.org", "boston25news.com"],
+    "C": ["consumer complaints"]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "product": "Thermador Pro Grand Gas Range",
+  "slug": "thermador_pro_grand",
+  "fuel_type": "gas",
+  "category": "ranges_cooktops",
+  "locked_score": 83,
+  "tier": 2,
+  "label": "Excellent",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "BSH Home Appliances Corporation — subsidiary of Robert Bosch GmbH",
+  "manufacturing_location": "BSH multi-factory production (US and international)",
+
+  "quality_evidence": {
+    "burner_system": {
+      "type": "star_burner",
+      "description": "Patented Star Burner with 5-arm flame geometry. Raised pedestal base for easier cleaning. Designed for better flame distribution and reduced cold spots.",
+      "extra_low_simmer": "ExtraLow feature cycles gas burner on/off to maintain very low temps (~100°F). Not a true continuous-flame simmer like Wolf 500 BTU.",
+      "max_btu": 18000,
+      "supplier": "BSH-designed. Valve components likely Copreci (Spanish OEM partner to BSH).",
+      "sources": ["thermador.com", "bsh-group.com", "buyfromsa.com"]
+    },
+    "grate_system": {
+      "type": "continuous_cast_iron_heavy",
+      "description": "Continuous heavy cast iron grates — consistent with pro-style standard",
+      "sources": ["thermador.com"]
+    },
+    "construction": {
+      "body": "Pro-style construction, BSH manufacturing standards",
+      "source_traceability": "Multi-source — BSH operates factories across multiple countries",
+      "sources": ["bsh-group.com"]
+    },
+    "oven_convection": {
+      "type": "true_european_single_fan",
+      "system_name": "True Convection — third-element convection with dedicated heating element and fan",
+      "steam_assist": "Steam assist functionality injects steam during traditional cooking modes (Bake, Roast, Convection). Locks in moisture for meats and bread. Genuine steam injection via reservoir, not just humidity venting.",
+      "sources": ["thermador.com", "youtube.com (Thermador official)"]
+    },
+    "broiler": {
+      "type": "gas_standard",
+      "description": "Standard gas broiler — not infrared (unlike Wolf and BlueStar)",
+      "sources": ["thermador.com"]
+    }
+  },
+
+  "performance_evidence": {
+    "max_btu": 18000,
+    "simmer_method": "ExtraLow cycling (not continuous flame like Wolf)",
+    "simmer_min_temp": "~100°F via cycling — effective but not precision continuous simmer",
+    "oven_temp_uniformity": "6-10°F estimated — true convection single fan is competitive but below dual-fan systems",
+    "boil_time": "good — 18K BTU is standard premium tier",
+    "broiler_performance": "Gas standard — lacks Wolf/BlueStar infrared advantage",
+    "steam_assist": "Genuine differentiator for bread baking and roasting — moisture retention",
+    "sources": ["thermador.com", "yaleappliance.com"]
+  },
+
+  "durability_evidence": {
+    "yale_service_rate": {
+      "value": null,
+      "gas_range_data": "Thermador NOT specifically listed in Yale gas range data. Yale induction data: Thermador 4.9%.",
+      "brand_context": "BSH brands generally show strong reliability. Bosch induction 1.7% is best in category.",
+      "sources": ["yaleappliance.com"]
+    },
+    "igniter_type": {
+      "type": "spark_ignition",
+      "description": "Spark ignition for surface burners. Hot-surface igniter for oven. Standard BSH components.",
+      "common_issues": "Moisture, debris, or dirty igniter can cause continuous clicking — common service call",
+      "sources": ["thermador.com service resources"]
+    },
+    "warranty": {
+      "full_years": 1,
+      "description": "1-year full warranty — standard, below Wolf 2-3yr",
+      "sources": ["thermador.com"]
+    },
+    "service_network": {
+      "type": "national_independent_widely_stocked",
+      "description": "BSH parts widely stocked across national distribution. Factory-authorized service available through BSH network.",
+      "sources": ["bsh-group.com"]
+    },
+    "parts_availability": {
+      "type": "widely_stocked",
+      "description": "BSH parts universally available through independent and authorized distributors. OEM parts searchable by E-Nr model number.",
+      "sources": ["thermador.com", "bsh-group.com"]
+    },
+    "control_board": {
+      "reliability": "standard",
+      "notes": "BSH control boards — pattern from BSH dishwasher category noted relay concerns. Not confirmed for gas range ERC specifically.",
+      "sources": ["cross-category BSH analysis"]
+    }
+  },
+
+  "safety_evidence": {
+    "recalls": "None identified for current Thermador Pro Grand models",
+    "gas_emissions": "NO₂ non-differentiated by brand — ventilation is the intervention"
+  },
+
+  "platform_disclosure": {
+    "bsh_shared_platform": "MANDATORY: Thermador shares BSH platform with Bosch and Gaggenau. Star Burner and ExtraLow are Thermador-exclusive features, but underlying engineering DNA is shared. Thermador Pro Harmony is a lower internal tier of the same platform.",
+    "cross_category_wall_oven": "INVESTIGATION NEEDED: Thermador Masterpiece wall oven was confirmed to share cavity, hinges, and self-clean system with Thermador Professional in Pass 3 research. Pro Grand range oven section likely shares components with wall oven — not confirmed at part-number level."
+  },
+
+  "corrections": [],
+
+  "source_pool_classification": {
+    "S": ["Yale Appliance (no Thermador gas range data; induction 4.9%)"],
+    "A": ["thermador.com (manufacturer)", "yaleappliance.com"],
+    "B": ["bsh-group.com", "buyfromsa.com"],
+    "C": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "product": "Thermador Freedom Induction Cooktop (36\")",
+  "slug": "thermador_freedom_induction",
+  "fuel_type": "induction",
+  "category": "ranges_cooktops",
+  "locked_score": 81,
+  "tier": 2,
+  "label": "Excellent",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "BSH Home Appliances Corporation — subsidiary of Robert Bosch GmbH",
+  "manufacturing_location": "BSH production facilities (E.G.O. coils, Infineon IGBTs, Schott CERAN glass)",
+
+  "quality_evidence": {
+    "induction_system": {
+      "type": "full_surface_multi_element",
+      "description": "48 individual 3-inch inductor elements (newer models: 56 elements). Proprietary software maps size, shape, and position of cookware placed anywhere on the surface. Eliminates fixed cooking zones — the defining innovation in residential induction.",
+      "effective_cooking_area": "63% more effective cooking area than fixed-zone competitors",
+      "power_board": "Multi-channel inverter architecture (estimated 8-16 independent channels) required to drive 48+ elements. Fundamentally more complex electronics than 4-channel fixed-zone systems.",
+      "sources": ["thermador.com", "globenewswire.com", "carlaaston.com", "aandaappliance.com"]
+    },
+    "coil_supplier": {
+      "supplier": "E.G.O.-Elektro-Gerätebau (German — dominant supplier)",
+      "notes": "Array of small independent elements using E.G.O. coil assemblies",
+      "sources": ["component analysis research"]
+    },
+    "igbt_supplier": {
+      "supplier": "Infineon Technologies (German — dominant IGBT supplier)",
+      "notes": "HighSpeed3 H3 series IGBTs for power switching",
+      "sources": ["component analysis research"]
+    },
+    "glass_ceramic": {
+      "supplier": "Schott CERAN (German — premium glass-ceramic)",
+      "grade": "CERAN grade — specific Miradur confirmation not available",
+      "sources": ["thermador.com", "component analysis"]
+    },
+    "interface": {
+      "type": "touchscreen",
+      "description": "6.5-inch full-color TFT touchscreen for all controls. Pan-mapping visualization and settings.",
+      "documented_issues": "Laggy performance, unresponsiveness with grease/water splatter, occasional system freezes requiring breaker reset. This is the most significant UX pain point.",
+      "sources": ["thermador.com", "user forums", "bestbuy.com reviews"]
+    }
+  },
+
+  "performance_evidence": {
+    "max_watts": 4600,
+    "watts_detail": "4600W per zone — boost mode, likely temporary (10-20 min estimated)",
+    "boil_time": "excellent — sub-2 minute boil documented for PowerBoost mode",
+    "pan_placement": "Full-surface flexibility — cookware anywhere on glass. Accommodates rectangular griddles, multiple pots simultaneously.",
+    "cooking_area_advantage": "63% more vs fixed-zone — genuine performance differentiator",
+    "sources": ["thermador.com", "globenewswire.com", "aandaappliance.com"]
+  },
+
+  "durability_evidence": {
+    "yale_service_rate": {
+      "value": 4.9,
+      "unit": "percent",
+      "context": "Thermador induction 4.9% vs Bosch induction 1.7%. Hypothesis: Freedom's complex multi-channel electronics explain the ~3x gap. More elements = more failure points.",
+      "sources": ["yaleappliance.com"]
+    },
+    "common_failures": {
+      "power_board_inverter": "Service calls frequently involve power board/inverter issues. Multi-channel architecture is expensive to repair ($400-$800+ estimated for power board replacement).",
+      "pan_detection": "Errant pan-detection errors and 'no pan' false-positives documented.",
+      "thermal_shutdown": "Cooling fan failures can trigger thermal shutdown — cascading failure risk.",
+      "touchscreen": "Moisture/condensation under glass can trigger error codes or erratic behavior.",
+      "sources": ["user forums", "service technician reports", "bestbuy.com reviews"]
+    },
+    "warranty": {
+      "full_years": 1,
+      "description": "1-year standard BSH warranty",
+      "sources": ["thermador.com"]
+    },
+    "service_network": {
+      "type": "national_independent_widely_stocked",
+      "description": "BSH factory-trained or specialized technicians required. Parts are proprietary to BSH/Thermador platform. Repair costs significantly higher than standard consumer-grade cooktops.",
+      "sources": ["thermador.com"]
+    },
+    "parts_availability": {
+      "type": "widely_stocked",
+      "description": "BSH parts available through authorized distributors. Power board modules are expensive.",
+      "sources": ["bsh-group.com"]
+    },
+    "control_board": {
+      "reliability": "standard",
+      "notes": "Complex multi-channel power electronics with documented early-model reliability issues. Improving in newer production runs.",
+      "sources": ["service technician reports"]
+    }
+  },
+
+  "safety_evidence": {
+    "recalls": "None identified for Thermador Freedom Induction",
+    "emc": "FCC Part 18 compliant — induction generates RF from 20-100 kHz coils",
+    "certifications": "UL 858, IEC 60335-2-6"
+  },
+
+  "platform_disclosure": {
+    "bsh_shared_platform": "MANDATORY: Thermador shares BSH induction platform core electronics (E.G.O. coils, Infineon IGBTs, Schott CERAN glass) with Bosch and Gaggenau. However: Freedom full-surface hardware (48-56 element array, multi-channel inverter, pan-mapping software) is genuinely unique to Thermador — NOT a rebadged Bosch.",
+    "freedom_vs_bosch_differentiation": "Freedom uses 8-16 independent inverter channels vs Bosch's ~4 channels. Freedom's 48+ element coil array is fundamentally different from Bosch FlexInduction's dual-zone bridging. This explains the 4.9% vs 1.7% service rate gap — complexity premium."
+  },
+
+  "corrections": [
+    {
+      "field": "element_count",
+      "original_value": 48,
+      "corrected_value": "48 (original models), 56 (newer production)",
+      "reason": "Deep dive found newer Freedom models use 56 elements",
+      "source": "globenewswire.com"
+    }
+  ],
+
+  "source_pool_classification": {
+    "S": ["Yale Appliance — induction service rate 4.9%"],
+    "A": ["thermador.com (manufacturer)", "globenewswire.com"],
+    "B": ["carlaaston.com", "aandaappliance.com"],
+    "C": ["bestbuy.com reviews", "user forums"]
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "category": "ranges_cooktops",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "appliances",
+  "notes": "Pro-style and premium residential ranges (gas, dual-fuel, induction) and built-in cooktops. NOT builder-grade freestanding ranges. Gas and induction are scored within the same framework but fuel_type is a key differentiator. Oven section scored WITH the range — cooktop-only products omit oven specs.",
+
+  "axis_weights": {
+    "quality": 0.30,
+    "durability": 0.35,
+    "performance": 0.35
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Wolf Pro-Style Gas Range (36\"/48\")", "slug": "wolf_gas_range", "target_range": [93, 96] },
+        { "name": "BlueStar Platinum Gas Range", "slug": "bluestar_platinum", "target_range": [90, 92] }
+      ],
+      "notes": "Wolf: Tier 1 consensus — dual-stacked sealed burners (500 BTU simmer to 20K sear), dual VertiCross convection, infrared broiler, Sub-Zero build quality, lowest service callbacks among pro ranges. BlueStar: Tier 1 for raw power — open burners up to 25K BTU, commercial heritage, Reading PA manufacturing, customization. Wolf edges on reliability/serviceability; BlueStar edges on max output. Yale + Town Appliance + installer consensus both Tier 1."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Thermador Pro Grand Gas Range", "slug": "thermador_pro_grand", "target_range": [82, 85] },
+        { "name": "Thermador Freedom Induction Cooktop", "slug": "thermador_freedom_induction", "target_range": [80, 83] }
+      ],
+      "notes": "Thermador Pro Grand: BSH platform, Star burners, ExtraLow simmer, steam-assist oven. Strong features, competitive pricing vs Wolf, but pros rank just below Tier 1 on build quality. Thermador Freedom Induction: full-surface 48-element design, 63% more cooking area — top induction innovation. BSH reliability strong (1.7-4.9% induction service rate). Both strong Tier 2."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "GE Café Gas Slide-In", "slug": "ge_cafe_gas", "target_range": [62, 66] },
+        { "name": "Bosch 800 Induction Cooktop", "slug": "bosch_800_induction", "target_range": [68, 72] }
+      ],
+      "notes": "GE Café Gas: Yale 11.7% service rate — above 6.9% category average, higher than base GE (4.8%). Haier ownership. Selmer TN platform shared with Monogram/Profile. National service network is a strength. Bosch 800 Induction: BSH platform shares components with Thermador — 1.7% induction service rate (best in category). Punches above price point. Loses Thermador Freedom's full-surface innovation."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Samsung Gas Slide-In", "slug": "samsung_gas", "target_range": [42, 48] }
+      ],
+      "notes": "Samsung: cross-category service ecosystem problems carry over. No Yale gas range service data but pattern consistent. Control board reliability concerns. Contracted repair network. Dacor expected Samsung-sourced. Builder-grade competitors (base GE, Whirlpool, Amana, Frigidaire) also in this tier."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with active safety recalls, no US service infrastructure, or documented structural defects."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "fuel_type",
+        "type": "categorical",
+        "adjustments": { "gas_pro_style": 0, "dual_fuel": 0, "induction": 0, "gas_standard": -1 },
+        "notes": "Fuel type is a differentiator, not a quality hierarchy. Pro-style gas, dual-fuel, and induction are all premium. Standard gas slide-in = builder-grade positioning."
+      },
+      {
+        "field": "burner_type_gas",
+        "type": "categorical",
+        "adjustments": {
+          "dual_stacked_sealed": 2,
+          "open_cast_commercial": 2,
+          "star_burner": 1,
+          "sealed_standard": 0,
+          "stamped_aluminum": -1
+        },
+        "notes": "Wolf dual-stacked sealed (+2): two concentric flame rings, independent gas feeds, 500 BTU simmer to 20K sear. BlueStar open cast (+2): single-piece cast, up to 25K BTU, commercial heritage. Thermador Star (+1): 5-arm geometry. Standard sealed (0): commodity. Stamped aluminum (-1): builder-grade."
+      },
+      {
+        "field": "induction_system",
+        "type": "categorical",
+        "adjustments": {
+          "full_surface_multi_element": 2,
+          "flex_zone_bridgeable": 1,
+          "fixed_zone_premium": 0,
+          "fixed_zone_standard": -1
+        },
+        "notes": "Thermador Freedom full-surface (+2): 48 individual elements, cookware anywhere. Flex/bridge (+1): zones that combine. Fixed premium (0): 4-5 discrete zones with boost. Fixed standard (-1): budget 4-zone."
+      },
+      {
+        "field": "grate_material_gas",
+        "type": "categorical",
+        "adjustments": {
+          "continuous_cast_iron_heavy": 1,
+          "individual_cast_iron": 0,
+          "porcelain_coated_stamped": -1
+        },
+        "notes": "Continuous heavy cast iron grates allow sliding between burners. Individual cast iron = standard premium. Porcelain-coated stamped = builder-grade."
+      },
+      {
+        "field": "oven_convection_system",
+        "type": "categorical",
+        "adjustments": {
+          "dual_fan_true_european": 2,
+          "true_european_single_fan": 1,
+          "fan_assisted": 0,
+          "standard_thermal": -1
+        },
+        "notes": "Same as wall ovens. Wolf VertiCross, Miele TwinPower = dual fan + ring element (+2). True European single fan (+1). Fan-assisted (0). Standard thermal (-1). Cooktop-only products: N/A."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "Wolf (+1, Fitchburg WI). BlueStar (+1, Reading PA). Miele (+1, Germany). BSH (0, multi-factory). GE/Haier (0). Samsung (0)."
+      }
+    ],
+    "performance": [
+      {
+        "field": "max_burner_btu_gas",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=22000": 2, "18000-21999": 1, "15000-17999": 0, "<15000": -1 },
+        "notes": "BlueStar 25K BTU is the benchmark. Wolf 20K. Thermador 18K. Standard 15K."
+      },
+      {
+        "field": "simmer_min_btu_gas",
+        "type": "continuous_lower_better",
+        "adjustments": { "<=500": 2, "501-750": 1, "751-1000": 0, ">1000": -1 },
+        "notes": "Wolf 500 BTU simmer via precision valve + orifice is the benchmark. Thermador ExtraLow competitive. Budget ranges often can't hold below 1000."
+      },
+      {
+        "field": "induction_max_watts",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=4600": 1, "3700-4599": 0, "<3700": -1 },
+        "notes": "Thermador Freedom 4600W. Most premium induction 3700W. Budget under 3700W."
+      },
+      {
+        "field": "oven_temp_uniformity_delta_f",
+        "type": "continuous_lower_better",
+        "adjustments": { "<=5": 1, "6-12": 0, ">=13": -1 },
+        "notes": "Same as wall ovens. Wolf VertiCross and Miele TwinPower top this metric."
+      },
+      {
+        "field": "broiler_type",
+        "type": "categorical",
+        "adjustments": { "infrared": 1, "gas_standard": 0, "electric": 0 },
+        "notes": "Wolf infrared broiler is a genuine performance differentiator — faster, more even searing. Gas standard and electric are equivalent."
+      },
+      {
+        "field": "boil_time_water_test",
+        "type": "categorical",
+        "adjustments": { "excellent": 1, "good": 0, "fair": -1 },
+        "notes": "Induction inherently faster than gas. Among gas: open burners (BlueStar) fastest. Among induction: Thermador Freedom sub-2 min documented."
+      }
+    ],
+    "durability": [
+      {
+        "field": "yale_service_rate_pct",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=5.0": 2,
+          "5.1-7.0": 1,
+          "7.1-10.0": 0,
+          "10.1-15.0": -1,
+          ">=15.1": -2
+        },
+        "notes": "Yale gas range data: GE base 4.8%, LG 5.5%, GE Profile 10.1%, Café 11.7%. Category avg 6.9%. Induction: Bosch/BSH 1.7%, Thermador 4.9%, Gaggenau 0%. Induction generally more reliable than gas (fewer mechanical parts)."
+      },
+      {
+        "field": "igniter_type_gas",
+        "type": "categorical",
+        "adjustments": {
+          "silicon_nitride": 1,
+          "electronic_spark": 1,
+          "silicon_carbide": 0,
+          "not_applicable_induction": 0
+        },
+        "notes": "Igniters are the #1 gas range repair. Silicon nitride lasts 2-3x longer than silicon carbide. Electronic spark (Miele, some European) eliminates hot-surface igniter failure entirely. Induction ranges: N/A."
+      },
+      {
+        "field": "warranty_years_full",
+        "type": "threshold",
+        "adjustments": { ">=3": 2, "2": 1, "1": 0, "<1": -1 },
+        "notes": "Wolf: 2yr full. Most others: 1yr."
+      },
+      {
+        "field": "service_network_coverage",
+        "type": "categorical",
+        "adjustments": {
+          "national_owned": 1,
+          "national_independent_widely_stocked": 1,
+          "factory_certified_network": 0,
+          "regional_or_limited": 0,
+          "proprietary_limited_service": -2
+        },
+        "notes": "GE: owned national network. BSH/Whirlpool: widely stocked. Wolf/Sub-Zero: factory-certified (smaller but competent). Samsung: contracted, thin."
+      },
+      {
+        "field": "parts_availability",
+        "type": "categorical",
+        "adjustments": {
+          "universal": 1,
+          "widely_stocked": 0,
+          "proprietary_available": 0,
+          "proprietary_limited": -2
+        },
+        "notes": "GE/Whirlpool: universal. BSH: widely stocked. Wolf/BlueStar: proprietary but available. Samsung: proprietary, thin availability."
+      },
+      {
+        "field": "control_board_reliability",
+        "type": "categorical",
+        "adjustments": {
+          "proven_reliable": 1,
+          "standard": 0,
+          "documented_issues": -1,
+          "pattern_failures": -2
+        },
+        "notes": "Control board is the #2 range repair after igniters. Samsung has documented pattern failures across categories."
+      }
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Gas and induction scored within the same framework. Fuel type does NOT create an automatic tier advantage — a great gas range and a great induction cooktop can both be Tier 1.",
+    "For ranges: score the cooktop AND oven section together as one product. For cooktop-only products: omit oven specs, score cooktop only.",
+    "BSH Platform Rule: Bosch, Thermador, and Gaggenau share induction platform. Report must disclose. Thermador Freedom is genuinely differentiated hardware.",
+    "Wolf/Sub-Zero: factory-certified service network. Deep dive should confirm manufacturing location.",
+    "BlueStar: Reading PA manufacturing. Confirm in deep dive. Open burners = higher maintenance but higher performance.",
+    "GE Platform Rule: Monogram, Café, Profile, GE base share Selmer TN platform. Yale data shows GE base (4.8%) is MORE reliable than Café (11.7%) — deep dive must investigate why.",
+    "Samsung/Dacor: Dacor likely Samsung-sourced. Confirm in deep dive.",
+    "Igniters are the #1 gas range repair. Score igniter type explicitly.",
+    "Induction reliability is generally BETTER than gas (fewer mechanical parts). BSH induction 1.7% service rate vs 6.9% gas average.",
+    "Cross-category with wall ovens: if range oven section shares components with wall oven, mandatory platform disclosure in both reports.",
+    "Yale gas range data is available for GE, LG, GE Profile, Café. Wolf/BlueStar/Thermador service data: check deep dives.",
+    "Corporate structure = report finding"
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "Yale Appliance (Steve Sheinkopf) — gas range service rates: GE 4.8%, LG 5.5%, GE Profile 10.1%, Café 11.7%, category avg 6.9%. Induction: Bosch 1.7%, Thermador 4.9%, Gaggenau 0%. Geographic limitation: Boston area, premium skew."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (range/cooktop testing, owner satisfaction, reliability)",
+        "Town Appliance (professional range comparisons — Wolf vs BlueStar deep dives)",
+        "Orvilles.com (Wolf vs Thermador professional comparison)",
+        "CNET / Reviewed.com (lab testing)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/appliancerepair (repair tech community)",
+        "RepairClinic / ApplianceVideo (component-level diagnostics)",
+        "Prudent Reviews (Yale data synthesis)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/Appliances (owner community)",
+        "Houzz owner threads",
+        "Individual owner reviews"
+      ]
+    }
+  }
+}
