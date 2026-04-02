@@ -1,0 +1,326 @@
+{
+  "category": "range_hoods",
+  "version": "1.0",
+  "created_date": "2026-04-02",
+  "parent_category": "appliances",
+  "notes": "Residential range hoods / ventilation hoods. Includes wall-mount, island, undercabinet, and insert/liner types. Each installation type scored identically — the unit of scoring is the ventilation system (blower + capture + filtration), not the housing style. Ductless/recirculating-only products scored but flagged as fundamentally different ventilation approach.",
+
+  "axis_weights": {
+    "quality": 0.30,
+    "durability": 0.25,
+    "performance": 0.45
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Vent-A-Hood PRH Series", "slug": "vent_a_hood_prh", "target_range": [94, 96] },
+        { "name": "Wolf Pro Ventilation", "slug": "wolf_pro_ventilation", "target_range": [90, 92] }
+      ],
+      "notes": "Vent-A-Hood: Heritage brand since 1933, Houston TX. Patented Magic Lung centrifugal blower captures grease before fan — blower stays clean, extends motor life indefinitely. Whisper-quiet operation. All stainless construction. USA-manufactured. Industry professionals consider Vent-A-Hood the 'Sub-Zero of range hoods.' Wolf: Sub-Zero/Wolf ecosystem. Internal centrifugal blower, stainless baffle filters, pairs with Wolf ranges. Fitchburg WI manufacturing. 2-year full warranty."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Zephyr Tempest II", "slug": "zephyr_tempest_ii", "target_range": [80, 84] },
+        { "name": "Thermador HPCN Series", "slug": "thermador_hpcn", "target_range": [74, 78] }
+      ],
+      "notes": "Zephyr: San Francisco-based. Appeared 26 times in luxury listings — significant market presence. External/remote blower option (BLB series) enables high CFM with low noise at hood. Stainless baffle filters. LED lighting. Good design + strong performance. Thermador: BSH platform. Integrated with Thermador cooking products. Blower included. BSH parts network provides reliable service ecosystem."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Broan-NuTone Elite E60E30SS", "slug": "broan_elite_e60e", "target_range": [62, 66] }
+      ],
+      "notes": "Broan-NuTone volume player's premium line. Stainless construction, adequate CFM (650), mesh filters (aluminum), LED lighting. Competent performance but lacks the blower engineering and build quality of Tier 1-2. Nortek parent company. Broad parts availability through standard retail channels."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Broan-NuTone F40000 Series", "slug": "broan_f40000", "target_range": [45, 49] }
+      ],
+      "notes": "Builder-grade floor. Painted steel body, 210 CFM, ~6.5 sones at max, aluminum mesh filters, incandescent lighting. The hood installed in every tract home. Barely adequate ventilation for a standard 30-inch range. Cannot ventilate a pro-style range at all."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for ductless-only hoods with no real ventilation capability, products with active safety recalls, or unbranded imports with no UL listing."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "body_material",
+        "type": "categorical",
+        "adjustments": {
+          "304_stainless_steel": 2,
+          "430_stainless_steel": 1,
+          "commercial_grade_stainless": 1,
+          "painted_steel": 0,
+          "plastic_composite": -2
+        },
+        "notes": "304 stainless (18/8 chromium-nickel) is the premium standard — resists corrosion, heat, and cooking acids. 430 stainless (ferritic, magnetic) is adequate but less corrosion-resistant. Painted steel is builder-grade — will chip, discolor, and corrode over time in a high-heat, high-grease environment. Body gauge matters: 18-gauge is premium, 22-gauge is builder."
+      },
+      {
+        "field": "filter_type",
+        "type": "categorical",
+        "adjustments": {
+          "centrifugal_capture_no_filter": 2,
+          "stainless_steel_baffle": 1,
+          "aluminum_baffle": 0,
+          "aluminum_mesh": -1,
+          "charcoal_recirculating": -2
+        },
+        "notes": "Vent-A-Hood's centrifugal capture eliminates traditional filters entirely — grease is captured by centrifugal force before reaching the blower. Stainless baffle filters are the premium standard: capture grease efficiently, dishwasher safe, last indefinitely. Aluminum baffle is adequate. Aluminum mesh clogs quickly, deforms in dishwasher, needs frequent replacement. Charcoal = recirculating only, not true ventilation."
+      },
+      {
+        "field": "construction_method",
+        "type": "categorical",
+        "adjustments": {
+          "welded_seamless": 1,
+          "welded_standard": 0,
+          "riveted_assembled": -1
+        },
+        "notes": "Welded seamless construction eliminates grease traps at joints — easier to clean, stronger. Standard welded is adequate. Riveted/assembled panels create grease accumulation points and are weaker under thermal cycling."
+      },
+      {
+        "field": "lighting_quality",
+        "type": "categorical",
+        "adjustments": {
+          "led_dimmable_high_output": 1,
+          "led_fixed": 0,
+          "halogen": 0,
+          "incandescent": -1
+        },
+        "notes": "LED dimmable with high CRI and adequate lux is the modern standard — 50,000+ hour life, no heat contribution. Halogen gives excellent light quality but adds heat and burns out frequently. Incandescent is builder-grade — short life, high heat, poor energy efficiency."
+      },
+      {
+        "field": "blower_engineering",
+        "type": "categorical",
+        "adjustments": {
+          "centrifugal_sealed_ball_bearing": 2,
+          "centrifugal_standard": 1,
+          "mixed_flow": 0,
+          "axial_fan": -1
+        },
+        "notes": "Centrifugal blowers (squirrel-cage design with ball bearings) move more air at lower noise and last longer than axial fans. Vent-A-Hood Magic Lung and Wolf blowers are centrifugal. Axial fans are cheaper but louder, less efficient, and wear faster. Mixed-flow is a compromise design. The blower is the heart of the hood — this is the range hood equivalent of the cartridge in faucets."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "Same rule as all categories. Vent-A-Hood (+1, Houston TX since 1933). Wolf (+1, Fitchburg WI / Sub-Zero ecosystem). Zephyr (0, designed in SF, manufactured in China — disclosed). BSH (0, multi-factory). Broan-NuTone (0, multiple factories identified). Unknown = -1."
+      }
+    ],
+    "performance": [
+      {
+        "field": "cfm_airflow_max",
+        "type": "continuous_higher_better",
+        "adjustments": {
+          ">=1200": 2,
+          "900-1199": 2,
+          "600-899": 1,
+          "400-599": 0,
+          "200-399": -1,
+          "<200": -2
+        },
+        "notes": "CFM (cubic feet per minute) is the primary performance metric. Professional ranges (30,000+ BTU) require minimum 600 CFM; many pros recommend 1 CFM per 100 BTU. A 65,000 BTU Wolf range needs 650+ CFM minimum. Builder-grade hoods at 200 CFM cannot ventilate even a standard 30-inch range during high-heat cooking. HVI-certified CFM ratings are independently verified."
+      },
+      {
+        "field": "sone_rating_at_max",
+        "type": "continuous_lower_better",
+        "adjustments": {
+          "<=2.0": 2,
+          "2.1-4.0": 1,
+          "4.1-6.0": 0,
+          "6.1-8.0": -1,
+          ">8.0": -2
+        },
+        "notes": "Sone rating measures perceived loudness. 1 sone ≈ quiet refrigerator. 4 sones ≈ normal TV volume. 8+ sones = uncomfortable in open kitchen. HVI-certified sone ratings are independently verified. External/remote blowers can achieve <1 sone at the hood because the motor is remote. Vent-A-Hood centrifugal design achieves ~3 sones at 600 CFM — remarkable for an internal blower."
+      },
+      {
+        "field": "capture_area_coverage",
+        "type": "categorical",
+        "adjustments": {
+          "oversized_6plus_inches_beyond_cooktop": 1,
+          "matched_to_cooktop": 0,
+          "undersized_narrower_than_cooktop": -1
+        },
+        "notes": "Capture area should extend at least 3 inches beyond the cooktop on each side for effective capture. A 30-inch hood over a 36-inch range = undersized. Professional installers insist on oversized capture. Island hoods need even larger capture area due to cross-drafts."
+      },
+      {
+        "field": "duct_size_inches",
+        "type": "categorical",
+        "adjustments": {
+          "10_or_larger": 1,
+          "8": 0,
+          "6": 0,
+          "4_or_smaller": -1,
+          "ductless_only": -2
+        },
+        "notes": "Larger duct = lower air resistance = quieter operation at rated CFM. Premium hoods use 10-inch round or equivalent rectangular. Builder-grade uses 6-inch. Undersized ductwork is the #1 installation error that degrades real-world performance below rated specs."
+      },
+      {
+        "field": "speed_control",
+        "type": "categorical",
+        "adjustments": {
+          "variable_infinite": 1,
+          "multi_speed_4_plus": 0,
+          "3_speed": 0,
+          "2_speed_or_single": -1
+        },
+        "notes": "Variable/infinite speed control lets user dial in exact airflow to match cooking. Premium hoods use electronic variable speed or slider controls. 3-speed is adequate for most use cases. 2-speed/single-speed limits usability — either too loud for simmering or inadequate for searing."
+      },
+      {
+        "field": "external_blower_option",
+        "type": "categorical",
+        "adjustments": {
+          "available_remote_or_inline": 1,
+          "not_available": 0
+        },
+        "notes": "External/remote blower option moves the motor outdoors or into the attic — dramatically reduces hood noise while maintaining full CFM. Zephyr BLB series, Broan external blowers. Premium installation option. Not a penalty for not having it — many great hoods use internal blowers. But availability = flexibility for noise-sensitive installations."
+      }
+    ],
+    "durability": [
+      {
+        "field": "motor_warranty_years",
+        "type": "threshold",
+        "adjustments": {
+          "lifetime": 2,
+          ">=5": 1,
+          "3-4": 0,
+          "1-2": -1
+        },
+        "notes": "Vent-A-Hood offers lifetime motor warranty — reflects confidence in centrifugal design's longevity. Most premium hoods offer 3-year motor warranty. Builder-grade is 1 year. Motor replacement is the most expensive hood repair ($300-800+ with labor)."
+      },
+      {
+        "field": "motor_type_longevity",
+        "type": "categorical",
+        "adjustments": {
+          "centrifugal_sealed_ball_bearing": 1,
+          "centrifugal_sleeve_bearing": 0,
+          "axial_standard": -1
+        },
+        "notes": "Centrifugal motors with sealed ball bearings last 20+ years. Vent-A-Hood Magic Lung blowers commonly run 30+ years per owner reports. Sleeve bearings are adequate but wear faster. Axial fans in builder-grade hoods typically last 8-12 years."
+      },
+      {
+        "field": "grease_management_system",
+        "type": "categorical",
+        "adjustments": {
+          "self_cleaning_centrifugal": 2,
+          "baffle_dishwasher_safe": 1,
+          "mesh_washable": 0,
+          "mesh_disposable": -1
+        },
+        "notes": "Vent-A-Hood centrifugal grease capture keeps the entire internal system clean — grease collects in a removable tray, never reaches blower or ductwork. This extends hood AND duct lifespan. Baffle filters are dishwasher-safe and maintain airflow when clean. Mesh filters clog, reduce airflow, and create fire risk if not cleaned regularly."
+      },
+      {
+        "field": "parts_availability",
+        "type": "categorical",
+        "adjustments": {
+          "universal": 1,
+          "widely_stocked": 0,
+          "proprietary_available": 0,
+          "proprietary_limited": -1
+        },
+        "notes": "Range hoods are mechanically simpler than other appliances — main parts are motor, lights, controls, and filters. Broan-NuTone parts are universally available at any hardware store. Wolf/Vent-A-Hood parts are proprietary but available direct. Some premium European brands have limited US parts availability."
+      },
+      {
+        "field": "service_network_coverage",
+        "type": "categorical",
+        "adjustments": {
+          "national_independent_widely_serviced": 1,
+          "factory_certified_network": 0,
+          "regional_or_limited": 0,
+          "no_service_network": -1
+        },
+        "notes": "Range hoods are often serviced by general appliance techs or electricians — less brand-specific servicing than dishwashers or refrigerators. Broan-NuTone: any appliance tech. Wolf: factory-certified network. Vent-A-Hood: direct support from Houston factory + authorized dealers. Miele/Thermador: BSH service network."
+      }
+    ],
+    "material_safety_report_only": [
+      "ul_507_listed",
+      "makeup_air_requirement_compliance",
+      "indoor_air_quality_ventilation_adequacy",
+      "fire_suppression_compatibility"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Health certs report-only, no composite impact (UL 507 listing, fire suppression)",
+    "BSH Platform Rule: Thermador and Bosch hoods may share blower components, controls, or filter designs. Deep dive must confirm. Report must disclose shared platform if confirmed.",
+    "Miele Integrated Hood Rule: Miele hoods are designed to pair with Miele ranges but use independent blower systems. Score the hood independently. Report must note integration advantage.",
+    "Wolf Pairing Rule: Wolf hoods are designed to pair with Wolf ranges. Score the hood independently but report must note that Wolf recommends specific hood-to-range matching for optimal performance.",
+    "Vent-A-Hood Centrifugal Architecture Rule: The Magic Lung centrifugal blower is a fundamentally different ventilation approach. Traditional filter comparisons don't apply. Score the capture efficiency result, not the mechanism.",
+    "CFM-to-BTU Matching Rule: Report must include CFM-to-BTU assessment. A hood providing 400 CFM over a 65,000 BTU range is INADEQUATE regardless of build quality. Note: insufficient CFM does not reduce the hood's score (score the product), but the mismatch must be prominently reported.",
+    "External Blower Scoring Rule: When external blower is available, score the INTERNAL blower configuration as base. Note external blower option and its performance characteristics in the report.",
+    "Ductless/Recirculating Rule: Ductless-only hoods are scored but report must prominently note that recirculating does NOT remove combustion byproducts, moisture, or heat. This is a material ventilation limitation.",
+    "Makeup Air Rule: Any hood above 400 CFM may require makeup air system per IRC M1503.4. This is an installation requirement, not a product deficiency. Report as informational.",
+    "Score base configuration per Rule 17. Hood + external blower combo vs hood-only are different configurations.",
+    "Corporate structure = report finding",
+    "Score the product, not the brand (Rule 19). Different blower sizes under same brand = different products if CFM/sone differ meaningfully."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "VACANT — No single dominant independent source for range hoods equivalent to StarCraft (faucets), Karin Kirk (countertops), or Yale (appliances). Yale does not publish hood-specific service rate data. HVI certification provides independent CFM/sone verification but is compliance testing, not comparative analysis."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (hood performance testing, noise measurement, cooking capture effectiveness)",
+        "HVI (Home Ventilating Institute) — independent CFM and sone certification. Industry standard for verified performance specs.",
+        "DERA International / Kitchen design professionals — professional installer consensus on hood-to-range matching",
+        "Reviewed.com (appliance lab testing)",
+        "Fine Homebuilding / GreenBuildingAdvisor (ventilation science, IAQ, makeup air)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/appliancerepair (repair tech consensus on brand reliability and motor longevity)",
+        "Prudent Reviews (independent analysis, hood comparisons)",
+        "Pro installer YouTube channels (Trade Secrets, Kitchen Conversations)",
+        "Don's Appliances, Yale Appliance blog (general appliance context, not hood-specific service rates)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/Appliances (owner community)",
+        "r/HomeImprovement (owner experiences)",
+        "Houzz kitchen forum threads",
+        "Individual owner reviews and forum posts"
+      ]
+    }
+  },
+
+  "operation_type": null,
+  "operation_type_adjustments": null,
+
+  "data_sources": {
+    "hvi_directory": "https://www.hvi.org/hvi-certified-products-directory/",
+    "notes": "HVI certified product directory provides independently verified CFM and sone ratings. Use HVI data as ground truth for any CFM/sone spec claims. Manufacturer-claimed CFM without HVI certification should be treated as unverified."
+  }
+}
