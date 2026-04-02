@@ -1,32 +1,38 @@
 ## Therma-Tru Benchmark Entry (Fiberglass) — Investigator Analysis
-**Locked Score: 67/100 — Tier 3: Good**
+**Locked Score: 67/100 — Tier 3**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 62 | 0.40 | Builder-grade positioning with undisclosed skin thickness and core density specifications creates material uncertainty. |
-| Durability | 74 | 0.35 | Fiberglass construction provides rot resistance, but documented sealant failures and coastal hardware restrictions indicate compromises. |
-| Performance | 66 | 0.25 | NFRC-certified air leakage meets standards and claims 4X wood insulation, but lacks absolute thermal specifications. |
-| Material Safety | Green | report only | Fiberglass-reinforced thermoset composite with polyurethane foam core presents no significant health concerns. |
+| Quality | 65 | 0.4 | Builder-grade construction with undisclosed skin thickness and core density specifications, positioned below premium Classic-Craft line [ttd_benchmark_specs_9, polyurethane_density_20] |
+| Durability | 72 | 0.35 | Sound fiberglass-reinforced thermoset composite construction with polyurethane foam core, but documented sealant failures and saltwater hardware exclusions indicate maintenance concerns [mpls_warranty_35, troubleshooting_sealant_11] |
+| Performance | 64 | 0.25 | NFRC-certified air leakage meets industry standards at 0.5 cfm/ft² or less, though insulation specifications remain undisclosed compared to disclosed Classic-Craft density [nfrc_air_leakage_4, polyurethane_density_20] |
+| Material Safety | Good | report only | Fiberglass-reinforced composite construction with polyurethane foam core presents no significant safety concerns |
 
-### Corporate Disclosure
-Therma-Tru operates as a subsidiary of Fortune Brands Home & Security, Inc. This door is manufactured specifically for exclusive distribution through Lowe's retailers as a builder-grade offering positioned below Therma-Tru's premium Classic-Craft line.
+### Company Background
+Therma-Tru operates as a subsidiary of Fortune Brands Home & Security, Inc., a publicly-traded corporation headquartered in Deerfield, Illinois [fortune_brands_structure_14]. Fortune Brands operates four primary business segments including Cabinets, Plumbing, Doors, and Security, providing financial stability and manufacturing resources. The Benchmark Collection represents Therma-Tru's builder-grade offering distributed exclusively through Lowe's retailers, positioned as a cost-reduced alternative to their premium Classic-Craft line [ttd_benchmark_specs_9]. As part of a diversified public corporation, the brand benefits from established distribution networks and manufacturing capabilities, though the Benchmark line specifically targets price-conscious builders rather than premium residential markets.
 
 ### Strengths
-- **Fiberglass construction methodology**: Compression-molded fiberglass skins with polyurethane foam core provide inherent rot and warp resistance superior to wood doors
-- **Certified weathersealing performance**: NFRC testing confirms air leakage rates of 0.5 cfm/ft² or less, meeting ENERGY STAR requirements
-- **Serviceable weatherstripping system**: Compression-kerf weatherstripping allows 15-minute replacement procedure for long-term maintenance
+- **Certified Air Sealing Performance**: NFRC testing confirms air leakage rates of 0.5 cfm/ft² or less per ASTM E283 standards, meeting industry benchmarks for energy efficiency [nfrc_air_leakage_4]
+- **Serviceable Weatherstripping System**: Compression-kerf weatherstripping uses resilient foam-filled material with 15-minute replacement procedure for long-term maintenance [weatherstrip_system_37]
 
 ### Deficiencies
-- **Specification opacity**: Critical details like skin thickness, core density, and hardware grades remain undisclosed, with Classic-Craft's 46% thicker skins suggesting Benchmark uses cost-reduced materials
-- **Documented maintenance issues**: Installation troubleshooting guide reveals known problems with sealant breakdown, corner seal pad failures, and water infiltration risks
-- **Hardware durability limitations**: Multi-point lock warranty excludes installations within 5 miles of saltwater, indicating corrosion susceptibility
+- **Undisclosed Construction Specifications**: Critical specifications including skin thickness and core density remain undisclosed, while Classic-Craft doors feature 46% thicker skins and minimum 1.9 pcf core density [ttd_classic_comparison_12, polyurethane_density_20]
+- **Hardware Durability Limitations**: Multi-point lock systems excluded from warranty coverage within five miles of saltwater, indicating corrosion susceptibility [mpls_warranty_35]
 
 ### What You Should Know
-The Benchmark represents Therma-Tru's deliberate cost-reduction strategy for the builder market, selling exclusively through Lowe's. While the basic fiberglass construction methodology is sound, you're getting thinner materials and lower-grade components compared to the manufacturer's premium lines. The door will likely perform adequately for standard residential use, but expect higher maintenance requirements and potential hardware issues in challenging environments. The specification gaps make it difficult to assess true long-term value.
+The Benchmark represents Therma-Tru's deliberately cost-reduced builder-grade entry door, sold exclusively through Lowe's with significant specification gaps compared to their premium Classic-Craft line. While the basic construction methodology appears sound with compression-molded fiberglass skins and polyurethane foam cores, the manufacturer withholds critical specifications like skin thickness and core density that directly impact long-term performance and durability.
 
-### Channel & Availability
-Available exclusively through Lowe's retail locations as part of Therma-Tru's builder-grade channel strategy. This channel positioning typically means faster availability but fewer customization options compared to dealer networks serving the premium Classic-Craft line.
+Documented maintenance issues include sealant breakdown requiring resealing with elastomeric compounds and corner seal pad failures leading to water infiltration. The warranty specifically excludes multi-point lock systems in coastal environments, suggesting hardware durability concerns. These factors indicate higher long-term ownership costs despite the lower initial purchase price compared to premium alternatives.
+
+### Platform Disclosure
+Not applicable
+
+### Corporate Outlook
+Stable — Fortune Brands provides established manufacturing capabilities and distribution networks
+
+### Repair Economics
+Sealant failure represents the most common maintenance requirement, necessitating resealing with elastomeric and polyurethane compounds at sill and subfloor joints, with professional service costs typically ranging $150-300 versus premium door alternatives requiring less frequent maintenance.
 
 ### Score Justification
-The 67-point score reflects solid basic construction undermined by specification transparency issues and documented durability compromises. While fiberglass methodology provides inherent advantages over wood, the cost-reduction approach and maintenance requirements prevent higher scoring despite meeting basic performance standards.
+The 67/100 score reflects solid basic construction methodology undermined by undisclosed specifications and documented maintenance requirements. While NFRC-certified performance meets industry standards, the deliberate cost-reduction positioning and warranty exclusions prevent higher tier classification.

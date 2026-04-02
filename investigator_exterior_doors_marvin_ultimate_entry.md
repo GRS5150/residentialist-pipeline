@@ -1,28 +1,38 @@
 ## Marvin Signature Ultimate Entry Door — Investigator Analysis
-**Locked Score: 94/100 — Tier 1: Best in Class**
+**Locked Score: 94/100 — Tier 1**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 98 | 0.40 | All-wood core construction with multi-point locking and commercial-grade aluminum cladding delivers exceptional build quality. |
-| Durability | 94 | 0.35 | Commercial-grade extruded aluminum exterior with 20-year glass warranty demonstrates premium longevity, though warranty service shows rigid interpretation. |
-| Performance | 86 | 0.25 | Standard dual-pane Low-E with argon and optional triple-pane glazing meets high performance standards, but company withholds NFRC data from public access. |
-| Material Safety | Clean | report only | Wood core with aluminum cladding presents no material safety concerns. |
+| Quality | 96 | 0.4 | Premium all-wood core with commercial-grade aluminum cladding and multi-point locking system demonstrates exceptional build quality [SRC-001, SRC-002, SRC-003] |
+| Durability | 93 | 0.35 | Impact-rated construction tested to withstand 2x4 studs at 50'/second and 20-year glass warranty indicate strong longevity, though warranty service shows rigid interpretation [SRC-006, SRC-007, SRC-011] |
+| Performance | 89 | 0.25 | Standard dual-pane Low-E glazing with argon fill provides solid thermal performance, but energy data access barriers prevent verification of claimed efficiency [SRC-005, SRC-013] |
+| Material Safety | Excellent | report only | All-wood interior with aluminum cladding represents traditional, proven material choices |
 
-### Corporate Disclosure
-Marvin operates as a subsidiary of Fortune Brands Innovations (NYSE: FBIN), maintaining independent manufacturing operations in Warroad, Minnesota.
+### Company Background
+Marvin operates as a subsidiary of Fortune Brands Innovations (NYSE: FBIN), a publicly traded company with $4.5 billion in 2025 net sales [SRC-014]. The doors are manufactured domestically in Warroad, Minnesota, representing genuine American craftsmanship rather than imported products [SRC-001]. Fortune Brands provides financial stability and resources for a family-founded window and door manufacturer that has grown into a premium brand. The company experienced recent leadership transition with Nicholas Fink's departure in March 2026 and David Barry serving as interim CEO [SRC-014]. This is an established premium brand with deep manufacturing expertise, not a repositioned lower-tier product.
 
 ### Strengths
-**Multi-point locking system as standard** provides superior security and weathersealing compared to single-deadbolt systems typical in the market. **Commercial-grade extruded aluminum cladding with 19 color options** offers exceptional exterior durability with superior fade and chalk resistance. **All-wood core construction** delivers authentic premium feel and thermal performance superior to engineered wood alternatives. **Comprehensive parts availability** including specific weatherstripping components ensures long-term serviceability.
+- **Commercial-Grade Construction**: Multi-point locking system standard with commercial-grade extruded aluminum exterior and nineteen color options demonstrates premium positioning [SRC-002, SRC-003]
+- **Impact Resistance**: Rigorous testing including 8-foot 2x4 stud impacts at 50 feet per second with layered impact-resistant glass exceeds standard residential requirements [SRC-006]
 
 ### Deficiencies
-**NFRC performance data requires dealer contact** creating unnecessary barriers for energy performance comparison shopping. **Warranty service shows rigid interpretation** with BBB complaints citing refusal to honor claims over procedural issues like notification timing. **No publicly available air infiltration ratings** despite this being a critical performance metric for entry doors.
+- **Energy Data Barriers**: NFRC performance values require contacting dealers rather than being publicly available, creating unnecessary friction for performance comparison [SRC-013]
+- **Warranty Service Concerns**: Rigid interpretation of warranty terms with complaints about refusing replacement claims over 90-day notification requirements [SRC-011]
 
 ### What You Should Know
-This is a genuinely premium door with all-wood core construction and multi-point locking that most manufacturers reserve for their highest-end lines. The commercial-grade aluminum cladding and 20-year glass warranty reflect serious engineering, not marketing fluff. However, Marvin makes you work harder than necessary to get performance data, and their warranty service can be inflexible about procedural requirements. Lead times can be extended for custom configurations.
+This door represents genuine premium construction with all-wood interior cores, commercial-grade aluminum cladding, and multi-point locking systems that exceed typical residential standards. The impact-rated testing and 20-year glass warranty demonstrate confidence in long-term performance, while domestic Minnesota manufacturing provides quality control advantages.
 
-### Channel & Availability
-Available exclusively through authorized Marvin dealers — not sold at big-box stores. This dealer-only model ensures proper sizing and installation support but limits price competition. Lead times vary significantly based on customization level.
+However, Marvin creates unnecessary barriers to energy performance verification by requiring dealer contact for NFRC data rather than publishing it openly. Some warranty service complaints suggest rigid interpretation of terms, though a designer with 20+ years experience reports no complaints on Marvin products [SRC-009]. The premium pricing appears justified by construction quality, but buyers should verify specific energy performance numbers directly with dealers before purchase.
+
+### Platform Disclosure
+Not applicable — no shared manufacturing or badge-engineering identified.
+
+### Corporate Outlook
+Stable — Fortune Brands parent provides financial resources and stability despite recent CEO transition.
+
+### Repair Economics
+Weather stripping replacement represents the most common maintenance need, with parts like V189 Marvin Weather Strip available at $78.88 aftermarket pricing [SRC-008]. Standard components including sill liners and stile weather strips are readily available, making routine maintenance economically viable for a premium product.
 
 ### Score Justification
-The 94 score reflects genuinely premium construction with all-wood cores and multi-point locking, backed by strong warranty terms. The gap from 100 stems from data transparency issues and warranty service rigidity that shouldn't exist at this price point.
+The 94/100 score reflects exceptional build quality with commercial-grade materials and rigorous impact testing, supported by comprehensive warranty coverage. Energy data access barriers and warranty service rigidity prevent a perfect score despite premium construction standards.

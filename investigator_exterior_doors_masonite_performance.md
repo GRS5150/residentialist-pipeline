@@ -1,32 +1,38 @@
 ## Masonite Performance Door System (Fiberglass) — Investigator Analysis
-**Locked Score: 64/100 — Tier 3 (Good)**
+**Locked Score: 64/100 — Tier 3**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 58 | 0.40 | Standard compression-molded fiberglass slab with Grade 2 hardware and adequate weatherstripping falls short of premium construction. |
-| Durability | 72 | 0.35 | Lifetime fiberglass warranty and rot-proof construction offset by proprietary weatherstrip sizing and moderate callback rates. |
-| Performance | 68 | 0.25 | ENERGY STAR certified with U-factors of 0.20-0.25 and good air infiltration ratings deliver solid thermal performance. |
-| Material Safety | Low Risk | report only | Fiberglass composite construction with standard polyurethane foam core presents minimal material concerns. |
+| Quality | 60 | 0.4 | Standard compression-molded fiberglass construction falls short of premium door quality, positioned between value and high-end tiers [SRC-003] |
+| Durability | 72 | 0.35 | Lifetime warranty on fiberglass slab and fewer water intrusion issues than steel doors demonstrate solid long-term construction [SRC-007, SRC-008] |
+| Performance | 61 | 0.25 | ENERGY STAR certified with adequate U-factors of 0.20-0.25 but limited by Grade 2 hardware and standard aluminum sill [SRC-006, SRC-005] |
+| Material Safety | Good | report only | Fiberglass composite with polyurethane foam core presents no significant material safety concerns |
 
-### Corporate Disclosure
-Masonite International Corporation (TSX: MAS) is a publicly traded global door manufacturer with facilities across North America. No concerning corporate risk factors identified.
+### Company Background
+Masonite International Corporation (TSX: MAS) is a publicly traded global manufacturer of interior and exterior doors with operations across US, Canada, and Mexico facilities. The Performance line represents their premium tier above the Solidoor value brand, though the company maintains mixed distribution through both dealer channels and big-box retailers. As a large-scale manufacturer, Masonite competes in the volume market segment rather than the custom premium door space.
 
 ### Strengths
-- **Rot-proof fiberglass construction**: Compression-molded fiberglass slab with polyurethane foam core eliminates wood rot concerns and provides consistent dimensional stability
-- **Improved weatherstripping system**: Uses compression-type weatherstripping with better corner pad integration compared to Masonite's value-tier Solidoor line
-- **Strong thermal performance**: Achieves ENERGY STAR certification with U-factors of 0.20-0.25, meeting energy codes in most climate zones
+- **Superior Weatherstripping Integration**: Professional contractors rank the weatherstripping system with improved corner pads as better than JELD-WEN and comparable to Therma-Tru Benchmark out of the box [SRC-003, SRC-004]
+- **Water Resistance**: Fewer water intrusion callback issues compared to steel door alternatives demonstrate effective moisture management [SRC-008]
 
 ### Deficiencies
-- **Standard-grade hardware**: Limited to Grade 2 single deadbolt configuration with no multipoint lock option, falling short of premium door standards
-- **Proprietary service parts**: Uses non-standard weatherstrip sizing that complicates future maintenance and requires manufacturer-specific replacement parts
-- **Mixed distribution quality**: Available through both dealer and big-box channels with potential hardware configuration differences between channels
+- **Hardware Limitations**: Grade 2 hardware with no multipoint lock option and plain steel hinges limit security performance compared to premium door systems [SRC-005]
+- **Finish Durability**: Minor finish fade reported after 7-10 years without re-staining indicates coating system limitations [SRC-008]
 
 ### What You Should Know
-The Masonite Performance sits in the middle of the fiberglass door market — better than builder-grade but not premium. Professional installers rank it comparable to Therma-Tru Benchmark with decent weatherstripping but standard slab quality. It's a serviceable choice for most homes but won't impress on custom builds. The fiberglass construction means you'll never deal with rot or warping issues that plague wood doors.
+The Masonite Performance Door System delivers solid mid-market performance suitable for homes in the $500K-750K range. While it won't match the premium quality of Therma-Tru Classic-Craft AccuGrain products, it offers reliable energy performance with ENERGY STAR certification and better weatherstripping than many competitors. The lifetime warranty on the fiberglass slab provides reassurance, though the 10-year glass warranty and limited finish warranty are more restrictive.
 
-### Channel & Availability
-Available through both authorized dealers and select big-box retailers. Unlike premium brands that maintain dealer-only distribution, Masonite's mixed channel strategy may result in hardware specification differences. Lead times for replacement parts run 4-6 weeks through manufacturer direct ordering.
+Installation and service considerations include proprietary weatherstripping sizing that may complicate future maintenance, and 4-6 week lead times for replacement glass panels. The mixed distribution model means big-box versions may have slightly different hardware configurations than dealer versions, so buyers should verify specifications at purchase.
+
+### Platform Disclosure
+None identified in available evidence.
+
+### Corporate Outlook
+Not specified
+
+### Repair Economics
+Most common issues involve weatherstrip replacement (proprietary sizing complicates standard replacements) and finish touch-ups after 7-10 years. Parts availability through manufacturer direct and authorized dealers with moderate lead times. The transferable lifetime warranty on the slab reduces long-term replacement risk.
 
 ### Score Justification
-The 64 score reflects solid mid-market positioning with meaningful limitations. Quality suffers from standard-grade hardware and slab construction, while durability benefits from fiberglass's inherent advantages despite serviceability concerns.
+The 64/100 score reflects a competent mid-market door that delivers on basic performance expectations without premium features. Strong durability metrics and adequate energy performance are offset by standard-grade construction and hardware limitations.

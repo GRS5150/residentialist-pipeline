@@ -1,32 +1,38 @@
 ## JELD-WEN Builders Series (Steel/Fiberglass) — Investigator Analysis
-**Locked Score: 48/100 — Tier 4 (Fair)**
+**Locked Score: 48/100 — Tier 4**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 42 | 0.40 | Builder-grade construction with cost-optimized materials and unclear hardware specifications. |
-| Durability | 55 | 0.35 | LVL wood frame and corrosion protection provide structural longevity but weatherstripping system raises maintenance concerns. |
-| Performance | 47 | 0.25 | Energy performance varies wildly by glazing choice, from excellent to poor. |
-| Material Safety | Clean | report only | Standard construction materials with no significant health concerns. |
+| Quality | 40 | 0.4 | Entry-level construction with basic materials like foam weatherstripping instead of durable silicone or rubber seals [consumer_reports_doors_47] |
+| Durability | 55 | 0.35 | Steel models feature corrosion-resistant epoxy primer and galvanized steel skin with LVL wood frame construction [jeld_spec_sheet_21] |
+| Performance | 50 | 0.25 | Energy performance varies widely with U-factors from 0.15-0.43, achieving respectable 0.20-0.27 range with Low-E argon glazing [nfrc_certification_37] |
+| Material Safety | Good | report only | Standard residential door materials with baked-on enamel primer systems |
 
-### Corporate Disclosure
-JELD-WEN is a publicly traded manufacturer (NYSE: JELD). The company has faced financial pressures and cost-cutting initiatives that may impact product specifications and quality control standards.
+### Company Background
+JELD-WEN is a publicly-traded door and window manufacturer founded in 1960, headquartered in Charlotte, North Carolina. The company operates manufacturing facilities across North America and internationally, serving both residential and commercial markets. JELD-WEN has faced financial challenges in recent years, including debt restructuring and operational streamlining efforts. The Builders Series represents their entry-level product line positioned for volume builders and cost-conscious consumers, distinct from their premium Custom Wood and architectural series.
 
 ### Strengths
-- **Solid structural construction**: LVL (laminated veneer lumber) frame resists warping better than solid wood, while galvanized steel skin with epoxy primer provides genuine corrosion protection
-- **Energy flexibility**: Opaque doors achieve excellent 0.15 U-factor, and Low-E with argon fills deliver respectable 0.20-0.27 performance for glazed units
-- **Air infiltration control**: Meets ≤0.3 CFM per square foot standard, indicating adequate factory weathersealing
+- **Energy Performance Options**: Low-E argon glazing configurations achieve competitive U-factors of 0.20-0.27, meeting energy efficiency standards [nfrc_certification_37]
+- **Corrosion Protection**: Steel models include epoxy primer on back of steel skin to prevent corrosion, extending lifespan in moisture-prone environments [jeld_spec_sheet_21]
 
 ### Deficiencies
-- **Unknown weatherstripping quality**: No disclosure of sealing material types (foam vs. silicone/rubber), with threshold system requiring precise gap adjustments that "may break sealant joints"
-- **Hardware grade mystery**: Hinge specifications provided but no clear indication of deadbolt quality or multi-point locking availability for entry doors
-- **Wide performance variance**: Full-glass clear units hit poor 0.43 U-factor, making glazing selection critical to energy performance
+- **Hardware Documentation Gaps**: Multi-point lock adjustment guides reference patio doors with unclear application to Builders Series entry doors [jeld_multipoint_guide_12]
+- **Basic Weatherstripping**: Construction likely uses foam weatherstripping rather than more durable silicone or rubber materials recommended for better sealing performance [consumer_reports_doors_47]
 
 ### What You Should Know
-This is JELD-WEN's entry-level door line designed for price-conscious builders and homeowners. The LVL wood frame construction is actually a smart engineering choice that outperforms solid wood for stability. However, you're buying into a cost-optimized product where weatherstripping materials and hardware grades aren't clearly disclosed. Energy performance depends heavily on your glazing choices — stick with Low-E argon fills and avoid full-glass clear options. The threshold adjustment system may require ongoing maintenance to prevent air leaks.
+The JELD-WEN Builders Series offers two construction types: steel doors with galvanized steel skin over LVL wood frames, and fiberglass doors with BASF Neopore foam cores. Energy performance depends heavily on glazing selection, ranging from basic 0.43 U-factor for clear glass to efficient 0.20-0.27 for Low-E argon units. The threshold system includes adjustment screws for weatherstrip gap control, though adjustment may compromise sealant integrity.
 
-### Channel & Availability
-Available through building supply dealers and home improvement stores. Builders Series positioning suggests this is likely the big-box channel version rather than dealer-exclusive specifications. Lead times typically 2-4 weeks for standard configurations.
+As an entry-level product, expect basic hardware specifications and potentially lower-grade weatherstripping materials. The steel construction provides structural integrity with corrosion protection, while fiberglass models offer paintability and thermal performance. Energy Star compliance status remains unclear for specific Builders Series configurations, so verify certification if utility rebates are important to your purchase decision.
+
+### Platform Disclosure
+Not applicable based on available evidence.
+
+### Corporate Outlook
+Stable — Established manufacturer with broad distribution network, though financial pressures may impact product development and warranty support.
+
+### Repair Economics
+Most common failures likely involve weatherstripping replacement and threshold adjustment. Basic weatherstripping costs $20-40, professional installation $100-150. Hardware replacement parts readily available through JELD-WEN dealer network, making repairs cost-justifiable for doors under 10 years old.
 
 ### Score Justification
-The 48/100 reflects competent basic construction undermined by cost-optimization choices. While LVL framing and corrosion protection show good engineering, the lack of premium weatherstripping specs and unclear hardware grades prevent higher scoring. Energy performance variance from excellent to poor depending on glazing selection exemplifies the inconsistent value proposition.
+The 48/100 score reflects entry-level positioning with adequate energy performance but quality compromises in weatherstripping and unclear hardware specifications. Decent structural durability in steel models partially offset by basic construction details throughout the line.
