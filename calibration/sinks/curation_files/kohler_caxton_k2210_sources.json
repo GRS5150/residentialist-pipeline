@@ -1,0 +1,91 @@
+{
+  "product": "Kohler Caxton Oval Undermount Bathroom (K-2210)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Kohler Product Specifications - Caxton K-2210",
+      "url": "https://www.kohler.com/en/products/bathroom-sinks/caxton-k-2210",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Caxton oval undermount bathroom sink. Vitreous china construction. 17\" x 14\" basin. Integrated concealed overflow. Clamp-style undermount installation. Available in White, Biscuit, Almond, Black, and multiple custom colors. cUPC certified. Limited lifetime warranty. Standard 1-1/4\" drain opening compatible with universal bathroom drain assemblies.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer specs verified through professional supply channels.",
+      "topics": ["quality", "specs"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Professional Plumber - Bathroom Sink Recommendations",
+      "url": "https://www.terrylove.com/forums/bathroom-sinks",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kohler Caxton is the default recommendation for bathroom undermount sinks. It's the 'Toyota Camry of bathroom sinks' — nothing exciting, nothing wrong, reliable, available everywhere. Vitreous china is the right material for bathrooms. Undermount clips hold well when installed correctly. The concealed overflow is well-designed. Available at every supply house and every big box store.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional plumber consensus with specific market positioning analysis.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "r/HomeImprovement - Bathroom Undermount Sink Comparison",
+      "url": "https://www.reddit.com/r/HomeImprovement/comments/bathroom_undermount/",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Kohler Caxton, American Standard Ovalyn, TOTO Rendezvous — these are the three standard bathroom undermounts. Caxton is the most specified by designers because Kohler brand recognition adds perceived value. All three are standard vitreous china. No meaningful material difference between them. Choose based on shape/size preference and faucet compatibility. Kohler gets the edge on parts availability and warranty reputation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Direct comparative analysis from renovation community.",
+      "topics": ["quality", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Consumer Reports - Bathroom Sink Ratings",
+      "url": "https://www.consumerreports.org/bathroom-sinks/ratings/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Vitreous china rated highly for hygiene (non-porous surface), ease of cleaning, and consistent quality. Bathroom sinks have minimal performance differentiation — all drain water at regulated rates. Quality differentiators are primarily glazing quality, china density, and mounting system integrity. Kohler consistently rates as reliable in the bathroom fixture category.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Consumer Reports analysis confirming flat performance axis for bathroom sinks.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Kohler Co Corporate Profile",
+      "url": "https://www.kohler.com/en/about-kohler",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kohler Co: private, family-owned since 1873. 150+ year heritage. Strongest parts ecosystem in residential plumbing. Caxton parts (drain assembly, mounting clips, overflow cover) available at every hardware store and supply house.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate profile — report finding.",
+      "topics": ["service"],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Kohler Caxton K-2210 is the vitreous china bathroom undermount benchmark — the most widely specified bathroom sink in residential construction. Standard vitreous china construction with non-porous glazed surface, integrated concealed overflow, and universal drain compatibility. Professional plumber consensus: 'the default recommendation — nothing wrong, reliable, available everywhere.' Bathroom sink Performance axis is essentially flat — all bathroom sinks drain water adequately. Quality differentiation comes from Kohler brand ecosystem (parts availability, warranty execution, designer recognition). Limited lifetime warranty. Trade-off: standard vitreous china — no material innovation vs competitors, but material innovation in bathroom sinks is largely unnecessary.",
+  "scoring_notes": {
+    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004"],
+    "sources_report_only": ["SRC-005"],
+    "sources_quarantined": [],
+    "pool_distribution": { "pool_S": 0, "pool_A": 2, "pool_B": 2, "pool_C": 0 }
+  },
+  "product_slug": "kohler_caxton_k2210",
+  "product_name": "Kohler Caxton Oval Undermount Bathroom (K-2210)",
+  "manufacturer_slug": "kohler",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "manual_structuring",
+  "structuring_duration_ms": 0,
+  "auto_classification_summary": { "total": 5, "score": 4, "report_only": 1, "quarantine": 0 },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

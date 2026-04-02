@@ -1,0 +1,304 @@
+{
+  "category": "sinks",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "plumbing_fixtures",
+  "notes": "Kitchen sinks and bathroom sinks scored within one framework. Sub-type (kitchen_stainless, kitchen_fireclay, kitchen_cast_iron, kitchen_composite, bathroom_vitreous_china, bathroom_fireclay) is a key differentiator but does NOT create an automatic tier advantage — a premium stainless kitchen sink and a premium fireclay farmhouse sink can both be Tier 1. For stainless: gauge, steel grade (T-304/T-316), construction method, and sound deadening are THE critical specs. For fireclay/cast iron: body density, glaze quality, and manufacturing origin. For composite: stone-to-resin ratio and heat resistance. For bathroom: china quality, glazing, and rim engineering. Kohler appeared 187 times in luxury home listings. Shares methodology with faucets — material quality and construction method drive the score, not aesthetics. Performance axis is essentially flat (all sinks drain water at regulated rates).",
+
+  "axis_weights": {
+    "quality": 0.45,
+    "durability": 0.45,
+    "performance": 0.10
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Rohl Shaws Original Lancaster Fireclay Farmhouse (RC3618)", "slug": "rohl_shaws_rc3618", "sub_type": "kitchen_fireclay", "target_range": [93, 96] },
+        { "name": "Kohler Whitehaven Self-Trimming Cast Iron (K-6489)", "slug": "kohler_whitehaven_k6489", "sub_type": "kitchen_cast_iron", "target_range": [90, 93] }
+      ],
+      "notes": "Rohl Shaws: handcrafted English fireclay, kiln-fired in Darwen Lancashire at 2100°F+, each sink individually crafted with slight variations — artisanal quality signal. Sold through Rohl (Fortune Brands Innovations). Fireclay is non-porous, chip-resistant, stain-resistant. No mass production — genuine heirloom construction. Professional consensus places Shaws at or near top for fireclay. Kohler Whitehaven: self-trimming apron-front cast iron with porcelain enamel glaze — Kohler's proprietary enamel process is industry benchmark. Cast iron body = massive thermal mass, vibration-free, zero sound concerns. Kohler WI manufacturing heritage. 187 Kohler sightings in luxury listings confirms brand positioning."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Blanco IKON 33 Silgranit Composite Apron Front (401734)", "slug": "blanco_ikon_33", "sub_type": "kitchen_composite", "target_range": [80, 85] },
+        { "name": "Kohler Cairn Neoroc Composite Undermount (K-8206)", "slug": "kohler_cairn_k8206", "sub_type": "kitchen_composite", "target_range": [78, 82] }
+      ],
+      "notes": "Blanco IKON: 80% granite composite (Silgranit patented formula), heat-rated to 536°F (280°C), scratch/stain/impact-resistant. German-engineered (Oberderdingen HQ). First composite apron-front sink. Blanco holds 35+ patents on Silgranit material. Professional consensus: near-indestructible, low maintenance, hides marks well. Kohler Cairn: Neoroc composite (proprietary), matte finish, undermount. Kohler engineering applied to composite. Slightly below Blanco on composite material heritage but Kohler backing and ecosystem."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Kraus Standart PRO 16-Gauge Stainless Undermount (KHU100-30)", "slug": "kraus_standart_pro_30", "sub_type": "kitchen_stainless", "target_range": [65, 70] },
+        { "name": "Kohler Caxton Oval Undermount Bathroom (K-2210)", "slug": "kohler_caxton_k2210", "sub_type": "bathroom_vitreous_china", "target_range": [66, 70] }
+      ],
+      "notes": "Kraus Standart PRO: 16-gauge T-304 stainless, NoiseDefend sound deadening (80% coverage), TRU16 real 16-gauge certification, commercial-grade satin finish. Best value-to-quality ratio in stainless. Professional plumber consensus: reliable, thick, well-engineered drain slope. Kohler Caxton: vitreous china undermount bathroom sink — Kohler's most popular bathroom undermount. Clean lines, consistent glaze quality. Standard vitreous china construction. Massive aftermarket and parts availability. The bathroom sink benchmark."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Glacier Bay All-in-One Drop-In Stainless (VT3322A08)", "slug": "glacier_bay_dropin", "sub_type": "kitchen_stainless", "target_range": [42, 48] }
+      ],
+      "notes": "Glacier Bay: Home Depot house brand. 22-gauge stainless (thin). Minimal sound deadening. Drop-in installation (least premium mounting). Unknown OEM manufacturing. T-304 claimed but gauge is the quality signal — 22-gauge dents easily, resonates noise, poor mass. Plumber consensus: 'builder-grade filler' — most complaints about flexing, noise, and staining from standing water."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with active safety recalls, non-cUPC-certified imports, or documented structural defects."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "body_material",
+        "type": "categorical",
+        "adjustments": {
+          "fireclay_handcrafted": 2,
+          "cast_iron_enamel": 2,
+          "composite_premium": 1,
+          "stainless_16_gauge_t304": 1,
+          "stainless_18_gauge_t304": 0,
+          "vitreous_china_standard": 0,
+          "stainless_20_gauge": -1,
+          "stainless_22_gauge_plus": -2,
+          "unknown_undisclosed": -2
+        },
+        "notes": "Fireclay (kiln-fired 2100°F+) and cast iron (porcelain enamel) are premium construction methods. 16-gauge T-304 stainless is professional-grade. 18-gauge is standard residential. 20+ gauge is builder-grade. Composite (80%+ granite/quartz + acrylic resin) is premium engineered material. Vitreous china is the bathroom standard. Lower gauge number = thicker steel = better."
+      },
+      {
+        "field": "construction_method",
+        "type": "categorical",
+        "adjustments": {
+          "handcrafted_individual": 2,
+          "zero_radius_welded": 1,
+          "tight_radius_welded": 1,
+          "drawn_pressed_single_sheet": 0,
+          "stamped_mass_production": -1
+        },
+        "notes": "Handcrafted (Rohl Shaws — each individually formed and kiln-fired) is the premium for fireclay. Zero-radius and tight-radius welded (precision CNC welding, true 90° or near-90° corners) is the premium for stainless — requires thicker steel. Drawn/pressed from a single sheet is standard. Mass-stamped is builder-grade — often results in thinner corners."
+      },
+      {
+        "field": "surface_finish_technology",
+        "type": "categorical",
+        "adjustments": {
+          "proprietary_enamel_premium": 2,
+          "patented_composite_formula": 1,
+          "brushed_satin_commercial": 0,
+          "standard_glaze": 0,
+          "mirror_polish": 0,
+          "basic_unfinished": -1
+        },
+        "notes": "Kohler's porcelain enamel (cast iron) is industry benchmark — chip/stain/fade resistant. Blanco Silgranit (patented, 35+ patents) is the composite benchmark. Commercial satin finish on stainless hides scratches well. Standard vitreous china glaze is baseline for bathroom. Mirror polish shows every scratch."
+      },
+      {
+        "field": "sound_deadening",
+        "type": "categorical",
+        "adjustments": {
+          "not_applicable_mass_body": 1,
+          "full_coverage_pad_and_spray": 1,
+          "partial_pad_coverage": 0,
+          "spray_only": 0,
+          "none": -2
+        },
+        "notes": "Stainless-only spec. Cast iron, fireclay, and composite are inherently quiet (massive body absorbs vibration = N/A, +1 equivalent). Full pad + spray coating (Kraus NoiseDefend 80%+, Elkay Sound Guard) is premier. Partial pads = standard. No sound deadening = builder-grade, major complaint driver."
+      },
+      {
+        "field": "mounting_type",
+        "type": "categorical",
+        "adjustments": {
+          "apron_front_farmhouse": 1,
+          "undermount": 0,
+          "flush_mount": 0,
+          "drop_in_self_rimming": -1
+        },
+        "notes": "Apron-front/farmhouse requires specific cabinetry and professional installation — quality signal. Undermount is standard premium. Drop-in/self-rimming is the simplest, least premium installation. Flush-mount is aesthetic preference, neutral."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_or_undisclosed": -1
+        },
+        "notes": "Rohl Shaws (+1, Darwen Lancashire England). Kohler (+1, Kohler WI USA for cast iron). Blanco (0, Germany HQ + global manufacturing). Kraus (0, identified factories). Elkay (+1, US manufacturing). Glacier Bay (-1, unknown OEM)."
+      }
+    ],
+    "performance": [
+      {
+        "field": "drain_engineering",
+        "type": "categorical",
+        "adjustments": {
+          "sloped_bottom_rear_drain": 1,
+          "standard_center_drain": 0,
+          "flat_bottom_poor_drainage": -1
+        },
+        "notes": "Sloped bottom with rear drain placement provides better drainage and usable basin space. Standard center drain is baseline. Flat bottom with poor slope causes pooling — common complaint on cheap sinks and some fireclay designs."
+      },
+      {
+        "field": "basin_depth",
+        "type": "categorical",
+        "adjustments": {
+          "deep_10_plus_inches": 1,
+          "standard_8_to_9_inches": 0,
+          "shallow_under_8": -1
+        },
+        "notes": "Kitchen only. Deep basin (10\"+) provides capacity for large pots/sheet pans. Standard (8-9\") is baseline. Shallow (<8\") limits utility. Bathroom sinks are N/A (depth is adequate for purpose)."
+      },
+      {
+        "field": "workstation_integration",
+        "type": "categorical",
+        "adjustments": {
+          "integrated_ledge_system": 1,
+          "accessory_compatible": 0,
+          "none": 0
+        },
+        "notes": "Kitchen only. Integrated ledge rails for cutting boards, colanders, drying racks are a genuine utility improvement. Kraus and Ruvati lead this space. Not having workstation features is NOT a penalty — it's a traditional design."
+      }
+    ],
+    "durability": [
+      {
+        "field": "material_longevity",
+        "type": "categorical",
+        "adjustments": {
+          "lifetime_50_plus_years": 2,
+          "long_term_25_to_50_years": 1,
+          "standard_15_to_25_years": 0,
+          "short_term_under_15": -1
+        },
+        "notes": "Cast iron enamel: 50+ years (Kohler lifetime). Fireclay: 50+ years with care. Composite: 25-50 years. Stainless 16-gauge: 25-50 years. Stainless 18-gauge: 15-25 years. Stainless 22+ gauge: under 15 years (flex fatigue, seal failure)."
+      },
+      {
+        "field": "chip_crack_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "excellent_inherent": 1,
+          "good_engineered": 0,
+          "moderate_care_required": 0,
+          "poor_known_issues": -1
+        },
+        "notes": "Stainless = excellent (doesn't chip, can dent). Composite = excellent (extremely hard, minor chips at extreme impact). Cast iron = good (enamel can chip, base survives). Fireclay = good (dense ceramic, but can crack at extreme impact — non-repairable). Thin-gauge stainless = poor (flex causes seal failure at mounting points)."
+      },
+      {
+        "field": "stain_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "non_porous_inherent": 1,
+          "resistant_with_care": 0,
+          "susceptible": -1
+        },
+        "notes": "All premium sink materials are inherently non-porous (stainless, fireclay glaze, cast iron enamel, composite). Susceptible = porous or degraded finishes that absorb stains. Key differentiator is how VISIBLE stains are — white fireclay shows tea/coffee marks more readily than composite or stainless."
+      },
+      {
+        "field": "heat_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "extreme_500_plus_f": 1,
+          "good_300_to_500_f": 0,
+          "limited_under_300_f": -1
+        },
+        "notes": "Kitchen only. Cast iron enamel: extreme (withstands direct heat). Stainless: extreme (conducts but doesn't damage). Composite: good (Silgranit rated 536°F). Fireclay: extreme (kiln-fired at 2100°F). Acrylic/budget composite: limited."
+      },
+      {
+        "field": "warranty_years",
+        "type": "threshold",
+        "adjustments": {
+          "lifetime_limited": 2,
+          "25_plus": 1,
+          "10_to_24": 0,
+          "under_10": -1
+        },
+        "notes": "Kohler: limited lifetime on cast iron. Rohl Shaws: limited lifetime. Blanco: limited lifetime on Silgranit. Kraus: limited lifetime. Elkay: limited lifetime on most. Glacier Bay: 1 year. Warranty term is a manufacturer confidence signal."
+      },
+      {
+        "field": "parts_and_accessories_ecosystem",
+        "type": "categorical",
+        "adjustments": {
+          "universal_widely_available": 1,
+          "brand_specific_available": 0,
+          "proprietary_limited": -1
+        },
+        "notes": "Sinks have simple parts ecosystems compared to appliances. Key parts: drain assembly, basket strainer, mounting hardware, sink grid/rack. Kohler/Elkay: universal aftermarket drain assemblies + brand grids. Blanco/Rohl: brand-specific accessories but widely available. Budget brands: generic parts."
+      }
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Kitchen sinks and bathroom sinks scored within the same framework. Sub-type (stainless, fireclay, cast iron, composite, vitreous china) does NOT create an automatic tier advantage — a premium stainless and a premium fireclay can both be Tier 1.",
+    "Stainless gauge is THE critical spec for stainless sinks. 16-gauge T-304 is professional-grade. 18-gauge is standard residential. 20+ gauge is builder-grade. Gauge is the strongest quality signal plumbers cite.",
+    "Construction method matters: handcrafted fireclay (individually formed) > zero-radius welded stainless (precision CNC) > drawn/pressed > stamped.",
+    "Sound deadening is a scored quality spec for stainless sinks. Full pad + spray coverage vs no coverage is a massive real-world difference. Cast iron, fireclay, and composite are inherently silent — this is a genuine material advantage, not a penalty on stainless.",
+    "Performance axis is essentially flat (like faucets). All sinks drain water. Depth, slope, and workstation integration create minor differentiation but the axis compresses. P=0.10.",
+    "Bathroom sinks are predominantly vitreous china. Differentiation comes from glazing quality, china density, rim engineering, and overflow mechanism — not from material class.",
+    "Kohler showroom vs Kohler retail may differ — score the specific product line, not the brand. Same rule as faucets (Rule 19).",
+    "Apron-front/farmhouse installation is a quality signal — requires custom cabinetry and professional installation. Drop-in is the simplest mounting, least premium.",
+    "Corporate structure = report finding (Kohler private family-owned since 1873, Rohl = Fortune Brands Innovations, Blanco = BLANC & FISCHER Family Holding, Kraus = private, Elkay = private family-owned since 1920).",
+    "Score base configuration. Note upgrade availability (e.g., workstation accessories, sink grids, custom drain finishes).",
+    "Warranty exclusion consistency rule applies. All sink warranties exclude abuse, misuse, and improper installation — don't penalize one brand for universal exclusions.",
+    "Fireclay sinks may have slight dimensional variations due to kiln-firing process — this is a feature of handcrafted manufacturing, not a defect."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "VACANT — No independent, methodology-documented, comparative testing source equivalent to StarCraft (faucets), MaP (toilets), or Yale Appliance (dishwashers) exists for residential sinks. No teardown channel, no quantified reliability database. Pool S vacant."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (kitchen sink ratings, material durability comparisons)",
+        "This Old House (expert recommendations, material comparisons, installation guides)",
+        "ASME A112.19.3 / CSA B45.4 (stainless steel plumbing fixture standard)",
+        "ASME A112.19.2 / CSA B45.1 (ceramic plumbing fixture standard — fireclay, vitreous china)",
+        "ANSI Z124 (composite/plastic plumbing fixture standard — thermal cycling, structural integrity, stain resistance)",
+        "Professional plumber review channels (veteranplumbing.us, qualified plumber comparisons)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/Plumbing (professional plumber community — brand hierarchy consensus)",
+        "r/HomeImprovement (experienced renovator sink material comparisons)",
+        "Houzz kitchen/bathroom threads (professional installer opinions)",
+        "SupplyHouse.com product reviews (verified purchaser data)",
+        "YouTube installation/review channels (This Old House, plumber channels)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/KitchenDesign",
+        "Amazon reviews (volume data only — not quality signal)",
+        "Individual homeowner reviews and blogs",
+        "Wayfair reviews"
+      ]
+    }
+  },
+
+  "material_safety_report_only": [
+    "Lead content in glazes (not a concern in modern US production — lead-free standard)",
+    "Nickel leaching from stainless steel (negligible at T-304 grade, documented safe)",
+    "Antimicrobial agent type in coatings (silver-ion, copper-infused — FDA GRAS, no concern)",
+    "cUPC certification status (gate check — uncertified = excluded from scoring)"
+  ],
+
+  "sub_type_note": "Kitchen sinks (stainless, fireclay, cast iron, composite) and bathroom sinks (vitreous china, fireclay) are scored within the same framework. Sub-type-specific spec fields coexist — kitchen-only fields (sound_deadening, workstation_integration, basin_depth, heat_resistance) are omitted for bathroom products. Bathroom-only differentiation is captured through body_material, surface_finish_technology, and construction_method. Same approach as gas/induction in ranges_cooktops and tankless/tank/heat_pump in water_heaters."
+}

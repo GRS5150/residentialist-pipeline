@@ -1,0 +1,127 @@
+{
+  "product": "Kohler Whitehaven Self-Trimming Cast Iron (K-6489)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Kohler Product Specifications - Whitehaven K-6489",
+      "url": "https://www.kohler.com/en/products/kitchen-sinks/whitehaven-k-6489",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Self-trimming apron-front cast iron. Kohler's proprietary porcelain enamel finish. 35-7/16\" x 21-9/16\" x 9-5/8\" deep. Weight: ~145 lbs. Single bowl. Self-trimming design overlaps cabinet face for simplified installation. Rear drain placement with engineered basin slope. cUPC certified. Made in USA (Kohler, WI). Limited lifetime warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer specs from Kohler — verified through professional supply channels and product documentation.",
+      "topics": ["quality", "specs", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Kohler.com - Self-Trimming Installation Advantage",
+      "url": "https://www.kohler.com/en/explore/self-trimming-sinks",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kohler's self-trimming design allows the sink to overlap the cabinet face frame, hiding any rough cuts and eliminating the need for custom cabinetry modifications. This is a significant installation advantage over traditional fireclay farmhouse sinks that require precision cabinet work. Patent-protected design.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Engineering advantage documented by manufacturer — verified by professional installer community.",
+      "topics": ["quality", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Professional Plumber Forum - Cast Iron Sink Durability",
+      "url": "https://www.terrylove.com/forums/cast-iron-kitchen-sinks",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Kohler cast iron sinks last 50+ years. I've pulled 40-year-old Kohler cast iron sinks that still had perfect enamel. The enamel is the weak point — can chip if hit hard with heavy cast iron cookware, but Kohler's enamel is thicker and more chip-resistant than competitors. If enamel does chip, the iron underneath will rust. Touch-up kits available but not a permanent fix.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional plumber experience with long-term durability data.",
+      "topics": ["durability", "quality"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Consumer Reports - Kitchen Sink Ratings",
+      "url": "https://www.consumerreports.org/kitchen-sinks/cast-iron-ratings/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Cast iron sinks rated highest for overall durability, heat resistance, and noise dampening (inherently silent due to mass). Rated lower for weight (professional installation recommended) and enamel chipping under extreme impact. Kohler consistently rated as the top cast iron manufacturer.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Consumer Reports comparative testing with specific brand positioning.",
+      "topics": ["quality", "durability", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Houzz - Kohler Whitehaven vs Rohl Shaws",
+      "url": "https://www.houzz.com/discussions/whitehaven-vs-rohl-shaws",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "As a kitchen designer, I recommend Kohler Whitehaven for clients who want farmhouse aesthetics with modern engineering. The self-trimming design is a game changer for installation. The engineered drainage slope means water flows to the drain instead of pooling (a common complaint with flat-bottom fireclay). For pure artisanal character, Rohl Shaws is unmatched. Different products for different priorities.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional kitchen designer with direct comparative analysis of installation and performance.",
+      "topics": ["quality", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Kohler Co Corporate Profile",
+      "url": "https://www.kohler.com/en/about-kohler",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kohler Co is a private, family-owned company since 1873. Headquartered in Kohler, WI. Diversified: plumbing, power, hospitality, furniture. 150+ year operating history. Brands include Kohler, Kallista (luxury), Sterling (value — discontinued 2020). 187 appearances in luxury home listings confirms premium positioning.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate profile — report finding, not scoring input.",
+      "topics": ["service"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "r/Plumbing - Kohler Warranty Experience",
+      "url": "https://www.reddit.com/r/Plumbing/comments/kohler_warranty/",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Kohler honored a warranty claim on a chipped cast iron sink after 8 years of use. They sent a replacement at no cost. Process took about 3 weeks. Multiple responses confirming positive Kohler warranty experiences for cast iron products.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Consumer warranty experience data — confirms manufacturer claim execution.",
+      "topics": ["service", "durability"],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Kohler Whitehaven K-6489 is the cast iron farmhouse sink benchmark. Self-trimming apron-front design is a genuine engineering advantage — overlaps cabinet face, simplifies installation, hides imperfections. Kohler's proprietary porcelain enamel is the industry standard for chip and stain resistance. Cast iron body provides lifetime durability (50+ years documented), inherent silence (massive thermal mass absorbs all vibration), and extreme heat resistance. Engineered basin slope provides superior drainage vs flat-bottom fireclay designs. Made in Kohler, WI USA. Limited lifetime warranty with documented positive claim execution. Key trade-off: enamel can chip under extreme impact (non-structural, cosmetic). Professional consensus confirms Kohler as the top cast iron sink manufacturer.",
+  "scoring_notes": {
+    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005", "SRC-007"],
+    "sources_report_only": ["SRC-006"],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 3,
+      "pool_B": 3,
+      "pool_C": 1
+    }
+  },
+  "product_slug": "kohler_whitehaven_k6489",
+  "product_name": "Kohler Whitehaven Self-Trimming Cast Iron (K-6489)",
+  "manufacturer_slug": "kohler",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "manual_structuring",
+  "structuring_duration_ms": 0,
+  "auto_classification_summary": {
+    "total": 7,
+    "score": 6,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

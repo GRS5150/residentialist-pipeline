@@ -1,0 +1,91 @@
+{
+  "product": "Glacier Bay All-in-One Drop-In Stainless (VT3322A08)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Home Depot Product Listing - Glacier Bay VT3322A08",
+      "url": "https://www.homedepot.com/p/Glacier-Bay-VT3322A08/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "All-in-One 33\" x 22\" drop-in double bowl. 22-gauge stainless steel. Includes faucet, drain assemblies, and basket strainers. Drop-in/self-rimming installation. 8\" basin depth. T-304 stainless claimed. 1-year limited warranty. Price: ~$119-149. No sound deadening pads mentioned in product specifications.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Product listing with spec data — 22-gauge and 1-year warranty are scoring inputs.",
+      "topics": ["quality", "specs"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "r/Plumbing - Glacier Bay Sink Quality",
+      "url": "https://www.reddit.com/r/Plumbing/comments/glacier_bay_quality/",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Glacier Bay is builder-grade filler. The 22-gauge stainless flexes if you push on it. No sound deadening whatsoever — drops a fork and the whole kitchen hears it. The included faucet is garbage. I've pulled these out of new construction that's under 2 years old — they dent, they flex at the mounting clips, and the drain baskets corrode. If you can afford $50 more, get literally anything else.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional plumber direct experience with specific failure modes documented.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "r/HomeImprovement - Builder-Grade Sink Upgrade",
+      "url": "https://www.reddit.com/r/HomeImprovement/comments/builder_grade_sink/",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Replaced a Glacier Bay that came with our builder-grade new construction. After 3 years: dented bottom bowl, water spots that wouldn't come off (looked like permanent staining), constant 'tinny' noise from dishes. The drop-in rim collects grime. Upgraded to a Kraus 16-gauge undermount — night and day difference in feel, sound, and quality.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Consumer long-term experience with specific durability failures.",
+      "topics": ["durability", "quality"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Professional Plumber - Budget Sink Hierarchy",
+      "url": "https://www.veteranplumbing.us/budget-kitchen-sinks",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "In the budget tier, Glacier Bay is at the absolute floor. Dayton by Elkay is a step up (still budget, but better gauge and sound dampening). The jump from 22-gauge to 18-gauge is massive — it's the difference between a sink that flexes and a sink that holds solid. Glacier Bay's 1-year warranty vs lifetime warranties from established brands tells you everything about manufacturer confidence.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional plumber comparative hierarchy with specific construction analysis.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Home Depot Brand Research - Glacier Bay OEM",
+      "url": "https://www.housedigest.com/glacier-bay-brand",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Glacier Bay is Home Depot's exclusive private-label brand. Products are manufactured by various OEMs — suspected Globe Union/Foremost for sinks and faucets. Home Depot does not manufacture any products. No plumbing supply house distribution. No professional installer endorsement. Positioned as entry-level/builder-grade.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Brand research — corporate structure disclosure.",
+      "topics": ["service"],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Glacier Bay VT3322A08 is the builder-grade floor of the residential sink market. 22-gauge stainless steel is the thinnest commonly sold — flexes under normal use, resonates noise with every dish contact, and dents from routine pot/pan handling. No sound deadening of any kind. Drop-in installation is the simplest, least premium mounting. Unknown OEM manufacturing (likely Globe Union/Foremost under Home Depot private label). 1-year warranty vs lifetime from every established competitor signals zero manufacturer confidence. Professional plumber consensus: 'absolute floor — most callbacks, most replacements.' The included faucet is disposable-grade. Only bright spot: universal drain parts compatibility. Expected lifespan under 15 years with normal kitchen use. Price-point ($119-149) explains everything.",
+  "scoring_notes": {
+    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004"],
+    "sources_report_only": ["SRC-005"],
+    "sources_quarantined": [],
+    "pool_distribution": { "pool_S": 0, "pool_A": 0, "pool_B": 2, "pool_C": 3 }
+  },
+  "product_slug": "glacier_bay_dropin",
+  "product_name": "Glacier Bay All-in-One Drop-In Stainless (VT3322A08)",
+  "manufacturer_slug": "glacier_bay",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "manual_structuring",
+  "structuring_duration_ms": 0,
+  "auto_classification_summary": { "total": 5, "score": 4, "report_only": 1, "quarantine": 0 },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

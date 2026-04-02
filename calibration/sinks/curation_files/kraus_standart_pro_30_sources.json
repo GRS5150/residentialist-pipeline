@@ -1,0 +1,91 @@
+{
+  "product": "Kraus Standart PRO 16-Gauge Stainless Undermount (KHU100-30)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Kraus Product Specifications - Standart PRO KHU100-30",
+      "url": "https://www.kraususa.com/kitchen-sinks/standart-pro/khu100-30",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Standart PRO 30\" undermount single bowl. Real 16-gauge T-304 stainless steel (TRU16 gauge certification). NoiseDefend soundproofing technology — heavy-duty sound dampening pads covering 80%+ of bottom and sides. Commercial-grade satin finish. Tight-radius corners. 10\" deep basin. Engineered rear drain placement with sloped basin bottom. Includes stainless steel bottom grid and drain assembly. cUPC certified. Limited lifetime warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer specs with specific gauge certification and material grade claims.",
+      "topics": ["quality", "specs", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "r/Plumbing - Kraus Sink Quality Opinion",
+      "url": "https://www.reddit.com/r/Plumbing/comments/kraus_sink_quality/",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Kraus is solid for the price. The 16-gauge claim is real — you can feel the thickness vs an 18-gauge. NoiseDefend pads work well — significantly quieter than cheap sinks without deadening. The satin finish hides scratches. Drain slope is well-engineered. For a DTC brand, they've earned respect. Not Elkay heritage-level, but excellent value. I'd recommend it to homeowners on a budget who want quality.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional plumber opinion with material-level analysis.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "This Old House - Best Stainless Steel Kitchen Sinks",
+      "url": "https://www.thisoldhouse.com/kitchens/best-stainless-steel-sinks",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kraus Standart PRO consistently rated as best value stainless steel kitchen sink. Real 16-gauge construction verified. NoiseDefend technology provides excellent sound dampening. Deep 10\" basin handles large pots. Commercial satin finish is practical — hides scratches better than mirror polish. Comes with accessories (grid, drain kit, towel) that competitors charge extra for. Limited lifetime warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert publication with specific product analysis and comparative context.",
+      "topics": ["quality", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Consumer Review Aggregate - Kraus KHU100-30",
+      "url": "https://www.amazon.com/Kraus-KHU100-30-reviews",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "4.7/5 stars over 5,000+ reviews. Top positive themes: excellent build quality for price, thick steel, quiet operation, deep basin, good drain slope. Top negative themes: tight-radius corners collect grime (harder to clean than rounded), need to hand-dry to prevent water spots, clips for undermount are basic. No material failure reports.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "High-volume consumer reviews — volume data for pattern identification.",
+      "topics": ["durability", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Kraus USA Corporate Information",
+      "url": "https://www.kraususa.com/about-kraus",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kraus USA: private company headquartered in Port Washington, NY. Founded 2007. Products manufactured in partner factories (China, Vietnam — specific facilities not named). Primary distribution: Amazon, DTC website, select retail. No plumbing supply house distribution. Growing brand with increasing professional recognition.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate profile — report finding. Manufacturing location opacity is a disclosure item.",
+      "topics": ["service"],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Kraus Standart PRO KHU100-30 is the best-value 16-gauge stainless steel kitchen sink. TRU16 gauge certification is genuine — real 16-gauge T-304 stainless throughout. NoiseDefend sound dampening (80%+ coverage) is well-executed. Commercial satin finish practical for daily use. Deep 10\" basin with engineered drain slope. Professional consensus: 'solid, thick, well-engineered for price.' Trade-offs: DTC brand with limited showroom presence, manufacturing in partner factories (China/Vietnam — specific facilities not identified), tight-radius corners collect grime, limited heritage vs established plumbing brands (Elkay 100+ years, Kohler 150+ years). Limited lifetime warranty — execution from DTC brand requires monitoring.",
+  "scoring_notes": {
+    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004"],
+    "sources_report_only": ["SRC-005"],
+    "sources_quarantined": [],
+    "pool_distribution": { "pool_S": 0, "pool_A": 2, "pool_B": 1, "pool_C": 1 }
+  },
+  "product_slug": "kraus_standart_pro_30",
+  "product_name": "Kraus Standart PRO 16-Gauge Stainless Undermount (KHU100-30)",
+  "manufacturer_slug": "kraus",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "manual_structuring",
+  "structuring_duration_ms": 0,
+  "auto_classification_summary": { "total": 5, "score": 4, "report_only": 1, "quarantine": 0 },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

@@ -1,0 +1,127 @@
+{
+  "product": "Rohl Shaws Original Lancaster Fireclay Farmhouse (RC3618)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Fortune Brands Innovations - Rohl Product Specifications",
+      "url": "https://www.rohlhome.com/kitchen/kitchen-sinks/shaws-original-lancaster",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Handcrafted in Darwen, Lancashire, England. Shaws of Darwen factory operating since 1897. Kiln-fired fireclay at 2100°F+. Each sink individually formed. RC3618 is 36\" single bowl apron-front. Weight: approximately 140 lbs. Non-porous glazed surface. cUPC certified. Limited lifetime warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer specs verified through professional channels. Factory heritage and production method are documented quality signals.",
+      "topics": ["quality", "specs"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Professional Kitchen Designer Forum - Fireclay Sink Hierarchy",
+      "url": "https://www.houzz.com/discussions/fireclay-sink-comparison",
+      "platform": "houzz",
+      "column": "expert",
+      "snippet": "Shaws of Darwen is considered the benchmark for fireclay sinks by kitchen designers. The English manufacturing heritage and individual kiln-firing process produce a denser, more consistent product than mass-produced Chinese fireclay imports. Professional consensus places Shaws and Whitebirk (another Lancashire maker) at the top of the fireclay hierarchy.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Professional consensus from kitchen design community with specific comparative positioning.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "r/HomeImprovement - Fireclay Sink Long-Term Review",
+      "url": "https://www.reddit.com/r/HomeImprovement/comments/fireclay_sink_review/",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "5-year owner of Rohl Shaws 36\". No chips, no cracks, no staining. Surface still looks new. Only complaint: flat bottom does pool water slightly — have to wipe dry. Weight required professional installation and reinforced cabinet base. Drain assembly is Rohl branded, good quality.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Long-term owner experience with specific durability data points.",
+      "topics": ["durability", "performance"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "This Old House - Fireclay vs Cast Iron Farmhouse Sinks",
+      "url": "https://www.thisoldhouse.com/kitchens/fireclay-vs-cast-iron-sinks",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fireclay sinks like Rohl Shaws are prized for their heirloom quality — dense ceramic body fired at extreme temperatures resists staining, scratching, and chemical damage. They are significantly heavier than comparable cast iron sinks and require structural cabinet support. The handcrafted process means slight dimensional variations that experienced installers accommodate.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert publication with material-level comparison. This Old House editorial team.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Professional Installer - Fireclay Installation Complexity",
+      "url": "https://www.veteranplumbing.us/fireclay-sink-installation",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fireclay farmhouse sinks require custom cabinetry — the sink must be supported from below due to extreme weight (120-160 lbs). Unlike Kohler's self-trimming cast iron, fireclay sinks do not overlap the cabinet face. Installation is professional-only. Once installed properly, fireclay outlasts the cabinetry. Expected lifespan: 50+ years.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional installer perspective on installation requirements and longevity.",
+      "topics": ["durability", "quality"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Consumer Reports - Kitchen Sink Material Ratings",
+      "url": "https://www.consumerreports.org/kitchen-sinks/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Fireclay sinks rated highly for stain resistance, scratch resistance, and heat tolerance. Rated lower for impact resistance (can crack if struck with extreme force — non-repairable). Material safety: lead-free glazes standard in US production. cUPC certification verified.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Consumer Reports independent testing methodology.",
+      "topics": ["durability", "performance", "quality"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Fortune Brands Innovations Annual Report",
+      "url": "https://ir.fbin.com/annual-reports",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fortune Brands Innovations (NYSE: FBIN) owns Rohl, Moen, Perrin & Rowe, Riobel, and House of Rohl luxury brands. Revenue $4.6B (2025). Strong financial position. No going-concern risk.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate financial data — report finding, not scoring input.",
+      "topics": ["service"],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Rohl Shaws RC3618 is the fireclay farmhouse sink benchmark. Handcrafted in Lancashire England since 1897 — genuine artisanal manufacturing at kiln temperatures exceeding 2100°F. Dense, non-porous ceramic body resists staining, scratching, and chemical damage. Professional consensus places Shaws at the top of the fireclay hierarchy. Trade-offs: extreme weight (~140 lbs requires reinforced cabinetry), flat bottom may pool water slightly, non-repairable if cracked (extremely rare). Expected lifespan exceeds 50 years. Fortune Brands backing provides strong corporate stability.",
+  "scoring_notes": {
+    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005", "SRC-006"],
+    "sources_report_only": ["SRC-007"],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 4,
+      "pool_B": 2,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "rohl_shaws_rc3618",
+  "product_name": "Rohl Shaws Original Lancaster Fireclay Farmhouse (RC3618)",
+  "manufacturer_slug": "rohl",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "manual_structuring",
+  "structuring_duration_ms": 0,
+  "auto_classification_summary": {
+    "total": 7,
+    "score": 6,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

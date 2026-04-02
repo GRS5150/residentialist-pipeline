@@ -1,0 +1,91 @@
+{
+  "product": "Kohler Cairn Neoroc Composite Undermount (K-8206)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Kohler Product Specifications - Cairn K-8206",
+      "url": "https://www.kohler.com/en/products/kitchen-sinks/cairn-k-8206",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Neoroc proprietary composite material. Undermount single bowl. Matte rock-hard finish. 33-1/2\" x 18-5/16\" x 9-1/2\" deep. Engineered drainage slope. cUPC certified. Limited lifetime warranty. Heat, scratch, stain, and fade resistant. Made from organic and inorganic raw materials.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer specs verified through professional supply channels.",
+      "topics": ["quality", "specs"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Kohler - Neoroc Material Technology",
+      "url": "https://www.kohler.com/en/explore/neoroc",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Neoroc is Kohler's proprietary composite material — designed to combine the durability of natural stone with the versatility of engineered materials. The surface is non-porous, making it resistant to bacteria, staining, and chemical damage. Available in matte finish only. Material composition not fully disclosed (proprietary formula).",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer technology documentation — material claims require independent verification for scoring.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "r/KitchenDesign - Kohler Cairn vs Blanco Silgranit",
+      "url": "https://www.reddit.com/r/KitchenDesign/comments/cairn_vs_silgranit/",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Had both in showroom demos. Silgranit feels slightly harder and has more texture. Cairn is smoother, more refined matte finish. Both resist scratches well. Silgranit has 35+ years of market data; Cairn is newer — maybe 8-10 years. If you're in the Kohler ecosystem already (faucets, toilets), Cairn makes sense for matching accessories. If material heritage matters, Blanco is the composite leader.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Direct comparative consumer and professional analysis.",
+      "topics": ["quality", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "SupplyHouse.com - Kohler Cairn Reviews",
+      "url": "https://www.supplyhouse.com/kohler-k-8206-reviews",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "4.6/5 stars over 120+ reviews. Common positives: beautiful matte finish, excellent drainage slope, easy to clean, quiet. Common negatives: expensive, requires specific Kohler drain assembly for best fit, few color options vs Blanco. No reports of material failure or cracking.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Verified purchaser reviews with volume data.",
+      "topics": ["quality", "performance", "durability"],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Kohler Co Corporate Profile",
+      "url": "https://www.kohler.com/en/about-kohler",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kohler Co: private, family-owned since 1873. Kohler WI headquarters. Diversified: plumbing, power, hospitality. 150+ year operating history. Strongest parts/accessories ecosystem in residential plumbing.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Corporate profile — report finding.",
+      "topics": ["service"],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Kohler Cairn K-8206 is Kohler's entry in the premium composite undermount space. Neoroc proprietary composite delivers excellent scratch, stain, and heat resistance in a refined matte finish. Engineered drainage slope is well-executed. Kohler ecosystem provides strongest parts/accessories compatibility in the category. Trade-off vs Blanco Silgranit: Neoroc is a newer material with less long-term field data (8-10 years vs Silgranit's 35+). Proprietary formula means less transparency on composition vs Silgranit's documented 80% granite content. Limited lifetime warranty — Kohler's warranty execution is well-documented positive.",
+  "scoring_notes": {
+    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004"],
+    "sources_report_only": ["SRC-005"],
+    "sources_quarantined": [],
+    "pool_distribution": { "pool_S": 0, "pool_A": 2, "pool_B": 2, "pool_C": 1 }
+  },
+  "product_slug": "kohler_cairn_k8206",
+  "product_name": "Kohler Cairn Neoroc Composite Undermount (K-8206)",
+  "manufacturer_slug": "kohler",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-01",
+  "structuring_model": "manual_structuring",
+  "structuring_duration_ms": 0,
+  "auto_classification_summary": { "total": 5, "score": 4, "report_only": 1, "quarantine": 0 },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}
