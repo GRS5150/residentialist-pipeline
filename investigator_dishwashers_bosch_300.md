@@ -1,23 +1,16 @@
-I cannot produce the investigator report because the essential evidence data is missing from your request.
+I cannot complete this investigator analysis because no scored evidence has been provided. The "SCORED EVIDENCE:" section is empty, and there's no curation file with source IDs to cite.
 
-**Missing Critical Components:**
+To produce the required analysis, I need:
 
-1. **SCORED EVIDENCE section is empty** — I need the curated evidence with source IDs to:
-   - Calculate the three axis scores (Quality, Durability, Performance)
-   - Cite specific evidence for strengths and deficiencies
-   - Determine Material Safety rating
+1. **Scored evidence data** - Performance metrics, reliability data, quality assessments, etc. with source citations
+2. **Company/manufacturing information** - To complete the mandatory Company Background section
+3. **Technical specifications and test results** - To justify the axis scores and identify strengths/deficiencies
+4. **Failure/repair data** - For the Repair Economics section
 
-2. **BOTTOM LINE FROM CURATION is empty** — This typically contains key summary insights needed for the analysis
+Without this foundational evidence, I cannot:
+- Determine individual axis scores that average to the locked composite of 70
+- Cite specific sources for strengths and deficiencies (Rule 4)
+- Provide the company background analysis
+- Justify the score decomposition
 
-3. **Product identification unclear** — The format shows "Bosch 300 Series" but no specific product details
-
-**What I Need:**
-- Curated evidence entries with source IDs
-- Product specifications and test data
-- Customer feedback/review data
-- Company/manufacturing information
-- Any platform sharing or corporate structure details
-
-Without this evidence foundation, I cannot fulfill Rule #4 ("Every claim must trace to a source ID") or provide the required axis score variance and specific assessments.
-
-Please provide the complete evidence file and I'll deliver the full investigator analysis.
+Please provide the scored evidence and curation file so I can complete the investigation properly.

@@ -1,22 +1,21 @@
-I notice there's a critical issue with the information provided for this investigation. While I have the locked score (57/100), axis weights, and reporting structure, the actual evidence file appears to be empty or corrupted - I see no scored evidence, no report-only evidence, and no bottom line from curation.
+I cannot complete this investigator analysis because the essential evidence data is missing from your request. 
 
-Without the underlying evidence data that should contain:
-- Performance test results
-- Quality assessments
-- Durability metrics
-- User feedback
-- Technical specifications
-- Reliability data
-- Source citations
+**Missing Required Elements:**
+- SCORED EVIDENCE section is empty
+- BOTTOM LINE FROM CURATION is empty  
+- CORPORATE OUTLOOK shows "Not specified"
+- MANDATORY PLATFORM DISCLOSURE shows "[object Object]" (corrupted data)
 
-I cannot produce a legitimate investigator analysis. The core rule states that "Every claim must trace to a source ID from the curation file" - but no curation file content is visible.
+**What I Need:**
+1. The actual evidence from testing, reviews, and field reports that drove the 57/100 score
+2. The curation team's bottom line assessment
+3. Source citations for all claims (required by Rule 4)
+4. Proper platform disclosure information
+5. Corporate outlook data
 
-Additionally, the "MANDATORY PLATFORM DISCLOSURE" shows "[object Object]" which appears to be a data formatting error rather than actual disclosure content.
+**Current Status:**
+- Product: Whirlpool (standard)
+- Locked Score: 57/100 (Tier 4)
+- Axis weights: Quality=0.3, Durability=0.4, Performance=0.3
 
-To complete this investigation properly, I would need:
-1. The complete scored evidence file with source IDs
-2. The curation data with specific findings
-3. The actual platform disclosure text
-4. Any report-only evidence that supports company background
-
-Could you please provide the complete evidence package for this Whirlpool product analysis?
+Without the scored evidence, I cannot determine what drove this score or calculate the individual axis scores that must show real variance per Rule 1. Please provide the complete evidence file so I can trace every claim to source IDs as required.

@@ -1,10 +1,18 @@
-I cannot complete this investigator analysis because no evidence has been provided in the curation file. The "SCORED EVIDENCE" and "REPORT-ONLY EVIDENCE" sections are empty, and there is no "BOTTOM LINE FROM CURATION" content.
+I cannot produce the investigator report because no evidence has been provided in the SCORED EVIDENCE section. The curation file that should contain the source material and evidence citations is empty.
 
-To produce a valid investigator report that meets the requirements, I need:
+To generate a proper investigator analysis for this Samsung mid-range product with a locked score of 44/100, I would need:
 
-1. **Scored evidence** with source IDs to determine the three axis scores (Quality, Durability, Performance) that average to the locked score of 44/100
-2. **Product identification** - while "Samsung (mid-range)" is referenced, I need specific evidence about which Samsung product this analysis covers
-3. **Source citations** - all claims must trace to source IDs from the curation file
-4. **Evidence for required sections** - company background, strengths, deficiencies, repair economics, etc.
+1. **Scored evidence** with source IDs that I can cite for each axis (Quality, Durability, Performance)
+2. **Company background information** about Samsung's ownership, manufacturing, and financial status
+3. **Specific product data** showing strengths and deficiencies
+4. **Material safety information** 
+5. **Repair and reliability data**
 
-Please provide the complete curation file with evidence and source citations so I can conduct the proper analysis.
+Without this foundational evidence, I cannot:
+- Determine the individual axis scores that average to 44
+- Identify specific strengths and deficiencies with proper citations
+- Provide company background details
+- Assess material safety
+- Give repair economics information
+
+Please provide the complete curation file with scored evidence and source materials so I can conduct the proper investigative analysis.

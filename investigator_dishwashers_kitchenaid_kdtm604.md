@@ -1,23 +1,22 @@
-I cannot produce this investigator report because the evidence sections are completely empty. The template shows:
+I cannot produce the requested investigator report because the critical evidence data is missing from your prompt.
 
-**SCORED EVIDENCE:** (blank)
-**REPORT-ONLY EVIDENCE:** (none)
-**BOTTOM LINE FROM CURATION:** (blank)
+**Missing Required Elements:**
+- SCORED EVIDENCE section is empty
+- BOTTOM LINE FROM CURATION is empty
+- MANDATORY PLATFORM DISCLOSURE shows "[object Object]" instead of actual content
+- No source citations available to support any claims
 
-Without any evidence from the curation file, I cannot:
-- Determine the individual axis scores that would sum to the locked composite of 83
-- Identify specific strengths and deficiencies with source citations
-- Provide company background information
-- Assess material safety
-- Make any factual claims about the product
+**What I Need:**
+- Actual product evidence with source IDs for citation
+- Performance data, quality metrics, durability testing results
+- Company information and manufacturing details
+- Platform/manufacturing relationships
+- Failure patterns and repair cost data
 
-The rules explicitly state that "Every claim must trace to a source ID from the curation file. No speculation." Since no evidence or sources are provided, I cannot fulfill the investigator role as defined.
+Without this foundational evidence, I cannot:
+- Calculate the three axis scores that must average to 83
+- Identify specific strengths and deficiencies with proper citations
+- Provide company background or repair economics
+- Meet the requirement that "every claim must trace to a source ID"
 
-To complete this analysis, I would need:
-- Actual evidence entries with source IDs
-- Performance data, quality assessments, and durability information
-- Company/manufacturing background from reliable sources
-- Material safety information
-- Any relevant platform disclosure details
-
-Please provide the curation file evidence to enable the investigator analysis.
+Please provide the complete evidence file so I can produce the proper investigator analysis following your specified format and rules.
