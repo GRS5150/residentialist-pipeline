@@ -1,0 +1,98 @@
+{
+  "product": "Rinnai RU199iN SENSEI Condensing Tankless",
+  "slug": "rinnai_ru199in",
+  "sub_type": "tankless_gas",
+  "category": "water_heaters",
+  "locked_score": 93,
+  "tier": 1,
+  "label": "Best in Class",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Rinnai Corporation — publicly traded (TSE: 5947), headquartered in Nagoya, Japan",
+  "manufacturing_location": "Engineering: Nagoya, Japan. US Assembly: Griffin, Georgia",
+
+  "quality_evidence": {
+    "heat_exchanger": {
+      "type": "dual_stainless_steel",
+      "description": "Dual stainless steel heat exchangers in condensing configuration. Primary HX captures initial combustion heat. Secondary HX captures latent heat from exhaust gases (condensing technology). Stainless steel resists acidic condensate corrosion.",
+      "sources": ["rinnai.us", "supplyhouse.com", "ruralenergy.com"]
+    },
+    "burner_system": {
+      "type": "premix_metal_fiber",
+      "description": "SENSEI series premix metal fiber burner for precise gas-air mixture. Low NOx emissions. Modulates between 15,000 and 199,000 BTU.",
+      "sources": ["rinnai.us"]
+    },
+    "construction": {
+      "body": "Compact wall-mounted unit, ~64 lbs, 31.3\" x 18.5\" x 11.45\"",
+      "source_traceability": "Japanese-engineered (Nagoya), US-assembled (Griffin, GA). Rinnai operates its own US manufacturing facility.",
+      "sources": ["rinnai.us", "warnersstellian.com"]
+    },
+    "distribution": {
+      "channel": "Professional and authorized retail — Rinnai requires certified installer training for warranty eligibility",
+      "sources": ["rinnai.us"]
+    }
+  },
+
+  "performance_evidence": {
+    "uef": 0.95,
+    "max_gpm": 11.0,
+    "btu_input_range": "15,000 – 199,000 BTU",
+    "temperature_rise": "Excellent — rated for high-demand applications (multiple simultaneous fixtures)",
+    "recirculation": "Circ-Logic technology — compatible with external recirculation pump for reduced wait time and water waste. No built-in pump (Navien has this).",
+    "smart_connectivity": "Wi-Fi ready (module may be separate). Control-R app for remote monitoring and scheduling.",
+    "sources": ["rinnai.us", "supplyhouse.com", "greenenergyhelps.com"]
+  },
+
+  "durability_evidence": {
+    "heat_exchanger_warranty": {
+      "years": 15,
+      "conditions": "15-year residential limited warranty on heat exchanger. 12,000 operating hours. No conditional terms based on recirculation type (unlike Navien).",
+      "sources": ["rinnai.us", "supplyhouse.com"]
+    },
+    "parts_warranty": {
+      "years": 5,
+      "description": "5-year limited warranty on parts.",
+      "sources": ["supplyhouse.com"]
+    },
+    "labor_warranty": {
+      "years": 1,
+      "sources": ["supplyhouse.com"]
+    },
+    "expected_lifespan": "20+ years with proper maintenance (annual flushing for scale)",
+    "parts_availability": {
+      "type": "brand_specific_available",
+      "description": "Rinnai parts available through authorized distributors and online retailers. Established US parts network — stronger than Noritz, comparable to Navien.",
+      "sources": ["rinnai.us", "supplyhouse.com"]
+    },
+    "service_network": {
+      "type": "brand_certified_network",
+      "description": "Rinnai PRO Network — certified installer and service technician training program. Requires Rinnai-specific training for warranty work.",
+      "sources": ["rinnai.us"]
+    },
+    "common_failure_modes": {
+      "primary": "Scale buildup on heat exchanger (hard water — requires annual flushing)",
+      "secondary": "Flame rod sensor fouling (carbon/soot buildup — cleanable)",
+      "tertiary": "PCB/control board failure (uncommon but documented after 8-10 years)",
+      "sources": ["r/Plumbing consensus", "callmother.com", "foxservice.com"]
+    }
+  },
+
+  "safety_evidence": {
+    "certifications": "ANSI Z21.10.3 / CSA 4.3 certified. Low NOx compliant.",
+    "recalls": "None identified for RU199iN SENSEI series.",
+    "venting": "Direct vent or power vent required for indoor installation. Concentric or two-pipe PVC venting (condensing allows PVC — major installation advantage over non-condensing which requires stainless vent)."
+  },
+
+  "platform_disclosure": {
+    "corporate": "Rinnai Corporation is a single-brand residential water heater manufacturer (no sub-brands or rebadging). Also manufactures gas heaters, boilers, and kitchen appliances in Japan.",
+    "cross_brand": "None — Rinnai does not rebadge products for other brands in the US market."
+  },
+
+  "corrections": [],
+
+  "source_pool_classification": {
+    "S": ["VACANT — No Yale Appliance equivalent for water heaters"],
+    "A": ["rinnai.us (manufacturer)", "Consumer Reports (water heater ratings)", "AHRI certification"],
+    "B": ["supplyhouse.com", "greenenergyhelps.com", "r/Plumbing professional consensus"],
+    "C": ["warnersstellian.com", "ruralenergy.com"]
+  }
+}

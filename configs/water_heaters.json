@@ -1,0 +1,315 @@
+{
+  "category": "water_heaters",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "parent_category": "plumbing",
+  "notes": "Tankless (gas), storage tank (gas/electric), and heat pump water heaters scored within one framework. Sub-type (tankless vs tank vs heat pump) is a key differentiator but does NOT create an automatic tier advantage — a great tankless, a great pro-grade tank, and a great heat pump can all be Tier 1. For tankless: heat exchanger material and condensing technology are THE critical specs. For tank: glass lining quality, anode rod type, and steel gauge define the product. For heat pump: COP/UEF, compressor quality, and ambient operating range. Rinnai appeared 78 times in luxury home listings — tankless is a quality signal in the $2-5M home market.",
+
+  "axis_weights": {
+    "quality": 0.30,
+    "durability": 0.40,
+    "performance": 0.30
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Rinnai RU199iN SENSEI Condensing Tankless", "slug": "rinnai_ru199in", "sub_type": "tankless_gas", "target_range": [92, 96] },
+        { "name": "Navien NPE-240A2 Condensing Tankless", "slug": "navien_npe240a2", "sub_type": "tankless_gas", "target_range": [90, 94] }
+      ],
+      "notes": "Evidence-driven placement. Rinnai: 78 luxury listing sightings — the brand luxury builders name. SENSEI series with dual stainless HX, 0.95 UEF, 11 GPM, 15yr HX warranty, Nagoya Japan engineering. Navien: dual stainless HX, built-in recirculation pump (ComfortFlow), 0.96 UEF, 11.2 GPM, 15yr HX warranty (controlled recirc), Korean manufacturing, innovation leader. Professional consensus places both at or near top. Tier placement to be confirmed by deep dive evidence."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Noritz EZ111DV Condensing Tankless", "slug": "noritz_ez111dv", "sub_type": "tankless_gas", "target_range": [80, 85] },
+        { "name": "Bradford White RG250T6N (50 gal Tank)", "slug": "bradford_white_rg2", "sub_type": "tank_gas", "target_range": [78, 83] }
+      ],
+      "notes": "Noritz: dual stainless HX, 0.98 UEF (highest in calibration set), 11.1 GPM, 25yr HX warranty (best in class), Japanese engineering. Bradford White: professional-only distribution (not sold at retail), Vitraglas enamel lining, Hydrojet sediment control, brass drain valve, ICON millivolt gas control, Microban antimicrobial. US-made (Middleville MI). 6yr standard warranty. The 'plumber's choice' tank."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "A.O. Smith ProLine XE (50 gal Tank)", "slug": "ao_smith_proline_xe", "sub_type": "tank_gas", "target_range": [65, 70] },
+        { "name": "Rheem ProTerra XE80 Heat Pump (80 gal)", "slug": "rheem_proterra", "sub_type": "heat_pump", "target_range": [68, 73] },
+        { "name": "Rheem Performance Plus (50 gal Tank)", "slug": "rheem_performance_plus", "sub_type": "tank_gas_electric", "target_range": [58, 63] }
+      ],
+      "notes": "A.O. Smith ProLine XE: Professional distribution. Blue Diamond glass lining, CoreGard stainless anode, DynaClean sediment system. 0.72 UEF (power vent gas). 6yr warranty. Strong mid-tier. Rheem ProTerra: Heat pump technology, 4.07 UEF, 80 gal, EcoNet WiFi, 10yr warranty, R-134a refrigerant. Innovation leader in heat pump category but compressor complexity adds failure modes. Rheem Performance Plus: Home Depot retail. 9yr warranty. Self-cleaning. Enhanced anode rod. Brass drain valve on some SKUs. Upgraded retail but still retail positioning."
+    },
+    {
+      "tier": 4,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with no US-based service infrastructure, generic/unknown heat exchanger sourcing, documented pattern failures, or active safety recalls. Budget electric tankless (EcoSmart, Camplux) with unknown component sourcing potentially here. Also: builder-grade 6yr retail tank models with plastic drain valves, commodity anode rods."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with active safety recalls, imported units with no AHRI certification, or documented explosion/fire hazards."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "sub_type",
+        "type": "categorical",
+        "adjustments": { "tankless_condensing": 0, "tankless_non_condensing": -1, "tank_pro_grade": 0, "tank_retail": -1, "heat_pump_premium": 0, "heat_pump_basic": -1 },
+        "notes": "Sub-type is a differentiator, not a quality hierarchy. Condensing tankless, pro-grade tank, and premium heat pump are all premium. Non-condensing tankless and basic retail tank are budget positioning. Same approach as gas/induction in ranges."
+      },
+      {
+        "field": "heat_exchanger_material_tankless",
+        "type": "categorical",
+        "adjustments": {
+          "dual_stainless_steel": 1,
+          "copper_primary_stainless_secondary": 1,
+          "copper_single": 0,
+          "unknown_undisclosed": -2
+        },
+        "notes": "Tankless only. Copper has 25x better thermal conductivity but is susceptible to acidic condensate corrosion. Stainless resists condensate but transfers heat slower. Both premium approaches are valid — Rinnai uses copper+stainless, Navien/Noritz use dual stainless. Unknown sourcing = quality risk."
+      },
+      {
+        "field": "glass_lining_technology_tank",
+        "type": "categorical",
+        "adjustments": {
+          "proprietary_premium": 2,
+          "standard_glass_enamel": 0,
+          "basic_undisclosed": -1
+        },
+        "notes": "Tank only. Bradford White Vitraglas and A.O. Smith Blue Diamond are named, proprietary lining processes with documented specifications. Standard glass enamel is commodity. Basic/undisclosed = quality risk. Glass lining is the tank's first line of defense against corrosion — failure = tank replacement."
+      },
+      {
+        "field": "anode_rod_type_tank",
+        "type": "categorical",
+        "adjustments": {
+          "powered_titanium": 2,
+          "stainless_steel_coregard": 1,
+          "magnesium_standard": 0,
+          "aluminum": -1
+        },
+        "notes": "Tank only. Powered titanium (non-depleting, uses small electrical current) is the premium option. A.O. Smith CoreGard stainless is a step above commodity. Magnesium is standard but depletes faster in soft water. Aluminum is lowest cost, may produce sediment."
+      },
+      {
+        "field": "drain_valve_material",
+        "type": "categorical",
+        "adjustments": { "brass": 1, "plastic": -1 },
+        "notes": "Tank only. Brass drain valves are the pro-grade standard — durable, reliable. Plastic valves crack, leak, and are a tell-tale sign of builder-grade construction."
+      },
+      {
+        "field": "burner_system_gas",
+        "type": "categorical",
+        "adjustments": {
+          "premix_metal_fiber": 1,
+          "premix_stamped": 0,
+          "atmospheric": -1
+        },
+        "notes": "Gas tankless and gas tank. Premix metal fiber burners (Rinnai SENSEI) provide precise gas-air mixing for cleaner combustion and lower NOx. Premix stamped is standard condensing. Atmospheric is basic non-condensing."
+      },
+      {
+        "field": "distribution_channel",
+        "type": "categorical",
+        "adjustments": { "professional_only": 1, "professional_and_retail": 0, "retail_only": -1 },
+        "notes": "Bradford White's pro-only model correlates with thicker steel, better components, and professional installation requirement. Pro+retail (A.O. Smith, Rheem ProLine) is standard. Retail-only (Home Depot exclusive) is associated with lower component quality."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_or_undisclosed": -1
+        },
+        "notes": "Rinnai (+1, Nagoya Japan). Bradford White (+1, Middleville MI / Niles MI). A.O. Smith (0, Ashland City TN + international). Navien (0, Seoul/Kyungdong Korea). Rheem (0, multi-plant). Noritz (0, Kobe Japan + USA assembly)."
+      }
+    ],
+    "performance": [
+      {
+        "field": "uef_efficiency",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=3.50": 2, "0.90-3.49": 1, "0.80-0.89": 0, "0.63-0.79": -1, "<0.63": -2 },
+        "notes": "UEF spans massive range: heat pump 3.5-4.07, condensing tankless 0.93-0.98, non-condensing tankless 0.79-0.83, gas tank 0.58-0.72, electric tank 0.90-0.95. Heat pump UEF is NOT directly comparable to gas UEF — different bin testing. But within sub-type, UEF is the primary efficiency metric."
+      },
+      {
+        "field": "max_gpm_tankless",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=11.0": 1, "8.0-10.9": 0, "5.0-7.9": -1, "<5.0": -2 },
+        "notes": "Tankless only. GPM is THE capacity metric. Rinnai RU199iN: 11 GPM. Navien NPE-240A2: 11.2 GPM. Noritz EZ111: 11.1 GPM. Budget: 5-7 GPM."
+      },
+      {
+        "field": "first_hour_rating_tank",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=80": 1, "60-79": 0, "<60": -1 },
+        "notes": "Tank and heat pump only. First hour rating measures gallons delivered in first hour. Bradford White RG2: 81 gal. Rheem ProTerra: 87 gal. Standard residential: 60-70 gal."
+      },
+      {
+        "field": "temperature_rise_capability",
+        "type": "categorical",
+        "adjustments": { "excellent_high_demand": 1, "good_standard_demand": 0, "limited_warm_climate_only": -1 },
+        "notes": "Tankless: ability to deliver target temp rise at high flow rates. Critical in cold-climate installations where incoming water is 40-50°F. Products rated for 70°F rise at 5+ GPM = excellent."
+      },
+      {
+        "field": "recirculation_system",
+        "type": "categorical",
+        "adjustments": { "built_in_pump_and_buffer": 1, "compatible_external": 0, "not_compatible": -1 },
+        "notes": "Navien ComfortFlow includes built-in pump + buffer tank = instant hot water, no cold water sandwich. Rinnai Circ-Logic compatible with external pump. Most tanks have no recirculation provision. Genuine user experience differentiator."
+      },
+      {
+        "field": "noise_dba",
+        "type": "categorical",
+        "adjustments": { "quiet_under_50": 1, "standard_50_60": 0, "loud_over_60": -1 },
+        "notes": "Heat pump and tankless both generate audible noise. Heat pump compressor ~50-55 dBA (like a refrigerator). Tankless fan/blower varies. Tank is essentially silent (quality advantage for tank sub-type). Relevant for interior installation."
+      },
+      {
+        "field": "smart_connectivity",
+        "type": "categorical",
+        "adjustments": { "wifi_with_diagnostics": 1, "basic_wifi": 0, "none": 0 },
+        "notes": "Rheem EcoNet and Navien NaviLink provide remote monitoring, diagnostics, and scheduling. Rinnai Control-R provides similar. Smart features are a genuine convenience differentiator but also add electronic failure points. No penalty for no connectivity — simple is not inferior."
+      }
+    ],
+    "durability": [
+      {
+        "field": "heat_exchanger_warranty_years_tankless",
+        "type": "threshold",
+        "adjustments": { ">=20": 2, "15-19": 1, "10-14": 0, "<10": -1 },
+        "notes": "Tankless only. Noritz EZ111: 25yr (best in class). Rinnai RU199iN: 15yr. Navien NPE-240A2: 15yr (with controlled recirc, 5yr without). Warranty term is a manufacturer confidence signal. Navien's conditional warranty (5yr uncontrolled recirc) is a real concern."
+      },
+      {
+        "field": "tank_warranty_years",
+        "type": "threshold",
+        "adjustments": { ">=12": 2, "9-11": 1, "6-8": 0, "<6": -1 },
+        "notes": "Tank and heat pump. Rheem ProTerra: 10yr. Rheem Performance Plus: 9yr. Bradford White RG2: 6yr standard (extendable). A.O. Smith ProLine XE: 6yr standard. Longer warranty = thicker steel and better lining. Bradford White BUILTBEST upgrade extends 2-4 years."
+      },
+      {
+        "field": "expected_lifespan_years",
+        "type": "categorical",
+        "adjustments": { "20_plus": 2, "15_to_20": 1, "10_to_15": 0, "under_10": -1 },
+        "notes": "Tankless: 20+ years with maintenance (premium), 15-20 (standard). Tank: 10-15 years (standard), 8-12 (hard water/poor maintenance). Heat pump: 10-15 years (compressor life is the limiter). Tank inherently shorter lifespan due to standing water corrosion."
+      },
+      {
+        "field": "scale_resistance_maintenance",
+        "type": "categorical",
+        "adjustments": {
+          "self_cleaning_or_resistant": 1,
+          "maintenance_required_annual": 0,
+          "high_maintenance_hard_water": -1
+        },
+        "notes": "Scale is the #1 maintenance issue for all water heaters. Tankless requires annual flushing. Tank sediment settles at bottom — Bradford White Hydrojet and A.O. Smith DynaClean are self-agitating designs. Heat pump evaporator coil needs air filter cleaning. High-maintenance products in hard water areas need disclosure."
+      },
+      {
+        "field": "parts_availability",
+        "type": "categorical",
+        "adjustments": {
+          "universal_widely_stocked": 1,
+          "brand_specific_available": 0,
+          "proprietary_limited": -1,
+          "unavailable_replace_unit": -2
+        },
+        "notes": "Tank: Honeywell/Resideo gas valves, standard thermocouples, universal anode rods = widely stocked. Tankless: brand-specific PCBs, heat exchangers, flame rods = available through brand channels. Budget imports: parts unavailable."
+      },
+      {
+        "field": "service_network",
+        "type": "categorical",
+        "adjustments": {
+          "national_professional_network": 1,
+          "brand_certified_network": 0,
+          "limited_or_none": -2
+        },
+        "notes": "Tank brands (Rheem, A.O. Smith, Bradford White): every plumber knows these products, parts universally available. Tankless (Rinnai, Navien, Noritz): require specialized technician training — not every plumber services tankless. Budget imports: no service network."
+      },
+      {
+        "field": "control_board_reliability",
+        "type": "categorical",
+        "adjustments": {
+          "proven_reliable_simple": 1,
+          "standard_electronic": 0,
+          "documented_issues": -1
+        },
+        "notes": "Tank millivolt systems (Bradford White ICON) require no external electricity — fewer electronic failure points. Tankless and heat pump are fully electronic — PCB is a documented failure mode. Smart/WiFi features add complexity."
+      },
+      {
+        "field": "safety_system",
+        "type": "categorical",
+        "adjustments": {
+          "advanced_fvir_certified": 1,
+          "standard_safety": 0,
+          "minimal": -1
+        },
+        "notes": "FVIR (Flammable Vapor Ignition Resistance) is mandatory for US gas tank water heaters since 2003 (ANSI Z21.10.1). Bradford White Defender Safety System is a branded advanced FVIR. All gas products must comply, but implementation quality varies."
+      }
+    ],
+    "material_safety_report_only": [
+      "combustion_gas_emissions_gas_units",
+      "legionella_risk_management",
+      "high_temperature_scalding_protection",
+      "refrigerant_handling_heat_pump",
+      "carbon_monoxide_risk_gas_indoor",
+      "cpsc_recalls"
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Tankless, tank, and heat pump scored within the same framework. Sub-type does NOT create an automatic tier advantage — a great tankless, a great pro-grade tank, and a great heat pump can all be Tier 1.",
+    "Condensing vs non-condensing is THE efficiency cliff for gas tankless (0.93-0.98 UEF vs 0.79-0.83 UEF). Non-condensing is an older technology that vents heat instead of capturing it.",
+    "Professional-only distribution (Bradford White) is a genuine quality signal — correlates with thicker steel, brass components, professional installation requirement, and better QC. Score the construction, not the channel.",
+    "Heat exchanger material is a construction differentiator, not a quality hierarchy. Copper (Rinnai) = better thermal conductivity. Stainless (Navien, Noritz) = better corrosion resistance. Both are premium approaches.",
+    "Scale buildup/maintenance is scored as a durability disclosure, not a defect. All water heaters require maintenance — tankless needs annual flushing, tank needs anode rod inspection.",
+    "Anode rod type is a scored durability spec for tanks. Powered titanium > stainless steel > magnesium > aluminum.",
+    "UEF cross-sub-type comparison caveat: heat pump UEF (3.5-4.0+) and gas UEF (0.63-0.98) are tested in different DOE bins. Reports must disclose this when comparing sub-types.",
+    "Platform sharing: A.O. Smith / State / American = same parent company. Rheem / Ruud / Richmond = same parent. Report must disclose corporate relationships.",
+    "Navien warranty conditional on recirculation type: 15yr HX with controlled recirc, 5yr with uncontrolled. This is a material warranty restriction that must be prominently disclosed.",
+    "Tank millivolt ignition (no electricity required) is a genuine reliability advantage in power outage scenarios — the product works when the power is out. Score this as a durability positive.",
+    "Corporate structure = report finding",
+    "Gas indoor installation requires proper venting (direct vent or power vent) — this is code compliance, not a product differentiator."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "VACANT — Yale Appliance does not sell or service water heaters. No single independent source with quantified reliability data equivalent to Yale's service rate database exists for water heaters. Pool S vacant."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "Consumer Reports (water heater ratings, reliability surveys, comparative testing)",
+        "AHRI (Air-Conditioning, Heating, and Refrigeration Institute) — third-party UEF certification",
+        "DOE ENERGY STAR program (efficiency testing and certification)",
+        "Plumbing-Heating-Cooling Contractors Association (PHCC) — professional trade standards",
+        "Professional plumber comparative reviews (WaterHeaterHub, StructureTech Home Inspections)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/Plumbing (professional plumber community — strong brand hierarchy consensus)",
+        "r/HVAC (HVAC technician community — heat pump and tankless expertise)",
+        "RepairClinic / PartSelect (component-level repair data)",
+        "YouTube plumber channels (Roger Wakefield, ThePlumberGuy, Matt Risinger for building science)"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/HomeImprovement (consumer water heater discussions)",
+        "Houzz plumbing threads",
+        "Individual homeowner reviews"
+      ]
+    }
+  },
+
+  "sub_type_note": "Tankless, tank, and heat pump are scored within the same framework. Sub-type-specific spec fields coexist — tankless-only fields (max_gpm, heat_exchanger_material, heat_exchanger_warranty) are omitted for tank products and vice versa (glass_lining, anode_rod, drain_valve, tank_warranty). Heat pump has its own set (COP range is captured via UEF). Same approach as gas/induction in ranges_cooktops and solid/engineered in hardwood_flooring."
+}

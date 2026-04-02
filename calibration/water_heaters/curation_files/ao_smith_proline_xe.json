@@ -1,0 +1,97 @@
+{
+  "product": "A.O. Smith ProLine XE (50 gal Tank)",
+  "slug": "ao_smith_proline_xe",
+  "sub_type": "tank_gas",
+  "category": "water_heaters",
+  "locked_score": 67,
+  "tier": 3,
+  "label": "Good",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "A. O. Smith Corporation — publicly traded (NYSE: AOS), headquartered in Milwaukee, WI",
+  "manufacturing_location": "Ashland City, Tennessee, USA",
+
+  "quality_evidence": {
+    "glass_lining": {
+      "type": "proprietary_premium",
+      "name": "Blue Diamond",
+      "description": "Blue Diamond glass lining with Microban antimicrobial technology. A.O. Smith's proprietary formula. Positioned as superior to standard glass enamel but the specific material differences vs Bradford White Vitraglas are not publicly documented.",
+      "sources": ["hotwater.com"]
+    },
+    "anode_rod": {
+      "type": "stainless_steel_coregard",
+      "name": "CoreGard",
+      "description": "CoreGard stainless steel anode rod — marketed as superior to standard sacrificial magnesium anodes. Non-sacrificial design that doesn't deplete. Reduces sulfur smell in water with high mineral content.",
+      "sources": ["hotwater.com", "stanleyschmitzinc.com"]
+    },
+    "drain_valve": { "type": "brass", "description": "Brass drain valve — professional grade standard.", "sources": ["hotwater.com"] },
+    "sediment_control": {
+      "name": "DynaClean",
+      "description": "DynaClean self-cleaning dip tube system — designed to reduce sediment buildup and maintain efficiency.",
+      "sources": ["hotwater.com"]
+    },
+    "distribution": {
+      "channel": "professional_and_retail",
+      "description": "ProLine XE available through professional wholesale. A.O. Smith also sells Signature series through Lowe's (retail tier). ProLine is positioned above Signature.",
+      "sources": ["hotwater.com", "citruscountyplumbers.com"]
+    },
+    "construction": {
+      "source_traceability": "Ashland City, TN manufacturing. A.O. Smith operates multiple US and international facilities.",
+      "sources": ["hotwater.com"]
+    }
+  },
+
+  "performance_evidence": {
+    "uef": 0.72,
+    "capacity_gallons": 50,
+    "first_hour_rating": 80,
+    "efficiency_note": "0.72 UEF (power vent gas) — better than atmospheric Bradford White (0.63). Power vent uses fan to exhaust, allows flexible venting through sidewall.",
+    "noise": "Power vent fan produces some noise during operation. Atmospheric models are silent.",
+    "sources": ["hotwater.com", "theportlandgroup.com", "Ferguson.com"]
+  },
+
+  "durability_evidence": {
+    "tank_warranty": {
+      "years": 6,
+      "description": "6-year limited warranty on tank and parts. Standard for professional-grade tank water heaters.",
+      "sources": ["hotwater.com"]
+    },
+    "expected_lifespan": "10-15 years",
+    "parts_availability": {
+      "type": "universal_widely_stocked",
+      "description": "A.O. Smith parts are universally available. Every plumber supplies house stocks A.O. Smith components. Same Honeywell/Resideo gas valves, standard thermocouples, universal anode rods.",
+      "sources": ["hotwater.com"]
+    },
+    "service_network": {
+      "type": "national_professional_network",
+      "description": "Every plumber in the US is familiar with A.O. Smith products. No specialized training required.",
+      "sources": ["hotwater.com"]
+    },
+    "common_failure_modes": {
+      "primary": "Tank corrosion after anode depletion — CoreGard stainless may extend this vs magnesium",
+      "secondary": "Gas control valve failure (Honeywell/Resideo)",
+      "tertiary": "Power vent motor failure (additional failure mode vs atmospheric models)",
+      "sources": ["r/Plumbing", "RepairClinic.com"]
+    }
+  },
+
+  "safety_evidence": {
+    "certifications": "ANSI Z21.10.1 / CSA 4.1 certified. ENERGY STAR (power vent models).",
+    "recalls": "None identified for ProLine XE.",
+    "venting": "Power vent (fan-assisted, PVC venting through sidewall) or atmospheric"
+  },
+
+  "platform_disclosure": {
+    "corporate": "A. O. Smith Corporation (NYSE: AOS) also owns State Water Heaters and American Water Heaters. Same manufacturing facilities, shared component platforms. A State Select XE is likely the same unit with different branding.",
+    "retail_vs_pro": "A.O. Smith ProLine (professional) vs Signature (Lowe's retail) — ProLine positioned as higher-tier but specific construction differences are not fully documented publicly. Professional plumber consensus on r/Plumbing suggests ProLine has better components.",
+    "cross_brand": "State and American = same parent, same factories. Functionally identical products at different price points/channels."
+  },
+
+  "corrections": [],
+
+  "source_pool_classification": {
+    "S": ["VACANT"],
+    "A": ["hotwater.com (manufacturer)", "Consumer Reports", "AHRI"],
+    "B": ["r/Plumbing", "RepairClinic.com", "citruscountyplumbers.com"],
+    "C": ["theportlandgroup.com", "Ferguson.com"]
+  }
+}

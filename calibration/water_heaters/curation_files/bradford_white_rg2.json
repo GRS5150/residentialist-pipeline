@@ -1,0 +1,113 @@
+{
+  "product": "Bradford White RG250T6N (50 gal Tank)",
+  "slug": "bradford_white_rg2",
+  "sub_type": "tank_gas",
+  "category": "water_heaters",
+  "locked_score": 80,
+  "tier": 2,
+  "label": "Excellent",
+  "curation_date": "2026-04-01",
+  "corporate_parent": "Bradford White Corporation — privately held, headquartered in Ambler, Pennsylvania",
+  "manufacturing_location": "Middleville, Michigan / Niles, Michigan, USA",
+
+  "quality_evidence": {
+    "glass_lining": {
+      "type": "proprietary_premium",
+      "name": "Vitraglas",
+      "description": "Proprietary glass-enamel formula fused to the steel interior at over 1600°F. Includes Microban antimicrobial technology to prevent bacterial, mold, and mildew growth on the lining surface. Bradford White's flagship tank protection.",
+      "sources": ["bradfordwhite.com"]
+    },
+    "anode_rod": {
+      "type": "magnesium_standard",
+      "description": "Standard magnesium anode rod. More reactive than aluminum (better protection) but depletes faster in soft water. Single hex-head anode accessible for inspection/replacement.",
+      "sources": ["bradfordwhite.com"]
+    },
+    "drain_valve": { "type": "brass", "description": "Tamper-resistant brass drain valve — pro-grade standard.", "sources": ["bradfordwhite.com"] },
+    "gas_control": {
+      "type": "millivolt",
+      "name": "ICON System",
+      "description": "Intelligent gas control with millivolt technology. WORKS WITHOUT EXTERNAL ELECTRICITY — the water heater operates during power outages. Includes green LED diagnostics for system monitoring. No electronic ignition to fail.",
+      "sources": ["bradfordwhite.com", "supplyhouse.com"]
+    },
+    "sediment_control": {
+      "name": "Hydrojet Total Performance System",
+      "description": "Cold-water inlet tube design that creates turbulence to reduce sediment buildup at the bottom of the tank. Extends tank life and maintains efficiency without requiring manual flushing as frequently.",
+      "sources": ["bradfordwhite.com", "supplyhouse.com"]
+    },
+    "safety": {
+      "name": "Defender Safety System",
+      "description": "Advanced FVIR (Flammable Vapor Ignition Resistance) certified system — prevents ignition of flammable vapors outside the combustion chamber.",
+      "sources": ["bradfordwhite.com"]
+    },
+    "distribution": {
+      "channel": "professional_only",
+      "description": "NOT sold at Home Depot, Lowe's, or any retail store. Available ONLY through licensed plumbing contractors via wholesale supply houses. This ensures professional installation and proper sizing.",
+      "sources": ["bradfordwhite.com", "wikipedia.org"]
+    },
+    "construction": {
+      "insulation": "2\" non-CFC foam insulation. Pedestal base for stability.",
+      "source_traceability": "US-manufactured — Middleville, MI and Niles, MI facilities.",
+      "sources": ["bradfordwhite.com", "cpesupply.com"]
+    }
+  },
+
+  "performance_evidence": {
+    "uef": 0.63,
+    "capacity_gallons": 50,
+    "btu_input": 40000,
+    "first_hour_rating": 81,
+    "recovery_rate": "43 GPH at 90°F rise",
+    "ignition": "Piezo — no external electricity required",
+    "temperature_control": "ICON System with LED diagnostics. Adjustable thermostat.",
+    "noise": "Essentially silent operation — no fan, no compressor, no blower",
+    "efficiency_note": "0.63 UEF — atmospheric gas is the least efficient technology in this calibration set. But tank simplicity and millivolt operation are genuine advantages.",
+    "sources": ["bradfordwhite.com", "cpesupply.com", "supplyhouse.com"]
+  },
+
+  "durability_evidence": {
+    "tank_warranty": {
+      "years": 6,
+      "extendable": "BUILTBEST extended warranty available — adds 2 or 4 years to tank and parts warranty",
+      "sources": ["bradfordwhite.com"]
+    },
+    "parts_availability": {
+      "type": "universal_widely_stocked",
+      "description": "Tank water heater parts (anode rods, thermocouples, gas valves, drain valves) are universally stocked. Every plumber can service a Bradford White.",
+      "sources": ["bradfordwhite.com"]
+    },
+    "service_network": {
+      "type": "national_professional_network",
+      "description": "Every licensed plumber in the US is familiar with Bradford White products. No specialized training required. Parts available at every plumbing wholesale house.",
+      "sources": ["bradfordwhite.com"]
+    },
+    "expected_lifespan": "10-15 years (tank-type — standing water corrosion limits lifespan vs tankless)",
+    "common_failure_modes": {
+      "primary": "Tank corrosion after anode rod depletion (8-12 years if anode not replaced)",
+      "secondary": "Thermocouple failure (simple, inexpensive replacement ~$20 DIY)",
+      "tertiary": "Gas control valve failure (Honeywell/Resideo replacement ~$150-200 installed)",
+      "sources": ["r/Plumbing", "RepairClinic.com"]
+    },
+    "power_outage_advantage": "ICON millivolt system operates WITHOUT electricity. During power outages, Bradford White tanks continue to provide hot water. This is a genuine durability/reliability advantage in grid-vulnerable areas."
+  },
+
+  "safety_evidence": {
+    "certifications": "ANSI Z21.10.1, CSA 4.1. Low Lead Compliant. Massachusetts Approved.",
+    "fvir": "Defender Safety System — advanced FVIR certified",
+    "recalls": "None identified for RG250T6N.",
+    "venting": "Atmospheric vent — 3\" or 4\" vent size"
+  },
+
+  "platform_disclosure": {
+    "corporate": "Bradford White Corporation is privately held, independent. NOT owned by a conglomerate. No sub-brands or rebadging. Headquartered in Ambler, PA since 1881.",
+    "cross_brand": "None — Bradford White is a single-brand manufacturer."
+  },
+
+  "corrections": [],
+
+  "source_pool_classification": {
+    "S": ["VACANT"],
+    "A": ["bradfordwhite.com (manufacturer)", "Consumer Reports", "AHRI"],
+    "B": ["supplyhouse.com", "r/Plumbing (strong professional consensus for Bradford White)", "RepairClinic.com"],
+    "C": ["cpesupply.com", "535plumbing.com"]
+  }
+}
