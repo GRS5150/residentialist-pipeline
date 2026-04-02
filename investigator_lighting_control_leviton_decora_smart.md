@@ -1,35 +1,38 @@
 ## Leviton Decora Smart Wi-Fi — Investigator Analysis
-**Locked Score: 47/100 — Tier 4: Fair**
+**Locked Score: 47/100 — Tier 4**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 38 | 0.40 | Individual WiFi switches with app — not a system architecture |
-| Durability | 52 | 0.30 | Router dependency and cloud vulnerabilities offset solid electrical heritage |
-| Performance | 58 | 0.30 | Basic scheduling and voice control but no system-level programming |
-| Material Safety | UL Listed | report only | Proper electrical certification from established manufacturer |
+| Quality | 46 | 0.4 | Well-built electrical components from established manufacturer but lacks system-level architecture [SRC-001, SRC-005] |
+| Durability | 50 | 0.3 | Solid electrical engineering heritage with 5-year warranty and UL listing from 100+ year manufacturer [SRC-001, SRC-004] |
+| Performance | 45 | 0.3 | WiFi connectivity creates router dependency and network congestion issues that professional integrators avoid [SRC-002, SRC-003] |
+| Material Safety | Excellent | report only | UL listed electrical components from established manufacturer with proper electrical engineering |
 
-### Pool S Status
-VACANT — No independent comparative testing source exists for residential lighting control systems. CEDIA integrators provide professional consensus but are commercially interested.
-
-### Platform Disclosure
-Leviton Manufacturing Co., Inc.: privately held since 1906, Melville NY. 100+ year electrical manufacturer with strong engineering heritage. Smart home is newer product line. Stable outlook.
+### Company Background
+Leviton Manufacturing Co., Inc. is a privately held company founded in 1906 and headquartered in Melville, NY [SRC-004]. With over 100 years of electrical manufacturing heritage, Leviton established the Decora form factor as the standard for residential switches and outlets in US construction [SRC-004]. The company has strong electrical engineering credentials, though smart home products represent a newer product line for this traditional electrical manufacturer [SRC-004]. As a century-old private company, Leviton maintains financial stability and manufacturing control, distinguishing it from newer tech startups in the smart home space.
 
 ### Strengths
-- **Established electrical engineering**: 100+ year manufacturer with proper UL listing and electrical safety standards from real electrical company, not tech startup
-- **No hub requirement**: Each switch connects directly to WiFi, eliminating single point of failure from central hub
-- **Standard form factor**: Decora styling matches existing electrical infrastructure in most US homes
+- **Established Manufacturing Heritage**: 100+ year electrical manufacturer with proven electrical engineering expertise and the Decora standard form factor [SRC-004]
+- **No Hub Requirement**: Each device connects directly to home WiFi without requiring additional hub hardware [SRC-001]
 
 ### Deficiencies
-- **Not a system**: Individual switches with app — no system-level scene programming, conditional logic, or astronomical timeclock functionality
-- **Professional rejection**: CEDIA integrators universally avoid WiFi lighting for quality installations due to router dependency and network congestion
-- **Cloud dependency**: Features disabled during internet outages; firmware updates can disconnect devices
+- **WiFi Connectivity Issues**: Experiences dropouts under router load, firmware update disconnections, and cloud service outages that disable features [SRC-002]
+- **Professional Integration Limitations**: CEDIA integrators universally avoid WiFi-based lighting due to router dependency, network congestion risk, and lack of system-level programming [SRC-003]
 
 ### What You Should Know
-This is individual smart switches, not a lighting control system. Each switch connects to your WiFi router independently. While the switches themselves are well-engineered by a century-old electrical manufacturer, you're limited to basic app control and voice commands. No sophisticated scene programming or system integration. Professional integrators don't specify WiFi switches for quality homes due to reliability concerns and network dependencies.
+Leviton Decora Smart switches represent individual WiFi-connected devices rather than a comprehensive lighting control system. While the switches themselves benefit from Leviton's century of electrical manufacturing expertise and carry a 5-year warranty, they operate independently on your home WiFi network rather than through a dedicated lighting protocol [SRC-001].
 
-### System Architecture Note
-WiFi-based individual switches connecting to home router — no dedicated lighting protocol. This creates router dependency, network congestion at scale, and eliminates system-level programming capabilities available in true lighting control systems.
+The system's reliance on WiFi creates practical limitations that professional integrators consistently avoid. Router congestion, firmware vulnerabilities, and cloud service dependencies can disrupt operation, which is why CEDIA integrators specify dedicated lighting systems like Lutron, Savant, or Control4 instead [SRC-002, SRC-003]. The My Leviton app provides basic scheduling and voice integration but lacks the conditional logic and system-level scene programming available in professional-grade systems [SRC-005].
+
+### Platform Disclosure
+Not applicable
+
+### Corporate Outlook
+Stable — Long-established private manufacturer with proven electrical engineering capabilities, though smart home represents newer territory for this traditional electrical company.
+
+### Repair Economics
+Most common issues involve WiFi connectivity problems rather than hardware failure. Individual switch replacement costs under $50, but network-related issues may require router upgrades or professional network configuration, making system-wide troubleshooting potentially expensive.
 
 ### Score Justification
-The 47/100 reflects fundamental architectural limitations of WiFi switches versus true lighting control systems. Despite solid electrical engineering from Leviton's century of expertise, this product cannot compete with panelized systems like Lutron HomeWorks or even distributed wireless systems like RadioRA 3 in quality, reliability, or performance.
+The 47/100 score reflects solid electrical engineering from an established manufacturer undermined by WiFi-based architecture limitations. While Leviton's manufacturing heritage ensures reliable hardware, the lack of system-level integration and professional-grade performance keeps this in Tier 4.

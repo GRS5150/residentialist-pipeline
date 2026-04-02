@@ -1,34 +1,37 @@
 ## Lutron HomeWorks QSX (with Ketra) — Investigator Analysis
-**Locked Score: 95/100 — Tier 1 (Best in Class)**
+**Locked Score: 95/100 — Tier 1**
 
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 98 | 0.40 | Panelized wired architecture, exclusive Palladiom/Alisse keypads, and 334 luxury listing sightings establish unmatched system quality. |
-| Durability | 92 | 0.30 | QS Link wired backbone and 20+ year operational track record deliver exceptional longevity, though centralized panels add complexity. |
-| Performance | 91 | 0.30 | Ketra's 1,400K-10,000K tunable lighting with Color Lock technology provides unmatched light quality that no competitor can access. |
-| Material Safety | Compliant | report only | UL listed components, FCC certified Clear Connect RF, NEC compliant panels, no active recalls. |
+| Quality | 97 | 0.4 | Exclusive Ketra tunable lighting with Color Lock technology maintaining color within one MacAdam ellipse, plus hand-finished Alisse keypads in 40+ finishes set the luxury standard [SRC-002, SRC-007] |
+| Durability | 93 | 0.3 | Integrators report 15-20+ year operational lifespans on wired QS Link backbone with fail-safe architecture ensuring manual operation even during processor failures [SRC-005] |
+| Performance | 95 | 0.3 | 10,000+ device capacity via zero-latency QS Link wired backbone delivers flicker-free 0.1% dimming depth with proprietary Clear Connect 100x more reliable than WiFi [SRC-001, SRC-008] |
+| Material Safety | Excellent | report only | UL listed components with FCC certified Clear Connect technology and NEC compliant panelized installation [SRC-009] |
 
-### Pool S Status
-VACANT — No independent comparative testing source exists for residential lighting control systems. CEDIA integrators provide the closest professional consensus but are commercially interested.
-
-### Platform Disclosure
-Lutron Electronics Co., Inc.: privately held, family-owned since 1961, Coopersburg PA. Over 17,000 patents, acquired Ketra in 2018. No debt, no acquisition risk, strong outlook.
+### Company Background
+Lutron Electronics Co., Inc. was founded in 1961 by Joel Spira, inventor of the solid-state dimmer, and remains privately held and family-owned with headquarters in Coopersburg, PA. The company operates globally with over 17,000 patents and acquired Ketra in 2018 to gain exclusive tunable lighting technology. As a debt-free, family-owned enterprise with no quarterly earnings pressure or acquisition risk, Lutron maintains strong financial stability and long-term commitment to the luxury residential market.
 
 ### Strengths
-- **Ketra Exclusivity**: Only system offering Ketra tunable lighting (1,400K-10,000K CCT range, Color Lock optical feedback, Natural Light circadian features) — genuine technology moat no competitor can breach
-- **Wired Backbone Superiority**: QS Link wired communication provides zero-latency, interference-free operation that wireless systems cannot match, with 15-20+ year field reliability reported by integrators
-- **Designer Keypad Collections**: Palladiom metal flush-mount and Alisse hand-finished keypads (40+ finishes) exclusive to HomeWorks set the aesthetic benchmark for luxury installations
+- **Ketra Technology Exclusivity**: Color Lock maintains precise color points within one MacAdam ellipse over product lifetime, with 1,400K-10,000K range and Natural Light circadian features unavailable on any competing system [SRC-002]
+- **Market Dominance**: 334 luxury home listing appearances exceed all competitors, with CEDIA integrators specifying HomeWorks as the default for $5M+ custom homes [SRC-006, SRC-003]
 
 ### Deficiencies
-- **Cost and Complexity**: $50K-200K+ system cost with panelized architecture requiring new construction or major renovation limits accessibility
-- **Installation Dependency**: Professional-only installation with no DIY pathway and complex centralized panel requirements increase deployment barriers
+- **Installation Complexity**: System requires panelized installation and new construction or major renovation due to wired backbone requirements, limiting retrofit applications [SRC-004]
 
 ### What You Should Know
-This is the Rolls-Royce of home lighting systems. If you're building or renovating a luxury home and budget isn't a constraint, HomeWorks QSX with Ketra delivers lighting quality and system reliability no competitor can match. The wired backbone means rock-solid performance for decades, and Ketra's tunable lighting technology genuinely transforms how your home feels throughout the day. However, this is a new-construction system that requires professional installation and costs more than most cars.
+HomeWorks QSX represents the apex of residential lighting control, combining Lutron's proven wired architecture with exclusive Ketra tunable lighting technology. The QS Link wired backbone provides zero-latency communication that wireless systems cannot match, while supporting up to 10,000 devices across any size estate. The exclusive Ketra integration offers genuine circadian lighting with automatic color temperature adjustment and warm-shift dimming that mimics natural light patterns throughout the day.
 
-### System Architecture Note
-HomeWorks QSX uses a panelized wired architecture where QS Link cables connect dimming modules in central panels to switches throughout the home. This eliminates wireless communication failures but requires running low-voltage wiring during construction. Clear Connect Type X handles wireless communication to battery-powered devices.
+The system's luxury credentials extend beyond technology to premium materials, with Palladiom metal keypads and hand-finished Alisse faceplates available in over 40 finishes. This combination of technical superiority and aesthetic refinement explains why CEDIA integrators specify HomeWorks as the default choice for luxury custom homes and why it appears more frequently in high-end real estate listings than any competitor.
+
+### Platform Disclosure
+Not applicable.
+
+### Corporate Outlook
+Strong — Family-owned company with 60+ year track record, debt-free operations, and exclusive technology advantages through Ketra acquisition provide exceptional stability.
+
+### Repair Economics
+Processor failures are extremely rare with fail-safe architecture maintaining manual operation; component replacements typically involve individual keypads or dimming modules under 8-year warranty coverage.
 
 ### Score Justification
-The 95/100 reflects HomeWorks QSX's position as the undisputed category leader. Ketra exclusivity alone creates a technology gap no competitor can close, while the wired backbone delivers reliability wireless systems cannot match. The 5-point deduction acknowledges cost and complexity barriers that limit market accessibility.
+The 95/100 score reflects HomeWorks QSX's position as the undisputed luxury standard, combining exclusive Ketra technology, proven 20+ year reliability track record, and unmatched aesthetic options that justify premium positioning despite high cost and installation complexity.
