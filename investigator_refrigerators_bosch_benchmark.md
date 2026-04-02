@@ -4,36 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 81 | 0.3 | Full stainless steel interior with BSH-proprietary variable-speed inverter compressor delivers premium build quality at entry-level BSH pricing [SRC-005] |
-| Durability | 78 | 0.4 | Outstanding 0.4% five-year compressor failure rate — the lowest Yale tracks — but hampered by shorter 1-year full warranty versus platform siblings [SRC-001, SRC-002] |
-| Performance | 79 | 0.3 | Dual compressor architecture with active humidity zones delivers ~90% of Thermador capability at 70% of the price [SRC-003, SRC-006] |
-| Material Safety | Excellent | report only | Standard appliance materials with cyclopentane insulation |
+| Quality | 81 | 0.3 | Full stainless steel interior with BSH-proprietary variable-speed inverter compressor delivers premium construction at entry-level pricing [SRC-005] |
+| Durability | 78 | 0.4 | Exceptional 0.4% compressor failure rate over 5 years — best Yale tracks — but limited by 1-year full warranty versus 2-year on same platform [SRC-001, SRC-002] |
+| Performance | 79 | 0.3 | Temperature performance consistent with BSH platform capabilities, dual compressor universal across all models, but integrated ice maker carries same failure risks as higher-end variants [SRC-003, SRC-006] |
+| Material Safety | Excellent | report only | Standard BSH construction with cyclopentane insulation and passive carbon filtration |
 
 ### Company Background
-BSH Home Appliances is a German multinational corporation owned by BSH Hausgeräte GmbH, itself a subsidiary of Bosch and Siemens. Founded in 1967, BSH is one of Europe's largest appliance manufacturers and is financially stable with strong market position. Bosch Benchmark built-in refrigeration is manufactured in BSH's Turkish factory alongside Thermador, Gaggenau, and Miele built-ins [SRC-002]. This shared manufacturing platform allows BSH to offer premium German engineering at multiple price points, with Benchmark serving as the entry point to their built-in ecosystem.
+BSH Home Appliances is a joint venture between Bosch and Siemens, founded in 1967, and is one of the world's largest appliance manufacturers. The company is financially stable and profitable, operating as a premium appliance conglomerate. Bosch Benchmark is manufactured in BSH's Turkish factory alongside Thermador, Gaggenau, and Miele built-in refrigeration [SRC-002]. This shared manufacturing allows BSH to offer entry-level pricing on their premium built-in platform while maintaining the same core engineering and quality standards that support their higher-tier brands.
 
 ### Strengths
-- **Exceptional Reliability**: BSH platform delivers the lowest 5-year compressor failure rate Yale Appliance tracks at just 0.4% [SRC-001]
-- **Platform Value**: Same core BSH Turkish factory manufacturing as Thermador and Gaggenau at significantly lower price point [SRC-002, SRC-006]
+- **Best-in-Class Reliability**: 0.4% compressor failure rate at 5 years — the lowest Yale Appliance tracks across all brands, with dual compressor architecture universal across all Benchmark models [SRC-001]
+- **Platform Value Engineering**: Delivers ~90% of Thermador's capability at ~70% of the price through the same Turkish factory and BSH engineering [SRC-006]
 
 ### Deficiencies
-- **Service Network Limitations**: Proprietary iService5 diagnostic platform with restricted error codes causes standard Bosch-authorized technicians to misdiagnose issues, effectively narrowing service coverage [SRC-004]
-- **Warranty Gap**: Only 1-year full warranty compared to Thermador's 2-year coverage despite identical manufacturing platform [SRC-002, SRC-008]
+- **Service Network Restrictions**: Proprietary iService5 diagnostic platform causes standard Bosch-authorized technicians to misdiagnose issues with Benchmark-specific error codes, effectively narrowing the service network [SRC-004]
+- **Warranty Gap**: Only 1-year full warranty compared to 2-year coverage Thermador receives from the identical manufacturing platform [SRC-002, SRC-008]
 
 ### What You Should Know
-Bosch Benchmark represents the entry point to BSH's premium built-in platform, offering the same Turkish factory manufacturing as Thermador and Gaggenau at a more accessible price. You get dual compressor architecture across all models, outstanding reliability metrics, and genuine German engineering quality. However, this comes with trade-offs in service support — the proprietary diagnostic system can create challenges for local technicians, and the warranty coverage is notably shorter than higher-tier BSH brands.
+Bosch Benchmark represents the entry point to BSH's built-in refrigeration platform, sharing the same Turkish factory and core engineering as Thermador and Gaggenau at a significantly lower price point. The reliability credentials are exceptional — Yale Appliance reports the lowest 5-year compressor failure rate they track at just 0.4%. You're getting legitimate premium refrigeration technology with dual compressors, active humidity zones, and full stainless construction.
 
-The reliability fundamentals are excellent, with compressor failure rates that outperform most premium brands. For buyers who want BSH platform quality without Thermador pricing, Benchmark delivers substantial value, but you should factor in the service ecosystem limitations when making your decision.
+The trade-off comes in the service ecosystem. While the product itself is highly reliable, when service is needed, the proprietary diagnostic platform restricts effective repair to BSH-certified technicians rather than the broader Bosch authorized network. Multiple repair technicians report misdiagnosis issues with Benchmark's unique error codes. Additionally, the warranty coverage is notably shorter than what Thermador receives from the identical platform — 1 year full versus 2 years.
 
 ### Platform Disclosure
 BSH Turkish Factory: Bosch Benchmark, Thermador, Gaggenau, and Miele built-in refrigeration manufactured in same BSH factory in Turkey. Yale confirmed. Benchmark is the entry point to the BSH built-in platform.
-Note: European brand evidence asymmetry rule applies: Miele, BSH, Liebherr have thinner US lawsuit/complaint evidence. Disclose in reports. No score impact.
 
 ### Corporate Outlook
 Strong — BSH financially stable. Best compressor failure rate Yale tracks (0.4% at 5yr). Entry premium position is stable.
 
 ### Repair Economics
-Ice maker represents the primary failure mode risk, consistent with integrated built-in designs. BSH platform offers 10-14 year parts availability through their network, though proprietary diagnostics may increase service call costs due to technician certification requirements [SRC-004, SRC-005].
+Ice maker integration represents the highest failure risk, consistent with the broader BSH platform. However, the exceptional 0.4% compressor failure rate significantly reduces major repair probability. When service is needed, restricted diagnostic platform may increase labor costs due to limited technician pool.
 
 ### Score Justification
-The 79 score reflects genuine BSH platform quality and exceptional reliability metrics, balanced against service network constraints and warranty limitations that differentiate it from higher-tier platform siblings.
+The 79 score reflects excellent engineering and reliability credentials offset by service ecosystem limitations. Premium platform access at entry pricing drives strong value, but warranty gaps and diagnostic restrictions prevent higher scoring.

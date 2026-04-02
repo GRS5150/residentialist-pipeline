@@ -4,35 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 56 | 0.3 | SteelCool stainless steel interior is a genuine differentiator, but Samsung platform components throughout limit premium positioning [SRC-005, SRC-001] |
-| Durability | 58 | 0.4 | No ice maker removes the #1 failure mode (31% fail within 5yr), but acknowledged fan-freezing design flaw and Samsung platform reliability below industry average [SRC-005, SRC-001] |
-| Performance | 53 | 0.3 | Temperature precision ±2°F below built-in category average, 43+ dBA noise among loudest in category, passive humidity control only [SRC-002] |
-| Material Safety | Good | report only | Standard cyclopentane PU insulation with magnetic door seals presents no material concerns [SRC-005] |
+| Quality | 56 | 0.3 | SteelCool stainless steel interior provides genuine premium differentiation, but Samsung platform components with complete DA97/DA94 convergence undermine build quality expectations [SRC-001, SRC-005] |
+| Durability | 58 | 0.4 | Column configuration eliminates ice maker (#1 failure mode at 31% within 5 years), but acknowledged fan-freezing design flaw and Samsung platform reliability concerns create offsetting risks [SRC-005, SRC-007] |
+| Performance | 53 | 0.3 | Temperature precision of ±2°F and noise levels at 43+ dBA fall below built-in category averages, with only passive humidity control and no air purification [SRC-002] |
+| Material Safety | Good | report only | Standard cyclopentane PU insulation and magnetic door seals with no material safety concerns identified |
 
 ### Company Background
-Dacor is owned by Samsung Electronics, acquired in 2016. Originally founded in 1965 as a California-based luxury appliance manufacturer, Dacor now operates as Samsung's premium appliance division. Manufacturing occurs through Samsung's global supply chain with complete component convergence — every part carries Samsung DA97/DA94 prefixes [SRC-001]. Samsung has committed to maintaining the Dacor premium line, but the brand essentially functions as Samsung appliances with upgraded exteriors and interiors. The company is financially stable as part of Samsung's global operations, though the US service infrastructure remains underdeveloped relative to the premium brand positioning.
+Dacor was acquired by Samsung in 2016 and operates as Samsung's premium appliance brand. Founded in 1965 as an independent California-based luxury appliance manufacturer, Dacor is now fully integrated into Samsung's global manufacturing and supply chain operations. The company maintains its premium brand positioning but relies entirely on Samsung's South Korean service infrastructure. Samsung is a financially stable, publicly-traded conglomerate, but Dacor represents a small segment within Samsung's broader appliance division. Manufacturing occurs through Samsung's global supply chain with complete component convergence — every internal part carries Samsung's DA97/DA94 part numbers, making this effectively a Samsung appliance with premium exterior finishing.
 
 ### Strengths
-- **SteelCool Stainless Interior**: Full stainless steel interior construction provides genuine quality differentiation from Samsung consumer models and enhances durability [SRC-003, SRC-005]
-- **No Ice Maker Design**: Column configuration eliminates ice maker, removing the single biggest reliability risk in the refrigerator category (31% failure rate within 5 years) [SRC-005]
+- **No Ice Maker Configuration**: Column design eliminates ice maker components, removing the single biggest failure mode in refrigeration (31% failure rate within 5 years per Consumer Reports) [SRC-005]
+- **SteelCool Stainless Interior**: Full stainless steel interior construction provides genuine quality differentiation versus Samsung's consumer models and superior cleanability [SRC-003, SRC-005]
 
 ### Deficiencies
-- **Fan-Freezing Design Flaw**: Acknowledged design flaw allows moisture accumulation on fan assembly, with only mitigation available through service intervention [SRC-007, SRC-001]
-- **Below-Category Performance**: Temperature precision ±2°F and 43+ dBA noise levels both below built-in refrigerator category averages [SRC-002]
+- **Acknowledged Design Flaw**: Fan-freezing issue confirmed by Dacor service bulletin, caused by air circulation path allowing moisture accumulation on fan assembly, with only mitigation available [SRC-007]
+- **Below-Category Performance**: Temperature precision (±2°F) and noise levels (43+ dBA) fall below built-in refrigerator category averages, with passive-only humidity control [SRC-002]
 
 ### What You Should Know
-This is fundamentally a Samsung refrigerator with Dacor branding and a premium stainless steel interior. While the SteelCool interior is a legitimate quality upgrade, every internal component is Samsung-sourced with DA97/DA94 part numbers. The column configuration's lack of an ice maker is actually the unit's best feature — it eliminates the most common failure point in refrigerators.
+This is fundamentally a Samsung appliance wearing Dacor branding — complete component convergence means every internal part carries Samsung part numbers. The column configuration's elimination of ice maker components is actually the product's strongest feature, removing refrigeration's most common failure point. However, you're paying premium prices for what repair technicians universally identify as Samsung platform components.
 
-However, you're buying into Samsung's reliability issues along with the premium price. The acknowledged fan-freezing design flaw remains unresolved, and warranty service routes through Samsung's South Korean infrastructure, adding weeks to resolution times. Performance metrics like temperature control and noise levels fall below what you'd expect from other built-in brands at this price point.
+The fan-freezing design flaw is a known issue that Dacor has acknowledged but not fully resolved. Service experience is consistently reported as frustrating because warranty claims route through Samsung's South Korean infrastructure, adding weeks to resolution times. The 15-year compressor parts warranty provides some protection, but the service delivery bottleneck remains structural.
 
 ### Platform Disclosure
 Samsung/Dacor: Complete component convergence. Every part carries Samsung DA97/DA94 prefix. Column is a Samsung unit with Dacor exterior and SteelCool interior.
 
 ### Corporate Outlook
-Conditional — Samsung committed to Dacor premium line but US service infrastructure remains weak. Warranty routing through South Korea adds significant delays to service resolution.
+Conditional — Samsung committed to Dacor premium line but US service infrastructure remains weak. Warranty routing through South Korea. Fan-freezing design flaw acknowledged but not resolved.
 
 ### Repair Economics
-Most common failure is the fan-freezing issue affecting air circulation. Parts are available through Samsung's network, but service routing through South Korea creates weeks-long delays. The 15-year compressor parts warranty helps with major component costs, but labor and service access remain problematic for warranty claims [SRC-004, SRC-008].
+Most common failure is the fan-freezing issue requiring service intervention. Standard Samsung platform components keep parts costs moderate, but service routing through South Korea extends resolution timelines significantly. The 15-year compressor parts warranty provides cost protection for the most expensive component, making major repairs potentially cost-justifiable versus replacement.
 
 ### Score Justification
-The 56 score reflects a product caught between genuine premium elements (SteelCool interior, no ice maker) and underlying Samsung platform limitations (acknowledged design flaws, below-category performance metrics, service infrastructure gaps). The weighted average appropriately places this in Tier 4 where premium pricing meets mass-market reliability.
+The 56/100 score reflects a product caught between Samsung platform limitations and premium positioning. The column's no-ice-maker configuration and stainless interior provide genuine value, but acknowledged design flaws and below-category performance metrics prevent higher scoring within the built-in refrigeration segment.

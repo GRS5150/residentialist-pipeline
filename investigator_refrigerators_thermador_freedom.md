@@ -4,36 +4,36 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 91 | 0.3 | Full stainless steel interior and best-in-class flush-mount aesthetics with dual compressor architecture justify premium positioning [SRC-004, SRC-007] |
-| Durability | 90 | 0.4 | Yale 'A' grade reliability rating with 10-15 year lifespans reported, though 8% less reliable than Sub-Zero [SRC-001, SRC-008] |
-| Performance | 90 | 0.3 | Dual compressor provides ±1°F temperature precision with 39-42 dBA noise levels and active humidity zones [SRC-003, SRC-004] |
-| Material Safety | Excellent | report only | Standard cyclopentane polyurethane insulation with magnetic door seals meets industry standards [SRC-007] |
+| Quality | 94 | 0.3 | Full stainless steel interior with best-in-class flush-mount aesthetics and premium build quality [SRC-004, SRC-007] |
+| Durability | 85 | 0.4 | Yale 'A' grade reliability but 8% less reliable than Sub-Zero, with integrated ice maker as primary failure point [SRC-001, SRC-006] |
+| Performance | 93 | 0.3 | Dual compressor architecture delivers ±1°F temperature precision with variable-speed inverter technology [SRC-003, SRC-007] |
+| Material Safety | Excellent | report only | Standard magnetic door seals with cyclopentane polyurethane insulation meeting industry standards |
 
 ### Company Background
-Thermador is owned by BSH Home Appliances (Bosch/Siemens), a financially stable multinational corporation with no indicators of financial distress or brand discontinuation risk [SRC-009]. As BSH's premium US brand, Thermador built-in refrigeration is manufactured in BSH's Turkish factory alongside Bosch Benchmark, Gaggenau, and Miele products [SRC-002]. Despite shared manufacturing, Thermador maintains distinct features, stronger warranty coverage than its Bosch Benchmark sibling, and a dedicated service program with factory-trained technicians [SRC-005, SRC-006]. The company has established a strong position in the US premium appliance market through its focus on integrated kitchen design aesthetics.
+BSH Home Appliances (Bosch/Siemens) is a financially stable German multinational corporation that acquired Thermador as its premium US brand. Thermador built-in refrigeration is manufactured in BSH's Turkish factory alongside Bosch Benchmark, Gaggenau, and Miele products, creating a shared platform with differentiated features and service programs. BSH shows no indicators of financial distress or brand discontinuation risk, maintaining Thermador's position as a legitimate premium appliance brand rather than a repositioned lower-tier offering.
 
 ### Strengths
-- **Best-in-Class Integration**: Thermador's flush-mount installation and Freedom hinge system deliver superior aesthetics for integrated kitchen designs, with full door opening capability in tight installations [SRC-004]
-- **Dual Compressor Architecture**: Variable-speed inverter technology with independent zone management provides superior temperature control and precision [SRC-001, SRC-003]
+- **Best-in-Class Integration**: Thermador's flush-mount installation and Freedom hinge system provide superior aesthetics for integrated kitchen designs, considered the industry standard [SRC-001, SRC-004]
+- **Dual Compressor Architecture**: Independent zone management with variable-speed inverter technology delivers precise temperature control and energy efficiency [SRC-003, SRC-007]
 
 ### Deficiencies
 - **Integrated Ice Maker Reliability**: The integrated ice maker represents the most common failure point across the BSH platform [SRC-006]
-- **Passive Air Purification**: Uses passive carbon filter system rather than active air scrubbing technology found in premium competitors like Sub-Zero [SRC-004]
+- **Passive Air Purification**: Uses basic carbon filter instead of active air scrubbing systems found in premium competitors like Sub-Zero [SRC-004]
 
 ### What You Should Know
-The Thermador Freedom Collection represents the second-best built-in refrigerator by professional consensus, earning Yale's 'A' reliability grade while delivering the market's best flush-mount aesthetics. The dual compressor architecture with variable-speed inverter provides restaurant-quality temperature precision (±1°F) and whisper-quiet operation, making it ideal for open kitchen designs where integration and performance matter equally.
+The Thermador Freedom Collection represents the second-best built-in refrigerator option by professional consensus, earning Yale's 'A' reliability grade while delivering premium aesthetics and performance. The dual compressor system with variable-speed inverter provides restaurant-quality temperature precision (±1°F) and independent zone management, while the flush-mount design creates seamless kitchen integration that designers consistently prefer over competitors.
 
-While approximately 8% less reliable than Sub-Zero, owners consistently report 10-15 year lifespans with proper maintenance. The 2-year full warranty plus 6-year sealed system coverage provides adequate protection, though it's shorter than Sub-Zero's premium coverage. For buyers prioritizing seamless kitchen integration without compromising core refrigeration performance, the Freedom Collection delivers Tier 1 quality at the category's lower boundary.
+However, you're paying a premium for aesthetics over ultimate reliability—Thermador runs approximately 8% less reliable than Sub-Zero according to service data, with the integrated ice maker being the primary concern. The 2-year full warranty provides adequate coverage but falls short of Sub-Zero's 5-year protection, though Thermador's dedicated service program with factory-trained technicians partially compensates for this gap.
 
 ### Platform Disclosure
-**BSH Turkish Factory**: Thermador, Bosch Benchmark, Gaggenau, and Miele built-in refrigeration manufactured in same BSH factory in Turkey. Yale confirmed.
-**Note**: European brand evidence asymmetry rule applies: Miele, BSH, Liebherr have thinner US lawsuit/complaint evidence. Disclose in reports. No score impact.
+BSH Turkish Factory: Thermador, Bosch Benchmark, Gaggenau, and Miele built-in refrigeration manufactured in same BSH factory in Turkey. Yale confirmed.
+Note: European brand evidence asymmetry rule applies: Miele, BSH, Liebherr have thinner US lawsuit/complaint evidence. Disclose in reports. No score impact.
 
 ### Corporate Outlook
-**Strong** — BSH financially stable multinational. Thermador has strong US premium market position.
+Strong — BSH financially stable multinational. Thermador has strong US premium market position.
 
 ### Repair Economics
-Ice maker failures represent the primary repair concern, with adequate parts availability through BSH's network (10-14 year horizon). Professional repair costs are offset by dedicated Thermador service program and factory-trained technician network, making repairs more predictable than multi-brand service scenarios.
+Ice maker replacement is the most common repair at approximately $800-1,200 including labor. Parts availability through BSH's network extends 10-14 years with adequate technician support. Major repairs are cost-justifiable given the appliance's $8,000-12,000 replacement cost, though service calls average higher frequency than Sub-Zero.
 
 ### Score Justification
-The 90/100 score reflects Thermador's position as a legitimate Tier 1 built-in refrigerator with Yale 'A' grade reliability, superior integration aesthetics, and proven dual compressor performance, while acknowledging slightly lower reliability versus category leaders and passive air purification limitations.
+The 90/100 score reflects Thermador's position as a legitimate Tier 1 built-in refrigerator with exceptional aesthetics and performance, balanced against reliability that trails the category leader. The dual compressor architecture and flush-mount design justify premium positioning despite shared BSH platform manufacturing.

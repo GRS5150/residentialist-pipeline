@@ -4,26 +4,26 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 70 | 0.3 | Obsidian stainless steel interior and variable-speed inverter compressor provide premium differentiation within Whirlpool platform [SRC-005, SRC-007] |
-| Durability | 71 | 0.4 | Service rate improvement from 36.7% to 15.8% and 12-year sealed system warranty matching Sub-Zero demonstrate strong durability trajectory [SRC-001, SRC-003] |
-| Performance | 69 | 0.3 | Temperature uniformity tests well with ±1°F precision, but single compressor configuration and 39-42 dBA noise levels trail premium competitors [SRC-002] |
-| Material Safety | Good | report only | Standard cyclopentane PU insulation and magnetic door seals meet industry norms |
+| Quality | 70 | 0.3 | Premium materials including distinctive Obsidian stainless steel interior, but single compressor configuration lacks the sophistication of true high-end competitors [SRC-005, SRC-002] |
+| Durability | 71 | 0.4 | Dramatic service rate improvement from 36.7% to 15.8% and 12-year sealed system warranty matching Sub-Zero, though short track record at column-specific level [SRC-001, SRC-003] |
+| Performance | 69 | 0.3 | Variable-speed inverter compressor provides genuine differentiation with good temperature uniformity (±1°F), but lacks air purification and operates at higher noise levels (39-42 dBA) [SRC-002, SRC-005] |
+| Material Safety | Good | report only | Standard cyclopentane PU insulation with magnetic door seals meets industry norms |
 
 ### Company Background
-JennAir is a premium appliance brand originally founded in 1947, recently sold by Whirlpool Corporation to Electrolux in 2025 as part of broader portfolio restructuring [SRC-009]. The brand operates as Whirlpool's premium tier and shares the Whirlpool compressor platform with cross-compatible components like start device W10448874 across the entire Whirlpool portfolio including KitchenAid [SRC-001]. Manufacturing occurs through Whirlpool's global supply chain with multi-source production [SRC-007]. The Electrolux acquisition creates transition uncertainty regarding service continuity and long-term brand direction, though Whirlpool's broad authorized service network currently supports the products [SRC-005].
+JennAir is a premium appliance brand within the Whirlpool Corporation portfolio, positioning itself as the luxury tier above KitchenAid. However, Whirlpool sold JennAir to Electrolux in 2025 as part of a broader portfolio restructuring. The brand shares Whirlpool's manufacturing platform and global supply chain, with components cross-compatible across the entire Whirlpool portfolio including KitchenAid. JennAir products are manufactured through Whirlpool's multi-source global manufacturing network. The recent acquisition by Electrolux creates uncertainty around service continuity, warranty support, and long-term brand direction during the integration period.
 
 ### Strengths
-- **Engineering Differentiation**: Variable-speed inverter compressor represents a genuine technical differentiator within the Whirlpool platform, providing superior efficiency and performance compared to standard compressor designs [SRC-001, SRC-005]
-- **Reliability Improvement**: Dramatic service rate improvement from 36.7% in 2021 to 15.8% in 2022, with column models structurally different from problematic French door models and exempt from class action evaporator defect lawsuits [SRC-001, SRC-006]
+- **Engineering Differentiation**: Variable-speed inverter compressor represents genuine technical advancement within the Whirlpool platform, delivering superior performance compared to other Whirlpool-branded products [SRC-001, SRC-005]
+- **Premium Materials**: Obsidian stainless steel interior provides distinctive aesthetic quality that owners consistently praise for its premium feel and appearance [SRC-005, SRC-008]
 
 ### Deficiencies
-- **Limited Premium Features**: Lacks air purification system and uses single compressor with dual evaporator configuration rather than dual independent systems found in BSH/Sub-Zero competitors [SRC-002, SRC-005]
-- **Corporate Transition Risk**: Electrolux acquisition creates uncertainty around service continuity, warranty support, and long-term brand investment during integration period [SRC-009]
+- **Corporate Transition Uncertainty**: Whirlpool's sale of JennAir to Electrolux creates significant uncertainty around service continuity, warranty support, and long-term brand direction [SRC-009]
+- **Limited Technical Sophistication**: Single compressor with dual evaporator configuration lacks the independent dual systems found in BSH and Sub-Zero competitors, limiting precision control [SRC-005]
 
 ### What You Should Know
-JennAir Column represents the best built-in refrigeration option on the Whirlpool platform, with genuine engineering improvements over standard Whirlpool products. The variable-speed inverter compressor and Obsidian stainless interior provide premium differentiation, while the modular ice maker design offers practical serviceability advantages. Column models have demonstrated significant reliability improvements and are structurally distinct from JennAir's problematic French door models that faced class action lawsuits.
+JennAir Column refrigerators represent the best execution of Whirlpool's refrigeration platform, featuring a variable-speed inverter compressor that genuinely differentiates it from other Whirlpool brands. The column models have shown dramatic reliability improvements, with service rates dropping from 36.7% to 15.8% between 2021 and 2022. Importantly, these column models are structurally different from JennAir's problematic French door models and are not affected by the class action lawsuit regarding evaporator defects.
 
-However, buyers should understand they're purchasing during a corporate transition period. While the 12-year sealed system warranty matches Sub-Zero coverage and current service network access through Whirlpool is broad, the Electrolux acquisition creates near-term uncertainty around support continuity. The product offers solid mid-premium performance but lacks some advanced features like air purification found in true luxury competitors.
+The 12-year sealed system warranty matches Sub-Zero's coverage and represents the longest warranty in the Whirlpool portfolio. However, buyers should be aware that Whirlpool recently sold JennAir to Electrolux, creating uncertainty around service support and brand direction during the integration period. The modular ice maker design is a practical advantage, allowing easy removal and replacement if issues arise.
 
 ### Platform Disclosure
 Whirlpool/JennAir: JennAir shares Whirlpool compressor platform. Start device W10448874 cross-applies across entire Whirlpool portfolio including KitchenAid.
@@ -32,7 +32,7 @@ Whirlpool/JennAir: JennAir shares Whirlpool compressor platform. Start device W1
 Conditional — Whirlpool sold JennAir to Electrolux (2025). Integration uncertainty. Service rate improvement trend is real but short track record at column-specific level.
 
 ### Repair Economics
-Most common failures center on compressor and sealed system components, with parts readily available through Whirlpool's network and 10-14 year parts horizon [SRC-006]. Modular ice maker design reduces replacement costs compared to integrated systems [SRC-002]. The 12-year sealed system warranty significantly reduces owner repair burden during the highest-risk period [SRC-003].
+Most common failures typically involve the inverter compressor system and ice maker components. Parts availability is good through Whirlpool's broad authorized service network with 10-14 year parts horizon. The 12-year sealed system warranty significantly reduces major repair costs during the critical period. Modular ice maker design reduces replacement costs compared to integrated systems.
 
 ### Score Justification
-The 70/100 score reflects genuine engineering improvements within a shared platform architecture, supported by documented reliability improvements and premium warranty coverage, but constrained by corporate transition uncertainty and feature gaps versus luxury competitors.
+The 70-point score reflects genuine engineering improvements and premium materials execution within the Whirlpool platform, supported by dramatically improved reliability metrics. However, corporate transition uncertainty and technical limitations compared to true luxury competitors prevent higher scoring.
