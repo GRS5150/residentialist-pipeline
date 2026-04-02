@@ -1,0 +1,15 @@
+{
+  "category": "lighting_control",
+  "version": "1.0",
+  "axis_weights": { "quality": 0.40, "durability": 0.30, "performance": 0.30 },
+  "composite_method": "geometric_mean",
+  "calibration_products": [
+    { "name": "Lutron HomeWorks QSX (with Ketra)", "slug": "lutron_homeworks_qsx_ketra", "target": 95, "tier": "Tier 1", "axis_scores": { "quality": 9.7, "durability": 9.3, "performance": 9.5 } },
+    { "name": "Lutron HomeWorks QSX (Standard)", "slug": "lutron_homeworks_qsx", "target": 92, "tier": "Tier 1", "axis_scores": { "quality": 9.4, "durability": 9.3, "performance": 9.0 } },
+    { "name": "Lutron RadioRA 3", "slug": "lutron_radiora3", "target": 84, "tier": "Tier 2", "axis_scores": { "quality": 8.5, "durability": 8.5, "performance": 8.2 } },
+    { "name": "Savant Lighting System", "slug": "savant_lighting", "target": 80, "tier": "Tier 2", "axis_scores": { "quality": 8.2, "durability": 7.8, "performance": 8.0 } },
+    { "name": "Control4 Lighting (Snap One)", "slug": "control4_lighting", "target": 67, "tier": "Tier 3", "axis_scores": { "quality": 6.5, "durability": 6.8, "performance": 6.9 } },
+    { "name": "Lutron Caseta", "slug": "lutron_caseta", "target": 64, "tier": "Tier 3", "axis_scores": { "quality": 6.5, "durability": 6.8, "performance": 5.8 } },
+    { "name": "Leviton Decora Smart Wi-Fi", "slug": "leviton_decora_smart", "target": 47, "tier": "Tier 4", "axis_scores": { "quality": 4.6, "durability": 5.0, "performance": 4.5 } }
+  ]
+}

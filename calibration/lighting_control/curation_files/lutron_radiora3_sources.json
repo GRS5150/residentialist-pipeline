@@ -1,0 +1,137 @@
+{
+  "product": "Lutron RadioRA 3",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Lutron RadioRA 3 Specifications",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Clear Connect Type X: proprietary 434 MHz band, purpose-built for lighting control. 200 devices per processor (100 Type X + 100 Type A), expandable. Sunnata touch, Maestro, seeTouch keypads available. Lutron Designer programming required. 8-year component warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "CE Pro \u2014 RadioRA 3 Review",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "RadioRA 3 replaced RadioRA 2 with significant upgrades: Clear Connect Type X (faster, more reliable), expanded device count, better integration options via Lutron Connect Bridge. Professional integrators consider it the definitive retrofit lighting system.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "r/Lutron \u2014 RadioRA 3 Real-World Performance",
+      "url": "",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Integrators report Clear Connect Type X resolves the few interference issues that occasionally affected older Type A. 200-device limit is sufficient for most homes up to 5,000 sq ft. Larger homes use multiple processors seamlessly. seeTouch keypads provide multi-button scene control comparable to HomeWorks at lower price point.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 performance, durability",
+      "topics": [
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Ambient Connections \u2014 RadioRA 3 Integration",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "RadioRA 3 integrates natively with Lutron shading and connects to third-party systems via Lutron Connect Bridge. Compatible with Savant, Control4, Crestron, and all major automation platforms. Also supports HomeKit, Alexa, Google Home natively.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 performance",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Professional Consensus \u2014 No Ketra on RadioRA",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Ketra tunable lighting is HomeWorks-exclusive by design \u2014 Lutron maintains this as the key differentiator justifying the HomeWorks price premium. RadioRA 3 dimming is excellent but limited to the CCT of installed fixtures.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 performance",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Lutron Corporate Profile",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Lutron Electronics Co. \u2014 privately held since 1961, Coopersburg PA.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Report only finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "RadioRA 3 is the best professional-grade wireless lighting control system available. Clear Connect Type X provides dedicated-band RF reliability without wired infrastructure. 200 devices per processor, expandable with multiple processors. Sunnata touch dimmers, Maestro, and seeTouch keypads offer professional aesthetics. Requires Lutron-certified installer. 8-year warranty. No Ketra support (HomeWorks exclusive). The ideal system for $1-5M homes, especially retrofits where panelized infrastructure is impractical.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005"
+    ],
+    "sources_report_only": [
+      "SRC-006"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 4,
+      "pool_B": 1,
+      "pool_C": 1
+    }
+  },
+  "product_slug": "lutron_radiora3",
+  "product_name": "Lutron RadioRA 3",
+  "manufacturer_slug": "lutron",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-02",
+  "structuring_duration_ms": 0,
+  "structuring_model": "manual_structuring",
+  "auto_classification_summary": {
+    "total": 6,
+    "score": 5,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

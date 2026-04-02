@@ -1,0 +1,137 @@
+{
+  "product": "Savant Lighting System",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Savant Lighting Products \u2014 Specifications",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Savant offers smart dimmers, switches, and keypads with TrueImage customizable displays. Bluetooth mesh communication. Native integration with Savant Host for whole-home scenes. Apple TV can serve as Savant Host. 3-year standard warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "DMC Systems \u2014 Savant vs Lutron Analysis",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Savant provides the brain and user interface; Lutron provides the muscle for lighting. Many luxury installations use both \u2014 Savant for whole-home orchestration (AV, climate, lighting, security) with Lutron hardware controlling the actual lights and shades.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "TSP Smart Home \u2014 Savant Integration Review",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Savant integrates natively with Lutron HomeWorks and RadioRA 3. The combination provides Savant's superior app and touchscreen UI controlling Lutron's unmatched lighting hardware. Savant's own lighting products are newer to market with less field data.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, durability",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "r/homeautomation \u2014 Savant Lighting Discussion",
+      "url": "",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Integrators note Savant TrueImage displays are genuinely innovative \u2014 showing actual scene images on the switch face. However, multiple integrators report defaulting to Lutron dimmers when specifying Savant systems because Lutron LED compatibility database is more comprehensive and dimming is more precise.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Savant Systems Corporate",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Savant Systems, Inc. \u2014 privately held, headquartered in Hyannis, MA. Founded 2005. Apple ecosystem alignment. Premium market positioning.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Report only finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Carbon Integration \u2014 Savant UX Assessment",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Savant's unified interface and mobile app are considered best-in-class for user experience among professional integrators. The ability to control all home systems from one intuitive interface is Savant's primary competitive advantage.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 performance",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Savant offers the best whole-home automation user experience with integrated lighting. TrueImage displays on switches are innovative. Premium app UI. Apple ecosystem integration. BUT: professional integrators frequently pair Savant automation brain with Lutron lighting hardware \u2014 the market itself is telling you that Savant's lighting hardware is not yet the equal of Lutron's. 3-year warranty (vs Lutron 8-year) confirms shorter manufacturer confidence in hardware longevity. Strong as an automation platform, developing as a lighting platform.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-006"
+    ],
+    "sources_report_only": [
+      "SRC-005"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 2,
+      "pool_B": 3,
+      "pool_C": 1
+    }
+  },
+  "product_slug": "savant_lighting",
+  "product_name": "Savant Lighting System",
+  "manufacturer_slug": "savant",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-02",
+  "structuring_duration_ms": 0,
+  "structuring_model": "manual_structuring",
+  "auto_classification_summary": {
+    "total": 6,
+    "score": 5,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

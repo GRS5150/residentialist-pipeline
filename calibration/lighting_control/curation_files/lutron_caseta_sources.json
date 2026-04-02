@@ -1,0 +1,121 @@
+{
+  "product": "Lutron Caseta",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Lutron Caseta Specifications",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "75 device maximum per Smart Bridge. Clear Connect Type A wireless (proprietary RF). PD-6WCL: 150W LED/600W incandescent, no neutral required. PD-5NE: 250W LED/500W incandescent, neutral required. Pico wireless remotes. Diva and Claro switch styles. HomeKit, Alexa, Google integration. 8-year warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "The Verge \u2014 Caseta Smart Home Review",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Caseta is the most recommended smart lighting system by smart home reviewers. Reliability is the standout: Clear Connect RF operates on a dedicated frequency band, unlike WiFi switches that compete with all other network traffic. The 75-device limit is the primary constraint for larger homes.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 durability, performance",
+      "topics": [
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "r/homeautomation \u2014 Caseta Reliability Reports",
+      "url": "",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Caseta is consistently described as 'set it and forget it' by homeowners. Smart Bridge uptime is near 100%. Clear Connect does not experience the connectivity dropouts common with WiFi smart switches. Biggest complaints: limited device count and basic switch aesthetics.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 durability",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Lutron LED Compatibility Tool",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Lutron maintains a database of tested LED bulbs for dimming compatibility. Caseta dimmers are tested against hundreds of LED models. When LED compatibility issues occur (flickering, buzzing), the compatibility tool identifies alternatives. This testing infrastructure exceeds what any WiFi switch manufacturer provides.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 performance, quality",
+      "topics": [
+        "performance",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Lutron Corporate",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Lutron Electronics Co. \u2014 privately held since 1961.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Report only finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Caseta is Lutron's entry-level system \u2014 exceptionally reliable Clear Connect RF in a DIY package. The system that introduces homeowners to Lutron before upgrading to RadioRA 3 or HomeWorks. BUT: 75 device hard limit, basic Diva/Claro switch aesthetics only, no premium keypads, basic scene programming via app only, Smart Bridge is single point of failure. Still more reliable than any WiFi smart switch due to Clear Connect proprietary protocol. 8-year warranty matches HomeWorks \u2014 Lutron stands behind every tier. Great for condos and small homes; inadequate for whole-home specification in larger properties.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004"
+    ],
+    "sources_report_only": [
+      "SRC-005"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 3,
+      "pool_B": 1,
+      "pool_C": 1
+    }
+  },
+  "product_slug": "lutron_caseta",
+  "product_name": "Lutron Caseta",
+  "manufacturer_slug": "lutron",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-02",
+  "structuring_duration_ms": 0,
+  "structuring_model": "manual_structuring",
+  "auto_classification_summary": {
+    "total": 5,
+    "score": 4,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

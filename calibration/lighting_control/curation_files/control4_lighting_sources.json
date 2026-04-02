@@ -1,0 +1,120 @@
+{
+  "product": "Control4 Lighting (Snap One)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Control4 Lighting Specifications",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Control4 lighting uses Zigbee mesh where every powered device acts as repeater. Hybrid wireless + panelized options. Custom engraved configurable keypads. OS 3 unified interface. Dealer-channel only. 2-year standard warranty.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "CE Pro \u2014 Control4/Snap One Acquisition Impact",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Snap One acquired Control4 in 2019. Resideo Technologies (Honeywell Home spin-off) acquired Snap One in 2024. Two ownership changes in five years. Product roadmap uncertainty during integration periods. Some dealers report delayed product releases.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 durability",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "AVS Forum \u2014 Control4 Lighting Reliability",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Control4 Zigbee mesh generally reliable but integrators report occasional interference in homes with dense 2.4 GHz environments (many WiFi devices, baby monitors, microwaves). Lutron Clear Connect does not have this issue due to dedicated frequency band.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 durability, quality",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "r/Control4 \u2014 Dealer Sentiment Post-Acquisition",
+      "url": "",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Mixed dealer sentiment: some report continued strong support, others concerned about Resideo integration focus on DIY/prosumer market vs traditional custom integration channel. Product development cadence has reportedly slowed.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 durability",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Snap One/Resideo Corporate Structure",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Snap One Holdings \u2192 acquired by Resideo Technologies (2024). Resideo is a Honeywell spin-off publicly traded on NYSE: REZI. Control4 is now three corporate layers deep. Integration ongoing.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Report only finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Control4 offers comprehensive home automation with integrated lighting via Zigbee mesh. Broadest third-party device support. Custom engraved keypads. 22+ year track record. BUT: lighting is one of many capabilities, not the core focus. Zigbee shared-spectrum (2.4 GHz) less reliable than Lutron Clear Connect. 2-year warranty is shortest in category. Two ownership changes (Snap One 2019, Resideo 2024) create legitimate corporate stability concerns. Many Control4 integrators now specify Lutron for the lighting layer within Control4 automation.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004"
+    ],
+    "sources_report_only": [
+      "SRC-005"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 3,
+      "pool_B": 1,
+      "pool_C": 1
+    }
+  },
+  "product_slug": "control4_lighting",
+  "product_name": "Control4 Lighting (Snap One)",
+  "manufacturer_slug": "control4",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-02",
+  "structuring_duration_ms": 0,
+  "structuring_model": "manual_structuring",
+  "auto_classification_summary": {
+    "total": 5,
+    "score": 4,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

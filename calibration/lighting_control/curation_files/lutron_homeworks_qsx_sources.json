@@ -1,0 +1,120 @@
+{
+  "product": "Lutron HomeWorks QSX (Standard)",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Lutron Technical Documentation \u2014 HomeWorks QSX",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Same panelized architecture as Ketra variant: QS Link wired backbone, Clear Connect Type X wireless, 10,000+ devices, 0.1% dimming. Palladiom and Alisse keypads available. 8-year warranty. All HomeWorks-exclusive features except Ketra tunable lighting.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "CEDIA Integrator Feedback \u2014 HomeWorks Without Ketra",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Many HomeWorks installations are specified without Ketra due to cost. Integrators report the panelized architecture, keypad aesthetics, and reliability are the primary value \u2014 Ketra is a premium add-on. Standard HomeWorks is still the gold standard for new construction lighting control.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, durability",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Wipliance \u2014 HomeWorks vs RadioRA 3",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "HomeWorks without Ketra vs RadioRA 3: the core difference is panelized (centralized dimming modules) vs distributed (switches at the wall). Panelized provides cleaner wall plates and centralizes all load management. RadioRA 3 is more practical for retrofits.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "r/homeautomation \u2014 HomeWorks Longevity",
+      "url": "",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "HomeWorks wired installations from the 2000s continue to operate flawlessly. QS Link backbone has no wireless interference issues by design. Integrators report zero communication failures on properly installed wired systems over 15+ years.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 durability",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Lutron Corporate \u2014 Private Family-Owned",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Lutron Electronics Co., Inc. \u2014 privately held, family-owned since 1961. Coopersburg, PA. 17,000+ patents. No acquisition risk. Strong corporate outlook.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Report only finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Lutron HomeWorks QSX without Ketra retains the panelized wired architecture, QS Link backbone, Clear Connect Type X wireless, Palladiom/Alisse keypads, 10,000+ device capacity, 0.1% dimming depth, and 8-year warranty. Same architectural excellence as the Ketra variant but without tunable spectrum lighting \u2014 the system relies on the CCT of installed fixtures. Still the benchmark for wired residential lighting control. Can upgrade to Ketra later by adding Ketra fixtures and N-QS processor.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004"
+    ],
+    "sources_report_only": [
+      "SRC-005"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 3,
+      "pool_B": 1,
+      "pool_C": 1
+    }
+  },
+  "product_slug": "lutron_homeworks_qsx",
+  "product_name": "Lutron HomeWorks QSX (Standard)",
+  "manufacturer_slug": "lutron",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-02",
+  "structuring_duration_ms": 0,
+  "structuring_model": "manual_structuring",
+  "auto_classification_summary": {
+    "total": 5,
+    "score": 4,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

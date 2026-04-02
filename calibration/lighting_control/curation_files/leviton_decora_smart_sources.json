@@ -1,0 +1,120 @@
+{
+  "product": "Leviton Decora Smart Wi-Fi",
+  "report_date": "2026",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Leviton Decora Smart Specifications",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "WiFi-connected smart dimmers and switches. DW6HD dimmer: 100W LED, 300W incandescent. No hub required \u2014 each device on home WiFi. My Leviton app. Requires neutral wire. 5-year warranty. Decora styling. Alexa, Google, HomeKit.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, performance",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "r/homeautomation \u2014 WiFi Switch Reliability",
+      "url": "",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "WiFi smart switches including Leviton experience connectivity dropouts when router is under heavy load, firmware updates occasionally disconnect devices, and cloud service outages disable some features. Professional integrators do not specify WiFi switches for quality homes.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 durability",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "CEDIA Integrator Consensus \u2014 WiFi Not Professional Grade",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional integrators universally avoid WiFi-based lighting for custom installations. WiFi adds router dependency, network congestion risk, firmware vulnerability, and no system-level programming. CEDIA integrators specify Lutron, Savant, or Control4 \u2014 never WiFi switches.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 quality, durability",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Leviton Corporate Profile",
+      "url": "",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Leviton Manufacturing Co., Inc. \u2014 privately held, Melville, NY. Founded 1906. 100+ year electrical manufacturer. Decora is the standard residential switch/outlet form factor in US construction. Strong electrical engineering heritage. Smart home is a newer product line.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Report only finding \u2014 quality",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "The Verge \u2014 Smart Switch Roundup",
+      "url": "",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Leviton Decora Smart switches are well-reviewed for individual use but lack the system-level integration and scene programming available in Lutron, Savant, or Control4. The My Leviton app provides basic scheduling and voice integration but no conditional logic or astronomical timeclock.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Score finding \u2014 performance",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Leviton Decora Smart are individual WiFi switches from a respected 100+ year electrical manufacturer \u2014 not a lighting control system. Each switch connects to the home WiFi router independently. No dedicated lighting protocol. No system-level scene programming. Cloud-dependent features. WiFi congestion at scale. Requires neutral wire (limits retrofit). 5-year warranty. The switches themselves are well-built (UL listed, proper electrical engineering from a real manufacturer), but this is Tier 4 because it is not a system \u2014 it is smart switches with an app.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-005"
+    ],
+    "sources_report_only": [
+      "SRC-004"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 3,
+      "pool_B": 1,
+      "pool_C": 1
+    }
+  },
+  "product_slug": "leviton_decora_smart",
+  "product_name": "Leviton Decora Smart Wi-Fi",
+  "manufacturer_slug": "leviton",
+  "operation_type": null,
+  "deep_dive_date": "2026-04-02",
+  "structuring_duration_ms": 0,
+  "structuring_model": "manual_structuring",
+  "auto_classification_summary": {
+    "total": 5,
+    "score": 4,
+    "report_only": 1,
+    "quarantine": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0,
+  "verification_date": null
+}

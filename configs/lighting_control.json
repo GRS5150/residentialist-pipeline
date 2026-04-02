@@ -1,0 +1,288 @@
+{
+  "category": "lighting_control",
+  "version": "1.0",
+  "created_date": "2026-04-02",
+  "parent_category": "smart_home",
+  "notes": "Whole-home lighting control systems — scored as SYSTEMS, not individual switches. The unit of scoring is the system platform (e.g., Lutron HomeWorks QSX, Lutron RadioRA 3, Lutron Caseta, Savant Lighting, Control4 Lighting). Lutron dominates: 334 luxury listing sightings. Key differentiators: device/zone capacity, dimming protocol, switch aesthetics, integration depth, and scalability. Ketra tunable lighting is a Lutron-exclusive technology available only through HomeWorks. Performance is NOT flat — tunable white, color temperature range, dimming depth, and scene complexity create real spread.",
+
+  "axis_weights": {
+    "quality": 0.40,
+    "durability": 0.30,
+    "performance": 0.30
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Lutron HomeWorks QSX (with Ketra)", "slug": "lutron_homeworks_qsx_ketra", "target_range": [94, 97] },
+        { "name": "Lutron HomeWorks QSX (Standard)", "slug": "lutron_homeworks_qsx", "target_range": [91, 94] }
+      ],
+      "notes": "HomeWorks QSX: Lutron's flagship panelized system. 10,000+ device capacity, wired QS Link backbone + wireless Clear Connect, exclusive Palladiom/Alisse keypads. With Ketra: adds tunable white 1,400K-10,000K, >90 CRI, one-step MacAdam ellipse Color Lock, circadian automation. The system professional integrators specify for $5M+ homes without hesitation. 334 Lutron sightings in luxury listings dominate the category."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Lutron RadioRA 3", "slug": "lutron_radiora3", "target_range": [82, 86] },
+        { "name": "Savant Lighting System", "slug": "savant_lighting", "target_range": [78, 82] }
+      ],
+      "notes": "RadioRA 3: Professional-grade wireless, 200 devices/processor, Clear Connect Type X, Sunnata/Maestro/seeTouch keypads. Lutron Designer programming required. Best retrofit solution for $1-5M homes. Savant: Whole-home automation platform with integrated lighting layer. Apple ecosystem integration, TrueImage switch displays, premium app UI. Often paired WITH Lutron hardware for lighting backbone — the fact that professional integrators frequently pair Savant brain + Lutron muscle says something about each system's strength."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "Control4 Lighting (Snap One)", "slug": "control4_lighting", "target_range": [65, 70] },
+        { "name": "Lutron Caseta", "slug": "lutron_caseta", "target_range": [62, 66] }
+      ],
+      "notes": "Control4: Zigbee mesh, scalable, dealer-channel only. Strong whole-home integration but lighting is one capability within broader automation — not a lighting-first platform. Snap One acquisition (2019) expanded distribution. Caseta: Lutron's entry-level system. 75 device limit, DIY-friendly, Clear Connect RF, no neutral required (most models). Exceptionally reliable but limited scalability and no premium keypad options. The system that introduces homeowners to Lutron before they upgrade to RadioRA 3 or HomeWorks."
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Leviton Decora Smart Wi-Fi (Residential)", "slug": "leviton_decora_smart", "target_range": [44, 50] }
+      ],
+      "notes": "Wi-Fi based smart switches. No dedicated lighting protocol — relies on home Wi-Fi network. Individual switch control (not system-level). No scene programming beyond basic app. No professional commissioning. Functional but not a lighting SYSTEM in any meaningful sense. Represents what builder-grade homes install when they want to check the 'smart home' box."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for products with active safety issues, no UL listing, or documented reliability failures at the electrical level."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "system_architecture",
+        "type": "categorical",
+        "adjustments": {
+          "panelized_wired_plus_wireless": 2,
+          "dedicated_wireless_mesh_proprietary": 1,
+          "zigbee_zwave_mesh": 0,
+          "wifi_based": -1,
+          "bluetooth_only": -2
+        },
+        "notes": "THE key differentiator in lighting control — equivalent of cartridge for faucets. Panelized wired (HomeWorks QSX) = centralized dimming modules in panel, clean wall plates, QS Link backbone. Dedicated wireless (RadioRA 3, Caseta) = Lutron Clear Connect proprietary RF, 100x more reliable than WiFi/Zigbee per Lutron's published data. WiFi-based = subject to network congestion, router dependency."
+      },
+      {
+        "field": "dimming_protocol",
+        "type": "categorical",
+        "adjustments": {
+          "proprietary_precision_high_end": 2,
+          "proprietary_clear_connect": 1,
+          "zigbee_certified": 0,
+          "wifi_generic": -1
+        },
+        "notes": "Lutron Clear Connect (Type X for RadioRA3/HomeWorks, Type A for legacy) = purpose-built for lighting with sub-second response and zero interference. Zigbee/Z-Wave = adequate but shared-spectrum. WiFi = congestion-prone, router-dependent."
+      },
+      {
+        "field": "switch_aesthetic_options",
+        "type": "categorical",
+        "adjustments": {
+          "designer_collection_exclusive": 2,
+          "professional_multiple_lines": 1,
+          "standard_decora_style": 0,
+          "basic_smart_switch": -1
+        },
+        "notes": "HomeWorks exclusive: Palladiom (metal, flush), Alisse (hand-finished, 40+ metal finishes). RadioRA 3: Sunnata (touch), Maestro, seeTouch keypads. Savant: TrueImage (customizable display). Control4: Custom Engraved Configurable Keypads. Caseta: Diva, Claro. Leviton: standard Decora."
+      },
+      {
+        "field": "keypad_capability",
+        "type": "categorical",
+        "adjustments": {
+          "custom_engraved_scene_multibutton": 2,
+          "scene_capable_multibutton": 1,
+          "single_zone_dimmer_only": 0,
+          "on_off_only": -1
+        },
+        "notes": "Custom engraved keypads (HomeWorks, Control4) = multi-button scene control with per-button labels, backlit. Pico remotes (Caseta/RadioRA) = scene capable but limited buttons. Single zone = one dimmer per switch. This is THE aesthetic differentiator that homebuyers notice on the wall."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "Lutron: Coopersburg, PA headquarters + global manufacturing (identified). Savant: Hyannis, MA (Apple ecosystem). Control4/Snap One: Charlotte, NC (post-acquisition). Leviton: Melville, NY."
+      }
+    ],
+    "performance": [
+      {
+        "field": "device_zone_capacity",
+        "type": "continuous_higher_better",
+        "adjustments": { ">=5000": 2, "200-4999": 1, "75-199": 0, "<75": -1 },
+        "notes": "HomeWorks QSX: 10,000+ devices. RadioRA 3: 200/processor (scalable with multiple processors). Control4: enterprise-scalable. Caseta: 75 max. Leviton: per-switch, no system limit but no system management either. Device capacity determines whether the system can handle a whole-home specification."
+      },
+      {
+        "field": "tunable_white_color",
+        "type": "categorical",
+        "adjustments": {
+          "full_spectrum_tunable_ketra": 2,
+          "tunable_white_basic": 1,
+          "fixed_color_temperature": 0,
+          "no_color_control": -1
+        },
+        "notes": "Ketra: 1,400K-10,000K, 16.7M colors, >90 CRI, Color Lock (one-step MacAdam ellipse), Natural Light circadian. Savant: TrueImage, some tunable options. Control4/Caseta/Leviton: no native color temperature control — dependent on individual bulb capability."
+      },
+      {
+        "field": "dimming_depth",
+        "type": "categorical",
+        "adjustments": {
+          "0_1_pct_smooth_flicker_free": 2,
+          "1_pct_smooth": 1,
+          "5_pct_standard": 0,
+          "10_pct_or_stepped": -1
+        },
+        "notes": "Ketra/HomeWorks: dims to 0.1% flicker-free. RadioRA 3/Caseta: smooth dimming to 1%. Control4: varies by module. WiFi switches: typically 5-10% minimum with visible stepping on some loads."
+      },
+      {
+        "field": "scene_automation_complexity",
+        "type": "categorical",
+        "adjustments": {
+          "conditional_logic_timeclock_astronomical": 2,
+          "multi_zone_scenes": 1,
+          "basic_scenes": 0,
+          "no_scene_control": -1
+        },
+        "notes": "HomeWorks/RadioRA 3: conditional logic, astronomical timeclock (sunrise/sunset auto-adjust), integration with shading/HVAC/security. Savant: whole-home scenes across subsystems. Control4: strong conditional logic. Caseta: basic scenes via app. WiFi: basic on/off schedules."
+      },
+      {
+        "field": "integration_depth",
+        "type": "categorical",
+        "adjustments": {
+          "native_av_hvac_security_shading": 2,
+          "native_shading_plus_third_party": 1,
+          "third_party_api_only": 0,
+          "app_only_limited": -1
+        },
+        "notes": "HomeWorks + Savant: native integration across AV, HVAC, security, shading — one button press triggers multi-system scenes. RadioRA 3: native Lutron shading + third-party via Lutron Connect. Control4: broadest third-party integration ecosystem. Caseta: HomeKit, Alexa, Google. Leviton: app + voice assistant."
+      }
+    ],
+    "durability": [
+      {
+        "field": "communication_reliability",
+        "type": "categorical",
+        "adjustments": {
+          "wired_backbone_wireless_redundancy": 2,
+          "proprietary_rf_dedicated_band": 1,
+          "zigbee_zwave_mesh": 0,
+          "wifi_dependent": -1
+        },
+        "notes": "HomeWorks QS Link: wired backbone = physically cannot lose signal. Clear Connect RF: dedicated frequency band, no interference from WiFi/Bluetooth/microwave. Zigbee: mesh improves reliability but shared 2.4GHz spectrum. WiFi: router-dependent, network congestion, firmware update risks."
+      },
+      {
+        "field": "processor_architecture",
+        "type": "categorical",
+        "adjustments": {
+          "dedicated_processor_redundant": 2,
+          "dedicated_processor_single": 1,
+          "hub_based": 0,
+          "cloud_dependent": -1
+        },
+        "notes": "HomeWorks QSX: dedicated QSX processor, local processing, no cloud dependency. RadioRA 3: dedicated processor, local. Savant: dedicated host (local). Control4: dedicated controller (local). Caseta: Smart Bridge hub (local but single point of failure). WiFi: varies — some cloud-dependent."
+      },
+      {
+        "field": "warranty_years",
+        "type": "threshold",
+        "adjustments": { ">=8": 2, "5-7": 1, "3-4": 0, "<3": -1 },
+        "notes": "Lutron systems: typically 8-year warranty on components. Savant: 3-year standard, extended available. Control4: 2-year standard. Leviton: 5-year."
+      },
+      {
+        "field": "installer_certification_required",
+        "type": "categorical",
+        "adjustments": {
+          "factory_certified_dealer_required": 1,
+          "professional_recommended": 0,
+          "diy_installation": -1
+        },
+        "notes": "HomeWorks/RadioRA 3: requires Lutron-certified installer with Lutron Designer access. Savant: authorized dealer only. Control4: authorized dealer only. Caseta: DIY-friendly. Factory certification ensures system is properly commissioned — field performance of professional vs DIY installations is markedly different."
+      },
+      {
+        "field": "parts_service_availability",
+        "type": "categorical",
+        "adjustments": {
+          "manufacturer_direct_plus_dealer_network": 1,
+          "dealer_network_only": 0,
+          "retail_replacement": -1
+        },
+        "notes": "Lutron: direct manufacturer support + nationwide dealer network (largest in category). Savant: dealer network. Control4/Snap One: dealer network + Snap One distribution. Leviton: retail replacement (Home Depot, Amazon)."
+      },
+      {
+        "field": "system_longevity_track_record",
+        "type": "categorical",
+        "adjustments": {
+          "20_plus_year_proven": 2,
+          "10_plus_year_proven": 1,
+          "5_plus_year_market": 0,
+          "new_or_unproven": -1
+        },
+        "notes": "Lutron: Founded 1961, HomeWorks lineage since 1990s, Clear Connect since 2009. Proven 20+ year field performance on wired systems. Savant: Founded 2005, 18+ years. Control4: Founded 2003, 22+ years. Leviton: Decora Smart is newer product line within 100+ year company."
+      }
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Score the SYSTEM PLATFORM, not individual switches or dimmers. Lutron HomeWorks QSX is one scored product. A single Caseta dimmer is part of the Caseta system product.",
+    "Lutron platform hierarchy: HomeWorks QSX > RadioRA 3 > Caseta. These are legitimately different products with different architectures, not badge-engineering. Score separately per Rule 19.",
+    "Ketra is a Lutron-exclusive technology available ONLY through HomeWorks. HomeWorks with Ketra and HomeWorks without Ketra are different scored products per Rule 19 (different capabilities at component level).",
+    "Savant as lighting-only vs Savant as whole-home: Score the lighting control capability specifically. Savant's AV/climate integration is a report finding, not a lighting score finding.",
+    "Professional integrators frequently pair Savant brain + Lutron lighting hardware. This is a MATERIAL FINDING — it means the market itself views Lutron as the superior lighting-specific hardware. Report this.",
+    "Control4/Snap One acquisition (2019): Snap One acquired Control4. Now part of broader Snap One dealer ecosystem. Report corporate structure.",
+    "DIY vs professional installation: Systems requiring professional commissioning (HomeWorks, RadioRA 3, Savant, Control4) score differently than DIY (Caseta, Leviton) on certification spec. This is a quality/reliability signal, not snobbery.",
+    "WiFi-based systems (Leviton, generic smart switches) are fundamentally different architecture than dedicated lighting protocols. WiFi switches are individual devices, not a system. Score accordingly.",
+    "Lutron 334 luxury listing sightings — dominant category presence. Report this market data.",
+    "Corporate structure = report finding. Lutron Electronics Co. is privately held (Coopersburg, PA). Snap One (Control4) is publicly traded. Savant Systems is privately held."
+  ],
+
+  "source_pools": {
+    "S": {
+      "weight": 1.50,
+      "sources": [
+        "VACANT — No independent, methodology-documented comparative testing source for whole-home lighting control systems. No teardown channel. No quantified reliability database. The category has no StarCraft/Yale equivalent. CEDIA-channel integrators provide the closest equivalent to professional consensus but are commercially interested parties."
+      ]
+    },
+    "A": {
+      "weight": 1.00,
+      "sources": [
+        "CEDIA (Custom Electronic Design & Installation Association) — trade body, certified installer network",
+        "Lutron technical documentation (system rules, spec sheets, load charts)",
+        "Residential Systems Magazine / CE Pro (trade publications for professional integrators)",
+        "Architectural lighting designers (ALA-certified professionals)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/homeautomation (active smart home community, installer participation)",
+        "r/Lutron (dedicated Lutron subreddit)",
+        "AVS Forum Home Automation threads",
+        "Professional integrator YouTube channels (Just Add Power, TSP Smart Home)",
+        "The Verge / CNET smart home reviews"
+      ]
+    },
+    "C": {
+      "weight": 0.40,
+      "sources": [
+        "r/smarthome (consumer discussions)",
+        "Houzz smart home threads",
+        "Individual Amazon/retailer product reviews",
+        "Blog posts and comparison articles"
+      ]
+    }
+  }
+}
