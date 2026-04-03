@@ -19,8 +19,13 @@ function getClient() {
  * Build audit prompt for Haiku.
  */
 function buildPrompt(tierResult, curation, slug) {
+  const { loadConfig, buildAnchorPromptText } = require('./config_loader');
+  const category = tierResult.category || curation.category || 'windows';
+  const config = loadConfig(category);
+  const anchorText = buildAnchorPromptText(config);
+
   const productName = curation.product_name || curation.product || slug;
-  const operationType = curation.operation_type || 'DH';
+  const operationType = curation.operation_type || (category === 'windows' ? 'DH' : 'N/A');
 
   // Build source list
   const sourceList = (curation.sources || []).map(s => {
@@ -54,11 +59,7 @@ CURATED SOURCES AVAILABLE (for cross-reference):
 ${sourceList}
 
 ANCHOR DEFINITIONS:
-Tier 1 (Best in Class): Marvin Signature Ultimate — premium aluminum-clad wood, unanimous expert top-tier
-Tier 2 (Excellent): Andersen E-Series, Loewen — premium wood, strong expert consensus
-Tier 3 (Good): Andersen 400, Pella Impervia — solid mid-range products
-Tier 4 (Fair): Simonton 5500, Pella 250 — budget adequate products
-Tier 5 (Below Standard): Reliabilt 3500 — documented quality problems
+${anchorText}
 
 Audit checklist:
 1. Did Sonnet reference any source that is about a DIFFERENT product from this manufacturer? If yes, the tier may be wrong.

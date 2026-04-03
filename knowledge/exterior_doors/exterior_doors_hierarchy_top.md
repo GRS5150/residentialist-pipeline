@@ -1,45 +1,49 @@
 # Exterior Doors — Pass 3: Competitive Hierarchy: Top
-*Generated: 2026-04-01T19:55:32.691Z*
+*Generated: 2026-04-02T21:48:23.685Z*
 *Model: sonar-pro*
 *Query length: 1593 chars*
-*Response length: 4932 chars*
-*Sources: 8*
+*Response length: 4652 chars*
+*Sources: 6*
 
 ---
 
-Professionals in high-end residential construction, including architects and installers for $2-5M+ homes, rank **Marvin Signature Ultimate, Kolbe VistaLuxe, and Loewen** at the top tier for premium wood/hybrid exterior doors due to superior **solid wood slab construction**, extensive **custom options**, and architect specifications favoring their craftsmanship over mass-market brands.[2] These outperform **Pella Reserve/Architect Series** and **Therma-Tru Classic-Craft/Fiber-Classic** (strong in fiberglass but lower in wood authenticity), with **Simpson Door Company** and **TruStile** respected for solid wood/modern solid slabs but less specified for ultra-custom high-end jobs; **ProVia** emerges as a durable fiberglass contender in expert lists.[3]
+Professionals rank **Marvin (Signature Ultimate), Kolbe (VistaLuxe), Loewen, and Simpson Door Company** as top-tier for high-end residential exterior doors in $2-5M+ homes, prioritizing their solid wood or advanced composite construction, custom configurability, and architect specifications over mass-market fiberglass leaders like **Therma-Tru** and **Pella**, which excel in durability but lag in premium aesthetics and customization.[1][2]
 
-### Professional Hierarchy and Key Differentiators
-High-end builders and architects default to Marvin, Kolbe, and Loewen for the "best available" in luxury homes, citing daily installer feedback on **slab stability** (engineered wood laminates resist warping better than solid planks from Simpson) and **sealing systems** (proprietary multi-layer weatherstripping with adjustable thresholds).[2] Independent preferences prioritize these over Pella/Therma-Tru, which excel in consumer trust but lag in bespoke detailing.[1][3]
+### Professional Hierarchy and Builder/Architect Preferences
+High-end builders and architects default to wood or hybrid premium brands for luxury projects due to superior slab quality, finish options, and serviceability, per industry expert compilations. Rankings draw from installer feedback in trade lists (not consumer reviews), emphasizing daily service realities like warp resistance and hardware integration:
+- **Tier 1 (Architect/Builder Gold Standard for $2-5M+ Homes)**: Marvin Signature Ultimate, Kolbe VistaLuxe, Loewen, Simpson (solid wood). Specified for unmatched custom wood/hybrid slabs, European joinery, and refinishing longevity; installers note easiest field adjustments and 50+ year lifespans in harsh climates.[1]
+- **Tier 2 (Excellent, Versatile Premium)**: TruStile (modern), Pella Reserve/Architect Series. Strong in modern glass-heavy designs and Fibrex composites; preferred where sustainability trumps pure wood luxury.[1][2]
+- **Tier 3 (Durable Mainstream, Less Custom)**: Therma-Tru (Classic-Craft, Fiber-Classic). Tops fiberglass for weather sealing and low maintenance; installers praise it for 30-40 year warranties without refinishing needs, but note less "wow" factor for high-end specs.[1][2][4]
 
-| Brand | Tier (High-End Pro Preference) | Slab/Materials | Sealing/Hardware | Glass/Finish | Custom/Lead Time | Warranty | Pro Notes |
-|-------|--------------------------------|----------------|------------------|--------------|------------------|----------|-----------|
-| **Marvin Signature Ultimate** | Top (Architect default) | Engineered wood/hybrid slabs (most stable) | Premium factory hinges/multi-point locks | High-end IGUs, refinishable stains | Unlimited custom, 12-16 wk | Lifetime, strong backing | Installers praise warp resistance in humid climates[2] |
-| **Kolbe VistaLuxe** | Top | Aluminum-clad wood/hybrid | Advanced compression seals, top-tier hardware | Impact-rated glass options | Highly custom, 10-14 wk | 20+ yr transferable | Builders specify for modern estates[2] |
-| **Loewen** | Top | Solid/premium wood slabs | Custom weatherstripping, high-end brass/SS hardware | Bespoke glazing | Extreme custom, 14-20 wk | Lifetime structural | Favored by architects for $5M+ authenticity[2] |
-| **Pella Reserve/Architect** | Upper Mid (Trusted, versatile) | Wood/fiberglass hybrid | Good foam seals, reliable factory hardware | Triple-pane options | Moderate custom, 8-12 wk | 20 yr glass/lifetime | #1 consumer trust; pros use for value luxury[1] |
-| **Therma-Tru Classic-Craft** | Upper Mid (Fiberglass leader) | Compression-molded fiberglass (rot-proof) | Polyurethane core seals, multi-point | Flush-glazed, durable finishes | Good modern options, 6-10 wk | 50 yr/lifetime | Installers note easy service, energy efficiency[2][3] |
-| **Simpson Door Company** | Mid-High (Solid wood specialist) | True solid wood slabs | Standard seals, upgradeable hardware | Basic to custom glass | Stock + custom, 4-8 wk | Varies by species | Pros like for traditional but flag expansion risks[2] |
-| **TruStile** | Mid-High (Modern focus) | Solid wood slabs | Modern seals, designer hardware | Flush contemporary glass | Custom modern, 6-12 wk | Standard | Specified for sleek designs, less for performance[2] |
-| **ProVia** | Mid-High | Fiberglass detail-focused | Secure systems | Durable stains | Moderate, quick | Lifetime | Rising in expert picks for craftsmanship[3] |
+No independent testing data (e.g., ASTM cycle tests or air/water infiltration) distinguishes these at premium levels, as most pass uniformly; differences emerge in real-world installer reports on long-term warp, seal failures, and hardware prep.[3]
 
-**What separates best from excellent**: Top-tier (Marvin/Kolbe/Loewen) use **laminated wood cores** (vs. solid slabs prone to seasonal movement), **flush-glazed multi-pane IGUs** with low-E coatings, **refinishable UV-stable finishes** (10+ yr durability), and **factory-integrated premium hardware** (e.g., Blum hinges) unmatched by fiberglass like Therma-Tru (excellent seals but less refinishable).[2][3] Lead times reflect true custom (vs. Pella's semi-custom); warranties backed by family-owned stability. Pros report <1% service calls on top brands vs. 5%+ on excellent mid-tier due to field-testing in extreme weather.[2]
+### Key Differentiators: Best vs. Excellent
+What elevates Tier 1 (e.g., Marvin, Loewen) over Tier 2/3 (e.g., Therma-Tru, Pella):
+| Criterion | Top Performers (Tier 1) | Excellent (Tiers 2-3) |
+|-----------|--------------------------|-----------------------|
+| **Slab Construction/Materials** | Solid wood (mahogany/oak) or hybrids with laminated stiles/rails; minimal expansion/contraction.[1] | Fiberglass (Therma-Tru) or Fibrex (Pella); rot-proof but less "alive" feel, harder to refinish.[1][2] |
+| **Weatherstripping/Sealing** | Compression-fit EPDM or silicone sweeps; multi-point locks standard.[1] | Foam-filled fiberglass edges; excellent initial seal but seals degrade faster per installers.[1][3] |
+| **Hardware Quality (Factory-Shipped)** | Hinge/pivot preps for premium brands like Blum or Hafele; rarely ships full sets.[1] | Basic hinges/locks; Therma-Tru pairs best with aftermarket upgrades.[1] |
+| **Glass Panel Quality/Options** | Impact-rated triple-pane, low-E argon-filled; unlimited muntin configs.[1] | Double-pane standard; Therma-Tru Veris adds steel/polymer for modern looks.[1] |
+| **Finish Durability/Refinishability** | UV oil or catalyzed poly; sands/refinishes 5-10x over life.[1] | Factory baked-on; no refinishing (advantage for low-maintenance).[1] |
+| **Custom Options/Lead Times** | Fully bespoke sizes/shapes; 8-16 weeks.[1] | Configurable but grid-limited; 4-8 weeks.[1][2] |
+| **Warranty/Backing** | 20-50 years transferable; strong OEM support (e.g., Marvin's nationwide service).[1] | Lifetime on materials (Therma-Tru); fiberglass edges out wood on rot claims.[1][4] |
+
+Installers report Tier 1 doors service 2-3x less over 20 years due to overbuilt stiles, but require skilled wood care; fiberglass shines in wet/freeze-thaw zones.[1][3]
 
 ### Iron/Steel Decorative Doors (Clark Hall, First Impression Ironworks)
-These rank as **premium decorative/statement pieces**, not core hierarchy contenders—pros view them as **artisan overlays on wood/fiberglass cores** for security + aesthetics in $3M+ entries, with solid galvanized steel construction but reliant on base door performance. Clark Hall leads for custom forging; installers note heavy weight demands reinforced frames, positioning above basic steel but below Marvin for all-weather slabs.[2]
+These rank as **niche premium decorative**, not core hierarchy contenders. Exceptional forged iron/steel cladding over wood/fiberglass cores for $2M+ statement entries; professionals specify for aesthetics (e.g., desert modern), but note higher service needs (rust mitigation, heavy weight stressing seals). Construction is premium (hand-welded, powder-coated), not "decorative only," but trails wood tiers in all-weather sealing.[1] Hierarchy fit: Tier 1 adjacent for luxury, but specialized.
 
 ### Pivot Doors
-**Subcategory within premium hierarchy**: Follow same rankings (Marvin/Loewen excel with heavy-duty pivot hardware, 500+ lb capacities, integrated seals). Pros specify them for dramatic modern entries in high-end homes, but warn of seal failures if not top-tier—same slab/glass differentiators apply.[2]
+**Subcategory within premium hierarchy**, following same tiers (e.g., Marvin/Kolbe excel with commercial-grade pivot hardware). Pros love them for modern impact but warn of sealing challenges (gaps at thresholds); Tier 1 brands mitigate via adjustable jambs/heavy-duty bearings. Daily installers rank pivot viability by slab mass: solid wood > fiberglass.[1]
 
 ---
 
 ## Citations
 
-1. https://www.lifestoryresearch.com/2026-americas-most-trusted-front-door-brands
-2. https://www.xpwindowsanddoors.com/post/comparing-the-top-4-door-brands
-3. https://www.fixr.com/articles/best-entry-door-brands
-4. https://www.consumeraffairs.com/homeowners/doors/
-5. https://wellstemfg.com/15-best-patio-door-manufacturers/
-6. https://www.leawodgroup.com/blog/best-exterior-door-options-for-home-2026/
-7. https://aprodoor.com/fiberglass-door-manufacturers/
-8. https://mrbuildinc.com/blog/front-door-smart-technology-trends-2026/
+1. https://zeelandlumber.com/best-exterior-door-brands/
+2. https://www.fixr.com/articles/best-entry-door-brands
+3. https://www.consumerreports.org/home-garden/entry-doors/buying-guide/
+4. https://www.thermatru.com/company/awards/
+5. https://www.homedepot.com/b/Doors-Windows-Exterior-Doors-Front-Doors/Best-Rated/N-5yc1vZar90Zbwo5q
+6. https://www.lowes.com/pl/exterior-doors/front-doors/top-rated/4294482094-5007197

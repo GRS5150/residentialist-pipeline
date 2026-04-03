@@ -56,9 +56,10 @@ function anchorOffset(aboveOrBelow, range) {
   if (ab === 'clearly above' || ab === 'well above') return Math.round(upperHalf * 0.6);
   if (ab === 'slightly above' || ab === 'above') return Math.round(upperHalf * 0.3);
   if (ab === 'equal' || ab === 'roughly equal' || ab === 'comparable') return 0;
+  if (ab === 'matches anchor' || ab === 'matches exactly' || ab === 'exact match' || ab === 'equivalent') return 0;
   if (ab === 'slightly below' || ab === 'below') return -Math.round(lowerHalf * 0.3);
   if (ab === 'clearly below' || ab === 'well below') return -Math.round(lowerHalf * 0.6);
-  return 0; // default: midpoint
+  return 0; // default: no offset
 }
 
 // ─── Spec Adjustments ──────────────────────────────────────────────────────────
@@ -69,7 +70,89 @@ function computeSpecAdjustments(specs, tier, category) {
 
   if (!specs) return { adjustment: 0, details: ['No spec highlights available'] };
 
-  if (category === 'windows') {
+  if (category === 'countertops') {
+    // ── v2 Countertop Spec Adjustments ──────────────────────────────────
+
+    // PERFORMANCE: Heat resistance (continuous)
+    const heatF = parseFloat(specs.heat_resistance_f);
+    if (!isNaN(heatF)) {
+      if (heatF >= 1000) { adjustment += 2; details.push(`Heat ${heatF}°F: hot-pan-proof (+2)`); }
+      else if (heatF >= 300) { adjustment += 1; details.push(`Heat ${heatF}°F: moderate tolerance (+1)`); }
+      else if (heatF >= 200) { details.push(`Heat ${heatF}°F: base (0)`); }
+      else { adjustment -= 1; details.push(`Heat ${heatF}°F: heat-vulnerable (-1)`); }
+    }
+
+    // PERFORMANCE: Mohs hardness (continuous)
+    const mohs = parseFloat(specs.mohs_hardness);
+    if (!isNaN(mohs)) {
+      if (mohs >= 7) { adjustment += 1; details.push(`Mohs ${mohs}: scratch-proof (+1)`); }
+      else if (mohs >= 5) { details.push(`Mohs ${mohs}: base (0)`); }
+      else { adjustment -= 1; details.push(`Mohs ${mohs}: scratches from normal use (-1)`); }
+    }
+
+    // PERFORMANCE: Water absorption (continuous)
+    const waterAbs = parseFloat(specs.water_absorption_pct);
+    if (!isNaN(waterAbs)) {
+      if (waterAbs < 0.05) { adjustment += 1; details.push(`Water absorption ${waterAbs}%: virtually non-porous (+1)`); }
+      else if (waterAbs <= 0.4) { details.push(`Water absorption ${waterAbs}%: within ASTM spec (0)`); }
+      else { adjustment -= 1; details.push(`Water absorption ${waterAbs}%: above ASTM C615 max (-1)`); }
+    }
+
+    // PERFORMANCE: Impact resistance (categorical — test-based)
+    const impact = (specs.impact_resistance || '').toLowerCase();
+    if (impact === 'no_failures' || impact === 'pass' || impact === 'no failures') {
+      adjustment += 1; details.push('Impact: confirmed safe in testing (+1)');
+    } else if (impact === 'documented_failures' || impact === 'fail' || impact === 'split' || impact === 'documented failures') {
+      adjustment -= 2; details.push('Impact: documented cracking/splitting (-2)');
+    } else {
+      details.push('Impact: no test data (0)');
+    }
+
+    // DURABILITY: Flexural strength (continuous)
+    const flexural = parseFloat(specs.flexural_strength_psi);
+    if (!isNaN(flexural)) {
+      if (flexural >= 8000) { adjustment += 1; details.push(`Flexural ${flexural} psi: top-tier (+1)`); }
+      else if (flexural >= 4000) { details.push(`Flexural ${flexural} psi: adequate (0)`); }
+      else { adjustment -= 1; details.push(`Flexural ${flexural} psi: weakness under load (-1)`); }
+    }
+
+    // DURABILITY: Repairability (categorical)
+    const repair = (specs.repairability || '').toLowerCase();
+    if (repair === 'full') { adjustment += 1; details.push('Repairability: full — sand and buff (+1)'); }
+    else if (repair === 'partial') { details.push('Repairability: partial — fill chips (0)'); }
+    else if (repair === 'minimal' || repair === 'none') { adjustment -= 1; details.push(`Repairability: ${repair} — replace slab (-1)`); }
+
+    // DURABILITY: Warranty transferable
+    if (specs.warranty_transferable === true) {
+      adjustment += 1; details.push('Warranty transferable (+1)');
+    } else {
+      details.push('Warranty not transferable (0)');
+    }
+
+    // QUALITY: Certification bundle — REMOVED from composite
+    // Health certs (Greenguard Gold, NSF 51) are Material Safety report-only per methodology.
+    // They do not affect composite score. Logged for transparency.
+    const certCount = parseInt(specs.certification_count) || 0;
+    const hasCerts = certCount > 0 || specs.greenguard_gold === true || specs.nsf_51 === true;
+    if (hasCerts) {
+      details.push(`Cert bundle (${certCount || 'some'} certs): report-only, no composite impact`);
+    }
+
+    // QUALITY: Source traceability (replaces domestic_manufacturing)
+    const traceability = (specs.source_traceability || '').toLowerCase();
+    if (traceability === 'single_source') {
+      adjustment += 1; details.push('Source traceability: single_source (+1)');
+    } else if (traceability === 'unknown') {
+      adjustment -= 1; details.push('Source traceability: unknown (-1)');
+    } else if (traceability === 'multi_source') {
+      details.push('Source traceability: multi_source (0)');
+    } else if (specs.domestic_manufacturing === true) {
+      // Backward compat: old field maps to single_source
+      adjustment += 1; details.push('Source traceability: single_source via domestic_manufacturing (+1)');
+    } else {
+      details.push('Source traceability: not specified (0)');
+    }
+  } else if (category === 'windows') {
     // U-factor
     const uFactor = parseFloat(specs.u_factor);
     if (!isNaN(uFactor)) {
@@ -200,14 +283,17 @@ function deriveAxisScores(tier, specs, overallScore) {
 
 // ─── Material Health ───────────────────────────────────────────────────────────
 
-function computeHealthScore(specs) {
+function computeHealthScore(specs, category) {
+  const { getHealthScore } = require('./config_loader');
+
+  if (category === 'countertops') {
+    const materialClass = (specs && specs.material_class) || '';
+    return getHealthScore(materialClass, category);
+  }
+
+  // Windows: use frame_material
   const material = ((specs && specs.frame_material) || '').toLowerCase();
-  if (material.includes('vinyl') || material.includes('pvc')) return 7.2;
-  if (material.includes('fiberglass') || material.includes('pultruded')) return 8.5;
-  if (material.includes('wood')) return 7.8;
-  if (material.includes('composite') || material.includes('fibrex')) return 7.0;
-  if (material.includes('aluminum')) return 7.5;
-  return 7.0;
+  return getHealthScore(material, category);
 }
 
 // ─── Main Compute Function ─────────────────────────────────────────────────────
@@ -272,13 +358,28 @@ function compute(tierResult, category, outputDir) {
 
   const range = TIER_RANGES[tier];
 
-  // Start at midpoint
-  let score = range.midpoint;
+  // Start at anchor target score if available, otherwise tier midpoint
+  let startScore = range.midpoint;
+  const closestAnchor = (tierResult.closest_anchor || '').toLowerCase();
+  try {
+    const { loadConfig } = require('./config_loader');
+    const config = loadConfig(category);
+    const tierKey = 'tier_' + tier;
+    const tierAnchors = config.tier_anchors?.[tierKey]?.anchors || [];
+    for (const anchor of tierAnchors) {
+      if (closestAnchor.includes(anchor.product.toLowerCase()) || anchor.product.toLowerCase().includes(closestAnchor)) {
+        startScore = anchor.target_score;
+        break;
+      }
+    }
+  } catch (_) { /* fall back to midpoint */ }
+
+  let score = startScore;
 
   // Position within tier based on anchor proximity
   const anchorAdj = anchorOffset(aboveOrBelow, range);
   score += anchorAdj;
-  console.log(`[SCORE_CALC] Tier ${tier} (${range.min}-${range.max}), midpoint=${range.midpoint}, anchor="${aboveOrBelow}" → ${anchorAdj > 0 ? '+' : ''}${anchorAdj}`);
+  console.log(`[SCORE_CALC] Tier ${tier} (${range.min}-${range.max}), start=${startScore}${startScore !== range.midpoint ? ' (anchor target)' : ' (midpoint)'}, anchor="${aboveOrBelow}" → ${anchorAdj > 0 ? '+' : ''}${anchorAdj}`);
 
   // Spec adjustments
   const { adjustment: specAdj, details: specDetails } = computeSpecAdjustments(specs, tier, category);
@@ -286,18 +387,32 @@ function compute(tierResult, category, outputDir) {
   console.log(`[SCORE_CALC] Spec adjustments: ${specAdj > 0 ? '+' : ''}${specAdj} (${specDetails.length} factors)`);
   for (const d of specDetails) console.log(`[SCORE_CALC]   ${d}`);
 
-  // Operation type adjustment
-  const opAdj = operationTypeAdjustment(operationType);
-  score += opAdj;
-  if (opAdj !== 0) console.log(`[SCORE_CALC] Operation type "${operationType}": ${opAdj > 0 ? '+' : ''}${opAdj}`);
+  // Operation type adjustment (windows only)
+  let opAdj = 0;
+  if (category === 'windows') {
+    opAdj = operationTypeAdjustment(operationType);
+    score += opAdj;
+    if (opAdj !== 0) console.log(`[SCORE_CALC] Operation type "${operationType}": ${opAdj > 0 ? '+' : ''}${opAdj}`);
+  }
 
-  // Clamp to tier range
-  score = Math.max(range.min, Math.min(range.max, score));
-  console.log(`[SCORE_CALC] Final score: ${score}/100 (clamped to ${range.min}-${range.max})`);
+  // Clamp to tier range, with reserved range enforcement for countertops
+  let effectiveMax = range.max;
+  if (category === 'countertops') {
+    try {
+      const { loadConfig } = require('./config_loader');
+      const ctConfig = loadConfig('countertops');
+      const tierEffMax = ctConfig.deterministic_adjustments?.tier_1_effective_max;
+      if (tier === 1 && tierEffMax) {
+        effectiveMax = tierEffMax;
+      }
+    } catch (_) {}
+  }
+  score = Math.max(range.min, Math.min(effectiveMax, score));
+  console.log(`[SCORE_CALC] Final score: ${score}/100 (clamped to ${range.min}-${effectiveMax})`);
 
   const label = getLabel(score);
   const grade = getGrade(score / 10);
-  const healthScore = computeHealthScore(specs);
+  const healthScore = computeHealthScore(specs, category);
   const healthLabel = getHealthLabel(healthScore);
 
   // Derive axis scores for display

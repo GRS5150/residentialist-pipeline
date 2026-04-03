@@ -325,16 +325,24 @@ async function structureDeepDive(rawReport, productName, operationType) {
 
 /**
  * Simple manufacturer detection from product name.
+ * Checks both windows and countertops manufacturer maps.
  */
 function detectManufacturerFromName(productName) {
   const name = productName.toLowerCase();
+
+  // Combined map: windows + countertops
   const map = {
+    // Windows
     'andersen': 'andersen', 'pella': 'pella', 'marvin': 'marvin',
     'milgard': 'milgard', 'jeld': 'jeld_wen', 'kolbe': 'kolbe',
     'windsor': 'windsor', 'simonton': 'simonton', 'reliabilt': 'reliabilt',
     'loewen': 'loewen', 'alpen': 'alpen', 'sierra': 'sierra_pacific',
     'provia': 'provia', 'cgi': 'cgi', 'window world': 'window_world',
-    'ply gem': 'ply_gem'
+    'ply gem': 'ply_gem',
+    // Countertops
+    'cambria': 'cambria', 'dekton': 'cosentino', 'silestone': 'cosentino',
+    'caesarstone': 'caesarstone', 'msi': 'msi', 'ubatuba': 'natural_stone',
+    'white ice': 'natural_stone', 'corian': 'dupont', 'formica': 'formica'
   };
   for (const [key, slug] of Object.entries(map)) {
     if (name.includes(key)) return slug;

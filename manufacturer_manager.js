@@ -70,7 +70,15 @@ function detectManufacturer(productName) {
     'mi_windows': ['mi windows'],
     'atrium': ['atrium'],
     'sunrise': ['sunrise'],
-    'soft_lite': ['soft lite', 'softlite']
+    'soft_lite': ['soft lite', 'softlite'],
+    // Countertops
+    'cambria': ['cambria'],
+    'cosentino': ['dekton', 'silestone', 'cosentino'],
+    'caesarstone': ['caesarstone'],
+    'msi': ['msi', 'q premium'],
+    'natural_stone': ['ubatuba', 'white ice', 'granite', 'marble', 'quartzite', 'soapstone'],
+    'dupont': ['corian'],
+    'formica': ['formica']
   };
 
   for (const [slug, keywords] of Object.entries(manufacturers)) {

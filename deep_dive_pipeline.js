@@ -48,7 +48,8 @@ function slugify(name) {
  * 4. Save to curation
  */
 async function runProductDeepDive(productName, operationType, options = {}) {
-  const slug = slugify(productName) + (operationType ? '_' + slugify(operationType) : '');
+  const category = options.category || 'windows';
+  const slug = operationType ? slugify(productName) + '_' + slugify(operationType) : slugify(productName);
   const productDir = path.join(DEEP_DIVES_DIR, slug);
   const processingLog = { product: productName, operation_type: operationType, slug, steps: [], errors: [] };
 
@@ -83,7 +84,7 @@ async function runProductDeepDive(productName, operationType, options = {}) {
 
     // ── Step 2: Perplexity product deep dive ───────────────────────
     console.log(`[DEEP DIVE] Calling Perplexity Sonar Deep Research...`);
-    const rawReport = await retryWithBackoff(() => callPerplexity(productName, operationType), 'perplexity_search');
+    const rawReport = await retryWithBackoff(() => callPerplexity(productName, operationType, category), 'perplexity_search');
     
     // Save raw report
     const rawPath = path.join(productDir, 'raw_perplexity_report.md');
@@ -153,13 +154,14 @@ async function runProductDeepDive(productName, operationType, options = {}) {
 /**
  * Call Perplexity Sonar Deep Research API for a product.
  */
-async function callPerplexity(productName, operationType) {
+async function callPerplexity(productName, operationType, category) {
   if (!PERPLEXITY_API_KEY) {
     throw new Error('PERPLEXITY_API_KEY not set in .env');
   }
 
-  // Load prompt template
-  const templatePath = path.join(TEMPLATES_DIR, 'prompt_b_product.md');
+  // Load prompt template based on category
+  const { getPromptTemplatePath } = require('./config_loader');
+  const templatePath = getPromptTemplatePath(category || 'windows');
   let prompt = fs.readFileSync(templatePath, 'utf8');
   prompt = prompt.replace(/\{\{PRODUCT_NAME\}\}/g, productName);
   prompt = prompt.replace(/\{\{OPERATION_TYPE\}\}/g, operationType || 'general');
@@ -271,16 +273,26 @@ function updateProductStatus(slug, status) {
 // ── CLI entry point ───────────────────────────────────────────────────────────
 if (require.main === module) {
   const args = process.argv.slice(2);
+
+  // Parse --category flag
+  let category = 'windows';
+  const categoryIdx = args.indexOf('--category');
+  if (categoryIdx !== -1 && args[categoryIdx + 1]) {
+    category = args[categoryIdx + 1];
+    args.splice(categoryIdx, 2);
+  }
+
   if (args.length < 1) {
-    console.log('Usage: node deep_dive_pipeline.js "Product Name" [operation_type]');
+    console.log('Usage: node deep_dive_pipeline.js "Product Name" [operation_type] [--category windows|countertops]');
     console.log('Example: node deep_dive_pipeline.js "Pella 250 Series" "double_hung"');
+    console.log('Example: node deep_dive_pipeline.js "Cambria Brittanicca" --category countertops');
     process.exit(1);
   }
 
   const productName = args[0];
-  const operationType = args[1] || 'double_hung';
+  const operationType = category === 'windows' ? (args[1] || 'double_hung') : null;
 
-  runProductDeepDive(productName, operationType)
+  runProductDeepDive(productName, operationType, { category })
     .then(result => {
       if (result.success) {
         console.log(`\nDone! Curation file at: curation/${result.slug}_sources.json`);

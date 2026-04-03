@@ -27,11 +27,26 @@ function getClient() {
   return anthropic;
 }
 
-const SPEC_NAMES = [
+// Spec names vary by category — resolved at runtime
+const WINDOW_SPEC_NAMES = [
   'u_factor', 'shgc', 'air_infiltration', 'dp_rating',
   'glass_warranty', 'structural_warranty', 'labor_warranty',
   'warranty_transferable', 'frame_material', 'glazing_layers'
 ];
+
+const COUNTERTOP_SPEC_NAMES = [
+  'mohs_hardness', 'heat_resistance_f', 'water_absorption_pct',
+  'warranty_years', 'warranty_transferable', 'greenguard_gold',
+  'nsf_51', 'requires_sealing', 'domestic_manufacturing'
+];
+
+function getSpecNames(category) {
+  if (category === 'countertops') return COUNTERTOP_SPEC_NAMES;
+  return WINDOW_SPEC_NAMES;
+}
+
+// Keep backwards compat
+const SPEC_NAMES = WINDOW_SPEC_NAMES;
 
 // ─── EU→US Conversion ───────────────────────────────────────────────────────
 
@@ -624,4 +639,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { verifyProduct, convertToUS, SPEC_NAMES };
+module.exports = { verifyProduct, convertToUS, SPEC_NAMES, getSpecNames };

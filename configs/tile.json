@@ -1,0 +1,274 @@
+{
+  "category": "tile",
+  "version": "1.0",
+  "created_date": "2026-04-02",
+  "parent_category": "surfaces",
+  "notes": "Porcelain and ceramic as sub-types within one category. Through-body > color body > white body > red body hierarchy as quality differentiator. Manufacturer vs distributor distinction: MSI/Merola penalized for uncontrolled sourcing. Italian vs US Marazzi disambiguated (same brand, different products, scored separately per Rule 19). Porcelanosa appeared 39 times in luxury home listings. Key specs: PEI rating, water absorption, DCOF slip resistance, body composition, breaking strength. Performance axis has REAL spread (not flat).",
+
+  "axis_weights": {
+    "quality": 0.35,
+    "durability": 0.35,
+    "performance": 0.30
+  },
+
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+
+  "tier_ranges": {
+    "1": { "min": 90, "max": 100, "label": "Best in Class" },
+    "2": { "min": 75, "max": 89, "label": "Excellent" },
+    "3": { "min": 60, "max": 74, "label": "Good" },
+    "4": { "min": 40, "max": 59, "label": "Fair" },
+    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+  },
+
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        { "name": "Porcelanosa Dover Caliza (Large Format Porcelain Floor)", "slug": "porcelanosa_dover_caliza", "sub_type": "porcelain_large_format", "target_range": [93, 96] },
+        { "name": "Crossville Virtue (Through-Body Porcelain Floor)", "slug": "crossville_virtue", "sub_type": "porcelain_floor", "target_range": [90, 93] }
+      ],
+      "notes": "Porcelanosa: manufactured in Castellón Spain (global tile capital). Color-body porcelain, HD inkjet, rectified, DCOF ≥0.60, Mohs 7+, breaking strength >2000N. 39 luxury listing sightings. Crossville: US-manufactured through-body porcelain — chips invisible. PEI 5 commercial grade. PTCA certified. ISO 14001 sustainability leader."
+    },
+    {
+      "tier": 2,
+      "products": [
+        { "name": "Daltile Panoramic Porcelain (Large Format)", "slug": "daltile_panoramic", "sub_type": "porcelain_large_format", "target_range": [80, 85] },
+        { "name": "Marazzi Color Body Porcelain (Italian Production)", "slug": "marazzi_color_body", "sub_type": "porcelain_floor", "target_range": [78, 82] }
+      ],
+      "notes": "Daltile: Mohawk subsidiary. Largest US tile manufacturer/distributor. White body porcelain, advanced HD inkjet, rectified. Reliable premium. Marazzi Italian: founded 1935 Sassuolo Italy. Color body (chip-hiding). Italian Marazzi ≠ Marazzi USA — scoring Italian factory output specifically (Rule 19)."
+    },
+    {
+      "tier": 3,
+      "products": [
+        { "name": "MSI Aria Bianco Porcelain (24x24)", "slug": "msi_aria_bianco", "sub_type": "porcelain_floor", "target_range": [65, 70] },
+        { "name": "American Olean Theoretical Bold Ceramic", "slug": "american_olean_theoretical_bold", "sub_type": "ceramic_floor", "target_range": [63, 67] }
+      ],
+      "notes": "MSI: distributor model (NOT manufacturer). Global multi-source. Decent specs on paper, installer reports shade matching inconsistency. American Olean: Mohawk subsidiary, US manufacturing, white-body ceramic, PEI 3. THE ceramic benchmark — 'good enough for a quality home.'"
+    },
+    {
+      "tier": 4,
+      "products": [
+        { "name": "Merola Tile (Home Depot Imported Ceramic)", "slug": "merola_tile_hd", "sub_type": "ceramic_floor", "target_range": [42, 48] }
+      ],
+      "notes": "Home Depot-stocked imported ceramic. Multiple unknown OEMs. Red body, screen-printed, non-rectified. PEI 2 light traffic only. Semi-vitreous (3-7% water absorption). Fails freeze-thaw. Shade variation and dimensional inconsistency between boxes."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "No calibration products. Reserved for brands with active safety recalls or documented structural defects."
+    }
+  ],
+
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "body_composition",
+        "type": "categorical",
+        "adjustments": {
+          "through_body_porcelain": 2,
+          "color_body_porcelain": 1,
+          "white_body_porcelain": 0,
+          "white_body_ceramic": 0,
+          "red_body_ceramic": -1,
+          "unknown_undisclosed": -2
+        },
+        "notes": "Through-body: color extends through full tile depth — chips are invisible. Color-body: pigmented body reduces chip visibility. White body: industry standard. Red body: commodity ceramic, chips show as red marks."
+      },
+      {
+        "field": "surface_technology",
+        "type": "categorical",
+        "adjustments": {
+          "advanced_digital_inkjet_hd": 1,
+          "standard_digital_inkjet": 0,
+          "unglazed_natural_surface": 0,
+          "screen_printed": -1
+        },
+        "notes": "HD inkjet allows photorealistic patterns on porcelain. Screen printing is legacy technology with limited resolution."
+      },
+      {
+        "field": "rectification_precision",
+        "type": "categorical",
+        "adjustments": {
+          "rectified_precise": 1,
+          "calibrated_standard": 0,
+          "non_rectified_pressed_edge": -1
+        },
+        "notes": "Rectified tiles are machine-cut to exact dimensions after firing — allows narrow grout lines. Non-rectified requires wide grout lines and is less precise."
+      },
+      {
+        "field": "manufacturing_origin",
+        "type": "categorical",
+        "adjustments": {
+          "european_premium_spain_italy": 1,
+          "us_manufacturing_identified": 1,
+          "global_multi_source": 0,
+          "unknown_or_undisclosed_oem": -1
+        },
+        "notes": "Castellón (Spain) and Sassuolo (Italy) are the global centers of technical tile manufacturing. US manufacturing is identifiable and accountable. Global multi-source is neutral. Unknown OEM penalized."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_or_undisclosed": -1
+        },
+        "notes": "Standard Rule 14. Single source = traceable accountability. Unknown = potential quality variance."
+      }
+    ],
+    "durability": [
+      {
+        "field": "breaking_strength",
+        "type": "categorical",
+        "adjustments": {
+          "high_2000_n_plus": 1,
+          "standard_1300_to_2000_n": 0,
+          "low_under_1300_n": -1
+        },
+        "notes": "ISO 10545-4 breaking strength. >2000N is commercial-grade. <1300N is weak for residential use."
+      },
+      {
+        "field": "freeze_thaw_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "certified_frost_resistant": 1,
+          "not_applicable_interior_only": 0,
+          "not_rated_fails": -1
+        },
+        "notes": "ASTM C1026 freeze-thaw resistance. Critical for exterior installations. Interior-only tiles are neutral."
+      },
+      {
+        "field": "scratch_resistance_mohs",
+        "type": "categorical",
+        "adjustments": {
+          "high_7_plus": 1,
+          "standard_5_to_6": 0,
+          "low_under_5": -1
+        },
+        "notes": "Mohs hardness scale. 7+ is quartz-equivalent. Under 5 scratches easily with everyday use."
+      },
+      {
+        "field": "stain_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "excellent_non_porous": 1,
+          "good_standard_glaze": 0,
+          "moderate_porous_surface": -1
+        },
+        "notes": "Non-porous surfaces (impervious porcelain) resist stains inherently. Porous surfaces require sealing."
+      },
+      {
+        "field": "warranty_years",
+        "type": "categorical",
+        "adjustments": {
+          "lifetime_limited": 2,
+          "25_years_plus": 1,
+          "10_to_24_years": 0,
+          "under_10_or_none": -1
+        },
+        "notes": "Lifetime limited is the premium standard. Under 10 years or no warranty is a red flag."
+      },
+      {
+        "field": "chemical_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "excellent_class_a": 1,
+          "good_class_b": 0,
+          "fair_class_c": -1
+        },
+        "notes": "ISO 10545-13 chemical resistance. Class A resists household and pool chemicals. Class C is vulnerable."
+      }
+    ],
+    "performance": [
+      {
+        "field": "pei_rating",
+        "type": "categorical",
+        "adjustments": {
+          "class_5_heavy_commercial": 2,
+          "class_4_moderate_to_heavy": 1,
+          "class_3_light_to_moderate": 0,
+          "class_2_light_traffic": -1,
+          "class_1_wall_only": -2
+        },
+        "notes": "Porcelain Enamel Institute abrasion rating. Class 5 is heavy commercial. Class 1 is wall-only (no foot traffic)."
+      },
+      {
+        "field": "dcof_slip_resistance",
+        "type": "categorical",
+        "adjustments": {
+          "high_0_60_plus": 1,
+          "standard_0_42_to_0_59": 0,
+          "low_under_0_42": -1
+        },
+        "notes": "Dynamic Coefficient of Friction (ANSI A326.3). ≥0.42 is the minimum for level interior. ≥0.60 for ramps and wet areas."
+      },
+      {
+        "field": "water_absorption_pct",
+        "type": "categorical",
+        "adjustments": {
+          "impervious_under_0_5": 1,
+          "vitreous_0_5_to_3": 0,
+          "semi_vitreous_3_to_7": -1,
+          "non_vitreous_over_7": -2
+        },
+        "notes": "ASTM C373 water absorption. <0.5% is impervious (true porcelain). 3-7% is semi-vitreous (ceramic). >7% is non-vitreous (terracotta)."
+      },
+      {
+        "field": "format_size",
+        "type": "categorical",
+        "adjustments": {
+          "large_format_24x48_plus": 1,
+          "standard_12x24_to_24x24": 0,
+          "small_format_under_12x12": 0
+        },
+        "notes": "Large format requires precision manufacturing and creates premium appearance. Small format is not penalized — mosaic and subway tiles are intentional design choices."
+      }
+    ]
+  },
+
+  "spec_adjustment_cap": 8,
+
+  "scoring_rules": [
+    "Through-body > color body > white body > red body hierarchy is THE quality differentiator for tile body composition.",
+    "Manufacturer vs distributor distinction: MSI and Merola are distributors sourcing from unknown/multiple OEMs — penalized on source_traceability and manufacturing_origin.",
+    "Italian vs US Marazzi are disambiguated: same brand, different factory output, scored separately per Rule 19.",
+    "PEI 5 (heavy commercial) is premium for residential — overbuilt is a quality signal.",
+    "PTCA (Porcelain Tile Certification Agency) certification validates manufacturer's porcelain claims.",
+    "Rule 10: Material Safety does not affect composite score. Report only.",
+    "Rule 14: Source traceability: single source +1, multi-source 0, unknown -1.",
+    "Rule 15: Corporate Risk Rule: Outlook modifier, report only.",
+    "Rule 16: N/A rule: if a spec field doesn't apply, calculator skips it.",
+    "Rule 17: Score base configuration, note upgrade availability.",
+    "Rule 18: Warranty exclusion consistency: industry-standard exclusions don't reduce score.",
+    "Rule 19: Score the product, not the brand. Different configs = different scores."
+  ],
+
+  "source_pools": {
+    "S": {
+      "sources": [],
+      "notes": "VACANT — no independent quantified source for tile comparative testing."
+    },
+    "A": {
+      "sources": ["TCNA (Tile Council of North America) standards references", "JLC (Journal of Light Construction) assessments"],
+      "weight": 1.0
+    },
+    "B": {
+      "sources": ["TileInfo.com comparative reviews", "Ceramic Tile Education Foundation", "trade publication reviews"],
+      "weight": 0.75
+    },
+    "C": {
+      "sources": ["John Bridge Tile Forum", "Reddit r/HomeImprovement tile threads", "Houzz tile discussions"],
+      "weight": 0.40
+    }
+  },
+
+  "material_safety_report_only": [
+    "voc_emissions",
+    "lead_glaze_content",
+    "silica_dust_cutting",
+    "radon_ceramic_emissions"
+  ]
+}

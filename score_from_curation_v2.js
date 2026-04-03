@@ -29,16 +29,30 @@ const reportWriter = require('./report_writer');
 // ═══════════════════════════════════════════════════════════════════════════════
 // Args
 // ═══════════════════════════════════════════════════════════════════════════════
-const [,, curationSlug, category = 'windows', config = 'DH'] = process.argv;
+// Parse args — support --category flag or positional args
+const rawArgs = process.argv.slice(2);
+let category = 'windows';
+let config = 'DH';
+const catIdx = rawArgs.indexOf('--category');
+if (catIdx !== -1 && rawArgs[catIdx + 1]) {
+  category = rawArgs[catIdx + 1];
+  rawArgs.splice(catIdx, 2);
+}
+const curationSlug = rawArgs[0];
+if (rawArgs[1]) category = rawArgs[1];
+if (rawArgs[2]) config = rawArgs[2];
 
 if (!curationSlug) {
-  console.error('Usage: node score_from_curation_v2.js <curation_slug> <category> <config>');
+  console.error('Usage: node score_from_curation_v2.js <curation_slug> [category] [config] [--category windows|countertops]');
   console.error('Example: node score_from_curation_v2.js pella_250_series_double_hung windows DH');
+  console.error('Example: node score_from_curation_v2.js cambria_brittanicca --category countertops');
   process.exit(1);
 }
 
-// Derive product slug (strip config suffix)
-const productSlug = curationSlug.replace(/_double_hung|_casement|_awning|_sliding/g, '');
+// Derive product slug (strip config suffix for windows)
+const productSlug = category === 'windows'
+  ? curationSlug.replace(/_double_hung|_casement|_awning|_sliding|_picture|_fixed/g, '')
+  : curationSlug;
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // Progress Writer

@@ -70,29 +70,26 @@ function formatManufacturer(manufacturer) {
  * Format category pain points for context.
  */
 function getPainPoints(category) {
-  const painPoints = {
-    windows: [
-      'Warranty non-transferability destroying resale value',
-      'Parts availability disappearing after 10-15 years',
-      'IGU seal failure and foggy glass',
-      'Balance system failure making windows inoperable',
-      'Installation quality variance between contractors',
-      'Service scheduling delays of 3-6+ months for warranty claims'
-    ]
-  };
-  return (painPoints[category] || painPoints.windows).join('\n- ');
+  const { getPainPoints: getConfigPainPoints } = require('./config_loader');
+  const points = getConfigPainPoints(category);
+  if (points.length > 0) return points.join('\n- ');
+
+  // Fallback
+  return 'No category-specific pain points configured.';
 }
 
 /**
  * Build the report writer prompt.
  */
 function buildPrompt(curation, manufacturer, auditResult, scoreResult) {
+  const category = scoreResult.category || 'windows';
   const productName = curation.product_name || curation.product || 'Unknown Product';
-  const operationType = curation.operation_type || 'DH';
+  const operationType = curation.operation_type || (category === 'windows' ? 'DH' : '');
+  const productLabel = operationType ? `${productName} (${operationType})` : productName;
   const allSources = formatAllSources(curation.sources);
   const specs = formatSpecs(curation.verified_specs);
   const mfg = formatManufacturer(manufacturer);
-  const painPoints = getPainPoints(scoreResult.category || 'windows');
+  const painPoints = getPainPoints(category);
 
   // Include red flags
   let redFlagSection = '';
@@ -103,7 +100,7 @@ function buildPrompt(curation, manufacturer, auditResult, scoreResult) {
 
   return `You are writing a product report for The Residentialist, an independent rating platform for residential building products.
 
-PRODUCT: ${productName} (${operationType})
+PRODUCT: ${productLabel}
 SCORE: ${scoreResult.display_score}/100 — ${scoreResult.product_label}
 QUALITY: ${auditResult.quality_approved}/10 | DURABILITY: ${auditResult.durability_approved}/10 | PERFORMANCE: ${auditResult.performance_approved}/10
 

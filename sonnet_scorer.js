@@ -94,8 +94,11 @@ function formatManufacturer(manufacturer) {
  * Build the tier classification prompt for Claude Sonnet.
  */
 function buildPrompt(curation, manufacturer, category) {
+  const { loadConfig, buildAnchorPromptText } = require('./config_loader');
+  const config = loadConfig(category);
+
   const productName = curation.product_name || curation.product || 'Unknown Product';
-  const operationType = curation.operation_type || 'DH';
+  const operationType = curation.operation_type || (category === 'windows' ? 'DH' : 'N/A');
   const sources = formatSourcesByPool(curation.sources || []);
   const specs = formatVerifiedSpecs(curation.verified_specs);
   const mfg = formatManufacturer(manufacturer);
@@ -112,11 +115,60 @@ function buildPrompt(curation, manufacturer, category) {
     }
   }
 
+  // Build anchor text from config
+  const anchorText = buildAnchorPromptText(config);
+
+  // Build category-specific consideration text
+  let considerationText;
+  if (category === 'countertops') {
+    considerationText = `Consider:
+- Where does the weight of professional/fabricator opinion place this product?
+- What material class is it? (sintered stone, engineered quartz, natural granite, solid surface, laminate)
+- How does the warranty compare to the anchor products in each tier?
+- Are there corroborated field issues (3+ independent reports of the same problem)?
+- How do the verified specs (hardness, heat resistance, certifications) compare to the anchors?
+- Is manufacturing domestic or multi-source? Is the company financially stable?`;
+  } else {
+    considerationText = `Consider:
+- Where does the weight of professional opinion place this product?
+- What material class is the frame? (aluminum-clad wood > fiberglass > composite > vinyl)
+- How does the warranty compare to the anchor products in each tier?
+- Are there corroborated field issues (3+ independent reports of the same problem)?
+- How do the verified specs compare to the anchors?`;
+  }
+
+  // Build spec_highlights format based on category
+  let specHighlightsExample;
+  if (category === 'countertops') {
+    specHighlightsExample = `  "spec_highlights": {
+    "mohs_hardness": "7",
+    "heat_resistance_f": "400",
+    "water_absorption_pct": "0.02",
+    "warranty_years": "999",
+    "warranty_transferable": true,
+    "greenguard_gold": true,
+    "nsf_51": true,
+    "requires_sealing": false,
+    "domestic_manufacturing": true,
+    "material_class": "engineered_quartz_premium"
+  }`;
+  } else {
+    specHighlightsExample = `  "spec_highlights": {
+    "u_factor": "0.27",
+    "air_infiltration": "0.20",
+    "dp_rating": "DP50",
+    "warranty_transferable": true,
+    "warranty_glass_years": 20,
+    "warranty_labor_years": 2,
+    "frame_material": "fiberglass"
+  }`;
+  }
+
   return `You are classifying a residential building product for The Residentialist rating platform.
 
 PRODUCT: ${productName}
 CATEGORY: ${category}
-OPERATION TYPE: ${operationType}
+${category === 'windows' ? `OPERATION TYPE: ${operationType}` : ''}
 
 CURATED EVIDENCE (only sources classified as "score"):
 
@@ -141,24 +193,11 @@ ${redFlagSection}
 
 REFERENCE ANCHORS — these are products with documented expert consensus. Use them to calibrate your classification:
 
-TIER 1 (Best in Class, 90-100): Marvin Signature Ultimate — extruded aluminum-clad wood, best-in-class craftsmanship, strong unanimous expert consensus, 20-year transferable warranty, air infiltration <0.01 cfm/ft² (casement).
+${anchorText}
 
-TIER 2 (Excellent, 75-89): Andersen E-Series — extruded aluminum-clad wood, excellent customization (50+ colors), adequate but not leading thermal performance, transferable warranty with aggressive exclusions. Loewen — premium aluminum-clad wood, strong craftsmanship, limited US dealer network.
+YOUR TASK: Based on the evidence provided, classify this product into ONE tier (1-5). This is about the PRODUCT LINE's quality level${category === 'windows' ? ', not the specific operation type' : ''}.
 
-TIER 3 (Good, 60-74): Andersen 400 Series — vinyl-clad wood, solid mainstream product, wide availability, standard warranty. Pella Impervia — pultruded fiberglass frame (excellent material), but glass packages underperform for price, non-transferable warranty.
-
-TIER 4 (Fair, 40-59): Simonton Reflections 5500 — budget vinyl, adequate but dated design, constant-force balance, AAMA Gold certified. Pella 250 Series — basic vinyl, meets code, limited professional consensus.
-
-TIER 5 (Below Standard, 0-39): Reliabilt 3500 — builder-grade vinyl, documented seal failures within 2-4 years across multiple independent reports, minimal professional coverage.
-
-YOUR TASK: Based on the evidence provided, classify this product into ONE tier (1-5). This is about the PRODUCT LINE's quality level, not the specific operation type.
-
-Consider:
-- Where does the weight of professional opinion place this product?
-- What material class is the frame? (aluminum-clad wood > fiberglass > composite > vinyl)
-- How does the warranty compare to the anchor products in each tier?
-- Are there corroborated field issues (3+ independent reports of the same problem)?
-- How do the verified specs compare to the anchors?
+${considerationText}
 
 CRITICAL RULES:
 - Only use evidence about THIS SPECIFIC PRODUCT (${productName}), not other products from the same manufacturer
@@ -174,19 +213,10 @@ Respond in this exact JSON format:
   "tier_label": "Good",
   "confidence": "high",
   "reasoning": "2-3 sentences explaining why this tier and not the one above or below",
-  "closest_anchor": "Andersen 400 Series",
+  "closest_anchor": "anchor product name",
   "above_or_below_anchor": "slightly above",
   "key_evidence": ["source 1 finding", "source 2 finding", "source 3 finding"],
-  "spec_highlights": {
-    "u_factor": "0.27",
-    "air_infiltration": "0.20",
-    "dp_rating": "DP50",
-    "warranty_transferable": true,
-    "warranty_glass_years": 20,
-    "warranty_labor_years": 2,
-    "frame_material": "fiberglass"
-  },
-  "operation_type_note": "Casement configuration provides superior air infiltration vs double-hung variant",
+${specHighlightsExample},
   "source_flags": [
     {"source": "name", "issue": "This source is about a different product line"}
   ]

@@ -46,37 +46,54 @@ function slugify(name) {
 // ── Main ────────────────────────────────────────────────────────────────────
 async function main() {
   const args = process.argv.slice(2);
+
+  // Parse --category flag
+  let category = 'windows';
+  const categoryIdx = args.indexOf('--category');
+  if (categoryIdx !== -1 && args[categoryIdx + 1]) {
+    category = args[categoryIdx + 1];
+    args.splice(categoryIdx, 2);
+  }
+
   if (args.length < 1) {
-    console.error('Usage: node full_pipeline.js "Product Name" [operation_type]');
+    console.error('Usage: node full_pipeline.js "Product Name" [operation_type] [--category windows|countertops]');
     process.exit(1);
   }
 
+  // Load category config
+  const { loadConfig } = require('./config_loader');
+  const categoryConfig = loadConfig(category);
+
   const productName = args[0];
-  const operationType = args[1] || 'double_hung';
-  const slug = slugify(productName) + '_' + slugify(operationType);
+  const operationType = category === 'windows' ? (args[1] || 'double_hung') : null;
+  const slug = operationType
+    ? slugify(productName) + '_' + slugify(operationType)
+    : slugify(productName);
   const startTime = Date.now();
 
   console.log('\n' + '='.repeat(70));
-  console.log(`[FULL_PIPELINE] ${productName} (${operationType})`);
+  console.log(`[FULL_PIPELINE] ${productName}${operationType ? ' (' + operationType + ')' : ''} [${category}]`);
   console.log('='.repeat(70));
   console.log('[FULL_PIPELINE] Phase 1: Deep Dive (Perplexity → Sonnet structuring)');
   console.log('[FULL_PIPELINE] Phase 2: V2 Score (Sonnet scorer → Haiku auditor → Calculator → Report)');
   console.log('='.repeat(70) + '\n');
 
   // ── Phase 1: Deep Dive (or reuse existing curation from sibling variant) ──
-  // One-deep-dive-per-product-line rule: if a curation file exists for a different
+  // One-deep-dive-per-product-line rule (windows only): if a curation file exists for a different
   // operation type of the same product line, copy it instead of running Perplexity.
   const productLineSlug = slugify(productName);
-  const opTypes = ['double_hung', 'casement', 'awning', 'sliding', 'picture'];
   let siblingCurationPath = null;
-  for (const otherOp of opTypes) {
-    if (otherOp === slugify(operationType)) continue;
-    const siblingSlug = productLineSlug + '_' + otherOp;
-    const siblingPath = path.join(CURATION_DIR, `${siblingSlug}_sources.json`);
-    if (fs.existsSync(siblingPath)) {
-      siblingCurationPath = siblingPath;
-      console.log(`[FULL_PIPELINE] Found existing curation for sibling variant: ${siblingSlug}`);
-      break;
+  if (categoryConfig.sibling_curation_reuse && operationType) {
+    const opTypes = categoryConfig.operation_types || ['double_hung', 'casement', 'awning', 'sliding', 'picture'];
+    for (const otherOp of opTypes) {
+      if (otherOp === slugify(operationType)) continue;
+      const siblingSlug = productLineSlug + '_' + otherOp;
+      const siblingPath = path.join(CURATION_DIR, `${siblingSlug}_sources.json`);
+      if (fs.existsSync(siblingPath)) {
+        siblingCurationPath = siblingPath;
+        console.log(`[FULL_PIPELINE] Found existing curation for sibling variant: ${siblingSlug}`);
+        break;
+      }
     }
   }
 
@@ -95,7 +112,7 @@ async function main() {
 
     try {
       const { runProductDeepDive } = require('./deep_dive_pipeline');
-      const ddResult = await runProductDeepDive(productName, operationType);
+      const ddResult = await runProductDeepDive(productName, operationType, { category });
 
       if (!ddResult.success) {
         const elapsed = Math.round((Date.now() - startTime) / 1000);
@@ -181,7 +198,9 @@ async function main() {
     const reportWriter = require('./report_writer');
 
     const curation = JSON.parse(fs.readFileSync(curationPath, 'utf8'));
-    const productSlug = slug.replace(/_double_hung|_casement|_awning|_sliding/g, '');
+    const productSlug = category === 'windows'
+      ? slug.replace(/_double_hung|_casement|_awning|_sliding|_picture|_fixed/g, '')
+      : slug;
 
     // Load manufacturer data
     const mfgSlug = curation.manufacturer_slug;
@@ -199,7 +218,7 @@ async function main() {
     // Step 3: Sonnet Tier Classification
     writeProgress(slug, 3, 6, 'Sonnet Classifier', 'running', { phase: 'scoring' });
     console.log('[FULL_PIPELINE] Step 3/6: Sonnet Tier Classification...');
-    const tierResult = await sonnetScorer.classify(curation, manufacturer, 'windows');
+    const tierResult = await sonnetScorer.classify(curation, manufacturer, category);
     fs.writeFileSync(path.join(outputDir, 'SONNET_SCORES.json'), JSON.stringify(tierResult, null, 2));
     console.log(`[FULL_PIPELINE] Sonnet: Tier ${tierResult.tier} (${tierResult.tier_label}), anchor=${tierResult.closest_anchor}, position=${tierResult.above_or_below_anchor}`);
 
@@ -215,12 +234,30 @@ async function main() {
     console.log('[FULL_PIPELINE] Step 5/6: Score Calculator (Tier-Based)...');
     const finalTier = auditResult.tier_changed ? auditResult.tier_approved : tierResult.tier;
     const tierResultWithAudit = { ...tierResult, tier: finalTier };
-    const scoreResult = scoreCalculator.compute(tierResultWithAudit, 'windows', outputDir);
+    const scoreResult = scoreCalculator.compute(tierResultWithAudit, category, outputDir);
     scoreResult.product_name = curation.product_name || productName;
-    scoreResult.category = 'windows';
-    scoreResult.config = operationType === 'double_hung' ? 'DH' : operationType.toUpperCase();
+    scoreResult.category = category;
+    scoreResult.config = category === 'windows'
+      ? (operationType === 'double_hung' ? 'DH' : (operationType || 'DH').toUpperCase())
+      : (curation.material_class || 'default');
+
+    // Add outlook modifier for countertops (Corporate Risk Rule)
+    if (category === 'countertops' && categoryConfig.outlook_modifiers) {
+      const { detectManufacturer: detectMfg } = require('./config_loader');
+      const mfgSlug = detectMfg(productName, category);
+      const outlookAssignments = categoryConfig.outlook_modifiers.current_assignments || {};
+      for (const [key, outlook] of Object.entries(outlookAssignments)) {
+        if (productName.toLowerCase().includes(key.toLowerCase()) || mfgSlug === key.toLowerCase()) {
+          scoreResult.outlook_modifier = outlook;
+          break;
+        }
+      }
+      if (!scoreResult.outlook_modifier) scoreResult.outlook_modifier = 'Stable';
+    }
+
     fs.writeFileSync(path.join(outputDir, 'DETERMINISTIC_SCORES.json'), JSON.stringify(scoreResult, null, 2));
-    console.log(`[FULL_PIPELINE] Score: ${scoreResult.display_score}/100 — Tier ${finalTier} (${scoreResult.product_label}) — ${scoreResult.grade}`);
+    const outlookStr = scoreResult.outlook_modifier ? ` [Outlook: ${scoreResult.outlook_modifier}]` : '';
+    console.log(`[FULL_PIPELINE] Score: ${scoreResult.display_score}/100 — Tier ${finalTier} (${scoreResult.product_label}) — ${scoreResult.grade}${outlookStr}`);
 
     // Step 6: Report Writer
     writeProgress(slug, 6, 6, 'Report Writer', 'running', { phase: 'scoring' });
