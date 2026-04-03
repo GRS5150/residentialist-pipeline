@@ -1,6 +1,32 @@
 # Agent Instructions — Residentialist Pipeline
 
-> **This file extends the universal AGENTS.md with project-specific rules.** The universal operating principles (autonomy, planning, self-improvement, escalation) apply here. This file adds Residentialist-specific architecture and constraints.
+> **Read this file first. It tells you everything you need to get up to speed.**
+
+---
+
+## Bootstrap (Read These to Get Context)
+
+When starting a new session, read these files in order:
+1. **This file** — project rules and infrastructure
+2. `knowledge/system/unified_system_doc_v10.md` — full system context, scoring methodology, 20 scoring rules, category status
+3. `CATEGORY_ONBOARDING_RITUAL.md` — step-by-step SOP for building a new category
+4. A reference config (e.g., `configs/sinks.json`) — to see the format for a completed category
+
+You do NOT need the user to paste anything. Everything is in the repo.
+
+---
+
+## Autonomy Rules
+
+**Once a plan is approved, execute it. Do not ask for permission at each step.**
+
+- Plan first, get approval, then build autonomously until the plan is complete.
+- The only reasons to stop and ask:
+  - The plan itself needs to change
+  - Paid API usage beyond trivial amounts
+  - A genuine judgment call the plan didn't anticipate
+  - Something destructive and irreversible
+- Default posture: build, don't ask.
 
 ---
 
@@ -8,6 +34,7 @@
 
 **Layer 1: Directives (What to do)**
 - `CATEGORY_ONBOARDING_RITUAL.md` — step-by-step for adding a product category
+- `knowledge/system/unified_system_doc_v10.md` — system context and scoring rules
 - `configs/{category}.json` — category scoring rules, spec fields, source pools
 - `calibration/{category}/config.json` — calibration products, axis scores, targets
 
@@ -52,6 +79,20 @@ Before building ANY config, calibration, or curation files:
 
 ---
 
+## Escalation Triggers
+
+Stop and ask ONLY when:
+- Requirements are ambiguous or two instructions contradict each other
+- Execution fails 3+ times on the same step
+- Paid API credits beyond trivial amounts
+- Scope is growing beyond what was agreed
+- Something destructive and irreversible
+- A judgment call on tier placement, axis weights, or methodology
+
+Default: build, don't ask.
+
+---
+
 ## Directory Structure
 
 ```
@@ -60,10 +101,12 @@ residentialist/
 ├── calibration/{category}/               # Calibration configs + curation files
 ├── scripts/                              # Deterministic execution scripts
 ├── knowledge/{category}/                 # Research outputs (4 passes)
+├── knowledge/system/                     # System docs and scoring rules
+│   └── unified_system_doc_v10.md         # Full system context
 ├── templates/                            # Research + deep dive prompt templates
 ├── output/investigators/{category}/      # Investigator report outputs
 ├── logs/                                 # Pipeline execution logs
-├── AGENTS.md                             # This file (project-specific)
+├── AGENTS.md                             # This file
 ├── CLAUDE.md                             # Quick reference, points here
 ├── CATEGORY_ONBOARDING_RITUAL.md         # Category build SOP
 └── README.md                             # Repo overview
