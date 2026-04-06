@@ -1,6 +1,6 @@
 {
-  "product": "KraftMaid Cabinets Base Configuration",
-  "report_date": "2026",
+  "product": "KraftMaid (base config)",
+  "report_date": "2026-04-06",
   "sources": [
     {
       "id": "SRC-001",
@@ -12,7 +12,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Primary independent professional rating source. Direct comparative analysis with competitors.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -25,7 +27,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Authorized dealer specification confirming standard box substrate is not plywood.",
-      "topics": ["quality", "specs"],
+      "topics": [
+        "quality",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -38,7 +43,12 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer quality specification document. Primary source for construction specs, hardware ratings, and testing data.",
-      "topics": ["quality", "performance", "durability", "specs"],
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -51,7 +61,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Professional analysis of KraftMaid market positioning and construction quality from most-cited independent source.",
-      "topics": ["quality", "performance"],
+      "topics": [
+        "quality",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -64,7 +77,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Authorized dealer statement that implicitly confirms standard box is particleboard by positioning plywood as Vantage upgrade differentiator.",
-      "topics": ["quality", "specs"],
+      "topics": [
+        "quality",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -77,7 +93,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Warranty terms for buyer assessment. Non-transferability and labor exclusion are significant report findings.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -90,7 +108,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Dealer-line warranty distinction. Relevant context for specification but does not apply to standard core line being scored.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -103,7 +123,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "KCMA certification absence is verifiable and affects scoring per methodology rules. Self-certification claim is not equivalent to third-party verification.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -116,7 +138,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Corporate contraction data. Relevant to outlook assessment and warranty viability, not direct product quality scoring.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -129,7 +153,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "PE financial pressure data. Relevant to Corporate Risk outlook assessment, not direct quality scoring.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -142,7 +168,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Professional installer assessment in trade forum context.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -155,7 +183,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Documented warranty claim denial patterns. Corroborated across multiple consumer reporting platforms.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -168,7 +198,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Documented delivery damage incident. Recurring complaint pattern corroborated by multiple sources.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -181,7 +213,10 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Professional and consumer forum data with specific long-term durability observations.",
-      "topics": ["quality", "durability"],
+      "topics": [
+        "quality",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -194,43 +229,50 @@
       "pool": "B",
       "classification": "report_only",
       "classification_reason": "Industry-wide painted finish limitation. Context for report, not a brand-specific scoring penalty.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     }
   ],
-  "bottom_line": "KraftMaid standard base configuration delivers strong drawer construction (3/4 inch solid wood dovetail) and industry-leading Blum hardware (200K hinge cycles, 100K slide cycles) on a particleboard box that professionals consistently identify as the product's primary liability. The plywood upgrade is required to match all-plywood-standard competitors like Fabuwood at lower price points. DuraKraft Plus catalyzed finish is competent. KCMA certification resigned October 2022. Corporate parent Cabinetworks Group under Platinum Equity PE ownership shows financial stress with EBITDA compression and three plant closures in 2024. Warranty is lifetime but non-transferable with broad exclusions and no labor coverage. Professional consensus: strong hardware on a weak box, upgrade to plywood strongly recommended.",
+  "bottom_line": "MasterBrand/Fortune Brands. Dominant semi-custom. Particleboard box (furniture-board grade). Blum hinges and slides (lower-spec than custom). Catalyzed CV finish. J.D. Power #2 satisfaction. B+ quality per Main Line. Pros specify for mid-range remodels. Platform sharing with Diamond/Merillat but KraftMaid gets better hardware.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005",
-      "SRC-008", "SRC-011", "SRC-012", "SRC-013", "SRC-014"
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-008",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014"
     ],
     "sources_report_only": [
-      "SRC-006", "SRC-007", "SRC-009", "SRC-010", "SRC-015"
+      "SRC-006",
+      "SRC-007",
+      "SRC-009",
+      "SRC-010",
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
-      "pool_A": 8,
+      "pool_A": 9,
       "pool_B": 5,
       "pool_C": 1
     }
   },
   "product_slug": "kraftmaid_base",
-  "product_name": "KraftMaid Base Configuration",
+  "product_name": "KraftMaid (base config)",
   "manufacturer_slug": "kraftmaid",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-30",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": {
-    "total": 15,
-    "score": 10,
-    "report_only": 5,
-    "quarantine": 0
-  },
-  "curation_status": "staged",
-  "curation_date": null,
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": null
+  "platform_disclosure": "MasterBrand Cabinets (Fortune Brands): KraftMaid, Diamond, Merillat, Decora, Omega, Aristockraft, Homecrest share factories. Higher lines get better hardware and materials from same plants.",
+  "outlook": "Strong",
+  "outlook_rationale": "MasterBrand/Fortune Brands. Dominant semi-custom. Particleboard box (furniture-board grade). Blum hinges and slides (lower-spec than custom). Catalyzed CV finish. J.D. Power #2 satisfaction. B+ quality per Main Line. Pros specify for mid-range remodels. Platform sharing with Diamond/Merillat but KraftMaid gets better hardware."
 }

@@ -4,35 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 92 | 0.45 | AWI Premium Grade certification and KCMA A161.1 qualification demonstrate construction standards that rival brands costing 40% more [SRC-003, SRC-004] |
-| Durability | 89 | 0.3 | Seven-year owner review shows minimal wear beyond pull-out trash cabinet, but warranty explicitly excludes finish stress lines at joints [SRC-006, SRC-005] |
-| Performance | 91 | 0.25 | Blum Compact Clip soft-close hinges with overload protection and Tandem Plus undermount slides rated to 100 lbs deliver premium hardware performance [SRC-009, SRC-013] |
-| Material Safety | Excellent | report only | CARB2 and TSCA VI certifications confirm low formaldehyde emissions [SRC-014] |
+| Quality | 94 | 0.45 | Premium construction with plywood boxes, dovetail joinery, and Blum hardware earns KCMA certification and professional endorsement as quality rivaling brands costing 40% more [SRC-001, SRC-004] |
+| Durability | 89 | 0.3 | Seven-year owner reviews show minimal wear and excellent long-term performance, though shipping damage occurs with regularity [SRC-006, SRC-004] |
+| Performance | 86 | 0.25 | Blum Tandem undermount slides and soft-close hinges deliver reliable operation, but hinges lack the published 200,000-cycle rating of premium Blum models [SRC-009, SRC-012] |
+| Material Safety | Excellent | report only | KCMA certified with CARB2 and TSCA VI compliance [SRC-014] |
 
 ### Company Background
-Fabuwood is a privately held cabinet manufacturer that sources components from Vietnam and China, then assembles cabinets in New Jersey [SRC-018]. The company has been expanding operations, opening a new manufacturing facility in Tijuana and distribution center in Southern California in January 2025 [SRC-020]. Fabuwood upgraded their warranty from 5-year to Limited Lifetime in January 2023, signaling confidence in product durability [SRC-005]. The company is susceptible to tariff-related cost increases due to Asian component sourcing [SRC-018]. Financial health appears stable based on facility expansion and warranty upgrades, though the company maintains a low 1.4/5 BBB rating from customer service issues [SRC-019].
+Fabuwood Cabinetry Corp is a New Jersey-based manufacturer that operates an assembly facility where components sourced from Vietnam or China are finished and assembled domestically [SRC-017, SRC-018]. The company recently expanded with a manufacturing facility in Tijuana and upgraded West Coast distribution as of January 2025 [SRC-020]. Fabuwood operates as a single-source manufacturer with in-house control over the Galaxy line's premium construction standards. The company upgraded from a 5-year to lifetime warranty in January 2023, signaling confidence in product durability [SRC-005]. However, the company maintains only a 1.4/5 BBB rating with complaints about color consistency and warranty claims [SRC-019].
 
 ### Strengths
-- **Premium Construction Standards**: AWI Premium Grade certification with third-party testing up to 2,250 lbs for tall pantries, plus KCMA A161.1 qualification demonstrate construction quality [SRC-003, SRC-002]
-- **Advanced Joinery Systems**: Proprietary dovetail groove system mechanically interlocks plywood side panels with solid wood face frames, while drawer boxes use 5/8" solid wood dovetail construction [SRC-008, SRC-011]
+- **Premium Construction at Value Price**: Main Line Kitchen Design rates Galaxy as A Quality/A Value, delivering construction quality that rivals brands costing 40% more with plywood boxes and dovetail joinery [SRC-001, SRC-004]
+- **Professional Hardware Integration**: Blum Tandem undermount slides (100 lb capacity) and Clip top hinges with integrated soft-close provide smooth, reliable operation [SRC-011, SRC-013]
 
 ### Deficiencies
-- **Finish Durability Limitations**: Warranty explicitly excludes finish stress lines at joints and door warping up to 1/4 inch, indicating known finish vulnerability [SRC-005]
-- **Shipping and Packaging Issues**: Regular delivery damage occurrences with documented cases of wax being used to conceal damage during delivery [SRC-004, SRC-021]
+- **Shipping and Assembly QC**: Regular shipping damage requires careful inspection at delivery, and isolated reports of poorly executed dovetail joints indicate occasional quality control misses [SRC-004, SRC-016]
+- **Hardware Specifications**: Galaxy's Compact Blumotion hinges lack the published 200,000-cycle rating available on Blum's premium hinge models [SRC-012]
 
 ### What You Should Know
-Fabuwood Galaxy represents a sweet spot in the semi-custom market, earning Main Line Kitchen Design's highest A/A rating at Price Level 2 for delivering premium construction at 30% less than comparable brands like KraftMaid [SRC-001]. The all-plywood construction with solid birch dovetail drawers and Blum hardware meets or exceeds expectations for cabinets in this price range.
+Fabuwood Galaxy represents the company's premium tier and should not be confused with their lower-grade Allure or budget Nexus lines from the same factory. Professional designers consistently recommend the framed Galaxy versions over frameless alternatives, noting superior value positioning in the premium cabinet market. The catalyzed lacquer finish provides excellent chip resistance through multi-step oven curing, and long-term owner reviews consistently report minimal wear after years of use.
 
-However, buyer vigilance is required during delivery and installation. Damage occurs regularly in shipping, and installers report the need to reject damaged units [SRC-004]. The finish warranty limitations suggest painted finishes may develop stress cracks at joints over time, though long-term owner reviews indicate this isn't universal [SRC-006]. Overall satisfaction rates of 85% among northeast installers indicate most buyers are pleased with the value proposition [SRC-004].
+Buyers should carefully inspect shipments as damage during transit occurs regularly, though the company's lifetime warranty (non-transferable) provides long-term protection. The warranty excludes finish stress lines at joints and door warping up to 1/4 inch as normal tolerances. Touch-up kits are available to address minor blemishes that may occur over time.
 
 ### Platform Disclosure
-Not applicable — no shared manufacturing disclosed.
+Fabuwood: Galaxy/Allure/Nexus are distinct quality tiers from same NJ factory. Galaxy = plywood+Blum. Allure = mixed. Nexus = budget.
 
 ### Corporate Outlook
-Stable — Recent facility expansion, warranty upgrade to lifetime coverage, and maintained quality certifications indicate operational stability despite customer service challenges.
+Strong — New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus.
 
 ### Repair Economics
-Most common issues are shipping damage and finish stress cracking. Touch-up kits are available and effective for minor blemishes [SRC-007]. Blum hardware carries manufacturer warranties with the soft-close feature rated for overload protection [SRC-012]. Replacement costs would be moderate given the semi-custom price positioning.
+Most common issues involve hinge adjustment or soft-close mechanism service. Blum hardware provides excellent parts availability and standard adjustment procedures. Touch-up kits address finish blemishes cost-effectively. The lifetime warranty coverage makes most repairs economically justified versus replacement.
 
 ### Score Justification
-The 91/100 score reflects genuine premium construction quality at semi-custom pricing, supported by third-party certifications and professional installer endorsements. Durability concerns around finish performance and shipping damage prevent a higher score despite excellent structural engineering.
+The 91/100 score reflects Galaxy's exceptional value proposition in the premium cabinet tier, combining genuine plywood construction with professional-grade Blum hardware at prices significantly below comparable quality competitors. Minor deductions for shipping QC and hardware specifications prevent a higher rating.

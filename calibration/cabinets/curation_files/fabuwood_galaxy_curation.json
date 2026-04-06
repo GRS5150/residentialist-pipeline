@@ -1,6 +1,6 @@
 {
-  "product": "Fabuwood Allure Galaxy Cabinets",
-  "report_date": "2026",
+  "product": "Fabuwood Galaxy",
+  "report_date": "2026-04-06",
   "sources": [
     {
       "id": "SRC-001",
@@ -12,7 +12,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Primary independent professional rating source. 157-brand comparative framework.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -25,7 +27,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Third-party certification document. Verifiable A161.1 compliance for Galaxy specifically.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -38,7 +42,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Third-party structural certification at highest available grade. Independent load testing data.",
-      "topics": ["quality", "durability"],
+      "topics": [
+        "quality",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -51,7 +58,11 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Authorized dealer technical analysis with plant access, installer surveys, and owner satisfaction data.",
-      "topics": ["quality", "durability", "performance"],
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -64,7 +75,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Warranty terms provide buyer context. Warranty upgrade from 5-year to Lifetime is confidence signal. Exclusions are report material.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -77,7 +90,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Long-term owner review with 7 years of daily use data. Provides field durability evidence.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -90,7 +105,9 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Multi-year owner field reports with specific finish and durability observations.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -103,7 +120,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Detailed construction specification from authorized dealer source. Verifiable against physical product.",
-      "topics": ["quality", "specs"],
+      "topics": [
+        "quality",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -116,7 +136,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer specification naming exact hardware model number. Verifiable against Blum catalog.",
-      "topics": ["performance", "specs"],
+      "topics": [
+        "performance",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -129,7 +152,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer construction documentation confirming proprietary dovetail integration method.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -142,7 +167,11 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Authorized dealer construction spec document with exact hardware model numbers.",
-      "topics": ["quality", "performance", "specs"],
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -155,7 +184,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Hardware manufacturer specification data. Important distinction between CLIP top (200K published) and Compact (life of hinge but no published cycle count).",
-      "topics": ["performance", "durability"],
+      "topics": [
+        "performance",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -168,7 +200,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Hardware specification confirming exact model and load rating for slide used in Galaxy.",
-      "topics": ["performance", "specs"],
+      "topics": [
+        "performance",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -181,7 +216,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Manufacturer quality framework marketing. Certifications verified via independent sources above.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -194,7 +231,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Professional installer volume data and older market perception. Both positive and negative installer signals.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -207,7 +246,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Mixed field reports. Single QC miss report alongside positive consumer experience. Illustrates assembly variability.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -220,7 +261,9 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Contractor perception data. Reflects market positioning awareness among installers.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -233,7 +276,9 @@
       "pool": "C",
       "classification": "report_only",
       "classification_reason": "Supply chain and pricing information. Relevant to corporate outlook, not direct quality scoring.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -246,7 +291,9 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Consumer complaint aggregation. Small sample but identifies color consistency as recurring issue.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -259,7 +306,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Corporate expansion news. Relevant to outlook assessment and manufacturing footprint, not direct quality scoring.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -272,45 +321,56 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Documented delivery damage issue. Corroborates shipping and handling as primary complaint vector rather than structural construction defects.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     }
   ],
-  "bottom_line": "Fabuwood Allure Galaxy delivers genuine premium construction at semi-custom pricing. All-plywood box standard, solid birch dovetail drawers, Blum Compact Clip and Tandem Plus hardware, proprietary face-frame dovetail integration, KCMA A161.1 plus AWI Premium Grade certifications. MLKD A/A at Price Level 2 is the strongest value rating in the semi-custom segment. Primary vulnerability is painted finish durability with stress cracking at joints explicitly excluded from warranty. Delivery and packaging damage is the most common legitimate complaint category. Structural failures are rare across long-term field data. Privately held, expanding, warranty upgraded to Lifetime in 2023. Tariff exposure on Asian-sourced components is a pricing risk.",
+  "bottom_line": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-006",
-      "SRC-007", "SRC-008", "SRC-009", "SRC-010", "SRC-011",
-      "SRC-012", "SRC-013", "SRC-015", "SRC-016", "SRC-017",
-      "SRC-019", "SRC-021"
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-019",
+      "SRC-021"
     ],
     "sources_report_only": [
-      "SRC-005", "SRC-014", "SRC-018", "SRC-020"
+      "SRC-005",
+      "SRC-014",
+      "SRC-018",
+      "SRC-020"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
-      "pool_A": 11,
-      "pool_B": 5,
+      "pool_A": 13,
+      "pool_B": 4,
       "pool_C": 4
     }
   },
   "product_slug": "fabuwood_galaxy",
   "product_name": "Fabuwood Galaxy",
   "manufacturer_slug": "fabuwood",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-30",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": {
-    "total": 21,
-    "score": 17,
-    "report_only": 4,
-    "quarantine": 0
-  },
-  "curation_status": "staged",
-  "curation_date": null,
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": null
+  "platform_disclosure": "Fabuwood: Galaxy/Allure/Nexus are distinct quality tiers from same NJ factory. Galaxy = plywood+Blum. Allure = mixed. Nexus = budget.",
+  "outlook": "Strong",
+  "outlook_rationale": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus."
 }

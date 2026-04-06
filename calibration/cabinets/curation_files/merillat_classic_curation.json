@@ -1,6 +1,6 @@
 {
-  "product": "Merillat Classic Kitchen Cabinets",
-  "report_date": "2026",
+  "product": "Merillat Classic",
+  "report_date": "2026-04-06",
   "sources": [
     {
       "id": "SRC-001",
@@ -12,7 +12,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Primary independent professional rating source. Critical distinction that rating assumes plywood upgrade.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -25,7 +27,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer specification data. 3/8 inch sides are critical spec — notably thin vs 1/2 inch industry standard.",
-      "topics": ["quality", "specs"],
+      "topics": [
+        "quality",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -38,7 +43,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer specification confirming standard drawer joinery is rabbet plus staples, NOT dovetail. Critical scoring distinction.",
-      "topics": ["quality", "specs"],
+      "topics": [
+        "quality",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -51,7 +59,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer specification confirming standard slide is commodity roller, not premium undermount. Significant hardware gap vs competitors.",
-      "topics": ["performance", "specs"],
+      "topics": [
+        "performance",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -64,7 +75,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Multiple professional installers with long-tenure experience providing detailed construction and QC assessments.",
-      "topics": ["quality", "durability"],
+      "topics": [
+        "quality",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -77,7 +91,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer specification confirming proprietary unbranded hardware. Absence of third-party brand name and cycle life data is a verifiable finding.",
-      "topics": ["performance", "specs"],
+      "topics": [
+        "performance",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -90,7 +107,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "KCMA certification absence verified through directory check. Affects scoring per methodology.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -103,7 +122,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Professional and consumer field reports identifying specific construction and QC issues.",
-      "topics": ["quality", "durability"],
+      "topics": [
+        "quality",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -116,7 +138,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Trade comparison analysis with specific construction gap assessment and competitive positioning.",
-      "topics": ["quality", "performance"],
+      "topics": [
+        "quality",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -129,7 +154,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Warranty terms for buyer report context. Moisture exclusion significant given particleboard construction.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -142,7 +169,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Documented hardware failure pattern with specific component identification and repair/replacement limitation.",
-      "topics": ["durability", "performance"],
+      "topics": [
+        "durability",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -155,7 +185,10 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Consumer review aggregation with moderate sample size showing mixed quality reception.",
-      "topics": ["quality", "durability"],
+      "topics": [
+        "quality",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -168,7 +201,9 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Consumer complaint platform data corroborating QC consistency issues identified by professionals.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -181,24 +216,36 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Corporate risk data for outlook assessment. Same parent company risk profile as KraftMaid.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     }
   ],
-  "bottom_line": "Merillat Classic standard tier delivers 3/8 inch particleboard sides (thinnest in comparison group), rabbet-and-staple drawer joinery (weakest common production method), and commodity 3/4-extension roller slides without branded hardware or published cycle ratings. Face frame is the strongest feature (3/4 inch solid hardwood). Deluxe upgrade path partially closes gap with dovetail drawers and undermount slides but standard spec falls meaningfully below what professionals consider competent semi-custom construction. KCMA certification resigned 2022 and not re-certified. PE-owned parent under financial stress. MLKD B/B rating assumes plywood upgrade. Professional consensus: acceptable builder-grade value when upgraded, inadequate in base spec for high-demand residential.",
+  "bottom_line": "MasterBrand builder-grade line. Particleboard box. Generic drawer slides (35K cycles, 75 lb). Blum hinges but lower spec. Catalyzed lacquer finish. KCMA certified (positive). No soft-close standard. Platform shares with KraftMaid/Diamond but gets lowest-tier components.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005",
-      "SRC-006", "SRC-007", "SRC-008", "SRC-009", "SRC-011",
-      "SRC-012", "SRC-013"
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013"
     ],
     "sources_report_only": [
-      "SRC-010", "SRC-014"
+      "SRC-010",
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
-      "pool_A": 6,
+      "pool_A": 8,
       "pool_B": 4,
       "pool_C": 2
     }
@@ -206,19 +253,12 @@
   "product_slug": "merillat_classic",
   "product_name": "Merillat Classic",
   "manufacturer_slug": "merillat",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-30",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": {
-    "total": 14,
-    "score": 12,
-    "report_only": 2,
-    "quarantine": 0
-  },
-  "curation_status": "staged",
-  "curation_date": null,
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": null
+  "platform_disclosure": "MasterBrand Cabinets (Fortune Brands): KraftMaid, Diamond, Merillat, Decora, Omega, Aristockraft, Homecrest share factories. Higher lines get better hardware and materials from same plants.",
+  "outlook": "Conditional",
+  "outlook_rationale": "MasterBrand builder-grade line. Particleboard box. Generic drawer slides (35K cycles, 75 lb). Blum hinges but lower spec. Catalyzed lacquer finish. KCMA certified (positive). No soft-close standard. Platform shares with KraftMaid/Diamond but gets lowest-tier components."
 }

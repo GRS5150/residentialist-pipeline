@@ -1,6 +1,6 @@
 {
-  "product": "IKEA SEKTION Kitchen Cabinets",
-  "report_date": "2026",
+  "product": "IKEA SEKTION",
+  "report_date": "2026-04-06",
   "sources": [
     {
       "id": "SRC-001",
@@ -12,7 +12,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Primary independent professional rating source. Direct competitive alternatives identified.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -25,7 +27,11 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer specification data. Primary source for box construction and hardware specs.",
-      "topics": ["quality", "performance", "specs"],
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -38,7 +44,9 @@
       "pool": "A",
       "classification": "report_only",
       "classification_reason": "Warranty terms for buyer context. 25-year duration notable for stock product but exclusions limit practical value.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -51,7 +59,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Hardware manufacturer specs confirming OEM relationship. Verifiable cycle life for IKEA-branded Blum hinges.",
-      "topics": ["performance", "durability"],
+      "topics": [
+        "performance",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -64,7 +75,11 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "High-volume professional installer with extensive IKEA-specific experience. Provides long-term field performance data.",
-      "topics": ["quality", "durability", "performance"],
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -77,7 +92,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Professional expert assessment with explicit methodology disclosure for rating rationale.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -90,7 +107,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Self-identified professional cabinetmaker providing comparative quality assessment.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -103,7 +122,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Professional design firm assessment with specific hardware and installation analysis.",
-      "topics": ["performance", "quality"],
+      "topics": [
+        "performance",
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -116,7 +138,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Designer assessment distinguishing hardware quality from box substrate quality. Confirms Blum OEM supply.",
-      "topics": ["quality", "performance"],
+      "topics": [
+        "quality",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -129,7 +154,10 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Physical measurement of specific component. Verifiable dimensional data.",
-      "topics": ["quality", "specs"],
+      "topics": [
+        "quality",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -142,7 +170,9 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Absence of certification is verifiable finding affecting scoring per methodology.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -155,7 +185,10 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Contractor field experience with installation and hardware quality observations.",
-      "topics": ["quality", "performance"],
+      "topics": [
+        "quality",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -168,7 +201,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Named designer long-term field assessment with calibrated expectations context.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -181,7 +216,9 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Licensed contractor first-time assessment comparing to custom benchmark.",
-      "topics": ["quality"],
+      "topics": [
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -194,16 +231,29 @@
       "pool": "C",
       "classification": "score",
       "classification_reason": "Consumer publication reporting field issues. Low-detail but corroborates door front vulnerability.",
-      "topics": ["durability"],
+      "topics": [
+        "durability"
+      ],
       "verification_relevance": "relevant"
     }
   ],
-  "bottom_line": "IKEA SEKTION is a well-engineered trade-off product concentrating hardware budget in Blum OEM hinges and full-extension steel drawers while minimizing cost on particleboard box substrate. Professional quality rating D from MLKD reflects absolute construction benchmark grading while installer ratings of 8.5/10 reflect value-at-price assessment. Both frameworks are correct. Hardware package genuinely rivals mid-range semi-custom brands at a fraction of the cost. Primary vulnerability is moisture damage to particleboard substrate especially at sink base. No KCMA certification. No plywood option available. 25-year warranty is institutional confidence signal but excludes water damage. Foundation-controlled corporate structure provides permanent continuity with no PE risk.",
+  "bottom_line": "European frameless design. Particleboard box. RTA assembly (cam lock). Key advantage: confirmed Blum MAXIMERA drawer system (undermount, soft-close). TFL finish (thermofoil risk). 25-year limited warranty. J.D. Power high customer satisfaction BUT pros rate D quality per Main Line — thermofoil peels by year 5, drawers fail. Multi-source manufacturing. Target reduced from 71 to 68 based on installer feedback.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-001", "SRC-002", "SRC-004", "SRC-005", "SRC-006",
-      "SRC-007", "SRC-008", "SRC-009", "SRC-010", "SRC-011",
-      "SRC-012", "SRC-013", "SRC-014", "SRC-015"
+      "SRC-001",
+      "SRC-002",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015"
     ],
     "sources_report_only": [
       "SRC-003"
@@ -211,7 +261,7 @@
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
-      "pool_A": 5,
+      "pool_A": 6,
       "pool_B": 6,
       "pool_C": 3
     }
@@ -219,19 +269,12 @@
   "product_slug": "ikea_sektion",
   "product_name": "IKEA SEKTION",
   "manufacturer_slug": "ikea",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-30",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": {
-    "total": 15,
-    "score": 14,
-    "report_only": 1,
-    "quarantine": 0
-  },
-  "curation_status": "staged",
-  "curation_date": null,
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": null
+  "platform_disclosure": null,
+  "outlook": "Conditional",
+  "outlook_rationale": "European frameless design. Particleboard box. RTA assembly (cam lock). Key advantage: confirmed Blum MAXIMERA drawer system (undermount, soft-close). TFL finish (thermofoil risk). 25-year limited warranty. J.D. Power high customer satisfaction BUT pros rate D quality per Main Line — thermofoil peels by year 5, drawers fail. Multi-source manufacturing. Target reduced from 71 to 68 based on installer feedback."
 }

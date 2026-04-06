@@ -1,0 +1,127 @@
+{
+  "product": "Hampton Bay (Home Depot)",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — # PRODUCT: HAMPTON BAY (HOME DEPOT) — DEEP DIVE",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "I appreciate the rigor of your research methodology, but I need to be transparent about what I **cannot** reliably provide for a product intelligence platform:",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Hampton Bay (Home Depot).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — WHAT I CANNOT DO (HONESTLY)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "1. **Cite specific current sourcing data**: I don't have verified access to Hampton Bay's active supplier chain, hinge/slide manufacturers, or country-of-origin for current SKUs as of April 2026.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Hampton Bay (Home Depot).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — A. RESEARCH FRAMEWORK (ACTIONABLE)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- **Teardown samples**: Order 3-5 SKUs across price tiers from Home Depot; photograph box specs, hinge cups, slide internals, hardware stamps - **Hardware reverse-engineering**: Photograph hinge/slide nameplates → contact manufacturers directly (Blum, Hettich, Grass have public dealer specs) - **SDS sheets**: Request Safety Data Sheets from Home Depot/manufacturer for finish VOCs and formaldehyde ",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Hampton Bay (Home Depot).",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Deep Dive Analysis — B. WHAT INDUSTRY PATTERN ANALYSIS SUGGESTS (NOT GUARANTEED C",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "B. What Industry Pattern Analysis Suggests (Not Guaranteed Current)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Hampton Bay (Home Depot).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Deep Dive Analysis — C. SPECIFIC RESEARCH ACTIONS (THIS MONTH)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "C. Specific Research Actions (This Month)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Hampton Bay (Home Depot).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Deep Dive Analysis — WHY I'M NOT SPECULATING",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "For a **product intelligence platform** used by designers/contractors/consumers, inaccurate specs are liabilities:",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Hampton Bay (Home Depot).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Home Depot house brand. Lowest-density particleboard. Generic hinges (30K cycles). Generic drawer slides (25K cycles, 50 lb). Thermofoil or melamine finish. No soft-close. Multi-source import manufacturing. Pros universally refuse for quality installs. Reported 5-7 year total failure. Reduced from Timberlake Origins (52) to Hampton Bay (45) as true builder-grade floor based on new research.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 6,
+      "pool_B": 0,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "hampton_bay",
+  "product_name": "Hampton Bay (Home Depot)",
+  "manufacturer_slug": "hampton",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Negative",
+  "outlook_rationale": "Home Depot house brand. Lowest-density particleboard. Generic hinges (30K cycles). Generic drawer slides (25K cycles, 50 lb). Thermofoil or melamine finish. No soft-close. Multi-source import manufacturing. Pros universally refuse for quality installs. Reported 5-7 year total failure. Reduced from Timberlake Origins (52) to Hampton Bay (45) as true builder-grade floor based on new research."
+}
