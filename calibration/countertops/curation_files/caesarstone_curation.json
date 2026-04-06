@@ -1,0 +1,48 @@
+{
+  "product": "Caesarstone (Global Engineered Quartz)",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Calibration Config — Caesarstone (Global Engineered Quartz)",
+      "url": "calibration_config",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Israeli/global manufacturer. 93% quartz, 7% resin. Breton technology. Multiple plant locations (Israel, Georgia USA, India, China) — quality consistency across plants is the concern. GREENGUARD Gold. Strong brand but multi-source manufacturing introduces variance risk that Cambria avoids.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Calibration-level assessment.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Israeli/global manufacturer. 93% quartz, 7% resin. Breton technology. Multiple plant locations (Israel, Georgia USA, India, China) — quality consistency across plants is the concern. GREENGUARD Gold. Strong brand but multi-source manufacturing introduces variance risk that Cambria avoids.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 1,
+      "pool_B": 0,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "caesarstone",
+  "product_name": "Caesarstone (Global Engineered Quartz)",
+  "manufacturer_slug": "caesarstone",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Conditional",
+  "outlook_rationale": "Israeli/global manufacturer. 93% quartz, 7% resin. Breton technology. Multiple plant locations (Israel, Georgia USA, India, China) — quality consistency across plants is the concern. GREENGUARD Gold. Strong brand but multi-source manufacturing introduces variance risk that Cambria avoids."
+}

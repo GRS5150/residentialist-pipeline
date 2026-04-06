@@ -1,0 +1,78 @@
+{
+  "product": "Corian (Solid Surface)",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — CERTIFICATIONS & MATERIAL SAFETY",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "| Certification | Status | Notes | |---|---|---| | **GREENGUARD Gold** | ❌ Not certified | VOC data not published | | **NSF/ANSI 51** | ✅ Certified | Food-contact surface safe | | **HPD (Health Product Declaration)** | ❌ Not readily available | Request from CorStar; PFAS status unknown | | **Declare Label** | ❌ Not certified | Not participating in Living Building Challenge program | | **Class A Fi",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Corian (Solid Surface).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — SCORING SUMMARY FOR PLATFORM",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "| Category | Score (1–10) | Notes | |---|---|---| | **Material Composition** | 7 | PMMA acrylic well-documented; no hidden fillers; lower heat tolerance than marketed | | **Manufacturing Consistency** | 8 | U.S.-based, single-source; batch color variance documented | | **Heat Resistance** | 3 | ⚠️ 200°F limit is major weakness; thermal damage permanent | | **Scratch Resistance** | 6 | Soft (2.5 Mo",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Corian (Solid Surface).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — SOURCES CITED",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- Karin Kirk, *Countertop Investigator* — heat resistance benchmarks, durability ratings - Consumer Reports — thermal damage testing, stain resistance benchmarking - Natural Stone Institute — comparative material analysis (for reference vs. natural stone) - StoneForum, r/Stonefabrication — fabricator consensus, real-world failure modes, competitive positioning - Houzz — homeowner long-term experie",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Corian (Solid Surface).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "PMMA acrylic resin-based solid surface. Seamless, repairable, thermoformable — genuine functional advantages. BUT: heat vulnerable (damage begins ~200°F), scratches easily, requires periodic sanding. CorStar Capital ownership (post-DuPont). Fabricators moved on from Corian for high-end but it has a legitimate repairability niche.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 1,
+      "pool_A": 2,
+      "pool_B": 0,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "corian",
+  "product_name": "Corian (Solid Surface)",
+  "manufacturer_slug": "corian",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Conditional",
+  "outlook_rationale": "PMMA acrylic resin-based solid surface. Seamless, repairable, thermoformable — genuine functional advantages. BUT: heat vulnerable (damage begins ~200°F), scratches easily, requires periodic sanding. CorStar Capital ownership (post-DuPont). Fabricators moved on from Corian for high-end but it has a legitimate repairability niche."
+}

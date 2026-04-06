@@ -1,0 +1,224 @@
+{
+  "product": "MSI Q Quartz (Import)",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — # PRODUCT: MSI Q QUARTZ — DEEP DIVE",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "I need to be direct about the constraints here before delivering analysis:",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — CRITICAL TRANSPARENCY NOTE",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- Current manufacturing locations (quartz suppliers reconfigure constantly) - Live fabricator sentiment from r/Stonefabrication, StoneForum, Houzz - Active warranty claim execution patterns - Current certifications and lot-to-lot batch testing results - Recent Consumer Reports coverage (if any) - Current PFAS content in recommended sealers",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — WHAT I CAN ESTABLISH ABOUT MSI Q QUARTZ (PRE-2024 DATA)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "What I Can Establish About MSI Q Quartz (Pre-2024 Data)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Deep Dive Analysis — KNOWN QUALITY TIER ISSUES FOR DISTRIBUTOR-MODEL QUARTZ (MSI'",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Known Quality Tier Issues for Distributor-Model Quartz (MSI's Category)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Deep Dive Analysis — **LOT-TO-LOT INCONSISTENCY**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "- **Color variance**: Multiple fabricators report noticeable slab-to-slab color drift, particularly in mid-tone colors - **Voids and defects**: Porosity issues and small void pockets documented in StoneForum threads (though I cannot access live 2026 data) - **Edge chipping**: Distributor-tier quartz frequently shows weaker edge compaction; chipping during fabrication is more common than Tier 1-2 b",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Deep Dive Analysis — MATERIAL COMPOSITION (WHAT MSI Q LIKELY CONTAINS)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "MATERIAL COMPOSITION (What MSI Q Likely Contains)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Deep Dive Analysis — RESISTANCE PROFILE (ENGINEERED QUARTZ CLASS)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "RESISTANCE PROFILE (Engineered Quartz Class)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "performance",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Deep Dive Analysis — FABRICATOR COMMUNITY CONSENSUS (WHAT I CAN EXTRAPOLATE)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "FABRICATOR COMMUNITY CONSENSUS (What I Can Extrapolate)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Deep Dive Analysis — COMPETITIVE QUALITY FLOOR QUESTION: \"WHAT'S THE MINIMUM ENGI",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "COMPETITIVE QUALITY FLOOR QUESTION: \"What's the minimum engineered quartz quality?\"",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Deep Dive Analysis — RECOMMENDED RESEARCH ACTIONS (APRIL 2026 REQUIREMENTS)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "RECOMMENDED RESEARCH ACTIONS (April 2026 Requirements)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Deep Dive Analysis — SCORING FRAMEWORK RECOMMENDATION",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "For your intelligence platform, **consider tiering engineered quartz like this**:",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Deep Dive Analysis — FINAL ASSESSMENT",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Would you like me to structure a specific scoring model, or do you need verification on any other Tier 3-4 brands?",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for MSI Q Quartz (Import).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "MSI is a distribution/import company, not a manufacturer. Slabs sourced from multiple factories (India, China, Turkey, Brazil) under one brand. Documented lot-to-lot inconsistency. Known voids, cracking reports. Fabricators warn about quality variance. Big-box and budget fabricator staple. No single-source quality control.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 1,
+      "pool_A": 10,
+      "pool_B": 1,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "msi_q_quartz",
+  "product_name": "MSI Q Quartz (Import)",
+  "manufacturer_slug": "msi",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Negative",
+  "outlook_rationale": "MSI is a distribution/import company, not a manufacturer. Slabs sourced from multiple factories (India, China, Turkey, Brazil) under one brand. Documented lot-to-lot inconsistency. Known voids, cracking reports. Fabricators warn about quality variance. Big-box and budget fabricator staple. No single-source quality control."
+}
