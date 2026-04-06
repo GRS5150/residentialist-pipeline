@@ -1,0 +1,222 @@
+{
+  "category": "windows",
+  "version": "1.0",
+  "created": "2026-03-27",
+
+  "deep_dive_prompt_template": "prompt_b_product.md",
+
+  "deep_dive_prompt_steering": {
+    "focus_areas": [
+      "professional installer comparisons and building science expert opinions",
+      "U-factor, SHGC, air infiltration, DP rating — NFRC-certified specs",
+      "warranty terms — transferable? labor coverage? glass coverage?",
+      "frame material and construction quality",
+      "known failure modes (seal failure, balance failure, hardware issues)",
+      "class-action lawsuits, recalls, FTC actions",
+      "company ownership, acquisitions, stability concerns"
+    ],
+    "exclude_from_scoring": [
+      "aesthetics, color preferences, design trends",
+      "installation difficulty (contractor skill, not product quality)",
+      "pricing and cost comparisons"
+    ]
+  },
+
+  "source_pools": {
+    "S": {
+      "description": "Category-specific elite independent sources",
+      "weight": 1.5,
+      "sources": [
+        { "name": "Consumer Reports", "notes": "Structured testing and scoring" }
+      ]
+    },
+    "A": {
+      "description": "Professional reviewers, building science experts, named contractors",
+      "weight": 1.0,
+      "sources": [
+        { "name": "Summit Construction / Matt Risinger / BS + Beer", "notes": "Building science professionals" },
+        { "name": "Fine Homebuilding / Green Building Advisor", "notes": "Trade publications" },
+        { "name": "StarCraft Custom Builders / Chris VanAcker", "notes": "Named contractor comparisons" }
+      ]
+    },
+    "B": {
+      "description": "Trade publications, experienced hands-on reviewers",
+      "weight": 0.75,
+      "sources": [
+        { "name": "This Old House / The Window Dog", "notes": "Published reviews" },
+        { "name": "Dealer/distributor content", "notes": "Knowledgeable but potentially biased" }
+      ]
+    },
+    "C": {
+      "description": "Consumer forums, individual posts",
+      "weight": 0.4,
+      "sources": [
+        { "name": "Reddit r/Homebuilding, r/HomeImprovement", "notes": "Consumer experience" },
+        { "name": "Houzz window threads", "notes": "Consumer experience" },
+        { "name": "GreenBuildingAdvisor forums", "notes": "Informed consumer experience" }
+      ]
+    }
+  },
+
+  "tier_anchors": {
+    "tier_1": {
+      "range": [90, 100],
+      "label": "Best in Class",
+      "anchors": [
+        { "product": "Marvin Signature Ultimate", "target_score": 92, "rationale": "Extruded aluminum-clad wood, best-in-class craftsmanship, strong unanimous expert consensus, 20-year transferable warranty, air infiltration <0.01 cfm/ft² (casement)." },
+        { "product": "Loewen", "target_score": 91, "rationale": "Premium aluminum-clad wood, strong craftsmanship, limited US dealer network." },
+        { "product": "Kolbe Ultra Series", "target_score": 90, "rationale": "Premium aluminum-clad wood, strong craftsmanship, Wisconsin-made." }
+      ]
+    },
+    "tier_2": {
+      "range": [75, 89],
+      "label": "Excellent",
+      "anchors": [
+        { "product": "Andersen E-Series", "target_score": 85, "rationale": "Extruded aluminum-clad wood, excellent customization (50+ colors), adequate but not leading thermal performance, transferable warranty with aggressive exclusions." },
+        { "product": "Pella Impervia", "target_score": 78, "rationale": "Pultruded fiberglass frame (excellent material), glass packages underperform for price, non-transferable warranty." }
+      ]
+    },
+    "tier_3": {
+      "range": [60, 74],
+      "label": "Good",
+      "anchors": [
+        { "product": "Andersen 400 Series", "target_score": 67, "rationale": "Vinyl-clad wood, solid mainstream product, wide availability, standard warranty." },
+        { "product": "Pella 250 Series", "target_score": 62, "rationale": "Basic vinyl, meets code, limited professional consensus." }
+      ]
+    },
+    "tier_4": {
+      "range": [40, 59],
+      "label": "Fair",
+      "anchors": [
+        { "product": "Simonton Reflections 5500", "target_score": 50, "rationale": "Budget vinyl, adequate but dated design, constant-force balance, AAMA Gold certified." }
+      ]
+    },
+    "tier_5": {
+      "range": [0, 39],
+      "label": "Below Standard",
+      "anchors": [
+        { "product": "Reliabilt 3500", "target_score": 30, "rationale": "Builder-grade vinyl, documented seal failures within 2-4 years across multiple independent reports, minimal professional coverage." }
+      ]
+    }
+  },
+
+  "operation_types": ["double_hung", "single_hung", "casement", "awning", "sliding", "fixed", "picture"],
+
+  "operation_type_adjustments": {
+    "casement": 3,
+    "awning": 2,
+    "double_hung": 0,
+    "single_hung": -1,
+    "slider": -1,
+    "sliding": -1,
+    "fixed": 4,
+    "picture": 4
+  },
+
+  "sibling_curation_reuse": true,
+
+  "axis_behavior": {
+    "quality": { "scored": true, "varies_meaningfully": true },
+    "performance": { "scored": true, "varies_meaningfully": true },
+    "durability": { "scored": true, "varies_meaningfully": true },
+    "material_safety": { "scored": false, "report_only": true, "labels": ["Excellent", "Good", "Moderate", "Concern"] }
+  },
+
+  "spec_fields": {
+    "verified_specs": [
+      { "field": "u_factor", "unit": "BTU/hr·ft²·°F" },
+      { "field": "shgc", "unit": "ratio" },
+      { "field": "air_infiltration", "unit": "cfm/ft²" },
+      { "field": "dp_rating", "unit": "psf" },
+      { "field": "frame_material", "unit": "string" },
+      { "field": "warranty_transferable", "unit": "boolean" },
+      { "field": "warranty_glass_years", "unit": "years" },
+      { "field": "warranty_labor_years", "unit": "years" }
+    ]
+  },
+
+  "deterministic_adjustments": {
+    "spec_adjustment_cap": 8,
+    "spec_thresholds": {
+      "u_factor": {
+        "exceptional": { "below": 0.20, "adjustment": 3 },
+        "above_average": { "below": 0.25, "adjustment": 1 },
+        "slightly_below": { "above": 0.28, "adjustment": -1 },
+        "below_average": { "above": 0.32, "adjustment": -2 }
+      },
+      "air_infiltration": {
+        "best_in_class": { "at_or_below": 0.02, "adjustment": 2 },
+        "good": { "at_or_below": 0.10, "adjustment": 1 },
+        "below_average": { "at_or_above": 0.20, "adjustment": -1 },
+        "aama_minimum": { "at_or_above": 0.30, "adjustment": -2 }
+      },
+      "dp_rating": {
+        "by_operation_type": {
+          "slider": { "thresholds": [60, 45, 30, 20], "adjustments": [3, 2, 1, 0, -2] },
+          "double_hung": { "thresholds": [65, 50, 35, 25], "adjustments": [3, 2, 1, 0, -2] },
+          "default": { "thresholds": [70, 55, 40, 30], "adjustments": [3, 2, 1, 0, -2] }
+        }
+      }
+    },
+    "warranty_adjustments": {
+      "transferable_yes": 1,
+      "transferable_no": -2,
+      "labor_strong": { "min_years": 10, "adjustment": 1 },
+      "labor_minimal": { "max_years": 2, "adjustment": -1 },
+      "glass_excellent": { "min_years": 25, "adjustment": 1 },
+      "glass_short": { "max_years": 10, "adjustment": -1 }
+    },
+    "frame_material_adjustments": {
+      "fiberglass_in_mid_lower_tier": { "min_tier": 3, "adjustment": 1 },
+      "vinyl_in_premium_tier": { "max_tier": 2, "adjustment": -2 }
+    }
+  },
+
+  "pain_points": [
+    "Warranty non-transferability destroying resale value",
+    "Parts availability disappearing after 10-15 years",
+    "IGU seal failure and foggy glass",
+    "Balance system failure making windows inoperable",
+    "Installation quality variance between contractors",
+    "Service scheduling delays of 3-6+ months for warranty claims"
+  ],
+
+  "scoring_rules": {
+    "category_specific": [
+      { "rule": 1, "name": "Legal History Rule", "description": "Lawsuits, class actions, recalls do NOT affect tier or score. Report-only." },
+      { "rule": 2, "name": "Expert Weight Rule", "description": "Strong expert consensus (3+ credentialed sources) weighted heavily." },
+      { "rule": 3, "name": "Minimum Tier Rule", "description": "Product that meets code with no documented defects is at least Tier 4." }
+    ]
+  },
+
+  "health_score_map": {
+    "vinyl": 7.2,
+    "pvc": 7.2,
+    "fiberglass": 8.5,
+    "pultruded": 8.5,
+    "wood": 7.8,
+    "composite": 7.0,
+    "fibrex": 7.0,
+    "aluminum": 7.5,
+    "default": 7.0
+  },
+
+  "manufacturer_detection": {
+    "andersen": "andersen",
+    "pella": "pella",
+    "marvin": "marvin",
+    "milgard": "milgard",
+    "jeld": "jeld_wen",
+    "kolbe": "kolbe",
+    "windsor": "windsor",
+    "simonton": "simonton",
+    "reliabilt": "reliabilt",
+    "loewen": "loewen",
+    "alpen": "alpen",
+    "sierra": "sierra_pacific",
+    "provia": "provia",
+    "cgi": "cgi",
+    "window world": "window_world",
+    "ply gem": "ply_gem"
+  }
+}

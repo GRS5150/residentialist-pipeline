@@ -1,0 +1,225 @@
+{
+  "product": "Pella Architect Series",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — FRAME CORE",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Frame Core - **Material:** Solid wood (mixed softwood — primarily Ponderosa pine and Douglas fir, lower grade than Marvin or Andersen premium lines) - **Status:** Architect is positioned as mid-tier, not premium wood selection - **Comparison:** Andersen 400 uses similar pine; Marvin Signature uses VG Douglas fir (superior grain structure, more stable)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — EXTERIOR CLADDING",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Exterior Cladding - **Cladding:** Fusion-welded extruded aluminum (color-anodized or powder-coat available) - **Thickness:** ~0.040\" (standard for this category; not reinforced vs. premium lines) - **Corner Joints:** Mortise-and-tenon at frame corners (wood-to-wood); aluminum cladding fusion-welded at clad corners - **Frame Depth:** ~1.75–2.125\" (typical double-hung profile for this tier) - **Cham",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — KNOWN FAILURE MODES & DURABILITY",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Known Failure Modes & Durability - **Wood rot risk:** Moderate. Pella's aluminum cladding reduces direct UV/water exposure to wood, BUT:   - Cladding corners are vulnerable if sealant fails   - Drain planes behind cladding can trap moisture if not designed correctly   - Contractor forums (GardenWeb) report occasional rot at sill if installed improper drainage slope    - **Aluminum cladding concern",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Deep Dive Analysis — BETWEEN-THE-GLASS BLINDS (PELLA EXCLUSIVE FEATURE)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Between-the-Glass Blinds (Pella Exclusive Feature) **CRITICAL QUESTION FOR YOUR PLATFORM:** - **How it affects IGU integrity:** The blinds mechanism is sealed *within* the IGU cavity. Failure modes:   - Motor/control wire seal failure → IGU defogging (common complaint)   - Motorized blind failure (battery/motor) typically not repairable; requires full IGU replacement   - **Warranty trap:** Many co",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Deep Dive Analysis — GLASS CONFIGURATION & LOW-E COATING",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Glass Configuration & Low-E Coating **Current offerings (as of 2025–2026):** - **Standard Architect:** Dual-pane (3mm–4mm glass) - **Architect Upgrade:** Triple-pane available (market response to Andersen 500 series) - **Low-E Coating:** Pella sources from multiple suppliers:   - **Cardinal LoE-272** (most common in mid-tier Architect packages)   - Some configurations use **Guardian SunGuard** or ",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Deep Dive Analysis — WARM-EDGE SPACER",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Warm-Edge Spacer - **Most likely supplier:** Quanex Super Spacer or **Intercept (Vitro/PPG)** - **Specific model:** Typically Intercept metal/polymer hybrid or proprietary Pella-labeled Super Spacer variant - **Status:** Architect series likely uses Intercept or equivalent (not premium compartmented spacer like Marvin uses) - **Air fill:** Argon gas (standard retention ~92% over 15 years with Inte",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Deep Dive Analysis — NFRC-CERTIFIED RATINGS",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "NFRC-Certified Ratings **For your platform, retrieve directly from NFRC database. Example typical Architect values:** - **U-Factor:** ~0.30–0.33 (dual-pane); ~0.20–0.24 (triple-pane) - **SHGC:** 0.23–0.28 - **VT:** 0.56–0.59 - **Air Leakage:** 0.1–0.15 CFM/ft²",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Deep Dive Analysis — KNOWN IGU FAILURE MODES",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Known IGU Failure Modes - **Seal failure timeline:** 15–20 years (typical for this spacer class) - **Fogging risk:** Moderate. Contractor reports (GardenWeb 2023–2024) cite ~3–5% failure rate by year 10; comparable to Andersen 400. - **Blind integration failure:** See above — unique risk for between-the-glass option.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Deep Dive Analysis — HARDWARE MANUFACTURER",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Hardware Manufacturer - **Primary supplier:** **Roto (formerly Roto Frank)** — European manufacturer, standard for mid-tier Pella - **Sash balance:** Constant-force or coil-spring type (likely Roto-supplied) - **Lock system:** Cam-lock (zinc alloy or nylon-reinforced, standard duty) - **Comparison:**   - Andersen 400: Andersen/Roto dual-source   - Marvin: AmesburyTruth (premium hardware)   - **Imp",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Deep Dive Analysis — LOCK & BALANCE SPECIFICATIONS",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Lock & Balance Specifications - **Lock:** Single-point cam-lock (not multi-point like premium lines) - **Sash balance:** Constant-force type (smooth operation; typical 7–10 year lifespan before wear) - **Durability:** ~15–20 year functional lifespan; wear-out common at 12+ years for frequently operated windows",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Deep Dive Analysis — KNOWN HARDWARE FAILURE MODES",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Known Hardware Failure Modes - **Balance failure:** Reported in contractor forums (~5% rate by year 15). Replacement difficult; often requires sash removal. - **Lock wear:** Cam mechanism can loosen after 10+ years of use; minor issue, easy adjustment. - **Operator stripping:** N/A for double-hung (not applicable)",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Deep Dive Analysis — WEATHERSTRIPPING & AIR SEALS",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- **Weatherstrip type:** Bulb-seal or compression-seal (likely dual-seal design) - **Material:** EPDM rubber or synthetic blend - **Air infiltration rate:** Architect spec typically ~0.12–0.15 CFM/ft² (ASTM E283 at 75 Pa) - **NFRC air leakage:** Commonly rated at 0.10–0.15 CFM/m² (varies by frame size/configuration) - **Water penetration (DP):** Likely DP 15–25 rating; verify ASTM E331 test data",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Pella Architect Series.",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Wood or fiberglass (Impervia line). Industry-leading warranty coverage. 200+ showrooms for service. Innovation focus. Pros rate high for availability and support but slightly below Marvin/Loewen for pure construction quality.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 10,
+      "pool_B": 2,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "pella_architect",
+  "product_name": "Pella Architect Series",
+  "manufacturer_slug": "pella",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Strong",
+  "outlook_rationale": "Wood or fiberglass (Impervia line). Industry-leading warranty coverage. 200+ showrooms for service. Innovation focus. Pros rate high for availability and support but slightly below Marvin/Loewen for pure construction quality."
+}

@@ -1,0 +1,111 @@
+{
+  "product": "Andersen E-Series",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — INSULATING GLASS UNIT (IGU) — PERFORMANCE",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "INSULATING GLASS UNIT (IGU) — PERFORMANCE",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Andersen E-Series.",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — HARDWARE & OPERATING MECHANISMS",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "| Component | E-Series Spec | |-----------|---------------| | **Weatherstrip type** | Bulb seal (primary) + secondary compression seal on jambs | | **Seal count** | Dual-seal (standard; not triple like premium products) | | **Air infiltration (CFM/ft²)** | ~0.10–0.12 @ 25 mph (ASTM E283) — acceptable, not exceptional | | **Water penetration (DP)** | Typically DP25–DP35 (mid-range structural rating",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Andersen E-Series.",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — DURABILITY & LONGEVITY FIELD DATA",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "| Component | Observed Lifespan | |-----------|------------------| | **Frame (wood/cladding)** | 30–40 years typical; cladding paint refresh every 10–15 years | | **IGU (seal integrity)** | 15–25 years (varies by spacer type; older aluminum spacers failed sooner) | | **Hardware/balances** | 20–30 years | | **Weatherstripping** | 15–20 years before degradation; not catastrophic but gradual performa",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Andersen E-Series.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Deep Dive Analysis — COMPETITIVE POSITIONING & LIMITATIONS",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "| Factor | E-Series Assessment | |--------|-------------------| | **Quality vs. Marvin/Pella Designer** | Lower (no VG Douglas fir, single-seal, DP25–35 vs. DP50+) | | **Quality vs. Builder Grade Vinyl** | Higher (mortise-tenon, wood + clad, proven longevity) | | **Price-to-Performance** | Mid-range; justified for 25–30 year hold; not optimal for flips | | **Seal Longevity Risk** | Moderate (space",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Andersen E-Series.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Deep Dive Analysis — CRITICAL DATA GAPS & RECOMMENDATIONS",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "1. **NFRC certified product directory** (search by E-Series model number) — confirms exact U-factor, SHGC, spacer type 2. **Andersen corporate specification sheets** — specific Low-E coating (LoE-180 vs. 272), spacer models by production date 3. **CPSC enforcement actions / recalls** (2024–2026) — any new safety/durability issues 4. **Active contractor forums** (GardenWeb Window Forum, BuildTalk) ",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Andersen E-Series.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Wood interior with extruded aluminum cladding. Massive scale, nationwide availability. Strong warranty. Pro-ranked alongside Marvin/Loewen at top. Multi-plant manufacturing — minor quality variance risk vs single-factory brands. ENERGY STAR Most Efficient.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 4,
+      "pool_B": 1,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "andersen_e_series",
+  "product_name": "Andersen E-Series",
+  "manufacturer_slug": "andersen",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Strong",
+  "outlook_rationale": "Wood interior with extruded aluminum cladding. Massive scale, nationwide availability. Strong warranty. Pro-ranked alongside Marvin/Loewen at top. Multi-plant manufacturing — minor quality variance risk vs single-factory brands. ENERGY STAR Most Efficient."
+}

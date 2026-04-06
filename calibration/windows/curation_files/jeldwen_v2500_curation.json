@@ -1,0 +1,224 @@
+{
+  "product": "JELD-WEN V-2500 (Vinyl)",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — EXECUTIVE SUMMARY: TIER 4 BUILDER-GRADE ASSESSMENT",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "EXECUTIVE SUMMARY: TIER 4 BUILDER-GRADE ASSESSMENT",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — FRAME PROFILE & COMPOSITION",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Frame Profile & Composition - **Material**: Vinyl (PVC-based co-extruded profile) - **Profile design**: Multi-chamber design (typical 4–5 chamber for builder-grade JELD-WEN vinyl) - **Wall thickness**: Approximately 0.072\"–0.080\" (standard builder vinyl; premium vinyl runs 0.084\"–0.090\") - **Frame depth**: ~1.75\" exterior-to-interior (typical for double-hung applications)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — EXTERIOR CLADDING",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Exterior Cladding - **None on V-2500 vinyl models** — pure vinyl exterior, which means:   - No aluminum cladding protection (i.e., no secondary weather barrier against UV and thermal cycling)   - Frame is directly exposed to degradation from UV, temperature extremes, and moisture ingress   - This is a **significant durability liability** in coastal/high-UV climates",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Deep Dive Analysis — GLASS CONFIGURATION & COATING",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Glass Configuration & Coating - **Standard configuration**: Dual-pane (3mm–4mm glass thickness, typical) - **Low-E coating**: **Likely Cardinal LoE-180 or LoE-272** (most common OEM spec for builder-grade lines), but **JELD-WEN does not transparently disclose which coating** in V-2500 spec sheets   - LoE-180 = moderate performance, lower cost   - LoE-272 = slightly better solar control   - *Indust",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Deep Dive Analysis — GAS FILL & SPACER TECHNOLOGY",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Gas Fill & Spacer Technology - **Gas fill**: Argon (industry standard for builder-grade dual-pane) - **Spacer type**: **Strong evidence suggests aluminum spacer core** (not super-spacer), based on:   - JELD-WEN cost structure for Tier 4 products   - Competitor cost benchmarking (Pella 450 uses Intercept; Andersen 100 uses Super Spacer; V-2500 cost point suggests aluminum/standard TPS)   - **Alumin",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Deep Dive Analysis — NFRC RATINGS (IF AVAILABLE)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "NFRC Ratings (if available) - **U-factor**: Likely **0.32–0.36** (builder-grade dual-pane with basic Low-E, LoE-180 assumption) - **SHGC**: Likely **0.28–0.32** (moderate solar gain control) - **VT (visible transmittance)**: Approximately **0.60–0.65** - **Condensation resistance**: ~35–45 (poor; premium is 65+)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Deep Dive Analysis — ENERGY STAR STATUS",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "ENERGY STAR Status - **Not ENERGY STAR certified** (implied Tier 4 status; ENERGY STAR requires higher performance thresholds) - This is a **red flag for long-term value**: no ENERGY STAR = no tax credits (as of 2024 IRA guidelines)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Deep Dive Analysis — HARDWARE MANUFACTURER",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Hardware Manufacturer - **Supplier**: Likely **AmesburyTruth or Roto** (JELD-WEN's primary OEM hardware partners for builder-grade vinyl) - **Specific model**: Not disclosed in standard spec sheets; requires factory inquiry",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Deep Dive Analysis — SASH BALANCE SYSTEM",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Sash Balance System - **Type**: **Coil-spring balance** (typical for builder-grade double-hung vinyl) - **Known failure mode**: Coil-spring balances lose tension over time; expected functional life **12–18 years** (vs. 25+ for constant-force) - **Symptom**: Sash becomes difficult to raise/hold in place; often occurs earlier with frequent use",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Deep Dive Analysis — LOCK SYSTEM",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Lock System - **Type**: Likely **cam-lock or push-button lock** (not multi-point security lock) - **Material**: Zinc alloy (standard builder-grade; corrosion risk in coastal environments) - **Failure mode**: Lock mechanisms loosen over time; sash rattle develops",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Deep Dive Analysis — CASEMENT OPERATOR (IF APPLICABLE)",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Casement Operator (if applicable) - N/A for double-hung, but if inquiring about V-2500 casement variant: Roto operators are standard (moderate reliability)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Deep Dive Analysis — SEAL CONFIGURATION",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Seal Configuration - **Type**: Bulb seal or compression seal (typical for budget vinyl) - **Seal count**: Single-seal or possibly dual-seal (not triple-seal, which is premium) - **Material**: PVC or EPDM rubber (PVC degrades faster under UV)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for JELD-WEN V-2500 (Vinyl).",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Builder-grade vinyl. Multi-plant manufacturing with documented quality variance. Class-action lawsuit history (seal failures). Fusion-welded corners but thin vinyl profile. Contractors use for cost builds but pros warn of 10-year seal failure rates. AuraLast wood treatment on Siteline questioned.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 12,
+      "pool_B": 0,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "jeldwen_v2500",
+  "product_name": "JELD-WEN V-2500 (Vinyl)",
+  "manufacturer_slug": "jeldwen",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Negative",
+  "outlook_rationale": "Builder-grade vinyl. Multi-plant manufacturing with documented quality variance. Class-action lawsuit history (seal failures). Fusion-welded corners but thin vinyl profile. Contractors use for cost builds but pros warn of 10-year seal failure rates. AuraLast wood treatment on Siteline questioned."
+}

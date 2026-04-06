@@ -1,0 +1,142 @@
+{
+  "product": "Loewen",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — CRITICAL TRANSPARENCY NOTE",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "I need to be direct: **I cannot provide complete, verified specifications for all the technical parameters you're requesting** — particularly current pricing justifications, exact DP ratings, specific spacer models, and hardware supplier details. Loewen (as a Canadian manufacturer with lower US market penetration than Marvin/Andersen) has less public technical documentation circulating in the buil",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Loewen.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — INSULATING GLASS UNIT (IGU) — PERFORMANCE",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "INSULATING GLASS UNIT (IGU) — PERFORMANCE",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Loewen.",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — LOEWEN VS. ANDERSEN E-SERIES: PRICE PREMIUM JUSTIFICATION",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "LOEWEN vs. ANDERSEN E-SERIES: PRICE PREMIUM JUSTIFICATION",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Loewen.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Deep Dive Analysis — US MARKET FRICTION FOR LOEWEN",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "1. **Lead Times:** 8–16 weeks (Canadian sourcing/customs) 2. **Parts Availability:** Not at local distributors; special-order from Steinbach 3. **Warranty Service:** US homeowner coordination with Canadian factory 4. **Builder Familiarity:** Andersen/Marvin dominate US builder mindset",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Loewen.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Deep Dive Analysis — CRITICAL GAPS REQUIRING DIRECT MANUFACTURER CONTACT",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "CRITICAL GAPS REQUIRING DIRECT MANUFACTURER CONTACT",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Loewen.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Deep Dive Analysis — RECOMMENDED VERIFICATION SOURCES",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "1. **Loewen official spec sheets** (request from Canadian distributor or direct) 2. **NFRC Product Directory** (nfrc.org) — search \"Loewen double-hung\" 3. **GardenWeb Window Forum** (active Canadian building community) 4. **Fine Homebuilding Architects & Builders Forum** (Loewen discussions) 5. **Building Science Corporation** — if they've tested Loewen IGUs 6. **Matt Risinger (Build Show)** — if ",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Loewen.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Deep Dive Analysis — BOTTOM LINE FOR YOUR PLATFORM",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- **Quality:** 8.5–9.0/10 (VG Fir + aluminum = premium materials; [TBD] IGU specs) - **Durability:** 9.0+/10 (40–50 year frame lifespan; single-factory control) - **Performance:** 8.0–8.5/10 (strong, pending DP/NFRC confirmation) - **Value:** 6.5–7.0/10 (premium pricing justified by materials; US parts availability gap reduces value for US market)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Loewen.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Canadian premium. Douglas fir/mahogany wood with extruded aluminum cladding. Single-factory Steinbach Manitoba. Exceptional wood craftsmanship. Premium hardware. Pro consensus: top tier for wood quality but wood frame requires more maintenance than fiberglass composites.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 1,
+      "pool_A": 6,
+      "pool_B": 0,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "loewen",
+  "product_name": "Loewen",
+  "manufacturer_slug": "loewen",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Strong",
+  "outlook_rationale": "Canadian premium. Douglas fir/mahogany wood with extruded aluminum cladding. Single-factory Steinbach Manitoba. Exceptional wood craftsmanship. Premium hardware. Pro consensus: top tier for wood quality but wood frame requires more maintenance than fiberglass composites."
+}

@@ -1,0 +1,226 @@
+{
+  "product": "Marvin Ultimate (Signature Ultimate)",
+  "report_date": "2026-04-06",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Deep Dive Analysis — **INTERIOR FRAME: VG DOUGLAS FIR (PREMIUM TIER)**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- VG = \"Vertical Grain\" Douglas fir — superior stability vs. flat-sawn - Standard alternatives: likely solid pine or douglas fir non-VG - **Corner joint method:** Marvin uses **mortise-and-tenon joinery** on wood frames (premium standard). Verify this is standard on Signature Ultimate tier—lower tiers may use dowel or finger joints. - **Corner reinforce/Ultrex wrap:** Confirm how Ultrex exterior w",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Deep Dive Analysis — **EXTERIOR CLADDING: ULTREX**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- Roll-formed? Pultruded? (Marvin typically pultreads entire frame perimeter) - **Frame depth:** Request exact cross-section. Premium double-hung typically 1.75\"–2.125\" frame depth. Signature Ultimate is typically in 1.75\"–1.875\" range. - **Wall thickness:** Standard pultruded fiberglass = 0.125\"–0.1875\". Marvin likely thicker for structural advantage claim.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Deep Dive Analysis — **SURFACE FINISH**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- **Exterior:** Factory-applied polyurethane or acrylic topcoat on Ultrex (not anodized—fiberglass doesn't anodize) - **Color durability:** Marvin claims 10-year non-chalking warranty on factory colors. Verify if extended to 15–20 years on Signature tier. - **Interior:** Stain/paint grade on VG fir. Standard interior finish type?",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Deep Dive Analysis — **LOW-E COATING**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Marvin historically specifies **Cardinal** glass with Low-E options: - **Cardinal LoE-180** (older, less efficient) - **Cardinal LoE-272** (mid-tier, ~0.27 SHGC) - **Cardinal LoE-340** (premium efficiency, ~0.30 SHGC) - **Cardinal LoE-366** (latest, highest visible light transmittance)",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Deep Dive Analysis — **WARM-EDGE SPACER**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Marvin used **Super Spacer (Quanex)** extensively (pre-2024 data): - Foam-filled, low thermal conductivity (~0.15 BTU/hr·ft·°F vs. aluminum ~1.0) - Expected IGU lifespan: 20+ years with premium spacer vs. 15–20 with standard",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Deep Dive Analysis — **GAS FILL**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- Standard: **Argon 90%** (or argon-krypton blend for triple-pane) - Retention: Request gas-loss data over 10–15 years - Confirm initial fill % and test data per ASTM E98",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Deep Dive Analysis — **KNOWN IGU FAILURE MODES**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "From contractor reports (2022–2024): - **Seal failure timeline:** Premium spacer (Super Spacer) typically holds 20+ years; aluminum spacer fails 12–15 years - **Fogging:** Rare on Marvin premium; more common on builder-grade vinyl windows - **Gas loss:** ~1–2% per year is normal; rapid fogging indicates seal failure - **Cardinal glass quality:** Generally excellent reputation; few warranty claims",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Deep Dive Analysis — **HARDWARE MANUFACTURER**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Marvin has historically specified **AmesburyTruth** (also owns Roto under same parent company): - **Confirm current supply:** Is AmesburyTruth still primary on Signature Ultimate, or any OEM sourcing changes post-2024?",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Deep Dive Analysis — **KNOWN HARDWARE FAILURE MODES (CONTRACTOR REPORTS, 2020–202",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- **Balance failure timeline:** Block-and-tackle, 15–25 years typical; constant-force, 10–15 years - **Lock wear:** Cam-locks on double-hung rarely fail; more wear on triple-hung or casement - **Rope/tape deterioration:** Sash cord (if used) vs. modern tape — verify if Signature Ultimate uses tape for longer life",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "durability",
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Deep Dive Analysis — **SEAL SPECIFICATION**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Request confirmation: - **Type:** Bulb seal, compression fin, or proprietary Q-lon (Marvin premium) - **Seal count:** Double-hung typically has seals on meeting rail + top/bottom sash stops = 3–4 seals - **Material:** EPDM (standard), silicone (premium), or Q-lon",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Deep Dive Analysis — **AIR INFILTRATION RATE**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- **NFRC air leakage:** Check certified directory for exact CFM/ft² (should be ≤0.15 for Signature tier) - **ASTM E283:** 25 mph wind pressure test; premium windows typically 0.05–0.10 CFM/ft²",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Deep Dive Analysis — **WATER PENETRATION**",
+      "url": "deep_dive_synthesis",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "- **DP rating:** Confirm design pressure level - **ASTM E331:** Confirm water resistance test results - Double-hung is **lower DP** than casement (5–15 DP typical); confirm Signature Ultimate tier",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Deep dive component analysis for Marvin Ultimate (Signature Ultimate).",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
+  ],
+  "bottom_line": "Ultrex pultruded fiberglass exterior (8x stronger than vinyl, 87% less thermal expansion). Wood interior (VG Douglas fir available). Cardinal LoE coatings. AmesburyTruth hardware. Single-factory Warroad MN. Matt Risinger and pro installer consensus: top overall. CR highest rated.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012"
+    ],
+    "sources_report_only": [],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 12,
+      "pool_B": 0,
+      "pool_C": 0
+    }
+  },
+  "product_slug": "marvin_ultimate",
+  "product_name": "Marvin Ultimate (Signature Ultimate)",
+  "manufacturer_slug": "marvin",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": "Strong",
+  "outlook_rationale": "Ultrex pultruded fiberglass exterior (8x stronger than vinyl, 87% less thermal expansion). Wood interior (VG Douglas fir available). Cardinal LoE coatings. AmesburyTruth hardware. Single-factory Warroad MN. Matt Risinger and pro installer consensus: top overall. CR highest rated."
+}
