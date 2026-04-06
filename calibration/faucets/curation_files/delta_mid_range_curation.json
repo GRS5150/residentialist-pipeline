@@ -1,36 +1,196 @@
 {
-  "product": "Delta Mid-Range Kitchen Faucets (DST Models)",
-  "report_date": "2026",
+  "product": "Delta Mid-Range (DST models)",
+  "report_date": "2026-04-06",
   "sources": [
-    {"id": "SRC-001", "source_name": "StarCraft Independent Reviews — Delta (March 2026)", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "Best Value in mid-priced faucets made or assembled in Asia. Number 1 or 2 brand recommended by professional plumbers across independent polls. DST era faucets represent genuine engineering step forward. However Delta has undergone significant undisclosed manufacturing transformation shifting from primarily US manufacturer to primarily designer and brand assembler outsourcing majority of fabrication to Asian OEMs.", "pool": "S", "classification": "score", "classification_reason": "Pool S authority with manufacturing migration finding.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-002", "source_name": "DST Cartridge — Same Technology as Brizo", "url": "https://www.deltafaucet.com", "platform": "other", "column": "expert", "snippet": "DST cartridge is same proprietary Delta technology as Brizo. Kerox and Maruwa ceramic discs diamond-coated. Independently tested to 5 million cycles. Assembled at Morgantown Kentucky plastics plant. Plastic cartridge housing passes 500 psi ASME surge test. Available on all -DST suffix models.", "pool": "S", "classification": "score", "classification_reason": "Pool S confirmed cartridge technology specification.", "topics": ["quality", "durability", "performance"], "verification_relevance": "relevant"},
-    {"id": "SRC-003", "source_name": "Delta Body Material — ZAMAK Shell + PEX Waterway", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "Decorative shell of most new Delta faucets is die-cast zinc alloy ZAMAK confirmed by Zinc Die Casting Association teardown study. Water flows through continuous InnoFlex PEX tubing from shutoff supply to spout tip never contacting outer zinc shell. Outer shell is entirely non-pressurized purely decorative. Valve seat and cartridge housing area is brass.", "pool": "S", "classification": "score", "classification_reason": "Pool S finding on body material — ZAMAK shell with PEX waterway is significant construction revelation.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-004", "source_name": "Delta Non-DST Cartridge Warning", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "Not all Delta models use DST. Classics and Foundations collections use legacy washerless ball valve with rubber seal and spring — fundamentally different lower-durability technology. Some two-handle models use medley of cartridges including Sedal and unidentified sources. Must specify -DST suffix models only for Diamond Seal Technology.", "pool": "S", "classification": "score", "classification_reason": "Pool S critical purchasing guidance — non-DST models are significantly inferior.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-005", "source_name": "Delta Warranty Terms", "url": "https://www.deltafaucet.com/warranty", "platform": "other", "column": "expert", "snippet": "Lifetime limited warranty covering all parts including cartridge for life of original owner. Replacement cartridges free of charge. OEM replacement cartridge RP50587 retails approximately $30-35. Third-party Danco equivalent approximately $22. Free under warranty. One of easiest cartridge replacements in industry.", "pool": "A", "classification": "report_only", "classification_reason": "Warranty and serviceability terms for buyer context.", "topics": ["durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-006", "source_name": "Delta Manufacturing Migration", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "Shifted from primarily US manufacturer to primarily designer and brand assembler outsourcing majority of fabrication to Asian OEMs. Quality maintained largely through design control and specification enforcement not through owned manufacturing. For high-end residential applications zinc alloy shells plastic waterways and plastic spray wands place Delta firmly below luxury threshold.", "pool": "S", "classification": "score", "classification_reason": "Pool S assessment of manufacturing model transformation.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-007", "source_name": "Delta Certifications", "url": "https://www.deltafaucet.com", "platform": "other", "column": "expert", "snippet": "Full UPC cUPC NSF/ANSI 61 NSF 372 ASME A112.18.1 compliance. WaterSense labeled on applicable models.", "pool": "A", "classification": "score", "classification_reason": "Full certification confirmed.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-008", "source_name": "Professional Plumber Consensus — Delta", "url": "https://www.reddit.com/r/Plumbing", "platform": "reddit", "column": "review", "snippet": "Consistently ranked number 1 or 2 recommended brand by professional plumbers. Praised for DST reliability ease of cartridge replacement and massive parts availability. Known as the reliable workhorse of the industry.", "pool": "B", "classification": "score", "classification_reason": "Professional consensus data from plumber community.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-009", "source_name": "TerryLove Forum — Delta Long-Term Data", "url": "https://www.terrylove.com", "platform": "other", "column": "review", "snippet": "One member documented five cartridge replacements over 10 years on pre-DST Cicero single-handle pull-out faucet. This pattern is characteristic of non-DST era cartridges and should not be generalized to current DST models.", "pool": "B", "classification": "score", "classification_reason": "Long-term field data distinguishing pre-DST from DST era performance.", "topics": ["durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-010", "source_name": "Delta Parts Availability", "url": "https://www.homedepot.com", "platform": "other", "column": "review", "snippet": "Massive distribution network through Home Depot Lowes Ferguson and every major plumbing supply house. Parts availability is excellent and immediate — strongest parts infrastructure in the industry due to Masco scale.", "pool": "B", "classification": "score", "classification_reason": "Parts availability assessment — strongest in category.", "topics": ["durability"], "verification_relevance": "relevant"}
+    {
+      "id": "SRC-001",
+      "source_name": "StarCraft Independent Reviews — Delta (March 2026)",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Best Value in mid-priced faucets made or assembled in Asia. Number 1 or 2 brand recommended by professional plumbers across independent polls. DST era faucets represent genuine engineering step forward. However Delta has undergone significant undisclosed manufacturing transformation shifting from primarily US manufacturer to primarily designer and brand assembler outsourcing majority of fabrication to Asian OEMs.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S authority with manufacturing migration finding.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "DST Cartridge — Same Technology as Brizo",
+      "url": "https://www.deltafaucet.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "DST cartridge is same proprietary Delta technology as Brizo. Kerox and Maruwa ceramic discs diamond-coated. Independently tested to 5 million cycles. Assembled at Morgantown Kentucky plastics plant. Plastic cartridge housing passes 500 psi ASME surge test. Available on all -DST suffix models.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S confirmed cartridge technology specification.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Delta Body Material — ZAMAK Shell + PEX Waterway",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Decorative shell of most new Delta faucets is die-cast zinc alloy ZAMAK confirmed by Zinc Die Casting Association teardown study. Water flows through continuous InnoFlex PEX tubing from shutoff supply to spout tip never contacting outer zinc shell. Outer shell is entirely non-pressurized purely decorative. Valve seat and cartridge housing area is brass.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S finding on body material — ZAMAK shell with PEX waterway is significant construction revelation.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Delta Non-DST Cartridge Warning",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Not all Delta models use DST. Classics and Foundations collections use legacy washerless ball valve with rubber seal and spring — fundamentally different lower-durability technology. Some two-handle models use medley of cartridges including Sedal and unidentified sources. Must specify -DST suffix models only for Diamond Seal Technology.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S critical purchasing guidance — non-DST models are significantly inferior.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Delta Warranty Terms",
+      "url": "https://www.deltafaucet.com/warranty",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Lifetime limited warranty covering all parts including cartridge for life of original owner. Replacement cartridges free of charge. OEM replacement cartridge RP50587 retails approximately $30-35. Third-party Danco equivalent approximately $22. Free under warranty. One of easiest cartridge replacements in industry.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Warranty and serviceability terms for buyer context.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Delta Manufacturing Migration",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Shifted from primarily US manufacturer to primarily designer and brand assembler outsourcing majority of fabrication to Asian OEMs. Quality maintained largely through design control and specification enforcement not through owned manufacturing. For high-end residential applications zinc alloy shells plastic waterways and plastic spray wands place Delta firmly below luxury threshold.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S assessment of manufacturing model transformation.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Delta Certifications",
+      "url": "https://www.deltafaucet.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Full UPC cUPC NSF/ANSI 61 NSF 372 ASME A112.18.1 compliance. WaterSense labeled on applicable models.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Full certification confirmed.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Professional Plumber Consensus — Delta",
+      "url": "https://www.reddit.com/r/Plumbing",
+      "platform": "reddit",
+      "column": "review",
+      "snippet": "Consistently ranked number 1 or 2 recommended brand by professional plumbers. Praised for DST reliability ease of cartridge replacement and massive parts availability. Known as the reliable workhorse of the industry.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Professional consensus data from plumber community.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "TerryLove Forum — Delta Long-Term Data",
+      "url": "https://www.terrylove.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "One member documented five cartridge replacements over 10 years on pre-DST Cicero single-handle pull-out faucet. This pattern is characteristic of non-DST era cartridges and should not be generalized to current DST models.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Long-term field data distinguishing pre-DST from DST era performance.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Delta Parts Availability",
+      "url": "https://www.homedepot.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Massive distribution network through Home Depot Lowes Ferguson and every major plumbing supply house. Parts availability is excellent and immediate — strongest parts infrastructure in the industry due to Masco scale.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Parts availability assessment — strongest in category.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    }
   ],
-  "bottom_line": "Delta DST models deliver the same 5-million-cycle cartridge technology as Brizo at mass-market pricing, backed by the strongest parts availability in the industry and consistent number-one professional plumber recommendation. The score reflects good engineering innovation (PEX waterway, DST cartridge) housed in a ZAMAK zinc shell — functional and reliable but not solid construction. One-point dock from 70 to 69 acknowledges the PEX innovation while recognizing zinc shell is not equivalent to solid brass. Critical: must specify -DST suffix models. Non-DST Delta models (Classics, Foundations) use legacy ball valve technology that is significantly inferior. Manufacturing has shifted to majority Asian OEM fabrication.",
+  "bottom_line": "Same DST 5M-cycle tech as Brizo on -DST suffix models. ZAMAK (zinc alloy) shell + PEX waterway instead of solid brass (-1 dock from Brizo). Chrome finish (no PVD). Massive parts availability — every hardware store. Lifetime warranty. Must specify -DST models.",
   "scoring_notes": {
-    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-006", "SRC-007", "SRC-008", "SRC-009", "SRC-010"],
-    "sources_report_only": ["SRC-005"],
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010"
+    ],
+    "sources_report_only": [
+      "SRC-005"
+    ],
     "sources_quarantined": [],
-    "pool_distribution": {"pool_S": 5, "pool_A": 2, "pool_B": 3, "pool_C": 0}
+    "pool_distribution": {
+      "pool_S": 5,
+      "pool_A": 2,
+      "pool_B": 3,
+      "pool_C": 0
+    }
   },
   "product_slug": "delta_mid_range",
-  "product_name": "Delta Mid-Range (DST Models)",
+  "product_name": "Delta Mid-Range (DST models)",
   "manufacturer_slug": "delta",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-30",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": {"total": 10, "score": 9, "report_only": 1, "quarantine": 0},
-  "curation_status": "staged",
-  "curation_date": null,
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": null
+  "platform_disclosure": "Delta Faucet Company (Masco): Delta, Brizo, Peerless share DST cartridge technology. Brizo = brass body + PVD. Delta = ZAMAK + chrome. Peerless = cheapest finish/materials. Same core engineering, different build quality.",
+  "outlook": "Conditional",
+  "outlook_rationale": "Same DST 5M-cycle tech as Brizo on -DST suffix models. ZAMAK (zinc alloy) shell + PEX waterway instead of solid brass (-1 dock from Brizo). Chrome finish (no PVD). Massive parts availability — every hardware store. Lifetime warranty. Must specify -DST models."
 }

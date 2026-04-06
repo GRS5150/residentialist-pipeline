@@ -1,38 +1,229 @@
 {
-  "product": "California Faucets Kitchen and Bath Faucets",
-  "report_date": "2026",
+  "product": "California Faucets",
+  "report_date": "2026-04-06",
   "sources": [
-    {"id": "SRC-001", "source_name": "StarCraft Independent Reviews — California Faucets (April 2025)", "url": "https://www.starcraftcustombuilders.com/sources.faucets.California.Faucets.htm", "platform": "other", "column": "expert", "snippet": "Near-perfect score. Best Value Faucet NA Luxury 2023 and 2025 back-to-back. One of only a handful of 300+ companies that do everything right. Faucets are well-designed and innovative, carefully manufactured using only the best components in an assembly plant that is more craft shop than factory. Customer service outstanding, capable, responsive, California-friendly. 4.6/5 customer service score.", "pool": "S", "classification": "score", "classification_reason": "Pool S authority — StarCraft is primary independent faucet reviewer with 15+ years straw-buyer testing.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-002", "source_name": "StarCraft — Cartridge Identification", "url": "https://www.starcraftcustombuilders.com/sources.faucets.California.Faucets.htm", "platform": "other", "column": "expert", "snippet": "Two-handle faucets use Flühs Drehtechnik GmbH stem cartridges from Germany known for stunningly flawless products. Single-handle faucets use Kerox Kft mixing cartridges from Hungary considered probably the best mixer cartridge made. Both are top-tier European cartridge manufacturers.", "pool": "S", "classification": "score", "classification_reason": "Pool S source identifying specific cartridge manufacturers by handle type.", "topics": ["quality", "performance"], "verification_relevance": "relevant"},
-    {"id": "SRC-003", "source_name": "ICC-ES PMG-1598 Certification", "url": "https://icc-es.org", "platform": "other", "column": "expert", "snippet": "ICC-ES PMG-1598 certification confirms UPC IPC IRC NPC code compliance. NSF/ANSI 61 and NSF 372 certified. ASME A112.18.1 compliant. All certifications current as of September 2024.", "pool": "A", "classification": "score", "classification_reason": "Third-party certification confirming legal compliance and water safety.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-004", "source_name": "Flühs Drehtechnik Product Data", "url": "https://www.fluehs.com", "platform": "other", "column": "expert", "snippet": "Flühs has produced ceramic valve headworks since 1970s with over 550 million Classic headwork units produced. Proprietary diamond-like hard ceramic sealing discs achieving excellent functional reliability and above-average life duration. Global market leader in ceramic headworks. 500,000+ cycle rated.", "pool": "A", "classification": "score", "classification_reason": "Cartridge manufacturer specification data confirming Tier 1 rating.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-005", "source_name": "Kerox Kft Specification Data", "url": "https://www.kerox.hu", "platform": "other", "column": "expert", "snippet": "Kerox surpassed 24 million cartridges annually as of 2017. K-series mixing cartridges rated to 500,000 cycles under ASME A112.18.1 endurance test. Considered by majority of faucet industry to produce probably the best mixer cartridge made. Sells ceramic discs wholesale to other manufacturers including Masco/Delta.", "pool": "A", "classification": "score", "classification_reason": "Cartridge manufacturer specification confirming Tier 2 rating and cycle life.", "topics": ["quality", "durability", "performance"], "verification_relevance": "relevant"},
-    {"id": "SRC-006", "source_name": "California Faucets Warranty Documentation", "url": "https://www.calfaucets.com/warranty", "platform": "other", "column": "expert", "snippet": "Limited lifetime warranty on ceramic disc cartridges. 5 years on diverter thermostatic and pressure balance cartridges. PVD finishes carry lifetime guarantee against defects. Non-transferable. Void for unauthorized-channel purchases. Labor not covered.", "pool": "A", "classification": "report_only", "classification_reason": "Warranty terms for buyer report context.", "topics": ["durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-007", "source_name": "American Bath Group PE Acquisition", "url": "https://www.americanbathgroup.com", "platform": "other", "column": "expert", "snippet": "California Faucets recently acquired by American Bath Group which is PE-backed. This represents a corporate ownership change from family-owned independent to private equity portfolio company.", "pool": "A", "classification": "report_only", "classification_reason": "Corporate risk factor — PE acquisition changes outlook from Strong to Stable.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-008", "source_name": "StarCraft — Pricing and Value", "url": "https://www.starcraftcustombuilders.com/sources.faucets.California.Faucets.htm", "platform": "other", "column": "expert", "snippet": "Pricing generally below the mean for luxury faucets and well below average price of European luxury brands. 20-30 percent below comparable European luxury. Extensive customization at relatively low prices.", "pool": "S", "classification": "score", "classification_reason": "Pool S value assessment.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-009", "source_name": "California Faucets PVD Finish Technology", "url": "https://www.calfaucets.com", "platform": "other", "column": "expert", "snippet": "25+ artisan finishes available. PVD finishes with lifetime guarantee. PVD molecular-level bonding produces hardness 5-10x greater than chrome plating. Scratch tarnish and corrosion resistant.", "pool": "A", "classification": "score", "classification_reason": "Manufacturer finish specification confirming PVD availability with lifetime guarantee.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-010", "source_name": "BBB Rating — California Faucets", "url": "https://www.bbb.org", "platform": "other", "column": "review", "snippet": "A+ BBB rating. Award-winning customer service per StarCraft assessment.", "pool": "B", "classification": "score", "classification_reason": "Third-party customer service validation.", "topics": ["durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-011", "source_name": "California Faucets Body Construction", "url": "https://www.calfaucets.com", "platform": "other", "column": "expert", "snippet": "All-brass construction confirmed. Solid lead-free brass body cast construction. Hand-assembled and hand-finished one at a time as ordered. Not mass produced on assembly line. 180-person Huntington Beach CA facility.", "pool": "A", "classification": "score", "classification_reason": "Manufacturer construction specification.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-012", "source_name": "Social Media Corrosion Complaints", "url": "https://www.reddit.com", "platform": "reddit", "column": "forum", "snippet": "Small number of end-user corrosion complaints exist in unverified social channels. Not corroborated by StarCraft or professional sources.", "pool": "C", "classification": "score", "classification_reason": "Unverified consumer complaints — low weight but documented.", "topics": ["durability"], "verification_relevance": "relevant"}
+    {
+      "id": "SRC-001",
+      "source_name": "StarCraft Independent Reviews — California Faucets (April 2025)",
+      "url": "https://www.starcraftcustombuilders.com/sources.faucets.California.Faucets.htm",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Near-perfect score. Best Value Faucet NA Luxury 2023 and 2025 back-to-back. One of only a handful of 300+ companies that do everything right. Faucets are well-designed and innovative, carefully manufactured using only the best components in an assembly plant that is more craft shop than factory. Customer service outstanding, capable, responsive, California-friendly. 4.6/5 customer service score.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S authority — StarCraft is primary independent faucet reviewer with 15+ years straw-buyer testing.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "StarCraft — Cartridge Identification",
+      "url": "https://www.starcraftcustombuilders.com/sources.faucets.California.Faucets.htm",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Two-handle faucets use Flühs Drehtechnik GmbH stem cartridges from Germany known for stunningly flawless products. Single-handle faucets use Kerox Kft mixing cartridges from Hungary considered probably the best mixer cartridge made. Both are top-tier European cartridge manufacturers.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S source identifying specific cartridge manufacturers by handle type.",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "ICC-ES PMG-1598 Certification",
+      "url": "https://icc-es.org",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "ICC-ES PMG-1598 certification confirms UPC IPC IRC NPC code compliance. NSF/ANSI 61 and NSF 372 certified. ASME A112.18.1 compliant. All certifications current as of September 2024.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Third-party certification confirming legal compliance and water safety.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Flühs Drehtechnik Product Data",
+      "url": "https://www.fluehs.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Flühs has produced ceramic valve headworks since 1970s with over 550 million Classic headwork units produced. Proprietary diamond-like hard ceramic sealing discs achieving excellent functional reliability and above-average life duration. Global market leader in ceramic headworks. 500,000+ cycle rated.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Cartridge manufacturer specification data confirming Tier 1 rating.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Kerox Kft Specification Data",
+      "url": "https://www.kerox.hu",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kerox surpassed 24 million cartridges annually as of 2017. K-series mixing cartridges rated to 500,000 cycles under ASME A112.18.1 endurance test. Considered by majority of faucet industry to produce probably the best mixer cartridge made. Sells ceramic discs wholesale to other manufacturers including Masco/Delta.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Cartridge manufacturer specification confirming Tier 2 rating and cycle life.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "California Faucets Warranty Documentation",
+      "url": "https://www.calfaucets.com/warranty",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Limited lifetime warranty on ceramic disc cartridges. 5 years on diverter thermostatic and pressure balance cartridges. PVD finishes carry lifetime guarantee against defects. Non-transferable. Void for unauthorized-channel purchases. Labor not covered.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Warranty terms for buyer report context.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "American Bath Group PE Acquisition",
+      "url": "https://www.americanbathgroup.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "California Faucets recently acquired by American Bath Group which is PE-backed. This represents a corporate ownership change from family-owned independent to private equity portfolio company.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate risk factor — PE acquisition changes outlook from Strong to Stable.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "StarCraft — Pricing and Value",
+      "url": "https://www.starcraftcustombuilders.com/sources.faucets.California.Faucets.htm",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Pricing generally below the mean for luxury faucets and well below average price of European luxury brands. 20-30 percent below comparable European luxury. Extensive customization at relatively low prices.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S value assessment.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "California Faucets PVD Finish Technology",
+      "url": "https://www.calfaucets.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "25+ artisan finishes available. PVD finishes with lifetime guarantee. PVD molecular-level bonding produces hardness 5-10x greater than chrome plating. Scratch tarnish and corrosion resistant.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer finish specification confirming PVD availability with lifetime guarantee.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "BBB Rating — California Faucets",
+      "url": "https://www.bbb.org",
+      "platform": "other",
+      "column": "review",
+      "snippet": "A+ BBB rating. Award-winning customer service per StarCraft assessment.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Third-party customer service validation.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "California Faucets Body Construction",
+      "url": "https://www.calfaucets.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "All-brass construction confirmed. Solid lead-free brass body cast construction. Hand-assembled and hand-finished one at a time as ordered. Not mass produced on assembly line. 180-person Huntington Beach CA facility.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Manufacturer construction specification.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Social Media Corrosion Complaints",
+      "url": "https://www.reddit.com",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Small number of end-user corrosion complaints exist in unverified social channels. Not corroborated by StarCraft or professional sources.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Unverified consumer complaints — low weight but documented.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    }
   ],
-  "bottom_line": "California Faucets earns the top calibration position through the strongest combined cartridge sourcing in the category (Flühs two-handle plus Kerox single-handle — both Tier 1-2), PVD finish technology with lifetime guarantee, near-perfect StarCraft scores in consecutive reviews, and outstanding customer service. The PE acquisition by American Bath Group introduces a corporate risk factor not present in previous assessments. Assembly model with globally sourced components including some from China. Non-transferable warranty void for unauthorized purchases.",
+  "bottom_line": "Flühs (Germany) + Kerox (Hungary) cartridges — best combined cartridge sourcing. PVD lifetime finish. Solid brass cast body. US-made Huntington Beach CA. StarCraft near-perfect rating. Lifetime PVD warranty. Parts excellent. The professional benchmark.",
   "scoring_notes": {
-    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005", "SRC-008", "SRC-009", "SRC-010", "SRC-011", "SRC-012"],
-    "sources_report_only": ["SRC-006", "SRC-007"],
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012"
+    ],
+    "sources_report_only": [
+      "SRC-006",
+      "SRC-007"
+    ],
     "sources_quarantined": [],
-    "pool_distribution": {"pool_S": 3, "pool_A": 6, "pool_B": 1, "pool_C": 1}
+    "pool_distribution": {
+      "pool_S": 3,
+      "pool_A": 7,
+      "pool_B": 1,
+      "pool_C": 1
+    }
   },
   "product_slug": "california_faucets",
   "product_name": "California Faucets",
-  "manufacturer_slug": "california_faucets",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-30",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": {"total": 12, "score": 10, "report_only": 2, "quarantine": 0},
-  "curation_status": "staged",
-  "curation_date": null,
+  "manufacturer_slug": "california",
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": null
+  "platform_disclosure": null,
+  "outlook": "Strong",
+  "outlook_rationale": "Flühs (Germany) + Kerox (Hungary) cartridges — best combined cartridge sourcing. PVD lifetime finish. Solid brass cast body. US-made Huntington Beach CA. StarCraft near-perfect rating. Lifetime PVD warranty. Parts excellent. The professional benchmark."
 }

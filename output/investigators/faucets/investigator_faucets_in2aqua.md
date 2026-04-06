@@ -4,35 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 95 | 0.45 | Seven consecutive years as "Best Value European Luxury" with components rated among the best available by StarCraft's 19-year review history [SRC-001] |
-| Durability | 98 | 0.45 | Revolutionary PVD+ cartridge with diamond-like carbon coating tested to 4 million cycles with no wear, equivalent to 560 years of use [SRC-002] |
-| Performance | 85 | 0.1 | All bathroom sink faucets are WaterSense listed but limited finish selection compared to premium competitors [SRC-008, SRC-009] |
-| Material Safety | Excellent | report only | Solid brass throughout water-contact zones with low-lead alloy meeting federal 0.25% requirements [SRC-005] |
+| Quality | 95 | 0.45 | Exceptional engineering with proprietary all-brass M-Lock collar and solid brass construction throughout water-contact zones [SRC-004, SRC-005] |
+| Durability | 98 | 0.45 | Industry-leading Kerox PVD+ cartridge tested to 4 million cycles with diamond-like carbon coating eliminating lubricant dependency [SRC-002] |
+| Performance | 85 | 0.1 | WaterSense compliant with reliable operation, though limited finish options compared to competitors [SRC-008, SRC-009] |
+| Material Safety | Excellent | report only | Low-lead brass alloy meeting 0.25% federal requirements with ZAMAK only in non-wetted components [SRC-005] |
 
 ### Company Background
-In2aqua is a small-volume assembler and specifier of luxury faucets headquartered in Holzgerlingen, Germany, rather than a traditional manufacturer [SRC-007]. The company operates as a luxury brand curator, sourcing components from premium European suppliers including Kerox cartridges and Flühs Drehtechnik for casting and machining [SRC-003]. Launched in North America in 2014, the company maintains parts inventory at a Livermore, California logistics center for warranty support [SRC-006, SRC-010]. This is a genuine luxury European brand, not a repositioned lower-tier manufacturer, though its assembler business model means it relies on supplier relationships rather than in-house manufacturing capabilities.
+In2aqua is a small-volume luxury faucet assembler and specifier headquartered in Holzgerlingen, Germany, not a traditional manufacturer [SRC-007]. The company launched in North America in 2014 and operates as a boutique brand sourcing premium components from established German suppliers — Kerox provides cartridges, while Flühs Drehtechnik handles stem cartridges and performs much of the brass casting and machining [SRC-003]. Their shower products are sourced from Nikles Inter AG in Switzerland, indicating a curated approach to luxury bathroom fixtures rather than in-house manufacturing [SRC-007]. The company maintains a logistics center in Livermore, California for North American parts distribution [SRC-006].
 
 ### Strengths
-- **Revolutionary Cartridge Technology**: PVD+ cartridges feature tetrahedral amorphous carbon diamond-like coating that eliminates lubricant dependency—the primary failure mode in standard ceramic cartridges—with lab testing showing no wear after 4 million cycles [SRC-002]
-- **Industry-Leading Warranty**: GoPro lifetime warranty covers entire faucet assembly including cartridges with no cartridge-specific exclusions, backed by same-day parts dispatch [SRC-001, SRC-006]
+- **Industry-Leading Cartridge Technology**: Kerox PVD+ cartridge achieved 4 million cycles in independent testing with tetrahedral amorphous carbon coating applied at 2 microns, equivalent to 560 years of use [SRC-002]
+- **Superior Warranty Coverage**: GoPro lifetime warranty covers entire assembly including cartridge with same-day parts dispatch from California logistics center [SRC-006]
 
 ### Deficiencies
-- **Limited Manufacturing Control**: Small-volume assembler/specifier business model rather than traditional manufacturer, creating dependency on supplier relationships for quality control [SRC-007]
-- **Narrow Finish Selection**: No PVD finish technology with fewer finish options than competitors like California Faucets or Waterstone [SRC-008]
+- **Limited Market Validation**: Sparse independent teardown data and limited real-world field feedback given 2014 North American market entry [SRC-010]
+- **Restricted Finish Selection**: No PVD finish technology with narrower options than California Faucets or Waterstone [SRC-008]
 
 ### What You Should Know
-In2aqua represents a fascinating approach to luxury faucets—a German brand that functions more like a high-end curator than a traditional manufacturer. The company's genius lies in sourcing the best available components from European specialists and integrating them under their quality standards. The PVD+ cartridge technology is genuinely revolutionary, with diamond-like carbon coating that should outlast the building itself.
+In2aqua represents German engineering precision applied to luxury faucets, with StarCraft Independent Reviews recognizing them as "Best Value in European Luxury Faucets" continuously since 2016 and rating their components among the best available in 19 years of reviewing [SRC-001]. The brand's approach centers on sourcing premium components from established German suppliers rather than manufacturing in-house, resulting in exceptional technical specifications like the Kerox PVD+ cartridge that tested to 4 million cycles without visible wear.
 
-However, this assembler model means you're buying engineering expertise and supplier relationships rather than manufacturing heritage. The limited North American field data since 2014 launch means long-term performance claims rest heavily on laboratory testing rather than decades of real-world validation. The narrow finish selection may limit design flexibility compared to other luxury brands.
+However, as a relatively new entrant to North America launching in 2014, in2aqua lacks the extensive field validation of established domestic brands. The company's small-volume, boutique approach means fewer finish options and potentially less widespread parts availability compared to major U.S. manufacturers, though their lifetime warranty and California logistics center address service concerns.
 
 ### Platform Disclosure
-Two-handle and widespread models use different cartridge technology—Flühs Drehtechnik stem cartridges rather than the flagship PVD+ mixing cartridges found in single-handle models. Flühs also provides casting and machining for faucet bodies [SRC-003].
+In2aqua sources key components from German suppliers: Kerox provides PVD+ cartridges for single-handle models, while Flühs Drehtechnik supplies stem cartridges for two-handle faucets and performs brass casting/machining [SRC-003].
 
 ### Corporate Outlook
-Stable — Established luxury brand with consistent recognition and comprehensive warranty support infrastructure.
+Strong — Kerox PVD+ cartridge at 4M cycles — highest documented cycle rating in residential. Best warranty per StarCraft analysis. Solid brass construction. German-engineered. Lifetime warranty. Parts good but not as widely stocked as US brands.
 
 ### Repair Economics
-Primary advantage is cartridge longevity eliminating most common failure modes. Replacement cartridges available at $70 (25mm) and $154 (35mm kitchen) with same-day warranty dispatch, making repair economics favorable given the lifetime warranty coverage [SRC-006].
+Cartridge failure is the most common issue, with replacement cartridges available at $70 for 25mm and $154 for 35mm kitchen models, though the PVD+ coating eliminates lubricant erosion — the primary failure mode in standard ceramic cartridges [SRC-006, SRC-002].
 
 ### Score Justification
-The 92/100 score reflects breakthrough cartridge technology and industry-leading warranty support that justify Tier 1 status, with minor deductions for assembler business model limitations and restricted finish options. The PVD+ innovation fundamentally changes faucet durability expectations.
+The 92/100 score reflects exceptional durability engineering with the industry's highest documented cartridge cycle rating, premium solid brass construction, and comprehensive lifetime warranty coverage. Minor deductions stem from limited finish options and relatively recent market presence reducing long-term field validation.

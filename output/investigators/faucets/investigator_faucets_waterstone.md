@@ -4,35 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 9.5 | 0.45 | Premium body materials (316 marine-grade stainless steel and lead-free Eco-Brass) with monoblock construction from solid bar stock eliminates casting defects [SRC-004] |
-| Durability | 8.7 | 0.45 | High-endurance Geann ceramic cartridges (500,000-600,000 cycles) offset by non-PVD finishes that Waterstone itself describes as "semi-durable" [SRC-003, SRC-005] |
-| Performance | 9.0 | 0.1 | Metal spray wands exceed category standard where most competitors use plastic construction [SRC-011] |
-| Material Safety | Excellent | report only | NSF/ANSI 61 and 372 certified with lead-free Eco-Brass construction [SRC-004, SRC-010] |
+| Quality | 95 | 0.45 | Exceptional 316 stainless steel bar stock construction with monoblock design eliminates casting defects entirely [SRC-004] |
+| Durability | 88 | 0.45 | Strong cartridge performance at 500K cycles but compromised by non-PVD finishes that deteriorate within 2 years [SRC-003, SRC-007] |
+| Performance | 90 | 0.1 | Superior metal spray wand construction exceeds category standards where competitors use plastic [SRC-011] |
+| Material Safety | Excellent | report only | NSF 61/372 certified lead-free Eco-Brass and 316 stainless steel materials [SRC-004, SRC-010] |
 
 ### Company Background
-Waterstone is a true manufacturer founded in 1999 by Chris Kuran, a Naval Academy graduate and Marine Corps veteran, operating from their Murrieta, California facility with 140+ employees [SRC-008]. The company remains privately owned with no PE acquisition or outside ownership, qualifying for FTC "Made in USA" labeling as they design, engineer, machine, finish, polish, and assemble at their single domestic facility [SRC-008]. Only imported components are Geann ceramic cartridges from Taiwan and Neoperl aerators from Switzerland, making this one of the few remaining independent American faucet manufacturers [SRC-008].
+Waterstone is a true manufacturer founded in 1999 by Chris Kuran, a Naval Academy graduate and Marine Corps veteran, operating from Murrieta, California with 140+ employees [SRC-008]. The company designs, engineers, machines, finishes, polishes, and assembles all products in-house, qualifying for FTC Made in USA labeling with only imported ceramic cartridges from Taiwan and aerators from Switzerland [SRC-008]. Waterstone remains independently owned with no private equity ownership or outside investment, representing one of the few remaining American-made luxury faucet manufacturers [SRC-008].
 
 ### Strengths
-- **Premium Construction Materials**: Valve bodies machined from solid 316 marine-grade stainless steel or lead-free Eco-Brass bar stock in monoblock construction, eliminating casting defects and voids [SRC-004]
-- **Exceptional Customer Service**: Customer service score of 4.6 out of 5.0, with any score over 4.5 considered exceptional, and remarkably few complaints relating to mechanical failures [SRC-001]
+- **Premium Body Construction**: 316 marine-grade stainless steel machined from solid bar stock using monoblock construction eliminates casting defects and voids entirely [SRC-004]
+- **Exceptional Service Record**: Customer service scores 4.6 out of 5.0 with remarkably few complaints, with mechanical failures virtually non-existent [SRC-001]
 
 ### Deficiencies
-- **Inferior Finish Technology**: Complete absence of PVD (Physical Vapor Deposition) technology, relying instead on powder-coat or lacquer finishes that are 10-20x less scratch-resistant than competitors like California Faucets [SRC-005]
-- **Documented Finish Failures**: Finish deterioration is the single most common failure mode, with field reports of deterioration within two years and premium finishes tarnishing on day one [SRC-007]
+- **Inferior Finish Technology**: No PVD finish capability creates material competitive disadvantage, with powder-coat finishes 10-20x less scratch-resistant than PVD alternatives [SRC-005]
+- **Documented Finish Failures**: Field data shows finish deterioration as primary failure mode, with documented cases of $4000+ purchases showing tarnishing on day one [SRC-007]
 
 ### What You Should Know
-Waterstone represents one of the last true American faucet manufacturers, machining premium body materials at their California facility rather than assembling imported components. The mechanical construction is exceptional — 316 marine-grade stainless steel bodies with proven Geann ceramic cartridges rated for 500,000+ cycles, backed by a transferable lifetime functional warranty that follows the faucet through ownership changes.
+Waterstone represents the pinnacle of American faucet manufacturing, using 316 marine-grade stainless steel bar stock — the finest body material available in residential faucets. The company's monoblock machining process eliminates the casting defects and porosity issues that plague competitors, while their Geann ceramic cartridges provide solid 500,000-cycle performance with comprehensive international certifications.
 
-However, buyers should understand that finish durability is a significant weakness. Waterstone acknowledges their powder-coat finishes are "semi-durable" and field complaints consistently cite finish deterioration as the primary failure mode. Only chrome and stainless steel carry lifetime finish warranties — all 29+ colored finishes are limited to 7 years, reflecting the company's own assessment of durability limitations.
+The critical limitation lies in finish technology. Waterstone's powder-coat and lacquer finishes cannot match the durability of PVD coatings used by competitors like California Faucets, resulting in documented finish deterioration within two years of installation. This creates a paradox where you get the most durable internal construction paired with the least durable external finishes. For buyers prioritizing long-term performance, stick with chrome or stainless steel finishes that carry lifetime warranties.
 
 ### Platform Disclosure
-None applicable — genuine manufacturer with proprietary designs.
+Waterstone uses Geann Industrial ceramic cartridges manufactured in Taiwan, shared with various other faucet brands, rather than proprietary cartridge technology [SRC-002].
 
 ### Corporate Outlook
-Not specified
+Strong — 316 stainless steel bar stock body represents best body material in residential faucets from true manufacturer with machined rather than cast construction in Murrieta, California. However, Geann cartridges at 500K cycles underperform Flühs/Kerox alternatives, while lack of PVD finish technology creates competitive disadvantage versus powder-coat alternatives.
 
 ### Repair Economics
-Finish deterioration is the most common failure, addressed through 7-year warranties on colored finishes (lifetime on chrome/stainless). Mechanical failures are rare, with lifetime functional warranty covering parts at no cost, though labor is excluded and replacement parts are only available through Waterstone direct [SRC-006, SRC-009, SRC-012].
+Finish deterioration represents the primary failure mode, with replacement parts available only through Waterstone direct rather than third-party distributors [SRC-007, SRC-012]. Lifetime functional warranty covers cartridge failures with parts provided at no cost, though labor exclusions apply [SRC-009].
 
 ### Score Justification
-The 91/100 Tier 1 score reflects exceptional mechanical construction and materials quality, offset by acknowledged finish technology deficiencies. Premium body materials and domestic manufacturing drive quality leadership, while finish durability limitations prevent perfect scores across all axes.
+The 91 score reflects exceptional body construction quality pulling the rating upward, while finish technology limitations and moderate cartridge specifications create offsetting weaknesses. Superior manufacturing standards justify Tier 1 placement despite finish durability concerns.

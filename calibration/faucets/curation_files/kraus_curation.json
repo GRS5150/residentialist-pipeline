@@ -1,36 +1,193 @@
 {
-  "product": "Kraus USA Kitchen Faucets",
-  "report_date": "2026",
+  "product": "Kraus",
+  "report_date": "2026-04-06",
   "sources": [
-    {"id": "SRC-001", "source_name": "StarCraft Independent Reviews — Kraus", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "We cannot guarantee that every faucet contains a good-quality ceramic cartridge. If customer service cannot identify the cartridge consider another faucet. Five-year warranty on cartridge is not nearly adequate. Pure importer and marketeer not a manufacturer sourcing from three to four identified Chinese factories.", "pool": "S", "classification": "score", "classification_reason": "Pool S authority with explicit cartridge transparency and warranty warnings.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-002", "source_name": "StarCraft — Kraus Cartridge Teardown Data", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "Independent teardown identified multiple cartridge suppliers across catalog: Kerox (Hungary world-class) Sedal (Spanish-designed Chinese factories) Kuching International (China) Hain-Yo (Taiwan OEM). Two-handle models use Flühs (Germany) or Guangdong Hent Technology (China). Kraus does not disclose which cartridge is in which faucet model.", "pool": "S", "classification": "score", "classification_reason": "Pool S teardown data revealing inconsistent cartridge sourcing across catalog.", "topics": ["quality", "performance"], "verification_relevance": "relevant"},
-    {"id": "SRC-003", "source_name": "Kraus Warranty Terms", "url": "https://www.kraususa.com/warranty", "platform": "other", "column": "expert", "snippet": "Cartridge warranty 5 years only — significantly below lifetime warranty from Moen Delta Grohe and others. Spray assemblies and hoses 1 year only. Handles and base plates carry NO warranty at all. Parts availability guaranteed 5 years only — long-term serviceability risk. Limited lifetime headline warranty is misleading given component exclusions.", "pool": "A", "classification": "score", "classification_reason": "Warranty structure is the most significant professional objection — component exclusions gut the headline warranty.", "topics": ["durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-004", "source_name": "Kraus Body Material", "url": "https://www.kraususa.com", "platform": "other", "column": "expert", "snippet": "Kitchen faucets generally constructed of solid brass body confirmed across spec sheets. Lead-free brass compliant with federal and state requirements. Not independently teardown-verified beyond StarCraft examination. Weight and construction quality described as above-average for Chinese-origin product.", "pool": "A", "classification": "score", "classification_reason": "Body material specification — claimed brass, generally confirmed.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-005", "source_name": "Kraus Business Model — Marketeer Classification", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "Kraus USA is a pure importer and marketeer not a manufacturer. Sources from three to four identified Chinese factories depending on product line. Does not design engineer or manufacture. Has no physical factory. Faucets sit in above-average to good tier of Chinese-origin product — meaningfully better than commodity Amazon flooding but below domestic or premium European.", "pool": "S", "classification": "score", "classification_reason": "Pool S business model classification — marketeer with no manufacturing accountability.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-006", "source_name": "Kraus Certifications", "url": "https://www.kraususa.com", "platform": "other", "column": "expert", "snippet": "UPC cUPC certified confirmed through IAPMO listing. NSF/ANSI 61 and NSF 372 certified. ASME A112.18.1 compliant. Legally installable in US and Canada. Passes certification gate — this is not contraband product.", "pool": "A", "classification": "score", "classification_reason": "Certification gate check confirmed — legal product.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-007", "source_name": "Kraus Replacement Parts Availability", "url": "https://www.kraususa.com", "platform": "other", "column": "expert", "snippet": "Cartridges user-replaceable with basic tools. Third-party Kerox K-35 replacement retails approximately $29.95. Hain-Yo cartridges available from aftermarket supply. However Kraus guarantees parts availability for 5 years only — after that no guarantee of replacement parts. Marketeer has no manufacturing control over component supply chain.", "pool": "A", "classification": "score", "classification_reason": "Parts availability with 5-year limitation is significant long-term risk.", "topics": ["durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-008", "source_name": "Kraus Finish Options", "url": "https://www.kraususa.com", "platform": "other", "column": "expert", "snippet": "Chrome and stainless steel look finishes standard. Spot-free stainless steel finish available on some models — marketed as fingerprint-resistant. No PVD finish technology.", "pool": "A", "classification": "score", "classification_reason": "Finish specification — no PVD, limited options.", "topics": ["quality"], "verification_relevance": "relevant"},
-    {"id": "SRC-009", "source_name": "Reddit r/Plumbing — Kraus Professional Opinion", "url": "https://www.reddit.com/r/Plumbing", "platform": "reddit", "column": "forum", "snippet": "Mixed professional opinion. Some plumbers consider Kraus functional and acceptable for budget applications. Others flag long-term reliability concerns and parts availability risk. Generally positioned as step above Amazon commodity but step below established brands.", "pool": "C", "classification": "score", "classification_reason": "Professional forum consensus — mixed but consistent with mid-low positioning.", "topics": ["quality", "durability"], "verification_relevance": "relevant"},
-    {"id": "SRC-010", "source_name": "Kraus Factory Identification", "url": "https://www.starcraftcustombuilders.com", "platform": "other", "column": "expert", "snippet": "Sourcing from 3-4 Chinese factories. Specific factory names and locations not disclosed by Kraus. Port Washington NY headquarters is office only — no manufacturing facility.", "pool": "S", "classification": "score", "classification_reason": "Pool S finding on source traceability — unknown factories.", "topics": ["quality"], "verification_relevance": "relevant"}
+    {
+      "id": "SRC-001",
+      "source_name": "StarCraft Independent Reviews — Kraus",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "We cannot guarantee that every faucet contains a good-quality ceramic cartridge. If customer service cannot identify the cartridge consider another faucet. Five-year warranty on cartridge is not nearly adequate. Pure importer and marketeer not a manufacturer sourcing from three to four identified Chinese factories.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S authority with explicit cartridge transparency and warranty warnings.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "StarCraft — Kraus Cartridge Teardown Data",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Independent teardown identified multiple cartridge suppliers across catalog: Kerox (Hungary world-class) Sedal (Spanish-designed Chinese factories) Kuching International (China) Hain-Yo (Taiwan OEM). Two-handle models use Flühs (Germany) or Guangdong Hent Technology (China). Kraus does not disclose which cartridge is in which faucet model.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S teardown data revealing inconsistent cartridge sourcing across catalog.",
+      "topics": [
+        "quality",
+        "performance"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Kraus Warranty Terms",
+      "url": "https://www.kraususa.com/warranty",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Cartridge warranty 5 years only — significantly below lifetime warranty from Moen Delta Grohe and others. Spray assemblies and hoses 1 year only. Handles and base plates carry NO warranty at all. Parts availability guaranteed 5 years only — long-term serviceability risk. Limited lifetime headline warranty is misleading given component exclusions.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Warranty structure is the most significant professional objection — component exclusions gut the headline warranty.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Kraus Body Material",
+      "url": "https://www.kraususa.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kitchen faucets generally constructed of solid brass body confirmed across spec sheets. Lead-free brass compliant with federal and state requirements. Not independently teardown-verified beyond StarCraft examination. Weight and construction quality described as above-average for Chinese-origin product.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Body material specification — claimed brass, generally confirmed.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Kraus Business Model — Marketeer Classification",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Kraus USA is a pure importer and marketeer not a manufacturer. Sources from three to four identified Chinese factories depending on product line. Does not design engineer or manufacture. Has no physical factory. Faucets sit in above-average to good tier of Chinese-origin product — meaningfully better than commodity Amazon flooding but below domestic or premium European.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S business model classification — marketeer with no manufacturing accountability.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Kraus Certifications",
+      "url": "https://www.kraususa.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "UPC cUPC certified confirmed through IAPMO listing. NSF/ANSI 61 and NSF 372 certified. ASME A112.18.1 compliant. Legally installable in US and Canada. Passes certification gate — this is not contraband product.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Certification gate check confirmed — legal product.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Kraus Replacement Parts Availability",
+      "url": "https://www.kraususa.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Cartridges user-replaceable with basic tools. Third-party Kerox K-35 replacement retails approximately $29.95. Hain-Yo cartridges available from aftermarket supply. However Kraus guarantees parts availability for 5 years only — after that no guarantee of replacement parts. Marketeer has no manufacturing control over component supply chain.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Parts availability with 5-year limitation is significant long-term risk.",
+      "topics": [
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Kraus Finish Options",
+      "url": "https://www.kraususa.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Chrome and stainless steel look finishes standard. Spot-free stainless steel finish available on some models — marketed as fingerprint-resistant. No PVD finish technology.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Finish specification — no PVD, limited options.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Reddit r/Plumbing — Kraus Professional Opinion",
+      "url": "https://www.reddit.com/r/Plumbing",
+      "platform": "reddit",
+      "column": "forum",
+      "snippet": "Mixed professional opinion. Some plumbers consider Kraus functional and acceptable for budget applications. Others flag long-term reliability concerns and parts availability risk. Generally positioned as step above Amazon commodity but step below established brands.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Professional forum consensus — mixed but consistent with mid-low positioning.",
+      "topics": [
+        "quality",
+        "durability"
+      ],
+      "verification_relevance": "relevant"
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Kraus Factory Identification",
+      "url": "https://www.starcraftcustombuilders.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Sourcing from 3-4 Chinese factories. Specific factory names and locations not disclosed by Kraus. Port Washington NY headquarters is office only — no manufacturing facility.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Pool S finding on source traceability — unknown factories.",
+      "topics": [
+        "quality"
+      ],
+      "verification_relevance": "relevant"
+    }
   ],
-  "bottom_line": "Kraus is a certified legal faucet brand that sits at the bottom of the legitimate market. Deep dive confirmed marketeer business model sourcing from 3-4 unidentified Chinese factories. The most significant finding is the cartridge lottery — some models contain world-class Kerox or Flühs cartridges while others contain lower-tier Sedal Kuching or Hain-Yo, and Kraus will not disclose which is in which faucet. Five-year cartridge warranty and 5-year parts availability guarantee are the most objectionable specs. Above commodity Amazon contraband but below any brand with manufacturing accountability.",
+  "bottom_line": "Marketeer model — does not manufacture. Claims solid brass but unknown cartridge supplier (mixed/generic Chinese). Chrome-only finish. Source traceability unknown. Limited parts availability. StarCraft rates low. Plumbers and pros warn about Kingston Brass/Kraus tier — premium-looking but ZAMAK/plastic inside. Lifetime warranty on paper but execution questioned.",
   "scoring_notes": {
-    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005", "SRC-006", "SRC-007", "SRC-008", "SRC-009", "SRC-010"],
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010"
+    ],
     "sources_report_only": [],
     "sources_quarantined": [],
-    "pool_distribution": {"pool_S": 4, "pool_A": 4, "pool_B": 0, "pool_C": 1}
+    "pool_distribution": {
+      "pool_S": 4,
+      "pool_A": 5,
+      "pool_B": 0,
+      "pool_C": 1
+    }
   },
   "product_slug": "kraus",
   "product_name": "Kraus",
   "manufacturer_slug": "kraus",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-30",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": {"total": 10, "score": 10, "report_only": 0, "quarantine": 0},
-  "curation_status": "staged",
-  "curation_date": null,
+  "deep_dive_date": "2026-04-06",
+  "structuring_model": "auto_generated_v2",
+  "curation_status": "curated",
+  "curation_date": "2026-04-06",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": null
+  "platform_disclosure": null,
+  "outlook": "Negative",
+  "outlook_rationale": "Marketeer model — does not manufacture. Claims solid brass but unknown cartridge supplier (mixed/generic Chinese). Chrome-only finish. Source traceability unknown. Limited parts availability. StarCraft rates low. Plumbers and pros warn about Kingston Brass/Kraus tier — premium-looking but ZAMAK/plastic inside. Lifetime warranty on paper but execution questioned."
 }

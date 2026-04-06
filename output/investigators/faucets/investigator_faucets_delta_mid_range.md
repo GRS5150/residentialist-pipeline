@@ -4,35 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 64 | 0.45 | Engineering innovation with PEX waterway and DST cartridge undermined by ZAMAK zinc shell construction that places it "firmly below luxury threshold" [SRC-006] |
-| Durability | 74 | 0.45 | Excellent long-term reliability driven by DST cartridge tested to 5 million cycles and "strongest parts infrastructure in the industry" [SRC-002, SRC-010] |
-| Performance | 70 | 0.1 | Solid functionality earning consistent "number 1 or 2 recommended brand by professional plumbers" recognition [SRC-008] |
-| Material Safety | Good | report only | Full regulatory compliance with UPC, cUPC, NSF/ANSI 61, NSF 372, and WaterSense certifications [SRC-007] |
+| Quality | 67 | 0.45 | ZAMAK zinc alloy shell with PEX waterways represents cost-engineered construction below luxury threshold despite proper engineering [SRC-003, SRC-006] |
+| Durability | 72 | 0.45 | DST cartridge technology independently tested to 5 million cycles with diamond-coated ceramic discs provides genuine engineering advancement [SRC-002] |
+| Performance | 68 | 0.1 | Professional plumbers consistently rank Delta #1 or #2 for reliability and serviceability in independent polls [SRC-001, SRC-008] |
+| Material Safety | Good | report only | Full compliance with NSF/ANSI 61, NSF 372, and water contact safety standards [SRC-007] |
 
 ### Company Background
-Delta is owned by Masco Corporation, a publicly-traded company founded in 1929. The brand has undergone "significant undisclosed manufacturing transformation shifting from primarily US manufacturer to primarily designer and brand assembler outsourcing majority of fabrication to Asian OEMs" [SRC-001]. DST cartridges are still assembled at their Morgantown, Kentucky plastics plant [SRC-002]. Delta maintains "quality largely through design control and specification enforcement not through owned manufacturing" [SRC-006]. Masco's scale provides the "strongest parts infrastructure in the industry" through massive distribution networks [SRC-010].
+Delta Faucet Company is owned by Masco Corporation, a publicly-traded building products conglomerate. Founded in 1954, Delta has undergone significant transformation from a primarily US manufacturer to a designer and brand assembler outsourcing majority fabrication to Asian OEMs [SRC-001, SRC-006]. The company maintains quality through design control and specification enforcement rather than owned manufacturing. Delta operates under Masco alongside Brizo and Peerless brands, sharing core DST cartridge technology but differentiating through materials and finishes. The DST cartridge is assembled at their Morgantown, Kentucky plastics plant [SRC-002].
 
 ### Strengths
-- **DST Cartridge Technology**: Uses the same proprietary technology as premium Brizo brand with "Kerox and Maruwa ceramic discs diamond-coated" and "independently tested to 5 million cycles" [SRC-002]
-- **Parts Availability**: "Massive distribution network through Home Depot Lowes Ferguson and every major plumbing supply house" with "strongest parts infrastructure in the industry due to Masco scale" [SRC-010]
+- **Industry-Leading Parts Infrastructure**: Massive distribution network through Home Depot, Lowes, Ferguson and every major plumbing supply house provides immediate parts availability — the strongest parts infrastructure in the industry [SRC-010]
+- **Proven DST Cartridge Technology**: Same 5-million cycle diamond-coated ceramic disc technology as premium Brizo brand, representing a genuine engineering step forward [SRC-002]
 
 ### Deficiencies
-- **Construction Materials**: "Decorative shell of most new Delta faucets is die-cast zinc alloy ZAMAK" which places Delta "firmly below luxury threshold" despite functional design [SRC-003, SRC-006]
-- **Model Confusion**: "Not all Delta models use DST" with Classics and Foundations collections using "legacy washerless ball valve with rubber seal and spring — fundamentally different lower-durability technology" [SRC-004]
+- **Cost-Engineered Construction**: ZAMAK zinc alloy shells and PEX waterways place Delta firmly below luxury threshold despite sound engineering [SRC-003, SRC-006]
+- **Model Specification Critical**: Not all Delta models use DST technology — Classics and Foundations collections use legacy ball valve technology, requiring careful specification of -DST suffix models only [SRC-004]
 
 ### What You Should Know
-Delta DST models represent excellent value engineering — you get the same 5-million-cycle cartridge technology found in premium Brizo faucets at mass-market pricing. The innovative design routes water through PEX tubing that never contacts the outer zinc shell, making the decorative ZAMAK construction purely cosmetic rather than structural. Professional plumbers consistently rank Delta as their top recommendation due to reliable performance and unmatched parts availability.
+Delta represents the sweet spot for homeowners seeking proven reliability without premium pricing. The DST cartridge technology is identical to what's used in luxury Brizo faucets, but Delta uses cost-engineered materials like zinc alloy shells and PEX waterways instead of solid brass construction. This approach delivers the same functional performance at a lower price point.
 
-However, buyer beware: you must specifically choose models with the "-DST suffix" to get this advanced technology. Delta's Classics and Foundations collections still use inferior legacy ball valve systems. The brand has also shifted manufacturing primarily to Asian OEMs while maintaining design control from the US.
+Professional plumbers consistently rank Delta among their top two recommended brands due to the reliability of DST models and the unmatched ease of finding parts. However, you must specify -DST suffix models to get the advanced cartridge technology — older collections still use inferior ball valve systems. The lifetime warranty covers all parts including cartridges, making long-term ownership economics favorable.
 
 ### Platform Disclosure
-DST cartridge technology is shared between Delta and premium Brizo brands, both owned by Masco Corporation [SRC-002].
+Delta Faucet Company (Masco): Delta, Brizo, Peerless share DST cartridge technology. Brizo = brass body + PVD. Delta = ZAMAK + chrome. Peerless = cheapest finish/materials. Same core engineering, different build quality.
 
 ### Corporate Outlook
-Not specified
+Conditional — Same DST 5M-cycle tech as Brizo on -DST suffix models. ZAMAK (zinc alloy) shell + PEX waterway instead of solid brass (-1 dock from Brizo). Chrome finish (no PVD). Massive parts availability — every hardware store. Lifetime warranty. Must specify -DST models.
 
 ### Repair Economics
-Most common maintenance involves cartridge replacement after millions of cycles. OEM replacement cartridge RP50587 retails for $30-35, with third-party equivalents around $22, though replacements are free under lifetime warranty. Delta offers "one of easiest cartridge replacements in industry" [SRC-005].
+Most common failure is cartridge wear after extended use. OEM replacement cartridge RP50587 retails $30-35, with third-party Danco equivalent at $22, but free under lifetime warranty. Easiest cartridge replacement in the industry makes repair cost-justifiable [SRC-005].
 
 ### Score Justification
-The 69 score reflects genuine engineering innovation (DST cartridge, PEX waterway) housed in cost-conscious ZAMAK construction. Strong durability from proven cartridge technology and excellent parts support offset the non-premium materials, delivering solid mid-tier performance.
+The 69 score reflects Delta's position as a reliable workhorse with proven technology but cost-engineered materials. Strong durability from DST cartridge technology and excellent parts availability offset the quality limitations of zinc construction.
