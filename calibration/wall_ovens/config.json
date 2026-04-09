@@ -2,21 +2,17 @@
   "category": "wall_ovens",
   "version": "1.0",
   "created_date": "2026-04-01",
-
   "composite_method": "geometric_mean",
   "formula_description": "geoMean(q, d, p) = (q/10)^W_q * (d/10)^W_d * (p/10)^W_p * 10, where axis scores are 0-10 scale. Display score = Math.round(geoMean * 10). Minimum axis input clamped to 0.01 before normalization.",
-
   "weights": {
-    "quality": 0.30,
+    "quality": 0.3,
     "durability": 0.35,
     "performance": 0.35
   },
-
   "axis_stretch": {
     "enabled": false,
     "notes": "No axis stretch in v1.0. Enable when 10+ products scored to compute real category ranges."
   },
-
   "calibration_products": [
     {
       "name": "Miele H7000 Series",
@@ -66,5 +62,31 @@
       "axis_scores_tbd": true,
       "notes": "Tier 4 anchor. Volume brand floor for built-in wall ovens. Service ecosystem concerns carry over from dishwashers/refrigerators — contracted repair network, thin coverage in many markets. Control board reliability concerns documented across Samsung appliance categories. Need deep dive to confirm wall-oven-specific failure patterns. LG an alternative at similar tier (Yale 10.5%)."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "miele_h7000": [
+      "mieleusa.com",
+      "miele.com"
+    ],
+    "wolf_m_series": [
+      "subzero-wolf.com",
+      "subzerowolf.com"
+    ],
+    "thermador_masterpiece": [
+      "thermador.com",
+      "bshg.com"
+    ],
+    "jennair_rise": [
+      "jennair.com",
+      "whirlpoolcorp.com"
+    ],
+    "ge_cafe": [
+      "cafeappliances.com",
+      "geappliances.com",
+      "haier.com"
+    ],
+    "samsung_flex_duo": [
+      "samsung.com"
+    ]
+  }
 }

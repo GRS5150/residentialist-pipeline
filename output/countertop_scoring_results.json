@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Cambria Brittanicca",
+    "score": 100,
+    "tier": 1,
+    "label": "Best in Class",
+    "grade": "A+",
+    "target": 95,
+    "low": 92,
+    "high": 97,
+    "inRange": false,
+    "anchor": "Cambria",
+    "position": "matches anchor"
+  },
+  {
+    "name": "Dekton Aura 15",
+    "score": 96,
+    "tier": 1,
+    "label": "Best in Class",
+    "grade": "A+",
+    "target": 91,
+    "low": 89,
+    "high": 93,
+    "inRange": false,
+    "anchor": "Dekton",
+    "position": "matches anchor"
+  },
+  {
+    "name": "Caesarstone Calacatta Maximus",
+    "score": 87,
+    "tier": 2,
+    "label": "Excellent",
+    "grade": "A-",
+    "target": 82,
+    "low": 79,
+    "high": 85,
+    "inRange": false,
+    "anchor": "Caesarstone",
+    "position": "matches anchor"
+  },
+  {
+    "name": "MSI Q Premium Calacatta Arno",
+    "score": 80,
+    "tier": 2,
+    "label": "Excellent",
+    "grade": "B",
+    "target": 77,
+    "low": 74,
+    "high": 80,
+    "inRange": true,
+    "anchor": "MSI Q Premium",
+    "position": "matches anchor"
+  },
+  {
+    "name": "Ubatuba Granite",
+    "score": 79,
+    "tier": 2,
+    "label": "Excellent",
+    "grade": "B-",
+    "target": 80,
+    "low": 77,
+    "high": 83,
+    "inRange": true,
+    "anchor": "Ubatuba Granite",
+    "position": "matches anchor"
+  },
+  {
+    "name": "White Ice Granite",
+    "score": 70,
+    "tier": 3,
+    "label": "Good",
+    "grade": "C",
+    "target": 73,
+    "low": 70,
+    "high": 76,
+    "inRange": true,
+    "anchor": "White Ice Granite",
+    "position": "exact match"
+  }
+]

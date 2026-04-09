@@ -2,24 +2,29 @@
   "category": "toilets",
   "version": "1.0",
   "created_date": "2026-04-01",
-
   "weights": {
     "quality": 0.35,
     "durability": 0.35,
-    "performance": 0.30
+    "performance": 0.3
   },
-
   "composite_method": "geometric_mean",
   "formula_description": "composite = (quality^wQ * durability^wD * performance^wP) * 10, where each axis is 0-10 scale, weights sum to 1.0",
-
   "calibration_products": [
     {
       "name": "TOTO Neorest NX2",
       "slug": "toto_neorest_nx2",
       "tier": 1,
       "target": 95,
-      "axis_scores": { "quality": 9.6, "durability": 9.4, "performance": 9.6 },
-      "spec_adj": { "quality": 7, "durability": 2, "performance": 5 },
+      "axis_scores": {
+        "quality": 9.6,
+        "durability": 9.4,
+        "performance": 9.6
+      },
+      "spec_adj": {
+        "quality": 7,
+        "durability": 2,
+        "performance": 5
+      },
       "specs": {
         "construction_type": "one_piece_skirted",
         "glazing_technology": "cefiontect_nano",
@@ -28,7 +33,7 @@
         "source_traceability": "single_source_manufacturing",
         "map_flush_score_grams": 1000,
         "flush_technology": "tornado_cyclonic",
-        "water_efficiency_gpf": 1.0,
+        "water_efficiency_gpf": 1,
         "bowl_cleanliness": "excellent",
         "flush_valve_type": "electronic_flush",
         "fill_valve_type": "proprietary_available",
@@ -46,8 +51,16 @@
       "slug": "toto_ultramax_ii",
       "tier": 1,
       "target": 92,
-      "axis_scores": { "quality": 9.4, "durability": 9.1, "performance": 9.2 },
-      "spec_adj": { "quality": 7, "durability": 3, "performance": 5 },
+      "axis_scores": {
+        "quality": 9.4,
+        "durability": 9.1,
+        "performance": 9.2
+      },
+      "spec_adj": {
+        "quality": 7,
+        "durability": 3,
+        "performance": 5
+      },
       "specs": {
         "construction_type": "one_piece_skirted",
         "glazing_technology": "cefiontect_nano",
@@ -74,8 +87,16 @@
       "slug": "kohler_highline",
       "tier": 2,
       "target": 80,
-      "axis_scores": { "quality": 8.0, "durability": 8.2, "performance": 7.9 },
-      "spec_adj": { "quality": 2, "durability": 5, "performance": 2 },
+      "axis_scores": {
+        "quality": 8,
+        "durability": 8.2,
+        "performance": 7.9
+      },
+      "spec_adj": {
+        "quality": 2,
+        "durability": 5,
+        "performance": 2
+      },
       "specs": {
         "construction_type": "two_piece_standard",
         "glazing_technology": "proprietary_antimicrobial",
@@ -102,8 +123,16 @@
       "slug": "american_standard_champion4",
       "tier": 3,
       "target": 67,
-      "axis_scores": { "quality": 6.5, "durability": 6.7, "performance": 6.9 },
-      "spec_adj": { "quality": 0, "durability": 2, "performance": 4 },
+      "axis_scores": {
+        "quality": 6.5,
+        "durability": 6.7,
+        "performance": 6.9
+      },
+      "spec_adj": {
+        "quality": 0,
+        "durability": 2,
+        "performance": 4
+      },
       "specs": {
         "construction_type": "two_piece_standard",
         "glazing_technology": "proprietary_antimicrobial",
@@ -130,8 +159,16 @@
       "slug": "gerber_viper",
       "tier": 3,
       "target": 64,
-      "axis_scores": { "quality": 6.2, "durability": 6.5, "performance": 6.6 },
-      "spec_adj": { "quality": 0, "durability": 2, "performance": 1 },
+      "axis_scores": {
+        "quality": 6.2,
+        "durability": 6.5,
+        "performance": 6.6
+      },
+      "spec_adj": {
+        "quality": 0,
+        "durability": 2,
+        "performance": 1
+      },
       "specs": {
         "construction_type": "two_piece_standard",
         "glazing_technology": "standard_glaze",
@@ -158,8 +195,16 @@
       "slug": "glacier_bay_hd",
       "tier": 4,
       "target": 45,
-      "axis_scores": { "quality": 4.2, "durability": 4.6, "performance": 4.8 },
-      "spec_adj": { "quality": -3, "durability": 0, "performance": -2 },
+      "axis_scores": {
+        "quality": 4.2,
+        "durability": 4.6,
+        "performance": 4.8
+      },
+      "spec_adj": {
+        "quality": -3,
+        "durability": 0,
+        "performance": -2
+      },
       "specs": {
         "construction_type": "two_piece_standard",
         "glazing_technology": "no_special_glaze",
@@ -181,5 +226,30 @@
       "outlook": "Stable",
       "outlook_rationale": "Home Depot backing ensures availability. Quality is what it is — budget positioning."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "toto_neorest_nx2": [
+      "totousa.com",
+      "toto.com"
+    ],
+    "toto_ultramax_ii": [
+      "totousa.com",
+      "toto.com"
+    ],
+    "kohler_highline": [
+      "kohler.com",
+      "us.kohler.com"
+    ],
+    "american_standard_champion4": [
+      "americanstandard-us.com",
+      "lixil.com"
+    ],
+    "gerber_viper": [
+      "gerberonline.com",
+      "globeunion.com"
+    ],
+    "glacier_bay_hd": [
+      "homedepot.com"
+    ]
+  }
 }

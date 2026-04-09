@@ -2,16 +2,13 @@
   "category": "sinks",
   "version": "1.0",
   "created_date": "2026-04-01",
-
   "weights": {
     "quality": 0.45,
     "durability": 0.45,
-    "performance": 0.10
+    "performance": 0.1
   },
-
   "composite_method": "geometric_mean",
   "formula_description": "composite = (quality^wQ * durability^wD * performance^wP) * 10, where each axis is 0-10 scale, weights sum to 1.0",
-
   "calibration_products": [
     {
       "name": "Rohl Shaws Original Lancaster Fireclay Farmhouse (RC3618)",
@@ -19,8 +16,16 @@
       "sub_type": "kitchen_fireclay",
       "tier": 1,
       "target": 94,
-      "axis_scores": { "quality": 9.5, "durability": 9.5, "performance": 9.0 },
-      "spec_adj": { "quality": 8, "durability": 5, "performance": 1 },
+      "axis_scores": {
+        "quality": 9.5,
+        "durability": 9.5,
+        "performance": 9
+      },
+      "spec_adj": {
+        "quality": 8,
+        "durability": 5,
+        "performance": 1
+      },
       "specs": {
         "body_material": "fireclay_handcrafted",
         "construction_method": "handcrafted_individual",
@@ -49,8 +54,16 @@
       "sub_type": "kitchen_cast_iron",
       "tier": 1,
       "target": 91,
-      "axis_scores": { "quality": 9.2, "durability": 9.1, "performance": 8.8 },
-      "spec_adj": { "quality": 7, "durability": 6, "performance": 1 },
+      "axis_scores": {
+        "quality": 9.2,
+        "durability": 9.1,
+        "performance": 8.8
+      },
+      "spec_adj": {
+        "quality": 7,
+        "durability": 6,
+        "performance": 1
+      },
       "specs": {
         "body_material": "cast_iron_enamel",
         "construction_method": "drawn_pressed_single_sheet",
@@ -79,8 +92,16 @@
       "sub_type": "kitchen_composite",
       "tier": 2,
       "target": 83,
-      "axis_scores": { "quality": 8.4, "durability": 8.4, "performance": 7.5 },
-      "spec_adj": { "quality": 4, "durability": 4, "performance": 1 },
+      "axis_scores": {
+        "quality": 8.4,
+        "durability": 8.4,
+        "performance": 7.5
+      },
+      "spec_adj": {
+        "quality": 4,
+        "durability": 4,
+        "performance": 1
+      },
       "specs": {
         "body_material": "composite_premium",
         "construction_method": "drawn_pressed_single_sheet",
@@ -109,8 +130,16 @@
       "sub_type": "kitchen_composite",
       "tier": 2,
       "target": 80,
-      "axis_scores": { "quality": 8.1, "durability": 8.1, "performance": 7.5 },
-      "spec_adj": { "quality": 3, "durability": 3, "performance": 1 },
+      "axis_scores": {
+        "quality": 8.1,
+        "durability": 8.1,
+        "performance": 7.5
+      },
+      "spec_adj": {
+        "quality": 3,
+        "durability": 3,
+        "performance": 1
+      },
       "specs": {
         "body_material": "composite_premium",
         "construction_method": "drawn_pressed_single_sheet",
@@ -139,8 +168,16 @@
       "sub_type": "kitchen_stainless",
       "tier": 3,
       "target": 68,
-      "axis_scores": { "quality": 6.7, "durability": 6.9, "performance": 6.8 },
-      "spec_adj": { "quality": 2, "durability": 2, "performance": 1 },
+      "axis_scores": {
+        "quality": 6.7,
+        "durability": 6.9,
+        "performance": 6.8
+      },
+      "spec_adj": {
+        "quality": 2,
+        "durability": 2,
+        "performance": 1
+      },
       "specs": {
         "body_material": "stainless_16_gauge_t304",
         "construction_method": "tight_radius_welded",
@@ -169,8 +206,16 @@
       "sub_type": "bathroom_vitreous_china",
       "tier": 3,
       "target": 68,
-      "axis_scores": { "quality": 6.8, "durability": 6.8, "performance": 6.8 },
-      "spec_adj": { "quality": 1, "durability": 2, "performance": 0 },
+      "axis_scores": {
+        "quality": 6.8,
+        "durability": 6.8,
+        "performance": 6.8
+      },
+      "spec_adj": {
+        "quality": 1,
+        "durability": 2,
+        "performance": 0
+      },
       "specs": {
         "body_material": "vitreous_china_standard",
         "construction_method": "drawn_pressed_single_sheet",
@@ -199,8 +244,16 @@
       "sub_type": "kitchen_stainless",
       "tier": 4,
       "target": 45,
-      "axis_scores": { "quality": 4.2, "durability": 4.7, "performance": 4.8 },
-      "spec_adj": { "quality": -5, "durability": -1, "performance": -1 },
+      "axis_scores": {
+        "quality": 4.2,
+        "durability": 4.7,
+        "performance": 4.8
+      },
+      "spec_adj": {
+        "quality": -5,
+        "durability": -1,
+        "performance": -1
+      },
       "specs": {
         "body_material": "stainless_22_gauge_plus",
         "construction_method": "stamped_mass_production",
@@ -223,5 +276,34 @@
       "outlook": "Stable",
       "outlook_rationale": "Home Depot backing ensures availability. Quality is builder-grade positioning."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "rohl_shaws_rc3618": [
+      "rohlhome.com",
+      "rohlonline.com",
+      "fortunebrands.com"
+    ],
+    "kohler_whitehaven_k6489": [
+      "kohler.com",
+      "us.kohler.com"
+    ],
+    "blanco_ikon_33": [
+      "blanco.com",
+      "blancoamerica.com"
+    ],
+    "kohler_cairn_k8206": [
+      "kohler.com",
+      "us.kohler.com"
+    ],
+    "kraus_standart_pro_30": [
+      "kraususa.com"
+    ],
+    "kohler_caxton_k2210": [
+      "kohler.com",
+      "us.kohler.com"
+    ],
+    "glacier_bay_dropin": [
+      "homedepot.com"
+    ]
+  }
 }

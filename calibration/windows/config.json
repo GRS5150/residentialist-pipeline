@@ -3,34 +3,53 @@
   "version": "2.0",
   "version_date": "2026-04-06",
   "rebuilt_from": "prompt_a_windows.md research (April 2026)",
-
   "axis_weights": {
     "quality": 0.35,
     "durability": 0.35,
-    "performance": 0.30
+    "performance": 0.3
   },
-
   "scoring_method": "anchor_target_plus_spec_spread",
   "scoring_notes": "Anchor target IS the composite. Spec adjustments create axis spread around the composite. Weighted average of axis scores = target. Q/D balanced because frame material quality and seal longevity are equally critical. Performance gets 0.30 because measurable NFRC specs (U-factor, SHGC, DP rating) create real differentiation.",
-
   "max_spec_adjustment_per_axis": 8,
   "tier_crossing_allowed": false,
-
   "tier_ranges": {
-    "1": { "min": 90, "max": 100, "label": "Best in Class" },
-    "2": { "min": 75, "max": 89, "label": "Excellent" },
-    "3": { "min": 60, "max": 74, "label": "Good" },
-    "4": { "min": 40, "max": 59, "label": "Fair" },
-    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+    "1": {
+      "min": 90,
+      "max": 100,
+      "label": "Best in Class"
+    },
+    "2": {
+      "min": 75,
+      "max": 89,
+      "label": "Excellent"
+    },
+    "3": {
+      "min": 60,
+      "max": 74,
+      "label": "Good"
+    },
+    "4": {
+      "min": 40,
+      "max": 59,
+      "label": "Fair"
+    },
+    "5": {
+      "min": 0,
+      "max": 39,
+      "label": "Below Standard"
+    }
   },
-
   "calibration_products": [
     {
       "name": "Marvin Ultimate (Signature Ultimate)",
       "slug": "marvin_ultimate",
       "tier": 1,
       "target": 94,
-      "axis_scores": { "quality": 95, "durability": 94, "performance": 93 },
+      "axis_scores": {
+        "quality": 95,
+        "durability": 94,
+        "performance": 93
+      },
       "outlook": "Strong",
       "rationale": "Ultrex pultruded fiberglass exterior (8x stronger than vinyl, 87% less thermal expansion). Wood interior (VG Douglas fir available). Cardinal LoE coatings. AmesburyTruth hardware. Single-factory Warroad MN. Matt Risinger and pro installer consensus: top overall. CR highest rated."
     },
@@ -39,7 +58,11 @@
       "slug": "loewen",
       "tier": 1,
       "target": 91,
-      "axis_scores": { "quality": 93, "durability": 91, "performance": 90 },
+      "axis_scores": {
+        "quality": 93,
+        "durability": 91,
+        "performance": 90
+      },
       "outlook": "Strong",
       "rationale": "Canadian premium. Douglas fir/mahogany wood with extruded aluminum cladding. Single-factory Steinbach Manitoba. Exceptional wood craftsmanship. Premium hardware. Pro consensus: top tier for wood quality but wood frame requires more maintenance than fiberglass composites."
     },
@@ -48,7 +71,11 @@
       "slug": "andersen_e_series",
       "tier": 2,
       "target": 85,
-      "axis_scores": { "quality": 86, "durability": 85, "performance": 84 },
+      "axis_scores": {
+        "quality": 86,
+        "durability": 85,
+        "performance": 84
+      },
       "outlook": "Strong",
       "rationale": "Wood interior with extruded aluminum cladding. Massive scale, nationwide availability. Strong warranty. Pro-ranked alongside Marvin/Loewen at top. Multi-plant manufacturing — minor quality variance risk vs single-factory brands. ENERGY STAR Most Efficient."
     },
@@ -57,7 +84,11 @@
       "slug": "pella_architect",
       "tier": 2,
       "target": 80,
-      "axis_scores": { "quality": 81, "durability": 80, "performance": 79 },
+      "axis_scores": {
+        "quality": 81,
+        "durability": 80,
+        "performance": 79
+      },
       "outlook": "Strong",
       "rationale": "Wood or fiberglass (Impervia line). Industry-leading warranty coverage. 200+ showrooms for service. Innovation focus. Pros rate high for availability and support but slightly below Marvin/Loewen for pure construction quality."
     },
@@ -66,7 +97,11 @@
       "slug": "milgard_tuscany",
       "tier": 3,
       "target": 67,
-      "axis_scores": { "quality": 67, "durability": 68, "performance": 66 },
+      "axis_scores": {
+        "quality": 67,
+        "durability": 68,
+        "performance": 66
+      },
       "outlook": "Conditional",
       "rationale": "MI Windows subsidiary. Fusion-welded vinyl. Decent mid-tier. Full lifetime warranty (glass breakage included — unusual). West Coast dominant. Pros accept for mid-range but note vinyl limitations (thermal expansion, appearance)."
     },
@@ -75,9 +110,35 @@
       "slug": "jeldwen_v2500",
       "tier": 4,
       "target": 52,
-      "axis_scores": { "quality": 52, "durability": 53, "performance": 51 },
+      "axis_scores": {
+        "quality": 52,
+        "durability": 53,
+        "performance": 51
+      },
       "outlook": "Negative",
       "rationale": "Builder-grade vinyl. Multi-plant manufacturing with documented quality variance. Class-action lawsuit history (seal failures). Fusion-welded corners but thin vinyl profile. Contractors use for cost builds but pros warn of 10-year seal failure rates. AuraLast wood treatment on Siteline questioned."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "marvin_ultimate": [
+      "marvin.com"
+    ],
+    "loewen": [
+      "loewen.com"
+    ],
+    "andersen_e_series": [
+      "andersenwindows.com",
+      "andersencorp.com"
+    ],
+    "pella_architect": [
+      "pella.com"
+    ],
+    "milgard_tuscany": [
+      "milgard.com",
+      "miwd.com"
+    ],
+    "jeldwen_v2500": [
+      "jeld-wen.com"
+    ]
+  }
 }

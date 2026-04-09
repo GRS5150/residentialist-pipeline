@@ -1,0 +1,31 @@
+{
+  "manufacturer_name": "Natural Stone (Generic)",
+  "manufacturer_slug": "natural_stone",
+  "category": "countertops",
+  "search_type": "stub",
+  "last_updated": "2026-03-27T00:00:00.000Z",
+  "warranty_program": {
+    "type": "Varies by fabricator/retailer",
+    "duration": "Typically 1-15 years (fabricator warranty), stone itself has no manufacturer warranty",
+    "transferable": false,
+    "covers": "Fabrication defects, installation workmanship",
+    "excludes": "Natural variation, staining, etching, cracking from settling/movement",
+    "summary": "No manufacturer warranty — natural material. Warranty depends entirely on fabricator/retailer. Typically covers installation workmanship only."
+  },
+  "service_network": {
+    "coverage": "Local fabricator dependent",
+    "dealer_network": "Independent fabricators and stone yards",
+    "summary": "No centralized service network. Service quality depends on local fabricator."
+  },
+  "company_stability": {
+    "ownership": "N/A — natural material, no single manufacturer",
+    "manufacturing": "Quarried globally (Brazil, India, Italy, China, USA). Each slab is unique.",
+    "financial_health": "N/A — commodity material",
+    "outlook": "Stable"
+  },
+  "reputation_pattern": {
+    "fabricator_consensus": "Proven track record spanning centuries. Requires maintenance (sealing) but inherently durable.",
+    "key_strengths": ["No resin — fully natural", "Unique appearance per slab", "Heat resistant", "Centuries of proven performance"],
+    "key_concerns": ["Requires periodic sealing", "PFAS in some sealers (Yellow Finding)", "Porosity varies by species", "Can stain if unsealed", "Radon emission (minimal but present)"]
+  }
+}

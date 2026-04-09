@@ -1,0 +1,32 @@
+{
+  "product": "Caesarstone Calacatta Maximus",
+  "operation_type": null,
+  "slug": "caesarstone_calacatta_maximus",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 50798
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 35,
+      "cost_estimate": 0.192102
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/caesarstone_calacatta_maximus_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-27T22:42:31.269Z"
+}

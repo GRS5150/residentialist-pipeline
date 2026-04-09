@@ -1,0 +1,127 @@
+{
+  "category": "motorized_shades",
+  "version": "1.0",
+  "axis_weights": {
+    "quality": 0.4,
+    "durability": 0.3,
+    "performance": 0.3
+  },
+  "composite_method": "geometric_mean",
+  "calibration_products": [
+    {
+      "name": "Lutron Sivoia QS Roller Shade (HomeWorks)",
+      "slug": "lutron_sivoia_qs_roller",
+      "target": 94,
+      "tier": "Tier 1",
+      "axis_scores": {
+        "quality": 9.6,
+        "durability": 9.4,
+        "performance": 9.3
+      }
+    },
+    {
+      "name": "Lutron Triathlon Roller Shade (RadioRA 3)",
+      "slug": "lutron_triathlon_roller",
+      "target": 90,
+      "tier": "Tier 1",
+      "axis_scores": {
+        "quality": 9.2,
+        "durability": 8.8,
+        "performance": 9
+      }
+    },
+    {
+      "name": "Lutron Palladiom Roller Shade",
+      "slug": "lutron_palladiom_roller",
+      "target": 84,
+      "tier": "Tier 2",
+      "axis_scores": {
+        "quality": 8.8,
+        "durability": 8.2,
+        "performance": 8.2
+      }
+    },
+    {
+      "name": "Hunter Douglas Silhouette PowerView Gen 3",
+      "slug": "hunter_douglas_silhouette_pv",
+      "target": 80,
+      "tier": "Tier 2",
+      "axis_scores": {
+        "quality": 8.2,
+        "durability": 7.8,
+        "performance": 8
+      }
+    },
+    {
+      "name": "Somfy Sonesse Custom Shade (The Shade Store)",
+      "slug": "somfy_sonesse_shade_store",
+      "target": 78,
+      "tier": "Tier 2",
+      "axis_scores": {
+        "quality": 8,
+        "durability": 7.6,
+        "performance": 7.8
+      }
+    },
+    {
+      "name": "Lutron Serena Roller Shade",
+      "slug": "lutron_serena_roller",
+      "target": 64,
+      "tier": "Tier 3",
+      "axis_scores": {
+        "quality": 6.5,
+        "durability": 6.2,
+        "performance": 6.5
+      }
+    },
+    {
+      "name": "Hunter Douglas Duette Architella PowerView",
+      "slug": "hunter_douglas_duette_pv",
+      "target": 62,
+      "tier": "Tier 3",
+      "axis_scores": {
+        "quality": 6.2,
+        "durability": 6,
+        "performance": 6.4
+      }
+    },
+    {
+      "name": "IKEA FYRTUR",
+      "slug": "ikea_fyrtur",
+      "target": 45,
+      "tier": "Tier 4",
+      "axis_scores": {
+        "quality": 4.2,
+        "durability": 4.5,
+        "performance": 4.8
+      }
+    }
+  ],
+  "manufacturer_domains": {
+    "lutron_sivoia_qs_roller": [
+      "lutron.com"
+    ],
+    "lutron_triathlon_roller": [
+      "lutron.com"
+    ],
+    "lutron_palladiom_roller": [
+      "lutron.com"
+    ],
+    "hunter_douglas_silhouette_pv": [
+      "hunterdouglas.com"
+    ],
+    "somfy_sonesse_shade_store": [
+      "somfy.com",
+      "theshadestore.com"
+    ],
+    "lutron_serena_roller": [
+      "lutron.com"
+    ],
+    "hunter_douglas_duette_pv": [
+      "hunterdouglas.com"
+    ],
+    "ikea_fyrtur": [
+      "ikea.com"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "tier": 2,
+  "tier_label": "Excellent",
+  "confidence": "high",
+  "reasoning": "MSI Q Premium Calacatta Arno is engineered quartz with 93% quartz content, manufactured using Bretonstone technology, and backed by multiple expert endorsements. Consumer Reports rated engineered quartz top for stain, abrasion, heat, and cutting resistance, while Fine Homebuilding lists MSI among reputable manufacturers. The primary weakness is the non-transferable warranty versus premium competitors.",
+  "closest_anchor": "MSI Q Premium",
+  "above_or_below_anchor": "matches anchor",
+  "key_evidence": [
+    "Consumer Reports laboratory testing: engineered quartz achieved top scores for stain, abrasion, heat, and cutting resistance",
+    "Fine Homebuilding lists MSI among reputable manufacturers using Breton manufacturing method",
+    "Industry rankings consistently place MSI Q Quartz as solid mid-market option with favorable design diversity and value positioning"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "7",
+    "heat_resistance_f": "570",
+    "water_absorption_pct": "0.02",
+    "warranty_years": "999",
+    "warranty_transferable": false,
+    "greenguard_gold": false,
+    "nsf_51": true,
+    "requires_sealing": false,
+    "domestic_manufacturing": false,
+    "material_class": "engineered_quartz_premium"
+  },
+  "source_flags": [],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "MSI Q Premium",
+        "position": "matches anchor"
+      },
+      {
+        "run": 2,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "MSI Q Premium",
+        "position": "equivalent"
+      },
+      {
+        "run": 3,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "MSI Q Premium",
+        "position": "matches anchor"
+      }
+    ],
+    "tiers_voted": [
+      2,
+      2,
+      2
+    ],
+    "tier_counts": {
+      "2": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "MSI Q Premium Calacatta Arno",
+  "category": "countertops",
+  "operation_type": "general",
+  "score_sources_used": 22,
+  "classified_at": "2026-03-27T23:51:48.856Z"
+}

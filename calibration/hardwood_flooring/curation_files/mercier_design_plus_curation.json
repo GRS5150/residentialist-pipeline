@@ -4,10 +4,27 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — best flooring from consumer reports tests a9795521582",
+      "url": "https://www.consumerreports.org/home-garden/flooring/best-flooring-from-consumer-reports-tests-a9795521582/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
       "source_name": "modernize.com — best brands",
       "url": "https://modernize.com/flooring/best-brands",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -21,28 +38,11 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-003",
       "source_name": "royalfloorsonline.com — best engineered hardwood flooring brands",
       "url": "https://royalfloorsonline.com/blogs/news/best-engineered-hardwood-flooring-brands",
       "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-003",
-      "source_name": "rejuvenationfd.com — best engineered wood flooring brands",
-      "url": "https://www.rejuvenationfd.com/blog/best-engineered-wood-flooring-brands",
-      "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -56,16 +56,16 @@
     },
     {
       "id": "SRC-004",
-      "source_name": "consumerreports.org — best flooring from consumer reports tests a9795521582",
-      "url": "https://www.consumerreports.org/home-garden/flooring/best-flooring-from-consumer-reports-tests-a9795521582/",
+      "source_name": "rejuvenationfd.com — best engineered wood flooring brands",
+      "url": "https://www.rejuvenationfd.com/blog/best-engineered-wood-flooring-brands",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "S",
+      "pool": "B",
       "classification": "independent",
       "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
@@ -76,7 +76,7 @@
       "source_name": "woodandbeyond.com — 10 best real wood flooring in 2026",
       "url": "https://www.woodandbeyond.com/blog/10-best-real-wood-flooring-in-2026/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -93,7 +93,7 @@
       "source_name": "dgfloors.com — best hardwood floor",
       "url": "https://dgfloors.com/best-hardwood-floor/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -107,27 +107,27 @@
     },
     {
       "id": "SRC-007",
-      "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=SrJaOTcDLaU",
+      "source_name": "hardwoodfloorsllc.com — top hardwood flooring brands and why we recommend them",
+      "url": "https://www.hardwoodfloorsllc.com/blog/top-hardwood-flooring-brands-and-why-we-recommend-them/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "C",
+      "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "research_pass_3",
       "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "hardwoodfloorsllc.com — top hardwood flooring brands and why we recommend them",
-      "url": "https://www.hardwoodfloorsllc.com/blog/top-hardwood-flooring-brands-and-why-we-recommend-them/",
+      "source_name": "carpetexchange.com — best luxury vinyl flooring brands 2026",
+      "url": "https://carpetexchange.com/flooring-school/best-luxury-vinyl-flooring-brands-2026",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -141,10 +141,10 @@
     },
     {
       "id": "SRC-009",
-      "source_name": "carpetexchange.com — best luxury vinyl flooring brands 2026",
-      "url": "https://carpetexchange.com/flooring-school/best-luxury-vinyl-flooring-brands-2026",
+      "source_name": "floorzi.com — best hardwood flooring 2026",
+      "url": "https://www.floorzi.com/best-hardwood-flooring-2026",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -158,12 +158,12 @@
     },
     {
       "id": "SRC-010",
-      "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=B2GfjgTQHS4",
+      "source_name": "todayshomeowner.com — best hardwood floors",
+      "url": "https://todayshomeowner.com/flooring/guides/best-hardwood-floors/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "C",
+      "pool": "B",
       "classification": "independent",
       "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
@@ -175,36 +175,257 @@
     },
     {
       "id": "SRC-011",
-      "source_name": "floorzi.com — best hardwood flooring 2026",
-      "url": "https://www.floorzi.com/best-hardwood-flooring-2026",
+      "source_name": "garrisoncollection.com — how hardwood floors are made",
+      "url": "https://www.garrisoncollection.com/blog/how-hardwood-floors-are-made",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-012",
-      "source_name": "todayshomeowner.com — best hardwood floors",
-      "url": "https://todayshomeowner.com/flooring/guides/best-hardwood-floors/",
+      "source_name": "bruce.com — how wood flooring is made from forest to lumber",
+      "url": "https://www.bruce.com/en-us/resources/how-wood-flooring-is-made-from-forest-to-lumber.html",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "agedwoods.com — hardwood flooring a brief history",
+      "url": "https://www.agedwoods.com/aged-woods-blog/hardwood-flooring-a-brief-history/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "builddirect.com — how is hardwood flooring made",
+      "url": "https://www.builddirect.com/blogs/expert-advice-on-flooring/how-is-hardwood-flooring-made",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "flooringamerica.com — how is hardwood flooring made",
+      "url": "https://www.flooringamerica.com/blog/how-is-hardwood-flooring-made",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "villagecarpetinc.com — hardwoodhowitsmade",
+      "url": "https://www.villagecarpetinc.com/hardwoodhowitsmade",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "carpetclub.com — hardwood how its made",
+      "url": "https://www.carpetclub.com/hardwood-how-its-made",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "thesolidwoodflooringcompany.com — wood flooring grading and type test results",
+      "url": "https://www.thesolidwoodflooringcompany.com/technical-article/wood-flooring-grading-and-type-test-results/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "decorativehardwoods.org — ANSI HPVA%20EF%202020 FINAL ForPublishing",
+      "url": "https://www.decorativehardwoods.org/sites/default/files/2022-02/ANSI-HPVA%20EF%202020_FINAL_ForPublishing.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "intertek.com — astm d2394",
+      "url": "https://www.intertek.com/building/standards/astm-d2394/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "floorreports.com",
+      "url": "https://www.floorreports.com/images/technotes_files/105.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "professionaltesting.us — astm standards for rigid flooring astm f3261",
+      "url": "https://www.professionaltesting.us/professional-testing-laboratory-blog/astm-standards-for-rigid-flooring-astm-f3261",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "nwfa.org — NWFA NOFMA Factory Finished Standards Updated2019",
+      "url": "https://nwfa.org/wp-content/uploads/2020/03/NWFA_NOFMA_Factory_Finished_Standards_Updated2019.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "millerwoodtradepub.com — regulations impacting the wood flooring industry",
+      "url": "https://millerwoodtradepub.com/regulations-impacting-the-wood-flooring-industry/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "galleher.com — technical",
+      "url": "https://www.galleher.com/technical",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
       "verified": false
     }
   ],
@@ -223,21 +444,48 @@
       "SRC-009",
       "SRC-010",
       "SRC-011",
-      "SRC-012"
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 0,
-      "pool_B": 9,
-      "pool_C": 2
+      "pool_B": 24,
+      "pool_C": 0
+    },
+    "filter_summary": {
+      "raw": 41,
+      "after_filter": 38,
+      "capped": 25,
+      "dropped": {
+        "dead": 0,
+        "nonContent": 0,
+        "manufacturer": 0,
+        "alwaysExclude": 0,
+        "bareRoot": 0,
+        "domainCap": 3,
+        "total": 41
+      }
     }
   },
   "product_slug": "mercier_design_plus",
   "product_name": "Mercier Design+ White Oak (Engineered, 5/8\")",
   "manufacturer_slug": "mercier",
   "deep_dive_date": "2026-04-09",
-  "structuring_model": "source_registry_v1",
+  "structuring_model": "source_registry_v2",
   "curation_status": "curated",
   "curation_date": "2026-04-09",
   "human_overrides": [],

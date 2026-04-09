@@ -4,212 +4,57 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "grass.eu — dynapro",
-      "url": "https://www.grass.eu/en/products/slides/dynapro/",
+      "source_name": "consumerreports.org — buying guide",
+      "url": "https://www.consumerreports.org/home-garden/kitchen-cabinets/buying-guide/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
+      "pool": "S",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "research_pass_4",
       "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "cabinetdoor.store — best finishes for kitchen cabinets",
-      "url": "https://cabinetdoor.store/blog/best-finishes-for-kitchen-cabinets/",
+      "source_name": "epa.gov — moisture control",
+      "url": "https://www.epa.gov/sites/default/files/2014-08/documents/moisture-control.pdf",
       "platform": "other",
       "column": "expert",
       "snippet": "",
-      "pool": "A",
+      "pool": "S",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "ww2.arb.ca.gov — frequently asked questions no added formaldehyde and ultra l",
-      "url": "https://ww2.arb.ca.gov/resources/documents/frequently-asked-questions-no-added-formaldehyde-and-ultra-low-emitting",
+      "source_name": "capitaltesting.org — cabinet testing returns to capital testing",
+      "url": "https://www.capitaltesting.org/cabinet-testing-returns-to-capital-testing",
       "platform": "other",
       "column": "expert",
       "snippet": "",
-      "pool": "A",
+      "pool": "S",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
       "topics": [
-        "Q",
-        "MS"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "en.wikipedia.org — 32 mm cabinetmaking system",
-      "url": "https://en.wikipedia.org/wiki/32_mm_cabinetmaking_system",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-005",
-      "source_name": "ww2.arb.ca.gov — composite wood products program",
-      "url": "https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-006",
-      "source_name": "kcma.org — cabinets certified last 0",
-      "url": "https://kcma.org/insights/cabinets-certified-last-0",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-007",
-      "source_name": "woodworkingnetwork.com — cabinet trends come down earth",
-      "url": "https://www.woodworkingnetwork.com/cabinets/cabinet-trends-come-down-earth",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-008",
-      "source_name": "woodworkingnetwork.com — kitchen cabinet manufacturers association releases severe us",
-      "url": "https://www.woodworkingnetwork.com/cabinets/kitchen-cabinet-manufacturers-association-releases-severe-use-performance-standard",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-009",
-      "source_name": "cuttingedgeinc.ca — spray stain vs wiping stain for finished cabinet doors",
-      "url": "https://cuttingedgeinc.ca/learning-centre/spray-stain-vs-wiping-stain-for-finished-cabinet-doors/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-010",
-      "source_name": "mychemicalfreehouse.net — non toxic kitchen cabinets",
-      "url": "https://www.mychemicalfreehouse.net/2024/04/non-toxic-kitchen-cabinets.html",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q",
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-011",
-      "source_name": "woodgears.ca — joint strength",
-      "url": "https://woodgears.ca/joint_strength/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-012",
-      "source_name": "plydirect.co.uk — plywood grain",
-      "url": "https://plydirect.co.uk/plywood-grain/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-013",
       "source_name": "mainlinekitchendesign.com — cabinet reviews ratings for the top 100 cabinet brands",
       "url": "https://www.mainlinekitchendesign.com/general/cabinet-reviews-ratings-for-the-top-100-cabinet-brands/",
       "platform": "other",
@@ -219,21 +64,259 @@
       "classification": "independent",
       "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "P",
-        "MS"
+        "P"
       ],
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
     },
     {
-      "id": "SRC-014",
-      "source_name": "mainlinekitchendesign.com — kitchen cabinet brand comparison",
-      "url": "https://www.mainlinekitchendesign.com/general/kitchen-cabinet-brand-comparison/",
+      "id": "SRC-005",
+      "source_name": "finehomebuilding.com — kitchen cabinets from components",
+      "url": "https://www.finehomebuilding.com/forum/kitchen-cabinets-from-components",
       "platform": "other",
       "column": "expert",
       "snippet": "",
       "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "osha.gov — 1994 02 23",
+      "url": "http://www.osha.gov/laws-regs/standardinterpretations/1994-02-23",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "ehs.utexas.edu — chemical storage cabinets",
+      "url": "https://ehs.utexas.edu/working-safely/chemical-safety/chemical-storage-cabinets",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "law.cornell.edu — 8 CCR 5533",
+      "url": "https://www.law.cornell.edu/regulations/california/8-CCR-5533",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "ehs.gatech.edu — chemical storage cabinets",
+      "url": "https://ehs.gatech.edu/chemical-storage-cabinets",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "kcma.org — kcma quality cabinet certification",
+      "url": "https://kcma.org/certifications/kcma-quality-cabinet-certification",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "woodworkingnetwork.com — kitchen cabinet manufacturers association releases severe us",
+      "url": "https://www.woodworkingnetwork.com/cabinets/kitchen-cabinet-manufacturers-association-releases-severe-use-performance-standard",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "hud.gov — NSPIRE Standards v2.2 Cabinets",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standards-v2.2-Cabinets.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "kcma.org — certifications",
+      "url": "https://kcma.org/certifications",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "dreamlinecabinetry.com — best kitchen cabinets guide",
+      "url": "https://dreamlinecabinetry.com/best-kitchen-cabinets-guide/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "housebeautiful.com — best kitchen cabinets brands",
+      "url": "https://www.housebeautiful.com/shopping/a28849189/best-kitchen-cabinets-brands/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "ghcabinetry.com — brands of kitchen cabinets comparison finding the perfect ma",
+      "url": "https://ghcabinetry.com/blogs/industry-news/brands-of-kitchen-cabinets-comparison-finding-the-perfect-match-for-your-home",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "houzz.com — need options for good quality mid range cabinet brands",
+      "url": "https://www.houzz.com/discussions/5643130/need-options-for-good-quality-mid-range-cabinet-brands",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "georgeconstructions.com — top 50 kitchen cabinet brands in the usa",
+      "url": "https://georgeconstructions.com/top-50-kitchen-cabinet-brands-in-the-usa/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q",
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "aiskitchen.com — top 5 kitchen cabinet manufacturers in the us",
+      "url": "https://www.aiskitchen.com/article/top-5-kitchen-cabinet-manufacturers-in-the-us.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
       "classification": "independent",
       "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
@@ -244,190 +327,105 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
-      "source_name": "currentcab.com — maple vs birch plywood for cabinets",
-      "url": "https://currentcab.com/maple-vs-birch-plywood-for-cabinets/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "highsierracabinets.com — particle board vs mdf for cabinets",
-      "url": "https://highsierracabinets.com/particle-board-vs-mdf-for-cabinets/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "woodweb.com — Materials Labor Overhead And Profit",
-      "url": "https://woodweb.com/knowledge_base/Materials_Labor_Overhead_And_Profit.html",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "blum.com — overview",
-      "url": "https://www.blum.com/us/en/company/quality-innovation/overview/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "woodworkerexpress.com — best cabinet hinge brands",
-      "url": "https://woodworkerexpress.com/blog/2025/10/best-cabinet-hinge-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
       "id": "SRC-020",
-      "source_name": "refaceful.com — the downsides of rigid thermofoil rtf cabinets",
-      "url": "https://refaceful.com/the-downsides-of-rigid-thermofoil-rtf-cabinets/",
+      "source_name": "georgecabinetry.com — top 20 best kitchen cabinet brands in 2026",
+      "url": "https://georgecabinetry.com/blog/top-20-best-kitchen-cabinet-brands-in-2026/",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "Q"
+        "P"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "research_pass_3",
       "verified": false
     },
     {
       "id": "SRC-021",
-      "source_name": "woodworkerexpress.com — blum tandem vs movento",
-      "url": "https://woodworkerexpress.com/blog/2025/03/blum-tandem-vs-movento/",
+      "source_name": "houzz.com — cabinet makers crystal rutt etc help",
+      "url": "https://www.houzz.com/discussions/2688353/cabinet-makers-crystal-rutt-etc-help",
       "platform": "other",
-      "column": "review",
+      "column": "forum",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "research_pass_3",
       "verified": false
     },
     {
       "id": "SRC-022",
-      "source_name": "shop.hettich.com — group9396843931182",
-      "url": "https://shop.hettich.com/us_EN/system-comparison/compare/group9396843931182",
+      "source_name": "rtgcabinets.com — top kitchen cabinet brands",
+      "url": "https://rtgcabinets.com/top-kitchen-cabinet-brands/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "research_pass_3",
       "verified": false
     },
     {
       "id": "SRC-023",
-      "source_name": "cabinetparts.com — knape and vogt drawer slides side mount drawer slides KV8400",
-      "url": "https://www.cabinetparts.com/p/knape-and-vogt-drawer-slides-side-mount-drawer-slides-KV840022-p29513",
+      "source_name": "freshdesigngroupinc.com — my top 3 cabinet companies",
+      "url": "https://www.freshdesigngroupinc.com/possibilities-blog/my-top-3-cabinet-companies",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "research_pass_3",
       "verified": false
     },
     {
       "id": "SRC-024",
-      "source_name": "kraftmaid.com — product specifications",
-      "url": "https://www.kraftmaid.com/support/product-specifications/",
+      "source_name": "popularwoodworking.com — a woodworkers guide to custom cabinets 2",
+      "url": "https://www.popularwoodworking.com/article/a-woodworkers-guide-to-custom-cabinets-2/",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-025",
-      "source_name": "merillat.com — finish options",
-      "url": "https://www.merillat.com/finish-options/",
+      "source_name": "thisiscarpentry.com — historic cabinets",
+      "url": "https://www.thisiscarpentry.com/2011/05/27/historic-cabinets/",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
       "verified": false
     }
   ],
@@ -463,23 +461,23 @@
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 0,
-      "pool_A": 14,
-      "pool_B": 11,
+      "pool_S": 3,
+      "pool_A": 10,
+      "pool_B": 12,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 60,
-      "after_filter": 47,
+      "raw": 68,
+      "after_filter": 56,
       "capped": 25,
       "dropped": {
         "dead": 0,
         "nonContent": 1,
-        "manufacturer": 1,
-        "alwaysExclude": 1,
-        "bareRoot": 4,
-        "domainCap": 6,
-        "total": 60
+        "manufacturer": 11,
+        "alwaysExclude": 0,
+        "bareRoot": 0,
+        "domainCap": 0,
+        "total": 68
       }
     }
   },

@@ -1,0 +1,371 @@
+{
+  "category": "motorized_shades",
+  "version": "1.0",
+  "created": "2026-04-03",
+  "description": "Residential motorized shades \u2014 scored per individual product line, not per platform. Motor type, control protocol, integration depth, and build quality are the key differentiators. Interior shades/blinds only.",
+  "axis_weights": {
+    "quality": 0.4,
+    "durability": 0.3,
+    "performance": 0.3
+  },
+  "composite_method": "geometric_mean",
+  "axis_stretch": false,
+  "tier_ranges": {
+    "1": {
+      "min": 90,
+      "max": 100,
+      "label": "Best in Class"
+    },
+    "2": {
+      "min": 75,
+      "max": 89,
+      "label": "Excellent"
+    },
+    "3": {
+      "min": 60,
+      "max": 74,
+      "label": "Good"
+    },
+    "4": {
+      "min": 40,
+      "max": 59,
+      "label": "Fair"
+    },
+    "5": {
+      "min": 0,
+      "max": 39,
+      "label": "Below Standard"
+    }
+  },
+  "tier_anchors": [
+    {
+      "tier": 1,
+      "products": [
+        {
+          "name": "Lutron Sivoia QS Roller Shade (HomeWorks)",
+          "slug": "lutron_sivoia_qs_roller",
+          "target_range": [
+            92,
+            96
+          ]
+        },
+        {
+          "name": "Lutron Triathlon Roller Shade (RadioRA 3)",
+          "slug": "lutron_triathlon_roller",
+          "target_range": [
+            88,
+            92
+          ]
+        }
+      ],
+      "notes": "Sivoia QS: Hardwired 24V DC, proprietary Lutron motor, ultra-quiet (<40 dB), Clear Connect RF + QS Link wired backbone, premium aluminum cassette, exclusive to HomeWorks QSX/RadioRA 3. Integrators' unanimous choice for $3M+ homes. Triathlon: Battery/solar with Clear Connect Type X, Lutron-quality motor, 3-5 year battery, up to 12x12 ft \u2014 best battery-powered shade on the market per integrators. Slightly louder than hardwired QS, but still whisper-quiet."
+    },
+    {
+      "tier": 2,
+      "products": [
+        {
+          "name": "Lutron Palladiom Roller Shade",
+          "slug": "lutron_palladiom_roller",
+          "target_range": [
+            82,
+            86
+          ]
+        },
+        {
+          "name": "Hunter Douglas Silhouette PowerView Gen 3",
+          "slug": "hunter_douglas_silhouette_pv",
+          "target_range": [
+            78,
+            82
+          ]
+        },
+        {
+          "name": "Somfy Sonesse Custom Shade (The Shade Store)",
+          "slug": "somfy_sonesse_shade_store",
+          "target_range": [
+            76,
+            80
+          ]
+        }
+      ],
+      "notes": "Palladiom: Ultra-modern exposed bracket design (no fascia), same Sivoia QS motor platform, exclusive to HomeWorks/RadioRA 3. Hunter Douglas Silhouette: Iconic sheer horizontal shade, PowerView Gen 3 Bluetooth mesh, premium proprietary fabric, strong consumer brand but Bluetooth mesh scales less well than Lutron RF. Somfy Sonesse via The Shade Store: Best OEM motor (Sonesse ULTRA 50) paired with premium custom fabrication and fabric selection. Quality depends partly on fabricator \u2014 The Shade Store represents premium tier."
+    },
+    {
+      "tier": 3,
+      "products": [
+        {
+          "name": "Lutron Serena Roller Shade",
+          "slug": "lutron_serena_roller",
+          "target_range": [
+            62,
+            66
+          ]
+        },
+        {
+          "name": "Hunter Douglas Duette Architella PowerView",
+          "slug": "hunter_douglas_duette_pv",
+          "target_range": [
+            60,
+            64
+          ]
+        }
+      ],
+      "notes": "Serena: Lutron's consumer-direct roller shade. Genuinely downmarket from Sivoia QS \u2014 different battery motor, louder (~48 dB), consumer Clear Connect, ~10,000 cycles vs QS's 20,000+. Functional but not luxury. Duette Architella PowerView: Entry-level PowerView, cellular shade, Bluetooth mesh. Legitimate motorized shade (10,000 cycles, Pebble hub), but higher battery swaps and less quiet than premium Silhouette/Pirouette."
+    },
+    {
+      "tier": 4,
+      "products": [
+        {
+          "name": "IKEA FYRTUR",
+          "slug": "ikea_fyrtur",
+          "target_range": [
+            42,
+            48
+          ]
+        }
+      ],
+      "notes": "Zigbee 3.0 based, affordable ($100-180), 2-3 year motor life, limited sizes, DIRIGERA hub required. Professional consensus: legitimate entry point for renters/budget, but disposable after warranty. Slat-style only, limited fabric options. Better than WiFi/Tuya due to local Zigbee control."
+    },
+    {
+      "tier": 5,
+      "products": [],
+      "notes": "Reserved for retrofit clamp-on motors (SwitchBot Blind Tilt, AXIS Gear), generic Tuya/WiFi cloud-dependent shades (Yoolax, Graywind) with documented 12-24 month motor failures and cloud outage bricking. Professionals refuse to specify."
+    }
+  ],
+  "spec_fields": {
+    "quality": [
+      {
+        "field": "motor_type",
+        "type": "categorical",
+        "adjustments": {
+          "proprietary_hardwired_tube_motor": 2,
+          "proprietary_battery_tube_motor": 1,
+          "oem_somfy_tube_motor": 1,
+          "generic_tube_motor_branded": 0,
+          "generic_chinese_tube_motor": -1,
+          "retrofit_clamp_motor": -2
+        },
+        "notes": "THE key differentiator \u2014 equivalent of cartridge for faucets. Lutron proprietary motors (Sivoia QS) are purpose-built for their protocol. Somfy OEM motors (Sonesse 30/40/ULTRA 50) are the industry benchmark. Hunter Douglas uses proprietary motors (not Somfy per Pass 2). Budget brands use Dooya/A-OK/generic Chinese motors. Retrofit clamp motors (SwitchBot, AXIS Gear) are not true tube motors."
+      },
+      {
+        "field": "control_protocol",
+        "type": "categorical",
+        "adjustments": {
+          "proprietary_rf_wired_backbone": 2,
+          "proprietary_rf_wireless": 1,
+          "ble_mesh_proprietary": 0,
+          "zigbee_zwave": 0,
+          "wifi_tuya": -1,
+          "ir_bluetooth_point_to_point": -2
+        },
+        "notes": "Lutron Clear Connect + QS Link wired = gold standard (same as lighting control). Clear Connect wireless (Triathlon/Serena) = dedicated band, no WiFi interference. Hunter Douglas PowerView BLE mesh = adequate but 2.4 GHz shared spectrum. Zigbee (IKEA) = local control. WiFi/Tuya = cloud-dependent, router-dependent, congestion-prone."
+      },
+      {
+        "field": "cassette_housing_quality",
+        "type": "categorical",
+        "adjustments": {
+          "premium_aluminum_recessed": 2,
+          "aluminum_cassette_fascia": 1,
+          "standard_cassette": 0,
+          "open_roll_exposed": -1
+        },
+        "notes": "Lutron Sivoia QS/Palladiom: premium extruded aluminum cassettes, precise fit. Somfy-powered customs: aluminum cassettes from fabricator (quality varies). Hunter Douglas: proprietary headrails, generally good. Budget: open roll or plastic cassette."
+      },
+      {
+        "field": "mounting_hardware_quality",
+        "type": "categorical",
+        "adjustments": {
+          "precision_machined_metal": 1,
+          "stamped_metal_standard": 0,
+          "plastic_injection_molded": -1
+        },
+        "notes": "Lutron/premium custom: precision metal brackets, tight tolerances. Mid-range: stamped steel, adequate. Budget: plastic brackets, looser fit, more vibration noise."
+      },
+      {
+        "field": "source_traceability",
+        "type": "categorical",
+        "adjustments": {
+          "single_source_manufacturing": 1,
+          "multi_source_identified": 0,
+          "unknown_undisclosed": -1
+        },
+        "notes": "Lutron: Coopersburg, PA (identified). Somfy: Cluses, France HQ (identified). Hunter Douglas: Rotterdam, Netherlands HQ (identified). IKEA: varies. Budget WiFi: unknown Chinese OEM."
+      }
+    ],
+    "performance": [
+      {
+        "field": "noise_level_db",
+        "type": "categorical",
+        "adjustments": {
+          "ultra_quiet_under_40db": 2,
+          "quiet_40_45db": 1,
+          "standard_45_50db": 0,
+          "audible_over_50db": -1
+        },
+        "notes": "Lutron Sivoia QS hardwired: <40 dB (integrators specify for bedrooms/theaters). Lutron Triathlon: ~42 dB. Somfy Sonesse ULTRA: ~40-42 dB. Hunter Douglas PowerView: varies by shade type, ~45 dB typical. Serena: ~48 dB. Budget motors: 50+ dB."
+      },
+      {
+        "field": "max_shade_width_inches",
+        "type": "continuous_higher_better",
+        "adjustments": {
+          ">=144": 2,
+          "120-143": 1,
+          "96-119": 0,
+          "<96": -1
+        },
+        "notes": "Max width without center support or coupled shades. Lutron Sivoia QS: up to 144 inches (12 ft). Somfy Sonesse ULTRA 50: up to 138 inches. Hunter Douglas: varies by shade type (Silhouette up to 120 in). IKEA: limited to standard window sizes (~55 in max). Wider = more torque required = better motor."
+      },
+      {
+        "field": "integration_depth",
+        "type": "categorical",
+        "adjustments": {
+          "native_whole_home_scene_control": 2,
+          "native_automation_platform": 1,
+          "third_party_api_hub": 0,
+          "app_only_voice_assistant": -1
+        },
+        "notes": "Sivoia QS + HomeWorks: native scene integration with lighting/HVAC/AV \u2014 one button triggers multi-system response. PowerView + Control4/Savant: native integrations via drivers. Somfy + Control4/Savant: driver-based. IKEA: HomeKit/Alexa via DIRIGERA. WiFi: app + basic voice assistant."
+      },
+      {
+        "field": "group_scene_control",
+        "type": "categorical",
+        "adjustments": {
+          "multi_zone_conditional_astronomical": 2,
+          "multi_zone_scheduled_scenes": 1,
+          "basic_group_control": 0,
+          "individual_control_only": -1
+        },
+        "notes": "HomeWorks/RadioRA 3: conditional logic, astronomical timeclock (sunrise/sunset auto-adjust by GPS), daylight harvesting sensors. PowerView: scheduled scenes, room grouping. Somfy: RTS group control limited (one-way); io-homecontrol better. Budget: individual or basic timer."
+      },
+      {
+        "field": "battery_life_or_power",
+        "type": "categorical",
+        "adjustments": {
+          "hardwired_24v_unlimited": 2,
+          "solar_rechargeable_3_plus_years": 1,
+          "battery_rechargeable_1_3_years": 0,
+          "battery_disposable_under_1_year": -1
+        },
+        "notes": "Hardwired = no battery concerns. Solar panel + battery (Triathlon, some HD) = 3-5 year effective life with sufficient light. Rechargeable lithium packs (Serena, PowerView) = 1-2 years typical with daily use. IKEA: USB rechargeable, ~6-12 months. Disposable AA = worst."
+      }
+    ],
+    "durability": [
+      {
+        "field": "motor_cycle_life",
+        "type": "continuous_higher_better",
+        "adjustments": {
+          ">=20000": 2,
+          "15000-19999": 1,
+          "10000-14999": 0,
+          "<10000": -1
+        },
+        "notes": "Lutron Sivoia QS: 20,000+ cycles (industry-leading). Somfy Sonesse ULTRA: ~15,000-20,000 cycles. Hunter Douglas PowerView: varies, ~10,000-15,000. Serena/Caseta-class: ~10,000. IKEA: unspecified but 2-3 year real-world life suggests ~8,000. Budget Chinese: <8,000 with documented 12-24 month failures."
+      },
+      {
+        "field": "communication_reliability",
+        "type": "categorical",
+        "adjustments": {
+          "wired_backbone_rf_redundancy": 2,
+          "proprietary_rf_dedicated_band": 1,
+          "ble_mesh_or_zigbee": 0,
+          "wifi_cloud_dependent": -1
+        },
+        "notes": "Same pattern as lighting control. QS Link wired + Clear Connect = cannot lose signal. Clear Connect wireless = dedicated 900 MHz band, no WiFi interference. BLE mesh (PowerView) and Zigbee (IKEA) = adequate but shared 2.4 GHz. WiFi = router-dependent, cloud outages = bricked."
+      },
+      {
+        "field": "warranty_years",
+        "type": "threshold",
+        "adjustments": {
+          ">=8": 2,
+          "5-7": 1,
+          "3-4": 0,
+          "<3": -1
+        },
+        "notes": "Lutron: 8-year motor/component warranty (industry-leading). Hunter Douglas: 5-year motor, lifetime fabric. Somfy: 5-year motor warranty. IKEA: 1-year standard. Budget WiFi: 1-year or none. Warranty reality matters \u2014 Lutron/HD honor warranties through dealer network."
+      },
+      {
+        "field": "fabric_uv_durability",
+        "type": "categorical",
+        "adjustments": {
+          "premium_certified_uv_resistant": 1,
+          "standard_commercial_grade": 0,
+          "commodity_residential": -1
+        },
+        "notes": "Mermet/Serge Ferrari fabrics: GREENGUARD Gold certified, tested UV resistance, high color fastness. Hunter Douglas proprietary fabrics: generally premium with lifetime warranty. Coulisse/Phifer: commercial-grade durability. Budget: commodity polyester, fading within 2-3 years in direct sun."
+      },
+      {
+        "field": "parts_service_availability",
+        "type": "categorical",
+        "adjustments": {
+          "manufacturer_direct_plus_dealer_network": 1,
+          "dealer_network_only": 0,
+          "retail_replacement_only": -1
+        },
+        "notes": "Lutron: manufacturer direct + nationwide certified dealer network. Hunter Douglas: authorized dealer network (Gallery dealers). Somfy: dealer/fabricator network. IKEA: retail/online replacement only. Budget WiFi: Amazon replacement = buy a new one."
+      },
+      {
+        "field": "motor_serviceability",
+        "type": "categorical",
+        "adjustments": {
+          "field_replaceable_motor": 1,
+          "dealer_serviceable": 0,
+          "non_serviceable_disposable": -1
+        },
+        "notes": "Lutron Sivoia QS: motor modules can be field-replaced by dealer. Somfy: tube motors are designed to be swappable. Hunter Douglas: varies by shade type \u2014 some dealer-serviceable. IKEA/Budget: entire shade is the replacement unit. Retrofit motors: clip on/off, no service \u2014 just replace."
+      }
+    ]
+  },
+  "spec_adjustment_cap": 8,
+  "scoring_rules": [
+    "Score INDIVIDUAL PRODUCTS, not platforms. Lutron Sivoia QS roller shade is one scored product. Lutron Triathlon is a different scored product. They use the same platform (Clear Connect) but are different hardware with different capabilities.",
+    "Lutron shade hierarchy: Sivoia QS (hardwired) > Palladiom > Triathlon (battery/solar) > Serena (consumer). These are legitimately different products \u2014 different motors, different noise levels, different cycle life. Score separately per Rule 19.",
+    "Hunter Douglas products scored individually: Silhouette PowerView, Pirouette PowerView, Duette PowerView, Designer Roller PowerView. The shade TYPE affects motor reliability and noise because fabric weight/mechanism varies.",
+    "Somfy is scored through the fabricator/brand pairing. 'Somfy Sonesse via The Shade Store' is a different scored product than 'Somfy RTS via Budget Blinds' \u2014 fabrication quality and fabric selection are part of the product.",
+    "Motor noise (dB) is a CRITICAL spec. Integrators specify bedroom/theater shades based on noise. <40 dB (Sivoia QS) vs 48 dB (Serena) vs 50+ dB (budget) is a meaningful spread.",
+    "Battery vs hardwired is a legitimate quality differentiator \u2014 not just convenience. Hardwired motors have unlimited cycle life (no battery degradation), higher torque (larger shades), and zero maintenance. This is a durability signal.",
+    "WiFi/Tuya cloud dependency is a DURABILITY risk, not just a connectivity inconvenience. Cloud shutdown = permanently bricked shade. This is documented (Tuya outages 2023-2025). Score accordingly.",
+    "Retrofit motors (SwitchBot Blind Tilt, AXIS Gear) are fundamentally different products than integrated tube motors. They are not 'motorized shades' \u2014 they are 'motors attached to existing shades.' Score accordingly.",
+    "Fabric quality is reported but NOT the primary scoring differentiator. Two shades with the same motor/protocol but different fabrics should score similarly. Fabric is aesthetic \u2014 motor/protocol is the product.",
+    "Corporate structure = report finding. Lutron Electronics (Coopersburg, PA, private). Hunter Douglas (Rotterdam, 3G Capital acquired 2022). Somfy SA (Cluses, France, public). IKEA (Inter IKEA, Leiden, Netherlands)."
+  ],
+  "source_pools": {
+    "S": {
+      "weight": 1.5,
+      "sources": [
+        "VACANT \u2014 No independent, methodology-documented comparative testing source for motorized shades. No teardown channel exists. No quantified reliability database. CEDIA integrators and window covering dealers provide the closest professional consensus but are commercially interested parties."
+      ]
+    },
+    "A": {
+      "weight": 1.0,
+      "sources": [
+        "CEDIA (Custom Electronic Design & Installation Association) \u2014 certified integrator consensus",
+        "Window Covering Manufacturers Association (WCMA) \u2014 industry standards body",
+        "Lutron technical documentation (system specs, motor specs, load charts)",
+        "Somfy Professional technical documentation",
+        "Hunter Douglas dealer technical resources",
+        "CE Pro / Residential Systems Magazine (trade publications for professional integrators)"
+      ]
+    },
+    "B": {
+      "weight": 0.75,
+      "sources": [
+        "r/homeautomation (active smart home community, installer participation)",
+        "r/smarthome (consumer + installer discussions)",
+        "AVS Forum motorized shade threads",
+        "Window Fashion VISION (trade publication)",
+        "Professional integrator YouTube channels and blogs (Atlantic Stereo, TSP Smart Spaces)",
+        "The Shade Store product specialists and reviews"
+      ]
+    },
+    "C": {
+      "weight": 0.4,
+      "sources": [
+        "Houzz motorized shade threads",
+        "Individual Amazon/retailer product reviews",
+        "IKEA community forums",
+        "Blog posts and comparison articles",
+        "Consumer YouTube reviews (non-professional)"
+      ]
+    }
+  }
+}

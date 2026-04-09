@@ -1,0 +1,390 @@
+{
+  "product_name": "White Ice Granite",
+  "product": "White Ice Granite",
+  "slug": "white_ice_granite",
+  "category": "countertops",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "General Granite Industry / Fabricator Expert Consensus (Geological Composition)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite is an igneous rock with interlocking crystalline structure of quartz, feldspar, and mica, providing exceptional density, strength, and scratch resistance. This structure distributes stress throughout the material, making it less prone to cracking than softer stones like marble or limestone.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed expert-level geological and trade description of material composition directly relevant to durability and performance scoring.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Mohs Hardness Scale / Industry Standard Testing Reference",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite rates 6–7 on the Mohs hardness scale, resisting scratches from kitchen knives and cookware. Quartz mineral provides primary hardness; feldspar at ~6 is slightly more vulnerable. Hardness does not address impact resistance or chipping risk at edges.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published industry standard testing data with clear performance metrics applicable to scratch resistance scoring.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Laboratory Heat Resistance Testing (Trade Publication Reference)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Laboratory testing confirms granite withstands up to 480°F under normal conditions; some varieties tolerate 800–1,000°F. No resin binders mean no softening or discoloration from heat. Extreme temperature fluctuations are a theoretical concern but a rarely documented real-world failure mode.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Laboratory testing data with clear specifications supporting heat performance scoring.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "ASTM C97 Standard / Water Absorption Testing",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "ASTM C97 specifies granite water absorption at 0.01–0.8% by weight; commercial dimensional stone requires ≤0.4%. Brazilian granite tends to be more porous than Indian granite; lighter colors have higher porosity than darker varieties, requiring more frequent sealing.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published ASTM standard with quantified absorption data directly relevant to porosity, sealing frequency, and performance scoring.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Professional Stone Specialists / Fabricator Guidance (Density and Structural Characteristics)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite density is 2.54–2.66 g/cm³ with 0.1–4% porosity depending on variety. High density supports durability but requires reinforced cabinetry. Thickness uniformity during fabrication is critical; variations create weak points vulnerable to cracking during transport or use.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Fabricator-sourced technical specifications with clear structural performance implications.",
+      "topics": [
+        "specs",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Consumer Reports Laboratory Testing (Countertop Materials)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Consumer Reports tested granite across five dimensions: stain resistance (20 substances), cutting resistance, heat tolerance (400°F oil pot), impact resistance, and abrasion resistance. Granite scored at top levels, surviving spills, hot pots, knives, and impacts comparably to quartz and superior to marble.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Known expert comparison source with structured, multi-dimensional testing methodology — qualifies for Pool S.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Professional Stone Specialists / Fabricators (Expected Lifespan)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Professional fabricators cite granite lifespan exceeding 100 years with proper care. Granite can be refinished multiple times, potentially extending functional life indefinitely. Quartz offers 50–75 years; marble 50–100 years with meticulous care. Granite represents superior long-term value.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional guidance with comparative durability data supporting lifespan scoring.",
+      "topics": [
+        "durability",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Professional Fabricators (Chipping, Cracking, and Steel Rod Reinforcement Issue)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite installed late 1980s–early 2000s using steel rod reinforcement experiences rust-induced cracking as steel oxidizes and expands, producing straight-line cracks near sinks. Modern fabricators use fiberglass or carbon fiber alternatives. Chips occur most at edges from heavy impact.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert fabricator-identified recurring physical defect pattern with documented historical failure mode — corroborated by multiple professional sources.",
+      "topics": [
+        "durability",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Professional Stone Restoration Specialists (Etching and Acid Damage)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite can etch from acidic/alkaline substances, especially lighter-colored or high-feldspar varieties. Etching appears as dull spots; staining as darker absorbed marks. Citrus, vinegar, wine, and acidic cleaners are common causes. Remediation differs: etching requires polishing; staining requires poultice treatment.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional restoration guidance with clear distinction between failure modes relevant to performance scoring.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Industry / Fabricator Guidance (Sealing Frequency and Methods)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Industry consensus: reseal granite every 1–3 years depending on porosity, color, and usage. High-performance penetrating sealers can last up to 15 years. Water drop test determines seal integrity. Lighter-colored granite requires more frequent sealing. Solvent-based vs. water-based sealants differ in longevity.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published expert maintenance protocol with specific sealing intervals and testing methods — directly relevant to warranty and service scoring.",
+      "topics": [
+        "warranty",
+        "service",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Professional Stone Specialists (Daily Cleaning Protocol)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "pH-neutral cleaners, stone-specific soap, or diluted mild dish soap recommended. Ammonia, bleach, vinegar, and acidic degreasers attack sealing layers and can etch stone. Immediate spill cleanup critical. Weekly and monthly granite-specific conditioning recommended for high-traffic areas.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert maintenance guidance with clear product prohibitions relevant to performance and durability scoring.",
+      "topics": [
+        "performance",
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Professional Stone Specialists (Water Damage and Moisture Management)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Water with dissolved minerals or iron content causes rust-like stains especially on darker granites. Sink area caulking integrity is critical. High-humidity climates should maintain 30–50% indoor humidity. Dark spots around sinks signal failing seal requiring immediate remediation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional guidance on documented moisture failure mode with clear diagnostic indicators.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Professional Stone Restoration Specialists (Stain Removal and Poultice Treatment)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Poultice treatment (absorbent paste with solvent, covered 12–24 hours) addresses absorbed stains. Oil-based stains may require multiple applications. Light etching can be remediated with stone-specific polishing powder. Deep damage may require professional honing or resurfacing.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert remediation protocol from professional restoration specialists with actionable and specific guidance.",
+      "topics": [
+        "service",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Kitchen Remodeling / Home Value Research (Resale Value Data)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Kitchen remodeling data consistently shows granite countertops increase property values and appeal to homebuyers seeking natural stone. Granite upgrade demonstrably increases resale price; worn laminate replacement with granite is often necessary for competitive market positioning.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published market research data on resale value impact — relevant to value scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Consumer Reports (Marble vs. Granite Comparative Testing)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Consumer Reports testing showed marble failed dramatically: 11 of 20 test substances left permanent stains after 24 hours. Granite outperformed marble across all major categories. Marble recommended only for low-traffic secondary surfaces; explicitly cautioned against for primary kitchen countertops.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Known structured expert testing with quantified comparative results — Pool S source with direct scoring value.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Trade Publication / Material Comparison (Granite vs. Quartz)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Quartz (90% ground quartz + resin binders) is non-porous and requires no sealing, offering lower maintenance than granite. However, quartz suffers thermal damage above ~300°F and cannot be refinished like granite. Quartz costs $55–$120/sq ft installed; comparable to mid-range granite pricing.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published trade comparison with quantified pricing, performance specs, and material testing data.",
+      "topics": [
+        "performance",
+        "durability",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Trade Publication / Material Comparison (Granite vs. Quartzite)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Quartzite rates ~7 Mohs, harder than most granite; lower porosity means less frequent sealing. However, extreme hardness creates brittleness and higher chipping risk from impacts. Fabrication costs run $20–$30/sq ft more than granite. Total installed cost $60–$120+/sq ft.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published material comparison with specific cost and performance data supporting value and durability scoring.",
+      "topics": [
+        "durability",
+        "value",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Homeowner Forum Discussions (Sealing Frustration and Fingerprinting)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Some homeowners report frustration with granite's maintenance requirements: regular sealing necessity, vulnerability to staining despite sealing, and visible fingerprinting on polished finishes especially with darker colors. Surprise at real-world maintenance demands vs. misconceptions is a recurring theme.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum complaints about maintenance experience and expectation mismatch; no corroborated physical defect pattern — classified report_only as general usage experience rather than specific product failure.",
+      "topics": [
+        "service",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "EPA Evaluation (Radon and Radiation from Granite Countertops)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "EPA determined granite countertops are extremely unlikely to increase annual radiation doses above normal background radiation levels. Radon from granite is diluted by normal home ventilation. Soil radon beneath homes is cited as far more significant public health risk than granite building materials.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Federal regulatory body published assessment with clear safety determination — relevant to quality and safety scoring.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "General Countertop Pricing Data (Installation Cost Reference)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite kitchen installations typically range $3,000–$5,500+ total; $45–$100+/sq ft installed. Laminate ranges $10–$40/sq ft. Granite's higher initial cost offset by 100+ year lifespan versus laminate's 10–15 year lifespan requiring multiple replacements over granite's lifetime.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published pricing data from dealer/trade sources supporting value and total cost of ownership scoring.",
+      "topics": [
+        "value"
+      ]
+    }
+  ],
+  "verified_specs": {
+    "material_type": "Natural igneous stone",
+    "primary_minerals": "Quartz, feldspar, mica",
+    "mohs_hardness": "6–7",
+    "density_g_per_cm3": "2.54–2.66",
+    "water_absorption_astm_c97": "0.01–0.8% by weight; commercial standard ≤0.4%",
+    "porosity_range": "0.1–4% depending on variety",
+    "moisture_expansion": "~0.005%",
+    "heat_tolerance_standard": "Up to 480°F (249°C)",
+    "heat_tolerance_high_spec": "Up to 800–1,000°F for some varieties depending on thickness and composition",
+    "scratch_resistance": "Mohs 6–7; resists standard kitchen knife use",
+    "sealing_frequency_standard": "Every 1–3 years",
+    "sealing_frequency_high_performance_sealer": "Up to 15 years",
+    "typical_installed_cost_per_sqft": "$45–$100+",
+    "typical_kitchen_installation_total": "$3,000–$5,500+",
+    "expected_lifespan": "100+ years with proper maintenance",
+    "u_factor": "not_available",
+    "shgc": "not_available",
+    "air_infiltration": "not_available",
+    "frame_material": "not_available",
+    "glass": "not_available",
+    "dp_rating": "not_available",
+    "stc": "not_available",
+    "notes": "Specs reflect general granite category. White Ice Granite is a lighter-colored variety originating from Brazil, meaning it is expected to fall on the higher end of porosity ranges and require more frequent sealing than darker granite varieties."
+  },
+  "red_flags": [
+    {
+      "type": "Material Defect — Historical Manufacturing Practice",
+      "description": "Granite countertops installed from the late 1980s through early 2000s using steel rod reinforcement are at significant risk of developing characteristic straight-line cracks near sink and cooktop areas. Steel rods corrode when exposed to moisture seeping through caulk and seams, expand as they oxidize, and crack the granite from within. This is a confirmed, documented failure mode with corroborating professional pattern recognition.",
+      "severity": "high",
+      "affected_population": "Granite installations from approximately late 1980s to early 2000s",
+      "resolution": "Modern fabricators use fiberglass or carbon fiber reinforcement; older installations should be inspected at sink seams and caulking"
+    },
+    {
+      "type": "Performance Concern — White Ice Specific (Lighter Color / Higher Porosity)",
+      "description": "White Ice Granite, as a lighter-colored granite, is expected to exhibit higher porosity than darker granite varieties based on established industry guidance. This means more frequent sealing, greater staining vulnerability, and higher sensitivity to acidic substances including common kitchen foods and cleaners.",
+      "severity": "moderate",
+      "affected_population": "All White Ice Granite installations",
+      "resolution": "Establish rigorous sealing schedule (potentially annual for high-traffic kitchen use); use pH-neutral cleaners only; immediate spill cleanup protocol"
+    },
+    {
+      "type": "Safety Concern — Radon (Resolved / Non-Issue)",
+      "description": "Consumer concern exists about radon gas emission from granite countertops due to naturally occurring uranium, thorium, and radium trace elements. EPA assessment explicitly determined granite countertops are extremely unlikely to increase radiation doses above normal background levels. Soil radon is the significantly greater risk.",
+      "severity": "low — not a substantiated concern based on EPA evaluation",
+      "affected_population": "General public concerned about granite radiation",
+      "resolution": "EPA guidance confirms granite countertops do not pose meaningful radon risk; standard home radon testing should focus on soil/foundation sources"
+    },
+    {
+      "type": "Sourcing / Quality Variability Concern",
+      "description": "Significant variation in porosity, density, and performance exists between different geographic sources and even within slabs from the same quarry. Brazilian granite (which includes many White Ice varieties) is identified as more porous than Indian granite, creating performance and maintenance variability that is difficult to assess without slab-specific testing.",
+      "severity": "moderate",
+      "affected_population": "White Ice Granite buyers sourcing from Brazilian quarries",
+      "resolution": "Request porosity testing or water absorption data from fabricator; perform water drop test on sample slab before purchase commitment"
+    }
+  ],
+  "auto_classification_summary": {
+    "total": 20,
+    "score": 19,
+    "report_only": 1,
+    "quarantine": 0,
+    "uncertain": 0
+  }
+}

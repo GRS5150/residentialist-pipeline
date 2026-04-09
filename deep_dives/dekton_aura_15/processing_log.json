@@ -1,0 +1,37 @@
+{
+  "product": "Dekton Aura 15",
+  "operation_type": null,
+  "slug": "dekton_aura_15",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 92886
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 63573
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 44,
+      "cost_estimate": 0.219291
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/dekton_aura_15_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-27T22:34:39.929Z"
+}

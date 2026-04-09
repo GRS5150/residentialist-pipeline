@@ -1,0 +1,760 @@
+{
+  "product": "Caesarstone Calacatta Maximus",
+  "report_generated": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Caesarstone Official Blog (Calacatta Maximus Launch)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "October 2020 marketing announcement introducing Calacatta Maximus as part of the Supernatural Collection. Highlights directional veining alignment across multiple slabs, soft greige veins with copper-gold outlines on white background, available in polished and natural finishes. High bias; factual specs considered reliable.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; promotional launch material with inherent bias toward positive product presentation.",
+      "topics": [
+        "quality",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Caesarstone Technical Data Manual",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Engineering documentation providing fabrication specifications including edge radii minimums of 3-6mm, cutout corner radii of 10mm minimum, prohibition on polishing seams, pattern matching guidance for slab continuity, and batch number color variation warnings requiring visual confirmation before cutting.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical documentation with specific fabrication specs, third-party tested laboratory data, and detailed engineering requirements constituting structured product performance data.",
+      "topics": [
+        "specs",
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "Caesarstone Residential Lifetime Warranty Document",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Legal warranty document confirming lifetime coverage for original residential owner but explicitly excluding chips, scratches, heat damage, thermal shock, seam appearance, seam performance, and improper use. Labor, removal, and reinstallation costs excluded. Requires Caesarstone-certified fabricator installation.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal document establishing warranty terms and exclusions. Contains critical consumer protection information but structured as legal instrument rather than performance scoring data; warranty exclusions are policy facts, not product quality scores.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "ASTM C97/C880/C1028 Test Results (Caesarstone)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Laboratory testing confirming Mohs hardness 7, flexural strength 6,500-10,770 psi, water absorption 0.02%, bulk specific gravity 2.411 g/cm³, stain resistance score 32-48 per ANSI Z 124.6, 10,000 scrub cycles passed, 1-3% light reflectance loss after 25 cleaning cycles, chemical resistance pass across 16 substances.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Standardized laboratory testing with quantified results across multiple ASTM and ANSI performance categories; constitutes structured scoring from independent testing methods.",
+      "topics": [
+        "durability",
+        "performance",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "GREENGUARD Gold Certification",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Third-party independent certification confirming Caesarstone Calacatta Maximus meets most stringent GREENGUARD indoor air emission standards. TVOC concentrations confirmed well below 0.22 mg/m³ threshold. Validates low chemical emissions for residential indoor air quality compliance.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Independent third-party certification with structured emissions testing against defined thresholds; constitutes expert comparison source with structured scoring criteria.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Wikipedia (Caesarstone)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "General reference covering Caesarstone company history, founding in 1987, role in commercializing engineered quartz globally, corporate structure, and product lines. Medium credibility general reference; useful for contextual corporate background but not product performance data.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "General reference source providing corporate background only; no product performance data, testing, or consumer experience relevant to scoring.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Houzz Forum: Statuario Maximus Discussion",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Crowd-sourced forum discussion primarily focused on aesthetic interest and design awareness for marble-inspired engineered quartz options including Calacatta variants. Low engagement volume suggesting modest market penetration or low complaint-driven activity. No significant performance issues raised.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum discussion centered on aesthetic preferences and design integration rather than physical product defects; no corroborating defect pattern identified.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz Forum: Caesarstone Scratches (1 Month Post-Installation)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Single homeowner reporting scratches and chips on Caesarstone countertops within one month of installation, expressing frustration that surface scratches and chips like any other surface. Suggests consumer expectation mismatch with scratch-resistance marketing. No corroborating pattern identified.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum complaint with no corroborating pattern; likely reflects consumer expectation mismatch rather than material defect. Isolated anecdote insufficient for scoring.",
+      "topics": [
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz Forum: Edge Profile Chipping Discussion",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum thread involving fabricator professional input discussing edge profile selection and chipping vulnerability in quartz countertops. Technical discussion aligns with Caesarstone fabrication manual specifications regarding minimum edge radii requirements for chip resistance. Medium credibility due to professional participation.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Discussion primarily addresses installation and fabrication technique quality rather than inherent product material defects; installation quality topic per classification rules.",
+      "topics": [
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz Forum: 10-Year Quartz Performance",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Long-term owner reporting quartz countertops still look gorgeous after 10+ years with proper maintenance using gentle cleaning and avoidance of harsh chemicals. Validates manufacturer durability claims through extended real-world use experience. Medium credibility as extended-use validation.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing long-term physical product performance over 10+ years with consistent positive experience constitutes corroborating pattern supporting durability claims; qualifies as physical performance observation.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Consumer Reports Quartz Countertop Testing",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Independent laboratory testing organization providing comparative performance data for quartz countertop materials including Caesarstone. Consistently cited alongside Cambria and Silestone as premium tier. High credibility independent testing source for comparative brand performance assessment.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Known expert comparison source with structured testing methodology; independent laboratory with comparative scoring across brands.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Caesarstone vs. Silestone Comparison Article",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Detailed vendor-neutral comparison article analyzing Caesarstone against Silestone across feature sets, performance characteristics, and brand positioning. Notes Caesarstone's 40+ color range versus Silestone's 90+ options. Medium credibility as brand-positioning analysis without independent testing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with comparative specs and brand analysis from apparently vendor-neutral perspective; contains feature and performance comparison data meeting score criteria.",
+      "topics": [
+        "quality",
+        "value",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Cambria vs. Caesarstone vs. Silestone Guide",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Comprehensive buyer guide comparing three premium quartz brands on features, warranty terms, and pricing. Caesarstone priced $55-100 per square foot installed; Cambria $65-120; Silestone $50-100. Notes minimal meaningful performance differentiation between premium brands in laboratory testing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with pricing data, warranty comparison, and performance assessment across competing products; constitutes comparative review with specs meeting score criteria.",
+      "topics": [
+        "value",
+        "warranty",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "YouTube: Caesarstone Chip Repair Tutorial",
+      "url": "not_available",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional fabricator instructional video demonstrating chip repair procedures using color-matched epoxy or resin fillers. Notes that lighter patterned designs like Calacatta Maximus allow near-invisible repairs due to veining pattern disguising repair lines. Medium credibility professional demonstration.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published instructional content from professional fabricator demonstrating repair procedures with product-specific guidance; contains documented repair performance data.",
+      "topics": [
+        "durability",
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Caesarstone Fabrication Manual (Common Mistakes)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Technical manufacturer PDF documenting prohibited fabrication practices including polishing seams or surface to remove scratches, and required practices for pattern matching, slab continuity, and color batch verification. Establishes that factory finish is integral to visual design and cannot be restored through field polishing.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Technical specification document with engineering-level guidance on fabrication requirements; very high credibility technical spec with direct product performance implications.",
+      "topics": [
+        "specs",
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Heat Resistance Lab Testing (Quartz)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Standardized thermal resistance testing per NEMA standards confirming: boiling water (212°F) contact produces no visible surface effect; 356°F/180°C for 20 minutes produces no color or finish change. Documents 150°F resin damage threshold as practical use limitation distinct from laboratory test conditions.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published laboratory testing data with standardized NEMA methodology confirming specific temperature tolerance thresholds; constitutes published testing data meeting score criteria.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "SlabWise Quartz Brand Comparison (2026)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Current 2026 fabricator survey-based brand ranking positioning Caesarstone and Cambria as highest-rated for slab quality and consistency. Silestone valued for pricing and broader retailer availability. Pricing and warranty comparison data current. Medium credibility as current market data buying guide.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published buying guide with current pricing data, fabricator survey results, and structured brand comparison; constitutes published review with specs and comparative data.",
+      "topics": [
+        "quality",
+        "value",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Stock Titan SEC Filing Analysis (Caesarstone 2025 Annual Report)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "SEC annual filing analysis documenting 618 silicosis lawsuits globally (40 Israel, 151 Australia, 427 US), 10.4% revenue decline 2024-2025, management warning of potential solvency risk from litigation, limited insurance coverage disputes, and transition to fully outsourced manufacturing eliminating all company-owned facilities.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal and financial risk information from SEC regulatory filing. Per classification rules, legal/lawsuit information must always be classified as report_only. Also contains corporate stability concerns relevant to warranty enforcement.",
+      "topics": [
+        "legal",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Caesarstone Production Closure Announcement",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official 2025 corporate announcement confirming closure of last company-owned manufacturing plant and transition to fully outsourced third-party production model. Raises quality consistency concerns as centralized manufacturing quality control is eliminated in favor of distributed manufacturing partners.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Corporate operational change announcement affecting future product consistency and quality control; relevant to long-term quality assessment but describes manufacturing restructuring rather than current product performance.",
+      "topics": [
+        "quality",
+        "service",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Top Caesarstone Lawsuit Settlements Article",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Compiled litigation summary documenting: $52.4 million Los Angeles County adverse verdict (August 2024, 15% Caesarstone liability); $26 million Orange County fatal silicosis settlement; $6-8 million San Bernardino County settlements; ongoing class action litigation with estimated tens-of-millions settlement values. All claims relate to worker fabrication exposure.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information per classification rules must always be report_only. Documents occupational silicosis litigation and settlement values based on court records; not consumer product safety issue for installed products.",
+      "topics": [
+        "legal",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Sinno Stone: Caesarstone vs. Silestone (Malaysia Regional Comparison)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Regional Malaysian market comparison covering pricing, availability, and sustainability positioning of Caesarstone versus Silestone. Low-medium credibility due to regional market focus; pricing and availability data may not apply to North American markets. Limited relevance to US/AU consumer assessment.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Regional market comparison with limited applicability to primary target markets; provides contextual comparison but insufficient regional relevance for scoring primary product assessment.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "MSI Surfaces: Quartz vs. Engineered Stone Article",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Manufacturer-produced comparison article addressing material composition differences between quartz and engineered stone products, performance claims, and positioning data. Medium credibility given manufacturer context; useful for technical composition comparisons but carries inherent competitive bias.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer-produced comparison content with inherent competitive bias; useful for technical context but classified as sponsored/manufacturer source requiring caution for scoring.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Ventura Stone: Neolith vs. Caesarstone Comparison",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer comparison examining Neolith sintered stone against Caesarstone quartz on durability, maintenance requirements, and thermal properties. Notes superior heat resistance of sintered materials versus quartz resin limitations. Medium credibility as retailer perspective with potential upsell motivation.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with technical performance differentiation data including thermal properties and durability characteristics; constitutes published review with testing-adjacent performance data.",
+      "topics": [
+        "durability",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Distinctive Countertops: Cambria vs. Silestone vs. Caesarstone",
+      "url": "not_available",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Comprehensive retailer-perspective comparison across design options, warranty terms, sustainability claims, and quality positioning for three premium quartz brands. Notes Cambria's 180+ colors with rich veining depth versus Caesarstone's 40+ focused on marble aesthetics. Medium credibility retailer perspective.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with comparative design, warranty, and quality data across competing premium brands; structured comparison with sufficient detail for scoring contribution.",
+      "topics": [
+        "quality",
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Karin Kirk: Geology and Stone Properties Expert Analysis",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Geologist and stone expert providing scientific analysis of countertop material testing methodology and property interpretation. Distinguishes natural quartzite (99% quartz, porous) from engineered quartz (up to 93% quartz, nonporous via resin binding). Very high credibility scientific expert with geology credentials.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Credentialed geology expert with scientific methodology for testing and property interpretation; constitutes expert source with structured analytical approach qualifying for Pool S treatment.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Stone Forensics: Hidden Dangers of Sealers (PFAS Analysis)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Stone care expert analysis documenting PFAS contamination risks in natural stone sealers with health implications including hormone disruption and immune system effects. Notes Caesarstone requires no sealers, eliminating this exposure pathway. High credibility specialized expertise in stone care chemistry.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed stone care expert analysis with specific health chemistry data; provides comparative health advantage documentation for engineered versus natural stone. Published specialized expertise.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Arizona Tile: Hiding Quartz and Granite Seams",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator guidance on seam concealment strategies for quartz and granite installations, establishing industry standards for acceptable seam appearance. Directly relevant to Calacatta Maximus value proposition of seamless veining continuation. High credibility fabricator expertise source.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation technique and seam concealment quality rather than inherent product material performance; per classification rules, installation quality topic classified as report_only.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Granite Guy Inc.: Edge Profile Selection Guide",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator opinion piece based on 10,000+ installations recommending eased edge profiles with 90% adoption rate among professionals for stress reduction and chip resistance. Directly supports Caesarstone fabrication manual specifications for minimum edge radii. High credibility with large installation dataset.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed fabricator professional with large dataset (10,000+ installations) providing structured assessment of edge profile performance; constitutes expert opinion with empirical basis.",
+      "topics": [
+        "durability",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Angi: Countertop Repair Cost Analysis",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Service marketplace analysis of countertop repair pricing by material type, documenting quartz chip and scratch repair costs in $200-500 range. Provides market pricing data for repair cost assessment. Medium credibility as marketplace aggregated data with potential upward pricing bias.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with specific pricing data from marketplace aggregation; constitutes published review with quantified cost data relevant to long-term value assessment.",
+      "topics": [
+        "value",
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Gelville: Quartz Chip and Scratch Repairability Analysis",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Specialized repair expertise assessment of quartz repairability conditions, noting patterned lighter colors like Calacatta Maximus allow near-invisible chip repairs due to veining disguising repair lines. Documents heat damage as generally non-restorable, DIY scratch repairs risk creating dull spots.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Specialized fabricator repair expertise with product-specific assessment of repairability conditions and limitations; constitutes credentialed professional analysis with structured repair performance data.",
+      "topics": [
+        "durability",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Houzz Forum: Caesarstone Long-Term Owner (Stain/Scratch/Heat Resistance Satisfaction)",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner forum post describing Caesarstone countertops as practical, durable, stain/scratch/heat resistant and adding timeless classic statement to kitchen design. Reports satisfaction with both performance and aesthetics over extended use period. Corroborates laboratory performance data.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical product performance characteristics over extended use period; corroborates laboratory testing patterns across multiple performance dimensions, qualifying as corroborated physical performance report.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Houzz Forum: Seam Appearance Concerns Post-Installation",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "User reporting visible gaps and uneven seams shortly after professional installation, raising questions about fabricator adherence to Caesarstone's seam-polishing prohibition. Highlights performance variation across installation contexts. Suggests warranty exclusion for seam appearance creates consumer risk.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Report addresses installation quality and fabricator execution rather than inherent product material defect; per classification rules, installation quality issues classified as report_only.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Forum: Silestone 10-Year No-Chip Sink Edge Report",
+      "url": "not_available",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "Owner reporting Silestone quartz used over 10 years without chips around sink edges, with easy cleanup using dish soap and water. Provides comparative long-term durability baseline for premium engineered quartz category. Medium credibility as extended-use validation of competing product in same category.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Source discusses competing product (Silestone) rather than Caesarstone Calacatta Maximus specifically; provides category context only, not direct product assessment.",
+      "topics": [
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Health Product Declaration (HPD): Caesarstone Quartz Composition",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "HPD documentation confirming quartz aggregates in finished product are encapsulated in polymer matrix, eliminating form-specific mineral hazards in installed product. ASTM G21-15 fungal resistance testing confirmed. Distinguishes consumer installed-product safety from occupational fabrication dust hazards.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical documentation with standardized test results (ASTM G21-15) and HPD certification data; constitutes independent testing documentation meeting score criteria.",
+      "topics": [
+        "specs",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Bill Millholland / Case Design-Build (Executive VP Statement)",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Executive VP of prominent design-build firm Case noting market trend toward contemporary kitchen aesthetics favoring clean quartz lines, particularly marble-veined designs combining visual luxury with practical maintenance profile. Professional market context validation for Calacatta Maximus positioning.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed design-build industry professional providing expert market assessment of product category positioning; constitutes professional opinion from named credentialed source.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "High consistency; brand-leading reputation among fabricators; ranked top three in North America",
+      "review": "Laboratory performance meets or exceeds specifications across all standardized tests",
+      "forum": "Generally positive; 10+ year owners report surfaces still perform excellently",
+      "agreement_level": "Strong consensus: Premium quality product with well-validated performance"
+    },
+    {
+      "topic": "Durability vs. Natural Stone",
+      "expert": "Superior to marble; comparable to granite; polymer binders create superior stain resistance",
+      "review": "Mohs 7 hardness confirmed; flexural strength 6,500-10,770 psi exceeds natural stone",
+      "forum": "Scratch and chip resistance reports align with specifications; some expectation mismatch",
+      "agreement_level": "Strong consensus: Significantly outperforms marble; comparable to granite in most metrics"
+    },
+    {
+      "topic": "Heat Resistance",
+      "expert": "Requires trivets; resin component limited to ~150°F before damage risk",
+      "review": "Lab: 356°F/20min no damage; 212°F boiling water no damage; practical threshold is resin degradation",
+      "forum": "Users report permanent heat damage from direct pan placement; trivet use not consistently maintained",
+      "agreement_level": "Strong consensus: Heat resistant but not heat-proof; behavioral adaptation required"
+    },
+    {
+      "topic": "Stain Resistance",
+      "expert": "Color-dependent variability noted; nonporous composition provides fundamental stain barrier",
+      "review": "ANSI Z 124.6: Score 32-48/64; some colors require scrubbing for certain staining substances",
+      "forum": "Users generally report easy cleanup; lighter colors show staining marks more visibly",
+      "agreement_level": "Strong consensus: Excellent stain resistance overall with color-dependent variability caveat"
+    },
+    {
+      "topic": "Scratch Resistance",
+      "expert": "Mohs 7 hardness protective against most everyday abrasion",
+      "review": "10,000 scrub cycles passed with no significant degradation",
+      "forum": "Reports of scratches within 1 month post-installation suggest expectation mismatch; not scratch-proof",
+      "agreement_level": "Moderate consensus: Good resistance in practical use; absolute scratch-proof claim is misleading"
+    },
+    {
+      "topic": "Impact Resistance / Chipping",
+      "expert": "Edge profile fabrication critical; minimum 3-6mm radii required for chip resistance",
+      "review": "Flexural strength 6,500-10,770 psi; structural integrity dependent on fabrication quality",
+      "forum": "Chips reported; edge profile quality significantly affects chip vulnerability in real installations",
+      "agreement_level": "Strong consensus: Good resistance when properly fabricated; fabricator skill is critical variable"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Lifetime warranty for original owner; certified fabricator installation required",
+      "review": "Warranty explicitly excludes chips, scratches, heat damage, seam appearance—common real-world failure modes",
+      "forum": "Significant consumer frustration with exclusion discoveries; gap between marketing and actual coverage",
+      "agreement_level": "Strong consensus: Lifetime warranty exists but material exclusions substantially limit practical coverage"
+    },
+    {
+      "topic": "Material Safety",
+      "expert": "No consumer-facing hazard in installed product; fabrication silica dust is occupational hazard only",
+      "review": "GREENGUARD Gold certified; TVOC well below 0.22 mg/m³; fungal resistance confirmed ASTM G21-15",
+      "forum": "No owner safety concerns reported; fabrication hazards not on residential consumer radar",
+      "agreement_level": "Strong consensus: Safe for residential consumer use in installed form; occupational hazard distinct"
+    },
+    {
+      "topic": "Repairability",
+      "expert": "Chips repairable with color-matched epoxy; factory finish cannot be repolished; heat damage not reversible",
+      "review": "Cannot be ground and repolished like natural stone; heat-damaged resin chemically altered permanently",
+      "forum": "Professional repairs reduce visibility on patterned designs; DIY attempts risk worsening damage",
+      "agreement_level": "Moderate consensus: Improvable cosmetically but perfect restoration not achievable for all damage types"
+    },
+    {
+      "topic": "Seamless Veining Feature",
+      "expert": "Fabrication manual requirements for pattern matching and batch verification are technically demanding",
+      "review": "No published independent testing on seam durability; warranty explicitly excludes seam appearance",
+      "forum": "Variable seam visibility reported; achievement of seamless appearance highly dependent on fabricator skill",
+      "agreement_level": "Weak consensus: Innovative design capability but execution variability creates inconsistent real-world outcomes"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Lifetime coverage duration for original residential owner exceeds many competing quartz brands offering 10-15 year warranties",
+      "Coverage applies to manufacturing defects when installed by certified fabricators, providing meaningful protection for true material failures",
+      "Warranty is transferable within single-family residential context for original occupant, providing long-term assurance"
+    ],
+    "underperforms_expectations": [
+      "Chips explicitly excluded despite being the most common reported damage type in real-world kitchen use",
+      "Scratches explicitly excluded despite scratch resistance being a primary marketing claim",
+      "Heat damage explicitly excluded despite heat resistance limitations being a fundamental material property of engineered quartz",
+      "Seam appearance explicitly excluded, creating particular risk for Calacatta Maximus installations relying on seamless veining as primary value proposition",
+      "Labor, removal, and reinstallation costs excluded, meaning even covered claims require significant homeowner out-of-pocket expense",
+      "Coverage void if installation by non-Caesarstone-certified fabricator, placing verification burden on consumer before damage occurs"
+    ],
+    "surprises": [
+      "Thermal shock explicitly excluded as separate category from general heat damage, covering rapid temperature change scenarios",
+      "Warranty covers repairs or replacements at Caesarstone's discretion only—consumer cannot elect cash settlement",
+      "Fabricator installation errors are excluded from warranty, but fabricator quality is the primary variable affecting seam appearance outcomes",
+      "Corporate financial instability (silicosis litigation settlements, revenue decline, manufacturing outsourcing) creates unquantified risk that warranty enforcement capacity may diminish over product lifetime",
+      "Warranty terms narrowly define 'defect' to exclude most practical failure modes, creating significant gap between colloquial and legal meaning of warranty coverage"
+    ]
+  },
+  "verified_specs": {
+    "material_composition": "Up to 93% natural crushed quartz minerals by weight, combined with high-quality polyester resins and pigments",
+    "manufacturing_process": "Compacted under intense vibration, vacuum, and pressure into dense nonporous slabs",
+    "mohs_hardness": "7",
+    "flexural_strength_psi": "6,500 to 10,770 psi",
+    "water_absorption": "0.02%",
+    "bulk_specific_gravity": "2.411 gr/cm³",
+    "standard_thickness": "3/4 inch (20mm)",
+    "standard_slab_size": "120 inches x 56.5 inches",
+    "jumbo_slab_size": "131.5 inches x 64.5 inches",
+    "available_finishes": [
+      "Polished",
+      "Natural"
+    ],
+    "heat_resistance_laboratory": "No visible effect from boiling water (212°F/100°C) contact; no effect at 356°F/180°C for 20 minutes per NEMA standards",
+    "heat_resistance_practical": "Resin component rated approximately 150°F maximum before damage risk; trivets required",
+    "stain_resistance_score": "32-48 out of 64 per ANSI Z 124.6 standards (16 substances, 16-hour exposure)",
+    "chemical_resistance": "Pass rating across 16 chemical substances per ANSI Z 124.6 including acids, alkalis, solvents, and oxidizers",
+    "scrub_cycle_resistance": "Passes 10,000 scrub cycles without significant degradation",
+    "light_reflectance_loss": "1-3% after 25 cleaning cycles (pass criterion: less than 5%)",
+    "voc_tvoc": "Well below 0.22 mg/m³ GREENGUARD Gold threshold",
+    "certifications": [
+      "GREENGUARD Gold",
+      "NSF",
+      "ISO 9002",
+      "ISO 14001",
+      "ASTM G21-15 fungal resistance"
+    ],
+    "sealer_required": false,
+    "collection": "Supernatural Collection",
+    "launch_date": "October 2020",
+    "aesthetic_description": "Soft greige veins intensified by fine copper-gold outlines on pure white background; directional veining alignment across multiple slabs",
+    "edge_profile_minimum_radius": "3-4mm standard; 4-6mm preferred for enhanced chip resistance",
+    "cutout_corner_minimum_radius": "10mm (3/8 inch)"
+  },
+  "red_flags": [
+    {
+      "type": "Litigation - Silicosis Class Action and Individual Lawsuits",
+      "detail": "As of December 31, 2025, Caesarstone faces 618 silicosis-related lawsuits globally: 40 in Israel, 151 in Australia, 427 in the United States. Claims include accelerated silicosis, lung cancer, and respiratory injuries from occupational crystalline silica dust exposure during product fabrication.",
+      "severity": "High",
+      "financial_impact": "$52.4 million adverse verdict in Los Angeles County (August 2024, 15% liability allocation); $26 million fatal silicosis settlement in Orange County; $6-8 million settlements in San Bernardino County; ongoing class action with estimated tens-of-millions settlement values.",
+      "consumer_product_safety_impact": "None for installed product end users; exclusively occupational hazard for stone fabrication workers lacking adequate dust controls.",
+      "source": "SRC-018, SRC-020"
+    },
+    {
+      "type": "Corporate Financial Instability",
+      "detail": "Annual revenue declining at 10.4% from 2024 to 2025. Management explicitly warned in 2025 annual reporting that adverse litigation outcomes combined with limited insurance coverage could materially harm equity, cash flow, and potentially solvency.",
+      "severity": "Medium-High",
+      "warranty_risk": "Long-term warranty enforcement capability uncertain if financial deterioration continues; lifetime warranty value dependent on company remaining solvent through product lifespan.",
+      "source": "SRC-018"
+    },
+    {
+      "type": "Manufacturing Outsourcing - Quality Control Risk",
+      "detail": "Caesarstone announced closure of its last company-owned manufacturing plant with transition to fully outsourced third-party production. Eliminates direct manufacturing quality control that historically distinguished brand consistency. Multi-source production from Israel, India, and China already in place.",
+      "severity": "Medium",
+      "impact": "Future product batches may not maintain quality consistency that established brand reputation; third-party audit rigor unknown.",
+      "source": "SRC-019"
+    },
+    {
+      "type": "Regulatory Action - Australia Engineered Stone Ban",
+      "detail": "Australian regulatory authorities have banned engineered stone products containing crystalline silica due to documented fabrication hazard severity, citing silicosis epidemic among stone countertop fabrication workers.",
+      "severity": "Medium",
+      "consumer_product_safety_impact": "None for installed product consumers; exclusively fabrication-stage occupational health regulation.",
+      "source": "SRC-018"
+    },
+    {
+      "type": "Warranty Gap - Seam Appearance Exclusion",
+      "detail": "Warranty explicitly excludes seam appearance and seam performance, creating consumer risk specifically for Calacatta Maximus installations where seamless veining continuation is the primary value proposition and marketing differentiator. Visual seam defects from fabricator errors are not covered.",
+      "severity": "Medium",
+      "source": "SRC-003"
+    }
+  ],
+  "bottom_line": "Caesarstone Calacatta Maximus is a technically sound premium engineered quartz product that delivers validated performance across durability, stain resistance, and low-maintenance aesthetics. Laboratory testing confirms Mohs 7 hardness, 0.02% water absorption, strong flexural strength, and compliance with GREENGUARD Gold indoor air standards. The product's seamless directional veining across slabs is a genuine manufacturing innovation. However, five meaningful caveats define realistic buyer expectations: (1) The resin component limits heat tolerance to approximately 150°F, requiring permanent behavioral adoption of trivet use unlike natural stone; (2) The lifetime warranty explicitly excludes chips, scratches, heat damage, and seam appearance—precisely the failure modes consumers encounter in real kitchens—creating a significant gap between warranty marketing and actual coverage; (3) The seamless veining value proposition is highly fabricator-skill-dependent and warranty exclusions for seam appearance eliminate recourse when execution falls short; (4) Serious corporate instability including 618 active silicosis lawsuits with documented verdicts and settlements exceeding $80 million, 10.4% annual revenue decline, management solvency warnings, and elimination of all company-owned manufacturing creates meaningful uncertainty about long-term warranty enforcement capability and product consistency in future batches; (5) Occupational silicosis risks to fabrication workers are documented and legally established, though these represent no hazard to residential end users of installed products. For consumers prioritizing marble aesthetics with quartz practicality who will adopt protective use habits, Caesarstone Calacatta Maximus remains a premium-performing choice. For consumers seeking warranty coverage matching actual kitchen damage scenarios or requiring corporate stability confidence for a 25-30 year investment, competitors with more comprehensive warranty terms and more stable financial positions warrant serious consideration.",
+  "metadata": {
+    "total_sources": 35,
+    "pool_s_count": 5,
+    "pool_a_count": 14,
+    "pool_b_count": 9,
+    "pool_c_count": 7,
+    "score_classified": 20,
+    "report_only_classified": 12,
+    "quarantine_classified": 3,
+    "primary_evidence_gaps": [
+      "No independent Consumer Reports specific test data for Calacatta Maximus individual SKU (category-level data only)",
+      "No published independent seam durability testing specific to directional veining multi-slab installations",
+      "No long-term (post-2020 launch) independent durability study specific to Calacatta Maximus post-outsourcing transition",
+      "No documented comparison of pre- and post-outsourcing product quality from fabricator community"
+    ]
+  },
+  "product_slug": "caesarstone_calacatta_maximus",
+  "product_name": "Caesarstone Calacatta Maximus",
+  "manufacturer_slug": "caesarstone",
+  "operation_type": "general",
+  "deep_dive_date": "2026-03-27",
+  "structuring_duration_ms": 311985,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 35,
+    "score": 21,
+    "report_only": 12,
+    "quarantine": 2,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.192102
+}

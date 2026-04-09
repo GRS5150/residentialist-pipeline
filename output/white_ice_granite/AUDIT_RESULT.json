@@ -1,0 +1,74 @@
+{
+  "tier": 3,
+  "tier_label": "Good",
+  "confidence": "high",
+  "reasoning": "White Ice Granite demonstrates excellent material properties inherent to granite (Mohs 6-7 hardness, 480°F+ heat tolerance, 100+ year lifespan) but has documented higher porosity as a lighter-colored variety, requiring more frequent sealing and greater staining vulnerability. The lack of manufacturer warranty and dependence on local fabricator quality prevents higher tier placement despite strong material performance.",
+  "closest_anchor": "White Ice Granite",
+  "above_or_below_anchor": "exact match",
+  "key_evidence": [
+    "Consumer Reports testing showed granite scored at top levels across stain resistance, cutting resistance, heat tolerance, impact resistance, and abrasion resistance",
+    "Professional fabricators cite granite lifespan exceeding 100 years with proper care and ability to be refinished multiple times",
+    "Lighter-colored granite has higher porosity than darker varieties, requiring more frequent sealing per industry guidance"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "6-7",
+    "heat_resistance_f": "480",
+    "water_absorption_pct": "0.01-0.8",
+    "warranty_years": "0",
+    "warranty_transferable": false,
+    "greenguard_gold": false,
+    "nsf_51": false,
+    "requires_sealing": true,
+    "domestic_manufacturing": false,
+    "material_class": "natural_granite"
+  },
+  "source_flags": [],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 3,
+        "tier_label": "Good",
+        "anchor": "White Ice Granite",
+        "position": "exact match"
+      },
+      {
+        "run": 2,
+        "tier": 3,
+        "tier_label": "Good",
+        "anchor": "White Ice Granite",
+        "position": "matches exactly"
+      },
+      {
+        "run": 3,
+        "tier": 3,
+        "tier_label": "Good",
+        "anchor": "White Ice Granite",
+        "position": "matches anchor"
+      }
+    ],
+    "tiers_voted": [
+      3,
+      3,
+      3
+    ],
+    "tier_counts": {
+      "3": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "White Ice Granite",
+  "category": "countertops",
+  "operation_type": "double_hung",
+  "score_sources_used": 19,
+  "classified_at": "2026-03-27T23:53:08.988Z",
+  "tier_approved": 3,
+  "tier_changed": false,
+  "change_reason": null,
+  "contamination_found": false,
+  "contamination_details": null,
+  "audit_passed": true,
+  "notes": "Audit checklist results: (1) All sources are general granite industry guidance or comparative material testing—no contamination from different manufacturers detected. (2) Source [SRC-018] is classified 'report_only' but was NOT cited by Sonnet in the reasoning, so no flagging required. (3) Reasoning is internally consistent: the classification acknowledges granite's strong material properties (Mohs 6-7, 480°F+ heat, 100+ year lifespan, Consumer Reports top performance) while justifying Tier 3 placement through documented limitations (higher porosity in light varieties, frequent sealing requirements per SRC-010, staining vulnerability per SRC-009, lack of manufacturer warranty). This matches the Tier 3 anchor definition for White Ice Granite. (4) Sonnet did not miss obvious evidence—relevant sources on porosity (SRC-004, SRC-005), sealing frequency (SRC-010), etching/staining risk for light granite (SRC-009), and comparative positioning against dark granite (implicit in Tier 2 Ubatuba) are all consistent with the reasoning provided. The classification correctly positions White Ice as a good material with manageable but higher maintenance burden compared to premium dark granites and engineered alternatives.",
+  "audited_at": "2026-03-27T23:53:13.204Z"
+}

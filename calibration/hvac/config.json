@@ -1,14 +1,105 @@
 {
   "category": "hvac",
   "version": "1.0",
-  "axis_weights": { "quality": 0.30, "durability": 0.40, "performance": 0.30 },
+  "axis_weights": {
+    "quality": 0.3,
+    "durability": 0.4,
+    "performance": 0.3
+  },
   "composite_method": "geometric_mean",
   "calibration_products": [
-    { "name": "Carrier Infinity 24VNA (Variable-Speed)", "slug": "carrier_infinity", "target": 94, "tier": "Tier 1", "axis_scores": { "quality": 9.5, "durability": 9.3, "performance": 9.6 } },
-    { "name": "Trane XV20i (Variable-Speed)", "slug": "trane_xv", "target": 91, "tier": "Tier 1", "axis_scores": { "quality": 9.2, "durability": 9.1, "performance": 9.1 } },
-    { "name": "Lennox SL28XCV (Variable-Speed)", "slug": "lennox_sl28xcv", "target": 82, "tier": "Tier 2", "axis_scores": { "quality": 8.5, "durability": 7.5, "performance": 9.0 } },
-    { "name": "Rheem Prestige RA20 (Two-Stage)", "slug": "rheem_prestige", "target": 67, "tier": "Tier 3", "axis_scores": { "quality": 6.6, "durability": 6.8, "performance": 6.7 } },
-    { "name": "Goodman GSXC18 (Two-Stage)", "slug": "goodman_gsxc18", "target": 64, "tier": "Tier 3", "axis_scores": { "quality": 6.2, "durability": 6.7, "performance": 6.3 } },
-    { "name": "Goodman GSX14 (Single-Stage)", "slug": "goodman_gsx14", "target": 47, "tier": "Tier 4", "axis_scores": { "quality": 4.5, "durability": 5.5, "performance": 4.1 } }
-  ]
+    {
+      "name": "Carrier Infinity 24VNA (Variable-Speed)",
+      "slug": "carrier_infinity",
+      "target": 94,
+      "tier": "Tier 1",
+      "axis_scores": {
+        "quality": 9.5,
+        "durability": 9.3,
+        "performance": 9.6
+      }
+    },
+    {
+      "name": "Trane XV20i (Variable-Speed)",
+      "slug": "trane_xv",
+      "target": 91,
+      "tier": "Tier 1",
+      "axis_scores": {
+        "quality": 9.2,
+        "durability": 9.1,
+        "performance": 9.1
+      }
+    },
+    {
+      "name": "Lennox SL28XCV (Variable-Speed)",
+      "slug": "lennox_sl28xcv",
+      "target": 82,
+      "tier": "Tier 2",
+      "axis_scores": {
+        "quality": 8.5,
+        "durability": 7.5,
+        "performance": 9
+      }
+    },
+    {
+      "name": "Rheem Prestige RA20 (Two-Stage)",
+      "slug": "rheem_prestige",
+      "target": 67,
+      "tier": "Tier 3",
+      "axis_scores": {
+        "quality": 6.6,
+        "durability": 6.8,
+        "performance": 6.7
+      }
+    },
+    {
+      "name": "Goodman GSXC18 (Two-Stage)",
+      "slug": "goodman_gsxc18",
+      "target": 64,
+      "tier": "Tier 3",
+      "axis_scores": {
+        "quality": 6.2,
+        "durability": 6.7,
+        "performance": 6.3
+      }
+    },
+    {
+      "name": "Goodman GSX14 (Single-Stage)",
+      "slug": "goodman_gsx14",
+      "target": 47,
+      "tier": "Tier 4",
+      "axis_scores": {
+        "quality": 4.5,
+        "durability": 5.5,
+        "performance": 4.1
+      }
+    }
+  ],
+  "manufacturer_domains": {
+    "carrier_infinity": [
+      "carrier.com",
+      "carrierathome.com",
+      "carrierenterprise.com"
+    ],
+    "trane_xv": [
+      "trane.com",
+      "tranehome.com"
+    ],
+    "lennox_sl28xcv": [
+      "lennox.com",
+      "lennoxinternational.com"
+    ],
+    "rheem_prestige": [
+      "rheem.com",
+      "rheemwater.com"
+    ],
+    "goodman_gsxc18": [
+      "goodmanmfg.com",
+      "daikincomfort.com"
+    ],
+    "goodman_gsx14": [
+      "goodmanmfg.com",
+      "daikincomfort.com"
+    ]
+  }
 }

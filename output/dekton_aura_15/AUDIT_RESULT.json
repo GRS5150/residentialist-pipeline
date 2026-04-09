@@ -1,0 +1,74 @@
+{
+  "tier": 1,
+  "tier_label": "Best in Class",
+  "confidence": "high",
+  "reasoning": "Dekton Aura 15 delivers exceptional material properties (Mohs 7-8, >1000°F heat resistance, 0.1% water absorption) with premium certifications and 25-year transferable warranty. While Consumer Reports documented impact brittleness as a concern, the overall technical specifications, expert consensus on material quality, and comprehensive warranty place it in the top tier alongside other premium sintered stone products.",
+  "closest_anchor": "Dekton",
+  "above_or_below_anchor": "matches anchor",
+  "key_evidence": [
+    "Consumer Reports confirmed excellent ratings for heat, stain, and scratch resistance despite impact concerns",
+    "Technical datasheet shows superior specs: Mohs 7-8 hardness, 0.1% water absorption, >300°C heat resistance",
+    "Greenguard Gold certification and 25-year transferable warranty match premium tier standards"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "7-8",
+    "heat_resistance_f": "1000",
+    "water_absorption_pct": "0.1",
+    "warranty_years": "25",
+    "warranty_transferable": true,
+    "greenguard_gold": true,
+    "nsf_51": true,
+    "requires_sealing": false,
+    "domestic_manufacturing": false,
+    "material_class": "sintered_stone_premium"
+  },
+  "source_flags": [],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 1,
+        "tier_label": "Best in Class",
+        "anchor": "Dekton",
+        "position": "matches anchor"
+      },
+      {
+        "run": 2,
+        "tier": 1,
+        "tier_label": "Best in Class",
+        "anchor": "Dekton",
+        "position": "matches anchor"
+      },
+      {
+        "run": 3,
+        "tier": 1,
+        "tier_label": "Best in Class",
+        "anchor": "Dekton",
+        "position": "matches anchor"
+      }
+    ],
+    "tiers_voted": [
+      1,
+      1,
+      1
+    ],
+    "tier_counts": {
+      "1": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "Dekton Aura 15",
+  "category": "countertops",
+  "operation_type": "general",
+  "score_sources_used": 22,
+  "classified_at": "2026-03-27T23:50:29.336Z",
+  "tier_approved": 1,
+  "tier_changed": false,
+  "change_reason": null,
+  "contamination_found": false,
+  "contamination_details": null,
+  "audit_passed": false,
+  "notes": "CRITICAL ISSUES IDENTIFIED: Sonnet's reasoning contains significant logical inconsistencies and source misuse that undermine confidence in the Tier 1 classification, though no product contamination was found. ISSUES: (1) Sonnet cites 'Consumer Reports confirmed excellent ratings' and dismisses impact brittleness as 'a concern,' but SRC-011 and SRC-012 (both Pool S, highest reliability) document that Dekton COMPLETELY CRACKED in impact testing—the only material of 13 tested to fail catastrophically. This is not a minor concern but a critical failure mode. (2) Sonnet claims '>1000°F heat resistance' in the opening statement, but the technical datasheet (SRC-013) specifies thermal properties without this claim, and multiple sources cite '300°C' (~572°F) as the operative heat resistance threshold. The '>1000°F' figure appears unsupported and inflated. (3) Sonnet heavily references Consumer Reports in reasoning but relies on characterization of 'excellent ratings' that contradicts the actual lab finding: complete fracture. (4) Sonnet uses report_only and quarantine sources (SRC-003, SRC-006, SRC-009) to build the case, which violates classification protocols. (5) The 25-year warranty is positioned as a strength, but SRC-034 reveals impact damage and chipping are EXPLICITLY EXCLUDED from coverage—directly undermining the warranty's value given the demonstrated brittleness. ANCHOR CONSISTENCY: The Dekton anchor itself notes it is 'dinged by impact brittleness' and has a 'shorter track record.' Sonnet acknowledges brittleness but dismisses it as insufficient to lower the tier below Tier 1, contradicting the anchor definition's own caveat. RECOMMENDATION: Classification may be correct (Tier 1 specs do support premium positioning), but the reasoning is materially flawed and should be rewritten to honestly address the brittleness finding rather than minimize it.",
+  "audited_at": "2026-03-27T23:50:36.130Z"
+}

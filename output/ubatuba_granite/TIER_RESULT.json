@@ -1,0 +1,66 @@
+{
+  "tier": 2,
+  "tier_label": "Excellent",
+  "confidence": "high",
+  "reasoning": "Multiple expert sources confirm Ubatuba's superior performance characteristics including exceptionally low porosity (0.256% absorption), high compressive strength (34,027 psi), and 'bulletproof' staining resistance. Professional fabricators universally recognize granite's scratch resistance and heat performance exceeding residential needs, positioning it as premium natural stone despite warranty limitations.",
+  "closest_anchor": "Ubatuba Granite",
+  "above_or_below_anchor": "matches anchor",
+  "key_evidence": [
+    "Laboratory testing shows density 164.4 lb/ft³, absorption 0.256%, compressive strength 34,027 psi within acceptable range for countertop applications",
+    "Stone specialist describes Ubatuba as 'bulletproof' against staining due to dense mineral composition and low porosity",
+    "10-year durability testing showed properly sealed granite maintains appearance with zero staining and outperforms laminate and solid surface over time"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "6-7",
+    "heat_resistance_f": "exceeds_residential_temperatures",
+    "water_absorption_pct": "0.256",
+    "warranty_years": "0",
+    "warranty_transferable": false,
+    "greenguard_gold": false,
+    "nsf_51": false,
+    "requires_sealing": false,
+    "domestic_manufacturing": false,
+    "material_class": "natural_granite_premium"
+  },
+  "source_flags": [],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Ubatuba Granite",
+        "position": "matches anchor"
+      },
+      {
+        "run": 2,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Ubatuba Granite",
+        "position": "matches anchor"
+      },
+      {
+        "run": 3,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Ubatuba Granite",
+        "position": "matches exactly"
+      }
+    ],
+    "tiers_voted": [
+      2,
+      2,
+      2
+    ],
+    "tier_counts": {
+      "2": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "Ubatuba Granite",
+  "category": "countertops",
+  "operation_type": "double_hung",
+  "score_sources_used": 13,
+  "classified_at": "2026-03-27T23:52:30.920Z"
+}

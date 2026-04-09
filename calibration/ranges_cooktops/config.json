@@ -1,15 +1,84 @@
 {
   "category": "ranges_cooktops",
   "version": "1.0",
-  "axis_weights": { "quality": 0.30, "durability": 0.35, "performance": 0.35 },
+  "axis_weights": {
+    "quality": 0.3,
+    "durability": 0.35,
+    "performance": 0.35
+  },
   "composite_method": "geometric_mean",
   "calibration_products": [
-    { "name": "Wolf Pro-Style Gas Range", "slug": "wolf_gas_range", "target": 94, "tier": "Tier 1" },
-    { "name": "BlueStar Platinum Gas Range", "slug": "bluestar_platinum", "target": 91, "tier": "Tier 1" },
-    { "name": "Thermador Pro Grand Gas Range", "slug": "thermador_pro_grand", "target": 83, "tier": "Tier 2" },
-    { "name": "Thermador Freedom Induction Cooktop", "slug": "thermador_freedom_induction", "target": 81, "tier": "Tier 2" },
-    { "name": "Bosch 800 Induction Cooktop", "slug": "bosch_800_induction", "target": 70, "tier": "Tier 3" },
-    { "name": "GE Café Gas Slide-In Range", "slug": "ge_cafe_gas", "target": 64, "tier": "Tier 3" },
-    { "name": "Samsung Gas Slide-In Range", "slug": "samsung_gas", "target": 45, "tier": "Tier 4" }
-  ]
+    {
+      "name": "Wolf Pro-Style Gas Range",
+      "slug": "wolf_gas_range",
+      "target": 94,
+      "tier": "Tier 1"
+    },
+    {
+      "name": "BlueStar Platinum Gas Range",
+      "slug": "bluestar_platinum",
+      "target": 91,
+      "tier": "Tier 1"
+    },
+    {
+      "name": "Thermador Pro Grand Gas Range",
+      "slug": "thermador_pro_grand",
+      "target": 83,
+      "tier": "Tier 2"
+    },
+    {
+      "name": "Thermador Freedom Induction Cooktop",
+      "slug": "thermador_freedom_induction",
+      "target": 81,
+      "tier": "Tier 2"
+    },
+    {
+      "name": "Bosch 800 Induction Cooktop",
+      "slug": "bosch_800_induction",
+      "target": 70,
+      "tier": "Tier 3"
+    },
+    {
+      "name": "GE Café Gas Slide-In Range",
+      "slug": "ge_cafe_gas",
+      "target": 64,
+      "tier": "Tier 3"
+    },
+    {
+      "name": "Samsung Gas Slide-In Range",
+      "slug": "samsung_gas",
+      "target": 45,
+      "tier": "Tier 4"
+    }
+  ],
+  "manufacturer_domains": {
+    "wolf_gas_range": [
+      "subzero-wolf.com",
+      "subzerowolf.com"
+    ],
+    "bluestar_platinum": [
+      "bluestarcooking.com"
+    ],
+    "thermador_pro_grand": [
+      "thermador.com",
+      "bshg.com"
+    ],
+    "thermador_freedom_induction": [
+      "thermador.com",
+      "bshg.com"
+    ],
+    "bosch_800_induction": [
+      "bosch-home.com",
+      "bshg.com"
+    ],
+    "ge_cafe_gas": [
+      "cafeappliances.com",
+      "geappliances.com",
+      "geappliancesstore.com",
+      "haier.com"
+    ],
+    "samsung_gas": [
+      "samsung.com"
+    ]
+  }
 }

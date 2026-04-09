@@ -1,0 +1,66 @@
+{
+  "tier": 2,
+  "tier_label": "Excellent",
+  "confidence": "high",
+  "reasoning": "Strong technical specifications (Mohs 7 hardness, superior stain/chemical resistance, GREENGUARD Gold certification) combined with expert consensus placing Caesarstone alongside premium brands like Cambria. Corporate instability prevents Tier 1 placement despite excellent product quality.",
+  "closest_anchor": "Caesarstone",
+  "above_or_below_anchor": "matches anchor",
+  "key_evidence": [
+    "Consumer Reports consistently cites alongside Cambria and Silestone as premium tier",
+    "ASTM testing confirms Mohs 7 hardness and superior performance metrics",
+    "SlabWise 2026 fabricator survey rates Caesarstone highest for slab quality and consistency"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "7",
+    "heat_resistance_f": "356",
+    "water_absorption_pct": "0.02",
+    "warranty_years": "999",
+    "warranty_transferable": true,
+    "greenguard_gold": true,
+    "nsf_51": true,
+    "requires_sealing": false,
+    "domestic_manufacturing": false,
+    "material_class": "engineered_quartz_premium"
+  },
+  "source_flags": [],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Caesarstone",
+        "position": "matches anchor"
+      },
+      {
+        "run": 2,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Caesarstone",
+        "position": "matches exactly"
+      },
+      {
+        "run": 3,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Caesarstone",
+        "position": "equivalent"
+      }
+    ],
+    "tiers_voted": [
+      2,
+      2,
+      2
+    ],
+    "tier_counts": {
+      "2": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "Caesarstone Calacatta Maximus",
+  "category": "countertops",
+  "operation_type": "general",
+  "score_sources_used": 21,
+  "classified_at": "2026-03-27T23:51:07.082Z"
+}

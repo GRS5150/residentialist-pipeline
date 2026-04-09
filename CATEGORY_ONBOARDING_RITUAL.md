@@ -229,6 +229,13 @@ Geometric mean parameters and calibration product specs. Contains:
 - `composite_method` ("geometric_mean")
 - `formula_description` (the exact geoMean formula)
 - `calibration_products` array with: name, slug, tier, target, axis_scores, spec_adj, full specs
+- `manufacturer_domains` object **(REQUIRED)** — maps each product slug to an array of domains belonging to that manufacturer and its corporate parent. Used by the curation filter to exclude non-independent sources. Include both the brand's own domain and parent company domains. Example:
+  ```json
+  "manufacturer_domains": {
+    "wolf_gas_range": ["subzero-wolf.com", "subzerowolf.com"],
+    "thermador_pro_grand": ["thermador.com", "bshg.com"]
+  }
+  ```
 
 **Reference examples:** `calibration/cabinets/config.json`, `calibration/faucets/config.json`
 

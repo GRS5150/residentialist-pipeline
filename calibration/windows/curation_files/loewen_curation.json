@@ -4,58 +4,6 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "roofershome.com — understanding window ratings what to look for in energy effi",
-      "url": "https://www.roofershome.com/blog/understanding-window-ratings-what-to-look-for-in-energy-efficiency",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-002",
-      "source_name": "ecoviewdfw.com — why skilled window installation is important",
-      "url": "https://www.ecoviewdfw.com/why-skilled-window-installation-is-important",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-003",
-      "source_name": "jpexteriorstx.com — why new construction windows over the last 20 years are low ",
-      "url": "https://www.jpexteriorstx.com/blog/p.241127000/why-new-construction-windows-over-the-last-20-years-are-low-quality/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q",
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-004",
       "source_name": "efficientwindows.org — window ratings",
       "url": "https://efficientwindows.org/window-ratings/",
       "platform": "other",
@@ -73,7 +21,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-002",
       "source_name": "youramericanhome.net — average window size standard dimensions",
       "url": "https://youramericanhome.net/average-window-size-standard-dimensions/",
       "platform": "other",
@@ -91,13 +39,13 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
-      "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=tWN91p01qOU",
+      "id": "SRC-003",
+      "source_name": "roofershome.com — understanding window ratings what to look for in energy effi",
+      "url": "https://www.roofershome.com/blog/understanding-window-ratings-what-to-look-for-in-energy-efficiency",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "C",
+      "pool": "B",
       "classification": "independent",
       "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
@@ -108,11 +56,63 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-004",
+      "source_name": "ecoviewdfw.com — why skilled window installation is important",
+      "url": "https://www.ecoviewdfw.com/why-skilled-window-installation-is-important",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "jpexteriorstx.com — why new construction windows over the last 20 years are low ",
+      "url": "https://www.jpexteriorstx.com/blog/p.241127000/why-new-construction-windows-over-the-last-20-years-are-low-quality/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-006",
       "source_name": "keystonewindow.com — standard window sizes guide",
       "url": "https://www.keystonewindow.com/standard-window-sizes-guide/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "alumastergroup.com — ultimate guide to average window size",
+      "url": "https://alumastergroup.com/blog/ultimate-guide-to-average-window-size",
+      "platform": "other",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -126,10 +126,10 @@
     },
     {
       "id": "SRC-008",
-      "source_name": "alumastergroup.com — ultimate guide to average window size",
-      "url": "https://alumastergroup.com/blog/ultimate-guide-to-average-window-size",
+      "source_name": "modernize.com — types",
+      "url": "https://modernize.com/windows/types",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -143,27 +143,10 @@
     },
     {
       "id": "SRC-009",
-      "source_name": "modernize.com — types",
-      "url": "https://modernize.com/windows/types",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-010",
       "source_name": "reconroof.com — best window brands",
       "url": "https://reconroof.com/blog/best-window-brands/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -176,11 +159,28 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-010",
       "source_name": "modernize.com — brands",
       "url": "https://modernize.com/windows/brands",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "replacementwindowdiscussions.com — sierra pacific vs loewen windows your pick",
+      "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands/sierra-pacific-vs-loewen-windows-your-pick/",
+      "platform": "other",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -194,10 +194,10 @@
     },
     {
       "id": "SRC-012",
-      "source_name": "replacementwindowdiscussions.com — sierra pacific vs loewen windows your pick",
-      "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands/sierra-pacific-vs-loewen-windows-your-pick/",
+      "source_name": "thewindowexperts.com — best window brands",
+      "url": "https://thewindowexperts.com/best-window-brands/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -211,10 +211,10 @@
     },
     {
       "id": "SRC-013",
-      "source_name": "thewindowexperts.com — best window brands",
-      "url": "https://thewindowexperts.com/best-window-brands/",
+      "source_name": "builderbrigade.com — which window brands are the best",
+      "url": "https://builderbrigade.com/blogs/learn/which-window-brands-are-the-best",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
@@ -228,19 +228,172 @@
     },
     {
       "id": "SRC-014",
-      "source_name": "builderbrigade.com — which window brands are the best",
-      "url": "https://builderbrigade.com/blogs/learn/which-window-brands-are-the-best",
+      "source_name": "hpef.us — 19th century",
+      "url": "https://www.hpef.us/historic-windows/windows-through-time/19th-century",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
       "pool": "B",
       "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "wisconsinhistory.org — CS4301",
+      "url": "https://www.wisconsinhistory.org/Records/Article/CS4301",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "slcdocs.com",
+      "url": "http://www.slcdocs.com/historicpreservation/guideres/ch3.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "traditionalbuilding.com — windows home",
+      "url": "https://www.traditionalbuilding.com/opinions/windows-home",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "preservationdallas.org — Washington DC Windows and Doors",
+      "url": "https://preservationdallas.org/wp-content/uploads/2020/09/Washington-DC-Windows_and_Doors.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "casabellawindows.ca — windows through the ages exploring the evolution of window d",
+      "url": "https://casabellawindows.ca/windows-through-the-ages-exploring-the-evolution-of-window-design/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "miwindows.com — architectural and design styles",
+      "url": "https://miwindows.com/blog/architectural-and-design-styles",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "northviewcanada.com — window in historic architectural styles",
+      "url": "https://northviewcanada.com/window-in-historic-architectural-styles/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "kolbewindows.com — representing historical architecture",
+      "url": "https://www.kolbewindows.com/blog/representing-historical-architecture",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=tWN91p01qOU",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
       "verified": false
     }
   ],
@@ -261,21 +414,44 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014"
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
       "pool_A": 2,
-      "pool_B": 11,
+      "pool_B": 20,
       "pool_C": 1
+    },
+    "filter_summary": {
+      "raw": 23,
+      "after_filter": 23,
+      "capped": 23,
+      "dropped": {
+        "dead": 0,
+        "nonContent": 0,
+        "manufacturer": 0,
+        "alwaysExclude": 0,
+        "bareRoot": 0,
+        "domainCap": 0,
+        "total": 23
+      }
     }
   },
   "product_slug": "loewen",
   "product_name": "Loewen",
   "manufacturer_slug": "loewen",
   "deep_dive_date": "2026-04-09",
-  "structuring_model": "source_registry_v1",
+  "structuring_model": "source_registry_v2",
   "curation_status": "curated",
   "curation_date": "2026-04-09",
   "human_overrides": [],

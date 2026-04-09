@@ -1,0 +1,13 @@
+{
+  "name": "residentialist-product-intelligence",
+  "version": "1.0.0",
+  "description": "Product Intelligence Dashboard — visual layer over the Residentialist database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}

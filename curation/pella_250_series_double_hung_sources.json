@@ -662,5 +662,23 @@
   "curation_date": null,
   "human_overrides": [],
   "structuring_cost_estimate": 0.16781400000000002,
-  "verification_date": "2026-03-23T19:45:55.415Z"
+  "verification_date": "2026-03-23T19:45:55.415Z",
+  "source_independence": "no sources found",
+  "source_independence_details": [
+    {
+      "file": "windows_eval_knowledge_v1.3.md",
+      "classification": "no_sources",
+      "urls_total": 0,
+      "urls_manufacturer": 0,
+      "urls_independent": 0
+    },
+    {
+      "file": "windows_material_safety_knowledge_v1.1.md",
+      "classification": "no_sources",
+      "urls_total": 0,
+      "urls_manufacturer": 0,
+      "urls_independent": 0
+    }
+  ],
+  "source_independence_tagged_at": "2026-04-06T18:59:12.584Z"
 }

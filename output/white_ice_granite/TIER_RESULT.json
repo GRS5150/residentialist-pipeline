@@ -1,0 +1,66 @@
+{
+  "tier": 3,
+  "tier_label": "Good",
+  "confidence": "high",
+  "reasoning": "White Ice Granite demonstrates excellent material properties inherent to granite (Mohs 6-7 hardness, 480°F+ heat tolerance, 100+ year lifespan) but has documented higher porosity as a lighter-colored variety, requiring more frequent sealing and greater staining vulnerability. The lack of manufacturer warranty and dependence on local fabricator quality prevents higher tier placement despite strong material performance.",
+  "closest_anchor": "White Ice Granite",
+  "above_or_below_anchor": "exact match",
+  "key_evidence": [
+    "Consumer Reports testing showed granite scored at top levels across stain resistance, cutting resistance, heat tolerance, impact resistance, and abrasion resistance",
+    "Professional fabricators cite granite lifespan exceeding 100 years with proper care and ability to be refinished multiple times",
+    "Lighter-colored granite has higher porosity than darker varieties, requiring more frequent sealing per industry guidance"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "6-7",
+    "heat_resistance_f": "480",
+    "water_absorption_pct": "0.01-0.8",
+    "warranty_years": "0",
+    "warranty_transferable": false,
+    "greenguard_gold": false,
+    "nsf_51": false,
+    "requires_sealing": true,
+    "domestic_manufacturing": false,
+    "material_class": "natural_granite"
+  },
+  "source_flags": [],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 3,
+        "tier_label": "Good",
+        "anchor": "White Ice Granite",
+        "position": "exact match"
+      },
+      {
+        "run": 2,
+        "tier": 3,
+        "tier_label": "Good",
+        "anchor": "White Ice Granite",
+        "position": "matches exactly"
+      },
+      {
+        "run": 3,
+        "tier": 3,
+        "tier_label": "Good",
+        "anchor": "White Ice Granite",
+        "position": "matches anchor"
+      }
+    ],
+    "tiers_voted": [
+      3,
+      3,
+      3
+    ],
+    "tier_counts": {
+      "3": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "White Ice Granite",
+  "category": "countertops",
+  "operation_type": "double_hung",
+  "score_sources_used": 19,
+  "classified_at": "2026-03-27T23:53:08.988Z"
+}

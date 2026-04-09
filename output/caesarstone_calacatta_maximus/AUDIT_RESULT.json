@@ -1,0 +1,74 @@
+{
+  "tier": 2,
+  "tier_label": "Excellent",
+  "confidence": "high",
+  "reasoning": "Strong technical specifications (Mohs 7 hardness, superior stain/chemical resistance, GREENGUARD Gold certification) combined with expert consensus placing Caesarstone alongside premium brands like Cambria. Corporate instability prevents Tier 1 placement despite excellent product quality.",
+  "closest_anchor": "Caesarstone",
+  "above_or_below_anchor": "matches anchor",
+  "key_evidence": [
+    "Consumer Reports consistently cites alongside Cambria and Silestone as premium tier",
+    "ASTM testing confirms Mohs 7 hardness and superior performance metrics",
+    "SlabWise 2026 fabricator survey rates Caesarstone highest for slab quality and consistency"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "7",
+    "heat_resistance_f": "356",
+    "water_absorption_pct": "0.02",
+    "warranty_years": "999",
+    "warranty_transferable": true,
+    "greenguard_gold": true,
+    "nsf_51": true,
+    "requires_sealing": false,
+    "domestic_manufacturing": false,
+    "material_class": "engineered_quartz_premium"
+  },
+  "source_flags": [],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Caesarstone",
+        "position": "matches anchor"
+      },
+      {
+        "run": 2,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Caesarstone",
+        "position": "matches exactly"
+      },
+      {
+        "run": 3,
+        "tier": 2,
+        "tier_label": "Excellent",
+        "anchor": "Caesarstone",
+        "position": "equivalent"
+      }
+    ],
+    "tiers_voted": [
+      2,
+      2,
+      2
+    ],
+    "tier_counts": {
+      "2": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "Caesarstone Calacatta Maximus",
+  "category": "countertops",
+  "operation_type": "general",
+  "score_sources_used": 21,
+  "classified_at": "2026-03-27T23:51:07.082Z",
+  "tier_approved": 2,
+  "tier_changed": false,
+  "change_reason": null,
+  "contamination_found": false,
+  "contamination_details": null,
+  "audit_passed": true,
+  "notes": "Sonnet's Tier 2 classification is well-supported and internally consistent. AUDIT FINDINGS: (1) No cross-product contamination detected—all sources reference Caesarstone or general quartz/countertop categories, not competing manufacturers' specific products. (2) Report-only/quarantine sources present but appropriately handled: SRC-001 (quarantine, marketing) and SRC-008 (quarantine, anecdotal complaint) were not cited as evidence for technical claims. Sonnet correctly relied on pool-A and pool-S sources (SRC-004 ASTM, SRC-005 GREENGUARD, SRC-011 Consumer Reports, SRC-017 SlabWise) for technical specifications and expert consensus. (3) Reasoning is internally consistent: Caesarstone positioned as excellent product quality (Mohs 7, superior stain/chemical resistance, fabricator consensus ranking #1 alongside Cambria per SRC-017) but constrained to Tier 2 by corporate instability (SRC-018 SEC filing documenting 618 silicosis lawsuits, 10.4% revenue decline, manufacturing closure; SRC-019 outsourcing transition). This directly aligns with anchor definition: 'Caesarstone — Legacy premium. Product quality strong but Conditional outlook — 100% outsourced mfg, major financial distress.' (4) Notable evidence Sonnet did not cite but curated sources support positioning: SRC-020 litigation documentation ($52.4M+ adverse verdicts) further supports 'corporate instability' rationale; SRC-030 confirms Calacatta Maximus repairability advantages. These omissions do not undermine the classification—they are supplementary rather than contradictory. High confidence designation is justified given pool-S source reliance.",
+  "audited_at": "2026-03-27T23:51:13.097Z"
+}

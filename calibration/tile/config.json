@@ -1,0 +1,309 @@
+{
+  "category": "tile",
+  "version": "1.0",
+  "created_date": "2026-04-01",
+  "weights": {
+    "quality": 0.35,
+    "durability": 0.35,
+    "performance": 0.3
+  },
+  "composite_method": "geometric_mean",
+  "formula_description": "composite = (quality^wQ * durability^wD * performance^wP) * 10, where each axis is 0-10 scale, weights sum to 1.0",
+  "calibration_products": [
+    {
+      "name": "Porcelanosa Dover Caliza (Large Format Porcelain Floor)",
+      "slug": "porcelanosa_dover_caliza",
+      "sub_type": "porcelain_large_format",
+      "tier": 1,
+      "target": 94,
+      "axis_scores": {
+        "quality": 9.5,
+        "durability": 9.4,
+        "performance": 9.4
+      },
+      "spec_adj": {
+        "quality": 7,
+        "durability": 5,
+        "performance": 4
+      },
+      "specs": {
+        "body_composition": "color_body_porcelain",
+        "surface_technology": "advanced_digital_inkjet_hd",
+        "rectification_precision": "rectified_precise",
+        "manufacturing_origin": "european_premium_spain_italy",
+        "source_traceability": "single_source_manufacturing",
+        "pei_rating": "class_4_moderate_to_heavy",
+        "dcof_slip_resistance": "high_0_60_plus",
+        "water_absorption_pct": "impervious_under_0_5",
+        "format_size": "large_format_24x48_plus",
+        "breaking_strength": "high_2000_n_plus",
+        "freeze_thaw_resistance": "certified_frost_resistant",
+        "scratch_resistance_mohs": "high_7_plus",
+        "stain_resistance": "excellent_non_porous",
+        "warranty_years": "lifetime_limited",
+        "chemical_resistance": "excellent_class_a"
+      },
+      "notes": "Grupo Porcelanosa — manufactured in Castellón, Spain (global tile capital). Advanced HD inkjet on dense color-body porcelain. Large-format rectified for precision installation. Water absorption <0.1%. DCOF ≥0.60 on textured variants. Breaking strength >2000N. Mohs 7+ surface. Full frost resistance. Class A chemical resistance. 39 luxury listing sightings. Porcelanosa operates branded showrooms globally — premium distribution model. Limited lifetime warranty.",
+      "corporate_parent": "Grupo Porcelanosa (private, family-owned since 1973, Castellón Spain)",
+      "outlook": "Strong",
+      "outlook_rationale": "Private family-owned since 1973. €1B+ annual revenue. Vertically integrated (raw materials through retail showrooms). No going-concern risk. Global premium tile leader."
+    },
+    {
+      "name": "Crossville Virtue (Through-Body Porcelain Floor)",
+      "slug": "crossville_virtue",
+      "sub_type": "porcelain_floor",
+      "tier": 1,
+      "target": 91,
+      "axis_scores": {
+        "quality": 9.2,
+        "durability": 9.2,
+        "performance": 9
+      },
+      "spec_adj": {
+        "quality": 7,
+        "durability": 5,
+        "performance": 3
+      },
+      "specs": {
+        "body_composition": "through_body_porcelain",
+        "surface_technology": "unglazed_natural_surface",
+        "rectification_precision": "rectified_precise",
+        "manufacturing_origin": "us_manufacturing_identified",
+        "source_traceability": "single_source_manufacturing",
+        "pei_rating": "class_5_heavy_commercial",
+        "dcof_slip_resistance": "high_0_60_plus",
+        "water_absorption_pct": "impervious_under_0_5",
+        "format_size": "standard_12x24_to_24x24",
+        "breaking_strength": "high_2000_n_plus",
+        "freeze_thaw_resistance": "certified_frost_resistant",
+        "scratch_resistance_mohs": "high_7_plus",
+        "stain_resistance": "excellent_non_porous",
+        "warranty_years": "lifetime_limited",
+        "chemical_resistance": "excellent_class_a"
+      },
+      "notes": "Crossville Inc — manufactured in Crossville, Tennessee USA. Through-body porcelain: color extends through entire tile — chips and edge damage are invisible. Unglazed surface achieves PEI 5 equivalent (full-depth wear resistance). PTCA certified porcelain. Water absorption <0.5%. DCOF ≥0.60 (natural matte surface). Made in America with identified single factory. Limited lifetime warranty. Leading US tile sustainability program (ISO 14001, Cradle to Cradle). Professional/commercial grade used in residential luxury.",
+      "corporate_parent": "Crossville Inc (private, Crossville TN, founded 1986)",
+      "outlook": "Strong",
+      "outlook_rationale": "Private US manufacturer. Leading American technical porcelain producer. Strong architect specification base. No going-concern risk."
+    },
+    {
+      "name": "Daltile Panoramic Porcelain (Large Format)",
+      "slug": "daltile_panoramic",
+      "sub_type": "porcelain_large_format",
+      "tier": 2,
+      "target": 82,
+      "axis_scores": {
+        "quality": 8.3,
+        "durability": 8.2,
+        "performance": 8.2
+      },
+      "spec_adj": {
+        "quality": 4,
+        "durability": 3,
+        "performance": 3
+      },
+      "specs": {
+        "body_composition": "white_body_porcelain",
+        "surface_technology": "advanced_digital_inkjet_hd",
+        "rectification_precision": "rectified_precise",
+        "manufacturing_origin": "us_manufacturing_identified",
+        "source_traceability": "multi_source_identified",
+        "pei_rating": "class_4_moderate_to_heavy",
+        "dcof_slip_resistance": "standard_0_42_to_0_59",
+        "water_absorption_pct": "impervious_under_0_5",
+        "format_size": "large_format_24x48_plus",
+        "breaking_strength": "standard_1300_to_2000_n",
+        "freeze_thaw_resistance": "certified_frost_resistant",
+        "scratch_resistance_mohs": "standard_5_to_6",
+        "stain_resistance": "good_standard_glaze",
+        "warranty_years": "lifetime_limited",
+        "chemical_resistance": "good_class_b"
+      },
+      "notes": "Daltile — Mohawk Industries subsidiary. Largest tile manufacturer/distributor in US. White body porcelain with advanced HD inkjet surface. Rectified for precision installation. Multiple US manufacturing plants + partner factories. PTCA certified on qualifying lines. Consistent quality, massive distribution network, architect-specified for reliability. Limited lifetime residential warranty. The 'reliable premium' — not artisan but consistently well-made.",
+      "corporate_parent": "Mohawk Industries (NYSE: MHK — owns Daltile, Marazzi USA, American Olean)",
+      "outlook": "Strong",
+      "outlook_rationale": "Mohawk Industries is the world's largest flooring company. $10B+ revenue. NYSE listed. No going-concern risk."
+    },
+    {
+      "name": "Marazzi Color Body Porcelain (Italian Production)",
+      "slug": "marazzi_color_body",
+      "sub_type": "porcelain_floor",
+      "tier": 2,
+      "target": 80,
+      "axis_scores": {
+        "quality": 8.1,
+        "durability": 8,
+        "performance": 8
+      },
+      "spec_adj": {
+        "quality": 4,
+        "durability": 3,
+        "performance": 2
+      },
+      "specs": {
+        "body_composition": "color_body_porcelain",
+        "surface_technology": "advanced_digital_inkjet_hd",
+        "rectification_precision": "rectified_precise",
+        "manufacturing_origin": "european_premium_spain_italy",
+        "source_traceability": "multi_source_identified",
+        "pei_rating": "class_4_moderate_to_heavy",
+        "dcof_slip_resistance": "standard_0_42_to_0_59",
+        "water_absorption_pct": "impervious_under_0_5",
+        "format_size": "standard_12x24_to_24x24",
+        "breaking_strength": "standard_1300_to_2000_n",
+        "freeze_thaw_resistance": "certified_frost_resistant",
+        "scratch_resistance_mohs": "standard_5_to_6",
+        "stain_resistance": "good_standard_glaze",
+        "warranty_years": "lifetime_limited",
+        "chemical_resistance": "good_class_b"
+      },
+      "notes": "Marazzi — founded 1935 in Sassuolo, Italy (heart of Italian ceramics district). Now Mohawk-owned but Italian production lines remain in Italy. Color body construction reduces chip visibility. Advanced Italian digital inkjet technology. Deep ceramic heritage (90+ years). Italian Marazzi vs Marazzi USA are different products — Italian lines maintain Sassuolo precision. Rectified. Limited lifetime warranty from Mohawk backing.",
+      "corporate_parent": "Mohawk Industries (NYSE: MHK — acquired Marazzi Group 2013)",
+      "outlook": "Strong",
+      "outlook_rationale": "Mohawk backing with Italian manufacturing heritage. Dual advantage: Italian precision + US distribution/warranty infrastructure."
+    },
+    {
+      "name": "MSI Aria Bianco Porcelain (24x24)",
+      "slug": "msi_aria_bianco",
+      "sub_type": "porcelain_floor",
+      "tier": 3,
+      "target": 67,
+      "axis_scores": {
+        "quality": 6.7,
+        "durability": 6.8,
+        "performance": 6.7
+      },
+      "spec_adj": {
+        "quality": 0,
+        "durability": 2,
+        "performance": 2
+      },
+      "specs": {
+        "body_composition": "white_body_porcelain",
+        "surface_technology": "standard_digital_inkjet",
+        "rectification_precision": "rectified_precise",
+        "manufacturing_origin": "global_multi_source",
+        "source_traceability": "multi_source_identified",
+        "pei_rating": "class_4_moderate_to_heavy",
+        "dcof_slip_resistance": "standard_0_42_to_0_59",
+        "water_absorption_pct": "impervious_under_0_5",
+        "format_size": "standard_12x24_to_24x24",
+        "breaking_strength": "standard_1300_to_2000_n",
+        "freeze_thaw_resistance": "certified_frost_resistant",
+        "scratch_resistance_mohs": "standard_5_to_6",
+        "stain_resistance": "good_standard_glaze",
+        "warranty_years": "lifetime_limited",
+        "chemical_resistance": "good_class_b"
+      },
+      "notes": "MSI (M S International) — major global distributor based in Orange, CA. Distributor model (NOT manufacturer): sources from global partner factories. MSI selects competitive specs and price points. Aria Bianco is their marble-look porcelain — widely available through Floor & Decor, Home Depot, tile showrooms. Rectified 24x24. PEI 4. PTCA certification claimed on packaging. Installer reports of inconsistency in shade matching between lots. Decent specs on paper — positioning reflects distribution/source model rather than manufacturing excellence.",
+      "corporate_parent": "MSI (M S International, Inc. — private, Orange CA, founded 1975)",
+      "outlook": "Stable",
+      "outlook_rationale": "Large, diversified private distributor. Countercyclical product mix (stone, tile, LVP, quartz). Growing market share."
+    },
+    {
+      "name": "American Olean Theoretical Bold Ceramic",
+      "slug": "american_olean_theoretical_bold",
+      "sub_type": "ceramic_floor",
+      "tier": 3,
+      "target": 65,
+      "axis_scores": {
+        "quality": 6.5,
+        "durability": 6.5,
+        "performance": 6.5
+      },
+      "spec_adj": {
+        "quality": 0,
+        "durability": 1,
+        "performance": 1
+      },
+      "specs": {
+        "body_composition": "white_body_ceramic",
+        "surface_technology": "standard_digital_inkjet",
+        "rectification_precision": "calibrated_standard",
+        "manufacturing_origin": "us_manufacturing_identified",
+        "source_traceability": "multi_source_identified",
+        "pei_rating": "class_3_light_to_moderate",
+        "dcof_slip_resistance": "standard_0_42_to_0_59",
+        "water_absorption_pct": "vitreous_0_5_to_3",
+        "format_size": "standard_12x24_to_24x24",
+        "breaking_strength": "standard_1300_to_2000_n",
+        "freeze_thaw_resistance": "not_applicable_interior_only",
+        "scratch_resistance_mohs": "standard_5_to_6",
+        "stain_resistance": "good_standard_glaze",
+        "warranty_years": "lifetime_limited",
+        "chemical_resistance": "good_class_b"
+      },
+      "notes": "American Olean — Mohawk Industries subsidiary (same parent as Daltile, Marazzi). US manufacturing. Standard white-body ceramic with digital inkjet glaze. Calibrated (sorted by size) but not fully rectified on all lines. THE ceramic benchmark — 'good enough for a quality residential installation.' PEI 3 (light-moderate traffic). Water absorption in vitreous range (0.5-3%). Lifetime limited warranty from Mohawk backing. Positioned below Daltile premium lines within the same corporate family — different products from same parent.",
+      "corporate_parent": "Mohawk Industries (NYSE: MHK — owns Daltile, Marazzi USA, American Olean)",
+      "outlook": "Strong",
+      "outlook_rationale": "Mohawk backing. Oldest ceramic tile brand in US (founded 1923). Heritage plus corporate strength."
+    },
+    {
+      "name": "Merola Tile (Home Depot Imported Ceramic)",
+      "slug": "merola_tile_hd",
+      "sub_type": "ceramic_floor",
+      "tier": 4,
+      "target": 45,
+      "axis_scores": {
+        "quality": 4.3,
+        "durability": 4.6,
+        "performance": 4.7
+      },
+      "spec_adj": {
+        "quality": -5,
+        "durability": -1,
+        "performance": -1
+      },
+      "specs": {
+        "body_composition": "red_body_ceramic",
+        "surface_technology": "screen_printed",
+        "rectification_precision": "non_rectified_pressed_edge",
+        "manufacturing_origin": "unknown_or_undisclosed_oem",
+        "source_traceability": "unknown_or_undisclosed",
+        "pei_rating": "class_2_light_traffic",
+        "dcof_slip_resistance": "standard_0_42_to_0_59",
+        "water_absorption_pct": "semi_vitreous_3_to_7",
+        "format_size": "small_format_under_12x12",
+        "breaking_strength": "low_under_1300_n",
+        "freeze_thaw_resistance": "not_rated_fails",
+        "scratch_resistance_mohs": "low_under_5",
+        "stain_resistance": "moderate_porous_surface",
+        "warranty_years": "under_10_or_none",
+        "chemical_resistance": "fair_class_c"
+      },
+      "notes": "Merola Tile — Home Depot-stocked imported ceramic. Multiple OEM sources (Spain, Italy, Brazil, China — varies by SKU, not consistently one factory). Known for decorative patterns at low price points. Red body ceramic typical. Non-rectified pressed edges — wide grout lines required. PEI 2 (light traffic only). Water absorption 3-7% (semi-vitreous — not suitable for exterior or heavy wet areas). Breaking strength <1300N. Fails freeze-thaw. Screen-printed surface patterns (legacy technology). Installer reports: shade variation and dimensional inconsistency between boxes. 1-year warranty or per-manufacturer warranty routed through Home Depot.",
+      "corporate_parent": "Merola Tile (importer/distributor — stocked through Home Depot)",
+      "outlook": "Stable",
+      "outlook_rationale": "Home Depot distribution ensures availability. Quality is builder-grade decorative positioning."
+    }
+  ],
+  "manufacturer_domains": {
+    "porcelanosa_dover_caliza": [
+      "porcelanosa.com",
+      "porcelanosa-usa.com"
+    ],
+    "crossville_virtue": [
+      "crossvilleinc.com"
+    ],
+    "daltile_panoramic": [
+      "daltile.com",
+      "mohawkindustries.com"
+    ],
+    "marazzi_color_body": [
+      "marazziusa.com",
+      "marazzi.it",
+      "mohawkindustries.com"
+    ],
+    "msi_aria_bianco": [
+      "msisurfaces.com"
+    ],
+    "american_olean_theoretical_bold": [
+      "americanolean.com",
+      "daltile.com",
+      "mohawkindustries.com"
+    ],
+    "merola_tile_hd": [
+      "homedepot.com"
+    ]
+  }
+}

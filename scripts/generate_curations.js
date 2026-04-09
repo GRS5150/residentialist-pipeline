@@ -3,12 +3,15 @@
  * generate_curations.js — Source-Registry-Driven Curation Builder
  *
  * Reads from knowledge/{category}/sources_registry.json (NOT markdown).
- * For each product:
- *   1. All scope:"category" sources  → apply to every product
- *   2. All scope:"product" sources matching this slug → add
- *   3. Writes calibration/{category}/curation_files/{slug}_curation.json
+ * Applies quality filters before writing:
+ *   - Excludes manufacturer's own domains (not independent)
+ *   - Excludes bare root domains (no meaningful path)
+ *   - Proper column classification (forum/review/expert)
+ *   - Domain deduplication (max 2 URLs per domain)
+ *   - Pool-sorted output (S → A → B → C)
+ *   - Capped at MAX_SOURCES per product
  *
- * Fails loudly if a product has zero sources — no placeholder allowed.
+ * Fails loudly if a product has zero sources after filtering.
  *
  * Usage: node scripts/generate_curations.js <category>
  */
@@ -18,8 +21,8 @@
 const fs   = require('fs');
 const path = require('path');
 
-const ROOT        = path.resolve(__dirname, '..');
-const category    = process.argv[2];
+const ROOT     = path.resolve(__dirname, '..');
+const category = process.argv[2];
 
 if (!category) {
   console.error('Usage: node scripts/generate_curations.js <category>');
@@ -29,6 +32,24 @@ if (!category) {
 const configPath   = path.join(ROOT, 'calibration', category, 'config.json');
 const curationDir  = path.join(ROOT, 'calibration', category, 'curation_files');
 const registryPath = path.join(ROOT, 'knowledge', category, 'sources_registry.json');
+
+// ── Config ────────────────────────────────────────────────────────────────────
+
+const MAX_SOURCES       = 25;   // max sources per product curation
+const MAX_PER_DOMAIN    = 2;    // max URLs from the same domain per curation
+
+// High-value domains exempt from MAX_PER_DOMAIN.
+// These are independent sources with published methodology where multiple
+// articles add genuine editorial value, not single-source spam.
+const DOMAIN_CAP_WHITELIST = new Set([
+  'yaleappliance.com',          // Pool A — independent service data, published methodology
+  'blog.yaleappliance.com',     // same org, blog subdomain
+  'consumerreports.org',        // Pool S — independent lab testing
+  'finehomebuilding.com',       // Pool A — professional trade publication
+  'jlconline.com',              // Pool A — Journal of Light Construction
+  'buildingscience.com',        // Pool A — Building Science Corporation
+  'greenbuildingadvisor.com',   // Pool A — building science
+]);
 
 // ── Load inputs ───────────────────────────────────────────────────────────────
 
@@ -48,26 +69,189 @@ const registry = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
 
 fs.mkdirSync(curationDir, { recursive: true });
 
-// ── Split registry by scope ───────────────────────────────────────────────────
+// ── Manufacturer domain map ───────────────────────────────────────────────────
+// Loaded from config.manufacturer_domains — no hardcoded domains here.
+// Each category config maps product slugs → arrays of domains belonging to
+// that manufacturer and its corporate parent. See calibration/*/config.json.
 
-const categorySources = registry.filter(s => s.scope === 'category');
-const productSources  = registry.filter(s => s.scope === 'product');
+// Low-value domains to always exclude regardless of product
+const ALWAYS_EXCLUDE_DOMAINS = [
+  'amazon.com', 'ebay.com', 'walmart.com', 'target.com', 'wayfair.com',
+  'overstock.com', 'costco.com', 'samsclub.com', 'bhphotovideo.com',
+  'pinterest.com', 'instagram.com', 'facebook.com', 'twitter.com', 'x.com',
+  'tiktok.com', 'linkedin.com',
+  'yelp.com', 'trustpilot.com', 'sitejabber.com', 'bbb.org',
+  'google.com', 'bing.com', 'yahoo.com',
+  'takywj.com', // Chinese hardware affiliate spam
+];
 
-console.log(`\nGenerating curation files for: ${category}`);
-console.log(`Products: ${config.calibration_products.length}`);
-console.log(`Registry: ${registry.length} sources (${categorySources.length} cat-scope, ${productSources.length} prod-scope)`);
-console.log();
+// ── URL parsing helpers ───────────────────────────────────────────────────────
 
-// ── Map pool heuristic → column ───────────────────────────────────────────────
+function getHostname(url) {
+  try { return new URL(url).hostname.replace(/^www\./, '').toLowerCase(); } catch { return ''; }
+}
 
-function poolToColumn(src) {
-  if (src.scope === 'product') {
-    const u = (src.url || '').toLowerCase();
-    if (/reddit|houzz|forum|discuss|community/.test(u)) return 'forum';
-    if (/trustpilot|yelp|consumeraffairs|bbb/.test(u)) return 'forum';
-    return src.source_pool === 'C' ? 'forum' : 'review';
+function getPathname(url) {
+  try { return new URL(url).pathname; } catch { return ''; }
+}
+
+function hasMeaningfulPath(url) {
+  // Bare root domains (e.g. https://chesapeakeplywood.com) have no useful path
+  const p = getPathname(url).replace(/\/$/, '');
+  return p.length > 1; // anything beyond just "/"
+}
+
+// ── Column classification ─────────────────────────────────────────────────────
+
+function classifyColumn(src) {
+  const u = (src.url || '').toLowerCase();
+  const host = getHostname(src.url);
+
+  // Forums / community discussion
+  if (/reddit\.com|houzz\.com\/discussions|quora\.com|forums?\.|discuss\.|community\./.test(u)) return 'forum';
+  if (/consumeraffairs\.com|gardenweb|doityourself\.com/.test(u)) return 'forum';
+
+  // Video (review/demo, not expert)
+  if (/youtube\.com|vimeo\.com/.test(u)) return 'review';
+
+  // Consumer review aggregators
+  if (/trustpilot|sitejabber|yelp|bbb\.org|consumerreports\.org/.test(u)) return 'review';
+
+  // Known expert / trade / institutional
+  if (/kcma\.org|awinet\.org|nkba\.org|nfrc\.org|aama\.net|nsf\.org|wqa\.org|asme\.org/.test(u)) return 'expert';
+  if (/\.gov\/|\.edu\//.test(u)) return 'expert';
+  if (/woodworkingnetwork\.com|finehomebuilding\.com|jlconline\.com|thisoldhouse\.com/.test(u)) return 'expert';
+  if (/yaleappliance\.com|mainlinekitchendesign\.com|mapflush\.org|iapmo\.org/.test(u)) return 'expert';
+  if (/blum\.com|grass\.eu|hettich\.com|salice\.com/.test(u)) return 'expert'; // hardware mfrs (independent from cabinet mfrs)
+  if (/arb\.ca\.gov|epa\.gov|energy\.gov|energystar\.gov|cpsc\.gov/.test(u)) return 'expert';
+
+  // Pool C → forum
+  if (src.source_pool === 'C') return 'forum';
+
+  // Pool S independent labs → expert
+  if (src.source_pool === 'S') return 'expert';
+
+  // Default B→review, A→expert
+  return src.source_pool === 'A' ? 'expert' : 'review';
+}
+
+// ── Pool sort order ───────────────────────────────────────────────────────────
+
+const POOL_ORDER = { S: 0, A: 1, B: 2, C: 3 };
+
+function poolRank(src) {
+  return POOL_ORDER[src.source_pool] ?? 4;
+}
+
+// ── Quality filter ────────────────────────────────────────────────────────────
+
+/**
+ * Build the set of manufacturer domains to exclude for a given product.
+ * Reads from config.manufacturer_domains (populated per-category in config.json).
+ * Includes the product's own domains PLUS all sibling brand domains that share
+ * a corporate parent — none of those are independent sources.
+ */
+function buildManufacturerDomains(productSlug) {
+  const mfrMap = config.manufacturer_domains || {};
+  const domains = new Set();
+
+  // 1. This product's own manufacturer domains
+  const ownDomains = mfrMap[productSlug] || [];
+  ownDomains.forEach(d => domains.add(d));
+
+  // 2. Find sibling brands that share a corporate parent domain.
+  //    If Merillat owns masterbrand.com, and KraftMaid also owns masterbrand.com,
+  //    then kraftmaid.com is not independent for Merillat scoring either.
+  const ownParents = new Set(ownDomains);
+  for (const [slug, slugDomains] of Object.entries(mfrMap)) {
+    if (slug === productSlug) continue;
+    // Check if any domain overlaps (shared parent)
+    const hasSharedParent = slugDomains.some(d => ownParents.has(d));
+    if (hasSharedParent) {
+      slugDomains.forEach(d => domains.add(d));
+    }
   }
-  return 'expert'; // category-scope sources are always expert-tier institutional
+
+  return domains;
+}
+
+// Non-content URL patterns: navigation/metadata pages, not articles
+const NON_CONTENT_PATHS = [
+  /\/author\//i, /\/authors?\/?$/i,
+  /\/about\/?$/i, /\/about-us/i,
+  /\/contact\/?$/i,
+  /\/tag\//i, /\/tags?\/?$/i,
+  /\/category\//i, /\/categories\/?$/i,
+  /\/search/i,
+  /\/login/i, /\/signup/i, /\/register/i,
+  /\/subscribe/i, /\/newsletter/i,
+  /\/privacy/i, /\/terms/i, /\/legal/i,
+  /\/sitemap/i,
+  /\/feed\/?$/i, /\/rss/i,
+  /\/page\/\d+$/i,
+  /\/comment-page/i, /\/comments?\/?$/i,
+  /\/share\//i, /\/print\//i, /\/embed\//i, /\/amp\/?$/i,
+  /\/cdn-cgi\//i, /\/wp-admin/i, /\/wp-login/i,
+  /\?replytocom=/i, /\?share=/i,
+  /#respond$/i, /#comments$/i,
+];
+
+function isNonContentPath(url) {
+  return NON_CONTENT_PATHS.some(p => p.test(url));
+}
+
+function filterSources(sources, productSlug, productName) {
+  const mfrDomains    = buildManufacturerDomains(productSlug);
+  const alwaysExclude = new Set(ALWAYS_EXCLUDE_DOMAINS);
+  const domainCount   = {};
+  const filtered      = [];
+  const dropped       = { dead: 0, nonContent: 0, manufacturer: 0, alwaysExclude: 0, bareRoot: 0, domainCap: 0, total: 0 };
+
+  for (const src of sources) {
+    const host = getHostname(src.url);
+    dropped.total++;
+
+    // 0. Dead links (verified by verify_source_registry.js)
+    if (src.verify_status === 'dead') {
+      dropped.dead++;
+      continue;
+    }
+
+    // 0b. Non-content pages (author profiles, about pages, tag indexes)
+    if (src.verify_status === 'non-content' || isNonContentPath(src.url)) {
+      dropped.nonContent++;
+      continue;
+    }
+
+    // 1. Always-exclude domains
+    if (alwaysExclude.has(host)) {
+      dropped.alwaysExclude++;
+      continue;
+    }
+
+    // 2. Manufacturer's own site — not independent
+    if (mfrDomains.has(host)) {
+      dropped.manufacturer++;
+      continue;
+    }
+
+    // 3. Bare root domain — no path = low signal
+    if (!hasMeaningfulPath(src.url)) {
+      dropped.bareRoot++;
+      continue;
+    }
+
+    // 4. Domain deduplication cap (whitelisted domains exempt)
+    domainCount[host] = (domainCount[host] || 0) + 1;
+    if (domainCount[host] > MAX_PER_DOMAIN && !DOMAIN_CAP_WHITELIST.has(host)) {
+      dropped.domainCap++;
+      continue;
+    }
+
+    filtered.push(src);
+  }
+
+  return { filtered, dropped };
 }
 
 // ── Convert registry entry → curation source object ──────────────────────────
@@ -78,8 +262,8 @@ function toSourceEntry(regSrc, id) {
     source_name: regSrc.name || regSrc.institution || regSrc.url.substring(0, 60),
     url: regSrc.url,
     platform: 'other',
-    column: poolToColumn(regSrc),
-    snippet: '',                   // curator fills in after inspector run
+    column: classifyColumn(regSrc),
+    snippet: '',  // curator fills in via inspector
     pool: regSrc.source_pool || 'B',
     classification: regSrc.scope === 'category' ? 'independent' : 'score',
     classification_reason: `Captured from ${regSrc.captured_from}. Scope: ${regSrc.scope}.`,
@@ -90,76 +274,92 @@ function toSourceEntry(regSrc, id) {
   };
 }
 
+// ── Split registry by scope ───────────────────────────────────────────────────
+
+const categorySources = registry.filter(s => s.scope === 'category');
+const productSources  = registry.filter(s => s.scope === 'product');
+
+console.log(`\nGenerating curation files for: ${category}`);
+console.log(`Products: ${config.calibration_products.length}`);
+console.log(`Registry: ${registry.length} sources (${categorySources.length} cat-scope, ${productSources.length} prod-scope)`);
+console.log(`Quality filter: manufacturer domains excluded, max ${MAX_SOURCES} sources, max ${MAX_PER_DOMAIN}/domain`);
+console.log();
+
 // ── Process each product ──────────────────────────────────────────────────────
 
-let totalWritten = 0;
-let totalSourcesBefore = 0;
-let totalSourcesAfter  = 0;
-let placeholdersEliminated = 0;
+let totalWritten         = 0;
+let totalSourcesBefore   = 0;
+let totalSourcesAfter    = 0;
+let placeholdersElim     = 0;
 
 for (const product of config.calibration_products) {
   const slug = product.slug;
 
-  // 1. Category-scope sources (institutional — apply to every product)
-  const catEntries = categorySources;
+  // Combine category + product-specific sources
+  const raw = [
+    ...categorySources,
+    ...productSources.filter(s => s.products && s.products.includes(slug)),
+  ];
 
-  // 2. Product-scope sources matching this slug
-  const prodEntries = productSources.filter(s =>
-    s.products && s.products.includes(slug)
-  );
+  // Sort by pool quality (S first, then A, B, C)
+  raw.sort((a, b) => poolRank(a) - poolRank(b));
 
-  const combinedRegistry = [...catEntries, ...prodEntries];
+  // Apply quality filter
+  const { filtered, dropped } = filterSources(raw, slug, product.name);
 
-  if (combinedRegistry.length === 0) {
-    // Check if existing curation exists we can preserve
-    const existing = path.join(curationDir, `${slug}_curation.json`);
-    if (fs.existsSync(existing)) {
-      console.log(`  ⚠️  ${product.name}: 0 registry sources — preserving existing curation`);
-      continue;
-    }
-    console.error(`  ❌ ${product.name}: No sources in registry and no existing curation. Run backfill first.`);
-    process.exit(1);
-  }
+  // Cap at MAX_SOURCES
+  const capped = filtered.slice(0, MAX_SOURCES);
 
-  // Load existing curation to detect placeholders before overwriting
+  // Load existing curation for before-stats
   const existingPath = path.join(curationDir, `${slug}_curation.json`);
   let existingSources = [];
   if (fs.existsSync(existingPath)) {
-    try {
-      existingSources = JSON.parse(fs.readFileSync(existingPath, 'utf8')).sources || [];
-    } catch {}
+    try { existingSources = JSON.parse(fs.readFileSync(existingPath, 'utf8')).sources || []; } catch {}
   }
   const prevPlaceholders = existingSources.filter(s => s.url === 'deep_dive_synthesis').length;
   totalSourcesBefore += existingSources.length;
-  placeholdersEliminated += prevPlaceholders;
+  placeholdersElim   += prevPlaceholders;
 
-  // Build fresh source list from registry
-  const sources = combinedRegistry.map((s, i) => toSourceEntry(s, `SRC-${String(i + 1).padStart(3, '0')}`));
+  if (capped.length === 0) {
+    if (fs.existsSync(existingPath)) {
+      console.log(`  ⚠️  ${product.name}: 0 sources after filtering — preserving existing curation`);
+      continue;
+    }
+    console.error(`  ❌ ${product.name}: 0 sources after filtering and no existing curation.`);
+    process.exit(1);
+  }
+
+  // Build source entries
+  const sources = capped.map((s, i) => toSourceEntry(s, `SRC-${String(i + 1).padStart(3, '0')}`));
   totalSourcesAfter += sources.length;
 
   // Pool distribution
   const poolDist = { pool_S: 0, pool_A: 0, pool_B: 0, pool_C: 0 };
-  for (const s of sources) {
-    const k = `pool_${s.pool}`;
-    if (k in poolDist) poolDist[k]++;
-  }
+  for (const s of sources) { const k = `pool_${s.pool}`; if (k in poolDist) poolDist[k]++; }
+
+  // Column distribution for summary
+  const colDist = {};
+  for (const s of sources) colDist[s.column] = (colDist[s.column] || 0) + 1;
+
+  const droppedNote = `mfr:${dropped.manufacturer} always:${dropped.alwaysExclude} bare:${dropped.bareRoot} cap:${dropped.domainCap}`;
 
   const curationFile = {
-    product:              product.name,
-    report_date:          new Date().toISOString().substring(0, 10),
+    product:             product.name,
+    report_date:         new Date().toISOString().substring(0, 10),
     sources,
-    bottom_line:          product.rationale || `${product.name} — Tier ${product.tier} product. Target score: ${product.target}/100.`,
+    bottom_line:         product.rationale || `${product.name} — Tier ${product.tier} product. Target score: ${product.target}/100.`,
     scoring_notes: {
-      sources_scored:       sources.filter(s => s.classification === 'score').map(s => s.id),
-      sources_report_only:  sources.filter(s => s.classification !== 'score').map(s => s.id),
-      sources_quarantined:  [],
-      pool_distribution:    poolDist,
+      sources_scored:      sources.filter(s => s.classification === 'score').map(s => s.id),
+      sources_report_only: sources.filter(s => s.classification !== 'score').map(s => s.id),
+      sources_quarantined: [],
+      pool_distribution:   poolDist,
+      filter_summary:      { raw: raw.length, after_filter: filtered.length, capped: capped.length, dropped },
     },
     product_slug:         slug,
     product_name:         product.name,
     manufacturer_slug:    slug.split('_')[0],
     deep_dive_date:       new Date().toISOString().substring(0, 10),
-    structuring_model:    'source_registry_v1',
+    structuring_model:    'source_registry_v2',
     curation_status:      'curated',
     curation_date:        new Date().toISOString().substring(0, 10),
     human_overrides:      [],
@@ -169,16 +369,20 @@ for (const product of config.calibration_products) {
   };
 
   fs.writeFileSync(existingPath, JSON.stringify(curationFile, null, 2));
-  console.log(`  ✅ ${product.name}: ${sources.length} sources (${catEntries.length} cat + ${prodEntries.length} prod)${prevPlaceholders > 0 ? ` — removed ${prevPlaceholders} placeholders` : ''}`);
+
+  const poolSummary = `S:${poolDist.pool_S} A:${poolDist.pool_A} B:${poolDist.pool_B} C:${poolDist.pool_C}`;
+  const colSummary  = Object.entries(colDist).map(([k,v])=>`${k}:${v}`).join(' ');
+  console.log(`  ✅ ${product.name}: ${sources.length} sources [${poolSummary}] [${colSummary}]`);
+  console.log(`     dropped ${raw.length - capped.length} — ${droppedNote}`);
   totalWritten++;
 }
 
 // ── Summary ───────────────────────────────────────────────────────────────────
 
-console.log('\n' + '─'.repeat(60));
+console.log('\n' + '─'.repeat(65));
 console.log(`Products written:          ${totalWritten}/${config.calibration_products.length}`);
 console.log(`Sources before:            ${totalSourcesBefore}`);
 console.log(`Sources after:             ${totalSourcesAfter}`);
-console.log(`Placeholders eliminated:   ${placeholdersEliminated}`);
-console.log('─'.repeat(60));
+console.log(`Placeholders eliminated:   ${placeholdersElim}`);
+console.log('─'.repeat(65));
 console.log('\nDone!\n');

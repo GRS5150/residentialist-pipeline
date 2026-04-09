@@ -3,34 +3,53 @@
   "version": "2.0",
   "version_date": "2026-04-06",
   "rebuilt_from": "prompt_a_countertops.md research (April 2026)",
-
   "axis_weights": {
-    "quality": 0.40,
-    "durability": 0.40,
-    "performance": 0.20
+    "quality": 0.4,
+    "durability": 0.4,
+    "performance": 0.2
   },
-
   "scoring_method": "anchor_target_plus_spec_spread",
   "scoring_notes": "Quality and Durability dominate because countertops are material-driven: composition, manufacturing consistency, and resistance profiles determine the score. Performance at 0.20 covers functional specs (heat resistance, stain resistance, scratch hardness) but these are inherent to the material, not engineered features.",
-
   "max_spec_adjustment_per_axis": 8,
   "tier_crossing_allowed": false,
-
   "tier_ranges": {
-    "1": { "min": 90, "max": 100, "label": "Best in Class" },
-    "2": { "min": 75, "max": 89, "label": "Excellent" },
-    "3": { "min": 60, "max": 74, "label": "Good" },
-    "4": { "min": 40, "max": 59, "label": "Fair" },
-    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+    "1": {
+      "min": 90,
+      "max": 100,
+      "label": "Best in Class"
+    },
+    "2": {
+      "min": 75,
+      "max": 89,
+      "label": "Excellent"
+    },
+    "3": {
+      "min": 60,
+      "max": 74,
+      "label": "Good"
+    },
+    "4": {
+      "min": 40,
+      "max": 59,
+      "label": "Fair"
+    },
+    "5": {
+      "min": 0,
+      "max": 39,
+      "label": "Below Standard"
+    }
   },
-
   "calibration_products": [
     {
       "name": "Cambria (US Engineered Quartz)",
       "slug": "cambria",
       "tier": 1,
       "target": 93,
-      "axis_scores": { "quality": 94, "durability": 93, "performance": 91 },
+      "axis_scores": {
+        "quality": 94,
+        "durability": 93,
+        "performance": 91
+      },
       "outlook": "Strong",
       "rationale": "Family-owned (Davis family), single US factory Le Sueur MN. 93% quartz content. Highest manufacturing consistency — no multi-source variance. GREENGUARD Gold certified. Chipping class-action was pre-2020 formula. Fabricator consensus: best engineered quartz for consistency and quality. NSF 51 food contact certified."
     },
@@ -39,7 +58,11 @@
       "slug": "dekton",
       "tier": 1,
       "target": 91,
-      "axis_scores": { "quality": 92, "durability": 92, "performance": 89 },
+      "axis_scores": {
+        "quality": 92,
+        "durability": 92,
+        "performance": 89
+      },
       "outlook": "Strong",
       "rationale": "Sintered stone — glass, porcelain, quartz at 25,000°C+ and extreme pressure. Near-zero porosity. Top heat resistance (500°F+), UV stable, scratch resistant. No resins = no off-gassing. Lifetime residential warranty. Field cracking reports near cooktops need further investigation. Cosentino (Spain) — global manufacturer."
     },
@@ -48,7 +71,11 @@
       "slug": "caesarstone",
       "tier": 2,
       "target": 82,
-      "axis_scores": { "quality": 83, "durability": 82, "performance": 81 },
+      "axis_scores": {
+        "quality": 83,
+        "durability": 82,
+        "performance": 81
+      },
       "outlook": "Conditional",
       "rationale": "Israeli/global manufacturer. 93% quartz, 7% resin. Breton technology. Multiple plant locations (Israel, Georgia USA, India, China) — quality consistency across plants is the concern. GREENGUARD Gold. Strong brand but multi-source manufacturing introduces variance risk that Cambria avoids."
     },
@@ -57,7 +84,11 @@
       "slug": "silestone",
       "tier": 2,
       "target": 78,
-      "axis_scores": { "quality": 79, "durability": 78, "performance": 77 },
+      "axis_scores": {
+        "quality": 79,
+        "durability": 78,
+        "performance": 77
+      },
       "outlook": "Conditional",
       "rationale": "Cosentino's engineered quartz line. Anti-bacterial marketing settlement (no durability impact). HybriQ+ technology (recycled materials). Strong brand, good distribution. Slightly below Caesarstone in fabricator consensus. N-Boost technology claimed but independent verification sparse."
     },
@@ -66,7 +97,11 @@
       "slug": "corian",
       "tier": 3,
       "target": 65,
-      "axis_scores": { "quality": 66, "durability": 63, "performance": 67 },
+      "axis_scores": {
+        "quality": 66,
+        "durability": 63,
+        "performance": 67
+      },
       "outlook": "Conditional",
       "rationale": "PMMA acrylic resin-based solid surface. Seamless, repairable, thermoformable — genuine functional advantages. BUT: heat vulnerable (damage begins ~200°F), scratches easily, requires periodic sanding. CorStar Capital ownership (post-DuPont). Fabricators moved on from Corian for high-end but it has a legitimate repairability niche."
     },
@@ -75,9 +110,39 @@
       "slug": "msi_q_quartz",
       "tier": 4,
       "target": 48,
-      "axis_scores": { "quality": 47, "durability": 49, "performance": 48 },
+      "axis_scores": {
+        "quality": 47,
+        "durability": 49,
+        "performance": 48
+      },
       "outlook": "Negative",
       "rationale": "MSI is a distribution/import company, not a manufacturer. Slabs sourced from multiple factories (India, China, Turkey, Brazil) under one brand. Documented lot-to-lot inconsistency. Known voids, cracking reports. Fabricators warn about quality variance. Big-box and budget fabricator staple. No single-source quality control."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "cambria": [
+      "cambriausa.com",
+      "cambriaquartz.com"
+    ],
+    "dekton": [
+      "dekton.com",
+      "cosentino.com"
+    ],
+    "caesarstone": [
+      "caesarstone.com",
+      "caesarstoneus.com"
+    ],
+    "silestone": [
+      "silestone.com",
+      "cosentino.com"
+    ],
+    "corian": [
+      "corian.com",
+      "dupont.com",
+      "coriansurfaces.com"
+    ],
+    "msi_q_quartz": [
+      "msisurfaces.com"
+    ]
+  }
 }

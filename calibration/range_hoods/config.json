@@ -2,21 +2,17 @@
   "category": "range_hoods",
   "version": "1.0",
   "created_date": "2026-04-02",
-
   "composite_method": "geometric_mean",
   "formula_description": "geoMean(q, d, p) = (q/10)^W_q * (d/10)^W_d * (p/10)^W_p * 10, where axis scores are 0-10 scale. Display score = Math.round(geoMean * 10). Minimum axis input clamped to 0.01 before normalization.",
-
   "weights": {
-    "quality": 0.30,
+    "quality": 0.3,
     "durability": 0.25,
     "performance": 0.45
   },
-
   "axis_stretch": {
     "enabled": false,
     "notes": "No axis stretch in v1.0. Enable when 10+ products scored to compute real category ranges."
   },
-
   "calibration_products": [
     {
       "name": "Vent-A-Hood PRH Series",
@@ -66,5 +62,29 @@
       "axis_scores_tbd": true,
       "notes": "Tier 4 anchor. Builder-grade floor. Painted steel body, 210 CFM, ~6.5 sones at max, aluminum mesh filters, incandescent lighting, 30-inch undercabinet. The hood that comes pre-installed in every tract home. Cannot adequately ventilate even a standard 30-inch range during high-heat cooking. ~$60 retail. 1-year warranty."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "vent_a_hood_prh": [
+      "ventahood.com"
+    ],
+    "wolf_pro_ventilation": [
+      "subzero-wolf.com",
+      "subzerowolf.com"
+    ],
+    "zephyr_tempest_ii": [
+      "zephyronline.com"
+    ],
+    "thermador_hpcn": [
+      "thermador.com",
+      "bshg.com"
+    ],
+    "broan_elite_e60e": [
+      "broan.com",
+      "broan-nutone.com"
+    ],
+    "broan_f40000": [
+      "broan.com",
+      "broan-nutone.com"
+    ]
+  }
 }

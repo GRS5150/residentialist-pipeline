@@ -1,0 +1,41 @@
+{
+  "manufacturer_name": "Cosentino",
+  "manufacturer_slug": "cosentino",
+  "category": "countertops",
+  "search_type": "stub",
+  "last_updated": "2026-03-27T00:00:00.000Z",
+  "brands": ["Dekton", "Silestone"],
+  "warranty_program": {
+    "dekton": {
+      "type": "25-year warranty",
+      "duration": "25 years",
+      "transferable": true,
+      "covers": "Manufacturing defects — stains, scratches, UV damage",
+      "summary": "25-year transferable warranty. Covers staining, scratching, UV exposure. Strong for sintered stone."
+    },
+    "silestone": {
+      "type": "25-year warranty",
+      "duration": "25 years",
+      "transferable": true,
+      "covers": "Manufacturing defects",
+      "summary": "25-year transferable warranty. Competitive with premium quartz brands."
+    }
+  },
+  "service_network": {
+    "coverage": "Global — Cosentino Centers in major metros",
+    "dealer_network": "Cosentino Centers + authorized fabricator network",
+    "summary": "Strong dealer network via owned Cosentino Centers. Global infrastructure."
+  },
+  "company_stability": {
+    "ownership": "Private, Spanish multinational (Almería, Spain)",
+    "founded": "1979 (Cosentino Group)",
+    "manufacturing": "Dekton: Cantoria, Spain (single factory). Silestone: multiple facilities globally",
+    "financial_health": "Stable multinational, diversified across brands and geographies",
+    "outlook": "Strong"
+  },
+  "reputation_pattern": {
+    "fabricator_consensus": "Dekton: materially superior but difficult to fabricate. Silestone: reliable premium quartz.",
+    "key_strengths": ["Dekton heat/scratch resistance", "Silestone Microban technology", "Strong financials", "Global infrastructure"],
+    "key_concerns": ["Dekton impact brittleness (Consumer Reports split)", "Dekton requires specialized fabrication", "Dekton edge chipping"]
+  }
+}

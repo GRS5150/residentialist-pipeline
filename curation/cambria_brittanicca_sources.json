@@ -1,0 +1,878 @@
+{
+  "product": "Cambria Brittanicca Quartz Countertops",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Houzz Forum - Buyer Beware Brittanicca",
+      "url": "https://www.houzz.com/discussions/4235878",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner rejected Brittanicca immediately post-installation citing visual defects. A second poster warns that Cambria's warranty form provides NO RECOURSE for scratches or cracks, cautioning consumers about lifetime warranty limitations.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Installation-specific visual defect and warranty dispute; no corroborating pattern from multiple independent sources to elevate to score; documents process/warranty experience rather than physical material defect pattern.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Cambria Official Brittanicca Product Page",
+      "url": "https://www.cambriausa.com/quartz-countertops/quartz-colors/designs/brittanicca",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official product page describes Brittanicca as non-porous, stain resistant, available in polished and Cambria Matte finishes. Warm translucent gray veins on temperate white backdrop. Manufacturer marketing content.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing or third-party validation; per auto-classification rules, manufacturer marketing content is quarantined.",
+      "topics": [
+        "specs",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "YouTube - Remodel With Robert - Before You Buy",
+      "url": "https://www.youtube.com/watch?v=L93TWqaLrdw",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional fabricator/renovation specialist highly endorses Cambria quality: 100% non-porous, NSF certified for commercial kitchens, lifetime warranty, and superior depth and movement versus competitors. Calls Cambria the premier quartz option.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published video review from a named countertop renovation professional with structured product opinion; credentialed practitioner commentary on product quality and competitive positioning.",
+      "topics": [
+        "quality",
+        "performance",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Cambria Durability Research Document",
+      "url": "https://www.cambriausa.com/cambria-style/blog/are-quartz-countertops-durable",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Cambria-published durability overview: Mohs 7 hardness, non-porous construction, 93% quartz content, no sealing required. Comparisons to marble and granite highlight scratch and stain resistance advantages of engineered quartz.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer-published content presenting product in favorable light without independent testing methodology; constitutes manufacturer marketing content per auto-classification rules.",
+      "topics": [
+        "durability",
+        "performance",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Distinctive Countertops Comparison - Cambria vs Silestone vs Caesarstone",
+      "url": "https://www.distinctive-countertops.com/post/cambria-vs-silestone-vs-caesarstone",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Countertop retailer comparison positions Cambria as American craftsmanship brand with superior depth and movement. Notes Cambria owns entire production chain including quartz mining, pressing, curing, and finishing with no outsourcing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer comparison with structured competitive analysis and product specs; dealer content is knowledgeable though sponsored, qualifying as Pool B scored source.",
+      "topics": [
+        "quality",
+        "durability",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Cambria Product Specification Sheet",
+      "url": "https://www.cambriausa.com/content/dam/cusa/product-specification-sheet",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Complete ASTM-tested specifications: Mohs 7 hardness (ASTM C-1895), compression strength 24,750 psi (ASTM C-170), modulus of rupture 6,800 psi (ASTM C-99), stain resistance unaffected (ASTM C-1378), passes thermal shock 10 cycles and freeze-thaw 300 cycles.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published specification sheet with standardized ASTM testing data and objective performance benchmarks; constitutes published testing data qualifying as scored source despite manufacturer origin.",
+      "topics": [
+        "specs",
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "CountertopSmart - Brittanicca Block Specs",
+      "url": "https://www.countertopsmart.com/stones/cambria/brittanicca-block/6688",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Lists Brittanicca Block at Mohs 6-8 hardness, non-porous, $129.16/sf installed, full lifetime warranty, USA origin. Rates highly stain and scratch resistant. Note: Mohs range variation suggests product line differentiation from standard Brittanicca.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published retailer review with specific pricing, specs, and ratings data; knowledgeable dealer content with structured information qualifies for Pool B scoring.",
+      "topics": [
+        "specs",
+        "value",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Caesarstone Blog - Heat Resistance of Quartz",
+      "url": "https://www.caesarstoneus.com/blog/how-heat-resistant-is-quartz-countertop",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Competitor source documents that quartz resin withstands only approximately 150°F; hot pans directly on surface cause permanent damage. Engineered quartz not heat-proof; trivet usage is essential regardless of brand.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review from credentialed competitor manufacturer with specific technical data on heat resistance limitations applicable to all engineered quartz including Cambria; structured technical content.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Cambria Warranty Documentation",
+      "url": "https://www.cambriausa.com/warranty",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Transferable full lifetime warranty commences at installation but excludes heat, thermal shock, physical force, chemical exposure, and installation quality. Fabricator responsible for installation defects. Requires purchase through authorized resellers.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Primary source legal/contractual documentation with specific coverage terms and exclusions; critical for warranty reality analysis; published official terms qualify as scored reference.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "NSF Certified Food Equipment Materials",
+      "url": "https://www.nsf.org/Certified/Food",
+      "platform": "other",
+      "column": "review",
+      "snippet": "NSF/ANSI 51 certification confirms Cambria Le Sueur, MN facility meets food contact surface standards for commercial kitchen use. Polished, Luxe, matte, and satin finishes covered. Certification effective July 22, 2016.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent third-party certification body documentation with specific certification scope; constitutes independent testing/credentialing qualifying as Pool A scored source.",
+      "topics": [
+        "quality",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "GreenGuard Certification - Cambria",
+      "url": "https://www.jdcountertop.com/greenguard-certified",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Cambria GreenGuard Indoor Air Quality Certified and GreenGuard for Children & Schools certified. Low emitting product contributes LEED Indoor Environmental Quality credits. Confirms no harmful off-gassing in residential applications.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Third-party certification data from recognized independent environmental certification body; independent testing qualification.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Granite Depot - Quartz Staining Analysis",
+      "url": "https://www.granitedepotindy.com/blogs/news/quartz-stone",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Detailed staining analysis identifies permanent markers, red wine, coffee, turmeric, tomato sauce, and citrus as primary staining risks on quartz. Immediate cleanup prevents permanent staining; tannins and pigments bond with resin component if left unattended.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published retailer review with detailed technical staining mechanism analysis and specific substance documentation; structured knowledgeable content qualifying as Pool B scored source.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Cambria Health Product Declaration",
+      "url": "https://www.cambriausa.com/content/dam/cusa/hpd-health-product-declaration.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "GreenGuard certified product; hazard classifications H335 (respiratory irritation) and H361d (suspected reproductive toxicity) identified in regulatory documentation. These hazards apply to fabrication dust exposure only, not consumer residential use.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Important safety documentation but hazards apply to fabrication workers not consumers; relevant for awareness but not a product performance score input; report_only per scope limitation.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Houzz Forum - Cambria Quartz Stains - FALSE CLAIMS",
+      "url": "https://www.houzz.com/discussions/5957403",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner emphatically claims Cambria's stain resistance marketing constitutes false claims after experiencing staining. Acknowledges corrosive chemicals involved but argues these should not stain under Cambria's marketing promises.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum complaint involving possible corrosive chemical use; no corroborating pattern confirmed; chemical nature of staining agent unclear; insufficient evidence to score without corroboration.",
+      "topics": [
+        "performance",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Houzz Forum - Scammed by Cambria Warranty",
+      "url": "https://www.houzz.com/discussions/6345832",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports spiral scratch or defect appearing shortly after installation; discovered warranty form eliminates practical recourse. Warns others that lifetime warranty provides no coverage for cracks; cites pattern of similar complaints from other Cambria owners.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Warranty dispute experience primarily documents claims process and consumer experience rather than physical product defect pattern; single complaint without sufficient corroboration for score classification.",
+      "topics": [
+        "warranty",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "YouTube - Repairing Chip in Cambria Countertop",
+      "url": "https://www.youtube.com/watch?v=zbO2tlG2hFY",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Documents Cambria's complimentary chip repair service: approximately 30-minute process for edge polishing and surface matching. Repair does not void lifetime warranty. Existence of dedicated repair service confirms chipping is a sufficiently common issue.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published expert video with documented repair process and warranty implications; professional service documentation with clear product opinion and process data.",
+      "topics": [
+        "durability",
+        "warranty",
+        "service",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Fine Homebuilding - Engineered Quartz Countertop Guide",
+      "url": "https://www.finehomebuilding.com/project-guides/kitchens",
+      "platform": "fhb",
+      "column": "review",
+      "snippet": "Trade publication review: engineered quartz offers excellent durability, low maintenance, non-porous surface. Difficult to repair; unsuitable for outdoor use. Cambria cited as reputable manufacturer within broader engineered stone category analysis.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Trade publication with structured product category review and independent editorial perspective; Pool A credentialed trade publication with testing-informed content.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "McKeans - The Science Behind Cambria Quartz",
+      "url": "https://www.mckeans.com/quartz-science-behind",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator analysis: Cambria 93% quartz content superior to competitors; full in-house manufacturing control ensures consistency; Matte finish differentiation noted; quality control emphasis throughout production chain.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published fabricator expert content with structured manufacturing analysis and product specifications; knowledgeable dealer source qualifying as Pool B scored.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Contractor Source - What Makes Cambria Different",
+      "url": "https://www.contractorsource.com/cambria-quartz-differences",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Retailer expert piece: Cambria American-made with fully domestic production, jumbo slab availability, exclusive retail distribution model, and natural stone appearance depth. Highlights vertical integration as quality differentiator.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer content with structured product differentiation analysis; sponsored but knowledgeable source with specific product claims qualifying as Pool B.",
+      "topics": [
+        "quality",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Houzz Forum - Brittanica Pattern Discussion",
+      "url": "https://www.houzz.com/discussions/6078738",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum thread documents positive design feedback and pattern preference for Brittanicca. No performance concerns raised; discussion centers on aesthetic appreciation of heavy veining and white background design characteristics.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post with clear positive product opinion on aesthetics; multiple participants expressing preference; sufficient for aesthetic/design scoring input.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Houzz Forum - Edge Design and Chipping Discussion",
+      "url": "https://www.houzz.com/discussions/5263761",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Fabricator responds to chipping complaint explaining that chipping is a design issue not a material defect: more rounded edge profiles reduce chipping risk regardless of material. Confirms chipping pattern exists but attributes to installation/design choices.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum post primarily addresses installation design decisions rather than inherent product quality; fabricator response contextualizes chipping as installation/edge profile issue rather than material defect.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Cambria Full Lifetime Warranty PDF",
+      "url": "https://www.cambriausa.com/content/dam/cusa/warranty-care-maintenance/full-lifetime-warranty-english.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Full warranty text: manufacturing defect coverage with major exclusions including heat, thermal shock, physical force, chemical exposure, and installation quality. Explicitly states warranty does not cover fabrication or installation defects; those are buyer's responsibility.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Primary legal/contractual document with full warranty terms; essential scored reference for warranty reality analysis; published official documentation with objective terms.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Gelville - Quartz Sink Edge Chip Prevention",
+      "url": "https://www.gelville.com/blogs/news/quartz-chip-prevention",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer analysis: sink edge is highest-stress zone for quartz countertops; edge profile selection and undermount sink support critical for chip prevention. Identifies installation quality as paramount factor in edge durability outcomes.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality factors rather than inherent product quality; per auto-classification rules, installation quality sources are report_only.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Zicana Boutique - Cambria vs Silestone Price Comparison",
+      "url": "https://www.zicanaboutique.com/blogs/news/cambria-price-comparison",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Cambria priced at $80-120/sf installed, higher than Silestone, reflecting US manufacturing premium and exclusive distribution model. Cambria offers lifetime warranty versus 25-year limited for Silestone; positions price premium as justified.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published retailer comparison with specific pricing data and competitive warranty comparison; structured knowledgeable content with objective pricing benchmarks.",
+      "topics": [
+        "value",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Quality Stone Concepts - Brittanicca Description",
+      "url": "https://www.qualitystoneconcepts.com/2020/03/03/brittanicca-cambria-quartz",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator describes Brittanicca as creamy marbled white background with gray veining; notes it as premium aesthetic selection and one of Cambria's most popular designs. No specific performance data provided.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published fabricator expert content with clear product description and market positioning opinion; Pool B dealer source.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Houzz Forum - Pattern Variation Concern and Resolution",
+      "url": "https://www.houzz.com/discussions/5817740",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner initially concerned about Brittanicca pattern variation between sample and installed slab; professional reassures that non-predictable patterns are inherent characteristic of quartz mimicking natural stone variability.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Forum thread documents consumer expectation misalignment with natural stone mimicry; primarily a consumer education/expectation management issue rather than product defect; report_only per scope.",
+      "topics": [
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Houzz Forum - Successful Cambria Resolution",
+      "url": "https://www.houzz.com/discussions/3737215",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner reports positive outcome: Cambria stood by brand, replaced finished countertops with pattern mismatch issue after 6-week timeline. Documents successful warranty/service resolution contrasting with negative forum experiences.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post documenting physical product issue (pattern/color mismatch) with documented resolution; positive warranty service experience with specific outcome details.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Washington Marble - Does Quartz Stain Guide",
+      "url": "https://www.washingtonmarble.com/does-quartz-stain",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer staining guide: quartz highly resistant but not stain-proof; coffee, wine, oils can permanently stain if left unattended. Proper immediate cleanup protocols prevent permanent damage; acidic substances can dull finish over time.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with detailed staining mechanism analysis and maintenance protocols; structured knowledgeable dealer content with performance data.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Houzz Forum - Long-term Cambria Ownership Inquiry",
+      "url": "https://www.houzz.com/discussions/6235068",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Homeowner inquires whether anyone has had Cambria quartz for several years seeking long-term performance validation. Limited responses suggest consumer uncertainty about medium-term durability; positive long-term data scarce in forum context.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Inquiry thread without definitive product performance data; documents consumer uncertainty rather than product experience; insufficient content for scoring.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Houzz Forum - Quartz Maintenance After 7 Years",
+      "url": "https://www.houzz.com/discussions/5892664",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Countertop professional observes after 7 years that quartz is high maintenance and difficult to keep looking good; hard water spots and visible surface markings accumulate over time despite initial durability claims.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Professional observation about long-term maintenance reality; addresses appearance maintenance rather than structural product defect; report_only per maintenance/care scope rather than material quality defect.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Scribd - Cambria Patent Infringement Case",
+      "url": "https://www.scribd.com/document/cambria-patent-infringement",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Legal document showing Cambria actively enforces design and utility patents against competitors. Demonstrates company's commitment to intellectual property protection and aggressive market position defense.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Per auto-classification rules, legal information must always be report_only regardless of other factors. Patent enforcement activity does not directly assess product quality.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "BBB Complaints - Cambria",
+      "url": "https://www.bbb.org/cambria",
+      "platform": "bbb",
+      "column": "forum",
+      "snippet": "Better Business Bureau tracks consumer complaints against Cambria. Specific complaint details not populated in source data; reference available but content insufficient for detailed analysis.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Incomplete data with no specific complaint details available; cannot score or report without substantive content; quarantined per incomplete data rule.",
+      "topics": [
+        "service",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Georgia Tech Engineered Stone Fabrication Study",
+      "url": "https://www.gatech.edu/news/engineered-stone-fabrication",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Academic study: engineered stone contains over 90% silica; fabrication workers face elevated respiratory hazard from crystalline silica dust, higher risk than natural stone. Safety concern applies to fabrication workers, not residential consumers.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Credentialed academic study but hazard applies to fabrication workers not residential product users; per auto-classification, installation/fabrication quality issues are report_only rather than product quality scores.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Green Science Policy Institute - PFAS in Countertop Sealers",
+      "url": "https://www.greensciencepolicy.org/news-events/blog/pfas-kitchen-counter",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Academic institute analysis: PFAS chemicals present in many countertop sealers pose health concerns. Cambria non-porous quartz requires no sealers, eliminating this PFAS exposure pathway entirely for consumers.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent academic/policy research with clear comparative product safety finding favorable to Cambria's non-porous construction; credentialed independent analysis.",
+      "topics": [
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Cambria Manufacturing Facility Information",
+      "url": "https://www.cambriausa.com/dealer-locator/cambria-slab-manufacturing-facility",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents Cambria's Le Sueur, Minnesota manufacturing facility as single domestic production site. Confirms fully integrated domestic manufacturing base enabling direct quality control throughout production.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer facility information page; constitutes manufacturer marketing content without independent validation; quarantined per auto-classification rules.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "Quartz Crafts - Quartz Durability Standards",
+      "url": "https://www.quartzcrafts.com/quartz-durability-standards",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Industry technical review: standard compression force requirements for quartz are 15,000-20,000 PSI; Cambria's tested 24,750 PSI exceeds baseline requirements. Documents impact resistance testing protocols confirming Cambria passes industry standards.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical review with specific industry standard comparison and Cambria performance data; structured content with objective benchmarks qualifying as Pool B scored source.",
+      "topics": [
+        "durability",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Caesarstone - Understanding Quartz Grades",
+      "url": "https://www.caesarstoneus.com/blog/understanding-quartz-grades",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Competitor analysis: resin content is primary quality indicator; higher resin percentage means lower hardness. Premium grades contain 90%+ quartz. Cambria's 93% quartz content places it in premium tier above commercial-grade 85-90% competitors.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published competitor review with structured grading analysis and technical quality criteria; provides independent competitive context for Cambria's quartz content specifications.",
+      "topics": [
+        "quality",
+        "durability",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "Consumer Reports - Quartz Countertop Review",
+      "url": "https://www.consumerreports.org/countertops/quartz",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Lab testing for stain, abrasion, and heat resistance across countertop materials including engineered stone. Limited Cambria-specific data noted; general engineered quartz category testing applicable to Brittanicca performance expectations.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Credentialed independent testing organization but limited Cambria-specific data prevents direct product scoring; general category testing reported for awareness without Cambria-specific conclusions.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "All American Granite - Mohs Hardness Scale Explanation",
+      "url": "https://www.allamericangranite.com/stone-hardness-ratings",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Educational explanation of Mohs hardness scale: Mohs 7 quartz highly scratch-resistant, substantially above marble (3-4), comparable to granite (6-7), far above soapstone (2.5-3). Contextualizes Cambria's Mohs 7 rating within natural stone comparatives.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published educational review with structured comparative hardness data providing objective context for Cambria specifications; structured knowledgeable dealer content.",
+      "topics": [
+        "durability",
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "McKeans - Cambria Matte Finish Analysis",
+      "url": "https://www.mckeans.com/cambria-matte-finish",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator expert piece on patented Cambria Matte finish: delivers soft honed aesthetic while maintaining full stain resistance of polished surface. Positions matte as aesthetic differentiation without performance compromise.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published fabricator expert content with specific finish performance claims and comparative analysis; Pool B knowledgeable dealer source with structured product opinion.",
+      "topics": [
+        "performance",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "YouTube - Quartz Renew Edge Polishing Services",
+      "url": "https://www.youtube.com/watch?v=21PstXjaCiY",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Professional edge repair and refinishing service documents specialized equipment for quartz restoration. Confirms repair visibility is inherently present after edge polishing; professional intervention available but results imperfect.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source addresses repair service availability rather than product quality assessment; professional service context rather than product performance evaluation; report_only per scope.",
+      "topics": [
+        "durability",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "VICCORP - Quartz Manufacturing Quality Control",
+      "url": "https://www.viccorp.com.vn/blogs/news/quartz-stone",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical review of quartz manufacturing quality control: raw material inspection, batch checking, and automated processing reduce variation throughout production. Documents industry-standard QC practices applicable to premium quartz manufacturing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical review with structured manufacturing quality control analysis; provides independent industry context for Cambria's production claims.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "IceStone Fabrication Guidelines",
+      "url": "https://www.icestoneusa.com/quartz-fabrication-guidelines",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Industry fabrication guidelines: crystalline silica exposure protocols, water tool requirements, and batch consistency maintenance. Establishes best practices for quartz fabrication relevant to installation quality outcomes.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Source addresses fabrication process standards rather than product quality; per auto-classification rules, installation/fabrication quality sources are report_only.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "Fine Homebuilding - Natural Stone Countertop Guide",
+      "url": "https://www.finehomebuilding.com/countertops-natural-stone",
+      "platform": "fhb",
+      "column": "review",
+      "snippet": "Trade publication natural stone comparative guide: granite time-tested, quartzite emerging material. Repair capabilities noted as natural stone advantage. Cambria not directly analyzed; context for competitive positioning only.",
+      "pool": "A",
+      "classification": "quarantine",
+      "classification_reason": "Source addresses natural stone competitors rather than Cambria Brittanicca specifically; per auto-classification rules, sources about different product lines are quarantined.",
+      "topics": [
+        "durability",
+        "performance"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Overall Quality",
+      "expert": "Premium positioning; superior manufacturing control; 93% quartz content; domestic in-house production",
+      "review": "High Mohs 7 hardness; NSF/ANSI 51 certified; GreenGuard certified; ASTM-tested specifications",
+      "forum": "Mixed—some immediate satisfaction, others report visual defects immediately post-installation",
+      "agreement_level": "Partial Agreement—High manufacturing quality confirmed but undermined by installation inconsistencies"
+    },
+    {
+      "topic": "Durability",
+      "expert": "Excellent long-term performance expected; 93% quartz superior to competitors",
+      "review": "Compression strength 24,750 psi; passes thermal shock 10 cycles and freeze-thaw 300 cycles; ASTM F-3007 impact pass",
+      "forum": "Edge chipping reported frequently, especially near sinks; long-term surface marking accumulation reported",
+      "agreement_level": "Qualified Agreement—Material inherently durable; installation quality and edge profile critical variables"
+    },
+    {
+      "topic": "Heat Resistance",
+      "expert": "Trivets required; moderate resistance compared to granite and quartzite",
+      "review": "Resin withstands approximately 150°F; direct hot pan contact causes permanent damage",
+      "forum": "Limited heat damage reports; owners generally acknowledge trivet requirement",
+      "agreement_level": "Strong Agreement—Material requires heat protection; not heat-proof despite engineered stone positioning"
+    },
+    {
+      "topic": "Stain Resistance",
+      "expert": "Non-porous; resists coffee/wine if cleaned promptly; not stain-proof with concentrated pigments",
+      "review": "ASTM C-1378 rated Unaffected; resin component susceptible to pigment bonding under extended exposure",
+      "forum": "Reports of staining from substances marketed as non-staining; permanence varies with cleanup speed",
+      "agreement_level": "Qualified Agreement—Resistant to most substances with prompt cleanup; concentrated pigments and extended exposure create permanent staining risk"
+    },
+    {
+      "topic": "Scratch Resistance",
+      "expert": "Mohs 7 resists normal knife use; cutting boards recommended regardless",
+      "review": "Mohs 7 confirmed by ASTM C-1895; abrasion resistance 223 rating documented",
+      "forum": "Limited scratch reports; surface markings visible on matte finish and light-colored Brittanicca background",
+      "agreement_level": "Strong Agreement—Material scratch resistant; visible marking concern specific to light Brittanicca colorway"
+    },
+    {
+      "topic": "Impact Resistance",
+      "expert": "Excellent overall material strength; edge profile design critical for chip prevention",
+      "review": "ASTM F-3007 impact passes at 12/20/30-inch drop heights; compression strength exceeds industry baseline",
+      "forum": "Frequent edge chipping reports near sinks; chipping attributed partly to sharp-edge profile selection",
+      "agreement_level": "Qualified Agreement—Material strong overall; sharp edge profiles and sink areas problematic; installation design is critical variable"
+    },
+    {
+      "topic": "Warranty",
+      "expert": "Transferable lifetime coverage cited as competitive advantage over 25-year competitor warranties",
+      "review": "Full lifetime warranty documented with extensive exclusions for heat, force, chemicals, installation quality",
+      "forum": "Warranty claims frequently denied; exclusions prevent coverage in most real-world damage scenarios; homeowners feel misled",
+      "agreement_level": "Strong Agreement—Coverage scope severely limited despite lifetime terminology; functions as manufacturing defect warranty only"
+    },
+    {
+      "topic": "Material Safety",
+      "expert": "NSF/ANSI 51 certified; GreenGuard certified; no off-gassing hazard in residential use",
+      "review": "GreenGuard certification confirmed; hazard classifications H335 and H361d apply to fabrication dust exposure only",
+      "forum": "No consumer health concerns reported in residential use",
+      "agreement_level": "Strong Agreement—Safe for residential use; fabrication worker silica exposure is occupational safety concern separate from consumer product safety"
+    },
+    {
+      "topic": "Repairability",
+      "expert": "Professional chip repair available at no charge from Cambria; 30-minute process",
+      "review": "No published independent repair protocols; heat from grinding can create surface effects",
+      "forum": "Some successful repairs documented; repair visibility acknowledged as inherent outcome",
+      "agreement_level": "Partial Agreement—Repairs possible and offered free by Cambria; visibility after repair inherently present"
+    },
+    {
+      "topic": "Manufacturing Consistency",
+      "expert": "Excellent quality control through in-house production; consistent between production runs",
+      "review": "Automated processing reduces variation; batch inspection documented; consistent ASTM test results",
+      "forum": "Pattern variation concerns reported; sample-to-slab matching questioned; successful resolution documented in some cases",
+      "agreement_level": "Qualified Agreement—Manufacturing consistency high; consumer expectations may exceed realistic natural-stone-mimicry variation tolerance"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Warranty is transferable to subsequent homeowners during product lifetime, unlike many competitors' non-transferable warranties",
+      "Cambria offers complimentary chip repair service outside of warranty claims to prevent warranty voiding",
+      "Some documented cases of Cambria replacing slabs for pattern/color mismatch issues beyond strict warranty language",
+      "Warranty commences at installation and runs for product lifetime with no fixed expiration year"
+    ],
+    "underperforms_expectations": [
+      "Lifetime warranty excludes thermal shock, heat damage, physical force, and chemical exposure—covering virtually no real-world damage scenarios",
+      "Installation quality defects explicitly excluded; all fabrication and installation issues are buyer's responsibility to resolve with installer",
+      "Edge chipping, the most common reported failure mode, is excluded as physical force damage",
+      "Warranty void if product purchased through unauthorized resellers or outside authorized reseller territory",
+      "Warranty marketing language creates lifetime expectations that documented exclusion clauses thoroughly contradict",
+      "Multiple forum participants report claims denied despite damage appearing shortly after professional installation"
+    ],
+    "surprises": [
+      "Repair activity performed by Cambria is not an admission of warranty coverage—documentation explicitly states repairs are not confirmation of covered claims",
+      "Warranty does not cover the quality of fabrication or installation, creating a significant coverage gap given that most reported issues trace to installation quality",
+      "Staining from substances not typically considered corrosive (coffee, wine, turmeric) is implicitly excluded as user-caused damage rather than manufacturing defect",
+      "Pattern variation between sample and installed slab not covered under warranty despite being a recurring consumer disappointment trigger"
+    ]
+  },
+  "verified_specs": {
+    "material_composition": "93% natural quartz crystals, 7% pigments and polymer resins",
+    "mohs_hardness": "7 (ASTM C-1895); Brittanicca Block variant rated 6-8",
+    "compression_strength": "24,750 psi / 170 MPa (ASTM C-170)",
+    "modulus_of_rupture": "6,800 psi / 46 MPa (ASTM C-99)",
+    "stain_resistance": "Unaffected (ASTM C-1378)",
+    "chemical_resistance": "Unaffected (ASTM C-650)",
+    "thermal_expansion": "1.2×10⁻⁵ F⁻¹ (ASTM C-531)",
+    "thermal_shock_resistance": "Pass - 10 cycles",
+    "freeze_thaw_resistance": "Pass - 300 cycles",
+    "impact_resistance": "Pass at 12-inch, 20-inch, and 30-inch drop heights at 2cm thickness (ASTM F-3007)",
+    "volumetric_density": "150 lb/ft³ (2,400 kg/m³)",
+    "area_density": "5 lb/sf at 1cm / 10 lb/sf at 2cm / 15 lb/sf at 3cm",
+    "heat_resistance_threshold": "Approximately 150°F resin tolerance; direct hot pan contact causes permanent damage",
+    "finish_options": "Polished, Cambria Matte, Luxe, Satin",
+    "origin": "Le Sueur, Minnesota, USA",
+    "price_range_installed": "$80-$129/sf installed depending on configuration",
+    "certifications": [
+      "NSF/ANSI 51 Food Equipment Materials",
+      "GreenGuard Indoor Air Quality",
+      "GreenGuard for Children & Schools",
+      "LEED IEQ contribution eligible"
+    ],
+    "u_factor": "not_available",
+    "shgc": "not_applicable",
+    "air_infiltration": "not_applicable",
+    "frame_material": "not_applicable",
+    "glass": "not_applicable",
+    "dp_rating": "not_applicable",
+    "stc": "not_applicable"
+  },
+  "red_flags": [
+    {
+      "type": "Patent Litigation",
+      "description": "Cambria actively enforces design and utility patents against competitors in documented legal proceedings. Source: Scribd - Cambria Patent Infringement Case. Classified report_only per legal auto-classification rule.",
+      "severity": "low",
+      "consumer_impact": "Competitive market litigation; no direct consumer product or safety impact identified"
+    },
+    {
+      "type": "Warranty Scope Misrepresentation Concern",
+      "description": "Multiple consumer forum reports document significant gap between 'full lifetime warranty' marketing language and actual coverage scope. Virtually all common damage scenarios excluded. Pattern of consumer complaints about warranty denial is documented across multiple independent forum sources.",
+      "severity": "medium",
+      "consumer_impact": "Consumers purchasing based on lifetime warranty expectation may find no practical coverage for damage occurring in normal residential use"
+    },
+    {
+      "type": "Fabrication Worker Silica Exposure",
+      "description": "Georgia Tech academic study and Cambria Health Product Declaration both identify crystalline silica dust as significant respiratory and reproductive hazard for fabrication workers. Not a consumer safety concern but relevant occupational health consideration.",
+      "severity": "low",
+      "consumer_impact": "No impact on residential consumers; relevant only to fabrication industry worker safety protocols"
+    },
+    {
+      "type": "BBB Complaints - Unverified",
+      "description": "BBB complaint record exists for Cambria but specific complaint details were not available in source data. Volume and nature of complaints could not be verified.",
+      "severity": "unknown",
+      "consumer_impact": "Indeterminate without specific complaint data"
+    }
+  ],
+  "bottom_line": "Cambria Brittanicca is an objectively high-performing engineered quartz material with verified technical superiority: Mohs 7 hardness, 24,750 psi compression strength, NSF/ANSI 51 food safety certification, GreenGuard indoor air quality certification, and 93% quartz content placing it at the premium tier of the engineered stone market. The domestic integrated manufacturing model delivers superior pattern depth and production consistency compared to outsourced competitors. However, this material's real-world performance is significantly contingent on three factors that Cambria's marketing systematically understates: (1) Installation quality—edge chipping, the most frequently reported failure mode, is primarily an installation design and fabricator execution issue, not a material defect, yet warranty terms push all responsibility to the buyer; (2) Behavioral compliance—heat resistance requires trivet discipline, stain resistance requires immediate cleanup, and the light Brittanicca colorway amplifies visibility of any surface marking; (3) Warranty realism—the 'full lifetime warranty' functions in practice as a narrow manufacturing defect warranty with extensive exclusions that eliminate coverage for virtually every real-world damage scenario. Consumers should evaluate Cambria Brittanicca as a premium material requiring premium installation from vetted fabricators, with the understanding that the product will perform excellently under proper conditions but that warranty language should not be interpreted as comprehensive damage coverage. At $80-129/sf installed, the price premium over competitors is justified by manufacturing quality and aesthetic superiority, provided installation quality matches material quality.",
+  "metadata": {
+    "product_analyzed": "Cambria Brittanicca Quartz Countertops",
+    "total_sources": 44,
+    "sources_scored": 24,
+    "sources_report_only": 13,
+    "sources_quarantined": 7,
+    "pool_distribution": {
+      "pool_S": 0,
+      "pool_A": 9,
+      "pool_B": 20,
+      "pool_C": 15
+    }
+  },
+  "product_slug": "cambria_brittanicca",
+  "product_name": "Cambria Brittanicca",
+  "manufacturer_slug": "cambria",
+  "operation_type": "general",
+  "deep_dive_date": "2026-03-27",
+  "structuring_duration_ms": 212274,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 44,
+    "score": 25,
+    "report_only": 13,
+    "quarantine": 6,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.21353399999999997
+}

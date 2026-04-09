@@ -1,0 +1,33 @@
+{
+  "manufacturer_name": "Caesarstone",
+  "manufacturer_slug": "caesarstone",
+  "category": "countertops",
+  "search_type": "stub",
+  "last_updated": "2026-03-27T00:00:00.000Z",
+  "warranty_program": {
+    "type": "Lifetime warranty (residential)",
+    "duration": "Lifetime",
+    "transferable": true,
+    "covers": "Manufacturing defects in material",
+    "excludes": "Damage from heat, impact, chemicals, improper use",
+    "summary": "Lifetime transferable residential warranty. Strong on paper but corporate instability raises warranty-backing risk."
+  },
+  "service_network": {
+    "coverage": "National via authorized fabricator network",
+    "dealer_network": "Authorized fabricators + retail distributors",
+    "summary": "Adequate dealer network but corporate instability could affect long-term support."
+  },
+  "company_stability": {
+    "ownership": "Public (NASDAQ: CSTE)",
+    "founded": "1987 (Sdot Yam, Israel)",
+    "manufacturing": "100% outsourced as of Dec 2025 — Bar-Lev plant closed. Previously had facilities in Israel and Georgia, USA.",
+    "financial_health": "Major distress — 2025 revenue $397M (down from $443M), net loss $137.5M, 618 silicosis claims ($47.2M provision), stock $1.22 (March 2026)",
+    "tariff_exposure": "10% US tariff on ~47% of revenue",
+    "outlook": "Conditional"
+  },
+  "reputation_pattern": {
+    "fabricator_consensus": "Strong product quality historically. Corporate situation is the concern, not the material.",
+    "key_strengths": ["Category pioneer (1987)", "Strong design reputation", "Realistic marble-look patterns"],
+    "key_concerns": ["100% outsourced manufacturing", "$137.5M net loss", "618 silicosis lawsuits", "$1.22 stock price", "Warranty backing risk"]
+  }
+}

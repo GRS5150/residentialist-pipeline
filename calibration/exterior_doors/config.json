@@ -5,7 +5,7 @@
   "composite_method": "geometric_mean",
   "formula_description": "geoMean(q, d, p) = (q/10)^W_q * (d/10)^W_d * (p/10)^W_p * 10, where axis scores are 0-10 scale. Display score = Math.round(geoMean * 10). Minimum axis input clamped to 0.01 before normalization.",
   "weights": {
-    "quality": 0.40,
+    "quality": 0.4,
     "durability": 0.35,
     "performance": 0.25
   },
@@ -19,7 +19,11 @@
       "slug": "marvin_ultimate_entry",
       "tier": 1,
       "target": 94,
-      "axis_scores": { "quality": 9.6, "durability": 9.3, "performance": 9.4 },
+      "axis_scores": {
+        "quality": 9.6,
+        "durability": 9.3,
+        "performance": 9.4
+      },
       "notes": "Tier 1 anchor. Architect default for $2-5M homes. Engineered laminated wood/hybrid slabs (most warp-resistant). Premium factory-integrated hardware, multi-point lock standard. Lifetime warranty backed by Fortune Brands (NYSE: FBIN). Installers praise warp resistance in humid climates. High-end IGUs with low-E, refinishable UV-stable stains (10+ year durability). Unlimited custom options, 12-16 week lead time."
     },
     {
@@ -27,7 +31,11 @@
       "slug": "thermatru_classiccraft",
       "tier": 1,
       "target": 91,
-      "axis_scores": { "quality": 9.2, "durability": 9.2, "performance": 9.0 },
+      "axis_scores": {
+        "quality": 9.2,
+        "durability": 9.2,
+        "performance": 9
+      },
       "notes": "Tier 1 lower anchor. AccuGrain compression-molded fiberglass (most realistic grain in fiberglass). Rot-proof slab — inherent material advantage. Polyurethane foam core (R-5+). Multi-point lock system. 50-year/lifetime warranty. Installers note easy service, excellent energy efficiency. <1% service calls reported by pros. Fortune Brands (parent of Therma-Tru). Contractor consensus: best fiberglass door available."
     },
     {
@@ -35,7 +43,11 @@
       "slug": "pella_reserve_entry",
       "tier": 2,
       "target": 80,
-      "axis_scores": { "quality": 8.0, "durability": 8.0, "performance": 8.0 },
+      "axis_scores": {
+        "quality": 8,
+        "durability": 8,
+        "performance": 8
+      },
       "notes": "Tier 2 anchor. #1 consumer trust (LifeStory Research). Wood/fiberglass hybrid, strong sealing system (R6+ rated), good but not best-in-class construction. Better than JELD-WEN but below ProVia/Therma-Tru Classic-Craft per professional consensus. Family-owned (Pella Corporation). Limited lifetime warranty. Semi-custom options, 8-12 week lead time. Not specified for ultra-premium homes but reliable choice for $1-3M range."
     },
     {
@@ -43,7 +55,11 @@
       "slug": "thermatru_benchmark",
       "tier": 3,
       "target": 67,
-      "axis_scores": { "quality": 6.8, "durability": 6.8, "performance": 6.5 },
+      "axis_scores": {
+        "quality": 6.8,
+        "durability": 6.8,
+        "performance": 6.5
+      },
       "notes": "Tier 3 anchor (quality floor). Builder line of Therma-Tru. Thinner compression molding than Classic-Craft, less realistic grain, higher delamination risk. Still Fortune Brands warranty. Standard weatherstripping (not multi-layer). Single deadbolt standard. Professional quality floor: pros install Benchmark in $500K+ homes without hesitation but prefer Classic-Craft. Widely available through dealers and some big-box."
     },
     {
@@ -51,7 +67,11 @@
       "slug": "masonite_performance",
       "tier": 3,
       "target": 64,
-      "axis_scores": { "quality": 6.4, "durability": 6.5, "performance": 6.3 },
+      "axis_scores": {
+        "quality": 6.4,
+        "durability": 6.5,
+        "performance": 6.3
+      },
       "notes": "Tier 3 lower. Solid mid-market — innovative weatherstrip edges out JELD-WEN. Comparable to Therma-Tru Benchmark but better seals, slightly less brand recognition. Masonite International (public). Fewer water intrusion issues than steel alternatives. Hardware quality adequate but not premium. Minor finish fade after 7-10 years."
     },
     {
@@ -59,7 +79,11 @@
       "slug": "jeldwen_builders",
       "tier": 4,
       "target": 48,
-      "axis_scores": { "quality": 4.6, "durability": 5.0, "performance": 4.8 },
+      "axis_scores": {
+        "quality": 4.6,
+        "durability": 5,
+        "performance": 4.8
+      },
       "notes": "Tier 4 upper. Builder-grade entry. 22-24 gauge steel warps in sun. AuraLast wood reputation hit carries over (windows worse than doors, but brand damage persists). Mexico-made lines cheaper and thinner. Improved post-2020 but contractor wariness remains. Water intrusion at corners (poor welds) documented. High callback rate for Builders Series. JELD-WEN (public, NYSE: JELD)."
     },
     {
@@ -67,8 +91,39 @@
       "slug": "reliabilt_entry",
       "tier": 4,
       "target": 40,
-      "axis_scores": { "quality": 3.8, "durability": 4.2, "performance": 4.0 },
+      "axis_scores": {
+        "quality": 3.8,
+        "durability": 4.2,
+        "performance": 4
+      },
       "notes": "Tier 4 lower / borderline Tier 5. JELD-WEN-made big-box exclusive for Lowe's — downgraded specs (24-26 gauge steel, thin fiberglass). 50%+ service call rate per contractor consensus. Pros refuse for quality homes. Expected 5-8 year lifespan. Weatherstrip fails at 2-5 years, warping common in steel models, delamination in fiberglass models at 3-7 years. Highest callbacks in category."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "marvin_ultimate_entry": [
+      "marvin.com"
+    ],
+    "thermatru_classiccraft": [
+      "thermatru.com",
+      "fbhs.com",
+      "fortunebrands.com"
+    ],
+    "pella_reserve_entry": [
+      "pella.com"
+    ],
+    "thermatru_benchmark": [
+      "thermatru.com",
+      "fbhs.com",
+      "fortunebrands.com"
+    ],
+    "masonite_performance": [
+      "masonite.com"
+    ],
+    "jeldwen_builders": [
+      "jeld-wen.com"
+    ],
+    "reliabilt_entry": [
+      "lowes.com"
+    ]
+  }
 }

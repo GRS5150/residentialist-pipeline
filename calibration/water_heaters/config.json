@@ -2,24 +2,19 @@
   "category": "water_heaters",
   "version": "1.0",
   "created_date": "2026-04-01",
-
   "composite_method": "geometric_mean",
   "formula_description": "geoMean(q, d, p) = (q/10)^W_q * (d/10)^W_d * (p/10)^W_p * 10, where axis scores are 0-10 scale. Display score = Math.round(geoMean * 10). Minimum axis input clamped to 0.01 before normalization.",
-
   "weights": {
-    "quality": 0.30,
-    "durability": 0.40,
-    "performance": 0.30
+    "quality": 0.3,
+    "durability": 0.4,
+    "performance": 0.3
   },
-
   "axis_stretch": {
     "enabled": false,
     "notes": "No axis stretch in v1.0. Enable when 10+ products scored to compute real category ranges."
   },
-
   "sub_type_note": "Tankless, tank, and heat pump scored within the same framework. Sub-type does NOT create automatic tier advantage. Sub-type-specific spec fields coexist — inapplicable fields are omitted per product.",
   "pool_s_note": "Pool S is VACANT. Yale Appliance does not sell or service water heaters. No equivalent quantified reliability database exists.",
-
   "calibration_products": [
     {
       "name": "Rinnai RU199iN SENSEI Condensing Tankless",
@@ -27,7 +22,11 @@
       "sub_type": "tankless_gas",
       "tier": 1,
       "target": 93,
-      "axis_scores": { "quality": 9.5, "durability": 9.2, "performance": 9.4 },
+      "axis_scores": {
+        "quality": 9.5,
+        "durability": 9.2,
+        "performance": 9.4
+      },
       "notes": "Luxury listing signal (78 sightings). SENSEI series dual stainless HX, 0.95 UEF, 11 GPM max, 199K BTU. 15yr HX warranty (res). Japanese engineering (Nagoya). Circ-Logic recirculation compatible. Professional installer consensus = benchmark reliability. US assembly in Griffin, Georgia."
     },
     {
@@ -36,7 +35,11 @@
       "sub_type": "tankless_gas",
       "tier": 1,
       "target": 91,
-      "axis_scores": { "quality": 9.3, "durability": 8.6, "performance": 9.5 },
+      "axis_scores": {
+        "quality": 9.3,
+        "durability": 8.6,
+        "performance": 9.5
+      },
       "notes": "Innovation leader. Dual stainless HX, 0.96 UEF, 11.2 GPM max. Built-in ComfortFlow recirculation pump + buffer tank = no cold water sandwich. 15yr HX warranty (controlled recirc) / 5yr (uncontrolled) — conditional warranty is a durability concern. Korean manufacturing (Kyungdong Navien). Highest turndown ratio in class."
     },
     {
@@ -45,7 +48,11 @@
       "sub_type": "tankless_gas",
       "tier": 2,
       "target": 82,
-      "axis_scores": { "quality": 8.4, "durability": 8.2, "performance": 8.0 },
+      "axis_scores": {
+        "quality": 8.4,
+        "durability": 8.2,
+        "performance": 8
+      },
       "notes": "Strong mid-premium. Dual stainless HX, 0.98 UEF (highest in calibration set), 11.1 GPM, 25yr HX warranty (best in class — no conditions). Japanese engineering (Kobe). Top-mount connections for easy retrofit. Less market presence than Rinnai/Navien = narrower service network."
     },
     {
@@ -54,7 +61,11 @@
       "sub_type": "tank_gas",
       "tier": 2,
       "target": 80,
-      "axis_scores": { "quality": 8.5, "durability": 8.0, "performance": 7.5 },
+      "axis_scores": {
+        "quality": 8.5,
+        "durability": 8,
+        "performance": 7.5
+      },
       "notes": "Professional plumber's top choice for tank. Pro-only distribution (NOT sold at retail). Vitraglas proprietary glass lining with Microban. Hydrojet Total Performance System (cold-water inlet reduces sediment). ICON millivolt gas control (works without electricity). Brass drain valve. US-made Middleville, MI. 6yr standard warranty (BUILTBEST extendable). 40K BTU, 81 gal FHR, 0.63 UEF (atmospheric gas)."
     },
     {
@@ -63,7 +74,11 @@
       "sub_type": "heat_pump",
       "tier": 2,
       "target": 78,
-      "axis_scores": { "quality": 8.0, "durability": 7.3, "performance": 8.2 },
+      "axis_scores": {
+        "quality": 8,
+        "durability": 7.3,
+        "performance": 8.2
+      },
       "notes": "Heat pump technology leader. 4.07 UEF (highest efficiency in calibration set — but different DOE bin than gas). 80 gal, 87 gal FHR. R-134a refrigerant. EcoNet WiFi. 10yr warranty (best for tank-type). Multiple operating modes (heat pump only, hybrid, electric backup). Compressor noise ~50-55 dBA. Control board reliability concerns documented by users. Montgomery, AL manufacturing."
     },
     {
@@ -72,7 +87,11 @@
       "sub_type": "tank_gas",
       "tier": 3,
       "target": 67,
-      "axis_scores": { "quality": 6.8, "durability": 6.6, "performance": 6.8 },
+      "axis_scores": {
+        "quality": 6.8,
+        "durability": 6.6,
+        "performance": 6.8
+      },
       "notes": "Strong mid-tier tank. Professional distribution. Blue Diamond glass lining with Microban. CoreGard stainless steel anode (better than commodity magnesium). DynaClean sediment system. 0.72 UEF (power vent gas). 6yr standard warranty. Ashland City, TN manufacturing. Platform shared with State and American Water Heaters (same parent). ProLine XE is above Signature (retail) tier."
     },
     {
@@ -81,8 +100,40 @@
       "sub_type": "tank_gas_electric",
       "tier": 3,
       "target": 61,
-      "axis_scores": { "quality": 6.2, "durability": 6.0, "performance": 6.2 },
+      "axis_scores": {
+        "quality": 6.2,
+        "durability": 6,
+        "performance": 6.2
+      },
       "notes": "Home Depot retail channel. 9yr warranty (best in retail tier). Self-cleaning system. LED diagnostics. Enhanced anode rod vs base Performance models. Brass drain valve on some SKUs. UEF ~0.92 (electric) or ~0.62 (gas). Upgraded retail but still retail distribution and component tier. Platform shared with Ruud and Richmond (same parent). Professional vs retail quality debate well-documented on r/Plumbing."
     }
-  ]
+  ],
+  "manufacturer_domains": {
+    "rinnai_ru199in": [
+      "rinnai.us",
+      "rinnai.com"
+    ],
+    "navien_npe240a2": [
+      "navieninc.com",
+      "navien.com"
+    ],
+    "noritz_ez111dv": [
+      "noritz.com"
+    ],
+    "bradford_white_rg2": [
+      "bradfordwhite.com"
+    ],
+    "rheem_proterra": [
+      "rheem.com",
+      "rheemwater.com"
+    ],
+    "ao_smith_proline_xe": [
+      "aosmith.com",
+      "hotwater.com"
+    ],
+    "rheem_performance_plus": [
+      "rheem.com",
+      "rheemwater.com"
+    ]
+  }
 }

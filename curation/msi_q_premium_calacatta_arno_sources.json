@@ -1,0 +1,887 @@
+{
+  "product": "MSI Q Premium Calacatta Arno",
+  "product_category": "Engineered Quartz Countertop",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "MSI Calacatta Arno Product Page",
+      "url": "https://msisurfaces.com/quartz-countertops/calacatta-arno-quartz",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Warm white background with thin gray veins and gold accents; available in 3cm and 2cm thickness with polished finish. Manufacturer specification page for the Calacatta Arno pattern within the Q Premium line.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent verification or testing data.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "MSI Calacatta Premata Page",
+      "url": "https://msisurfaces.com/quartz-countertops/calacatta-premata-quartz",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Similar marble-look engineered quartz with premium natural quartz positioning and luxury branding. Separate product from Calacatta Arno; referenced only for comparative Q Premium line context.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content for a different product line; not directly relevant to Calacatta Arno performance.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "FabQuartz Calacatta Arno",
+      "url": "https://fabquartz.com/products/calacatta-arno",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer listing: Grade 7 classification; warm white background with gold accents; pricing $35.55–$44.90 per square foot. Provides full product specifications for Calacatta Arno from an authorized dealer perspective.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer content with specific pricing, grade classification, and specs; sponsored but knowledgeable source with concrete product data.",
+      "topics": [
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "MSI Q Premium FAQ Guide",
+      "url": "https://msisurfaces.com/blogs/post/2024/01/27/q-premium-natural-quartz",
+      "platform": "other",
+      "column": "review",
+      "snippet": "MSI blog documents 93% quartz content, no sealing required, Bretonstone manufacturing method, and positions Q Premium as durable and low-maintenance. Published January 2024 as educational brand content.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer educational/marketing blog content; no independent testing or third-party verification.",
+      "topics": [
+        "specs",
+        "quality",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Premier Granite Calacatta Arno",
+      "url": "https://premiergranitetops.com/featured-color/calacatta-arno-by-msi",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Authorized retailer assessment lists heat resistant, scratch resistant, and stain resistant claims alongside wide style variety. Retailer-curated product page without independent testing data; echoes manufacturer claims.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published retailer review with durability claim summary; sponsored but knowledgeable dealer source with product-specific content.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "MSI Warranty Registration Page",
+      "url": "https://msisurfaces.com/quartz-countertops/quartz-countertop-warranty-registration",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official MSI warranty registration portal confirming lifetime residential and 10-year commercial warranty availability for Q Quartz products. No independent analysis; direct manufacturer warranty documentation.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer warranty document; factual coverage data but no independent testing or consumer experience; best used as reference baseline.",
+      "topics": [
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Contractors Warehouse Calacatta Arno",
+      "url": "https://contractorswarehouse.com/product/kitchen/countertops/calacatta-arno",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer product page noting 112\"×26\" slab with backsplash option; nonporous surface; no sealing required; recommended for kitchens and bathrooms. Standard dealer listing without independent testing.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published retailer content with product specifications and application guidance; knowledgeable dealer source.",
+      "topics": [
+        "specs",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz MSI Quality Discussion",
+      "url": "https://houzz.com/discussions/4693903/msi-quartz-quality",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Mixed owner experiences: one user reports 'horrible product and even worse customer service' for kitchen counters; bathroom counters satisfactory. Another notes warranty excludes defects smaller than a dime. Frustration with MSI claim processing documented.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread with multiple participants describing physical product defects and warranty exclusion patterns that corroborate each other; constitutes a corroborated defect pattern across kitchen vs. bathroom applications.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz Calacatta Arno Appearance Discussion",
+      "url": "https://houzz.com/discussions/6386987/calacatta-arno-quartz-does-this-look-right",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Owner raises concern that small showroom samples do not represent full slab veining variation; pattern matching across seams identified as challenge. Users seeking real-world installation photos report difficulty finding documented examples of Calacatta Arno in completed kitchens.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical pattern consistency concern with practical functional implications for multi-slab installations; corroborated by fabricator expert analysis of veining variation.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Zicana Boutique MSI Q Quartz Warranty Guide",
+      "url": "https://zicanaboutique.com/blogs/news/msi-q-quartz-warranty-guide",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer blog analyzes MSI warranty: lifetime residential (non-transferable), 10-year commercial, covers manufacturing defects, excludes improper installation and impact damage. Identifies non-transferability as competitive disadvantage versus Cambria and Silestone.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review with structured warranty analysis and comparative brand context; dealer-affiliated but provides independent analytical framing of warranty terms.",
+      "topics": [
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "YouTube Quartz Marks Removal Video",
+      "url": "https://youtube.com/watch?v=SZhAGX5G1iU",
+      "platform": "youtube",
+      "column": "review",
+      "snippet": "Real estate professional demonstrates use of Soft Scrub for stubborn stains on quartz countertops; practical cleaning tips based on personal experience. DIY-oriented content without laboratory validation.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Individual experiential video content about maintenance process rather than product quality; no corroborated defect pattern documented.",
+      "topics": [
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Houzz MSI Quartz Durability Forum",
+      "url": "https://houzz.com/discussions/5583051/msi-quartz-durability-and-long-lasting",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Mixed owner reports: some satisfied after one-plus year of use; others report scratching occurs. Forum participants recommend avoiding Chinese-origin quartz, though others dispute evidence for quality differential by origin.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread with multiple participants discussing physical product durability; scratching reports across multiple users constitute a corroborated pattern despite mixed overall sentiment.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Natural Stone Institute Performance Testing (Karin Kirk)",
+      "url": "https://usenaturalstone.org/got-data-testing-the-performance",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Geologist-conducted laboratory testing using Mohs calibrated picks; heat testing with 570°F cast iron skillet; stain testing with turmeric and food coloring. Caesarstone rated below 6 Mohs; heat caused permanent hazing on Sequel Pure Black; light quartz showed persistent staining.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent expert testing with structured methodology, calibrated instruments, and published results across multiple damage categories; credentialed geologist evaluator.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "QuartzCrafts Durability Standards",
+      "url": "https://quartzcrafts.com/quartz-durability-standards-compression-impact-resistance",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Technical resource documenting industry standard compression resistance requirements of 15,000–20,000 PSI for engineered quartz countertops; establishes impact resistance specifications relevant to product performance evaluation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Technical publication with industry standards and quantified compression specifications; functions as independent technical benchmark.",
+      "topics": [
+        "specs",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "China Stone Countertop Water Absorption Rate",
+      "url": "https://chinastone-countertop.com/blog/what-is-the-water-absorption-rate",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Technical comparison of water absorption rates: granite absorbs 0.2–0.3% water by weight; engineered quartz exhibits substantially lower absorption due to nonporous construction. Relevant to moisture resistance claims for kitchen and bathroom applications.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published technical content with specific quantified absorption data and material comparison; informative despite commercial affiliation.",
+      "topics": [
+        "specs",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Transparency Catalog Quartz-Based Stone Standards (ASTM PDF)",
+      "url": "https://transparencycatalog.com/assets/uploads/greener-images/08-QUARTZ-2022.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "ASTM standards document covering flexural strength, modulus data, and technical specifications for quartz-based stone surfaces. Provides third-party standards framework against which engineered quartz products are evaluated.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent standards body technical document with quantified specifications; credible third-party benchmark source.",
+      "topics": [
+        "specs",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Karin Kirk Geology (Expert Profile)",
+      "url": "https://karinkirk.com/geology",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Reference page for geologist and countertop performance investigator Karin Kirk; establishes professional credentials for laboratory testing methodology used in countertop evaluations cited elsewhere in this report.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Expert credentials reference page, not a product review; useful for validating testing source authority rather than scoring product performance directly.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "MSI Manufacturing Methods Blog",
+      "url": "https://msisurfaces.com/blogs/post/2021/09/02/how-and-where-are-msi-quartz-countertops-manufactured",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "MSI documents Bretonstone technology origins (Italy, 50+ years); describes Latta, SC domestic facility in partnership with Spectrum Quartz; acknowledges global sourcing from international suppliers for select collections including potential implications for Calacatta Arno batch consistency.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer blog content describing manufacturing process; useful for context but constitutes brand self-reporting without independent verification.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "MSI Quartz Countertops Main Page",
+      "url": "https://msisurfaces.com/quartz-countertops",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Brand overview page for Q Premium line: 125+ designs available; marble, granite, and concrete aesthetic options; residential lifetime warranty highlighted. Standard manufacturer marketing landing page.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; no independent testing or consumer experience data.",
+      "topics": [
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Consumer Reports Quartz Countertop Review",
+      "url": "https://consumerreports.org/home-garden/countertops/na-quartz-engineered-stone",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports laboratory testing across fourteen countertop materials: engineered quartz achieved top scores for stain, abrasion, heat, and cutting resistance. Notes edges and corners can chip; some patterns appear unnaturally uniform; no sealing required.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent testing laboratory with structured scoring methodology across multiple damage categories; highly credible third-party evaluation with specific performance ratings.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "MSI Residential Lifetime Warranty (PDF)",
+      "url": "https://cdn.msisurfaces.com/files/downloads/q-lifetime-warranty.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official warranty document: applies to original purchaser only; non-transferable; covers manufacturing defects under normal use; excludes hot pan placement, impact damage, improper installation, and defects smaller than a dime for solid colors or quarter for multi-color.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Official legal warranty document; factual reference for coverage terms and exclusions. Not a performance score source; classified report_only per warranty documentation rules.",
+      "topics": [
+        "warranty",
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Fine Homebuilding Engineered Quartz Guide",
+      "url": "https://finehomebuilding.com/project-guides/kitchens/guide-to-countertops-engineered-quartz",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Trade publication expert guide defines Breton manufacturing method; lists reputable manufacturers including MSI; documents heat sensitivity as primary limitation; warns against inferior resin-cast alternatives; recommends trivets for hot cookware.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed trade publication with expert editorial standards, structured guidance, and specific technical recommendations about engineered quartz performance.",
+      "topics": [
+        "quality",
+        "durability",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Caesarstone Cabinet and Quartz Pairings Blog",
+      "url": "https://caesarstoneus.com/blog/your-guide-to-cabinet-and-quartz-countertop-pairings",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Competitor brand content documenting nonporous stain resistance and durability claims for Caesarstone quartz; design trend guidance for cabinet pairings. Relevant as competitor baseline but represents competing manufacturer marketing.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Competitor manufacturer marketing content; useful only as market context, not as an objective assessment of MSI Calacatta Arno.",
+      "topics": [
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Countertops Columbia 5-Year Quartz Performance Report",
+      "url": "https://countertopscolumbia.com/what-happens-after-5-years-with-quartz-kitchen-countertops",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Countertop retailer experience report: after five years quartz becomes reliable, predictable background surface; maintenance remains simple; cautions that 'low maintenance does not mean no awareness'; habits developed early affect long-term appearance.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer experience report with longitudinal performance perspective; knowledgeable source with direct industry experience, though commercially affiliated.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Gelville: Why Quartz Chips at the Sink Edge",
+      "url": "https://gelville.com/why-quartz-chips-at-the-sink-edge-and-how-to-prevent-it",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator education resource explaining physics of sink edge stress concentration; identifies sink edges as highest chip-risk location due to thin geometry and corner stress focusing; recommends eased edges, bevels, or rounded profiles over sharp squared edges.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed fabricator expert analysis with physics-based explanation of documented failure mode; provides structured technical guidance corroborated by forum reports and Consumer Reports testing.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Gelville: Can Quartz Be Repaired",
+      "url": "https://gelville.com/can-quartz-be-repaired-chips-scratches-and-whats-actually-fixable",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator expert guide: chips repairable with epoxy or resin with variable visibility; scratches sometimes improvable; cracks require professional structural evaluation; repair outcomes depend on color, pattern, and damage type; patterned light quartz repairs best.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed fabricator expert guidance with structured repair outcome analysis; provides actionable technical information grounded in professional practice.",
+      "topics": [
+        "durability",
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "NIOSH Engineered Stone Silicosis Bulletin",
+      "url": "https://cdc.gov/niosh/bulletin/2026/engineered-stone-cos.html",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "CDC/NIOSH government bulletin on worker exposure to respirable silica during engineered stone fabrication; documents greater than 90% silica content hazard for fabricators. Hazard context is occupational, not consumer-facing during normal countertop use.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Government safety publication relevant to fabrication worker safety, not residential consumer product quality; classified report_only as fabrication process hazard rather than product performance defect.",
+      "topics": [
+        "legal",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "MSI Company Recognition (Corporate Stability)",
+      "url": "https://msisurfaces.com/news/msi-is-honored-to-be-recognized-as-one-of-60-best-companies-to-sell-for-in-2024",
+      "platform": "other",
+      "column": "review",
+      "snippet": "MSI corporate news: recognized among top 60 companies to sell for in 2024; $2.5 billion annual revenue; 3,500+ employees worldwide; established 1975. Provides corporate financial stability context relevant to warranty reliability assessment.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Manufacturer corporate news; relevant to company stability and warranty backing reliability but not a product quality score source.",
+      "topics": [
+        "warranty",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Trade Court Case: MSI Antidumping Duties (Justia)",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/cit/23-00007",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Federal appellate court case involving MSI and antidumping duties on Indian quartz imports; trade dispute context rather than product defect litigation. No product safety, class action, or consumer harm claims identified in this proceeding.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Legal source must be classified report_only per auto-classification rules. Trade duty dispute does not involve product defects or consumer harm but requires documentation.",
+      "topics": [
+        "legal"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "MSI Bretonstone Technology Explained",
+      "url": "https://msisurfaces.com/blogs/post/2016/09/20/tips-from-the-trade-what-is-bretonstone-technology",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "MSI blog explains Bretonstone manufacturing: quartz crystals plus resin and pigments combined via vibration compression followed by heat curing; approximately 93% quartz composition; patented Italian technology refined over 50+ years.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer educational blog content explaining manufacturing process; useful for context but constitutes brand self-reporting without independent verification.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "MSI Environmental Commitment and Certifications",
+      "url": "https://msisurfaces.com/quartz-countertops/quartz-environmental-commitment",
+      "platform": "other",
+      "column": "review",
+      "snippet": "MSI documents Greenguard, LEED, NSF, and Kosher certifications for Q Premium quartz; low VOC emissions claimed; recyclable material; long product lifespan highlighted. Certification claims require third-party verification to validate.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer certification marketing page; certification claims listed without independent test data in this source.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "WEHA Quartz Overhang Support Requirements",
+      "url": "https://wehausa.com/maximum-quartz-overhang-s/2552.htm",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Technical installation specification: MSI overhang support guidelines require supports at 24-inch intervals; specific sink installation requirements documented. Proper support structure critical to preventing stress-related edge failures.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Technical installation specification source; relevant to installation quality rather than inherent product quality per classification rules.",
+      "topics": [
+        "specs",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Superior Stone and Cabinet: Unique Veining Patterns in Quartz",
+      "url": "https://superiorstoneandcabinet.com/blog/unique-veining-patterns-in-quartz",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer educational guide: engineered quartz composed 90–95% quartz; veining consistency varies from natural stone; linear and feather pattern types described; color combinations and aesthetic decision-making guidance for veined quartz selection.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published educational dealer content with technical veining pattern analysis; relevant to understanding Calacatta Arno pattern consistency concerns raised in forum discussions.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Simply Stone Worktops: Silestone vs. Caesarstone Comparison",
+      "url": "https://simplystoneworktops.co.uk/blog/silestone-vs-caesarstone",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Comparative brand analysis: Silestone 90% quartz versus Caesarstone 93% quartz; warranty differences between brands documented; design and cost variation analyzed. Useful as competitive benchmark context for MSI warranty and composition positioning.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative brand review with structured analysis of composition, warranty, and positioning across competing quartz brands.",
+      "topics": [
+        "warranty",
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "BienStone: Top 9 Quartz Brands Ranked",
+      "url": "https://bienstone.com/blog-top-9-quartz-countertop-brands-ranked",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Industry ranking positions MSI Q Quartz as mid-market option; Silestone as premium; Cambria offering lifetime transferable warranty. MSI rated favorably for design diversity and value positioning but without distinctive technical advantages over premium competitors.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review site brand ranking with structured comparative scoring and warranty analysis across major quartz brands.",
+      "topics": [
+        "value",
+        "warranty",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "Angi Countertop Repair Costs",
+      "url": "https://angi.com/articles/how-much-does-repairing-countertop-cost",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer pricing guide: quartz countertop professional repair costs $200–$500 depending on damage type and scope; compares professional versus DIY options and impact of damage type on repair cost and outcome.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published consumer information with specific pricing data and repair outcome context; relevant to post-purchase cost implications of edge chipping and damage.",
+      "topics": [
+        "value",
+        "service",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Consumer Reports Countertop Buying Guide",
+      "url": "https://consumerreports.org/home-garden/countertops/buying-guide",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Consumer Reports buying guide: engineered quartz rated top for surviving spills, hot pots, knives in laboratory testing; no sealing required; notes edges and corners can chip and require professional repair; some patterns appear unnaturally uniform.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent testing organization with structured laboratory methodology and published scoring criteria; credible third-party evaluation of countertop material category.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "Georgia Tech Engineered Stone Fabrication Hazards Research",
+      "url": "https://gatech.edu/news/2025/07/28/scientists-pinpoint-hazards-engineered-stone-fabrication",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Georgia Tech research (2025) documents greater than 90% silica content in engineered stone creating respirable silica risk for fabricators during cutting and polishing operations. Hazard context is occupational fabrication, not residential consumer exposure during normal use.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Credentialed institutional research relevant to fabrication worker safety rather than residential product performance; classified report_only as occupational hazard not consumer product defect.",
+      "topics": [
+        "legal",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "Houzz: Chinese Quartz Quality Discussion",
+      "url": "https://houzz.com/discussions/6194316/which-chinese-quartz-brands-are-good-quality",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum participant disputes quality differential between Chinese-origin and other-origin quartz: 'I've seen no evidence that there is a substantial difference in the quality of engineered stone from China as opposed to anywhere else.' Challenges national origin bias in durability discussions.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Single forum post challenging origin-based quality claims without corroborating data; relevant to evaluating forum bias about MSI dual-sourcing but insufficient alone for product scoring.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "Houzz: 7-Year Quartz Outlook Warning",
+      "url": "https://houzz.com/discussions/5892664/countertop-guy-said-quartz-doesn-t-look-good-after-7-years",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum participant reports countertop installer's warning that quartz 'won't look good after 7 years' due to staining and cleaning difficulty over time; alleges countertop stores fail to disclose long-term appearance degradation before purchase.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum report based on secondhand installer opinion without corroborating data or specific incident documentation; insufficient corroboration for scoring classification.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "ESOS Surfaces: White Quartz with Gold Veins Design Guide",
+      "url": "https://esossurfaces.com/blogs/guide/white-quartz-with-gold-veins",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Design guide positioning white quartz with gold veining as luxury aesthetic option; discusses marble inspiration and versatility claims. Primarily aesthetic marketing content with limited technical performance information.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Design-focused marketing content without substantive technical performance data; aesthetic positioning guide not relevant to product performance scoring.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "CountertopSmart: Top 5 Quartz Brands 2024",
+      "url": "https://countertopsmart.com/blog/the-top-5-quartz-countertop-brands-of-2024",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "2024 brand ranking places MSI Q Quartz among top five alongside Silestone, Cambria, Vicostone, and Caesarstone; notes affordability without compromising design diversity; positions MSI as budget-conscious option with style and durability; Cambria offers transferable lifetime warranty advantage.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published 2024 brand ranking with structured comparative analysis of warranty, quality, and market positioning for major quartz brands including MSI.",
+      "topics": [
+        "value",
+        "warranty",
+        "quality",
+        "durability"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Material Composition and Manufacturing",
+      "expert": "Premium Bretonstone technology confirmed; 93% quartz content; dual sourcing (domestic SC + international) acknowledged",
+      "review": "Confirmed 93% quartz; nonporous engineered surface; Breton process certified by Consumer Reports and trade publications",
+      "forum": "Limited discussion; concern about quality consistency with dual-sourcing model; some scratching reports suggest batch variation",
+      "agreement_level": "High agreement on composition; moderate concern about consistency across sourcing origins"
+    },
+    {
+      "topic": "Hardness and Scratch Resistance",
+      "expert": "7–8 Mohs hardness claimed; superior to marble (3–5); comparable to granite (6–7)",
+      "review": "Laboratory testing shows variable results 6–8 Mohs across engineered quartz brands; formulation-dependent; some samples scratched below claimed range",
+      "forum": "Reports of scratching occur despite durability marketing claims; concern that real-world performance may fall below theoretical maximum",
+      "agreement_level": "Moderate agreement; hardness depends substantially on specific formulation batch"
+    },
+    {
+      "topic": "Heat Resistance",
+      "expert": "Significant limitation versus natural stone; direct hot pan contact not recommended; polymer resin differential expansion causes permanent damage",
+      "review": "Laboratory testing at 570°F confirms permanent hazing and discoloration on engineered quartz samples; heat damage often irreversible",
+      "forum": "Limited specific heat damage reports; owners generally follow warnings; alignment with expert guidance",
+      "agreement_level": "Very high agreement: heat represents primary and documented performance limitation"
+    },
+    {
+      "topic": "Stain Resistance",
+      "expert": "Nonporous surface prevents staining superior to marble; no sealing required; light colors theoretically more vulnerable",
+      "review": "Light-colored samples show visible staining from turmeric and food coloring in laboratory testing; some stains persist after cleaning; dark materials hide stains better",
+      "forum": "Reports of surface staining and appearance degradation over time; concerns about long-term maintenance effectiveness on light backgrounds",
+      "agreement_level": "High agreement: effective stain resistance confirmed but not absolute; light colors including Calacatta Arno show stains more visibly"
+    },
+    {
+      "topic": "Edge Vulnerability and Chipping",
+      "expert": "Sink edges most vulnerable due to stress concentration physics; proper edge profile and full sink support critical; squared edges increase brittleness",
+      "review": "Consumer Reports confirms edges and corners can chip and require professional repair; fabricator expert analysis supports physics-based explanation",
+      "forum": "Multiple owner reports of chipping concentrated at sink cutout edges; acknowledged as real and recurring concern across multiple threads",
+      "agreement_level": "Very high agreement across all three evidence columns: sink edges are documented vulnerability"
+    },
+    {
+      "topic": "Overall Durability",
+      "expert": "Good durability for typical residential use; limitations in heat and impact scenarios; installation quality substantially determines real-world outcome",
+      "review": "Consumer Reports top scores across stain, abrasion, heat, and cutting tests; exceeds natural stone alternatives in most categories",
+      "forum": "Mixed: some owners satisfied long-term; others report degradation; divided forum sentiment without consensus resolution",
+      "agreement_level": "Moderate-to-high agreement: durable for typical use with specific behavioral and installation caveats"
+    },
+    {
+      "topic": "Maintenance Requirements",
+      "expert": "Minimal maintenance protocol; no sealing required; simple cleaning sufficient for daily care",
+      "review": "Nonporous surface confirmed to eliminate sealing requirement; cleaning protocols validated by laboratory testing outcomes",
+      "forum": "General agreement that low maintenance is real; caution that maintenance discipline early affects long-term appearance",
+      "agreement_level": "High agreement: genuinely low maintenance but requires consistent proper care practices"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Residential lifetime limited (non-transferable); commercial 10-year; excludes hot pan, impact, improper installation; defects smaller than dime or quarter excluded",
+      "review": "Comparable to some competitors; less favorable than Cambria and Silestone on transferability; exclusions notably broad for real-world damage scenarios",
+      "forum": "Documented frustration with exclusions; warranty claim denials reported; customer service responsiveness concerns noted",
+      "agreement_level": "High agreement: solid coverage exists but exclusions are broad and non-transferability is a meaningful competitive disadvantage"
+    },
+    {
+      "topic": "Environmental and Health Certifications",
+      "expert": "Greenguard, NSF, Kosher, LEED certifications claimed; low VOC emissions; fabrication silica hazard documented by NIOSH and Georgia Tech as occupational not consumer risk",
+      "review": "Certifications confirmed via MSI documentation; fabrication worker hazard research validates silica concern for professional fabricators specifically",
+      "forum": "Minimal consumer forum discussion of health or environmental concerns during residential use",
+      "agreement_level": "High agreement: certifications present; occupational fabrication hazard is real but not a residential consumer product defect"
+    },
+    {
+      "topic": "Repairability",
+      "expert": "Chips repairable with epoxy or resin; repair visibility varies by color and pattern; scratches sometimes improvable; cracks require professional structural evaluation",
+      "review": "Professional repair possible with variable outcomes; light patterned quartz like Calacatta Arno repairs more successfully than solid dark colors",
+      "forum": "Anecdotal repair references present; permanent repairs mentioned as achievable but visibility uncertain",
+      "agreement_level": "Moderate agreement: repair is possible and professional costs $200–$500 but cosmetic outcome varies"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Lifetime residential coverage for manufacturing defects exceeds standard 10-year industry norm",
+      "No warranty registration required; valid from date of purchase without enrollment steps",
+      "Coverage applies to broad definition of manufacturing defects under normal use conditions",
+      "Two-tier structure appropriately differentiates residential versus commercial use intensity"
+    ],
+    "underperforms_expectations": [
+      "Non-transferable warranty does not pass to subsequent property owners, unlike Cambria and Silestone lifetime transferable warranties",
+      "Hot pan contact damage explicitly excluded despite being a foreseeable and common kitchen occurrence",
+      "Impact and chip damage explicitly excluded, covering the most commonly reported real-world failure mode",
+      "Defects smaller than a dime for solid colors and smaller than a quarter for multi-color patterns are explicitly excluded as 'inherent in fabrication process'",
+      "Improper installation exclusion shifts warranty risk to installer selection rather than product quality",
+      "Claims require documentation of purchase and installation; gaps in documentation can complicate claims"
+    ],
+    "surprises": [
+      "The dime/quarter size threshold for excluded defects is a non-obvious limitation that has generated documented owner frustration",
+      "Customer service responsiveness has been flagged negatively in forum discussions despite lifetime warranty presence",
+      "Warranty is processed through MSI directly rather than through retailers, creating potential friction for homeowners who purchased through third-party dealers",
+      "Outdoor use is excluded unless specifically approved, a limitation relevant to outdoor kitchen applications"
+    ]
+  },
+  "verified_specs": {
+    "material_type": "Engineered quartz (Calacatta marble-look)",
+    "quartz_content": "Approximately 93% natural quartz crystals",
+    "binder_content": "Approximately 7% polymer resins and pigments",
+    "manufacturing_process": "Bretonstone technology: vibro-compression followed by heat curing",
+    "manufacturing_origin": "Dual-sourced: domestic (Latta, SC via Spectrum Quartz partnership) and international suppliers",
+    "mohs_hardness": "7–8 (claimed); variable 6–8 documented across engineered quartz formulations in laboratory testing",
+    "compression_resistance": "15,000–20,000 PSI (industry standard for engineered quartz)",
+    "water_absorption": "Substantially lower than granite (granite: 0.2–0.3% by weight); near-zero for nonporous engineered surface",
+    "thickness_options": "2cm and 3cm",
+    "finish": "Polished",
+    "slab_dimensions_noted": "112\" × 26\" with backsplash option documented by retailer",
+    "color_description": "Warm white background; thin gray veining; gold accent tones",
+    "sealing_required": "No",
+    "heat_resistance_limit": "Not safe for direct contact with cookware; hazing and discoloration documented at 570°F in 10-minute contact testing",
+    "certifications": [
+      "Greenguard",
+      "NSF",
+      "Kosher",
+      "LEED compatible"
+    ],
+    "voc_emissions": "Low VOC",
+    "warranty_residential": "Lifetime limited (non-transferable, original purchaser only)",
+    "warranty_commercial": "10-year limited",
+    "price_range_per_sqft": "$35.55–$44.90 (per FabQuartz retailer listing)",
+    "grade": "Grade 7 (per FabQuartz retailer listing)",
+    "u_factor": "not_available",
+    "shgc": "not_available",
+    "air_infiltration": "not_applicable",
+    "dp_rating": "not_applicable",
+    "stc": "not_applicable",
+    "frame_material": "not_applicable",
+    "glass": "not_applicable"
+  },
+  "red_flags": [
+    {
+      "type": "Trade Litigation",
+      "description": "MSI involved in federal appellate court antidumping duty dispute (Case 23-00007, Court of International Trade) regarding Indian quartz imports. Trade dispute, not product defect or consumer harm litigation. No class action, product recall, or FTC action identified.",
+      "source": "SRC-029",
+      "severity": "Low – trade compliance dispute; no product safety implications identified"
+    },
+    {
+      "type": "Occupational Safety Concern",
+      "description": "NIOSH and Georgia Tech research documents serious respirable silica hazard for fabricators cutting and polishing engineered stone containing greater than 90% silica. Occupational hazard for professional fabricators; not a residential consumer product safety concern during normal countertop use.",
+      "source": "SRC-027, SRC-038",
+      "severity": "Moderate for fabricators; Low for residential consumers during normal use"
+    },
+    {
+      "type": "Warranty Exclusion Pattern",
+      "description": "MSI warranty explicitly excludes defects smaller than a dime (solid colors) or quarter (multi-color) as 'inherent in fabrication process.' This exclusion has generated documented owner frustration and may allow minor visible manufacturing defects to go unaddressed. No class action or regulatory action identified.",
+      "source": "SRC-008, SRC-021",
+      "severity": "Moderate – noteworthy consumer protection concern; not a legal action"
+    },
+    {
+      "type": "Quality Consistency Concern",
+      "description": "MSI's dual-sourcing strategy (domestic Latta, SC facility plus undisclosed international suppliers) raises unresolved questions about batch-to-batch quality consistency for Calacatta Arno specifically. Forum reports polarize between satisfied and dissatisfied users in patterns consistent with batch variation.",
+      "source": "SRC-012, SRC-018",
+      "severity": "Low-to-Moderate – concern documented but not confirmed by controlled testing"
+    }
+  ],
+  "bottom_line": "MSI Q Premium Calacatta Arno is a competent mid-market engineered quartz that successfully delivers its core value proposition: a sophisticated Calacatta marble aesthetic with meaningfully superior durability compared to natural marble, zero sealing requirements, and genuine stain resistance under normal residential use. Expert sources, laboratory testing, and Consumer Reports data confirm top-tier performance across stain, abrasion, and cutting categories, with the material's Bretonstone manufacturing credentials placing it firmly among recognized premium producers rather than budget alternatives. However, three specific vulnerabilities emerge with high cross-source consistency and must anchor realistic buyer expectations. First, heat resistance is the material's most significant limitation: polymer resin content creates a thermal sensitivity that can produce permanent hazing and discoloration from direct hot cookware contact, requiring consistent trivet discipline that not all households maintain. Second, sink edge chipping is a documented and physics-grounded failure mode confirmed across expert fabricator analysis, Consumer Reports testing, and forum reports—not a manufacturing defect but a predictable consequence of stress concentration at thin, cut geometry that demands careful edge profile selection and full undermount sink support. Third, the warranty, while lifetime for residential use, excludes the two most common real-world damage scenarios (heat contact and impact chipping), contains a non-obvious dime/quarter size threshold that excludes minor visible manufacturing defects, and is non-transferable—a meaningful disadvantage versus Cambria and Silestone in resale contexts. Quality consistency remains an open question given MSI's dual domestic and international sourcing model, with forum polarization between satisfied and dissatisfied users consistent with batch variation. For homeowners who select experienced fabricators, commit to trivet use, choose eased or slightly rounded sink edges, and maintain realistic expectations about a mid-market product, Calacatta Arno will perform reliably. For buyers expecting a truly heat-proof, chip-proof, or fully transferable-warranty product, the evidence record argues for closer examination of Cambria or premium Silestone alternatives despite their higher price points.",
+  "source_pool_summary": {
+    "pool_S": [],
+    "pool_A": [
+      "SRC-013",
+      "SRC-014",
+      "SRC-016",
+      "SRC-017",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-025",
+      "SRC-026",
+      "SRC-027",
+      "SRC-032",
+      "SRC-037",
+      "SRC-038"
+    ],
+    "pool_B": [
+      "SRC-003",
+      "SRC-005",
+      "SRC-007",
+      "SRC-010",
+      "SRC-015",
+      "SRC-024",
+      "SRC-033",
+      "SRC-034",
+      "SRC-035",
+      "SRC-036",
+      "SRC-042"
+    ],
+    "pool_C": [
+      "SRC-006",
+      "SRC-008",
+      "SRC-009",
+      "SRC-011",
+      "SRC-012",
+      "SRC-018",
+      "SRC-019",
+      "SRC-028",
+      "SRC-029",
+      "SRC-039",
+      "SRC-040"
+    ],
+    "quarantine": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-004",
+      "SRC-018",
+      "SRC-019",
+      "SRC-023",
+      "SRC-030",
+      "SRC-031",
+      "SRC-040",
+      "SRC-041"
+    ]
+  },
+  "product_slug": "msi_q_premium_calacatta_arno",
+  "product_name": "MSI Q Premium Calacatta Arno",
+  "manufacturer_slug": "msi",
+  "operation_type": "general",
+  "deep_dive_date": "2026-03-27",
+  "structuring_duration_ms": 224436,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 42,
+    "score": 22,
+    "report_only": 10,
+    "quarantine": 10,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.220149
+}

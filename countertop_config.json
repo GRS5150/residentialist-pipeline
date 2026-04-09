@@ -1,0 +1,223 @@
+{
+  "category": "countertops",
+  "version": "1.0",
+  "created": "2026-03-27",
+
+  "deep_dive_prompt_steering": {
+    "focus_areas": [
+      "fabricator and installer professional opinions",
+      "material composition and manufacturing process",
+      "heat resistance, stain resistance, scratch resistance, impact resistance",
+      "warranty terms — transferable? lifetime? what's actually excluded?",
+      "known failure modes (chipping, cracking, delamination, discoloration)",
+      "certification status (Greenguard, Greenguard Gold, NSF 51, HPD, Declare)",
+      "material safety — resin content, off-gassing, sealer requirements, PFAS exposure",
+      "repairability — can damage be fixed or does the slab need replacement?",
+      "manufacturing origin — single factory vs multi-source, domestic vs imported"
+    ],
+    "exclude_from_scoring": [
+      "silicosis / fabrication dust exposure (Manufacturing vs Consumer Hazard Rule)",
+      "Australian engineered stone bans (manufacturing safety, not consumer safety)",
+      "aesthetics, color preferences, design trends",
+      "installation difficulty (fabricator skill, not product quality)",
+      "pricing and cost comparisons"
+    ]
+  },
+
+  "source_pools": {
+    "S": {
+      "description": "Category-specific elite independent sources",
+      "weight": 1.5,
+      "sources": [
+        {
+          "name": "Consumer Reports",
+          "notes": "Material-type testing (impact, stain, heat, scratch). Found Dekton split weakness. Strong on comparative testing, less on per-brand depth."
+        }
+      ]
+    },
+    "A": {
+      "description": "Professional reviewers, building science experts, named contractors/fabricators",
+      "weight": 1.0,
+      "sources": [
+        { "name": "Karin Kirk / Countertop Investigator", "notes": "Geologist, independent, deep on natural stone and material safety" },
+        { "name": "Fine Homebuilding / Green Building Advisor", "notes": "Construction professional perspective" },
+        { "name": "Countertop Specialty (countertopspecialty.com)", "notes": "Deep technical content, professional-oriented" }
+      ]
+    },
+    "B": {
+      "description": "Trade publications, experienced hands-on reviewers",
+      "weight": 0.75,
+      "sources": [
+        { "name": "Fabricator forums (Reddit r/Stonefabrication, Houzz pro threads)", "notes": "Field experience, candid quality assessments" },
+        { "name": "Granite Guy Inc (graniteguyinc.com)", "notes": "30-year fabricator, detailed brand-by-brand reviews" },
+        { "name": "Kitchen design professionals", "notes": "Specification experience, client feedback" }
+      ]
+    },
+    "C": {
+      "description": "Consumer forums, individual posts",
+      "weight": 0.4,
+      "sources": [
+        { "name": "Reddit r/HomeImprovement, r/KitchenDesign", "notes": "Consumer experience" },
+        { "name": "Houzz homeowner threads", "notes": "Consumer experience, installation outcomes" },
+        { "name": "Bogleheads / general forums", "notes": "Consumer experience, durability reports" }
+      ]
+    }
+  },
+
+  "tier_anchors": {
+    "tier_1": {
+      "range": [90, 100],
+      "label": "Best in Class",
+      "anchors": [
+        { "product": "Cambria", "target_score": 95, "rationale": "Domestic premium quartz ceiling. USA-manufactured, transferable lifetime warranty, fabricator consensus #1." },
+        { "product": "Dekton", "target_score": 91, "rationale": "Best material properties + Material Safety. Dinged by impact brittleness, fabrication complexity, shorter track record." }
+      ],
+      "reserved_range": [97, 100],
+      "reserved_note": "No current countertop product earns this. Reserved for theoretical perfection across all axes."
+    },
+    "tier_2": {
+      "range": [75, 89],
+      "label": "Excellent",
+      "anchors": [
+        { "product": "Silestone", "target_score": 84, "rationale": "Premium branded quartz, innovation leader. Cosentino financially stable. 25-year transferable warranty." },
+        { "product": "Caesarstone", "target_score": 82, "rationale": "Legacy premium. Product quality strong but Conditional outlook — 100% outsourced mfg, major financial distress." },
+        { "product": "Ubatuba Granite", "target_score": 80, "rationale": "Premium dark granite. Proven track record, no resin. PFAS sealer Yellow Finding." },
+        { "product": "MSI Q Premium", "target_score": 77, "rationale": "Volume leader, solid mid-tier. 25+ global suppliers, non-transferable warranty, distributor-brand model." }
+      ]
+    },
+    "tier_3": {
+      "range": [60, 74],
+      "label": "Good",
+      "anchors": [
+        { "product": "White Ice Granite", "target_score": 73, "rationale": "Standard light granite. Higher porosity, more sealer dependence than dark species." },
+        { "product": "Corian", "target_score": 68, "rationale": "Functional solid surface. Repairable, seamless, but scratches, yellows, dated perception." }
+      ]
+    },
+    "tier_4": {
+      "range": [40, 59],
+      "label": "Fair",
+      "anchors": [
+        { "product": "Formica 180fx", "target_score": 54, "rationale": "Premium laminate. Improved dramatically but edge delamination, non-repairable, perception problem." }
+      ]
+    },
+    "tier_5": {
+      "range": [0, 39],
+      "label": "Below Standard",
+      "anchors": []
+    }
+  },
+
+  "axis_behavior": {
+    "quality": {
+      "scored": true,
+      "varies_meaningfully": true,
+      "description": "Manufacturing precision, consistency, edge profiles, pattern depth/realism, slab-to-slab variation"
+    },
+    "performance": {
+      "scored": true,
+      "varies_meaningfully": false,
+      "description": "Heat resistance, stain resistance, scratch resistance. Flat within material class — quartz is quartz. Reported but compresses to narrow range.",
+      "compression_note": "Performance axis compresses within material class. Cross-class differences are meaningful (sintered stone heat resistance >> quartz) but within-class differences are minimal."
+    },
+    "durability": {
+      "scored": true,
+      "varies_meaningfully": true,
+      "description": "Chip resistance, long-term wear, repairability, warranty reality (transferable? lifetime? what's covered?)"
+    },
+    "material_safety": {
+      "scored": false,
+      "report_only": true,
+      "labels": ["Excellent", "Good", "Moderate", "Concern"],
+      "description": "Resin off-gassing (quartz), sealer PFAS (granite), inert composition (sintered stone). Flag-based, not gap-based."
+    }
+  },
+
+  "spec_fields": {
+    "verified_specs": [
+      { "field": "mohs_hardness", "unit": "mohs", "description": "Surface hardness rating" },
+      { "field": "heat_resistance_f", "unit": "°F", "description": "Maximum temperature before damage" },
+      { "field": "water_absorption_pct", "unit": "%", "description": "Water absorption rate (ASTM C97)" },
+      { "field": "flexural_strength_psi", "unit": "psi", "description": "Flexural/bending strength (ASTM C880)" },
+      { "field": "compressive_strength_psi", "unit": "psi", "description": "Compressive strength" },
+      { "field": "quartz_content_pct", "unit": "%", "description": "Quartz mineral content (engineered stone)" },
+      { "field": "resin_content_pct", "unit": "%", "description": "Resin/polymer binder content (engineered stone)" },
+      { "field": "slab_thickness_cm", "unit": "cm", "description": "Standard slab thickness" },
+      { "field": "max_slab_size", "unit": "inches", "description": "Maximum slab dimensions (L x W)" },
+      { "field": "warranty_years", "unit": "years", "description": "Warranty duration (999 = lifetime)" },
+      { "field": "warranty_transferable", "unit": "boolean", "description": "Is warranty transferable to new owner?" },
+      { "field": "greenguard_gold", "unit": "boolean", "description": "Greenguard Gold certified" },
+      { "field": "nsf_51", "unit": "boolean", "description": "NSF 51 food contact certified" },
+      { "field": "requires_sealing", "unit": "boolean", "description": "Does the product require periodic sealing?" }
+    ]
+  },
+
+  "deterministic_adjustments": {
+    "material_class_adjustments": {
+      "description": "Replaces window operation_type adjustments. Material class influences baseline within tier.",
+      "adjustments": {
+        "engineered_quartz_premium": 0,
+        "engineered_quartz_branded": 0,
+        "engineered_quartz_distributor": 0,
+        "sintered_stone": 0,
+        "natural_granite_dark": 0,
+        "natural_granite_light": -1,
+        "natural_marble": -2,
+        "solid_surface": 0,
+        "laminate_premium": 0,
+        "laminate_standard": 0
+      },
+      "notes": "Material class adjustments are minimal because tier placement already accounts for material class. Light granite gets -1 for higher porosity/sealer dependence. Marble gets -2 for durability penalty (etching, staining). These are WITHIN-TIER adjustments only."
+    },
+    "spec_adjustment_cap": 8,
+    "spec_adjustments": {
+      "warranty_transferable_yes": 2,
+      "warranty_transferable_no": 0,
+      "warranty_lifetime": 1,
+      "warranty_under_15yr": -1,
+      "greenguard_gold_yes": 1,
+      "greenguard_gold_no": 0,
+      "nsf_51_yes": 1,
+      "nsf_51_no": 0,
+      "requires_sealing_yes": -1,
+      "requires_sealing_no": 0,
+      "domestic_manufacturing": 1,
+      "multi_source_manufacturing": -1,
+      "single_source_imported": 0,
+      "heat_resistance_above_500f": 1,
+      "heat_resistance_below_300f": -1
+    }
+  },
+
+  "scoring_rules": {
+    "category_specific": [
+      { "rule": 1, "name": "No Cross-Class Ranking Rule", "description": "Material class establishes baseline. Composite IS cross-class." },
+      { "rule": 2, "name": "Mislabeled Stone Rule", "description": "Flag in report if product sold under misleading geological name." },
+      { "rule": 3, "name": "PFAS Sealer Yellow Finding Rule", "description": "Advisory, not score impact. Buyer can choose PFAS-free sealers." },
+      { "rule": 4, "name": "Manufacturing vs Consumer Hazard Rule", "description": "Silicosis from fabrication excluded. Score what reaches occupant." },
+      { "rule": 5, "name": "Adjacent Product Rule", "description": "Material Safety scores installed product, not companion products." },
+      { "rule": 6, "name": "Certification Tier Rule", "description": "No docking for cert tier differences when both confirm concern managed." },
+      { "rule": 7, "name": "Corporate Risk Rule", "description": "Outlook modifier (Strong/Stable/Conditional/Negative). Does NOT change composite. Prominently displayed." }
+    ]
+  },
+
+  "outlook_modifiers": {
+    "labels": ["Strong", "Stable", "Conditional", "Negative"],
+    "current_assignments": {
+      "Cambria": "Strong",
+      "Dekton": "Strong",
+      "Silestone": "Strong",
+      "Caesarstone": "Conditional",
+      "MSI": "Stable",
+      "natural_stone": "Stable"
+    }
+  },
+
+  "calibration_products": [
+    { "name": "Cambria Brittanicca", "material_class": "engineered_quartz_premium", "target_tier": 1, "target_score": 95 },
+    { "name": "Dekton Aura 15", "material_class": "sintered_stone", "target_tier": 1, "target_score": 91 },
+    { "name": "Caesarstone Calacatta Maximus", "material_class": "engineered_quartz_branded", "target_tier": 2, "target_score": 82 },
+    { "name": "Ubatuba Granite", "material_class": "natural_granite_dark", "target_tier": 2, "target_score": 80 },
+    { "name": "MSI Q Premium Calacatta Arno", "material_class": "engineered_quartz_distributor", "target_tier": 2, "target_score": 77 },
+    { "name": "White Ice Granite", "material_class": "natural_granite_light", "target_tier": 3, "target_score": 73 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "display_score": 100,
+  "product_label": "Best in Class",
+  "health_label": "Moderate",
+  "grade": "A+",
+  "tier": 1,
+  "tier_label": "Best in Class",
+  "closest_anchor": "Cambria",
+  "above_or_below_anchor": "matches anchor",
+  "quality_raw": 10,
+  "durability_raw": 10,
+  "performance_raw": 10,
+  "quality_stretched": 10,
+  "durability_stretched": 10,
+  "performance_stretched": 10,
+  "anchor_adjustment": 0,
+  "spec_adjustment": 5,
+  "spec_details": [
+    "Warranty transferable (+2)",
+    "Lifetime warranty (+1)",
+    "Greenguard Gold certified (+1)",
+    "NSF 51 food contact certified (+1)",
+    "Domestic manufacturing (+1)",
+    "Heat resistance 150°F: low (-1)"
+  ],
+  "operation_type_adjustment": 0,
+  "method": "tier_classification_v1",
+  "calibration_version": "tier_v1",
+  "computed_at": "2026-03-28T00:21:25.005Z",
+  "product_name": "Cambria Brittanicca",
+  "category": "countertops",
+  "material_class": "engineered_quartz_premium"
+}

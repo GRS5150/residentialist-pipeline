@@ -1,0 +1,32 @@
+{
+  "product": "Cambria Brittanicca",
+  "operation_type": null,
+  "slug": "cambria_brittanicca",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 48888
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 44,
+      "cost_estimate": 0.21353399999999997
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/cambria_brittanicca_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-27T22:19:31.379Z"
+}

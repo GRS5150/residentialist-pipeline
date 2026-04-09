@@ -1,0 +1,71 @@
+{
+  "tier": 1,
+  "tier_label": "Best in Class",
+  "confidence": "high",
+  "reasoning": "Cambria Brittanicca represents the premium engineered quartz ceiling with exceptional specs (Mohs 7, 24,750 psi compression exceeding industry standards), transferable lifetime warranty unique among major brands, domestic USA manufacturing, and strong fabricator consensus as the premier option. Expert sources consistently position Cambria as the quality leader with superior depth, movement, and vertical integration.",
+  "closest_anchor": "Cambria",
+  "above_or_below_anchor": "matches anchor",
+  "key_evidence": [
+    "Professional fabricator calls Cambria the premier quartz option with superior quality (SRC-003)",
+    "Compression strength 24,750 psi exceeds industry baseline 15,000-20,000 psi requirements (SRC-036)",
+    "93% quartz content places it in premium tier above 85-90% commercial grade competitors (SRC-037)"
+  ],
+  "spec_highlights": {
+    "mohs_hardness": "7",
+    "heat_resistance_f": "150",
+    "water_absorption_pct": "0",
+    "warranty_years": "999",
+    "warranty_transferable": true,
+    "greenguard_gold": true,
+    "nsf_51": true,
+    "requires_sealing": false,
+    "domestic_manufacturing": true,
+    "material_class": "engineered_quartz_premium"
+  },
+  "source_flags": [
+    {
+      "source": "SRC-007",
+      "issue": "References Brittanicca Block variant with different Mohs range 6-8, may be different product line"
+    }
+  ],
+  "voting": {
+    "runs": [
+      {
+        "run": 1,
+        "tier": 1,
+        "tier_label": "Best in Class",
+        "anchor": "Cambria",
+        "position": "matches anchor"
+      },
+      {
+        "run": 2,
+        "tier": 1,
+        "tier_label": "Best in Class",
+        "anchor": "Cambria",
+        "position": "matches anchor"
+      },
+      {
+        "run": 3,
+        "tier": 1,
+        "tier_label": "Best in Class",
+        "anchor": "Cambria",
+        "position": "matches anchor"
+      }
+    ],
+    "tiers_voted": [
+      1,
+      1,
+      1
+    ],
+    "tier_counts": {
+      "1": 3
+    },
+    "unanimous": true,
+    "needs_manual_review": false
+  },
+  "product_name": "Cambria Brittanicca",
+  "category": "countertops",
+  "operation_type": "general",
+  "score_sources_used": 25,
+  "classified_at": "2026-03-27T23:49:48.150Z"
+}

@@ -1,0 +1,37 @@
+{
+  "product": "White Ice Granite",
+  "operation_type": null,
+  "slug": "white_ice_granite",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 92830
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 2548
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 0,
+      "cost_estimate": 0.01389
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/white_ice_granite_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-27T22:57:20.610Z"
+}

@@ -1,0 +1,37 @@
+{
+  "product": "Ubatuba Granite",
+  "operation_type": null,
+  "slug": "ubatuba_granite",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "missing",
+      "action": "full_search"
+    },
+    {
+      "step": "manufacturer_search",
+      "type": "full",
+      "duration_ms": 77998
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 1727
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 0,
+      "cost_estimate": 0.014379
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/ubatuba_granite_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-27T22:52:26.457Z"
+}

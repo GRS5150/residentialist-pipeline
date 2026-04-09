@@ -1,0 +1,392 @@
+{
+  "product_name": "Ubatuba Granite",
+  "product": "Ubatuba Granite",
+  "slug": "ubatuba_granite",
+  "category": "countertops",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Republic Elite (Granite Distributor/Fabricator)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Laboratory testing under ASTM C97, C170, C880, and C99 standards: density 164.4 lb/ft³, absorption 0.256%, compressive strength 34,027 psi, flexural strength 2,495 psi, modulus of rupture 1,937 psi. Positions Ubatuba within acceptable range for countertop applications.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published testing data with ASTM-standard methodology from credentialed trade distributor; structured specs with clear product assessment.",
+      "topics": [
+        "specs",
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Absolute StoneCraft (Stone Maintenance Specialist)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Ubatuba's low porosity means sealer typically does not penetrate effectively, leaving a hazy film. Recommends water test (10–15 min) and mineral oil test to determine actual sealing need. Describes Ubatuba as 'bulletproof' against staining due to dense mineral composition.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert stone maintenance specialist providing structured, testable protocol with clear product opinion; credentialed professional assessment.",
+      "topics": [
+        "maintenance",
+        "performance",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "East Coast Surfaces (10-Year Durability Testing)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Comprehensive 10-year durability testing showed properly sealed granite maintains appearance with zero staining, retains crystalline depth without dulling, and outperforms laminate and solid surface over time. Granite value appreciates with longevity.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent long-term testing data from trade fabricator with structured scoring and clear durability conclusions over defined testing period.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "U.S. Environmental Protection Agency (EPA) – Radon and Granite",
+      "url": "not_available",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "EPA official assessment: granite may emit radiation and radon, but levels from countertops are not typically high. Soil contact with basement floors is the principal radon source. Existing data insufficient to conclude granite countertops significantly elevate indoor radon.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Authoritative regulatory assessment on safety topic; provides context but does not score product performance. Informs risk profile only.",
+      "topics": [
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Healthy Building Network – PFAS in Stone Sealers",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "PFAS chemicals in granite sealers persist indefinitely and are linked to liver damage, immune suppression, and developmental issues. Recommends dense slab surfaces not requiring sealing, or PFAS-free sealers. Suggests engineered alternatives for chemical-safety-prioritizing homeowners.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Material safety/chemical concern from credentialed organization; legally and health-adjacent information that informs risk but does not score the product directly.",
+      "topics": [
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Natural Stone Institute – Warranty Standards",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Industry standard warranties: lifetime workmanship coverage for fabrication/installation defects; 1–15 year material defect coverage depending on fabricator. Natural color variation explicitly excluded. Seams covered 1 year. Exclusions include improper maintenance, chemical damage, and impact damage.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Trade standards body providing warranty framework context; describes industry norms rather than scoring product performance.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "Professional Stone Fabricators (Unnamed Industry Professionals)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Universally recognize granite as highly scratch-resistant for normal kitchen use. Recommend rounded or beveled edge profiles near sinks and islands to minimize chipping vulnerability. Note trivets remain best practice despite granite's inherent heat resistance.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Aggregated professional fabricator guidance with clear product opinion and structured installation recommendations; consistent expert consensus.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "Houzz Forum – Homeowner Ubatuba Installation Review",
+      "url": "not_available",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum participant with established Ubatuba installation reports 'I love it!' and no problems with dust or fingerprint visibility. Uses 50/50 alcohol-to-water mixture with microfiber cloths. Positive overall satisfaction with maintenance routine.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing real-world product experience with specific maintenance detail; corroborates broader expert consensus on manageability of dark granite maintenance.",
+      "topics": [
+        "maintenance",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Home Depot Customer Reviews – Ubatuba Granite",
+      "url": "not_available",
+      "platform": "review_site",
+      "column": "review",
+      "snippet": "Customer reviews for Ubatuba granite referenced in report but content truncated; general positive satisfaction indicated for properly maintained and fabricated installations.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Review site content referenced but truncated; insufficient detail to score. Flagged as report_only pending full content review.",
+      "topics": [
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Brazilian Quarrying Industry Documentation",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Ubatuba granite originates exclusively from Brazilian quarries using open-pit mining with diamond wire saws and drill/blast methods. Precambrian formation ~2.5 billion years ago. Large-scale production volume contributes to lower North American market pricing vs. rarer imports.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Geological and extraction origin data; provides specification context but does not score performance or quality of finished countertop product.",
+      "topics": [
+        "specs",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Stone Finish Technical Analysis (Polished/Honed/Leathered Comparison)",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Polished finish most stain-resistant and common; honed increases porosity requiring more frequent sealing; leathered hides fingerprints and smudges but makes damage restoration difficult. Dark granite shows fingerprints more on polished surfaces; finish selection affects maintenance burden significantly.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Structured comparative analysis of finish options with specific maintenance implications; expert technical guidance with clear product performance differentiation.",
+      "topics": [
+        "maintenance",
+        "performance",
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Granite vs. Engineered Quartz Comparative Analysis",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite offers superior heat resistance vs. quartz (150°F limit). Quartz never requires sealing and resists staining universally. Entry-level Ubatuba costs less than entry-level quartz. 10–15 year total cost of ownership comparable. Granite appreciated in prestige over time; quartz does not develop patina.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Structured comparative expert analysis with pricing, performance, and long-term value data; clear product scoring relative to competitive alternatives.",
+      "topics": [
+        "performance",
+        "value",
+        "durability",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Verde Butterfly vs. Ubatuba Comparison",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Ubatuba contains more gold coloration, reads less green and more black than Verde Butterfly, which incorporates whites, garnets, and pronounced green tones. Both perform similarly on durability and maintenance. Selection primarily aesthetic.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Direct granite-to-granite comparison with specific aesthetic and performance differentiation; relevant to product selection decisions.",
+      "topics": [
+        "quality",
+        "performance",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Santa Cecilia vs. Ubatuba Comparison",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Both entry-level pricing tier Brazilian granites. Santa Cecilia has warm golden hues and black speckles; Ubatuba features deep dark green tones. Both affordable options for budget-conscious homeowners; selection driven by color palette preference.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Direct comparative product analysis with pricing and aesthetic differentiation relevant to purchase decision.",
+      "topics": [
+        "value",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Professional Fabricators – Color Variation and Slab Selection Guidance",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Natural color variation within and between Ubatuba slabs is significant. Sequential slab numbers from same quarry bench provide closest color matching. Fabricators do not apply sequential selection automatically; homeowners must proactively request this during fabrication approval.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert fabricator guidance on known material limitation with specific actionable mitigation; clear product characteristic disclosure.",
+      "topics": [
+        "quality",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "NSF International – Countertop Certification Standards",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "NSF certification for countertops primarily targets commercial kitchen applications, not residential. Residential granite not typically NSF certified. Properly sealed or naturally non-absorbent granite presents minimal bacterial growth risk; soap and water cleaning sufficient for food safety.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Regulatory certification context; confirms absence of residential NSF requirement without scoring product quality. Informational only.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "Mohs Hardness Scale Reference – Granite vs. Quartz",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite ranks 6–7 on Mohs scale; engineered quartz consistently ~7. Granite harder than knife blades but repeated cutting can eventually cause visible wear. Practical hardness difference between granite and quartz subtle enough that most homeowners perceive no meaningful real-world difference.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Technical specification with comparative context and real-world performance implication; expert material science data directly relevant to product evaluation.",
+      "topics": [
+        "specs",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Stone Acid Etching Technical Analysis",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Granite vulnerable to acid etching from lemon juice, vinegar, tomato products, wine, coffee, and some commercial cleaners. Etching more visible on polished finishes. Immediate cleanup is primary prevention. Neutral pH stone cleaners or mild dish soap recommended for daily maintenance.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Expert technical analysis of known product limitation with specific prevention protocols; structured performance assessment of a documented vulnerability.",
+      "topics": [
+        "maintenance",
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "General Granite Sealing Protocol Industry Standards",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "For granite varieties requiring sealing, resealing recommended every 1–5 years based on granite type and usage intensity. Water bead test determines resealing necessity. Darker granites like Ubatuba require sealing less frequently; intervals may extend to 3–5 years vs. 1–2 years for lighter granites.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Industry standard maintenance protocol with specific intervals; expert guidance directly relevant to Ubatuba maintenance planning.",
+      "topics": [
+        "maintenance",
+        "performance",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Premium Fabricator Lifetime Sealing Programs",
+      "url": "not_available",
+      "platform": "trade_pub",
+      "column": "expert",
+      "snippet": "Some premium fabricators offer lifetime sealing coverage through factory pre-sealing or sealer manufacturer relationships, warranting no reapplication needed. Standard industry practice still assumes annual to biennial sealing for most granite. Homeowners should confirm applicability in specific contracts.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Warranty and service program description without independent testing verification; dealer-level content describing coverage terms, not product performance.",
+      "topics": [
+        "warranty",
+        "service",
+        "maintenance"
+      ]
+    }
+  ],
+  "verified_specs": {
+    "material_type": "Natural igneous granite – coarse-grained",
+    "geological_origin": "Brazil (Precambrian formation, ~2.5 billion years ago)",
+    "primary_composition": "Quartz, feldspar, mica",
+    "color": "Dark green base with flecks of gold, brown, black, and green",
+    "density": "164.4 lb/ft³ (2,633.44 kg/m³) – ASTM C97",
+    "absorption_by_weight": "0.256% – ASTM C97",
+    "compressive_strength": "34,027 psi (234.61 MPa) – ASTM C170",
+    "flexural_strength": "2,495 psi (14.9 MPa) – ASTM C880",
+    "modulus_of_rupture": "1,937 psi (13.36 MPa) – ASTM C99",
+    "mohs_hardness": "6–7",
+    "heat_resistance": "Exceeds residential kitchen temperatures; direct hot pan placement safe",
+    "quartz_heat_limit_for_comparison": "150°F (65°C)",
+    "porosity_classification": "Low – among denser, less porous granite varieties",
+    "sealing_requirement": "Often unnecessary for Ubatuba due to low porosity; water test recommended to confirm",
+    "finish_options": [
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "nsf_certification": "Not typically certified for residential use",
+    "u_factor": "not_available",
+    "shgc": "not_available",
+    "air_infiltration": "not_applicable",
+    "dp_rating": "not_applicable",
+    "stc": "not_available",
+    "frame_material": "not_applicable",
+    "glass": "not_applicable",
+    "radon_emission": "Not typically significant per EPA assessment",
+    "pfas_concern": "Applicable to sealers used; not inherent to stone itself"
+  },
+  "red_flags": [
+    {
+      "type": "chemical_safety",
+      "description": "PFAS ('forever chemicals') are commonly incorporated into granite countertop sealers and have been linked to liver damage, immune system suppression, and developmental issues. Healthy Building Network recommends PFAS-free alternatives. Ubatuba's low porosity may eliminate sealing need and thus exposure pathway.",
+      "severity": "moderate",
+      "status": "ongoing industry concern – no specific recall or FTC action identified"
+    },
+    {
+      "type": "safety_claim",
+      "description": "Consumer concerns about radon and radiation from granite countertops persist online. EPA assessment indicates granite countertop contribution to indoor radon is not typically significant, with soil as the primary source. Individual slab variation exists; home radon testing recommended if concerned.",
+      "severity": "low",
+      "status": "regulatory assessment complete – EPA does not recommend countertop replacement as remediation"
+    },
+    {
+      "type": "material_limitation",
+      "description": "Significant natural color variation within and between Ubatuba slabs can result in unexpected aesthetic outcomes, particularly at seams. This variation is explicitly excluded from all standard warranties. No industry-wide resolution mechanism exists beyond proactive sequential slab selection.",
+      "severity": "low-moderate",
+      "status": "inherent material characteristic – not a defect or safety issue"
+    },
+    {
+      "type": "market_shift",
+      "description": "Ubatuba's popularity is shifting toward lighter stone varieties and engineered alternatives in recent market trends, which may affect long-term resale appeal and future fabricator availability for matching slabs.",
+      "severity": "low",
+      "status": "market trend – no actionable defect"
+    }
+  ],
+  "auto_classification_summary": {
+    "total": 20,
+    "score": 13,
+    "report_only": 7,
+    "quarantine": 0,
+    "uncertain": 0
+  }
+}

@@ -3,34 +3,53 @@
   "scope": "built_in_only",
   "version": "2.0",
   "version_date": "2026-03-31",
-
   "axis_weights": {
-    "quality": 0.30,
-    "durability": 0.40,
-    "performance": 0.30
+    "quality": 0.3,
+    "durability": 0.4,
+    "performance": 0.3
   },
-
   "scoring_method": "anchor_target_plus_spec_spread",
   "scoring_notes": "Anchor target IS the composite. Spec adjustments create axis spread around the composite. Weighted average of axis scores = target. Rounding correction applied to prevent systematic positive bias from independent axis rounding.",
-
   "max_spec_adjustment_per_axis": 8,
   "tier_crossing_allowed": false,
-
   "tier_ranges": {
-    "1": { "min": 90, "max": 100, "label": "Best in Class" },
-    "2": { "min": 75, "max": 89, "label": "Excellent" },
-    "3": { "min": 60, "max": 74, "label": "Good" },
-    "4": { "min": 40, "max": 59, "label": "Fair" },
-    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+    "1": {
+      "min": 90,
+      "max": 100,
+      "label": "Best in Class"
+    },
+    "2": {
+      "min": 75,
+      "max": 89,
+      "label": "Excellent"
+    },
+    "3": {
+      "min": 60,
+      "max": 74,
+      "label": "Good"
+    },
+    "4": {
+      "min": 40,
+      "max": 59,
+      "label": "Fair"
+    },
+    "5": {
+      "min": 0,
+      "max": 39,
+      "label": "Below Standard"
+    }
   },
-
   "calibration_products": [
     {
       "name": "Sub-Zero Classic/Designer/Pro",
       "slug": "sub_zero_classic_designer",
       "tier": 1,
       "target": 95,
-      "axis_scores": { "quality": 95, "durability": 96, "performance": 93 },
+      "axis_scores": {
+        "quality": 95,
+        "durability": 96,
+        "performance": 93
+      },
       "outlook": "Strong"
     },
     {
@@ -38,7 +57,11 @@
       "slug": "thermador_freedom",
       "tier": 1,
       "target": 90,
-      "axis_scores": { "quality": 91, "durability": 90, "performance": 90 },
+      "axis_scores": {
+        "quality": 91,
+        "durability": 90,
+        "performance": 90
+      },
       "outlook": "Strong"
     },
     {
@@ -47,7 +70,11 @@
       "tier": 2,
       "target": 79,
       "v1_target": 80,
-      "axis_scores": { "quality": 81, "durability": 78, "performance": 79 },
+      "axis_scores": {
+        "quality": 81,
+        "durability": 78,
+        "performance": 79
+      },
       "outlook": "Strong"
     },
     {
@@ -56,7 +83,11 @@
       "tier": 3,
       "target": 70,
       "v1_target": 66,
-      "axis_scores": { "quality": 70, "durability": 71, "performance": 69 },
+      "axis_scores": {
+        "quality": 70,
+        "durability": 71,
+        "performance": 69
+      },
       "outlook": "Conditional"
     },
     {
@@ -65,7 +96,11 @@
       "tier": 4,
       "target": 56,
       "v1_target": 53,
-      "axis_scores": { "quality": 56, "durability": 58, "performance": 53 },
+      "axis_scores": {
+        "quality": 56,
+        "durability": 58,
+        "performance": 53
+      },
       "outlook": "Conditional"
     },
     {
@@ -73,11 +108,14 @@
       "slug": "viking_5_series",
       "tier": 4,
       "target": 45,
-      "axis_scores": { "quality": 46, "durability": 45, "performance": 44 },
+      "axis_scores": {
+        "quality": 46,
+        "durability": 45,
+        "performance": 44
+      },
       "outlook": "Negative"
     }
   ],
-
   "deep_dive_corrections_v2": {
     "date": "2026-03-31",
     "corrections": [
@@ -106,6 +144,32 @@
         "change": "No score change",
         "detail": "Embraco VEGD8H probable (sibling confirmed). >60% systemic QC. Stays at 45."
       }
+    ]
+  },
+  "manufacturer_domains": {
+    "sub_zero_classic_designer": [
+      "subzero-wolf.com",
+      "subzerowolf.com"
+    ],
+    "thermador_freedom": [
+      "thermador.com",
+      "bshg.com"
+    ],
+    "bosch_benchmark": [
+      "bosch-home.com",
+      "bshg.com"
+    ],
+    "jennair_column": [
+      "jennair.com",
+      "whirlpoolcorp.com"
+    ],
+    "dacor_column": [
+      "dacor.com",
+      "samsung.com"
+    ],
+    "viking_5_series": [
+      "vikingrange.com",
+      "middleby.com"
     ]
   }
 }

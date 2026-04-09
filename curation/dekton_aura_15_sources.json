@@ -1,0 +1,927 @@
+{
+  "product": "Dekton Aura 15",
+  "manufacturer": "Cosentino",
+  "report_date": "2025",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "Worktops.net - Dekton Pros & Cons",
+      "url": "worktops.net/blogs/dekton-worktops-pros-and-cons",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator site documenting heat resistance up to 300°C, scratch resistance 4x quartz, 25-year warranty coverage, and noting edge chipping as possible failure mode with professional repair available for minor damage.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published fabricator review with specs and performance comparisons; knowledgeable dealer content with structured product opinion.",
+      "topics": [
+        "performance",
+        "durability",
+        "warranty",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "Cosentino - Dekton Aura Product Page",
+      "url": "cosentino.com/colors/dekton/aura",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer product page providing color description, background, and technical properties overview for the Aura collection including marble-inspired aesthetics and general performance positioning.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content; promotional rather than independent evaluation.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "MyKitchenWorktop - Dekton Review",
+      "url": "mykitchenworktop.co.uk/blog/dekton-review",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer review detailing composition, Sinterized Particle Technology manufacturing process, warranty range of 10-30 years, and documenting impact test cracking as a significant concern.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Published review but from a retailer perspective without independent testing data; provides useful context without structured scoring methodology.",
+      "topics": [
+        "quality",
+        "durability",
+        "warranty",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "Cosentino - Warranty Information Page",
+      "url": "cosentino.com/usa/dekton/dekton-25-year-warranty-cosentino",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official warranty terms: 25-year residential coverage, mandatory 6-month registration window, downgrade to 3-year coverage for purchases after January 2022 without registration; impact and chipping explicitly excluded.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content presenting warranty terms in favorable framing; primary document useful for reference but not independent evaluation.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "Paramount Stone - Dekton vs. Silestone",
+      "url": "paramountstone.co.uk/dekton-vs-silestone-worktops",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Comparative analysis noting Dekton offers 59 colors vs. Silestone's 82, superior heat resistance at 300°C, greater overall durability from porcelain sintering versus resin-bound quartz, but more edge fragility.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review from knowledgeable dealer source with structured product-to-product scoring across performance dimensions.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "Zicana Boutique - Dekton Reviews",
+      "url": "zicanaboutique.com/blogs/news/dekton-countertops",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Luxury retailer compiling customer testimonials and real kitchen performance reports; documents durability claims alongside some reports of edge chipping from customers.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Sponsored/dealer content with customer testimonials; useful contextual information but lacks independent testing methodology.",
+      "topics": [
+        "durability",
+        "quality",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "CounterTopSmart - Aura 15 Spec",
+      "url": "countertopsmart.com/texas/austin/sintered/m/dekton",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Retailer product specification listing for Dekton Aura 15: 2.0cm thickness, polished finish, non-porous composition, heat and scratch resistant per manufacturer specs, material warranty noted.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published product specification data with structured spec listing; provides verifiable product attributes useful for scoring.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "DiTuo Tiles - Dekton Sintered Stone Overview",
+      "url": "dituotiles.com/blog-detail/what-is-dekton",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Supplier overview of Dekton composition and manufacturing; lists popular colors including Aura; price range documented at $60-100/sf; edge vulnerability explicitly noted as known limitation.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Supplier/dealer content with useful spec and pricing data but no independent testing; informative without structured scoring.",
+      "topics": [
+        "quality",
+        "durability",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "Houzz Forum - Acceptable Miter for Aura 15",
+      "url": "houzz.com/discussions/5978474",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum thread discussing edge miter concerns, seam visibility issues, and chipping during cutting operations on Aura 15 slabs; incomplete thread with limited corroboration.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum thread with incomplete information and no corroborating pattern established from this source alone.",
+      "topics": [
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "Houzz Forum - Dekton Scam Thread",
+      "url": "houzz.com/discussions/6348108",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Multi-contributor forum thread documenting major cracks and chips, edge fragility failures, importance of certified fabricators, and microbevel edge requirement per Cosentino specs; one homeowner labeled product 'a scam.'",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum thread describing physical product defect (edge chipping/cracking) with corroborating pattern across multiple contributors, consistent with Consumer Reports impact findings.",
+      "topics": [
+        "durability",
+        "quality",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "Consumer Reports - Dekton Countertop Impact Test Video",
+      "url": "consumerreports.org/video/view/countertops",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Standardized lab testing showing Dekton cracked completely into two pieces at manufacturer-recommended 2cm thickness during impact simulation; edge pieces chipped off; excellent ratings for heat, stain, and scratch resistance.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Known expert comparison source with structured scoring methodology; independent laboratory testing with clear product opinion and quantified results.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "Consumer Reports - Dekton Cracking News Article",
+      "url": "consumerreports.org/cro/news/dekton-countertop-cracks",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Detailed reporting: Dekton was only material among 13 tested to crack completely under impact; none of competitors failed similarly; includes Cosentino's official response disputing test conditions; testing methodology defended by CR experts.",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Known expert comparison source with structured testing methodology; clear critical product finding with manufacturer response documented; independent and systematic.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "Cosentino Technical Datasheet",
+      "url": "assetstools.cosentino.com/dekton-technical-datasheet",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official ASTM/EN laboratory results: 0.1% water absorption (impervious), flexural strength 1,176-1,192 lbf, thermal expansion 5-6×10⁻⁶/°C, Mohs hardness 7-8, compressive strength ~34,400 psi; impact restitution coefficient 0.85-0.92.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical specification with independent ASTM/EN testing data; credible spec document providing verifiable performance measurements.",
+      "topics": [
+        "specs",
+        "performance",
+        "durability",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "Dekton Safety Datasheet",
+      "url": "cosentino.com/dekton-safety",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents crystalline silica content below 11% by weight; Greenguard Gold certification confirmed; NSF food-contact approval; finished installed product safe for end users; fabrication dust hazard noted.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published safety documentation with third-party certification data (Greenguard Gold, NSF); provides verifiable safety specs.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "Cosentino Manufacturing Process Page",
+      "url": "cosentino.com/dekton-manufacturing",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer description of 25,000-ton hydraulic press, 1,200°C sintering temperature, raw material sourcing protocols, and quality control processes in Sinterized Particle Technology production.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content describing production process; no independent verification of claims.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "Grifon - Dekton Manufacturing History",
+      "url": "grifon.ca/dekton-manufacturing",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator background article on Cosentino's history: Spanish company founded 1979, family-owned, multiple global production facilities; contextual corporate information without product performance evaluation.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Provides corporate background context only; no product performance scoring or defect information.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "DreamHomeWorks - Dekton Pros & Cons",
+      "url": "dreamhomeworks.com/dekton-pros-cons",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Designer perspective on heat resistance practical application, aesthetic consistency advantages, design longevity, and identifying conditions where Dekton excels versus where alternatives may be preferable.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published review from design professional with structured pros/cons product opinion and practical application guidance.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "Cosentino Good Practice Guide",
+      "url": "cosentino.com/good-practice-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer occupational safety documentation for fabricators: dust control requirements, PPE recommendations, silicosis prevention protocols, and wet-working method specifications.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source addresses fabrication worker safety, not end-user product quality; installation/fabrication process documentation.",
+      "topics": [
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "Cosentino Technical Manual",
+      "url": "cosentino.com/dekton-technical-manual",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabrication specifications: cutting, drilling, edge finishing protocols, installation guidance, substrate requirements, adhesive selection, and joinery specifications required for warranty-compliant installation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical manual with detailed specifications; independent verification of installation requirements relevant to product performance and warranty validity.",
+      "topics": [
+        "specs",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "Fine Homebuilding - Countertop Options",
+      "url": "finehomebuilding.com/kitchen-countertop-pricing",
+      "platform": "fhb",
+      "column": "expert",
+      "snippet": "Trade publication documenting Dekton cost at $65-75/sf, composition overview (quartz, glass, porcelain), and positioning as durable, low-maintenance premium countertop option.",
+      "pool": "A",
+      "classification": "report_only",
+      "classification_reason": "Trade publication providing pricing and composition data without independent testing or structured scoring; useful reference without product defect reporting.",
+      "topics": [
+        "value",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "Cosentino Statement - Vigo Judgment",
+      "url": "cosentino.com/news/cosentino-statement-vigo",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer statement regarding a 15-year legal settlement; Cosentino states fabricator was held responsible, not Cosentino; affirms silica hazard is occupational not consumer risk; asserts proper safety protocols eliminate risk.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Legal/lawsuit information must always be classified as report_only regardless of other factors; manufacturer statement about legal proceedings.",
+      "topics": [
+        "legal",
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "Dekton Environmental Impact - Ventura Stone",
+      "url": "venturastone.com/environmental-impact-dekton",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Retailer documentation of Dekton's Sinterized Particle Technology environmental claims: carbon-neutral manufacturing, 99% recycled water in production, closed-loop manufacturing process, environmental certifications.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Sustainability/environmental documentation without product performance scoring; informational content on manufacturing claims.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "Eastern Surfaces - Countertop Comparison Chart",
+      "url": "easternsurfaces.com/countertop-comparison",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Comparative chart scoring Dekton 5/5 for stain resistance; comparison across quartz, granite, and solid surface materials; highlights non-porous advantage and thickness considerations.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with structured scoring across multiple materials and performance dimensions from knowledgeable dealer source.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "Caesarstone vs. Dekton Comparison - Zicana Boutique",
+      "url": "zicanaboutique.com/dekton-vs-caesarstone",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Head-to-head comparison: Dekton exceeds 1,000°F heat tolerance vs. Caesarstone's 300°F limit; Dekton UV-stable for outdoor use vs. Caesarstone fading; Caesarstone advantages in fabrication ease, cost, and color options.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative analysis with specific performance data across competing products; knowledgeable dealer with structured product opinion.",
+      "topics": [
+        "performance",
+        "durability",
+        "value",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "Carmel Imports - Sintered Stone vs. Quartz",
+      "url": "carmelimports.com/sintered-stone-vs-quartz",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Technical comparison: 100% mineral sintered vs. 90-93% quartz with resin binders; heat resistance advantage of sintered; UV resistance; Mohs hardness comparison; stain and scratch resistance documented.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published comparative review with material science basis and structured performance comparison across product categories.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "Milwaukee Marble - Natural vs. Engineered Countertops",
+      "url": "milwaukeemarble.com/engineered-vs-natural",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Durability comparison noting Dekton as least renewable of engineered options; natural stone lifespan 50-75 years versus engineered 25-30 years; repairability contrast between natural and engineered materials.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Comparative review providing useful longevity context but no independent testing; informational without structured scoring of Dekton specifically.",
+      "topics": [
+        "durability",
+        "value",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "Zicana Boutique - Dekton Repair Kit Guide",
+      "url": "zicanaboutique.com/dekton-repair-kit-guide",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Luxury retailer guide on repair kit availability, repair complexity assessment for Dekton versus porous materials, and necessity of damage evaluation before attempting DIY repair.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Service/repair documentation without product defect scoring; useful for warranty and service assessment context.",
+      "topics": [
+        "service",
+        "warranty",
+        "durability"
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "Dekton vs. Marble Comparison - Dektonmastidek",
+      "url": "dektonmastidek.com/dekton-vs-marble",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Fabricator comparison: Dekton Mohs hardness 8 vs. marble's 3; scratch resistance contrast; stain resistance (non-porous vs. porous); heat resistance advantage of Dekton over natural marble.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published fabricator comparison with structured performance data across key dimensions; knowledgeable source with clear product opinion.",
+      "topics": [
+        "performance",
+        "durability",
+        "quality",
+        "specs"
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "Solidtop - Dekton Installation Guide",
+      "url": "solidtop.com.my/dekton-installation-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional fabricator installation documentation: specialized tools required, professional installation necessity, CNC saw blade requirements, and proper adhesive selection protocols.",
+      "pool": "B",
+      "classification": "report_only",
+      "classification_reason": "Source addresses installation quality and process requirements, not product quality itself; installation documentation.",
+      "topics": [
+        "specs",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "Zicana Boutique - Dekton Thickness Guide",
+      "url": "zicanaboutique.com/dekton-thickness-guide",
+      "platform": "other",
+      "column": "review",
+      "snippet": "Technical guide on Dekton thickness options: 4mm, 8mm, 12mm, 20mm; 12mm typical for countertops; structural considerations per thickness; outdoor application thickness recommendations.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published specification and technical guide with structured data on thickness options relevant to performance and durability assessment.",
+      "topics": [
+        "specs",
+        "durability",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "Cosentino - Greenguard Gold Certification Page",
+      "url": "cosentino.com/dekton-certification",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Documents UL 2818 Greenguard Gold compliance, chemical emissions standards adherence, food-contact safety certification, and low VOC certification for finished Dekton product.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Third-party certification data (Greenguard Gold/UL 2818, NSF); independent standard compliance provides verifiable safety specifications.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "Houzz Forum - Dekton Aura Color Consistency",
+      "url": "houzz.com/discussions/6141317",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum post documenting color inconsistency between Aura 15 slabs: off-white rather than pure white, veining appearing brown rather than gray; isolated aesthetic concern without corroborating defect pattern.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum complaint about aesthetic variation with no corroborating physical defect pattern; aesthetic issue not performance defect.",
+      "topics": [
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "Houzz Forum - Dekton Laurent Long-Term Satisfaction",
+      "url": "houzz.com/discussions/6348108",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Long-term owner (1+ year) of Dekton Laurent (similar product line to Aura 15) reports zero chips, zero issues, and high satisfaction despite not taking particular care with the surface.",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Forum post describing physical long-term product performance with positive outcome; part of multi-contributor thread providing corroborating context on material performance variability.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "Cosentino Warranty Standard Letter",
+      "url": "cosentino.com/warranty-standard",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Official 25-year residential warranty terms: manufacturing defects covered; impact damage, chipping, and structural movement damage explicitly excluded; registration requirements specified.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer warranty document; marketing/legal document rather than independent evaluation.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "Cosentino Project Warranty",
+      "url": "cosentino.com/warranty-project",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "10-year commercial warranty terms with similar exclusions to residential warranty; separate terms governing public and commercial space applications.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer warranty document; marketing/legal document rather than independent evaluation.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "Dekton Technical Manual PDF",
+      "url": "content.cosentino.com/dekton-technical-manual",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Detailed fabrication specifications PDF: edge profile requirements including microbevel specification, substrate support guidelines, adhesive requirements, and junction preparation standards.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published technical specification document with detailed measurable installation and fabrication requirements; credible reference for performance evaluation.",
+      "topics": [
+        "specs",
+        "durability",
+        "warranty"
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "Dekton Safety Data Sheet PDF",
+      "url": "cosentino.com/dekton-safety-datasheet",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Material safety data: crystalline silica content documented, respiratory fabrication hazard noted, finished product confirmed safe for end users, worker safety protocols specified.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Published safety data sheet with regulatory-standard composition disclosure; verifiable safety specifications.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "Xometry - Ductility vs. Brittleness",
+      "url": "xometry.com/ductility-vs-brittleness",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Materials science reference explaining brittleness definition, fracture mechanics principles, and the scientific basis for why high-hardness materials like Dekton exhibit sudden fracture rather than gradual deformation.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Independent materials science publication explaining the technical basis for Dekton's impact vulnerability; credible scientific analysis supporting observed failure patterns.",
+      "topics": [
+        "durability",
+        "quality",
+        "performance"
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "Karin Kirk - Countertop Testing Analysis",
+      "url": "karinkirk.com/countertop-testing",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Professional geologist analysis of countertop material fracture mechanics; explains brittle material behavior in sintered surfaces; notes crystalline composite structure creates excellent scratch resistance but inherent fracture toughness limitations.",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Credentialed professional (geologist) providing independent materials science analysis with clear product opinion grounded in expertise.",
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "Cosentino 2025 Financial Results",
+      "url": "cosentino.com/news/cosentino-2025",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Corporate results: Dekton sales grew +13%, representing 38.5% of total Cosentino revenue and identified as main growth driver; ÉCLOS new product (zero crystalline silica) launched as new line.",
+      "pool": "C",
+      "classification": "report_only",
+      "classification_reason": "Corporate financial disclosure; useful for company stability assessment but not product performance scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "Cosentino Fabricator Training Program",
+      "url": "cosentino.com/professional-fabricators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Manufacturer professional training and certification documentation: requirements for certification, technical documentation access, and fabricator support programs relevant to warranty eligibility.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing content for professional channel; not independent product performance evaluation.",
+      "topics": [
+        "warranty",
+        "service"
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "Dekton Manufacturing Video - YouTube",
+      "url": "youtube.com/dekton-manufacturing",
+      "platform": "youtube",
+      "column": "expert",
+      "snippet": "Manufacturer production line video showing 25,000-ton hydraulic press operation, sintering oven process, and quality control stages in Dekton manufacturing.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Manufacturer marketing video content; promotional rather than independent evaluation.",
+      "topics": [
+        "specs",
+        "quality"
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "Houzz Forum - Dekton Yay or Nay",
+      "url": "houzz.com/discussions/6475293",
+      "platform": "houzz",
+      "column": "forum",
+      "snippet": "Forum discussion noting no significant price difference versus quartz; owner expressing satisfaction with superior durability claims; positive general sentiment without specific defect or performance detail.",
+      "pool": "C",
+      "classification": "quarantine",
+      "classification_reason": "Single forum post about value perception and sales context without specific product performance detail; insufficient for scoring.",
+      "topics": [
+        "value"
+      ]
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "Surprising Granite - Dekton Freeze Resistance",
+      "url": "surprisegranite.com/dekton-arizona",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "Retailer documentation of Dekton freeze-thaw resistance characteristics and suitability for Arizona climate with extreme temperature variation; regional outdoor application performance noted.",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Published dealer review with specific climate performance data; knowledgeable source with structured product opinion for specialized application.",
+      "topics": [
+        "performance",
+        "durability",
+        "specs"
+      ]
+    }
+  ],
+  "consensus_matrix": [
+    {
+      "topic": "Heat Resistance",
+      "expert": "Universal agreement; >1,000°F without damage; 3x advantage over quartz",
+      "review": "Technical data confirms >300°C direct contact; ASTM thermal shock approved",
+      "forum": "Owners confirm zero heat-related damage; no negative reports",
+      "agreement_level": "Strong Agreement"
+    },
+    {
+      "topic": "Stain Resistance",
+      "expert": "Complete non-porosity eliminates staining; superior to all alternatives",
+      "review": "0.1% water absorption documented (impervious ASTM rating); Consumer Reports excellent rating",
+      "forum": "Owners confirm red wine, coffee wipe clean without residue",
+      "agreement_level": "Strong Agreement"
+    },
+    {
+      "topic": "Scratch Resistance",
+      "expert": "4x more resistant than quartz; Mohs 7-8; suitable for high-traffic commercial",
+      "review": "Taber abrasion 106-125mm³ wear volume; Consumer Reports excellent rating",
+      "forum": "Owners report no visible scratching from daily utensil use and cooking",
+      "agreement_level": "Strong Agreement"
+    },
+    {
+      "topic": "Impact Resistance / Brittleness",
+      "expert": "Acknowledged brittleness; materials science confirms hardness-brittleness tradeoff; edge vulnerability documented",
+      "review": "Consumer Reports: only material of 13 tested to crack completely at 2cm thickness; CR experts defend methodology",
+      "forum": "Multiple owners report edge chipping and cracking; fabricators document microbevel requirement",
+      "agreement_level": "Strong Agreement on Vulnerability"
+    },
+    {
+      "topic": "Durability for Normal Use",
+      "expert": "Excellent for cooking, cleanup, heat; 5x flexural strength vs. granite",
+      "review": "Technical specs confirm minimal abrasion wear; laboratory data supports normal-use durability",
+      "forum": "Long-term owners (1-3 years) report negligible degradation from typical kitchen use",
+      "agreement_level": "Strong Agreement"
+    },
+    {
+      "topic": "Warranty Coverage",
+      "expert": "Professional consensus: 25-year residential but impact/chipping excluded; registration deadline critical",
+      "review": "Warranty terms documented: manufacturing defects covered, impact excluded, 6-month registration required",
+      "forum": "Owners frustrated by impact exclusion; some missed 6-month registration window",
+      "agreement_level": "Moderate Agreement"
+    },
+    {
+      "topic": "Overall Quality",
+      "expert": "Premium material with exceptional performance in specific dimensions; specialized durability profile",
+      "review": "Technical data confirms superior performance vs. competitors in heat/stain/scratch",
+      "forum": "Satisfaction highly variable depending on edge profile choices and impact risk awareness",
+      "agreement_level": "Moderate Agreement"
+    },
+    {
+      "topic": "Repairability",
+      "expert": "Professional repair possible for minor chips; major cracks may require full slab replacement",
+      "review": "Limited published reparability data; cosmetic repair kits available but results imperfect",
+      "forum": "Homeowners report unacceptable cosmetic repair outcomes for gouges; frustration documented",
+      "agreement_level": "Moderate Agreement"
+    },
+    {
+      "topic": "Design Consistency",
+      "expert": "Engineered product provides superior consistency vs. natural stone",
+      "review": "Technical datasheets confirm consistent properties across 59 color families",
+      "forum": "Minor veining intensity variation between slabs of same Aura reference documented",
+      "agreement_level": "Moderate Agreement"
+    },
+    {
+      "topic": "Installation Requirements",
+      "expert": "Certified installers required; specialized tools and techniques necessary",
+      "review": "Cosentino technical documentation specifies detailed edge, adhesive, substrate requirements",
+      "forum": "Fabricator expertise variation appears to correlate with chipping outcomes",
+      "agreement_level": "Strong Agreement"
+    },
+    {
+      "topic": "Material Safety (End User)",
+      "expert": "Finished material safe; crystalline silica hazard is fabrication-only occupational risk",
+      "review": "Greenguard Gold and NSF food-contact certifications confirmed; no VOC off-gassing",
+      "forum": "No health concerns documented from homeowners",
+      "agreement_level": "Strong Agreement"
+    }
+  ],
+  "warranty_reality": {
+    "beats_expectations": [
+      "Heat resistance coverage: warranty covers heat damage but material has essentially zero heat-related failures reported",
+      "Stain resistance coverage: warranty covers staining but non-porous material virtually eliminates this failure mode entirely",
+      "Scratch resistance coverage: warranty covers surface scratching but Mohs 7-8 hardness makes this an extremely rare real-world event",
+      "25-year residential term length exceeds most competing engineered stone warranties"
+    ],
+    "underperforms_expectations": [
+      "Impact damage explicitly excluded from coverage despite 'ultra-durable' marketing positioning",
+      "Edge chipping—the most common real-world failure mode—falls entirely outside warranty protection",
+      "6-month registration deadline creates warranty downgrade risk; many owners unaware until filing a claim",
+      "Non-certified fabricator voids full warranty, creating dependency on installer selection",
+      "Purchases after January 2022 without registration downgrade to 3-year coverage from 25-year"
+    ],
+    "surprises": [
+      "Warranty exclusions precisely align with the single performance dimension where independent testing (Consumer Reports) documented material vulnerability, suggesting manufacturer awareness of brittleness as inherent characteristic",
+      "Structural movement damage from building settling or substrate failure also excluded, creating additional uncovered failure scenarios",
+      "Commercial warranty is only 10 years despite commercial environments often being cited as suitable applications",
+      "Warranty coverage for 'normal use' damage from stains, scratches, and heat may be largely theoretical given material's resistance in these dimensions—coverage provided where failure is near-impossible"
+    ]
+  },
+  "verified_specs": {
+    "thickness_options": [
+      "4mm",
+      "8mm",
+      "12mm",
+      "20mm"
+    ],
+    "standard_countertop_thickness": "20mm (2cm) for countertops; 12mm also noted",
+    "mohs_hardness": "7-8",
+    "water_absorption": "0.1% (ASTM C373 / EN ISO 10545-3; classified impervious)",
+    "flexural_strength": "1,176-1,192 lbf breaking strength; 50-54 N/mm² flexural resistance (ASTM C648)",
+    "compressive_strength": "~34,400 psi / 237 MPa (ASTM C170, dry)",
+    "thermal_expansion_coefficient": "5-6 × 10⁻⁶/°C",
+    "thermal_shock_resistance": "Approved/undamaged (EN ISO 10545-9)",
+    "moisture_expansion": "0.02-0.005% average (ASTM C370)",
+    "abrasion_resistance": "106-125 mm³ wear volume (ASTM C501 Taber; EN ISO 10545-6 deep abrasion)",
+    "impact_restitution_coefficient": "0.85-0.92 (varies by color family)",
+    "heat_resistance_direct_contact": ">300°C per Cosentino spec; >537°C (1,000°F) per marketing claims",
+    "heat_resistance_vs_quartz": "3x+ advantage (quartz rated ~300°F / 149°C before damage)",
+    "scratch_resistance_vs_quartz": "4x more resistant per manufacturer claim",
+    "flexural_strength_vs_granite": "~5x higher per manufacturer claim and technical datasheet",
+    "composition": "Quartz, porcelain, recycled glass; 100% inorganic; no resin binders",
+    "manufacturing_process": "Sinterized Particle Technology; 25,000-ton compaction; ~1,200°C sintering",
+    "crystalline_silica_content": "<11% by weight (all color formulations)",
+    "certifications": [
+      "Greenguard Gold (UL 2818)",
+      "NSF food-contact safe",
+      "ASTM C373",
+      "EN ISO 10545-3",
+      "EN ISO 10545-6",
+      "EN ISO 10545-9",
+      "ASTM C648",
+      "ASTM C170",
+      "ASTM C501",
+      "ASTM C370"
+    ],
+    "uv_stability": "Fully UV stable; suitable for outdoor applications; no fading documented",
+    "porosity": "Completely non-porous; no sealing required",
+    "color_options": 59,
+    "available_finishes": [
+      "Polished"
+    ],
+    "price_range_per_sqft": "$60-100 (retailer range); $65-75 (Fine Homebuilding trade publication)",
+    "outdoor_suitability": "Yes; UV stable and freeze-thaw resistant",
+    "u_factor": "not_available",
+    "shgc": "not_available",
+    "air_infiltration": "not_available",
+    "frame_material": "not_applicable",
+    "glass": "not_applicable",
+    "dp_rating": "not_applicable",
+    "stc": "not_applicable"
+  },
+  "red_flags": [
+    {
+      "type": "Independent Testing Failure",
+      "severity": "High",
+      "description": "Consumer Reports impact testing documented Dekton as the only material among 13 tested to crack completely (fracture into two pieces) at manufacturer-recommended 2cm thickness when simulating dropped cookware from typical shelf height. No other tested material exhibited this catastrophic failure mode.",
+      "source": "SRC-011, SRC-012",
+      "manufacturer_response": "Cosentino stated testing conditions did not comply with their installation guidelines; Consumer Reports defended identical methodology applied to all 13 materials"
+    },
+    {
+      "type": "Warranty Structure Concern",
+      "severity": "Moderate",
+      "description": "The 25-year warranty explicitly excludes impact damage and edge chipping—precisely the failure modes documented by independent testing and most commonly reported by owners. This inverse relationship between warranty coverage and documented vulnerability may indicate manufacturer recognition of inherent material brittleness.",
+      "source": "SRC-004, SRC-034, SRC-011, SRC-012",
+      "manufacturer_response": "Cosentino positions impact damage as outside 'normal use' per warranty terms"
+    },
+    {
+      "type": "Legal/Settlement Information",
+      "severity": "Moderate",
+      "description": "Cosentino issued an official statement regarding a Vigo court judgment related to a 15-year legal matter. Cosentino states the fabricator was held responsible rather than Cosentino, and affirms silica hazard is occupational not consumer-facing. Full terms of settlement not publicly disclosed.",
+      "source": "SRC-021",
+      "manufacturer_response": "Cosentino published official statement asserting non-liability and worker safety protocol adequacy"
+    },
+    {
+      "type": "Occupational Health Concern",
+      "severity": "Moderate - Fabrication Workers Only",
+      "description": "Crystalline silica content below 11% by weight creates documented silicosis risk for fabrication workers during cutting, drilling, and shaping. Proper wet-working, ventilation, PPE, and air monitoring required. End users of installed product face no health risk. Cosentino has launched ÉCLOS as a zero-crystalline-silica alternative product line.",
+      "source": "SRC-014, SRC-018, SRC-021, SRC-037",
+      "manufacturer_response": "Cosentino provides occupational safety documentation; Greenguard Gold certification confirms finished product safety; ÉCLOS product launched as silica-free alternative"
+    },
+    {
+      "type": "Fabrication Knowledge Gap",
+      "severity": "Moderate",
+      "description": "Fabricator forum evidence indicates uneven industry knowledge regarding Cosentino-required microbevel edge finishing, with some shops implementing non-compliant edge profiles that increase chipping risk. This fragmented expertise may contribute to variable owner outcomes independent of material quality.",
+      "source": "SRC-010",
+      "manufacturer_response": "Cosentino offers certified fabricator training program; technical manual specifies edge requirements"
+    },
+    {
+      "type": "Warranty Registration Trap",
+      "severity": "Moderate",
+      "description": "Mandatory 6-month warranty registration deadline is not prominently disclosed at point of sale. Purchases after January 2022 without timely registration default to 3-year coverage instead of 25-year. Owners typically discover this limitation only when attempting to file a claim.",
+      "source": "SRC-004, SRC-034",
+      "manufacturer_response": "Registration requirement published in warranty terms documentation"
+    }
+  ],
+  "bottom_line": "Dekton Aura 15 is a genuinely innovative ultra-compact sintered stone surface that delivers class-leading performance in heat resistance (>1,000°F), stain resistance (0.1% water absorption, impervious ASTM rating), scratch resistance (Mohs 7-8, 4x quartz), UV stability, and chemical durability. These advantages are consistently validated across expert fabricators, independent laboratory specifications, and owner experience. However, the material carries a critical, well-documented vulnerability: its extreme hardness creates inherent brittleness that can result in catastrophic fracture—rather than localized damage—under impact stress. Consumer Reports' standardized testing found Dekton was the only material among 13 tested to crack completely into two pieces at manufacturer-recommended thickness. This brittleness is particularly acute at edges and corners, where the most common real-world failure mode (chipping) occurs. Critically, the 25-year warranty explicitly excludes impact and chipping damage—precisely the failure mode most commonly reported and most rigorously documented—suggesting manufacturer awareness of this as an inherent material characteristic rather than exceptional circumstance. Homeowners should be aware that warranty value is substantially conditional: registration must occur within 6 months of purchase (often unknown until after a claim event), only certified fabricator installations maintain full coverage, and the primary real-world failure mode falls entirely outside warranty protection. Dekton Aura 15 is an excellent choice for households prioritizing heat resistance, stain-free performance, UV stability for outdoor kitchens, and scratch durability—and for owners willing to implement proper edge profiles (microbevel as specified by Cosentino) and work exclusively with certified fabricators. It is a poor choice for households with high accident risk, those prioritizing edge profile design flexibility, or buyers who interpret 'ultra-durable' marketing as protection against all failure modes. Success depends on aligning expectations precisely with the material's genuine performance envelope: exceptional against wear, heat, stains, and chemicals; vulnerable to impact stress at edges.",
+  "scoring_notes": {
+    "total_sources_identified": 44,
+    "sources_classified_score": 22,
+    "sources_classified_report_only": 12,
+    "sources_classified_quarantine": 10,
+    "pool_s_sources": 2,
+    "pool_a_sources": 8,
+    "pool_b_sources": 18,
+    "pool_c_sources": 16,
+    "critical_independent_testing": "Consumer Reports (SRC-011, SRC-012) represents the only Pool S structured comparative testing; findings on impact vulnerability are the single most important signal in this dataset",
+    "corroboration_quality": "Impact brittleness finding corroborated across Pool S (Consumer Reports), Pool A (materials science), Pool B (fabricator comparative reviews), and Pool C (multi-contributor forum threads) — highest confidence finding in report",
+    "manufacturer_source_handling": "All pure manufacturer marketing content quarantined; manufacturer technical datasheets and safety data sheets classified as Pool A score sources due to ASTM/EN testing data content"
+  },
+  "product_slug": "dekton_aura_15",
+  "product_name": "Dekton Aura 15",
+  "manufacturer_slug": "cosentino",
+  "operation_type": "general",
+  "deep_dive_date": "2026-03-27",
+  "structuring_duration_ms": 389326,
+  "structuring_model": "claude-sonnet-4-6",
+  "auto_classification_summary": {
+    "total": 44,
+    "score": 22,
+    "report_only": 12,
+    "quarantine": 10,
+    "uncertain": 0
+  },
+  "curation_status": "staged",
+  "curation_date": null,
+  "human_overrides": [],
+  "structuring_cost_estimate": 0.219291
+}

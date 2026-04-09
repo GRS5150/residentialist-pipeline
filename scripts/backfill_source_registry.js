@@ -111,42 +111,47 @@ function extractFromFile(filePath, passTag, productSlug) {
   const results = [];
   const seen = new Set();
 
-  // Priority 1: explicit citation block at file bottom
-  const citationSection = text.match(/## Citations\n([\s\S]+)$/);
-  const citationUrls = new Set();
-  if (citationSection) {
-    const matches = citationSection[1].match(URL_RE) || [];
-    matches.forEach(u => {
-      const clean = u.replace(/[.,;:)\]]+$/, '');
-      if (clean.length > 16 && !isNoisy(clean)) {
-        citationUrls.add(clean);
+  // Parse the ## Citations block — this is the numbered list Perplexity returned.
+  // Format: "1. https://example.com/actual-article\n2. https://..."
+  const citationMatch = text.match(/## Citations\n([\s\S]+)$/);
+  let urls;
+
+  if (citationMatch) {
+    // Citation block exists — use ONLY these URLs. They are what Perplexity cited.
+    urls = [];
+    const lines = citationMatch[1].split('\n');
+    for (const line of lines) {
+      // Match numbered citation lines: "1. https://..." or "- https://..."
+      const urlMatch = line.match(/^\s*(?:\d+[\.\)]\s*|[-*]\s*)?(https?:\/\/[^\s\)>\]",]+)/);
+      if (urlMatch) {
+        const clean = urlMatch[1].replace(/[.,;:)\]]+$/, '');
+        if (clean.length > 16 && !isNoisy(clean)) {
+          urls.push(clean);
+        }
       }
-    });
+    }
+  } else {
+    // No citation block — old file format. Fall back to inline URL extraction.
+    const allMatches = text.match(URL_RE) || [];
+    urls = [];
+    for (const u of allMatches) {
+      const clean = u.replace(/[.,;:)\]]+$/, '');
+      if (clean.length > 16 && !isNoisy(clean) && !seen.has(clean)) {
+        urls.push(clean);
+        seen.add(clean);
+      }
+    }
   }
 
-  // Priority 2: all inline URLs in file
-  const inlineUrls = new Set();
-  const allMatches = text.match(URL_RE) || [];
-  allMatches.forEach(u => {
-    const clean = u.replace(/[.,;:)\]]+$/, '');
-    if (clean.length > 16 && !isNoisy(clean)) {
-      inlineUrls.add(clean);
-    }
-  });
-
-  // Use citation-block URLs as primary source of truth.
-  // Fall back to ALL inline URLs only when citation block is empty/tiny (old files).
-  const allUrls = citationUrls.size >= 5
-    ? citationUrls
-    : new Set([...citationUrls, ...inlineUrls]);
-
-  allUrls.forEach(url => {
-    if (seen.has(url)) return;
+  for (const url of urls) {
+    if (seen.has(url)) continue;
     seen.add(url);
 
-    // Get ~200 chars of surrounding context for axis inference
+    // Get surrounding context for axis inference
     const idx = text.indexOf(url);
-    const context = text.substring(Math.max(0, idx - 100), idx + 100);
+    const context = idx >= 0
+      ? text.substring(Math.max(0, idx - 100), idx + 100)
+      : '';
 
     results.push({
       url,
@@ -159,9 +164,9 @@ function extractFromFile(filePath, passTag, productSlug) {
       captured_from: passTag,
       captured_at: new Date().toISOString(),
       verified: false,
-      in_citation_block: citationUrls.has(url),
+      in_citation_block: !!citationMatch,
     });
-  });
+  }
 
   return results;
 }
@@ -176,14 +181,9 @@ function processCategory(category) {
   }
 
   const files = fs.readdirSync(catDir).filter(f => f.endsWith('.md'));
+  // Clean start — rebuild registry from scratch using citation blocks
   const registryPath = path.join(catDir, 'sources_registry.json');
-
-  // Load existing registry (don't wipe it)
-  let existing = [];
-  if (fs.existsSync(registryPath)) {
-    try { existing = JSON.parse(fs.readFileSync(registryPath, 'utf8')); } catch {}
-  }
-  const existingUrls = new Set(existing.map(s => s.url));
+  const existingUrls = new Set();
 
   const passMap = {
     'testing_framework': 'research_pass_1',
@@ -225,17 +225,15 @@ function processCategory(category) {
     }
   }
 
-  const merged = [...existing, ...allNew];
-  fs.writeFileSync(registryPath, JSON.stringify(merged, null, 2));
+  fs.writeFileSync(registryPath, JSON.stringify(allNew, null, 2));
 
   return {
     category,
     files: files.length,
-    totalSources: merged.length,
-    catSources: merged.filter(s => s.scope === 'category').length,
-    prodSources: merged.filter(s => s.scope === 'product').length,
-    citationBlock: merged.filter(s => s.in_citation_block).length,
-    added: allNew.length,
+    totalSources: allNew.length,
+    catSources: allNew.filter(s => s.scope === 'category').length,
+    prodSources: allNew.filter(s => s.scope === 'product').length,
+    citationBlock: allNew.filter(s => s.in_citation_block).length,
   };
 }
 

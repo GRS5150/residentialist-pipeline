@@ -1,0 +1,32 @@
+{
+  "product": "MSI Q Premium Calacatta Arno",
+  "operation_type": null,
+  "slug": "msi_q_premium_calacatta_arno",
+  "steps": [
+    {
+      "step": "manufacturer_check",
+      "status": "fresh",
+      "action": "skip"
+    },
+    {
+      "step": "perplexity_search",
+      "chars": 51621
+    },
+    {
+      "step": "sonnet_structuring",
+      "sources": 42,
+      "cost_estimate": 0.220149
+    },
+    {
+      "step": "curation_save",
+      "path": "/Users/Residentialist/.openclaw/workspace/residentialist/curation/msi_q_premium_calacatta_arno_sources.json"
+    },
+    {
+      "step": "db_update",
+      "status": "staged"
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "completed_at": "2026-03-27T22:49:05.818Z"
+}

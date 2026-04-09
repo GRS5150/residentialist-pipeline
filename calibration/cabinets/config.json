@@ -4,34 +4,53 @@
   "version_date": "2026-04-06",
   "rebuilt_from": "prompt_a_cabinets.md research (April 2026)",
   "v1_source": "score_cabinets_calibration.js",
-
   "axis_weights": {
     "quality": 0.45,
-    "durability": 0.30,
+    "durability": 0.3,
     "performance": 0.25
   },
-
   "scoring_method": "anchor_target_plus_spec_spread",
   "scoring_notes": "Quality dominant (0.45) — box construction material, joinery method, and finish type are the primary differentiators. Durability (0.30) covers hardware lifespan (drawer slides, hinges) and moisture resistance. Performance (0.25) covers functional aspects (soft-close, adjustability, load capacity).",
-
   "max_spec_adjustment_per_axis": 8,
   "tier_crossing_allowed": false,
-
   "tier_ranges": {
-    "1": { "min": 90, "max": 100, "label": "Best in Class" },
-    "2": { "min": 75, "max": 89, "label": "Excellent" },
-    "3": { "min": 60, "max": 74, "label": "Good" },
-    "4": { "min": 40, "max": 59, "label": "Fair" },
-    "5": { "min": 0, "max": 39, "label": "Below Standard" }
+    "1": {
+      "min": 90,
+      "max": 100,
+      "label": "Best in Class"
+    },
+    "2": {
+      "min": 75,
+      "max": 89,
+      "label": "Excellent"
+    },
+    "3": {
+      "min": 60,
+      "max": 74,
+      "label": "Good"
+    },
+    "4": {
+      "min": 40,
+      "max": 59,
+      "label": "Fair"
+    },
+    "5": {
+      "min": 0,
+      "max": 39,
+      "label": "Below Standard"
+    }
   },
-
   "calibration_products": [
     {
       "name": "Crystal Keyline (custom)",
       "slug": "crystal_keyline_custom",
       "tier": 1,
       "target": 93,
-      "axis_scores": { "quality": 95, "durability": 91, "performance": 92 },
+      "axis_scores": {
+        "quality": 95,
+        "durability": 91,
+        "performance": 92
+      },
       "outlook": "Strong",
       "rationale": "Minnesota custom shop. All 3/4\" plywood construction. Solid hardwood dovetail drawer boxes. Catalyzed conversion varnish finish. Blum hinges (165K cycles) and TANDEM slides (100K cycles, 130 lb). Single-source manufacturing. KCMA certified. Rutt/Plain & Fancy tier per Main Line Kitchen Design ratings (A quality)."
     },
@@ -40,7 +59,11 @@
       "slug": "fabuwood_galaxy",
       "tier": 1,
       "target": 93,
-      "axis_scores": { "quality": 93, "durability": 94, "performance": 90 },
+      "axis_scores": {
+        "quality": 93,
+        "durability": 94,
+        "performance": 90
+      },
       "scoring_note": "Spec engine derives Q=93, D=94, P=90 → composite=93. Crystal/Fabuwood parity on composite is correct — distinction lives in axis split (Crystal higher Q from CV finish; Fabuwood higher D from Blum parity with catalyzed lacquer durability).",
       "outlook": "Strong",
       "rationale": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top Blumotion hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus."
@@ -50,7 +73,11 @@
       "slug": "kraftmaid_base",
       "tier": 2,
       "target": 80,
-      "axis_scores": { "quality": 80, "durability": 81, "performance": 79 },
+      "axis_scores": {
+        "quality": 80,
+        "durability": 81,
+        "performance": 79
+      },
       "outlook": "Strong",
       "rationale": "MasterBrand/Fortune Brands. Dominant semi-custom. Particleboard box (furniture-board grade). Blum hinges and slides (lower-spec than custom). Catalyzed CV finish. J.D. Power #2 satisfaction. B+ quality per Main Line. Pros specify for mid-range remodels. Platform sharing with Diamond/Merillat but KraftMaid gets better hardware."
     },
@@ -60,7 +87,11 @@
       "tier": 3,
       "target": 68,
       "v1_target": 71,
-      "axis_scores": { "quality": 67, "durability": 69, "performance": 68 },
+      "axis_scores": {
+        "quality": 67,
+        "durability": 69,
+        "performance": 68
+      },
       "outlook": "Conditional",
       "rationale": "European frameless design. Particleboard box. RTA assembly (cam lock). Key advantage: confirmed Blum MAXIMERA drawer system (undermount, soft-close). TFL finish (thermofoil risk). 25-year limited warranty. J.D. Power high customer satisfaction BUT pros rate D quality per Main Line — thermofoil peels by year 5, drawers fail. Multi-source manufacturing. Target reduced from 71 to 68 based on installer feedback."
     },
@@ -69,7 +100,11 @@
       "slug": "merillat_classic",
       "tier": 3,
       "target": 64,
-      "axis_scores": { "quality": 63, "durability": 65, "performance": 64 },
+      "axis_scores": {
+        "quality": 63,
+        "durability": 65,
+        "performance": 64
+      },
       "outlook": "Conditional",
       "rationale": "MasterBrand builder-grade line. Particleboard box. Generic drawer slides (35K cycles, 75 lb). Blum hinges but lower spec. Catalyzed lacquer finish. KCMA certified (positive). No soft-close standard. Platform shares with KraftMaid/Diamond but gets lowest-tier components."
     },
@@ -79,15 +114,43 @@
       "tier": 4,
       "target": 45,
       "v1_target": 52,
-      "axis_scores": { "quality": 44, "durability": 46, "performance": 45 },
+      "axis_scores": {
+        "quality": 44,
+        "durability": 46,
+        "performance": 45
+      },
       "outlook": "Negative",
       "rationale": "Home Depot house brand. Lowest-density particleboard. Generic hinges (30K cycles). Generic drawer slides (25K cycles, 50 lb). Thermofoil or melamine finish. No soft-close. Multi-source import manufacturing. Pros universally refuse for quality installs. Reported 5-7 year total failure. Reduced from Timberlake Origins (52) to Hampton Bay (45) as true builder-grade floor based on new research."
     }
   ],
-
   "platform_disclosures": [
     "MasterBrand Cabinets (Fortune Brands): KraftMaid, Diamond, Merillat, Decora, Omega, Aristockraft, Homecrest share factories. Higher lines get better hardware and materials from same plants.",
     "American Woodmark: Waypoint, Timberlake, Shenandoah — platform sharing confirmed, differentiated primarily by door style and finish options.",
     "Fabuwood: Galaxy/Allure/Nexus are distinct quality tiers from same NJ factory. Galaxy = plywood+Blum. Allure = mixed. Nexus = budget."
-  ]
+  ],
+  "manufacturer_domains": {
+    "crystal_keyline_custom": [
+      "crystalcabinets.com"
+    ],
+    "fabuwood_galaxy": [
+      "fabuwood.com"
+    ],
+    "kraftmaid_base": [
+      "kraftmaid.com",
+      "masterbrand.com",
+      "fortunebrands.com"
+    ],
+    "ikea_sektion": [
+      "ikea.com"
+    ],
+    "merillat_classic": [
+      "merillat.com",
+      "masterbrand.com",
+      "fortunebrands.com"
+    ],
+    "hampton_bay": [
+      "homedepot.com",
+      "hamptonbaykitchens.com"
+    ]
+  }
 }
