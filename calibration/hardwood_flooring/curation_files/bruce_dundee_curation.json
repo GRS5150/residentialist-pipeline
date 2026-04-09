@@ -4,23 +4,6 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "consumerreports.org — best flooring from consumer reports tests a9795521582",
-      "url": "https://www.consumerreports.org/home-garden/flooring/best-flooring-from-consumer-reports-tests-a9795521582/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "S",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-002",
       "source_name": "consumerreports.org — m29799",
       "url": "https://www.consumerreports.org/home-garden/flooring/bruce-dundee-plank-cb1210/m29799/",
       "platform": "other",
@@ -37,7 +20,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-002",
       "source_name": "epa.gov — formaldehyde emission standards composite wood products",
       "url": "https://www.epa.gov/formaldehyde/formaldehyde-emission-standards-composite-wood-products",
       "platform": "other",
@@ -55,7 +38,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-003",
       "source_name": "nepis.epa.gov — ZyPURL",
       "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1006DGM.TXT",
       "platform": "other",
@@ -69,6 +52,23 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "consumerreports.org — best flooring from consumer reports tests a9795521582",
+      "url": "https://www.consumerreports.org/home-garden/flooring/best-flooring-from-consumer-reports-tests-a9795521582/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
       "verified": false
     },
     {
@@ -192,260 +192,256 @@
     },
     {
       "id": "SRC-012",
-      "source_name": "modernize.com — best brands",
-      "url": "https://modernize.com/flooring/best-brands",
+      "source_name": "bruce.com — cb4220lg",
+      "url": "https://www.bruce.com/en-us/products/hardwood/dundee/solid-hardwood/cb4220lg.html",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
-        "Q",
         "D"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-013",
-      "source_name": "royalfloorsonline.com — best engineered hardwood flooring brands",
-      "url": "https://royalfloorsonline.com/blogs/news/best-engineered-hardwood-flooring-brands",
+      "source_name": "lowes.com — 1003259170",
+      "url": "https://www.lowes.com/pd/Bruce-Nature-of-Wood-Premium-4-in-Light-Gray-Smooth-Traditional-Oak-Hardwood-Flooring-18-5/1003259170",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-014",
-      "source_name": "rejuvenationfd.com — best engineered wood flooring brands",
-      "url": "https://www.rejuvenationfd.com/blog/best-engineered-wood-flooring-brands",
+      "source_name": "bruce.com — cb4210",
+      "url": "https://www.bruce.com/en-us/products/hardwood/dundee/solid-hardwood/cb4210.html",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-015",
-      "source_name": "woodandbeyond.com — 10 best real wood flooring in 2026",
-      "url": "https://www.woodandbeyond.com/blog/10-best-real-wood-flooring-in-2026/",
+      "source_name": "hardwoodflooringtalk.com — opinions bruce flooring dundee prefinished t9070",
+      "url": "http://www.hardwoodflooringtalk.com/forum/opinions-bruce-flooring-dundee-prefinished-t9070.html",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-016",
-      "source_name": "dgfloors.com — best hardwood floor",
-      "url": "https://dgfloors.com/best-hardwood-floor/",
+      "source_name": "hardwoodflooringtalk.com — bruce somerset t12864",
+      "url": "http://www.hardwoodflooringtalk.com/forum/bruce-somerset-t12864.html",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-017",
-      "source_name": "hardwoodfloorsllc.com — top hardwood flooring brands and why we recommend them",
-      "url": "https://www.hardwoodfloorsllc.com/blog/top-hardwood-flooring-brands-and-why-we-recommend-them/",
+      "source_name": "duro-last.com — Duro Shield FAQ",
+      "url": "https://duro-last.com/media/marketing/literature/Duro-Shield-FAQ.pdf",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
-        "Q"
+        "D"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-018",
-      "source_name": "carpetexchange.com — best luxury vinyl flooring brands 2026",
-      "url": "https://carpetexchange.com/flooring-school/best-luxury-vinyl-flooring-brands-2026",
+      "source_name": "woodwudy.com — bruce dundee white oak 5 low gloss solid hardwood",
+      "url": "https://woodwudy.com/products/bruce-dundee-white-oak-5-low-gloss-solid-hardwood",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-019",
-      "source_name": "floorzi.com — best hardwood flooring 2026",
-      "url": "https://www.floorzi.com/best-hardwood-flooring-2026",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Bruce-American-Vintage-Falcon-Red-Oak-3-4-in-T-x-5-in-W-Wire-Brushed-Solid-Hardwood-Flooring-23-5-sq-ft-ctn-SK5HD201W/326777805/2",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-020",
-      "source_name": "todayshomeowner.com — best hardwood floors",
-      "url": "https://todayshomeowner.com/flooring/guides/best-hardwood-floors/",
+      "source_name": "countyfloors.com — grade dom whiteoakplain",
+      "url": "http://www.countyfloors.com/grade_dom_whiteoakplain.html",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-021",
-      "source_name": "garrisoncollection.com — how hardwood floors are made",
-      "url": "https://www.garrisoncollection.com/blog/how-hardwood-floors-are-made",
+      "source_name": "houzz.com — bruce hardwood flooring",
+      "url": "https://www.houzz.com/discussions/2688395/bruce-hardwood-flooring",
       "platform": "other",
-      "column": "review",
+      "column": "forum",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-022",
-      "source_name": "bruce.com — how wood flooring is made from forest to lumber",
-      "url": "https://www.bruce.com/en-us/resources/how-wood-flooring-is-made-from-forest-to-lumber.html",
+      "source_name": "riversedgehomecenter.com — cb3215lg",
+      "url": "https://www.riversedgehomecenter.com/d/bruce-dundee-red-oak-solid-marsh-view-325-hardwood/cb3215lg",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-023",
-      "source_name": "agedwoods.com — hardwood flooring a brief history",
-      "url": "https://www.agedwoods.com/aged-woods-blog/hardwood-flooring-a-brief-history/",
+      "source_name": "ahfproducts.com",
+      "url": "https://www.ahfproducts.com/en-us/press/4464.html",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-024",
-      "source_name": "builddirect.com — how is hardwood flooring made",
-      "url": "https://www.builddirect.com/blogs/expert-advice-on-flooring/how-is-hardwood-flooring-made",
+      "source_name": "pdf.lowes.com — 042369812757 warranty",
+      "url": "https://pdf.lowes.com/warrantyguides/042369812757_warranty.pdf",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
-        "Q"
+        "D"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
+      "captured_from": "deep_dive",
       "verified": false
     },
     {
       "id": "SRC-025",
-      "source_name": "flooringamerica.com — how is hardwood flooring made",
-      "url": "https://www.flooringamerica.com/blog/how-is-hardwood-flooring-made",
+      "source_name": "lowes.com — 5002903447",
+      "url": "https://www.lowes.com/pd/Bruce-Bruce-America-s-Best-Choice-6-5-in-Wide-x-3-8-in-Thick-White-Oak-Golden-Natural-Wirebrushed-Engineered-Hardwood-Flooring-32-11-Sq-Ft/5002903447",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
+      "captured_from": "deep_dive",
       "verified": false
     }
   ],
   "bottom_line": "Bruce Dundee White Oak (Solid, 3/4\") — Tier 4 product. Target score: 52/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-001",
       "SRC-002",
       "SRC-003",
-      "SRC-004",
       "SRC-005",
       "SRC-006",
       "SRC-007",
       "SRC-008",
       "SRC-009",
       "SRC-010",
-      "SRC-011"
-    ],
-    "sources_report_only": [
-      "SRC-001",
+      "SRC-011",
       "SRC-012",
       "SRC-013",
       "SRC-014",
@@ -461,6 +457,9 @@
       "SRC-024",
       "SRC-025"
     ],
+    "sources_report_only": [
+      "SRC-004"
+    ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 4,
@@ -469,8 +468,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 81,
-      "after_filter": 60,
+      "raw": 90,
+      "after_filter": 69,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -479,7 +478,7 @@
         "alwaysExclude": 0,
         "bareRoot": 0,
         "domainCap": 20,
-        "total": 81
+        "total": 90
       }
     }
   },

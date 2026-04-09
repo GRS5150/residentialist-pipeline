@@ -4,23 +4,6 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "www2.bellevuecollege.edu — firingtemperatures",
-      "url": "https://www2.bellevuecollege.edu/artshum/materials/art/husby/firingtemperatures.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-002",
       "source_name": "flooringliquidators.net — msi aria bianco msrbnc",
       "url": "https://flooringliquidators.net/ceramic-tile/catalog/msi-aria-bianco-msrbnc.html",
       "platform": "other",
@@ -37,7 +20,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-002",
       "source_name": "mychemicalfreehouse.net — lead free ceramic porcelain tile brands",
       "url": "https://www.mychemicalfreehouse.net/2023/08/lead-free-ceramic-porcelain-tile-brands.html",
       "platform": "other",
@@ -54,7 +37,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-003",
       "source_name": "plumbingmarket.ca — msi surfaces aria bianco 12x24 naribia1224p",
       "url": "https://www.plumbingmarket.ca/products/msi-surfaces-aria-bianco-12x24-naribia1224p",
       "platform": "other",
@@ -71,7 +54,347 @@
       "verified": false
     },
     {
+      "id": "SRC-004",
+      "source_name": "www2.bellevuecollege.edu — firingtemperatures",
+      "url": "https://www2.bellevuecollege.edu/artshum/materials/art/husby/firingtemperatures.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
       "id": "SRC-005",
+      "source_name": "arkoflooring.com — msi aria bianco porcelain floor tile 24x24",
+      "url": "https://www.arkoflooring.com/products/msi-aria-bianco-porcelain-floor-tile-24x24",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "homedepot.com — 300678083",
+      "url": "https://www.homedepot.com/p/MSI-Alvara-Bianco-12-in-x-24-in-Polished-Porcelain-Floor-and-Wall-Tile-16-sq-ft-case-NARIBIA1224P/300678083",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "randysflooring.com — msi aria bianco polished naribia1224p",
+      "url": "https://randysflooring.com/flooring/tile/products/msi-aria-bianco-polished-naribia1224p/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "houzz.com — has anyone used msi praia grey tiles",
+      "url": "https://www.houzz.com/discussions/6320403/has-anyone-used-msi-praia-grey-tiles",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "bruckeflooring.com — NARIBIA1224P",
+      "url": "https://www.bruckeflooring.com/d/msi-aria-bianco-polished-tile/NARIBIA1224P",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "villohome.com — aria bianco polished porcelain floor and wall tiles msi coll",
+      "url": "https://villohome.com/products/aria-bianco-polished-porcelain-floor-and-wall-tiles-msi-collection",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "tilersforums.com — john bridge forum shut down",
+      "url": "https://www.tilersforums.com/threads/john-bridge-forum-shut-down.110772/",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "corporate.homedepot.com — msi part time business nationwide distributor",
+      "url": "https://corporate.homedepot.com/news/supplier/msi-part-time-business-nationwide-distributor",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "digitalfire.com",
+      "url": "https://digitalfire.com/url/3257",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "digitalfire.com — crazing+in+stoneware+glazes:+treating+the+causes",
+      "url": "https://digitalfire.com/article/crazing+in+stoneware+glazes:+treating+the+causes",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "msiplc.com — corporate governance",
+      "url": "https://msiplc.com/corporate-governance/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "londonstockexchange.com — 17412307",
+      "url": "https://www.londonstockexchange.com/news-article/MSI/half-year-report/17412307",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "kellerdesignfloors.com — dal tile vs msi countertops discover solid surface brands",
+      "url": "https://www.kellerdesignfloors.com/blog/articles/dal-tile-vs-msi-countertops-discover-solid-surface-brands",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "ddstile.com — stain resistance en 122 iso 10545 14",
+      "url": "https://ddstile.com/tile-education/glossary/stain-resistance-en-122-iso-10545-14",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/MSI-Aria-Bianco-24-in-x-48-in-Polished-Porcelain-Floor-and-Wall-Tile-16-sq-ft-Case-NARIBIA2448P/304737227/1",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "capitolcarpetandtile.com — unbiased look msi tile review for durability and design",
+      "url": "https://www.capitolcarpetandtile.com/our-blog/articles/unbiased-look-msi-tile-review-for-durability-and-design",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "apollotile.com — tile sizes the complete guide",
+      "url": "https://apollotile.com/blogs/our-blogs/tile-sizes-the-complete-guide",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "msi-international.com — quick supplier qualification guide urgent process tips",
+      "url": "https://msi-international.com/quick-supplier-qualification-guide-urgent-process-tips/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "mdiluxurycabinetry.com — big box cabinets vs specialty cabinetry",
+      "url": "https://mdiluxurycabinetry.com/big-box-cabinets-vs-specialty-cabinetry",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
       "source_name": "lifestoryresearch.com — 2023 best flooring tile review rankings",
       "url": "https://www.lifestoryresearch.com/2023-best-flooring-tile-review-rankings",
       "platform": "other",
@@ -88,7 +411,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-025",
       "source_name": "exclusivetile-stone.com — top tile brands for stunning floors and walls",
       "url": "https://exclusivetile-stone.com/top-tile-brands-for-stunning-floors-and-walls/",
       "platform": "other",
@@ -103,340 +426,14 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-007",
-      "source_name": "georgedecoration.com — top 10 tile manufacturers in the usa",
-      "url": "https://georgedecoration.com/top-10-tile-manufacturers-in-the-usa/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-008",
-      "source_name": "lifestoryresearch.com — 2025 best tile flooring ranking review",
-      "url": "https://www.lifestoryresearch.com/2025-best-tile-flooring-ranking-review",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-009",
-      "source_name": "tileswale.com — tiles manufacturers in usa",
-      "url": "https://tileswale.com/blog-detail/tiles-manufacturers-in-usa",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-010",
-      "source_name": "buildmyplace.com — who makes the best tile in 2024",
-      "url": "https://buildmyplace.com/blogs/stories/who-makes-the-best-tile-in-2024",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-011",
-      "source_name": "tilexdesign.com — american made tile best brands and styles",
-      "url": "https://tilexdesign.com/blog/american-made-tile-best-brands-and-styles/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-012",
-      "source_name": "vitagres.com — which tile brand is the best a comprehensive guide",
-      "url": "https://vitagres.com/news/which-tile-brand-is-the-best-a-comprehensive-guide/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-013",
-      "source_name": "blockrenovation.com — best tile brands for porcelain vinyl more",
-      "url": "https://www.blockrenovation.com/guides/best-tile-brands-for-porcelain-vinyl-more",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "medtile.com — tile brands that elevate every space",
-      "url": "https://medtile.com/tile-brands-that-elevate-every-space/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "kilnfrog.com — kiln temperatures",
-      "url": "https://kilnfrog.com/blogs/frogblog/kiln-temperatures",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "ceramindtools.com — pottery firing temperatures explained a complete guide to co",
-      "url": "https://ceramindtools.com/blogs/learn-pottery/pottery-firing-temperatures-explained-a-complete-guide-to-cones-heat-and-clay-maturation",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "scribd.com — Firing Chart with Cone Equivalents",
-      "url": "https://www.scribd.com/document/464022454/Firing-Chart-with-Cone-Equivalents",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "digitalfire.com — firing+schedule",
-      "url": "https://digitalfire.com/glossary/firing+schedule",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "skutt.com — what is the orton cone chart",
-      "url": "https://skutt.com/what-is-the-orton-cone-chart/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "intoceramics.com — industrial ceramic firing curve temperature chart",
-      "url": "https://www.intoceramics.com/blog/industrial-ceramic-firing-curve-temperature-chart/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "ceramicmaterialsworkshop.com — ceramic cone chart kiln firing rates",
-      "url": "https://ceramicmaterialsworkshop.com/ceramic-cone-chart-kiln-firing-rates/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "ceramicartsnetwork.org — kilnfiringchart",
-      "url": "https://ceramicartsnetwork.org/docs/default-source/uploadedfiles/wp-content/uploads/2013/02/kilnfiringchart.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "blog.ansi.org — astm ceramic tile testing standards ansi a137 1",
-      "url": "https://blog.ansi.org/ansi/astm-ceramic-tile-testing-standards-ansi-a137-1/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "astm.org — gloss and grout standards ceramic tile jf24",
-      "url": "https://www.astm.org/news/gloss-and-grout-standards-ceramic-tile-jf24",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "expertinstitute.com — floor safety expert outlines testing standards for slip resi",
-      "url": "https://www.expertinstitute.com/resources/insights/floor-safety-expert-outlines-testing-standards-for-slip-resistance-of-interior-tile/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
     }
   ],
   "bottom_line": "MSI Aria Bianco Porcelain (24x24) — Tier 3 product. Target score: 67/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-001",
       "SRC-002",
       "SRC-003",
-      "SRC-004"
-    ],
-    "sources_report_only": [
-      "SRC-001",
       "SRC-005",
       "SRC-006",
       "SRC-007",
@@ -455,7 +452,10 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
+      "SRC-023"
+    ],
+    "sources_report_only": [
+      "SRC-004",
       "SRC-024",
       "SRC-025"
     ],
@@ -467,8 +467,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 71,
-      "after_filter": 51,
+      "raw": 83,
+      "after_filter": 62,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -476,8 +476,8 @@
         "manufacturer": 18,
         "alwaysExclude": 1,
         "bareRoot": 0,
-        "domainCap": 1,
-        "total": 71
+        "domainCap": 2,
+        "total": 83
       }
     }
   },

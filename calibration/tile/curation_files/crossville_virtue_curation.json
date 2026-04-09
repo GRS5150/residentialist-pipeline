@@ -4,23 +4,6 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "www2.bellevuecollege.edu — firingtemperatures",
-      "url": "https://www2.bellevuecollege.edu/artshum/materials/art/husby/firingtemperatures.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-002",
       "source_name": "stonepeakceramics.biz — news detail",
       "url": "http://www.stonepeakceramics.biz/news-detail.php?id=172",
       "platform": "other",
@@ -37,7 +20,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-002",
       "source_name": "floordaily.net — ceramic tile report ceramic suppliers are exploring a variet",
       "url": "https://www.floordaily.net/floorfocus/ceramic-tile-report-ceramic-suppliers-are-exploring-a-variety-of-growth-opportunities-apri",
       "platform": "other",
@@ -54,7 +37,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-003",
       "source_name": "ceramictilefoundation.org — lippage hazards to avoid",
       "url": "https://www.ceramictilefoundation.org/blog/lippage-hazards-to-avoid",
       "platform": "other",
@@ -71,7 +54,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-004",
       "source_name": "dcaa.mil — FY 2017 Active Contractor Listing Final",
       "url": "https://www.dcaa.mil/Portals/88/FY_2017_Active_Contractor_Listing_Final.csv?ver=2019-10-15-123530-087",
       "platform": "other",
@@ -88,7 +71,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-005",
       "source_name": "blog.ansi.org — ansi a137 1 2022 standard ceramic tile",
       "url": "https://blog.ansi.org/ansi/ansi-a137-1-2022-standard-ceramic-tile/",
       "platform": "other",
@@ -105,7 +88,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-006",
       "source_name": "sheboyganflooring.net — porcelain vs ceramic tile an in depth look at performance an",
       "url": "https://www.sheboyganflooring.net/blog/articles/porcelain-vs-ceramic-tile-an-in-depth-look-at-performance-and-aesthetic-differences",
       "platform": "other",
@@ -122,7 +105,211 @@
       "verified": false
     },
     {
+      "id": "SRC-007",
+      "source_name": "www2.bellevuecollege.edu — firingtemperatures",
+      "url": "https://www2.bellevuecollege.edu/artshum/materials/art/husby/firingtemperatures.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
       "id": "SRC-008",
+      "source_name": "michael-conners-4vwd.squarespace.com — LIT VIRTUE 17 R",
+      "url": "https://michael-conners-4vwd.squarespace.com/s/LIT-VIRTUE-17_R.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "crossville.com — crossville shares the real scoop on through body porcelain t",
+      "url": "https://www.crossville.com/tile-tech/crossville-shares-the-real-scoop-on-through-body-porcelain-tile/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "crossville.com — slip resistance of porcelain tile floors and dcof explained",
+      "url": "https://www.crossville.com/crossville-news/slip-resistance-of-porcelain-tile-floors-and-dcof-explained/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "crossvillestudios.com — argent 6x6 pool tiles fact sheet",
+      "url": "https://www.crossvillestudios.com/getmedia/7f47726b-3e4a-4bff-b0fd-fdb86be2e6ec/argent_6x6_pool_tiles_fact_sheet.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "ijaroceramic.com — top tiles manufacturers in the usa",
+      "url": "https://www.ijaroceramic.com/blogs/top-tiles-manufacturers-in-the-usa",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "crossvillestudios.com — edimax epd ceramic tile rid",
+      "url": "https://www.crossvillestudios.com/getmedia/4ad04b6f-83e1-4a6f-acaf-5657da2fb28f/edimax_epd_ceramic_tile_rid.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "terrylove.com — index",
+      "url": "https://terrylove.com/forums/index.php?threads%2Fjohn-bridge-tile-forum.2374%2F",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "tpm.com — greenville",
+      "url": "https://www.tpm.com/greenville/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "kerajet.com",
+      "url": "https://kerajet.com/en/home/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "houzz.com — big surprise problem w crossvile empire tile",
+      "url": "https://www.houzz.com/discussions/2265880/big-surprise-problem-w-crossvile-empire-tile",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "emser.com — vice virtue f19virtgr1818p9",
+      "url": "https://www.emser.com/product/vice-virtue-f19virtgr1818p9",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
       "source_name": "lifestoryresearch.com — 2023 best flooring tile review rankings",
       "url": "https://www.lifestoryresearch.com/2023-best-flooring-tile-review-rankings",
       "platform": "other",
@@ -139,7 +326,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-020",
       "source_name": "exclusivetile-stone.com — top tile brands for stunning floors and walls",
       "url": "https://exclusivetile-stone.com/top-tile-brands-for-stunning-floors-and-walls/",
       "platform": "other",
@@ -156,7 +343,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-021",
       "source_name": "georgedecoration.com — top 10 tile manufacturers in the usa",
       "url": "https://georgedecoration.com/top-10-tile-manufacturers-in-the-usa/",
       "platform": "other",
@@ -173,7 +360,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-022",
       "source_name": "lifestoryresearch.com — 2025 best tile flooring ranking review",
       "url": "https://www.lifestoryresearch.com/2025-best-tile-flooring-ranking-review",
       "platform": "other",
@@ -190,7 +377,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-023",
       "source_name": "tileswale.com — tiles manufacturers in usa",
       "url": "https://tileswale.com/blog-detail/tiles-manufacturers-in-usa",
       "platform": "other",
@@ -207,7 +394,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-024",
       "source_name": "buildmyplace.com — who makes the best tile in 2024",
       "url": "https://buildmyplace.com/blogs/stories/who-makes-the-best-tile-in-2024",
       "platform": "other",
@@ -224,7 +411,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-025",
       "source_name": "tilexdesign.com — american made tile best brands and styles",
       "url": "https://tilexdesign.com/blog/american-made-tile-best-brands-and-styles/",
       "platform": "other",
@@ -239,207 +426,17 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "vitagres.com — which tile brand is the best a comprehensive guide",
-      "url": "https://vitagres.com/news/which-tile-brand-is-the-best-a-comprehensive-guide/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "blockrenovation.com — best tile brands for porcelain vinyl more",
-      "url": "https://www.blockrenovation.com/guides/best-tile-brands-for-porcelain-vinyl-more",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "medtile.com — tile brands that elevate every space",
-      "url": "https://medtile.com/tile-brands-that-elevate-every-space/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "kilnfrog.com — kiln temperatures",
-      "url": "https://kilnfrog.com/blogs/frogblog/kiln-temperatures",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "ceramindtools.com — pottery firing temperatures explained a complete guide to co",
-      "url": "https://ceramindtools.com/blogs/learn-pottery/pottery-firing-temperatures-explained-a-complete-guide-to-cones-heat-and-clay-maturation",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "scribd.com — Firing Chart with Cone Equivalents",
-      "url": "https://www.scribd.com/document/464022454/Firing-Chart-with-Cone-Equivalents",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "digitalfire.com — firing+schedule",
-      "url": "https://digitalfire.com/glossary/firing+schedule",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "skutt.com — what is the orton cone chart",
-      "url": "https://skutt.com/what-is-the-orton-cone-chart/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "intoceramics.com — industrial ceramic firing curve temperature chart",
-      "url": "https://www.intoceramics.com/blog/industrial-ceramic-firing-curve-temperature-chart/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "ceramicmaterialsworkshop.com — ceramic cone chart kiln firing rates",
-      "url": "https://ceramicmaterialsworkshop.com/ceramic-cone-chart-kiln-firing-rates/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "ceramicartsnetwork.org — kilnfiringchart",
-      "url": "https://ceramicartsnetwork.org/docs/default-source/uploadedfiles/wp-content/uploads/2013/02/kilnfiringchart.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
     }
   ],
   "bottom_line": "Crossville Virtue (Through-Body Porcelain Floor) — Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
       "SRC-005",
       "SRC-006",
-      "SRC-007"
-    ],
-    "sources_report_only": [
-      "SRC-001",
       "SRC-008",
       "SRC-009",
       "SRC-010",
@@ -450,7 +447,10 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018",
+      "SRC-018"
+    ],
+    "sources_report_only": [
+      "SRC-007",
       "SRC-019",
       "SRC-020",
       "SRC-021",
@@ -467,8 +467,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 68,
-      "after_filter": 46,
+      "raw": 80,
+      "after_filter": 58,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -477,7 +477,7 @@
         "alwaysExclude": 0,
         "bareRoot": 4,
         "domainCap": 17,
-        "total": 68
+        "total": 80
       }
     }
   },

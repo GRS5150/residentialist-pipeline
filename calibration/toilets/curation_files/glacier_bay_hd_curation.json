@@ -4,6 +4,23 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — m194627",
+      "url": "https://www.consumerreports.org/home-garden/toilets/glacier-bay-dual-flush-n2316-home-depot/m194627/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
       "source_name": "consumerreports.org — best toilets of the year a5565220264",
       "url": "https://www.consumerreports.org/home-garden/toilets/best-toilets-of-the-year-a5565220264/",
       "platform": "other",
@@ -20,7 +37,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-003",
       "source_name": "epa.gov — residential toilets",
       "url": "https://www.epa.gov/watersense/residential-toilets",
       "platform": "other",
@@ -37,7 +54,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-004",
       "source_name": "consumerreports.org — what happens when consumer reports tests toilets a8560423467",
       "url": "https://www.consumerreports.org/home-garden/toilets/what-happens-when-consumer-reports-tests-toilets-a8560423467/",
       "platform": "other",
@@ -54,7 +71,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "epa.gov — ws background toilets spec",
       "url": "https://www.epa.gov/sites/default/files/2017-02/documents/ws-background-toilets-spec.pdf",
       "platform": "other",
@@ -71,7 +88,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "energy.gov — water closets%20 urinals tp nopr",
       "url": "https://www.energy.gov/sites/default/files/2021-05/water-closets%20-urinals-tp-nopr.pdf",
       "platform": "other",
@@ -88,7 +105,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "pubmed.ncbi.nlm.nih.gov — 27179392",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27179392/",
       "platform": "other",
@@ -102,23 +119,6 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-007",
-      "source_name": "consumerreports.org — m194627",
-      "url": "https://www.consumerreports.org/home-garden/toilets/glacier-bay-dual-flush-n2316-home-depot/m194627/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
       "verified": false
     },
     {
@@ -330,120 +330,125 @@
     },
     {
       "id": "SRC-020",
-      "source_name": "fluidmaster.com — toilet fill valves",
-      "url": "https://fluidmaster.com/toilet/part-type/toilet-fill-valves/",
+      "source_name": "sveagle.com — glacier bay toilets a master plumbers review",
+      "url": "https://sveagle.com/glacier-bay-toilets-a-master-plumbers-review/",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D",
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-021",
-      "source_name": "geberitnorthamerica.com — systems for wall hung toilets",
-      "url": "https://www.geberitnorthamerica.com/sanitary-piping-systems/installation-flushing-systems/geberit-duofix/systems-for-wall-hung-toilets/",
+      "source_name": "inspectapedia.com — Toilet Manufacturers Sources",
+      "url": "https://inspectapedia.com/plumbing/Toilet_Manufacturers_Sources.php",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-022",
-      "source_name": "thesinkboutique.com — toto duofit in wall toilet tank dual max dual flush 1 28 0 9",
-      "url": "https://thesinkboutique.com/products/toto-duofit-in-wall-toilet-tank-dual-max-dual-flush-1-28-0-9-gpf-system-copper-supply-steelplastic-wt172m",
+      "source_name": "scribd.com — Glacier Bay Toilet",
+      "url": "https://www.scribd.com/document/634604006/Glacier-Bay-Toilet",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-023",
-      "source_name": "map-testing.com — consumer household toilets",
-      "url": "https://map-testing.com/consumer-household-toilets/",
+      "source_name": "plbg.com",
+      "url": "https://www.plbg.com/forum/read.php?1%2C244571",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "fluidmaster.com — how often to replace flapper",
-      "url": "https://fluidmaster.com/toilet-problems/how-often-to-replace-flapper/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "bobistheoilguy.com — toilet flush valves korky or fluidmaster",
-      "url": "https://bobistheoilguy.com/forums/threads/toilet-flush-valves-korky-or-fluidmaster.362260/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_2",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "terrylove.com — index",
+      "url": "https://terrylove.com/forums/index.php",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "glacier-bay-products.pissedconsumer.com — review",
+      "url": "https://glacier-bay-products.pissedconsumer.com/review.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
       "verified": false
     }
   ],
   "bottom_line": "Glacier Bay Elongated HD (Home Depot) — Tier 4 product. Target score: 45/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-007"
+      "SRC-001",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
-      "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
       "SRC-005",
       "SRC-006",
+      "SRC-007",
       "SRC-008",
       "SRC-009",
       "SRC-010",
@@ -455,13 +460,7 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-019"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
@@ -471,17 +470,17 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 111,
-      "after_filter": 81,
+      "raw": 118,
+      "after_filter": 82,
       "capped": 25,
       "dropped": {
         "dead": 0,
         "nonContent": 1,
-        "manufacturer": 7,
+        "manufacturer": 11,
         "alwaysExclude": 0,
         "bareRoot": 2,
-        "domainCap": 20,
-        "total": 111
+        "domainCap": 22,
+        "total": 118
       }
     }
   },

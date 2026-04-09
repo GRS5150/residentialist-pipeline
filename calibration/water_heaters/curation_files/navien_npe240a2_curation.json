@@ -4,36 +4,36 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "energystar.gov — ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20",
-      "url": "https://www.energystar.gov/sites/default/files/2024-07/ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20Heat%20Pump%20Water%20Heater%20Systems.pdf",
+      "source_name": "energystar.gov — 2408693",
+      "url": "https://www.energystar.gov/productfinder/product/certified-gas-water-heaters/details/2408693",
       "platform": "other",
       "column": "expert",
       "snippet": "",
       "pool": "S",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "energystar.gov — what uniform energy factor and why does it matter",
-      "url": "https://www.energystar.gov/products/ask-the-experts/what-uniform-energy-factor-and-why-does-it-matter",
+      "source_name": "energystar.gov",
+      "url": "https://www.energystar.gov/productfinder/product/certified-gas-water-heaters/details/2408693/export/pdf",
       "platform": "other",
       "column": "expert",
       "snippet": "",
       "pool": "S",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
@@ -278,6 +278,91 @@
     },
     {
       "id": "SRC-017",
+      "source_name": "callmother.com — navien npe 240a2 tankless review",
+      "url": "https://www.callmother.com/blogs/navien-npe-240a2-tankless-review",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "ferguson.com — 9305457",
+      "url": "https://www.ferguson.com/product/navien-npe-a2-series-199-mbh-indoor%2Foutdoor-condensing-natural-gas-tankless-water-heater-nnpe240a2ng/9305457.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "repipesolutionsinc.com — navien water heater review",
+      "url": "https://www.repipesolutionsinc.com/navien-water-heater-review/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "waterheatingexperts.com — navien npe 240a2 tankless water heater",
+      "url": "https://waterheatingexperts.com/navien-npe-240a2-tankless-water-heater/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "terrylove.com — index",
+      "url": "https://terrylove.com/forums/index.php?threads%2Fnavien-npe-210a2-vs-npe240a2.106647%2F",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
       "source_name": "westernbuildersupply.com — comparing performance performance plus and performance plati",
       "url": "https://www.westernbuildersupply.com/post/comparing-performance-performance-plus-and-performance-platinum-natural-gas-water-heaters",
       "platform": "other",
@@ -295,7 +380,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-023",
       "source_name": "joinarbor.com — best heat pump water heater",
       "url": "https://www.joinarbor.com/resources/best-heat-pump-water-heater",
       "platform": "other",
@@ -312,7 +397,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-024",
       "source_name": "nidoplumbing.com — rheem professional vs performance which water heater line fi",
       "url": "https://www.nidoplumbing.com/post/rheem-professional-vs-performance-which-water-heater-line-fits-your-home",
       "platform": "other",
@@ -329,7 +414,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-025",
       "source_name": "homedepot.com",
       "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-9-5-GPM-Smart-Non-Condensing-Outdoor-Natural-Gas-Tankless-Water-Heater-ECO200XELN-3/325309137/5",
       "platform": "other",
@@ -344,100 +429,20 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "goodhousekeeping.com — best water heater brands",
-      "url": "https://www.goodhousekeeping.com/home-products/g62909149/best-water-heater-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "homedepot.com",
-      "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-50-Gal-Tall-4500-Watt-Double-Element-Electric-Water-Heater-w-LED-Diagnostic-System-and-9-Year-Warranty-XE50T09EL45U1/326434047/2",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "rheem.com — understanding energy efficiency in water heaters",
-      "url": "https://www.rheem.com/understanding-energy-efficiency-in-water-heaters/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "americanplumbingwa.com — best water heater brands",
-      "url": "https://www.americanplumbingwa.com/best-water-heater-brands",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "D",
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "littekenplumbing.com — best water heaters on market",
-      "url": "https://littekenplumbing.com/2025/05/15/best-water-heaters-on-market/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
     }
   ],
   "bottom_line": "Navien NPE-240A2 Condensing Tankless — Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
-    "sources_scored": [],
-    "sources_report_only": [
+    "sources_scored": [
       "SRC-001",
       "SRC-002",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021"
+    ],
+    "sources_report_only": [
       "SRC-003",
       "SRC-004",
       "SRC-005",
@@ -452,11 +457,6 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
       "SRC-022",
       "SRC-023",
       "SRC-024",
@@ -470,8 +470,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 82,
-      "after_filter": 63,
+      "raw": 88,
+      "after_filter": 67,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -479,8 +479,8 @@
         "manufacturer": 7,
         "alwaysExclude": 0,
         "bareRoot": 1,
-        "domainCap": 10,
-        "total": 82
+        "domainCap": 12,
+        "total": 88
       }
     }
   },

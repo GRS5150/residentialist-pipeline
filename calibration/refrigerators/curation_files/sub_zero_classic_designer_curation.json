@@ -160,6 +160,23 @@
     },
     {
       "id": "SRC-010",
+      "source_name": "blog.yaleappliance.com — is a sub zero refrigerator worth it prices",
+      "url": "https://blog.yaleappliance.com/is-a-sub-zero-refrigerator-worth-it-prices",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
       "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
       "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
       "platform": "other",
@@ -177,7 +194,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-012",
       "source_name": "ehs.yale.edu — decibel level chart",
       "url": "https://ehs.yale.edu/sites/default/files/files/decibel-level-chart.pdf",
       "platform": "other",
@@ -194,7 +211,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-013",
       "source_name": "ecfr.gov — subpart B",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B",
       "platform": "other",
@@ -211,7 +228,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-014",
       "source_name": "yaleappliance.com — built in refrigerators",
       "url": "https://www.yaleappliance.com/catalog/built-in-refrigerators",
       "platform": "other",
@@ -228,7 +245,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-015",
       "source_name": "astm.org — f2143 01",
       "url": "https://www.astm.org/f2143-01.html",
       "platform": "other",
@@ -245,7 +262,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-016",
       "source_name": "albertlee.biz — subzero refrigerator lifespan",
       "url": "https://www.albertlee.biz/blog/subzero-refrigerator-lifespan",
       "platform": "other",
@@ -262,7 +279,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-017",
       "source_name": "yaleappliance.com — service",
       "url": "https://www.yaleappliance.com/service",
       "platform": "other",
@@ -279,7 +296,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-018",
       "source_name": "mntap.umn.edu — Refrigeration Best Practices Document",
       "url": "http://www.mntap.umn.edu/wp-content/uploads/simple-file-list/Resources/Tools-and-Calculators/Refrigeration-Best-Practices-Document.pdf",
       "platform": "other",
@@ -296,7 +313,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-019",
       "source_name": "federalregister.gov — certain refrigerator water filtration devices and components",
       "url": "https://www.federalregister.gov/documents/2023/02/08/2023-02635/certain-refrigerator-water-filtration-devices-and-components-thereof-notice-of-commission-decision",
       "platform": "other",
@@ -313,7 +330,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-020",
       "source_name": "consumer.ftc.gov — warranties",
       "url": "https://consumer.ftc.gov/articles/warranties",
       "platform": "other",
@@ -330,7 +347,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-021",
       "source_name": "cpsc.gov — True Manufacturing Recalls Commercial Refrigerators with Sec",
       "url": "https://www.cpsc.gov/Recalls/2024/True-Manufacturing-Recalls-Commercial-Refrigerators-with-Secop-Compressors-Due-to-Fire-Hazard",
       "platform": "other",
@@ -347,7 +364,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-022",
       "source_name": "cit.uscourts.gov — Scott%20McBride%20 %20Scoop%20on%20Scopes",
       "url": "https://www.cit.uscourts.gov/sites/cit/files/Scott%20McBride%20-%20Scoop%20on%20Scopes.pdf",
       "platform": "other",
@@ -364,7 +381,7 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-023",
       "source_name": "govinfo.gov",
       "url": "https://www.govinfo.gov/link/cfr/10/431?link-type=pdf&sectionnum=63&year=mostrecent",
       "platform": "other",
@@ -381,7 +398,7 @@
       "verified": false
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-024",
       "source_name": "federalregister.gov — energy conservation program energy conservation standards fo",
       "url": "https://www.federalregister.gov/documents/2025/01/21/2024-31214/energy-conservation-program-energy-conservation-standards-for-commercial-refrigerators-freezers-and",
       "platform": "other",
@@ -398,26 +415,9 @@
       "verified": false
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-025",
       "source_name": "sjvc.edu — a guide to optimizing the refrigeration cycle secrets to imp",
       "url": "https://www.sjvc.edu/blog/a-guide-to-optimizing-the-refrigeration-cycle-secrets-to-improving-refrigeration-energy-efficiency/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "illumin.usc.edu — 2696 2",
-      "url": "https://illumin.usc.edu/2696-2/",
       "platform": "other",
       "column": "expert",
       "snippet": "",
@@ -434,7 +434,9 @@
   ],
   "bottom_line": "Sub-Zero Classic/Designer/Pro — Tier 1 product. Target score: 95/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-010"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -445,7 +447,6 @@
       "SRC-007",
       "SRC-008",
       "SRC-009",
-      "SRC-010",
       "SRC-011",
       "SRC-012",
       "SRC-013",
@@ -470,8 +471,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 115,
-      "after_filter": 95,
+      "raw": 133,
+      "after_filter": 110,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -479,8 +480,8 @@
         "manufacturer": 5,
         "alwaysExclude": 0,
         "bareRoot": 3,
-        "domainCap": 11,
-        "total": 115
+        "domainCap": 14,
+        "total": 133
       }
     }
   },

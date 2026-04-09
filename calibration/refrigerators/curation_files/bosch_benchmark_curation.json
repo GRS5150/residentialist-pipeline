@@ -4,6 +4,23 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — m405010",
+      "url": "https://www.consumerreports.org/appliances/refrigerators/bosch-benchmark-b36it905np/m405010/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
       "source_name": "consumerreports.org — best built in refrigerators of the year a2639616687",
       "url": "https://www.consumerreports.org/appliances/refrigerators/best-built-in-refrigerators-of-the-year-a2639616687/",
       "platform": "other",
@@ -20,7 +37,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-003",
       "source_name": "www1.eere.energy.gov — rf ahamvolume faq final 2013 3 10",
       "url": "https://www1.eere.energy.gov/buildings/appliance_standards/pdfs/rf_ahamvolume_faq_final_2013-3-10.pdf",
       "platform": "other",
@@ -40,7 +57,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-004",
       "source_name": "energystar.gov — ENERGY%20STAR%20Version%202.0%20Laboratory%20Grade%20Refrige",
       "url": "https://www.energystar.gov/sites/default/files/2024-10/ENERGY%20STAR%20Version%202.0%20Laboratory%20Grade%20Refrigerators%20and%20Freezers%20Final%20Specification_0.pdf",
       "platform": "other",
@@ -57,7 +74,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "energy.gov — refrigerator freezers ecs rfi",
       "url": "https://www.energy.gov/eere/buildings/articles/refrigerator-freezers-ecs-rfi",
       "platform": "other",
@@ -74,7 +91,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "consumerreports.org — how we test",
       "url": "https://www.consumerreports.org/appliances/refrigerators/how-we-test/",
       "platform": "other",
@@ -91,7 +108,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "energy.gov — refrigerator freezer use and temperature tips",
       "url": "https://www.energy.gov/energysaver/refrigerator-freezer-use-and-temperature-tips",
       "platform": "other",
@@ -108,7 +125,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "energystar.gov — Lab%20RF%20Final%20Draft%20Test%20Method",
       "url": "https://www.energystar.gov/sites/default/files/specs/Lab%20RF%20Final%20Draft%20Test%20Method.pdf",
       "platform": "other",
@@ -125,7 +142,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
       "source_name": "consumerreports.org — most and least reliable refrigerator brands a8271265835",
       "url": "https://www.consumerreports.org/appliances/refrigerators/most-and-least-reliable-refrigerator-brands-a8271265835/",
       "platform": "other",
@@ -142,7 +159,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-010",
       "source_name": "consumerreports.org — lg settles class action over refrigerator compressors a80369",
       "url": "https://www.consumerreports.org/money/lawsuits-settlements/lg-settles-class-action-over-refrigerator-compressors-a8036944066/",
       "platform": "other",
@@ -151,23 +168,6 @@
       "pool": "S",
       "classification": "independent",
       "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-010",
-      "source_name": "consumerreports.org — m405010",
-      "url": "https://www.consumerreports.org/appliances/refrigerators/bosch-benchmark-b36it905np/m405010/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
@@ -435,10 +435,9 @@
   "bottom_line": "Bosch Benchmark Built-In — Tier 2 product. Target score: 79/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-010"
+      "SRC-001"
     ],
     "sources_report_only": [
-      "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
@@ -447,6 +446,7 @@
       "SRC-007",
       "SRC-008",
       "SRC-009",
+      "SRC-010",
       "SRC-011",
       "SRC-012",
       "SRC-013",
@@ -471,8 +471,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 115,
-      "after_filter": 98,
+      "raw": 136,
+      "after_filter": 114,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -480,8 +480,8 @@
         "manufacturer": 3,
         "alwaysExclude": 0,
         "bareRoot": 3,
-        "domainCap": 10,
-        "total": 115
+        "domainCap": 15,
+        "total": 136
       }
     }
   },

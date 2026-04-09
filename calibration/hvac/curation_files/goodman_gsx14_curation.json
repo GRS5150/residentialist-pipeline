@@ -466,8 +466,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 65,
-      "after_filter": 57,
+      "raw": 67,
+      "after_filter": 58,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -475,8 +475,8 @@
         "manufacturer": 0,
         "alwaysExclude": 0,
         "bareRoot": 0,
-        "domainCap": 6,
-        "total": 65
+        "domainCap": 7,
+        "total": 67
       }
     }
   },

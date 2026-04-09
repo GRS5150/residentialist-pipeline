@@ -4,6 +4,23 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — m415538",
+      "url": "https://www.consumerreports.org/appliances/water-heaters/rheem-proterra-xe50t10hs45u1/m415538/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
       "source_name": "energystar.gov — ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20",
       "url": "https://www.energystar.gov/sites/default/files/2024-07/ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20Heat%20Pump%20Water%20Heater%20Systems.pdf",
       "platform": "other",
@@ -20,7 +37,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-003",
       "source_name": "energystar.gov — what uniform energy factor and why does it matter",
       "url": "https://www.energystar.gov/products/ask-the-experts/what-uniform-energy-factor-and-why-does-it-matter",
       "platform": "other",
@@ -37,7 +54,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-004",
       "source_name": "energy.gov — heat pump water heaters",
       "url": "https://www.energy.gov/energysaver/heat-pump-water-heaters",
       "platform": "other",
@@ -54,7 +71,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "energy.gov — consumer water heaters tp rfi",
       "url": "https://www.energy.gov/eere/buildings/articles/consumer-water-heaters-tp-rfi",
       "platform": "other",
@@ -71,7 +88,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "www1.eere.energy.gov — 26465",
       "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/26465.pdf",
       "platform": "other",
@@ -88,7 +105,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "ecfr.gov — appendix Appendix%20E%20to%20Subpart%20B%20of%20Part%20430",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20E%20to%20Subpart%20B%20of%20Part%20430",
       "platform": "other",
@@ -105,7 +122,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "ahrinet.org — residential water heaters rwh",
       "url": "https://www.ahrinet.org/certification/ahri-certification-programs/residential-water-heaters-rwh",
       "platform": "other",
@@ -122,7 +139,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
       "source_name": "blog.ansi.org — ansi z21 10 csa 4 water heaters",
       "url": "https://blog.ansi.org/ansi/ansi-z21-10-csa-4-water-heaters/",
       "platform": "other",
@@ -139,7 +156,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-010",
       "source_name": "waterheatertimer.org — Calculate standby loss electric water heater",
       "url": "http://waterheatertimer.org/Calculate-standby-loss-electric-water-heater.html",
       "platform": "other",
@@ -156,7 +173,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-011",
       "source_name": "ahrinet.org — ahri certification programs",
       "url": "https://www.ahrinet.org/certification/ahri-certification-programs",
       "platform": "other",
@@ -173,7 +190,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-012",
       "source_name": "nachi.org — lifespan water heater",
       "url": "https://www.nachi.org/lifespan-water-heater.htm",
       "platform": "other",
@@ -190,7 +207,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-013",
       "source_name": "hotwatersafety.org — water heater heat traps do they work",
       "url": "https://www.hotwatersafety.org/news/water-heater-heat-traps-do-they-work",
       "platform": "other",
@@ -208,7 +225,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-014",
       "source_name": "conwayservices.net — common water heater repairs",
       "url": "https://www.conwayservices.net/blog/common-water-heater-repairs",
       "platform": "other",
@@ -225,7 +242,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-015",
       "source_name": "ees.lbl.gov — our environment hot water comparing water heaters life cycle",
       "url": "https://ees.lbl.gov/publications/our-environment-hot-water-comparing-water-heaters-life-cycle-approach-comparing-tank-and-tankless-wa",
       "platform": "other",
@@ -243,7 +260,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-016",
       "source_name": "cee1.org — 2025 cee performance requirements for hvac and water heaters",
       "url": "https://cee1.org/index.php/news/details/2025-cee-performance-requirements-for-hvac-and-water-heaters-integrate-federal-and-utility-incentives-to-increase-adoption-of-high-performing-heat-pumps",
       "platform": "other",
@@ -260,7 +277,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-017",
       "source_name": "pressbooks-dev.oer.hawaii.edu — water heating",
       "url": "https://pressbooks-dev.oer.hawaii.edu/buildingmaintenance/chapter/water-heating/",
       "platform": "other",
@@ -277,166 +294,156 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
-      "source_name": "westernbuildersupply.com — comparing performance performance plus and performance plati",
-      "url": "https://www.westernbuildersupply.com/post/comparing-performance-performance-plus-and-performance-platinum-natural-gas-water-heaters",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q",
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
       "id": "SRC-018",
-      "source_name": "joinarbor.com — best heat pump water heater",
-      "url": "https://www.joinarbor.com/resources/best-heat-pump-water-heater",
+      "source_name": "pacificplumbing.com — RHEE PROPH40 T2 RH400 SO",
+      "url": "https://www.pacificplumbing.com/Product/RHEE-PROPH40-T2-RH400-SO",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-019",
-      "source_name": "nidoplumbing.com — rheem professional vs performance which water heater line fi",
-      "url": "https://www.nidoplumbing.com/post/rheem-professional-vs-performance-which-water-heater-line-fits-your-home",
+      "source_name": "homedepot.com — 330317266",
+      "url": "https://www.homedepot.com/p/Rheem-ProTerra-40-Gal-Smart-High-Efficiency-Hybrid-Heat-Pump-Water-Heater-w-Leak-Detection-Auto-Shutoff-10-Year-Warranty-XE40T10HS45U1/330317266",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-020",
-      "source_name": "homedepot.com",
-      "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-9-5-GPM-Smart-Non-Condensing-Outdoor-Natural-Gas-Tankless-Water-Heater-ECO200XELN-3/325309137/5",
+      "source_name": "homedepot.com — 317100795",
+      "url": "https://www.homedepot.com/p/Rheem-Performance-Platinum-ProTerra-40-Gal-120-Volt-Plug-in-Smart-Heat-Pump-Water-Heater-with-10-Year-Warranty-XE40T10HM00U0/317100795",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-021",
-      "source_name": "goodhousekeeping.com — best water heater brands",
-      "url": "https://www.goodhousekeeping.com/home-products/g62909149/best-water-heater-brands/",
+      "source_name": "media.rheem.com — HP 310BM%20Rev4%20GEN%20V%20Builder%20SS 1",
+      "url": "https://media.rheem.com/site/rheemdotcom/resources/HP-310BM%20Rev4%20GEN%20V%20Builder%20SS_1.pdf",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-022",
-      "source_name": "homedepot.com",
-      "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-50-Gal-Tall-4500-Watt-Double-Element-Electric-Water-Heater-w-LED-Diagnostic-System-and-9-Year-Warranty-XE50T09EL45U1/326434047/2",
+      "source_name": "media.rheem.com — Performance Platinum THD HPE 200 BrochureR",
+      "url": "https://media.rheem.com/media/uploads/iat/sites/36/2020/07/Performance-Platinum-THD-HPE-200-BrochureR.pdf",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-023",
-      "source_name": "americanplumbingwa.com — best water heater brands",
-      "url": "https://www.americanplumbingwa.com/best-water-heater-brands",
+      "source_name": "ferguson.com — 9117336",
+      "url": "https://www.ferguson.com/product/rheem-professional-prestigeproterra-40-gal.-tall-4.5-kw-hybrid-electric-heat-pump-water-heater-with-econet174;-rph40t2rh37530470/9117336.html",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D",
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-024",
-      "source_name": "littekenplumbing.com — best water heaters on market",
-      "url": "https://littekenplumbing.com/2025/05/15/best-water-heaters-on-market/",
+      "source_name": "fwwebb.com — 1237290",
+      "url": "https://www.fwwebb.com/product/Rheem/ProTerra-Water-Heater/PROPH40T2RH400-15/1237290",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-025",
-      "source_name": "modernize.com — best tank water heaters",
-      "url": "https://modernize.com/plumbing/water-heaters/best-tank-water-heaters",
+      "source_name": "goendlessenergy.com — rheem proterra heat pump water heater review massachusetts",
+      "url": "https://goendlessenergy.com/blog/heat-pump-water-heaters/rheem-proterra-heat-pump-water-heater-review-massachusetts/",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
       "verified": false
     }
   ],
   "bottom_line": "Rheem ProTerra XE80 Heat Pump (80 gal) — Tier 2 product. Target score: 78/100.",
   "scoring_notes": {
-    "sources_scored": [],
-    "sources_report_only": [
+    "sources_scored": [
       "SRC-001",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
+    "sources_report_only": [
       "SRC-002",
       "SRC-003",
       "SRC-004",
@@ -452,26 +459,18 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 5,
+      "pool_S": 6,
       "pool_A": 11,
-      "pool_B": 9,
+      "pool_B": 8,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 82,
-      "after_filter": 67,
+      "raw": 91,
+      "after_filter": 72,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -479,8 +478,8 @@
         "manufacturer": 2,
         "alwaysExclude": 0,
         "bareRoot": 1,
-        "domainCap": 11,
-        "total": 82
+        "domainCap": 15,
+        "total": 91
       }
     }
   },

@@ -4,6 +4,23 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — m405246",
+      "url": "https://www.consumerreports.org/appliances/wall-ovens/jenn-air-rise-jjw2430il/m405246/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
       "source_name": "consumerreports.org — best and worst wall oven brands of the year a9068098950",
       "url": "https://www.consumerreports.org/appliances/wall-ovens/best-and-worst-wall-oven-brands-of-the-year-a9068098950/",
       "platform": "other",
@@ -20,7 +37,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-003",
       "source_name": "consumerreports.org — how to get the most from your broiler",
       "url": "https://www.consumerreports.org/ranges/how-to-get-the-most-from-your-broiler/",
       "platform": "other",
@@ -37,7 +54,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-004",
       "source_name": "consumerreports.org — best energy efficient kitchen appliances a1040572723",
       "url": "https://www.consumerreports.org/appliances/best-energy-efficient-kitchen-appliances-a1040572723/",
       "platform": "other",
@@ -54,7 +71,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "energy.gov — issuance 2015 06 18 energy conservation program test procedu",
       "url": "https://www.energy.gov/eere/buildings/articles/issuance-2015-06-18-energy-conservation-program-test-procedures",
       "platform": "other",
@@ -69,23 +86,6 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-005",
-      "source_name": "consumerreports.org — m405246",
-      "url": "https://www.consumerreports.org/appliances/wall-ovens/jenn-air-rise-jjw2430il/m405246/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
       "verified": false
     },
     {
@@ -278,6 +278,125 @@
     },
     {
       "id": "SRC-017",
+      "source_name": "houzz.com — reliability of jenn air appliances or what brand should i ge",
+      "url": "https://www.houzz.com/discussions/2274894/reliability-of-jenn-air-appliances-or-what-brand-should-i-get",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "donsappliances.com — jenn air convection oven reviews",
+      "url": "https://www.donsappliances.com/blog/jenn-air-convection-oven-reviews",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "townappliance.com — bosch vs jennair appliances which one do you find more suita",
+      "url": "https://www.townappliance.com/blogs/town-appliance-official/bosch-vs-jennair-appliances-which-one-do-you-find-more-suitable-for-your-kitchen",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "bestbuy.com — 6339633",
+      "url": "https://www.bestbuy.com/site/reviews/jennair-rise-5-1-cu-ft-self-cleaning-freestanding-gas-convection-range-stainless-steel/6339633",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "bestbuy.com — 6339598",
+      "url": "https://www.bestbuy.com/site/reviews/jennair-rise-6-3-cu-ft-self-cleaning-freestanding-dual-fuel-convection-range-stainless-steel/6339598",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "fbsappliance.com — jenn air stove review and buyers guide",
+      "url": "https://www.fbsappliance.com/blog/jenn-air-stove-review-and-buyers-guide",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "townappliance.com — jennair jgrp430hl professional gas range",
+      "url": "https://www.townappliance.com/products/jennair-jgrp430hl-professional-gas-range",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
       "source_name": "thisoldhouse.com — best ovens",
       "url": "https://www.thisoldhouse.com/kitchens/best-ovens",
       "platform": "other",
@@ -294,24 +413,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
-      "source_name": "townappliance.com — top ovens of 2026 expert guide to ge miele and bosch at town",
-      "url": "https://www.townappliance.com/blogs/town-appliance-official/top-ovens-of-2026-expert-guide-to-ge-miele-and-bosch-at-town-appliance",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
+      "id": "SRC-025",
       "source_name": "donsappliances.com — jenn air vs wolf guide",
       "url": "https://www.donsappliances.com/blog/jenn-air-vs-wolf-guide",
       "platform": "other",
@@ -326,120 +428,25 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_3",
       "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "houzz.com — if you had your choice with a large budget which appliance",
-      "url": "https://www.houzz.com/discussions/2273945/if-you-had-your-choice-with-a-large-budget-which-appliance",
-      "platform": "other",
-      "column": "forum",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "intertek.com — ul 858 household electric ranges",
-      "url": "https://www.intertek.com/standards-updates/ul-858-household-electric-ranges/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "reviewed.com — how test electric induction ranges",
-      "url": "https://www.reviewed.com/ovens/features/how-test-electric-induction-ranges",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "jdpower.com — 2025 us appliance reliability service study",
-      "url": "https://www.jdpower.com/business/press-releases/2025-us-appliance-reliability-service-study",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "goodhousekeeping.com — about the kitchen lab",
-      "url": "https://www.goodhousekeeping.com/about/institute/a65913421/about-the-kitchen-lab/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "houzz.com — kitchen remodel need appliance help wolf vs miele or thermad",
-      "url": "https://www.houzz.com/discussions/6064377/kitchen-remodel-need-appliance-help-wolf-vs-miele-or-thermador-etc",
-      "platform": "other",
-      "column": "forum",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
     }
   ],
   "bottom_line": "JennAir Rise — Tier 2 product. Target score: 76/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-005"
+      "SRC-001",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023"
     ],
     "sources_report_only": [
-      "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
+      "SRC-005",
       "SRC-006",
       "SRC-007",
       "SRC-008",
@@ -451,13 +458,6 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
       "SRC-024",
       "SRC-025"
     ],
@@ -469,17 +469,17 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 76,
-      "after_filter": 64,
+      "raw": 88,
+      "after_filter": 70,
       "capped": 25,
       "dropped": {
         "dead": 0,
         "nonContent": 0,
-        "manufacturer": 0,
+        "manufacturer": 1,
         "alwaysExclude": 0,
         "bareRoot": 0,
-        "domainCap": 12,
-        "total": 76
+        "domainCap": 17,
+        "total": 88
       }
     }
   },

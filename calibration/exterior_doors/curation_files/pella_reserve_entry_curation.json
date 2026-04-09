@@ -259,6 +259,23 @@
     },
     {
       "id": "SRC-016",
+      "source_name": "huduser.gov — doors7",
+      "url": "https://www.huduser.gov/publications/pdf/doors7.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
       "source_name": "jeld-wen.com — steel",
       "url": "https://www.jeld-wen.com/en-us/products/exterior-doors/steel",
       "platform": "other",
@@ -276,7 +293,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-018",
       "source_name": "jeld-wen.com — smooth pro fiberglass",
       "url": "https://www.jeld-wen.com/en-us/products/exterior-doors/smooth-pro-fiberglass",
       "platform": "other",
@@ -293,7 +310,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-019",
       "source_name": "pdf.lowes.com — 719061127938",
       "url": "http://pdf.lowes.com/energyguides/719061127938.pdf",
       "platform": "other",
@@ -310,7 +327,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-020",
       "source_name": "lamoriaconstruction.com — the ultimate jeld wen window guide comparing v 2500 v 4500 s",
       "url": "https://www.lamoriaconstruction.com/post/the-ultimate-jeld-wen-window-guide-comparing-v-2500-v-4500-siteline-and-wood-series-windows",
       "platform": "other",
@@ -327,7 +344,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-021",
       "source_name": "homedepot.com — 301187011",
       "url": "https://www.homedepot.com/p/JELD-WEN-28-in-x-80-in-Madison-Espresso-Stain-Right-Hand-Solid-Core-Molded-Composite-MDF-Single-Prehung-Interior-Door-THDJW222200163/301187011",
       "platform": "other",
@@ -344,7 +361,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-022",
       "source_name": "quanex.com — residential door door seals",
       "url": "https://www.quanex.com/products/residential-door-door-seals/",
       "platform": "other",
@@ -361,7 +378,7 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-023",
       "source_name": "buildershardware.com — A1561 2021 Butts and Hinges",
       "url": "https://buildershardware.com/ANSI-BHMA-Standards/Hardware-Highlights/A1561-2021-Butts-and-Hinges",
       "platform": "other",
@@ -378,7 +395,7 @@
       "verified": false
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-024",
       "source_name": "houzz.com — jeld wen siteline vs andersen e series",
       "url": "https://www.houzz.com/discussions/4878841/jeld-wen-siteline-vs-andersen-e-series",
       "platform": "other",
@@ -395,26 +412,9 @@
       "verified": false
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-025",
       "source_name": "homedepot.com",
       "url": "https://www.homedepot.com/p/reviews/JELD-WEN-32-in-x-78-in-9-Lite-Primed-Fiberglass-Prehung-Left-Hand-Inswing-Entry-Door-w-Brickmould-THDJW191000003/204746263/5",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "lowes.com — 5015237391",
-      "url": "https://www.lowes.com/pd/JELD-WEN-84-in-Matte-Matte-Black-Indoor-Top-mount-Soft-Close-Single-Barn-door-hardware-kit/5015237391",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -462,13 +462,13 @@
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
-      "pool_A": 13,
-      "pool_B": 10,
+      "pool_A": 14,
+      "pool_B": 9,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 223,
-      "after_filter": 93,
+      "raw": 231,
+      "after_filter": 101,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -477,7 +477,7 @@
         "alwaysExclude": 7,
         "bareRoot": 3,
         "domainCap": 113,
-        "total": 223
+        "total": 231
       }
     }
   },

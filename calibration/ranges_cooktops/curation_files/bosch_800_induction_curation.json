@@ -4,6 +4,40 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — m408618",
+      "url": "https://www.consumerreports.org/appliances/ranges/bosch-800-series-his8055u/m408618/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "consumerreports.org — m408392",
+      "url": "https://www.consumerreports.org/appliances/cooktops/bosch-800-series-nit8060uc/m408392/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-003",
       "source_name": "consumerreports.org — best and worst pro style ranges a3694204130",
       "url": "https://www.consumerreports.org/appliances/ranges/best-and-worst-pro-style-ranges-a3694204130/",
       "platform": "other",
@@ -20,7 +54,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-004",
       "source_name": "pmc.ncbi.nlm.nih.gov — PMC11123225",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11123225/",
       "platform": "other",
@@ -37,7 +71,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-005",
       "source_name": "consumerreports.org — the best induction cooktops a1194688661",
       "url": "https://www.consumerreports.org/appliances/cooktops/the-best-induction-cooktops-a1194688661/",
       "platform": "other",
@@ -54,7 +88,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-006",
       "source_name": "consumerreports.org — thermador freedom induction cooktop",
       "url": "https://www.consumerreports.org/video/view/appliances/kitchen/2469592350001/thermador-freedom-induction-cooktop/",
       "platform": "other",
@@ -71,7 +105,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-007",
       "source_name": "energy.gov — issuance 2016 08 05 energy conservation program test procedu",
       "url": "https://www.energy.gov/eere/buildings/articles/issuance-2016-08-05-energy-conservation-program-test-procedures-cooking",
       "platform": "other",
@@ -89,7 +123,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-008",
       "source_name": "betterbuildingssolutioncenter.energy.gov — Induction Cooktop Analysis Report",
       "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Induction_Cooktop_Analysis_Report.pdf",
       "platform": "other",
@@ -107,7 +141,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-009",
       "source_name": "consumerreports.org — the best induction ranges a8524766309",
       "url": "https://www.consumerreports.org/appliances/ranges/the-best-induction-ranges-a8524766309/",
       "platform": "other",
@@ -124,7 +158,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-010",
       "source_name": "pmc.ncbi.nlm.nih.gov — PMC12477752",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477752/",
       "platform": "other",
@@ -141,7 +175,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-011",
       "source_name": "energystar.gov — ENERGY%20STAR%20Commercial%20Electric%20Cooktops%20Version%2",
       "url": "https://www.energystar.gov/sites/default/files/asset/document/ENERGY%20STAR%20Commercial%20Electric%20Cooktops%20Version%201.0%20Final%20Draft%20Specification.pdf",
       "platform": "other",
@@ -158,7 +192,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-012",
       "source_name": "energy.gov — issuance 2016 11 22 energy conservation program test procedu",
       "url": "https://www.energy.gov/eere/buildings/articles/issuance-2016-11-22-energy-conservation-program-test-procedures-cooking",
       "platform": "other",
@@ -176,7 +210,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-013",
       "source_name": "energystar.gov — key product criteria",
       "url": "https://www.energystar.gov/products/electric_cooking_products/key_product_criteria",
       "platform": "other",
@@ -193,7 +227,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-014",
       "source_name": "consumerreports.org — range testing",
       "url": "https://www.consumerreports.org/video/view/appliances/kitchen/1279703227/range-testing/",
       "platform": "other",
@@ -210,7 +244,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-015",
       "source_name": "epa.gov — sources combustion products",
       "url": "https://www.epa.gov/indoor-air-quality-iaq/sources-combustion-products",
       "platform": "other",
@@ -228,7 +262,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-016",
       "source_name": "epa.gov — afobroilereemreport2012draft",
       "url": "https://www.epa.gov/sites/default/files/2016-06/documents/afobroilereemreport2012draft.pdf",
       "platform": "other",
@@ -245,7 +279,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-017",
       "source_name": "www1.eere.energy.gov — house simulation",
       "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/house_simulation.pdf",
       "platform": "other",
@@ -262,7 +296,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-018",
       "source_name": "nvlpubs.nist.gov — NIST.TN.1986",
       "url": "https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1986.pdf",
       "platform": "other",
@@ -279,13 +313,13 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
-      "source_name": "consumerreports.org — m408618",
-      "url": "https://www.consumerreports.org/appliances/ranges/bosch-800-series-his8055u/m408618/",
+      "id": "SRC-019",
+      "source_name": "blog.yaleappliance.com — bosch induction ranges",
+      "url": "https://blog.yaleappliance.com/bosch-induction-ranges",
       "platform": "other",
-      "column": "review",
+      "column": "expert",
       "snippet": "",
-      "pool": "S",
+      "pool": "A",
       "classification": "score",
       "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
@@ -296,7 +330,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-020",
       "source_name": "blog.yaleappliance.com — most reliable gas ranges",
       "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges",
       "platform": "other",
@@ -314,7 +348,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-021",
       "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
       "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
       "platform": "other",
@@ -331,7 +365,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-022",
       "source_name": "yaleappliance.com — service",
       "url": "https://www.yaleappliance.com/service",
       "platform": "other",
@@ -348,7 +382,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-023",
       "source_name": "yaleappliance.com — free standing gas range",
       "url": "https://www.yaleappliance.com/catalog/free-standing-gas-range",
       "platform": "other",
@@ -365,7 +399,7 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-024",
       "source_name": "yaleappliance.com — gas ranges",
       "url": "https://www.yaleappliance.com/catalog/gas-ranges",
       "platform": "other",
@@ -382,43 +416,9 @@
       "verified": false
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-025",
       "source_name": "blog.yaleappliance.com — appliance installation costs",
       "url": "https://blog.yaleappliance.com/appliance-installation-costs",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "yaleappliance.com — installation",
-      "url": "https://www.yaleappliance.com/installation",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "yaleappliance.com — reviews",
-      "url": "https://www.yaleappliance.com/reviews",
       "platform": "other",
       "column": "expert",
       "snippet": "",
@@ -436,11 +436,11 @@
   "bottom_line": "Bosch 800 Induction Cooktop — Tier Tier 3 product. Target score: 70/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-017"
-    ],
-    "sources_report_only": [
       "SRC-001",
       "SRC-002",
+      "SRC-019"
+    ],
+    "sources_report_only": [
       "SRC-003",
       "SRC-004",
       "SRC-005",
@@ -455,8 +455,8 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
+      "SRC-017",
       "SRC-018",
-      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -466,23 +466,23 @@
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 17,
-      "pool_A": 8,
+      "pool_S": 18,
+      "pool_A": 7,
       "pool_B": 0,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 209,
-      "after_filter": 154,
+      "raw": 222,
+      "after_filter": 162,
       "capped": 25,
       "dropped": {
         "dead": 0,
         "nonContent": 2,
         "manufacturer": 7,
-        "alwaysExclude": 0,
+        "alwaysExclude": 1,
         "bareRoot": 3,
-        "domainCap": 43,
-        "total": 209
+        "domainCap": 47,
+        "total": 222
       }
     }
   },

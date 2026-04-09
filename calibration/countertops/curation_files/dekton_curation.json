@@ -4,6 +4,23 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — index",
+      "url": "https://www.consumerreports.org/cro/news/2015/06/dekton-countertop-cracks-in-consumer-reports-tests/index.htm",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
       "source_name": "consumerreports.org — best countertops for busy kitchens a7620583527",
       "url": "https://www.consumerreports.org/home-garden/countertops/best-countertops-for-busy-kitchens-a7620583527/",
       "platform": "other",
@@ -20,7 +37,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-003",
       "source_name": "pmc.ncbi.nlm.nih.gov — PMC9909587",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9909587/",
       "platform": "other",
@@ -37,7 +54,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-004",
       "source_name": "awinet.org — introduction foreword 1 0 2 0 countertops",
       "url": "https://awinet.org/standards/countertops/introduction-foreword-1-0-2-0-countertops/",
       "platform": "other",
@@ -54,7 +71,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "stacks.cdc.gov — cdc 116007 DS1",
       "url": "https://stacks.cdc.gov/view/cdc/116007/cdc_116007_DS1.pdf",
       "platform": "other",
@@ -71,7 +88,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "awinet.org — 3 3 structural 5",
       "url": "https://awinet.org/standards/countertops/requirements-countertops/3-3-structural-5/",
       "platform": "other",
@@ -88,7 +105,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "stacks.cdc.gov — cdc 124593 DS1",
       "url": "https://stacks.cdc.gov/view/cdc/124593/cdc_124593_DS1.pdf",
       "platform": "other",
@@ -105,7 +122,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "finehomebuilding.com — historical countertop",
       "url": "https://www.finehomebuilding.com/forum/historical-countertop",
       "platform": "other",
@@ -122,7 +139,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
       "source_name": "nsf.org — residential countertops pcr",
       "url": "https://www.nsf.org/knowledge-library/residential-countertops-pcr",
       "platform": "other",
@@ -139,7 +156,194 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-010",
+      "source_name": "contractorsource.com — the pros cons of dekton countertops",
+      "url": "https://contractorsource.com/the-pros-cons-of-dekton-countertops/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "amccountertops.com — how to clean and maintain dekton countertops for long term d",
+      "url": "https://www.amccountertops.com/how-to-clean-and-maintain-dekton-countertops-for-long-term-durability-and-beauty/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "zenstone.co.uk — how does dekton compare to quartz for countertops",
+      "url": "https://www.zenstone.co.uk/blog/how-does-dekton-compare-to-quartz-for-countertops/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "topscountertops.com — a comprehensive comparison dekton",
+      "url": "https://topscountertops.com/a-comprehensive-comparison-dekton/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "stoneworx.com — what you need to know about dekton countertops",
+      "url": "https://www.stoneworx.com/blog/what-you-need-to-know-about-dekton-countertops",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "venturastone.com — the environmental impact of dekton countertops",
+      "url": "https://www.venturastone.com/the-environmental-impact-of-dekton-countertops",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "surfacecreationsme.com — is dekton more durable than granite strength and longevity c",
+      "url": "https://surfacecreationsme.com/is-dekton-more-durable-than-granite-strength-and-longevity-compared/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "bauteam.com — dekton countertops 11 things you need to know before you buy",
+      "url": "https://www.bauteam.com/dekton-countertops-11-things-you-need-to-know-before-you-buy/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "worktops.net — dekton worktops pros and cons",
+      "url": "https://www.worktops.net/blogs/blog/dekton-worktops-pros-and-cons",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "daviemactile.com — dekton tiles",
+      "url": "https://daviemactile.com/dekton-tiles",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "houzz.com — dekton scam dekton super fragile on the edges",
+      "url": "https://www.houzz.com/discussions/6348108/dekton-scam-dekton-super-fragile-on-the-edges",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
       "source_name": "constructionresourcesusa.com — countertops 101 what kitchen countertop is best for you",
       "url": "https://www.constructionresourcesusa.com/countertops-101-what-kitchen-countertop-is-best-for-you/",
       "platform": "other",
@@ -156,7 +360,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-022",
       "source_name": "strongwood.com — choosing the best countertop material for your home or offic",
       "url": "https://strongwood.com/design/choosing-the-best-countertop-material-for-your-home-or-office/",
       "platform": "other",
@@ -173,7 +377,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-023",
       "source_name": "fabuwood.com — the ten best types of kitchen countertops",
       "url": "https://www.fabuwood.com/blog/the-ten-best-types-of-kitchen-countertops",
       "platform": "other",
@@ -190,7 +394,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-024",
       "source_name": "countertopsmart.com — the top 5 quartz countertop brands of 2024",
       "url": "https://www.countertopsmart.com/blog/the-top-5-quartz-countertop-brands-of-2024",
       "platform": "other",
@@ -208,7 +412,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-025",
       "source_name": "remodelrepublic.com — top countertop materials for every budget and style",
       "url": "https://www.remodelrepublic.com/blog/top-countertop-materials-for-every-budget-and-style",
       "platform": "other",
@@ -223,225 +427,12 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_3",
       "verified": false
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "standardcompanies.com — what is the most durable countertop material",
-      "url": "https://standardcompanies.com/what-is-the-most-durable-countertop-material/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "marblesystems.com — top 10 types of kitchen countertops find out why everyones o",
-      "url": "https://www.marblesystems.com/top-10-types-of-kitchen-countertops-find-out-why-everyones-obsessed-with-5/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "usacabinetstore.com — top 15 best kitchen countertop materials",
-      "url": "https://www.usacabinetstore.com/top-15-best-kitchen-countertop-materials/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "mjbinteriors.com — 13 best kitchen countertop materials ranked from least to mo",
-      "url": "https://www.mjbinteriors.com/post/13-best-kitchen-countertop-materials-ranked-from-least-to-most-expensive",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "tcfmidwest.com — TCF Important Things To Know v8 1 29 19 compressed",
-      "url": "https://tcfmidwest.com/wp-content/uploads/2019/02/TCF-Important-Things-To-Know-v8-1-29-19-compressed.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "resources.workstationindustries.com — 4 things to know about solid surface countertop material",
-      "url": "https://resources.workstationindustries.com/blog/4-things-to-know-about-solid-surface-countertop-material",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "woodworkinstitute.com — Casework Wood and Laminated Plastic and Countertops Q224 rev",
-      "url": "https://woodworkinstitute.com/wp-content/uploads/2024/06/Casework-Wood-and-Laminated-Plastic-and-Countertops-Q224-rev.docx",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "thedesignerstoneco.com — Homeowner Guide Book.docx",
-      "url": "https://thedesignerstoneco.com/wp-content/uploads/2022/03/Homeowner-Guide-Book.docx.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "healthymaterialslab.org — healthier countertops",
-      "url": "https://healthymaterialslab.org/material-collections/healthier-countertops",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "caesarstoneus.com — Ceasarstone CS TechnicalDataManual 5",
-      "url": "https://www.caesarstoneus.com/wp-content/uploads/2021/10/Ceasarstone_CS_TechnicalDataManual-5.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "affinitysurfaces.com — AFFINITY SSstandards 2 01 2013 ",
-      "url": "https://affinitysurfaces.com/media/PDF/AFFINITY_SSstandards-2-01-2013-.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "republicelite.com — DSDM 2022 All Chapters",
-      "url": "https://republicelite.com/wp-content/uploads/2022/06/DSDM_2022_All_Chapters.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
     }
   ],
   "bottom_line": "Sintered stone — glass, porcelain, quartz at 25,000°C+ and extreme pressure. Near-zero porosity. Top heat resistance (500°F+), UV stable, scratch resistant. No resins = no off-gassing. Lifetime residential warranty. Field cracking reports near cooktops need further investigation. Cosentino (Spain) — global manufacturer.",
   "scoring_notes": {
-    "sources_scored": [],
-    "sources_report_only": [
+    "sources_scored": [
       "SRC-001",
-      "SRC-002",
-      "SRC-003",
-      "SRC-004",
-      "SRC-005",
-      "SRC-006",
-      "SRC-007",
-      "SRC-008",
-      "SRC-009",
       "SRC-010",
       "SRC-011",
       "SRC-012",
@@ -452,7 +443,17 @@
       "SRC-017",
       "SRC-018",
       "SRC-019",
-      "SRC-020",
+      "SRC-020"
+    ],
+    "sources_report_only": [
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
       "SRC-021",
       "SRC-022",
       "SRC-023",
@@ -461,23 +462,23 @@
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 2,
+      "pool_S": 3,
       "pool_A": 6,
-      "pool_B": 17,
+      "pool_B": 16,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 76,
-      "after_filter": 72,
+      "raw": 90,
+      "after_filter": 82,
       "capped": 25,
       "dropped": {
         "dead": 0,
-        "nonContent": 0,
+        "nonContent": 1,
         "manufacturer": 2,
         "alwaysExclude": 0,
         "bareRoot": 0,
-        "domainCap": 2,
-        "total": 76
+        "domainCap": 5,
+        "total": 90
       }
     }
   },

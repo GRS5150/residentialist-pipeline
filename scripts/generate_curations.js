@@ -301,8 +301,16 @@ for (const product of config.calibration_products) {
     ...productSources.filter(s => s.products && s.products.includes(slug)),
   ];
 
-  // Sort by pool quality (S first, then A, B, C)
-  raw.sort((a, b) => poolRank(a) - poolRank(b));
+  // Sort by pool quality (S first, then A, B, C).
+  // Within same pool, product-specific sources rank above category-scoped.
+  raw.sort((a, b) => {
+    const poolDiff = poolRank(a) - poolRank(b);
+    if (poolDiff !== 0) return poolDiff;
+    // Product-scoped sources are more relevant than category-scoped
+    const aProduct = (a.scope === 'product') ? 0 : 1;
+    const bProduct = (b.scope === 'product') ? 0 : 1;
+    return aProduct - bProduct;
+  });
 
   // Apply quality filter
   const { filtered, dropped } = filterSources(raw, slug, product.name);

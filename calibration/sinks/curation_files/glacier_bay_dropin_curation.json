@@ -467,17 +467,17 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 69,
-      "after_filter": 62,
+      "raw": 71,
+      "after_filter": 63,
       "capped": 25,
       "dropped": {
         "dead": 0,
         "nonContent": 0,
-        "manufacturer": 0,
+        "manufacturer": 1,
         "alwaysExclude": 0,
         "bareRoot": 0,
         "domainCap": 7,
-        "total": 69
+        "total": 71
       }
     }
   },

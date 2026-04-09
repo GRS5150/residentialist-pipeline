@@ -280,6 +280,40 @@
     },
     {
       "id": "SRC-017",
+      "source_name": "cpsc.gov — Wolf Appliance Recalls Dual Fuel Ranges with Infrared Griddl",
+      "url": "https://www.cpsc.gov/Recalls/2025/Wolf-Appliance-Recalls-Dual-Fuel-Ranges-with-Infrared-Griddles-Due-to-Burn-and-Fire-Hazards",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "blog.yaleappliance.com — are wolf professional ranges worth it",
+      "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
       "source_name": "blog.yaleappliance.com — most reliable gas ranges",
       "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges",
       "platform": "other",
@@ -297,7 +331,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-020",
       "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
       "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
       "platform": "other",
@@ -314,7 +348,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-021",
       "source_name": "yaleappliance.com — service",
       "url": "https://www.yaleappliance.com/service",
       "platform": "other",
@@ -331,7 +365,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-022",
       "source_name": "yaleappliance.com — free standing gas range",
       "url": "https://www.yaleappliance.com/catalog/free-standing-gas-range",
       "platform": "other",
@@ -348,7 +382,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-023",
       "source_name": "yaleappliance.com — gas ranges",
       "url": "https://www.yaleappliance.com/catalog/gas-ranges",
       "platform": "other",
@@ -365,7 +399,7 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-024",
       "source_name": "blog.yaleappliance.com — appliance installation costs",
       "url": "https://blog.yaleappliance.com/appliance-installation-costs",
       "platform": "other",
@@ -382,7 +416,7 @@
       "verified": false
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-025",
       "source_name": "yaleappliance.com — installation",
       "url": "https://www.yaleappliance.com/installation",
       "platform": "other",
@@ -397,45 +431,14 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "yaleappliance.com — reviews",
-      "url": "https://www.yaleappliance.com/reviews",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
-      "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
     }
   ],
   "bottom_line": "Wolf Pro-Style Gas Range — Tier Tier 1 product. Target score: 94/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-017",
+      "SRC-018"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -453,8 +456,6 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
       "SRC-019",
       "SRC-020",
       "SRC-021",
@@ -471,8 +472,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 207,
-      "after_filter": 155,
+      "raw": 222,
+      "after_filter": 165,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -480,8 +481,8 @@
         "manufacturer": 2,
         "alwaysExclude": 1,
         "bareRoot": 3,
-        "domainCap": 44,
-        "total": 207
+        "domainCap": 49,
+        "total": 222
       }
     }
   },

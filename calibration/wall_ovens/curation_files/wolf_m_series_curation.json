@@ -73,6 +73,23 @@
     },
     {
       "id": "SRC-005",
+      "source_name": "blog.yaleappliance.com — wolf vs miele m series wall ovens",
+      "url": "https://blog.yaleappliance.com/wolf-vs-miele-m-series-wall-ovens",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-006",
       "source_name": "blog.yaleappliance.com — most reliable wall ovens",
       "url": "https://blog.yaleappliance.com/most-reliable-wall-ovens",
       "platform": "other",
@@ -90,7 +107,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "coastappliances.ca — best wall ovens",
       "url": "https://www.coastappliances.ca/blogs/learn/best-wall-ovens",
       "platform": "other",
@@ -107,7 +124,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "webstore.iec.ch — 69042",
       "url": "https://webstore.iec.ch/en/publication/69042",
       "platform": "other",
@@ -124,7 +141,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
       "source_name": "astm.org — e0145 19",
       "url": "https://www.astm.org/e0145-19.html",
       "platform": "other",
@@ -141,7 +158,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-010",
       "source_name": "ecfr.gov — subpart B",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B",
       "platform": "other",
@@ -158,7 +175,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-011",
       "source_name": "scc-ccn.ca — 4018735",
       "url": "https://scc-ccn.ca/standardsdb/standards/4018735",
       "platform": "other",
@@ -175,7 +192,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-012",
       "source_name": "aham.org — Standard Chart Page",
       "url": "https://www.aham.org/AHAM/Standard_Chart_Page.aspx",
       "platform": "other",
@@ -192,7 +209,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-013",
       "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
       "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
       "platform": "other",
@@ -209,7 +226,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-014",
       "source_name": "ecfr.gov — appendix Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
       "platform": "other",
@@ -226,7 +243,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-015",
       "source_name": "aham.org — ItemDetail",
       "url": "https://www.aham.org/ItemDetail?iProductCode=20022&Category=MADSTD&WebsiteKey=e77c44a3-68e2-480f-81b4-8c09990da1b9",
       "platform": "other",
@@ -243,7 +260,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-016",
       "source_name": "osti.gov — product.biblio",
       "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
       "platform": "other",
@@ -260,7 +277,126 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-017",
+      "source_name": "nfm.com — 64044316",
+      "url": "https://www.nfm.com/wolf-30-m-series-transitional-built-in-double-electric-wall-oven-with-convection-in-stainless-steel-64044316/64044316.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "orvilles.com — wolf wall ovens",
+      "url": "https://www.orvilles.com/blog/wolf-wall-ovens",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "pcrichard.com — SO3050CM B",
+      "url": "https://www.pcrichard.com/wolf-m-series-30-in-5.1-cu-ft-smart-electric-single-wall-oven-with-dual-convection-black/SO3050CM-B.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "cdn2.hubspot.net — wolf buying guide",
+      "url": "https://cdn2.hubspot.net/hub/91694/file-17678824-pdf/docs/wolf-buying-guide.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "houzz.com — hands on with the new wolf m ovens good bad and wish they wo",
+      "url": "https://www.houzz.com/discussions/2892463/hands-on-with-the-new-wolf-m-ovens-good-bad-and-wish-they-woulda",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "appliancebuyersguide.com — wolf m series oven review 2016",
+      "url": "https://appliancebuyersguide.com/wolf-m-series-oven-review-2016/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "designerappliances.com — wolf wall ovens",
+      "url": "https://www.designerappliances.com/blog/wolf-wall-ovens/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
       "source_name": "thisoldhouse.com — best ovens",
       "url": "https://www.thisoldhouse.com/kitchens/best-ovens",
       "platform": "other",
@@ -277,7 +413,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-025",
       "source_name": "townappliance.com — top ovens of 2026 expert guide to ge miele and bosch at town",
       "url": "https://www.townappliance.com/blogs/town-appliance-official/top-ovens-of-2026-expert-guide-to-ge-miele-and-bosch-at-town-appliance",
       "platform": "other",
@@ -292,153 +428,25 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "donsappliances.com — jenn air vs wolf guide",
-      "url": "https://www.donsappliances.com/blog/jenn-air-vs-wolf-guide",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "houzz.com — if you had your choice with a large budget which appliance",
-      "url": "https://www.houzz.com/discussions/2273945/if-you-had-your-choice-with-a-large-budget-which-appliance",
-      "platform": "other",
-      "column": "forum",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "intertek.com — ul 858 household electric ranges",
-      "url": "https://www.intertek.com/standards-updates/ul-858-household-electric-ranges/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "reviewed.com — how test electric induction ranges",
-      "url": "https://www.reviewed.com/ovens/features/how-test-electric-induction-ranges",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "jdpower.com — 2025 us appliance reliability service study",
-      "url": "https://www.jdpower.com/business/press-releases/2025-us-appliance-reliability-service-study",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "goodhousekeeping.com — about the kitchen lab",
-      "url": "https://www.goodhousekeeping.com/about/institute/a65913421/about-the-kitchen-lab/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "houzz.com — kitchen remodel need appliance help wolf vs miele or thermad",
-      "url": "https://www.houzz.com/discussions/6064377/kitchen-remodel-need-appliance-help-wolf-vs-miele-or-thermador-etc",
-      "platform": "other",
-      "column": "forum",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "fluorogistx.com — temperature uniformity",
-      "url": "https://fluorogistx.com/temperature-uniformity/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
     }
   ],
   "bottom_line": "Wolf M Series — Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-005",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
-      "SRC-005",
       "SRC-006",
       "SRC-007",
       "SRC-008",
@@ -450,26 +458,19 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
       "SRC-024",
       "SRC-025"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 4,
-      "pool_A": 11,
-      "pool_B": 10,
+      "pool_A": 12,
+      "pool_B": 9,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 78,
-      "after_filter": 63,
+      "raw": 89,
+      "after_filter": 70,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -477,8 +478,8 @@
         "manufacturer": 4,
         "alwaysExclude": 0,
         "bareRoot": 0,
-        "domainCap": 11,
-        "total": 78
+        "domainCap": 15,
+        "total": 89
       }
     }
   },

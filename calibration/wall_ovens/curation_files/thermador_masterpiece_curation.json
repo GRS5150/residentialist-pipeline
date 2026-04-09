@@ -4,6 +4,40 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — m400621",
+      "url": "https://www.consumerreports.org/appliances/wall-ovens/thermador-masterpiece-me301ws/m400621/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "consumerreports.org — m409042",
+      "url": "https://www.consumerreports.org/appliances/cooktops/thermador-masterpiece-cet305yb/m409042/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-003",
       "source_name": "consumerreports.org — best and worst wall oven brands of the year a9068098950",
       "url": "https://www.consumerreports.org/appliances/wall-ovens/best-and-worst-wall-oven-brands-of-the-year-a9068098950/",
       "platform": "other",
@@ -20,7 +54,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-004",
       "source_name": "consumerreports.org — how to get the most from your broiler",
       "url": "https://www.consumerreports.org/ranges/how-to-get-the-most-from-your-broiler/",
       "platform": "other",
@@ -37,7 +71,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-005",
       "source_name": "consumerreports.org — best energy efficient kitchen appliances a1040572723",
       "url": "https://www.consumerreports.org/appliances/best-energy-efficient-kitchen-appliances-a1040572723/",
       "platform": "other",
@@ -54,7 +88,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-006",
       "source_name": "energy.gov — issuance 2015 06 18 energy conservation program test procedu",
       "url": "https://www.energy.gov/eere/buildings/articles/issuance-2015-06-18-energy-conservation-program-test-procedures",
       "platform": "other",
@@ -72,13 +106,13 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
-      "source_name": "consumerreports.org — m400621",
-      "url": "https://www.consumerreports.org/appliances/wall-ovens/thermador-masterpiece-me301ws/m400621/",
+      "id": "SRC-007",
+      "source_name": "yaleappliance.com — thermador masterpiece 30 stainless steel single electric wal",
+      "url": "https://www.yaleappliance.com/product/thermador-masterpiece-30-stainless-steel-single-electric-wall-oven-me301yp-665553",
       "platform": "other",
-      "column": "review",
+      "column": "expert",
       "snippet": "",
-      "pool": "S",
+      "pool": "A",
       "classification": "score",
       "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
@@ -89,7 +123,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-008",
       "source_name": "blog.yaleappliance.com — most reliable wall ovens",
       "url": "https://blog.yaleappliance.com/most-reliable-wall-ovens",
       "platform": "other",
@@ -107,7 +141,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-009",
       "source_name": "coastappliances.ca — best wall ovens",
       "url": "https://www.coastappliances.ca/blogs/learn/best-wall-ovens",
       "platform": "other",
@@ -124,7 +158,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-010",
       "source_name": "webstore.iec.ch — 69042",
       "url": "https://webstore.iec.ch/en/publication/69042",
       "platform": "other",
@@ -141,7 +175,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-011",
       "source_name": "astm.org — e0145 19",
       "url": "https://www.astm.org/e0145-19.html",
       "platform": "other",
@@ -158,7 +192,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-012",
       "source_name": "ecfr.gov — subpart B",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B",
       "platform": "other",
@@ -175,7 +209,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-013",
       "source_name": "scc-ccn.ca — 4018735",
       "url": "https://scc-ccn.ca/standardsdb/standards/4018735",
       "platform": "other",
@@ -192,7 +226,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-014",
       "source_name": "aham.org — Standard Chart Page",
       "url": "https://www.aham.org/AHAM/Standard_Chart_Page.aspx",
       "platform": "other",
@@ -209,7 +243,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-015",
       "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
       "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
       "platform": "other",
@@ -226,7 +260,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-016",
       "source_name": "ecfr.gov — appendix Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
       "platform": "other",
@@ -243,7 +277,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-017",
       "source_name": "aham.org — ItemDetail",
       "url": "https://www.aham.org/ItemDetail?iProductCode=20022&Category=MADSTD&WebsiteKey=e77c44a3-68e2-480f-81b4-8c09990da1b9",
       "platform": "other",
@@ -260,7 +294,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-018",
       "source_name": "osti.gov — product.biblio",
       "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
       "platform": "other",
@@ -277,13 +311,13 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
-      "source_name": "yaleappliance.com — thermador masterpiece 30 stainless steel single electric wal",
-      "url": "https://www.yaleappliance.com/product/thermador-masterpiece-30-stainless-steel-single-electric-wall-oven-me301yp-665553",
+      "id": "SRC-019",
+      "source_name": "nfm.com — 53232724",
+      "url": "https://www.nfm.com/thermador-30-masterpiece-double-wall-oven-with-true-convection-in-stainless-steel-53232724/53232724.html",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
+      "pool": "B",
       "classification": "score",
       "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
@@ -294,155 +328,127 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
-      "source_name": "thisoldhouse.com — best ovens",
-      "url": "https://www.thisoldhouse.com/kitchens/best-ovens",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "townappliance.com — top ovens of 2026 expert guide to ge miele and bosch at town",
-      "url": "https://www.townappliance.com/blogs/town-appliance-official/top-ovens-of-2026-expert-guide-to-ge-miele-and-bosch-at-town-appliance",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
       "id": "SRC-020",
-      "source_name": "donsappliances.com — jenn air vs wolf guide",
-      "url": "https://www.donsappliances.com/blog/jenn-air-vs-wolf-guide",
+      "source_name": "tolsons.com — thermador masterpiece 30 stainless steel single electric wal",
+      "url": "https://www.tolsons.com/product/thermador-masterpiece-30-stainless-steel-single-electric-wall-oven-me301yp-665553",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-021",
-      "source_name": "houzz.com — if you had your choice with a large budget which appliance",
-      "url": "https://www.houzz.com/discussions/2273945/if-you-had-your-choice-with-a-large-budget-which-appliance",
+      "source_name": "jarvisapplianceinc.com — thermador masterpiece 30 stainless steel double electric wal",
+      "url": "https://www.jarvisapplianceinc.com/product/thermador-masterpiece-30-stainless-steel-double-electric-wall-oven-me302yp-665566",
       "platform": "other",
-      "column": "forum",
+      "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-022",
-      "source_name": "intertek.com — ul 858 household electric ranges",
-      "url": "https://www.intertek.com/standards-updates/ul-858-household-electric-ranges/",
+      "source_name": "bestbuy.com — 6292534",
+      "url": "https://www.bestbuy.com/site/reviews/thermador-masterpiece-36-inches-externally-vented-recirculating-wall-range-hood-stainless-steel/6292534",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-023",
-      "source_name": "reviewed.com — how test electric induction ranges",
-      "url": "https://www.reviewed.com/ovens/features/how-test-electric-induction-ranges",
+      "source_name": "fusespecialtyappliances.com — are thermador appliances worth it",
+      "url": "https://www.fusespecialtyappliances.com/blog/are-thermador-appliances-worth-it",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-024",
-      "source_name": "jdpower.com — 2025 us appliance reliability service study",
-      "url": "https://www.jdpower.com/business/press-releases/2025-us-appliance-reliability-service-study",
+      "source_name": "houzz.com — blue star 36 platinum review thermador masterpiece review",
+      "url": "https://www.houzz.com/discussions/5328207/blue-star-36-platinum-review-thermador-masterpiece-review",
       "platform": "other",
-      "column": "review",
+      "column": "forum",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-025",
-      "source_name": "goodhousekeeping.com — about the kitchen lab",
-      "url": "https://www.goodhousekeeping.com/about/institute/a65913421/about-the-kitchen-lab/",
+      "source_name": "bestbuy.com — 6292494",
+      "url": "https://www.bestbuy.com/site/reviews/thermador-masterpiece-series-30-4-5-cu-ft-built-in-single-electric-smart-wall-oven-with-true-convection-stainless-steel/6292494",
       "platform": "other",
       "column": "review",
       "snippet": "",
       "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
+      "captured_from": "citation_extraction",
       "verified": false
     }
   ],
   "bottom_line": "Thermador Masterpiece — Tier 2 product. Target score: 82/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-005",
-      "SRC-017"
-    ],
-    "sources_report_only": [
       "SRC-001",
       "SRC-002",
+      "SRC-007",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
+    "sources_report_only": [
       "SRC-003",
       "SRC-004",
+      "SRC-005",
       "SRC-006",
-      "SRC-007",
       "SRC-008",
       "SRC-009",
       "SRC-010",
@@ -452,25 +458,19 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-017",
+      "SRC-018"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 5,
+      "pool_S": 6,
       "pool_A": 12,
-      "pool_B": 8,
+      "pool_B": 7,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 79,
-      "after_filter": 65,
+      "raw": 90,
+      "after_filter": 71,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -478,8 +478,8 @@
         "manufacturer": 3,
         "alwaysExclude": 0,
         "bareRoot": 0,
-        "domainCap": 10,
-        "total": 79
+        "domainCap": 15,
+        "total": 90
       }
     }
   },

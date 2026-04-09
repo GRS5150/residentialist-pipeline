@@ -72,6 +72,7 @@ function extractClaims(markdown, maxClaims = 20) {
 // Some category names are ambiguous in search context. Map them to specific terms.
 const CATEGORY_DISAMBIGUATION = {
   'windows': 'residential architectural windows (not Microsoft Windows or software)',
+  'cabinets': 'residential kitchen and bathroom cabinets (not chemical storage or flammable safety cabinets)',
 };
 
 function disambiguate(category) {
@@ -170,12 +171,32 @@ async function processFile(filePath, category) {
 
   const claimBlock = claims.map((c, i) => `${i + 1}. ${c}`).join('\n');
 
-  const prompt = `Find the original published sources for the following claims about ${ctx.label}. For each claim, return the specific article or page URL — not author pages, homepages, or category indexes. Only return URLs you can verify exist.
+  let prompt;
+
+  if (ctx.type === 'product') {
+    // Product deep dives need sources that specifically mention this product
+    const productName = ctx.label.split(' (')[0]; // e.g. "merillat classic"
+    prompt = `Find published sources that specifically review, evaluate, compare, or discuss "${productName}" by name. I need sources where this exact product line is mentioned — not generic category articles.
+
+Look for:
+- Professional installer or contractor reviews mentioning ${productName}
+- Trade publication comparisons that include ${productName}
+- Consumer testing or teardown reports of ${productName}
+- Forum discussions where professionals evaluate ${productName}
+- Industry publications rating or ranking ${productName}
+
+Here are specific claims from a deep dive on ${productName} that need source verification:
+${claimBlock}
+
+Return the specific article URL for each source — not homepages, author pages, or category indexes. Only return URLs you can verify exist and that specifically mention ${productName}.`;
+  } else {
+    prompt = `Find the original published sources for the following claims about ${ctx.label}. For each claim, return the specific article or page URL — not author pages, homepages, or category indexes. Only return URLs you can verify exist.
 
 Claims:
 ${claimBlock}
 
 Return specific, linkable sources — trade publications, testing organizations, professional reviews, government agencies, industry associations, or technical references. Prioritize institutional and expert sources over consumer blogs.`;
+  }
 
   process.stdout.write(`    ${filename} (${claims.length} claims)... `);
 

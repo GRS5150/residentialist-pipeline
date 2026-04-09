@@ -4,57 +4,6 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "epa.gov — protect your tap quick check lead 0",
-      "url": "https://www.epa.gov/ground-water-and-drinking-water/protect-your-tap-quick-check-lead-0",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-002",
-      "source_name": "www1.eere.energy.gov — plumbing tp nopr 05 30 12",
-      "url": "https://www1.eere.energy.gov/buildings/appliance_standards/pdfs/plumbing_tp_nopr_05-30-12.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-003",
-      "source_name": "epa.gov — bathroom faucets",
-      "url": "https://www.epa.gov/watersense/bathroom-faucets",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-004",
       "source_name": "nepis.epa.gov — ZyPURL",
       "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100C2GO.TXT",
       "platform": "other",
@@ -71,143 +20,58 @@
       "verified": false
     },
     {
+      "id": "SRC-002",
+      "source_name": "epa.gov — protect your tap quick check lead 0",
+      "url": "https://www.epa.gov/ground-water-and-drinking-water/protect-your-tap-quick-check-lead-0",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "www1.eere.energy.gov — plumbing tp nopr 05 30 12",
+      "url": "https://www1.eere.energy.gov/buildings/appliance_standards/pdfs/plumbing_tp_nopr_05-30-12.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "epa.gov — bathroom faucets",
+      "url": "https://www.epa.gov/watersense/bathroom-faucets",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
       "id": "SRC-005",
-      "source_name": "nsf.org — faucets plumbing products",
-      "url": "https://www.nsf.org/consumer-resources/articles/faucets-plumbing-products",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-006",
-      "source_name": "basc.pnnl.gov — kitchen faucets",
-      "url": "https://basc.pnnl.gov/resource-guides/kitchen-faucets",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-007",
-      "source_name": "nsf.org — faucets plumbing",
-      "url": "https://www.nsf.org/consumer-resources/faucets-plumbing",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-008",
-      "source_name": "watersino.net — top faucet manufacturers worldwide",
-      "url": "https://watersino.net/top-faucet-manufacturers-worldwide/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-009",
-      "source_name": "cpsc.gov — Lead in Water Faucets",
-      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Lead-in-Water-Faucets",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-010",
-      "source_name": "federalregister.gov — energy conservation program test procedures for faucets and ",
-      "url": "https://www.federalregister.gov/documents/2023/05/24/2023-10847/energy-conservation-program-test-procedures-for-faucets-and-showerheads",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-011",
-      "source_name": "pressbooks.oer.hawaii.edu — faucets and fixtures",
-      "url": "https://pressbooks.oer.hawaii.edu/buildingmaint/chapter/faucets-and-fixtures/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-012",
-      "source_name": "uscode.house.gov — view.xhtml;jsessionid=580FA71C94E12DC7D5EBADED111150BE",
-      "url": "https://uscode.house.gov/view.xhtml;jsessionid=580FA71C94E12DC7D5EBADED111150BE?path=&req=%28title%3A42+section%3A6293+edition%3Aprelim%29&f=&fq=&num=0&hl=false&edition=prelim",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-013",
       "source_name": "cpsc.gov — CPSC Warns Consumers to Immediately Stop Using Certain Chine",
       "url": "https://www.cpsc.gov/Newsroom/News-Releases/2025/CPSC-Warns-Consumers-to-Immediately-Stop-Using-Certain-Chinese-Made-Faucets-Sold-on-Amazon-com-Due-to-Dangerous-Lead-Exposure-for-Infants-Young-Children-and-Pregnant-Women",
       "platform": "other",
@@ -224,7 +88,211 @@
       "verified": false
     },
     {
+      "id": "SRC-006",
+      "source_name": "nsf.org — faucets plumbing products",
+      "url": "https://www.nsf.org/consumer-resources/articles/faucets-plumbing-products",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "basc.pnnl.gov — kitchen faucets",
+      "url": "https://basc.pnnl.gov/resource-guides/kitchen-faucets",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "nsf.org — faucets plumbing",
+      "url": "https://www.nsf.org/consumer-resources/faucets-plumbing",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "watersino.net — top faucet manufacturers worldwide",
+      "url": "https://watersino.net/top-faucet-manufacturers-worldwide/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "cpsc.gov — Lead in Water Faucets",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Lead-in-Water-Faucets",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "federalregister.gov — energy conservation program test procedures for faucets and ",
+      "url": "https://www.federalregister.gov/documents/2023/05/24/2023-10847/energy-conservation-program-test-procedures-for-faucets-and-showerheads",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "pressbooks.oer.hawaii.edu — faucets and fixtures",
+      "url": "https://pressbooks.oer.hawaii.edu/buildingmaint/chapter/faucets-and-fixtures/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "uscode.house.gov — view.xhtml;jsessionid=580FA71C94E12DC7D5EBADED111150BE",
+      "url": "https://uscode.house.gov/view.xhtml;jsessionid=580FA71C94E12DC7D5EBADED111150BE?path=&req=%28title%3A42+section%3A6293+edition%3Aprelim%29&f=&fq=&num=0&hl=false&edition=prelim",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
       "id": "SRC-014",
+      "source_name": "starcraftcustombuilders.com — sources.faucets.In2Aqua",
+      "url": "https://www.starcraftcustombuilders.com/sources.faucets.In2Aqua.htm",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "houzz.com — in2aqua kitchen faucet vs brizo rubinet california faucets",
+      "url": "https://www.houzz.com/discussions/4847102/in2aqua-kitchen-faucet-vs-brizo-rubinet-california-faucets",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "phcppros.com — 19606 in2aqua named best value luxury faucet for seventh yea",
+      "url": "https://www.phcppros.com/articles/19606-in2aqua-named-best-value-luxury-faucet-for-seventh-year-in-a-row-by-starcraft-reviews",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "retrofithomemagazine.com — in2aqua earns best value in luxury faucets recognition",
+      "url": "https://retrofithomemagazine.com/2024/06/in2aqua-earns-best-value-in-luxury-faucets-recognition/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
       "source_name": "cnmassin.com — 5 core standards for high quality kitchen fauc 85153955",
       "url": "https://www.cnmassin.com/news/5-core-standards-for-high-quality-kitchen-fauc-85153955.html",
       "platform": "other",
@@ -241,7 +309,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-019",
       "source_name": "allorausa.com — why nsf certified faucets are essential for safe homes",
       "url": "https://allorausa.com/blogs/news/why-nsf-certified-faucets-are-essential-for-safe-homes",
       "platform": "other",
@@ -258,7 +326,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-020",
       "source_name": "americanstandard-us.com — low lead and lead free faucets",
       "url": "https://www.americanstandard-us.com/pages/low-lead-and-lead-free-faucets",
       "platform": "other",
@@ -275,7 +343,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-021",
       "source_name": "blog.bathselect.com — best independent reviews of over 5 faucet brands",
       "url": "https://blog.bathselect.com/best-independent-reviews-of-over-5-faucet-brands/",
       "platform": "other",
@@ -292,7 +360,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-022",
       "source_name": "wreckedrefined.com — moen delta kohler best faucet brand comparison",
       "url": "https://www.wreckedrefined.com/blog/moen-delta-kohler-best-faucet-brand-comparison",
       "platform": "other",
@@ -309,7 +377,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-023",
       "source_name": "fastresponseplumbingsf.com — top brands for faucets recommended by san francisco plumbers",
       "url": "https://www.fastresponseplumbingsf.com/top-brands-for-faucets-recommended-by-san-francisco-plumbers/",
       "platform": "other",
@@ -326,7 +394,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-024",
       "source_name": "shouldit.com",
       "url": "https://shouldit.com/kitchen-faucets/reviews/best/",
       "platform": "other",
@@ -343,7 +411,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-025",
       "source_name": "homedepot.com — N 5yc1vZar0kZbwo5q",
       "url": "https://www.homedepot.com/b/Kitchen-Kitchen-Faucets/Best-Rated/N-5yc1vZar0kZbwo5q",
       "platform": "other",
@@ -358,87 +426,22 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_3",
       "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "holiechina.com — what makes german faucet manufacturers the worlds best choic",
-      "url": "https://holiechina.com/what-makes-german-faucet-manufacturers-the-worlds-best-choice-in-2025/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "sharmarket.co — competitor analysis in the global faucet market review of ch",
-      "url": "https://sharmarket.co/blog/competitor-analysis-in-the-global-faucet-market-review-of-chinese-turkish-and-european-brands",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "watersino.net — what certifications do your commercial faucets need",
-      "url": "https://watersino.net/what-certifications-do-your-commercial-faucets-need/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "susproc.jrc.ec.europa.eu — 1st%20draft Technical background report Criteria for taps an",
-      "url": "https://susproc.jrc.ec.europa.eu/product-bureau/sites/default/files/contentype/product_group_documents/1581682812/1st%20draft_Technical_background_report_Criteria_for_taps_and_showerheads.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
     }
   ],
   "bottom_line": "Kerox PVD+ cartridge at 4M cycles — highest documented cycle rating in residential. Best warranty per StarCraft analysis. Solid brass construction. German-engineered. Lifetime warranty. Parts good but not as widely stocked as US brands.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-004",
-      "SRC-013"
+      "SRC-001",
+      "SRC-005",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017"
     ],
     "sources_report_only": [
-      "SRC-001",
       "SRC-002",
       "SRC-003",
-      "SRC-005",
+      "SRC-004",
       "SRC-006",
       "SRC-007",
       "SRC-008",
@@ -446,10 +449,7 @@
       "SRC-010",
       "SRC-011",
       "SRC-012",
-      "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-017",
+      "SRC-013",
       "SRC-018",
       "SRC-019",
       "SRC-020",
@@ -467,17 +467,17 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 65,
-      "after_filter": 58,
+      "raw": 70,
+      "after_filter": 62,
       "capped": 25,
       "dropped": {
         "dead": 0,
         "nonContent": 0,
-        "manufacturer": 2,
+        "manufacturer": 3,
         "alwaysExclude": 0,
         "bareRoot": 0,
         "domainCap": 5,
-        "total": 65
+        "total": 70
       }
     }
   },

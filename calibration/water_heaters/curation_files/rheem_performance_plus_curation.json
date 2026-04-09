@@ -4,25 +4,25 @@
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "energystar.gov — ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20",
-      "url": "https://www.energystar.gov/sites/default/files/2024-07/ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20Heat%20Pump%20Water%20Heater%20Systems.pdf",
+      "source_name": "energystar.gov — results",
+      "url": "https://www.energystar.gov/productfinder/product/certified-heat-pump-water-heaters/results",
       "platform": "other",
       "column": "expert",
       "snippet": "",
       "pool": "S",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
+      "captured_from": "citation_extraction",
       "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "energystar.gov — what uniform energy factor and why does it matter",
-      "url": "https://www.energystar.gov/products/ask-the-experts/what-uniform-energy-factor-and-why-does-it-matter",
+      "source_name": "energystar.gov — ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20",
+      "url": "https://www.energystar.gov/sites/default/files/2024-07/ENERGY%20STAR%20Draft%201%20Test%20Method%20for%20Central%20Heat%20Pump%20Water%20Heater%20Systems.pdf",
       "platform": "other",
       "column": "expert",
       "snippet": "",
@@ -278,6 +278,74 @@
     },
     {
       "id": "SRC-017",
+      "source_name": "images.thdstatic.com — e0cecf37 4457 4ffa b792 9af25cae164e",
+      "url": "https://images.thdstatic.com/catalog/pdfImages/e0/e0cecf37-4457-4ffa-b792-9af25cae164e.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "files.myrheem.com — C81305E4 0B6B 45EF 8E3C 473A4F1CEB05",
+      "url": "https://files.myrheem.com/webpartnerspublic/ProductDocuments/C81305E4-0B6B-45EF-8E3C-473A4F1CEB05.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-50-gal-5500-Watt-Medium-Electric-Water-Heater-with-9-Year-Tank-Warranty-and-240-volt-Connection-XE50M09EL55U1/205810460/5",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-50-Gal-Medium-5500-Watt-Double-Element-Electric-Water-Heater-w-LED-Diagnostic-System-9-Year-Warranty-XE50M09EL55U1/326434096/5",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
       "source_name": "westernbuildersupply.com — comparing performance performance plus and performance plati",
       "url": "https://www.westernbuildersupply.com/post/comparing-performance-performance-plus-and-performance-platinum-natural-gas-water-heaters",
       "platform": "other",
@@ -295,7 +363,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-022",
       "source_name": "joinarbor.com — best heat pump water heater",
       "url": "https://www.joinarbor.com/resources/best-heat-pump-water-heater",
       "platform": "other",
@@ -312,7 +380,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-023",
       "source_name": "nidoplumbing.com — rheem professional vs performance which water heater line fi",
       "url": "https://www.nidoplumbing.com/post/rheem-professional-vs-performance-which-water-heater-line-fits-your-home",
       "platform": "other",
@@ -329,24 +397,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
-      "source_name": "homedepot.com",
-      "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-9-5-GPM-Smart-Non-Condensing-Outdoor-Natural-Gas-Tankless-Water-Heater-ECO200XELN-3/325309137/5",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
+      "id": "SRC-024",
       "source_name": "goodhousekeeping.com — best water heater brands",
       "url": "https://www.goodhousekeeping.com/home-products/g62909149/best-water-heater-brands/",
       "platform": "other",
@@ -363,24 +414,7 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
-      "source_name": "homedepot.com",
-      "url": "https://www.homedepot.com/p/reviews/Rheem-Performance-Plus-50-Gal-Tall-4500-Watt-Double-Element-Electric-Water-Heater-w-LED-Diagnostic-System-and-9-Year-Warranty-XE50T09EL45U1/326434047/2",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
+      "id": "SRC-025",
       "source_name": "americanplumbingwa.com — best water heater brands",
       "url": "https://www.americanplumbingwa.com/best-water-heater-brands",
       "platform": "other",
@@ -396,47 +430,18 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_3",
       "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "littekenplumbing.com — best water heaters on market",
-      "url": "https://littekenplumbing.com/2025/05/15/best-water-heaters-on-market/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "modernize.com — best tank water heaters",
-      "url": "https://modernize.com/plumbing/water-heaters/best-tank-water-heaters",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
     }
   ],
   "bottom_line": "Rheem Performance Plus (50 gal Tank) — Tier 3 product. Target score: 61/100.",
   "scoring_notes": {
-    "sources_scored": [],
-    "sources_report_only": [
+    "sources_scored": [
       "SRC-001",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020"
+    ],
+    "sources_report_only": [
       "SRC-002",
       "SRC-003",
       "SRC-004",
@@ -452,10 +457,6 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
       "SRC-021",
       "SRC-022",
       "SRC-023",
@@ -470,8 +471,8 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 81,
-      "after_filter": 64,
+      "raw": 87,
+      "after_filter": 65,
       "capped": 25,
       "dropped": {
         "dead": 0,
@@ -479,8 +480,8 @@
         "manufacturer": 6,
         "alwaysExclude": 0,
         "bareRoot": 1,
-        "domainCap": 9,
-        "total": 81
+        "domainCap": 14,
+        "total": 87
       }
     }
   },

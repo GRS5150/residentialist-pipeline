@@ -243,6 +243,91 @@
     },
     {
       "id": "SRC-015",
+      "source_name": "lowes.com — 1003198178",
+      "url": "https://www.lowes.com/pd/Kraus-Standart-PRO-Undermount-30-in-x-18-in-Stainless-Steel-Single-Bowl-Kitchen-Sink/1003198178",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "ajmadison.com — KHU10030",
+      "url": "https://www.ajmadison.com/cgi-bin/ajmadison/KHU10030.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/KRAUS-Standart-PRO-30-in-Undermount-Single-Bowl-16-Gauge-Satin-Stainless-Steel-Kitchen-Sink-with-Garbage-Disposal-KHU100-30-100-100MB/323563451/5",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "business.walmart.com — 17167120",
+      "url": "https://business.walmart.com/ip/Kraus-Standart-PRO-30-inch-16-Gauge-Single-Bowl-Stainless-Steel-Farmhouse-Kitchen-Sink/17167120",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/KRAUS-Standart-PRO-30-in-Undermount-Single-Bowl-16-Gauge-Satin-Stainless-Steel-Kitchen-Sink-with-Garbage-Disposal-KHU100-30-100-100MB/323563451/4",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
       "source_name": "jabrasanitary.com — kitchen sink brands",
       "url": "https://www.jabrasanitary.com/kitchen-sink-brands",
       "platform": "other",
@@ -259,7 +344,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-021",
       "source_name": "decorplanet.com — top sink brands",
       "url": "https://www.decorplanet.com/blog/2021/07/top-sink-brands.html",
       "platform": "other",
@@ -276,7 +361,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-022",
       "source_name": "ruvati.com — best kitchen sinks 2025",
       "url": "https://www.ruvati.com/best-kitchen-sinks-2025/",
       "platform": "other",
@@ -293,7 +378,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-023",
       "source_name": "aquacubic.com — top kitchen sink manufacturers in the usa",
       "url": "https://www.aquacubic.com/top-kitchen-sink-manufacturers-in-the-usa/",
       "platform": "other",
@@ -310,7 +395,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-024",
       "source_name": "bobvila.com — best kitchen sink brands",
       "url": "https://www.bobvila.com/articles/best-kitchen-sink-brands/",
       "platform": "other",
@@ -327,7 +412,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-025",
       "source_name": "ihatemysink.com — top kitchen sink brands we recommend",
       "url": "https://www.ihatemysink.com/hate-my-sinks/top-kitchen-sink-brands-we-recommend",
       "platform": "other",
@@ -342,96 +427,17 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_3",
       "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "shklbathroom.com — top 15 bathroom sink manufacturers and brands in north ameri",
-      "url": "https://www.shklbathroom.com/top-15-bathroom-sink-manufacturers-and-brands-in-north-american.html",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "thesinkboutique.com — best selling kitchen sinks",
-      "url": "https://thesinkboutique.com/collections/best-selling-kitchen-sinks",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "shophouzz.com — kitchen sinks",
-      "url": "https://shophouzz.com/a/sh/kitchen-sinks",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "dali-technology.com — what are the quality inspection steps for kitchen sinks ",
-      "url": "https://www.dali-technology.com/news/blog/what_are_the_quality_inspection_steps_for_kitchen_sinks_.html",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "mymortuarycooler.com — the complete guide to comparing laboratory sink cabinets",
-      "url": "https://www.mymortuarycooler.com/blogs/news/the-complete-guide-to-comparing-laboratory-sink-cabinets",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
     }
   ],
   "bottom_line": "Kraus Standart PRO 16-Gauge Stainless Undermount (KHU100-30) — Tier 3 product. Target score: 68/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -447,11 +453,6 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -467,17 +468,17 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 78,
-      "after_filter": 66,
+      "raw": 86,
+      "after_filter": 68,
       "capped": 25,
       "dropped": {
         "dead": 0,
         "nonContent": 0,
         "manufacturer": 4,
-        "alwaysExclude": 0,
+        "alwaysExclude": 2,
         "bareRoot": 0,
-        "domainCap": 8,
-        "total": 78
+        "domainCap": 12,
+        "total": 86
       }
     }
   },

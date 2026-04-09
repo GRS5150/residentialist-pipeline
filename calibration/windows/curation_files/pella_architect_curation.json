@@ -4,6 +4,40 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "energy.gov — residential windows coverings",
+      "url": "https://www.energy.gov/sites/prod/files/2013/11/f5/residential_windows_coverings.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "energy.gov — energy performance ratings windows doors and skylights",
+      "url": "https://www.energy.gov/energysaver/energy-performance-ratings-windows-doors-and-skylights",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-003",
       "source_name": "efficientwindows.org — window ratings",
       "url": "https://efficientwindows.org/window-ratings/",
       "platform": "other",
@@ -21,7 +55,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-004",
       "source_name": "youramericanhome.net — average window size standard dimensions",
       "url": "https://youramericanhome.net/average-window-size-standard-dimensions/",
       "platform": "other",
@@ -39,7 +73,58 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-005",
+      "source_name": "basc.pnnl.gov — window performance grades and installation details multifami",
+      "url": "https://basc.pnnl.gov/resource-guides/window-performance-grades-and-installation-details-multifamily-buildings",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "nps.gov — windows evaluating",
+      "url": "https://www.nps.gov/subjects/taxincentives/windows-evaluating.htm",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "hud.gov — NSPIRE Standards v2.1 Window",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standards-v2.1-Window.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-008",
       "source_name": "roofershome.com — understanding window ratings what to look for in energy effi",
       "url": "https://www.roofershome.com/blog/understanding-window-ratings-what-to-look-for-in-energy-efficiency",
       "platform": "other",
@@ -56,7 +141,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-009",
       "source_name": "ecoviewdfw.com — why skilled window installation is important",
       "url": "https://www.ecoviewdfw.com/why-skilled-window-installation-is-important",
       "platform": "other",
@@ -73,7 +158,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-010",
       "source_name": "jpexteriorstx.com — why new construction windows over the last 20 years are low ",
       "url": "https://www.jpexteriorstx.com/blog/p.241127000/why-new-construction-windows-over-the-last-20-years-are-low-quality/",
       "platform": "other",
@@ -91,7 +176,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-011",
       "source_name": "keystonewindow.com — standard window sizes guide",
       "url": "https://www.keystonewindow.com/standard-window-sizes-guide/",
       "platform": "other",
@@ -108,7 +193,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-012",
       "source_name": "alumastergroup.com — ultimate guide to average window size",
       "url": "https://alumastergroup.com/blog/ultimate-guide-to-average-window-size",
       "platform": "other",
@@ -125,7 +210,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-013",
       "source_name": "modernize.com — types",
       "url": "https://modernize.com/windows/types",
       "platform": "other",
@@ -142,7 +227,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-014",
       "source_name": "reconroof.com — best window brands",
       "url": "https://reconroof.com/blog/best-window-brands/",
       "platform": "other",
@@ -159,7 +244,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-015",
       "source_name": "modernize.com — brands",
       "url": "https://modernize.com/windows/brands",
       "platform": "other",
@@ -176,7 +261,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-016",
       "source_name": "replacementwindowdiscussions.com — sierra pacific vs loewen windows your pick",
       "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands/sierra-pacific-vs-loewen-windows-your-pick/",
       "platform": "other",
@@ -193,7 +278,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-017",
       "source_name": "thewindowexperts.com — best window brands",
       "url": "https://thewindowexperts.com/best-window-brands/",
       "platform": "other",
@@ -210,7 +295,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-018",
       "source_name": "builderbrigade.com — which window brands are the best",
       "url": "https://builderbrigade.com/blogs/learn/which-window-brands-are-the-best",
       "platform": "other",
@@ -227,7 +312,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-019",
       "source_name": "hpef.us — 19th century",
       "url": "https://www.hpef.us/historic-windows/windows-through-time/19th-century",
       "platform": "other",
@@ -244,7 +329,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-020",
       "source_name": "wisconsinhistory.org — CS4301",
       "url": "https://www.wisconsinhistory.org/Records/Article/CS4301",
       "platform": "other",
@@ -261,7 +346,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-021",
       "source_name": "slcdocs.com",
       "url": "http://www.slcdocs.com/historicpreservation/guideres/ch3.pdf",
       "platform": "other",
@@ -278,7 +363,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-022",
       "source_name": "traditionalbuilding.com — windows home",
       "url": "https://www.traditionalbuilding.com/opinions/windows-home",
       "platform": "other",
@@ -295,7 +380,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-023",
       "source_name": "preservationdallas.org — Washington DC Windows and Doors",
       "url": "https://preservationdallas.org/wp-content/uploads/2020/09/Washington-DC-Windows_and_Doors.pdf",
       "platform": "other",
@@ -312,7 +397,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-024",
       "source_name": "casabellawindows.ca — windows through the ages exploring the evolution of window d",
       "url": "https://casabellawindows.ca/windows-through-the-ages-exploring-the-evolution-of-window-design/",
       "platform": "other",
@@ -329,7 +414,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-025",
       "source_name": "miwindows.com — architectural and design styles",
       "url": "https://miwindows.com/blog/architectural-and-design-styles",
       "platform": "other",
@@ -343,57 +428,6 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "northviewcanada.com — window in historic architectural styles",
-      "url": "https://northviewcanada.com/window-in-historic-architectural-styles/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "kolbewindows.com — representing historical architecture",
-      "url": "https://www.kolbewindows.com/blog/representing-historical-architecture",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=tWN91p01qOU",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "C",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
       "verified": false
     }
   ],
@@ -423,27 +457,29 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023"
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 0,
-      "pool_A": 2,
-      "pool_B": 20,
-      "pool_C": 1
+      "pool_S": 2,
+      "pool_A": 5,
+      "pool_B": 18,
+      "pool_C": 0
     },
     "filter_summary": {
-      "raw": 23,
-      "after_filter": 23,
-      "capped": 23,
+      "raw": 72,
+      "after_filter": 69,
+      "capped": 25,
       "dropped": {
         "dead": 0,
-        "nonContent": 0,
+        "nonContent": 1,
         "manufacturer": 0,
         "alwaysExclude": 0,
-        "bareRoot": 0,
+        "bareRoot": 2,
         "domainCap": 0,
-        "total": 23
+        "total": 72
       }
     }
   },
