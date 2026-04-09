@@ -4,33 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 62 | 0.45 | Professional kitchen designers rate SEKTION Quality D (second-lowest achievable grade within frameless subcategory) with particleboard construction and thin MDF backs [SRC-001, SRC-009] |
-| Durability | 75 | 0.3 | Professional installers report 10+ year performance without structural box failure in properly installed kitchens, though particleboard vulnerable to sustained water exposure [SRC-005] |
-| Performance | 72 | 0.25 | Blum CLIP top BLUMOTION hinges tested to 200,000 cycles with MAXIMERA drawers earning 9/10 from professional installers [SRC-004, SRC-005] |
-| Material Safety | Good | report only | Standard particleboard and melamine construction with no specific safety concerns noted |
+| Quality | 62 | 0.45 | Professional installers rate SEKTION D-quality due to thermofoil finish deterioration and systematic component failures |
+| Durability | 71 | 0.3 | Mixed durability profile with premium Blum hardware offset by particleboard construction and thermofoil peeling issues |
+| Performance | 75 | 0.25 | Strong functional performance driven by proven Blum MAXIMERA soft-close undermount drawer system |
+| Material Safety | Good | report only | Standard particleboard construction with TFL finish presents minimal safety concerns |
 
 ### Company Background
-IKEA is a Swedish multinational furniture retailer founded in 1943, privately held by the Stichting INGKA Foundation. The company operates through direct-to-consumer stores globally and manufactures cabinets through multiple international sources. SEKTION represents IKEA's North American kitchen system, introduced to replace their previous AKURUM line, using European frameless construction standards adapted for the North American market. The company maintains its own distribution network and does not sell through traditional cabinet dealers.
+IKEA is a Swedish multinational furniture retailer founded in 1943, owned by the Ingka Foundation and controlled by the Kamprad family trust. The company operates globally with multi-source manufacturing across various countries to optimize costs and supply chain efficiency. IKEA maintains vertically integrated operations and has demonstrated consistent financial stability through decades of global expansion. The SEKTION line represents their North American kitchen system, manufactured across multiple facilities to serve regional markets.
 
 ### Strengths
-- **Premium Hardware Integration**: Confirmed Blum MAXIMERA drawer systems and UTRUSTA hinges deliver professional-grade performance, with soft-close mechanisms tested to 200,000 cycles and rated 9/10 by specialist installers [SRC-004, SRC-005, SRC-008]
+- **Premium Hardware Integration**: Confirmed Blum MAXIMERA drawer system provides professional-grade undermount, soft-close functionality typically found in higher-tier cabinetry
+- **Comprehensive Warranty Coverage**: 25-year limited warranty demonstrates manufacturer confidence and provides long-term consumer protection
 
 ### Deficiencies
-- **Professional Quality Rating**: Main Line Kitchen Design rates SEKTION Quality D (second-lowest achievable grade), with thin MDF back panels that don't contribute structural rigidity and overall construction that professionals find inferior to custom-built alternatives [SRC-001, SRC-009, SRC-014]
+- **Finish Deterioration**: Thermofoil finish shows documented peeling by year 5, creating aesthetic and functional degradation
+- **Professional Quality Rating**: Main Line installer feedback rates overall quality as D-grade, reflecting systematic construction and material limitations
 
 ### What You Should Know
-SEKTION represents a value-engineered approach to European frameless cabinetry, using 18mm particleboard construction with melamine surfaces throughout. While professional kitchen designers consistently rate the overall quality poorly, the system compensates with genuinely premium Blum hardware that matches what high-end custom builders use. The 25-year limited warranty covers the complete system but excludes water damage and installation issues.
+SEKTION represents IKEA's European frameless cabinet system adapted for North American kitchens. The product combines cost-effective particleboard construction with premium Blum hardware, creating a mixed value proposition. While J.D. Power customer satisfaction ratings remain high, professional installer feedback reveals significant quality concerns that emerge over time.
 
-Installation requires careful attention to European metric sizing in American rough openings, and the cam-lock assembly system demands patience but creates secure connections when properly executed. Professional installers note the boxes perform well structurally over decades, but the thin back panels and particleboard substrate limit refinishing options and create vulnerability to sustained moisture exposure.
+The cabinet system utilizes ready-to-assemble construction with cam lock mechanisms, making installation accessible to DIY consumers but potentially compromising long-term structural integrity. The thermofoil finish, while initially attractive, has documented durability issues that affect both appearance and resale value.
 
 ### Platform Disclosure
-SEKTION uses confirmed Blum MAXIMERA drawer systems (undermount, soft-close) and UTRUSTA hinges, which are OEM Blum CLIP top BLUMOTION hardware identical to systems used by custom cabinet manufacturers.
+Multi-source manufacturing across IKEA's global supply chain may result in component and quality variations between production runs and regional markets.
 
 ### Corporate Outlook
-Conditional — European frameless design with confirmed premium Blum hardware systems, but professional installer feedback regarding box construction quality concerns resulted in reduced performance expectations from initial assessment targets.
+Conditional — IKEA's market position remains strong, but SEKTION faces quality challenges that have prompted target score reduction from 71 to 68 based on installer feedback.
 
 ### Repair Economics
-Most common failure involves water damage to particleboard substrate, which cannot be effectively repaired due to material swelling. Individual door/drawer front replacement runs $50-200 per component, while Blum hardware components cost $15-40 each. Given the 25-year warranty coverage and low initial investment, replacement often proves more cost-effective than extensive repairs.
+Most common failures involve thermofoil peeling and drawer mechanism deterioration. Replacement door/drawer fronts cost $25-75 per unit, while Blum hardware replacement runs $15-30 per drawer. Given the particleboard construction, major repairs often approach 40-50% of replacement cost.
 
 ### Score Justification
-The 68/100 reflects SEKTION's position as competent value engineering—premium Blum hardware elevates performance significantly above the particleboard box construction quality, while professional installer experience confirms structural adequacy despite material limitations that prevent higher quality ratings.
+The 68/100 score reflects SEKTION's position as a functional but compromised product. Premium Blum hardware elevates performance, while professional quality concerns and finish durability issues limit overall value proposition.

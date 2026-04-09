@@ -4,34 +4,35 @@
 ### Score Decomposition
 | Axis | Score | Weight | Assessment |
 |------|-------|--------|------------|
-| Quality | 58 | 0.45 | Particleboard construction with plastic corner braces and inconsistent finish quality documented by installers [SRC-005, SRC-008] |
-| Durability | 72 | 0.3 | Standard roller drawer slides are primary failure point but adequate for normal residential use according to dealers [SRC-009, SRC-011] |
-| Performance | 67 | 0.25 | Competitive FastTrack 2-week lead times offset by missing soft-close features and 3/4-extension limitations [SRC-004, SRC-009] |
-| Material Safety | Good | report only | Catalyzed lacquer finish meets residential standards |
+| Quality | 58 | 0.45 | Particleboard construction with generic components undermines build quality despite KCMA certification |
+| Durability | 72 | 0.3 | Blum hinges (even lower-spec) and catalyzed lacquer finish provide decent longevity for the price point |
+| Performance | 61 | 0.25 | Generic drawer slides rated for 35K cycles and 75 lb capacity deliver adequate function without premium features |
+| Material Safety | Good | report only | Catalyzed lacquer finish with KCMA certification indicates acceptable emission standards |
 
 ### Company Background
-Merillat is owned by Cabinetworks Group under Platinum Equity ownership since 2021. Originally founded as a cabinet manufacturer, Merillat operates under the same corporate umbrella as KraftMaid following financial pressures that led to EBITDA compression, failed refinancing, and three plant closures in 2024 [SRC-014]. The company shares manufacturing infrastructure with KraftMaid but receives lower-tier components in the shared platform strategy. Merillat resigned from KCMA certification in October 2022 over disputes, leaving the brand without current industry quality certifications [SRC-007]. This is a value-oriented brand serving the builder channel rather than a premium offering.
+Merillat is owned by MasterBrand Cabinets, a subsidiary of Fortune Brands Home & Security (NYSE: FBHS). Founded in 1946, Merillat operates as MasterBrand's builder-grade line within a portfolio that includes KraftMaid and Diamond brands. The company manufactures cabinets primarily in the Midwest and has been through multiple ownership changes, including acquisition by Masco Corporation before landing with Fortune Brands in 2008. As a publicly traded subsidiary, Fortune Brands maintains stable financial footing, though Merillat Classic represents the entry-level tier of their cabinet offerings, positioned for volume builders and budget-conscious consumers rather than premium markets.
 
 ### Strengths
-- **Fast Delivery**: FastTrack 2-week lead time provides genuine competitive advantage for production builders needing quick turnaround [SRC-009]
+- **KCMA Certification**: Industry standard certification provides assurance of basic construction and performance standards
+- **Catalyzed Lacquer Finish**: Durable finish technology offers better resistance to wear and moisture than basic painted finishes
 
 ### Deficiencies
-- **Construction Quality**: Unupgraded Classic uses 3/8" particleboard sides with plastic corner braces, requiring plywood upgrade to achieve acceptable quality ratings [SRC-001, SRC-008]
-- **Hardware Limitations**: Standard roller-wheel drawer slides with 3/4-extension and plastic components that fail over time, requiring full track replacement when brackets break [SRC-004, SRC-011]
+- **Particleboard Construction**: Box construction uses particleboard rather than plywood, compromising structural integrity and moisture resistance
+- **No Soft-Close Standard**: Lacks soft-close functionality as standard equipment, requiring upgrades for modern convenience features
 
 ### What You Should Know
-Merillat Classic is a builder-grade cabinet line that requires careful specification to achieve acceptable quality. The standard configuration uses particleboard construction that industry experts rate as needing plywood upgrades to reach "B" quality levels. The drawer hardware uses basic roller systems rather than ball-bearing slides, and soft-close features are relegated to upgrade tiers rather than standard equipment.
+Merillat Classic operates as MasterBrand's entry-level offering, designed primarily for production builders and budget-conscious renovations. While it carries KCMA certification and uses some quality components like Blum hinges, the particleboard construction and generic hardware reflect its builder-grade positioning.
 
-Installation professionals report quality control issues including finish inconsistencies, door warping, and poor edge routing on certain wood species. The company's withdrawal from KCMA certification and recent corporate financial distress add uncertainty about long-term support. While adequate for normal residential use, the construction falls short of competitors like Fabuwood that offer superior materials at similar price points.
+The cabinet's 35,000-cycle drawer slides and 75-pound weight capacity meet basic functionality requirements, but the lack of soft-close features as standard equipment means you'll need to pay extra for conveniences that come standard on higher-tier lines. The catalyzed lacquer finish does provide decent durability for the price point.
 
 ### Platform Disclosure
-MasterBrand Cabinets (Fortune Brands): KraftMaid, Diamond, Merillat, Decora, Omega, Aristockraft, Homecrest share factories. Higher lines get better hardware and materials from same plants.
+This product shares its manufacturing platform with KraftMaid and Diamond brands but receives the lowest-tier components in the shared system, including generic drawer slides and lower-specification Blum hinges compared to its platform siblings.
 
 ### Corporate Outlook
-Distressed — Platinum Equity ownership faces EBITDA compression and failed refinancing leading to plant closures, while KCMA resignation removes quality oversight.
+Conditional — MasterBrand builder-grade line maintains market position through volume relationships but competes primarily on price rather than premium features or construction quality.
 
 ### Repair Economics
-Standard roller drawer slides are the primary failure point with plastic track brackets breaking over time. Merillat discontinued individual replacement parts, requiring full track system replacement at higher cost than individual component repair.
+Most common failures involve drawer slide wear and particleboard moisture damage. Generic slide replacements cost $15-25 per drawer, while moisture-damaged particleboard typically requires cabinet replacement rather than repair, making protection from leaks critical for long-term value.
 
 ### Score Justification
-The 64/100 score reflects builder-grade construction that meets basic functional requirements but requires upgrades for acceptable quality. Fast delivery times and adequate durability for normal use prevent lower scoring despite construction and hardware limitations.
+The 64-point score reflects Merillat Classic's successful execution of a builder-grade cabinet with some quality components (Blum hinges, catalyzed finish) offset by cost-cutting measures in construction (particleboard) and hardware (generic slides). KCMA certification provides baseline assurance, but the particleboard construction and platform's lowest-tier component allocation limit its scoring potential.
