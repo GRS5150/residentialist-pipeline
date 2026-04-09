@@ -459,38 +459,59 @@ async function showProductDetail(categorySlug, productSlug) {
       html += `</div></div>`;
     }
 
-    // ── Evidence by Category (unified — replaces separate Sources list) ──
+    // ── Evidence by Scope (Product Evidence + Category Standards) ──
     {
       const columns = ['expert', 'review', 'forum', 'field', 'manufacturer', 'other'];
-      // For sources with no column, fall back to sourcesByColumn['other']
-      // groupSourcesByColumn already handles this via the 'other' bucket
       const colData = p.sourcesByColumn || {};
       const hasAny = columns.some(col => (colData[col] || []).length > 0);
       if (hasAny) {
-        html += `<div class="detail-section"><div class="section-title">Evidence by Category</div><div class="evidence-grid">`;
+        // Gather all sources and split by scope
+        const allSources = [];
         for (const col of columns) {
-          const sources = colData[col] || [];
-          if (sources.length === 0) continue;
-          html += `<div class="evidence-column">`;
-          html += `<div class="evidence-col-header"><span class="evidence-col-name">${formatSpecKey(col)}</span><span class="evidence-col-count">${sources.length}</span></div>`;
-          for (const src of sources) {
-            const sid = esc(src.id || '');
-            const sname = esc(src.source_name);
-            const surl = esc(src.url || '');
-            html += `<div class="evidence-source evidence-source-clickable" data-source-id="${sid}" data-source-name="${sname}" data-source-url="${surl}">`;
-            html += `<div class="evidence-source-top">`;
-            if (src.pool) html += `<span class="source-pool-badge">${esc(src.pool)}</span>`;
-            if (src.classification) html += `<span class="source-class-badge ${esc(src.classification)}">${esc(src.classification)}</span>`;
-            html += `<span class="evidence-source-name">${esc(src.source_name)}</span>`;
-            html += `<span class="evidence-strength-indicator" data-source-key="${esc(cat.slug + '||' + p.slug + '||' + src.source_name)}"></span>`;
-            html += `<button class="inspect-btn evidence-inspect-btn" data-source-id="${sid}" data-source-name="${sname}" data-source-url="${surl}" title="Inspect this source">${inspectSVG}</button>`;
-            html += `</div>`;
-            if (src.snippet) html += `<div class="evidence-snippet">${esc(src.snippet.substring(0, 150))}</div>`;
-            html += `</div>`;
+          for (const src of (colData[col] || [])) {
+            allSources.push({ ...src, _col: col });
           }
-          html += `</div>`;
         }
-        html += `</div></div>`;
+        const productSources = allSources.filter(s => s.scope === 'product');
+        const categorySources = allSources.filter(s => s.scope !== 'product');
+
+        const renderScopeSection = (title, sources) => {
+          if (sources.length === 0) return '';
+          // Group by column within scope
+          const byCol = {};
+          for (const s of sources) {
+            if (!byCol[s._col]) byCol[s._col] = [];
+            byCol[s._col].push(s);
+          }
+          let shtml = `<div class="detail-section"><div class="section-title">${title} (${sources.length})</div><div class="evidence-grid">`;
+          for (const col of columns) {
+            const colSources = byCol[col] || [];
+            if (colSources.length === 0) continue;
+            shtml += `<div class="evidence-column">`;
+            shtml += `<div class="evidence-col-header"><span class="evidence-col-name">${formatSpecKey(col)}</span><span class="evidence-col-count">${colSources.length}</span></div>`;
+            for (const src of colSources) {
+              const sid = esc(src.id || '');
+              const sname = esc(src.source_name);
+              const surl = esc(src.url || '');
+              shtml += `<div class="evidence-source evidence-source-clickable" data-source-id="${sid}" data-source-name="${sname}" data-source-url="${surl}">`;
+              shtml += `<div class="evidence-source-top">`;
+              if (src.pool) shtml += `<span class="source-pool-badge">${esc(src.pool)}</span>`;
+              if (src.classification) shtml += `<span class="source-class-badge ${esc(src.classification)}">${esc(src.classification)}</span>`;
+              shtml += `<span class="evidence-source-name">${esc(src.source_name)}</span>`;
+              shtml += `<span class="evidence-strength-indicator" data-source-key="${esc(cat.slug + '||' + p.slug + '||' + src.source_name)}"></span>`;
+              shtml += `<button class="inspect-btn evidence-inspect-btn" data-source-id="${sid}" data-source-name="${sname}" data-source-url="${surl}" title="Inspect this source">${inspectSVG}</button>`;
+              shtml += `</div>`;
+              if (src.snippet) shtml += `<div class="evidence-snippet">${esc(src.snippet.substring(0, 150))}</div>`;
+              shtml += `</div>`;
+            }
+            shtml += `</div>`;
+          }
+          shtml += `</div></div>`;
+          return shtml;
+        };
+
+        html += renderScopeSection('Product Evidence', productSources);
+        html += renderScopeSection('Category Standards', categorySources);
       }
     }
 

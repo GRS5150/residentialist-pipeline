@@ -22,6 +22,7 @@ function normalizeSources(curationData) {
       pool: s.pool || null,
       column: s.column || null,
       snippet: s.snippet || null,
+      scope: s.scope || 'category',
       classification: s.classification || null,
       topics: s.topics || []
     }));

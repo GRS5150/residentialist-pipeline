@@ -265,6 +265,7 @@ function toSourceEntry(regSrc, id) {
     column: classifyColumn(regSrc),
     snippet: '',  // curator fills in via inspector
     pool: regSrc.source_pool || 'B',
+    scope: regSrc.scope || 'category',
     classification: regSrc.scope === 'category' ? 'independent' : 'score',
     classification_reason: `Captured from ${regSrc.captured_from}. Scope: ${regSrc.scope}.`,
     topics: regSrc.axes || ['quality'],
