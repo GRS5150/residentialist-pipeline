@@ -1,230 +1,1037 @@
 {
   "product": "Merillat Classic",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "Main Line Kitchen Design 157-Brand Ratings",
-      "url": "https://www.mainlinekitchendesign.com/general/cabinet-reviews-ratings-for-the-top-100-cabinet-brands/",
+      "source_name": "chesapeakeplywood.com",
+      "url": "https://chesapeakeplywood.com",
       "platform": "other",
       "column": "expert",
-      "snippet": "Merillat Classic rated B Quality B Value at Price Level 3 with plywood upgrade assumed. MLKD rating specifically says Merillat Classic Plywood upgrade. Standard build without upgrade does NOT achieve B rating. Points out Fabuwood at PL2 receives A/A at lower cost with standard plywood and dovetail drawers.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Primary independent professional rating source. Critical distinction that rating assumes plywood upgrade.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "Merillat Classic Construction Details",
-      "url": "https://www.merillat.com/classic/construction",
+      "source_name": "currentcab.com — maple vs birch plywood for cabinets",
+      "url": "https://currentcab.com/maple-vs-birch-plywood-for-cabinets/",
       "platform": "other",
       "column": "expert",
-      "snippet": "End panels sides 3/8 inch engineered wood 48-lb density. Bottom panel 1/2 inch engineered wood with dado and adhesive joint. Back panel wall 3/8 inch base 1/4 inch running to floor. Face frame 3/4 inch solid hardwood. Shelves 3/4 inch engineered wood adjustable. Plywood end panels and all-plywood construction available as upgrade options.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturer specification data. 3/8 inch sides are critical spec — notably thin vs 1/2 inch industry standard.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Merillat Classic Product Page — Drawer Joinery",
-      "url": "https://www.merillat.com/classic",
+      "source_name": "highsierracabinets.com — particle board vs mdf for cabinets",
+      "url": "https://highsierracabinets.com/particle-board-vs-mdf-for-cabinets/",
       "platform": "other",
       "column": "expert",
-      "snippet": "All corners of the drawer core use rabbet joinery secured with adhesive and staples. This is the standard tier. Dovetail drawers are a Deluxe upgrade not standard. Deluxe tier provides 5/8 inch solid hardwood dovetail with plywood bottom. Standard tier uses engineered wood drawer with rabbet joint.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturer specification confirming standard drawer joinery is rabbet plus staples, NOT dovetail. Critical scoring distinction.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "Merillat Classic Drawer Slide Specification",
-      "url": "https://www.merillat.com/classic/construction",
+      "source_name": "woodweb.com — Materials Labor Overhead And Profit",
+      "url": "https://woodweb.com/knowledge_base/Materials_Labor_Overhead_And_Profit.html",
       "platform": "other",
       "column": "expert",
-      "snippet": "Standard tier 3/4-extension side-mount dual-captive roller drawer guide system 75 lb load capacity. NOT ball-bearing NOT full-extension. Commodity roller-wheel system same class as entry-level builder and RTA. Deluxe tier full-extension concealed undermount with SoftAction+ soft-close. Brand not disclosed for either tier. No cycle life published.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturer specification confirming standard slide is commodity roller, not premium undermount. Significant hardware gap vs competitors.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "performance",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "Fine Homebuilding Forum — Merillat Installer Feedback",
-      "url": "https://www.finehomebuilding.com/forum",
+      "source_name": "blum.com — overview",
+      "url": "https://www.blum.com/us/en/company/quality-innovation/overview/",
       "platform": "other",
-      "column": "review",
-      "snippet": "Contractor 25 plus years switched away from Merillat after repeated glazed finish inconsistency, doors arriving warped or unfinished, poor QC on cherry edge routing, customer service refusing further replacements. Separate installer described Classic as step above Mills Pride noting 3/8 sides hot-melt glue not covering all joints crowns in front rails cabinets slightly out of square finish appearing soft on certain colors. Merillat solid but just a basic lower to middle end cabinet lower grade hinges drawer slides.",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Multiple professional installers with long-tenure experience providing detailed construction and QC assessments.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "Merillat Hinge Specification — SoftAction",
-      "url": "https://www.merillat.com/classic/construction",
+      "source_name": "woodworkerexpress.com — best cabinet hinge brands",
+      "url": "https://woodworkerexpress.com/blog/2025/10/best-cabinet-hinge-brands/",
       "platform": "other",
       "column": "expert",
-      "snippet": "All Classic cabinets use proprietary SoftAction concealed hinges nickel-plated 6-way adjustable with integrated soft-close. Merillat-branded no third-party manufacturer Blum Grass Salice identified. Cycle life not publicly rated. Limited lifetime warranty on hinges.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturer specification confirming proprietary unbranded hardware. Absence of third-party brand name and cycle life data is a verifiable finding.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "performance",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "KCMA Resignation — Cabinetworks Group",
-      "url": "https://kcma.org",
+      "source_name": "refaceful.com — the downsides of rigid thermofoil rtf cabinets",
+      "url": "https://refaceful.com/the-downsides-of-rigid-thermofoil-rtf-cabinets/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Merillat and Cabinetworks Group resigned from KCMA October 2022 over anti-circumvention dispute. No current KCMA A161.1 certification found for Merillat Classic specifically. Unlike American Woodmark which re-certified for some products, no 2025 or 2026 KCMA certificate found for Merillat.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "KCMA certification absence verified through directory check. Affects scoring per methodology.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "Houzz — Merillat Professional Thread",
-      "url": "https://www.houzz.com",
-      "platform": "houzz",
-      "column": "review",
-      "snippet": "Unupgraded Classic has 3/8 particle board sides and plastic corner braces. Called unupgraded KraftMaid a giant step up. Separate 2015 homeowner post documented door warping on painted doors replacements arriving with same problem laminate edge chipping on shelves inconsistent white color matching missing door soft-close on base cabinets.",
+      "source_name": "woodworkerexpress.com — blum tandem vs movento",
+      "url": "https://woodworkerexpress.com/blog/2025/03/blum-tandem-vs-movento/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Professional and consumer field reports identifying specific construction and QC issues.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-009",
-      "source_name": "Kitchen Dealer Comparison — Merillat vs KraftMaid 2026",
-      "url": "https://www.kitchenreviews.com",
+      "source_name": "shop.hettich.com — group9396843931182",
+      "url": "https://shop.hettich.com/us_EN/system-comparison/compare/group9396843931182",
       "platform": "other",
-      "column": "review",
-      "snippet": "Classic thinner box material noticeable compared to KraftMaid but adequate for normal residential use. Gap widens in heavy-use areas base cabinets near stove pot-and-pan drawers upper cabinets holding heavy items. FastTrack 2-week lead time cited as genuine competitive advantage for production builders.",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Trade comparison analysis with specific construction gap assessment and competitive positioning.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-010",
-      "source_name": "Merillat Warranty Terms",
-      "url": "https://www.merillat.com/warranty",
+      "source_name": "grass.eu — dynapro",
+      "url": "https://www.grass.eu/en/products/slides/dynapro/",
       "platform": "other",
       "column": "expert",
-      "snippet": "25-year limited warranty for cabinets purchased on or after January 5 2009. NOT transferable. Excludes moisture damage, UV aging, color variation, installation damage, natural joint movement hairline cracks. No labor coverage for removal or reinstallation. Replacements may not match original finish if discontinued.",
+      "snippet": "",
       "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Warranty terms for buyer report context. Moisture exclusion significant given particleboard construction.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-011",
-      "source_name": "YouTube — Merillat Drawer Slide Repair",
-      "url": "https://www.youtube.com",
-      "platform": "youtube",
-      "column": "review",
-      "snippet": "Standard 3/4-extension side-mount roller system documented as primary long-term failure point. Plastic components in roller-wheel track brackets fail over time. Merillat discontinued individual replacement brackets requiring purchase of full new track system.",
+      "source_name": "cabinetparts.com — knape and vogt drawer slides side mount drawer slides KV8400",
+      "url": "https://www.cabinetparts.com/p/knape-and-vogt-drawer-slides-side-mount-drawer-slides-KV840022-p29513",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Documented hardware failure pattern with specific component identification and repair/replacement limitation.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "durability",
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-012",
-      "source_name": "Kitchen Reviews — Merillat Consumer Aggregation",
-      "url": "https://www.kitchenreviews.com/merillat",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=yjqAot1M1FA",
       "platform": "other",
-      "column": "forum",
-      "snippet": "66 homeowner and contractor reviews with mixed results. One negative review noted falling apart construction is subpar with particle board framework. Mixed satisfaction across consumer base.",
+      "column": "expert",
+      "snippet": "",
       "pool": "C",
-      "classification": "score",
-      "classification_reason": "Consumer review aggregation with moderate sample size showing mixed quality reception.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-013",
-      "source_name": "Trustpilot — Merillat Reviews",
-      "url": "https://www.trustpilot.com/review/merillat.com",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=GlJjoeQpSUo",
       "platform": "other",
-      "column": "forum",
-      "snippet": "Defective cabinets wrong doors and colors delivered zero quality control. Consistent with large-volume builder-channel QC complaints common to MasterBrand and Cabinetworks production lines.",
+      "column": "expert",
+      "snippet": "",
       "pool": "C",
-      "classification": "score",
-      "classification_reason": "Consumer complaint platform data corroborating QC consistency issues identified by professionals.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-014",
-      "source_name": "Platinum Equity / Cabinetworks Corporate Risk Data",
-      "url": "https://www.platinumequity.com",
+      "source_name": "kraftmaid.com — product specifications",
+      "url": "https://www.kraftmaid.com/support/product-specifications/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Same PE ownership and financial pressures as KraftMaid. Platinum Equity since 2021. EBITDA compression failed refinancing three plant closures 2024. Shared corporate infrastructure with KraftMaid.",
-      "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Corporate risk data for outlook assessment. Same parent company risk profile as KraftMaid.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "merillat.com — finish options",
+      "url": "https://www.merillat.com/finish-options/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "crystalcabinets.com",
+      "url": "https://crystalcabinets.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "fabuwood.com — cabinets",
+      "url": "https://www.fabuwood.com/cabinets",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "ikea.com — maximera drawer medium white 00265665",
+      "url": "https://www.ikea.com/us/en/p/maximera-drawer-medium-white-00265665/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "aristokraft.com",
+      "url": "https://www.aristokraft.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "mainlinekitchendesign.com — comment page 1",
+      "url": "https://www.mainlinekitchendesign.com/general/kitchen-cabinet-brand-comparison/comment-page-1/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "cabinetdoor.store — best finishes for kitchen cabinets",
+      "url": "https://cabinetdoor.store/blog/best-finishes-for-kitchen-cabinets/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "ww2.arb.ca.gov — frequently asked questions no added formaldehyde and ultra l",
+      "url": "https://ww2.arb.ca.gov/resources/documents/frequently-asked-questions-no-added-formaldehyde-and-ultra-low-emitting",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "houzz.com — is a 75 pound weight limit for a drawer good enough",
+      "url": "https://www.houzz.com/discussions/3141532/is-a-75-pound-weight-limit-for-a-drawer-good-enough",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "woodworkerexpress.com — how to fix drawer slides",
+      "url": "https://woodworkerexpress.com/blog/2025/02/how-to-fix-drawer-slides/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=dqmqVIcF4jU",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "en.wikipedia.org — 32 mm cabinetmaking system",
+      "url": "https://en.wikipedia.org/wiki/32_mm_cabinetmaking_system",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "ww2.arb.ca.gov — composite wood products program",
+      "url": "https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "web.hettich.com — 1705 037 Sensys 0418 HUS",
+      "url": "https://web.hettich.com/fileadmin/media/1705-037_Sensys_0418_HUS.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "deltawoodworksfl.com — 1 2 vs 3 4 plywood for cabinets",
+      "url": "https://deltawoodworksfl.com/1-2-vs-3-4-plywood-for-cabinets/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "bogercabinetry.com — rta cabinet assembly mistakes to avoid",
+      "url": "https://www.bogercabinetry.com/2025/09/25/rta-cabinet-assembly-mistakes-to-avoid/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "spray-net.com — how to choose the best cabinet paint understanding your opti",
+      "url": "https://www.spray-net.com/blog/how-to-choose-the-best-cabinet-paint-understanding-your-options",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "housedigest.com — why white thermofoil cabinets yellowing how prevent",
+      "url": "https://www.housedigest.com/1571254/why-white-thermofoil-cabinets-yellowing-how-prevent/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "blum.com — hingesystems",
+      "url": "https://www.blum.com/gb/en/company/quality-innovation/identify-blum-products/hingesystems/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "woodbin.com — sagulator",
+      "url": "https://woodbin.com/calcs/sagulator/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "woodweb.com — QuarterInch Plywood",
+      "url": "https://woodweb.com/knowledge_base/QuarterInch_Plywood.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=Z2PASuKKOS8",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "salice.com — Salice UNIVERSAL HINGES Ed02 02 2020 ENG",
+      "url": "https://www.salice.com/downloads/3769/3027/Salice_UNIVERSAL-HINGES_Ed02_02-2020_ENG.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "takywj.com — chinese furniture hardware handles in europe and the united ",
+      "url": "https://www.takywj.com/to/chinese-furniture-hardware-handles-in-europe-and-the-united-states-to-win-the-way/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "kcma.org — cabinets certified last 0",
+      "url": "https://kcma.org/insights/cabinets-certified-last-0",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "woodworkingnetwork.com — cabinet trends come down earth",
+      "url": "https://www.woodworkingnetwork.com/cabinets/cabinet-trends-come-down-earth",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "woodworkingnetwork.com — kitchen cabinet manufacturers association releases severe us",
+      "url": "https://www.woodworkingnetwork.com/cabinets/kitchen-cabinet-manufacturers-association-releases-severe-use-performance-standard",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "fergusonhome.com",
+      "url": "https://www.fergusonhome.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "houzz.com — kitchen cabinet quality questions",
+      "url": "https://www.houzz.com/discussions/6384990/kitchen-cabinet-quality-questions",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "risunboard.com — in depth analysis of the strength and moisture resistance bo",
+      "url": "https://www.risunboard.com/news/in-depth-analysis-of-the-strength-and-moisture-resistance-boundaries-of-melamine-particleboard.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-045",
+      "source_name": "cuttingedgeinc.ca — spray stain vs wiping stain for finished cabinet doors",
+      "url": "https://cuttingedgeinc.ca/learning-centre/spray-stain-vs-wiping-stain-for-finished-cabinet-doors/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-046",
+      "source_name": "mychemicalfreehouse.net — non toxic kitchen cabinets",
+      "url": "https://www.mychemicalfreehouse.net/2024/04/non-toxic-kitchen-cabinets.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-047",
+      "source_name": "woodgears.ca — joint strength",
+      "url": "https://woodgears.ca/joint_strength/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-048",
+      "source_name": "plydirect.co.uk — plywood grain",
+      "url": "https://plydirect.co.uk/plywood-grain/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-049",
+      "source_name": "mainlinekitchendesign.com — cabinet reviews ratings for the top 100 cabinet brands",
+      "url": "https://www.mainlinekitchendesign.com/general/cabinet-reviews-ratings-for-the-top-100-cabinet-brands/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-050",
+      "source_name": "dreamlinecabinetry.com — best kitchen cabinets guide",
+      "url": "https://dreamlinecabinetry.com/best-kitchen-cabinets-guide/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-051",
+      "source_name": "housebeautiful.com — best kitchen cabinets brands",
+      "url": "https://www.housebeautiful.com/shopping/a28849189/best-kitchen-cabinets-brands/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-052",
+      "source_name": "goldenhomecabinets.com — brands of kitchen cabinets comparison finding the perfect ma",
+      "url": "https://goldenhomecabinets.com/blogs/industry-news/brands-of-kitchen-cabinets-comparison-finding-the-perfect-match-for-your-home",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-053",
+      "source_name": "houzz.com — need options for good quality mid range cabinet brands",
+      "url": "https://www.houzz.com/discussions/5643130/need-options-for-good-quality-mid-range-cabinet-brands",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-054",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=pvSpM34ELaU",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-055",
+      "source_name": "georgeconstructions.com — top 50 kitchen cabinet brands in the usa",
+      "url": "https://georgeconstructions.com/top-50-kitchen-cabinet-brands-in-the-usa/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-056",
+      "source_name": "aiskitchen.com — top 5 kitchen cabinet manufacturers in the us",
+      "url": "https://www.aiskitchen.com/article/top-5-kitchen-cabinet-manufacturers-in-the-us.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-057",
+      "source_name": "georgecabinetry.com — top 20 best kitchen cabinet brands in 2026",
+      "url": "https://georgecabinetry.com/blog/top-20-best-kitchen-cabinet-brands-in-2026/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-058",
+      "source_name": "rtgcabinets.com — top kitchen cabinet brands",
+      "url": "https://rtgcabinets.com/top-kitchen-cabinet-brands/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-059",
+      "source_name": "houzz.com — cabinet makers crystal rutt etc help",
+      "url": "https://www.houzz.com/discussions/2688353/cabinet-makers-crystal-rutt-etc-help",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-060",
+      "source_name": "mainlinekitchendesign.com — kitchen cabinet brand comparison",
+      "url": "https://www.mainlinekitchendesign.com/general/kitchen-cabinet-brand-comparison/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     }
   ],
   "bottom_line": "MasterBrand builder-grade line. Particleboard box. Generic drawer slides (35K cycles, 75 lb). Blum hinges but lower spec. Catalyzed lacquer finish. KCMA certified (positive). No soft-close standard. Platform shares with KraftMaid/Diamond but gets lowest-tier components.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
@@ -234,31 +1041,75 @@
       "SRC-007",
       "SRC-008",
       "SRC-009",
+      "SRC-010",
       "SRC-011",
       "SRC-012",
-      "SRC-013"
-    ],
-    "sources_report_only": [
-      "SRC-010",
-      "SRC-014"
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025",
+      "SRC-026",
+      "SRC-027",
+      "SRC-028",
+      "SRC-029",
+      "SRC-030",
+      "SRC-031",
+      "SRC-032",
+      "SRC-033",
+      "SRC-034",
+      "SRC-035",
+      "SRC-036",
+      "SRC-037",
+      "SRC-038",
+      "SRC-039",
+      "SRC-040",
+      "SRC-041",
+      "SRC-042",
+      "SRC-043",
+      "SRC-044",
+      "SRC-045",
+      "SRC-046",
+      "SRC-047",
+      "SRC-048",
+      "SRC-049",
+      "SRC-050",
+      "SRC-051",
+      "SRC-052",
+      "SRC-053",
+      "SRC-054",
+      "SRC-055",
+      "SRC-056",
+      "SRC-057",
+      "SRC-058",
+      "SRC-059",
+      "SRC-060"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
-      "pool_A": 8,
-      "pool_B": 4,
-      "pool_C": 2
+      "pool_A": 15,
+      "pool_B": 40,
+      "pool_C": 5
     }
   },
   "product_slug": "merillat_classic",
   "product_name": "Merillat Classic",
   "manufacturer_slug": "merillat",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
-  "platform_disclosure": "MasterBrand Cabinets (Fortune Brands): KraftMaid, Diamond, Merillat, Decora, Omega, Aristockraft, Homecrest share factories. Higher lines get better hardware and materials from same plants.",
+  "platform_disclosure": null,
   "outlook": "Conditional",
   "outlook_rationale": "MasterBrand builder-grade line. Particleboard box. Generic drawer slides (35K cycles, 75 lb). Blum hinges but lower spec. Catalyzed lacquer finish. KCMA certified (positive). No soft-close standard. Platform shares with KraftMaid/Diamond but gets lowest-tier components."
 }

@@ -1,196 +1,336 @@
 {
   "product": "Brizo (DST Cartridge Lines)",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "StarCraft Independent Reviews — Brizo (2025)",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "cnmassin.com — 5 core standards for high quality kitchen fauc 85153955",
+      "url": "https://www.cnmassin.com/news/5-core-standards-for-high-quality-kitchen-fauc-85153955.html",
       "platform": "other",
       "column": "expert",
-      "snippet": "Best Value in luxury faucets made or assembled in Asia as of 2025 report. Previously held Best Value in NA Luxury for nearly a decade but manufacturing shifted to majority-China production resulting in reclassification. StarCraft explicitly recommends verifying DST cartridge presence before purchasing any Brizo model.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S authority — reclassification from NA to Asian category is significant finding.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "DST Cartridge — Independent Testing",
-      "url": "https://www.deltafaucet.com",
+      "source_name": "allorausa.com — why nsf certified faucets are essential for safe homes",
+      "url": "https://allorausa.com/blogs/news/why-nsf-certified-faucets-are-essential-for-safe-homes",
       "platform": "other",
       "column": "expert",
-      "snippet": "Diamond Seal Technology cartridge proprietary to Delta/Masco. Ceramic discs sourced from Kerox Hungary and Maruwa Malaysia. Diamond-dust embedded disc continuously self-polishes opposing disc removing mineral deposits and eliminating lubricant need. Independently tested to 5 million cycles — 10x ASME standard — equivalent to approximately 700 years daily use. Cartridge body manufactured at Delta plastics plant Morgantown Kentucky.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S confirmed independent test data on category-leading cartridge technology.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability",
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Brizo Brilliance PVD Finishes",
-      "url": "https://www.brizo.com",
+      "source_name": "americanstandard-us.com — low lead and lead free faucets",
+      "url": "https://www.americanstandard-us.com/pages/low-lead-and-lead-free-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "Brilliance PVD finishes developed by Vapor Technologies Inc another Masco company at forefront of PVD coating since 1986. Over 20 standard finishes including nine Brilliance PVD. Independent tests show finishes withstand drain cleaners 100+ household cleaning products and repeated steel wool scouring. Guaranteed not to corrode tarnish or discolor for life.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Finish technology specification with independent durability testing.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "Non-DST Cartridge Warning",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "nsf.org — faucets plumbing products",
+      "url": "https://www.nsf.org/consumer-resources/articles/faucets-plumbing-products",
       "platform": "other",
       "column": "expert",
-      "snippet": "Not all Brizo faucets use DST cartridge. Some use Euro-motion ceramic valve identified visually as Sedal SLU cartridges chartered in Spain manufactured in China by Jiangmen Sedal Cetec. Others carry no makers mark — StarCraft states we simply do not know where they come from and have no clue as to their quality.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S warning — critical product differentiation within brand. Non-DST models carry unknown cartridge risk.",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "Brizo Manufacturing Migration",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "basc.pnnl.gov — kitchen faucets",
+      "url": "https://basc.pnnl.gov/resource-guides/kitchen-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "Delta now makes no more than one-third of its Brizo faucets in the US. The rest are manufactured in China. To be considered North American at least 51 percent need to be made here. Brizo no longer qualifies. Manufacturing migration has been ongoing for years and has finally reached tipping point.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S finding on manufacturing provenance shift.",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "Brizo Warranty Terms",
-      "url": "https://www.brizo.com/warranty",
+      "source_name": "nsf.org — faucets plumbing",
+      "url": "https://www.nsf.org/consumer-resources/faucets-plumbing",
       "platform": "other",
       "column": "expert",
-      "snippet": "Comprehensive lifetime warranty covering all mechanical parts including cartridge. Replacement cartridges provided free to original owner. Brilliance PVD finishes guaranteed for life. Customer service consistently rated best-in-class.",
+      "snippet": "",
       "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Warranty terms for buyer context.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "Brizo Spray Technology",
-      "url": "https://www.brizo.com",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=jnAHaCnxPCw",
       "platform": "other",
       "column": "expert",
-      "snippet": "MagneDock magnetic locking securely holds spray wand in place using rare-earth magnets. ShieldSpray technology for targeted cleaning. However all kitchen spray wands are plastic construction — below Waterstone which uses metal wands.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Performance technology specification — advanced spray tech offset by plastic wand construction.",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "performance",
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "Brizo Body Material",
-      "url": "https://www.brizo.com",
+      "source_name": "blog.bathselect.com — best independent reviews of over 5 faucet brands",
+      "url": "https://blog.bathselect.com/best-independent-reviews-of-over-5-faucet-brands/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Brass valve body confirmed. Some zinc decorative elements on certain models. InnoFlex PEX supply lines integrated with DST cartridge stress-tested to 500 psi and 200 degrees F.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Body material specification.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-009",
-      "source_name": "Brizo Certifications",
-      "url": "https://www.brizo.com",
+      "source_name": "wreckedrefined.com — moen delta kohler best faucet brand comparison",
+      "url": "https://www.wreckedrefined.com/blog/moen-delta-kohler-best-faucet-brand-comparison",
       "platform": "other",
       "column": "expert",
-      "snippet": "Full UPC cUPC NSF/ANSI 61 NSF 372 ASME A112.18.1 certification. WaterSense labeled on applicable models. All certifications current.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Full certification suite confirmed.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-010",
-      "source_name": "Professional Plumber Feedback — Brizo",
-      "url": "https://www.reddit.com/r/Plumbing",
-      "platform": "reddit",
-      "column": "forum",
-      "snippet": "Professional plumbers generally rate Brizo highly for DST models. Cartridge replacement described as very easy and less complex than competitors. Some difficulty locating set screw on specific Litze models reported as design-specific issue.",
-      "pool": "C",
-      "classification": "score",
-      "classification_reason": "Professional installer feedback on serviceability.",
+      "source_name": "watersino.net — top faucet manufacturers worldwide",
+      "url": "https://watersino.net/top-faucet-manufacturers-worldwide/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "performance",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "fastresponseplumbingsf.com — top brands for faucets recommended by san francisco plumbers",
+      "url": "https://www.fastresponseplumbingsf.com/top-brands-for-faucets-recommended-by-san-francisco-plumbers/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "shouldit.com",
+      "url": "https://shouldit.com/kitchen-faucets/reviews/best/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "homedepot.com — N 5yc1vZar0kZbwo5q",
+      "url": "https://www.homedepot.com/b/Kitchen-Kitchen-Faucets/Best-Rated/N-5yc1vZar0kZbwo5q",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=g1ITctkJ5wE",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "nsf.org — certified product search",
+      "url": "https://www.nsf.org/certification/certified-product-search",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "epa.gov — specifications and reports",
+      "url": "https://www.epa.gov/watersense/specifications-and-reports",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "iq.ulprospector.com — browse",
+      "url": "https://iq.ulprospector.com/en/browse",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     }
   ],
   "bottom_line": "Diamond Seal Technology (DST) cartridge at 5M cycles — highest cycle count but proprietary (not Flühs/Kerox). Brilliance PVD finish. Solid brass body. BUT: >2/3 China manufacturing, plastic spray wands, not all Brizo models use DST (some Sedal/unknown). Must specify -DST suffix models.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
       "SRC-005",
+      "SRC-006",
       "SRC-007",
       "SRC-008",
       "SRC-009",
-      "SRC-010"
-    ],
-    "sources_report_only": [
-      "SRC-006"
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 4,
+      "pool_S": 1,
       "pool_A": 5,
-      "pool_B": 0,
-      "pool_C": 1
+      "pool_B": 9,
+      "pool_C": 2
     }
   },
   "product_slug": "brizo_dst",
   "product_name": "Brizo (DST Cartridge Lines)",
   "manufacturer_slug": "brizo",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
-  "platform_disclosure": "Delta Faucet Company (Masco): Delta, Brizo, Peerless share DST cartridge technology. Brizo = brass body + PVD. Delta = ZAMAK + chrome. Peerless = cheapest finish/materials. Same core engineering, different build quality.",
+  "platform_disclosure": null,
   "outlook": "Strong",
   "outlook_rationale": "Diamond Seal Technology (DST) cartridge at 5M cycles — highest cycle count but proprietary (not Flühs/Kerox). Brilliance PVD finish. Solid brass body. BUT: >2/3 China manufacturing, plastic spray wands, not all Brizo models use DST (some Sedal/unknown). Must specify -DST suffix models."
 }

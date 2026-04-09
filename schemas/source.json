@@ -1,0 +1,28 @@
+{
+  "$schema": "Residentialist Source Registry v1",
+  "description": "Canonical source object for the Residentialist source registry",
+  "fields": {
+    "url": "string — canonical URL of the source",
+    "name": "string — human-readable source name",
+    "institution": "string — issuing organization or publication",
+    "source_pool": "S|A|B|C — research quality tier",
+    "scope": "category|product — category applies to all products, product is specific",
+    "products": "string[] — product slugs (empty for category-scope)",
+    "axes": "string[] — scoring axes this informs: Q, D, P, MS",
+    "captured_from": "research_pass_1|research_pass_2|research_pass_3|research_pass_4|deep_dive",
+    "captured_at": "ISO 8601 timestamp",
+    "verified": "boolean — manually verified URL is live and content matches"
+  },
+  "example": {
+    "url": "https://kcma.org/certifications/kcma-quality-cabinet-certification",
+    "name": "KCMA A161.1 Cabinet Performance Standard",
+    "institution": "Kitchen Cabinet Manufacturers Association",
+    "source_pool": "A",
+    "scope": "category",
+    "products": [],
+    "axes": ["Q", "D"],
+    "captured_from": "research_pass_1",
+    "captured_at": "2026-04-09T00:00:00Z",
+    "verified": false
+  }
+}

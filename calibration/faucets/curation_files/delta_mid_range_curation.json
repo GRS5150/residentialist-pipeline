@@ -1,196 +1,336 @@
 {
   "product": "Delta Mid-Range (DST models)",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "StarCraft Independent Reviews — Delta (March 2026)",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "cnmassin.com — 5 core standards for high quality kitchen fauc 85153955",
+      "url": "https://www.cnmassin.com/news/5-core-standards-for-high-quality-kitchen-fauc-85153955.html",
       "platform": "other",
       "column": "expert",
-      "snippet": "Best Value in mid-priced faucets made or assembled in Asia. Number 1 or 2 brand recommended by professional plumbers across independent polls. DST era faucets represent genuine engineering step forward. However Delta has undergone significant undisclosed manufacturing transformation shifting from primarily US manufacturer to primarily designer and brand assembler outsourcing majority of fabrication to Asian OEMs.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S authority with manufacturing migration finding.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "DST Cartridge — Same Technology as Brizo",
-      "url": "https://www.deltafaucet.com",
+      "source_name": "allorausa.com — why nsf certified faucets are essential for safe homes",
+      "url": "https://allorausa.com/blogs/news/why-nsf-certified-faucets-are-essential-for-safe-homes",
       "platform": "other",
       "column": "expert",
-      "snippet": "DST cartridge is same proprietary Delta technology as Brizo. Kerox and Maruwa ceramic discs diamond-coated. Independently tested to 5 million cycles. Assembled at Morgantown Kentucky plastics plant. Plastic cartridge housing passes 500 psi ASME surge test. Available on all -DST suffix models.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S confirmed cartridge technology specification.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability",
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Delta Body Material — ZAMAK Shell + PEX Waterway",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "americanstandard-us.com — low lead and lead free faucets",
+      "url": "https://www.americanstandard-us.com/pages/low-lead-and-lead-free-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "Decorative shell of most new Delta faucets is die-cast zinc alloy ZAMAK confirmed by Zinc Die Casting Association teardown study. Water flows through continuous InnoFlex PEX tubing from shutoff supply to spout tip never contacting outer zinc shell. Outer shell is entirely non-pressurized purely decorative. Valve seat and cartridge housing area is brass.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S finding on body material — ZAMAK shell with PEX waterway is significant construction revelation.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "Delta Non-DST Cartridge Warning",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "nsf.org — faucets plumbing products",
+      "url": "https://www.nsf.org/consumer-resources/articles/faucets-plumbing-products",
       "platform": "other",
       "column": "expert",
-      "snippet": "Not all Delta models use DST. Classics and Foundations collections use legacy washerless ball valve with rubber seal and spring — fundamentally different lower-durability technology. Some two-handle models use medley of cartridges including Sedal and unidentified sources. Must specify -DST suffix models only for Diamond Seal Technology.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S critical purchasing guidance — non-DST models are significantly inferior.",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "Delta Warranty Terms",
-      "url": "https://www.deltafaucet.com/warranty",
+      "source_name": "basc.pnnl.gov — kitchen faucets",
+      "url": "https://basc.pnnl.gov/resource-guides/kitchen-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "Lifetime limited warranty covering all parts including cartridge for life of original owner. Replacement cartridges free of charge. OEM replacement cartridge RP50587 retails approximately $30-35. Third-party Danco equivalent approximately $22. Free under warranty. One of easiest cartridge replacements in industry.",
+      "snippet": "",
       "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Warranty and serviceability terms for buyer context.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "durability"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "Delta Manufacturing Migration",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "nsf.org — faucets plumbing",
+      "url": "https://www.nsf.org/consumer-resources/faucets-plumbing",
       "platform": "other",
       "column": "expert",
-      "snippet": "Shifted from primarily US manufacturer to primarily designer and brand assembler outsourcing majority of fabrication to Asian OEMs. Quality maintained largely through design control and specification enforcement not through owned manufacturing. For high-end residential applications zinc alloy shells plastic waterways and plastic spray wands place Delta firmly below luxury threshold.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S assessment of manufacturing model transformation.",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "Delta Certifications",
-      "url": "https://www.deltafaucet.com",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=jnAHaCnxPCw",
       "platform": "other",
       "column": "expert",
-      "snippet": "Full UPC cUPC NSF/ANSI 61 NSF 372 ASME A112.18.1 compliance. WaterSense labeled on applicable models.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Full certification confirmed.",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "Professional Plumber Consensus — Delta",
-      "url": "https://www.reddit.com/r/Plumbing",
-      "platform": "reddit",
-      "column": "review",
-      "snippet": "Consistently ranked number 1 or 2 recommended brand by professional plumbers. Praised for DST reliability ease of cartridge replacement and massive parts availability. Known as the reliable workhorse of the industry.",
+      "source_name": "blog.bathselect.com — best independent reviews of over 5 faucet brands",
+      "url": "https://blog.bathselect.com/best-independent-reviews-of-over-5-faucet-brands/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Professional consensus data from plumber community.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-009",
-      "source_name": "TerryLove Forum — Delta Long-Term Data",
-      "url": "https://www.terrylove.com",
+      "source_name": "wreckedrefined.com — moen delta kohler best faucet brand comparison",
+      "url": "https://www.wreckedrefined.com/blog/moen-delta-kohler-best-faucet-brand-comparison",
       "platform": "other",
-      "column": "review",
-      "snippet": "One member documented five cartridge replacements over 10 years on pre-DST Cicero single-handle pull-out faucet. This pattern is characteristic of non-DST era cartridges and should not be generalized to current DST models.",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Long-term field data distinguishing pre-DST from DST era performance.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-010",
-      "source_name": "Delta Parts Availability",
-      "url": "https://www.homedepot.com",
+      "source_name": "watersino.net — top faucet manufacturers worldwide",
+      "url": "https://watersino.net/top-faucet-manufacturers-worldwide/",
       "platform": "other",
-      "column": "review",
-      "snippet": "Massive distribution network through Home Depot Lowes Ferguson and every major plumbing supply house. Parts availability is excellent and immediate — strongest parts infrastructure in the industry due to Masco scale.",
-      "pool": "B",
-      "classification": "score",
-      "classification_reason": "Parts availability assessment — strongest in category.",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "fastresponseplumbingsf.com — top brands for faucets recommended by san francisco plumbers",
+      "url": "https://www.fastresponseplumbingsf.com/top-brands-for-faucets-recommended-by-san-francisco-plumbers/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "shouldit.com",
+      "url": "https://shouldit.com/kitchen-faucets/reviews/best/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "homedepot.com — N 5yc1vZar0kZbwo5q",
+      "url": "https://www.homedepot.com/b/Kitchen-Kitchen-Faucets/Best-Rated/N-5yc1vZar0kZbwo5q",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=g1ITctkJ5wE",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "nsf.org — certified product search",
+      "url": "https://www.nsf.org/certification/certified-product-search",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "epa.gov — specifications and reports",
+      "url": "https://www.epa.gov/watersense/specifications-and-reports",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "iq.ulprospector.com — browse",
+      "url": "https://iq.ulprospector.com/en/browse",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     }
   ],
   "bottom_line": "Same DST 5M-cycle tech as Brizo on -DST suffix models. ZAMAK (zinc alloy) shell + PEX waterway instead of solid brass (-1 dock from Brizo). Chrome finish (no PVD). Massive parts availability — every hardware store. Lifetime warranty. Must specify -DST models.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
+      "SRC-005",
       "SRC-006",
       "SRC-007",
       "SRC-008",
       "SRC-009",
-      "SRC-010"
-    ],
-    "sources_report_only": [
-      "SRC-005"
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 5,
-      "pool_A": 2,
-      "pool_B": 3,
-      "pool_C": 0
+      "pool_S": 1,
+      "pool_A": 5,
+      "pool_B": 9,
+      "pool_C": 2
     }
   },
   "product_slug": "delta_mid_range",
   "product_name": "Delta Mid-Range (DST models)",
   "manufacturer_slug": "delta",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
-  "platform_disclosure": "Delta Faucet Company (Masco): Delta, Brizo, Peerless share DST cartridge technology. Brizo = brass body + PVD. Delta = ZAMAK + chrome. Peerless = cheapest finish/materials. Same core engineering, different build quality.",
+  "platform_disclosure": null,
   "outlook": "Conditional",
   "outlook_rationale": "Same DST 5M-cycle tech as Brizo on -DST suffix models. ZAMAK (zinc alloy) shell + PEX waterway instead of solid brass (-1 dock from Brizo). Chrome finish (no PVD). Massive parts availability — every hardware store. Lifetime warranty. Must specify -DST models."
 }

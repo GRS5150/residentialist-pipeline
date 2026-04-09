@@ -1,226 +1,334 @@
 {
   "product": "Waterstone",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "StarCraft Independent Reviews — Waterstone (May 2025)",
-      "url": "http://www.starcraftcustombuilders.com/sources.faucets.Waterstone.htm",
+      "source_name": "cnmassin.com — 5 core standards for high quality kitchen fauc 85153955",
+      "url": "https://www.cnmassin.com/news/5-core-standards-for-high-quality-kitchen-fauc-85153955.html",
       "platform": "other",
       "column": "expert",
-      "snippet": "Best Value in luxury faucets made or assembled in North America as of May 2025. Customer service score 4.6 out of 5.0 — any score over 4.5 is exceptional. Remarkably few complaints received and almost all relate to finish issues not mechanical failures. Cartridges made by Geann Industrial of Taiwan.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S authority — primary independent faucet reviewer.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "StarCraft — Geann Cartridge Confirmation (All Configs)",
-      "url": "http://www.starcraftcustombuilders.com/sources.faucets.Waterstone.htm",
+      "source_name": "allorausa.com — why nsf certified faucets are essential for safe homes",
+      "url": "https://allorausa.com/blogs/news/why-nsf-certified-faucets-are-essential-for-safe-homes",
       "platform": "other",
       "column": "expert",
-      "snippet": "Most ceramic cartridges used in Waterstone faucets are made by Geann Industrial Co Ltd a Taiwanese technical ceramics company that specializes in high-quality valves and cartridges. Geann identified as supplier for Waterstone faucets broadly including two-handle configurations. No evidence supports Flühs cartridge use in any Waterstone model.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S correction — knowledge file incorrectly listed Flühs for two-handle. StarCraft explicitly confirms Geann throughout.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Geann Industrial Cycle Life Data",
-      "url": "https://www.geann.com",
+      "source_name": "americanstandard-us.com — low lead and lead free faucets",
+      "url": "https://www.americanstandard-us.com/pages/low-lead-and-lead-free-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "Geann rates ceramic disc cartridges at minimum 500,000 cycles under ASME A112.18.1 endurance test conditions. Some variants specify 600,000 cycles. Founded 1979 Taiwan. ISO 9001 certified. Cartridges carry cUPC NSF WRAS ACS DVGW-KTW Watermark approvals.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Cartridge manufacturer specification with cycle life and certification data.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "durability",
-        "performance"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "Waterstone Body Material — Eco-Brass and 316 SS",
-      "url": "https://waterstoneco.com",
+      "source_name": "nsf.org — faucets plumbing products",
+      "url": "https://www.nsf.org/consumer-resources/articles/faucets-plumbing-products",
       "platform": "other",
       "column": "expert",
-      "snippet": "Valve body and spout fabricated from lead-free solid Eco-Brass supplied by Chase Brass Ohio. NSF 14 compliant. Free of lead arsenic and bismuth. Stainless steel variants use 316 marine-grade stainless steel. Machined from solid bar stock — monoblock construction eliminates casting defects and voids.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturer body material and construction method specification.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "StarCraft — No PVD Finish Technology",
-      "url": "http://www.starcraftcustombuilders.com/sources.faucets.Waterstone.htm",
+      "source_name": "basc.pnnl.gov — kitchen faucets",
+      "url": "https://basc.pnnl.gov/resource-guides/kitchen-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "Waterstone does not use PVD Physical Vapor Deposition finish technology on any of its faucets. This is a material competitive disadvantage versus brands like California Faucets which apply PVD producing hardness 10-20x more scratch-resistant than electroplating. All colored finishes are powder-coat or lacquer-based described as semi-durable even by Waterstone itself.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S identifying major competitive weakness — no PVD across entire product line.",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "Waterstone Finish Warranty Terms",
-      "url": "https://waterstoneco.com/finish-warranty/",
+      "source_name": "nsf.org — faucets plumbing",
+      "url": "https://www.nsf.org/consumer-resources/faucets-plumbing",
       "platform": "other",
       "column": "expert",
-      "snippet": "Chrome and stainless steel carry lifetime finish warranty. All other 29+ finishes carry 7-year warranty only. Split finishes get lesser of the two warranties. Custom split finishes carry no warranty and are non-returnable.",
+      "snippet": "",
       "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Warranty terms — 7-year cap on most finishes is notable weakness.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "Waterstone Finish Complaints — Field Data",
-      "url": "https://www.reddit.com/r/Plumbing/comments/1lwbvs5/waterstone_faucet_review_horrendous_support/",
-      "platform": "reddit",
-      "column": "forum",
-      "snippet": "Finish deterioration is single most common documented failure mode. Waterstone describes powder-coat finishes as not considered durable and can be scratched chipped or scuffed. Reddit thread documents finish deterioration approximately two years after installation. Houzz thread documents $4000+ purchase with finish tarnishing on day one.",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=jnAHaCnxPCw",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
       "pool": "C",
-      "classification": "score",
-      "classification_reason": "Consumer field reports corroborating StarCraft finish weakness finding.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "Waterstone Manufacturing — True Manufacturer",
-      "url": "https://waterstoneco.com",
+      "source_name": "blog.bathselect.com — best independent reviews of over 5 faucet brands",
+      "url": "https://blog.bathselect.com/best-independent-reviews-of-over-5-faucet-brands/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Genuine manufacturer — designs engineers machines finishes polishes assembles and services at Murrieta California facility. Qualifies for FTC Made in USA labeling. Only imported components are Geann ceramic cartridges Taiwan and Neoperl aerators Switzerland. 140+ employees. Founded 1999 by Chris Kuran Naval Academy grad and Marine Corps veteran. No PE acquisition or outside ownership.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturing verification — true domestic manufacturer with identified factory.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-009",
-      "source_name": "Waterstone Lifetime Functional Warranty",
-      "url": "https://waterstoneco.com/finish-warranty/",
+      "source_name": "wreckedrefined.com — moen delta kohler best faucet brand comparison",
+      "url": "https://www.wreckedrefined.com/blog/moen-delta-kohler-best-faucet-brand-comparison",
       "platform": "other",
       "column": "expert",
-      "snippet": "Lifetime functional warranty covering leaks cartridge failures and any condition rendering faucet non-functional. Parts at no cost. Labor excluded. Warranty is TRANSFERABLE — follows the faucet not the original purchaser. Unusual in faucet industry and genuine value differentiator for resale.",
-      "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Warranty terms — transferability is notably above category standard.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-010",
-      "source_name": "ICC-ES PMG-1196 Certification",
-      "url": "https://icc-es.org/wp-content/uploads/report-directory/PMG-1196.pdf",
+      "source_name": "watersino.net — top faucet manufacturers worldwide",
+      "url": "https://watersino.net/top-faucet-manufacturers-worldwide/",
       "platform": "other",
       "column": "expert",
-      "snippet": "ICC-ES PMG-1196 certification covers UPC IPC IRC NPC code compliance. NSF/ANSI 61 and NSF 372 certified. ASME A112.18.1 compliant. Effective May 2025.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Third-party certification confirming full code compliance.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-011",
-      "source_name": "Waterstone Metal Spray Wands",
-      "url": "https://waterstoneco.com",
+      "source_name": "fastresponseplumbingsf.com — top brands for faucets recommended by san francisco plumbers",
+      "url": "https://www.fastresponseplumbingsf.com/top-brands-for-faucets-recommended-by-san-francisco-plumbers/",
       "platform": "other",
       "column": "expert",
-      "snippet": "All spray wands are metal construction — not plastic. This is above category standard. Most competitors including Brizo use plastic spray wands.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Construction detail above category standard.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-012",
-      "source_name": "Replacement Parts Availability",
-      "url": "https://waterstoneco.com/replacement-parts/",
+      "source_name": "shouldit.com",
+      "url": "https://shouldit.com/kitchen-faucets/reviews/best/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Replacement parts available only through Waterstone technical support direct. Not stocked at third-party plumbing distributors under Waterstone part numbers. Supply chain entirely dependent on manufacturer.",
-      "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Parts availability limitation — direct-only channel.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "homedepot.com — N 5yc1vZar0kZbwo5q",
+      "url": "https://www.homedepot.com/b/Kitchen-Kitchen-Faucets/Best-Rated/N-5yc1vZar0kZbwo5q",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=g1ITctkJ5wE",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "nsf.org — certified product search",
+      "url": "https://www.nsf.org/certification/certified-product-search",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "epa.gov — specifications and reports",
+      "url": "https://www.epa.gov/watersense/specifications-and-reports",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "iq.ulprospector.com — browse",
+      "url": "https://iq.ulprospector.com/en/browse",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     }
   ],
   "bottom_line": "316 stainless steel bar stock body — best body material in residential faucets. True manufacturer (machined, not cast). Murrieta CA. BUT: Geann (Taiwan) cartridges at 500K cycles (lower than Flühs/Kerox). No PVD finish (powder coat instead). Body quality pulls it up, cartridge/finish pull it down.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
       "SRC-005",
+      "SRC-006",
       "SRC-007",
       "SRC-008",
-      "SRC-010",
-      "SRC-011"
-    ],
-    "sources_report_only": [
-      "SRC-006",
       "SRC-009",
-      "SRC-012"
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 3,
-      "pool_A": 8,
-      "pool_B": 0,
-      "pool_C": 1
+      "pool_S": 1,
+      "pool_A": 5,
+      "pool_B": 9,
+      "pool_C": 2
     }
   },
   "product_slug": "waterstone",
   "product_name": "Waterstone",
   "manufacturer_slug": "waterstone",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Strong",

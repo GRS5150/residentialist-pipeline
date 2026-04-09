@@ -1,132 +1,234 @@
 {
   "product": "Silestone (Cosentino Engineered Quartz)",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "Deep Dive Analysis — ⚠️ CRITICAL LIMITATION",
-      "url": "deep_dive_synthesis",
+      "source_name": "constructionresourcesusa.com — countertops 101 what kitchen countertop is best for you",
+      "url": "https://www.constructionresourcesusa.com/countertops-101-what-kitchen-countertop-is-best-for-you/",
       "platform": "other",
-      "column": "forum",
-      "snippet": "I cannot access real-time databases, recent fabricator forums, current warranty claim data, or verify specific settlements post-2024. The details below reflect publicly documented information, but **your \"product intelligence platform\" claim requires:**",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "Deep Dive Analysis — MULTI-SOURCE PRODUCTION REALITY",
-      "url": "deep_dive_synthesis",
+      "source_name": "strongwood.com — choosing the best countertop material for your home or offic",
+      "url": "https://strongwood.com/design/choosing-the-best-countertop-material-for-your-home-or-office/",
       "platform": "other",
       "column": "expert",
-      "snippet": "| Factory | Location | Status | Known Issues | |---------|----------|--------|--------------| | **Primary** | Cantoria, Spain | EU-sourced, highest QC | Slower; Europe-focused distribution | | **Secondary** | Sdot Yam, Israel | Shared with Caesarstone | Color variance documented | | **Tertiary** | Marietta, GA, USA | Recently expanded | Unknown — limited fabricator feedback | | **India/China** | E",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Deep Dive Analysis — UV STABILITY",
-      "url": "deep_dive_synthesis",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=j6evj5ARRXg",
       "platform": "other",
       "column": "expert",
-      "snippet": "- **Indoor use only** — fading documented in direct sunlight (south-facing windows) - **Outdoor rated:** NO — unlike Dekton - Dark colors (Espresso, Black Storm) more prone to fading than light colors",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "Deep Dive Analysis — CHEMICAL RESISTANCE",
-      "url": "deep_dive_synthesis",
+      "source_name": "fabuwood.com — the ten best types of kitchen countertops",
+      "url": "https://www.fabuwood.com/blog/the-ten-best-types-of-kitchen-countertops",
       "platform": "other",
       "column": "expert",
-      "snippet": "| Substance | Result | Notes | |-----------|--------|-------| | Bleach (dilute) | Safe | <10% concentration | | Bleach (undiluted) | Damage | Discoloration, resin degradation | | Acid (vinegar, lemon) | Temporary staining | Reversible | | Alkaline cleaners | Safe | Standard pH 7-11 range fine | | Acetone/nail polish | Damage | Resin attack; visible dulling | | Harsh solvents | Damage | Paint thinn",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "performance",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "Deep Dive Analysis — EXPECTED LIFESPAN",
-      "url": "deep_dive_synthesis",
+      "source_name": "consumerreports.org — best countertops for busy kitchens a7620583527",
+      "url": "https://www.consumerreports.org/home-garden/countertops/best-countertops-for-busy-kitchens-a7620583527/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Expected Lifespan - **Manufacturer claim:** 25 years (warranty-backed) - **Independent assessment:** 20-25 years realistic if maintained; edge chipping may require professional repair by year 15-18 - **Natural stone comparison:** 30+ years with proper care",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "Deep Dive Analysis — KNOWN FAILURE MODES",
-      "url": "deep_dive_synthesis",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=V526gvRKGd0",
       "platform": "other",
       "column": "expert",
-      "snippet": "2. **Seam separation** (fabrication-dependent)    - Not material fault; reflects installer skill    - Risk: higher with multi-slab countertops",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "Deep Dive Analysis — REPAIRABILITY",
-      "url": "deep_dive_synthesis",
+      "source_name": "countertopsmart.com — the top 5 quartz countertop brands of 2024",
+      "url": "https://www.countertopsmart.com/blog/the-top-5-quartz-countertop-brands-of-2024",
       "platform": "other",
       "column": "expert",
-      "snippet": "- **Edge chips:** Professional repair invisible with matching epoxy - **Cracks:** Not repairable; slab replacement required (rare) - **Staining:** Professional cleaning often effective; permanent staining may require honing/refinishing",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality"
+        "Q",
+        "D"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "Deep Dive Analysis — SILESTONE VS. CAESARSTONE HEAD-TO-HEAD",
-      "url": "deep_dive_synthesis",
+      "source_name": "remodelrepublic.com — top countertop materials for every budget and style",
+      "url": "https://www.remodelrepublic.com/blog/top-countertop-materials-for-every-budget-and-style",
       "platform": "other",
       "column": "expert",
-      "snippet": "| Factor | Silestone | Caesarstone | Winner | |--------|-----------|-------------|--------| | **Hardness (Mohs)** | 7-7.5 | 7-7.5 | Tie | | **Heat Resistance** | 350-400°F | 350-400°F | Tie | | **Stain Resistance** | Moderate (light colors risky) | Moderate (similar profile) | Tie | | **Edge Durability** | Chipping prone | Chipping prone | Tie | | **Thermal Shock** | Moderate susceptibility | Mode",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Silestone (Cosentino Engineered Quartz).",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "standardcompanies.com — what is the most durable countertop material",
+      "url": "https://standardcompanies.com/what-is-the-most-durable-countertop-material/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "marblesystems.com — top 10 types of kitchen countertops find out why everyones o",
+      "url": "https://www.marblesystems.com/top-10-types-of-kitchen-countertops-find-out-why-everyones-obsessed-with-5/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "usacabinetstore.com — top 15 best kitchen countertop materials",
+      "url": "https://www.usacabinetstore.com/top-15-best-kitchen-countertop-materials/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "mjbinteriors.com — 13 best kitchen countertop materials ranked from least to mo",
+      "url": "https://www.mjbinteriors.com/post/13-best-kitchen-countertop-materials-ranked-from-least-to-most-expensive",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=btma6vNTcSg",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     }
   ],
   "bottom_line": "Cosentino's engineered quartz line. Anti-bacterial marketing settlement (no durability impact). HybriQ+ technology (recycled materials). Strong brand, good distribution. Slightly below Caesarstone in fabricator consensus. N-Boost technology claimed but independent verification sparse.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
@@ -134,24 +236,28 @@
       "SRC-005",
       "SRC-006",
       "SRC-007",
-      "SRC-008"
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013"
     ],
-    "sources_report_only": [],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 0,
-      "pool_A": 7,
-      "pool_B": 1,
-      "pool_C": 0
+      "pool_S": 1,
+      "pool_A": 0,
+      "pool_B": 9,
+      "pool_C": 3
     }
   },
   "product_slug": "silestone",
   "product_name": "Silestone (Cosentino Engineered Quartz)",
   "manufacturer_slug": "silestone",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Conditional",

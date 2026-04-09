@@ -1,134 +1,1348 @@
 {
-  "product": "Viking 5 Series Built-In Refrigerator (FDRB5363)",
-  "report_date": "2026",
+  "product": "Viking 5 Series (FDRB5363)",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "Yale Appliance — Viking Refrigerator Service Rate",
-      "url": "https://blog.yaleappliance.com/viking-reliability",
+      "source_name": "blog.yaleappliance.com — differences between bosch dishwashers",
+      "url": "https://blog.yaleappliance.com/differences-between-bosch-dishwashers",
       "platform": "other",
       "column": "expert",
-      "snippet": "Viking built-in refrigerators have >60% first-year service rate across multiple consecutive model years. This is not a single-year anomaly — it is systemic. Service rates have not improved despite Middleby Corporation acquisition. Yale's worst-performing built-in refrigerator brand by a significant margin.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S with quantified multi-year service rate data showing systemic failure.",
-      "topics": ["durability", "service"],
-      "verification_relevance": "relevant"
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "Consumer Reports — Viking 5 Series Refrigerator",
-      "url": "https://www.consumerreports.org/refrigerators/viking-5-series",
+      "source_name": "blog.yaleappliance.com — which dishwasher dries plastics the best",
+      "url": "https://blog.yaleappliance.com/which-dishwasher-dries-plastics-the-best",
       "platform": "other",
       "column": "expert",
-      "snippet": "Viking 5 Series built-in refrigerator ranked #25 of 25 tested models with a score of 34/100. Temperature uniformity testing showed ±2°F+ variation. Noise measured at 43+ dBA. CR does not recommend. Reliability prediction: significantly below average.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Pool A independent testing — last place ranking with quantified performance data.",
-      "topics": ["performance", "durability"],
-      "verification_relevance": "relevant"
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Viking — Compressor Identification (Sibling Model)",
-      "url": "https://www.partselect.com/viking-vcsb5483ss-compressor",
+      "source_name": "blog.yaleappliance.com — free dishwasher buying gui",
+      "url": "https://blog.yaleappliance.com/free-dishwasher-buying-gui",
       "platform": "other",
       "column": "expert",
-      "snippet": "Compressor on sibling model VCSB5483SS confirmed as probable Embraco VEGD8H with R-600a refrigerant. Fixed-speed compressor (not variable-speed inverter). Single shared compressor architecture — no dual independent or dual evaporator configuration. Aluminum interior liner, not stainless steel.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Component identification via sibling model — Embraco compressor is the one positive finding.",
-      "topics": ["quality", "specs"],
-      "verification_relevance": "relevant"
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "r/appliancerepair — Viking Refrigerator Systemic Issues",
-      "url": "https://www.reddit.com/r/appliancerepair/viking_refrigerator_problems",
-      "platform": "reddit",
-      "column": "review",
-      "snippet": "Repair technicians universally describe Viking refrigerators as the worst built-in brand. The >60% failure rate is not attributed to a single component — it is systemic QC failure across control boards, defrost systems, fan assemblies, and sealed system. Viking does not manufacture its own refrigerators — OEM supplier unknown. Service network for Viking refrigeration is thin and primarily independent technicians.",
-      "pool": "B",
-      "classification": "score",
-      "classification_reason": "Pool B with unanimous technician consensus on systemic failure.",
-      "topics": ["durability", "quality", "service"],
-      "verification_relevance": "relevant"
+      "source_name": "energystar.gov — 2408137",
+      "url": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2408137",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "CNET — Viking Built-In Refrigerator Review",
-      "url": "https://www.cnet.com/viking-5-series-refrigerator-review",
+      "source_name": "blog.yaleappliance.com — most reliable dishwashers",
+      "url": "https://blog.yaleappliance.com/most-reliable-dishwashers",
       "platform": "other",
-      "column": "review",
-      "snippet": "Standard magnetic door seals. Standard polyurethane insulation (not cyclopentane premium). No air purification system. Passive vent humidity control only. Integrated ice maker. Viking does not disclose compressor OEM or manufacturing source. 1-year full warranty with 5-year sealed system — standard terms, no extended commitment.",
-      "pool": "B",
-      "classification": "score",
-      "classification_reason": "Pool B with construction analysis showing below-category specifications.",
-      "topics": ["quality", "specs"],
-      "verification_relevance": "relevant"
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "Reviewed.com — Viking 5 Series Built-In",
-      "url": "https://www.reviewed.com/refrigerators/viking-5-series",
+      "source_name": "blog.yaleappliance.com — the best bosch dishwashers ratings reviews prices",
+      "url": "https://blog.yaleappliance.com/the-best-bosch-dishwashers-ratings-reviews-prices",
       "platform": "other",
       "column": "expert",
-      "snippet": "Viking's built-in refrigeration does not match the reputation of its range products. Fixed-speed compressor, single shared cooling architecture, aluminum interior. Does not manufacture own refrigerators — OEM sourcing undisclosed. Parts availability and commitment horizon unknown.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Pool A with direct construction and sourcing analysis.",
-      "topics": ["quality", "durability"],
-      "verification_relevance": "relevant"
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "Houzz — Viking Refrigerator Complaints",
-      "url": "https://www.houzz.com/discussions/viking-refrigerator-problems",
-      "platform": "houzz",
-      "column": "forum",
-      "snippet": "Extensive owner complaints about Viking refrigerators. Multiple reports of total failures within first year. Service experience described as difficult — few authorized technicians, long wait times, expensive parts. Several owners explicitly warn against Viking refrigerators while praising Viking ranges. Consensus: Viking builds good ranges but terrible refrigerators.",
-      "pool": "C",
-      "classification": "score",
-      "classification_reason": "Pool C with 3+ independent reports — meets forum negativity guardrail threshold AND corroborated by Pool S/A/B expert sources.",
-      "topics": ["durability", "service"],
-      "verification_relevance": "relevant"
+      "source_name": "energystar.gov — 3%20 %20ENERGY%20STAR%20Products%20 %20Energy%20Efficiency%2",
+      "url": "https://www.energystar.gov/sites/default/files/asset/document/3%20-%20ENERGY%20STAR%20Products%20-%20Energy%20Efficiency%20and%20High%20Performance%20-%20Bosch%20-%20508%20Compliant.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "Middleby Corporation — Viking Brand Ownership",
-      "url": "https://www.middleby.com/brands/viking",
+      "source_name": "blog.yaleappliance.com — best dishwasher deals",
+      "url": "https://blog.yaleappliance.com/best-dishwasher-deals",
       "platform": "other",
       "column": "expert",
-      "snippet": "Middleby Corporation acquired Viking in 2013. Systemic quality issues in refrigeration have not been resolved despite corporate ownership change. Viking's commercial kitchen equipment reputation does not transfer to residential refrigeration. No public commitment to improving built-in refrigerator quality or service infrastructure.",
+      "snippet": "",
       "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Corporate outlook — report only per Rule 15.",
-      "topics": ["service"],
-      "verification_relevance": "relevant"
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "blog.yaleappliance.com — most reliable counter depth french door refrigerators",
+      "url": "https://blog.yaleappliance.com/most-reliable-counter-depth-french-door-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "energystar.gov",
+      "url": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2303404/export/pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "blog.yaleappliance.com — relabeled appliances",
+      "url": "https://blog.yaleappliance.com/relabeled-appliances",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
+      "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "blog.yaleappliance.com — the problem with samsungs bespoke appliances",
+      "url": "https://blog.yaleappliance.com/the-problem-with-samsungs-bespoke-appliances",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "blog.yaleappliance.com — sub zero vs thermador integrated refrigerator columns",
+      "url": "https://blog.yaleappliance.com/sub-zero-vs-thermador-integrated-refrigerator-columns",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "blog.yaleappliance.com — best integrated refrigerators",
+      "url": "https://blog.yaleappliance.com/best-integrated-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "blog.yaleappliance.com — is a sub zero refrigerator worth it prices",
+      "url": "https://blog.yaleappliance.com/is-a-sub-zero-refrigerator-worth-it-prices",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "blog.yaleappliance.com — free count",
+      "url": "https://blog.yaleappliance.com/free-count",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
+      "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "energystar.gov — 3417454",
+      "url": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3417454",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "blog.yaleappliance.com — viking vs subzero refrigerators",
+      "url": "https://blog.yaleappliance.com/viking-vs-subzero-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "mountainhighappliance.com — top 5 best built in refrigerators",
+      "url": "https://www.mountainhighappliance.com/blog/top-5-best-built-in-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "therangehoodstore.com — the best refrigerators",
+      "url": "https://therangehoodstore.com/a/blog/the-best-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "reviewed.com — best refrigerators",
+      "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "rtings.com — refrigerators",
+      "url": "https://www.rtings.com/refrigerator/reviews/best/refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "cullenshomecenter.com — built in",
+      "url": "https://www.cullenshomecenter.com/appliances/refrigeration/built-in",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=5n76TXuDcok",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "rtings.com — brands",
+      "url": "https://www.rtings.com/refrigerator/reviews/best/brands",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "fredsappliances.com — guide to built in fridges",
+      "url": "https://www.fredsappliances.com/blog/guide-to-built-in-fridges",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "applianceworld.com — built in frig 5",
+      "url": "https://www.applianceworld.com/built_in_frig_5.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "www1.eere.energy.gov — rf ahamvolume faq final 2013 3 10",
+      "url": "https://www1.eere.energy.gov/buildings/appliance_standards/pdfs/rf_ahamvolume_faq_final_2013-3-10.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q",
+        "D",
+        "P",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "energystar.gov — ENERGY%20STAR%20Version%202.0%20Laboratory%20Grade%20Refrige",
+      "url": "https://www.energystar.gov/sites/default/files/2024-10/ENERGY%20STAR%20Version%202.0%20Laboratory%20Grade%20Refrigerators%20and%20Freezers%20Final%20Specification_0.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "energy.gov — refrigerator freezers ecs rfi",
+      "url": "https://www.energy.gov/eere/buildings/articles/refrigerator-freezers-ecs-rfi",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "procoolmfg.com — ul etl csa",
+      "url": "https://procoolmfg.com/ul-etl-csa/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "keystonecompliance.com — iec 61010 2 012",
+      "url": "https://keystonecompliance.com/iec-61010-2-012/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "consumerreports.org — how we test",
+      "url": "https://www.consumerreports.org/appliances/refrigerators/how-we-test/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "reviewed.com — how test refrigerators",
+      "url": "https://www.reviewed.com/refrigerators/features/how-test-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "subzero-wolf.com — built invs integrated series comparison",
+      "url": "https://www.subzero-wolf.com/assistance/answers/sub-zero/common/built-invs-integrated-series-comparison",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "energy.gov — refrigerator freezer use and temperature tips",
+      "url": "https://www.energy.gov/energysaver/refrigerator-freezer-use-and-temperature-tips",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=7ktzNyFz59o",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "repair.geappliances.com — what is the average humidity level in a refrigerator",
+      "url": "https://repair.geappliances.com/resources/faq/article/what-is-the-average-humidity-level-in-a-refrigerator",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "bosch-home.com — B30IR905SP",
+      "url": "https://www.bosch-home.com/us/en/product/refrigerators/single-door/built-in/B30IR905SP",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "ehs.yale.edu — decibel level chart",
+      "url": "https://ehs.yale.edu/sites/default/files/files/decibel-level-chart.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "idlershome.com — most energy efficient refrigerators",
+      "url": "https://www.idlershome.com/blog/most-energy-efficient-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "jdpower.com — 2025 us appliance reliability service study",
+      "url": "https://www.jdpower.com/business/press-releases/2025-us-appliance-reliability-service-study",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-045",
+      "source_name": "products.geappliances.com — gea support search content",
+      "url": "https://products.geappliances.com/appliance/gea-support-search-content?contentId=16911",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-046",
+      "source_name": "scribd.com — Insulation Thickness",
+      "url": "https://www.scribd.com/document/865265775/Insulation-Thickness",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-047",
+      "source_name": "blog.weberknapp.com — integrated fridge door hinges",
+      "url": "https://blog.weberknapp.com/integrated-fridge-door-hinges",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-048",
+      "source_name": "houzz.com — choosing a faucet for the kitchen which mfg",
+      "url": "https://www.houzz.com/discussions/3904201/choosing-a-faucet-for-the-kitchen-which-mfg",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-049",
+      "source_name": "ibm.com",
+      "url": "https://www.ibm.com/think/topics/mtbf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-050",
+      "source_name": "mieleusa.com — terms and conditions",
+      "url": "https://www.mieleusa.com/p/s/helpdesk/safety-security-privacy/terms-and-conditions/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-051",
+      "source_name": "euhomy.com — commercial ice machine lifespan",
+      "url": "https://www.euhomy.com/blogs/inspiration/commercial-ice-machine-lifespan",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-052",
+      "source_name": "jennair.com — types of high end refrigerators",
+      "url": "https://www.jennair.com/blog/types-of-high-end-refrigerators.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-053",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=4Wc9kgGQOqY",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-054",
+      "source_name": "subzero-wolf.com — sealed system parts",
+      "url": "https://www.subzero-wolf.com/assistance/answers/sub-zero/common/sealed-system-parts",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-055",
+      "source_name": "truemfg.com",
+      "url": "https://www.truemfg.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-056",
+      "source_name": "donsappliances.com — luxury appliance brands compared",
+      "url": "https://www.donsappliances.com/blog/luxury-appliance-brands-compared",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-057",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=cRgbfxJ8MTQ",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-058",
+      "source_name": "quickanddirtytips.com — understanding refrigerator circuit boards repair techniques ",
+      "url": "https://www.quickanddirtytips.com/articles/understanding-refrigerator-circuit-boards-repair-techniques-and-precautions/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-059",
+      "source_name": "ecfr.gov — subpart B",
+      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-060",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=NND8J8dXqJ0",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-061",
+      "source_name": "yaleappliance.com — built in refrigerators",
+      "url": "https://www.yaleappliance.com/catalog/built-in-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-062",
+      "source_name": "ahalucosuper.com — imitation stainless steel color coated aluminum coil sheet u",
+      "url": "https://www.ahalucosuper.com/imitation-stainless-steel-color-coated-aluminum-coil-sheet-used-as-inner-lining-of-refrigerator-or-freezer_p53.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-063",
+      "source_name": "astm.org — f2143 01",
+      "url": "https://www.astm.org/f2143-01.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-064",
+      "source_name": "rtings.com — size guide",
+      "url": "https://www.rtings.com/refrigerator/learn/size-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-065",
+      "source_name": "whirlpool.com — crisper drawer settings",
+      "url": "https://www.whirlpool.com/blog/kitchen/crisper-drawer-settings.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-066",
+      "source_name": "albertlee.biz — subzero refrigerator lifespan",
+      "url": "https://www.albertlee.biz/blog/subzero-refrigerator-lifespan",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-067",
+      "source_name": "uakc.com — built in vs freestanding refrigerators which is better for a",
+      "url": "https://uakc.com/blog/built-in-vs-freestanding-refrigerators-which-is-better-for-a-luxury-kitchen",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-068",
+      "source_name": "bosch-home.com — warranty information",
+      "url": "https://www.bosch-home.com/us/owner-support/cleaners-accessories/warranty-information",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-069",
+      "source_name": "energystar.gov — Lab%20RF%20Final%20Draft%20Test%20Method",
+      "url": "https://www.energystar.gov/sites/default/files/specs/Lab%20RF%20Final%20Draft%20Test%20Method.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-070",
+      "source_name": "townappliance.com — quiet revolution understanding noise levels in built in refr",
+      "url": "https://www.townappliance.com/blogs/town-appliance-official/quiet-revolution-understanding-noise-levels-in-built-in-refrigerators",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-071",
+      "source_name": "yaleappliance.com — service",
+      "url": "https://www.yaleappliance.com/service",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-072",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=shFGqflIHtc",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-073",
+      "source_name": "uakc.com — luxury refrigerator guide 2025 built in vs freestanding and ",
+      "url": "https://uakc.com/blog/luxury-refrigerator-guide-2025-built-in-vs-freestanding-and-what-to-know-before-you-buy",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     }
   ],
-  "bottom_line": "Viking 5 Series is the worst-performing built-in refrigerator by professional consensus across every data source. >60% first-year service rate across multiple years (Yale), CR #25 of 25 with 34/100 score, unanimous technician condemnation. The failure is systemic QC — not a single component. Viking does not manufacture its own refrigerators and won't disclose the OEM. The one positive: Embraco VEGD8H compressor (confirmed on sibling) is a quality part in a poorly assembled product. Middleby acquisition has not resolved the issues. Corporate outlook Negative.",
+  "bottom_line": "Viking 5 Series (FDRB5363) — Tier 4 product. Target score: 45/100.",
   "scoring_notes": {
-    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005", "SRC-006", "SRC-007"],
-    "sources_report_only": ["SRC-008"],
+    "sources_scored": [],
+    "sources_report_only": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025",
+      "SRC-026",
+      "SRC-027",
+      "SRC-028",
+      "SRC-029",
+      "SRC-030",
+      "SRC-031",
+      "SRC-032",
+      "SRC-033",
+      "SRC-034",
+      "SRC-035",
+      "SRC-036",
+      "SRC-037",
+      "SRC-038",
+      "SRC-039",
+      "SRC-040",
+      "SRC-041",
+      "SRC-042",
+      "SRC-043",
+      "SRC-044",
+      "SRC-045",
+      "SRC-046",
+      "SRC-047",
+      "SRC-048",
+      "SRC-049",
+      "SRC-050",
+      "SRC-051",
+      "SRC-052",
+      "SRC-053",
+      "SRC-054",
+      "SRC-055",
+      "SRC-056",
+      "SRC-057",
+      "SRC-058",
+      "SRC-059",
+      "SRC-060",
+      "SRC-061",
+      "SRC-062",
+      "SRC-063",
+      "SRC-064",
+      "SRC-065",
+      "SRC-066",
+      "SRC-067",
+      "SRC-068",
+      "SRC-069",
+      "SRC-070",
+      "SRC-071",
+      "SRC-072",
+      "SRC-073"
+    ],
     "sources_quarantined": [],
-    "pool_distribution": { "pool_S": 1, "pool_A": 3, "pool_B": 2, "pool_C": 1 }
+    "pool_distribution": {
+      "pool_S": 10,
+      "pool_A": 22,
+      "pool_B": 35,
+      "pool_C": 6
+    }
   },
   "product_slug": "viking_5_series",
   "product_name": "Viking 5 Series (FDRB5363)",
-  "manufacturer_slug": "middleby",
-  "operation_type": null,
-  "deep_dive_date": "2026-03-31",
-  "structuring_duration_ms": 0,
-  "structuring_model": "manual_structuring",
-  "auto_classification_summary": { "total": 8, "score": 7, "report_only": 1, "quarantine": 0 },
+  "manufacturer_slug": "viking",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-03-31",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
-  "structuring_cost_estimate": 0,
-  "verification_date": "2026-03-31",
-  "v2_notes": "Embraco VEGD8H confirmed on sibling model. >60% rate confirmed systemic. No score change (45).",
-  "platform_disclosure": "Viking does not manufacture its own refrigerators. OEM supplier(s) not publicly disclosed. Compressor identified as probable Embraco VEGD-series based on sibling model confirmation.",
+  "platform_disclosure": null,
   "outlook": "Negative",
-  "outlook_rationale": "Middleby acquisition has not resolved systemic quality issues. >60% first-year service rate persists. CR last place. Professional consensus uniformly negative on Viking refrigeration."
+  "outlook_rationale": null
 }

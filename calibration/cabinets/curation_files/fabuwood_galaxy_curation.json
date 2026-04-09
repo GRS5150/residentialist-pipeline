@@ -1,339 +1,1042 @@
 {
   "product": "Fabuwood Galaxy",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "Main Line Kitchen Design 157-Brand Ratings",
-      "url": "https://www.mainlinekitchendesign.com/general/cabinet-reviews-ratings-for-the-top-100-cabinet-brands/",
+      "source_name": "chesapeakeplywood.com",
+      "url": "https://chesapeakeplywood.com",
       "platform": "other",
       "column": "expert",
-      "snippet": "MLKD rates Fabuwood framed A Quality A Value at Price Level 2. Highest marks in tier. Best of the inexpensive brands and will still be 30 percent less than KraftMaid but will equal the quality. Recommends framed Fabuwood door styles over frameless versions and over RTA alternatives at same price. Fabuwood frameless rates B- Quality B Value.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Primary independent professional rating source. 157-brand comparative framework.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "KCMA A161.1 Certificate — Fabuwood",
-      "url": "https://kcma.org/sites/default/files/Company%20ANSI%20Certificate%20Downloads/Fabuwood%20A161.1%20Cert%202021.pdf",
+      "source_name": "currentcab.com — maple vs birch plywood for cabinets",
+      "url": "https://currentcab.com/maple-vs-birch-plywood-for-cabinets/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Fabuwood authorized to apply KCMA Certification Seals to factory assembled kitchen and vanity cabinets. Galaxy line explicitly listed on certificate. Certificate reviewed dated 2021.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Third-party certification document. Verifiable A161.1 compliance for Galaxy specifically.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Fabuwood AWI Premium Grade Certification",
-      "url": "https://www.businesswire.com/news/home/20230929569495/en/Fabuwood-Cabinetrys-Quality-Standards-Certified-Through-AWI",
+      "source_name": "highsierracabinets.com — particle board vs mdf for cabinets",
+      "url": "https://highsierracabinets.com/particle-board-vs-mdf-for-cabinets/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Fabuwood Allure line received AWI Architectural Woodwork Institute Premium Grade qualification September 2023. Highest AWI certification level. Third-party testing including load tests up to 2,250 lbs for tall pantries.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Third-party structural certification at highest available grade. Independent load testing data.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "IST Cabinets — Fabuwood Shaker Cabinets Quality Analysis",
-      "url": "https://istcabinets.com/quality-in-shaker-cabinets-the-fabuwood-advantage/",
+      "source_name": "woodweb.com — Materials Labor Overhead And Profit",
+      "url": "https://woodweb.com/knowledge_base/Materials_Labor_Overhead_And_Profit.html",
       "platform": "other",
       "column": "expert",
-      "snippet": "Authorized dealer with plant access. Delivers construction quality that rivals brands costing 40 percent more. 28 plus years experience installers rate Fabuwood a notch above comparable imports. Oven-cured finishes with multi-step finishing and oven-heated topcoats providing superior chip resistance. 85 percent satisfaction rate across surveyed northeast US owners. Damage occurs with regularity in shipping — advises not accepting damaged cabinets.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Authorized dealer technical analysis with plant access, installer surveys, and owner satisfaction data.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "durability",
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "Fabuwood Warranty Terms",
-      "url": "https://www.fabuwood.com/warranty",
+      "source_name": "blum.com — overview",
+      "url": "https://www.blum.com/us/en/company/quality-innovation/overview/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Limited Lifetime Warranty upgraded from 5-year in January 2023. NOT transferable beyond first residential purchaser. Finish stress lines at joints not considered defect. Door warping up to 1/4 inch not considered defective. Excludes environmental damage, moisture, humidity. Builder to first buyer assignment permitted.",
-      "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Warranty terms provide buyer context. Warranty upgrade from 5-year to Lifetime is confidence signal. Exclusions are report material.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "The Pink Dream — Fabuwood 7 Year Review",
-      "url": "https://www.thepinkdream.com/fabuwood-cabinets/",
+      "source_name": "woodworkerexpress.com — best cabinet hinge brands",
+      "url": "https://woodworkerexpress.com/blog/2025/10/best-cabinet-hinge-brands/",
       "platform": "other",
-      "column": "review",
-      "snippet": "Seven year owner review. Only pull-out trash cabinet shows slight wear. All other doors drawers and finishes still look and function like new. Detailed long-term durability assessment.",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Long-term owner review with 7 years of daily use data. Provides field durability evidence.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "Reddit r/kitchenremodel — Fabuwood Thoughts",
-      "url": "https://www.reddit.com/r/kitchenremodel/comments/1hvay31/thoughts_on_fabuwood_cabinets/",
-      "platform": "reddit",
-      "column": "forum",
-      "snippet": "Galaxy Cobblestone user several years outstanding no sign of wear at all. Second user since 2021 aside from usual wear like minor dings no problems touch-up kit makes blemishes disappear.",
-      "pool": "C",
-      "classification": "score",
-      "classification_reason": "Multi-year owner field reports with specific finish and durability observations.",
+      "source_name": "refaceful.com — the downsides of rigid thermofoil rtf cabinets",
+      "url": "https://refaceful.com/the-downsides-of-rigid-thermofoil-rtf-cabinets/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "IST Cabinets — Allure Spec Sheet PDF",
-      "url": "https://istcabinets.com/wp-content/uploads/2015/05/allure_060722_bs.pdf",
+      "source_name": "woodworkerexpress.com — blum tandem vs movento",
+      "url": "https://woodworkerexpress.com/blog/2025/03/blum-tandem-vs-movento/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Face frame 3/4 x 1-1/2 inch solid wood stiles and rails jointed with glue and dowels. Back of face frames dovetail-grooved to receive plywood side panels creating mechanically interlocked box-to-frame connection. 1/2 inch veneered plywood sides and back. Natural finished interior. Panel beams dovetailed into side panels for anti-warp rigidity.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Detailed construction specification from authorized dealer source. Verifiable against physical product.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-009",
-      "source_name": "Fabuwood Digital Brochure",
-      "url": "https://www.fabuwood.com/online-digital-brochure",
+      "source_name": "shop.hettich.com — group9396843931182",
+      "url": "https://shop.hettich.com/us_EN/system-comparison/compare/group9396843931182",
       "platform": "other",
       "column": "expert",
-      "snippet": "Blum Compact Clip Model 31C3355B.20 Concealed Hinges with Quick-Release Technology and Blumotion integrated soft-close. Six-way adjustable. 110 degree opening angle.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturer specification naming exact hardware model number. Verifiable against Blum catalog.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "performance",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-010",
-      "source_name": "Fabuwood Look Book 2020 PDF",
-      "url": "https://northeastco.com/wp-content/uploads/2020/08/Fabuwood-Look-Book-2020.pdf",
+      "source_name": "grass.eu — dynapro",
+      "url": "https://www.grass.eu/en/products/slides/dynapro/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Dovetail construction technique applied to beams securing all components. Plywood side panels interlock with solid wood face frame through proprietary dovetail groove system.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Manufacturer construction documentation confirming proprietary dovetail integration method.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-011",
-      "source_name": "Walcraft Cabinetry — Allure Construction Specs PDF",
-      "url": "https://walcraftcabinetry.com/wp-content/uploads/2019/08/Allure_Series.pdf",
+      "source_name": "cabinetparts.com — knape and vogt drawer slides side mount drawer slides KV8400",
+      "url": "https://www.cabinetparts.com/p/knape-and-vogt-drawer-slides-side-mount-drawer-slides-KV840022-p29513",
       "platform": "other",
       "column": "expert",
-      "snippet": "Process involves plywood side panels to perfectly interlock with solid wood face frame through proprietary dovetail groove. Drawer box 5/8 inch solid wood dovetail construction. Blum Tandem Plus Blumotion model 563H full-extension undermount concealed runners.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Authorized dealer construction spec document with exact hardware model numbers.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality",
-        "performance",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-012",
-      "source_name": "Blum Compact BLUMOTION Specifications",
-      "url": "https://www.blum.com/us/en/products/hingesystems/compact-blumotion/programme/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=yjqAot1M1FA",
       "platform": "other",
       "column": "expert",
-      "snippet": "BLUMOTION feature is adaptable so even if door is slammed it will not be damaged. Blum rates soft close for the life of the hinge with overload safety feature. Explicit 200,000 cycle count published for CLIP top BLUMOTION but NOT separately published for Compact Blumotion model used on Galaxy framed cabinets.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Hardware manufacturer specification data. Important distinction between CLIP top (200K published) and Compact (life of hinge but no published cycle count).",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "performance",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-013",
-      "source_name": "Blum Tandem Plus Blumotion Load Capacity",
-      "url": "https://www.cabinetparts.com/p/blum-drawer-slides-undermount-drawer-slides-BS563H5330B-p9167",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=GlJjoeQpSUo",
       "platform": "other",
       "column": "expert",
-      "snippet": "Blum Tandem 563H 21 inch Blumotion undermount slide. Overall length 21-9/16 inches. Load rating 100 lbs. Extension full. Closing type soft close.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Hardware specification confirming exact model and load rating for slide used in Galaxy.",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "performance",
-        "specs"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-014",
-      "source_name": "Fabuwood Q12 Quality Standards",
-      "url": "https://www.fabuwood.com/q12",
+      "source_name": "kraftmaid.com — product specifications",
+      "url": "https://www.kraftmaid.com/support/product-specifications/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Fabuwood Q12 cabinets 12 pillars of quality including AWI Premium Grade, KCMA, CARB2, TSCA VI certifications. Grade-A materials, lifetime warranty.",
-      "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Manufacturer quality framework marketing. Certifications verified via independent sources above.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-015",
-      "source_name": "Houzz — Fabuwood Forum Discussion",
-      "url": "https://www.houzz.com/discussions/2673815/fabuwood",
-      "platform": "houzz",
-      "column": "review",
-      "snippet": "Professional installer installed 18 Fabuwood kitchens in one year with zero quality complaints. Separate comment describes cabinets as one of cheapest installed, foreign made and assembled here. This predates AWI certification and warranty upgrade.",
+      "source_name": "merillat.com — finish options",
+      "url": "https://www.merillat.com/finish-options/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Professional installer volume data and older market perception. Both positive and negative installer signals.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-016",
-      "source_name": "Houzz — Fabuwood Cabinets Reviews Thread",
-      "url": "https://www.houzz.com/discussions/854029/fabuwood-cabinets-reviews",
-      "platform": "houzz",
-      "column": "review",
-      "snippet": "Dovetail joints of most cabinet boxes were poorly executed as were two of the three drawers of a base cabinet. Single report of assembly QC miss. Separate consumer reported installing Fabuwood with one very minor issue, happy year and a half later.",
+      "source_name": "crystalcabinets.com",
+      "url": "https://crystalcabinets.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
       "pool": "B",
-      "classification": "score",
-      "classification_reason": "Mixed field reports. Single QC miss report alongside positive consumer experience. Illustrates assembly variability.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-017",
-      "source_name": "Reddit r/cabinetry — Fabuwood Thread",
-      "url": "https://www.reddit.com/r/cabinetry/comments/1n8ue9j/fabuwood/",
-      "platform": "reddit",
-      "column": "forum",
-      "snippet": "Fabuwood is one of the cheapest cabinets we have installed as a contractor. Foreign made and assembled here.",
-      "pool": "C",
-      "classification": "score",
-      "classification_reason": "Contractor perception data. Reflects market positioning awareness among installers.",
+      "source_name": "fabuwood.com — cabinets",
+      "url": "https://www.fabuwood.com/cabinets",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-018",
-      "source_name": "Reddit r/cabinetry — Fabuwood Pricing 2025",
-      "url": "https://www.reddit.com/r/cabinetry/comments/1nebiw4/have_pricing_on_fabuwood_cabinetry_gone_up/",
-      "platform": "reddit",
-      "column": "forum",
-      "snippet": "Fabuwood comes flat packed from Vietnam or China then assembled in New Jersey. Pricing gone up significantly, likely tariff-related. Components sourced from Asia make Fabuwood susceptible to tariff cost pass-through.",
-      "pool": "C",
-      "classification": "report_only",
-      "classification_reason": "Supply chain and pricing information. Relevant to corporate outlook, not direct quality scoring.",
+      "source_name": "ikea.com — maximera drawer medium white 00265665",
+      "url": "https://www.ikea.com/us/en/p/maximera-drawer-medium-white-00265665/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-019",
-      "source_name": "Fabuwood BBB Profile",
-      "url": "https://www.bbb.org/us/nj/newark/profile/cabinets/fabuwood-cabinetry-corp-0221-90115411",
+      "source_name": "aristokraft.com",
+      "url": "https://www.aristokraft.com",
       "platform": "other",
-      "column": "forum",
-      "snippet": "Fabuwood Cabinetry Corp is NOT BBB Accredited. 1.4 out of 5 stars from 10 reviews. Complaints largely about color inconsistency and warranty claims.",
-      "pool": "C",
-      "classification": "score",
-      "classification_reason": "Consumer complaint aggregation. Small sample but identifies color consistency as recurring issue.",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-020",
-      "source_name": "Fabuwood West Coast Expansion",
-      "url": "https://www.businesswire.com/news/home/20250121777031/en/Fabuwood-Expands-to-the-West-Coast-Introducing-a-State-of-the-Art-Manufacturing-Facility-and-Distribution-Center",
+      "source_name": "mainlinekitchendesign.com — comment page 1",
+      "url": "https://www.mainlinekitchendesign.com/general/kitchen-cabinet-brand-comparison/comment-page-1/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Fabuwood expanding to West Coast with state-of-the-art manufacturing facility in Tijuana and upgraded distribution center in Southern California. Opened January 2025.",
+      "snippet": "",
       "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Corporate expansion news. Relevant to outlook assessment and manufacturing footprint, not direct quality scoring.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
     },
     {
       "id": "SRC-021",
-      "source_name": "YouTube — Fabuwood Cabinets Poor Quality",
-      "url": "https://www.youtube.com/watch?v=1LUDFf80LBM",
-      "platform": "youtube",
-      "column": "review",
-      "snippet": "Video documenting delivery and packaging damage with wax used to conceal damage. Credits both installer misconduct and packaging failure.",
-      "pool": "B",
-      "classification": "score",
-      "classification_reason": "Documented delivery damage issue. Corroborates shipping and handling as primary complaint vector rather than structural construction defects.",
+      "source_name": "cabinetdoor.store — best finishes for kitchen cabinets",
+      "url": "https://cabinetdoor.store/blog/best-finishes-for-kitchen-cabinets/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "ww2.arb.ca.gov — frequently asked questions no added formaldehyde and ultra l",
+      "url": "https://ww2.arb.ca.gov/resources/documents/frequently-asked-questions-no-added-formaldehyde-and-ultra-low-emitting",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "houzz.com — is a 75 pound weight limit for a drawer good enough",
+      "url": "https://www.houzz.com/discussions/3141532/is-a-75-pound-weight-limit-for-a-drawer-good-enough",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "woodworkerexpress.com — how to fix drawer slides",
+      "url": "https://woodworkerexpress.com/blog/2025/02/how-to-fix-drawer-slides/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=dqmqVIcF4jU",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "en.wikipedia.org — 32 mm cabinetmaking system",
+      "url": "https://en.wikipedia.org/wiki/32_mm_cabinetmaking_system",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "ww2.arb.ca.gov — composite wood products program",
+      "url": "https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "web.hettich.com — 1705 037 Sensys 0418 HUS",
+      "url": "https://web.hettich.com/fileadmin/media/1705-037_Sensys_0418_HUS.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "deltawoodworksfl.com — 1 2 vs 3 4 plywood for cabinets",
+      "url": "https://deltawoodworksfl.com/1-2-vs-3-4-plywood-for-cabinets/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "bogercabinetry.com — rta cabinet assembly mistakes to avoid",
+      "url": "https://www.bogercabinetry.com/2025/09/25/rta-cabinet-assembly-mistakes-to-avoid/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "spray-net.com — how to choose the best cabinet paint understanding your opti",
+      "url": "https://www.spray-net.com/blog/how-to-choose-the-best-cabinet-paint-understanding-your-options",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "housedigest.com — why white thermofoil cabinets yellowing how prevent",
+      "url": "https://www.housedigest.com/1571254/why-white-thermofoil-cabinets-yellowing-how-prevent/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "blum.com — hingesystems",
+      "url": "https://www.blum.com/gb/en/company/quality-innovation/identify-blum-products/hingesystems/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "woodbin.com — sagulator",
+      "url": "https://woodbin.com/calcs/sagulator/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "woodweb.com — QuarterInch Plywood",
+      "url": "https://woodweb.com/knowledge_base/QuarterInch_Plywood.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=Z2PASuKKOS8",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "salice.com — Salice UNIVERSAL HINGES Ed02 02 2020 ENG",
+      "url": "https://www.salice.com/downloads/3769/3027/Salice_UNIVERSAL-HINGES_Ed02_02-2020_ENG.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "takywj.com — chinese furniture hardware handles in europe and the united ",
+      "url": "https://www.takywj.com/to/chinese-furniture-hardware-handles-in-europe-and-the-united-states-to-win-the-way/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "kcma.org — cabinets certified last 0",
+      "url": "https://kcma.org/insights/cabinets-certified-last-0",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "woodworkingnetwork.com — cabinet trends come down earth",
+      "url": "https://www.woodworkingnetwork.com/cabinets/cabinet-trends-come-down-earth",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "woodworkingnetwork.com — kitchen cabinet manufacturers association releases severe us",
+      "url": "https://www.woodworkingnetwork.com/cabinets/kitchen-cabinet-manufacturers-association-releases-severe-use-performance-standard",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "fergusonhome.com",
+      "url": "https://www.fergusonhome.com",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "houzz.com — kitchen cabinet quality questions",
+      "url": "https://www.houzz.com/discussions/6384990/kitchen-cabinet-quality-questions",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "risunboard.com — in depth analysis of the strength and moisture resistance bo",
+      "url": "https://www.risunboard.com/news/in-depth-analysis-of-the-strength-and-moisture-resistance-boundaries-of-melamine-particleboard.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-045",
+      "source_name": "cuttingedgeinc.ca — spray stain vs wiping stain for finished cabinet doors",
+      "url": "https://cuttingedgeinc.ca/learning-centre/spray-stain-vs-wiping-stain-for-finished-cabinet-doors/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-046",
+      "source_name": "mychemicalfreehouse.net — non toxic kitchen cabinets",
+      "url": "https://www.mychemicalfreehouse.net/2024/04/non-toxic-kitchen-cabinets.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "Q",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-047",
+      "source_name": "woodgears.ca — joint strength",
+      "url": "https://woodgears.ca/joint_strength/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-048",
+      "source_name": "plydirect.co.uk — plywood grain",
+      "url": "https://plydirect.co.uk/plywood-grain/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_2. Scope: category.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_2",
+      "verified": false
+    },
+    {
+      "id": "SRC-049",
+      "source_name": "mainlinekitchendesign.com — cabinet reviews ratings for the top 100 cabinet brands",
+      "url": "https://www.mainlinekitchendesign.com/general/cabinet-reviews-ratings-for-the-top-100-cabinet-brands/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P",
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-050",
+      "source_name": "dreamlinecabinetry.com — best kitchen cabinets guide",
+      "url": "https://dreamlinecabinetry.com/best-kitchen-cabinets-guide/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-051",
+      "source_name": "housebeautiful.com — best kitchen cabinets brands",
+      "url": "https://www.housebeautiful.com/shopping/a28849189/best-kitchen-cabinets-brands/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-052",
+      "source_name": "goldenhomecabinets.com — brands of kitchen cabinets comparison finding the perfect ma",
+      "url": "https://goldenhomecabinets.com/blogs/industry-news/brands-of-kitchen-cabinets-comparison-finding-the-perfect-match-for-your-home",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-053",
+      "source_name": "houzz.com — need options for good quality mid range cabinet brands",
+      "url": "https://www.houzz.com/discussions/5643130/need-options-for-good-quality-mid-range-cabinet-brands",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-054",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=pvSpM34ELaU",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-055",
+      "source_name": "georgeconstructions.com — top 50 kitchen cabinet brands in the usa",
+      "url": "https://georgeconstructions.com/top-50-kitchen-cabinet-brands-in-the-usa/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-056",
+      "source_name": "aiskitchen.com — top 5 kitchen cabinet manufacturers in the us",
+      "url": "https://www.aiskitchen.com/article/top-5-kitchen-cabinet-manufacturers-in-the-us.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-057",
+      "source_name": "georgecabinetry.com — top 20 best kitchen cabinet brands in 2026",
+      "url": "https://georgecabinetry.com/blog/top-20-best-kitchen-cabinet-brands-in-2026/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-058",
+      "source_name": "rtgcabinets.com — top kitchen cabinet brands",
+      "url": "https://rtgcabinets.com/top-kitchen-cabinet-brands/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-059",
+      "source_name": "houzz.com — cabinet makers crystal rutt etc help",
+      "url": "https://www.houzz.com/discussions/2688353/cabinet-makers-crystal-rutt-etc-help",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-060",
+      "source_name": "mainlinekitchendesign.com — kitchen cabinet brand comparison",
+      "url": "https://www.mainlinekitchendesign.com/general/kitchen-cabinet-brand-comparison/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     }
   ],
-  "bottom_line": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus.",
+  "bottom_line": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top Blumotion hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
+      "SRC-005",
       "SRC-006",
       "SRC-007",
       "SRC-008",
@@ -342,35 +1045,71 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
+      "SRC-014",
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-019",
-      "SRC-021"
-    ],
-    "sources_report_only": [
-      "SRC-005",
-      "SRC-014",
       "SRC-018",
-      "SRC-020"
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025",
+      "SRC-026",
+      "SRC-027",
+      "SRC-028",
+      "SRC-029",
+      "SRC-030",
+      "SRC-031",
+      "SRC-032",
+      "SRC-033",
+      "SRC-034",
+      "SRC-035",
+      "SRC-036",
+      "SRC-037",
+      "SRC-038",
+      "SRC-039",
+      "SRC-040",
+      "SRC-041",
+      "SRC-042",
+      "SRC-043",
+      "SRC-044",
+      "SRC-045",
+      "SRC-046",
+      "SRC-047",
+      "SRC-048",
+      "SRC-049",
+      "SRC-050",
+      "SRC-051",
+      "SRC-052",
+      "SRC-053",
+      "SRC-054",
+      "SRC-055",
+      "SRC-056",
+      "SRC-057",
+      "SRC-058",
+      "SRC-059",
+      "SRC-060"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
-      "pool_A": 13,
-      "pool_B": 4,
-      "pool_C": 4
+      "pool_A": 15,
+      "pool_B": 40,
+      "pool_C": 5
     }
   },
   "product_slug": "fabuwood_galaxy",
   "product_name": "Fabuwood Galaxy",
   "manufacturer_slug": "fabuwood",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
-  "platform_disclosure": "Fabuwood: Galaxy/Allure/Nexus are distinct quality tiers from same NJ factory. Galaxy = plywood+Blum. Allure = mixed. Nexus = budget.",
+  "platform_disclosure": null,
   "outlook": "Strong",
-  "outlook_rationale": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus."
+  "outlook_rationale": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top Blumotion hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus."
 }

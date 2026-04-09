@@ -12,7 +12,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Manufacturer specs verified through professional channels. Factory heritage and production method are documented quality signals.",
-      "topics": ["quality", "specs"],
+      "topics": [
+        "quality",
+        "specs"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -25,7 +28,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Professional consensus from kitchen design community with specific comparative positioning.",
-      "topics": ["quality", "durability"],
+      "topics": [
+        "quality",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -38,7 +44,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Long-term owner experience with specific durability data points.",
-      "topics": ["durability", "performance"],
+      "topics": [
+        "durability",
+        "performance"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -51,7 +60,10 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Expert publication with material-level comparison. This Old House editorial team.",
-      "topics": ["quality", "durability"],
+      "topics": [
+        "quality",
+        "durability"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -64,7 +76,10 @@
       "pool": "B",
       "classification": "score",
       "classification_reason": "Professional installer perspective on installation requirements and longevity.",
-      "topics": ["durability", "quality"],
+      "topics": [
+        "durability",
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -77,7 +92,11 @@
       "pool": "A",
       "classification": "score",
       "classification_reason": "Consumer Reports independent testing methodology.",
-      "topics": ["durability", "performance", "quality"],
+      "topics": [
+        "durability",
+        "performance",
+        "quality"
+      ],
       "verification_relevance": "relevant"
     },
     {
@@ -90,14 +109,25 @@
       "pool": "B",
       "classification": "report_only",
       "classification_reason": "Corporate financial data — report finding, not scoring input.",
-      "topics": ["service"],
+      "topics": [
+        "service"
+      ],
       "verification_relevance": "relevant"
     }
   ],
   "bottom_line": "Rohl Shaws RC3618 is the fireclay farmhouse sink benchmark. Handcrafted in Lancashire England since 1897 — genuine artisanal manufacturing at kiln temperatures exceeding 2100°F. Dense, non-porous ceramic body resists staining, scratching, and chemical damage. Professional consensus places Shaws at the top of the fireclay hierarchy. Trade-offs: extreme weight (~140 lbs requires reinforced cabinetry), flat bottom may pool water slightly, non-repairable if cracked (extremely rare). Expected lifespan exceeds 50 years. Fortune Brands backing provides strong corporate stability.",
   "scoring_notes": {
-    "sources_scored": ["SRC-001", "SRC-002", "SRC-003", "SRC-004", "SRC-005", "SRC-006"],
-    "sources_report_only": ["SRC-007"],
+    "sources_scored": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006"
+    ],
+    "sources_report_only": [
+      "SRC-007"
+    ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
@@ -123,5 +153,37 @@
   "curation_date": null,
   "human_overrides": [],
   "structuring_cost_estimate": 0,
-  "verification_date": null
+  "verification_date": null,
+  "source_independence": "3/3 independent",
+  "source_independence_details": [
+    {
+      "file": "sinks_testing_framework.md",
+      "classification": "independent",
+      "urls_total": 46,
+      "urls_manufacturer": 0,
+      "urls_independent": 46
+    },
+    {
+      "file": "sinks_component_analysis.md",
+      "classification": "no_sources",
+      "urls_total": 0,
+      "urls_manufacturer": 0,
+      "urls_independent": 0
+    },
+    {
+      "file": "sinks_hierarchy_top.md",
+      "classification": "independent",
+      "urls_total": 8,
+      "urls_manufacturer": 0,
+      "urls_independent": 8
+    },
+    {
+      "file": "sinks_hierarchy_bottom.md",
+      "classification": "independent",
+      "urls_total": 7,
+      "urls_manufacturer": 0,
+      "urls_independent": 7
+    }
+  ],
+  "source_independence_tagged_at": "2026-04-06T18:59:19.406Z"
 }

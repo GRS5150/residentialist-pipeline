@@ -1,195 +1,334 @@
 {
   "product": "In2aqua",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "StarCraft Independent Reviews — In2aqua",
-      "url": "https://www.starcraftcustombuilders.com/sources.faucets.in2aqua.htm",
+      "source_name": "cnmassin.com — 5 core standards for high quality kitchen fauc 85153955",
+      "url": "https://www.cnmassin.com/news/5-core-standards-for-high-quality-kitchen-fauc-85153955.html",
       "platform": "other",
       "column": "expert",
-      "snippet": "Best Value in European Luxury Faucets continuously since 2016. Rating 8-9 out of 10. Most intelligently designed and engineered faucets examined in 19 years of reviewing. Components are among the best available. Best faucet warranty in the industry.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S authority with 7-year consecutive best value designation.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "Kerox PVD+ Cartridge — Independent Lab Testing",
-      "url": "https://www.in2aqua.us",
+      "source_name": "allorausa.com — why nsf certified faucets are essential for safe homes",
+      "url": "https://allorausa.com/blogs/news/why-nsf-certified-faucets-are-essential-for-safe-homes",
       "platform": "other",
       "column": "expert",
-      "snippet": "PVD+ cartridges tested through 4 million consecutive off/on hot/cold cycles over 90 days in independent laboratory. Discs showed no visible wear. 4 million cycles equivalent to approximately 560 years of use. PVD coating is tetrahedral amorphous carbon diamond-like carbon applied at 2 microns thickness. Eliminates lubricant dependency — lubricant erosion is primary failure mode in standard ceramic cartridges.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "StarCraft-confirmed independent lab test data on proprietary cartridge innovation.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability",
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "In2aqua Cartridge Split — StarCraft Confirmed",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "americanstandard-us.com — low lead and lead free faucets",
+      "url": "https://www.americanstandard-us.com/pages/low-lead-and-lead-free-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "Single-handle faucets use Kerox PVD+ mixing cartridge with DLC coating. Two-handle and widespread faucets use Flühs Drehtechnik stem cartridges from Germany. Flühs also performs much of the casting and machining for in2aqua brass bodies. Both cartridge types are lubricant-free.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S source confirming cartridge manufacturers and handle-type split.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "performance"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-004",
-      "source_name": "M-Lock Brass Mounting Collar",
-      "url": "https://www.in2aqua.us",
+      "source_name": "nsf.org — faucets plumbing products",
+      "url": "https://www.nsf.org/consumer-resources/articles/faucets-plumbing-products",
       "platform": "other",
       "column": "expert",
-      "snippet": "Proprietary M-Lock all-brass cartridge retaining collar. Most competitors use plastic for this component. Plastic can flex under pressure allowing cartridge to deform causing leaks. Brass collar eliminates this failure mode. Above-category-standard specification.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Engineering specification above category standard with documented failure mode prevention.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-005",
-      "source_name": "In2aqua Body Material Confirmation",
-      "url": "https://www.in2aqua.us",
+      "source_name": "basc.pnnl.gov — kitchen faucets",
+      "url": "https://basc.pnnl.gov/resource-guides/kitchen-faucets",
       "platform": "other",
       "column": "expert",
-      "snippet": "All faucet bodies solid brass throughout water-contact zone. Spouts also solid brass. Low-lead alloy meeting federal and state 0.25 percent lead content requirements. ZAMAK present only in non-wetted ancillary parts such as decorative escutcheons.",
+      "snippet": "",
       "pool": "A",
-      "classification": "score",
-      "classification_reason": "Body material confirmed across multiple sources. ZAMAK not in water path.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "MS"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-006",
-      "source_name": "In2aqua GoPro Warranty",
-      "url": "https://www.in2aqua.us/warranty",
+      "source_name": "nsf.org — faucets plumbing",
+      "url": "https://www.nsf.org/consumer-resources/faucets-plumbing",
       "platform": "other",
       "column": "expert",
-      "snippet": "GoPro lifetime warranty covers entire faucet assembly including cartridge — no cartridge-specific exclusion. Parts stocked at Livermore CA logistics center with typically same-day dispatch for warranty claims. Replacement cartridges available for purchase: 25mm at $70, 35mm kitchen at $154.",
+      "snippet": "",
       "pool": "A",
-      "classification": "report_only",
-      "classification_reason": "Warranty terms for buyer context. Strongest warranty in industry per StarCraft.",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-007",
-      "source_name": "In2aqua Business Model Classification",
-      "url": "https://www.starcraftcustombuilders.com",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=jnAHaCnxPCw",
       "platform": "other",
       "column": "expert",
-      "snippet": "Small-volume assembler/specifier of luxury faucets not a traditional manufacturer. German headquarters in Holzgerlingen. Shower products sourced from Nikles Inter AG Switzerland — not in2aqua manufactured.",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Pool S business model classification — assembler/specifier not manufacturer.",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-008",
-      "source_name": "In2aqua Finish Options",
-      "url": "https://www.in2aqua.us",
+      "source_name": "blog.bathselect.com — best independent reviews of over 5 faucet brands",
+      "url": "https://blog.bathselect.com/best-independent-reviews-of-over-5-faucet-brands/",
       "platform": "other",
       "column": "expert",
-      "snippet": "Available in polished chrome, satin nickel, matte black, and gold. No PVD finish technology. Narrower finish selection than California Faucets or Waterstone.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Finish specification — no PVD is a notable gap vs competitors.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "quality",
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-009",
-      "source_name": "In2aqua WaterSense Listing",
-      "url": "https://www.epa.gov/watersense",
+      "source_name": "wreckedrefined.com — moen delta kohler best faucet brand comparison",
+      "url": "https://www.wreckedrefined.com/blog/moen-delta-kohler-best-faucet-brand-comparison",
       "platform": "other",
       "column": "expert",
-      "snippet": "All in2aqua bathroom sink faucets are WaterSense listed.",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "EPA certification confirming water efficiency compliance.",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "performance"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     },
     {
       "id": "SRC-010",
-      "source_name": "In2aqua Field Data Limitation",
-      "url": "https://www.houzz.com",
-      "platform": "houzz",
-      "column": "review",
-      "snippet": "Brand launched in North America in 2014. Independent teardown data beyond StarCraft is sparse. Real-world multi-year field feedback is limited given relatively recent market entry.",
-      "pool": "B",
-      "classification": "report_only",
-      "classification_reason": "Data gap — limited long-term field data. Noted for report transparency.",
+      "source_name": "watersino.net — top faucet manufacturers worldwide",
+      "url": "https://watersino.net/top-faucet-manufacturers-worldwide/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
       "topics": [
-        "durability"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "fastresponseplumbingsf.com — top brands for faucets recommended by san francisco plumbers",
+      "url": "https://www.fastresponseplumbingsf.com/top-brands-for-faucets-recommended-by-san-francisco-plumbers/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "shouldit.com",
+      "url": "https://shouldit.com/kitchen-faucets/reviews/best/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "homedepot.com — N 5yc1vZar0kZbwo5q",
+      "url": "https://www.homedepot.com/b/Kitchen-Kitchen-Faucets/Best-Rated/N-5yc1vZar0kZbwo5q",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=g1ITctkJ5wE",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "nsf.org — certified product search",
+      "url": "https://www.nsf.org/certification/certified-product-search",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "epa.gov — specifications and reports",
+      "url": "https://www.epa.gov/watersense/specifications-and-reports",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "iq.ulprospector.com — browse",
+      "url": "https://iq.ulprospector.com/en/browse",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
     }
   ],
   "bottom_line": "Kerox PVD+ cartridge at 4M cycles — highest documented cycle rating in residential. Best warranty per StarCraft analysis. Solid brass construction. German-engineered. Lifetime warranty. Parts good but not as widely stocked as US brands.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
       "SRC-003",
       "SRC-004",
       "SRC-005",
+      "SRC-006",
       "SRC-007",
       "SRC-008",
-      "SRC-009"
-    ],
-    "sources_report_only": [
-      "SRC-006",
-      "SRC-010"
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 4,
+      "pool_S": 1,
       "pool_A": 5,
-      "pool_B": 1,
-      "pool_C": 0
+      "pool_B": 9,
+      "pool_C": 2
     }
   },
   "product_slug": "in2aqua",
   "product_name": "In2aqua",
   "manufacturer_slug": "in2aqua",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Strong",

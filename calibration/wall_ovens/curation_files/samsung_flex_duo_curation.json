@@ -1,0 +1,2014 @@
+{
+  "product": "Samsung Flex Duo",
+  "report_date": "2026-04-09",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "source_name": "blog.yaleappliance.com — most reliable wall ovens",
+      "url": "https://blog.yaleappliance.com/most-reliable-wall-ovens",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q",
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=QNNgytgwVII",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-003",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=mcYzpBqal9E",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "coastappliances.ca — best wall ovens",
+      "url": "https://www.coastappliances.ca/blogs/learn/best-wall-ovens",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "thisoldhouse.com — best ovens",
+      "url": "https://www.thisoldhouse.com/kitchens/best-ovens",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "consumerreports.org — best and worst wall oven brands of the year a9068098950",
+      "url": "https://www.consumerreports.org/appliances/wall-ovens/best-and-worst-wall-oven-brands-of-the-year-a9068098950/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "townappliance.com — top ovens of 2026 expert guide to ge miele and bosch at town",
+      "url": "https://www.townappliance.com/blogs/town-appliance-official/top-ovens-of-2026-expert-guide-to-ge-miele-and-bosch-at-town-appliance",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=tOc-1LLz9nQ",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "donsappliances.com — jenn air vs wolf guide",
+      "url": "https://www.donsappliances.com/blog/jenn-air-vs-wolf-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ZbS4lyKt9B0",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "houzz.com — if you had your choice with a large budget which appliance",
+      "url": "https://www.houzz.com/discussions/2273945/if-you-had-your-choice-with-a-large-budget-which-appliance",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "intertek.com — ul 858 household electric ranges",
+      "url": "https://www.intertek.com/standards-updates/ul-858-household-electric-ranges/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "webstore.iec.ch — 69042",
+      "url": "https://webstore.iec.ch/en/publication/69042",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "astm.org — e0145 19",
+      "url": "https://www.astm.org/e0145-19.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "ecfr.gov — subpart B",
+      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "scc-ccn.ca — 4018735",
+      "url": "https://scc-ccn.ca/standardsdb/standards/4018735",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "aham.org — Standard Chart Page",
+      "url": "https://www.aham.org/AHAM/Standard_Chart_Page.aspx",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "consumerreports.org — how to get the most from your broiler",
+      "url": "https://www.consumerreports.org/ranges/how-to-get-the-most-from-your-broiler/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "reviewed.com — how test electric induction ranges",
+      "url": "https://www.reviewed.com/ovens/features/how-test-electric-induction-ranges",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
+      "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "jdpower.com — 2025 us appliance reliability service study",
+      "url": "https://www.jdpower.com/business/press-releases/2025-us-appliance-reliability-service-study",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=lYKOACMWyVg",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "goodhousekeeping.com — about the kitchen lab",
+      "url": "https://www.goodhousekeeping.com/about/institute/a65913421/about-the-kitchen-lab/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ehq8nOo_JaQ",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "houzz.com — kitchen remodel need appliance help wolf vs miele or thermad",
+      "url": "https://www.houzz.com/discussions/6064377/kitchen-remodel-need-appliance-help-wolf-vs-miele-or-thermador-etc",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-026",
+      "source_name": "fluorogistx.com — temperature uniformity",
+      "url": "https://fluorogistx.com/temperature-uniformity/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-027",
+      "source_name": "townappliance.com — differences between european and american convection",
+      "url": "https://www.townappliance.com/blogs/town-appliance-official/differences-between-european-and-american-convection",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-028",
+      "source_name": "producthelp.whirlpool.com — High Temperature Self Clean Cycle Information",
+      "url": "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Product_Info/Oven_Cleaning_and_Care/High_Temperature_Self-Clean_Cycle_Information",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-029",
+      "source_name": "ecfr.gov — appendix Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
+      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-030",
+      "source_name": "aham.org — ItemDetail",
+      "url": "https://www.aham.org/ItemDetail?iProductCode=20022&Category=MADSTD&WebsiteKey=e77c44a3-68e2-480f-81b4-8c09990da1b9",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-031",
+      "source_name": "aham.org — ItemDetail",
+      "url": "https://www.aham.org/ItemDetail?iProductCode=20007&Category=MADSTD",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-032",
+      "source_name": "subzero-wolf.com — electric oven temperature range",
+      "url": "https://www.subzero-wolf.com/assistance/answers/wolf/common/electric-oven-temperature-range",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-033",
+      "source_name": "whirlpool.com — how long to preheat an oven",
+      "url": "https://www.whirlpool.com/blog/kitchen/how-long-to-preheat-an-oven.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-034",
+      "source_name": "aviagen.com — AVIA BroilerPerfChecklist 2017 EN",
+      "url": "https://aviagen.com/assets/Tech_Center/BB_Resources_Tools/AVIA-BroilerPerfChecklist-2017-EN.pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-035",
+      "source_name": "subzero-wolf.com — steam oven",
+      "url": "https://www.subzero-wolf.com/wolf/ovens/steam-oven",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-036",
+      "source_name": "hrbindustries.com — soft close oven hinges the quiet upgrade appliance brands ar",
+      "url": "https://www.hrbindustries.com/post/soft-close-oven-hinges-the-quiet-upgrade-appliance-brands-are-embracing",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-037",
+      "source_name": "youtube.com — 07y5N kkGfc",
+      "url": "https://www.youtube.com/shorts/07y5N_kkGfc",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-038",
+      "source_name": "katom.com — oven liners porcelain vs stainless steel",
+      "url": "https://www.katom.com/learning-center/oven-liners-porcelain-vs-stainless-steel.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-039",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=bQOLFsAK_l8",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-040",
+      "source_name": "cosmoappliances.com — the real cost of cheap kitchen appliances what actually brea",
+      "url": "https://cosmoappliances.com/the-real-cost-of-cheap-kitchen-appliances-what-actually-breaks-and-when/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-041",
+      "source_name": "ovendetailing.com — types of oven door glass and their differences a complete gu",
+      "url": "https://ovendetailing.com/blogs-clean-&-fix-ovens/f/types-of-oven-door-glass-and-their-differences-a-complete-guide",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-042",
+      "source_name": "mieleusa.com —  heater element 2 5kw 230 240v",
+      "url": "https://www.mieleusa.com/product/5807473/-heater-element-2-5kw-230-240v",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-043",
+      "source_name": "community.fornobravo.com — 426590 optimized insulation thickness a theoretic apporach",
+      "url": "https://community.fornobravo.com/forum/pizza-oven-design-and-installation/getting-started/426590-optimized-insulation-thickness-a-theoretic-apporach",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-044",
+      "source_name": "directenergy.com — how much energy does oven and electric stove use",
+      "url": "https://www.directenergy.com/en/learn/home-energy-management/how-much-energy-does-oven-and-electric-stove-use",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-045",
+      "source_name": "danielappliance.com — oven cooking evenly",
+      "url": "https://www.danielappliance.com/blog/oven-cooking-evenly",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-046",
+      "source_name": "orvilles.com — wolf vs thermador ranges",
+      "url": "https://www.orvilles.com/blog/wolf-vs-thermador-ranges",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-047",
+      "source_name": "bestbuy.com — J3KHV8S6FF",
+      "url": "https://www.bestbuy.com/product/whirlpool-6-7-cu-ft-self-cleaning-freestanding-double-oven-electric-convection-range-stainless-steel/J3KHV8S6FF",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-048",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=e_1pOWSVUfg",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-049",
+      "source_name": "consumerreports.org — best energy efficient kitchen appliances a1040572723",
+      "url": "https://www.consumerreports.org/appliances/best-energy-efficient-kitchen-appliances-a1040572723/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-050",
+      "source_name": "versus.com — miele wwg 360 wcs pwash vs samsung wa54r7600aw us",
+      "url": "https://versus.com/en/miele-wwg-360-wcs-pwash-vs-samsung-wa54r7600aw-us",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-051",
+      "source_name": "homedepot.com — 9ba683603be9fa5395fab9091a9131f",
+      "url": "https://www.homedepot.com/c/ab/insulation-r-values/9ba683603be9fa5395fab9091a9131f",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-052",
+      "source_name": "metlabs.com — appliances",
+      "url": "https://metlabs.com/industries/appliances/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-053",
+      "source_name": "energy.gov — issuance 2015 06 18 energy conservation program test procedu",
+      "url": "https://www.energy.gov/eere/buildings/articles/issuance-2015-06-18-energy-conservation-program-test-procedures",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-054",
+      "source_name": "kingarthurbaking.com — why i always bake a few test cookies first",
+      "url": "https://www.kingarthurbaking.com/blog/2021/09/14/why-i-always-bake-a-few-test-cookies-first",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-055",
+      "source_name": "tempsens.com — thermal camera for coke oven door refractory monitoring",
+      "url": "https://tempsens.com/blog/thermal-camera-for-coke-oven-door-refractory-monitoring/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-056",
+      "source_name": "houzz.com — technician s comments on wall oven brands",
+      "url": "https://www.houzz.com/discussions/5963886/technician-s-comments-on-wall-oven-brands",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-057",
+      "source_name": "whirlpool.com — wall oven sizes",
+      "url": "https://www.whirlpool.com/blog/kitchen/wall-oven-sizes.html",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-058",
+      "source_name": "blog.thermoworks.com — thermal secrets oven calibration",
+      "url": "https://blog.thermoworks.com/thermal-secrets-oven-calibration/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-059",
+      "source_name": "solartechonline.com — most energy efficient ovens guide",
+      "url": "https://solartechonline.com/blog/most-energy-efficient-ovens-guide/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-060",
+      "source_name": "steveslatonappliancerepair.com — should i use self clean in my oven",
+      "url": "https://steveslatonappliancerepair.com/should-i-use-self-clean-in-my-oven/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-061",
+      "source_name": "samsung.com — nv7000c wall oven premium plus single nv51cg700smtaa",
+      "url": "https://www.samsung.com/ca/cooking-appliances/ovens/nv7000c-wall-oven-premium-plus-single-nv51cg700smtaa/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-062",
+      "source_name": "samsungparts.com — ne59j7850wg aa",
+      "url": "https://samsungparts.com/products/ne59j7850wg-aa",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-063",
+      "source_name": "samsungpartsusa.com — nv51k6650dg aa wall oven control board assembly",
+      "url": "https://samsungpartsusa.com/products/nv51k6650dg-aa-wall-oven-control-board-assembly",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-064",
+      "source_name": "samsung.com — nv7000c wall oven premium plus single nv51cg700ssraa",
+      "url": "https://www.samsung.com/ca/business/cooking-appliances/ovens/nv7000c-wall-oven-premium-plus-single-nv51cg700ssraa/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-065",
+      "source_name": "samsung.com — ANS10002315",
+      "url": "https://www.samsung.com/us/support/answer/ANS10002315/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-066",
+      "source_name": "consumerreports.org — m403099",
+      "url": "https://www.consumerreports.org/appliances/ranges/samsung-nx60t8751sg/m403099/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-067",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=0zJCokK1VvI",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-068",
+      "source_name": "samsung.com — locations",
+      "url": "https://www.samsung.com/us/support/service/locations/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-069",
+      "source_name": "samsungpartsusa.com — nv51m9770dm aa wall oven oven temperature sensor",
+      "url": "https://samsungpartsusa.com/products/nv51m9770dm-aa-wall-oven-oven-temperature-sensor",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-070",
+      "source_name": "samsung.com — all wall ovens",
+      "url": "https://www.samsung.com/us/home-appliances/wall-ovens/all-wall-ovens/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-071",
+      "source_name": "samsung.com — warranty",
+      "url": "https://www.samsung.com/us/home-appliances/warranty/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-072",
+      "source_name": "repairclinic.com — Samsung Range Stove Oven Parts",
+      "url": "https://www.repairclinic.com/Shop-For-Parts/a13b160/Samsung-Range-Stove-Oven-Parts",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-073",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=92ThR3LtqCI",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-074",
+      "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
+      "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-075",
+      "source_name": "ebmpapst.com",
+      "url": "https://www.ebmpapst.com/us/en/home.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-076",
+      "source_name": "watlow.com — specification sheets",
+      "url": "https://www.watlow.com/resources-and-support/technical-library/specification-sheets",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-077",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=sCr30cqc3yw",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-078",
+      "source_name": "samsung.com — troubleshooting guide for samsung built in oven",
+      "url": "https://www.samsung.com/uk/support/home-appliances/troubleshooting-guide-for-samsung-built-in-oven/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-079",
+      "source_name": "news.samsung.com — the south carolina samsung effect",
+      "url": "https://news.samsung.com/us/the-south-carolina-samsung-effect",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-080",
+      "source_name": "ifixit.com — Hinges and Hinge Pins",
+      "url": "https://www.ifixit.com/Parts/Samsung_Stove/Hinges_and_Hinge_Pins?p=2",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-081",
+      "source_name": "homedepot.com — 314129694",
+      "url": "https://www.homedepot.com/p/Samsung-24-in-Single-Electric-Wall-Oven-in-Stainless-Steel-with-True-Convection-NV31T4551SS/314129694",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-082",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=bLtTbeg6XOI",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-083",
+      "source_name": "homeon129acres.com — dont buy a samsung stove with flex duo oven",
+      "url": "https://homeon129acres.com/2020/03/09/dont-buy-a-samsung-stove-with-flex-duo-oven/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-084",
+      "source_name": "intertek.com — ul 858 standard for safety for household electric ranges",
+      "url": "https://www.intertek.com/standards-updates/ul-858-standard-for-safety-for-household-electric-ranges/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-085",
+      "source_name": "cpsc.gov — Samsung Recalls Slide In Electric Ranges Due to Fire Hazard",
+      "url": "https://www.cpsc.gov/Recalls/2024/Samsung-Recalls-Slide-In-Electric-Ranges-Due-to-Fire-Hazard",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-086",
+      "source_name": "standardtvandappliance.com — lg vs samsung appliances",
+      "url": "https://www.standardtvandappliance.com/blog/lg-vs-samsung-appliances",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-087",
+      "source_name": "samsungpartsusa.com — wall oven",
+      "url": "https://samsungpartsusa.com/collections/wall-oven?page=46",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-088",
+      "source_name": "vietnam-briefing.com — where are samsungs factories in vietnam",
+      "url": "https://www.vietnam-briefing.com/news/where-are-samsungs-factories-in-vietnam.html/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-089",
+      "source_name": "homedepot.com — 312457213",
+      "url": "https://www.homedepot.com/p/Samsung-5-1-cu-ft-Electric-Wall-Oven-and-Microwave-Combo-in-Stainless-Steel-with-Wi-Fi-Connectivity-NQ70T5511DS/312457213",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-090",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=wK4QwC2yCD4",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-091",
+      "source_name": "samsungpartsusa.com",
+      "url": "https://samsungpartsusa.com",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-092",
+      "source_name": "samsung.com — wall ovens",
+      "url": "https://www.samsung.com/us/support/home-appliances/wall-ovens/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-093",
+      "source_name": "campserv.emory.edu — 2024 design standards and guidelines",
+      "url": "https://campserv.emory.edu/_includes/documents/2024_design_standards_and_guidelines.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "A",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-094",
+      "source_name": "samsung.com — convection vs conventional oven",
+      "url": "https://www.samsung.com/us/home-appliances/buying-guide/convection-vs-conventional-oven/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-095",
+      "source_name": "lowes.com — 37721669146475 4294963507 4294787994",
+      "url": "https://www.lowes.com/pl/accessible-kitchen/accessible-cooking/accessible-ovens/samsung/hidden-bake-element/37721669146475-4294963507-4294787994",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-096",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=kXqQ0bdN_bc",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-097",
+      "source_name": "samsung.com — ANS10002926",
+      "url": "https://www.samsung.com/us/support/answer/ANS10002926/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-098",
+      "source_name": "samsung.com — home appliances and electronics",
+      "url": "https://www.samsung.com/us/support/samsung-care-plus/home-appliances-and-electronics/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-099",
+      "source_name": "image-us.samsung.com — DACOR Modernist WallOven 30 Double Wall Oven Installation Ma",
+      "url": "https://image-us.samsung.com/SamsungUS/dacor/products/cooking/built-in-oven/dob30m977ds/download/DACOR-Modernist-WallOven-30-Double-Wall-Oven-Installation-Manual.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-100",
+      "source_name": "homedepot.com — 312457176",
+      "url": "https://www.homedepot.com/p/Samsung-30-in-5-1-5-1-cu-ft-Wi-Fi-Connected-Double-Electric-Wall-Oven-in-Black-Stainless-Steel-NV51T5511DG/312457176?MERCH=REC-_-pip_alternatives-_-320591805-_-9-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-101",
+      "source_name": "samsung.com — 30  double wall oven nv51k6650ds aa",
+      "url": "https://www.samsung.com/us/home-appliances/wall-ovens/double/30--double-wall-oven-nv51k6650ds-aa/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-102",
+      "source_name": "samsung.com — should you leave oven racks in during the self clean cycle i",
+      "url": "https://www.samsung.com/ca/support/home-appliances/should-you-leave-oven-racks-in-during-the-self-clean-cycle-in-your-samsung-oven/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-103",
+      "source_name": "reviewed.com — samsung ne63a6511ss freestanding electric range review",
+      "url": "https://www.reviewed.com/ovens/content/samsung-ne63a6511ss-freestanding-electric-range-review",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-104",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=0Vwj7J7jfNk",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-105",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=PFaCQXf-e7w",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-106",
+      "source_name": "vietnam-briefing.com — samsungs us1 8 billion investment to boost vietnams oled man",
+      "url": "https://www.vietnam-briefing.com/news/samsungs-us1-8-billion-investment-to-boost-vietnams-oled-manufacturing-capacity.html/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-107",
+      "source_name": "samsung.com — ANS10006905",
+      "url": "https://www.samsung.com/us/support/answer/ANS10006905/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-108",
+      "source_name": "betterhousekeeping.com — NV51K7770DS",
+      "url": "https://www.betterhousekeeping.com/PRODUCTS/SAMSUNG/NV51K7770DS.HTML",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-109",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=xzZyUMFZg_g&vl=en",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    },
+    {
+      "id": "SRC-110",
+      "source_name": "homedepot.com — 325664787",
+      "url": "https://www.homedepot.com/p/Samsung-Bespoke-30-in-Single-Electric-Wall-Oven-in-White-Glass-with-AI-Pro-Cooking-Camera-NV51CB700S12/325664787",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false
+    }
+  ],
+  "bottom_line": "Samsung Flex Duo — Tier 4 product. Target score: 47/100.",
+  "scoring_notes": {
+    "sources_scored": [
+      "SRC-061",
+      "SRC-062",
+      "SRC-063",
+      "SRC-064",
+      "SRC-065",
+      "SRC-066",
+      "SRC-067",
+      "SRC-068",
+      "SRC-069",
+      "SRC-070",
+      "SRC-071",
+      "SRC-072",
+      "SRC-073",
+      "SRC-074",
+      "SRC-075",
+      "SRC-076",
+      "SRC-077",
+      "SRC-078",
+      "SRC-079",
+      "SRC-080",
+      "SRC-081",
+      "SRC-082",
+      "SRC-083",
+      "SRC-084",
+      "SRC-085",
+      "SRC-086",
+      "SRC-087",
+      "SRC-088",
+      "SRC-089",
+      "SRC-090",
+      "SRC-091",
+      "SRC-092",
+      "SRC-093",
+      "SRC-094",
+      "SRC-095",
+      "SRC-096",
+      "SRC-097",
+      "SRC-098",
+      "SRC-099",
+      "SRC-100",
+      "SRC-101",
+      "SRC-102",
+      "SRC-103",
+      "SRC-104",
+      "SRC-105",
+      "SRC-106",
+      "SRC-107",
+      "SRC-108",
+      "SRC-109",
+      "SRC-110"
+    ],
+    "sources_report_only": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025",
+      "SRC-026",
+      "SRC-027",
+      "SRC-028",
+      "SRC-029",
+      "SRC-030",
+      "SRC-031",
+      "SRC-032",
+      "SRC-033",
+      "SRC-034",
+      "SRC-035",
+      "SRC-036",
+      "SRC-037",
+      "SRC-038",
+      "SRC-039",
+      "SRC-040",
+      "SRC-041",
+      "SRC-042",
+      "SRC-043",
+      "SRC-044",
+      "SRC-045",
+      "SRC-046",
+      "SRC-047",
+      "SRC-048",
+      "SRC-049",
+      "SRC-050",
+      "SRC-051",
+      "SRC-052",
+      "SRC-053",
+      "SRC-054",
+      "SRC-055",
+      "SRC-056",
+      "SRC-057",
+      "SRC-058",
+      "SRC-059",
+      "SRC-060"
+    ],
+    "sources_quarantined": [],
+    "pool_distribution": {
+      "pool_S": 5,
+      "pool_A": 14,
+      "pool_B": 73,
+      "pool_C": 18
+    }
+  },
+  "product_slug": "samsung_flex_duo",
+  "product_name": "Samsung Flex Duo",
+  "manufacturer_slug": "samsung",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
+  "curation_status": "curated",
+  "curation_date": "2026-04-09",
+  "human_overrides": [],
+  "platform_disclosure": null,
+  "outlook": null,
+  "outlook_rationale": null
+}

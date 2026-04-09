@@ -1,76 +1,263 @@
 {
   "product": "Corian (Solid Surface)",
-  "report_date": "2026-04-06",
+  "report_date": "2026-04-09",
   "sources": [
     {
       "id": "SRC-001",
-      "source_name": "Deep Dive Analysis — CERTIFICATIONS & MATERIAL SAFETY",
-      "url": "deep_dive_synthesis",
+      "source_name": "constructionresourcesusa.com — countertops 101 what kitchen countertop is best for you",
+      "url": "https://www.constructionresourcesusa.com/countertops-101-what-kitchen-countertop-is-best-for-you/",
       "platform": "other",
       "column": "expert",
-      "snippet": "| Certification | Status | Notes | |---|---|---| | **GREENGUARD Gold** | ❌ Not certified | VOC data not published | | **NSF/ANSI 51** | ✅ Certified | Food-contact surface safe | | **HPD (Health Product Declaration)** | ❌ Not readily available | Request from CorStar; PFAS status unknown | | **Declare Label** | ❌ Not certified | Not participating in Living Building Challenge program | | **Class A Fi",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Corian (Solid Surface).",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-002",
-      "source_name": "Deep Dive Analysis — SCORING SUMMARY FOR PLATFORM",
-      "url": "deep_dive_synthesis",
+      "source_name": "strongwood.com — choosing the best countertop material for your home or offic",
+      "url": "https://strongwood.com/design/choosing-the-best-countertop-material-for-your-home-or-office/",
       "platform": "other",
       "column": "expert",
-      "snippet": "| Category | Score (1–10) | Notes | |---|---|---| | **Material Composition** | 7 | PMMA acrylic well-documented; no hidden fillers; lower heat tolerance than marketed | | **Manufacturing Consistency** | 8 | U.S.-based, single-source; batch color variance documented | | **Heat Resistance** | 3 | ⚠️ 200°F limit is major weakness; thermal damage permanent | | **Scratch Resistance** | 6 | Soft (2.5 Mo",
-      "pool": "A",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Corian (Solid Surface).",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
     },
     {
       "id": "SRC-003",
-      "source_name": "Deep Dive Analysis — SOURCES CITED",
-      "url": "deep_dive_synthesis",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=j6evj5ARRXg",
       "platform": "other",
       "column": "expert",
-      "snippet": "- Karin Kirk, *Countertop Investigator* — heat resistance benchmarks, durability ratings - Consumer Reports — thermal damage testing, stain resistance benchmarking - Natural Stone Institute — comparative material analysis (for reference vs. natural stone) - StoneForum, r/Stonefabrication — fabricator consensus, real-world failure modes, competitive positioning - Houzz — homeowner long-term experie",
-      "pool": "S",
-      "classification": "score",
-      "classification_reason": "Deep dive component analysis for Corian (Solid Surface).",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
       "topics": [
-        "quality"
+        "Q"
       ],
-      "verification_relevance": "relevant"
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-004",
+      "source_name": "fabuwood.com — the ten best types of kitchen countertops",
+      "url": "https://www.fabuwood.com/blog/the-ten-best-types-of-kitchen-countertops",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-005",
+      "source_name": "consumerreports.org — best countertops for busy kitchens a7620583527",
+      "url": "https://www.consumerreports.org/home-garden/countertops/best-countertops-for-busy-kitchens-a7620583527/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=V526gvRKGd0",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_4",
+      "verified": false
+    },
+    {
+      "id": "SRC-007",
+      "source_name": "countertopsmart.com — the top 5 quartz countertop brands of 2024",
+      "url": "https://www.countertopsmart.com/blog/the-top-5-quartz-countertop-brands-of-2024",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q",
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-008",
+      "source_name": "remodelrepublic.com — top countertop materials for every budget and style",
+      "url": "https://www.remodelrepublic.com/blog/top-countertop-materials-for-every-budget-and-style",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-009",
+      "source_name": "standardcompanies.com — what is the most durable countertop material",
+      "url": "https://standardcompanies.com/what-is-the-most-durable-countertop-material/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "marblesystems.com — top 10 types of kitchen countertops find out why everyones o",
+      "url": "https://www.marblesystems.com/top-10-types-of-kitchen-countertops-find-out-why-everyones-obsessed-with-5/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "usacabinetstore.com — top 15 best kitchen countertop materials",
+      "url": "https://www.usacabinetstore.com/top-15-best-kitchen-countertop-materials/",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "mjbinteriors.com — 13 best kitchen countertop materials ranked from least to mo",
+      "url": "https://www.mjbinteriors.com/post/13-best-kitchen-countertop-materials-ranked-from-least-to-most-expensive",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "B",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=btma6vNTcSg",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "C",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
     }
   ],
   "bottom_line": "PMMA acrylic resin-based solid surface. Seamless, repairable, thermoformable — genuine functional advantages. BUT: heat vulnerable (damage begins ~200°F), scratches easily, requires periodic sanding. CorStar Capital ownership (post-DuPont). Fabricators moved on from Corian for high-end but it has a legitimate repairability niche.",
   "scoring_notes": {
-    "sources_scored": [
+    "sources_scored": [],
+    "sources_report_only": [
       "SRC-001",
       "SRC-002",
-      "SRC-003"
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012",
+      "SRC-013"
     ],
-    "sources_report_only": [],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
-      "pool_A": 2,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 0,
+      "pool_B": 9,
+      "pool_C": 3
     }
   },
   "product_slug": "corian",
   "product_name": "Corian (Solid Surface)",
   "manufacturer_slug": "corian",
-  "deep_dive_date": "2026-04-06",
-  "structuring_model": "auto_generated_v2",
+  "deep_dive_date": "2026-04-09",
+  "structuring_model": "source_registry_v1",
   "curation_status": "curated",
-  "curation_date": "2026-04-06",
+  "curation_date": "2026-04-09",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Conditional",
