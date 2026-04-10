@@ -496,16 +496,13 @@
     },
     "filter_summary": {
       "raw": 73,
-      "after_filter": 64,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 0,
-        "alwaysExclude": 0,
-        "bareRoot": 1,
-        "domainCap": 7,
-        "total": 73
+        "mfr": 0,
+        "always": 0,
+        "bare": 1,
+        "cap": 7
       }
     }
   },

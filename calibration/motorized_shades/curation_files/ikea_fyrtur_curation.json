@@ -436,39 +436,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "ratioav.com — sivoia vs palladiom how lutrons motorized shades compare",
-      "url": "https://ratioav.com/resources/blog/sivoia-vs-palladiom-how-lutrons-motorized-shades-compare",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=2qeZd59Yfpc",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "support.lutron.com — Which Lutron Residential System is Best for Me",
-      "url": "https://support.lutron.com/us/en/product/casetawireless/article/product-selection/Which-Lutron-Residential-System-is-Best-for-Me",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=KsBYDNMvE-g",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "IKEA FYRTUR — Tier Tier 4 product. Target score: 45/100.",
@@ -481,7 +485,9 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017"
+      "SRC-017",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -498,29 +504,24 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 8,
-      "pool_B": 16,
-      "pool_C": 0
+      "pool_B": 14,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 86,
-      "after_filter": 71,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 0,
-        "alwaysExclude": 1,
-        "bareRoot": 1,
-        "domainCap": 13,
-        "total": 86
+        "mfr": 0,
+        "always": 1,
+        "bare": 1,
+        "cap": 11
       }
     }
   },

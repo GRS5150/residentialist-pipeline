@@ -426,39 +426,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "dreamlinecabinetry.com — best kitchen cabinets guide",
-      "url": "https://dreamlinecabinetry.com/best-kitchen-cabinets-guide/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=KjIPysNhoFo",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "housebeautiful.com — best kitchen cabinets brands",
-      "url": "https://www.housebeautiful.com/shopping/a28849189/best-kitchen-cabinets-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=LT4G5h691qM",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "European frameless design. Particleboard box. RTA assembly (cam lock). Key advantage: confirmed Blum MAXIMERA drawer system (undermount, soft-close). TFL finish (thermofoil risk). 25-year limited warranty. J.D. Power high customer satisfaction BUT pros rate D quality per Main Line — thermofoil peels by year 5, drawers fail. Multi-source manufacturing. Target reduced from 71 to 68 based on installer feedback.",
@@ -467,7 +471,9 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023"
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -488,29 +494,24 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
-      "SRC-019",
-      "SRC-024",
-      "SRC-025"
+      "SRC-019"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
       "pool_A": 16,
-      "pool_B": 6,
-      "pool_C": 0
+      "pool_B": 4,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 121,
-      "after_filter": 101,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 13,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 6,
-        "total": 121
+        "mfr": 13,
+        "always": 0,
+        "bare": 0,
+        "cap": 4
       }
     }
   },

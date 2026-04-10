@@ -294,78 +294,6 @@
     },
     {
       "id": "SRC-017",
-      "source_name": "dir.ca.gov",
-      "url": "https://www.dir.ca.gov/title8/5533.html",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "ecfr.gov — section 3280",
-      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-XX/part-3280/subpart-C/section-3280.204",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "huduser.gov — fairch7",
-      "url": "https://www.huduser.gov/portal/publications/pdf/fairhousing/fairch7.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "woodworkingnetwork.com — revised cabinet performance standard approved ansi",
-      "url": "https://www.woodworkingnetwork.com/magazine/revised-cabinet-performance-standard-approved-ansi",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
       "source_name": "encyclopedia.com — kraftmaid cabinetry inc",
       "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/kraftmaid-cabinetry-inc",
       "platform": "other",
@@ -385,7 +313,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-018",
       "source_name": "cabinets-unlimited.com — KraftMaid Selection Guide",
       "url": "https://www.cabinets-unlimited.com/wp-content/uploads/2014/04/KraftMaid-Selection-Guide.pdf",
       "platform": "other",
@@ -405,7 +333,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-019",
       "source_name": "houzz.com — we are looking to build and we have been told high end kraft",
       "url": "https://www.houzz.com/discussions/222250/we-are-looking-to-build-and-we-have-been-told-high-end-kraftmaid-cabinets-are-as-good-as-custom-agree",
       "platform": "other",
@@ -425,7 +353,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-020",
       "source_name": "archinect.com — kraftmaid cabinets",
       "url": "https://archinect.com/forum/thread/90958/kraftmaid-cabinets",
       "platform": "other",
@@ -445,7 +373,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on archinect.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-021",
       "source_name": "pubhtml5.com",
       "url": "https://pubhtml5.com/ruzf/bjgi/",
       "platform": "other",
@@ -463,12 +391,96 @@
       "verified": false,
       "source_type": "other",
       "claim": ""
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "kitchenreviews.com",
+      "url": "https://www.kitchenreviews.com/cabinets/reviews/kraftmaid/2/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on kitchenreviews.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "kitchencabinetsreviews.com — kraftmaid",
+      "url": "https://kitchencabinetsreviews.com/reviews/kraftmaid.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on kitchencabinetsreviews.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "houzz.com — don t waste your time and money on kraftmaid cabinets",
+      "url": "https://www.houzz.com/discussions/6465084/don-t-waste-your-time-and-money-on-kraftmaid-cabinets",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "kraftmaid.pissedconsumer.com — review",
+      "url": "https://kraftmaid.pissedconsumer.com/review.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on kraftmaid.pissedconsumer.com."
     }
   ],
   "bottom_line": "MasterBrand/Fortune Brands. Dominant semi-custom. Particleboard box (furniture-board grade). Blum hinges and slides (lower-spec than custom). Catalyzed CV finish. J.D. Power #2 satisfaction. B+ quality per Main Line. Pros specify for mid-range remodels. Platform sharing with Diamond/Merillat but KraftMaid gets better hardware.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-004",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
       "SRC-021",
       "SRC-022",
       "SRC-023",
@@ -490,31 +502,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
-      "pool_A": 17,
-      "pool_B": 5,
+      "pool_A": 13,
+      "pool_B": 9,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 116,
-      "after_filter": 104,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 4,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 7,
-        "total": 116
+        "mfr": 4,
+        "always": 0,
+        "bare": 0,
+        "cap": 3
       }
     }
   },

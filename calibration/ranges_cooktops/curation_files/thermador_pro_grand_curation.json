@@ -278,24 +278,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "nvlpubs.nist.gov — NIST.TN.1986",
-      "url": "https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1986.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "blog.yaleappliance.com — should you buy a thermador professional range",
       "url": "https://blog.yaleappliance.com/should-you-buy-a-thermador-professional-range",
       "platform": "other",
@@ -311,159 +293,203 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on blog.yaleappliance.com."
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "assets.ajmadison.com — prd366jgu manual",
+      "url": "https://assets.ajmadison.com/ajmadison/itemdocs/prd366jgu_manual.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on assets.ajmadison.com."
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "kitchenstewardship.com — thermador stove review",
+      "url": "https://www.kitchenstewardship.com/thermador-stove-review/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on kitchenstewardship.com."
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "pdf.archiexpo.com — 11644 40261",
+      "url": "https://pdf.archiexpo.com/pdf/thermador/pro-rangetops-ranges/11644-40261.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
       "source_type": "other",
       "claim": ""
     },
     {
-      "id": "SRC-018",
-      "source_name": "blog.yaleappliance.com — most reliable gas ranges",
-      "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q",
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
-      "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
       "id": "SRC-020",
-      "source_name": "yaleappliance.com — service",
-      "url": "https://www.yaleappliance.com/service",
+      "source_name": "appliancebarn.com — thermador pro grand 48 stainless steel pro style slide in na",
+      "url": "https://www.appliancebarn.com/product/thermador-pro-grand-48-stainless-steel-pro-style-slide-in-natural-gas-range-prg486wdg-237663",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
-      "source_name": "yaleappliance.com — free standing gas range",
-      "url": "https://www.yaleappliance.com/catalog/free-standing-gas-range",
+      "source_name": "carlaaston.com — thermador pro grand steam range review",
+      "url": "https://carlaaston.com/designed/thermador-pro-grand-steam-range-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on carlaaston.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "yaleappliance.com — gas ranges",
-      "url": "https://www.yaleappliance.com/catalog/gas-ranges",
+      "source_name": "bestbuy.com — 6333037",
+      "url": "https://www.bestbuy.com/site/reviews/thermador-pro-grand-5-7-cu-ft-freestanding-dual-fuel-lp-convection-range-with-self-cleaning-stainless-steel/6333037",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "blog.yaleappliance.com — appliance installation costs",
-      "url": "https://blog.yaleappliance.com/appliance-installation-costs",
+      "source_name": "bestbuy.com — 6333043",
+      "url": "https://www.bestbuy.com/site/reviews/thermador-pro-grand-7-9-cu-ft-freestanding-double-oven-gas-convection-range-with-self-cleaning--liquid-propane-convertible-stainless-steel/6333043",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "yaleappliance.com — installation",
-      "url": "https://www.yaleappliance.com/installation",
+      "source_name": "houzz.com — does anyone actually have the thermador pro grand steam rang",
+      "url": "https://www.houzz.com/discussions/2260110/does-anyone-actually-have-the-thermador-pro-grand-steam-range",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "yaleappliance.com — reviews",
-      "url": "https://www.yaleappliance.com/reviews",
+      "source_name": "homedepot.com — 308852014",
+      "url": "https://www.homedepot.com/p/Thermador-Pro-Grand-36-in-5-7-cu-ft-Slide-In-Gas-Range-with-Self-Cleaning-Convection-Oven-in-Stainless-Steel-PRG366WG/308852014",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     }
   ],
   "bottom_line": "Thermador Pro Grand Gas Range — Tier Tier 2 product. Target score: 83/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-017"
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -480,36 +506,24 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 16,
-      "pool_A": 9,
-      "pool_B": 0,
+      "pool_S": 15,
+      "pool_A": 1,
+      "pool_B": 9,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 222,
-      "after_filter": 161,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 3,
-        "manufacturer": 8,
-        "alwaysExclude": 0,
-        "bareRoot": 3,
-        "domainCap": 47,
-        "total": 222
+        "mfr": 8,
+        "always": 0,
+        "bare": 3,
+        "cap": 43
       }
     }
   },

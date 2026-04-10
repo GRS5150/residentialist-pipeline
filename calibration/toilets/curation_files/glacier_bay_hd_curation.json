@@ -314,43 +314,6 @@
     },
     {
       "id": "SRC-018",
-      "source_name": "shop.iccsafe.org — 7202S12 sample",
-      "url": "https://shop.iccsafe.org/media/wysiwyg/material/7202S12-sample.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "iapmo.org — testing policies for iapmo certifications",
-      "url": "https://iapmo.org/certification-testing/testing-policies-for-iapmo-certifications",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q",
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "sveagle.com — glacier bay toilets a master plumbers review",
       "url": "https://sveagle.com/glacier-bay-toilets-a-master-plumbers-review/",
       "platform": "other",
@@ -370,7 +333,7 @@
       "claim": "Independent review of this product published on sveagle.com."
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-019",
       "source_name": "inspectapedia.com — Toilet Manufacturers Sources",
       "url": "https://inspectapedia.com/plumbing/Toilet_Manufacturers_Sources.php",
       "platform": "other",
@@ -390,7 +353,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "scribd.com — Glacier Bay Toilet",
       "url": "https://www.scribd.com/document/634604006/Glacier-Bay-Toilet",
       "platform": "other",
@@ -410,7 +373,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "plbg.com",
       "url": "https://www.plbg.com/forum/read.php?1%2C244571",
       "platform": "other",
@@ -430,7 +393,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on plbg.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "terrylove.com — index",
       "url": "https://terrylove.com/forums/index.php",
       "platform": "other",
@@ -450,7 +413,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on terrylove.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "glacier-bay-products.pissedconsumer.com — review",
       "url": "https://glacier-bay-products.pissedconsumer.com/review.html",
       "platform": "other",
@@ -468,12 +431,54 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on glacier-bay-products.pissedconsumer.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — OpBOST9glfA",
+      "url": "https://www.youtube.com/shorts/OpBOST9glfA",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=hlE7_ljBOYE",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Glacier Bay Elongated HD (Home Depot) — Tier 4 product. Target score: 45/100.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-001",
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -497,29 +502,24 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 7,
-      "pool_A": 12,
+      "pool_A": 10,
       "pool_B": 6,
-      "pool_C": 0
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 118,
-      "after_filter": 82,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 11,
-        "alwaysExclude": 0,
-        "bareRoot": 2,
-        "domainCap": 22,
-        "total": 118
+        "mfr": 11,
+        "always": 0,
+        "bare": 2,
+        "cap": 19
       }
     }
   },

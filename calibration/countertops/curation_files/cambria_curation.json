@@ -203,8 +203,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on helbocklaw.com."
     },
     {
       "id": "SRC-012",
@@ -348,46 +348,6 @@
     },
     {
       "id": "SRC-019",
-      "source_name": "houzz.com — beware of cambria",
-      "url": "https://www.houzz.com/discussions/5659581/beware-of-cambria",
-      "platform": "other",
-      "column": "forum",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "forum_discussion",
-      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "homedepot.com",
-      "url": "https://www.homedepot.com/p/reviews/CAMBRIA-Quartz-Countertop-Sample-in-Travella-10936176/321652654/1",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "review",
-      "claim": "Independent review of this product published on homedepot.com."
-    },
-    {
-      "id": "SRC-021",
       "source_name": "constructionresourcesusa.com — countertops 101 what kitchen countertop is best for you",
       "url": "https://www.constructionresourcesusa.com/countertops-101-what-kitchen-countertop-is-best-for-you/",
       "platform": "other",
@@ -405,7 +365,7 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "strongwood.com — choosing the best countertop material for your home or offic",
       "url": "https://strongwood.com/design/choosing-the-best-countertop-material-for-your-home-or-office/",
       "platform": "other",
@@ -423,7 +383,7 @@
       "verified": false
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "fabuwood.com — the ten best types of kitchen countertops",
       "url": "https://www.fabuwood.com/blog/the-ten-best-types-of-kitchen-countertops",
       "platform": "other",
@@ -441,7 +401,7 @@
       "verified": false
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "countertopsmart.com — the top 5 quartz countertop brands of 2024",
       "url": "https://www.countertopsmart.com/blog/the-top-5-quartz-countertop-brands-of-2024",
       "platform": "other",
@@ -460,9 +420,45 @@
       "verified": false
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "remodelrepublic.com — top countertop materials for every budget and style",
       "url": "https://www.remodelrepublic.com/blog/top-countertop-materials-for-every-budget-and-style",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "category",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "standardcompanies.com — what is the most durable countertop material",
+      "url": "https://standardcompanies.com/what-is-the-most-durable-countertop-material/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "category",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_3",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "marblesystems.com — top 10 types of kitchen countertops find out why everyones o",
+      "url": "https://www.marblesystems.com/top-10-types-of-kitchen-countertops-find-out-why-everyones-obsessed-with-5/",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -490,9 +486,7 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020"
+      "SRC-018"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -503,6 +497,8 @@
       "SRC-007",
       "SRC-008",
       "SRC-009",
+      "SRC-019",
+      "SRC-020",
       "SRC-021",
       "SRC-022",
       "SRC-023",
@@ -518,16 +514,13 @@
     },
     "filter_summary": {
       "raw": 86,
-      "after_filter": 82,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 0,
-        "alwaysExclude": 2,
-        "bareRoot": 0,
-        "domainCap": 2,
-        "total": 86
+        "mfr": 0,
+        "always": 2,
+        "bare": 0,
+        "cap": 2
       }
     }
   },

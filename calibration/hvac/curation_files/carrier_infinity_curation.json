@@ -294,60 +294,6 @@
     },
     {
       "id": "SRC-017",
-      "source_name": "ecfr.gov — appendix Appendix%20M1%20to%20Subpart%20B%20of%20Part%20430",
-      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20M1%20to%20Subpart%20B%20of%20Part%20430",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "ntinow.edu — 7 best home air conditioners of 2025 expert tests real resul",
-      "url": "https://ntinow.edu/7-best-home-air-conditioners-of-2025-expert-tests-real-results/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "libguides.princeton.edu",
-      "url": "https://libguides.princeton.edu/c.php?g=84763&p=543739",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "shareddocs.com — 24VNA9 09PD",
       "url": "https://www.shareddocs.com/hvac/docs/1009/Public/00/24VNA9-09PD.pdf",
       "platform": "other",
@@ -367,7 +313,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "ecobee.com — thermostat",
       "url": "https://www.ecobee.com/en-us/compatibility/thermostat/",
       "platform": "other",
@@ -387,7 +333,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "scribd.com — 24VNA9",
       "url": "https://www.scribd.com/document/843133418/24VNA9",
       "platform": "other",
@@ -407,7 +353,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "encompass.com — CAR24VNA936A0030050",
       "url": "https://encompass.com/model/CAR24VNA936A0030050",
       "platform": "other",
@@ -427,7 +373,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "shareddocs.com — 24VNA6 02PD",
       "url": "https://www.shareddocs.com/hvac/docs/1009/Public/0F/24VNA6-02PD.pdf",
       "platform": "other",
@@ -447,7 +393,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "rahnindustries.com — aluminum tube vs copper tube coils",
       "url": "https://rahnindustries.com/2021/10/15/aluminum-tube-vs-copper-tube-coils/",
       "platform": "other",
@@ -465,12 +411,75 @@
       "verified": false,
       "source_type": "comparison",
       "claim": "Comparison evaluating this product against competitors on rahnindustries.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "bryant.com — evolution system",
+      "url": "https://www.bryant.com/en/us/before-you-buy/evolution-system/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "copelandscrollcompressor.com — copeland digital compressor series",
+      "url": "https://copelandscrollcompressor.com/copeland-digital-compressor-series.php",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "widgets.colliervillechamber.com — Carrier Corporation",
+      "url": "https://widgets.colliervillechamber.com/feeds/directory/directory/action/Listing/value/4687/cid/1637/id/201/Carrier-Corporation",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     }
   ],
   "bottom_line": "Carrier Infinity 24VNA (Variable-Speed) — Tier Tier 1 product. Target score: 94/100.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-007",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -493,30 +502,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 13,
-      "pool_B": 6,
+      "pool_A": 10,
+      "pool_B": 9,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 104,
-      "after_filter": 74,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 2,
-        "manufacturer": 10,
-        "alwaysExclude": 0,
-        "bareRoot": 1,
-        "domainCap": 17,
-        "total": 104
+        "mfr": 10,
+        "always": 0,
+        "bare": 1,
+        "cap": 15
       }
     }
   },

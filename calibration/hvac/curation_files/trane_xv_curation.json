@@ -294,60 +294,6 @@
     },
     {
       "id": "SRC-017",
-      "source_name": "ecfr.gov — appendix Appendix%20M1%20to%20Subpart%20B%20of%20Part%20430",
-      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20M1%20to%20Subpart%20B%20of%20Part%20430",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "ntinow.edu — 7 best home air conditioners of 2025 expert tests real resul",
-      "url": "https://ntinow.edu/7-best-home-air-conditioners-of-2025-expert-tests-real-results/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "libguides.princeton.edu",
-      "url": "https://libguides.princeton.edu/c.php?g=84763&p=543739",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "keyhvac.com — trane s best air conditioners",
       "url": "https://www.keyhvac.com/post/trane-s-best-air-conditioners",
       "platform": "other",
@@ -367,7 +313,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "munchsupply.com — 061824 Munch July TechTip Spine FinTW",
       "url": "https://www.munchsupply.com/media/assets/docs/061824_Munch_July_TechTip-Spine_FinTW.pdf",
       "platform": "other",
@@ -387,7 +333,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "elibrary.tranetechnologies.com — 18 HD80D1 6F EN 08102023",
       "url": "https://elibrary.tranetechnologies.com/public/residential-hvac/Literature/Installation/18-HD80D1-6F-EN_08102023.pdf",
       "platform": "other",
@@ -407,7 +353,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "tranesupply.com — 01t4w00000P1WtjAAF",
       "url": "https://www.tranesupply.com/product/01t4w00000P1WtjAAF",
       "platform": "other",
@@ -427,7 +373,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "americanstandardair.com — platinum 18 air conditioner",
       "url": "https://www.americanstandardair.com/products/air-conditioners/platinum-18-air-conditioner/",
       "platform": "other",
@@ -447,7 +393,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "achrnews.com — 87135 aluminum vs copper the great condensing coil debate",
       "url": "https://www.achrnews.com/articles/87135-aluminum-vs-copper-the-great-condensing-coil-debate",
       "platform": "other",
@@ -465,12 +411,75 @@
       "verified": false,
       "source_type": "comparison",
       "claim": "Comparison evaluating this product against competitors on achrnews.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "versus.com — american standard accucomfort platinum 17 4a6v7x24a vs trane",
+      "url": "https://versus.com/en/american-standard-accucomfort-platinum-17-4a6v7x24a-vs-trane-xr15-4twr5018g1",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on versus.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "logan-inc.com — aluminum coils vs copper coils your hvac system",
+      "url": "https://www.logan-inc.com/blog/aluminum-coils-vs-copper-coils-your-hvac-system/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on logan-inc.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "facthvac.com — american standard and trane systems",
+      "url": "https://facthvac.com/american-standard-and-trane-systems/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     }
   ],
   "bottom_line": "Trane XV20i (Variable-Speed) — Tier Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-007",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -493,30 +502,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 13,
-      "pool_B": 6,
+      "pool_A": 10,
+      "pool_B": 9,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 100,
-      "after_filter": 75,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 3,
-        "manufacturer": 10,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 12,
-        "total": 100
+        "mfr": 10,
+        "always": 0,
+        "bare": 0,
+        "cap": 10
       }
     }
   },

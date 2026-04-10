@@ -117,8 +117,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on elegantlysetinstone.com."
     },
     {
       "id": "SRC-007",
@@ -434,39 +434,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "skutt.com — what is the orton cone chart",
-      "url": "https://skutt.com/what-is-the-orton-cone-chart/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=xQkSerMQSSY",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "intoceramics.com — industrial ceramic firing curve temperature chart",
-      "url": "https://www.intoceramics.com/blog/industrial-ceramic-firing-curve-temperature-chart/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=yEs-rspNkSM",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Daltile Panoramic Porcelain (Large Format) — Tier 2 product. Target score: 82/100.",
@@ -479,7 +483,9 @@
       "SRC-006",
       "SRC-007",
       "SRC-008",
-      "SRC-009"
+      "SRC-009",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -496,29 +502,24 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 0,
       "pool_A": 1,
-      "pool_B": 24,
-      "pool_C": 0
+      "pool_B": 22,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 56,
-      "after_filter": 51,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 3,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 2,
-        "total": 56
+        "mfr": 3,
+        "always": 0,
+        "bare": 0,
+        "cap": 2
       }
     }
   },

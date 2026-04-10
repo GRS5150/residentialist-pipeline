@@ -276,24 +276,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "pressbooks-dev.oer.hawaii.edu — water heating",
-      "url": "https://pressbooks-dev.oer.hawaii.edu/buildingmaintenance/chapter/water-heating/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "totalhomesupply.com — bradford white rg2pv50t6n 50 gallon power vent water heater ",
       "url": "https://www.totalhomesupply.com/p/bradford-white-rg2pv50t6n-50-gallon-power-vent-water-heater-natural-gas",
       "platform": "other",
@@ -313,7 +295,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "consolidatedsupply.com — 1241454",
       "url": "https://www.consolidatedsupply.com/Product/1241454",
       "platform": "other",
@@ -333,7 +315,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "docs.bradfordwhite.com — C1261 0522",
       "url": "https://docs.bradfordwhite.com/Spec_Sheets/C1261_0522.pdf",
       "platform": "other",
@@ -353,7 +335,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "docs.bradfordwhite.com — 1108 0215",
       "url": "https://docs.bradfordwhite.com/Spec_Sheets/1108_0215.pdf",
       "platform": "other",
@@ -373,7 +355,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "forthepro.bradfordwhite.com — documentation",
       "url": "https://forthepro.bradfordwhite.com/documentation/",
       "platform": "other",
@@ -393,7 +375,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "bradfordwhiteparts.com — how to find model and serial number on bradford white water ",
       "url": "https://www.bradfordwhiteparts.com/how-to-find-model-and-serial-number-on-bradford-white-water-heaters",
       "platform": "other",
@@ -413,7 +395,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "ferguson.com — 8160025",
       "url": "https://www.ferguson.com/product/bradford-white-ttw-50-gal.-tall-40-mbh-low-nox-power-vent-natural-gas-water-heater-brg2pv50t6n19/8160025.html",
       "platform": "other",
@@ -433,53 +415,79 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
-      "source_name": "westernbuildersupply.com — comparing performance performance plus and performance plati",
-      "url": "https://www.westernbuildersupply.com/post/comparing-performance-performance-plus-and-performance-platinum-natural-gas-water-heaters",
+      "id": "SRC-023",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=nP3LO8Dxbe8",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "Q",
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=qJH_Wu5d58I",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "joinarbor.com — best heat pump water heater",
-      "url": "https://www.joinarbor.com/resources/best-heat-pump-water-heater",
+      "source_name": "consumeraffairs.com — bradford white",
+      "url": "https://www.consumeraffairs.com/homeowners/bradford_white.html?page=2",
       "platform": "other",
-      "column": "review",
+      "column": "forum",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     }
   ],
   "bottom_line": "Bradford White RG250T6N (50 gal Tank) — Tier 2 product. Target score: 80/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023"
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -496,30 +504,24 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-024",
-      "SRC-025"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 5,
-      "pool_A": 11,
-      "pool_B": 9,
-      "pool_C": 0
+      "pool_A": 10,
+      "pool_B": 7,
+      "pool_C": 3
     },
     "filter_summary": {
       "raw": 89,
-      "after_filter": 70,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 7,
-        "alwaysExclude": 0,
-        "bareRoot": 1,
-        "domainCap": 10,
-        "total": 89
+        "mfr": 7,
+        "always": 0,
+        "bare": 1,
+        "cap": 8
       }
     }
   },

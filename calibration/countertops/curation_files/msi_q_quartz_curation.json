@@ -455,21 +455,23 @@
     },
     {
       "id": "SRC-025",
-      "source_name": "usacabinetstore.com — top 15 best kitchen countertop materials",
-      "url": "https://www.usacabinetstore.com/top-15-best-kitchen-countertop-materials/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=azTsAQSzXJM",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "MSI is a distribution/import company, not a manufacturer. Slabs sourced from multiple factories (India, China, Turkey, Brazil) under one brand. Documented lot-to-lot inconsistency. Known voids, cracking reports. Fabricators warn about quality variance. Big-box and budget fabricator staple. No single-source quality control.",
@@ -483,7 +485,8 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017"
+      "SRC-017",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -500,28 +503,24 @@
       "SRC-021",
       "SRC-022",
       "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-024"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
       "pool_A": 6,
-      "pool_B": 17,
-      "pool_C": 0
+      "pool_B": 16,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 85,
-      "after_filter": 79,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 2,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 4,
-        "total": 85
+        "mfr": 2,
+        "always": 0,
+        "bare": 0,
+        "cap": 2
       }
     }
   },

@@ -292,8 +292,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on ajmadison.com."
     },
     {
       "id": "SRC-017",
@@ -429,39 +429,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "bobvila.com — best kitchen sink brands",
-      "url": "https://www.bobvila.com/articles/best-kitchen-sink-brands/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=T7PjD_4xv8E",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "ihatemysink.com — top kitchen sink brands we recommend",
-      "url": "https://www.ihatemysink.com/hate-my-sinks/top-kitchen-sink-brands-we-recommend",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=BEomeWVz6_o",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Kraus Standart PRO 16-Gauge Stainless Undermount (KHU100-30) — Tier 3 product. Target score: 68/100.",
@@ -471,7 +475,9 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
-      "SRC-019"
+      "SRC-019",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -491,29 +497,24 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 13,
-      "pool_B": 11,
-      "pool_C": 0
+      "pool_B": 9,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 86,
-      "after_filter": 68,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 4,
-        "alwaysExclude": 2,
-        "bareRoot": 0,
-        "domainCap": 12,
-        "total": 86
+        "mfr": 4,
+        "always": 2,
+        "bare": 0,
+        "cap": 9
       }
     }
   },

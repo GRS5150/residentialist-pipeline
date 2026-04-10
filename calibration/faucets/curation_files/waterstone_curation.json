@@ -426,39 +426,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "holiechina.com — what makes german faucet manufacturers the worlds best choic",
-      "url": "https://holiechina.com/what-makes-german-faucet-manufacturers-the-worlds-best-choice-in-2025/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=QbUGutvJ1_A",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "sharmarket.co — competitor analysis in the global faucet market review of ch",
-      "url": "https://sharmarket.co/blog/competitor-analysis-in-the-global-faucet-market-review-of-chinese-turkish-and-european-brands",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=pG8ibURRMKs",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "316 stainless steel bar stock body — best body material in residential faucets. True manufacturer (machined, not cast). Murrieta CA. BUT: Geann (Taiwan) cartridges at 500K cycles (lower than Flühs/Kerox). No PVD finish (powder coat instead). Body quality pulls it up, cartridge/finish pull it down.",
@@ -467,7 +471,9 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015"
+      "SRC-015",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -488,29 +494,24 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
       "pool_A": 8,
-      "pool_B": 14,
-      "pool_C": 0
+      "pool_B": 12,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 80,
-      "after_filter": 60,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 9,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 11,
-        "total": 80
+        "mfr": 9,
+        "always": 0,
+        "bare": 0,
+        "cap": 9
       }
     }
   },

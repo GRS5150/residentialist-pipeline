@@ -328,24 +328,6 @@
     },
     {
       "id": "SRC-019",
-      "source_name": "woodworkingnetwork.com — revised cabinet performance standard approved ansi",
-      "url": "https://www.woodworkingnetwork.com/magazine/revised-cabinet-performance-standard-approved-ansi",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "hamptonbaykitchens-wordpress.azurewebsites.net — HBDS Brochure Spec Guide 100419",
       "url": "http://hamptonbaykitchens-wordpress.azurewebsites.net/wp-content/uploads/2020/01/HBDS_Brochure-Spec-Guide_100419.pdf",
       "platform": "other",
@@ -365,7 +347,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "manuals.plus — cca5df16b27b34387d31744b0b3cc6dde98c0203cdf48cbce6dbf1e6917a",
       "url": "https://manuals.plus/m/cca5df16b27b34387d31744b0b3cc6dde98c0203cdf48cbce6dbf1e6917a2acd",
       "platform": "other",
@@ -385,7 +367,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "hampton-bay.pissedconsumer.com — review",
       "url": "https://hampton-bay.pissedconsumer.com/review.html",
       "platform": "other",
@@ -405,66 +387,96 @@
       "claim": "Independent review of this product published on hampton-bay.pissedconsumer.com."
     },
     {
-      "id": "SRC-023",
-      "source_name": "dreamlinecabinetry.com — best kitchen cabinets guide",
-      "url": "https://dreamlinecabinetry.com/best-kitchen-cabinets-guide/",
+      "id": "SRC-022",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=Qvct-4QhcpY",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=LW1RBjqdG98",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "housebeautiful.com — best kitchen cabinets brands",
-      "url": "https://www.housebeautiful.com/shopping/a28849189/best-kitchen-cabinets-brands/",
+      "source_name": "consumeraffairs.com — hampton bay",
+      "url": "https://www.consumeraffairs.com/furniture/hampton_bay.html",
       "platform": "other",
-      "column": "review",
+      "column": "forum",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "ghcabinetry.com — brands of kitchen cabinets comparison finding the perfect ma",
-      "url": "https://ghcabinetry.com/blogs/industry-news/brands-of-kitchen-cabinets-comparison-finding-the-perfect-match-for-your-home",
+      "source_name": "consumeraffairs.com — hampton bay lighting",
+      "url": "https://www.consumeraffairs.com/homeowners/hampton_bay_lighting.html",
       "platform": "other",
-      "column": "review",
+      "column": "forum",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     }
   ],
   "bottom_line": "Home Depot house brand. Lowest-density particleboard. Generic hinges (30K cycles). Generic drawer slides (25K cycles, 50 lb). Thermofoil or melamine finish. No soft-close. Multi-source import manufacturing. Pros universally refuse for quality installs. Reported 5-7 year total failure. Reduced from Timberlake Origins (52) to Hampton Bay (45) as true builder-grade floor based on new research.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-019",
       "SRC-020",
       "SRC-021",
-      "SRC-022"
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -484,31 +496,24 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-018"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
-      "pool_A": 16,
-      "pool_B": 6,
-      "pool_C": 0
+      "pool_A": 15,
+      "pool_B": 3,
+      "pool_C": 4
     },
     "filter_summary": {
       "raw": 123,
-      "after_filter": 102,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 14,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 6,
-        "total": 123
+        "mfr": 14,
+        "always": 0,
+        "bare": 0,
+        "cap": 4
       }
     }
   },

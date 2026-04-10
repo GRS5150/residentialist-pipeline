@@ -429,39 +429,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "pdf.lowes.com — 719061127938",
-      "url": "http://pdf.lowes.com/energyguides/719061127938.pdf",
+      "source_name": "youtube.com — UJt4VFLluoE",
+      "url": "https://www.youtube.com/shorts/UJt4VFLluoE",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "lamoriaconstruction.com — the ultimate jeld wen window guide comparing v 2500 v 4500 s",
-      "url": "https://www.lamoriaconstruction.com/post/the-ultimate-jeld-wen-window-guide-comparing-v-2500-v-4500-siteline-and-wood-series-windows",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=dED2Hd7Yvsw",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Masonite Performance Door System (Fiberglass) — Tier 3 product. Target score: 64/100.",
@@ -471,7 +475,9 @@
       "SRC-018",
       "SRC-019",
       "SRC-020",
-      "SRC-021"
+      "SRC-021",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -491,29 +497,24 @@
       "SRC-015",
       "SRC-016",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
       "pool_A": 14,
-      "pool_B": 9,
-      "pool_C": 0
+      "pool_B": 7,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 243,
-      "after_filter": 102,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 7,
-        "manufacturer": 2,
-        "alwaysExclude": 7,
-        "bareRoot": 3,
-        "domainCap": 122,
-        "total": 243
+        "mfr": 2,
+        "always": 7,
+        "bare": 3,
+        "cap": 116
       }
     }
   },

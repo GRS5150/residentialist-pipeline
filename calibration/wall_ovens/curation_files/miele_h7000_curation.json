@@ -92,8 +92,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on blog.yaleappliance.com."
     },
     {
       "id": "SRC-006",
@@ -456,21 +456,23 @@
     },
     {
       "id": "SRC-025",
-      "source_name": "thisoldhouse.com — best ovens",
-      "url": "https://www.thisoldhouse.com/kitchens/best-ovens",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=qCUL4KNBvvc",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Miele H7000 Series — Tier 1 product. Target score: 95/100.",
@@ -484,7 +486,8 @@
       "SRC-021",
       "SRC-022",
       "SRC-023",
-      "SRC-024"
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -501,28 +504,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-025"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 4,
       "pool_A": 12,
-      "pool_B": 9,
-      "pool_C": 0
+      "pool_B": 8,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 91,
-      "after_filter": 72,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 5,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 14,
-        "total": 91
+        "mfr": 5,
+        "always": 0,
+        "bare": 0,
+        "cap": 12
       }
     }
   },

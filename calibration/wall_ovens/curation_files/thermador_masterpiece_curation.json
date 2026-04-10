@@ -132,8 +132,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on yaleappliance.com."
     },
     {
       "id": "SRC-008",
@@ -431,8 +431,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on fusespecialtyappliances.com."
     },
     {
       "id": "SRC-024",
@@ -515,16 +515,13 @@
     },
     "filter_summary": {
       "raw": 90,
-      "after_filter": 71,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 3,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 15,
-        "total": 90
+        "mfr": 3,
+        "always": 0,
+        "bare": 0,
+        "cap": 11
       }
     }
   },

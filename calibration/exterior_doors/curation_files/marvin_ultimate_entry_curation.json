@@ -512,16 +512,13 @@
     },
     "filter_summary": {
       "raw": 260,
-      "after_filter": 106,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 7,
-        "manufacturer": 35,
-        "alwaysExclude": 7,
-        "bareRoot": 3,
-        "domainCap": 102,
-        "total": 260
+        "mfr": 35,
+        "always": 7,
+        "bare": 3,
+        "cap": 100
       }
     }
   },

@@ -278,24 +278,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "nvlpubs.nist.gov — NIST.TN.1986",
-      "url": "https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1986.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "blog.yaleappliance.com — best bluestar professional ranges",
       "url": "https://blog.yaleappliance.com/best-bluestar-professional-ranges",
       "platform": "other",
@@ -311,159 +293,203 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on blog.yaleappliance.com."
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "houzz.com — same old question blue star or wolf from real owners please ",
+      "url": "https://www.houzz.com/discussions/3595018/same-old-question-blue-star-or-wolf-from-real-owners-please-reply",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "prweb.com — bluestar r celebrates 140th anniversary of custom manufactur",
+      "url": "https://www.prweb.com/releases/bluestar-r-celebrates-140th-anniversary-of-custom-manufacturing-amp-quality-craftsmanship-in-america-888617249.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
       "source_type": "other",
       "claim": ""
     },
     {
-      "id": "SRC-018",
-      "source_name": "blog.yaleappliance.com — most reliable gas ranges",
-      "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q",
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
       "id": "SRC-019",
-      "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
-      "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
+      "source_name": "einpresswire.com — bluestar introduces professional grade rangetop to its top o",
+      "url": "https://www.einpresswire.com/article/217314248/bluestar-introduces-professional-grade-rangetop-to-its-top-of-the-line-platinum-series",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-020",
-      "source_name": "yaleappliance.com — service",
-      "url": "https://www.yaleappliance.com/service",
+      "source_name": "assets.coastappliances.com — RNB364GPMV2 care",
+      "url": "https://assets.coastappliances.com/product-assets/bluestar/cooking-appliances/RNB364GPMV2/RNB364GPMV2-care.pdf",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
-      "source_name": "yaleappliance.com — free standing gas range",
-      "url": "https://www.yaleappliance.com/catalog/free-standing-gas-range",
+      "source_name": "houzz.com — bluestar platinum range review",
+      "url": "https://www.houzz.com/discussions/3441005/bluestar-platinum-range-review",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "yaleappliance.com — gas ranges",
-      "url": "https://www.yaleappliance.com/catalog/gas-ranges",
+      "source_name": "lazygirldinners.com — blue star range",
+      "url": "https://lazygirldinners.com/2018/05/14/blue-star-range/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
-      "source_name": "blog.yaleappliance.com — appliance installation costs",
-      "url": "https://blog.yaleappliance.com/appliance-installation-costs",
+      "source_name": "howdoesshe.com — modern kitchen reveal and bluestar range review",
+      "url": "https://howdoesshe.com/modern-kitchen-reveal-and-bluestar-range-review/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on howdoesshe.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "yaleappliance.com — installation",
-      "url": "https://www.yaleappliance.com/installation",
+      "source_name": "us-appliance.com — bsp304bn",
+      "url": "https://www.us-appliance.com/bsp304bn.html",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-025",
-      "source_name": "yaleappliance.com — reviews",
-      "url": "https://www.yaleappliance.com/reviews",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=HNVOQsd5HDU",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "BlueStar Platinum Gas Range — Tier Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-017"
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -480,36 +506,24 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 16,
-      "pool_A": 9,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_S": 15,
+      "pool_A": 1,
+      "pool_B": 8,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 222,
-      "after_filter": 164,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 2,
-        "manufacturer": 3,
-        "alwaysExclude": 0,
-        "bareRoot": 3,
-        "domainCap": 50,
-        "total": 222
+        "mfr": 3,
+        "always": 0,
+        "bare": 3,
+        "cap": 46
       }
     }
   },

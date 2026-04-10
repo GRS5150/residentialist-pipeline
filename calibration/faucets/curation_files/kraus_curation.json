@@ -454,21 +454,23 @@
     },
     {
       "id": "SRC-025",
-      "source_name": "wreckedrefined.com — moen delta kohler best faucet brand comparison",
-      "url": "https://www.wreckedrefined.com/blog/moen-delta-kohler-best-faucet-brand-comparison",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=fjttM4N-PG4",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Marketeer model — does not manufacture. Claims solid brass but unknown cartridge supplier (mixed/generic Chinese). Chrome-only finish. Source traceability unknown. Limited parts availability. StarCraft rates low. Plumbers and pros warn about Kingston Brass/Kraus tier — premium-looking but ZAMAK/plastic inside. Lifetime warranty on paper but execution questioned.",
@@ -482,7 +484,8 @@
       "SRC-017",
       "SRC-018",
       "SRC-019",
-      "SRC-020"
+      "SRC-020",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -499,28 +502,24 @@
       "SRC-021",
       "SRC-022",
       "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-024"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
       "pool_A": 9,
-      "pool_B": 13,
-      "pool_C": 0
+      "pool_B": 12,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 80,
-      "after_filter": 65,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 7,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 7,
-        "total": 80
+        "mfr": 7,
+        "always": 0,
+        "bare": 0,
+        "cap": 5
       }
     }
   },

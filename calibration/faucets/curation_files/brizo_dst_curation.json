@@ -430,39 +430,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "shouldit.com",
-      "url": "https://shouldit.com/kitchen-faucets/reviews/best/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=hAknGxsDMpE",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "homedepot.com — N 5yc1vZar0kZbwo5q",
-      "url": "https://www.homedepot.com/b/Kitchen-Kitchen-Faucets/Best-Rated/N-5yc1vZar0kZbwo5q",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=1bBaC6ccqKM",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Diamond Seal Technology (DST) cartridge at 5M cycles — highest cycle count but proprietary (not Flühs/Kerox). Brilliance PVD finish. Solid brass body. BUT: >2/3 China manufacturing, plastic spray wands, not all Brizo models use DST (some Sedal/unknown). Must specify -DST suffix models.",
@@ -473,7 +477,9 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017"
+      "SRC-017",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -492,29 +498,24 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
       "pool_A": 8,
-      "pool_B": 14,
-      "pool_C": 0
+      "pool_B": 12,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 76,
-      "after_filter": 62,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 5,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 9,
-        "total": 76
+        "mfr": 5,
+        "always": 0,
+        "bare": 0,
+        "cap": 7
       }
     }
   },

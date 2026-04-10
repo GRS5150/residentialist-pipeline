@@ -278,24 +278,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "nvlpubs.nist.gov — NIST.TN.1986",
-      "url": "https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1986.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "cpsc.gov — Samsung Recalls Slide In Electric Ranges Due to Fire Hazard",
       "url": "https://www.cpsc.gov/Recalls/2024/Samsung-Recalls-Slide-In-Electric-Ranges-Due-to-Fire-Hazard",
       "platform": "other",
@@ -311,159 +293,203 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on cpsc.gov."
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "topclassactions.com — samsung gas oven range class action lawsuit alleges sensor d",
+      "url": "https://topclassactions.com/lawsuit-settlements/consumer-products/appliances/samsung-gas-oven-range-class-action-lawsuit-alleges-sensor-defect/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on topclassactions.com."
     },
     {
       "id": "SRC-018",
-      "source_name": "blog.yaleappliance.com — most reliable gas ranges",
-      "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges",
+      "source_name": "classaction.org — samsung range thermostat sensor lawsuits",
+      "url": "https://www.classaction.org/samsung-range-thermostat-sensor-lawsuits",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "Q",
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on classaction.org."
     },
     {
       "id": "SRC-019",
-      "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
-      "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
+      "source_name": "designerappliances.com — samsung ranges",
+      "url": "https://www.designerappliances.com/blog/samsung-ranges/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on designerappliances.com."
     },
     {
       "id": "SRC-020",
-      "source_name": "yaleappliance.com — service",
-      "url": "https://www.yaleappliance.com/service",
+      "source_name": "bestbuy.com — 6447913",
+      "url": "https://www.bestbuy.com/site/reviews/samsung-6-0-cu-ft-freestanding-gas-range-with-18k-btu-dual-power-burner-self-clean-stainless-steel/6447913",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-021",
-      "source_name": "yaleappliance.com — free standing gas range",
-      "url": "https://www.yaleappliance.com/catalog/free-standing-gas-range",
+      "source_name": "reviewed.com — samsung nx60a6511s freestanding gas range review",
+      "url": "https://www.reviewed.com/ovens/content/samsung-nx60a6511s-freestanding-gas-range-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on reviewed.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "yaleappliance.com — gas ranges",
-      "url": "https://www.yaleappliance.com/catalog/gas-ranges",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Samsung-30-in-5-Burner-Freestanding-Smart-Gas-Range-in-Stainless-Steel-with-No-Preheat-AirFry-and-Wi-Fi-Enabled-Convection-NX60A6711SS/315493149/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "blog.yaleappliance.com — appliance installation costs",
-      "url": "https://blog.yaleappliance.com/appliance-installation-costs",
+      "source_name": "homeanddarlings.com — honest review of the samsung gas range 5 8 cu ft",
+      "url": "https://homeanddarlings.com/honest-review-of-the-samsung-gas-range-5-8-cu-ft/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homeanddarlings.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "yaleappliance.com — installation",
-      "url": "https://www.yaleappliance.com/installation",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=W6l5m4HY61Q",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "yaleappliance.com — reviews",
-      "url": "https://www.yaleappliance.com/reviews",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=_gDgACMaNkk",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Samsung Gas Slide-In Range — Tier Tier 4 product. Target score: 45/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-017"
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -480,36 +506,24 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 16,
-      "pool_A": 9,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_S": 15,
+      "pool_A": 1,
+      "pool_B": 7,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 224,
-      "after_filter": 165,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 3,
-        "manufacturer": 5,
-        "alwaysExclude": 1,
-        "bareRoot": 3,
-        "domainCap": 47,
-        "total": 224
+        "mfr": 5,
+        "always": 1,
+        "bare": 3,
+        "cap": 45
       }
     }
   },

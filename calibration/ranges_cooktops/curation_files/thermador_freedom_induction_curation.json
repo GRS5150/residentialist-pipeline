@@ -351,8 +351,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on yaleappliance.com."
     },
     {
       "id": "SRC-020",
@@ -375,93 +375,103 @@
     },
     {
       "id": "SRC-021",
-      "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
-      "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
+      "source_name": "kitchenandresidentialdesign.com — thermadors freedom induction",
+      "url": "https://www.kitchenandresidentialdesign.com/2012/06/thermadors-freedom-induction.html",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
-      "source_name": "yaleappliance.com — service",
-      "url": "https://www.yaleappliance.com/service",
+      "source_name": "fusespecialtyappliances.com — thermador induction cooktop review",
+      "url": "https://www.fusespecialtyappliances.com/blog/thermador-induction-cooktop-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on fusespecialtyappliances.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "yaleappliance.com — free standing gas range",
-      "url": "https://www.yaleappliance.com/catalog/free-standing-gas-range",
+      "source_name": "bestbuy.com — 6493203",
+      "url": "https://www.bestbuy.com/site/reviews/thermador-freedom-series-30-built-in-electric-induction-smart-cooktop-with-5-elements-and-frameless-design-dark-gray/6493203",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "yaleappliance.com — gas ranges",
-      "url": "https://www.yaleappliance.com/catalog/gas-ranges",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=OIBpklyqcNM",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "blog.yaleappliance.com — appliance installation costs",
-      "url": "https://blog.yaleappliance.com/appliance-installation-costs",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=d3ykba2DXsw",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Thermador Freedom Induction Cooktop — Tier Tier 2 product. Target score: 81/100.",
@@ -469,7 +479,12 @@
     "sources_scored": [
       "SRC-001",
       "SRC-018",
-      "SRC-019"
+      "SRC-019",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-002",
@@ -488,32 +503,24 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-020"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 17,
-      "pool_A": 8,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 3,
+      "pool_B": 3,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 220,
-      "after_filter": 159,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 2,
-        "manufacturer": 11,
-        "alwaysExclude": 0,
-        "bareRoot": 3,
-        "domainCap": 45,
-        "total": 220
+        "mfr": 11,
+        "always": 0,
+        "bare": 3,
+        "cap": 43
       }
     }
   },

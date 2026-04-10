@@ -298,171 +298,198 @@
     },
     {
       "id": "SRC-017",
-      "source_name": "yaleappliance.com — service",
-      "url": "https://www.yaleappliance.com/service",
+      "source_name": "arnoldsappliance.com — bosch refrigerator series explained",
+      "url": "https://www.arnoldsappliance.com/blog/bosch-refrigerator-series-explained",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-018",
-      "source_name": "mntap.umn.edu — Refrigeration Best Practices Document",
-      "url": "http://www.mntap.umn.edu/wp-content/uploads/simple-file-list/Resources/Tools-and-Calculators/Refrigeration-Best-Practices-Document.pdf",
+      "source_name": "prestoappliancedurham.wordpress.com — bosch refrigerator reviews for 2020",
+      "url": "https://prestoappliancedurham.wordpress.com/2020/10/21/bosch-refrigerator-reviews-for-2020/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on prestoappliancedurham.wordpress.com."
     },
     {
       "id": "SRC-019",
-      "source_name": "federalregister.gov — certain refrigerator water filtration devices and components",
-      "url": "https://www.federalregister.gov/documents/2023/02/08/2023-02635/certain-refrigerator-water-filtration-devices-and-components-thereof-notice-of-commission-decision",
+      "source_name": "bosch.com — the first bosch refrigerator",
+      "url": "https://www.bosch.com/stories/the-first-bosch-refrigerator/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-020",
-      "source_name": "consumer.ftc.gov — warranties",
-      "url": "https://consumer.ftc.gov/articles/warranties",
+      "source_name": "wickfordappliance.com — B30IR905SP",
+      "url": "https://www.wickfordappliance.com/refrigeration/built-in/no-freezer-built-in-refrigerator/bosch/B30IR905SP",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
-      "source_name": "cpsc.gov — True Manufacturing Recalls Commercial Refrigerators with Sec",
-      "url": "https://www.cpsc.gov/Recalls/2024/True-Manufacturing-Recalls-Commercial-Refrigerators-with-Secop-Compressors-Due-to-Fire-Hazard",
+      "source_name": "theoriginallakesappliance.com — Bosch%20Benchmark",
+      "url": "https://www.theoriginallakesappliance.com/brands/ct/Bosch%20Benchmark",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
-      "source_name": "cit.uscourts.gov — Scott%20McBride%20 %20Scoop%20on%20Scopes",
-      "url": "https://www.cit.uscourts.gov/sites/cit/files/Scott%20McBride%20-%20Scoop%20on%20Scopes.pdf",
+      "source_name": "reviewed.com — bosch benchmark series she89pw55n review",
+      "url": "https://www.reviewed.com/dishwashers/content/bosch-benchmark-series-she89pw55n-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on reviewed.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "govinfo.gov",
-      "url": "https://www.govinfo.gov/link/cfr/10/431?link-type=pdf&sectionnum=63&year=mostrecent",
+      "source_name": "bestbuy.com — 10772348",
+      "url": "https://www.bestbuy.com/site/reviews/bosch-benchmark-series-24-top-control-smart-built-in-tub-dishwasher-38-dba-stainless-steel/10772348",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "federalregister.gov — energy conservation program energy conservation standards fo",
-      "url": "https://www.federalregister.gov/documents/2025/01/21/2024-31214/energy-conservation-program-energy-conservation-standards-for-commercial-refrigerators-freezers-and",
+      "source_name": "vanvreedes.com — bosch appliance package review worth the investment",
+      "url": "https://www.vanvreedes.com/blog/bosch-appliance-package-review-worth-the-investment",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on vanvreedes.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "sjvc.edu — a guide to optimizing the refrigeration cycle secrets to imp",
-      "url": "https://www.sjvc.edu/blog/a-guide-to-optimizing-the-refrigeration-cycle-secrets-to-improving-refrigeration-energy-efficiency/",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Bosch-Benchmark-Series-30-in-Built-In-Single-Electric-Convection-Wall-Oven-in-Stainless-Steel-w-Right-SideOpening-Door-HBLP451RUC/304950679/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     }
   ],
   "bottom_line": "Bosch Benchmark Built-In — Tier 2 product. Target score: 79/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-001"
+      "SRC-001",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-002",
@@ -479,36 +506,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 10,
-      "pool_A": 15,
-      "pool_B": 0,
+      "pool_A": 6,
+      "pool_B": 9,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 136,
-      "after_filter": 114,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 3,
-        "alwaysExclude": 0,
-        "bareRoot": 3,
-        "domainCap": 15,
-        "total": 136
+        "mfr": 3,
+        "always": 0,
+        "bare": 3,
+        "cap": 12
       }
     }
   },

@@ -274,60 +274,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "ecfr.gov — appendix Appendix%20M1%20to%20Subpart%20B%20of%20Part%20430",
-      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20M1%20to%20Subpart%20B%20of%20Part%20430",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "ntinow.edu — 7 best home air conditioners of 2025 expert tests real resul",
-      "url": "https://ntinow.edu/7-best-home-air-conditioners-of-2025-expert-tests-real-results/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "libguides.princeton.edu",
-      "url": "https://libguides.princeton.edu/c.php?g=84763&p=543739",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
       "source_name": "ferguson.com — 7360224",
       "url": "https://www.ferguson.com/product/goodman-gsxc18-3-ton---up-to-19-seer---air-conditioner---208%2F230v---two-stage---r-410a-ggsxc180361/7360224.html",
       "platform": "other",
@@ -347,7 +293,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-017",
       "source_name": "hvacdirect.com — GSXC18 Spec Sheet",
       "url": "https://hvacdirect.com/media/hvac/pdf/GSXC18-Spec-Sheet.pdf",
       "platform": "other",
@@ -367,7 +313,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "resource.ecmdi.com — goodman gsxc180481 article 4560502268086988 en sm",
       "url": "https://resource.ecmdi.com/is/content/Watscocom/Gemaire/goodman_gsxc180481_article_4560502268086988_en_sm.pdf",
       "platform": "other",
@@ -387,7 +333,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "attachments.heatandcool.com — GSXC18 DSXC18 SERIES   BROCHURE",
       "url": "https://attachments.heatandcool.com/782/GSXC18-DSXC18_SERIES_-_BROCHURE.pdf",
       "platform": "other",
@@ -407,7 +353,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "apps.goodmanmfg.com — 5b913fb32aa98CB FGSXC18",
       "url": "https://apps.goodmanmfg.com/brochures/files/5b913fb32aa98CB-FGSXC18.pdf",
       "platform": "other",
@@ -427,7 +373,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "apps.goodmanmfg.com — 5ec8291dc8d1eCB LGSXC18",
       "url": "https://apps.goodmanmfg.com/brochures/files/5ec8291dc8d1eCB-LGSXC18.pdf",
       "platform": "other",
@@ -447,7 +393,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "theacoutlet.com — gsxc180361 capf4961c6 mbvc1600aa 1 tx3n4 3 ton 18 seer goodm",
       "url": "https://www.theacoutlet.com/gsxc180361-capf4961c6-mbvc1600aa-1-tx3n4-3-ton-18-seer-goodman-air-conditioning-system.html",
       "platform": "other",
@@ -465,11 +411,74 @@
       "verified": false,
       "source_type": "other",
       "claim": ""
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "iwae.com — 5 ton 18 seer 2 stage goodman central air conditioner conden",
+      "url": "https://iwae.com/shop/5-ton-18-seer-2-stage-goodman-central-air-conditioner-condenser-ha16367.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "cis-web3.live.imagescape.com — goodman company ac  units",
+      "url": "https://cis-web3.live.imagescape.com/libweb/rRAem9/4AD136/goodman_company-ac__units.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "thecoolingco.com — goodman ac systems las vegas review",
+      "url": "https://www.thecoolingco.com/blog/goodman-ac-systems-las-vegas-review/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on thecoolingco.com."
     }
   ],
   "bottom_line": "Goodman GSXC18 (Two-Stage) — Tier Tier 3 product. Target score: 64/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
       "SRC-019",
       "SRC-020",
       "SRC-021",
@@ -493,30 +502,24 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 12,
-      "pool_B": 7,
+      "pool_A": 9,
+      "pool_B": 10,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 84,
-      "after_filter": 73,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 2,
-        "manufacturer": 0,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 9,
-        "total": 84
+        "mfr": 0,
+        "always": 0,
+        "bare": 0,
+        "cap": 7
       }
     }
   },

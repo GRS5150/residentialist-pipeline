@@ -296,61 +296,6 @@
     },
     {
       "id": "SRC-017",
-      "source_name": "duravit.us — sensowash i.us en",
-      "url": "https://www.duravit.us/products/all_series/sensowash_i.us-en.html",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "shop.iccsafe.org — 7202S12 sample",
-      "url": "https://shop.iccsafe.org/media/wysiwyg/material/7202S12-sample.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "iapmo.org — testing policies for iapmo certifications",
-      "url": "https://iapmo.org/certification-testing/testing-policies-for-iapmo-certifications",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q",
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "ferguson.com — 4117402",
       "url": "https://www.ferguson.com/product/kohler-highline-1.28-gpf-elongated-comfort-height-two-piece-toilet-in-white-k3889-t-0/4117402.html",
       "platform": "other",
@@ -370,7 +315,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "resources.kohler.com — K 25224 spec",
       "url": "https://resources.kohler.com/webassets/kpna/catalog/pdf/en/K-25224_spec.pdf",
       "platform": "other",
@@ -390,7 +335,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "resources.kohler.com — K 3889 spec",
       "url": "https://resources.kohler.com/webassets/kpna/catalog/pdf/en/K-3889_spec.pdf",
       "platform": "other",
@@ -410,7 +355,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "conservastore.com — highline pressure lite 1 0 gpf toilet by kohler",
       "url": "https://www.conservastore.com/product/shop-by-room/bathroom/highline-pressure-lite-1-0-gpf-toilet-by-kohler/",
       "platform": "other",
@@ -430,7 +375,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "homedepot.com",
       "url": "https://www.homedepot.com/p/reviews/KOHLER-Highline-Arc-Extra-Tall-12-in-Rough-In-2-Piece-1-28-GFP-Single-Flush-Elongated-Toilet-in-White-with-Soft-Close-Seat-78305-0/320422533/3",
       "platform": "other",
@@ -450,7 +395,7 @@
       "claim": "Independent review of this product published on homedepot.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "terrylove.com — index",
       "url": "https://terrylove.com/forums/index.php?threads%2Fkohler-highline-k-3999-toilet-review-comments-and-pictures.49926%2F",
       "platform": "other",
@@ -468,12 +413,75 @@
       "verified": false,
       "source_type": "forum_discussion",
       "claim": "Contractor or consumer discussion with firsthand experience on terrylove.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/KOHLER-Highline-Comfort-Height-2-piece-1-28-GPF-Single-Flush-Round-Front-Toilet-in-White-Seat-Not-Included-K-5481-0/308458521/1",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "buildinggreen.com — kohler highline 11 gpf toilet",
+      "url": "https://www.buildinggreen.com/product-review/kohler-highline-11-gpf-toilet",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on buildinggreen.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=KcZk4qepsWY",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Kohler Highline Arc (K-5310) — Tier 2 product. Target score: 80/100.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-001",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -496,30 +504,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 7,
-      "pool_A": 12,
-      "pool_B": 6,
-      "pool_C": 0
+      "pool_A": 9,
+      "pool_B": 8,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 119,
-      "after_filter": 82,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 3,
-        "alwaysExclude": 1,
-        "bareRoot": 1,
-        "domainCap": 31,
-        "total": 119
+        "mfr": 3,
+        "always": 1,
+        "bare": 1,
+        "cap": 26
       }
     }
   },

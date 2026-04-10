@@ -184,8 +184,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on blog.yaleappliance.com."
     },
     {
       "id": "SRC-011",
@@ -316,153 +316,177 @@
     },
     {
       "id": "SRC-018",
-      "source_name": "mntap.umn.edu — Refrigeration Best Practices Document",
-      "url": "http://www.mntap.umn.edu/wp-content/uploads/simple-file-list/Resources/Tools-and-Calculators/Refrigeration-Best-Practices-Document.pdf",
+      "source_name": "designerappliances.com — is sub zero refrigerator worth the money",
+      "url": "https://www.designerappliances.com/blog/is-sub-zero-refrigerator-worth-the-money/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on designerappliances.com."
     },
     {
       "id": "SRC-019",
-      "source_name": "federalregister.gov — certain refrigerator water filtration devices and components",
-      "url": "https://www.federalregister.gov/documents/2023/02/08/2023-02635/certain-refrigerator-water-filtration-devices-and-components-thereof-notice-of-commission-decision",
+      "source_name": "goodlifehomerenovations.com — sub zero refrigerator reviews",
+      "url": "https://www.goodlifehomerenovations.com/blog/sub-zero-refrigerator-reviews/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on goodlifehomerenovations.com."
     },
     {
       "id": "SRC-020",
-      "source_name": "consumer.ftc.gov — warranties",
-      "url": "https://consumer.ftc.gov/articles/warranties",
+      "source_name": "designerappliances.com — sub zero built in vs integrated refrigerator",
+      "url": "https://www.designerappliances.com/blog/sub-zero-built-in-vs-integrated-refrigerator/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on designerappliances.com."
     },
     {
       "id": "SRC-021",
-      "source_name": "cpsc.gov — True Manufacturing Recalls Commercial Refrigerators with Sec",
-      "url": "https://www.cpsc.gov/Recalls/2024/True-Manufacturing-Recalls-Commercial-Refrigerators-with-Secop-Compressors-Due-to-Fire-Hazard",
+      "source_name": "houzz.com — refrigerator help subzero classic vs designer or another bra",
+      "url": "https://www.houzz.com/discussions/6476610/refrigerator-help-subzero-classic-vs-designer-or-another-brand",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on houzz.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "cit.uscourts.gov — Scott%20McBride%20 %20Scoop%20on%20Scopes",
-      "url": "https://www.cit.uscourts.gov/sites/cit/files/Scott%20McBride%20-%20Scoop%20on%20Scopes.pdf",
+      "source_name": "orvilles.com — sub zero panel ready refrigerators",
+      "url": "https://www.orvilles.com/blog/sub-zero-panel-ready-refrigerators",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on orvilles.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "govinfo.gov",
-      "url": "https://www.govinfo.gov/link/cfr/10/431?link-type=pdf&sectionnum=63&year=mostrecent",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=9kwy3JYS6ac",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "federalregister.gov — energy conservation program energy conservation standards fo",
-      "url": "https://www.federalregister.gov/documents/2025/01/21/2024-31214/energy-conservation-program-energy-conservation-standards-for-commercial-refrigerators-freezers-and",
+      "source_name": "consumeraffairs.com — subzero",
+      "url": "https://www.consumeraffairs.com/homeowners/subzero.html",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "sjvc.edu — a guide to optimizing the refrigeration cycle secrets to imp",
-      "url": "https://www.sjvc.edu/blog/a-guide-to-optimizing-the-refrigeration-cycle-secrets-to-improving-refrigeration-energy-efficiency/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=BVOZf5VB2lI",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Sub-Zero Classic/Designer/Pro — Tier 1 product. Target score: 95/100.",
   "scoring_notes": {
     "sources_scored": [
-      "SRC-010"
+      "SRC-010",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -480,35 +504,24 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 9,
-      "pool_A": 16,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 8,
+      "pool_B": 5,
+      "pool_C": 3
     },
     "filter_summary": {
       "raw": 133,
-      "after_filter": 110,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 5,
-        "alwaysExclude": 0,
-        "bareRoot": 3,
-        "domainCap": 14,
-        "total": 133
+        "mfr": 5,
+        "always": 0,
+        "bare": 3,
+        "cap": 12
       }
     }
   },

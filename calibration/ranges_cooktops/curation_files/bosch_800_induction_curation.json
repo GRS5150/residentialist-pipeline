@@ -318,24 +318,6 @@
     },
     {
       "id": "SRC-018",
-      "source_name": "nvlpubs.nist.gov — NIST.TN.1986",
-      "url": "https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1986.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
       "source_name": "blog.yaleappliance.com — bosch induction ranges",
       "url": "https://blog.yaleappliance.com/bosch-induction-ranges",
       "platform": "other",
@@ -351,117 +333,148 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on blog.yaleappliance.com."
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "reviewed.com — bosch hii8057u induction range review",
+      "url": "https://www.reviewed.com/ovens/content/bosch-hii8057u-induction-range-review",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on reviewed.com."
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "fbsappliance.com — how does bosh induction range stack up against competitors",
+      "url": "https://www.fbsappliance.com/blog/how-does-bosh-induction-range-stack-up-against-competitors",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
       "source_type": "other",
       "claim": ""
     },
     {
-      "id": "SRC-020",
-      "source_name": "blog.yaleappliance.com — most reliable gas ranges",
-      "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q",
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
       "id": "SRC-021",
-      "source_name": "blog.yaleappliance.com — what should you pay for an appliance service call",
-      "url": "https://blog.yaleappliance.com/what-should-you-pay-for-an-appliance-service-call",
+      "source_name": "homedepot.com — 320370038",
+      "url": "https://www.homedepot.com/p/Bosch-800-Series-30-in-4-6-cu-ft-4-Burner-Slide-In-Induction-Range-with-Self-Cleaning-Convection-Oven-in-Stainless-Steel-HII8057U/320370038",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
-      "source_name": "yaleappliance.com — service",
-      "url": "https://www.yaleappliance.com/service",
+      "source_name": "media3.bosch-home.com — 19837387 HIS8055U%20Spec%20Sheet",
+      "url": "https://media3.bosch-home.com/Documents/19837387_HIS8055U%20Spec%20Sheet.pdf",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
-      "source_name": "yaleappliance.com — free standing gas range",
-      "url": "https://www.yaleappliance.com/catalog/free-standing-gas-range",
+      "source_name": "beesonsappliance.com — bosch 800 series 30 stainless steel freestanding induction r",
+      "url": "https://www.beesonsappliance.com/product/bosch-800-series-30-stainless-steel-freestanding-induction-range-his8055u-1181029",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
-      "source_name": "yaleappliance.com — gas ranges",
-      "url": "https://www.yaleappliance.com/catalog/gas-ranges",
+      "source_name": "bestbuy.com — 6501560",
+      "url": "https://www.bestbuy.com/site/reviews/bosch-800-series-4-6-cu-ft-slide-in-electric-induction-range-with-self-cleaning-and-warming-drawer-stainless-steel/6501560",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "blog.yaleappliance.com — appliance installation costs",
-      "url": "https://blog.yaleappliance.com/appliance-installation-costs",
+      "source_name": "houzz.com — bosch induction ranges 800 vs benchmark edit and now lg",
+      "url": "https://www.houzz.com/discussions/6391623/bosch-induction-ranges-800-vs-benchmark-edit-and-now-lg",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on houzz.com."
     }
   ],
   "bottom_line": "Bosch 800 Induction Cooktop — Tier Tier 3 product. Target score: 70/100.",
@@ -469,7 +482,14 @@
     "sources_scored": [
       "SRC-001",
       "SRC-002",
-      "SRC-019"
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-003",
@@ -486,34 +506,24 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 18,
-      "pool_A": 7,
-      "pool_B": 0,
+      "pool_S": 17,
+      "pool_A": 1,
+      "pool_B": 7,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 222,
-      "after_filter": 162,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 2,
-        "manufacturer": 7,
-        "alwaysExclude": 1,
-        "bareRoot": 3,
-        "domainCap": 47,
-        "total": 222
+        "mfr": 7,
+        "always": 1,
+        "bare": 3,
+        "cap": 44
       }
     }
   },

@@ -222,66 +222,6 @@
     },
     {
       "id": "SRC-012",
-      "source_name": "kitchenbathguide.com — carlisle wide plank floors",
-      "url": "https://www.kitchenbathguide.com/company/601797/carlisle-wide-plank-floors",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
-    },
-    {
-      "id": "SRC-013",
-      "source_name": "houzz.com — carlisle flooring worth the price",
-      "url": "https://www.houzz.com/discussions/3862247/carlisle-flooring-worth-the-price",
-      "platform": "other",
-      "column": "forum",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "forum_discussion",
-      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "materialbank.com — carlisle wide plank floors eden 2835464",
-      "url": "https://www.materialbank.com/carlisle-wide-plank-floors-eden-2835464",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
-    },
-    {
-      "id": "SRC-015",
       "source_name": "modernize.com — best brands",
       "url": "https://modernize.com/flooring/best-brands",
       "platform": "other",
@@ -300,7 +240,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-013",
       "source_name": "royalfloorsonline.com — best engineered hardwood flooring brands",
       "url": "https://royalfloorsonline.com/blogs/news/best-engineered-hardwood-flooring-brands",
       "platform": "other",
@@ -318,7 +258,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-014",
       "source_name": "rejuvenationfd.com — best engineered wood flooring brands",
       "url": "https://www.rejuvenationfd.com/blog/best-engineered-wood-flooring-brands",
       "platform": "other",
@@ -336,7 +276,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-015",
       "source_name": "woodandbeyond.com — 10 best real wood flooring in 2026",
       "url": "https://www.woodandbeyond.com/blog/10-best-real-wood-flooring-in-2026/",
       "platform": "other",
@@ -354,7 +294,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-016",
       "source_name": "dgfloors.com — best hardwood floor",
       "url": "https://dgfloors.com/best-hardwood-floor/",
       "platform": "other",
@@ -372,7 +312,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-017",
       "source_name": "hardwoodfloorsllc.com — top hardwood flooring brands and why we recommend them",
       "url": "https://www.hardwoodfloorsllc.com/blog/top-hardwood-flooring-brands-and-why-we-recommend-them/",
       "platform": "other",
@@ -390,7 +330,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "carpetexchange.com — best luxury vinyl flooring brands 2026",
       "url": "https://carpetexchange.com/flooring-school/best-luxury-vinyl-flooring-brands-2026",
       "platform": "other",
@@ -408,7 +348,7 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "floorzi.com — best hardwood flooring 2026",
       "url": "https://www.floorzi.com/best-hardwood-flooring-2026",
       "platform": "other",
@@ -426,7 +366,7 @@
       "verified": false
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "todayshomeowner.com — best hardwood floors",
       "url": "https://todayshomeowner.com/flooring/guides/best-hardwood-floors/",
       "platform": "other",
@@ -444,7 +384,7 @@
       "verified": false
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "garrisoncollection.com — how hardwood floors are made",
       "url": "https://www.garrisoncollection.com/blog/how-hardwood-floors-are-made",
       "platform": "other",
@@ -462,9 +402,63 @@
       "verified": false
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "bruce.com — how wood flooring is made from forest to lumber",
       "url": "https://www.bruce.com/en-us/resources/how-wood-flooring-is-made-from-forest-to-lumber.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "category",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "agedwoods.com — hardwood flooring a brief history",
+      "url": "https://www.agedwoods.com/aged-woods-blog/hardwood-flooring-a-brief-history/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "category",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "builddirect.com — how is hardwood flooring made",
+      "url": "https://www.builddirect.com/blogs/expert-advice-on-flooring/how-is-hardwood-flooring-made",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "category",
+      "classification": "independent",
+      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "flooringamerica.com — how is hardwood flooring made",
+      "url": "https://www.flooringamerica.com/blog/how-is-hardwood-flooring-made",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -492,13 +486,13 @@
       "SRC-008",
       "SRC-009",
       "SRC-010",
-      "SRC-011",
-      "SRC-012",
-      "SRC-013",
-      "SRC-014"
+      "SRC-011"
     ],
     "sources_report_only": [
       "SRC-001",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
       "SRC-015",
       "SRC-016",
       "SRC-017",
@@ -520,16 +514,13 @@
     },
     "filter_summary": {
       "raw": 54,
-      "after_filter": 51,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 0,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 3,
-        "total": 54
+        "mfr": 0,
+        "always": 0,
+        "bare": 0,
+        "cap": 3
       }
     }
   },

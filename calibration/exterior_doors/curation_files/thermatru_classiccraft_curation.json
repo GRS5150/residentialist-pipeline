@@ -425,39 +425,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "homedepot.com — 301187011",
-      "url": "https://www.homedepot.com/p/JELD-WEN-28-in-x-80-in-Madison-Espresso-Stain-Right-Hand-Solid-Core-Molded-Composite-MDF-Single-Prehung-Interior-Door-THDJW222200163/301187011",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=Q7qigO7_y3w",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "quanex.com — residential door door seals",
-      "url": "https://www.quanex.com/products/residential-door-door-seals/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=YZFOL-Ht724",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Therma-Tru Classic-Craft Premium (Fiberglass) — Tier 1 product. Target score: 91/100.",
@@ -465,7 +469,9 @@
     "sources_scored": [
       "SRC-017",
       "SRC-018",
-      "SRC-019"
+      "SRC-019",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -487,29 +493,24 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
       "pool_A": 14,
-      "pool_B": 9,
-      "pool_C": 0
+      "pool_B": 7,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 245,
-      "after_filter": 100,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 7,
-        "manufacturer": 49,
-        "alwaysExclude": 7,
-        "bareRoot": 2,
-        "domainCap": 80,
-        "total": 245
+        "mfr": 49,
+        "always": 7,
+        "bare": 2,
+        "cap": 76
       }
     }
   },

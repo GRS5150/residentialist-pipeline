@@ -436,39 +436,43 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "thisoldhouse.com — best ovens",
-      "url": "https://www.thisoldhouse.com/kitchens/best-ovens",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "donsappliances.com — jenn air vs wolf guide",
-      "url": "https://www.donsappliances.com/blog/jenn-air-vs-wolf-guide",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=KDW1Y-cu1iE",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "consumeraffairs.com — jenn air wall ovens",
+      "url": "https://www.consumeraffairs.com/homeowners/jenn-air_wall_ovens.html?page=3",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     }
   ],
   "bottom_line": "JennAir Rise — Tier 2 product. Target score: 76/100.",
@@ -481,7 +485,9 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023"
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-002",
@@ -498,29 +504,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-024",
-      "SRC-025"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 5,
       "pool_A": 11,
-      "pool_B": 9,
-      "pool_C": 0
+      "pool_B": 7,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 88,
-      "after_filter": 70,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 1,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 17,
-        "total": 88
+        "mfr": 1,
+        "always": 0,
+        "bare": 0,
+        "cap": 11
       }
     }
   },

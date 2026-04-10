@@ -39,8 +39,8 @@
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumerreports.org."
     },
     {
       "id": "SRC-003",
@@ -62,6 +62,24 @@
     },
     {
       "id": "SRC-004",
+      "source_name": "energystar.gov — what uniform energy factor and why does it matter",
+      "url": "https://www.energystar.gov/products/ask-the-experts/what-uniform-energy-factor-and-why-does-it-matter",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "scope": "category",
+      "classification": "independent",
+      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "research_pass_1",
+      "verified": false
+    },
+    {
+      "id": "SRC-005",
       "source_name": "energy.gov — heat pump water heaters",
       "url": "https://www.energy.gov/energysaver/heat-pump-water-heaters",
       "platform": "other",
@@ -79,7 +97,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "energy.gov — consumer water heaters tp rfi",
       "url": "https://www.energy.gov/eere/buildings/articles/consumer-water-heaters-tp-rfi",
       "platform": "other",
@@ -97,7 +115,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "www1.eere.energy.gov — 26465",
       "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/26465.pdf",
       "platform": "other",
@@ -115,7 +133,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "media.rinnai.us — 100000652 Troubleshooting%20TWH%20Diagnostic%20Codes%20(1",
       "url": "https://media.rinnai.us/salsify_asset/s-d7680150-5ee9-4b1f-9f19-b4e6be7a41c4/100000652-Troubleshooting%20TWH%20Diagnostic%20Codes%20(1",
       "platform": "other",
@@ -135,7 +153,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
       "source_name": "media.rinnai.us — 100000284 Rinnai%20Circ Logic%20Guide",
       "url": "https://media.rinnai.us/salsify_asset/s-b033c17a-2a81-4669-b2b6-119a73f29d7a/100000284-Rinnai%20Circ-Logic%20Guide.pdf",
       "platform": "other",
@@ -155,7 +173,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-010",
       "source_name": "cpsc.gov — Rinnai America Recalls Boilers Due to Carbon Monoxide CO Poi",
       "url": "https://www.cpsc.gov/Recalls/2025/Rinnai-America-Recalls-Boilers-Due-to-Carbon-Monoxide-CO-Poisoning-Hazard",
       "platform": "other",
@@ -171,11 +189,11 @@
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on cpsc.gov."
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-011",
       "source_name": "bogleheads.org — viewtopic",
       "url": "https://www.bogleheads.org/forum/viewtopic.php?t=403351",
       "platform": "other",
@@ -195,7 +213,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on bogleheads.org."
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-012",
       "source_name": "rinnai.co.jp — office",
       "url": "https://www.rinnai.co.jp/en/corp/office/",
       "platform": "other",
@@ -215,7 +233,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-013",
       "source_name": "ecfr.gov — appendix Appendix%20E%20to%20Subpart%20B%20of%20Part%20430",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20E%20to%20Subpart%20B%20of%20Part%20430",
       "platform": "other",
@@ -233,7 +251,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-014",
       "source_name": "ahrinet.org — residential water heaters rwh",
       "url": "https://www.ahrinet.org/certification/ahri-certification-programs/residential-water-heaters-rwh",
       "platform": "other",
@@ -251,7 +269,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-015",
       "source_name": "blog.ansi.org — ansi z21 10 csa 4 water heaters",
       "url": "https://blog.ansi.org/ansi/ansi-z21-10-csa-4-water-heaters/",
       "platform": "other",
@@ -269,7 +287,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-016",
       "source_name": "waterheatertimer.org — Calculate standby loss electric water heater",
       "url": "http://waterheatertimer.org/Calculate-standby-loss-electric-water-heater.html",
       "platform": "other",
@@ -287,7 +305,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-017",
       "source_name": "ahrinet.org — ahri certification programs",
       "url": "https://www.ahrinet.org/certification/ahri-certification-programs",
       "platform": "other",
@@ -305,7 +323,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-018",
       "source_name": "nachi.org — lifespan water heater",
       "url": "https://www.nachi.org/lifespan-water-heater.htm",
       "platform": "other",
@@ -323,7 +341,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-019",
       "source_name": "hotwatersafety.org — water heater heat traps do they work",
       "url": "https://www.hotwatersafety.org/news/water-heater-heat-traps-do-they-work",
       "platform": "other",
@@ -342,7 +360,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-020",
       "source_name": "conwayservices.net — common water heater repairs",
       "url": "https://www.conwayservices.net/blog/common-water-heater-repairs",
       "platform": "other",
@@ -360,7 +378,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-021",
       "source_name": "ees.lbl.gov — our environment hot water comparing water heaters life cycle",
       "url": "https://ees.lbl.gov/publications/our-environment-hot-water-comparing-water-heaters-life-cycle-approach-comparing-tank-and-tankless-wa",
       "platform": "other",
@@ -379,7 +397,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-022",
       "source_name": "cee1.org — 2025 cee performance requirements for hvac and water heaters",
       "url": "https://cee1.org/index.php/news/details/2025-cee-performance-requirements-for-hvac-and-water-heaters-integrate-federal-and-utility-incentives-to-increase-adoption-of-high-performing-heat-pumps",
       "platform": "other",
@@ -394,24 +412,6 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "pressbooks-dev.oer.hawaii.edu — water heating",
-      "url": "https://pressbooks-dev.oer.hawaii.edu/buildingmaintenance/chapter/water-heating/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
       "verified": false
     },
     {
@@ -480,11 +480,11 @@
     "sources_scored": [
       "SRC-001",
       "SRC-002",
-      "SRC-007",
       "SRC-008",
       "SRC-009",
       "SRC-010",
       "SRC-011",
+      "SRC-012",
       "SRC-023",
       "SRC-024",
       "SRC-025"
@@ -494,7 +494,7 @@
       "SRC-004",
       "SRC-005",
       "SRC-006",
-      "SRC-012",
+      "SRC-007",
       "SRC-013",
       "SRC-014",
       "SRC-015",
@@ -508,23 +508,20 @@
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 6,
-      "pool_A": 16,
+      "pool_S": 7,
+      "pool_A": 15,
       "pool_B": 3,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 123,
-      "after_filter": 84,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 4,
-        "manufacturer": 16,
-        "alwaysExclude": 0,
-        "bareRoot": 1,
-        "domainCap": 18,
-        "total": 123
+        "mfr": 16,
+        "always": 0,
+        "bare": 1,
+        "cap": 15
       }
     }
   },

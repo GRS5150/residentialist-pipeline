@@ -276,61 +276,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "duravit.us — sensowash i.us en",
-      "url": "https://www.duravit.us/products/all_series/sensowash_i.us-en.html",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "shop.iccsafe.org — 7202S12 sample",
-      "url": "https://shop.iccsafe.org/media/wysiwyg/material/7202S12-sample.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "iapmo.org — testing policies for iapmo certifications",
-      "url": "https://iapmo.org/certification-testing/testing-policies-for-iapmo-certifications",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q",
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
       "source_name": "hotelmanagement.net — technologically advanced toto s neorest nx2 toilet actilight",
       "url": "https://www.hotelmanagement.net/design-trends/technologically-advanced-toto-s-neorest-nx2-toilet-actilight-and-flotation-tub",
       "platform": "other",
@@ -350,7 +295,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-017",
       "source_name": "design-milk.com — toto neorest nx2 intelligent toilet",
       "url": "https://design-milk.com/toto-neorest-nx2-intelligent-toilet/",
       "platform": "other",
@@ -370,7 +315,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "manybidets.com — toto neorest nx2 three year review",
       "url": "https://www.manybidets.com/blog/toto-neorest-nx2-three-year-review/",
       "platform": "other",
@@ -390,7 +335,7 @@
       "claim": "Independent review of this product published on manybidets.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "toiletfound.com — toto neorest nx toilet review",
       "url": "https://toiletfound.com/toto-neorest-nx-toilet-review/",
       "platform": "other",
@@ -410,7 +355,7 @@
       "claim": "Independent review of this product published on toiletfound.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "transparencycatalog.com — SM TOTO Neorest NX WX LCA report Public Aug2024",
       "url": "https://transparencycatalog.com/assets/uploads/files/SM_TOTO_Neorest-NX-WX_LCA-report_Public_Aug2024.pdf",
       "platform": "other",
@@ -430,7 +375,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "pmmag.com — 101767 totos neorest nx2 actilight bowl cleansing technology",
       "url": "https://www.pmmag.com/articles/101767-totos-neorest-nx2-actilight-bowl-cleansing-technology",
       "platform": "other",
@@ -450,7 +395,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "premiumbidet.com — toto%C2%AE neorest%C2%AE nx2 dual flush",
       "url": "https://premiumbidet.com/products/toto%C2%AE-neorest%C2%AE-nx2-dual-flush",
       "platform": "other",
@@ -468,11 +413,74 @@
       "verified": false,
       "source_type": "other",
       "claim": ""
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "manybidets.com — integrated toilet and bidet seat comparison toto neorest nx2",
+      "url": "https://www.manybidets.com/blog/integrated-toilet-and-bidet-seat-comparison-toto-neorest-nx2-vs-toto-g400-toilet-and-washlet/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on manybidets.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "lowes.com — 5014834355",
+      "url": "https://www.lowes.com/pd/TOTO-TOTO-NEOREST-NX2-Dual-Flush-1-0-or-0-8-GPF-Toilet-with-Integrated-Bidet-Seat-and-EWATER-and-ACTILIGHT-Cotton-White-MS903CUMFX-01/5014834355",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on lowes.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=Xit4RDICZpY",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "TOTO Neorest NX2 — Tier 1 product. Target score: 95/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
       "SRC-019",
       "SRC-020",
       "SRC-021",
@@ -496,30 +504,24 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 12,
-      "pool_B": 7,
-      "pool_C": 0
+      "pool_A": 9,
+      "pool_B": 9,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 113,
-      "after_filter": 86,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 0,
-        "alwaysExclude": 0,
-        "bareRoot": 1,
-        "domainCap": 25,
-        "total": 113
+        "mfr": 0,
+        "always": 0,
+        "bare": 1,
+        "cap": 22
       }
     }
   },

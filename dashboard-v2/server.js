@@ -558,9 +558,14 @@ app.post('/api/products/:category/:slug/add-source', (req, res) => {
       else if (/catalog|specbook|spec-book|brochure|specification/i.test(urlLower)) sourceType = 'spec_sheet';
       else if (/teardown|disassembl/i.test(urlLower)) sourceType = 'teardown';
       else if (/\bvs\b|compared|comparison|versus/i.test(urlLower)) sourceType = 'comparison';
-      else if (['houzz.com','reddit.com','contractortalk.com'].some(d => host === d || host.endsWith('.'+d))) sourceType = 'forum_discussion';
+      else if (['houzz.com','reddit.com','contractortalk.com','gardenweb.com','diychatroom.com','hvac-talk.com'].some(d => host === d || host.endsWith('.'+d))) sourceType = 'forum_discussion';
       else if (/\/forum\/|\/forums\/|\/thread/i.test(urlLower)) sourceType = 'forum_discussion';
       else if (/review|rating|firsthand|tested/i.test(urlLower)) sourceType = 'review';
+      else if (/worth-it|worth-the|is-.*-worth|are-.*-worth|best-.*-20\d\d|pros-.*cons|should-you-buy|buying-guide/i.test(urlLower)) sourceType = 'review';
+      else if (['blog.yaleappliance.com','yaleappliance.com','designerappliances.com','consumeraffairs.com','kitchencabinetsreviews.com','ajmadison.com','orvilles.com','friedmansappliance.com','stoveshield.com','elizabethannehome.com','oakabode.com'].some(d => host === d || host.endsWith('.'+d))) sourceType = 'review';
+      else if (/class-action|classaction|cpsc\.gov\/recalls|lawsuit|recall/i.test(urlLower)) sourceType = 'review';
+      else if (host === 'youtube.com' || host === 'youtu.be' || host.endsWith('.youtube.com')) sourceType = 'review';
+      else if (host === 'bbb.org' || host.endsWith('.bbb.org')) sourceType = 'review';
     } catch { /* invalid URL */ }
 
     const newId = `SRC-${String(curationData.sources.length + 1).padStart(3, '0')}`;

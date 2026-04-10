@@ -256,7 +256,19 @@ function filterSources(sources, productSlug, productName) {
 
 // ── Source type classifier ────────────────────────────────────────────────────
 
-const FORUM_DOMAINS = ['houzz.com', 'reddit.com', 'contractortalk.com', 'gardenWeb.com', 'diychatroom.com'];
+const FORUM_DOMAINS = ['houzz.com', 'reddit.com', 'contractortalk.com', 'gardenweb.com', 'diychatroom.com', 'hvac-talk.com'];
+
+// Domains that always produce evaluative content (independent reviewers)
+const REVIEWER_DOMAINS = [
+  'blog.yaleappliance.com', 'yaleappliance.com',
+  'designerappliances.com', 'consumeraffairs.com',
+  'kitchencabinetsreviews.com', 'appliancesconnection.com',
+  'ajmadison.com', 'orvilles.com', 'friedmansappliance.com',
+  'mychemicalfreehouse.net', 'oakabode.com',
+  'stoveshield.com', 'elizabethannehome.com',
+  'buildwithrise.com', 'progress-builders.com',
+  'mainlinekitchendesign.com',
+];
 
 function classifySourceType(url, name) {
   const lower = url.toLowerCase();
@@ -282,9 +294,24 @@ function classifySourceType(url, name) {
   // Forums
   if (FORUM_DOMAINS.some(d => host === d || host.endsWith('.' + d))) return 'forum_discussion';
   if (/\/forum\/|\/forums\/|\/discussion|\/thread/i.test(lower)) return 'forum_discussion';
+  // Houzz discussions are forums even without /discussion/ in path
+  if (host === 'houzz.com' || host.endsWith('.houzz.com')) return 'forum_discussion';
 
-  // Reviews
+  // Reviews — explicit patterns
   if (/review|rating|rated|firsthand|hands-on|tested/i.test(lower) || /review|rating/i.test(nameLower)) return 'review';
+  // Evaluative content patterns (worth-it, best-X, pros-cons, should-you-buy)
+  if (/worth-it|worth-the|is-.*-worth|are-.*-worth|best-.*-20\d\d|pros-.*cons|should-you-buy|buying-guide/i.test(lower)) return 'review';
+  // Known reviewer domains → always review
+  if (REVIEWER_DOMAINS.some(d => host === d || host.endsWith('.' + d))) return 'review';
+
+  // Legal / recall / class action — evaluative (safety evidence)
+  if (/class-action|classaction|cpsc\.gov\/recalls|lawsuit|recall/i.test(lower)) return 'review';
+
+  // YouTube — treat as review if product-scoped (these are product evaluation videos)
+  if (host === 'youtube.com' || host === 'youtu.be' || host.endsWith('.youtube.com')) return 'review';
+
+  // BBB profiles — consumer review aggregator
+  if (host === 'bbb.org' || host.endsWith('.bbb.org')) return 'review';
 
   return 'other';
 }
@@ -370,25 +397,40 @@ let placeholdersElim     = 0;
 for (const product of config.calibration_products) {
   const slug = product.slug;
 
-  // Combine category + product-specific sources
-  const raw = [
-    ...categorySources,
-    ...productSources.filter(s => s.products && s.products.includes(slug)),
-  ];
+  // Combine category + product-specific sources (for stats only)
+  const rawTotal = categorySources.length + productSources.filter(s => s.products && s.products.includes(slug)).length;
 
   // Sort by pool quality (S first, then A, B, C).
   // Within same pool, product-specific sources rank above category-scoped.
-  raw.sort((a, b) => {
+  const poolSort = (a, b) => {
     const poolDiff = poolRank(a) - poolRank(b);
     if (poolDiff !== 0) return poolDiff;
-    // Product-scoped sources are more relevant than category-scoped
     const aProduct = (a.scope === 'product') ? 0 : 1;
     const bProduct = (b.scope === 'product') ? 0 : 1;
     return aProduct - bProduct;
-  });
+  };
 
-  // Apply quality filter
-  const { filtered, dropped } = filterSources(raw, slug, product.name);
+  // Apply quality filter to each scope independently
+  const rawCat = categorySources.slice();
+  const rawProd = productSources.filter(s => s.products && s.products.includes(slug));
+
+  const filteredCat = filterSources(rawCat, slug, product.name);
+  const filteredProd = filterSources(rawProd, slug, product.name);
+
+  // Reservation: product sources get guaranteed slots (up to 10)
+  const MAX_PRODUCT_SLOTS = 10;
+  filteredProd.filtered.sort(poolSort);
+  filteredCat.filtered.sort(poolSort);
+
+  const prodSlice = filteredProd.filtered.slice(0, MAX_PRODUCT_SLOTS);
+  const catSlotCount = MAX_SOURCES - prodSlice.length;
+  const catSlice = filteredCat.filtered.slice(0, catSlotCount);
+
+  // Merge product-first, then category; re-sort for display consistency
+  const filtered = [...prodSlice, ...catSlice];
+  filtered.sort(poolSort);
+
+  const dropped = { mfr: (filteredCat.dropped?.mfr || 0) + (filteredProd.dropped?.mfr || 0) };
 
   // Cap at MAX_SOURCES
   const capped = filtered.slice(0, MAX_SOURCES);
@@ -424,7 +466,12 @@ for (const product of config.calibration_products) {
   const colDist = {};
   for (const s of sources) colDist[s.column] = (colDist[s.column] || 0) + 1;
 
-  const droppedNote = `mfr:${dropped.manufacturer} always:${dropped.alwaysExclude} bare:${dropped.bareRoot} cap:${dropped.domainCap}`;
+  const droppedMfr = (filteredCat.dropped?.manufacturer || 0) + (filteredProd.dropped?.manufacturer || 0);
+  const droppedAlways = (filteredCat.dropped?.alwaysExclude || 0) + (filteredProd.dropped?.alwaysExclude || 0);
+  const droppedBare = (filteredCat.dropped?.bareRoot || 0) + (filteredProd.dropped?.bareRoot || 0);
+  const droppedCap = (filteredCat.dropped?.domainCap || 0) + (filteredProd.dropped?.domainCap || 0);
+
+  const droppedNote = `mfr:${droppedMfr} always:${droppedAlways} bare:${droppedBare} cap:${droppedCap}`;
 
   const curationFile = {
     product:             product.name,
@@ -436,7 +483,7 @@ for (const product of config.calibration_products) {
       sources_report_only: sources.filter(s => s.classification !== 'score').map(s => s.id),
       sources_quarantined: [],
       pool_distribution:   poolDist,
-      filter_summary:      { raw: raw.length, after_filter: filtered.length, capped: capped.length, dropped },
+      filter_summary:      { raw: rawTotal, after_filter: filtered.length, capped: capped.length, dropped: { mfr: droppedMfr, always: droppedAlways, bare: droppedBare, cap: droppedCap } },
     },
     product_slug:         slug,
     product_name:         product.name,
@@ -456,7 +503,7 @@ for (const product of config.calibration_products) {
   const poolSummary = `S:${poolDist.pool_S} A:${poolDist.pool_A} B:${poolDist.pool_B} C:${poolDist.pool_C}`;
   const colSummary  = Object.entries(colDist).map(([k,v])=>`${k}:${v}`).join(' ');
   console.log(`  ✅ ${product.name}: ${sources.length} sources [${poolSummary}] [${colSummary}]`);
-  console.log(`     dropped ${raw.length - capped.length} — ${droppedNote}`);
+  console.log(`     dropped ${rawTotal - capped.length} — ${droppedNote}`);
   totalWritten++;
 }
 

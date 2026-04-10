@@ -445,21 +445,23 @@
     },
     {
       "id": "SRC-025",
-      "source_name": "homedepot.com — 301187011",
-      "url": "https://www.homedepot.com/p/JELD-WEN-28-in-x-80-in-Madison-Espresso-Stain-Right-Hand-Solid-Core-Molded-Composite-MDF-Single-Prehung-Interior-Door-THDJW222200163/301187011",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=rd_4k1Orzjo",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Therma-Tru Benchmark Entry (Fiberglass) — Tier 3 product. Target score: 67/100.",
@@ -468,7 +470,8 @@
       "SRC-017",
       "SRC-018",
       "SRC-019",
-      "SRC-020"
+      "SRC-020",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -490,28 +493,24 @@
       "SRC-021",
       "SRC-022",
       "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-024"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
       "pool_A": 14,
-      "pool_B": 9,
-      "pool_C": 0
+      "pool_B": 8,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 238,
-      "after_filter": 101,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 7,
-        "manufacturer": 41,
-        "alwaysExclude": 7,
-        "bareRoot": 2,
-        "domainCap": 80,
-        "total": 238
+        "mfr": 41,
+        "always": 7,
+        "bare": 2,
+        "cap": 77
       }
     }
   },

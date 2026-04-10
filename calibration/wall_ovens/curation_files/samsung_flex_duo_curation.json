@@ -112,8 +112,8 @@
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on blog.yaleappliance.com."
     },
     {
       "id": "SRC-007",
@@ -132,8 +132,8 @@
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on cpsc.gov."
     },
     {
       "id": "SRC-008",
@@ -515,16 +515,13 @@
     },
     "filter_summary": {
       "raw": 125,
-      "after_filter": 86,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 14,
-        "alwaysExclude": 0,
-        "bareRoot": 1,
-        "domainCap": 24,
-        "total": 125
+        "mfr": 14,
+        "always": 0,
+        "bare": 1,
+        "cap": 21
       }
     }
   },

@@ -369,98 +369,114 @@
     },
     {
       "id": "SRC-021",
-      "source_name": "yaleappliance.com — gas ranges",
-      "url": "https://www.yaleappliance.com/catalog/gas-ranges",
+      "source_name": "homedepot.com — 308803540",
+      "url": "https://www.homedepot.com/p/Cafe-30-in-5-6-cu-ft-Smart-Slide-In-Gas-Range-in-Stainless-Steel-with-True-Convection-Air-Fry-CGS700P2MS1/308803540",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
-      "source_name": "blog.yaleappliance.com — appliance installation costs",
-      "url": "https://blog.yaleappliance.com/appliance-installation-costs",
+      "source_name": "roomfortuesday.com — an honest review of the ge cafe range",
+      "url": "https://roomfortuesday.com/an-honest-review-of-the-ge-cafe-range/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on roomfortuesday.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "yaleappliance.com — installation",
-      "url": "https://www.yaleappliance.com/installation",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Cafe-30-in-5-6-cu-ft-Smart-Slide-In-Gas-Range-in-Stainless-Steel-with-True-Convection-Air-Fry-CGS700P2MS1/308803540/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "yaleappliance.com — reviews",
-      "url": "https://www.yaleappliance.com/reviews",
+      "source_name": "fbsappliance.com — pros and cons of cafe ranges",
+      "url": "https://www.fbsappliance.com/blog/pros-and-cons-of-cafe-ranges",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on fbsappliance.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
-      "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+      "source_name": "houzz.com — absolutely regret buying ge cafe save yourself the headache",
+      "url": "https://www.houzz.com/discussions/6494662/absolutely-regret-buying-ge-cafe-save-yourself-the-headache",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     }
   ],
   "bottom_line": "GE Café Gas Slide-In Range — Tier Tier 3 product. Target score: 64/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -481,32 +497,24 @@
       "SRC-017",
       "SRC-018",
       "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-020"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 16,
-      "pool_A": 9,
-      "pool_B": 0,
+      "pool_A": 4,
+      "pool_B": 5,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 218,
-      "after_filter": 160,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 2,
-        "manufacturer": 6,
-        "alwaysExclude": 0,
-        "bareRoot": 3,
-        "domainCap": 47,
-        "total": 218
+        "mfr": 6,
+        "always": 0,
+        "bare": 3,
+        "cap": 46
       }
     }
   },

@@ -73,8 +73,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on mainlinekitchendesign.com."
     },
     {
       "id": "SRC-005",
@@ -294,78 +294,6 @@
     },
     {
       "id": "SRC-017",
-      "source_name": "dir.ca.gov",
-      "url": "https://www.dir.ca.gov/title8/5533.html",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "ecfr.gov — section 3280",
-      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-XX/part-3280/subpart-C/section-3280.204",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "huduser.gov — fairch7",
-      "url": "https://www.huduser.gov/portal/publications/pdf/fairhousing/fairch7.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "woodworkingnetwork.com — revised cabinet performance standard approved ansi",
-      "url": "https://www.woodworkingnetwork.com/magazine/revised-cabinet-performance-standard-approved-ansi",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
       "source_name": "mudosikitchenandbath.com — fabuwood cabinetry reviews",
       "url": "https://mudosikitchenandbath.com/fabuwood-cabinetry-reviews/",
       "platform": "other",
@@ -385,7 +313,7 @@
       "claim": "Independent review of this product published on mudosikitchenandbath.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-018",
       "source_name": "thepinkdream.com — fabuwood cabinet review",
       "url": "https://www.thepinkdream.com/fabuwood-cabinet-review/",
       "platform": "other",
@@ -405,7 +333,7 @@
       "claim": "Independent review of this product published on thepinkdream.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-019",
       "source_name": "directcabinets.com — fabuwood cabinets a tell all from a long island ny dealer",
       "url": "https://directcabinets.com/blogs/news/fabuwood-cabinets-a-tell-all-from-a-long-island-ny-dealer",
       "platform": "other",
@@ -425,7 +353,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-020",
       "source_name": "cabinetmakerschoice.com — Fabuwood Allure Catalog",
       "url": "https://cabinetmakerschoice.com/wp-content/uploads/2024/11/Fabuwood-Allure-Catalog.pdf",
       "platform": "other",
@@ -445,7 +373,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-021",
       "source_name": "frenchcreekdesigns.com — fabuwood galaxy cabinets",
       "url": "https://frenchcreekdesigns.com/blog/fabuwood-galaxy-cabinets/",
       "platform": "other",
@@ -463,12 +391,96 @@
       "verified": false,
       "source_type": "other",
       "claim": ""
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "directcabinets.com — fabuwood allure galaxy",
+      "url": "https://directcabinets.com/blogs/news/fabuwood-allure-galaxy",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "houzz.com — fabuwood cabinetry pfvwus pf~152021923",
+      "url": "https://www.houzz.com/professionals/cabinets-and-cabinetry/fabuwood-cabinetry-pfvwus-pf~152021923",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "houzz.com — fabuwood cabinets reviews",
+      "url": "https://www.houzz.com/discussions/854029/fabuwood-cabinets-reviews",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=hktEqdjaQFU",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "New Jersey manufacturer. Plywood box construction. Baltic birch dovetail drawer boxes. Blum TANDEM undermount slides and Clip top Blumotion hinges. Catalyzed lacquer finish. Single-source. KCMA certified. Pro consensus: best value at premium tier — Galaxy line specifically, not Allure/Nexus.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-004",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
       "SRC-021",
       "SRC-022",
       "SRC-023",
@@ -490,31 +502,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
-      "pool_A": 17,
-      "pool_B": 5,
-      "pool_C": 0
+      "pool_A": 13,
+      "pool_B": 8,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 116,
-      "after_filter": 104,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 4,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 7,
-        "total": 116
+        "mfr": 4,
+        "always": 0,
+        "bare": 0,
+        "cap": 3
       }
     }
   },

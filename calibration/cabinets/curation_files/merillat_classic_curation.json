@@ -310,42 +310,6 @@
     },
     {
       "id": "SRC-018",
-      "source_name": "huduser.gov — fairch7",
-      "url": "https://www.huduser.gov/portal/publications/pdf/fairhousing/fairch7.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "woodworkingnetwork.com — revised cabinet performance standard approved ansi",
-      "url": "https://www.woodworkingnetwork.com/magazine/revised-cabinet-performance-standard-approved-ansi",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "retrorenovation.com — 1946 merillat kitchen display kbis",
       "url": "https://retrorenovation.com/2014/02/11/1946-merillat-kitchen-display-kbis/",
       "platform": "other",
@@ -365,7 +329,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-019",
       "source_name": "encyclopedia.com — merillat industries llc",
       "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/merillat-industries-llc",
       "platform": "other",
@@ -385,7 +349,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "cabinet-wholesalers.com — Merillat Classic Catalog",
       "url": "https://cabinet-wholesalers.com/wp-content/uploads/2020/03/Merillat-Classic-Catalog.pdf",
       "platform": "other",
@@ -405,7 +369,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "npi-seattle.com — 2020MerillatClassic SpecBook",
       "url": "https://www.npi-seattle.com/wp-content/uploads/2021/02/2020MerillatClassic-SpecBook.pdf",
       "platform": "other",
@@ -425,7 +389,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "oldenkamp.com — merillat classic vs masterpiece which is right for your proj",
       "url": "https://www.oldenkamp.com/merillat-classic-vs-masterpiece-which-is-right-for-your-project/",
       "platform": "other",
@@ -445,7 +409,7 @@
       "claim": "Comparison evaluating this product against competitors on oldenkamp.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "kitchencabinetsreviews.com — merillat",
       "url": "https://kitchencabinetsreviews.com/reviews/merillat.html",
       "platform": "other",
@@ -463,11 +427,53 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on kitchencabinetsreviews.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "houzz.com — merillat pfvwus pf~2047409486",
+      "url": "https://www.houzz.com/professionals/cabinets-and-cabinetry/merillat-pfvwus-pf~2047409486",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "houzz.com — merillat classic review big time rip off",
+      "url": "https://www.houzz.com/discussions/3406979/merillat-classic-review-big-time-rip-off",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     }
   ],
   "bottom_line": "MasterBrand builder-grade line. Particleboard box. Generic drawer slides (35K cycles, 75 lb). Blum hinges but lower spec. Catalyzed lacquer finish. KCMA certified (positive). No soft-close standard. Platform shares with KraftMaid/Diamond but gets lowest-tier components.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -492,29 +498,24 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
-      "pool_A": 16,
-      "pool_B": 6,
+      "pool_A": 14,
+      "pool_B": 8,
       "pool_C": 0
     },
     "filter_summary": {
       "raw": 117,
-      "after_filter": 102,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 2,
-        "manufacturer": 8,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 5,
-        "total": 117
+        "mfr": 8,
+        "always": 0,
+        "bare": 0,
+        "cap": 3
       }
     }
   },

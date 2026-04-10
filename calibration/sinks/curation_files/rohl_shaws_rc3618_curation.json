@@ -37,8 +37,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on yaleappliance.com."
     },
     {
       "id": "SRC-003",
@@ -332,8 +332,8 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on ajmadison.com."
     },
     {
       "id": "SRC-019",
@@ -455,21 +455,23 @@
     },
     {
       "id": "SRC-025",
-      "source_name": "decorplanet.com — top sink brands",
-      "url": "https://www.decorplanet.com/blog/2021/07/top-sink-brands.html",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ZsTvAwoOE5Q",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Rohl Shaws Original Lancaster Fireclay Farmhouse (RC3618) — Tier 1 product. Target score: 94/100.",
@@ -483,7 +485,8 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023"
+      "SRC-023",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -500,28 +503,24 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-024",
-      "SRC-025"
+      "SRC-024"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 14,
-      "pool_B": 10,
-      "pool_C": 0
+      "pool_B": 9,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 82,
-      "after_filter": 73,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 0,
-        "manufacturer": 0,
-        "alwaysExclude": 0,
-        "bareRoot": 0,
-        "domainCap": 9,
-        "total": 82
+        "mfr": 0,
+        "always": 0,
+        "bare": 0,
+        "cap": 7
       }
     }
   },

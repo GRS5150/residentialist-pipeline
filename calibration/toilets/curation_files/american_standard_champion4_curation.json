@@ -314,43 +314,6 @@
     },
     {
       "id": "SRC-018",
-      "source_name": "shop.iccsafe.org — 7202S12 sample",
-      "url": "https://shop.iccsafe.org/media/wysiwyg/material/7202S12-sample.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "iapmo.org — testing policies for iapmo certifications",
-      "url": "https://iapmo.org/certification-testing/testing-policies-for-iapmo-certifications",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q",
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "toilets.fandom.com — American Standard Champion 4",
       "url": "https://toilets.fandom.com/wiki/American_Standard_Champion_4",
       "platform": "other",
@@ -370,7 +333,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-019",
       "source_name": "blog.fosketts.net — review american standards champion 4 toilet flushes",
       "url": "https://blog.fosketts.net/2012/07/31/review-american-standards-champion-4-toilet-flushes/",
       "platform": "other",
@@ -390,7 +353,7 @@
       "claim": "Independent review of this product published on blog.fosketts.net."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "topclassactions.com — champion toilets class action says flush valve seal defectiv",
       "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/champion-toilets-class-action-says-flush-valve-seal-defective/",
       "platform": "other",
@@ -406,11 +369,11 @@
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
       "verified": false,
-      "source_type": "other",
-      "claim": ""
+      "source_type": "review",
+      "claim": "Independent review of this product published on topclassactions.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "terrylove.com — index",
       "url": "https://terrylove.com/forums/index.php?threads%2Famerican-standard-champion-4-toilet-review-and-pictures.55843%2Fpage-2",
       "platform": "other",
@@ -430,7 +393,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on terrylove.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "terrylove.com — index",
       "url": "https://terrylove.com/forums/index.php?threads%2Famerican-standard-champion-4-toilet-review-and-pictures.55843%2Fpage-4",
       "platform": "other",
@@ -450,7 +413,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on terrylove.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "homedepot.com",
       "url": "https://www.homedepot.com/p/reviews/American-Standard-Champion-4-Tall-Height-1-Piece-1-6-GPF-Single-Flush-Elongated-Toilet-in-White-Seat-Included-2034314-020/206981670/1",
       "platform": "other",
@@ -468,12 +431,54 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/American-Standard-Champion-4-Max-1-28-GPF-Single-Flush-Toilet-Tank-Only-in-White-4215A-104-020/204309839/2",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=NNGkrOTBDf0",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "American Standard Champion 4 (2586.128ST) — Tier 3 product. Target score: 67/100.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-001",
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -497,29 +502,24 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 7,
-      "pool_A": 12,
-      "pool_B": 6,
-      "pool_C": 0
+      "pool_A": 10,
+      "pool_B": 7,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 116,
-      "after_filter": 79,
+      "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "dead": 0,
-        "nonContent": 1,
-        "manufacturer": 8,
-        "alwaysExclude": 1,
-        "bareRoot": 1,
-        "domainCap": 26,
-        "total": 116
+        "mfr": 8,
+        "always": 1,
+        "bare": 1,
+        "cap": 21
       }
     }
   },
