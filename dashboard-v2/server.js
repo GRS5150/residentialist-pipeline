@@ -563,9 +563,10 @@ app.post('/api/products/:category/:slug/add-source', (req, res) => {
       else if (/review|rating|firsthand|tested/i.test(urlLower)) sourceType = 'review';
       else if (/worth-it|worth-the|is-.*-worth|are-.*-worth|best-.*-20\d\d|pros-.*cons|should-you-buy|buying-guide/i.test(urlLower)) sourceType = 'review';
       else if (['blog.yaleappliance.com','yaleappliance.com','designerappliances.com','consumeraffairs.com','kitchencabinetsreviews.com','ajmadison.com','orvilles.com','friedmansappliance.com','stoveshield.com','elizabethannehome.com','oakabode.com'].some(d => host === d || host.endsWith('.'+d))) sourceType = 'review';
-      else if (/class-action|classaction|cpsc\.gov\/recalls|lawsuit|recall/i.test(urlLower)) sourceType = 'review';
       else if (host === 'youtube.com' || host === 'youtu.be' || host.endsWith('.youtube.com')) sourceType = 'review';
-      else if (host === 'bbb.org' || host.endsWith('.bbb.org')) sourceType = 'review';
+      else if (/cpsc\.gov\/recalls|safety-recall|safety-bulletin/i.test(urlLower) || host === 'cpsc.gov' || host.endsWith('.cpsc.gov')) sourceType = 'safety_notice';
+      else if (/class-action|classaction|lawsuit|settlement/i.test(urlLower) || host === 'classaction.org' || host === 'topclassactions.com' || host === 'plainsite.org') sourceType = 'legal';
+      else if (host === 'bbb.org' || host.endsWith('.bbb.org')) sourceType = 'bbb_profile';
     } catch { /* invalid URL */ }
 
     const newId = `SRC-${String(curationData.sources.length + 1).padStart(3, '0')}`;

@@ -304,14 +304,19 @@ function classifySourceType(url, name) {
   // Known reviewer domains → always review
   if (REVIEWER_DOMAINS.some(d => host === d || host.endsWith('.' + d))) return 'review';
 
-  // Legal / recall / class action — evaluative (safety evidence)
-  if (/class-action|classaction|cpsc\.gov\/recalls|lawsuit|recall/i.test(lower)) return 'review';
-
-  // YouTube — treat as review if product-scoped (these are product evaluation videos)
+  // YouTube — treat as review if product-scoped (product evaluation videos)
   if (host === 'youtube.com' || host === 'youtu.be' || host.endsWith('.youtube.com')) return 'review';
 
-  // BBB profiles — consumer review aggregator
-  if (host === 'bbb.org' || host.endsWith('.bbb.org')) return 'review';
+  // Safety notices (CPSC recalls, safety bulletins) — non-qualifying
+  if (/cpsc\.gov\/recalls|safety-recall|safety-bulletin|product-safety/i.test(lower)) return 'safety_notice';
+  if (host === 'cpsc.gov' || host.endsWith('.cpsc.gov')) return 'safety_notice';
+
+  // Legal (class actions, lawsuits, settlements) — non-qualifying
+  if (/class-action|classaction|lawsuit|settlement|class.action/i.test(lower)) return 'legal';
+  if (host === 'classaction.org' || host === 'topclassactions.com' || host === 'plainsite.org') return 'legal';
+
+  // BBB profiles — non-qualifying
+  if (host === 'bbb.org' || host.endsWith('.bbb.org')) return 'bbb_profile';
 
   return 'other';
 }
@@ -326,7 +331,7 @@ function generateClaim(regSrc, sourceType) {
   // Non-evaluative types get empty claims
   if (['spec_sheet', 'company_profile', 'historical'].includes(sourceType)) return '';
 
-  // For reviews/comparisons/forums/teardowns, generate a descriptive claim
+  // Qualifying evaluative types
   if (sourceType === 'review') {
     return `Independent review of this product published on ${host}.`;
   }
@@ -338,6 +343,17 @@ function generateClaim(regSrc, sourceType) {
   }
   if (sourceType === 'teardown') {
     return `Physical teardown or component analysis published on ${host}.`;
+  }
+
+  // Non-qualifying but descriptive types
+  if (sourceType === 'safety_notice') {
+    return `Safety recall or notice involving this product on ${host}.`;
+  }
+  if (sourceType === 'legal') {
+    return `Legal action or class action filing related to this product on ${host}.`;
+  }
+  if (sourceType === 'bbb_profile') {
+    return `BBB business profile and consumer complaints for this manufacturer.`;
   }
 
   // 'other' — might still be evaluative but can't confirm
