@@ -206,8 +206,13 @@ function findCurationFile(category, slug) {
   const curationDir = path.join(CALIBRATION_DIR, category, 'curation_files');
   if (fs.existsSync(curationDir)) {
     const files = fs.readdirSync(curationDir).filter(f => f.endsWith('.json'));
-    const match = files.find(f => f.includes(slug));
+    // Prefer the canonical {slug}_curation.json over legacy {slug}.json
+    const exact = files.find(f => f === `${slug}_curation.json`);
+    if (exact) return path.join(curationDir, exact);
+    const match = files.find(f => f.includes(slug) && f.includes('_curation'));
     if (match) return path.join(curationDir, match);
+    const fallback = files.find(f => f.includes(slug));
+    if (fallback) return path.join(curationDir, fallback);
   }
   const calibDir = path.join(CALIBRATION_DIR, category);
   if (fs.existsSync(calibDir)) {
