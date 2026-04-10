@@ -85,8 +85,25 @@ function contextFromFilename(filename, category) {
   const base = path.basename(filename, '.md');
   const cat = disambiguate(category);
   if (base.includes('deep_dive_')) {
-    const product = base.replace('deep_dive_', '').replace(/_/g, ' ');
-    return { type: 'product', label: `${product} (${cat})`, productSlug: base.replace('deep_dive_', '') };
+    let rawSlug = base.replace('deep_dive_', '');
+    const product = rawSlug.replace(/_/g, ' ');
+
+    // Resolve against calibration config to get the correct product slug
+    const configPath = path.join(ROOT, 'calibration', category, 'config.json');
+    let resolvedSlug = rawSlug;
+    try {
+      const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+      const calibSlugs = (config.calibration_products || []).map(p => p.slug);
+      if (calibSlugs.includes(rawSlug)) {
+        resolvedSlug = rawSlug; // exact match
+      } else {
+        // Try prefix match: e.g. "marvin_ultimate_dh" → "marvin_ultimate"
+        const match = calibSlugs.find(cs => rawSlug.startsWith(cs + '_') || rawSlug.startsWith(cs));
+        if (match) resolvedSlug = match;
+      }
+    } catch { /* no config — use raw */ }
+
+    return { type: 'product', label: `${product} (${cat})`, productSlug: resolvedSlug };
   }
   if (base.includes('testing_framework')) return { type: 'category', label: `${cat} testing and standards` };
   if (base.includes('component_analysis')) return { type: 'category', label: `${cat} components and construction` };

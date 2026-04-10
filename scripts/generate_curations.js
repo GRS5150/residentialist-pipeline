@@ -434,7 +434,7 @@ for (const product of config.calibration_products) {
   const filteredProd = filterSources(rawProd, slug, product.name);
 
   // Reservation: product sources get guaranteed slots (up to 10)
-  const MAX_PRODUCT_SLOTS = 10;
+  const MAX_PRODUCT_SLOTS = 15;
   filteredProd.filtered.sort(poolSort);
   filteredCat.filtered.sort(poolSort);
 
