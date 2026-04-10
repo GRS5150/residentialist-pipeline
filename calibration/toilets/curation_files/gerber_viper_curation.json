@@ -258,24 +258,6 @@
     },
     {
       "id": "SRC-015",
-      "source_name": "asme.org — six liter water closets equipped with a dual flushing device",
-      "url": "https://www.asme.org/codes-standards/find-codes-standards/six-liter-water-closets-equipped-with-a-dual-flushing-device",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
       "source_name": "fergusonhome.com — s1888312",
       "url": "https://www.fergusonhome.com/gerber-glf20528/s1888312",
       "platform": "other",
@@ -295,7 +277,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-016",
       "source_name": "plumbingsupply.com — gerbertoiletparts viper",
       "url": "https://www.plumbingsupply.com/gerbertoiletparts-viper.html",
       "platform": "other",
@@ -315,7 +297,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "ferguson.com — 10135771",
       "url": "https://www.ferguson.com/product/gerber-plumbing-viper-elongated-floor-mount-toilet-bowl-in-white-ggvp31528/10135771.html",
       "platform": "other",
@@ -335,7 +317,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "homedepot.com — 326991418",
       "url": "https://www.homedepot.com/p/Gerber-Viper-Two-Piece-1-28-GPF-Gravity-Fed-Round-Front-Toilet-in-White-with-Slow-Close-Seat-GWS31502S/326991418",
       "platform": "other",
@@ -355,7 +337,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "supplyht.com — 104008 gerber expands viper toilet collection",
       "url": "https://www.supplyht.com/articles/104008-gerber-expands-viper-toilet-collection",
       "platform": "other",
@@ -375,7 +357,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "terrylove.com — index",
       "url": "https://terrylove.com/forums/index.php?threads%2Fgerber-viper-concerns.49596%2F",
       "platform": "other",
@@ -395,7 +377,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on terrylove.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "biggerpockets.com — 94938 anyone have feedback on gerber viper toilet",
       "url": "https://www.biggerpockets.com/forums/52/topics/94938-anyone-have-feedback-on-gerber-viper-toilet",
       "platform": "other",
@@ -415,7 +397,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on biggerpockets.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "homedepot.com",
       "url": "https://www.homedepot.com/p/reviews/Gerber-Viper-2-Piece-1-28-GPF-Gravity-Fed-Elongated-Toilet-in-White-with-Slow-Close-Seat-GWS31512S/326991436/5",
       "platform": "other",
@@ -435,7 +417,7 @@
       "claim": "Independent review of this product published on homedepot.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "houzz.com — advice on gerber toilets in new build",
       "url": "https://www.houzz.com/discussions/6177164/advice-on-gerber-toilets-in-new-build",
       "platform": "other",
@@ -455,9 +437,29 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=-ENcEb9ddS0",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=_EU3FY7CZg8",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -478,6 +480,7 @@
   "bottom_line": "Gerber Viper (21-014) — Tier 3 product. Target score: 64/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-015",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -503,15 +506,14 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-015"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 9,
+      "pool_A": 8,
       "pool_B": 9,
-      "pool_C": 1
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 113,

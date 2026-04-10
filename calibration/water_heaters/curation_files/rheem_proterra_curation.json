@@ -241,61 +241,6 @@
     },
     {
       "id": "SRC-014",
-      "source_name": "conwayservices.net — common water heater repairs",
-      "url": "https://www.conwayservices.net/blog/common-water-heater-repairs",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "ees.lbl.gov — our environment hot water comparing water heaters life cycle",
-      "url": "https://ees.lbl.gov/publications/our-environment-hot-water-comparing-water-heaters-life-cycle-approach-comparing-tank-and-tankless-wa",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q",
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "cee1.org — 2025 cee performance requirements for hvac and water heaters",
-      "url": "https://cee1.org/index.php/news/details/2025-cee-performance-requirements-for-hvac-and-water-heaters-integrate-federal-and-utility-incentives-to-increase-adoption-of-high-performing-heat-pumps",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "pacificplumbing.com — RHEE PROPH40 T2 RH400 SO",
       "url": "https://www.pacificplumbing.com/Product/RHEE-PROPH40-T2-RH400-SO",
       "platform": "other",
@@ -315,7 +260,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-015",
       "source_name": "homedepot.com — 330317266",
       "url": "https://www.homedepot.com/p/Rheem-ProTerra-40-Gal-Smart-High-Efficiency-Hybrid-Heat-Pump-Water-Heater-w-Leak-Detection-Auto-Shutoff-10-Year-Warranty-XE40T10HS45U1/330317266",
       "platform": "other",
@@ -335,7 +280,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-016",
       "source_name": "homedepot.com — 317100795",
       "url": "https://www.homedepot.com/p/Rheem-Performance-Platinum-ProTerra-40-Gal-120-Volt-Plug-in-Smart-Heat-Pump-Water-Heater-with-10-Year-Warranty-XE40T10HM00U0/317100795",
       "platform": "other",
@@ -355,7 +300,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-017",
       "source_name": "media.rheem.com — HP 310BM%20Rev4%20GEN%20V%20Builder%20SS 1",
       "url": "https://media.rheem.com/site/rheemdotcom/resources/HP-310BM%20Rev4%20GEN%20V%20Builder%20SS_1.pdf",
       "platform": "other",
@@ -375,7 +320,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "media.rheem.com — Performance Platinum THD HPE 200 BrochureR",
       "url": "https://media.rheem.com/media/uploads/iat/sites/36/2020/07/Performance-Platinum-THD-HPE-200-BrochureR.pdf",
       "platform": "other",
@@ -395,7 +340,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "ferguson.com — 9117336",
       "url": "https://www.ferguson.com/product/rheem-professional-prestigeproterra-40-gal.-tall-4.5-kw-hybrid-electric-heat-pump-water-heater-with-econet174;-rph40t2rh37530470/9117336.html",
       "platform": "other",
@@ -415,7 +360,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "fwwebb.com — 1237290",
       "url": "https://www.fwwebb.com/product/Rheem/ProTerra-Water-Heater/PROPH40T2RH400-15/1237290",
       "platform": "other",
@@ -435,7 +380,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "goendlessenergy.com — rheem proterra heat pump water heater review massachusetts",
       "url": "https://goendlessenergy.com/blog/heat-pump-water-heaters/rheem-proterra-heat-pump-water-heater-review-massachusetts/",
       "platform": "other",
@@ -455,7 +400,7 @@
       "claim": "Independent review of this product published on goendlessenergy.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "tinkertry.com — three year heat pump water heater review",
       "url": "https://tinkertry.com/three-year-heat-pump-water-heater-review",
       "platform": "other",
@@ -473,12 +418,75 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on tinkertry.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "bobistheoilguy.com — rheem proterra heat pump water heater",
+      "url": "https://bobistheoilguy.com/forums/threads/rheem-proterra-heat-pump-water-heater.400180/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on bobistheoilguy.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=DRGbI_T_mBw",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=hT6TaU4J6QA",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Rheem ProTerra XE80 Heat Pump (80 gal) — Tier 2 product. Target score: 78/100.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-001",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
@@ -501,17 +509,14 @@
       "SRC-010",
       "SRC-011",
       "SRC-012",
-      "SRC-013",
-      "SRC-014",
-      "SRC-015",
-      "SRC-016"
+      "SRC-013"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 10,
-      "pool_B": 9,
-      "pool_C": 0
+      "pool_A": 7,
+      "pool_B": 10,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 91,

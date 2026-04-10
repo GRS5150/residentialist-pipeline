@@ -260,24 +260,6 @@
     },
     {
       "id": "SRC-015",
-      "source_name": "www1.eere.energy.gov — house simulation",
-      "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/house_simulation.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
       "source_name": "blog.yaleappliance.com — best bluestar professional ranges",
       "url": "https://blog.yaleappliance.com/best-bluestar-professional-ranges",
       "platform": "other",
@@ -297,7 +279,7 @@
       "claim": "Independent review of this product published on blog.yaleappliance.com."
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-016",
       "source_name": "houzz.com — same old question blue star or wolf from real owners please ",
       "url": "https://www.houzz.com/discussions/3595018/same-old-question-blue-star-or-wolf-from-real-owners-please-reply",
       "platform": "other",
@@ -317,7 +299,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "prweb.com — bluestar r celebrates 140th anniversary of custom manufactur",
       "url": "https://www.prweb.com/releases/bluestar-r-celebrates-140th-anniversary-of-custom-manufacturing-amp-quality-craftsmanship-in-america-888617249.html",
       "platform": "other",
@@ -337,7 +319,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "einpresswire.com — bluestar introduces professional grade rangetop to its top o",
       "url": "https://www.einpresswire.com/article/217314248/bluestar-introduces-professional-grade-rangetop-to-its-top-of-the-line-platinum-series",
       "platform": "other",
@@ -357,7 +339,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "assets.coastappliances.com — RNB364GPMV2 care",
       "url": "https://assets.coastappliances.com/product-assets/bluestar/cooking-appliances/RNB364GPMV2/RNB364GPMV2-care.pdf",
       "platform": "other",
@@ -377,7 +359,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "houzz.com — bluestar platinum range review",
       "url": "https://www.houzz.com/discussions/3441005/bluestar-platinum-range-review",
       "platform": "other",
@@ -397,7 +379,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "lazygirldinners.com — blue star range",
       "url": "https://lazygirldinners.com/2018/05/14/blue-star-range/",
       "platform": "other",
@@ -417,7 +399,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "howdoesshe.com — modern kitchen reveal and bluestar range review",
       "url": "https://howdoesshe.com/modern-kitchen-reveal-and-bluestar-range-review/",
       "platform": "other",
@@ -437,7 +419,7 @@
       "claim": "Independent review of this product published on howdoesshe.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "us-appliance.com — bsp304bn",
       "url": "https://www.us-appliance.com/bsp304bn.html",
       "platform": "other",
@@ -457,9 +439,29 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=HNVOQsd5HDU",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=oq8Q-g-kNp8",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -480,6 +482,7 @@
   "bottom_line": "BlueStar Platinum Gas Range — Tier Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-015",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -505,15 +508,14 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-015"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 15,
+      "pool_S": 14,
       "pool_A": 1,
       "pool_B": 8,
-      "pool_C": 1
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 222,

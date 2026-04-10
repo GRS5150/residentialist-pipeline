@@ -282,42 +282,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "epa.gov — afobroilereemreport2012draft",
-      "url": "https://www.epa.gov/sites/default/files/2016-06/documents/afobroilereemreport2012draft.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "www1.eere.energy.gov — house simulation",
-      "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/house_simulation.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
       "source_name": "blog.yaleappliance.com — bosch induction ranges",
       "url": "https://blog.yaleappliance.com/bosch-induction-ranges",
       "platform": "other",
@@ -337,7 +301,7 @@
       "claim": "Independent review of this product published on blog.yaleappliance.com."
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-017",
       "source_name": "reviewed.com — bosch hii8057u induction range review",
       "url": "https://www.reviewed.com/ovens/content/bosch-hii8057u-induction-range-review",
       "platform": "other",
@@ -357,7 +321,7 @@
       "claim": "Independent review of this product published on reviewed.com."
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-018",
       "source_name": "fbsappliance.com — how does bosh induction range stack up against competitors",
       "url": "https://www.fbsappliance.com/blog/how-does-bosh-induction-range-stack-up-against-competitors",
       "platform": "other",
@@ -377,7 +341,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-019",
       "source_name": "homedepot.com — 320370038",
       "url": "https://www.homedepot.com/p/Bosch-800-Series-30-in-4-6-cu-ft-4-Burner-Slide-In-Induction-Range-with-Self-Cleaning-Convection-Oven-in-Stainless-Steel-HII8057U/320370038",
       "platform": "other",
@@ -397,7 +361,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "media3.bosch-home.com — 19837387 HIS8055U%20Spec%20Sheet",
       "url": "https://media3.bosch-home.com/Documents/19837387_HIS8055U%20Spec%20Sheet.pdf",
       "platform": "other",
@@ -417,7 +381,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "beesonsappliance.com — bosch 800 series 30 stainless steel freestanding induction r",
       "url": "https://www.beesonsappliance.com/product/bosch-800-series-30-stainless-steel-freestanding-induction-range-his8055u-1181029",
       "platform": "other",
@@ -437,7 +401,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "bestbuy.com — 6501560",
       "url": "https://www.bestbuy.com/site/reviews/bosch-800-series-4-6-cu-ft-slide-in-electric-induction-range-with-self-cleaning-and-warming-drawer-stainless-steel/6501560",
       "platform": "other",
@@ -457,7 +421,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "houzz.com — bosch induction ranges 800 vs benchmark edit and now lg",
       "url": "https://www.houzz.com/discussions/6391623/bosch-induction-ranges-800-vs-benchmark-edit-and-now-lg",
       "platform": "other",
@@ -475,6 +439,46 @@
       "verified": false,
       "source_type": "comparison",
       "claim": "Comparison evaluating this product against competitors on houzz.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=RNpy6MkcBL0",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=nusp7egIzWE",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Bosch 800 Induction Cooktop — Tier Tier 3 product. Target score: 70/100.",
@@ -482,6 +486,8 @@
     "sources_scored": [
       "SRC-001",
       "SRC-002",
+      "SRC-016",
+      "SRC-017",
       "SRC-018",
       "SRC-019",
       "SRC-020",
@@ -504,16 +510,14 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-017"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 17,
+      "pool_S": 15,
       "pool_A": 1,
       "pool_B": 7,
-      "pool_C": 0
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 222,

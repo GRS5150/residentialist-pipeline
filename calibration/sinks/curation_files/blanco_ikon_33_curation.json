@@ -457,21 +457,23 @@
     },
     {
       "id": "SRC-025",
-      "source_name": "jabrasanitary.com — kitchen sink brands",
-      "url": "https://www.jabrasanitary.com/kitchen-sink-brands",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=o2wtZLmkAdI",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Blanco IKON 33 Silgranit Composite Apron Front (401734) — Tier 2 product. Target score: 83/100.",
@@ -486,7 +488,8 @@
       "SRC-021",
       "SRC-022",
       "SRC-023",
-      "SRC-024"
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -502,15 +505,14 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-025"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 13,
-      "pool_B": 11,
-      "pool_C": 0
+      "pool_B": 10,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 87,

@@ -437,26 +437,28 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "jabrasanitary.com — kitchen sink brands",
-      "url": "https://www.jabrasanitary.com/kitchen-sink-brands",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ZsTvAwoOE5Q",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
       "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=ZsTvAwoOE5Q",
+      "url": "https://www.youtube.com/watch?v=8tacW16fnYM",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -486,6 +488,7 @@
       "SRC-021",
       "SRC-022",
       "SRC-023",
+      "SRC-024",
       "SRC-025"
     ],
     "sources_report_only": [
@@ -502,15 +505,14 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-024"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 14,
-      "pool_B": 9,
-      "pool_C": 1
+      "pool_B": 8,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 82,

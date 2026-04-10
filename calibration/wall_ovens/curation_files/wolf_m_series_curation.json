@@ -278,24 +278,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "osti.gov — product.biblio",
-      "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "nfm.com — 64044316",
       "url": "https://www.nfm.com/wolf-30-m-series-transitional-built-in-double-electric-wall-oven-with-convection-in-stainless-steel-64044316/64044316.html",
       "platform": "other",
@@ -315,7 +297,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "orvilles.com — wolf wall ovens",
       "url": "https://www.orvilles.com/blog/wolf-wall-ovens",
       "platform": "other",
@@ -335,7 +317,7 @@
       "claim": "Independent review of this product published on orvilles.com."
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "pcrichard.com — SO3050CM B",
       "url": "https://www.pcrichard.com/wolf-m-series-30-in-5.1-cu-ft-smart-electric-single-wall-oven-with-dual-convection-black/SO3050CM-B.html",
       "platform": "other",
@@ -355,7 +337,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "cdn2.hubspot.net — wolf buying guide",
       "url": "https://cdn2.hubspot.net/hub/91694/file-17678824-pdf/docs/wolf-buying-guide.pdf",
       "platform": "other",
@@ -375,7 +357,7 @@
       "claim": "Independent review of this product published on cdn2.hubspot.net."
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "houzz.com — hands on with the new wolf m ovens good bad and wish they wo",
       "url": "https://www.houzz.com/discussions/2892463/hands-on-with-the-new-wolf-m-ovens-good-bad-and-wish-they-woulda",
       "platform": "other",
@@ -395,7 +377,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "appliancebuyersguide.com — wolf m series oven review 2016",
       "url": "https://appliancebuyersguide.com/wolf-m-series-oven-review-2016/",
       "platform": "other",
@@ -415,7 +397,7 @@
       "claim": "Independent review of this product published on appliancebuyersguide.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "designerappliances.com — wolf wall ovens",
       "url": "https://www.designerappliances.com/blog/wolf-wall-ovens/",
       "platform": "other",
@@ -435,7 +417,7 @@
       "claim": "Independent review of this product published on designerappliances.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=DldxXzAYZkk",
       "platform": "other",
@@ -455,7 +437,7 @@
       "claim": "Independent review of this product published on youtube.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=IsZJjm7YykA",
       "platform": "other",
@@ -473,12 +455,33 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "consumeraffairs.com — wolf cooking appliances",
+      "url": "https://www.consumeraffairs.com/homeowners/wolf-cooking-appliances.html",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     }
   ],
   "bottom_line": "Wolf M Series — Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
     "sources_scored": [
       "SRC-005",
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
@@ -503,15 +506,14 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 4,
-      "pool_A": 12,
+      "pool_A": 11,
       "pool_B": 7,
-      "pool_C": 2
+      "pool_C": 3
     },
     "filter_summary": {
       "raw": 89,

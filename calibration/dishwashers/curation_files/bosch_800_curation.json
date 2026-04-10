@@ -328,134 +328,156 @@
     },
     {
       "id": "SRC-019",
-      "source_name": "elstandard.se — 1021101",
-      "url": "https://elstandard.se/documents/preview/1021101",
+      "source_name": "bestbuy.com — 6542978",
+      "url": "https://www.bestbuy.com/site/reviews/bosch-800-series-24-top-control-smart-built-in-tub-dishwasher-with-flexible-3rd-rack-42-dba-stainless-steel/6542978",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-020",
-      "source_name": "nsf.org — dishwasher certification",
-      "url": "https://www.nsf.org/consumer-resources/articles/dishwasher-certification",
+      "source_name": "protoolreviews.com — bosch 800 series dishwasher home connect",
+      "url": "https://www.protoolreviews.com/bosch-800-series-dishwasher-home-connect/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on protoolreviews.com."
     },
     {
       "id": "SRC-021",
-      "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
-      "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Bosch-800-Series-24-in-Top-Control-Built-In-Stainless-Steel-Dishwasher-w-CrystalDry-Stainless-Steel-Tall-Tub-40dBA-6-Cycles-SHPM88Z75N/310500134/3",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "blog.yaleappliance.com — most reliable dishwashers",
-      "url": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Bosch-800-Series-18-in-ADA-Compact-Front-Control-Dishwasher-in-Stainless-Steel-with-Stainless-Steel-Tub-and-3rd-Rack-42-dBA-SPE68C75UC/330388049/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "coastappliances.ca — miele dishwasher review and analysis",
-      "url": "https://www.coastappliances.ca/blogs/learn/miele-dishwasher-review-and-analysis",
+      "source_name": "bestbuy.com — 6354070",
+      "url": "https://www.bestbuy.com/site/reviews/bosch-800-series-21-cu-ft-french-door-bottom-freezer-counter-depth-smart-refrigerator-with-vitafresh-stainless-steel/6354070",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "dishwashertips.co.uk — what is a fixed hinge on a dishwasher",
-      "url": "https://dishwashertips.co.uk/blog/what-is-a-fixed-hinge-on-a-dishwasher/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ll5IlZ240b8&vl=en-US",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20004&Category=MADSTD",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=I1-6foZ6hwA",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Bosch 800 Series — Tier 1 product. Target score: 91/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -474,31 +496,24 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-018"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 9,
-      "pool_A": 16,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 9,
+      "pool_B": 5,
+      "pool_C": 2
     },
     "filter_summary": {
-      "raw": 121,
+      "raw": 131,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
         "mfr": 3,
         "always": 0,
         "bare": 2,
-        "cap": 38
+        "cap": 41
       }
     }
   },

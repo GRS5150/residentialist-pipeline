@@ -276,24 +276,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "ssfca.gov — kitchen and bathroom general remodeling requirements 22",
-      "url": "https://www.ssfca.gov/files/assets/public/v/1/economic-amp-community-development/documents/kitchen-and-bathroom-general-remodeling-requirements_22.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "mudosikitchenandbath.com — fabuwood cabinetry reviews",
       "url": "https://mudosikitchenandbath.com/fabuwood-cabinetry-reviews/",
       "platform": "other",
@@ -313,7 +295,7 @@
       "claim": "Independent review of this product published on mudosikitchenandbath.com."
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "thepinkdream.com — fabuwood cabinet review",
       "url": "https://www.thepinkdream.com/fabuwood-cabinet-review/",
       "platform": "other",
@@ -333,7 +315,7 @@
       "claim": "Independent review of this product published on thepinkdream.com."
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "directcabinets.com — fabuwood cabinets a tell all from a long island ny dealer",
       "url": "https://directcabinets.com/blogs/news/fabuwood-cabinets-a-tell-all-from-a-long-island-ny-dealer",
       "platform": "other",
@@ -353,7 +335,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "cabinetmakerschoice.com — Fabuwood Allure Catalog",
       "url": "https://cabinetmakerschoice.com/wp-content/uploads/2024/11/Fabuwood-Allure-Catalog.pdf",
       "platform": "other",
@@ -373,7 +355,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "frenchcreekdesigns.com — fabuwood galaxy cabinets",
       "url": "https://frenchcreekdesigns.com/blog/fabuwood-galaxy-cabinets/",
       "platform": "other",
@@ -393,7 +375,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "directcabinets.com — fabuwood allure galaxy",
       "url": "https://directcabinets.com/blogs/news/fabuwood-allure-galaxy",
       "platform": "other",
@@ -413,7 +395,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "houzz.com — fabuwood cabinetry pfvwus pf~152021923",
       "url": "https://www.houzz.com/professionals/cabinets-and-cabinetry/fabuwood-cabinetry-pfvwus-pf~152021923",
       "platform": "other",
@@ -433,7 +415,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "houzz.com — fabuwood cabinets reviews",
       "url": "https://www.houzz.com/discussions/854029/fabuwood-cabinets-reviews",
       "platform": "other",
@@ -453,9 +435,29 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=hktEqdjaQFU",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=wkFN_6Ij1Zo",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -477,6 +479,7 @@
   "scoring_notes": {
     "sources_scored": [
       "SRC-004",
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
@@ -501,15 +504,14 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
-      "pool_A": 13,
+      "pool_A": 12,
       "pool_B": 8,
-      "pool_C": 1
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 116,

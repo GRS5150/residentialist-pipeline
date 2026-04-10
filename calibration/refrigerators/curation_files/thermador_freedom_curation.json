@@ -286,78 +286,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "ecfr.gov — subpart B",
-      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "yaleappliance.com — built in refrigerators",
-      "url": "https://www.yaleappliance.com/catalog/built-in-refrigerators",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "astm.org — f2143 01",
-      "url": "https://www.astm.org/f2143-01.html",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "albertlee.biz — subzero refrigerator lifespan",
-      "url": "https://www.albertlee.biz/blog/subzero-refrigerator-lifespan",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "businesswire.com — Thermador Unveils a New Generation of Refrigerators with its",
       "url": "https://www.businesswire.com/news/home/20240514056664/en/Thermador-Unveils-a-New-Generation-of-Refrigerators-with-its-Freedom-Built-in-Bottom-Freezer-Collection",
       "platform": "other",
@@ -377,7 +305,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-017",
       "source_name": "tolsons.com — thermador freedom professional 36 in 187 cu ft stainless ste",
       "url": "https://www.tolsons.com/product/thermador-freedom-professional-36-in-187-cu-ft-stainless-steel-built-in-counter-depth-bottom-freezer-refrigerator-t36bb120ss-1312154",
       "platform": "other",
@@ -397,7 +325,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-018",
       "source_name": "buyfromsa.com — thermador freedom series review",
       "url": "https://www.buyfromsa.com/blog/thermador-freedom-series-review",
       "platform": "other",
@@ -417,7 +345,7 @@
       "claim": "Independent review of this product published on buyfromsa.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-019",
       "source_name": "txappliance.com — thermador refrigerator guide",
       "url": "https://www.txappliance.com/blog/thermador-refrigerator-guide",
       "platform": "other",
@@ -437,7 +365,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-020",
       "source_name": "carlaaston.com — thermador freedom induction cooktop review",
       "url": "https://carlaaston.com/designed/thermador-freedom-induction-cooktop-review",
       "platform": "other",
@@ -457,7 +385,7 @@
       "claim": "Independent review of this product published on carlaaston.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-021",
       "source_name": "bestbuy.com — 6493203",
       "url": "https://www.bestbuy.com/site/reviews/thermador-freedom-series-30-built-in-electric-induction-smart-cooktop-with-5-elements-and-frameless-design-dark-gray/6493203",
       "platform": "other",
@@ -475,6 +403,86 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on bestbuy.com."
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "designerappliances.com — thermador freedom induction cooktop",
+      "url": "https://www.designerappliances.com/blog/thermador-freedom-induction-cooktop/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on designerappliances.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "bestbuy.com — 6096408",
+      "url": "https://www.bestbuy.com/site/reviews/thermador-freedom-19-4-cu-ft-french-door-built-in-refrigerator-stainless-steel/6096408",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=k_GtLhgMSx8",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=felRv_tTqxs",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Thermador Freedom Collection — Tier 1 product. Target score: 90/100.",
@@ -484,6 +492,10 @@
       "SRC-002",
       "SRC-012",
       "SRC-013",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -502,18 +514,14 @@
       "SRC-010",
       "SRC-011",
       "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 11,
-      "pool_A": 8,
-      "pool_B": 6,
-      "pool_C": 0
+      "pool_A": 4,
+      "pool_B": 8,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 135,

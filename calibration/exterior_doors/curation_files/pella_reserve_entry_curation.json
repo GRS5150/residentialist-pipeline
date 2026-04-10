@@ -40,6 +40,26 @@
     },
     {
       "id": "SRC-003",
+      "source_name": "finehomebuilding.com — pella windows good or bad",
+      "url": "https://www.finehomebuilding.com/forum/pella-windows-good-or-bad",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on finehomebuilding.com."
+    },
+    {
+      "id": "SRC-004",
       "source_name": "finehomebuilding.com — jeld wen exterior doors",
       "url": "https://www.finehomebuilding.com/forum/jeld-wen-exterior-doors",
       "platform": "other",
@@ -57,7 +77,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "finehomebuilding.com — marvin v loewen",
       "url": "https://www.finehomebuilding.com/forum/marvin-v-loewen",
       "platform": "other",
@@ -75,7 +95,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "sawhorse.net — the marvin signature collection ultimate wood core with exte",
       "url": "https://sawhorse.net/video/the-marvin-signature-collection-ultimate-wood-core-with-exterior-aluminum-cladding/",
       "platform": "other",
@@ -93,7 +113,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "stocktitan.net — def 14a fortune brands innovations inc definitive proxy stat",
       "url": "https://www.stocktitan.net/sec-filings/FBIN/def-14a-fortune-brands-innovations-inc-definitive-proxy-statement-f151a4a61ba5.html",
       "platform": "other",
@@ -111,7 +131,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "finehomebuilding.com — any experience with reliabilt patio door",
       "url": "https://www.finehomebuilding.com/forum/any-experience-with-reliabilt-patio-door",
       "platform": "other",
@@ -129,7 +149,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
       "source_name": "nfrc.org — certified product directory",
       "url": "https://nfrc.org/certified-product-directory/",
       "platform": "other",
@@ -147,7 +167,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-010",
       "source_name": "detroitmi.gov — pella",
       "url": "https://detroitmi.gov/sites/detroitmi.localhost/files/hdc-submitted-materials/2024-04/pella.pdf",
       "platform": "other",
@@ -165,7 +185,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-011",
       "source_name": "cornerstonebuildingbrands.ca — windows and doors",
       "url": "https://www.cornerstonebuildingbrands.ca/products/residential-building-solutions/windows-and-doors/",
       "platform": "other",
@@ -183,7 +203,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-012",
       "source_name": "finehomebuilding.com — whats wrong with therma true",
       "url": "https://www.finehomebuilding.com/forum/whats-wrong-with-therma-true",
       "platform": "other",
@@ -201,7 +221,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-013",
       "source_name": "finehomebuilding.com — therma tru doors",
       "url": "https://www.finehomebuilding.com/forum/therma-tru-doors",
       "platform": "other",
@@ -219,7 +239,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-014",
       "source_name": "floridabuilding.org — FL8604 R6 C CAC NI009145B R3",
       "url": "http://floridabuilding.org/upload/PR_Certificate/FL8604_R6_C_CAC_NI009145B-R3.pdf",
       "platform": "other",
@@ -237,7 +257,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-015",
       "source_name": "finehomebuilding.com — thermatru fiber glass door problems",
       "url": "https://www.finehomebuilding.com/forum/thermatru-fiber-glass-door-problems",
       "platform": "other",
@@ -255,7 +275,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-016",
       "source_name": "floridabuilding.org — FL15227 R2 C CAC 15227.3%20NAMI%20certs",
       "url": "https://floridabuilding.org/upload/PR_Certificate/FL15227_R2_C_CAC_15227.3%20NAMI%20certs.pdf",
       "platform": "other",
@@ -273,7 +293,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-017",
       "source_name": "huduser.gov — doors7",
       "url": "https://www.huduser.gov/publications/pdf/doors7.pdf",
       "platform": "other",
@@ -291,7 +311,67 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-018",
+      "source_name": "modernize.com — reserve series",
+      "url": "https://modernize.com/windows/brands/pella-windows/reserve-series",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "southwestexteriors.com — marvin ultimate window vs pella reserve window w",
+      "url": "https://www.southwestexteriors.com/blog/2021/october/marvin-ultimate-window-vs-pella-reserve-window-w/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on southwestexteriors.com."
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "abedward.com — are pella windows worth it",
+      "url": "https://abedward.com/are-pella-windows-worth-it/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on abedward.com."
+    },
+    {
+      "id": "SRC-021",
       "source_name": "jeld-wen.com — steel",
       "url": "https://www.jeld-wen.com/en-us/products/exterior-doors/steel",
       "platform": "other",
@@ -310,7 +390,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-022",
       "source_name": "jeld-wen.com — smooth pro fiberglass",
       "url": "https://www.jeld-wen.com/en-us/products/exterior-doors/smooth-pro-fiberglass",
       "platform": "other",
@@ -328,7 +408,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-023",
       "source_name": "pdf.lowes.com — 719061127938",
       "url": "http://pdf.lowes.com/energyguides/719061127938.pdf",
       "platform": "other",
@@ -346,7 +426,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-024",
       "source_name": "lamoriaconstruction.com — the ultimate jeld wen window guide comparing v 2500 v 4500 s",
       "url": "https://www.lamoriaconstruction.com/post/the-ultimate-jeld-wen-window-guide-comparing-v-2500-v-4500-siteline-and-wood-series-windows",
       "platform": "other",
@@ -364,7 +444,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-025",
       "source_name": "homedepot.com — 301187011",
       "url": "https://www.homedepot.com/p/JELD-WEN-28-in-x-80-in-Madison-Espresso-Stain-Right-Hand-Solid-Core-Molded-Composite-MDF-Single-Prehung-Interior-Door-THDJW222200163/301187011",
       "platform": "other",
@@ -380,87 +460,19 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_1",
       "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "quanex.com — residential door door seals",
-      "url": "https://www.quanex.com/products/residential-door-door-seals/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "buildershardware.com — A1561 2021 Butts and Hinges",
-      "url": "https://buildershardware.com/ANSI-BHMA-Standards/Hardware-Highlights/A1561-2021-Butts-and-Hinges",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "houzz.com — jeld wen siteline vs andersen e series",
-      "url": "https://www.houzz.com/discussions/4878841/jeld-wen-siteline-vs-andersen-e-series",
-      "platform": "other",
-      "column": "forum",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "homedepot.com",
-      "url": "https://www.homedepot.com/p/reviews/JELD-WEN-32-in-x-78-in-9-Lite-Primed-Fiberglass-Prehung-Left-Hand-Inswing-Entry-Door-w-Brickmould-THDJW191000003/204746263/5",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
     }
   ],
   "bottom_line": "Pella Reserve Entry Door — Tier 2 product. Target score: 80/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-003",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
-      "SRC-003",
       "SRC-004",
       "SRC-005",
       "SRC-006",
@@ -475,9 +487,6 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
       "SRC-021",
       "SRC-022",
       "SRC-023",
@@ -487,16 +496,16 @@
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
-      "pool_A": 14,
-      "pool_B": 9,
+      "pool_A": 15,
+      "pool_B": 8,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 231,
+      "raw": 236,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 0,
+        "mfr": 1,
         "always": 7,
         "bare": 3,
         "cap": 113

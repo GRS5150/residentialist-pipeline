@@ -242,42 +242,6 @@
     },
     {
       "id": "SRC-014",
-      "source_name": "epa.gov — afobroilereemreport2012draft",
-      "url": "https://www.epa.gov/sites/default/files/2016-06/documents/afobroilereemreport2012draft.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "www1.eere.energy.gov — house simulation",
-      "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/house_simulation.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
       "source_name": "blog.yaleappliance.com — should you buy a thermador professional range",
       "url": "https://blog.yaleappliance.com/should-you-buy-a-thermador-professional-range",
       "platform": "other",
@@ -297,7 +261,7 @@
       "claim": "Independent review of this product published on blog.yaleappliance.com."
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-015",
       "source_name": "assets.ajmadison.com — prd366jgu manual",
       "url": "https://assets.ajmadison.com/ajmadison/itemdocs/prd366jgu_manual.pdf",
       "platform": "other",
@@ -317,7 +281,7 @@
       "claim": "Independent review of this product published on assets.ajmadison.com."
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-016",
       "source_name": "kitchenstewardship.com — thermador stove review",
       "url": "https://www.kitchenstewardship.com/thermador-stove-review/",
       "platform": "other",
@@ -337,7 +301,7 @@
       "claim": "Independent review of this product published on kitchenstewardship.com."
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-017",
       "source_name": "pdf.archiexpo.com — 11644 40261",
       "url": "https://pdf.archiexpo.com/pdf/thermador/pro-rangetops-ranges/11644-40261.html",
       "platform": "other",
@@ -357,7 +321,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-018",
       "source_name": "appliancebarn.com — thermador pro grand 48 stainless steel pro style slide in na",
       "url": "https://www.appliancebarn.com/product/thermador-pro-grand-48-stainless-steel-pro-style-slide-in-natural-gas-range-prg486wdg-237663",
       "platform": "other",
@@ -377,7 +341,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-019",
       "source_name": "carlaaston.com — thermador pro grand steam range review",
       "url": "https://carlaaston.com/designed/thermador-pro-grand-steam-range-review",
       "platform": "other",
@@ -397,7 +361,7 @@
       "claim": "Independent review of this product published on carlaaston.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "bestbuy.com — 6333037",
       "url": "https://www.bestbuy.com/site/reviews/thermador-pro-grand-5-7-cu-ft-freestanding-dual-fuel-lp-convection-range-with-self-cleaning-stainless-steel/6333037",
       "platform": "other",
@@ -417,7 +381,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "bestbuy.com — 6333043",
       "url": "https://www.bestbuy.com/site/reviews/thermador-pro-grand-7-9-cu-ft-freestanding-double-oven-gas-convection-range-with-self-cleaning--liquid-propane-convertible-stainless-steel/6333043",
       "platform": "other",
@@ -437,7 +401,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "houzz.com — does anyone actually have the thermador pro grand steam rang",
       "url": "https://www.houzz.com/discussions/2260110/does-anyone-actually-have-the-thermador-pro-grand-steam-range",
       "platform": "other",
@@ -457,7 +421,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "homedepot.com — 308852014",
       "url": "https://www.homedepot.com/p/Thermador-Pro-Grand-36-in-5-7-cu-ft-Slide-In-Gas-Range-with-Self-Cleaning-Convection-Oven-in-Stainless-Steel-PRG366WG/308852014",
       "platform": "other",
@@ -475,11 +439,53 @@
       "verified": false,
       "source_type": "other",
       "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ChIKrtW-SDc",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=e4LQBIaEh4k",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Thermador Pro Grand Gas Range — Tier Tier 2 product. Target score: 83/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-014",
+      "SRC-015",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -504,16 +510,14 @@
       "SRC-010",
       "SRC-011",
       "SRC-012",
-      "SRC-013",
-      "SRC-014",
-      "SRC-015"
+      "SRC-013"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 15,
+      "pool_S": 13,
       "pool_A": 1,
       "pool_B": 9,
-      "pool_C": 0
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 222,

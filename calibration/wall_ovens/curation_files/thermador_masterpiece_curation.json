@@ -300,42 +300,6 @@
     },
     {
       "id": "SRC-017",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20022&Category=MADSTD&WebsiteKey=e77c44a3-68e2-480f-81b4-8c09990da1b9",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "osti.gov — product.biblio",
-      "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
       "source_name": "nfm.com — 53232724",
       "url": "https://www.nfm.com/thermador-30-masterpiece-double-wall-oven-with-true-convection-in-stainless-steel-53232724/53232724.html",
       "platform": "other",
@@ -355,7 +319,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-018",
       "source_name": "tolsons.com — thermador masterpiece 30 stainless steel single electric wal",
       "url": "https://www.tolsons.com/product/thermador-masterpiece-30-stainless-steel-single-electric-wall-oven-me301yp-665553",
       "platform": "other",
@@ -375,7 +339,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-019",
       "source_name": "jarvisapplianceinc.com — thermador masterpiece 30 stainless steel double electric wal",
       "url": "https://www.jarvisapplianceinc.com/product/thermador-masterpiece-30-stainless-steel-double-electric-wall-oven-me302yp-665566",
       "platform": "other",
@@ -395,7 +359,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "bestbuy.com — 6292534",
       "url": "https://www.bestbuy.com/site/reviews/thermador-masterpiece-36-inches-externally-vented-recirculating-wall-range-hood-stainless-steel/6292534",
       "platform": "other",
@@ -415,7 +379,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "fusespecialtyappliances.com — are thermador appliances worth it",
       "url": "https://www.fusespecialtyappliances.com/blog/are-thermador-appliances-worth-it",
       "platform": "other",
@@ -435,7 +399,7 @@
       "claim": "Independent review of this product published on fusespecialtyappliances.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "houzz.com — blue star 36 platinum review thermador masterpiece review",
       "url": "https://www.houzz.com/discussions/5328207/blue-star-36-platinum-review-thermador-masterpiece-review",
       "platform": "other",
@@ -455,7 +419,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "bestbuy.com — 6292494",
       "url": "https://www.bestbuy.com/site/reviews/thermador-masterpiece-series-30-4-5-cu-ft-built-in-single-electric-smart-wall-oven-with-true-convection-stainless-steel/6292494",
       "platform": "other",
@@ -473,6 +437,46 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on bestbuy.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=CZFnV3QVhQk",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=LNK48AwT5Y0",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Thermador Masterpiece — Tier 2 product. Target score: 82/100.",
@@ -481,6 +485,8 @@
       "SRC-001",
       "SRC-002",
       "SRC-007",
+      "SRC-017",
+      "SRC-018",
       "SRC-019",
       "SRC-020",
       "SRC-021",
@@ -502,16 +508,14 @@
       "SRC-013",
       "SRC-014",
       "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018"
+      "SRC-016"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 12,
+      "pool_A": 10,
       "pool_B": 7,
-      "pool_C": 0
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 90,

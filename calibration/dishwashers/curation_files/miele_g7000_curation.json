@@ -166,6 +166,26 @@
     },
     {
       "id": "SRC-010",
+      "source_name": "blog.yaleappliance.com — are the miele g 7000 dishwashers any good",
+      "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on blog.yaleappliance.com."
+    },
+    {
+      "id": "SRC-011",
       "source_name": "yaleappliance.com — service",
       "url": "https://www.yaleappliance.com/service",
       "platform": "other",
@@ -183,7 +203,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-012",
       "source_name": "appliancejoy.blog — whirlpool kitchenaid same company different kitchens",
       "url": "https://appliancejoy.blog/whirlpool-kitchenaid-same-company-different-kitchens",
       "platform": "other",
@@ -201,7 +221,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-013",
       "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
       "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
       "platform": "other",
@@ -219,7 +239,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-014",
       "source_name": "kelownaappliancesrepair.ca — life expectancy of major dishwasher brands",
       "url": "https://kelownaappliancesrepair.ca/life-expectancy-of-major-dishwasher-brands/",
       "platform": "other",
@@ -237,7 +257,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-015",
       "source_name": "appliantology.org — 959 aftermarket parts vs genuine false economy or good deal",
       "url": "https://appliantology.org/blogs/entry/959-aftermarket-parts-vs-genuine-false-economy-or-good-deal/",
       "platform": "other",
@@ -255,7 +275,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-016",
       "source_name": "sisme.it — water movement motors",
       "url": "https://sisme.it/en/motors-for-home-appliances/water-movement-motors/",
       "platform": "other",
@@ -273,7 +293,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-017",
       "source_name": "blog.yaleappliance.com — the best bosch dishwashers ratings reviews prices",
       "url": "https://blog.yaleappliance.com/the-best-bosch-dishwashers-ratings-reviews-prices",
       "platform": "other",
@@ -291,7 +311,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-018",
       "source_name": "ecfr.gov — appendix Appendix%20C1%20to%20Subpart%20B%20of%20Part%20430",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20C1%20to%20Subpart%20B%20of%20Part%20430",
       "platform": "other",
@@ -309,7 +329,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-019",
       "source_name": "aham.org — AHAM%20DW 1 2020%20(Energy",
       "url": "https://www.aham.org/DownloadableFiles/AHAM%20DW-1-2020%20(Energy",
       "platform": "other",
@@ -327,7 +347,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-020",
       "source_name": "elstandard.se — 1021101",
       "url": "https://elstandard.se/documents/preview/1021101",
       "platform": "other",
@@ -345,117 +365,116 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
-      "source_name": "nsf.org — dishwasher certification",
-      "url": "https://www.nsf.org/consumer-resources/articles/dishwasher-certification",
+      "id": "SRC-021",
+      "source_name": "geraldgiles.co.uk — miele g7000 self dosing dishwashers review",
+      "url": "https://www.geraldgiles.co.uk/blog/manufacturers/miele/miele-g7000-self-dosing-dishwashers-review/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
-      "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on geraldgiles.co.uk."
     },
     {
       "id": "SRC-022",
-      "source_name": "blog.yaleappliance.com — most reliable dishwashers",
-      "url": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+      "source_name": "bestbuy.com — 6481150",
+      "url": "https://www.bestbuy.com/site/miele-g7000-dishwasher/6481150.p?skuId=6481150",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
-      "source_name": "coastappliances.ca — miele dishwasher review and analysis",
-      "url": "https://www.coastappliances.ca/blogs/learn/miele-dishwasher-review-and-analysis",
+      "source_name": "miele.ca — g 7000 dishwashers",
+      "url": "https://www.miele.ca/en/Microsites/g-7000-dishwasher-series/g-7000-dishwashers",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
-      "source_name": "dishwashertips.co.uk — what is a fixed hinge on a dishwasher",
-      "url": "https://dishwashertips.co.uk/blog/what-is-a-fixed-hinge-on-a-dishwasher/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=sIxFs62um4U",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20004&Category=MADSTD",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=VHJPcbFJa3Y",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Miele G7000 Series — Tier 1 product. Target score: 95/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-010",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -466,7 +485,6 @@
       "SRC-007",
       "SRC-008",
       "SRC-009",
-      "SRC-010",
       "SRC-011",
       "SRC-012",
       "SRC-013",
@@ -476,29 +494,24 @@
       "SRC-017",
       "SRC-018",
       "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-020"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 9,
-      "pool_A": 16,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 11,
+      "pool_B": 3,
+      "pool_C": 2
     },
     "filter_summary": {
-      "raw": 121,
+      "raw": 128,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
         "mfr": 0,
         "always": 0,
         "bare": 2,
-        "cap": 39
+        "cap": 40
       }
     }
   },

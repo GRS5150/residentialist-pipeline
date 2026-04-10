@@ -4,6 +4,46 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "energystar.gov — results",
+      "url": "https://www.energystar.gov/productfinder/product/certified-windows/results?page_number=9",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "S",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-002",
+      "source_name": "consumerreports.org — best replacement windows a5584322282",
+      "url": "https://www.consumerreports.org/home-garden/replacement-windows/best-replacement-windows-a5584322282/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-003",
       "source_name": "energy.gov — residential windows coverings",
       "url": "https://www.energy.gov/sites/prod/files/2013/11/f5/residential_windows_coverings.pdf",
       "platform": "other",
@@ -21,7 +61,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-004",
       "source_name": "energy.gov — energy performance ratings windows doors and skylights",
       "url": "https://www.energy.gov/energysaver/energy-performance-ratings-windows-doors-and-skylights",
       "platform": "other",
@@ -39,7 +79,47 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-005",
+      "source_name": "sec.gov — exhibit992 milgardsale",
+      "url": "https://www.sec.gov/Archives/edgar/data/62996/000006299619000066/exhibit992-milgardsale.htm",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "historical",
+      "claim": ""
+    },
+    {
+      "id": "SRC-006",
+      "source_name": "finehomebuilding.com — milguard windows",
+      "url": "https://www.finehomebuilding.com/forum/milguard-windows",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on finehomebuilding.com."
+    },
+    {
+      "id": "SRC-007",
       "source_name": "efficientwindows.org — window ratings",
       "url": "https://efficientwindows.org/window-ratings/",
       "platform": "other",
@@ -58,7 +138,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-008",
       "source_name": "youramericanhome.net — average window size standard dimensions",
       "url": "https://youramericanhome.net/average-window-size-standard-dimensions/",
       "platform": "other",
@@ -77,7 +157,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-009",
       "source_name": "basc.pnnl.gov — window performance grades and installation details multifami",
       "url": "https://basc.pnnl.gov/resource-guides/window-performance-grades-and-installation-details-multifamily-buildings",
       "platform": "other",
@@ -95,7 +175,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-010",
       "source_name": "nps.gov — windows evaluating",
       "url": "https://www.nps.gov/subjects/taxincentives/windows-evaluating.htm",
       "platform": "other",
@@ -113,7 +193,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-011",
       "source_name": "hud.gov — NSPIRE Standards v2.1 Window",
       "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standards-v2.1-Window.pdf",
       "platform": "other",
@@ -131,7 +211,228 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-012",
+      "source_name": "constructionwindows.com — Tuscany Architectural Manual",
+      "url": "https://constructionwindows.com/media/wysiwyg/images/resources/tuscany/pdf/Tuscany-Architectural-Manual.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "lowes.com — 5016113939",
+      "url": "https://www.lowes.com/pd/Milgard-V400-Tuscany-Series-23-1-2-in-x-59-1-2-in-x-3-1-4-in-Jamb-Black-Vinyl-Low-e-Single-Hung-Window-Half-Screen-Included/5016113939",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "brennancorp.com — problems with vinyl windows",
+      "url": "https://brennancorp.com/blog/problems-with-vinyl-windows/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "greenbuildingadvisor.com — window air tightness various questions about brands and styl",
+      "url": "https://www.greenbuildingadvisor.com/question/window-air-tightness-various-questions-about-brands-and-styles",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q",
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "bigdriftforwbcv27.com — milgard v400 tuscany series double hung window",
+      "url": "https://bigdriftforwbcv27.com/browse/windows/milgard-v400-tuscany-series-double-hung-window/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "todayshomeowner.com — simonton vs milgard",
+      "url": "https://todayshomeowner.com/windows/reviews/simonton-vs-milgard/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on todayshomeowner.com."
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "homedepot.milgard.com — warranty",
+      "url": "https://homedepot.milgard.com/warranty",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "amesburytruth.com — doors",
+      "url": "https://www.amesburytruth.com/products/doors",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "1stwindows.com — milgard windows seattle",
+      "url": "https://www.1stwindows.com/milgard-windows-seattle",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "classlawdc.com — milgard windows operational failure investigation",
+      "url": "https://classlawdc.com/2026/01/10/milgard-windows-operational-failure-investigation/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "D"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "houzz.com — any one used milgard what s your experience with their produ",
+      "url": "https://www.houzz.com/discussions/5006377/any-one-used-milgard-what-s-your-experience-with-their-product",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-023",
       "source_name": "roofershome.com — understanding window ratings what to look for in energy effi",
       "url": "https://www.roofershome.com/blog/understanding-window-ratings-what-to-look-for-in-energy-efficiency",
       "platform": "other",
@@ -149,7 +450,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-024",
       "source_name": "ecoviewdfw.com — why skilled window installation is important",
       "url": "https://www.ecoviewdfw.com/why-skilled-window-installation-is-important",
       "platform": "other",
@@ -167,7 +468,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-025",
       "source_name": "jpexteriorstx.com — why new construction windows over the last 20 years are low ",
       "url": "https://www.jpexteriorstx.com/blog/p.241127000/why-new-construction-windows-over-the-last-20-years-are-low-quality/",
       "platform": "other",
@@ -184,293 +485,15 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-011",
-      "source_name": "keystonewindow.com — standard window sizes guide",
-      "url": "https://www.keystonewindow.com/standard-window-sizes-guide/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-012",
-      "source_name": "alumastergroup.com — ultimate guide to average window size",
-      "url": "https://alumastergroup.com/blog/ultimate-guide-to-average-window-size",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-013",
-      "source_name": "modernize.com — types",
-      "url": "https://modernize.com/windows/types",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "reconroof.com — best window brands",
-      "url": "https://reconroof.com/blog/best-window-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "modernize.com — brands",
-      "url": "https://modernize.com/windows/brands",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "replacementwindowdiscussions.com — sierra pacific vs loewen windows your pick",
-      "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands/sierra-pacific-vs-loewen-windows-your-pick/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "thewindowexperts.com — best window brands",
-      "url": "https://thewindowexperts.com/best-window-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "builderbrigade.com — which window brands are the best",
-      "url": "https://builderbrigade.com/blogs/learn/which-window-brands-are-the-best",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "hpef.us — 19th century",
-      "url": "https://www.hpef.us/historic-windows/windows-through-time/19th-century",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "wisconsinhistory.org — CS4301",
-      "url": "https://www.wisconsinhistory.org/Records/Article/CS4301",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "slcdocs.com",
-      "url": "http://www.slcdocs.com/historicpreservation/guideres/ch3.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "traditionalbuilding.com — windows home",
-      "url": "https://www.traditionalbuilding.com/opinions/windows-home",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "preservationdallas.org — Washington DC Windows and Doors",
-      "url": "https://preservationdallas.org/wp-content/uploads/2020/09/Washington-DC-Windows_and_Doors.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "casabellawindows.ca — windows through the ages exploring the evolution of window d",
-      "url": "https://casabellawindows.ca/windows-through-the-ages-exploring-the-evolution-of-window-design/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "miwindows.com — architectural and design styles",
-      "url": "https://miwindows.com/blog/architectural-and-design-styles",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
     }
   ],
   "bottom_line": "MI Windows subsidiary. Fusion-welded vinyl. Decent mid-tier. Full lifetime warranty (glass breakage included — unusual). West Coast dominant. Pros accept for mid-range but note vinyl limitations (thermal expansion, appearance).",
   "scoring_notes": {
-    "sources_scored": [],
-    "sources_report_only": [
+    "sources_scored": [
       "SRC-001",
       "SRC-002",
-      "SRC-003",
-      "SRC-004",
       "SRC-005",
       "SRC-006",
-      "SRC-007",
-      "SRC-008",
-      "SRC-009",
-      "SRC-010",
-      "SRC-011",
       "SRC-012",
       "SRC-013",
       "SRC-014",
@@ -481,24 +504,33 @@
       "SRC-019",
       "SRC-020",
       "SRC-021",
-      "SRC-022",
+      "SRC-022"
+    ],
+    "sources_report_only": [
+      "SRC-003",
+      "SRC-004",
+      "SRC-007",
+      "SRC-008",
+      "SRC-009",
+      "SRC-010",
+      "SRC-011",
       "SRC-023",
       "SRC-024",
       "SRC-025"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 2,
-      "pool_A": 5,
-      "pool_B": 18,
+      "pool_S": 4,
+      "pool_A": 7,
+      "pool_B": 14,
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 72,
+      "raw": 122,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 1,
+        "mfr": 28,
         "always": 0,
         "bare": 2,
         "cap": 0

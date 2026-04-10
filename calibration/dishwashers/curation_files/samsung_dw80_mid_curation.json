@@ -346,116 +346,135 @@
     },
     {
       "id": "SRC-020",
-      "source_name": "nsf.org — dishwasher certification",
-      "url": "https://www.nsf.org/consumer-resources/articles/dishwasher-certification",
+      "source_name": "reviewed.com — samsung dw80r2031us dishwasher review",
+      "url": "https://www.reviewed.com/dishwashers/content/samsung-dw80r2031us-dishwasher-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on reviewed.com."
     },
     {
       "id": "SRC-021",
-      "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
-      "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
+      "source_name": "bestbuy.com — 6549888",
+      "url": "https://www.bestbuy.com/site/reviews/samsung-24-top-control-smart-built-in-stainless-steel-tub-dishwasher-with-storm-wash-48-dba-stainless-steel/6549888",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "blog.yaleappliance.com — most reliable dishwashers",
-      "url": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+      "source_name": "designerappliances.com — samsung dishwasher review",
+      "url": "https://www.designerappliances.com/blog/samsung-dishwasher-review/",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on designerappliances.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "coastappliances.ca — miele dishwasher review and analysis",
-      "url": "https://www.coastappliances.ca/blogs/learn/miele-dishwasher-review-and-analysis",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Samsung-24-in-Built-In-Tall-Tub-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-with-Adjustable-Rack-53-dBA-DW80CG4021SR/325532197/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "dishwashertips.co.uk — what is a fixed hinge on a dishwasher",
-      "url": "https://dishwashertips.co.uk/blog/what-is-a-fixed-hinge-on-a-dishwasher/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=r-BKZDVrtjs",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20004&Category=MADSTD",
+      "source_name": "consumeraffairs.com — samsung dishwasher",
+      "url": "https://www.consumeraffairs.com/homeowners/samsung_dishwasher.html?page=4",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     }
   ],
   "bottom_line": "Samsung (mid-range) — Tier 4 product. Target score: 44/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -475,28 +494,22 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-019"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 9,
-      "pool_A": 16,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 10,
+      "pool_B": 4,
+      "pool_C": 2
     },
     "filter_summary": {
-      "raw": 121,
+      "raw": 128,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
         "mfr": 0,
-        "always": 0,
+        "always": 1,
         "bare": 2,
         "cap": 39
       }

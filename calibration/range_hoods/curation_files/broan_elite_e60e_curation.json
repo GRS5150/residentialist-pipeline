@@ -365,98 +365,114 @@
     },
     {
       "id": "SRC-021",
-      "source_name": "finehomebuilding.com — range exhaust",
-      "url": "https://www.finehomebuilding.com/2017/05/01/range-exhaust",
+      "source_name": "parkaveappliance.com — brn e60e42ss",
+      "url": "https://www.parkaveappliance.com/collections/wall-mount-range-hoods/products/brn-e60e42ss?bvstate=pg%3A2%2Fct%3Ar",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
-      "source_name": "codes.iccsafe.org — HVI9202020P1 Ch03 Sec3",
-      "url": "https://codes.iccsafe.org/s/HVI9202020P1/3-definitions/HVI9202020P1-Ch03-Sec3.10",
+      "source_name": "ajmadison.com — E60E42SS",
+      "url": "https://www.ajmadison.com/cgi-bin/ajmadison/E60E42SS.html",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "indoor.lbl.gov — development standard capture",
-      "url": "https://indoor.lbl.gov/publications/development-standard-capture",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "cai-rmc.org — 13488807",
-      "url": "https://www.cai-rmc.org/Blog/13488807",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "nchh.org — new study finds ventilation significantly reduces indoor pol",
-      "url": "https://nchh.org/2022/04/new-study-finds-ventilation-significantly-reduces-indoor-pollutant-levels-and-adds-new-evidence-for-eliminating-gas-stoves/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on ajmadison.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "houzz.com — broan elite e60000 series range hood",
+      "url": "https://www.houzz.com/discussions/2272116/broan-elite-e60000-series-range-hood",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Broan-NuTone-E60000-36-in-Convertible-Wall-Mount-Range-Hood-with-Light-in-Stainless-Steel-E6036SS/202039752/1",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ylS6D4ShvJc",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Broan-NuTone Elite E60E30SS — Tier 3 product. Target score: 64/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -477,26 +493,21 @@
       "SRC-017",
       "SRC-018",
       "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-020"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 5,
-      "pool_A": 20,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 15,
+      "pool_B": 4,
+      "pool_C": 1
     },
     "filter_summary": {
-      "raw": 103,
+      "raw": 110,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 6,
+        "mfr": 8,
         "always": 0,
         "bare": 0,
         "cap": 18

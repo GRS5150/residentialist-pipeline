@@ -4,6 +4,26 @@
   "sources": [
     {
       "id": "SRC-001",
+      "source_name": "consumerreports.org — m401421",
+      "url": "https://www.consumerreports.org/appliances/dishwashers/kitchenaid-kdtm604kps/m401421/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "S",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-002",
       "source_name": "consumerreports.org — the best bosch dishwasher for your kitchen a1088085668",
       "url": "https://www.consumerreports.org/appliances/dishwashers/the-best-bosch-dishwasher-for-your-kitchen-a1088085668/",
       "platform": "other",
@@ -21,7 +41,7 @@
       "verified": false
     },
     {
-      "id": "SRC-002",
+      "id": "SRC-003",
       "source_name": "consumerreports.org — best dishwashers of the year a6109623431",
       "url": "https://www.consumerreports.org/appliances/dishwashers/best-dishwashers-of-the-year-a6109623431/",
       "platform": "other",
@@ -39,7 +59,7 @@
       "verified": false
     },
     {
-      "id": "SRC-003",
+      "id": "SRC-004",
       "source_name": "energystar.gov — Dishwasher%20ENERGY%20STAR%20Most%20Efficient%202025%20Crite",
       "url": "https://www.energystar.gov/sites/default/files/2024-09/Dishwasher%20ENERGY%20STAR%20Most%20Efficient%202025%20Criteria.pdf",
       "platform": "other",
@@ -57,7 +77,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "consumerreports.org — how we test",
       "url": "https://www.consumerreports.org/appliances/dishwashers/how-we-test/",
       "platform": "other",
@@ -75,7 +95,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "tsapps.nist.gov — get pdf",
       "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=860945",
       "platform": "other",
@@ -93,7 +113,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "energystar.gov — 3%20 %20ENERGY%20STAR%20Products%20 %20Energy%20Efficiency%2",
       "url": "https://www.energystar.gov/sites/default/files/asset/document/3%20-%20ENERGY%20STAR%20Products%20-%20Energy%20Efficiency%20and%20High%20Performance%20-%20Bosch%20-%20508%20Compliant.pdf",
       "platform": "other",
@@ -111,7 +131,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "energy.gov — dishwashers%20TP%20FR",
       "url": "https://www.energy.gov/sites/default/files/2022-12/dishwashers%20TP%20FR.pdf",
       "platform": "other",
@@ -129,7 +149,7 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
       "source_name": "consumerreports.org — most and least reliable dishwasher brands a5908829728",
       "url": "https://www.consumerreports.org/appliances/dishwashers/most-and-least-reliable-dishwasher-brands-a5908829728/",
       "platform": "other",
@@ -147,7 +167,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-010",
       "source_name": "energy.gov — dishwasher detergent dose fr",
       "url": "https://energy.gov/sites/default/files/2023-07/dishwasher-detergent-dose-fr.pdf",
       "platform": "other",
@@ -165,7 +185,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-011",
       "source_name": "yaleappliance.com — service",
       "url": "https://www.yaleappliance.com/service",
       "platform": "other",
@@ -183,7 +203,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-012",
       "source_name": "appliancejoy.blog — whirlpool kitchenaid same company different kitchens",
       "url": "https://appliancejoy.blog/whirlpool-kitchenaid-same-company-different-kitchens",
       "platform": "other",
@@ -201,7 +221,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-013",
       "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
       "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
       "platform": "other",
@@ -219,7 +239,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-014",
       "source_name": "kelownaappliancesrepair.ca — life expectancy of major dishwasher brands",
       "url": "https://kelownaappliancesrepair.ca/life-expectancy-of-major-dishwasher-brands/",
       "platform": "other",
@@ -237,7 +257,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-015",
       "source_name": "appliantology.org — 959 aftermarket parts vs genuine false economy or good deal",
       "url": "https://appliantology.org/blogs/entry/959-aftermarket-parts-vs-genuine-false-economy-or-good-deal/",
       "platform": "other",
@@ -255,7 +275,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-016",
       "source_name": "sisme.it — water movement motors",
       "url": "https://sisme.it/en/motors-for-home-appliances/water-movement-motors/",
       "platform": "other",
@@ -273,7 +293,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-017",
       "source_name": "blog.yaleappliance.com — the best bosch dishwashers ratings reviews prices",
       "url": "https://blog.yaleappliance.com/the-best-bosch-dishwashers-ratings-reviews-prices",
       "platform": "other",
@@ -291,7 +311,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-018",
       "source_name": "ecfr.gov — appendix Appendix%20C1%20to%20Subpart%20B%20of%20Part%20430",
       "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20C1%20to%20Subpart%20B%20of%20Part%20430",
       "platform": "other",
@@ -309,7 +329,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-019",
       "source_name": "aham.org — AHAM%20DW 1 2020%20(Energy",
       "url": "https://www.aham.org/DownloadableFiles/AHAM%20DW-1-2020%20(Energy",
       "platform": "other",
@@ -327,137 +347,138 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
-      "source_name": "elstandard.se — 1021101",
-      "url": "https://elstandard.se/documents/preview/1021101",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
       "id": "SRC-020",
-      "source_name": "nsf.org — dishwasher certification",
-      "url": "https://www.nsf.org/consumer-resources/articles/dishwasher-certification",
+      "source_name": "bestbuy.com — 6398729",
+      "url": "https://www.bestbuy.com/site/reviews/kitchenaid-24-top-control-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-fan-enabled-prodry-44-dba-stainless-steel/6398729",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-021",
-      "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
-      "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
+      "source_name": "houzz.com — kitchenaid 604 or bosch 500 dishwasher need to decide today",
+      "url": "https://www.houzz.com/discussions/6433682/kitchenaid-604-or-bosch-500-dishwasher-need-to-decide-today",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "blog.yaleappliance.com — most reliable dishwashers",
-      "url": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+      "source_name": "us-appliance.com — kdtm604kps",
+      "url": "https://www.us-appliance.com/kdtm604kps.html",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
-      "source_name": "coastappliances.ca — miele dishwasher review and analysis",
-      "url": "https://www.coastappliances.ca/blogs/learn/miele-dishwasher-review-and-analysis",
+      "source_name": "brayandscarff.com — kdtm604kps dishwasher product review",
+      "url": "https://www.brayandscarff.com/kdtm604kps-dishwasher-product-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on brayandscarff.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "dishwashertips.co.uk — what is a fixed hinge on a dishwasher",
-      "url": "https://dishwashertips.co.uk/blog/what-is-a-fixed-hinge-on-a-dishwasher/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=5H7aE_i7Xkw",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20004&Category=MADSTD",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=DjXfvdMY_jM",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "KitchenAid Premium (M-series) — Tier 2 product. Target score: 83/100.",
   "scoring_notes": {
-    "sources_scored": [],
-    "sources_report_only": [
+    "sources_scored": [
       "SRC-001",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
+    "sources_report_only": [
       "SRC-002",
       "SRC-003",
       "SRC-004",
@@ -475,27 +496,21 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-019"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 9,
-      "pool_A": 16,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_S": 10,
+      "pool_A": 9,
+      "pool_B": 4,
+      "pool_C": 2
     },
     "filter_summary": {
-      "raw": 121,
+      "raw": 129,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 9,
+        "mfr": 10,
         "always": 0,
         "bare": 2,
         "cap": 34

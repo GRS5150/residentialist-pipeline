@@ -222,6 +222,86 @@
     },
     {
       "id": "SRC-012",
+      "source_name": "uptownfloors.com",
+      "url": "https://www.uptownfloors.com/manufacturer-reviews/shaw.htm",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on uptownfloors.com."
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "houzz.com — i just read shaw floor through costco reviews omg now what",
+      "url": "https://www.houzz.com/discussions/4899997/i-just-read-shaw-floor-through-costco-reviews-omg-now-what",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Shaw-Baja-6-in-x-48-in-Utah-Repel-Waterproof-Vinyl-Plank-Flooring-23-64-sq-ft-case-HD81600251/207000904/1",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "floorcity.com — shaw laminate flooring everything you need to know before bu",
+      "url": "https://www.floorcity.com/blogs/flooring-expert/shaw-laminate-flooring-everything-you-need-to-know-before-buying",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-016",
       "source_name": "modernize.com — best brands",
       "url": "https://modernize.com/flooring/best-brands",
       "platform": "other",
@@ -240,7 +320,7 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
+      "id": "SRC-017",
       "source_name": "royalfloorsonline.com — best engineered hardwood flooring brands",
       "url": "https://royalfloorsonline.com/blogs/news/best-engineered-hardwood-flooring-brands",
       "platform": "other",
@@ -258,7 +338,7 @@
       "verified": false
     },
     {
-      "id": "SRC-014",
+      "id": "SRC-018",
       "source_name": "rejuvenationfd.com — best engineered wood flooring brands",
       "url": "https://www.rejuvenationfd.com/blog/best-engineered-wood-flooring-brands",
       "platform": "other",
@@ -276,7 +356,7 @@
       "verified": false
     },
     {
-      "id": "SRC-015",
+      "id": "SRC-019",
       "source_name": "woodandbeyond.com — 10 best real wood flooring in 2026",
       "url": "https://www.woodandbeyond.com/blog/10-best-real-wood-flooring-in-2026/",
       "platform": "other",
@@ -294,7 +374,7 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
+      "id": "SRC-020",
       "source_name": "dgfloors.com — best hardwood floor",
       "url": "https://dgfloors.com/best-hardwood-floor/",
       "platform": "other",
@@ -312,7 +392,7 @@
       "verified": false
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-021",
       "source_name": "hardwoodfloorsllc.com — top hardwood flooring brands and why we recommend them",
       "url": "https://www.hardwoodfloorsllc.com/blog/top-hardwood-flooring-brands-and-why-we-recommend-them/",
       "platform": "other",
@@ -330,7 +410,7 @@
       "verified": false
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-022",
       "source_name": "carpetexchange.com — best luxury vinyl flooring brands 2026",
       "url": "https://carpetexchange.com/flooring-school/best-luxury-vinyl-flooring-brands-2026",
       "platform": "other",
@@ -348,7 +428,7 @@
       "verified": false
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-023",
       "source_name": "floorzi.com — best hardwood flooring 2026",
       "url": "https://www.floorzi.com/best-hardwood-flooring-2026",
       "platform": "other",
@@ -366,7 +446,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-024",
       "source_name": "todayshomeowner.com — best hardwood floors",
       "url": "https://todayshomeowner.com/flooring/guides/best-hardwood-floors/",
       "platform": "other",
@@ -384,94 +464,24 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
-      "source_name": "garrisoncollection.com — how hardwood floors are made",
-      "url": "https://www.garrisoncollection.com/blog/how-hardwood-floors-are-made",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "bruce.com — how wood flooring is made from forest to lumber",
-      "url": "https://www.bruce.com/en-us/resources/how-wood-flooring-is-made-from-forest-to-lumber.html",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "agedwoods.com — hardwood flooring a brief history",
-      "url": "https://www.agedwoods.com/aged-woods-blog/hardwood-flooring-a-brief-history/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "builddirect.com — how is hardwood flooring made",
-      "url": "https://www.builddirect.com/blogs/expert-advice-on-flooring/how-is-hardwood-flooring-made",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
       "id": "SRC-025",
-      "source_name": "flooringamerica.com — how is hardwood flooring made",
-      "url": "https://www.flooringamerica.com/blog/how-is-hardwood-flooring-made",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=LqvBAR9-T10",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Shaw Repel White Oak (Engineered, 1/2\") — Tier 3 product. Target score: 64/100.",
@@ -486,14 +496,15 @@
       "SRC-008",
       "SRC-009",
       "SRC-010",
-      "SRC-011"
-    ],
-    "sources_report_only": [
-      "SRC-001",
+      "SRC-011",
       "SRC-012",
       "SRC-013",
       "SRC-014",
       "SRC-015",
+      "SRC-025"
+    ],
+    "sources_report_only": [
+      "SRC-001",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -502,15 +513,14 @@
       "SRC-021",
       "SRC-022",
       "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-024"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 0,
-      "pool_B": 24,
-      "pool_C": 0
+      "pool_B": 23,
+      "pool_C": 1
     },
     "filter_summary": {
       "raw": 57,

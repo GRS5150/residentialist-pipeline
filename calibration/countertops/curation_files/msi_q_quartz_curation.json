@@ -437,26 +437,28 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "marblesystems.com — top 10 types of kitchen countertops find out why everyones o",
-      "url": "https://www.marblesystems.com/top-10-types-of-kitchen-countertops-find-out-why-everyones-obsessed-with-5/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=azTsAQSzXJM",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
       "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=azTsAQSzXJM",
+      "url": "https://www.youtube.com/watch?v=cy4hgEeupQ8",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -486,6 +488,7 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
+      "SRC-024",
       "SRC-025"
     ],
     "sources_report_only": [
@@ -502,15 +505,14 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
       "pool_A": 6,
-      "pool_B": 16,
-      "pool_C": 1
+      "pool_B": 15,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 85,

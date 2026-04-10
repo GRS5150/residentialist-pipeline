@@ -204,96 +204,6 @@
     },
     {
       "id": "SRC-012",
-      "source_name": "docs.lib.purdue.edu — viewcontent",
-      "url": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2121&context=iracc",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-013",
-      "source_name": "cee1.org — tiers and energy star",
-      "url": "https://cee1.org/index.php/program-resources/tiers-and-energy-star/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "ashrae.org — standard 90.1 2022 fact sheet",
-      "url": "https://www.ashrae.org/file%20library/about/government%20affairs/advocacy%20toolkit/virtual%20packet/standard-90.1-2022-fact-sheet.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "acca.org — manual d",
-      "url": "https://www.acca.org/standards/technical-manuals/manual-d",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
-      "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "keyhvac.com — trane s best air conditioners",
       "url": "https://www.keyhvac.com/post/trane-s-best-air-conditioners",
       "platform": "other",
@@ -313,7 +223,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-013",
       "source_name": "munchsupply.com — 061824 Munch July TechTip Spine FinTW",
       "url": "https://www.munchsupply.com/media/assets/docs/061824_Munch_July_TechTip-Spine_FinTW.pdf",
       "platform": "other",
@@ -333,7 +243,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-014",
       "source_name": "elibrary.tranetechnologies.com — 18 HD80D1 6F EN 08102023",
       "url": "https://elibrary.tranetechnologies.com/public/residential-hvac/Literature/Installation/18-HD80D1-6F-EN_08102023.pdf",
       "platform": "other",
@@ -353,7 +263,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-015",
       "source_name": "tranesupply.com — 01t4w00000P1WtjAAF",
       "url": "https://www.tranesupply.com/product/01t4w00000P1WtjAAF",
       "platform": "other",
@@ -373,7 +283,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-016",
       "source_name": "americanstandardair.com — platinum 18 air conditioner",
       "url": "https://www.americanstandardair.com/products/air-conditioners/platinum-18-air-conditioner/",
       "platform": "other",
@@ -393,7 +303,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-017",
       "source_name": "achrnews.com — 87135 aluminum vs copper the great condensing coil debate",
       "url": "https://www.achrnews.com/articles/87135-aluminum-vs-copper-the-great-condensing-coil-debate",
       "platform": "other",
@@ -413,7 +323,7 @@
       "claim": "Comparison evaluating this product against competitors on achrnews.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-018",
       "source_name": "versus.com — american standard accucomfort platinum 17 4a6v7x24a vs trane",
       "url": "https://versus.com/en/american-standard-accucomfort-platinum-17-4a6v7x24a-vs-trane-xr15-4twr5018g1",
       "platform": "other",
@@ -433,7 +343,7 @@
       "claim": "Comparison evaluating this product against competitors on versus.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-019",
       "source_name": "logan-inc.com — aluminum coils vs copper coils your hvac system",
       "url": "https://www.logan-inc.com/blog/aluminum-coils-vs-copper-coils-your-hvac-system/",
       "platform": "other",
@@ -453,9 +363,109 @@
       "claim": "Comparison evaluating this product against competitors on logan-inc.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-020",
       "source_name": "facthvac.com — american standard and trane systems",
       "url": "https://facthvac.com/american-standard-and-trane-systems/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "support.tranehome.com — 360045765251 Trane Certified and Compatible Products",
+      "url": "https://support.tranehome.com/hc/en-us/articles/360045765251-Trane-Certified-and-Compatible-Products",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "missionac.com — xv20i vs xv18",
+      "url": "https://www.missionac.com/blog/xv20i-vs-xv18/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on missionac.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "prweb.com — prweb11687186",
+      "url": "https://www.prweb.com/releases/trane_aluminum_spine_fin_coils_the_cost_of_patented_performance_reduced_by_the_ach_year_long_2014_trane_hvac_deals/prweb11687186.htm",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "business.tylertexas.com — trane technologies trane 3748",
+      "url": "https://business.tylertexas.com/list/member/trane-technologies-trane-3748",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "compressorsunlimited.com — the background of the trane commercial compressor",
+      "url": "https://www.compressorsunlimited.com/the-background-of-the-trane-commercial-compressor/",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -477,6 +487,11 @@
   "scoring_notes": {
     "sources_scored": [
       "SRC-007",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
@@ -497,18 +512,13 @@
       "SRC-008",
       "SRC-009",
       "SRC-010",
-      "SRC-011",
-      "SRC-012",
-      "SRC-013",
-      "SRC-014",
-      "SRC-015",
-      "SRC-016"
+      "SRC-011"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 10,
-      "pool_B": 9,
+      "pool_A": 5,
+      "pool_B": 14,
       "pool_C": 0
     },
     "filter_summary": {

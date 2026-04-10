@@ -288,6 +288,106 @@
     },
     {
       "id": "SRC-016",
+      "source_name": "kitchenmagic.com — cambria",
+      "url": "https://www.kitchenmagic.com/kitchen-countertops/quartz/cambria",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "igscountertops.com — what is cambria quartz and why is it different",
+      "url": "https://www.igscountertops.com/what-is-cambria-quartz-and-why-is-it-different/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "marble-concepts.com — what makes cambria different from other quartz countertops",
+      "url": "https://marble-concepts.com/what-makes-cambria-different-from-other-quartz-countertops/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-019",
+      "source_name": "satile.com — cambria",
+      "url": "https://www.satile.com/blog/cambria",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "mnstoneworks.com — cambria quartz slabs vs generic quartz whats the real differ",
+      "url": "https://mnstoneworks.com/blog/cambria-quartz-slabs-vs-generic-quartz-whats-the-real-difference/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on mnstoneworks.com."
+    },
+    {
+      "id": "SRC-021",
       "source_name": "igscountertops.com — home depot cambria quartz countertops",
       "url": "https://www.igscountertops.com/home-depot-cambria-quartz-countertops/",
       "platform": "other",
@@ -307,7 +407,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-022",
       "source_name": "dreamhomeworks.com — cambria countertops",
       "url": "https://www.dreamhomeworks.com/countertops-remodeling/cambria-countertops/",
       "platform": "other",
@@ -327,7 +427,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-023",
       "source_name": "mallorynikolaus.com — cambria quartz countertops",
       "url": "https://mallorynikolaus.com/cambria-quartz-countertops/",
       "platform": "other",
@@ -347,7 +447,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-024",
       "source_name": "constructionresourcesusa.com — countertops 101 what kitchen countertop is best for you",
       "url": "https://www.constructionresourcesusa.com/countertops-101-what-kitchen-countertop-is-best-for-you/",
       "platform": "other",
@@ -365,7 +465,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-025",
       "source_name": "strongwood.com — choosing the best countertop material for your home or offic",
       "url": "https://strongwood.com/design/choosing-the-best-countertop-material-for-your-home-or-office/",
       "platform": "other",
@@ -381,97 +481,6 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "fabuwood.com — the ten best types of kitchen countertops",
-      "url": "https://www.fabuwood.com/blog/the-ten-best-types-of-kitchen-countertops",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "countertopsmart.com — the top 5 quartz countertop brands of 2024",
-      "url": "https://www.countertopsmart.com/blog/the-top-5-quartz-countertop-brands-of-2024",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q",
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "remodelrepublic.com — top countertop materials for every budget and style",
-      "url": "https://www.remodelrepublic.com/blog/top-countertop-materials-for-every-budget-and-style",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "standardcompanies.com — what is the most durable countertop material",
-      "url": "https://standardcompanies.com/what-is-the-most-durable-countertop-material/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "marblesystems.com — top 10 types of kitchen countertops find out why everyones o",
-      "url": "https://www.marblesystems.com/top-10-types-of-kitchen-countertops-find-out-why-everyones-obsessed-with-5/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
     }
   ],
   "bottom_line": "Family-owned (Davis family), single US factory Le Sueur MN. 93% quartz content. Highest manufacturing consistency — no multi-source variance. GREENGUARD Gold certified. Chipping class-action was pre-2020 formula. Fabricator consensus: best engineered quartz for consistency and quality. NSF 51 food contact certified.",
@@ -486,7 +495,12 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018"
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -497,11 +511,6 @@
       "SRC-007",
       "SRC-008",
       "SRC-009",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
       "SRC-024",
       "SRC-025"
     ],
@@ -513,14 +522,14 @@
       "pool_C": 0
     },
     "filter_summary": {
-      "raw": 86,
+      "raw": 99,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 0,
+        "mfr": 2,
         "always": 2,
         "bare": 0,
-        "cap": 2
+        "cap": 3
       }
     }
   },

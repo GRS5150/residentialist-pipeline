@@ -260,24 +260,6 @@
     },
     {
       "id": "SRC-015",
-      "source_name": "albertlee.biz — subzero refrigerator lifespan",
-      "url": "https://www.albertlee.biz/blog/subzero-refrigerator-lifespan",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
       "source_name": "powerhouseappliances.com — viking professional 5 series 42 in 253 cu ft stainless steel",
       "url": "https://www.powerhouseappliances.com/product/viking-professional-5-series-42-in-253-cu-ft-stainless-steel-built-in-side-by-side-refrigerator-vcsb5423c-554814?configurable_entity_id=629622&configured_entity_id=563941",
       "platform": "other",
@@ -297,7 +279,7 @@
       "claim": "Comparison evaluating this product against competitors on powerhouseappliances.com."
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-016",
       "source_name": "synergyhomeappliance.com — viking 5 series 48 in 291 cu ft cast black built in side by ",
       "url": "https://www.synergyhomeappliance.com/product/viking-5-series-48-in-291-cu-ft-cast-black-built-in-side-by-side-refrigerator-vcsb5484cs-1723444",
       "platform": "other",
@@ -317,7 +299,7 @@
       "claim": "Comparison evaluating this product against competitors on synergyhomeappliance.com."
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "cbdappliancesonline.com — viking 5 series 48 in 291 cu ft custom panel built in side b",
       "url": "https://www.cbdappliancesonline.com/product/viking-5-series-48-in-291-cu-ft-custom-panel-built-in-side-by-side-refrigerator-fdsb5484-1718038",
       "platform": "other",
@@ -337,7 +319,7 @@
       "claim": "Comparison evaluating this product against competitors on cbdappliancesonline.com."
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "bestappliance.biz — viking 5 series 2905 cu ft graphite gray built in side by si",
       "url": "https://www.bestappliance.biz/product/viking-5-series-2905-cu-ft-graphite-gray-built-in-side-by-side-refrigerator-vcsb5483gg-81230",
       "platform": "other",
@@ -357,7 +339,7 @@
       "claim": "Comparison evaluating this product against competitors on bestappliance.biz."
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "bestbuy.com — 6384107",
       "url": "https://www.bestbuy.com/site/reviews/viking-professional-5-series-27-built-in-single-electric-convection-oven-damascus-gray/6384107",
       "platform": "other",
@@ -377,7 +359,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "pcrichard.com — VGR5304BSS",
       "url": "https://www.pcrichard.com/viking-5-series-30-in-4-cu-ft-standard-convection-gas-range-with-4-sealed-burners-stainless-steel/VGR5304BSS.html",
       "platform": "other",
@@ -397,7 +379,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "fergusonhome.com — a27152",
       "url": "https://www.fergusonhome.com/viking-5-series-new-product-spotlight/a27152",
       "platform": "other",
@@ -417,7 +399,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "bestbuy.com — 6238630",
       "url": "https://www.bestbuy.com/site/reviews/viking-professional-5-series-26-5-built-in-single-electric-convection-wall-oven-stainless-steel/6238630",
       "platform": "other",
@@ -437,7 +419,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=9vUJm-B8hfA",
       "platform": "other",
@@ -457,7 +439,7 @@
       "claim": "Independent review of this product published on youtube.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=mEx08OTOIi4",
       "platform": "other",
@@ -475,11 +457,32 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "consumeraffairs.com — viking",
+      "url": "https://www.consumeraffairs.com/homeowners/viking.html",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
     }
   ],
   "bottom_line": "Viking 5 Series (FDRB5363) — Tier 4 product. Target score: 45/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-015",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -505,15 +508,14 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-015"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 9,
-      "pool_A": 6,
+      "pool_A": 5,
       "pool_B": 8,
-      "pool_C": 2
+      "pool_C": 3
     },
     "filter_summary": {
       "raw": 134,

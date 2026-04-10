@@ -346,117 +346,135 @@
     },
     {
       "id": "SRC-020",
-      "source_name": "homes.lbl.gov — capture efficiency of cooking related",
-      "url": "https://homes.lbl.gov/publications/capture-efficiency-of-cooking-related",
+      "source_name": "houzz.com — zephyr tempest ii or tidal ii range hood dual blower loud",
+      "url": "https://www.houzz.com/discussions/6128052/zephyr-tempest-ii-or-tidal-ii-range-hood-dual-blower-loud",
       "platform": "other",
-      "column": "expert",
+      "column": "forum",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P",
-        "MS"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
       "id": "SRC-021",
-      "source_name": "finehomebuilding.com — range exhaust",
-      "url": "https://www.finehomebuilding.com/2017/05/01/range-exhaust",
+      "source_name": "us-appliance.com — ak7536cs",
+      "url": "https://www.us-appliance.com/ak7536cs.html",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
-      "source_name": "codes.iccsafe.org — HVI9202020P1 Ch03 Sec3",
-      "url": "https://codes.iccsafe.org/s/HVI9202020P1/3-definitions/HVI9202020P1-Ch03-Sec3.10",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Zephyr-Tempest-II-42-in-650-CFM-Convertible-Wall-Mount-Range-Hood-with-LED-Light-in-Stainless-Steel-AK7542CS/316416583/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "indoor.lbl.gov — development standard capture",
-      "url": "https://indoor.lbl.gov/publications/development-standard-capture",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "cai-rmc.org — 13488807",
-      "url": "https://www.cai-rmc.org/Blog/13488807",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "nchh.org — new study finds ventilation significantly reduces indoor pol",
-      "url": "https://nchh.org/2022/04/new-study-finds-ventilation-significantly-reduces-indoor-pollutant-levels-and-adds-new-evidence-for-eliminating-gas-stoves/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Zephyr-Tempest-II-48-in-650-CFM-Convertible-Wall-Mount-Range-Hood-with-LED-Light-in-Stainless-Steel-AK7548CS/316416562/1",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "lowes.com — 5013464407",
+      "url": "https://www.lowes.com/pd/Zephyr-Tempest-II-30-in-650-CFM-Convertible-Stainless-Steel-Wall-Mounted-Range-Hood/5013464407",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=5xf-s6lrxqM",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Zephyr Tempest II — Tier 2 product. Target score: 82/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -476,30 +494,24 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-019"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 5,
-      "pool_A": 20,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 14,
+      "pool_B": 5,
+      "pool_C": 1
     },
     "filter_summary": {
-      "raw": 103,
+      "raw": 112,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 1,
-        "always": 0,
+        "mfr": 2,
+        "always": 1,
         "bare": 0,
-        "cap": 22
+        "cap": 23
       }
     }
   },

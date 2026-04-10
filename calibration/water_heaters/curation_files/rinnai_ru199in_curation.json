@@ -324,98 +324,6 @@
     },
     {
       "id": "SRC-018",
-      "source_name": "nachi.org — lifespan water heater",
-      "url": "https://www.nachi.org/lifespan-water-heater.htm",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "hotwatersafety.org — water heater heat traps do they work",
-      "url": "https://www.hotwatersafety.org/news/water-heater-heat-traps-do-they-work",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D",
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "conwayservices.net — common water heater repairs",
-      "url": "https://www.conwayservices.net/blog/common-water-heater-repairs",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "ees.lbl.gov — our environment hot water comparing water heaters life cycle",
-      "url": "https://ees.lbl.gov/publications/our-environment-hot-water-comparing-water-heaters-life-cycle-approach-comparing-tank-and-tankless-wa",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q",
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "cee1.org — 2025 cee performance requirements for hvac and water heaters",
-      "url": "https://cee1.org/index.php/news/details/2025-cee-performance-requirements-for-hvac-and-water-heaters-integrate-federal-and-utility-incentives-to-increase-adoption-of-high-performing-heat-pumps",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
       "source_name": "lowes.com — 5005381849",
       "url": "https://www.lowes.com/pd/Rinnai-Super-High-Efficiency-Plus-9-8-GPM-199000-BTU-Indoor-Natural-Gas-Tankless-Water-Heater/5005381849?user=shopping&feed=yes",
       "platform": "other",
@@ -435,7 +343,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-019",
       "source_name": "ebmpapst.com — motors",
       "url": "https://www.ebmpapst.com/us/en/products/motors.html",
       "platform": "other",
@@ -455,7 +363,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-020",
       "source_name": "jjmalkalinetech.com — tankless water heater condensate how to avoid common acidity",
       "url": "https://jjmalkalinetech.com/Resources/Blog/tankless-water-heater-condensate-how-to-avoid-common-acidity-problems",
       "platform": "other",
@@ -473,6 +381,106 @@
       "verified": false,
       "source_type": "other",
       "claim": ""
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "shinkamanagement.com — rinnai tour",
+      "url": "https://shinkamanagement.com/rinnai-tour/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "resideo.com — gas valves",
+      "url": "https://www.resideo.com/us/en/pro/products/gcs/gas-valves/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "ebmpapst.com",
+      "url": "https://www.ebmpapst.com/us/en/home.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "warnersstellian.com — rinnai ru199in",
+      "url": "https://www.warnersstellian.com/product/13008/rinnai-ru199in",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "avidratings.com — RU199iN",
+      "url": "https://www.avidratings.com/product-reviews/products/Rinnai/RU199iN",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "P"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on avidratings.com."
     }
   ],
   "bottom_line": "Rinnai RU199iN SENSEI Condensing Tankless — Tier 1 product. Target score: 93/100.",
@@ -485,6 +493,11 @@
       "SRC-010",
       "SRC-011",
       "SRC-012",
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
       "SRC-023",
       "SRC-024",
       "SRC-025"
@@ -499,18 +512,13 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022"
+      "SRC-017"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 7,
-      "pool_A": 15,
-      "pool_B": 3,
+      "pool_A": 10,
+      "pool_B": 8,
       "pool_C": 0
     },
     "filter_summary": {

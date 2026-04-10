@@ -223,61 +223,6 @@
     },
     {
       "id": "SRC-013",
-      "source_name": "epa.gov — sources combustion products",
-      "url": "https://www.epa.gov/indoor-air-quality-iaq/sources-combustion-products",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q",
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "epa.gov — afobroilereemreport2012draft",
-      "url": "https://www.epa.gov/sites/default/files/2016-06/documents/afobroilereemreport2012draft.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "www1.eere.energy.gov — house simulation",
-      "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/house_simulation.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "S",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
       "source_name": "cpsc.gov — Wolf Appliance Recalls Dual Fuel Ranges with Infrared Griddl",
       "url": "https://www.cpsc.gov/Recalls/2025/Wolf-Appliance-Recalls-Dual-Fuel-Ranges-with-Infrared-Griddles-Due-to-Burn-and-Fire-Hazards",
       "platform": "other",
@@ -297,7 +242,7 @@
       "claim": "Safety recall or notice involving this product on cpsc.gov."
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-014",
       "source_name": "blog.yaleappliance.com — are wolf professional ranges worth it",
       "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it",
       "platform": "other",
@@ -317,7 +262,7 @@
       "claim": "Independent review of this product published on blog.yaleappliance.com."
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-015",
       "source_name": "topclassactions.com — sub zero wolf class action alleges companies should disclose",
       "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/sub-zero-wolf-class-action-alleges-companies-should-disclose-gas-stove-pollutant-risk/",
       "platform": "other",
@@ -337,7 +282,7 @@
       "claim": "Legal action or class action filing related to this product on topclassactions.com."
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-016",
       "source_name": "finnegan.com — Incontestable Mar10 4",
       "url": "https://www.finnegan.com/files/Upload/Incontestable_Mar10_4.html",
       "platform": "other",
@@ -357,7 +302,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-017",
       "source_name": "classaction.org — garfinkle v wolf appliance",
       "url": "https://www.classaction.org/media/garfinkle-v-wolf-appliance.pdf",
       "platform": "other",
@@ -377,7 +322,7 @@
       "claim": "Legal action or class action filing related to this product on classaction.org."
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-018",
       "source_name": "classaction.org — sharp v wolf appliance inc 1",
       "url": "https://www.classaction.org/media/sharp-v-wolf-appliance-inc_1.pdf",
       "platform": "other",
@@ -397,7 +342,7 @@
       "claim": "Legal action or class action filing related to this product on classaction.org."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-019",
       "source_name": "plainsite.org — wolf appliance inc v viking range corp",
       "url": "https://www.plainsite.org/opinions/swuthrwk/wolf-appliance-inc-v-viking-range-corp/",
       "platform": "other",
@@ -417,7 +362,7 @@
       "claim": "Legal action or class action filing related to this product on plainsite.org."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-020",
       "source_name": "elizabethannehome.com — wolf kitchen range review",
       "url": "https://elizabethannehome.com/wolf-kitchen-range-review/",
       "platform": "other",
@@ -437,7 +382,7 @@
       "claim": "Independent review of this product published on elizabethannehome.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-021",
       "source_name": "friedmansappliance.com — wolf appliances",
       "url": "https://www.friedmansappliance.com/blog/wolf-appliances",
       "platform": "other",
@@ -457,7 +402,7 @@
       "claim": "Independent review of this product published on friedmansappliance.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-022",
       "source_name": "stoveshield.com — best wolf stoves 2025 buyers guide",
       "url": "https://stoveshield.com/stove-range-buying-guides/brand-specific-stove-reviews/best-wolf-stoves-2025-buyers-guide/",
       "platform": "other",
@@ -475,11 +420,74 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on stoveshield.com."
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "houzz.com — wolf ranges is it worth it honestly",
+      "url": "https://www.houzz.com/discussions/2525088/wolf-ranges-is-it-worth-it-honestly",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=y16w5GRVBTM",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=DlzOp2yXRFQ",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Wolf Pro-Style Gas Range — Tier Tier 1 product. Target score: 94/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -503,17 +511,14 @@
       "SRC-009",
       "SRC-010",
       "SRC-011",
-      "SRC-012",
-      "SRC-013",
-      "SRC-014",
-      "SRC-015"
+      "SRC-012"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
-      "pool_S": 15,
+      "pool_S": 12,
       "pool_A": 2,
-      "pool_B": 8,
-      "pool_C": 0
+      "pool_B": 9,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 222,

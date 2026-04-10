@@ -204,96 +204,6 @@
     },
     {
       "id": "SRC-012",
-      "source_name": "docs.lib.purdue.edu — viewcontent",
-      "url": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2121&context=iracc",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-013",
-      "source_name": "cee1.org — tiers and energy star",
-      "url": "https://cee1.org/index.php/program-resources/tiers-and-energy-star/",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "ashrae.org — standard 90.1 2022 fact sheet",
-      "url": "https://www.ashrae.org/file%20library/about/government%20affairs/advocacy%20toolkit/virtual%20packet/standard-90.1-2022-fact-sheet.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "acca.org — manual d",
-      "url": "https://www.acca.org/standards/technical-manuals/manual-d",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "blog.yaleappliance.com — the least serviced most reliable appliance brands",
-      "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "shareddocs.com — 24VNA9 09PD",
       "url": "https://www.shareddocs.com/hvac/docs/1009/Public/00/24VNA9-09PD.pdf",
       "platform": "other",
@@ -313,7 +223,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-013",
       "source_name": "ecobee.com — thermostat",
       "url": "https://www.ecobee.com/en-us/compatibility/thermostat/",
       "platform": "other",
@@ -333,7 +243,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-014",
       "source_name": "scribd.com — 24VNA9",
       "url": "https://www.scribd.com/document/843133418/24VNA9",
       "platform": "other",
@@ -353,7 +263,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-015",
       "source_name": "encompass.com — CAR24VNA936A0030050",
       "url": "https://encompass.com/model/CAR24VNA936A0030050",
       "platform": "other",
@@ -373,7 +283,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-016",
       "source_name": "shareddocs.com — 24VNA6 02PD",
       "url": "https://www.shareddocs.com/hvac/docs/1009/Public/0F/24VNA6-02PD.pdf",
       "platform": "other",
@@ -393,7 +303,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-017",
       "source_name": "rahnindustries.com — aluminum tube vs copper tube coils",
       "url": "https://rahnindustries.com/2021/10/15/aluminum-tube-vs-copper-tube-coils/",
       "platform": "other",
@@ -413,7 +323,7 @@
       "claim": "Comparison evaluating this product against competitors on rahnindustries.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-018",
       "source_name": "bryant.com — evolution system",
       "url": "https://www.bryant.com/en/us/before-you-buy/evolution-system/",
       "platform": "other",
@@ -433,7 +343,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-019",
       "source_name": "copelandscrollcompressor.com — copeland digital compressor series",
       "url": "https://copelandscrollcompressor.com/copeland-digital-compressor-series.php",
       "platform": "other",
@@ -453,9 +363,109 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-020",
       "source_name": "widgets.colliervillechamber.com — Carrier Corporation",
       "url": "https://widgets.colliervillechamber.com/feeds/directory/directory/action/Listing/value/4687/cid/1637/id/201/Carrier-Corporation",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "bryant.com — air conditioners",
+      "url": "https://www.bryant.com/en/us/products/air-conditioners/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "lg.com — the differences between scroll rotary compressor",
+      "url": "https://www.lg.com/global/business/insights/compressor-motor/blog/the-differences-between-scroll-rotary-compressor/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "refricompressor.com — scroll rotary compressor",
+      "url": "https://refricompressor.com/scroll-rotary-compressor/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "patents.google.com",
+      "url": "https://patents.google.com/patent/US11519670B2/en",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "malekservice.com — wifi thermostat compatible with carrier infinity",
+      "url": "https://malekservice.com/wifi-thermostat-compatible-with-carrier-infinity/",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -477,6 +487,11 @@
   "scoring_notes": {
     "sources_scored": [
       "SRC-007",
+      "SRC-012",
+      "SRC-013",
+      "SRC-014",
+      "SRC-015",
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
@@ -497,18 +512,13 @@
       "SRC-008",
       "SRC-009",
       "SRC-010",
-      "SRC-011",
-      "SRC-012",
-      "SRC-013",
-      "SRC-014",
-      "SRC-015",
-      "SRC-016"
+      "SRC-011"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
-      "pool_A": 10,
-      "pool_B": 9,
+      "pool_A": 5,
+      "pool_B": 14,
       "pool_C": 0
     },
     "filter_summary": {

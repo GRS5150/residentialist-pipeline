@@ -348,6 +348,46 @@
     },
     {
       "id": "SRC-019",
+      "source_name": "daviemactile.com — dekton tiles",
+      "url": "https://daviemactile.com/dekton-tiles",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "houzz.com — dekton scam dekton super fragile on the edges",
+      "url": "https://www.houzz.com/discussions/6348108/dekton-scam-dekton-super-fragile-on-the-edges",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-021",
       "source_name": "constructionresourcesusa.com — countertops 101 what kitchen countertop is best for you",
       "url": "https://www.constructionresourcesusa.com/countertops-101-what-kitchen-countertop-is-best-for-you/",
       "platform": "other",
@@ -365,7 +405,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-022",
       "source_name": "strongwood.com — choosing the best countertop material for your home or offic",
       "url": "https://strongwood.com/design/choosing-the-best-countertop-material-for-your-home-or-office/",
       "platform": "other",
@@ -383,7 +423,7 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-023",
       "source_name": "fabuwood.com — the ten best types of kitchen countertops",
       "url": "https://www.fabuwood.com/blog/the-ten-best-types-of-kitchen-countertops",
       "platform": "other",
@@ -401,77 +441,44 @@
       "verified": false
     },
     {
-      "id": "SRC-022",
-      "source_name": "countertopsmart.com — the top 5 quartz countertop brands of 2024",
-      "url": "https://www.countertopsmart.com/blog/the-top-5-quartz-countertop-brands-of-2024",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q",
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "remodelrepublic.com — top countertop materials for every budget and style",
-      "url": "https://www.remodelrepublic.com/blog/top-countertop-materials-for-every-budget-and-style",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
       "id": "SRC-024",
-      "source_name": "standardcompanies.com — what is the most durable countertop material",
-      "url": "https://standardcompanies.com/what-is-the-most-durable-countertop-material/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=LRNi9EogWwY",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "marblesystems.com — top 10 types of kitchen countertops find out why everyones o",
-      "url": "https://www.marblesystems.com/top-10-types-of-kitchen-countertops-find-out-why-everyones-obsessed-with-5/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=T3F7K4ghGBc",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Sintered stone — glass, porcelain, quartz at 25,000°C+ and extreme pressure. Near-zero porosity. Top heat resistance (500°F+), UV stable, scratch resistant. No resins = no off-gassing. Lifetime residential warranty. Field cracking reports near cooktops need further investigation. Cosentino (Spain) — global manufacturer.",
@@ -486,7 +493,11 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018"
+      "SRC-018",
+      "SRC-019",
+      "SRC-020",
+      "SRC-024",
+      "SRC-025"
     ],
     "sources_report_only": [
       "SRC-002",
@@ -497,20 +508,16 @@
       "SRC-007",
       "SRC-008",
       "SRC-009",
-      "SRC-019",
-      "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
       "pool_A": 6,
-      "pool_B": 16,
-      "pool_C": 0
+      "pool_B": 14,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 90,

@@ -328,6 +328,66 @@
     },
     {
       "id": "SRC-019",
+      "source_name": "fireandairaz.com — lennox variable speed air conditioner review after using",
+      "url": "https://fireandairaz.com/lennox-variable-speed-air-conditioner-review-after-using/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on fireandairaz.com."
+    },
+    {
+      "id": "SRC-020",
+      "source_name": "marshheating.com — all you need to know about the lennox sl28xcv air conditione",
+      "url": "https://marshheating.com/all-you-need-to-know-about-the-lennox-sl28xcv-air-conditioner/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "hometsair.com — lennox",
+      "url": "https://hometsair.com/best-hvac-brands/lennox",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-022",
       "source_name": "jupitairhvac.com — best ac brands 2026",
       "url": "https://jupitairhvac.com/blog/best-ac-brands-2026/",
       "platform": "other",
@@ -345,7 +405,7 @@
       "verified": false
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-023",
       "source_name": "modernize.com — best air conditioner brands",
       "url": "https://modernize.com/hvac/best-air-conditioner-brands",
       "platform": "other",
@@ -363,99 +423,55 @@
       "verified": false
     },
     {
-      "id": "SRC-021",
-      "source_name": "heatandcool.com — best hvac brands",
-      "url": "https://heatandcool.com/blogs/news/best-hvac-brands",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "tcomfort.com — best air conditioner brands in 2026",
-      "url": "https://tcomfort.com/blog/best-air-conditioner-brands-in-2026/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "chill-services.com — best air conditioner brands",
-      "url": "https://chill-services.com/blog/best-air-conditioner-brands",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
       "id": "SRC-024",
-      "source_name": "rinaldis.com — best ac unit brands 2026 homeowner reviews ratings",
-      "url": "https://rinaldis.com/blog/best-ac-unit-brands-2026-homeowner-reviews-ratings",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=l7F5O3M7fAA",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "menatworkacrepair.com — best worst air conditioner brands guide",
-      "url": "https://menatworkacrepair.com/best-worst-air-conditioner-brands-guide/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=ixQiuWO4wnY",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Lennox SL28XCV (Variable-Speed) — Tier Tier 2 product. Target score: 82/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -475,28 +491,23 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 6,
       "pool_A": 12,
-      "pool_B": 7,
-      "pool_C": 0
+      "pool_B": 5,
+      "pool_C": 2
     },
     "filter_summary": {
-      "raw": 67,
+      "raw": 74,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 0,
-        "always": 0,
+        "mfr": 1,
+        "always": 1,
         "bare": 0,
         "cap": 7
       }

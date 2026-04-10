@@ -258,24 +258,6 @@
     },
     {
       "id": "SRC-015",
-      "source_name": "osti.gov — product.biblio",
-      "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
       "source_name": "aaappliancecenter.com — cafe 30 inch 5 cuft built in single wall oven with wi fi con",
       "url": "https://aaappliancecenter.com/products/cafe-30-inch-5-cuft-built-in-single-wall-oven-with-wi-fi-connect-cts90dp2ns1",
       "platform": "other",
@@ -295,7 +277,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-016",
       "source_name": "pcrichard.com — CTD90FP2NS1",
       "url": "https://www.pcrichard.com/cafe-professional-series-30-in-10-cu-ft-smart-top-control-electric-double-wall-oven-with-true-european-convection-stainless-steel/CTD90FP2NS1.html",
       "platform": "other",
@@ -315,7 +297,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "abcwarehouse.com — cafe ctd90fp3nd1",
       "url": "https://www.abcwarehouse.com/cafe-ctd90fp3nd1",
       "platform": "other",
@@ -335,7 +317,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "txappliance.com — caf professional series 30 stainless steel double electric w",
       "url": "https://www.txappliance.com/product/caf-professional-series-30-stainless-steel-double-electric-wall-oven-ctd90fp-229758?configurable_entity_id=268252&configured_entity_id=470900",
       "platform": "other",
@@ -355,7 +337,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "townappliance.com — cafe ctd90fp2ns1 double wall electric oven",
       "url": "https://www.townappliance.com/products/cafe-ctd90fp2ns1-double-wall-electric-oven",
       "platform": "other",
@@ -375,7 +357,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "jennaye.com — cafe appliances review",
       "url": "https://www.jennaye.com/blog/cafe-appliances-review",
       "platform": "other",
@@ -395,7 +377,7 @@
       "claim": "Independent review of this product published on jennaye.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "roomfortuesday.com — an honest review of the ge cafe range",
       "url": "https://roomfortuesday.com/an-honest-review-of-the-ge-cafe-range/",
       "platform": "other",
@@ -415,7 +397,7 @@
       "claim": "Independent review of this product published on roomfortuesday.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "colorandchic.com — my honest review on the new luxury ge cafe appliances refrig",
       "url": "https://colorandchic.com/my-honest-review-on-the-new-luxury-ge-cafe-appliances-refrigerator/",
       "platform": "other",
@@ -435,7 +417,7 @@
       "claim": "Independent review of this product published on colorandchic.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "tarynnewton.com — our cafe appliances review",
       "url": "https://tarynnewton.com/our-cafe-appliances-review/",
       "platform": "other",
@@ -455,7 +437,7 @@
       "claim": "Independent review of this product published on tarynnewton.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "homedepot.com",
       "url": "https://www.homedepot.com/p/reviews/Cafe-27-8-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Convertible-Middle-Drawer-in-Matte-White-Autofill-Dispenser-CVE28DP4NW2/311204775/1",
       "platform": "other",
@@ -473,11 +455,32 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on homedepot.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "houzz.com — absolutely regret buying ge cafe save yourself the headache",
+      "url": "https://www.houzz.com/discussions/6494662/absolutely-regret-buying-ge-cafe-save-yourself-the-headache",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     }
   ],
   "bottom_line": "GE Café — Tier 3 product. Target score: 65/100.",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-015",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -503,14 +506,13 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-015"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 4,
-      "pool_A": 11,
-      "pool_B": 10,
+      "pool_A": 10,
+      "pool_B": 11,
       "pool_C": 0
     },
     "filter_summary": {

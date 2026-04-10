@@ -328,134 +328,156 @@
     },
     {
       "id": "SRC-019",
-      "source_name": "elstandard.se — 1021101",
-      "url": "https://elstandard.se/documents/preview/1021101",
+      "source_name": "bestbuy.com — 6543004",
+      "url": "https://www.bestbuy.com/site/reviews/bosch-300-series-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-46-dba-white/6543004",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-020",
-      "source_name": "nsf.org — dishwasher certification",
-      "url": "https://www.nsf.org/consumer-resources/articles/dishwasher-certification",
+      "source_name": "eastcoastappliance.com — bosch 300 series dishwasher",
+      "url": "https://www.eastcoastappliance.com/blog/bosch-300-series-dishwasher",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
-      "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
-      "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
+      "source_name": "reviewed.com — bosch dishwashers 2017 300 series shxm63ws5n all new third r",
+      "url": "https://www.reviewed.com/dishwashers/content/bosch-dishwashers-2017-300-series-shxm63ws5n-all-new-third-racks-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "P"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on reviewed.com."
     },
     {
       "id": "SRC-022",
-      "source_name": "blog.yaleappliance.com — most reliable dishwashers",
-      "url": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+      "source_name": "reviewed.com — bosch she53c85n 300 series dishwasher review",
+      "url": "https://www.reviewed.com/dishwashers/content/bosch-she53c85n-300-series-dishwasher-review",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
-        "D"
+        "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on reviewed.com."
     },
     {
       "id": "SRC-023",
-      "source_name": "coastappliances.ca — miele dishwasher review and analysis",
-      "url": "https://www.coastappliances.ca/blogs/learn/miele-dishwasher-review-and-analysis",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Bosch-300-Series-24-in-Stainless-Steel-Front-Control-Tall-Tub-Quiet-46-dBA-Dishwasher-with-Stainless-Steel-Tub-and-3rd-Rack-SHE53C85N/325602590/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     },
     {
       "id": "SRC-024",
-      "source_name": "dishwashertips.co.uk — what is a fixed hinge on a dishwasher",
-      "url": "https://dishwashertips.co.uk/blog/what-is-a-fixed-hinge-on-a-dishwasher/",
+      "source_name": "homedepot.com",
+      "url": "https://www.homedepot.com/p/reviews/Bosch-300-Series-18-in-Stainless-Steel-Front-Control-Smart-Built-In-Quiet-46-dBA-Dishwasher-with-3rd-Rack-SPE53C55UC/329025433/1",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20004&Category=MADSTD",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=uYZ2ja10lgU",
       "platform": "other",
-      "column": "expert",
+      "column": "review",
       "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Bosch 300 Series — Tier 3 product. Target score: 70/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-019",
+      "SRC-020",
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -474,31 +496,24 @@
       "SRC-015",
       "SRC-016",
       "SRC-017",
-      "SRC-018",
-      "SRC-019",
-      "SRC-020",
-      "SRC-021",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-018"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 9,
-      "pool_A": 16,
-      "pool_B": 0,
-      "pool_C": 0
+      "pool_A": 9,
+      "pool_B": 6,
+      "pool_C": 1
     },
     "filter_summary": {
-      "raw": 121,
+      "raw": 129,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
         "mfr": 3,
         "always": 0,
         "bare": 2,
-        "cap": 38
+        "cap": 39
       }
     }
   },

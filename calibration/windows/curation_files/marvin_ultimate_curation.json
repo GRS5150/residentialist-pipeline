@@ -40,6 +40,26 @@
     },
     {
       "id": "SRC-003",
+      "source_name": "dekalbcountyga.gov — 2066%20North%20Ponce%20de%20Leon%20Ave%20(August%20supplemen",
+      "url": "https://www.dekalbcountyga.gov/sites/default/files/2023-08/2066%20North%20Ponce%20de%20Leon%20Ave%20(August%20supplement).pdf",
+      "platform": "other",
+      "column": "expert",
+      "snippet": "",
+      "pool": "A",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-004",
       "source_name": "efficientwindows.org — window ratings",
       "url": "https://efficientwindows.org/window-ratings/",
       "platform": "other",
@@ -58,7 +78,7 @@
       "verified": false
     },
     {
-      "id": "SRC-004",
+      "id": "SRC-005",
       "source_name": "youramericanhome.net — average window size standard dimensions",
       "url": "https://youramericanhome.net/average-window-size-standard-dimensions/",
       "platform": "other",
@@ -77,7 +97,7 @@
       "verified": false
     },
     {
-      "id": "SRC-005",
+      "id": "SRC-006",
       "source_name": "basc.pnnl.gov — window performance grades and installation details multifami",
       "url": "https://basc.pnnl.gov/resource-guides/window-performance-grades-and-installation-details-multifamily-buildings",
       "platform": "other",
@@ -95,7 +115,7 @@
       "verified": false
     },
     {
-      "id": "SRC-006",
+      "id": "SRC-007",
       "source_name": "nps.gov — windows evaluating",
       "url": "https://www.nps.gov/subjects/taxincentives/windows-evaluating.htm",
       "platform": "other",
@@ -113,7 +133,7 @@
       "verified": false
     },
     {
-      "id": "SRC-007",
+      "id": "SRC-008",
       "source_name": "hud.gov — NSPIRE Standards v2.1 Window",
       "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standards-v2.1-Window.pdf",
       "platform": "other",
@@ -131,7 +151,207 @@
       "verified": false
     },
     {
-      "id": "SRC-008",
+      "id": "SRC-009",
+      "source_name": "hwconstruction.com — Marvin%20Windows%20Ultimate%20Double%20Hung%20Brochure",
+      "url": "https://www.hwconstruction.com/hubfs/Website%20(DO%20NOT%20DELETE)/Exterior/windows/Marvin/Brochures/Marvin%20Windows%20Ultimate%20Double%20Hung%20Brochure.pdf",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
+    },
+    {
+      "id": "SRC-010",
+      "source_name": "wdshowplace.com — Signature Ultimate Modern Owners manual",
+      "url": "https://www.wdshowplace.com/hubfs/resource_literature/Signature-Ultimate-Modern-Owners-manual.pdf?hsLang=en",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-011",
+      "source_name": "houzz.com — marvin ultimate double hung are a huge disappointment see pi",
+      "url": "https://www.houzz.com/discussions/2631079/marvin-ultimate-double-hung-are-a-huge-disappointment-see-pics",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
+    },
+    {
+      "id": "SRC-012",
+      "source_name": "brennancorp.com — marvin ultimate collection review",
+      "url": "https://brennancorp.com/blog/marvin-ultimate-collection-review/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on brennancorp.com."
+    },
+    {
+      "id": "SRC-013",
+      "source_name": "oldhouseguy.com — marvin window reviews",
+      "url": "https://www.oldhouseguy.com/marvin-window-reviews/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on oldhouseguy.com."
+    },
+    {
+      "id": "SRC-014",
+      "source_name": "buildshownetwork.com — marvins next generation ultimate double hung window review",
+      "url": "https://buildshownetwork.com/contents/marvins-next-generation-ultimate-double-hung-window-review",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on buildshownetwork.com."
+    },
+    {
+      "id": "SRC-015",
+      "source_name": "ringsend.com — marvin modern ultimate review",
+      "url": "https://www.ringsend.com/blog/post/marvin-modern-ultimate-review",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on ringsend.com."
+    },
+    {
+      "id": "SRC-016",
+      "source_name": "thewindowdog.com — marvin infinity reviews",
+      "url": "https://thewindowdog.com/marvin-infinity-reviews/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on thewindowdog.com."
+    },
+    {
+      "id": "SRC-017",
+      "source_name": "buildshownetwork.com — marvins next generation ultimate double hung window review",
+      "url": "https://buildshownetwork.com/blogs/marvins-next-generation-ultimate-double-hung-window-review?page=419",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on buildshownetwork.com."
+    },
+    {
+      "id": "SRC-018",
+      "source_name": "replacementwindowsreviews.co — marvin windows reviews",
+      "url": "https://www.replacementwindowsreviews.co/company/marvin-windows-reviews.html",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on replacementwindowsreviews.co."
+    },
+    {
+      "id": "SRC-019",
       "source_name": "roofershome.com — understanding window ratings what to look for in energy effi",
       "url": "https://www.roofershome.com/blog/understanding-window-ratings-what-to-look-for-in-energy-efficiency",
       "platform": "other",
@@ -149,7 +369,7 @@
       "verified": false
     },
     {
-      "id": "SRC-009",
+      "id": "SRC-020",
       "source_name": "ecoviewdfw.com — why skilled window installation is important",
       "url": "https://www.ecoviewdfw.com/why-skilled-window-installation-is-important",
       "platform": "other",
@@ -167,7 +387,7 @@
       "verified": false
     },
     {
-      "id": "SRC-010",
+      "id": "SRC-021",
       "source_name": "jpexteriorstx.com — why new construction windows over the last 20 years are low ",
       "url": "https://www.jpexteriorstx.com/blog/p.241127000/why-new-construction-windows-over-the-last-20-years-are-low-quality/",
       "platform": "other",
@@ -186,7 +406,7 @@
       "verified": false
     },
     {
-      "id": "SRC-011",
+      "id": "SRC-022",
       "source_name": "keystonewindow.com — standard window sizes guide",
       "url": "https://www.keystonewindow.com/standard-window-sizes-guide/",
       "platform": "other",
@@ -204,7 +424,7 @@
       "verified": false
     },
     {
-      "id": "SRC-012",
+      "id": "SRC-023",
       "source_name": "alumastergroup.com — ultimate guide to average window size",
       "url": "https://alumastergroup.com/blog/ultimate-guide-to-average-window-size",
       "platform": "other",
@@ -222,252 +442,50 @@
       "verified": false
     },
     {
-      "id": "SRC-013",
-      "source_name": "modernize.com — types",
-      "url": "https://modernize.com/windows/types",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-014",
-      "source_name": "reconroof.com — best window brands",
-      "url": "https://reconroof.com/blog/best-window-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-015",
-      "source_name": "modernize.com — brands",
-      "url": "https://modernize.com/windows/brands",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "replacementwindowdiscussions.com — sierra pacific vs loewen windows your pick",
-      "url": "https://www.replacementwindowdiscussions.com/community/other-window-brands/sierra-pacific-vs-loewen-windows-your-pick/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "thewindowexperts.com — best window brands",
-      "url": "https://thewindowexperts.com/best-window-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "builderbrigade.com — which window brands are the best",
-      "url": "https://builderbrigade.com/blogs/learn/which-window-brands-are-the-best",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "hpef.us — 19th century",
-      "url": "https://www.hpef.us/historic-windows/windows-through-time/19th-century",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "wisconsinhistory.org — CS4301",
-      "url": "https://www.wisconsinhistory.org/Records/Article/CS4301",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "slcdocs.com",
-      "url": "http://www.slcdocs.com/historicpreservation/guideres/ch3.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-022",
-      "source_name": "traditionalbuilding.com — windows home",
-      "url": "https://www.traditionalbuilding.com/opinions/windows-home",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "preservationdallas.org — Washington DC Windows and Doors",
-      "url": "https://preservationdallas.org/wp-content/uploads/2020/09/Washington-DC-Windows_and_Doors.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
       "id": "SRC-024",
-      "source_name": "casabellawindows.ca — windows through the ages exploring the evolution of window d",
-      "url": "https://casabellawindows.ca/windows-through-the-ages-exploring-the-evolution-of-window-design/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=EWXfULD6_DY",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "miwindows.com — architectural and design styles",
-      "url": "https://miwindows.com/blog/architectural-and-design-styles",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=TfR8riYOkbI",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Ultrex pultruded fiberglass exterior (8x stronger than vinyl, 87% less thermal expansion). Wood interior (VG Douglas fir available). Cardinal LoE coatings. AmesburyTruth hardware. Single-factory Warroad MN. Matt Risinger and pro installer consensus: top overall. CR highest rated.",
   "scoring_notes": {
-    "sources_scored": [],
-    "sources_report_only": [
-      "SRC-001",
-      "SRC-002",
+    "sources_scored": [
       "SRC-003",
-      "SRC-004",
-      "SRC-005",
-      "SRC-006",
-      "SRC-007",
-      "SRC-008",
       "SRC-009",
       "SRC-010",
       "SRC-011",
@@ -478,27 +496,36 @@
       "SRC-016",
       "SRC-017",
       "SRC-018",
+      "SRC-024",
+      "SRC-025"
+    ],
+    "sources_report_only": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "SRC-007",
+      "SRC-008",
       "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 2,
-      "pool_A": 5,
-      "pool_B": 18,
-      "pool_C": 0
+      "pool_A": 6,
+      "pool_B": 15,
+      "pool_C": 2
     },
     "filter_summary": {
-      "raw": 72,
+      "raw": 92,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 0,
+        "mfr": 7,
         "always": 0,
         "bare": 2,
         "cap": 0

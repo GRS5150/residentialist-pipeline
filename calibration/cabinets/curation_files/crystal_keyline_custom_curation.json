@@ -256,24 +256,6 @@
     },
     {
       "id": "SRC-015",
-      "source_name": "ssfca.gov — kitchen and bathroom general remodeling requirements 22",
-      "url": "https://www.ssfca.gov/files/assets/public/v/1/economic-amp-community-development/documents/kitchen-and-bathroom-general-remodeling-requirements_22.pdf",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
       "source_name": "mychemicalfreehouse.net — crystal cabinets firsthand review non sponsored",
       "url": "https://www.mychemicalfreehouse.net/2024/07/crystal-cabinets-firsthand-review-non-sponsored.html",
       "platform": "other",
@@ -293,7 +275,7 @@
       "claim": "Independent review of this product published on mychemicalfreehouse.net."
     },
     {
-      "id": "SRC-017",
+      "id": "SRC-016",
       "source_name": "rbscorp.com — CrystalPremiumCustom Brochure 2024",
       "url": "https://www.rbscorp.com/wp-content/uploads/2024/10/CrystalPremiumCustom-Brochure-2024.pdf",
       "platform": "other",
@@ -313,7 +295,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "westernproducts.com — Keyline EncoreBrochureweb",
       "url": "https://www.westernproducts.com/wp-content/uploads/2019/11/Keyline-EncoreBrochureweb.pdf",
       "platform": "other",
@@ -333,7 +315,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "resources.finalsite.net — 2016 2017ExpenditureReport",
       "url": "https://resources.finalsite.net/images/v1651790050/d25k12idus/pwzsyeu0jcfnczx17au6/2016-2017ExpenditureReport.pdf",
       "platform": "other",
@@ -353,7 +335,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "progress-builders.com — crystal cabinets",
       "url": "https://progress-builders.com/2017/04/30/crystal-cabinets/",
       "platform": "other",
@@ -373,7 +355,7 @@
       "claim": "Independent review of this product published on progress-builders.com."
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "houzz.com — crystal cabinets pfvwus pf~2046878862",
       "url": "https://www.houzz.com/professionals/cabinets-and-cabinetry/crystal-cabinets-pfvwus-pf~2046878862",
       "platform": "other",
@@ -393,7 +375,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "westernproducts.com — crystal difference",
       "url": "https://www.westernproducts.com/cabinets/crystal-difference/",
       "platform": "other",
@@ -413,7 +395,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "houzz.com — crystal cabinets",
       "url": "https://www.houzz.com/discussions/2697144/crystal-cabinets",
       "platform": "other",
@@ -433,7 +415,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "bogleheads.org — viewtopic",
       "url": "https://www.bogleheads.org/forum/viewtopic.php?t=430903",
       "platform": "other",
@@ -453,7 +435,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on bogleheads.org."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "mtkc.net — crystal cabinets packaging review and unboxing",
       "url": "https://mtkc.net/crystal-cabinets-packaging-review-and-unboxing/",
       "platform": "other",
@@ -471,11 +453,32 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on mtkc.net."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "reviews.birdeye.com — crystal cabinet works 148994989194680",
+      "url": "https://reviews.birdeye.com/crystal-cabinet-works-148994989194680",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "historical",
+      "claim": ""
     }
   ],
   "bottom_line": "Minnesota custom shop. All 3/4\" plywood construction. Solid hardwood dovetail drawer boxes. Catalyzed conversion varnish finish. Blum hinges (165K cycles) and TANDEM slides (100K cycles, 130 lb). Single-source manufacturing. KCMA certified. Rutt/Plain & Fancy tier per Main Line Kitchen Design ratings (A quality).",
   "scoring_notes": {
     "sources_scored": [
+      "SRC-015",
       "SRC-016",
       "SRC-017",
       "SRC-018",
@@ -501,14 +504,13 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-015"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
-      "pool_A": 12,
-      "pool_B": 10,
+      "pool_A": 11,
+      "pool_B": 11,
       "pool_C": 0
     },
     "filter_summary": {

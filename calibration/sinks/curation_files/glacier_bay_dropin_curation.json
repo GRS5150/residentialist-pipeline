@@ -419,44 +419,51 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "dali-technology.com — what are the quality inspection steps for kitchen sinks ",
-      "url": "https://www.dali-technology.com/news/blog/what_are_the_quality_inspection_steps_for_kitchen_sinks_.html",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=xX3LBn_H6kk",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
-      "source_name": "mymortuarycooler.com — the complete guide to comparing laboratory sink cabinets",
-      "url": "https://www.mymortuarycooler.com/blogs/news/the-complete-guide-to-comparing-laboratory-sink-cabinets",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=2GM_az8bJvk",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     }
   ],
   "bottom_line": "Glacier Bay All-in-One Drop-In Stainless (VT3322A08) — Tier 4 product. Target score: 45/100.",
   "scoring_notes": {
-    "sources_scored": [],
+    "sources_scored": [
+      "SRC-024",
+      "SRC-025"
+    ],
     "sources_report_only": [
       "SRC-001",
       "SRC-002",
@@ -480,23 +487,21 @@
       "SRC-020",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024",
-      "SRC-025"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 1,
       "pool_A": 13,
-      "pool_B": 11,
-      "pool_C": 0
+      "pool_B": 9,
+      "pool_C": 2
     },
     "filter_summary": {
-      "raw": 71,
+      "raw": 79,
       "after_filter": 25,
       "capped": 25,
       "dropped": {
-        "mfr": 1,
+        "mfr": 7,
         "always": 0,
         "bare": 0,
         "cap": 7

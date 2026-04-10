@@ -260,42 +260,6 @@
     },
     {
       "id": "SRC-015",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20022&Category=MADSTD&WebsiteKey=e77c44a3-68e2-480f-81b4-8c09990da1b9",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "osti.gov — product.biblio",
-      "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "houzz.com — reliability of jenn air appliances or what brand should i ge",
       "url": "https://www.houzz.com/discussions/2274894/reliability-of-jenn-air-appliances-or-what-brand-should-i-get",
       "platform": "other",
@@ -315,7 +279,7 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-016",
       "source_name": "donsappliances.com — jenn air convection oven reviews",
       "url": "https://www.donsappliances.com/blog/jenn-air-convection-oven-reviews",
       "platform": "other",
@@ -335,7 +299,7 @@
       "claim": "Independent review of this product published on donsappliances.com."
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-017",
       "source_name": "townappliance.com — bosch vs jennair appliances which one do you find more suita",
       "url": "https://www.townappliance.com/blogs/town-appliance-official/bosch-vs-jennair-appliances-which-one-do-you-find-more-suitable-for-your-kitchen",
       "platform": "other",
@@ -355,7 +319,7 @@
       "claim": "Comparison evaluating this product against competitors on townappliance.com."
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-018",
       "source_name": "bestbuy.com — 6339633",
       "url": "https://www.bestbuy.com/site/reviews/jennair-rise-5-1-cu-ft-self-cleaning-freestanding-gas-convection-range-stainless-steel/6339633",
       "platform": "other",
@@ -375,7 +339,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-019",
       "source_name": "bestbuy.com — 6339598",
       "url": "https://www.bestbuy.com/site/reviews/jennair-rise-6-3-cu-ft-self-cleaning-freestanding-dual-fuel-convection-range-stainless-steel/6339598",
       "platform": "other",
@@ -395,7 +359,7 @@
       "claim": "Independent review of this product published on bestbuy.com."
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-020",
       "source_name": "fbsappliance.com — jenn air stove review and buyers guide",
       "url": "https://www.fbsappliance.com/blog/jenn-air-stove-review-and-buyers-guide",
       "platform": "other",
@@ -415,7 +379,7 @@
       "claim": "Independent review of this product published on fbsappliance.com."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-021",
       "source_name": "townappliance.com — jennair jgrp430hl professional gas range",
       "url": "https://www.townappliance.com/products/jennair-jgrp430hl-professional-gas-range",
       "platform": "other",
@@ -435,7 +399,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-022",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=KDW1Y-cu1iE",
       "platform": "other",
@@ -455,9 +419,49 @@
       "claim": "Independent review of this product published on youtube.com."
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-023",
       "source_name": "consumeraffairs.com — jenn air wall ovens",
       "url": "https://www.consumeraffairs.com/homeowners/jenn-air_wall_ovens.html?page=3",
+      "platform": "other",
+      "column": "forum",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on consumeraffairs.com."
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=eBFTH9QNqSo",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "consumeraffairs.com — jennaire",
+      "url": "https://www.consumeraffairs.com/homeowners/jennaire.html?page=3",
       "platform": "other",
       "column": "forum",
       "snippet": "",
@@ -479,6 +483,8 @@
   "scoring_notes": {
     "sources_scored": [
       "SRC-001",
+      "SRC-015",
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
@@ -502,16 +508,14 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-015",
-      "SRC-016"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 5,
-      "pool_A": 11,
+      "pool_A": 9,
       "pool_B": 7,
-      "pool_C": 2
+      "pool_C": 4
     },
     "filter_summary": {
       "raw": 88,

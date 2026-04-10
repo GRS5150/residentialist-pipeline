@@ -266,96 +266,6 @@
     },
     {
       "id": "SRC-015",
-      "source_name": "aham.org — Standard Chart Page",
-      "url": "https://www.aham.org/AHAM/Standard_Chart_Page.aspx",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-016",
-      "source_name": "blog.yaleappliance.com — youtube appliance rankings vs service data",
-      "url": "https://blog.yaleappliance.com/youtube-appliance-rankings-vs-service-data",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "P"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "ecfr.gov — appendix Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
-      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20I%20to%20Subpart%20B%20of%20Part%20430",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "D"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "aham.org — ItemDetail",
-      "url": "https://www.aham.org/ItemDetail?iProductCode=20022&Category=MADSTD&WebsiteKey=e77c44a3-68e2-480f-81b4-8c09990da1b9",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_1. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_1",
-      "verified": false
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "osti.gov — product.biblio",
-      "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-020",
       "source_name": "samsungparts.com — ne59j7850wg aa",
       "url": "https://samsungparts.com/products/ne59j7850wg-aa",
       "platform": "other",
@@ -375,7 +285,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-016",
       "source_name": "samsungpartsusa.com — nv51k6650dg aa wall oven control board assembly",
       "url": "https://samsungpartsusa.com/products/nv51k6650dg-aa-wall-oven-control-board-assembly",
       "platform": "other",
@@ -395,7 +305,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-017",
       "source_name": "samsungpartsusa.com — nv51m9770dm aa wall oven oven temperature sensor",
       "url": "https://samsungpartsusa.com/products/nv51m9770dm-aa-wall-oven-oven-temperature-sensor",
       "platform": "other",
@@ -415,7 +325,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-018",
       "source_name": "repairclinic.com — Samsung Range Stove Oven Parts",
       "url": "https://www.repairclinic.com/Shop-For-Parts/a13b160/Samsung-Range-Stove-Oven-Parts",
       "platform": "other",
@@ -435,7 +345,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-019",
       "source_name": "ebmpapst.com",
       "url": "https://www.ebmpapst.com/us/en/home.html",
       "platform": "other",
@@ -455,7 +365,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-020",
       "source_name": "watlow.com — specification sheets",
       "url": "https://www.watlow.com/resources-and-support/technical-library/specification-sheets",
       "platform": "other",
@@ -473,6 +383,106 @@
       "verified": false,
       "source_type": "spec_sheet",
       "claim": ""
+    },
+    {
+      "id": "SRC-021",
+      "source_name": "news.samsung.com — the south carolina samsung effect",
+      "url": "https://news.samsung.com/us/the-south-carolina-samsung-effect",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-022",
+      "source_name": "ifixit.com — Hinges and Hinge Pins",
+      "url": "https://www.ifixit.com/Parts/Samsung_Stove/Hinges_and_Hinge_Pins?p=2",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "homedepot.com — 314129694",
+      "url": "https://www.homedepot.com/p/Samsung-24-in-Single-Electric-Wall-Oven-in-Stainless-Steel-with-True-Convection-NV31T4551SS/314129694",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "homeon129acres.com — dont buy a samsung stove with flex duo oven",
+      "url": "https://homeon129acres.com/2020/03/09/dont-buy-a-samsung-stove-with-flex-duo-oven/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "intertek.com — ul 858 standard for safety for household electric ranges",
+      "url": "https://www.intertek.com/standards-updates/ul-858-standard-for-safety-for-household-electric-ranges/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from deep_dive. Scope: product.",
+      "topics": [
+        "MS"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "deep_dive",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     }
   ],
   "bottom_line": "Samsung Flex Duo — Tier 4 product. Target score: 47/100.",
@@ -482,6 +492,11 @@
       "SRC-006",
       "SRC-007",
       "SRC-008",
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-018",
+      "SRC-019",
       "SRC-020",
       "SRC-021",
       "SRC-022",
@@ -499,18 +514,13 @@
       "SRC-011",
       "SRC-012",
       "SRC-013",
-      "SRC-014",
-      "SRC-015",
-      "SRC-016",
-      "SRC-017",
-      "SRC-018",
-      "SRC-019"
+      "SRC-014"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 5,
-      "pool_A": 14,
-      "pool_B": 6,
+      "pool_A": 9,
+      "pool_B": 11,
       "pool_C": 0
     },
     "filter_summary": {

@@ -278,24 +278,6 @@
     },
     {
       "id": "SRC-016",
-      "source_name": "osti.gov — product.biblio",
-      "url": "https://www.osti.gov/bridge/product.biblio.jsp?osti_id=863561",
-      "platform": "other",
-      "column": "expert",
-      "snippet": "",
-      "pool": "A",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from citation_extraction. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false
-    },
-    {
-      "id": "SRC-017",
       "source_name": "neofiliac.com — miele 7000 series appliances",
       "url": "https://neofiliac.com/article/1046/miele-7000-series-appliances",
       "platform": "other",
@@ -315,7 +297,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-018",
+      "id": "SRC-017",
       "source_name": "crushmag-online.com — the new miele generation 7000 range",
       "url": "https://crushmag-online.com/the-new-miele-generation-7000-range/",
       "platform": "other",
@@ -335,7 +317,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-019",
+      "id": "SRC-018",
       "source_name": "media.miele.com — 22 1557 VitroLine Gen7000 Kurz GB neu",
       "url": "https://media.miele.com/ex/gb/22-1557_VitroLine_Gen7000_Kurz_GB_neu.pdf",
       "platform": "other",
@@ -355,7 +337,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-020",
+      "id": "SRC-019",
       "source_name": "ebooks.miele.com.au — publication",
       "url": "http://ebooks.miele.com.au/miele-docs/miele_generation_7000_interactive_product_guide/files/assets/common/downloads/publication.pdf",
       "platform": "other",
@@ -375,7 +357,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-020",
       "source_name": "us.mieleusa.com — spec library",
       "url": "https://us.mieleusa.com/spec-library/",
       "platform": "other",
@@ -395,7 +377,7 @@
       "claim": ""
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-021",
       "source_name": "geraldgiles.co.uk — miele generation 7000 artline review",
       "url": "https://www.geraldgiles.co.uk/blog/manufacturers/miele/miele-generation-7000-artline-review/",
       "platform": "other",
@@ -415,7 +397,7 @@
       "claim": "Independent review of this product published on geraldgiles.co.uk."
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-022",
       "source_name": "handmadekitchens.co.uk — miele generation 7000 combi steamer",
       "url": "https://www.handmadekitchens.co.uk/blog/appliance-reviews/miele-generation-7000-combi-steamer/",
       "platform": "other",
@@ -435,7 +417,7 @@
       "claim": "Independent review of this product published on handmadekitchens.co.uk."
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-023",
       "source_name": "miele.co.uk — generation 7000 1536",
       "url": "https://www.miele.co.uk/c/generation-7000-1536.htm",
       "platform": "other",
@@ -455,9 +437,29 @@
       "claim": ""
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-024",
       "source_name": "youtube.com — watch",
       "url": "https://www.youtube.com/watch?v=qCUL4KNBvvc",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
+    },
+    {
+      "id": "SRC-025",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=gSF1I45ZEQk",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -479,6 +481,7 @@
   "scoring_notes": {
     "sources_scored": [
       "SRC-005",
+      "SRC-016",
       "SRC-017",
       "SRC-018",
       "SRC-019",
@@ -503,15 +506,14 @@
       "SRC-012",
       "SRC-013",
       "SRC-014",
-      "SRC-015",
-      "SRC-016"
+      "SRC-015"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 4,
-      "pool_A": 12,
+      "pool_A": 11,
       "pool_B": 8,
-      "pool_C": 1
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 91,

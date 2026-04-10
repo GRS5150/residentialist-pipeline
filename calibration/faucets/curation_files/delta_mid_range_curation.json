@@ -436,26 +436,28 @@
     },
     {
       "id": "SRC-024",
-      "source_name": "blog.bathselect.com — best independent reviews of over 5 faucet brands",
-      "url": "https://blog.bathselect.com/best-independent-reviews-of-over-5-faucet-brands/",
+      "source_name": "youtube.com — watch",
+      "url": "https://www.youtube.com/watch?v=v9RTfkjCmnA",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
+      "pool": "C",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on youtube.com."
     },
     {
       "id": "SRC-025",
       "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=v9RTfkjCmnA",
+      "url": "https://www.youtube.com/watch?v=qxGNg4zUU5o",
       "platform": "other",
       "column": "review",
       "snippet": "",
@@ -485,6 +487,7 @@
       "SRC-018",
       "SRC-019",
       "SRC-020",
+      "SRC-024",
       "SRC-025"
     ],
     "sources_report_only": [
@@ -501,15 +504,14 @@
       "SRC-011",
       "SRC-021",
       "SRC-022",
-      "SRC-023",
-      "SRC-024"
+      "SRC-023"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
       "pool_S": 3,
       "pool_A": 8,
-      "pool_B": 13,
-      "pool_C": 1
+      "pool_B": 12,
+      "pool_C": 2
     },
     "filter_summary": {
       "raw": 75,

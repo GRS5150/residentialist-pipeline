@@ -402,6 +402,66 @@
     },
     {
       "id": "SRC-022",
+      "source_name": "starcraftcustombuilders.com — sources.faucets.California.Faucets",
+      "url": "https://www.starcraftcustombuilders.com/sources.faucets.California.Faucets.htm",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-023",
+      "source_name": "watersino.net — top 10 faucet manufacturers",
+      "url": "https://watersino.net/top-10-faucet-manufacturers/",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-024",
+      "source_name": "artos.us.com — who are the best known decorative plumbing manufacturers in ",
+      "url": "https://artos.us.com/blogs/artos-blog/who-are-the-best-known-decorative-plumbing-manufacturers-in-the-usa",
+      "platform": "other",
+      "column": "review",
+      "snippet": "",
+      "pool": "B",
+      "scope": "product",
+      "classification": "score",
+      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "topics": [
+        "Q"
+      ],
+      "verification_relevance": "relevant",
+      "captured_from": "citation_extraction",
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
+    },
+    {
+      "id": "SRC-025",
       "source_name": "cnmassin.com — 5 core standards for high quality kitchen fauc 85153955",
       "url": "https://www.cnmassin.com/news/5-core-standards-for-high-quality-kitchen-fauc-85153955.html",
       "platform": "other",
@@ -417,60 +477,6 @@
       "verification_relevance": "relevant",
       "captured_from": "research_pass_4",
       "verified": false
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "allorausa.com — why nsf certified faucets are essential for safe homes",
-      "url": "https://allorausa.com/blogs/news/why-nsf-certified-faucets-are-essential-for-safe-homes",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-024",
-      "source_name": "americanstandard-us.com — low lead and lead free faucets",
-      "url": "https://www.americanstandard-us.com/pages/low-lead-and-lead-free-faucets",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_4. Scope: category.",
-      "topics": [
-        "MS"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_4",
-      "verified": false
-    },
-    {
-      "id": "SRC-025",
-      "source_name": "blog.bathselect.com — best independent reviews of over 5 faucet brands",
-      "url": "https://blog.bathselect.com/best-independent-reviews-of-over-5-faucet-brands/",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "category",
-      "classification": "independent",
-      "classification_reason": "Captured from research_pass_3. Scope: category.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "research_pass_3",
-      "verified": false
     }
   ],
   "bottom_line": "Flühs (Germany) + Kerox (Hungary) cartridges — best combined cartridge sourcing. PVD lifetime finish. Solid brass cast body. US-made Huntington Beach CA. StarCraft near-perfect rating. Lifetime PVD warranty. Parts excellent. The professional benchmark.",
@@ -485,7 +491,10 @@
       "SRC-018",
       "SRC-019",
       "SRC-020",
-      "SRC-021"
+      "SRC-021",
+      "SRC-022",
+      "SRC-023",
+      "SRC-024"
     ],
     "sources_report_only": [
       "SRC-001",
@@ -499,9 +508,6 @@
       "SRC-014",
       "SRC-015",
       "SRC-016",
-      "SRC-022",
-      "SRC-023",
-      "SRC-024",
       "SRC-025"
     ],
     "sources_quarantined": [],
