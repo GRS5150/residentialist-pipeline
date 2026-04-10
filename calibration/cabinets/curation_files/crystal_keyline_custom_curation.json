@@ -1,6 +1,6 @@
 {
   "product": "Crystal Keyline (custom)",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -360,7 +360,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on mychemicalfreehouse.net."
     },
     {
       "id": "SRC-021",
@@ -378,7 +380,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     },
     {
       "id": "SRC-022",
@@ -396,7 +400,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     },
     {
       "id": "SRC-023",
@@ -414,7 +420,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -432,7 +440,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-025",
@@ -450,7 +460,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     }
   ],
   "bottom_line": "Minnesota custom shop. All 3/4\" plywood construction. Solid hardwood dovetail drawer boxes. Catalyzed conversion varnish finish. Blum hinges (165K cycles) and TANDEM slides (100K cycles, 130 lb). Single-source manufacturing. KCMA certified. Rutt/Plain & Fancy tier per Main Line Kitchen Design ratings (A quality).",
@@ -509,10 +521,10 @@
   "product_slug": "crystal_keyline_custom",
   "product_name": "Crystal Keyline (custom)",
   "manufacturer_slug": "crystal",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Strong",

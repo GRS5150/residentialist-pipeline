@@ -1,6 +1,6 @@
 {
   "product": "GE Café",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -290,7 +290,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-017",
@@ -308,7 +310,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-018",
@@ -326,7 +330,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-019",
@@ -344,7 +350,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-020",
@@ -362,7 +370,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
@@ -380,7 +390,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on jennaye.com."
     },
     {
       "id": "SRC-022",
@@ -398,7 +410,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on roomfortuesday.com."
     },
     {
       "id": "SRC-023",
@@ -416,7 +430,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on colorandchic.com."
     },
     {
       "id": "SRC-024",
@@ -434,7 +450,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on tarynnewton.com."
     },
     {
       "id": "SRC-025",
@@ -452,7 +470,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on homedepot.com."
     }
   ],
   "bottom_line": "GE Café — Tier 3 product. Target score: 65/100.",
@@ -511,10 +531,10 @@
   "product_slug": "ge_cafe",
   "product_name": "GE Café",
   "manufacturer_slug": "ge",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": null,

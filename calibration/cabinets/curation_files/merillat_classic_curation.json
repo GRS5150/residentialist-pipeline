@@ -1,6 +1,6 @@
 {
   "product": "Merillat Classic",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -360,7 +360,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "historical",
+      "claim": ""
     },
     {
       "id": "SRC-021",
@@ -378,7 +380,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "company_profile",
+      "claim": ""
     },
     {
       "id": "SRC-022",
@@ -396,7 +400,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     },
     {
       "id": "SRC-023",
@@ -414,7 +420,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -432,7 +440,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on oldenkamp.com."
     },
     {
       "id": "SRC-025",
@@ -450,7 +460,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on kitchencabinetsreviews.com."
     }
   ],
   "bottom_line": "MasterBrand builder-grade line. Particleboard box. Generic drawer slides (35K cycles, 75 lb). Blum hinges but lower spec. Catalyzed lacquer finish. KCMA certified (positive). No soft-close standard. Platform shares with KraftMaid/Diamond but gets lowest-tier components.",
@@ -509,10 +521,10 @@
   "product_slug": "merillat_classic",
   "product_name": "Merillat Classic",
   "manufacturer_slug": "merillat",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Conditional",

@@ -1,6 +1,6 @@
 {
   "product": "Wolf Pro-Style Gas Range",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -310,7 +310,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-018",
@@ -328,7 +330,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-019",
@@ -514,10 +518,10 @@
   "product_slug": "wolf_gas_range",
   "product_name": "Wolf Pro-Style Gas Range",
   "manufacturer_slug": "wolf",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": null,

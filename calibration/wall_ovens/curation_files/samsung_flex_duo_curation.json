@@ -1,6 +1,6 @@
 {
   "product": "Samsung Flex Duo",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -18,7 +18,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-002",
@@ -109,7 +111,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-007",
@@ -127,7 +131,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-008",
@@ -145,7 +151,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-009",
@@ -362,7 +370,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
@@ -380,7 +390,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
@@ -398,7 +410,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
@@ -416,7 +430,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -434,7 +450,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-025",
@@ -452,7 +470,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     }
   ],
   "bottom_line": "Samsung Flex Duo — Tier 4 product. Target score: 47/100.",
@@ -511,10 +531,10 @@
   "product_slug": "samsung_flex_duo",
   "product_name": "Samsung Flex Duo",
   "manufacturer_slug": "samsung",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": null,

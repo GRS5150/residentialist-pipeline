@@ -1,6 +1,6 @@
 {
   "product": "Marvin Signature Ultimate Entry Door",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -307,7 +307,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-018",
@@ -325,7 +327,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-019",
@@ -343,7 +347,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-020",
@@ -361,7 +367,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
@@ -379,7 +387,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
@@ -397,7 +407,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
@@ -415,7 +427,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -433,7 +447,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
       "id": "SRC-025",
@@ -451,7 +467,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     }
   ],
   "bottom_line": "Marvin Signature Ultimate Entry Door — Tier 1 product. Target score: 94/100.",
@@ -510,10 +528,10 @@
   "product_slug": "marvin_ultimate_entry",
   "product_name": "Marvin Signature Ultimate Entry Door",
   "manufacturer_slug": "marvin",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": null,

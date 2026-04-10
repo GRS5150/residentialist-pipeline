@@ -1,6 +1,6 @@
 {
   "product": "JennAir Rise",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -18,7 +18,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-002",
@@ -308,7 +310,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
       "id": "SRC-018",
@@ -326,7 +330,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on donsappliances.com."
     },
     {
       "id": "SRC-019",
@@ -344,7 +350,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on townappliance.com."
     },
     {
       "id": "SRC-020",
@@ -362,7 +370,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-021",
@@ -380,7 +390,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on bestbuy.com."
     },
     {
       "id": "SRC-022",
@@ -398,7 +410,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on fbsappliance.com."
     },
     {
       "id": "SRC-023",
@@ -416,7 +430,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -511,10 +527,10 @@
   "product_slug": "jennair_rise",
   "product_name": "JennAir Rise",
   "manufacturer_slug": "jennair",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": null,

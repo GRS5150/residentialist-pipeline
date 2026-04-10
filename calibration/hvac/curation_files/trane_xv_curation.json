@@ -1,6 +1,6 @@
 {
   "product": "Trane XV20i (Variable-Speed)",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -126,7 +126,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "company_profile",
+      "claim": ""
     },
     {
       "id": "SRC-008",
@@ -360,7 +362,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-021",
@@ -378,7 +382,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
@@ -396,7 +402,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
@@ -414,7 +422,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -432,7 +442,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-025",
@@ -450,7 +462,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "comparison",
+      "claim": "Comparison evaluating this product against competitors on achrnews.com."
     }
   ],
   "bottom_line": "Trane XV20i (Variable-Speed) — Tier Tier 1 product. Target score: 91/100.",
@@ -509,10 +523,10 @@
   "product_slug": "trane_xv",
   "product_name": "Trane XV20i (Variable-Speed)",
   "manufacturer_slug": "trane",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": null,

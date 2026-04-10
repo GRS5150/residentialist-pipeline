@@ -1,6 +1,6 @@
 {
   "product": "MSI Q Quartz (Import)",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -162,7 +162,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-010",
@@ -180,7 +182,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-011",
@@ -198,7 +202,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     },
     {
       "id": "SRC-012",
@@ -216,7 +222,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-013",
@@ -234,7 +242,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     },
     {
       "id": "SRC-014",
@@ -252,7 +262,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-015",
@@ -270,7 +282,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on zicanaboutique.com."
     },
     {
       "id": "SRC-016",
@@ -288,7 +302,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on graniteselection.com."
     },
     {
       "id": "SRC-017",
@@ -306,7 +322,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
       "id": "SRC-018",
@@ -510,10 +528,10 @@
   "product_slug": "msi_q_quartz",
   "product_name": "MSI Q Quartz (Import)",
   "manufacturer_slug": "msi",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Negative",

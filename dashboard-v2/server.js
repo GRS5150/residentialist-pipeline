@@ -118,6 +118,23 @@ function refreshData() {
           const sourcesByColumn = groupSourcesByColumn(sources);
           const bottomLine = extractBottomLine(curationData);
 
+          // Compute evidence status from product-scoped sources
+          const productScopedSources = sources.filter(s => s.scope === 'product');
+          // Only qualifying types with evaluative claims count toward badge
+          const QUALIFYING_TYPES = new Set(['review', 'comparison', 'forum_discussion', 'teardown']);
+          const qualifyingSources = productScopedSources.filter(s =>
+            QUALIFYING_TYPES.has(s.source_type) && s.claim && s.claim.length > 0
+          );
+          const qualifyingPoolBPlus = qualifyingSources.filter(s => ['S', 'A', 'B'].includes(s.pool));
+          let evidenceStatus;
+          if (qualifyingSources.length >= 5 && qualifyingPoolBPlus.length >= 2) {
+            evidenceStatus = 'full_confidence';
+          } else if (qualifyingSources.length >= 2 && qualifyingPoolBPlus.length >= 1) {
+            evidenceStatus = 'scored_with_disclosure';
+          } else {
+            evidenceStatus = 'insufficient_evidence';
+          }
+
           return {
             name: p.name,
             slug: p.slug,
@@ -135,7 +152,11 @@ function refreshData() {
             sources,
             sourcesByColumn,
             bottomLine,
-            hasCuration: !!curationData
+            hasCuration: !!curationData,
+            evidenceStatus,
+            productSourceCount: productScopedSources.length,
+            qualifyingSourceCount: qualifyingSources.length,
+            qualifyingPoolBPlus: qualifyingPoolBPlus.length,
           };
         });
 
@@ -285,6 +306,7 @@ app.get('/api/categories/:slug', (req, res) => {
     axisScores: p.axisScores,
     sourceCount: p.sourceCount,
     hasCuration: p.hasCuration,
+    evidenceStatus: p.evidenceStatus,
     audit: p.audit ? {
       specStatus: p.audit.specVerification?.status || 'gray',
       redTeamVerdict: p.audit.redTeam?.verdict || null,
@@ -340,6 +362,10 @@ app.get('/api/products/:category/:slug', (req, res) => {
       sources: product.sources,
       sourcesByColumn: product.sourcesByColumn,
       hasCuration: product.hasCuration,
+      evidenceStatus: product.evidenceStatus,
+      productSourceCount: product.productSourceCount,
+      qualifyingSourceCount: product.qualifyingSourceCount,
+      qualifyingPoolBPlus: product.qualifyingPoolBPlus,
       audit: product.audit || null,
       auditHistory: auditHistory.history
     }
@@ -494,6 +520,153 @@ app.post('/api/actions/batch', (req, res) => {
 
   if (result.success) refreshData();
   res.json(result);
+});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// FEATURE 2: ADD SOURCE
+// ═══════════════════════════════════════════════════════════════════════════
+
+app.post('/api/products/:category/:slug/add-source', (req, res) => {
+  try {
+    const { category, slug } = req.params;
+    const { url, source_name, pool, axes, claim, column } = req.body;
+
+    // Validate required fields
+    if (!url || !source_name || !pool || !claim || !column) {
+      return res.status(400).json({ error: 'Missing required fields: url, source_name, pool, claim, column' });
+    }
+    if (!axes || !Array.isArray(axes) || axes.length === 0) {
+      return res.status(400).json({ error: 'At least one axis must be selected' });
+    }
+
+    // Find curation file
+    const curationPath = findCurationFile(category, slug);
+    if (!curationPath) {
+      return res.status(404).json({ error: 'Curation file not found' });
+    }
+
+    // Load and modify
+    const curationData = JSON.parse(fs.readFileSync(curationPath, 'utf8'));
+    if (!curationData.sources) curationData.sources = [];
+
+    // Classify source type from URL
+    const urlLower = url.toLowerCase();
+    let sourceType = 'other';
+    try {
+      const host = new URL(url).hostname.replace(/^www\./, '').toLowerCase();
+      if (host === 'encyclopedia.com' || host.endsWith('wikipedia.org')) sourceType = 'company_profile';
+      else if (/catalog|specbook|spec-book|brochure|specification/i.test(urlLower)) sourceType = 'spec_sheet';
+      else if (/teardown|disassembl/i.test(urlLower)) sourceType = 'teardown';
+      else if (/\bvs\b|compared|comparison|versus/i.test(urlLower)) sourceType = 'comparison';
+      else if (['houzz.com','reddit.com','contractortalk.com'].some(d => host === d || host.endsWith('.'+d))) sourceType = 'forum_discussion';
+      else if (/\/forum\/|\/forums\/|\/thread/i.test(urlLower)) sourceType = 'forum_discussion';
+      else if (/review|rating|firsthand|tested/i.test(urlLower)) sourceType = 'review';
+    } catch { /* invalid URL */ }
+
+    const newId = `SRC-${String(curationData.sources.length + 1).padStart(3, '0')}`;
+    const newSource = {
+      id: newId,
+      source_name,
+      url,
+      platform: 'other',
+      column: column.toLowerCase(),
+      snippet: '',
+      pool: pool.toUpperCase(),
+      scope: 'product',
+      source_type: sourceType,
+      claim,
+      classification: 'score',
+      classification_reason: 'Manually added via dashboard.',
+      topics: axes.map(a => a.charAt(0).toUpperCase()),
+      verification_relevance: 'relevant',
+      captured_from: 'manual_entry',
+      verified: false,
+      manual_entry: true,
+      added_date: new Date().toISOString(),
+    };
+
+    curationData.sources.push(newSource);
+    fs.writeFileSync(curationPath, JSON.stringify(curationData, null, 2));
+
+    refreshData();
+    res.json({ success: true, source: newSource, message: `Source ${newId} added to ${slug}` });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// FEATURE 3: RE-SCORE
+// ═══════════════════════════════════════════════════════════════════════════
+
+app.post('/api/products/:category/:slug/rescore', (req, res) => {
+  try {
+    const { category, slug } = req.params;
+    const { geoMean, getTier, tierLabel } = require('./score_engine');
+
+    // Load axis weights
+    const configPath = path.join(WORKSPACE, 'configs', `${category}.json`);
+    let weights = { quality: 0.40, durability: 0.40, performance: 0.20 };
+    try {
+      const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+      if (config.axis_weights) weights = config.axis_weights;
+    } catch { /* use defaults */ }
+
+    // Load calibration product
+    const calibPath = path.join(CALIBRATION_DIR, category, 'config.json');
+    const calib = JSON.parse(fs.readFileSync(calibPath, 'utf8'));
+    const product = (calib.calibration_products || []).find(p => p.slug === slug);
+    if (!product) {
+      return res.status(404).json({ error: 'Product not found in calibration config' });
+    }
+
+    const axes = product.axis_scores || {};
+    const q = axes.quality || 5;
+    const d = axes.durability || 5;
+    const p = axes.performance || 5;
+
+    const newScore = Math.round(geoMean(q, d, p, weights));
+    const newTier = getTier(newScore);
+
+    // Update calibration config
+    product.target = newScore;
+    product.tier = newTier;
+    fs.writeFileSync(calibPath, JSON.stringify(calib, null, 2));
+
+    // Compute new evidence status from curation
+    const curationPath = findCurationFile(category, slug);
+    const curationData = curationPath ? JSON.parse(fs.readFileSync(curationPath, 'utf8')) : null;
+    const sources = normalizeSources(curationData);
+    const productScopedSources = sources.filter(s => s.scope === 'product');
+    const QUALIFYING_TYPES = new Set(['review', 'comparison', 'forum_discussion', 'teardown']);
+    const qualifyingSources = productScopedSources.filter(s =>
+      QUALIFYING_TYPES.has(s.source_type) && s.claim && s.claim.length > 0
+    );
+    const qualifyingPoolBPlus = qualifyingSources.filter(s => ['S', 'A', 'B'].includes(s.pool));
+    let evidenceStatus;
+    if (qualifyingSources.length >= 5 && qualifyingPoolBPlus.length >= 2) {
+      evidenceStatus = 'full_confidence';
+    } else if (qualifyingSources.length >= 2 && qualifyingPoolBPlus.length >= 1) {
+      evidenceStatus = 'scored_with_disclosure';
+    } else {
+      evidenceStatus = 'insufficient_evidence';
+    }
+
+    refreshData();
+    res.json({
+      success: true,
+      score: newScore,
+      tier: newTier,
+      tierLabel: tierLabel(newTier),
+      evidenceStatus,
+      qualifyingSourceCount: qualifyingSources.length,
+      qualifyingPoolBPlus: qualifyingPoolBPlus.length,
+      axisScores: { quality: q, durability: d, performance: p },
+      weights,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
 });
 
 // ═══════════════════════════════════════════════════════════════════════════

@@ -1,6 +1,6 @@
 {
   "product": "Rinnai RU199iN SENSEI Condensing Tankless",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -18,7 +18,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-002",
@@ -36,7 +38,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-003",
@@ -126,7 +130,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-008",
@@ -144,7 +150,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-009",
@@ -162,7 +170,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-010",
@@ -180,7 +190,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on bogleheads.org."
     },
     {
       "id": "SRC-011",
@@ -198,7 +210,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-012",
@@ -416,7 +430,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -434,7 +450,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-025",
@@ -452,7 +470,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "deep_dive",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     }
   ],
   "bottom_line": "Rinnai RU199iN SENSEI Condensing Tankless — Tier 1 product. Target score: 93/100.",
@@ -511,10 +531,10 @@
   "product_slug": "rinnai_ru199in",
   "product_name": "Rinnai RU199iN SENSEI Condensing Tankless",
   "manufacturer_slug": "rinnai",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": null,

@@ -1,6 +1,6 @@
 {
   "product": "Glacier Bay Elongated HD (Home Depot)",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -18,7 +18,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "historical",
+      "claim": ""
     },
     {
       "id": "SRC-002",
@@ -363,7 +365,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on sveagle.com."
     },
     {
       "id": "SRC-021",
@@ -381,7 +385,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
@@ -399,7 +405,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-023",
@@ -417,7 +425,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on plbg.com."
     },
     {
       "id": "SRC-024",
@@ -435,7 +445,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "forum_discussion",
+      "claim": "Contractor or consumer discussion with firsthand experience on terrylove.com."
     },
     {
       "id": "SRC-025",
@@ -453,7 +465,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on glacier-bay-products.pissedconsumer.com."
     }
   ],
   "bottom_line": "Glacier Bay Elongated HD (Home Depot) — Tier 4 product. Target score: 45/100.",
@@ -512,10 +526,10 @@
   "product_slug": "glacier_bay_hd",
   "product_name": "Glacier Bay Elongated HD (Home Depot)",
   "manufacturer_slug": "glacier",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Stable",

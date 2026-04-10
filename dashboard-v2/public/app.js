@@ -153,6 +153,20 @@ function healthLabel(status) {
   return 'N/A';
 }
 
+const EVIDENCE_STATUS = {
+  full_confidence: { label: 'Full Confidence', cssClass: 'evidence-full', icon: '●' },
+  scored_with_disclosure: { label: 'Scored with Disclosure', cssClass: 'evidence-disclosure', icon: '◐' },
+  insufficient_evidence: { label: 'Insufficient Evidence', cssClass: 'evidence-insufficient', icon: '○' },
+};
+
+function evidenceBadge(status, compact = false) {
+  const info = EVIDENCE_STATUS[status] || EVIDENCE_STATUS.insufficient_evidence;
+  if (compact) {
+    return `<span class="evidence-badge ${info.cssClass}" title="${info.label}">${info.icon} ${info.label}</span>`;
+  }
+  return `<span class="evidence-badge ${info.cssClass}">${info.icon} ${info.label}</span>`;
+}
+
 function showLoading() {
   app.innerHTML = `<div class="loading-state"><div class="spinner"></div><p>Loading...</p></div>`;
 }
@@ -351,6 +365,7 @@ function renderProductCard(product, categorySlug) {
         <div class="audit-dot-group"><span class="audit-dot ${audit.redTeamVerdict === 'CLEAN' ? 'green' : audit.redTeamVerdict === 'FINDINGS' ? 'red' : 'gray'}"></span><span>Red Team</span></div>
         <div class="audit-dot-group"><span class="audit-dot ${dotColor(audit.sourceStatus)}"></span><span>Sources</span></div>
       </div>
+      ${product.evidenceStatus ? `<div class="product-card-evidence">${evidenceBadge(product.evidenceStatus, true)}</div>` : ''}
       <div class="axis-bars">
         ${renderAxisBar('Quality', axes.quality)}
         ${renderAxisBar('Durability', axes.durability)}
@@ -418,6 +433,12 @@ async function showProductDetail(categorySlug, productSlug) {
     html += `<div class="detail-score-area">`;
     html += `<div class="detail-score">${p.target || '—'}</div>`;
     if (p.tier) html += `<span class="detail-tier ${tierClass(p.tier)}">Tier ${p.tier} · ${tierName(p.tier)}</span>`;
+    if (p.evidenceStatus) {
+      html += `<div class="detail-evidence-badge">${evidenceBadge(p.evidenceStatus)}</div>`;
+      if (p.evidenceStatus === 'scored_with_disclosure') {
+        html += `<div class="evidence-disclosure-note">This score is based on verified specifications, category standards, and limited independent evaluation. Direct product-specific evidence is limited for this product, which is typical of builder-grade lines that receive less independent review coverage than premium brands.</div>`;
+      }
+    }
     html += `</div></div>`;
 
     // ── Score Breakdown ─────────────────────────────────────────────────
@@ -522,6 +543,24 @@ async function showProductDetail(categorySlug, productSlug) {
     //   html += `</div>`;
     // }
 
+    // ── Action Buttons (Add Source + Re-score) ─────────────────────────
+    html += `<div class="detail-section detail-actions">`;
+    html += `<button class="action-btn action-btn-add-source" id="btn-add-source">+ Add Source</button>`;
+    html += `<button class="action-btn action-btn-rescore" id="btn-rescore">↻ Re-score</button>`;
+    html += `</div>`;
+
+    // ── Add Source Form (hidden) ────────────────────────────────────────
+    html += `<div id="add-source-form" class="add-source-form" style="display:none">`;
+    html += `<div class="section-title">Add Product Source</div>`;
+    html += `<div class="form-row"><label>URL <span class="req">*</span></label><input type="url" id="as-url" placeholder="https://..." required></div>`;
+    html += `<div class="form-row"><label>Source Name <span class="req">*</span></label><input type="text" id="as-name" placeholder="e.g. Yale Appliance — Merillat review"></div>`;
+    html += `<div class="form-row"><label>Pool <span class="req">*</span></label><select id="as-pool"><option value="A">A — Professional reviewer / lab test</option><option value="B" selected>B — Trade publication / experienced reviewer</option><option value="C">C — Forum or consumer review</option></select></div>`;
+    html += `<div class="form-row"><label>Axis <span class="req">*</span></label><div class="checkbox-group"><label><input type="checkbox" name="as-axis" value="quality" checked> Quality</label><label><input type="checkbox" name="as-axis" value="durability"> Durability</label><label><input type="checkbox" name="as-axis" value="performance"> Performance</label></div></div>`;
+    html += `<div class="form-row"><label>Evaluative Claim <span class="req">*</span></label><input type="text" id="as-claim" placeholder="One sentence summarizing what this source says about the product"></div>`;
+    html += `<div class="form-row"><label>Column <span class="req">*</span></label><select id="as-column"><option value="review" selected>Review</option><option value="expert">Expert</option><option value="forum">Forum</option></select></div>`;
+    html += `<div class="form-actions"><button class="action-btn action-btn-submit" id="as-submit">Add Source</button><button class="action-btn action-btn-cancel" id="as-cancel">Cancel</button></div>`;
+    html += `</div>`;
+
     // ── Audit Results ───────────────────────────────────────────────────
     if (p.audit) html += renderAuditResults(p.audit);
 
@@ -550,6 +589,79 @@ async function showProductDetail(categorySlug, productSlug) {
         const btn = card.querySelector('.inspect-btn');
         if (btn) btn.click();
       });
+    });
+
+    // ── Add Source button handler ───────────────────────────────────────
+    document.getElementById('btn-add-source')?.addEventListener('click', () => {
+      const form = document.getElementById('add-source-form');
+      form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    });
+
+    document.getElementById('as-cancel')?.addEventListener('click', () => {
+      document.getElementById('add-source-form').style.display = 'none';
+    });
+
+    document.getElementById('as-submit')?.addEventListener('click', async () => {
+      const url = document.getElementById('as-url').value.trim();
+      const source_name = document.getElementById('as-name').value.trim();
+      const pool = document.getElementById('as-pool').value;
+      const claim = document.getElementById('as-claim').value.trim();
+      const column = document.getElementById('as-column').value;
+      const axes = [...document.querySelectorAll('input[name="as-axis"]:checked')].map(cb => cb.value);
+
+      if (!url || !source_name || !claim) {
+        showToast('Please fill in all required fields', 'error');
+        return;
+      }
+      if (axes.length === 0) {
+        showToast('Select at least one axis', 'error');
+        return;
+      }
+
+      const submitBtn = document.getElementById('as-submit');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Adding...';
+
+      try {
+        const result = await postAPI(`products/${cat.slug}/${p.slug}/add-source`, {
+          url, source_name, pool, axes, claim, column
+        });
+        if (result.success) {
+          showToast(`Source added: ${result.source.id}`);
+          cache = {};
+          showProductDetail(cat.slug, p.slug);
+        } else {
+          showToast(result.error || 'Failed to add source', 'error');
+        }
+      } catch (e) {
+        showToast(e.message, 'error');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Add Source';
+      }
+    });
+
+    // ── Re-score button handler ────────────────────────────────────────
+    document.getElementById('btn-rescore')?.addEventListener('click', async () => {
+      const btn = document.getElementById('btn-rescore');
+      btn.disabled = true;
+      btn.textContent = '↻ Scoring...';
+
+      try {
+        const result = await postAPI(`products/${cat.slug}/${p.slug}/rescore`, {});
+        if (result.success) {
+          showToast(`Re-scored: ${result.score} (Tier ${result.tier} · ${result.tierLabel}) — ${result.evidenceStatus.replace(/_/g, ' ')}`);
+          cache = {};
+          showProductDetail(cat.slug, p.slug);
+        } else {
+          showToast(result.error || 'Re-score failed', 'error');
+        }
+      } catch (e) {
+        showToast(e.message, 'error');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = '↻ Re-score';
+      }
     });
 
   } catch (e) {

@@ -1,6 +1,6 @@
 {
   "product": "Hampton Bay (Home Depot)",
-  "report_date": "2026-04-09",
+  "report_date": "2026-04-10",
   "sources": [
     {
       "id": "SRC-001",
@@ -360,7 +360,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "spec_sheet",
+      "claim": ""
     },
     {
       "id": "SRC-021",
@@ -378,7 +380,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "other",
+      "claim": ""
     },
     {
       "id": "SRC-022",
@@ -396,7 +400,9 @@
       ],
       "verification_relevance": "relevant",
       "captured_from": "citation_extraction",
-      "verified": false
+      "verified": false,
+      "source_type": "review",
+      "claim": "Independent review of this product published on hampton-bay.pissedconsumer.com."
     },
     {
       "id": "SRC-023",
@@ -509,10 +515,10 @@
   "product_slug": "hampton_bay",
   "product_name": "Hampton Bay (Home Depot)",
   "manufacturer_slug": "hampton",
-  "deep_dive_date": "2026-04-09",
+  "deep_dive_date": "2026-04-10",
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
-  "curation_date": "2026-04-09",
+  "curation_date": "2026-04-10",
   "human_overrides": [],
   "platform_disclosure": null,
   "outlook": "Negative",

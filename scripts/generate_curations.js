@@ -254,10 +254,77 @@ function filterSources(sources, productSlug, productName) {
   return { filtered, dropped };
 }
 
+// ── Source type classifier ────────────────────────────────────────────────────
+
+const FORUM_DOMAINS = ['houzz.com', 'reddit.com', 'contractortalk.com', 'gardenWeb.com', 'diychatroom.com'];
+
+function classifySourceType(url, name) {
+  const lower = url.toLowerCase();
+  const nameLower = (name || '').toLowerCase();
+  const host = (() => { try { return new URL(url).hostname.replace(/^www\./, '').toLowerCase(); } catch { return ''; } })();
+
+  // Company profiles
+  if (host === 'encyclopedia.com' || host === 'wikipedia.org' || host.endsWith('.wikipedia.org')) return 'company_profile';
+
+  // Spec sheets / catalogs / brochures
+  if (/catalog|specbook|spec-book|spec_book|brochure|spec\.pdf|specification/i.test(lower)) return 'spec_sheet';
+  if (/Classic-Catalog|SpecBook|Brochure/i.test(lower)) return 'spec_sheet';
+
+  // Historical / archival
+  if (/retrorenovation\.com|1946|archiv|historical/i.test(lower)) return 'historical';
+
+  // Teardowns
+  if (/teardown|disassembl|take-apart|take_apart/i.test(lower)) return 'teardown';
+
+  // Comparisons
+  if (/\bvs\b|compared|comparison|versus|side-by-side/i.test(lower) || /\bvs\b|compared|comparison/i.test(nameLower)) return 'comparison';
+
+  // Forums
+  if (FORUM_DOMAINS.some(d => host === d || host.endsWith('.' + d))) return 'forum_discussion';
+  if (/\/forum\/|\/forums\/|\/discussion|\/thread/i.test(lower)) return 'forum_discussion';
+
+  // Reviews
+  if (/review|rating|rated|firsthand|hands-on|tested/i.test(lower) || /review|rating/i.test(nameLower)) return 'review';
+
+  return 'other';
+}
+
+// ── Claim generator ──────────────────────────────────────────────────────────
+
+function generateClaim(regSrc, sourceType) {
+  const name = regSrc.name || regSrc.institution || '';
+  const url = regSrc.url || '';
+  const host = (() => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return ''; } })();
+
+  // Non-evaluative types get empty claims
+  if (['spec_sheet', 'company_profile', 'historical'].includes(sourceType)) return '';
+
+  // For reviews/comparisons/forums/teardowns, generate a descriptive claim
+  if (sourceType === 'review') {
+    return `Independent review of this product published on ${host}.`;
+  }
+  if (sourceType === 'comparison') {
+    return `Comparison evaluating this product against competitors on ${host}.`;
+  }
+  if (sourceType === 'forum_discussion') {
+    return `Contractor or consumer discussion with firsthand experience on ${host}.`;
+  }
+  if (sourceType === 'teardown') {
+    return `Physical teardown or component analysis published on ${host}.`;
+  }
+
+  // 'other' — might still be evaluative but can't confirm
+  return '';
+}
+
 // ── Convert registry entry → curation source object ──────────────────────────
 
 function toSourceEntry(regSrc, id) {
-  return {
+  const isProduct = (regSrc.scope || 'category') === 'product';
+  const sourceType = isProduct ? classifySourceType(regSrc.url, regSrc.name) : undefined;
+  const claim = isProduct ? generateClaim(regSrc, sourceType) : undefined;
+
+  const entry = {
     id,
     source_name: regSrc.name || regSrc.institution || regSrc.url.substring(0, 60),
     url: regSrc.url,
@@ -273,6 +340,13 @@ function toSourceEntry(regSrc, id) {
     captured_from: regSrc.captured_from,
     verified: regSrc.verified || false,
   };
+
+  if (isProduct) {
+    entry.source_type = sourceType;
+    entry.claim = claim;
+  }
+
+  return entry;
 }
 
 // ── Split registry by scope ───────────────────────────────────────────────────
