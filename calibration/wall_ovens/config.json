@@ -19,48 +19,72 @@
       "slug": "miele_h7000",
       "tier": 1,
       "target": 95,
-      "axis_scores_tbd": true,
-      "notes": "Tier 1 anchor. European dual-circulation convection with dedicated ring element. Stainless steel cavity survives repeated pyrolytic self-clean. M Touch controls — strong reliability reputation. Yale first-year service rate 9.6% (wall oven category — tighter spread than dishwashers). 20-year parts commitment (Miele published policy). Vertically integrated manufacturing. Steam-assisted option (DGC series). Proprietary parts, expensive repairs — dock Durability slightly."
+      "notes": "Tier 1 anchor. European dual-circulation convection with dedicated ring element. Stainless steel cavity survives repeated pyrolytic self-clean. M Touch controls \u2014 strong reliability reputation. Yale first-year service rate 9.6% (wall oven category \u2014 tighter spread than dishwashers). 20-year parts commitment (Miele published policy). Vertically integrated manufacturing. Steam-assisted option (DGC series). Proprietary parts, expensive repairs \u2014 dock Durability slightly.",
+      "axis_scores": {
+        "quality": 98,
+        "durability": 94,
+        "performance": 93
+      }
     },
     {
       "name": "Wolf M Series",
       "slug": "wolf_m_series",
       "tier": 1,
       "target": 91,
-      "axis_scores_tbd": true,
-      "notes": "Tier 1 lower anchor. Dual VertiCross convection (two fans, alternating direction). Sub-Zero/Wolf ecosystem — factory-certified service network. 2-year full warranty (best standard warranty in category). True European convection with dual fans. Manufactured in Fitchburg, WI. Professional kitchen designer standard alongside Miele. Slightly noisier fans than Miele per pro feedback."
+      "notes": "Tier 1 lower anchor. Dual VertiCross convection (two fans, alternating direction). Sub-Zero/Wolf ecosystem \u2014 factory-certified service network. 2-year full warranty (best standard warranty in category). True European convection with dual fans. Manufactured in Fitchburg, WI. Professional kitchen designer standard alongside Miele. Slightly noisier fans than Miele per pro feedback.",
+      "axis_scores": {
+        "quality": 88,
+        "durability": 95,
+        "performance": 91
+      }
     },
     {
       "name": "Thermador Masterpiece",
       "slug": "thermador_masterpiece",
       "tier": 2,
       "target": 82,
-      "axis_scores_tbd": true,
-      "notes": "Tier 2 upper anchor. BSH platform — shares cavity, hinges, and self-clean system with Thermador Professional (confirmed in Pass 3). True European convection. Bosch/Thermador/Gaggenau share platform — service rate spread minimal. Yale first-year service rate for Bosch wall ovens: 9.7%. Parts widely stocked through BSH network."
+      "notes": "Tier 2 upper anchor. BSH platform \u2014 shares cavity, hinges, and self-clean system with Thermador Professional (confirmed in Pass 3). True European convection. Bosch/Thermador/Gaggenau share platform \u2014 service rate spread minimal. Yale first-year service rate for Bosch wall ovens: 9.7%. Parts widely stocked through BSH network.",
+      "axis_scores": {
+        "quality": 85,
+        "durability": 78,
+        "performance": 84
+      }
     },
     {
       "name": "JennAir Rise",
       "slug": "jennair_rise",
       "tier": 2,
       "target": 76,
-      "axis_scores_tbd": true,
-      "notes": "Tier 2 lower anchor. Whirlpool luxury line. V2 dual-fan convection system. WiFi probe integration. Whirlpool parts ecosystem (broad US availability). JennAir/KitchenAid share platform — report must disclose. Competent but less professional consensus than Miele/Wolf/Thermador tier. Quieter fans noted as strength."
+      "notes": "Tier 2 lower anchor. Whirlpool luxury line. V2 dual-fan convection system. WiFi probe integration. Whirlpool parts ecosystem (broad US availability). JennAir/KitchenAid share platform \u2014 report must disclose. Competent but less professional consensus than Miele/Wolf/Thermador tier. Quieter fans noted as strength.",
+      "axis_scores": {
+        "quality": 72,
+        "durability": 74,
+        "performance": 81
+      }
     },
     {
-      "name": "GE Café",
+      "name": "GE Caf\u00e9",
       "slug": "ge_cafe",
       "tier": 3,
       "target": 65,
-      "axis_scores_tbd": true,
-      "notes": "Tier 3 anchor. Mid-luxury GE line. Yale first-year service rate 8.8% — best in Yale's wall oven dataset. GE's owned national service network = strongest service ecosystem. Café/Monogram/Profile share Selmer TN platform — report must disclose. True European convection on premium models. Need deep dive to confirm construction quality vs premium tier."
+      "notes": "Tier 3 anchor. Mid-luxury GE line. Yale first-year service rate 8.8% \u2014 best in Yale's wall oven dataset. GE's owned national service network = strongest service ecosystem. Caf\u00e9/Monogram/Profile share Selmer TN platform \u2014 report must disclose. True European convection on premium models. Need deep dive to confirm construction quality vs premium tier.",
+      "axis_scores": {
+        "quality": 58,
+        "durability": 68,
+        "performance": 67
+      }
     },
     {
       "name": "Samsung Flex Duo",
       "slug": "samsung_flex_duo",
       "tier": 4,
       "target": 47,
-      "axis_scores_tbd": true,
-      "notes": "Tier 4 anchor. Volume brand floor for built-in wall ovens. Service ecosystem concerns carry over from dishwashers/refrigerators — contracted repair network, thin coverage in many markets. Control board reliability concerns documented across Samsung appliance categories. Need deep dive to confirm wall-oven-specific failure patterns. LG an alternative at similar tier (Yale 10.5%)."
+      "notes": "Tier 4 anchor. Volume brand floor for built-in wall ovens. Service ecosystem concerns carry over from dishwashers/refrigerators \u2014 contracted repair network, thin coverage in many markets. Control board reliability concerns documented across Samsung appliance categories. Need deep dive to confirm wall-oven-specific failure patterns. LG an alternative at similar tier (Yale 10.5%).",
+      "axis_scores": {
+        "quality": 52,
+        "durability": 38,
+        "performance": 52
+      }
     }
   ],
   "manufacturer_domains": {

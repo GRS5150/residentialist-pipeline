@@ -19,48 +19,72 @@
       "slug": "vent_a_hood_prh",
       "tier": 1,
       "target": 95,
-      "axis_scores_tbd": true,
-      "notes": "Tier 1 upper anchor. Heritage brand since 1933, Houston TX. Patented Magic Lung centrifugal blower captures grease before it reaches the fan — blower stays clean, extends motor life to 30+ years. Whisper-quiet for internal blower (~3 sones at 600 CFM). All stainless 304 construction. Welded seamless. Lifetime motor warranty. USA-manufactured. Professional consensus: 'the Sub-Zero of range hoods.'"
+      "notes": "Tier 1 upper anchor. Heritage brand since 1933, Houston TX. Patented Magic Lung centrifugal blower captures grease before it reaches the fan \u2014 blower stays clean, extends motor life to 30+ years. Whisper-quiet for internal blower (~3 sones at 600 CFM). All stainless 304 construction. Welded seamless. Lifetime motor warranty. USA-manufactured. Professional consensus: 'the Sub-Zero of range hoods.'",
+      "axis_scores": {
+        "quality": 98,
+        "durability": 99,
+        "performance": 91
+      }
     },
     {
       "name": "Wolf Pro Ventilation",
       "slug": "wolf_pro_ventilation",
       "tier": 1,
       "target": 91,
-      "axis_scores_tbd": true,
-      "notes": "Tier 1 lower anchor. Sub-Zero/Wolf ecosystem. Internal centrifugal blower with ball bearings. Stainless baffle filters (dishwasher safe). LED dimmable with high output. Dual-blower option on larger models. Designed to pair with Wolf ranges (CFM matched to BTU output). 2-year full warranty. Manufactured in Sub-Zero/Wolf facilities. Professional kitchen designer standard."
+      "notes": "Tier 1 lower anchor. Sub-Zero/Wolf ecosystem. Internal centrifugal blower with ball bearings. Stainless baffle filters (dishwasher safe). LED dimmable with high output. Dual-blower option on larger models. Designed to pair with Wolf ranges (CFM matched to BTU output). 2-year full warranty. Manufactured in Sub-Zero/Wolf facilities. Professional kitchen designer standard.",
+      "axis_scores": {
+        "quality": 95,
+        "durability": 83,
+        "performance": 92
+      }
     },
     {
       "name": "Zephyr Tempest II",
       "slug": "zephyr_tempest_ii",
       "tier": 2,
       "target": 82,
-      "axis_scores_tbd": true,
-      "notes": "Tier 2 upper anchor. San Francisco-based, appeared 26 times in luxury listings — strong market presence in high-end homes. External/remote blower option (BLB series) enables 1200+ CFM with dramatically reduced noise at hood. Stainless baffle filters. LED lighting. Good industrial design. Designed SF, manufactured China (disclosed). Professional consensus: strong performance, good aesthetics, weaker on heritage and construction premium."
+      "notes": "Tier 2 upper anchor. San Francisco-based, appeared 26 times in luxury listings \u2014 strong market presence in high-end homes. External/remote blower option (BLB series) enables 1200+ CFM with dramatically reduced noise at hood. Stainless baffle filters. LED lighting. Good industrial design. Designed SF, manufactured China (disclosed). Professional consensus: strong performance, good aesthetics, weaker on heritage and construction premium.",
+      "axis_scores": {
+        "quality": 75,
+        "durability": 79,
+        "performance": 87
+      }
     },
     {
       "name": "Thermador HPCN Series",
       "slug": "thermador_hpcn",
       "tier": 2,
       "target": 76,
-      "axis_scores_tbd": true,
-      "notes": "Tier 2 lower anchor. BSH platform — likely shares blower components with Bosch hoods. Integrated with Thermador cooking products (range matching guide). Blower included. 600 CFM rated. Stainless baffle filters. LED lighting. BSH parts widely stocked. BSH platform disclosure mandatory. Professional consensus: competent, paired-ecosystem play, not ventilation leader."
+      "notes": "Tier 2 lower anchor. BSH platform \u2014 likely shares blower components with Bosch hoods. Integrated with Thermador cooking products (range matching guide). Blower included. 600 CFM rated. Stainless baffle filters. LED lighting. BSH parts widely stocked. BSH platform disclosure mandatory. Professional consensus: competent, paired-ecosystem play, not ventilation leader.",
+      "axis_scores": {
+        "quality": 74,
+        "durability": 80,
+        "performance": 76
+      }
     },
     {
       "name": "Broan-NuTone Elite E60E30SS",
       "slug": "broan_elite_e60e",
       "tier": 3,
       "target": 64,
-      "axis_scores_tbd": true,
-      "notes": "Tier 3 anchor. Broan-NuTone (Nortek) — volume ventilation player, largest US hood manufacturer. Elite is premium line. Stainless body, 650 CFM, aluminum mesh filters, LED lighting. Competent but lacks baffle filters and centrifugal blower engineering of premium hoods. Broadest parts availability — any hardware store. External blower available."
+      "notes": "Tier 3 anchor. Broan-NuTone (Nortek) \u2014 volume ventilation player, largest US hood manufacturer. Elite is premium line. Stainless body, 650 CFM, aluminum mesh filters, LED lighting. Competent but lacks baffle filters and centrifugal blower engineering of premium hoods. Broadest parts availability \u2014 any hardware store. External blower available.",
+      "axis_scores": {
+        "quality": 62,
+        "durability": 71,
+        "performance": 62
+      }
     },
     {
       "name": "Broan-NuTone F40000 Series",
       "slug": "broan_f40000",
       "tier": 4,
       "target": 47,
-      "axis_scores_tbd": true,
-      "notes": "Tier 4 anchor. Builder-grade floor. Painted steel body, 210 CFM, ~6.5 sones at max, aluminum mesh filters, incandescent lighting, 30-inch undercabinet. The hood that comes pre-installed in every tract home. Cannot adequately ventilate even a standard 30-inch range during high-heat cooking. ~$60 retail. 1-year warranty."
+      "notes": "Tier 4 anchor. Builder-grade floor. Painted steel body, 210 CFM, ~6.5 sones at max, aluminum mesh filters, incandescent lighting, 30-inch undercabinet. The hood that comes pre-installed in every tract home. Cannot adequately ventilate even a standard 30-inch range during high-heat cooking. ~$60 retail. 1-year warranty.",
+      "axis_scores": {
+        "quality": 42,
+        "durability": 38,
+        "performance": 52
+      }
     }
   ],
   "manufacturer_domains": {

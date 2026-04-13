@@ -19,48 +19,72 @@
       "slug": "miele_g7000",
       "tier": 1,
       "target": 95,
-      "axis_scores_tbd": true,
-      "notes": "Tier 1 anchor. Yale 2026 service rate 5.6% (best in category). 20-year tested design life (5,600 cycles). Vertically integrated German manufacturing. 3 full spray arms. 3D fold-down cutlery tray. Middle rack adjustable while loaded (unique). Brushless inverter motor. Manual mesh filter. Fan-assisted CleanDry + auto-open. 42-44 dBA. 2-year standard warranty (5-year on top models). Proprietary parts + expensive repairs dock Durability slightly. Historical volatility (20.5% service rate in 2020) noted in report but current trajectory strongly positive."
+      "notes": "Tier 1 anchor. Yale 2026 service rate 5.6% (best in category). 20-year tested design life (5,600 cycles). Vertically integrated German manufacturing. 3 full spray arms. 3D fold-down cutlery tray. Middle rack adjustable while loaded (unique). Brushless inverter motor. Manual mesh filter. Fan-assisted CleanDry + auto-open. 42-44 dBA. 2-year standard warranty (5-year on top models). Proprietary parts + expensive repairs dock Durability slightly. Historical volatility (20.5% service rate in 2020) noted in report but current trajectory strongly positive.",
+      "axis_scores": {
+        "quality": 96,
+        "durability": 94,
+        "performance": 95
+      }
     },
     {
       "name": "Bosch 800 Series",
       "slug": "bosch_800",
       "tier": 1,
       "target": 91,
-      "axis_scores_tbd": true,
-      "notes": "Tier 1 lower anchor. Yale 2026 service rate 7.8%. BSH NC factory. CrystalDry zeolite drying (best for plastics — measurably superior per Yale). 42 dBA. PowerControl spray arm. MyWay third rack. RackMatic multi-position. Manual mesh filter. Brushless inverter motor. 1-year warranty. Universal parts + every independent tech works on it. Steve Sheinkopf: 'If you care about plastics drying, get the 800.' Soil removal 99.97% Heavy cycle per Reviewed.com."
+      "notes": "Tier 1 lower anchor. Yale 2026 service rate 7.8%. BSH NC factory. CrystalDry zeolite drying (best for plastics \u2014 measurably superior per Yale). 42 dBA. PowerControl spray arm. MyWay third rack. RackMatic multi-position. Manual mesh filter. Brushless inverter motor. 1-year warranty. Universal parts + every independent tech works on it. Steve Sheinkopf: 'If you care about plastics drying, get the 800.' Soil removal 99.97% Heavy cycle per Reviewed.com.",
+      "axis_scores": {
+        "quality": 90,
+        "durability": 92,
+        "performance": 90
+      }
     },
     {
       "name": "KitchenAid Premium (M-series)",
       "slug": "kitchenaid_kdtm604",
       "tier": 2,
       "target": 83,
-      "axis_scores_tbd": true,
-      "notes": "Tier 2 anchor. Yale 2026 service rate 8.2%. Whirlpool platform — broadest US parts supply chain. 4 levels of wash action (second rack gets dedicated jet coverage). Largest third rack in category with 360° Max Jets. ProDry fan-assisted drying. Two-stage manual filter (premium line). Repair techs rate alongside Bosch as 'safe buy' for long-term US repairability. Better loading flexibility than Bosch; Bosch better on quiet operation and plastic drying."
+      "notes": "Tier 2 anchor. Yale 2026 service rate 8.2%. Whirlpool platform \u2014 broadest US parts supply chain. 4 levels of wash action (second rack gets dedicated jet coverage). Largest third rack in category with 360\u00b0 Max Jets. ProDry fan-assisted drying. Two-stage manual filter (premium line). Repair techs rate alongside Bosch as 'safe buy' for long-term US repairability. Better loading flexibility than Bosch; Bosch better on quiet operation and plastic drying.",
+      "axis_scores": {
+        "quality": 79,
+        "durability": 83,
+        "performance": 80
+      }
     },
     {
       "name": "Bosch 300 Series",
       "slug": "bosch_300",
       "tier": 3,
       "target": 70,
-      "axis_scores_tbd": true,
-      "notes": "Tier 3 anchor. Same BSH platform reliability as 800 (service rate ~7.8% platform-wide). Full stainless tub. AutoAir drying (door pops open — NOT zeolite). 46 dBA. Manual mesh filter. Basic rack adjustability vs 500/800. Cleaning performance nearly identical to 500/800 per Yale — the premium buys drying + noise + racks. Professional quality floor: Bosch 500 at ~$900-1,000 is most-cited quality floor by professionals; 300 at ~$700-800 sits just below."
+      "notes": "Tier 3 anchor. Same BSH platform reliability as 800 (service rate ~7.8% platform-wide). Full stainless tub. AutoAir drying (door pops open \u2014 NOT zeolite). 46 dBA. Manual mesh filter. Basic rack adjustability vs 500/800. Cleaning performance nearly identical to 500/800 per Yale \u2014 the premium buys drying + noise + racks. Professional quality floor: Bosch 500 at ~$900-1,000 is most-cited quality floor by professionals; 300 at ~$700-800 sits just below.",
+      "axis_scores": {
+        "quality": 72,
+        "durability": 69,
+        "performance": 60
+      }
     },
     {
       "name": "Whirlpool (standard)",
       "slug": "whirlpool_wdt750sakz",
       "tier": 4,
       "target": 57,
-      "axis_scores_tbd": true,
-      "notes": "Tier 4 upper anchor. No Yale service rate data (Yale doesn't sell in volume). Repair tech consensus: acceptable, not great. Simplest mechanical designs with fewer failure points. Most widely stocked parts in US. Most likely failure (drain pump) is cheap and easy to fix. Cleaning and drying performance solidly average. Rack quality below Bosch/KitchenAid. At similar price points to Bosch 500, techs say buy Bosch."
+      "notes": "Tier 4 upper anchor. No Yale service rate data (Yale doesn't sell in volume). Repair tech consensus: acceptable, not great. Simplest mechanical designs with fewer failure points. Most widely stocked parts in US. Most likely failure (drain pump) is cheap and easy to fix. Cleaning and drying performance solidly average. Rack quality below Bosch/KitchenAid. At similar price points to Bosch 500, techs say buy Bosch.",
+      "axis_scores": {
+        "quality": 68,
+        "durability": 65,
+        "performance": 58
+      }
     },
     {
       "name": "Samsung (mid-range)",
       "slug": "samsung_dw80_mid",
       "tier": 4,
       "target": 44,
-      "axis_scores_tbd": true,
-      "notes": "Tier 4 lower anchor. No Yale service rate (Yale doesn't sell). Independent repair analysis: 20-22% failure within first 5 years. Service ecosystem is the primary problem — proprietary parts, few authorized independent service centers, owners in many markets literally cannot get repairs. Specific failure modes: water-wall belt mechanism, rack degradation, frequent error codes, higher leak incidence. Reddit/Houzz/repair tech consensus is unanimous: hardest 'no' in the category. Scores below Whirlpool despite similar or better paper specs because serviceability is catastrophic."
+      "notes": "Tier 4 lower anchor. No Yale service rate (Yale doesn't sell). Independent repair analysis: 20-22% failure within first 5 years. Service ecosystem is the primary problem \u2014 proprietary parts, few authorized independent service centers, owners in many markets literally cannot get repairs. Specific failure modes: water-wall belt mechanism, rack degradation, frequent error codes, higher leak incidence. Reddit/Houzz/repair tech consensus is unanimous: hardest 'no' in the category. Scores below Whirlpool despite similar or better paper specs because serviceability is catastrophic.",
+      "axis_scores": {
+        "quality": 50,
+        "durability": 44,
+        "performance": 48
+      }
     }
   ],
   "manufacturer_domains": {
