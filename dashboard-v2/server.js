@@ -53,11 +53,13 @@ const CURATION_ROOT = path.join(WORKSPACE, 'curation');
 const KNOWLEDGE_DIR = path.join(WORKSPACE, 'knowledge');
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
-// Active categories (default view)
+// Active categories (default view) — all 18 pipeline categories
 const ACTIVE_CATEGORIES = new Set([
-  'windows', 'refrigerators', 'dishwashers', 'ranges_cooktops',
-  'hvac', 'water_heaters', 'hardwood_flooring', 'cabinets',
-  'faucets', 'toilets'
+  'cabinets', 'countertops', 'dishwashers', 'exterior_doors',
+  'faucets', 'hardwood_flooring', 'hvac', 'lighting_control',
+  'motorized_shades', 'range_hoods', 'ranges_cooktops',
+  'refrigerators', 'sinks', 'tile', 'toilets',
+  'wall_ovens', 'water_heaters', 'windows'
 ]);
 
 // ── In-Memory Cache ─────────────────────────────────────────────────────────
