@@ -159,7 +159,7 @@
       "snippet": "",
       "pool": "B",
       "scope": "product",
-      "classification": "score",
+      "classification": "report_only",
       "classification_reason": "Captured from citation_extraction. Scope: product.",
       "topics": [
         "Q"
@@ -490,7 +490,6 @@
   "scoring_notes": {
     "sources_scored": [
       "SRC-003",
-      "SRC-009",
       "SRC-010",
       "SRC-011",
       "SRC-012",
@@ -515,7 +514,8 @@
       "SRC-008",
       "SRC-021",
       "SRC-022",
-      "SRC-023"
+      "SRC-023",
+      "SRC-009"
     ],
     "sources_quarantined": [],
     "pool_distribution": {
@@ -543,7 +543,20 @@
   "structuring_model": "source_registry_v2",
   "curation_status": "curated",
   "curation_date": "2026-04-10",
-  "human_overrides": [],
+  "human_overrides": [
+    {
+      "source_id": "SRC-009",
+      "action": "classify",
+      "new_value": "report_only",
+      "timestamp": "2026-04-14T04:51:44.921Z"
+    },
+    {
+      "source_id": "SRC-009",
+      "action": "classify",
+      "new_value": "report_only",
+      "timestamp": "2026-04-14T04:51:47.794Z"
+    }
+  ],
   "platform_disclosure": null,
   "outlook": "Strong",
   "outlook_rationale": "Wood interior with extruded aluminum cladding. Massive scale, nationwide availability. Strong warranty. Pro-ranked alongside Marvin/Loewen at top. Multi-plant manufacturing — minor quality variance risk vs single-factory brands. ENERGY STAR Most Efficient."

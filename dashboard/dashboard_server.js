@@ -1245,6 +1245,90 @@ async function handleAPI(req, res, parsedUrl) {
     sendJSON(res, { product_name: product.product_name, overall_score, tier, what_we_love, things_to_watch, findings: { red: red_flags, yellow: yellow_flags }, scores });
     return true;
   }
+
+  // ── Calibration API Routes ────────────────────────────────────────────────
+  // GET /api/calibration/:category/products — list all products for a category
+  const calibListMatch = pathname.match(/^\/api\/calibration\/([^/]+)\/products$/);
+  if (calibListMatch && req.method === 'GET') {
+    try {
+      const category = calibListMatch[1];
+      const calibDir = path.join(WORKSPACE, 'calibration', category, 'curation_files');
+      if (!fs.existsSync(calibDir)) { sendJSON(res, []); return true; }
+      const files = fs.readdirSync(calibDir).filter(f => f.endsWith('_curation.json'));
+      const products = files.map(f => {
+        try {
+          const data = JSON.parse(fs.readFileSync(path.join(calibDir, f), 'utf8'));
+          const sn = data.scoring_notes || {};
+          const poolDist = sn.pool_distribution || {};
+          return {
+            slug: data.product_slug || f.replace('_curation.json',''),
+            product_name: data.product_name || data.product || f.replace('_curation.json','').replace(/_/g,' '),
+            manufacturer_slug: data.manufacturer_slug || '',
+            overall_score: data.product?.overall_score || null,
+            curation_status: data.curation_status || 'staged',
+            curation_date: data.curation_date || null,
+            deep_dive_date: data.deep_dive_date || null,
+            source_count: (data.sources || []).length,
+            scored_count: (sn.sources_scored || []).length,
+            report_only_count: (sn.sources_report_only || []).length,
+            quarantined_count: (sn.sources_quarantined || []).length,
+            pool_distribution: poolDist,
+            outlook: data.outlook || null
+          };
+        } catch { return null; }
+      }).filter(Boolean);
+      sendJSON(res, products);
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // GET /api/calibration/:category/product/:slug — full curation data
+  const calibProductMatch = pathname.match(/^\/api\/calibration\/([^/]+)\/product\/([^/]+)$/);
+  if (calibProductMatch && req.method === 'GET') {
+    try {
+      const category = calibProductMatch[1];
+      const slug = calibProductMatch[2];
+      const calibDir = path.join(WORKSPACE, 'calibration', category, 'curation_files');
+      const filePath = path.join(calibDir, slug + '_curation.json');
+      if (!fs.existsSync(filePath)) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      sendJSON(res, data);
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
+  // POST /api/calibration/:category/product/:slug/classify — reclassify a source
+  const calibClassifyMatch = pathname.match(/^\/api\/calibration\/([^/]+)\/product\/([^/]+)\/classify$/);
+  if (calibClassifyMatch && req.method === 'POST') {
+    try {
+      const category = calibClassifyMatch[1];
+      const slug = calibClassifyMatch[2];
+      const body = await readBody(req);
+      const calibDir = path.join(WORKSPACE, 'calibration', category, 'curation_files');
+      const filePath = path.join(calibDir, slug + '_curation.json');
+      if (!fs.existsSync(filePath)) { sendJSON(res, { error: 'Not found' }, 404); return true; }
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      const source = (data.sources || []).find(s => s.id === body.source_id);
+      if (!source) { sendJSON(res, { error: 'Source not found' }, 404); return true; }
+      // Update the source classification
+      source.classification = body.classification;
+      // Update scoring_notes lists
+      const sn = data.scoring_notes || {};
+      sn.sources_scored = (sn.sources_scored || []).filter(id => id !== body.source_id);
+      sn.sources_report_only = (sn.sources_report_only || []).filter(id => id !== body.source_id);
+      sn.sources_quarantined = (sn.sources_quarantined || []).filter(id => id !== body.source_id);
+      if (body.classification === 'score') sn.sources_scored.push(body.source_id);
+      else if (body.classification === 'report_only') sn.sources_report_only.push(body.source_id);
+      else if (body.classification === 'quarantine') sn.sources_quarantined.push(body.source_id);
+      data.scoring_notes = sn;
+      if (!data.human_overrides) data.human_overrides = [];
+      data.human_overrides.push({ source_id: body.source_id, action: 'classify', new_value: body.classification, timestamp: new Date().toISOString() });
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+      sendJSON(res, { success: true, source });
+    } catch (err) { sendJSON(res, { error: err.message }, 500); }
+    return true;
+  }
+
   return false;
 }
 

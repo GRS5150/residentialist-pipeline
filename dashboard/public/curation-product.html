@@ -3,116 +3,275 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Curation — The Residentialist</title>
-    <link rel="stylesheet" href="/scores/css/curation.css">
+  <title>Curation Product — The Residentialist</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+    header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 18px 28px; display: flex; align-items: center; gap: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+    header h1 { font-size: 18px; font-weight: 700; }
+    header .back { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; padding: 5px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.3); transition: all 0.15s; }
+    header .back:hover { background: rgba(255,255,255,0.15); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 28px 24px; }
+    .product-hero { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; display: flex; align-items: center; gap: 24px; }
+    .hero-name { font-size: 24px; font-weight: 800; color: #f1f5f9; }
+    .hero-mfr { font-size: 13px; color: #64748b; margin-top: 3px; }
+    .hero-meta { display: flex; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
+    .hero-score { font-size: 48px; font-weight: 900; color: #667eea; text-align: right; min-width: 80px; }
+    .hero-score .lbl { font-size: 12px; color: #64748b; font-weight: 500; }
+    .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .badge.curated { background: #065f46; color: #6ee7b7; }
+    .badge.staged { background: #78350f; color: #fcd34d; }
+    .badge.released { background: #1e3a5f; color: #93c5fd; }
+    .bottom-line { background: #1e2d3d; border-left: 3px solid #667eea; border-radius: 6px; padding: 14px 18px; font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 28px; }
+    .section-header { font-size: 13px; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; display: flex; align-items: center; justify-content: space-between; }
+    .col-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 32px; }
+    .col-panel { background: #1e293b; border: 1px solid #334155; border-radius: 10px; overflow: hidden; }
+    .col-header { padding: 12px 16px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; display: flex; align-items: center; justify-content: space-between; }
+    .col-header.expert { background: #2d1b69; color: #c4b5fd; border-bottom: 1px solid #4c1d95; }
+    .col-header.review { background: #1e3a5f; color: #93c5fd; border-bottom: 1px solid #1d4ed8; }
+    .col-header.forum { background: #1a2e1a; color: #86efac; border-bottom: 1px solid #166534; }
+    .col-count { font-size: 11px; font-weight: 600; opacity: 0.8; }
+    .source-list { padding: 8px; display: flex; flex-direction: column; gap: 6px; max-height: 600px; overflow-y: auto; }
+    .source-list::-webkit-scrollbar { width: 4px; }
+    .source-list::-webkit-scrollbar-track { background: #0f1117; }
+    .source-list::-webkit-scrollbar-thumb { background: #334155; border-radius: 2px; }
+    .src-item { background: #0f1117; border: 1px solid #1e293b; border-radius: 7px; padding: 10px 12px; transition: all 0.12s; }
+    .src-item:hover { border-color: #334155; }
+    .src-item.quarantined { opacity: 0.4; border-color: #450a0a; background: #1a0a0a; }
+    .src-name { font-size: 12px; font-weight: 600; color: #c7d2fe; line-height: 1.3; word-break: break-word; }
+    .src-url { font-size: 10px; color: #475569; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .src-url a { color: inherit; text-decoration: none; }
+    .src-url a:hover { color: #94a3b8; }
+    .src-meta { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; align-items: center; }
+    .src-pool { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 6px; }
+    .pool-S { background: #4c1d95; color: #c4b5fd; }
+    .pool-A { background: #1e3a5f; color: #93c5fd; }
+    .pool-B { background: #1e293b; color: #94a3b8; }
+    .pool-C { background: #27272a; color: #71717a; }
+    .src-class { font-size: 10px; padding: 1px 6px; border-radius: 6px; font-weight: 600; }
+    .class-score { background: #064e3b; color: #6ee7b7; }
+    .class-independent { background: #1e3a5f; color: #93c5fd; }
+    .class-report_only { background: #27272a; color: #71717a; }
+    .class-quarantine { background: #450a0a; color: #fca5a5; }
+    .src-actions { display: flex; gap: 4px; margin-top: 7px; flex-wrap: wrap; }
+    .btn-xs { padding: 3px 8px; border-radius: 5px; border: 1px solid #334155; background: transparent; color: #94a3b8; font-size: 10px; cursor: pointer; font-weight: 600; transition: all 0.12s; }
+    .btn-xs:hover { background: #334155; color: #e2e8f0; }
+    .btn-xs.danger:hover { background: #450a0a; border-color: #7f1d1d; color: #fca5a5; }
+    .btn-xs.promote:hover { background: #064e3b; border-color: #065f46; color: #6ee7b7; }
+    .scoring-notes { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 20px; margin-bottom: 24px; }
+    .notes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-top: 14px; }
+    .note-stat { text-align: center; }
+    .note-val { font-size: 28px; font-weight: 800; color: #667eea; }
+    .note-lbl { font-size: 11px; color: #64748b; margin-top: 2px; font-weight: 500; }
+    .filter-bar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .filter-btn { padding: 5px 14px; border-radius: 16px; border: 1px solid #334155; background: #1e293b; color: #94a3b8; font-size: 12px; cursor: pointer; transition: all 0.12s; font-weight: 600; }
+    .filter-btn.active { background: #667eea; border-color: #667eea; color: white; }
+    .filter-btn:hover:not(.active) { border-color: #667eea; color: #c7d2fe; }
+    .loading { text-align: center; padding: 80px; color: #64748b; }
+    .spinner { display: inline-block; width: 28px; height: 28px; border: 3px solid #1e293b; border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .toast { position: fixed; bottom: 24px; right: 24px; padding: 12px 20px; border-radius: 8px; font-size: 13px; font-weight: 600; z-index: 1000; animation: slideIn 0.2s ease; }
+    .toast.success { background: #065f46; color: #6ee7b7; border: 1px solid #047857; }
+    .toast.error { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
+    @keyframes slideIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @media (max-width: 768px) { .col-grid { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="header-brand"><a href="/scores/" style="color:inherit;text-decoration:none;">THE <span>RESIDENTIALIST</span></a> · Curation</div>
-      <nav class="header-nav">
-        <a href="/scores/curation.html">← Back to List</a>
-        <a href="/scores/manufacturer.html">Manufacturers</a>
-      </nav>
-    </div>
+  <header>
+    <a class="back" href="/curation">← Back</a>
+    <h1 id="headerTitle">Product Curation</h1>
   </header>
 
-  <main class="main">
-    <div class="container">
+  <div class="container" id="mainContent">
+    <div class="loading"><div class="spinner"></div></div>
+  </div>
 
-      <!-- Product Header -->
-      <div class="section" id="productHeader">
-        <div style="display:flex; justify-content:space-between; align-items:center;">
-          <div>
-            <h1 id="productName" style="font-size:24px; font-weight:700; letter-spacing:-0.02em; margin-bottom:4px;">Loading...</h1>
-            <p id="productMeta" style="font-size:13px; color:var(--text-muted);"></p>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const slug = params.get('slug');
+    const category = params.get('category') || 'windows';
+    const API = '';
+    let productData = null;
+    let activeFilter = 'all';
+
+    async function load() {
+      if (!slug) { document.getElementById('mainContent').innerHTML = '<div style="padding:40px;color:#f87171">No product slug specified.</div>'; return; }
+      try {
+        const res = await fetch(`${API}/api/calibration/${category}/product/${slug}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        productData = await res.json();
+        render();
+      } catch(e) {
+        document.getElementById('mainContent').innerHTML = `<div style="padding:40px;color:#f87171">⚠ ${e.message}</div>`;
+      }
+    }
+
+    function render() {
+      const d = productData;
+      document.getElementById('headerTitle').textContent = d.product_name || slug;
+      document.title = `${d.product_name} — Curation`;
+
+      const sn = d.scoring_notes || {};
+      const scored = (sn.sources_scored || []).length;
+      const report = (sn.sources_report_only || []).length;
+      const quarantined = (sn.sources_quarantined || []).length;
+      const pool = sn.pool_distribution || {};
+      const total = d.sources?.length || 0;
+
+      const experts = getSources('expert');
+      const reviews = getSources('review');
+      const forums = getSources('forum');
+
+      document.getElementById('mainContent').innerHTML = `
+        <div class="product-hero">
+          <div style="flex:1">
+            <div class="hero-name">${d.product_name || slug}</div>
+            <div class="hero-mfr">${d.manufacturer_slug || ''} · ${d.deep_dive_date || ''}</div>
+            <div class="hero-meta">
+              <span class="badge ${d.curation_status || 'staged'}">${d.curation_status || 'staged'}</span>
+              ${d.outlook ? `<span style="font-size:12px;color:#94a3b8">Outlook: <strong style="color:#f1f5f9">${d.outlook}</strong></span>` : ''}
+            </div>
           </div>
-          <div id="scoreDisplay" class="score-display" style="display:none;"></div>
-        </div>
-      </div>
-
-      <!-- Three-Column Source View -->
-      <div class="source-columns" id="sourceColumns">
-        <div class="source-column" id="expertColumn">
-          <h3>Expert Sources</h3>
-          <div class="source-list" id="expertList"></div>
-        </div>
-        <div class="source-column" id="reviewColumn">
-          <h3>Reviews & Comparisons</h3>
-          <div class="source-list" id="reviewList"></div>
-        </div>
-        <div class="source-column" id="forumColumn">
-          <h3>Forum & Owner Experiences</h3>
-          <div class="source-list" id="forumList"></div>
-        </div>
-      </div>
-
-      <!-- Consensus Matrix -->
-      <div class="section" id="consensusSection">
-        <div class="section-title">Consensus Matrix</div>
-        <table class="consensus-table" id="consensusTable">
-          <thead>
-            <tr><th>Topic</th><th>Experts</th><th>Reviews</th><th>Forums</th><th>Agreement</th></tr>
-          </thead>
-          <tbody id="consensusBody"></tbody>
-        </table>
-      </div>
-
-      <!-- Warranty Reality -->
-      <div class="section warranty-section" id="warrantySection">
-        <div class="section-title">Warranty Reality</div>
-        <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px;">
-          <div class="warranty-column beats">
-            <h4>✓ Beats Expectations</h4>
-            <div id="warrantyBeats"></div>
-          </div>
-          <div class="warranty-column underperforms">
-            <h4>⚠ Underperforms</h4>
-            <div id="warrantyUnderperforms"></div>
-          </div>
-          <div class="warranty-column surprises">
-            <h4>★ Surprises</h4>
-            <div id="warrantySurprises"></div>
+          <div style="text-align:right">
+            <div class="hero-score">${d.overall_score || '—'}<div class="lbl">Overall Score</div></div>
           </div>
         </div>
-      </div>
 
-      <!-- Verified Specs -->
-      <div class="section" id="specsSection">
-        <div class="section-title">Verified Specs</div>
-        <table class="consensus-table" id="specsTable">
-          <thead><tr><th>Spec</th><th>Value</th></tr></thead>
-          <tbody id="specsBody"></tbody>
-        </table>
-      </div>
+        ${d.bottom_line ? `<div class="bottom-line">📌 ${d.bottom_line}</div>` : ''}
 
-      <!-- Red Flags -->
-      <div class="section" id="redFlagsSection" style="display:none;">
-        <div class="section-title" style="color:var(--accent-red);">⚠ Red Flags</div>
-        <div id="redFlagsList"></div>
-      </div>
-
-      <!-- Actions -->
-      <div class="actions-bar">
-        <div class="left">
-          <span id="classificationSummary" style="font-size:13px; color:var(--text-muted);"></span>
+        <div class="scoring-notes">
+          <div class="section-header">Scoring Notes</div>
+          <div class="notes-grid">
+            <div class="note-stat"><div class="note-val">${total}</div><div class="note-lbl">Total Sources</div></div>
+            <div class="note-stat"><div class="note-val" style="color:#6ee7b7">${scored}</div><div class="note-lbl">Scored</div></div>
+            <div class="note-stat"><div class="note-val" style="color:#93c5fd">${report}</div><div class="note-lbl">Report Only</div></div>
+            <div class="note-stat"><div class="note-val" style="color:#fca5a5">${quarantined}</div><div class="note-lbl">Quarantined</div></div>
+            ${Object.entries(pool).map(([k,v]) => `<div class="note-stat"><div class="note-val" style="color:#c4b5fd">${v}</div><div class="note-lbl">Pool ${k.replace('pool_','')}</div></div>`).join('')}
+          </div>
+          ${sn.filter_summary ? `<div style="margin-top:14px;font-size:12px;color:#64748b">Raw: ${sn.filter_summary.raw} → After filter: ${sn.filter_summary.after_filter} → Capped: ${sn.filter_summary.capped} (dropped mfr:${sn.filter_summary.dropped?.mfr||0}, bare:${sn.filter_summary.dropped?.bare||0}, cap:${sn.filter_summary.dropped?.cap||0})</div>` : ''}
         </div>
-        <div class="right">
-          <button class="btn btn-ghost" onclick="quarantineAll()">Quarantine Unclassified</button>
-          <button class="btn btn-success" onclick="markReviewed()">Mark Review Complete</button>
-          <button class="btn btn-primary" onclick="runPipeline()">Run Pipeline</button>
+
+        <div class="section-header">
+          <span>Sources by Column</span>
+          <div class="filter-bar">
+            <div class="filter-btn active" onclick="setFilter('all', this)">All</div>
+            <div class="filter-btn" onclick="setFilter('score', this)">Scored</div>
+            <div class="filter-btn" onclick="setFilter('report_only', this)">Report Only</div>
+            <div class="filter-btn" onclick="setFilter('quarantine', this)">Quarantined</div>
+          </div>
         </div>
-      </div>
 
-      <!-- Score History -->
-      <div class="section" id="historySection" style="display:none;">
-        <div class="section-title">Score History</div>
-        <div id="historyList"></div>
-      </div>
+        <div class="col-grid">
+          <div class="col-panel">
+            <div class="col-header expert">
+              <span>🎓 Experts</span>
+              <span class="col-count">${experts.length} sources</span>
+            </div>
+            <div class="source-list" id="col-expert">${renderSources(experts, sn)}</div>
+          </div>
+          <div class="col-panel">
+            <div class="col-header review">
+              <span>📝 Reviews</span>
+              <span class="col-count">${reviews.length} sources</span>
+            </div>
+            <div class="source-list" id="col-review">${renderSources(reviews, sn)}</div>
+          </div>
+          <div class="col-panel">
+            <div class="col-header forum">
+              <span>💬 Forums</span>
+              <span class="col-count">${forums.length} sources</span>
+            </div>
+            <div class="source-list" id="col-forum">${renderSources(forums, sn)}</div>
+          </div>
+        </div>
+      `;
+    }
 
-    </div>
-  </main>
+    function getSources(column) {
+      return (productData?.sources || []).filter(s => s.column === column);
+    }
 
-  <script src="/scores/js/curation-product.js"></script>
+    function isScored(src, sn) { return (sn.sources_scored || []).includes(src.id); }
+    function isReportOnly(src, sn) { return (sn.sources_report_only || []).includes(src.id); }
+    function isQuarantined(src, sn) { return (sn.sources_quarantined || []).includes(src.id) || src.quarantined; }
+
+    function getClassLabel(src, sn) {
+      if (isQuarantined(src, sn)) return 'quarantine';
+      if (isScored(src, sn)) return 'score';
+      if (isReportOnly(src, sn)) return 'report_only';
+      return src.classification || 'uncertain';
+    }
+
+    function renderSources(sources, sn) {
+      if (!sources.length) return '<div style="padding:20px;text-align:center;color:#475569;font-size:12px">No sources</div>';
+      return sources.map(s => {
+        const cls = getClassLabel(s, sn);
+        const isQ = cls === 'quarantine' || isQuarantined(s, sn);
+        const domain = (() => { try { return new URL(s.url).hostname.replace('www.',''); } catch { return ''; } })();
+        return `
+          <div class="src-item ${isQ ? 'quarantined' : ''}" id="src-${s.id}" data-class="${cls}">
+            <div class="src-name">${s.source_name || domain}</div>
+            ${s.url ? `<div class="src-url"><a href="${s.url}" target="_blank">${s.url.length > 55 ? s.url.substring(0,55)+'…' : s.url}</a></div>` : ''}
+            <div class="src-meta">
+              <span class="src-pool pool-${s.pool || 'C'}">${s.pool || '?'}</span>
+              <span class="src-class class-${cls}">${cls.replace('_',' ')}</span>
+              ${s.scope ? `<span style="font-size:10px;color:#475569">${s.scope}</span>` : ''}
+              ${s.snippet ? `<span style="font-size:10px;color:#4b5563;font-style:italic" title="${s.snippet}">"${s.snippet.substring(0,50)}…"</span>` : ''}
+            </div>
+            <div class="src-actions">
+              <button class="btn-xs promote" onclick="reclassify('${s.id}','score')">✓ Score</button>
+              <button class="btn-xs" onclick="reclassify('${s.id}','report_only')">📄 Report</button>
+              <button class="btn-xs danger" onclick="reclassify('${s.id}','quarantine')">🚫 Quarantine</button>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    function setFilter(type, btn) {
+      activeFilter = type;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      ['expert','review','forum'].forEach(col => {
+        document.querySelectorAll(`#col-${col} .src-item`).forEach(el => {
+          const cls = el.dataset.class;
+          el.style.display = (type === 'all' || cls === type) ? '' : 'none';
+        });
+      });
+    }
+
+    async function reclassify(sourceId, newClass) {
+      try {
+        const r = await fetch(`${API}/api/calibration/${category}/product/${slug}/classify`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ source_id: sourceId, classification: newClass })
+        });
+        const result = await r.json();
+        if (result.success) {
+          const el = document.getElementById(`src-${sourceId}`);
+          if (el) {
+            el.dataset.class = newClass;
+            el.classList.toggle('quarantined', newClass === 'quarantine');
+            const badge = el.querySelector('.src-class');
+            if (badge) { badge.className = `src-class class-${newClass}`; badge.textContent = newClass.replace('_',' '); }
+          }
+          toast(`✓ ${sourceId} → ${newClass}`, 'success');
+        } else {
+          toast(`Error: ${result.error}`, 'error');
+        }
+      } catch(e) { toast(e.message, 'error'); }
+    }
+
+    function toast(msg, type='success') {
+      const t = document.createElement('div');
+      t.className = `toast ${type}`;
+      t.textContent = msg;
+      document.body.appendChild(t);
+      setTimeout(() => t.remove(), 3500);
+    }
+
+    load();
+  </script>
 </body>
 </html>
