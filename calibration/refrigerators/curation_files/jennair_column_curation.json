@@ -277,126 +277,6 @@
       "verified": false
     },
     {
-      "id": "SRC-016",
-      "source_name": "lambtongalleries.com — jennair r column refrigerator handle rise tm qty1 handle",
-      "url": "https://www.lambtongalleries.com/products/jennair-r-column-refrigerator-handle-rise-tm-qty1-handle",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
-    },
-    {
-      "id": "SRC-017",
-      "source_name": "amana.com — servicemanual 16025629",
-      "url": "https://www.amana.com/content/dam/global/documents/201910/servicemanual-16025629.pdf",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
-    },
-    {
-      "id": "SRC-018",
-      "source_name": "pcrichard.com — W11220303",
-      "url": "https://www.pcrichard.com/jennair-rise-built-in-column-refrigerator-handle-kit-stainless-steel/W11220303.html",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
-    },
-    {
-      "id": "SRC-019",
-      "source_name": "partadvantage.com — refrigerator parts  lever",
-      "url": "https://www.partadvantage.com/brands/jenn-air/refrigerator-parts--lever.html",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
-    },
-    {
-      "id": "SRC-020",
-      "source_name": "bestbuy.com — 6322451",
-      "url": "https://www.bestbuy.com/site/reviews/jennair-20-cu-ft-built-in-column-refrigerator-custom-panel-ready/6322451",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "review",
-      "claim": "Independent review of this product published on bestbuy.com."
-    },
-    {
-      "id": "SRC-021",
-      "source_name": "us-appliance.com — jbzfl24igx",
-      "url": "https://www.us-appliance.com/jbzfl24igx.html",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
-    },
-    {
       "id": "SRC-022",
       "source_name": "arnoldsappliance.com — jennair refrigerator review",
       "url": "https://www.arnoldsappliance.com/blog/jennair-refrigerator-review",
@@ -415,26 +295,6 @@
       "verified": false,
       "source_type": "review",
       "claim": "Independent review of this product published on arnoldsappliance.com."
-    },
-    {
-      "id": "SRC-023",
-      "source_name": "producthelp.jennair.com — VIDEO: JennAir Columns Full Installation",
-      "url": "https://producthelp.jennair.com/Refrigeration/Full-Size_Refrigerators/Product_Info/Videos/VIDEO:_JennAir_Columns_Full_Installation",
-      "platform": "other",
-      "column": "review",
-      "snippet": "",
-      "pool": "B",
-      "scope": "product",
-      "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
-      "topics": [
-        "Q"
-      ],
-      "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
-      "verified": false,
-      "source_type": "other",
-      "claim": ""
     },
     {
       "id": "SRC-024",
@@ -457,24 +317,26 @@
       "claim": "Contractor or consumer discussion with firsthand experience on houzz.com."
     },
     {
-      "id": "SRC-025",
-      "source_name": "youtube.com — watch",
-      "url": "https://www.youtube.com/watch?v=RGl60UM-Usw",
+      "id": "SRC-024",
+      "source_name": "comsumer reports",
+      "url": "https://www.consumerreports.org/appliances/refrigerators/jenn-air-jbsfs48nmx/m410742/",
       "platform": "other",
       "column": "review",
       "snippet": "",
-      "pool": "C",
+      "pool": "A",
       "scope": "product",
+      "source_type": "other",
+      "claim": "Consumer Reports rates it a 71.",
       "classification": "score",
-      "classification_reason": "Captured from citation_extraction. Scope: product.",
+      "classification_reason": "Manually added via dashboard.",
       "topics": [
         "Q"
       ],
       "verification_relevance": "relevant",
-      "captured_from": "citation_extraction",
+      "captured_from": "manual_entry",
       "verified": false,
-      "source_type": "review",
-      "claim": "Independent review of this product published on youtube.com."
+      "manual_entry": true,
+      "added_date": "2026-04-11T04:03:52.588Z"
     }
   ],
   "bottom_line": "JennAir Built-In Column — Tier 3 product. Target score: 70/100.",

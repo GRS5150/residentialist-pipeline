@@ -1,41 +1,55 @@
-node_modules/
+# Secrets (never commit these)
 .env
+.env.local
+.env.production
+.env*.local
+
+# Dependencies
+node_modules/
+
+# Large generated output (investigator reports, research dumps, deep dive JSONs)
+output/
 outputs/
+deep_dives/
+
+# SQLite databases (stays on Mac Mini only)
+*.db
+*.db-shm
+*.db-wal
+*.db.backup*
+
+# Database backups directory (large binary archives)
+backups/
+
+# Logs
 *.log
-imap.log
+logs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups and temp files
 *.bak
 *.bak2
 *.bak3
 *.bak4
-wc
+*.pre_*_backup
 RESUME_SIGNAL
-mission-control/
-systemd/
-RESIDENTIALIST_SKILL.md
 
-# SQLite database
-residentialist.db
-residentialist.db-shm
-residentialist.db-wal
+# Spec upload staging
+spec_uploads/
 
-# Temporary utility/debug scripts
-clear_andersen.js
-clear_impervia.js
-compare_runs.py
-extract_scores.py
-patch_material_extractor.py
-patch_performance_reform.py
-read_det_scores.py
-test_reddit.js
-test_variance_3x.js
-# Temp/debug scripts
-*.pre_6b_backup
-patch_*.js
-rescore_*.js
-run_*.sh
-test_6b_*.js
-test_auth.txt
+# Compressed archives
+*.tar.gz
+*.zip
 
-# Generated NotebookLM exports
-exports/
-backups/
+# Next.js build caches (mission-control dashboard)
+.next/

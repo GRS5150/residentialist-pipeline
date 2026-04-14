@@ -1,0 +1,28 @@
+[Unit]
+Description=The Residentialist Mission Control Dashboard
+After=network.target
+Wants=residentialist-imap.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/.openclaw/workspace/residentialist/mission-control/dashboard
+EnvironmentFile=/home/ubuntu/.openclaw/workspace/residentialist/.env
+ExecStart=/usr/bin/npm run dev
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=residentialist-dashboard
+
+# Process management
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+# Resource limits
+MemoryMax=512M
+CPUQuota=50%
+
+[Install]
+WantedBy=multi-user.target

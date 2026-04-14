@@ -1,0 +1,27 @@
+[Unit]
+Description=The Residentialist IMAP Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/.openclaw/workspace/residentialist
+EnvironmentFile=/home/ubuntu/.openclaw/workspace/residentialist/.env
+ExecStart=/usr/bin/node mission-control/scripts/imap_monitor.js
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=residentialist-imap
+
+# Process management
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+# Resource limits
+MemoryMax=256M
+CPUQuota=25%
+
+[Install]
+WantedBy=multi-user.target
