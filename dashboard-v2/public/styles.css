@@ -2255,3 +2255,37 @@ a:hover { color: var(--accent-hover); }
 .spec-flag-item strong {
   color: var(--yellow);
 }
+
+/* ── Source Strength Badges (Phase 0) ──────────────────────────────────── */
+.source-strength-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-left: 3px;
+}
+.strength-strong {
+  background: rgba(110, 231, 183, 0.15);
+  color: #6ee7b7;
+  border: 1px solid rgba(110, 231, 183, 0.3);
+}
+.strength-moderate {
+  background: rgba(253, 224, 71, 0.12);
+  color: #fde047;
+  border: 1px solid rgba(253, 224, 71, 0.25);
+}
+.strength-weak {
+  background: rgba(252, 165, 165, 0.12);
+  color: #fca5a5;
+  border: 1px solid rgba(252, 165, 165, 0.25);
+}
+.strength-excluded {
+  background: rgba(148, 163, 184, 0.08);
+  color: #64748b;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}

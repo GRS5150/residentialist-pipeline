@@ -375,7 +375,7 @@ function renderProductCard(product, categorySlug) {
 }
 
 function renderAxisBar(label, value) {
-  const pct = value ? (value / 10 * 100) : 0;
+  const pct = value ? Math.min(100, value) : 0;
   return `<div class="axis-row"><span class="axis-label">${label}</span><div class="axis-bar-bg"><div class="axis-bar-fill" style="width:${pct}%"></div></div><span class="axis-value">${value ? value.toFixed(1) : '—'}</span></div>`;
 }
 
@@ -448,7 +448,7 @@ async function showProductDetail(categorySlug, productSlug) {
     for (const axis of ['quality', 'durability', 'performance']) {
       const val = p.axisScores?.[axis];
       const adj = p.specAdj?.[axis];
-      const pct = val ? (val / 10 * 100) : 0;
+      const pct = val ? Math.min(100, val) : 0;
       html += `<div class="detail-axis-row"><span class="detail-axis-label">${formatSpecKey(axis)}</span><div class="detail-axis-bar-bg"><div class="detail-axis-bar-fill" style="width:${pct}%"></div></div><span class="detail-axis-value">${val ? val.toFixed(1) : '—'}</span>${adj !== undefined ? `<span class="detail-axis-adj">adj: +${adj}</span>` : `<span class="detail-axis-adj"></span>`}</div>`;
     }
     html += `</div>`;
@@ -506,7 +506,10 @@ async function showProductDetail(categorySlug, productSlug) {
           }
           let shtml = `<div class="detail-section"><div class="section-title">${title} (${sources.length})</div><div class="evidence-grid">`;
           for (const col of columns) {
-            const colSources = byCol[col] || [];
+            const colSources = (byCol[col] || []).sort((a, b) => {
+              var poolOrder = { S: 0, A: 1, B: 2, C: 3, X: 4 };
+              return (poolOrder[a.pool] || 5) - (poolOrder[b.pool] || 5);
+            });
             if (colSources.length === 0) continue;
             shtml += `<div class="evidence-column">`;
             shtml += `<div class="evidence-col-header"><span class="evidence-col-name">${formatSpecKey(col)}</span><span class="evidence-col-count">${colSources.length}</span></div>`;
@@ -516,7 +519,13 @@ async function showProductDetail(categorySlug, productSlug) {
               const surl = esc(src.url || '');
               shtml += `<div class="evidence-source evidence-source-clickable" data-source-id="${sid}" data-source-name="${sname}" data-source-url="${surl}">`;
               shtml += `<div class="evidence-source-top">`;
-              if (src.pool) shtml += `<span class="source-pool-badge">${esc(src.pool)}</span>`;
+              if (src.pool) {
+              shtml += `<span class="source-pool-badge">${esc(src.pool)}</span>`;
+              var _ps = String(src.pool).toUpperCase();
+              var _sl = _ps === 'S' || _ps === 'A' ? 'STRONG' : _ps === 'B' ? 'MODERATE' : _ps === 'C' ? 'WEAK' : 'EXCLUDED';
+              var _sc = _ps === 'S' || _ps === 'A' ? 'strength-strong' : _ps === 'B' ? 'strength-moderate' : _ps === 'C' ? 'strength-weak' : 'strength-excluded';
+              shtml += `<span class="source-strength-badge ${_sc}">${_sl}</span>`;
+              }
               if (src.classification) shtml += `<span class="source-class-badge ${esc(src.classification)}">${esc(src.classification)}</span>`;
               shtml += `<span class="evidence-source-name">${esc(src.source_name)}</span>`;
               shtml += `<span class="evidence-strength-indicator" data-source-key="${esc(cat.slug + '||' + p.slug + '||' + src.source_name)}"></span>`;
