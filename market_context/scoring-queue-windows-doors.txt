@@ -1,0 +1,63 @@
+# SCORING QUEUE — Windows & Doors (seeded from market-context-index, Sept 4 2026)
+# Format: STATUS | mentions | Brand | Category
+# STATUS: TODO = needs a run. SCORED = already in residentialist.db (March calibration, windows only), skip unless a rescore is requested.
+# Runner: pop the first TODO line each night, run it through v9 (research -> calibration gate -> score_calculator.js -> commit), mark SCORED, append next.
+
+SCORED |  474 | Pella | Windows
+SCORED |  424 | Andersen | Windows
+SCORED |  253 | Marvin | Windows
+TODO |  186 | Fleetwood | Doors
+TODO |  155 | PGT | Windows
+SCORED |  134 | Pella | Doors
+TODO |   92 | LaCantina | Doors
+TODO |   87 | Fleetwood | Windows
+SCORED |   79 | Andersen | Doors
+TODO |   61 | NanaWall | Doors
+TODO |   57 | PGT | Doors
+SCORED |   52 | Marvin | Doors
+SCORED |   41 | Sierra Pacific | Windows
+SCORED |   36 | Milgard | Windows
+SCORED |   28 | Kolbe | Windows
+TODO |   26 | Phantom | Windows
+TODO |   24 | Storm Smart | Windows
+SCORED |   21 | Sierra Pacific | Doors
+TODO |   20 | Lincoln | Windows
+SCORED |   18 | JELD-WEN | Windows
+TODO |   17 | Lutron | Windows
+SCORED |   14 | Loewen | Windows
+TODO |   12 | RAM | Windows
+TODO |   11 | Phantom | Doors
+TODO |   10 | Arcadia | Doors
+TODO |   10 | Cantera | Doors
+TODO |   10 | Quaker | Windows
+SCORED |    9 | JELD-WEN | Doors
+TODO |    8 | 3M | Windows
+TODO |    8 | Lincoln | Doors
+TODO |    8 | Storm Smart | Doors
+TODO |    8 | Western | Windows
+TODO |    7 | Bonelli | Doors
+TODO |    7 | NanaWall | Windows
+TODO |    7 | Origin | Doors
+TODO |    7 | Therma Tru | Doors
+TODO |    7 | Western | Doors
+SCORED |    7 | Windsor | Windows
+TODO |    6 | Arcadia | Windows
+TODO |    6 | Awake | Windows
+TODO |    6 | Euroline | Doors
+TODO |    6 | Eurowall | Doors
+TODO |    6 | Hope's Windows | Windows
+TODO |    6 | Jeld Wen | Windows
+TODO |    6 | Logan | Doors
+TODO |    6 | Masonite | Doors
+SCORED |    6 | Milgard | Doors
+TODO |    6 | Nano | Doors
+TODO |    6 | Plantation | Windows
+TODO |    6 | Rehau | Windows
+SCORED |    6 | Simonton | Windows
+TODO |    6 | TruStile | Doors
+TODO |    6 | Weather Shield | Windows
+TODO |    5 | LaCantina | Windows
+TODO |    5 | Nano Wall | Windows
+TODO |    5 | Silhouette | Windows
+TODO |    5 | Weathershield | Windows
+SCORED |    5 | Windsor | Doors
