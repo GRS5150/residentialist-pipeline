@@ -1,0 +1,10778 @@
+{
+ "generated": "2026-09-01",
+ "cleaned": "2026-09-04",
+ "source_listings": 21859,
+ "source_specs": 243851,
+ "brands": {
+  "3M|Windows": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4,
+    "3.5_5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3,
+    "WA": 1
+   }
+  },
+  "A.O. Smith|Water Heaters": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "IL": 2,
+    "FL": 1
+   }
+  },
+  "Abodian|Cabinets": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "under_1m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "WA": 3
+   }
+  },
+  "Accoya|Siding": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3
+   },
+   "states": {
+    "TX": 3
+   }
+  },
+  "Adt|Smart Home": {
+   "bands": {
+    "1_2m": 28,
+    "total": 90,
+    "under_1m": 36,
+    "5m_plus": 2,
+    "2_3.5m": 7,
+    "3.5_5m": 6
+   },
+   "states": {
+    "CA": 10,
+    "TX": 8,
+    "AZ": 3,
+    "FL": 35,
+    "GA": 2,
+    "NC": 5,
+    "TN": 2,
+    "CO": 1,
+    "NV": 2,
+    "MN": 1,
+    "IL": 14,
+    "SC": 3,
+    "NY": 1,
+    "CT": 1,
+    "MO": 1,
+    "KS": 1
+   }
+  },
+  "Advantech|Flooring": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "NC": 1
+   }
+  },
+  "Advantech|Other": {
+   "bands": {
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "GA": 3,
+    "NC": 1
+   }
+  },
+  "Advantium|Appliances": {
+   "bands": {
+    "under_1m": 6,
+    "total": 10,
+    "2_3.5m": 2,
+    "3.5_5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 7,
+    "SC": 1,
+    "KS": 1
+   }
+  },
+  "Aerin|Lighting": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1
+   }
+  },
+  "Aga|Appliances": {
+   "bands": {
+    "total": 16,
+    "under_1m": 4,
+    "1_2m": 2,
+    "3.5_5m": 4,
+    "2_3.5m": 3
+   },
+   "states": {
+    "TX": 2,
+    "NC": 2,
+    "FL": 3,
+    "OH": 1,
+    "AZ": 1,
+    "GA": 1,
+    "TN": 1,
+    "CO": 2,
+    "CA": 3
+   }
+  },
+  "Alexa|Smart Home": {
+   "bands": {
+    "1_2m": 1,
+    "total": 6,
+    "3.5_5m": 1,
+    "under_1m": 2,
+    "2_3.5m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 4,
+    "SC": 1
+   }
+  },
+  "Alfresco|Outdoor": {
+   "bands": {
+    "total": 17,
+    "5m_plus": 1,
+    "3.5_5m": 2,
+    "1_2m": 8,
+    "2_3.5m": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 10,
+    "GA": 1,
+    "CO": 2,
+    "NC": 1,
+    "MN": 1
+   }
+  },
+  "Allied Maker|Lighting": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 4,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CO": 1,
+    "CA": 3
+   }
+  },
+  "Alumawood|Other": {
+   "bands": {
+    "1_2m": 4,
+    "total": 4
+   },
+   "states": {
+    "CA": 4
+   }
+  },
+  "Amana|HVAC": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3
+   },
+   "states": {
+    "TN": 1,
+    "NV": 1,
+    "MO": 1
+   }
+  },
+  "Amazon|Smart Home": {
+   "bands": {
+    "2_3.5m": 6,
+    "total": 22,
+    "1_2m": 6,
+    "under_1m": 6
+   },
+   "states": {
+    "TX": 4,
+    "CA": 2,
+    "FL": 8,
+    "TN": 2,
+    "WA": 1,
+    "MN": 1,
+    "IL": 1,
+    "SC": 1,
+    "NY": 1,
+    "KS": 1
+   }
+  },
+  "Amish|Cabinets": {
+   "bands": {
+    "1_2m": 17,
+    "total": 90,
+    "under_1m": 23,
+    "2_3.5m": 49,
+    "5m_plus": 1
+   },
+   "states": {
+    "TN": 2,
+    "IL": 23,
+    "FL": 5,
+    "OH": 60
+   }
+  },
+  "Andersen|Doors": {
+   "bands": {
+    "1_2m": 5,
+    "total": 23,
+    "2_3.5m": 2,
+    "under_1m": 5,
+    "5m_plus": 2,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 8,
+    "AZ": 1,
+    "FL": 4,
+    "CO": 1,
+    "NC": 1,
+    "CA": 4,
+    "SC": 1,
+    "NY": 2,
+    "MO": 1
+   }
+  },
+  "Andersen|Windows": {
+   "bands": {
+    "2_3.5m": 31,
+    "total": 147,
+    "1_2m": 33,
+    "under_1m": 20,
+    "3.5_5m": 15,
+    "5m_plus": 8
+   },
+   "states": {
+    "TX": 34,
+    "CA": 12,
+    "AZ": 13,
+    "GA": 4,
+    "NC": 2,
+    "TN": 1,
+    "FL": 21,
+    "CO": 11,
+    "NV": 2,
+    "WA": 13,
+    "MN": 8,
+    "IL": 4,
+    "SC": 2,
+    "NY": 11,
+    "CT": 1,
+    "MO": 7,
+    "KS": 1
+   }
+  },
+  "Anderson|Doors": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 24,
+    "1_2m": 5,
+    "under_1m": 4,
+    "5m_plus": 2,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 9,
+    "GA": 1,
+    "FL": 7,
+    "NV": 1,
+    "IL": 3,
+    "SC": 1,
+    "NY": 2
+   }
+  },
+  "Anderson|Windows": {
+   "bands": {
+    "2_3.5m": 16,
+    "total": 102,
+    "1_2m": 21,
+    "3.5_5m": 8,
+    "5m_plus": 8,
+    "under_1m": 15
+   },
+   "states": {
+    "TX": 19,
+    "CA": 6,
+    "AZ": 2,
+    "GA": 7,
+    "NC": 4,
+    "TN": 1,
+    "FL": 11,
+    "CO": 4,
+    "NV": 3,
+    "WA": 2,
+    "MN": 4,
+    "IL": 4,
+    "SC": 9,
+    "NY": 10,
+    "OH": 6,
+    "MO": 8,
+    "KS": 2
+   }
+  },
+  "Ann Sacks|Tile": {
+   "bands": {
+    "5m_plus": 5,
+    "total": 31,
+    "under_1m": 4,
+    "2_3.5m": 7,
+    "3.5_5m": 4,
+    "1_2m": 2
+   },
+   "states": {
+    "TX": 10,
+    "AZ": 5,
+    "CO": 4,
+    "IL": 8,
+    "CA": 2,
+    "TN": 2
+   }
+  },
+  "Antolini|Countertops": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 1,
+    "CA": 2
+   }
+  },
+  "Apparatus Studio|Lighting": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 3
+   },
+   "states": {
+    "CA": 3
+   }
+  },
+  "Apparatus|Lighting": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CA": 3
+   }
+  },
+  "Apple|Smart Home": {
+   "bands": {
+    "5m_plus": 4,
+    "total": 14,
+    "2_3.5m": 2,
+    "1_2m": 2,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CA": 5,
+    "TX": 4,
+    "AZ": 2,
+    "FL": 3
+   }
+  },
+  "Aprilaire|HVAC": {
+   "bands": {
+    "1_2m": 4,
+    "total": 17,
+    "2_3.5m": 5,
+    "under_1m": 5,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "TN": 2,
+    "CO": 1,
+    "NC": 2,
+    "CA": 1,
+    "IL": 7,
+    "NY": 1,
+    "GA": 1
+   }
+  },
+  "AquaLink|Pool": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 7,
+    "5m_plus": 1,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 5,
+    "TX": 1
+   }
+  },
+  "Aqualink|Pool": {
+   "bands": {
+    "total": 12,
+    "5m_plus": 4,
+    "2_3.5m": 3,
+    "1_2m": 2,
+    "under_1m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 10,
+    "CA": 1
+   }
+  },
+  "Aqualink|Smart Home": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 5,
+    "under_1m": 1,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "CA": 1,
+    "FL": 4
+   }
+  },
+  "Aquasana|Water Treatment": {
+   "bands": {
+    "total": 15,
+    "2_3.5m": 3,
+    "1_2m": 4,
+    "under_1m": 5,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 7,
+    "GA": 3,
+    "TN": 1,
+    "CO": 2,
+    "CA": 1
+   }
+  },
+  "Araknis|Smart Home": {
+   "bands": {
+    "under_1m": 1,
+    "total": 4,
+    "5m_plus": 1,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 1,
+    "GA": 1,
+    "CA": 1
+   }
+  },
+  "Arbor Mills|Cabinets": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "IL": 3
+   }
+  },
+  "Arcadia|Doors": {
+   "bands": {
+    "1_2m": 2,
+    "total": 5,
+    "2_3.5m": 1,
+    "5m_plus": 2
+   },
+   "states": {
+    "AZ": 4,
+    "CA": 1
+   }
+  },
+  "Arcadia|Windows": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "AZ": 2,
+    "CA": 1
+   }
+  },
+  "Arclinea|Cabinets": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 9,
+    "5m_plus": 3,
+    "1_2m": 4
+   },
+   "states": {
+    "CA": 5,
+    "NV": 2,
+    "IL": 2
+   }
+  },
+  "Arhaus|Furniture": {
+   "bands": {
+    "1_2m": 2,
+    "total": 11,
+    "under_1m": 8,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 11
+   }
+  },
+  "Arhaus|Lighting": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 7,
+    "under_1m": 2,
+    "1_2m": 3
+   },
+   "states": {
+    "FL": 5,
+    "CO": 1,
+    "CA": 1
+   }
+  },
+  "Aristokraft|Cabinets": {
+   "bands": {
+    "under_1m": 9,
+    "total": 10
+   },
+   "states": {
+    "AZ": 2,
+    "FL": 2,
+    "SC": 6
+   }
+  },
+  "Arlo|Smart Home": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 6,
+    "1_2m": 2,
+    "under_1m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CA": 1,
+    "AZ": 1,
+    "FL": 2,
+    "SC": 1,
+    "MO": 1
+   }
+  },
+  "Artefacto|Furniture": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Arteriors|Lighting": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 6,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 3,
+    "NC": 1,
+    "TN": 1,
+    "IL": 1
+   }
+  },
+  "Artisan|Outdoor": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 7,
+    "1_2m": 2,
+    "3.5_5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 7
+   }
+  },
+  "Artistic Tile|Tile": {
+   "bands": {
+    "total": 4,
+    "2_3.5m": 1,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Ashley Norton|Hardware": {
+   "bands": {
+    "total": 4,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 1,
+    "CA": 1
+   }
+  },
+  "Asko|Appliances": {
+   "bands": {
+    "5m_plus": 8,
+    "total": 88,
+    "2_3.5m": 28,
+    "1_2m": 15,
+    "3.5_5m": 11,
+    "under_1m": 6
+   },
+   "states": {
+    "TX": 10,
+    "AZ": 17,
+    "FL": 16,
+    "GA": 6,
+    "TN": 2,
+    "CO": 4,
+    "NC": 5,
+    "CA": 4,
+    "WA": 1,
+    "MN": 1,
+    "IL": 10,
+    "SC": 3,
+    "OH": 1,
+    "KS": 3,
+    "MO": 5
+   }
+  },
+  "At&T|Smart Home": {
+   "bands": {
+    "total": 8,
+    "3.5_5m": 1,
+    "1_2m": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1,
+    "NC": 2,
+    "CA": 1,
+    "SC": 2
+   }
+  },
+  "Awake|Windows": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 3
+   },
+   "states": {
+    "AZ": 3
+   }
+  },
+  "Axor|Plumbing": {
+   "bands": {
+    "under_1m": 1,
+    "total": 4,
+    "5m_plus": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "GA": 1,
+    "CA": 1
+   }
+  },
+  "Azek|Outdoor": {
+   "bands": {
+    "under_1m": 2,
+    "total": 7,
+    "2_3.5m": 3,
+    "3.5_5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "GA": 2,
+    "FL": 2,
+    "MN": 1,
+    "IL": 2
+   }
+  },
+  "B-Hyve|Smart Home": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "under_1m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TN": 1,
+    "FL": 2
+   }
+  },
+  "Badu|Pool": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 5,
+    "under_1m": 1,
+    "5m_plus": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "Bain Ultra|Plumbing": {
+   "bands": {
+    "5m_plus": 4,
+    "total": 12,
+    "1_2m": 2,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 4,
+    "IL": 6,
+    "MO": 2
+   }
+  },
+  "Baker|Pool": {
+   "bands": {
+    "total": 3
+   },
+   "states": {
+    "MO": 3
+   }
+  },
+  "Baldwin|Hardware": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 15,
+    "3.5_5m": 2,
+    "1_2m": 7,
+    "under_1m": 3
+   },
+   "states": {
+    "TX": 1,
+    "TN": 1,
+    "FL": 4,
+    "CO": 1,
+    "NC": 1,
+    "CA": 4,
+    "NY": 1
+   }
+  },
+  "Barrington Pools|Pool": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "IL": 3
+   }
+  },
+  "Belgard|Outdoor": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 5,
+    "1_2m": 3
+   },
+   "states": {
+    "FL": 1,
+    "NC": 3,
+    "MO": 1
+   }
+  },
+  "Bell Cabinetry|Cabinets": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3
+   },
+   "states": {
+    "GA": 3
+   }
+  },
+  "Bellagio|Countertops": {
+   "bands": {
+    "total": 3
+   },
+   "states": {
+    "TX": 3
+   }
+  },
+  "Bellmont|Cabinets": {
+   "bands": {
+    "total": 9,
+    "1_2m": 2,
+    "2_3.5m": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 1,
+    "WA": 5
+   }
+  },
+  "Bell|Cabinets": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3
+   },
+   "states": {
+    "GA": 3
+   }
+  },
+  "Belmont|Cabinets": {
+   "bands": {
+    "total": 5,
+    "1_2m": 1,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "WA": 3
+   }
+  },
+  "Belvedere|Countertops": {
+   "bands": {
+    "total": 4,
+    "5m_plus": 1,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "CA": 2,
+    "MN": 1
+   }
+  },
+  "Benjamin Moore|Paint": {
+   "bands": {
+    "2_3.5m": 5,
+    "total": 11,
+    "5m_plus": 1,
+    "1_2m": 2,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1,
+    "GA": 1,
+    "FL": 3,
+    "CO": 1,
+    "NC": 1,
+    "IL": 2
+   }
+  },
+  "Bertazzoni|Appliances": {
+   "bands": {
+    "1_2m": 68,
+    "total": 181,
+    "2_3.5m": 15,
+    "under_1m": 33,
+    "3.5_5m": 5
+   },
+   "states": {
+    "TX": 49,
+    "AZ": 2,
+    "GA": 8,
+    "NC": 11,
+    "TN": 8,
+    "FL": 6,
+    "CO": 5,
+    "CA": 26,
+    "NV": 13,
+    "WA": 18,
+    "IL": 21,
+    "SC": 5,
+    "NY": 1,
+    "OH": 7,
+    "MO": 1
+   }
+  },
+  "Bevelo|Lighting": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Bevolo|Lighting": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 16,
+    "2_3.5m": 4,
+    "3.5_5m": 1,
+    "1_2m": 2,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 7,
+    "GA": 4,
+    "FL": 5
+   }
+  },
+  "Big Green Egg|Appliances": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Big Green Egg|Outdoor": {
+   "bands": {
+    "total": 26,
+    "3.5_5m": 1,
+    "2_3.5m": 5,
+    "1_2m": 9,
+    "under_1m": 8
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 3,
+    "GA": 5,
+    "NC": 2,
+    "TN": 1,
+    "FL": 8,
+    "MN": 1,
+    "SC": 3
+   }
+  },
+  "Blackstone|Outdoor": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "NC": 1,
+    "IL": 1
+   }
+  },
+  "Blanco|Sinks": {
+   "bands": {
+    "total": 28,
+    "1_2m": 6,
+    "under_1m": 12,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 7,
+    "AZ": 2,
+    "GA": 1,
+    "FL": 10,
+    "NC": 1,
+    "NV": 1,
+    "IL": 3,
+    "SC": 1,
+    "NY": 1,
+    "KS": 1
+   }
+  },
+  "Blaze|Appliances": {
+   "bands": {
+    "total": 11,
+    "2_3.5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 7,
+    "GA": 1,
+    "FL": 2,
+    "MO": 1
+   }
+  },
+  "Blaze|Outdoor": {
+   "bands": {
+    "total": 29,
+    "2_3.5m": 6,
+    "under_1m": 8,
+    "5m_plus": 1,
+    "1_2m": 4,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 7,
+    "TN": 1,
+    "FL": 17,
+    "CO": 1,
+    "IL": 2,
+    "KS": 1
+   }
+  },
+  "Blue Star|Appliances": {
+   "bands": {
+    "total": 16,
+    "2_3.5m": 2,
+    "5m_plus": 2,
+    "under_1m": 2,
+    "1_2m": 4,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 3,
+    "GA": 1,
+    "CO": 1,
+    "CA": 1,
+    "NV": 1,
+    "IL": 4,
+    "FL": 1,
+    "NY": 1,
+    "CT": 1,
+    "OH": 2
+   }
+  },
+  "BlueStar|Appliances": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 10,
+    "2_3.5m": 4,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 2,
+    "FL": 1,
+    "CO": 1,
+    "NC": 1,
+    "WA": 1,
+    "SC": 1,
+    "CA": 1,
+    "CT": 1,
+    "MO": 1
+   }
+  },
+  "Bluestar|Appliances": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 10,
+    "2_3.5m": 4,
+    "under_1m": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "AZ": 4,
+    "CO": 1,
+    "NC": 1,
+    "CA": 4
+   }
+  },
+  "Blum|Hardware": {
+   "bands": {
+    "total": 4,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1,
+    "GA": 1
+   }
+  },
+  "Bocci|Lighting": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 4
+   },
+   "states": {
+    "CO": 1,
+    "IL": 2,
+    "CT": 1
+   }
+  },
+  "Boch|Appliances": {
+   "bands": {
+    "under_1m": 3,
+    "total": 4
+   },
+   "states": {
+    "NY": 3,
+    "MO": 1
+   }
+  },
+  "Boffi|Cabinets": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 6,
+    "1_2m": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 2,
+    "CA": 4
+   }
+  },
+  "Bonelli|Doors": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 4,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "CO": 1,
+    "FL": 1
+   }
+  },
+  "Boral|Siding": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3
+   },
+   "states": {
+    "CO": 1,
+    "SC": 2
+   }
+  },
+  "Bosch|Appliances": {
+   "bands": {
+    "2_3.5m": 209,
+    "total": 1459,
+    "5m_plus": 46,
+    "1_2m": 629,
+    "3.5_5m": 60,
+    "under_1m": 267
+   },
+   "states": {
+    "TX": 125,
+    "CA": 89,
+    "AZ": 42,
+    "FL": 354,
+    "GA": 38,
+    "NC": 87,
+    "TN": 24,
+    "CO": 64,
+    "NV": 10,
+    "WA": 39,
+    "MN": 11,
+    "IL": 242,
+    "SC": 38,
+    "NY": 34,
+    "CT": 3,
+    "MA": 6,
+    "OH": 189,
+    "MO": 43,
+    "KS": 20
+   }
+  },
+  "Bosch|HVAC": {
+   "bands": {
+    "total": 20,
+    "under_1m": 8,
+    "1_2m": 6,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 5,
+    "CO": 4,
+    "NC": 1,
+    "CA": 2,
+    "SC": 2,
+    "NY": 3,
+    "MO": 1
+   }
+  },
+  "Bose|Lighting": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4,
+    "under_1m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 3,
+    "CA": 1
+   }
+  },
+  "Bose|Smart Home": {
+   "bands": {
+    "total": 23,
+    "1_2m": 11,
+    "under_1m": 4,
+    "2_3.5m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 7,
+    "GA": 5,
+    "NC": 1,
+    "CO": 1,
+    "WA": 1,
+    "IL": 2,
+    "SC": 2,
+    "KS": 2
+   }
+  },
+  "Bradford White|Water Heaters": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "NY": 1,
+    "OH": 2
+   }
+  },
+  "Brakur|Cabinets": {
+   "bands": {
+    "1_2m": 14,
+    "total": 24,
+    "under_1m": 8,
+    "2_3.5m": 2
+   },
+   "states": {
+    "IL": 24
+   }
+  },
+  "Briggs & Stratton|Generators": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 5,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 5
+   }
+  },
+  "Brilliant|Smart Home": {
+   "bands": {
+    "total": 15,
+    "under_1m": 2,
+    "1_2m": 1,
+    "3.5_5m": 2,
+    "2_3.5m": 3
+   },
+   "states": {
+    "TX": 7,
+    "FL": 4,
+    "GA": 1,
+    "CO": 1,
+    "IL": 2
+   }
+  },
+  "Brinks|Smart Home": {
+   "bands": {
+    "total": 6,
+    "under_1m": 4
+   },
+   "states": {
+    "TX": 1,
+    "NC": 2,
+    "FL": 2,
+    "KS": 1
+   }
+  },
+  "Brizo|Hardware": {
+   "bands": {
+    "under_1m": 3,
+    "total": 7,
+    "1_2m": 3
+   },
+   "states": {
+    "GA": 2,
+    "FL": 1,
+    "CO": 1,
+    "NC": 1,
+    "TX": 1,
+    "SC": 1
+   }
+  },
+  "Brizo|Plumbing": {
+   "bands": {
+    "5m_plus": 11,
+    "total": 87,
+    "3.5_5m": 11,
+    "2_3.5m": 13,
+    "1_2m": 20,
+    "under_1m": 15
+   },
+   "states": {
+    "TX": 15,
+    "AZ": 11,
+    "FL": 16,
+    "GA": 4,
+    "NC": 2,
+    "TN": 2,
+    "CO": 3,
+    "CA": 7,
+    "WA": 6,
+    "MN": 2,
+    "IL": 17,
+    "NY": 1,
+    "KS": 1
+   }
+  },
+  "Broan|Appliances": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4
+   },
+   "states": {
+    "FL": 1,
+    "IL": 2,
+    "SC": 1
+   }
+  },
+  "Bromic|Outdoor": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 7,
+    "1_2m": 2,
+    "5m_plus": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "AZ": 4,
+    "CO": 2,
+    "KS": 1
+   }
+  },
+  "Brookhaven|Cabinets": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 2,
+    "CA": 1
+   }
+  },
+  "Brunswick|Other": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3
+   },
+   "states": {
+    "CO": 1,
+    "NV": 2
+   }
+  },
+  "Bryant|HVAC": {
+   "bands": {
+    "total": 5,
+    "under_1m": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 2,
+    "WA": 1,
+    "OH": 2
+   }
+  },
+  "Bull Frog|Pool": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 2
+   }
+  },
+  "Bullfrog|Pool": {
+   "bands": {
+    "1_2m": 2,
+    "total": 11,
+    "under_1m": 3,
+    "5m_plus": 2
+   },
+   "states": {
+    "AZ": 3,
+    "CO": 2,
+    "CA": 1,
+    "NV": 3,
+    "FL": 1,
+    "MO": 1
+   }
+  },
+  "Bull|Appliances": {
+   "bands": {
+    "total": 5,
+    "1_2m": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 4
+   }
+  },
+  "Bull|Outdoor": {
+   "bands": {
+    "total": 13,
+    "under_1m": 4,
+    "1_2m": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 4,
+    "FL": 6,
+    "GA": 2,
+    "NC": 1
+   }
+  },
+  "Bulthaup|Appliances": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3
+   },
+   "states": {
+    "CA": 1,
+    "NY": 1,
+    "CT": 1
+   }
+  },
+  "Bulthaup|Cabinets": {
+   "bands": {
+    "total": 23,
+    "5m_plus": 13,
+    "3.5_5m": 2,
+    "2_3.5m": 3
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 3,
+    "CO": 1,
+    "CA": 13,
+    "IL": 2,
+    "NY": 1
+   }
+  },
+  "Burdette|Cabinets": {
+   "bands": {
+    "total": 6,
+    "5m_plus": 2,
+    "1_2m": 2
+   },
+   "states": {
+    "AZ": 6
+   }
+  },
+  "Busby|Cabinets": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 6,
+    "1_2m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 6
+   }
+  },
+  "Cabico|Cabinets": {
+   "bands": {
+    "total": 5,
+    "1_2m": 1,
+    "5m_plus": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "NC": 2,
+    "FL": 3
+   }
+  },
+  "Caesar Stone|Countertops": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 9,
+    "2_3.5m": 5,
+    "1_2m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 6,
+    "CA": 1,
+    "WA": 1
+   }
+  },
+  "Caesarstone|Countertops": {
+   "bands": {
+    "2_3.5m": 16,
+    "total": 63,
+    "1_2m": 12,
+    "5m_plus": 13,
+    "3.5_5m": 6,
+    "under_1m": 8
+   },
+   "states": {
+    "TX": 7,
+    "AZ": 5,
+    "FL": 12,
+    "GA": 1,
+    "TN": 1,
+    "CO": 7,
+    "CA": 20,
+    "NV": 3,
+    "IL": 1,
+    "SC": 1,
+    "NY": 5
+   }
+  },
+  "Caf|Appliances": {
+   "bands": {
+    "total": 12,
+    "5m_plus": 1,
+    "1_2m": 2,
+    "3.5_5m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 5,
+    "FL": 3,
+    "CO": 2,
+    "CA": 1,
+    "KS": 1
+   }
+  },
+  "Caf\u00e9|Appliances": {
+   "bands": {
+    "2_3.5m": 8,
+    "total": 140,
+    "1_2m": 32,
+    "under_1m": 38,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 48,
+    "FL": 34,
+    "CO": 1,
+    "CA": 1,
+    "AZ": 3,
+    "GA": 6,
+    "NC": 9,
+    "NV": 1,
+    "WA": 6,
+    "IL": 8,
+    "SC": 8,
+    "OH": 2,
+    "MO": 10,
+    "KS": 3
+   }
+  },
+  "Calacatta|Countertops": {
+   "bands": {
+    "total": 6,
+    "under_1m": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "FL": 3,
+    "NV": 1
+   }
+  },
+  "California Closets|Cabinets": {
+   "bands": {
+    "total": 22,
+    "1_2m": 12,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 6,
+    "CA": 1,
+    "AZ": 1,
+    "GA": 3,
+    "FL": 6,
+    "IL": 3,
+    "KS": 2
+   }
+  },
+  "California Closets|Closets": {
+   "bands": {
+    "total": 225,
+    "1_2m": 70,
+    "2_3.5m": 31,
+    "under_1m": 67,
+    "3.5_5m": 6,
+    "5m_plus": 5
+   },
+   "states": {
+    "TX": 25,
+    "AZ": 12,
+    "FL": 81,
+    "GA": 11,
+    "NC": 11,
+    "TN": 6,
+    "CO": 9,
+    "CA": 13,
+    "NV": 8,
+    "WA": 4,
+    "MN": 2,
+    "IL": 22,
+    "SC": 4,
+    "NY": 2,
+    "CT": 1,
+    "OH": 1,
+    "MO": 6,
+    "KS": 7
+   }
+  },
+  "California Closet|Cabinets": {
+   "bands": {
+    "1_2m": 4,
+    "total": 8,
+    "under_1m": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "GA": 1,
+    "FL": 4,
+    "CO": 2,
+    "OH": 1
+   }
+  },
+  "California Closet|Closets": {
+   "bands": {
+    "total": 62,
+    "1_2m": 22,
+    "under_1m": 15,
+    "2_3.5m": 8
+   },
+   "states": {
+    "TX": 9,
+    "GA": 10,
+    "NC": 4,
+    "TN": 1,
+    "FL": 10,
+    "CO": 2,
+    "CA": 1,
+    "NV": 2,
+    "MN": 1,
+    "IL": 6,
+    "SC": 1,
+    "NY": 1,
+    "OH": 8,
+    "MO": 2,
+    "KS": 4
+   }
+  },
+  "California Faucets|Plumbing": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CO": 1,
+    "SC": 2
+   }
+  },
+  "California|Closets": {
+   "bands": {
+    "total": 30,
+    "under_1m": 11,
+    "1_2m": 13,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 16,
+    "GA": 2,
+    "NC": 1,
+    "WA": 1,
+    "IL": 4,
+    "OH": 1,
+    "KS": 3
+   }
+  },
+  "Cambria|Countertops": {
+   "bands": {
+    "5m_plus": 6,
+    "total": 185,
+    "1_2m": 72,
+    "2_3.5m": 31,
+    "under_1m": 46,
+    "3.5_5m": 6
+   },
+   "states": {
+    "CA": 3,
+    "TX": 2,
+    "AZ": 4,
+    "FL": 94,
+    "GA": 23,
+    "NC": 2,
+    "TN": 4,
+    "CO": 4,
+    "NV": 2,
+    "WA": 2,
+    "MN": 19,
+    "IL": 3,
+    "SC": 5,
+    "OH": 5,
+    "MO": 9,
+    "KS": 4
+   }
+  },
+  "Canopy Builders|Other": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Canopy|Lighting": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 8,
+    "2_3.5m": 1,
+    "1_2m": 4,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 8
+   }
+  },
+  "Cantera|Doors": {
+   "bands": {
+    "total": 7,
+    "5m_plus": 1,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 4,
+    "FL": 1,
+    "CO": 1,
+    "SC": 1
+   }
+  },
+  "Carrier|HVAC": {
+   "bands": {
+    "2_3.5m": 17,
+    "total": 94,
+    "5m_plus": 4,
+    "3.5_5m": 4,
+    "1_2m": 30,
+    "under_1m": 17
+   },
+   "states": {
+    "TX": 21,
+    "AZ": 2,
+    "FL": 41,
+    "GA": 10,
+    "NC": 3,
+    "CO": 2,
+    "IL": 6,
+    "SC": 6,
+    "CA": 1,
+    "OH": 2
+   }
+  },
+  "Celtic|Elevators": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "5m_plus": 2
+   },
+   "states": {
+    "AZ": 3
+   }
+  },
+  "Century|Cabinets": {
+   "bands": {
+    "1_2m": 3,
+    "total": 6
+   },
+   "states": {
+    "NY": 6
+   }
+  },
+  "CertainTeed|Roofing": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 8,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "NC": 3,
+    "MO": 5
+   }
+  },
+  "Chamberlain|Garage Doors": {
+   "bands": {
+    "1_2m": 3,
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "CO": 1,
+    "IL": 2,
+    "FL": 1
+   }
+  },
+  "Christopher Peacock|Cabinets": {
+   "bands": {
+    "2_3.5m": 4,
+    "total": 10,
+    "5m_plus": 5,
+    "3.5_5m": 1
+   },
+   "states": {
+    "IL": 6,
+    "NY": 1,
+    "CT": 3
+   }
+  },
+  "Circa|Lighting": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 8,
+    "3.5_5m": 2,
+    "2_3.5m": 1,
+    "1_2m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "IL": 4,
+    "SC": 2
+   }
+  },
+  "Classy Closets|Closets": {
+   "bands": {
+    "1_2m": 4,
+    "total": 4
+   },
+   "states": {
+    "AZ": 4
+   }
+  },
+  "Clearlight|Sauna": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CO": 1,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "Cle|Tile": {
+   "bands": {
+    "total": 3,
+    "3.5_5m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "Clopay|Garage Doors": {
+   "bands": {
+    "under_1m": 1,
+    "total": 7,
+    "2_3.5m": 2,
+    "1_2m": 3
+   },
+   "states": {
+    "AZ": 1,
+    "GA": 1,
+    "TN": 2,
+    "FL": 3
+   }
+  },
+  "Closet Factory|Closets": {
+   "bands": {
+    "total": 4,
+    "under_1m": 1,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "CO": 2
+   }
+  },
+  "Closet Works|Closets": {
+   "bands": {
+    "under_1m": 4,
+    "total": 4
+   },
+   "states": {
+    "IL": 4
+   }
+  },
+  "Closet by Design|Closets": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 4,
+    "1_2m": 1
+   },
+   "states": {
+    "NC": 1,
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Closets By Design|Closets": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "CO": 1,
+    "MO": 1
+   }
+  },
+  "Closets Envy|Closets": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Closets by Design|Closets": {
+   "bands": {
+    "total": 8,
+    "under_1m": 4,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "TN": 2,
+    "FL": 5
+   }
+  },
+  "Control 4|Smart Home": {
+   "bands": {
+    "3.5_5m": 19,
+    "total": 99,
+    "5m_plus": 31,
+    "1_2m": 11,
+    "under_1m": 2,
+    "2_3.5m": 21
+   },
+   "states": {
+    "TX": 5,
+    "AZ": 15,
+    "FL": 24,
+    "GA": 4,
+    "NC": 2,
+    "TN": 1,
+    "CO": 5,
+    "CA": 24,
+    "NV": 3,
+    "IL": 12,
+    "SC": 1,
+    "CT": 1,
+    "KS": 2
+   }
+  },
+  "Control4|Smart Home": {
+   "bands": {
+    "2_3.5m": 88,
+    "total": 438,
+    "5m_plus": 114,
+    "3.5_5m": 73,
+    "under_1m": 31,
+    "1_2m": 55
+   },
+   "states": {
+    "TX": 53,
+    "CA": 94,
+    "AZ": 48,
+    "FL": 133,
+    "GA": 14,
+    "NC": 6,
+    "TN": 12,
+    "CO": 17,
+    "NV": 12,
+    "WA": 4,
+    "IL": 26,
+    "SC": 6,
+    "NY": 1,
+    "CT": 1,
+    "OH": 3,
+    "MO": 4,
+    "KS": 4
+   }
+  },
+  "Coretec|LVP": {
+   "bands": {
+    "under_1m": 3,
+    "total": 4,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Corian|Countertops": {
+   "bands": {
+    "total": 39,
+    "under_1m": 21,
+    "1_2m": 7,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1,
+    "FL": 18,
+    "CO": 3,
+    "NC": 1,
+    "CA": 2,
+    "NV": 4,
+    "WA": 1,
+    "MN": 2,
+    "NY": 1,
+    "MO": 4
+   }
+  },
+  "Cove|Appliances": {
+   "bands": {
+    "5m_plus": 36,
+    "total": 142,
+    "3.5_5m": 11,
+    "2_3.5m": 31,
+    "1_2m": 27,
+    "under_1m": 16
+   },
+   "states": {
+    "TX": 13,
+    "AZ": 40,
+    "FL": 27,
+    "GA": 12,
+    "NC": 7,
+    "TN": 4,
+    "CO": 7,
+    "CA": 3,
+    "NV": 1,
+    "WA": 2,
+    "MN": 3,
+    "IL": 15,
+    "SC": 4,
+    "NY": 2,
+    "KS": 2
+   }
+  },
+  "Coyote|Appliances": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 6,
+    "2_3.5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 4,
+    "NC": 1,
+    "FL": 1
+   }
+  },
+  "Coyote|Outdoor": {
+   "bands": {
+    "total": 34,
+    "5m_plus": 2,
+    "2_3.5m": 4,
+    "3.5_5m": 3,
+    "1_2m": 7,
+    "under_1m": 5
+   },
+   "states": {
+    "TX": 8,
+    "AZ": 1,
+    "FL": 20,
+    "NC": 4,
+    "NV": 1
+   }
+  },
+  "Cpi|Smart Home": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "NC": 2,
+    "SC": 1
+   }
+  },
+  "Crate & Barrel|Furniture": {
+   "bands": {
+    "1_2m": 2,
+    "total": 5,
+    "under_1m": 3
+   },
+   "states": {
+    "MN": 1,
+    "FL": 4
+   }
+  },
+  "Crate & Barrel|Lighting": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "CO": 1
+   }
+  },
+  "Creston|Smart Home": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "5m_plus": 2
+   },
+   "states": {
+    "AZ": 1,
+    "CA": 1,
+    "FL": 1
+   }
+  },
+  "Crestron|Lighting": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 4,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Crestron|Smart Home": {
+   "bands": {
+    "5m_plus": 90,
+    "total": 898,
+    "3.5_5m": 20,
+    "2_3.5m": 736,
+    "1_2m": 13,
+    "under_1m": 15
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 34,
+    "FL": 62,
+    "GA": 4,
+    "CO": 2,
+    "CA": 52,
+    "NV": 16,
+    "WA": 1,
+    "IL": 4,
+    "CT": 1,
+    "MA": 713,
+    "KS": 5,
+    "MO": 1
+   }
+  },
+  "Cristallo|Countertops": {
+   "bands": {
+    "total": 17,
+    "5m_plus": 10,
+    "2_3.5m": 1,
+    "1_2m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 10,
+    "CA": 4,
+    "NV": 1
+   }
+  },
+  "Crystallo|Countertops": {
+   "bands": {
+    "total": 4,
+    "2_3.5m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 2,
+    "FL": 1
+   }
+  },
+  "Crystal|Cabinets": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 5,
+    "under_1m": 2,
+    "5m_plus": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CO": 1,
+    "NC": 1,
+    "SC": 1,
+    "CA": 2
+   }
+  },
+  "Culligan|Water Treatment": {
+   "bands": {
+    "total": 52,
+    "under_1m": 19,
+    "2_3.5m": 8,
+    "1_2m": 12,
+    "3.5_5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 7,
+    "AZ": 1,
+    "FL": 35,
+    "CO": 2,
+    "NC": 2,
+    "CA": 1,
+    "NV": 1,
+    "KS": 2,
+    "MO": 1
+   }
+  },
+  "Cummins|Generators": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 4,
+    "1_2m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 2,
+    "MO": 1
+   }
+  },
+  "DaVinci|Fireplaces": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "2_3.5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "CA": 2,
+    "NV": 1
+   }
+  },
+  "DaVinci|Roofing": {
+   "bands": {
+    "total": 5,
+    "3.5_5m": 1,
+    "1_2m": 3
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "IL": 3
+   }
+  },
+  "Dacor|Appliances": {
+   "bands": {
+    "2_3.5m": 70,
+    "total": 319,
+    "3.5_5m": 22,
+    "1_2m": 94,
+    "under_1m": 53,
+    "5m_plus": 18
+   },
+   "states": {
+    "TX": 33,
+    "CA": 20,
+    "AZ": 26,
+    "FL": 76,
+    "GA": 15,
+    "TN": 7,
+    "CO": 27,
+    "NC": 19,
+    "NV": 5,
+    "WA": 4,
+    "MN": 1,
+    "IL": 47,
+    "SC": 16,
+    "NY": 1,
+    "OH": 3,
+    "MO": 8,
+    "KS": 11
+   }
+  },
+  "Dacor|Wine Storage": {
+   "bands": {
+    "total": 4,
+    "3.5_5m": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "FL": 3
+   }
+  },
+  "Daikin|HVAC": {
+   "bands": {
+    "under_1m": 11,
+    "total": 23,
+    "5m_plus": 2,
+    "1_2m": 4,
+    "2_3.5m": 3
+   },
+   "states": {
+    "AZ": 2,
+    "FL": 8,
+    "GA": 5,
+    "NC": 1,
+    "CA": 2,
+    "NV": 2,
+    "IL": 2,
+    "SC": 1
+   }
+  },
+  "Dana White|Cabinets": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Davinci|Roofing": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "IL": 3
+   }
+  },
+  "Dcs|Appliances": {
+   "bands": {
+    "total": 18,
+    "2_3.5m": 2,
+    "3.5_5m": 4,
+    "5m_plus": 1,
+    "under_1m": 3,
+    "1_2m": 5
+   },
+   "states": {
+    "TX": 3,
+    "FL": 8,
+    "NC": 1,
+    "WA": 1,
+    "IL": 2,
+    "NY": 1,
+    "OH": 2
+   }
+  },
+  "Dcs|Outdoor": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 9,
+    "5m_plus": 3,
+    "1_2m": 2,
+    "2_3.5m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 8,
+    "CO": 1
+   }
+  },
+  "Decor|Appliances": {
+   "bands": {
+    "total": 15,
+    "2_3.5m": 3,
+    "1_2m": 2,
+    "5m_plus": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 4,
+    "AZ": 2,
+    "FL": 3,
+    "CO": 1,
+    "WA": 1,
+    "IL": 2,
+    "KS": 1,
+    "MO": 1
+   }
+  },
+  "Deep Sentinel|Smart Home": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "5m_plus": 2
+   },
+   "states": {
+    "CO": 1,
+    "CA": 2
+   }
+  },
+  "Dekton|Countertops": {
+   "bands": {
+    "2_3.5m": 8,
+    "total": 47,
+    "5m_plus": 8,
+    "under_1m": 18,
+    "1_2m": 4
+   },
+   "states": {
+    "TX": 9,
+    "AZ": 2,
+    "FL": 23,
+    "GA": 3,
+    "CO": 1,
+    "NC": 2,
+    "CA": 4,
+    "NV": 1,
+    "WA": 1,
+    "NY": 1
+   }
+  },
+  "Delta Heat|Outdoor": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 4
+   },
+   "states": {
+    "FL": 3,
+    "TX": 1
+   }
+  },
+  "Delta|Hardware": {
+   "bands": {
+    "total": 5,
+    "2_3.5m": 2,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 4
+   }
+  },
+  "Delta|Plumbing": {
+   "bands": {
+    "total": 44,
+    "3.5_5m": 1,
+    "1_2m": 11,
+    "under_1m": 10,
+    "2_3.5m": 6
+   },
+   "states": {
+    "TX": 7,
+    "FL": 16,
+    "GA": 8,
+    "NC": 2,
+    "TN": 2,
+    "CO": 1,
+    "CA": 2,
+    "WA": 1,
+    "IL": 2,
+    "SC": 1,
+    "MO": 2
+   }
+  },
+  "Denon|Smart Home": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "3.5_5m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "NC": 1
+   }
+  },
+  "Dimplex|Fireplaces": {
+   "bands": {
+    "total": 9,
+    "1_2m": 5,
+    "2_3.5m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 7
+   }
+  },
+  "Doca|Cabinets": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 6,
+    "under_1m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CA": 3,
+    "FL": 2,
+    "NY": 1
+   }
+  },
+  "Dolby|Lighting": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "CA": 2
+   }
+  },
+  "Dolby|Smart Home": {
+   "bands": {
+    "total": 4,
+    "5m_plus": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 2
+   }
+  },
+  "DoorBird|Smart Home": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 4,
+    "2_3.5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "CA": 4
+   }
+  },
+  "Doorbird|Smart Home": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "CA": 1,
+    "IL": 2
+   }
+  },
+  "Dornbracht|Plumbing": {
+   "bands": {
+    "total": 20,
+    "2_3.5m": 2,
+    "5m_plus": 6,
+    "1_2m": 7,
+    "3.5_5m": 3
+   },
+   "states": {
+    "TX": 2,
+    "FL": 3,
+    "CA": 6,
+    "IL": 8,
+    "NY": 1
+   }
+  },
+  "DuChateau|Flooring": {
+   "bands": {
+    "2_3.5m": 4,
+    "total": 13,
+    "5m_plus": 5,
+    "3.5_5m": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "AZ": 4,
+    "FL": 5,
+    "CA": 4
+   }
+  },
+  "Dura Supreme|Cabinets": {
+   "bands": {
+    "under_1m": 1,
+    "total": 4,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 1,
+    "CO": 1,
+    "NC": 1,
+    "MO": 1
+   }
+  },
+  "Duravit|Plumbing": {
+   "bands": {
+    "under_1m": 2,
+    "total": 13,
+    "5m_plus": 5,
+    "2_3.5m": 4
+   },
+   "states": {
+    "FL": 7,
+    "GA": 1,
+    "CA": 3,
+    "IL": 2
+   }
+  },
+  "Duravit|Sinks": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "3.5_5m": 2
+   },
+   "states": {
+    "CO": 1,
+    "IL": 2
+   }
+  },
+  "DuxxBak|Outdoor": {
+   "bands": {
+    "total": 3
+   },
+   "states": {
+    "CO": 3
+   }
+  },
+  "EcoSmart|Fireplaces": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 4
+   },
+   "states": {
+    "IL": 2,
+    "SC": 1,
+    "NY": 1
+   }
+  },
+  "EcoWater|Water Treatment": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "CA": 1
+   }
+  },
+  "Ecobee|HVAC": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 19,
+    "1_2m": 4,
+    "under_1m": 4,
+    "3.5_5m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 4,
+    "GA": 1,
+    "FL": 5,
+    "NC": 2,
+    "CA": 2,
+    "IL": 2,
+    "SC": 1,
+    "KS": 2
+   }
+  },
+  "Ecobee|Smart Home": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 27,
+    "1_2m": 14,
+    "5m_plus": 1,
+    "under_1m": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 5,
+    "CA": 2,
+    "AZ": 2,
+    "FL": 5,
+    "CO": 4,
+    "NC": 1,
+    "IL": 6,
+    "SC": 1,
+    "MO": 1
+   }
+  },
+  "Eero|Smart Home": {
+   "bands": {
+    "under_1m": 3,
+    "total": 7,
+    "2_3.5m": 1,
+    "3.5_5m": 1,
+    "1_2m": 2
+   },
+   "states": {
+    "NC": 1,
+    "FL": 2,
+    "CO": 1,
+    "CA": 1,
+    "IL": 2
+   }
+  },
+  "Egg|Outdoor": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "FL": 1
+   }
+  },
+  "Elan|Smart Home": {
+   "bands": {
+    "3.5_5m": 3,
+    "total": 28,
+    "2_3.5m": 10,
+    "1_2m": 2,
+    "5m_plus": 4,
+    "under_1m": 4
+   },
+   "states": {
+    "CA": 3,
+    "TX": 2,
+    "FL": 8,
+    "IL": 10,
+    "KS": 3,
+    "AZ": 1,
+    "SC": 1
+   }
+  },
+  "Electrolux|Appliances": {
+   "bands": {
+    "total": 114,
+    "under_1m": 26,
+    "2_3.5m": 13,
+    "1_2m": 39,
+    "3.5_5m": 6,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 11,
+    "AZ": 2,
+    "FL": 32,
+    "NC": 29,
+    "TN": 5,
+    "CO": 6,
+    "CA": 4,
+    "NV": 5,
+    "WA": 8,
+    "MN": 4,
+    "IL": 2,
+    "SC": 1,
+    "NY": 1,
+    "CT": 1,
+    "OH": 2,
+    "KS": 1
+   }
+  },
+  "Elfa|Cabinets": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "GA": 2,
+    "IL": 1
+   }
+  },
+  "Elfa|Closets": {
+   "bands": {
+    "total": 24,
+    "1_2m": 11,
+    "under_1m": 8,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 4,
+    "AZ": 1,
+    "GA": 2,
+    "NC": 3,
+    "FL": 1,
+    "CO": 3,
+    "IL": 5,
+    "NY": 1,
+    "OH": 4
+   }
+  },
+  "Elkay|Plumbing": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "TN": 1,
+    "CO": 1,
+    "FL": 1,
+    "MO": 1
+   }
+  },
+  "Emtek|Hardware": {
+   "bands": {
+    "5m_plus": 5,
+    "total": 49,
+    "3.5_5m": 7,
+    "under_1m": 6,
+    "1_2m": 6,
+    "2_3.5m": 6
+   },
+   "states": {
+    "TX": 17,
+    "TN": 2,
+    "FL": 11,
+    "CO": 5,
+    "NC": 1,
+    "CA": 3,
+    "WA": 1,
+    "IL": 4,
+    "SC": 3
+   }
+  },
+  "Endless Pool|Pool": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "5m_plus": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 1,
+    "CA": 1,
+    "NY": 1
+   }
+  },
+  "Energy Star|Appliances": {
+   "bands": {
+    "under_1m": 6,
+    "total": 6
+   },
+   "states": {
+    "CA": 6
+   }
+  },
+  "Enphase|Smart Home": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "CO": 1,
+    "CA": 1
+   }
+  },
+  "Enphase|Solar": {
+   "bands": {
+    "total": 7,
+    "under_1m": 3,
+    "1_2m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 2,
+    "FL": 2,
+    "CO": 1,
+    "CA": 1
+   }
+  },
+  "Epco|Hardware": {
+   "bands": {
+    "total": 10
+   },
+   "states": {}
+  },
+  "Epson|Smart Home": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NV": 1,
+    "IL": 1
+   }
+  },
+  "Eufy|Smart Home": {
+   "bands": {
+    "1_2m": 3,
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "CA": 1,
+    "IL": 2,
+    "FL": 1
+   }
+  },
+  "EuroCave|Wine Storage": {
+   "bands": {
+    "total": 6,
+    "1_2m": 1,
+    "under_1m": 2,
+    "5m_plus": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "CO": 1,
+    "CA": 1,
+    "SC": 2
+   }
+  },
+  "Euroline|Doors": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 3
+   },
+   "states": {
+    "CA": 3
+   }
+  },
+  "Eurowall|Doors": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Evo|Appliances": {
+   "bands": {
+    "total": 4,
+    "1_2m": 1,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 1,
+    "FL": 2,
+    "CA": 1
+   }
+  },
+  "Evo|Outdoor": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 8,
+    "under_1m": 2,
+    "5m_plus": 1,
+    "1_2m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "NC": 2,
+    "NV": 1,
+    "FL": 2,
+    "KS": 1,
+    "SC": 1
+   }
+  },
+  "F-Wave|Roofing": {
+   "bands": {
+    "total": 4
+   },
+   "states": {
+    "GA": 4
+   }
+  },
+  "Fabuwood|Cabinets": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Fanimation|Lighting": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 3
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 2
+   }
+  },
+  "Farrow & Ball|Paint": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 6,
+    "1_2m": 3
+   },
+   "states": {
+    "FL": 1,
+    "CA": 3,
+    "IL": 2
+   }
+  },
+  "Farrow and Ball|Paint": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 4,
+    "1_2m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "IL": 2,
+    "SC": 1
+   }
+  },
+  "Ferguson|Distributor (review)": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 5,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "NC": 2,
+    "CA": 1,
+    "NV": 2
+   }
+  },
+  "Fire Magic|Outdoor": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 11,
+    "1_2m": 2,
+    "2_3.5m": 4,
+    "3.5_5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 8,
+    "TN": 2,
+    "CO": 1
+   }
+  },
+  "FireMagic|Appliances": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3
+   },
+   "states": {
+    "CA": 1,
+    "TX": 2
+   }
+  },
+  "FireMagic|Outdoor": {
+   "bands": {
+    "2_3.5m": 4,
+    "total": 4
+   },
+   "states": {
+    "FL": 1,
+    "SC": 3
+   }
+  },
+  "Fireclay|Tile": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "CA": 2
+   }
+  },
+  "Fisher & Paykel|Appliances": {
+   "bands": {
+    "2_3.5m": 28,
+    "total": 140,
+    "1_2m": 40,
+    "5m_plus": 5,
+    "under_1m": 27,
+    "3.5_5m": 13
+   },
+   "states": {
+    "TX": 14,
+    "AZ": 1,
+    "FL": 49,
+    "GA": 6,
+    "TN": 8,
+    "CO": 6,
+    "NC": 5,
+    "CA": 14,
+    "NV": 1,
+    "WA": 8,
+    "MN": 3,
+    "IL": 15,
+    "SC": 4,
+    "NY": 1,
+    "CT": 1,
+    "OH": 2,
+    "MO": 2
+   }
+  },
+  "Fisher Paykel|Appliances": {
+   "bands": {
+    "2_3.5m": 13,
+    "total": 32,
+    "5m_plus": 2,
+    "1_2m": 5,
+    "under_1m": 5,
+    "3.5_5m": 4
+   },
+   "states": {
+    "TX": 7,
+    "AZ": 1,
+    "GA": 1,
+    "TN": 2,
+    "CO": 1,
+    "NC": 1,
+    "WA": 1,
+    "FL": 9,
+    "IL": 7,
+    "CA": 1,
+    "KS": 1
+   }
+  },
+  "Fisher and Paykel|Appliances": {
+   "bands": {
+    "total": 6,
+    "under_1m": 2,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "FL": 2,
+    "WA": 1,
+    "NY": 1
+   }
+  },
+  "Fisher-Paykel|Appliances": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 2,
+    "IL": 1
+   }
+  },
+  "Five Star|Appliances": {
+   "bands": {
+    "under_1m": 4,
+    "total": 4
+   },
+   "states": {
+    "GA": 4
+   }
+  },
+  "Fleetwood|Doors": {
+   "bands": {
+    "5m_plus": 44,
+    "total": 95,
+    "1_2m": 7,
+    "2_3.5m": 21,
+    "3.5_5m": 16,
+    "under_1m": 3
+   },
+   "states": {
+    "CA": 87,
+    "TX": 2,
+    "AZ": 2,
+    "NV": 1,
+    "WA": 3
+   }
+  },
+  "Fleetwood|Windows": {
+   "bands": {
+    "total": 46,
+    "2_3.5m": 9,
+    "under_1m": 4,
+    "3.5_5m": 7,
+    "5m_plus": 17,
+    "1_2m": 4
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 4,
+    "CA": 38,
+    "WA": 1
+   }
+  },
+  "Flo by Moen|Water Treatment": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 2,
+    "GA": 1
+   }
+  },
+  "FlowWall|Garage Doors": {
+   "bands": {
+    "under_1m": 131,
+    "total": 131
+   },
+   "states": {
+    "OH": 131
+   }
+  },
+  "FlowWall|Hardware": {
+   "bands": {
+    "under_1m": 12,
+    "total": 12
+   },
+   "states": {
+    "OH": 12
+   }
+  },
+  "FlowWall|Other": {
+   "bands": {
+    "under_1m": 12,
+    "total": 12
+   },
+   "states": {
+    "OH": 12
+   }
+  },
+  "Forever Lawn|Outdoor": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Forno|Appliances": {
+   "bands": {
+    "total": 13,
+    "under_1m": 6,
+    "2_3.5m": 1,
+    "1_2m": 4
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 2,
+    "FL": 3,
+    "GA": 2,
+    "CA": 4
+   }
+  },
+  "Franke|Plumbing": {
+   "bands": {
+    "total": 4,
+    "5m_plus": 1,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 2
+   }
+  },
+  "Franke|Sinks": {
+   "bands": {
+    "under_1m": 1,
+    "total": 4,
+    "1_2m": 3
+   },
+   "states": {
+    "FL": 2,
+    "IL": 2
+   }
+  },
+  "Frigidaire|Appliances": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 48,
+    "under_1m": 11,
+    "1_2m": 15,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 8,
+    "AZ": 2,
+    "FL": 12,
+    "GA": 1,
+    "NC": 3,
+    "TN": 1,
+    "CO": 3,
+    "CA": 2,
+    "NV": 2,
+    "WA": 2,
+    "MN": 2,
+    "SC": 3,
+    "MO": 4,
+    "KS": 3
+   }
+  },
+  "Fulgor Milano|Appliances": {
+   "bands": {
+    "1_2m": 10,
+    "total": 26,
+    "under_1m": 8,
+    "2_3.5m": 5,
+    "5m_plus": 1
+   },
+   "states": {
+    "CA": 1,
+    "TX": 1,
+    "FL": 10,
+    "GA": 1,
+    "TN": 2,
+    "CO": 1,
+    "NC": 6,
+    "SC": 1,
+    "OH": 3
+   }
+  },
+  "Fulgor|Appliances": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Full Swing Golf|Smart Home": {
+   "bands": {
+    "5m_plus": 4,
+    "total": 4
+   },
+   "states": {
+    "CA": 2,
+    "SC": 2
+   }
+  },
+  "GE Cafe'|Appliances": {
+   "bands": {
+    "1_2m": 1,
+    "total": 7,
+    "under_1m": 1
+   },
+   "states": {
+    "CA": 1,
+    "FL": 1,
+    "MO": 5
+   }
+  },
+  "GE Cafe|Appliances": {
+   "bands": {
+    "total": 110,
+    "under_1m": 44,
+    "1_2m": 36,
+    "2_3.5m": 9,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 8,
+    "AZ": 6,
+    "GA": 3,
+    "FL": 66,
+    "CO": 3,
+    "NC": 3,
+    "CA": 2,
+    "NV": 1,
+    "SC": 7,
+    "NY": 1,
+    "OH": 3,
+    "KS": 3,
+    "MO": 4
+   }
+  },
+  "GE Caf|Appliances": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "GE Caf\u00e9|Appliances": {
+   "bands": {
+    "1_2m": 3,
+    "total": 14,
+    "under_1m": 8
+   },
+   "states": {
+    "FL": 14
+   }
+  },
+  "GE Monogram|Appliances": {
+   "bands": {
+    "2_3.5m": 52,
+    "total": 295,
+    "1_2m": 130,
+    "under_1m": 43,
+    "3.5_5m": 9,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 29,
+    "CA": 34,
+    "AZ": 35,
+    "FL": 118,
+    "GA": 7,
+    "NC": 14,
+    "TN": 2,
+    "CO": 3,
+    "NV": 12,
+    "WA": 2,
+    "IL": 6,
+    "SC": 10,
+    "NY": 6,
+    "OH": 2,
+    "KS": 11,
+    "MO": 4
+   }
+  },
+  "GE Profile|Appliances": {
+   "bands": {
+    "total": 104,
+    "under_1m": 43,
+    "2_3.5m": 5,
+    "1_2m": 39,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 11,
+    "FL": 57,
+    "GA": 3,
+    "NC": 9,
+    "TN": 1,
+    "CO": 2,
+    "CA": 3,
+    "NV": 3,
+    "IL": 2,
+    "SC": 4,
+    "NY": 1,
+    "MO": 2,
+    "KS": 3
+   }
+  },
+  "Gaf|Roofing": {
+   "bands": {
+    "total": 15,
+    "2_3.5m": 2,
+    "under_1m": 6,
+    "1_2m": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "GA": 1,
+    "FL": 8,
+    "IL": 2,
+    "SC": 1,
+    "NY": 1
+   }
+  },
+  "Gaggenau|Appliances": {
+   "bands": {
+    "5m_plus": 50,
+    "total": 169,
+    "2_3.5m": 26,
+    "3.5_5m": 18,
+    "1_2m": 15,
+    "under_1m": 24
+   },
+   "states": {
+    "TX": 28,
+    "CA": 33,
+    "AZ": 38,
+    "FL": 25,
+    "GA": 5,
+    "CO": 11,
+    "NV": 2,
+    "WA": 5,
+    "IL": 7,
+    "SC": 12,
+    "NY": 1,
+    "CT": 1,
+    "KS": 1
+   }
+  },
+  "Gaggenau|Wine Storage": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 4,
+    "2_3.5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "TN": 1,
+    "SC": 1,
+    "CA": 1
+   }
+  },
+  "Galley|Sinks": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NV": 1,
+    "FL": 1
+   }
+  },
+  "Generac|Generators": {
+   "bands": {
+    "total": 368,
+    "1_2m": 114,
+    "under_1m": 99,
+    "3.5_5m": 29,
+    "2_3.5m": 59,
+    "5m_plus": 11
+   },
+   "states": {
+    "TX": 41,
+    "AZ": 3,
+    "FL": 227,
+    "GA": 12,
+    "NC": 26,
+    "TN": 5,
+    "CO": 2,
+    "CA": 3,
+    "NV": 3,
+    "WA": 2,
+    "MN": 1,
+    "IL": 17,
+    "SC": 13,
+    "NY": 3,
+    "CT": 1,
+    "OH": 5,
+    "MO": 2,
+    "KS": 2
+   }
+  },
+  "Generac|HVAC": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 14,
+    "1_2m": 5,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 8,
+    "FL": 3,
+    "IL": 3
+   }
+  },
+  "Gessi|Plumbing": {
+   "bands": {
+    "total": 7,
+    "3.5_5m": 2,
+    "1_2m": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "CA": 4,
+    "IL": 1
+   }
+  },
+  "Ge|Appliances": {
+   "bands": {
+    "total": 301,
+    "1_2m": 112,
+    "under_1m": 106,
+    "2_3.5m": 24,
+    "5m_plus": 7,
+    "3.5_5m": 4
+   },
+   "states": {
+    "TX": 11,
+    "CA": 11,
+    "AZ": 24,
+    "FL": 164,
+    "GA": 3,
+    "NC": 11,
+    "TN": 9,
+    "CO": 7,
+    "NV": 6,
+    "MN": 1,
+    "IL": 12,
+    "SC": 12,
+    "NY": 6,
+    "OH": 5,
+    "KS": 13,
+    "MO": 6
+   }
+  },
+  "Gladiator|Other": {
+   "bands": {
+    "total": 4,
+    "under_1m": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 2,
+    "SC": 1
+   }
+  },
+  "Goodman|HVAC": {
+   "bands": {
+    "under_1m": 5,
+    "total": 5
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 2,
+    "NC": 2
+   }
+  },
+  "Google Nest|Smart Home": {
+   "bands": {
+    "total": 11,
+    "1_2m": 4,
+    "under_1m": 6
+   },
+   "states": {
+    "TX": 1,
+    "CO": 2,
+    "CA": 1,
+    "IL": 6,
+    "FL": 1
+   }
+  },
+  "Google|HVAC": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "NY": 1
+   }
+  },
+  "Google|Smart Home": {
+   "bands": {
+    "total": 62,
+    "2_3.5m": 15,
+    "1_2m": 15,
+    "under_1m": 13,
+    "5m_plus": 2,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 10,
+    "CA": 8,
+    "AZ": 2,
+    "FL": 14,
+    "GA": 1,
+    "TN": 4,
+    "CO": 2,
+    "NC": 4,
+    "WA": 2,
+    "MN": 2,
+    "IL": 8,
+    "SC": 2,
+    "CT": 1,
+    "KS": 2
+   }
+  },
+  "Graff|Plumbing": {
+   "bands": {
+    "3.5_5m": 3,
+    "total": 4,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CA": 2,
+    "IL": 2
+   }
+  },
+  "Grand Hudson Valley|Outdoor": {
+   "bands": {
+    "2_3.5m": 6,
+    "total": 6
+   },
+   "states": {
+    "IL": 6
+   }
+  },
+  "Green Egg|Outdoor": {
+   "bands": {
+    "total": 23,
+    "3.5_5m": 3,
+    "1_2m": 5,
+    "2_3.5m": 3,
+    "under_1m": 4
+   },
+   "states": {
+    "TX": 8,
+    "AZ": 2,
+    "GA": 2,
+    "TN": 1,
+    "FL": 5,
+    "NC": 1,
+    "CA": 2,
+    "SC": 2
+   }
+  },
+  "Grey Goose|Countertops": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 4
+   },
+   "states": {
+    "TX": 4
+   }
+  },
+  "Grohe|Plumbing": {
+   "bands": {
+    "total": 47,
+    "1_2m": 20,
+    "under_1m": 10,
+    "2_3.5m": 11,
+    "5m_plus": 1,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1,
+    "FL": 14,
+    "GA": 2,
+    "WA": 3,
+    "IL": 20,
+    "CA": 4,
+    "MO": 1
+   }
+  },
+  "Guardian|Garage Doors": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "GA": 1,
+    "TN": 1,
+    "FL": 1
+   }
+  },
+  "Guardian|Smart Home": {
+   "bands": {
+    "under_1m": 4,
+    "total": 4
+   },
+   "states": {
+    "TN": 1,
+    "FL": 2,
+    "NC": 1
+   }
+  },
+  "Halo|Lighting": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "3.5_5m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Halo|Smart Home": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "MN": 1
+   }
+  },
+  "Halo|Water Treatment": {
+   "bands": {
+    "1_2m": 5,
+    "total": 13,
+    "2_3.5m": 4,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 7,
+    "CA": 1,
+    "NV": 2,
+    "OH": 2,
+    "KS": 1
+   }
+  },
+  "Hans Grohe|Plumbing": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 1,
+    "CA": 1,
+    "MO": 1
+   }
+  },
+  "Hansgrohe Axor|Plumbing": {
+   "bands": {
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Hansgrohe|Plumbing": {
+   "bands": {
+    "total": 39,
+    "1_2m": 9,
+    "under_1m": 3,
+    "5m_plus": 7,
+    "3.5_5m": 9,
+    "2_3.5m": 5
+   },
+   "states": {
+    "TX": 3,
+    "FL": 15,
+    "CO": 1,
+    "CA": 10,
+    "WA": 1,
+    "IL": 8,
+    "NY": 1
+   }
+  },
+  "Har-Tru|Other": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Har-Tru|Outdoor": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 12,
+    "1_2m": 4,
+    "under_1m": 6,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 11,
+    "SC": 1
+   }
+  },
+  "HardiPlank|Siding": {
+   "bands": {
+    "1_2m": 2,
+    "total": 5,
+    "under_1m": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "CA": 1,
+    "FL": 1,
+    "SC": 1,
+    "NY": 2
+   }
+  },
+  "Hardie Board|Siding": {
+   "bands": {
+    "under_1m": 7,
+    "total": 23,
+    "3.5_5m": 2,
+    "1_2m": 10,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 14,
+    "IL": 7,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "HardiePlank|Siding": {
+   "bands": {
+    "under_1m": 7,
+    "total": 8,
+    "1_2m": 1
+   },
+   "states": {
+    "GA": 3,
+    "IL": 1,
+    "SC": 3,
+    "NY": 1
+   }
+  },
+  "Hardie|Siding": {
+   "bands": {
+    "1_2m": 90,
+    "total": 225,
+    "under_1m": 71,
+    "3.5_5m": 4,
+    "2_3.5m": 37,
+    "5m_plus": 1
+   },
+   "states": {
+    "GA": 9,
+    "NC": 2,
+    "TN": 2,
+    "FL": 108,
+    "CO": 1,
+    "CA": 2,
+    "WA": 1,
+    "MN": 4,
+    "IL": 73,
+    "SC": 11,
+    "NY": 4,
+    "CT": 1,
+    "MO": 7
+   }
+  },
+  "Hardiplank|Siding": {
+   "bands": {
+    "total": 11,
+    "1_2m": 4,
+    "under_1m": 3,
+    "3.5_5m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "FL": 1,
+    "NC": 1,
+    "SC": 2,
+    "NY": 4,
+    "CT": 1
+   }
+  },
+  "Hardi|Siding": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 5,
+    "under_1m": 1,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "SC": 3
+   }
+  },
+  "Hardy|Siding": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 7,
+    "1_2m": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 1,
+    "CA": 1,
+    "IL": 2,
+    "SC": 2,
+    "MO": 1
+   }
+  },
+  "Hayward|Pool": {
+   "bands": {
+    "total": 16,
+    "1_2m": 3,
+    "under_1m": 9,
+    "3.5_5m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 2,
+    "GA": 1,
+    "TN": 1,
+    "FL": 10,
+    "SC": 1
+   }
+  },
+  "Heat & Glo|Fireplaces": {
+   "bands": {
+    "total": 9,
+    "3.5_5m": 2,
+    "1_2m": 2,
+    "2_3.5m": 2,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 1,
+    "GA": 3,
+    "TN": 1,
+    "FL": 1,
+    "CO": 1,
+    "MN": 1,
+    "IL": 1
+   }
+  },
+  "Heatilator|Fireplaces": {
+   "bands": {
+    "total": 6,
+    "1_2m": 2,
+    "under_1m": 3
+   },
+   "states": {
+    "TX": 1,
+    "IL": 4,
+    "SC": 1
+   }
+  },
+  "Heos|Smart Home": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CA": 1,
+    "MN": 1,
+    "IL": 1
+   }
+  },
+  "Hestan|Appliances": {
+   "bands": {
+    "total": 11,
+    "3.5_5m": 3,
+    "1_2m": 1,
+    "5m_plus": 1,
+    "2_3.5m": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1,
+    "GA": 2,
+    "FL": 3,
+    "CO": 1,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "Hestan|Outdoor": {
+   "bands": {
+    "total": 11,
+    "5m_plus": 2,
+    "2_3.5m": 1,
+    "1_2m": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 2,
+    "FL": 3,
+    "CA": 1,
+    "WA": 2
+   }
+  },
+  "Heston|Outdoor": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "3.5_5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "GA": 1,
+    "FL": 1,
+    "CA": 1
+   }
+  },
+  "Hikvision|Smart Home": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "5m_plus": 3
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Hinkley|Lighting": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 4,
+    "under_1m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "NC": 2,
+    "SC": 1
+   }
+  },
+  "Homebound|Other": {
+   "bands": {
+    "total": 6
+   },
+   "states": {
+    "TX": 6
+   }
+  },
+  "Homes by Towne|Other": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 5,
+    "1_2m": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 5
+   }
+  },
+  "Honeywell|HVAC": {
+   "bands": {
+    "total": 26,
+    "under_1m": 8,
+    "1_2m": 9,
+    "3.5_5m": 1,
+    "2_3.5m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 2,
+    "GA": 3,
+    "FL": 8,
+    "CO": 3,
+    "NC": 1,
+    "CA": 1,
+    "WA": 1,
+    "MN": 1,
+    "IL": 1,
+    "SC": 1,
+    "NY": 1,
+    "KS": 3
+   }
+  },
+  "Honeywell|Smart Home": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 14,
+    "under_1m": 8,
+    "1_2m": 1,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 3,
+    "GA": 1,
+    "TN": 1,
+    "CO": 1,
+    "CA": 3,
+    "IL": 4,
+    "SC": 1
+   }
+  },
+  "Hope's Windows|Windows": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "5m_plus": 2
+   },
+   "states": {
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Hoshizaki|Appliances": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3
+   },
+   "states": {
+    "TN": 1,
+    "TX": 1,
+    "FL": 1
+   }
+  },
+  "Hubbardton Forge|Lighting": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 9,
+    "5m_plus": 2,
+    "under_1m": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 4,
+    "NC": 3,
+    "NY": 1
+   }
+  },
+  "Hudson Valley|Lighting": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 1,
+    "OH": 2
+   }
+  },
+  "Hue|Lighting": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TN": 1,
+    "FL": 2
+   }
+  },
+  "Hunter Douglas|Window Treatments": {
+   "bands": {
+    "2_3.5m": 31,
+    "total": 223,
+    "1_2m": 72,
+    "3.5_5m": 8,
+    "under_1m": 66,
+    "5m_plus": 4
+   },
+   "states": {
+    "TX": 20,
+    "FL": 75,
+    "IL": 32,
+    "CA": 7,
+    "AZ": 15,
+    "GA": 1,
+    "NC": 5,
+    "CO": 24,
+    "NV": 8,
+    "WA": 5,
+    "MN": 7,
+    "NY": 2,
+    "OH": 8,
+    "MO": 8,
+    "KS": 5,
+    "SC": 1
+   }
+  },
+  "Hunter|Lighting": {
+   "bands": {
+    "under_1m": 3,
+    "total": 4
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 3
+   }
+  },
+  "Hunter|Outdoor": {
+   "bands": {
+    "total": 5,
+    "under_1m": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "IL": 2,
+    "KS": 1
+   }
+  },
+  "Hunter|Smart Home": {
+   "bands": {
+    "total": 4
+   },
+   "states": {
+    "TX": 4
+   }
+  },
+  "Huntwood|Cabinets": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "3.5_5m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "WA": 4
+   }
+  },
+  "Iceberg|Countertops": {
+   "bands": {
+    "2_3.5m": 4,
+    "total": 4
+   },
+   "states": {
+    "IL": 4
+   }
+  },
+  "Icynene|Insulation": {
+   "bands": {
+    "3.5_5m": 7,
+    "total": 60,
+    "2_3.5m": 16,
+    "1_2m": 23,
+    "under_1m": 13
+   },
+   "states": {
+    "CA": 1,
+    "FL": 56,
+    "CO": 2,
+    "KS": 1
+   }
+  },
+  "Ikea|Closets": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "WA": 1,
+    "FL": 1,
+    "IL": 1
+   }
+  },
+  "Ilve|Appliances": {
+   "bands": {
+    "5m_plus": 5,
+    "total": 29,
+    "3.5_5m": 2,
+    "2_3.5m": 9,
+    "1_2m": 3,
+    "under_1m": 7
+   },
+   "states": {
+    "AZ": 3,
+    "FL": 9,
+    "CA": 4,
+    "WA": 2,
+    "MO": 1,
+    "GA": 4,
+    "NC": 3,
+    "NV": 2,
+    "SC": 1
+   }
+  },
+  "Inalco|Countertops": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 1,
+    "CA": 2
+   }
+  },
+  "Infinity Porcelain|Countertops": {
+   "bands": {
+    "3.5_5m": 3,
+    "total": 3
+   },
+   "states": {
+    "TX": 3
+   }
+  },
+  "Infratech|HVAC": {
+   "bands": {
+    "total": 4,
+    "1_2m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 2,
+    "WA": 1
+   }
+  },
+  "Infratech|Lighting": {
+   "bands": {
+    "total": 7,
+    "5m_plus": 2,
+    "under_1m": 2,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 3,
+    "CA": 1,
+    "WA": 1,
+    "FL": 1
+   }
+  },
+  "Infratech|Outdoor": {
+   "bands": {
+    "total": 17,
+    "2_3.5m": 5,
+    "1_2m": 3,
+    "under_1m": 4,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 3,
+    "NC": 10,
+    "WA": 3,
+    "MN": 1
+   }
+  },
+  "Inspired Closets|Closets": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TN": 1,
+    "FL": 2,
+    "CA": 1
+   }
+  },
+  "Invisible Fence|Outdoor": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "IL": 1,
+    "FL": 1,
+    "OH": 1
+   }
+  },
+  "Isokern|Fireplaces": {
+   "bands": {
+    "2_3.5m": 9,
+    "total": 45,
+    "1_2m": 7,
+    "3.5_5m": 7,
+    "under_1m": 4,
+    "5m_plus": 4
+   },
+   "states": {
+    "TX": 10,
+    "AZ": 5,
+    "GA": 2,
+    "NC": 9,
+    "CA": 1,
+    "FL": 15,
+    "SC": 3
+   }
+  },
+  "Isokern|Other": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 11,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 10
+   }
+  },
+  "Italian|Cabinets": {
+   "bands": {
+    "total": 4,
+    "5m_plus": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "CO": 1,
+    "CA": 1,
+    "WA": 1,
+    "MN": 1
+   }
+  },
+  "Italkraft|Cabinets": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 8,
+    "under_1m": 3,
+    "3.5_5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 8
+   }
+  },
+  "JELD-WEN|Doors": {
+   "bands": {
+    "total": 5,
+    "1_2m": 2,
+    "3.5_5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "FL": 2,
+    "CA": 1
+   }
+  },
+  "JELD-WEN|Windows": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 11,
+    "1_2m": 4,
+    "5m_plus": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 3,
+    "GA": 4,
+    "CA": 2,
+    "IL": 2
+   }
+  },
+  "Jacuzzi|Plumbing": {
+   "bands": {
+    "total": 39,
+    "under_1m": 10,
+    "1_2m": 11,
+    "2_3.5m": 3,
+    "3.5_5m": 6,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 6,
+    "AZ": 1,
+    "FL": 13,
+    "NC": 2,
+    "CO": 2,
+    "CA": 6,
+    "WA": 1,
+    "IL": 4,
+    "SC": 1,
+    "CT": 1,
+    "OH": 1,
+    "MO": 1
+   }
+  },
+  "Jacuzzi|Pool": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 2,
+    "TN": 1
+   }
+  },
+  "James Hardie|Siding": {
+   "bands": {
+    "2_3.5m": 18,
+    "total": 158,
+    "under_1m": 39,
+    "1_2m": 83
+   },
+   "states": {
+    "GA": 1,
+    "TN": 3,
+    "FL": 11,
+    "CA": 2,
+    "MN": 25,
+    "IL": 100,
+    "SC": 3,
+    "NY": 1,
+    "CT": 1,
+    "KS": 5,
+    "MO": 6
+   }
+  },
+  "Jandy|Pool": {
+   "bands": {
+    "under_1m": 7,
+    "total": 24,
+    "3.5_5m": 1,
+    "2_3.5m": 5,
+    "5m_plus": 1,
+    "1_2m": 6
+   },
+   "states": {
+    "FL": 18,
+    "CA": 5,
+    "SC": 1
+   }
+  },
+  "Jeld Wen|Windows": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 3,
+    "FL": 1
+   }
+  },
+  "Jellyfish|Lighting": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1
+   }
+  },
+  "Jenn Aire|Appliances": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Jenn Air|Appliances": {
+   "bands": {
+    "total": 66,
+    "2_3.5m": 10,
+    "3.5_5m": 2,
+    "1_2m": 31,
+    "under_1m": 7
+   },
+   "states": {
+    "TX": 12,
+    "FL": 21,
+    "GA": 3,
+    "TN": 4,
+    "CO": 1,
+    "NC": 5,
+    "NV": 1,
+    "IL": 15,
+    "SC": 1,
+    "NY": 1,
+    "OH": 1,
+    "MO": 1
+   }
+  },
+  "Jenn-Aire|Appliances": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "SC": 1,
+    "KS": 1
+   }
+  },
+  "JennAir|Appliances": {
+   "bands": {
+    "1_2m": 157,
+    "total": 450,
+    "3.5_5m": 9,
+    "2_3.5m": 70,
+    "under_1m": 54,
+    "5m_plus": 3
+   },
+   "states": {
+    "TX": 104,
+    "CA": 15,
+    "AZ": 4,
+    "FL": 115,
+    "GA": 37,
+    "NC": 45,
+    "TN": 25,
+    "CO": 30,
+    "NV": 9,
+    "WA": 8,
+    "MN": 5,
+    "IL": 20,
+    "SC": 13,
+    "CT": 1,
+    "OH": 14,
+    "MO": 4,
+    "KS": 1
+   }
+  },
+  "John Micheal|Cabinets": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 3
+   },
+   "states": {
+    "IL": 3
+   }
+  },
+  "John Richard|Lighting": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 4,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 3,
+    "GA": 1
+   }
+  },
+  "Jonathan Browning|Lighting": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1
+   }
+  },
+  "Josh AI|Smart Home": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 4,
+    "1_2m": 2
+   },
+   "states": {
+    "AZ": 2,
+    "FL": 2
+   }
+  },
+  "Julie Neill|Lighting": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 4,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 4
+   }
+  },
+  "Kalamazoo|Appliances": {
+   "bands": {
+    "total": 6,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 5,
+    "IL": 1
+   }
+  },
+  "Kalamazoo|Outdoor": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 4,
+    "5m_plus": 3
+   },
+   "states": {
+    "CO": 1,
+    "CA": 1,
+    "IL": 2
+   }
+  },
+  "Kallista|Plumbing": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 14,
+    "2_3.5m": 2,
+    "under_1m": 5,
+    "3.5_5m": 4
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1,
+    "GA": 1,
+    "FL": 2,
+    "IL": 6,
+    "SC": 2
+   }
+  },
+  "Kallista|Sinks": {
+   "bands": {
+    "5m_plus": 4,
+    "total": 4
+   },
+   "states": {
+    "AZ": 3,
+    "FL": 1
+   }
+  },
+  "Kamado Joe|Outdoor": {
+   "bands": {
+    "total": 7,
+    "under_1m": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "TX": 2,
+    "NC": 2,
+    "FL": 2,
+    "SC": 1
+   }
+  },
+  "Karastan|Carpet": {
+   "bands": {
+    "total": 4,
+    "under_1m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "WA": 1,
+    "SC": 1
+   }
+  },
+  "Karastan|Flooring": {
+   "bands": {
+    "total": 5,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 4,
+    "GA": 1
+   }
+  },
+  "Karpaty|Cabinets": {
+   "bands": {
+    "3.5_5m": 3,
+    "total": 3
+   },
+   "states": {
+    "GA": 3
+   }
+  },
+  "Kef|Lighting": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TN": 1,
+    "FL": 2
+   }
+  },
+  "Keith Zars|Pool": {
+   "bands": {
+    "total": 22
+   },
+   "states": {
+    "TX": 22
+   }
+  },
+  "Kelly Wearstler|Lighting": {
+   "bands": {
+    "5m_plus": 4,
+    "total": 13,
+    "2_3.5m": 5
+   },
+   "states": {
+    "TX": 4,
+    "FL": 5,
+    "NV": 1,
+    "IL": 2,
+    "SC": 1
+   }
+  },
+  "Kenmore Elite|Appliances": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 2,
+    "MN": 2
+   }
+  },
+  "Kent Moore|Cabinets": {
+   "bands": {
+    "total": 3
+   },
+   "states": {
+    "TX": 3
+   }
+  },
+  "Kentwood|Flooring": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3
+   },
+   "states": {
+    "CO": 1,
+    "TX": 1,
+    "WA": 1
+   }
+  },
+  "Ketra|Lighting": {
+   "bands": {
+    "total": 4,
+    "1_2m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 1,
+    "KS": 1
+   }
+  },
+  "Keurig|Appliances": {
+   "bands": {
+    "1_2m": 3,
+    "total": 5,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 4,
+    "CO": 1
+   }
+  },
+  "Kichler|Lighting": {
+   "bands": {
+    "total": 8,
+    "1_2m": 4
+   },
+   "states": {
+    "TX": 4,
+    "FL": 4
+   }
+  },
+  "Kinetico|Plumbing": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 30,
+    "under_1m": 1,
+    "1_2m": 28
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "OH": 28
+   }
+  },
+  "Kinetico|Water Treatment": {
+   "bands": {
+    "total": 155,
+    "2_3.5m": 6,
+    "5m_plus": 3,
+    "1_2m": 115,
+    "under_1m": 20,
+    "3.5_5m": 5
+   },
+   "states": {
+    "TX": 5,
+    "AZ": 6,
+    "FL": 37,
+    "TN": 2,
+    "CO": 1,
+    "NC": 11,
+    "SC": 2,
+    "OH": 91
+   }
+  },
+  "Kitchen Aide|Appliances": {
+   "bands": {
+    "total": 6,
+    "under_1m": 1,
+    "2_3.5m": 1,
+    "1_2m": 3
+   },
+   "states": {
+    "TX": 1,
+    "TN": 1,
+    "FL": 3,
+    "OH": 1
+   }
+  },
+  "Kitchen Aid|Appliances": {
+   "bands": {
+    "total": 76,
+    "1_2m": 19,
+    "under_1m": 29,
+    "3.5_5m": 3,
+    "5m_plus": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 15,
+    "CA": 4,
+    "AZ": 1,
+    "FL": 15,
+    "GA": 1,
+    "TN": 3,
+    "CO": 1,
+    "NC": 7,
+    "NV": 6,
+    "MN": 2,
+    "IL": 3,
+    "SC": 4,
+    "NY": 1,
+    "OH": 11,
+    "MO": 2
+   }
+  },
+  "Kitchen-Aid|Appliances": {
+   "bands": {
+    "total": 6,
+    "3.5_5m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 2,
+    "FL": 2,
+    "OH": 2
+   }
+  },
+  "KitchenAid|Appliances": {
+   "bands": {
+    "1_2m": 310,
+    "total": 1639,
+    "2_3.5m": 52,
+    "3.5_5m": 11,
+    "under_1m": 975,
+    "5m_plus": 9
+   },
+   "states": {
+    "TX": 158,
+    "CA": 49,
+    "AZ": 32,
+    "FL": 321,
+    "GA": 54,
+    "NC": 78,
+    "TN": 26,
+    "CO": 29,
+    "NV": 26,
+    "WA": 25,
+    "MN": 8,
+    "IL": 32,
+    "SC": 57,
+    "OH": 715,
+    "MO": 23,
+    "KS": 6
+   }
+  },
+  "KitchenAid|Outdoor": {
+   "bands": {
+    "total": 6,
+    "1_2m": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "IL": 3,
+    "FL": 2
+   }
+  },
+  "Kitchenaid|Appliances": {
+   "bands": {
+    "total": 26,
+    "under_1m": 5,
+    "1_2m": 11
+   },
+   "states": {
+    "TX": 8,
+    "GA": 2,
+    "NC": 3,
+    "TN": 1,
+    "FL": 10,
+    "NV": 2
+   }
+  },
+  "Klipsch|Lighting": {
+   "bands": {
+    "total": 12,
+    "2_3.5m": 2,
+    "1_2m": 2,
+    "3.5_5m": 1,
+    "under_1m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 2,
+    "NC": 1,
+    "CA": 2,
+    "NV": 2,
+    "WA": 2,
+    "FL": 2,
+    "MO": 1
+   }
+  },
+  "Kohler|Generators": {
+   "bands": {
+    "total": 62,
+    "3.5_5m": 10,
+    "2_3.5m": 12,
+    "5m_plus": 4,
+    "under_1m": 20,
+    "1_2m": 10
+   },
+   "states": {
+    "TX": 3,
+    "FL": 47,
+    "GA": 4,
+    "TN": 2,
+    "SC": 2,
+    "CT": 1,
+    "OH": 2,
+    "MO": 1
+   }
+  },
+  "Kohler|Hardware": {
+   "bands": {
+    "total": 6,
+    "under_1m": 1,
+    "2_3.5m": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 2,
+    "IL": 2
+   }
+  },
+  "Kohler|Plumbing": {
+   "bands": {
+    "total": 326,
+    "3.5_5m": 27,
+    "1_2m": 85,
+    "under_1m": 88,
+    "5m_plus": 14,
+    "2_3.5m": 61
+   },
+   "states": {
+    "TX": 19,
+    "AZ": 12,
+    "FL": 92,
+    "GA": 29,
+    "NC": 8,
+    "TN": 3,
+    "CO": 12,
+    "CA": 12,
+    "NV": 1,
+    "WA": 4,
+    "MN": 3,
+    "IL": 99,
+    "SC": 6,
+    "NY": 13,
+    "OH": 1,
+    "MO": 6,
+    "KS": 6
+   }
+  },
+  "Kohler|Sinks": {
+   "bands": {
+    "total": 61,
+    "5m_plus": 6,
+    "1_2m": 20,
+    "under_1m": 15,
+    "3.5_5m": 1,
+    "2_3.5m": 11
+   },
+   "states": {
+    "TX": 4,
+    "AZ": 8,
+    "FL": 25,
+    "GA": 4,
+    "TN": 1,
+    "CO": 3,
+    "NC": 2,
+    "CA": 1,
+    "WA": 1,
+    "IL": 7,
+    "SC": 1,
+    "NY": 1,
+    "MO": 3
+   }
+  },
+  "Kolbe|Windows": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 16,
+    "1_2m": 2,
+    "3.5_5m": 1,
+    "2_3.5m": 5,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 6,
+    "NC": 1,
+    "FL": 1,
+    "CO": 1,
+    "CA": 1,
+    "MN": 1,
+    "IL": 2,
+    "SC": 3
+   }
+  },
+  "KraftMaid|Cabinets": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 1,
+    "NC": 1,
+    "CA": 1
+   }
+  },
+  "Kraftmaid|Cabinets": {
+   "bands": {
+    "total": 5,
+    "1_2m": 2,
+    "under_1m": 2
+   },
+   "states": {
+    "NC": 1,
+    "OH": 4
+   }
+  },
+  "Kwikset|Hardware": {
+   "bands": {
+    "total": 5,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "FL": 1
+   }
+  },
+  "La Cantina|Doors": {
+   "bands": {
+    "5m_plus": 11,
+    "total": 36,
+    "1_2m": 4,
+    "2_3.5m": 10,
+    "3.5_5m": 6,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 4,
+    "CA": 24,
+    "FL": 4,
+    "CO": 1,
+    "IL": 2,
+    "NY": 1
+   }
+  },
+  "La Cantina|Windows": {
+   "bands": {
+    "total": 3,
+    "5m_plus": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "CA": 1
+   }
+  },
+  "La Cornue|Appliances": {
+   "bands": {
+    "5m_plus": 19,
+    "total": 72,
+    "1_2m": 12,
+    "3.5_5m": 7,
+    "2_3.5m": 25,
+    "under_1m": 4
+   },
+   "states": {
+    "TX": 8,
+    "AZ": 8,
+    "FL": 21,
+    "GA": 1,
+    "TN": 1,
+    "CO": 2,
+    "NC": 2,
+    "CA": 10,
+    "IL": 12,
+    "SC": 4,
+    "NY": 2,
+    "CT": 1
+   }
+  },
+  "LaCantina|Doors": {
+   "bands": {
+    "3.5_5m": 3,
+    "total": 12,
+    "5m_plus": 7,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CO": 2,
+    "TX": 1,
+    "CA": 3,
+    "WA": 6
+   }
+  },
+  "Lacanche|Appliances": {
+   "bands": {
+    "5m_plus": 10,
+    "total": 26,
+    "3.5_5m": 3,
+    "2_3.5m": 5,
+    "1_2m": 2,
+    "under_1m": 3
+   },
+   "states": {
+    "TX": 4,
+    "CA": 4,
+    "AZ": 2,
+    "GA": 1,
+    "FL": 3,
+    "CO": 2,
+    "NC": 1,
+    "WA": 1,
+    "MN": 1,
+    "IL": 2,
+    "SC": 2,
+    "OH": 3
+   }
+  },
+  "LaunchPort|Smart Home": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "MN": 3
+   }
+  },
+  "Le Cornue|Appliances": {
+   "bands": {
+    "total": 3,
+    "5m_plus": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "CO": 1
+   }
+  },
+  "LeafGuard|Gutters": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 2
+   }
+  },
+  "LeafGuard|Roofing": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "GA": 1,
+    "IL": 2
+   }
+  },
+  "Lefroy Brooks|Plumbing": {
+   "bands": {
+    "1_2m": 2,
+    "total": 5,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 1,
+    "IL": 2,
+    "NY": 1,
+    "CT": 1
+   }
+  },
+  "Legno Bastone|Flooring": {
+   "bands": {
+    "2_3.5m": 4,
+    "total": 16,
+    "1_2m": 1,
+    "5m_plus": 8,
+    "under_1m": 3
+   },
+   "states": {
+    "FL": 16
+   }
+  },
+  "Leicht|Cabinets": {
+   "bands": {
+    "total": 6,
+    "5m_plus": 2,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 2,
+    "WA": 1,
+    "CA": 1,
+    "NY": 2
+   }
+  },
+  "Lennox|HVAC": {
+   "bands": {
+    "2_3.5m": 5,
+    "total": 68,
+    "1_2m": 14,
+    "under_1m": 20,
+    "3.5_5m": 2,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 13,
+    "AZ": 6,
+    "FL": 25,
+    "TN": 1,
+    "CO": 2,
+    "NC": 2,
+    "WA": 1,
+    "MN": 1,
+    "IL": 2,
+    "SC": 4,
+    "OH": 2,
+    "MO": 7,
+    "KS": 2
+   }
+  },
+  "Leviton|Hardware": {
+   "bands": {
+    "under_1m": 3,
+    "total": 3
+   },
+   "states": {
+    "WA": 1,
+    "FL": 2
+   }
+  },
+  "Leviton|Smart Home": {
+   "bands": {
+    "1_2m": 2,
+    "total": 9,
+    "5m_plus": 2,
+    "under_1m": 1,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 4,
+    "NV": 1,
+    "IL": 1,
+    "CA": 1,
+    "KS": 1
+   }
+  },
+  "Lg|Appliances": {
+   "bands": {
+    "1_2m": 96,
+    "total": 230,
+    "under_1m": 82,
+    "3.5_5m": 4,
+    "2_3.5m": 18
+   },
+   "states": {
+    "TX": 15,
+    "CA": 24,
+    "AZ": 5,
+    "FL": 95,
+    "GA": 2,
+    "NC": 15,
+    "TN": 7,
+    "CO": 3,
+    "NV": 3,
+    "WA": 1,
+    "MN": 1,
+    "IL": 33,
+    "SC": 10,
+    "NY": 7,
+    "OH": 3,
+    "KS": 4,
+    "MO": 2
+   }
+  },
+  "Lg|Closets": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "WA": 1
+   }
+  },
+  "Lg|Other": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 1,
+    "OH": 2
+   }
+  },
+  "Lg|Smart Home": {
+   "bands": {
+    "under_1m": 3,
+    "total": 5,
+    "1_2m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 3,
+    "CA": 1,
+    "IL": 1
+   }
+  },
+  "Liebherr|Appliances": {
+   "bands": {
+    "total": 22,
+    "3.5_5m": 2,
+    "under_1m": 1,
+    "2_3.5m": 5,
+    "5m_plus": 1,
+    "1_2m": 5
+   },
+   "states": {
+    "TX": 4,
+    "FL": 12,
+    "WA": 3,
+    "CA": 3
+   }
+  },
+  "Liebherr|Wine Storage": {
+   "bands": {
+    "total": 3
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1
+   }
+  },
+  "LiftMaster|Garage Doors": {
+   "bands": {
+    "total": 7,
+    "1_2m": 4,
+    "under_1m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 5,
+    "CT": 1
+   }
+  },
+  "Lincoln|Doors": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CA": 2,
+    "TX": 2,
+    "NC": 1
+   }
+  },
+  "Lincoln|Windows": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 15,
+    "3.5_5m": 1,
+    "2_3.5m": 3
+   },
+   "states": {
+    "TX": 12,
+    "GA": 1,
+    "NC": 1,
+    "CA": 1
+   }
+  },
+  "Lion|Outdoor": {
+   "bands": {
+    "total": 4,
+    "1_2m": 1,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Loewen|Windows": {
+   "bands": {
+    "2_3.5m": 6,
+    "total": 7,
+    "1_2m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 2,
+    "CA": 1,
+    "WA": 1,
+    "MN": 2
+   }
+  },
+  "Logan|Doors": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "London & Bosh|Cabinets": {
+   "bands": {
+    "total": 4
+   },
+   "states": {
+    "TX": 4
+   }
+  },
+  "Lorex|Smart Home": {
+   "bands": {
+    "total": 8,
+    "3.5_5m": 1,
+    "under_1m": 2,
+    "2_3.5m": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 2,
+    "GA": 1,
+    "TN": 1,
+    "FL": 1,
+    "CA": 2,
+    "WA": 1
+   }
+  },
+  "Louis Poulsen|Lighting": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "5m_plus": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 1,
+    "CA": 1,
+    "MN": 1
+   }
+  },
+  "Lp|Siding": {
+   "bands": {
+    "under_1m": 4,
+    "total": 20,
+    "1_2m": 10,
+    "2_3.5m": 2
+   },
+   "states": {
+    "NC": 1,
+    "MN": 10,
+    "IL": 4,
+    "FL": 1,
+    "MO": 4
+   }
+  },
+  "Ludowici|Roofing": {
+   "bands": {
+    "total": 6,
+    "under_1m": 2,
+    "5m_plus": 3
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "TN": 2,
+    "FL": 1,
+    "CO": 1
+   }
+  },
+  "Luma|Smart Home": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "2_3.5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 2
+   }
+  },
+  "Lutron|Hardware": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 7,
+    "2_3.5m": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 2,
+    "CA": 1,
+    "NV": 1,
+    "WA": 1,
+    "CT": 1,
+    "MO": 1
+   }
+  },
+  "Lutron|Lighting": {
+   "bands": {
+    "5m_plus": 75,
+    "total": 345,
+    "3.5_5m": 39,
+    "1_2m": 53,
+    "2_3.5m": 77,
+    "under_1m": 33
+   },
+   "states": {
+    "TX": 47,
+    "CA": 54,
+    "AZ": 22,
+    "FL": 120,
+    "GA": 15,
+    "NC": 7,
+    "TN": 6,
+    "CO": 15,
+    "NV": 5,
+    "WA": 7,
+    "MN": 6,
+    "IL": 20,
+    "SC": 2,
+    "NY": 4,
+    "CT": 5,
+    "MO": 4,
+    "KS": 6
+   }
+  },
+  "Lutron|Smart Home": {
+   "bands": {
+    "5m_plus": 40,
+    "total": 164,
+    "3.5_5m": 14,
+    "2_3.5m": 28,
+    "under_1m": 27,
+    "1_2m": 25
+   },
+   "states": {
+    "TX": 22,
+    "AZ": 14,
+    "FL": 55,
+    "GA": 6,
+    "TN": 2,
+    "CO": 5,
+    "NC": 5,
+    "CA": 16,
+    "NV": 1,
+    "WA": 9,
+    "MN": 1,
+    "IL": 18,
+    "SC": 2,
+    "NY": 3,
+    "CT": 1,
+    "MO": 2,
+    "KS": 2
+   }
+  },
+  "Lutron|Windows": {
+   "bands": {
+    "total": 10,
+    "3.5_5m": 1,
+    "2_3.5m": 2,
+    "1_2m": 2,
+    "under_1m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 3,
+    "GA": 1,
+    "NC": 1,
+    "CA": 1,
+    "IL": 1,
+    "SC": 1
+   }
+  },
+  "Lynx|Appliances": {
+   "bands": {
+    "total": 15,
+    "under_1m": 2,
+    "1_2m": 2,
+    "3.5_5m": 4,
+    "2_3.5m": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 1,
+    "NC": 2,
+    "FL": 5,
+    "CA": 4
+   }
+  },
+  "Lynx|Outdoor": {
+   "bands": {
+    "total": 49,
+    "5m_plus": 8,
+    "2_3.5m": 10,
+    "3.5_5m": 7,
+    "under_1m": 10,
+    "1_2m": 10
+   },
+   "states": {
+    "TX": 4,
+    "FL": 20,
+    "GA": 1,
+    "NC": 2,
+    "CO": 5,
+    "CA": 5,
+    "MN": 1,
+    "IL": 4,
+    "SC": 3,
+    "NY": 1,
+    "CT": 1,
+    "OH": 2
+   }
+  },
+  "Marvel|Appliances": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 11,
+    "3.5_5m": 1,
+    "1_2m": 3,
+    "under_1m": 4
+   },
+   "states": {
+    "GA": 1,
+    "FL": 5,
+    "TX": 2,
+    "IL": 3
+   }
+  },
+  "Marvin|Doors": {
+   "bands": {
+    "total": 31,
+    "5m_plus": 5,
+    "2_3.5m": 7,
+    "under_1m": 3,
+    "3.5_5m": 4,
+    "1_2m": 2
+   },
+   "states": {
+    "TX": 3,
+    "FL": 4,
+    "GA": 2,
+    "TN": 4,
+    "CO": 1,
+    "CA": 2,
+    "MN": 2,
+    "IL": 7,
+    "NY": 2,
+    "CT": 2,
+    "KS": 1,
+    "MO": 1
+   }
+  },
+  "Marvin|Windows": {
+   "bands": {
+    "2_3.5m": 18,
+    "total": 149,
+    "3.5_5m": 11,
+    "5m_plus": 13,
+    "1_2m": 32,
+    "under_1m": 30
+   },
+   "states": {
+    "TX": 28,
+    "FL": 7,
+    "GA": 6,
+    "NC": 5,
+    "TN": 9,
+    "CO": 9,
+    "CA": 9,
+    "MN": 22,
+    "IL": 12,
+    "SC": 1,
+    "NY": 14,
+    "CT": 6,
+    "OH": 15,
+    "KS": 2,
+    "MO": 4
+   }
+  },
+  "Masonite|Doors": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "TN": 1,
+    "FL": 2
+   }
+  },
+  "Matarazzo|Countertops": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 6,
+    "under_1m": 1
+   },
+   "states": {
+    "CO": 6
+   }
+  },
+  "Maytag|Appliances": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 23,
+    "under_1m": 16,
+    "1_2m": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 16,
+    "GA": 1,
+    "CO": 1,
+    "CA": 2,
+    "MN": 1,
+    "IL": 1,
+    "MO": 1
+   }
+  },
+  "Medallion Collection|Flooring": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 4,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Memphis|Outdoor": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1
+   }
+  },
+  "Mendota|Fireplaces": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "2_3.5m": 2
+   },
+   "states": {
+    "CO": 1,
+    "SC": 1,
+    "OH": 1,
+    "KS": 1
+   }
+  },
+  "Merillat|Cabinets": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "NC": 1,
+    "FL": 2
+   }
+  },
+  "Mia Cucina|Cabinets": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 7,
+    "1_2m": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 7
+   }
+  },
+  "Michael Edwards|Cabinets": {
+   "bands": {
+    "total": 9
+   },
+   "states": {
+    "TX": 9
+   }
+  },
+  "Miele|Appliances": {
+   "bands": {
+    "5m_plus": 227,
+    "total": 2774,
+    "2_3.5m": 1811,
+    "1_2m": 337,
+    "3.5_5m": 160,
+    "under_1m": 94
+   },
+   "states": {
+    "TX": 122,
+    "CA": 226,
+    "AZ": 55,
+    "FL": 275,
+    "GA": 43,
+    "NC": 48,
+    "TN": 11,
+    "CO": 71,
+    "NV": 5,
+    "WA": 29,
+    "MN": 9,
+    "IL": 130,
+    "SC": 18,
+    "NY": 16,
+    "CT": 2,
+    "MA": 1556,
+    "OH": 153,
+    "MO": 2,
+    "KS": 3
+   }
+  },
+  "Milgard|Doors": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "3.5_5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "CA": 3
+   }
+  },
+  "Milgard|Windows": {
+   "bands": {
+    "total": 20,
+    "2_3.5m": 2,
+    "1_2m": 9,
+    "under_1m": 5
+   },
+   "states": {
+    "TX": 3,
+    "CA": 8,
+    "AZ": 5,
+    "WA": 2,
+    "MN": 2
+   }
+  },
+  "Minka Aire|Lighting": {
+   "bands": {
+    "1_2m": 1,
+    "total": 5,
+    "2_3.5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3,
+    "MO": 2
+   }
+  },
+  "Minotti|Furniture": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "5m_plus": 2
+   },
+   "states": {
+    "FL": 2,
+    "CA": 1
+   }
+  },
+  "Mirage|Flooring": {
+   "bands": {
+    "total": 4,
+    "under_1m": 1,
+    "2_3.5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "GA": 1,
+    "WA": 2,
+    "CA": 1
+   }
+  },
+  "Mitsubishi|HVAC": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 17,
+    "under_1m": 4,
+    "1_2m": 5,
+    "5m_plus": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 4,
+    "TN": 1,
+    "CO": 2,
+    "TX": 2,
+    "CA": 1,
+    "WA": 3,
+    "IL": 2,
+    "NY": 2
+   }
+  },
+  "Modern Flame|Fireplaces": {
+   "bands": {
+    "2_3.5m": 4,
+    "total": 4
+   },
+   "states": {
+    "AZ": 4
+   }
+  },
+  "Moen|Hardware": {
+   "bands": {
+    "total": 11,
+    "2_3.5m": 2,
+    "1_2m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "GA": 7,
+    "NC": 1,
+    "IL": 1,
+    "FL": 1,
+    "SC": 1
+   }
+  },
+  "Moen|Plumbing": {
+   "bands": {
+    "total": 68,
+    "1_2m": 17,
+    "2_3.5m": 10,
+    "under_1m": 26,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 6,
+    "AZ": 2,
+    "FL": 39,
+    "GA": 6,
+    "TN": 1,
+    "NC": 1,
+    "CA": 5,
+    "NV": 1,
+    "WA": 2,
+    "IL": 3,
+    "SC": 1,
+    "MO": 1
+   }
+  },
+  "Moen|Water Treatment": {
+   "bands": {
+    "total": 8,
+    "1_2m": 3,
+    "under_1m": 2,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "FL": 4,
+    "NC": 1,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "Mohawk|Flooring": {
+   "bands": {
+    "under_1m": 6,
+    "total": 7,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 7
+   }
+  },
+  "Mohawk|LVP": {
+   "bands": {
+    "total": 5,
+    "under_1m": 4
+   },
+   "states": {
+    "FL": 4,
+    "NC": 1
+   }
+  },
+  "Monogram|Appliances": {
+   "bands": {
+    "2_3.5m": 52,
+    "total": 296,
+    "5m_plus": 4,
+    "1_2m": 110,
+    "under_1m": 54,
+    "3.5_5m": 5
+   },
+   "states": {
+    "TX": 44,
+    "AZ": 39,
+    "FL": 94,
+    "GA": 3,
+    "NC": 28,
+    "TN": 7,
+    "CO": 21,
+    "CA": 11,
+    "NV": 22,
+    "WA": 1,
+    "MN": 3,
+    "IL": 12,
+    "SC": 3,
+    "NY": 2,
+    "MO": 4,
+    "KS": 2
+   }
+  },
+  "Mont Alpi|Outdoor": {
+   "bands": {
+    "total": 3,
+    "5m_plus": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "CA": 1,
+    "FL": 1
+   }
+  },
+  "Mont Blanc|Countertops": {
+   "bands": {
+    "total": 8,
+    "under_1m": 3
+   },
+   "states": {
+    "TX": 5,
+    "AZ": 1,
+    "TN": 1,
+    "CO": 1
+   }
+  },
+  "Montigo|Fireplaces": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "CA": 2
+   }
+  },
+  "Moooi|Lighting": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "NV": 1
+   }
+  },
+  "Mosquito Nix|Outdoor": {
+   "bands": {
+    "total": 4,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 2,
+    "FL": 2
+   }
+  },
+  "Mr. Steam|Plumbing": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 4,
+    "2_3.5m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "CA": 2,
+    "FL": 1
+   }
+  },
+  "Msi|Countertops": {
+   "bands": {
+    "1_2m": 4,
+    "total": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CA": 5
+   }
+  },
+  "Murano|Lighting": {
+   "bands": {
+    "total": 9,
+    "2_3.5m": 2,
+    "5m_plus": 2,
+    "1_2m": 1,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 2,
+    "FL": 3,
+    "GA": 1,
+    "CA": 2,
+    "IL": 1
+   }
+  },
+  "MyQ|Garage Doors": {
+   "bands": {
+    "total": 7,
+    "1_2m": 3,
+    "2_3.5m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 1,
+    "GA": 2,
+    "FL": 4
+   }
+  },
+  "MyQ|Smart Home": {
+   "bands": {
+    "total": 11,
+    "2_3.5m": 2,
+    "under_1m": 2,
+    "3.5_5m": 1,
+    "1_2m": 3
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 1,
+    "FL": 5,
+    "CA": 2
+   }
+  },
+  "NanaWall|Doors": {
+   "bands": {
+    "1_2m": 4,
+    "total": 22,
+    "3.5_5m": 4,
+    "5m_plus": 4,
+    "2_3.5m": 9
+   },
+   "states": {
+    "FL": 5,
+    "GA": 1,
+    "CO": 7,
+    "WA": 3,
+    "IL": 3,
+    "SC": 1,
+    "CA": 2
+   }
+  },
+  "NanaWall|Other": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 5,
+    "5m_plus": 1,
+    "3.5_5m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "CO": 1,
+    "WA": 1,
+    "IL": 1,
+    "OH": 2
+   }
+  },
+  "NanaWall|Windows": {
+   "bands": {
+    "total": 4,
+    "5m_plus": 1,
+    "2_3.5m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "NC": 1,
+    "WA": 1,
+    "IL": 2
+   }
+  },
+  "Nanawall|Doors": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "CO": 2,
+    "WA": 1
+   }
+  },
+  "Nana|Doors": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 6,
+    "2_3.5m": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "CO": 2,
+    "WA": 1,
+    "IL": 2,
+    "CA": 1
+   }
+  },
+  "Nano Wall|Windows": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CO": 3
+   }
+  },
+  "Nano|Doors": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 4,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 1,
+    "CO": 2,
+    "CT": 1
+   }
+  },
+  "Napa|Cabinets": {
+   "bands": {
+    "1_2m": 4,
+    "total": 4
+   },
+   "states": {
+    "AZ": 2,
+    "FL": 2
+   }
+  },
+  "Napoleon|Outdoor": {
+   "bands": {
+    "1_2m": 4,
+    "total": 6,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 3,
+    "CO": 1,
+    "MO": 1
+   }
+  },
+  "Native Trails|Sinks": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "IL": 1,
+    "FL": 2
+   }
+  },
+  "NatureKast|Cabinets": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "CA": 1,
+    "FL": 2
+   }
+  },
+  "Navien|Water Heaters": {
+   "bands": {
+    "total": 29,
+    "1_2m": 9,
+    "2_3.5m": 2,
+    "under_1m": 8,
+    "5m_plus": 1,
+    "3.5_5m": 3
+   },
+   "states": {
+    "TX": 5,
+    "AZ": 1,
+    "FL": 11,
+    "GA": 2,
+    "NC": 2,
+    "CO": 1,
+    "CA": 1,
+    "SC": 3,
+    "NY": 2,
+    "MO": 1
+   }
+  },
+  "Neolith|Countertops": {
+   "bands": {
+    "total": 18,
+    "1_2m": 7,
+    "5m_plus": 6,
+    "3.5_5m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 4,
+    "FL": 2,
+    "CO": 2,
+    "CA": 7
+   }
+  },
+  "Neptune|Outdoor": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 5,
+    "2_3.5m": 1,
+    "5m_plus": 2
+   },
+   "states": {
+    "FL": 5
+   }
+  },
+  "Nest|HVAC": {
+   "bands": {
+    "5m_plus": 9,
+    "total": 101,
+    "2_3.5m": 13,
+    "1_2m": 31,
+    "under_1m": 26,
+    "3.5_5m": 9
+   },
+   "states": {
+    "TX": 8,
+    "CA": 23,
+    "FL": 17,
+    "GA": 3,
+    "NC": 6,
+    "TN": 5,
+    "CO": 6,
+    "WA": 1,
+    "MN": 2,
+    "IL": 19,
+    "SC": 1,
+    "NY": 4,
+    "MO": 2,
+    "KS": 3,
+    "CT": 1
+   }
+  },
+  "Nest|Smart Home": {
+   "bands": {
+    "total": 519,
+    "2_3.5m": 25,
+    "1_2m": 71,
+    "under_1m": 374,
+    "5m_plus": 6,
+    "3.5_5m": 9
+   },
+   "states": {
+    "TX": 20,
+    "CA": 44,
+    "AZ": 8,
+    "FL": 49,
+    "GA": 5,
+    "NC": 16,
+    "TN": 2,
+    "CO": 10,
+    "NV": 1,
+    "WA": 4,
+    "MN": 1,
+    "IL": 25,
+    "SC": 1,
+    "NY": 3,
+    "CT": 1,
+    "OH": 320,
+    "MO": 4,
+    "KS": 5
+   }
+  },
+  "Newport Brass|Plumbing": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 6,
+    "1_2m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "GA": 1,
+    "FL": 2,
+    "CA": 1
+   }
+  },
+  "Nice|Smart Home": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Nichiha|Siding": {
+   "bands": {
+    "total": 5,
+    "under_1m": 1,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 1,
+    "CO": 2,
+    "SC": 1,
+    "KS": 1
+   }
+  },
+  "Niles|Smart Home": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "OH": 2
+   }
+  },
+  "Noritz|Water Heaters": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "CA": 1
+   }
+  },
+  "NuCedar|Siding": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "SC": 3
+   }
+  },
+  "Nugget|Appliances": {
+   "bands": {
+    "total": 5,
+    "2_3.5m": 1,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1,
+    "NY": 2
+   }
+  },
+  "O'Brien Harris|Cabinets": {
+   "bands": {
+    "5m_plus": 5,
+    "total": 8,
+    "3.5_5m": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "IL": 8
+   }
+  },
+  "Omega|Cabinets": {
+   "bands": {
+    "under_1m": 2,
+    "total": 9,
+    "1_2m": 2,
+    "3.5_5m": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "NC": 1,
+    "IL": 2,
+    "FL": 2,
+    "CA": 2,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "Opus|Cabinets": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TN": 3
+   }
+  },
+  "Orchard Hill|Cabinets": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4
+   },
+   "states": {
+    "IL": 4
+   }
+  },
+  "Ore|Outdoor": {
+   "bands": {
+    "5m_plus": 6,
+    "total": 6
+   },
+   "states": {
+    "IL": 6
+   }
+  },
+  "Origin|Doors": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 4
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Owens Corning|Insulation": {
+   "bands": {
+    "under_1m": 4,
+    "total": 4
+   },
+   "states": {
+    "OH": 4
+   }
+  },
+  "Owens Corning|Roofing": {
+   "bands": {
+    "total": 7,
+    "1_2m": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 3,
+    "FL": 3,
+    "MN": 1
+   }
+  },
+  "Paradise Grills|Outdoor": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Paradise Grill|Outdoor": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Paramount|Pool": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 1,
+    "SC": 1
+   }
+  },
+  "Pavestone|Outdoor": {
+   "bands": {
+    "total": 8,
+    "1_2m": 4
+   },
+   "states": {
+    "TX": 2,
+    "NC": 4,
+    "KS": 2
+   }
+  },
+  "Pebble Sheen|Pool": {
+   "bands": {
+    "total": 5,
+    "2_3.5m": 1,
+    "under_1m": 2,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 3,
+    "FL": 1
+   }
+  },
+  "Pebble Tech|Other": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "5m_plus": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CA": 2,
+    "AZ": 1
+   }
+  },
+  "Pebble Tech|Pool": {
+   "bands": {
+    "total": 26,
+    "5m_plus": 2,
+    "1_2m": 7,
+    "2_3.5m": 2,
+    "3.5_5m": 2,
+    "under_1m": 5
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 9,
+    "GA": 2,
+    "FL": 5,
+    "CA": 1,
+    "NV": 7,
+    "MO": 1
+   }
+  },
+  "Pebble Tec|Pool": {
+   "bands": {
+    "1_2m": 29,
+    "total": 89,
+    "3.5_5m": 3,
+    "2_3.5m": 16,
+    "under_1m": 21,
+    "5m_plus": 7
+   },
+   "states": {
+    "CA": 8,
+    "TX": 1,
+    "AZ": 31,
+    "GA": 16,
+    "NC": 1,
+    "FL": 21,
+    "NV": 9,
+    "MO": 2
+   }
+  },
+  "Pebble-Tec|Pool": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "3.5_5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "AZ": 3
+   }
+  },
+  "PebbleTec|Pool": {
+   "bands": {
+    "total": 75,
+    "2_3.5m": 14,
+    "1_2m": 27,
+    "under_1m": 19,
+    "3.5_5m": 5,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 4,
+    "AZ": 14,
+    "GA": 9,
+    "NC": 2,
+    "FL": 34,
+    "CA": 5,
+    "NV": 5,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "Pebbletec|Pool": {
+   "bands": {
+    "3.5_5m": 3,
+    "total": 9,
+    "1_2m": 3,
+    "2_3.5m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "AZ": 1,
+    "GA": 1,
+    "FL": 7
+   }
+  },
+  "Pedini|Cabinets": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 10,
+    "2_3.5m": 1,
+    "under_1m": 2,
+    "1_2m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 6,
+    "TX": 2,
+    "CA": 2
+   }
+  },
+  "Pelican|Water Treatment": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Pella|Doors": {
+   "bands": {
+    "3.5_5m": 9,
+    "total": 78,
+    "2_3.5m": 16,
+    "1_2m": 16,
+    "under_1m": 14,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 9,
+    "AZ": 7,
+    "GA": 13,
+    "NC": 7,
+    "TN": 11,
+    "FL": 11,
+    "CO": 3,
+    "CA": 1,
+    "IL": 8,
+    "OH": 1,
+    "MO": 5,
+    "KS": 2
+   }
+  },
+  "Pella|Windows": {
+   "bands": {
+    "2_3.5m": 64,
+    "total": 270,
+    "3.5_5m": 16,
+    "5m_plus": 7,
+    "1_2m": 75,
+    "under_1m": 42
+   },
+   "states": {
+    "TX": 35,
+    "CA": 7,
+    "AZ": 7,
+    "GA": 29,
+    "NC": 39,
+    "TN": 24,
+    "FL": 32,
+    "CO": 10,
+    "MN": 21,
+    "IL": 37,
+    "SC": 1,
+    "NY": 3,
+    "CT": 1,
+    "OH": 9,
+    "MO": 9,
+    "KS": 6
+   }
+  },
+  "Peloton|Furniture": {
+   "bands": {
+    "total": 4,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "WA": 2
+   }
+  },
+  "Pentair|Other": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 3
+   },
+   "states": {
+    "TX": 3
+   }
+  },
+  "Pentair|Pool": {
+   "bands": {
+    "total": 86,
+    "2_3.5m": 4,
+    "1_2m": 23,
+    "under_1m": 36,
+    "3.5_5m": 5,
+    "5m_plus": 3
+   },
+   "states": {
+    "TX": 12,
+    "AZ": 15,
+    "FL": 53,
+    "GA": 2,
+    "NC": 1,
+    "CA": 1,
+    "SC": 1,
+    "KS": 1
+   }
+  },
+  "Pental|Countertops": {
+   "bands": {
+    "1_2m": 1,
+    "total": 5,
+    "2_3.5m": 2,
+    "5m_plus": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CO": 3,
+    "WA": 2
+   }
+  },
+  "Perlick|Appliances": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 11,
+    "under_1m": 1,
+    "3.5_5m": 2,
+    "1_2m": 5
+   },
+   "states": {
+    "FL": 7,
+    "CA": 2,
+    "IL": 2
+   }
+  },
+  "Perrin & Rowe|Plumbing": {
+   "bands": {
+    "1_2m": 2,
+    "total": 6,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 2,
+    "NC": 1,
+    "IL": 2,
+    "SC": 1
+   }
+  },
+  "Pgt|Doors": {
+   "bands": {
+    "1_2m": 9,
+    "total": 29,
+    "under_1m": 11,
+    "2_3.5m": 5,
+    "3.5_5m": 3
+   },
+   "states": {
+    "FL": 29
+   }
+  },
+  "Pgt|Windows": {
+   "bands": {
+    "1_2m": 24,
+    "total": 79,
+    "under_1m": 30,
+    "2_3.5m": 13,
+    "5m_plus": 3,
+    "3.5_5m": 6
+   },
+   "states": {
+    "FL": 79
+   }
+  },
+  "Phantom Screens|Other": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 1,
+    "NC": 2
+   }
+  },
+  "Phantom|Doors": {
+   "bands": {
+    "total": 7,
+    "2_3.5m": 2,
+    "1_2m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 5,
+    "MN": 1
+   }
+  },
+  "Phantom|Other": {
+   "bands": {
+    "2_3.5m": 7,
+    "total": 24,
+    "1_2m": 4,
+    "5m_plus": 1,
+    "3.5_5m": 3,
+    "under_1m": 4
+   },
+   "states": {
+    "TX": 4,
+    "FL": 9,
+    "NC": 9,
+    "SC": 1,
+    "MO": 1
+   }
+  },
+  "Phantom|Outdoor": {
+   "bands": {
+    "total": 16,
+    "2_3.5m": 4,
+    "under_1m": 5,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 3,
+    "GA": 1,
+    "NC": 9,
+    "SC": 1
+   }
+  },
+  "Phantom|Smart Home": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 9,
+    "1_2m": 1,
+    "under_1m": 4
+   },
+   "states": {
+    "FL": 1,
+    "NC": 5,
+    "MN": 1,
+    "IL": 2
+   }
+  },
+  "Phantom|Windows": {
+   "bands": {
+    "total": 14,
+    "5m_plus": 1,
+    "3.5_5m": 2,
+    "1_2m": 4,
+    "2_3.5m": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 2,
+    "GA": 1,
+    "NC": 9,
+    "SC": 1
+   }
+  },
+  "Philips|Lighting": {
+   "bands": {
+    "1_2m": 4,
+    "total": 6,
+    "under_1m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "GA": 1,
+    "TN": 1,
+    "FL": 3,
+    "WA": 1
+   }
+  },
+  "Philips|Smart Home": {
+   "bands": {
+    "under_1m": 5,
+    "total": 7,
+    "1_2m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "NC": 1,
+    "FL": 4,
+    "SC": 1
+   }
+  },
+  "Phillip Jeffries|Other": {
+   "bands": {
+    "total": 8,
+    "2_3.5m": 3,
+    "1_2m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 4,
+    "CA": 1,
+    "NY": 1
+   }
+  },
+  "Phillip Jeffries|Paint": {
+   "bands": {
+    "total": 10,
+    "5m_plus": 4,
+    "3.5_5m": 2,
+    "2_3.5m": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 7,
+    "CO": 1,
+    "CA": 1
+   }
+  },
+  "Phylrich|Plumbing": {
+   "bands": {
+    "total": 8,
+    "3.5_5m": 2,
+    "2_3.5m": 1,
+    "1_2m": 1,
+    "5m_plus": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 2,
+    "CA": 5,
+    "FL": 1
+   }
+  },
+  "Pitt|Appliances": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 8,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "CA": 3,
+    "TX": 1,
+    "GA": 2,
+    "AZ": 1,
+    "FL": 1
+   }
+  },
+  "Plantation|Windows": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 2,
+    "NC": 1
+   }
+  },
+  "Poggenpohl|Cabinets": {
+   "bands": {
+    "total": 23,
+    "5m_plus": 4,
+    "2_3.5m": 6,
+    "3.5_5m": 7,
+    "under_1m": 3
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 4,
+    "FL": 6,
+    "CO": 1,
+    "CA": 4,
+    "WA": 5
+   }
+  },
+  "Poliform|Cabinets": {
+   "bands": {
+    "total": 11,
+    "3.5_5m": 1,
+    "5m_plus": 8
+   },
+   "states": {
+    "TX": 1,
+    "FL": 3,
+    "CA": 7
+   }
+  },
+  "Poliform|Closets": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 4,
+    "5m_plus": 2,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 3,
+    "CA": 1
+   }
+  },
+  "Pompeii|Countertops": {
+   "bands": {
+    "under_1m": 3,
+    "total": 9,
+    "1_2m": 2,
+    "3.5_5m": 2,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 9
+   }
+  },
+  "Pompei|Countertops": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "5m_plus": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Porcelanosa|Cabinets": {
+   "bands": {
+    "total": 5,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 3,
+    "FL": 2
+   }
+  },
+  "Porcelanosa|Fireplaces": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "CO": 2,
+    "CA": 1
+   }
+  },
+  "Porcelanosa|Flooring": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 7,
+    "1_2m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 3,
+    "FL": 3,
+    "NY": 1
+   }
+  },
+  "Porcelanosa|Other": {
+   "bands": {
+    "total": 5,
+    "5m_plus": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CO": 3,
+    "FL": 1,
+    "CA": 1
+   }
+  },
+  "Porcelanosa|Plumbing": {
+   "bands": {
+    "3.5_5m": 3,
+    "total": 8,
+    "1_2m": 1,
+    "5m_plus": 1,
+    "2_3.5m": 3
+   },
+   "states": {
+    "CA": 4,
+    "WA": 1,
+    "NY": 3
+   }
+  },
+  "Porcelanosa|Tile": {
+   "bands": {
+    "total": 37,
+    "1_2m": 8,
+    "under_1m": 3,
+    "2_3.5m": 9,
+    "3.5_5m": 5,
+    "5m_plus": 6
+   },
+   "states": {
+    "TX": 2,
+    "FL": 5,
+    "GA": 1,
+    "CO": 13,
+    "CA": 10,
+    "WA": 1,
+    "IL": 2,
+    "NY": 3
+   }
+  },
+  "Portola|Paint": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 4,
+    "under_1m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "GA": 1,
+    "CA": 3
+   }
+  },
+  "Pottery Barn|Furniture": {
+   "bands": {
+    "under_1m": 1,
+    "total": 6,
+    "2_3.5m": 1,
+    "1_2m": 3
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 4,
+    "TX": 1
+   }
+  },
+  "Pottery Barn|Lighting": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TN": 2,
+    "WA": 1
+   }
+  },
+  "Primo|Lighting": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "3.5_5m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Provenza|Flooring": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 2,
+    "MN": 1
+   }
+  },
+  "Pulte Homes|Other": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Pulte|Other": {
+   "bands": {
+    "under_1m": 3,
+    "total": 4,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3,
+    "IL": 1
+   }
+  },
+  "Quaker|Windows": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 7,
+    "5m_plus": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 6,
+    "CO": 1
+   }
+  },
+  "RAM|Windows": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 10,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 10
+   }
+  },
+  "REVIEW: Subzero-Wolf|Appliances": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 4,
+    "3.5_5m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 3
+   }
+  },
+  "REVIEW: Wolf Sub-Zero|Appliances": {
+   "bands": {
+    "under_1m": 1,
+    "total": 5,
+    "2_3.5m": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "AZ": 4,
+    "FL": 1
+   }
+  },
+  "Rachio|Outdoor": {
+   "bands": {
+    "total": 6,
+    "under_1m": 1,
+    "1_2m": 2
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "CO": 1,
+    "IL": 1,
+    "KS": 2
+   }
+  },
+  "Rachio|Smart Home": {
+   "bands": {
+    "total": 34,
+    "under_1m": 8,
+    "3.5_5m": 2,
+    "1_2m": 6,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 12,
+    "FL": 7,
+    "NC": 2,
+    "CO": 2,
+    "NV": 1,
+    "MN": 1,
+    "IL": 3,
+    "SC": 1,
+    "CT": 1,
+    "KS": 4
+   }
+  },
+  "Rain Bird|Outdoor": {
+   "bands": {
+    "total": 9,
+    "under_1m": 2,
+    "2_3.5m": 2,
+    "1_2m": 1,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 2,
+    "FL": 4,
+    "IL": 2,
+    "SC": 1
+   }
+  },
+  "RainBird|Outdoor": {
+   "bands": {
+    "under_1m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 1,
+    "NC": 1,
+    "SC": 1
+   }
+  },
+  "RainSoft|Water Treatment": {
+   "bands": {
+    "total": 5,
+    "under_1m": 2,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 2,
+    "TN": 1
+   }
+  },
+  "Rainbird|Outdoor": {
+   "bands": {
+    "total": 11,
+    "1_2m": 4,
+    "under_1m": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 7,
+    "CO": 1,
+    "SC": 3
+   }
+  },
+  "Rainsoft|Water Treatment": {
+   "bands": {
+    "under_1m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Ralph Lauren|Lighting": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 8,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 7,
+    "IL": 1
+   }
+  },
+  "Rehau|Windows": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "WA": 1,
+    "IL": 2
+   }
+  },
+  "Rejuvenation|Hardware": {
+   "bands": {
+    "total": 7,
+    "2_3.5m": 3,
+    "1_2m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "FL": 1,
+    "CO": 1,
+    "NC": 1,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "Rejuvenation|Lighting": {
+   "bands": {
+    "under_1m": 2,
+    "total": 9,
+    "1_2m": 3,
+    "2_3.5m": 4
+   },
+   "states": {
+    "NC": 1,
+    "WA": 1,
+    "IL": 6,
+    "FL": 1
+   }
+  },
+  "Reme Halo|HVAC": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 5,
+    "under_1m": 1,
+    "2_3.5m": 2
+   },
+   "states": {
+    "FL": 3,
+    "TX": 1,
+    "IL": 1
+   }
+  },
+  "Restoration Hardware|Cabinets": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 1,
+    "SC": 1,
+    "NY": 1
+   }
+  },
+  "Restoration Hardware|Furniture": {
+   "bands": {
+    "under_1m": 4,
+    "total": 20,
+    "1_2m": 6,
+    "5m_plus": 3,
+    "2_3.5m": 3,
+    "3.5_5m": 2
+   },
+   "states": {
+    "FL": 16,
+    "TX": 1,
+    "CA": 1,
+    "MN": 1,
+    "KS": 1
+   }
+  },
+  "Restoration Hardware|Hardware": {
+   "bands": {
+    "2_3.5m": 5,
+    "total": 17,
+    "5m_plus": 2,
+    "1_2m": 3,
+    "3.5_5m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 4,
+    "CA": 5,
+    "NC": 2,
+    "WA": 1,
+    "FL": 2,
+    "IL": 1,
+    "SC": 1,
+    "NY": 1
+   }
+  },
+  "Restoration Hardware|Lighting": {
+   "bands": {
+    "2_3.5m": 31,
+    "total": 100,
+    "3.5_5m": 6,
+    "1_2m": 21,
+    "under_1m": 18,
+    "5m_plus": 3
+   },
+   "states": {
+    "TX": 15,
+    "AZ": 4,
+    "FL": 36,
+    "GA": 7,
+    "NC": 2,
+    "TN": 3,
+    "CO": 1,
+    "CA": 8,
+    "NV": 2,
+    "WA": 1,
+    "MN": 3,
+    "IL": 13,
+    "NY": 1,
+    "MO": 2,
+    "KS": 2
+   }
+  },
+  "Restoration Hardware|Other": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "IL": 1,
+    "FL": 1
+   }
+  },
+  "Restoration Hardware|Plumbing": {
+   "bands": {
+    "1_2m": 2,
+    "total": 6,
+    "under_1m": 1,
+    "3.5_5m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "GA": 1,
+    "NC": 1,
+    "CA": 1,
+    "FL": 1,
+    "IL": 1,
+    "NY": 1
+   }
+  },
+  "Rheem|HVAC": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 13,
+    "1_2m": 4,
+    "under_1m": 7
+   },
+   "states": {
+    "CA": 1,
+    "GA": 1,
+    "FL": 5,
+    "NC": 2,
+    "NV": 2,
+    "IL": 2
+   }
+  },
+  "Rheem|Water Heaters": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 16,
+    "under_1m": 11,
+    "2_3.5m": 1,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 10,
+    "GA": 1,
+    "NC": 1,
+    "TX": 1,
+    "WA": 1,
+    "OH": 2
+   }
+  },
+  "Rh|Furniture": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 6,
+    "5m_plus": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 3,
+    "NV": 1,
+    "IL": 1
+   }
+  },
+  "Rh|Lighting": {
+   "bands": {
+    "total": 33,
+    "2_3.5m": 10,
+    "3.5_5m": 6,
+    "under_1m": 2,
+    "1_2m": 5,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 4,
+    "AZ": 4,
+    "FL": 5,
+    "TN": 1,
+    "CA": 4,
+    "NV": 3,
+    "WA": 3,
+    "IL": 9
+   }
+  },
+  "Rh|Other": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3
+   },
+   "states": {
+    "CO": 1,
+    "CA": 1,
+    "NV": 1
+   }
+  },
+  "Rh|Plumbing": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "IL": 2,
+    "OH": 1
+   }
+  },
+  "Ring|Smart Home": {
+   "bands": {
+    "5m_plus": 5,
+    "total": 261,
+    "1_2m": 83,
+    "2_3.5m": 19,
+    "under_1m": 96,
+    "3.5_5m": 12
+   },
+   "states": {
+    "TX": 26,
+    "CA": 37,
+    "AZ": 12,
+    "FL": 76,
+    "GA": 14,
+    "NC": 13,
+    "TN": 6,
+    "CO": 10,
+    "NV": 4,
+    "WA": 4,
+    "MN": 3,
+    "IL": 34,
+    "SC": 7,
+    "NY": 5,
+    "CT": 2,
+    "OH": 1,
+    "MO": 4,
+    "KS": 3
+   }
+  },
+  "Rinnai|Water Heaters": {
+   "bands": {
+    "total": 111,
+    "under_1m": 34,
+    "5m_plus": 4,
+    "1_2m": 36,
+    "2_3.5m": 16,
+    "3.5_5m": 6
+   },
+   "states": {
+    "TX": 8,
+    "AZ": 2,
+    "FL": 41,
+    "GA": 2,
+    "NC": 23,
+    "TN": 1,
+    "CO": 2,
+    "CA": 2,
+    "SC": 28,
+    "OH": 2
+   }
+  },
+  "Rockwool|Insulation": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "GA": 1,
+    "FL": 2
+   }
+  },
+  "Rocky Mountain|Hardware": {
+   "bands": {
+    "total": 12,
+    "2_3.5m": 3,
+    "5m_plus": 2,
+    "3.5_5m": 1,
+    "under_1m": 3
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 2,
+    "CO": 3,
+    "WA": 1,
+    "IL": 2,
+    "NY": 1
+   }
+  },
+  "Roecker|Cabinets": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 3
+   },
+   "states": {
+    "IL": 2,
+    "MO": 1
+   }
+  },
+  "Rohl|Plumbing": {
+   "bands": {
+    "1_2m": 1,
+    "total": 16,
+    "2_3.5m": 4,
+    "3.5_5m": 4,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 5,
+    "TN": 3,
+    "FL": 2,
+    "IL": 4,
+    "SC": 1,
+    "CT": 1
+   }
+  },
+  "Rohl|Sinks": {
+   "bands": {
+    "1_2m": 3,
+    "total": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "IL": 2,
+    "FL": 2,
+    "NY": 1
+   }
+  },
+  "Romar|Cabinets": {
+   "bands": {
+    "1_2m": 4,
+    "total": 4
+   },
+   "states": {
+    "IL": 4
+   }
+  },
+  "Rti|Smart Home": {
+   "bands": {
+    "total": 5,
+    "5m_plus": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "CA": 2,
+    "MN": 1
+   }
+  },
+  "Ruffino|Cabinets": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 10,
+    "5m_plus": 7,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 10
+   }
+  },
+  "Rumford|Fireplaces": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "CA": 1
+   }
+  },
+  "Rutt|Cabinets": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 4,
+    "3.5_5m": 1
+   },
+   "states": {
+    "CA": 2,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "Ruvati|Plumbing": {
+   "bands": {
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "MN": 1
+   }
+  },
+  "Ruvati|Sinks": {
+   "bands": {
+    "total": 14,
+    "under_1m": 7,
+    "1_2m": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 8,
+    "NC": 2,
+    "MN": 1,
+    "MO": 1
+   }
+  },
+  "Samaca|Roofing": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3
+   },
+   "states": {
+    "TX": 3
+   }
+  },
+  "Samsung|Appliances": {
+   "bands": {
+    "1_2m": 68,
+    "total": 184,
+    "under_1m": 83,
+    "5m_plus": 2,
+    "3.5_5m": 7,
+    "2_3.5m": 10
+   },
+   "states": {
+    "CA": 9,
+    "TX": 5,
+    "AZ": 4,
+    "FL": 83,
+    "GA": 4,
+    "NC": 10,
+    "TN": 2,
+    "CO": 3,
+    "NV": 2,
+    "MN": 1,
+    "IL": 44,
+    "SC": 10,
+    "OH": 4,
+    "MO": 3
+   }
+  },
+  "Samsung|Furniture": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "3.5_5m": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "CO": 1,
+    "CA": 1,
+    "FL": 1
+   }
+  },
+  "Samsung|Smart Home": {
+   "bands": {
+    "1_2m": 8,
+    "total": 16,
+    "5m_plus": 3,
+    "2_3.5m": 2,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 3,
+    "CA": 3,
+    "AZ": 1,
+    "FL": 6,
+    "GA": 1,
+    "NC": 1,
+    "MN": 1
+   }
+  },
+  "Sapphire|Appliances": {
+   "bands": {
+    "under_1m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Savant|Lighting": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "MN": 1
+   }
+  },
+  "Savant|Smart Home": {
+   "bands": {
+    "2_3.5m": 31,
+    "total": 127,
+    "5m_plus": 31,
+    "3.5_5m": 21,
+    "1_2m": 17,
+    "under_1m": 7
+   },
+   "states": {
+    "TX": 11,
+    "AZ": 28,
+    "FL": 29,
+    "GA": 1,
+    "NC": 1,
+    "CO": 6,
+    "CA": 19,
+    "NV": 2,
+    "WA": 1,
+    "MN": 6,
+    "IL": 11,
+    "NY": 1,
+    "CT": 2,
+    "MO": 3,
+    "KS": 6
+   }
+  },
+  "Scavolini|Cabinets": {
+   "bands": {
+    "under_1m": 2,
+    "total": 6,
+    "1_2m": 1,
+    "5m_plus": 2
+   },
+   "states": {
+    "FL": 2,
+    "CA": 3,
+    "NY": 1
+   }
+  },
+  "Schlabach|Flooring": {
+   "bands": {
+    "under_1m": 5,
+    "total": 5
+   },
+   "states": {
+    "OH": 5
+   }
+  },
+  "Schlage|Hardware": {
+   "bands": {
+    "total": 6,
+    "under_1m": 2,
+    "1_2m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 1,
+    "CO": 1,
+    "CA": 2,
+    "IL": 1
+   }
+  },
+  "Schlage|Smart Home": {
+   "bands": {
+    "1_2m": 3,
+    "total": 10,
+    "under_1m": 6,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 2,
+    "FL": 3,
+    "NC": 1,
+    "IL": 3,
+    "SC": 1
+   }
+  },
+  "Schluter|Plumbing": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "GA": 1,
+    "FL": 1,
+    "SC": 1
+   }
+  },
+  "Schonbek|Lighting": {
+   "bands": {
+    "5m_plus": 4,
+    "total": 10,
+    "2_3.5m": 1,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 3,
+    "TX": 3,
+    "IL": 2,
+    "SC": 1
+   }
+  },
+  "Schumacher|Paint": {
+   "bands": {
+    "total": 10,
+    "1_2m": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 5,
+    "FL": 1,
+    "CO": 1,
+    "NC": 1,
+    "IL": 2
+   }
+  },
+  "Scotsman|Appliances": {
+   "bands": {
+    "5m_plus": 10,
+    "total": 59,
+    "3.5_5m": 5,
+    "1_2m": 9,
+    "2_3.5m": 14,
+    "under_1m": 5
+   },
+   "states": {
+    "TX": 17,
+    "AZ": 6,
+    "FL": 10,
+    "GA": 10,
+    "TN": 6,
+    "CO": 2,
+    "CA": 1,
+    "SC": 7
+   }
+  },
+  "Sears|Appliances": {
+   "bands": {
+    "total": 5
+   },
+   "states": {}
+  },
+  "Sedona|Outdoor": {
+   "bands": {
+    "under_1m": 2,
+    "total": 6,
+    "1_2m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 3,
+    "CO": 2,
+    "TX": 1
+   }
+  },
+  "Sekas|Pool": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 6,
+    "5m_plus": 1,
+    "1_2m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 6
+   }
+  },
+  "Sentricon|Other": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3,
+    "TN": 1
+   }
+  },
+  "Shark|Flooring": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Sharp|Appliances": {
+   "bands": {
+    "total": 44,
+    "1_2m": 17,
+    "3.5_5m": 2,
+    "2_3.5m": 5,
+    "5m_plus": 2,
+    "under_1m": 7
+   },
+   "states": {
+    "TX": 2,
+    "FL": 15,
+    "NC": 3,
+    "TN": 1,
+    "IL": 16,
+    "SC": 5,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "Shaws|Sinks": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "3.5_5m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "NC": 1,
+    "CA": 1,
+    "IL": 2
+   }
+  },
+  "Shaw|Carpet": {
+   "bands": {
+    "under_1m": 3,
+    "total": 5
+   },
+   "states": {
+    "FL": 5
+   }
+  },
+  "Shaw|Flooring": {
+   "bands": {
+    "1_2m": 1,
+    "total": 6,
+    "under_1m": 4
+   },
+   "states": {
+    "FL": 4,
+    "SC": 2
+   }
+  },
+  "Shaw|LVP": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Shaw|Sinks": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 1,
+    "SC": 1
+   }
+  },
+  "Shelf Genie|Closets": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "WA": 1
+   }
+  },
+  "Shellock|Outdoor": {
+   "bands": {
+    "under_1m": 2,
+    "total": 6,
+    "1_2m": 2,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 6
+   }
+  },
+  "Sherwin Williams|Paint": {
+   "bands": {
+    "1_2m": 14,
+    "total": 21,
+    "under_1m": 6
+   },
+   "states": {
+    "GA": 1,
+    "NC": 2,
+    "FL": 15,
+    "TX": 1,
+    "SC": 2
+   }
+  },
+  "Sherwin-Williams|Paint": {
+   "bands": {
+    "total": 20,
+    "2_3.5m": 4,
+    "under_1m": 5,
+    "1_2m": 4
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "TN": 5,
+    "FL": 6,
+    "NC": 1,
+    "IL": 4,
+    "SC": 1,
+    "KS": 1
+   }
+  },
+  "Shiloh|Cabinets": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 1,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "SieMatic|Cabinets": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 8,
+    "2_3.5m": 3,
+    "1_2m": 1,
+    "5m_plus": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 1,
+    "GA": 3,
+    "TN": 1,
+    "CA": 1,
+    "SC": 2
+   }
+  },
+  "Siematic|Cabinets": {
+   "bands": {
+    "3.5_5m": 4,
+    "total": 4
+   },
+   "states": {
+    "GA": 1,
+    "CA": 2,
+    "WA": 1
+   }
+  },
+  "Sierra Pacific|Doors": {
+   "bands": {
+    "total": 11,
+    "2_3.5m": 4,
+    "1_2m": 3,
+    "5m_plus": 1,
+    "under_1m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "AZ": 4,
+    "GA": 1,
+    "FL": 3,
+    "CO": 1,
+    "NY": 1
+   }
+  },
+  "Sierra Pacific|Windows": {
+   "bands": {
+    "2_3.5m": 6,
+    "total": 22,
+    "5m_plus": 4,
+    "1_2m": 4,
+    "under_1m": 2,
+    "3.5_5m": 3
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 7,
+    "GA": 2,
+    "FL": 5,
+    "CO": 4,
+    "CA": 1,
+    "NY": 1
+   }
+  },
+  "Signature Kitchen Suite|Appliances": {
+   "bands": {
+    "total": 12,
+    "1_2m": 5,
+    "2_3.5m": 5
+   },
+   "states": {
+    "TX": 2,
+    "FL": 8,
+    "MN": 2
+   }
+  },
+  "Signature|Appliances": {
+   "bands": {
+    "total": 5
+   },
+   "states": {
+    "TX": 2,
+    "CA": 2,
+    "NV": 1
+   }
+  },
+  "Silestone|Countertops": {
+   "bands": {
+    "total": 80,
+    "1_2m": 28,
+    "2_3.5m": 6,
+    "5m_plus": 3,
+    "under_1m": 22
+   },
+   "states": {
+    "TX": 14,
+    "AZ": 2,
+    "FL": 21,
+    "GA": 6,
+    "NC": 8,
+    "TN": 2,
+    "CA": 6,
+    "NV": 1,
+    "MN": 2,
+    "IL": 2,
+    "SC": 7,
+    "NY": 2,
+    "OH": 2,
+    "MO": 5
+   }
+  },
+  "Silhouette|Windows": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 1,
+    "KS": 1
+   }
+  },
+  "Simonton|Windows": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 2,
+    "CA": 1
+   }
+  },
+  "SimpliSafe|Smart Home": {
+   "bands": {
+    "2_3.5m": 4,
+    "total": 12,
+    "under_1m": 6,
+    "1_2m": 1
+   },
+   "states": {
+    "GA": 2,
+    "TN": 1,
+    "CO": 2,
+    "CA": 2,
+    "WA": 1,
+    "IL": 2,
+    "FL": 1,
+    "KS": 1
+   }
+  },
+  "Sks|Appliances": {
+   "bands": {
+    "under_1m": 1,
+    "total": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CO": 1,
+    "WA": 4
+   }
+  },
+  "Smeg|Appliances": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 11,
+    "2_3.5m": 3,
+    "1_2m": 3
+   },
+   "states": {
+    "CA": 5,
+    "AZ": 1,
+    "FL": 5
+   }
+  },
+  "Snaidero|Cabinets": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 4,
+    "3.5_5m": 1,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 2,
+    "CA": 2
+   }
+  },
+  "SolarEdge|Solar": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Somfy|Smart Home": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 5,
+    "5m_plus": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 3,
+    "CA": 2
+   }
+  },
+  "Sonance|Lighting": {
+   "bands": {
+    "total": 6,
+    "under_1m": 2,
+    "2_3.5m": 1,
+    "5m_plus": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 2,
+    "CO": 1,
+    "MN": 1
+   }
+  },
+  "Sonance|Smart Home": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "5m_plus": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 1,
+    "CA": 1,
+    "IL": 2
+   }
+  },
+  "Sonic|Appliances": {
+   "bands": {
+    "total": 5
+   },
+   "states": {
+    "TX": 5
+   }
+  },
+  "Sonneman|Lighting": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Sonos|Lighting": {
+   "bands": {
+    "total": 17,
+    "3.5_5m": 3,
+    "2_3.5m": 3,
+    "under_1m": 4,
+    "1_2m": 2
+   },
+   "states": {
+    "TX": 4,
+    "AZ": 1,
+    "FL": 6,
+    "CA": 2,
+    "WA": 1,
+    "IL": 1,
+    "NY": 1,
+    "OH": 1
+   }
+  },
+  "Sonos|Smart Home": {
+   "bands": {
+    "1_2m": 268,
+    "total": 713,
+    "5m_plus": 51,
+    "2_3.5m": 122,
+    "under_1m": 122,
+    "3.5_5m": 66
+   },
+   "states": {
+    "TX": 46,
+    "CA": 45,
+    "AZ": 18,
+    "FL": 229,
+    "GA": 27,
+    "NC": 18,
+    "TN": 13,
+    "CO": 16,
+    "NV": 4,
+    "WA": 14,
+    "MN": 8,
+    "IL": 51,
+    "SC": 11,
+    "NY": 15,
+    "CT": 4,
+    "OH": 174,
+    "MO": 11,
+    "KS": 9
+   }
+  },
+  "Sony|Furniture": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 3,
+    "5m_plus": 1
+   },
+   "states": {
+    "AZ": 2,
+    "FL": 1
+   }
+  },
+  "Sony|Smart Home": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 7,
+    "1_2m": 5
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 2,
+    "CO": 1,
+    "TX": 1,
+    "OH": 2
+   }
+  },
+  "Spectrum|Smart Home": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Speed Queen|Appliances": {
+   "bands": {
+    "under_1m": 2,
+    "total": 6,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 4,
+    "CA": 1,
+    "NV": 1
+   }
+  },
+  "Springwell|Water Treatment": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 2
+   }
+  },
+  "St Regis Spa|Plumbing": {
+   "bands": {
+    "1_2m": 4,
+    "total": 4
+   },
+   "states": {
+    "IL": 4
+   }
+  },
+  "Stark|Carpet": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "3.5_5m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "NC": 1,
+    "IL": 2,
+    "FL": 1
+   }
+  },
+  "Starlink|Smart Home": {
+   "bands": {
+    "total": 9,
+    "5m_plus": 2,
+    "2_3.5m": 3,
+    "1_2m": 2,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 5,
+    "CA": 2,
+    "WA": 1
+   }
+  },
+  "Stiltz|Elevators": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "TN": 2,
+    "NC": 1
+   }
+  },
+  "Stone Creek|Cabinets": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 3
+   },
+   "states": {
+    "AZ": 3
+   }
+  },
+  "Storm Smart|Doors": {
+   "bands": {
+    "under_1m": 2,
+    "total": 4,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Storm Smart|Hardware": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Storm Smart|Other": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 12,
+    "under_1m": 5,
+    "2_3.5m": 1,
+    "1_2m": 4
+   },
+   "states": {
+    "FL": 12
+   }
+  },
+  "Storm Smart|Outdoor": {
+   "bands": {
+    "1_2m": 3,
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Storm Smart|Smart Home": {
+   "bands": {
+    "1_2m": 5,
+    "total": 10,
+    "2_3.5m": 1,
+    "under_1m": 4
+   },
+   "states": {
+    "FL": 10
+   }
+  },
+  "Storm Smart|Windows": {
+   "bands": {
+    "under_1m": 8,
+    "total": 12,
+    "2_3.5m": 1,
+    "1_2m": 3
+   },
+   "states": {
+    "FL": 12
+   }
+  },
+  "StormSmart|Outdoor": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Studio 41|Cabinets": {
+   "bands": {
+    "total": 4
+   },
+   "states": {
+    "IL": 4
+   }
+  },
+  "Studio Dunn|Lighting": {
+   "bands": {
+    "2_3.5m": 3,
+    "total": 3
+   },
+   "states": {
+    "IL": 3
+   }
+  },
+  "Sub-Zero|Appliances": {
+   "bands": {
+    "5m_plus": 495,
+    "total": 4035,
+    "3.5_5m": 487,
+    "2_3.5m": 1030,
+    "1_2m": 944,
+    "under_1m": 361
+   },
+   "states": {
+    "TX": 466,
+    "CA": 285,
+    "AZ": 430,
+    "FL": 991,
+    "GA": 256,
+    "NC": 143,
+    "TN": 38,
+    "CO": 144,
+    "NV": 63,
+    "WA": 121,
+    "MN": 45,
+    "IL": 550,
+    "SC": 100,
+    "NY": 68,
+    "CT": 19,
+    "OH": 193,
+    "MO": 78,
+    "KS": 45
+   }
+  },
+  "Sub-Zero|Wine Storage": {
+   "bands": {
+    "total": 68,
+    "1_2m": 9,
+    "3.5_5m": 13,
+    "5m_plus": 8,
+    "2_3.5m": 20,
+    "under_1m": 12
+   },
+   "states": {
+    "TX": 5,
+    "AZ": 8,
+    "FL": 20,
+    "GA": 2,
+    "NC": 1,
+    "CO": 3,
+    "CA": 3,
+    "IL": 14,
+    "SC": 10,
+    "NY": 1,
+    "WA": 1
+   }
+  },
+  "Summerset|Outdoor": {
+   "bands": {
+    "total": 5,
+    "1_2m": 4
+   },
+   "states": {
+    "FL": 1,
+    "IL": 4
+   }
+  },
+  "Summit|Appliances": {
+   "bands": {
+    "total": 3,
+    "under_1m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 1
+   }
+  },
+  "Sun Setter|Outdoor": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "NC": 1,
+    "FL": 2
+   }
+  },
+  "SunBrite|Outdoor": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "3.5_5m": 2
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "SunPower|Solar": {
+   "bands": {
+    "total": 6,
+    "2_3.5m": 1,
+    "1_2m": 4
+   },
+   "states": {
+    "TX": 1,
+    "CO": 1,
+    "CA": 3,
+    "NY": 1
+   }
+  },
+  "Sunbrella|Outdoor": {
+   "bands": {
+    "under_1m": 3,
+    "total": 5,
+    "1_2m": 2
+   },
+   "states": {
+    "AZ": 1,
+    "MN": 1,
+    "FL": 3
+   }
+  },
+  "Sundance|Pool": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 5,
+    "1_2m": 3
+   },
+   "states": {
+    "AZ": 3,
+    "IL": 2
+   }
+  },
+  "Sunsetter|Outdoor": {
+   "bands": {
+    "under_1m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 1,
+    "OH": 2
+   }
+  },
+  "Swarovski|Lighting": {
+   "bands": {
+    "1_2m": 2,
+    "total": 11,
+    "under_1m": 4,
+    "5m_plus": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "FL": 3,
+    "CO": 1,
+    "CA": 2,
+    "NV": 1,
+    "WA": 2,
+    "IL": 2
+   }
+  },
+  "Swiss Madison|Plumbing": {
+   "bands": {
+    "1_2m": 3,
+    "total": 4,
+    "under_1m": 1
+   },
+   "states": {
+    "GA": 1,
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Synergy|Other": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 4,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Synergy|Smart Home": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 2,
+    "KS": 1
+   }
+  },
+  "Taexx|Other": {
+   "bands": {
+    "under_1m": 3,
+    "total": 3
+   },
+   "states": {
+    "CA": 1,
+    "FL": 2
+   }
+  },
+  "Taj Mahal|Countertops": {
+   "bands": {
+    "5m_plus": 8,
+    "total": 87,
+    "1_2m": 14,
+    "2_3.5m": 9,
+    "under_1m": 17,
+    "3.5_5m": 6
+   },
+   "states": {
+    "TX": 25,
+    "CA": 15,
+    "AZ": 5,
+    "FL": 17,
+    "TN": 9,
+    "CO": 3,
+    "NC": 2,
+    "NV": 1,
+    "IL": 5,
+    "SC": 1,
+    "MO": 1,
+    "KS": 3
+   }
+  },
+  "Tec|Outdoor": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Terzani|Lighting": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 4
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Tesla|Garage Doors": {
+   "bands": {
+    "total": 6,
+    "under_1m": 2,
+    "2_3.5m": 1,
+    "3.5_5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "NC": 1,
+    "CA": 2,
+    "FL": 2
+   }
+  },
+  "Tesla|Generators": {
+   "bands": {
+    "total": 18,
+    "2_3.5m": 2,
+    "1_2m": 6,
+    "5m_plus": 6,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 2,
+    "FL": 5,
+    "GA": 1,
+    "CO": 1,
+    "NC": 1,
+    "CA": 8
+   }
+  },
+  "Tesla|Other": {
+   "bands": {
+    "total": 4,
+    "3.5_5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 1,
+    "NC": 1,
+    "CT": 1
+   }
+  },
+  "Tesla|Smart Home": {
+   "bands": {
+    "2_3.5m": 51,
+    "total": 256,
+    "1_2m": 70,
+    "under_1m": 49,
+    "3.5_5m": 16,
+    "5m_plus": 19
+   },
+   "states": {
+    "TX": 37,
+    "CA": 64,
+    "AZ": 11,
+    "FL": 62,
+    "GA": 3,
+    "NC": 19,
+    "TN": 2,
+    "CO": 8,
+    "NV": 9,
+    "WA": 7,
+    "MN": 2,
+    "IL": 16,
+    "SC": 3,
+    "NY": 4,
+    "CT": 1,
+    "OH": 3,
+    "KS": 3,
+    "MO": 2
+   }
+  },
+  "Tesla|Solar": {
+   "bands": {
+    "total": 117,
+    "1_2m": 29,
+    "2_3.5m": 15,
+    "under_1m": 30,
+    "5m_plus": 15,
+    "3.5_5m": 4
+   },
+   "states": {
+    "TX": 17,
+    "AZ": 15,
+    "FL": 37,
+    "GA": 1,
+    "CO": 4,
+    "NC": 1,
+    "CA": 35,
+    "NV": 5,
+    "NY": 2
+   }
+  },
+  "Tharp|Cabinets": {
+   "bands": {
+    "1_2m": 4,
+    "total": 5,
+    "under_1m": 1
+   },
+   "states": {
+    "CO": 5
+   }
+  },
+  "Therma Tru|Doors": {
+   "bands": {
+    "total": 4,
+    "under_1m": 2,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Thermador|Appliances": {
+   "bands": {
+    "3.5_5m": 251,
+    "total": 2915,
+    "2_3.5m": 743,
+    "5m_plus": 133,
+    "1_2m": 845,
+    "under_1m": 397
+   },
+   "states": {
+    "TX": 356,
+    "CA": 239,
+    "AZ": 103,
+    "FL": 829,
+    "GA": 193,
+    "NC": 215,
+    "TN": 59,
+    "CO": 146,
+    "NV": 23,
+    "WA": 59,
+    "MN": 55,
+    "IL": 247,
+    "SC": 92,
+    "NY": 41,
+    "CT": 7,
+    "MA": 75,
+    "OH": 88,
+    "MO": 35,
+    "KS": 53
+   }
+  },
+  "Thermador|Wine Storage": {
+   "bands": {
+    "2_3.5m": 8,
+    "total": 21,
+    "3.5_5m": 2,
+    "1_2m": 5,
+    "under_1m": 4
+   },
+   "states": {
+    "NC": 2,
+    "FL": 7,
+    "CO": 2,
+    "IL": 7,
+    "OH": 3
+   }
+  },
+  "Thermidor|Appliances": {
+   "bands": {
+    "total": 15,
+    "2_3.5m": 2,
+    "3.5_5m": 2,
+    "under_1m": 1,
+    "1_2m": 3
+   },
+   "states": {
+    "TX": 7,
+    "GA": 1,
+    "NC": 4,
+    "FL": 2,
+    "SC": 1
+   }
+  },
+  "Thermodor|Appliances": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 1,
+    "IL": 2
+   }
+  },
+  "Thomasville|Cabinets": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "CO": 1,
+    "FL": 1
+   }
+  },
+  "Thor Kitchen|Appliances": {
+   "bands": {
+    "1_2m": 5,
+    "total": 5
+   },
+   "states": {
+    "FL": 5
+   }
+  },
+  "Thor|Appliances": {
+   "bands": {
+    "total": 12,
+    "1_2m": 4,
+    "under_1m": 6
+   },
+   "states": {
+    "TX": 1,
+    "GA": 2,
+    "FL": 8,
+    "CA": 1
+   }
+  },
+  "TimberTech|Outdoor": {
+   "bands": {
+    "total": 15,
+    "1_2m": 10,
+    "2_3.5m": 1,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "CO": 1,
+    "NC": 2,
+    "CA": 3,
+    "MN": 2,
+    "IL": 2,
+    "NY": 1,
+    "OH": 1,
+    "MO": 1
+   }
+  },
+  "Timberlake|Cabinets": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Timbertech|Outdoor": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3
+   },
+   "states": {
+    "MN": 1,
+    "IL": 1,
+    "MO": 1
+   }
+  },
+  "Toll Brothers|Other": {
+   "bands": {
+    "total": 11,
+    "2_3.5m": 2,
+    "under_1m": 5,
+    "1_2m": 2
+   },
+   "states": {
+    "TX": 1,
+    "FL": 8,
+    "NV": 2
+   }
+  },
+  "Top Knobs|Hardware": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TN": 1,
+    "FL": 1
+   }
+  },
+  "Topknobs|Hardware": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 4
+   },
+   "states": {
+    "TX": 4
+   }
+  },
+  "Toto|Plumbing": {
+   "bands": {
+    "5m_plus": 24,
+    "total": 142,
+    "1_2m": 32,
+    "2_3.5m": 29,
+    "under_1m": 25,
+    "3.5_5m": 17
+   },
+   "states": {
+    "TX": 13,
+    "CA": 15,
+    "AZ": 6,
+    "FL": 55,
+    "GA": 5,
+    "TN": 3,
+    "CO": 7,
+    "NC": 5,
+    "NV": 1,
+    "WA": 4,
+    "MN": 3,
+    "IL": 19,
+    "SC": 2,
+    "NY": 2,
+    "OH": 1,
+    "MO": 1
+   }
+  },
+  "Traeger|Outdoor": {
+   "bands": {
+    "1_2m": 2,
+    "total": 6,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TN": 2,
+    "TX": 1,
+    "SC": 1,
+    "MO": 1,
+    "KS": 1
+   }
+  },
+  "Trane|HVAC": {
+   "bands": {
+    "2_3.5m": 29,
+    "total": 179,
+    "under_1m": 55,
+    "1_2m": 48,
+    "5m_plus": 5,
+    "3.5_5m": 7
+   },
+   "states": {
+    "TX": 23,
+    "AZ": 35,
+    "FL": 69,
+    "GA": 8,
+    "NC": 13,
+    "TN": 6,
+    "CA": 1,
+    "NV": 6,
+    "WA": 1,
+    "IL": 3,
+    "SC": 6,
+    "NY": 1,
+    "OH": 4,
+    "MO": 3
+   }
+  },
+  "Trek|Outdoor": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "1_2m": 2
+   },
+   "states": {
+    "FL": 1,
+    "OH": 2
+   }
+  },
+  "Trex|Decking": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "CO": 1,
+    "NC": 1,
+    "SC": 1
+   }
+  },
+  "Trex|Flooring": {
+   "bands": {
+    "2_3.5m": 5,
+    "total": 19,
+    "5m_plus": 1,
+    "under_1m": 4,
+    "1_2m": 6,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 2,
+    "CO": 1,
+    "NC": 4,
+    "CA": 2,
+    "FL": 2,
+    "IL": 6,
+    "SC": 2
+   }
+  },
+  "Trex|LVP": {
+   "bands": {
+    "under_1m": 1,
+    "total": 4,
+    "1_2m": 2,
+    "3.5_5m": 1
+   },
+   "states": {
+    "NC": 2,
+    "CA": 1,
+    "IL": 1
+   }
+  },
+  "Trex|Other": {
+   "bands": {
+    "total": 9,
+    "2_3.5m": 1,
+    "1_2m": 2,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 2,
+    "FL": 2,
+    "CO": 1,
+    "NC": 1,
+    "WA": 1,
+    "IL": 1,
+    "KS": 1
+   }
+  },
+  "Trex|Outdoor": {
+   "bands": {
+    "total": 399,
+    "1_2m": 180,
+    "under_1m": 106,
+    "2_3.5m": 39,
+    "3.5_5m": 10,
+    "5m_plus": 7
+   },
+   "states": {
+    "TX": 16,
+    "AZ": 2,
+    "FL": 43,
+    "GA": 33,
+    "NC": 50,
+    "TN": 9,
+    "CO": 24,
+    "CA": 3,
+    "WA": 12,
+    "MN": 13,
+    "IL": 124,
+    "SC": 7,
+    "NY": 23,
+    "OH": 12,
+    "MO": 14,
+    "KS": 14
+   }
+  },
+  "TruStile|Doors": {
+   "bands": {
+    "1_2m": 1,
+    "total": 3,
+    "2_3.5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "WA": 1,
+    "SC": 1,
+    "CA": 1
+   }
+  },
+  "True|Appliances": {
+   "bands": {
+    "total": 11,
+    "under_1m": 3,
+    "2_3.5m": 3,
+    "3.5_5m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 2,
+    "GA": 1,
+    "FL": 4,
+    "CO": 1,
+    "NC": 1,
+    "IL": 1
+   }
+  },
+  "Tuff Shed|Outdoor": {
+   "bands": {
+    "total": 6,
+    "under_1m": 2,
+    "1_2m": 3
+   },
+   "states": {
+    "TX": 1,
+    "AZ": 1,
+    "FL": 2,
+    "IL": 2
+   }
+  },
+  "Twin Eagles|Outdoor": {
+   "bands": {
+    "total": 6,
+    "2_3.5m": 2,
+    "1_2m": 1,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 2,
+    "FL": 2
+   }
+  },
+  "U-Line|Appliances": {
+   "bands": {
+    "1_2m": 3,
+    "total": 13,
+    "5m_plus": 2,
+    "2_3.5m": 4,
+    "under_1m": 4
+   },
+   "states": {
+    "FL": 11,
+    "GA": 1,
+    "CO": 1
+   }
+  },
+  "U-Line|Wine Storage": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4,
+    "under_1m": 2
+   },
+   "states": {
+    "FL": 4
+   }
+  },
+  "Ubiquiti|Smart Home": {
+   "bands": {
+    "total": 15,
+    "2_3.5m": 1,
+    "under_1m": 5,
+    "1_2m": 2,
+    "3.5_5m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 4,
+    "NC": 2,
+    "TN": 1,
+    "CO": 2,
+    "CA": 1,
+    "IL": 2,
+    "KS": 2
+   }
+  },
+  "Ubiquity|Smart Home": {
+   "bands": {
+    "total": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 1,
+    "FL": 2
+   }
+  },
+  "Uline|Appliances": {
+   "bands": {
+    "total": 16,
+    "2_3.5m": 3,
+    "3.5_5m": 4,
+    "1_2m": 3,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 4,
+    "FL": 6,
+    "IL": 5,
+    "SC": 1
+   }
+  },
+  "Uline|Wine Storage": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 4
+   },
+   "states": {
+    "FL": 3,
+    "TX": 1
+   }
+  },
+  "UniFi|Smart Home": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3
+   },
+   "states": {
+    "CA": 2,
+    "FL": 1
+   }
+  },
+  "Unilock|Outdoor": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 8,
+    "1_2m": 5,
+    "under_1m": 1
+   },
+   "states": {
+    "IL": 8
+   }
+  },
+  "Valcucine|Cabinets": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 3
+   },
+   "states": {
+    "FL": 1,
+    "SC": 2
+   }
+  },
+  "Valley Lighting|Lighting": {
+   "bands": {
+    "total": 3
+   },
+   "states": {}
+  },
+  "Van Kirk|Pool": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "2_3.5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Vantage|Lighting": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 8,
+    "5m_plus": 2,
+    "2_3.5m": 3,
+    "under_1m": 1,
+    "1_2m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 4,
+    "GA": 1,
+    "CA": 1,
+    "IL": 1
+   }
+  },
+  "Veneta Cucine|Cabinets": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Vent-A-Hood|Appliances": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1
+   }
+  },
+  "Verona|Appliances": {
+   "bands": {
+    "under_1m": 2,
+    "total": 5,
+    "1_2m": 3
+   },
+   "states": {
+    "AZ": 1,
+    "GA": 1,
+    "CO": 2,
+    "SC": 1
+   }
+  },
+  "Versace|Tile": {
+   "bands": {
+    "5m_plus": 3,
+    "total": 3
+   },
+   "states": {
+    "FL": 1,
+    "CA": 2
+   }
+  },
+  "Victoria & Albert|Sinks": {
+   "bands": {
+    "1_2m": 1,
+    "total": 4,
+    "2_3.5m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "CO": 1,
+    "IL": 2,
+    "NY": 1
+   }
+  },
+  "Victoria + Albert|Sinks": {
+   "bands": {
+    "total": 7,
+    "2_3.5m": 2,
+    "1_2m": 1,
+    "5m_plus": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "CO": 1,
+    "NC": 1,
+    "CA": 2,
+    "SC": 2
+   }
+  },
+  "Victoria and Albert|Sinks": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 4,
+    "2_3.5m": 2
+   },
+   "states": {
+    "IL": 4
+   }
+  },
+  "View Rail|Hardware": {
+   "bands": {
+    "1_2m": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 2,
+    "MN": 1
+   }
+  },
+  "Viking Professional|Appliances": {
+   "bands": {
+    "1_2m": 6,
+    "total": 7,
+    "2_3.5m": 1
+   },
+   "states": {
+    "IL": 6,
+    "NY": 1
+   }
+  },
+  "Viking|Appliances": {
+   "bands": {
+    "total": 1184,
+    "2_3.5m": 238,
+    "5m_plus": 61,
+    "1_2m": 445,
+    "3.5_5m": 80,
+    "under_1m": 135
+   },
+   "states": {
+    "TX": 136,
+    "CA": 132,
+    "AZ": 66,
+    "FL": 218,
+    "GA": 45,
+    "NC": 51,
+    "TN": 20,
+    "CO": 61,
+    "NV": 22,
+    "WA": 29,
+    "MN": 5,
+    "IL": 134,
+    "SC": 30,
+    "NY": 20,
+    "CT": 6,
+    "OH": 149,
+    "MO": 35,
+    "KS": 25
+   }
+  },
+  "Viking|Outdoor": {
+   "bands": {
+    "2_3.5m": 5,
+    "total": 49,
+    "under_1m": 4,
+    "1_2m": 32,
+    "3.5_5m": 2,
+    "5m_plus": 5
+   },
+   "states": {
+    "AZ": 5,
+    "FL": 9,
+    "CO": 3,
+    "NC": 3,
+    "CA": 3,
+    "NV": 1,
+    "IL": 3,
+    "SC": 2,
+    "NY": 1,
+    "CT": 1,
+    "OH": 18
+   }
+  },
+  "Vinotemp|Wine Storage": {
+   "bands": {
+    "1_2m": 2,
+    "total": 4,
+    "3.5_5m": 1
+   },
+   "states": {
+    "IL": 2,
+    "CA": 1,
+    "KS": 1
+   }
+  },
+  "Visual Comfort|Lighting": {
+   "bands": {
+    "3.5_5m": 7,
+    "total": 143,
+    "2_3.5m": 24,
+    "5m_plus": 4,
+    "1_2m": 26,
+    "under_1m": 13
+   },
+   "states": {
+    "TX": 64,
+    "AZ": 2,
+    "FL": 11,
+    "GA": 13,
+    "NC": 12,
+    "TN": 6,
+    "CO": 9,
+    "CA": 1,
+    "IL": 11,
+    "SC": 11,
+    "OH": 2,
+    "KS": 1
+   }
+  },
+  "Vivint|Smart Home": {
+   "bands": {
+    "total": 18,
+    "1_2m": 6,
+    "under_1m": 7,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 3,
+    "AZ": 1,
+    "FL": 11,
+    "GA": 1,
+    "CO": 1,
+    "MO": 1
+   }
+  },
+  "Vola|Plumbing": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "GA": 1,
+    "CA": 1
+   }
+  },
+  "Walker Zanger|Flooring": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 3,
+    "FL": 1,
+    "CA": 1
+   }
+  },
+  "Walker Zanger|Tile": {
+   "bands": {
+    "total": 12,
+    "2_3.5m": 4,
+    "5m_plus": 2
+   },
+   "states": {
+    "TX": 6,
+    "NC": 2,
+    "CA": 2,
+    "FL": 1,
+    "CT": 1
+   }
+  },
+  "Watermark|Plumbing": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 9,
+    "3.5_5m": 2,
+    "2_3.5m": 2
+   },
+   "states": {
+    "TX": 4,
+    "TN": 1,
+    "CA": 3,
+    "SC": 1
+   }
+  },
+  "Waterstone|Other": {
+   "bands": {
+    "under_1m": 4,
+    "total": 4
+   },
+   "states": {
+    "NC": 4
+   }
+  },
+  "Waterstone|Plumbing": {
+   "bands": {
+    "5m_plus": 1,
+    "total": 6,
+    "2_3.5m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 3,
+    "FL": 1,
+    "IL": 2
+   }
+  },
+  "Waterworks|Hardware": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1,
+    "5m_plus": 1
+   },
+   "states": {
+    "AZ": 1,
+    "SC": 1,
+    "CA": 1
+   }
+  },
+  "Waterworks|Plumbing": {
+   "bands": {
+    "5m_plus": 21,
+    "total": 57,
+    "1_2m": 5,
+    "3.5_5m": 13,
+    "under_1m": 1,
+    "2_3.5m": 11
+   },
+   "states": {
+    "TX": 6,
+    "AZ": 5,
+    "FL": 6,
+    "GA": 2,
+    "NC": 1,
+    "CO": 4,
+    "CA": 15,
+    "IL": 9,
+    "SC": 3,
+    "NY": 1,
+    "CT": 4,
+    "OH": 1
+   }
+  },
+  "Weather Shield|Windows": {
+   "bands": {
+    "total": 4,
+    "1_2m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "Weathershield|Windows": {
+   "bands": {
+    "total": 3,
+    "3.5_5m": 1,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CO": 1,
+    "NC": 1,
+    "CA": 1
+   }
+  },
+  "Weber|Outdoor": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 7,
+    "5m_plus": 1,
+    "under_1m": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "NC": 1,
+    "CA": 1,
+    "IL": 3,
+    "FL": 1
+   }
+  },
+  "Wedgewood|Cabinets": {
+   "bands": {
+    "under_1m": 1,
+    "total": 5,
+    "3.5_5m": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "CO": 5
+   }
+  },
+  "Wellborn|Cabinets": {
+   "bands": {
+    "1_2m": 1,
+    "total": 12,
+    "2_3.5m": 2,
+    "under_1m": 6
+   },
+   "states": {
+    "GA": 4,
+    "FL": 3,
+    "OH": 5
+   }
+  },
+  "West Elm|Furniture": {
+   "bands": {
+    "under_1m": 1,
+    "total": 6,
+    "1_2m": 4,
+    "2_3.5m": 1
+   },
+   "states": {
+    "FL": 4,
+    "CA": 1,
+    "MN": 1
+   }
+  },
+  "West Elm|Lighting": {
+   "bands": {
+    "total": 6,
+    "1_2m": 1,
+    "under_1m": 2
+   },
+   "states": {
+    "TX": 2,
+    "CO": 1,
+    "CA": 1,
+    "IL": 2
+   }
+  },
+  "Western|Doors": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 4,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 1,
+    "CO": 1
+   }
+  },
+  "Western|Windows": {
+   "bands": {
+    "3.5_5m": 2,
+    "total": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 2,
+    "NV": 1
+   }
+  },
+  "Whirlpool|Appliances": {
+   "bands": {
+    "total": 138,
+    "1_2m": 32,
+    "under_1m": 79,
+    "2_3.5m": 7,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 7,
+    "AZ": 1,
+    "FL": 75,
+    "GA": 5,
+    "NC": 5,
+    "TN": 2,
+    "CO": 1,
+    "CA": 3,
+    "NV": 2,
+    "WA": 2,
+    "MN": 1,
+    "IL": 17,
+    "SC": 15,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "Whirlpool|Plumbing": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 11,
+    "under_1m": 3,
+    "1_2m": 5
+   },
+   "states": {
+    "GA": 2,
+    "FL": 3,
+    "NC": 1,
+    "CA": 1,
+    "IL": 3,
+    "SC": 1
+   }
+  },
+  "White Rhino|Countertops": {
+   "bands": {
+    "under_1m": 2,
+    "total": 3
+   },
+   "states": {
+    "FL": 3
+   }
+  },
+  "Windsor|Doors": {
+   "bands": {
+    "2_3.5m": 1,
+    "total": 3,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1
+   }
+  },
+  "Windsor|Windows": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 4,
+    "5m_plus": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "GA": 2,
+    "CO": 1,
+    "FL": 1
+   }
+  },
+  "Wolf/SubZero|Appliances": {
+   "bands": {
+    "1_2m": 3,
+    "total": 3
+   },
+   "states": {
+    "GA": 3
+   }
+  },
+  "Wolff|Appliances": {
+   "bands": {
+    "2_3.5m": 2,
+    "total": 7,
+    "1_2m": 3
+   },
+   "states": {
+    "CO": 1,
+    "NC": 1,
+    "TX": 2,
+    "FL": 2,
+    "NY": 1
+   }
+  },
+  "Wolf|Appliances": {
+   "bands": {
+    "5m_plus": 493,
+    "total": 4036,
+    "2_3.5m": 1031,
+    "3.5_5m": 482,
+    "1_2m": 944,
+    "under_1m": 356
+   },
+   "states": {
+    "TX": 449,
+    "CA": 312,
+    "AZ": 470,
+    "FL": 969,
+    "GA": 263,
+    "NC": 164,
+    "TN": 54,
+    "CO": 156,
+    "NV": 73,
+    "WA": 132,
+    "MN": 56,
+    "IL": 452,
+    "SC": 86,
+    "NY": 65,
+    "CT": 19,
+    "OH": 193,
+    "MO": 68,
+    "KS": 55
+   }
+  },
+  "Wolf|Outdoor": {
+   "bands": {
+    "total": 39,
+    "5m_plus": 9,
+    "2_3.5m": 11,
+    "1_2m": 6,
+    "under_1m": 4,
+    "3.5_5m": 2
+   },
+   "states": {
+    "TX": 6,
+    "AZ": 7,
+    "FL": 11,
+    "NC": 4,
+    "TN": 1,
+    "CA": 2,
+    "IL": 6,
+    "NY": 1,
+    "MO": 1
+   }
+  },
+  "Woodmode|Cabinets": {
+   "bands": {
+    "1_2m": 4,
+    "total": 5,
+    "2_3.5m": 1
+   },
+   "states": {
+    "IL": 4,
+    "FL": 1
+   }
+  },
+  "Xfinity|Smart Home": {
+   "bands": {
+    "3.5_5m": 1,
+    "total": 3,
+    "1_2m": 1,
+    "under_1m": 1
+   },
+   "states": {
+    "WA": 1,
+    "FL": 2
+   }
+  },
+  "Yale|Smart Home": {
+   "bands": {
+    "total": 7,
+    "under_1m": 5
+   },
+   "states": {
+    "TX": 1,
+    "FL": 2,
+    "CA": 1,
+    "IL": 2,
+    "MO": 1
+   }
+  },
+  "Yamaha|Lighting": {
+   "bands": {
+    "5m_plus": 2,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "FL": 2,
+    "NY": 1
+   }
+  },
+  "York|HVAC": {
+   "bands": {
+    "under_1m": 3,
+    "total": 9,
+    "1_2m": 6
+   },
+   "states": {
+    "AZ": 1,
+    "FL": 4,
+    "NC": 3,
+    "IL": 1
+   }
+  },
+  "Z-Line|Appliances": {
+   "bands": {
+    "total": 6,
+    "1_2m": 1
+   },
+   "states": {
+    "TX": 5,
+    "TN": 1
+   }
+  },
+  "Z-Wave|Smart Home": {
+   "bands": {
+    "under_1m": 1,
+    "total": 3,
+    "1_2m": 1
+   },
+   "states": {
+    "AZ": 1,
+    "SC": 2
+   }
+  },
+  "Zellige|Tile": {
+   "bands": {
+    "total": 7,
+    "2_3.5m": 1,
+    "1_2m": 1,
+    "under_1m": 2,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 2,
+    "FL": 1,
+    "CO": 2,
+    "CA": 2
+   }
+  },
+  "Zephyr|Appliances": {
+   "bands": {
+    "2_3.5m": 11,
+    "total": 34,
+    "1_2m": 8,
+    "3.5_5m": 5,
+    "under_1m": 4,
+    "5m_plus": 1
+   },
+   "states": {
+    "TX": 6,
+    "CA": 6,
+    "AZ": 4,
+    "FL": 8,
+    "CO": 4,
+    "IL": 4,
+    "KS": 2
+   }
+  },
+  "Zephyr|Wine Storage": {
+   "bands": {
+    "total": 3,
+    "2_3.5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "TN": 1,
+    "FL": 1
+   }
+  },
+  "Zia|Tile": {
+   "bands": {
+    "total": 4,
+    "1_2m": 2,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 1,
+    "GA": 1,
+    "CA": 2
+   }
+  },
+  "Zline|Appliances": {
+   "bands": {
+    "total": 24,
+    "2_3.5m": 2,
+    "under_1m": 6,
+    "1_2m": 9,
+    "3.5_5m": 1
+   },
+   "states": {
+    "TX": 2,
+    "AZ": 3,
+    "FL": 10,
+    "NC": 7,
+    "CA": 1,
+    "SC": 1
+   }
+  },
+  "iAquaLink|Smart Home": {
+   "bands": {
+    "total": 6,
+    "1_2m": 2,
+    "5m_plus": 2,
+    "under_1m": 1
+   },
+   "states": {
+    "TX": 1,
+    "FL": 3,
+    "CA": 2
+   }
+  }
+ }
+}
