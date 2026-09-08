@@ -1,0 +1,386 @@
+{
+ "generated": "2026-09-04",
+ "category": "Windows",
+ "source_specs": 1302,
+ "excluded_non_window": 253,
+ "brands": {
+  "Kolbe": {
+   "total": 18,
+   "5m_plus": 2,
+   "1_2m": 2,
+   "3.5_5m": 1,
+   "2_3.5m": 5,
+   "under_1m": 3
+  },
+  "Jeld-Wen": {
+   "total": 18,
+   "2_3.5m": 3,
+   "1_2m": 4,
+   "3.5_5m": 3,
+   "under_1m": 1,
+   "5m_plus": 1
+  },
+  "Marvin": {
+   "total": 151,
+   "2_3.5m": 18,
+   "3.5_5m": 11,
+   "5m_plus": 13,
+   "1_2m": 33,
+   "under_1m": 30
+  },
+  "Quaker": {
+   "total": 8,
+   "3.5_5m": 1,
+   "5m_plus": 1,
+   "2_3.5m": 2
+  },
+  "Lincoln": {
+   "total": 16,
+   "3.5_5m": 2,
+   "5m_plus": 1,
+   "2_3.5m": 3
+  },
+  "Pella": {
+   "total": 270,
+   "2_3.5m": 64,
+   "3.5_5m": 16,
+   "5m_plus": 7,
+   "1_2m": 75,
+   "under_1m": 42
+  },
+  "Andersen": {
+   "total": 250,
+   "2_3.5m": 47,
+   "1_2m": 54,
+   "3.5_5m": 24,
+   "under_1m": 35,
+   "5m_plus": 16
+  },
+  "Sierra Pacific": {
+   "total": 22,
+   "2_3.5m": 6,
+   "5m_plus": 4,
+   "1_2m": 4,
+   "under_1m": 2,
+   "3.5_5m": 3
+  },
+  "RAM": {
+   "total": 10,
+   "2_3.5m": 1,
+   "1_2m": 1
+  },
+  "Western Windows": {
+   "total": 8,
+   "3.5_5m": 2,
+   "2_3.5m": 2,
+   "5m_plus": 1
+  },
+  "Nanowall": {
+   "total": 1,
+   "3.5_5m": 1
+  },
+  "Weather Shield": {
+   "total": 8,
+   "1_2m": 1,
+   "3.5_5m": 1,
+   "2_3.5m": 3
+  },
+  "Milgard": {
+   "total": 22,
+   "2_3.5m": 2,
+   "1_2m": 10,
+   "under_1m": 6
+  },
+  "Pozzi": {
+   "total": 2,
+   "2_3.5m": 2
+  },
+  "Regal View": {
+   "total": 2,
+   "2_3.5m": 2
+  },
+  "Fleetwood": {
+   "total": 46,
+   "2_3.5m": 9,
+   "under_1m": 4,
+   "3.5_5m": 7,
+   "5m_plus": 17,
+   "1_2m": 4
+  },
+  "La Cantina": {
+   "total": 4,
+   "5m_plus": 1,
+   "under_1m": 1,
+   "3.5_5m": 1
+  },
+  "Thermopane": {
+   "total": 2,
+   "under_1m": 1
+  },
+  "Quantum": {
+   "total": 1
+  },
+  "Andersen (Renewal)": {
+   "total": 4,
+   "under_1m": 1
+  },
+  "LuxView": {
+   "total": 1
+  },
+  "Presidio": {
+   "total": 1
+  },
+  "Crittall": {
+   "total": 2,
+   "under_1m": 1
+  },
+  "UltraVue": {
+   "total": 1
+  },
+  "Loewen": {
+   "total": 7,
+   "2_3.5m": 6,
+   "1_2m": 1
+  },
+  "Anlin": {
+   "total": 1,
+   "1_2m": 1
+  },
+  "Arcadia": {
+   "total": 3,
+   "1_2m": 2,
+   "5m_plus": 1
+  },
+  "IWC": {
+   "total": 2,
+   "2_3.5m": 2
+  },
+  "Western & IWC": {
+   "total": 1,
+   "2_3.5m": 1
+  },
+  "Awake": {
+   "total": 3,
+   "5m_plus": 3
+  },
+  "Albertini": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "Rondel": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "Linea Rossa": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "PGT": {
+   "total": 82,
+   "1_2m": 24,
+   "under_1m": 32,
+   "2_3.5m": 14,
+   "5m_plus": 3,
+   "3.5_5m": 6
+  },
+  "Prestige": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "Schuco": {
+   "total": 2,
+   "2_3.5m": 1,
+   "5m_plus": 1
+  },
+  "CGI": {
+   "total": 1,
+   "1_2m": 1
+  },
+  "Lanai": {
+   "total": 1,
+   "2_3.5m": 1
+  },
+  "Clearview": {
+   "total": 2,
+   "1_2m": 1
+  },
+  "Windsor": {
+   "total": 6,
+   "3.5_5m": 1,
+   "5m_plus": 1,
+   "1_2m": 1,
+   "under_1m": 2
+  },
+  "Palisade": {
+   "total": 2,
+   "under_1m": 2
+  },
+  "ProVia": {
+   "total": 1,
+   "3.5_5m": 1
+  },
+  "Four Seasons Sunrooms": {
+   "total": 1,
+   "1_2m": 1
+  },
+  "Ply Gem": {
+   "total": 2
+  },
+  "Valverax": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "ARMORVUE": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "Velux": {
+   "total": 3,
+   "1_2m": 1,
+   "5m_plus": 2
+  },
+  "M/I": {
+   "total": 1,
+   "1_2m": 1
+  },
+  "Simonton": {
+   "total": 3,
+   "1_2m": 2,
+   "5m_plus": 1
+  },
+  "Energia Solar Windows": {
+   "total": 1,
+   "2_3.5m": 1
+  },
+  "Nu-Air": {
+   "total": 1,
+   "1_2m": 1
+  },
+  "Tischler und Sohn": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "Hope's Windows": {
+   "total": 5,
+   "under_1m": 1,
+   "5m_plus": 2,
+   "2_3.5m": 2
+  },
+  "ESW": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "NanaWall": {
+   "total": 10,
+   "1_2m": 3,
+   "2_3.5m": 3,
+   "5m_plus": 1,
+   "3.5_5m": 1
+  },
+  "Pergolux": {
+   "total": 1,
+   "3.5_5m": 1
+  },
+  "Yawal": {
+   "total": 1,
+   "3.5_5m": 1
+  },
+  "Alpen": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "Nana Walls": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "MagnaTrack": {
+   "total": 1
+  },
+  "Starfire": {
+   "total": 1,
+   "1_2m": 1
+  },
+  "Conrad": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "Euroline": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "Rolladen": {
+   "total": 1
+  },
+  "Drutex": {
+   "total": 1
+  },
+  "Rehau": {
+   "total": 3,
+   "2_3.5m": 1,
+   "1_2m": 2
+  },
+  "Eastern Roto": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "Oknoplast": {
+   "total": 1,
+   "1_2m": 1
+  },
+  "Lumini": {
+   "total": 2,
+   "1_2m": 2
+  },
+  "Windoor": {
+   "total": 2,
+   "2_3.5m": 1,
+   "5m_plus": 1
+  },
+  "CGI (Impact)": {
+   "total": 2,
+   "1_2m": 2
+  },
+  "Nautilus": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "Storm Catcher": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "Conrad Grass": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "Apex": {
+   "total": 1,
+   "under_1m": 1
+  },
+  "PGT WinGuard": {
+   "total": 1
+  },
+  "Gayko": {
+   "total": 1,
+   "2_3.5m": 1
+  },
+  "Weru": {
+   "total": 1,
+   "2_3.5m": 1
+  },
+  "Bonelli": {
+   "total": 1,
+   "2_3.5m": 1
+  },
+  "Zola": {
+   "total": 1,
+   "5m_plus": 1
+  },
+  "KLAR": {
+   "total": 1,
+   "3.5_5m": 1
+  },
+  "RHINO": {
+   "total": 1
+  }
+ }
+}
