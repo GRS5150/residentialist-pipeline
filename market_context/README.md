@@ -44,3 +44,48 @@ price-band breakdown. Same rules: mention share, report-only, min-sample
 floors still apply per band. This is the source for any Windows report or
 article; do not use the old uncleaned windows numbers from
 market-context-index.json going forward.
+
+## Brand normalization rules (locked with Ray 2026-09-08)
+
+### 1. Frequency never picks the canonical name
+Which spelling is correct is knowledge the crawler data does not contain. The
+crawler harvests listing copy, and listing copy misspells confidently: the data
+prefers "Carrera" over "Carrara" and "Consentino" over "Cosentino". Counting rows
+gets the canonical name backwards often enough to corrupt the brand taxonomy,
+which is the asset.
+
+The canonical name comes from the curated authority list in
+`cleanup.py` (`CANONICAL_AUTHORITY`). Frequency is the fallback **only** when no
+group member matches the list, and anything chosen that way should be reviewed
+and promoted into the list. Do not replace this with a frequency heuristic, in
+that script or any successor.
+
+### 2. The one-typo merge rule
+Merge two brand names when they differ only by spacing, punctuation, casing, or
+one obvious typo, implemented as a single character edit on a name of six or more
+characters. Spacing, punctuation, and casing collapse before comparison, so what
+the rule actually tests is character edits.
+
+Leave the pair flagged when the two names could plausibly be two different
+companies. Small counts are not a reason to merge.
+
+### 3. Locked-distinct names
+Variants are matched with union-find, so chains collapse to one canonical rather
+than a chain (`Remi-halo` -> `Rem-Halo` -> `Reme Halo` must end at `Reme Halo`).
+Transitive closure can route around a blocked pair, so genuinely distinct names
+that sit one edit apart are hard-excluded in `NEVER_MERGE_KEYS`:
+
+- `WinDoor` — a real manufacturer, one edit from Windsor
+- `Aquatic` / `Aquatica` — Aquatic Bath and Aquatica are separate firms
+- `Belmont` / `Bellmont` — Bellmont Cabinets and Belmont, both plausible
+
+### 4. Counting
+Indexes are built **one count per home**, not one per spec row. Counting rows
+inflates any brand that appears multiple times in a listing, and before the
+Sept 8 dedupe it was inflating them from duplicate rows as well: Miele's
+mid-band share and Crestron's were both duplication artifacts.
+
+### 5. The public database number
+Never quoted from memory. Recompute from the deduped listing count at publish
+time, every time. The "more than 23,000 homes" line is retired; it counted
+duplicate rows.
