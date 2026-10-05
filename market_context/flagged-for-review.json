@@ -2,463 +2,630 @@
  "auto_merged_typos": [
   {
    "category": "Lighting",
-   "canonical": "Philips",
-   "variant": "Phillips",
-   "canonical_count": 9,
-   "variant_count": 2,
-   "similarity": 0.933
-  },
-  {
-   "category": "Lighting",
-   "canonical": "Arteriors",
-   "variant": "Arterior",
-   "canonical_count": 5,
-   "variant_count": 1,
-   "similarity": 0.941
-  },
-  {
-   "category": "Plumbing",
-   "canonical": "Dornbracht",
-   "variant": "Dornbract",
-   "canonical_count": 17,
-   "variant_count": 1,
-   "similarity": 0.947
-  },
-  {
-   "category": "Plumbing",
-   "canonical": "Kallista",
-   "variant": "Kalista",
-   "canonical_count": 14,
-   "variant_count": 1,
-   "similarity": 0.933
-  },
-  {
-   "category": "Plumbing",
-   "canonical": "Phylrich",
-   "variant": "Phyllrich",
-   "canonical_count": 8,
-   "variant_count": 1,
-   "similarity": 0.941
-  },
-  {
-   "category": "Countertops",
-   "canonical": "Taj Mahal",
-   "variant": "Tahj Mahal",
-   "canonical_count": 85,
-   "variant_count": 1,
-   "similarity": 0.941
-  },
-  {
-   "category": "Countertops",
-   "canonical": "Caesarstone",
-   "variant": "Cesar Stone",
-   "canonical_count": 77,
-   "variant_count": 1,
-   "similarity": 0.952
-  },
-  {
-   "category": "Countertops",
-   "canonical": "Cristallo",
-   "variant": "Cristalo",
-   "canonical_count": 19,
-   "variant_count": 1,
-   "similarity": 0.941
-  },
-  {
-   "category": "Flooring",
-   "canonical": "DuChateau",
-   "variant": "DuChteau",
-   "canonical_count": 19,
-   "variant_count": 2,
-   "similarity": 0.941
-  },
-  {
-   "category": "Flooring",
-   "canonical": "Coretec",
-   "variant": "Core Tech",
-   "canonical_count": 4,
-   "variant_count": 1,
-   "similarity": 0.933
-  },
-  {
-   "category": "Doors",
-   "canonical": "Therma Tru",
-   "variant": "Therma-True",
-   "canonical_count": 7,
-   "variant_count": 1,
-   "similarity": 0.947
-  },
-  {
-   "category": "HVAC",
-   "canonical": "Reme Halo",
-   "variant": "Rem-Halo",
-   "canonical_count": 10,
-   "variant_count": 1,
-   "similarity": 0.933
-  },
-  {
-   "category": "HVAC",
-   "canonical": "Infratech",
-   "variant": "Infratec",
-   "canonical_count": 4,
-   "variant_count": 1,
-   "similarity": 0.941
-  },
-  {
-   "category": "Smart Home",
-   "canonical": "Crestron",
-   "variant": "Creston",
-   "canonical_count": 184,
-   "variant_count": 3,
-   "similarity": 0.933
-  },
-  {
-   "category": "Cabinets",
-   "canonical": "Eggersmann",
-   "variant": "Eggersman",
-   "canonical_count": 5,
-   "variant_count": 1,
-   "similarity": 0.947
-  },
-  {
-   "category": "Generators",
-   "canonical": "Generac",
-   "variant": "Generace",
-   "canonical_count": 439,
-   "variant_count": 1,
-   "similarity": 0.933
-  },
-  {
-   "category": "Water Treatment",
-   "canonical": "Aquasana",
-   "variant": "Aquasauna",
-   "canonical_count": 17,
-   "variant_count": 2,
-   "similarity": 0.941
-  }
- ],
- "needs_ruling": [
-  {
-   "category": "Lighting",
-   "canonical": "Visual Comfort",
-   "variant": "Virtual Comfort",
-   "canonical_count": 124,
-   "variant_count": 1,
-   "similarity": 0.889
+   "canonical": "Bevolo",
+   "variant": "Bevelo",
+   "variant_count": 7
   },
   {
    "category": "Lighting",
    "canonical": "Arteriors",
    "variant": "Anteriors",
-   "canonical_count": 5,
-   "variant_count": 1,
-   "similarity": 0.889
+   "variant_count": 1
+  },
+  {
+   "category": "Lighting",
+   "canonical": "Philips",
+   "variant": "Phillips",
+   "variant_count": 2
+  },
+  {
+   "category": "Lighting",
+   "canonical": "Currey & Company",
+   "variant": "Currey & Co.",
+   "variant_count": 4
+  },
+  {
+   "category": "Lighting",
+   "canonical": "Currey & Company",
+   "variant": "Currey and Co.",
+   "variant_count": 2
+  },
+  {
+   "category": "Lighting",
+   "canonical": "Currey & Company",
+   "variant": "Currey & Co",
+   "variant_count": 1
   },
   {
    "category": "Lighting",
    "canonical": "Currey & Company",
    "variant": "Curry & Co",
-   "canonical_count": 4,
-   "variant_count": 2,
-   "similarity": 0.941
+   "variant_count": 1
   },
   {
    "category": "Lighting",
-   "canonical": "Bowers and Wilkins",
-   "variant": "BOWER & WILKINS",
-   "canonical_count": 3,
-   "variant_count": 1,
-   "similarity": 0.968
+   "canonical": "Currey & Company",
+   "variant": "Curry & Company",
+   "variant_count": 1
+  },
+  {
+   "category": "Lighting",
+   "canonical": "John Richard",
+   "variant": "John-Richard",
+   "variant_count": 1
+  },
+  {
+   "category": "Lighting",
+   "canonical": "John Richard",
+   "variant": "John Richards",
+   "variant_count": 2
+  },
+  {
+   "category": "Lighting",
+   "canonical": "Regina Andrew",
+   "variant": "Regina Andrews",
+   "variant_count": 2
+  },
+  {
+   "category": "Plumbing",
+   "canonical": "Kohler",
+   "variant": "KOHLER",
+   "variant_count": 6
   },
   {
    "category": "Plumbing",
    "canonical": "Kohler",
    "variant": "Koehler",
-   "canonical_count": 326,
-   "variant_count": 2,
-   "similarity": 0.923
+   "variant_count": 2
   },
   {
    "category": "Plumbing",
-   "canonical": "Brizo",
-   "variant": "Brizzo",
-   "canonical_count": 76,
-   "variant_count": 2,
-   "similarity": 0.909
+   "canonical": "Kallista",
+   "variant": "KALLISTA",
+   "variant_count": 1
   },
   {
    "category": "Plumbing",
-   "canonical": "Aquatica",
-   "variant": "Aquatic",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.933
+   "canonical": "Kallista",
+   "variant": "Kalista",
+   "variant_count": 1
+  },
+  {
+   "category": "Plumbing",
+   "canonical": "Dornbracht",
+   "variant": "Dorn Bracht",
+   "variant_count": 2
+  },
+  {
+   "category": "Plumbing",
+   "canonical": "Dornbracht",
+   "variant": "Dornbract",
+   "variant_count": 1
+  },
+  {
+   "category": "Plumbing",
+   "canonical": "Phylrich",
+   "variant": "Phyllrich",
+   "variant_count": 1
+  },
+  {
+   "category": "Plumbing",
+   "canonical": "Navien",
+   "variant": "NAVIEN",
+   "variant_count": 1
+  },
+  {
+   "category": "Plumbing",
+   "canonical": "Navien",
+   "variant": "Navian",
+   "variant_count": 1
+  },
+  {
+   "category": "Countertops",
+   "canonical": "Taj Mahal",
+   "variant": "TAJ MAHAL",
+   "variant_count": 1
+  },
+  {
+   "category": "Countertops",
+   "canonical": "Taj Mahal",
+   "variant": "Taj Majal",
+   "variant_count": 1
+  },
+  {
+   "category": "Countertops",
+   "canonical": "Taj Mahal",
+   "variant": "Tahj Mahal",
+   "variant_count": 1
   },
   {
    "category": "Countertops",
    "canonical": "Cristallo",
    "variant": "Crystallo",
-   "canonical_count": 19,
-   "variant_count": 3,
-   "similarity": 0.889
+   "variant_count": 8
+  },
+  {
+   "category": "Countertops",
+   "canonical": "Cristallo",
+   "variant": "Cristalo",
+   "variant_count": 1
   },
   {
    "category": "Countertops",
    "canonical": "Cristallo",
    "variant": "Cristello",
-   "canonical_count": 19,
-   "variant_count": 1,
-   "similarity": 0.889
-  },
-  {
-   "category": "Countertops",
-   "canonical": "Pompeii",
-   "variant": "Pompei",
-   "canonical_count": 9,
-   "variant_count": 3,
-   "similarity": 0.923
+   "variant_count": 1
   },
   {
    "category": "Countertops",
    "canonical": "Mont Blanc",
    "variant": "Monte Blanc",
-   "canonical_count": 8,
-   "variant_count": 3,
-   "similarity": 0.947
+   "variant_count": 3
+  },
+  {
+   "category": "Countertops",
+   "canonical": "Pompeii",
+   "variant": "Pompei",
+   "variant_count": 3
   },
   {
    "category": "Countertops",
    "canonical": "Cosentino",
    "variant": "Consentino",
-   "canonical_count": 2,
-   "variant_count": 2,
-   "similarity": 0.947
+   "variant_count": 2
   },
   {
    "category": "Countertops",
    "canonical": "Cosentino",
    "variant": "Costentino",
-   "canonical_count": 2,
-   "variant_count": 1,
-   "similarity": 0.947
+   "variant_count": 1
   },
   {
    "category": "Countertops",
-   "canonical": "Consentino",
-   "variant": "Costentino",
-   "canonical_count": 2,
-   "variant_count": 1,
-   "similarity": 0.9
+   "canonical": "Carrara",
+   "variant": "Carrera",
+   "variant_count": 4
   },
   {
-   "category": "Countertops",
-   "canonical": "Calacatta Nuvo",
-   "variant": "Calacatta Fuoco",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.88
+   "category": "Flooring",
+   "canonical": "DuChateau",
+   "variant": "Duchateau",
+   "variant_count": 6
   },
   {
-   "category": "Countertops",
-   "canonical": "Cristalo",
-   "variant": "Cristalino",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.889
+   "category": "Flooring",
+   "canonical": "DuChateau",
+   "variant": "Du Chateau",
+   "variant_count": 2
   },
   {
-   "category": "Countertops",
-   "canonical": "Calacatta Laza",
-   "variant": "Calcutta Laza",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.88
+   "category": "Flooring",
+   "canonical": "DuChateau",
+   "variant": "DU CHATEAU",
+   "variant_count": 1
+  },
+  {
+   "category": "Flooring",
+   "canonical": "DuChateau",
+   "variant": "DuChteau",
+   "variant_count": 2
   },
   {
    "category": "Flooring",
    "canonical": "DuChateau",
    "variant": "Dechateau",
-   "canonical_count": 19,
-   "variant_count": 1,
-   "similarity": 0.889
+   "variant_count": 1
   },
   {
    "category": "Flooring",
-   "canonical": "Pebble-Tec",
+   "canonical": "COREtec",
+   "variant": "Coretec",
+   "variant_count": 4
+  },
+  {
+   "category": "Flooring",
+   "canonical": "COREtec",
+   "variant": "Core Tech",
+   "variant_count": 1
+  },
+  {
+   "category": "Flooring",
+   "canonical": "Provenza",
+   "variant": "Provanza",
+   "variant_count": 1
+  },
+  {
+   "category": "Flooring",
+   "canonical": "Pebble Tec",
+   "variant": "Pebble-Tec",
+   "variant_count": 2
+  },
+  {
+   "category": "Flooring",
+   "canonical": "Pebble Tec",
    "variant": "Pebble Tech",
-   "canonical_count": 2,
-   "variant_count": 1,
-   "similarity": 0.947
+   "variant_count": 1
   },
   {
    "category": "Flooring",
-   "canonical": "Belgrad",
-   "variant": "Belgrade",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.933
+   "canonical": "Belgrade",
+   "variant": "Belgrad",
+   "variant_count": 1
   },
   {
    "category": "Doors",
-   "canonical": "Pella",
-   "variant": "PELA",
-   "canonical_count": 82,
-   "variant_count": 1,
-   "similarity": 0.889
+   "canonical": "Andersen",
+   "variant": "Anderson",
+   "variant_count": 32
   },
   {
    "category": "Doors",
-   "canonical": "Therma Tru",
+   "canonical": "Andersen",
+   "variant": "ANDERSON",
+   "variant_count": 1
+  },
+  {
+   "category": "Doors",
+   "canonical": "NanaWall",
+   "variant": "Nanawall",
+   "variant_count": 7
+  },
+  {
+   "category": "Doors",
+   "canonical": "NanaWall",
+   "variant": "Nana Wall",
+   "variant_count": 3
+  },
+  {
+   "category": "Doors",
+   "canonical": "NanaWall",
+   "variant": "Nanowall",
+   "variant_count": 1
+  },
+  {
+   "category": "Doors",
+   "canonical": "Jeld-Wen",
+   "variant": "Jeld Wen",
+   "variant_count": 2
+  },
+  {
+   "category": "Doors",
+   "canonical": "Jeld-Wen",
+   "variant": "Jeldwen",
+   "variant_count": 1
+  },
+  {
+   "category": "Doors",
+   "canonical": "Jeld-Wen",
+   "variant": "JELD-WEN",
+   "variant_count": 1
+  },
+  {
+   "category": "Doors",
+   "canonical": "Jeld-Wen",
+   "variant": "Jeldwyn",
+   "variant_count": 1
+  },
+  {
+   "category": "Doors",
+   "canonical": "Therma-Tru",
+   "variant": "Therma Tru",
+   "variant_count": 4
+  },
+  {
+   "category": "Doors",
+   "canonical": "Therma-Tru",
+   "variant": "Thermatru",
+   "variant_count": 2
+  },
+  {
+   "category": "Doors",
+   "canonical": "Therma-Tru",
+   "variant": "Therma-True",
+   "variant_count": 1
+  },
+  {
+   "category": "Doors",
+   "canonical": "Therma-Tru",
    "variant": "THERMO-TRU",
-   "canonical_count": 7,
-   "variant_count": 1,
-   "similarity": 0.889
+   "variant_count": 1
   },
   {
    "category": "Doors",
-   "canonical": "Windor",
-   "variant": "Windsor",
-   "canonical_count": 3,
-   "variant_count": 2,
-   "similarity": 0.923
+   "canonical": "Cantera",
+   "variant": "Cantara",
+   "variant_count": 1
   },
   {
    "category": "Doors",
-   "canonical": "Windor",
-   "variant": "WinDoor",
-   "canonical_count": 3,
-   "variant_count": 2,
-   "similarity": 0.923
+   "canonical": "Windsor",
+   "variant": "Windor",
+   "variant_count": 2
   },
   {
    "category": "Doors",
-   "canonical": "Masonite",
-   "variant": "FG Masonite",
-   "canonical_count": 2,
-   "variant_count": 1,
-   "similarity": 0.889
+   "canonical": "Windsor",
+   "variant": "WinDor",
+   "variant_count": 1
+  },
+  {
+   "category": "Doors",
+   "canonical": "Milgard",
+   "variant": "Millard",
+   "variant_count": 1
   },
   {
    "category": "HVAC",
-   "canonical": "Lennox",
-   "variant": "Lenox",
-   "canonical_count": 78,
-   "variant_count": 1,
-   "similarity": 0.909
+   "canonical": "Daikin",
+   "variant": "DAIKON",
+   "variant_count": 1
   },
   {
    "category": "HVAC",
-   "canonical": "Rem-Halo",
+   "canonical": "Daikin",
+   "variant": "Daikon",
+   "variant_count": 1
+  },
+  {
+   "category": "HVAC",
+   "canonical": "Reme Halo",
+   "variant": "REME HALO",
+   "variant_count": 5
+  },
+  {
+   "category": "HVAC",
+   "canonical": "Reme Halo",
+   "variant": "REME Halo",
+   "variant_count": 1
+  },
+  {
+   "category": "HVAC",
+   "canonical": "Reme Halo",
+   "variant": "Rem-Halo",
+   "variant_count": 1
+  },
+  {
+   "category": "HVAC",
+   "canonical": "Reme Halo",
    "variant": "Remi-halo",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.933
+   "variant_count": 1
   },
   {
    "category": "HVAC",
-   "canonical": "I-Wave-R",
-   "variant": "I-wave",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.909
+   "canonical": "Infratech",
+   "variant": "Infratec",
+   "variant_count": 1
+  },
+  {
+   "category": "HVAC",
+   "canonical": "Buderus",
+   "variant": "Buderas",
+   "variant_count": 1
   },
   {
    "category": "Smart Home",
-   "canonical": "Sonos",
-   "variant": "Sono",
-   "canonical_count": 615,
-   "variant_count": 2,
-   "similarity": 0.889
+   "canonical": "Crestron",
+   "variant": "Creston",
+   "variant_count": 4
   },
   {
    "category": "Smart Home",
-   "canonical": "Aqualink",
-   "variant": "iAquaLink",
-   "canonical_count": 12,
-   "variant_count": 8,
-   "similarity": 0.941
+   "canonical": "Vivint",
+   "variant": "VIVINT",
+   "variant_count": 1
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "Vivint",
+   "variant": "Vivant",
+   "variant_count": 3
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "Ubiquiti",
+   "variant": "Ubiquity",
+   "variant_count": 6
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "SimpliSafe",
+   "variant": "Simplisafe",
+   "variant_count": 2
   },
   {
    "category": "Smart Home",
    "canonical": "SimpliSafe",
    "variant": "Simply Safe",
-   "canonical_count": 11,
-   "variant_count": 3,
-   "similarity": 0.9
+   "variant_count": 2
   },
   {
    "category": "Smart Home",
-   "canonical": "B-Hyve",
-   "variant": "Be-Hyve",
-   "canonical_count": 4,
-   "variant_count": 1,
-   "similarity": 0.909
+   "canonical": "SimpliSafe",
+   "variant": "SimplySafe",
+   "variant_count": 2
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "Quolsys",
+   "variant": "Qolsys",
+   "variant_count": 13
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "iAquaLink",
+   "variant": "Aqualink",
+   "variant_count": 7
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "iAquaLink",
+   "variant": "AquaLink",
+   "variant_count": 5
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "iAquaLink",
+   "variant": "Aqua Link",
+   "variant_count": 2
+  },
+  {
+   "category": "Smart Home",
+   "canonical": "iAquaLink",
+   "variant": "iAqualink",
+   "variant_count": 2
   },
   {
    "category": "Cabinets",
    "canonical": "California Closets",
    "variant": "California Closet",
-   "canonical_count": 20,
-   "variant_count": 7,
-   "similarity": 0.97
+   "variant_count": 9
   },
   {
    "category": "Cabinets",
-   "canonical": "Bellmont",
-   "variant": "Belmont",
-   "canonical_count": 8,
-   "variant_count": 5,
-   "similarity": 0.933
+   "canonical": "KitchenCraft",
+   "variant": "Kitchen Kraft",
+   "variant_count": 3
   },
   {
    "category": "Cabinets",
-   "canonical": "Kitchen Kraft",
-   "variant": "KitchenCraft",
-   "canonical_count": 2,
-   "variant_count": 2,
-   "similarity": 0.917
+   "canonical": "KitchenCraft",
+   "variant": "Kitchen Craft",
+   "variant_count": 1
+  },
+  {
+   "category": "Cabinets",
+   "canonical": "Cucina Ricci",
+   "variant": "Cucine Ricci",
+   "variant_count": 2
+  },
+  {
+   "category": "Generators",
+   "canonical": "Generac",
+   "variant": "GENERAC",
+   "variant_count": 16
+  },
+  {
+   "category": "Generators",
+   "canonical": "Generac",
+   "variant": "Generace",
+   "variant_count": 1
+  },
+  {
+   "category": "Generators",
+   "canonical": "Kohler",
+   "variant": "KOHLER",
+   "variant_count": 2
   },
   {
    "category": "Generators",
    "canonical": "Kohler",
    "variant": "Koehler",
-   "canonical_count": 74,
-   "variant_count": 1,
-   "similarity": 0.923
+   "variant_count": 1
   },
   {
    "category": "Generators",
-   "canonical": "Briggs & Stratton",
-   "variant": "Briggs Stratton",
-   "canonical_count": 8,
-   "variant_count": 1,
-   "similarity": 0.903
+   "canonical": "Duramax",
+   "variant": "DuroMax",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Kinetico",
+   "variant": "KINETICO",
+   "variant_count": 1
   },
   {
    "category": "Water Treatment",
    "canonical": "Kinetico",
    "variant": "Kinetic",
-   "canonical_count": 69,
-   "variant_count": 2,
-   "similarity": 0.923
+   "variant_count": 2
   },
   {
    "category": "Water Treatment",
    "canonical": "Kinetico",
-   "variant": "Kinetco",
-   "canonical_count": 69,
-   "variant_count": 1,
-   "similarity": 0.909
+   "variant": "Kenetico",
+   "variant_count": 1
   },
   {
    "category": "Water Treatment",
-   "canonical": "Flo-Tech",
-   "variant": "Flow Tech",
-   "canonical_count": 1,
-   "variant_count": 1,
-   "similarity": 0.933
+   "canonical": "Culligan",
+   "variant": "CULLIGAN",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Culligan",
+   "variant": "Mulligan",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Aquasana",
+   "variant": "Aquasauna",
+   "variant_count": 2
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Aquasana",
+   "variant": "Aqua Sauna",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "FloLogic",
+   "variant": "FlowLogic",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Aqua Pure",
+   "variant": "AquaSure",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Aqua Pure",
+   "variant": "Aquasure",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Flow Tech",
+   "variant": "Flow-Tech",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Flow Tech",
+   "variant": "Flo-Tech",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Flow Tech",
+   "variant": "Flowtec",
+   "variant_count": 1
+  },
+  {
+   "category": "Water Treatment",
+   "canonical": "Water Doctors",
+   "variant": "Water Doctor",
+   "variant_count": 1
+  },
+  {
+   "category": "cabinets",
+   "canonical": "California Closets",
+   "variant": "californiacloset",
+   "source": "Ray ruling 2026-09-08"
+  },
+  {
+   "category": "smart home",
+   "canonical": "Aqualink",
+   "variant": "iaqualink",
+   "source": "Ray ruling 2026-09-08"
   }
  ],
+ "needs_ruling": [],
  "windows_dropped_non_brand": {
   "Quartz": 1,
   "Solatube": 1,
@@ -467,9 +634,9 @@
   "Quality": 1,
   "Techno Glass": 1,
   "CWS": 1,
-  "ES": 1,
+  "ES": 3,
   "EZ": 1,
   "Smart": 1,
-  "MI": 2
+  "MI": 3
  }
 }
