@@ -1,5 +1,6 @@
 {
  "A.O. Smith|Water Heaters": [
+  "A O Smith",
   "AO SMITH"
  ],
  "ARTISAN|Siding": [
@@ -8,8 +9,15 @@
  "AZEK|Siding": [
   "Azek"
  ],
- "Amish-built|Cabinets": [
-  "Amish Built"
+ "Advantech|Other": [
+  "AdvanTech"
+ ],
+ "Amish Built|Cabinets": [
+  "Amish-built"
+ ],
+ "Andersen|Doors": [
+  "Anderson",
+  "ANDERSON"
  ],
  "Anderson|Doors": [
   "ANDERSON"
@@ -20,11 +28,20 @@
  "Aprilaire|HVAC": [
   "AprilAire"
  ],
+ "Aqua Pure|Water Treatment": [
+  "AquaSure",
+  "Aquasure"
+ ],
  "AquaSure|Water Treatment": [
   "Aquasure"
  ],
+ "Aquaguard|Flooring": [
+  "Aqua Guard",
+  "AquaGuard"
+ ],
  "Aqualink|Pool": [
   "Aqua Link",
+  "Aqua-Link",
   "AquaLink"
  ],
  "Aqualink|Smart Home": [
@@ -32,7 +49,11 @@
   "AquaLink"
  ],
  "Aquasana|Water Treatment": [
-  "Aquasauna"
+  "Aquasauna",
+  "Aqua Sauna"
+ ],
+ "Aquasauna|Water Treatment": [
+  "Aqua Sauna"
  ],
  "Arclinea|Cabinets": [
   "ArcLinea"
@@ -40,8 +61,11 @@
  "Arhaus|Furniture": [
   "ARHAUS"
  ],
+ "Aroma360|Smart Home": [
+  "Aroma 360"
+ ],
  "Arteriors|Lighting": [
-  "Arterior"
+  "Anteriors"
  ],
  "AstroTurf|Outdoor": [
   "Astro Turf",
@@ -59,14 +83,29 @@
  "B-Hyve|Smart Home": [
   "B-hyve"
  ],
+ "Badu|Pool": [
+  "BADU"
+ ],
  "Bain Ultra|Plumbing": [
   "BainUltra"
  ],
- "Bertch USA|Cabinets": [
-  "Bertch"
+ "Bang & Olufsen|Smart Home": [
+  "Bang and Olufsen"
+ ],
+ "Belgrade|Flooring": [
+  "Belgrad"
+ ],
+ "Bertch|Cabinets": [
+  "Bertch USA"
+ ],
+ "Bevolo|Lighting": [
+  "Bevelo"
  ],
  "BigAss|Lighting": [
   "Big Ass"
+ ],
+ "Blanco|Sinks": [
+  "BLANCO"
  ],
  "Blaze|Outdoor": [
   "BLAZE"
@@ -74,11 +113,20 @@
  "Blink|Smart Home": [
   "BLINK"
  ],
+ "Bose|Smart Home": [
+  "BOSE"
+ ],
+ "Bowers & Wilkins|Lighting": [
+  "Bowers and Wilkins"
+ ],
  "Bowers & Wilkins|Smart Home": [
   "Bowers and Wilkins"
  ],
- "Bowers and Wilkins|Lighting": [
-  "Bowers & Wilkins"
+ "Brilliant|Smart Home": [
+  "BRILLIANT"
+ ],
+ "Buderus|HVAC": [
+  "Buderas"
  ],
  "Bullfrog|Pool": [
   "Bull Frog"
@@ -86,17 +134,23 @@
  "Busby|Cabinets": [
   "BUSBY"
  ],
- "Buster&Punch|Hardware": [
-  "Buster & Punch"
+ "Buster & Punch|Hardware": [
+  "Buster&Punch"
  ],
  "C-4|Smart Home": [
   "C4"
  ],
+ "COREtec|Flooring": [
+  "Coretec",
+  "Core Tech"
+ ],
  "Caesarstone|Countertops": [
   "Caesar Stone",
   "Caesar stone",
-  "CaesarStone",
-  "Cesar Stone"
+  "CaesarStone"
+ ],
+ "California Closets|Cabinets": [
+  "California Closet"
  ],
  "California Closets|Closets": [
   "CALIFORNIA CLOSETS",
@@ -106,8 +160,24 @@
   "California closet",
   "California-closet"
  ],
+ "California|Closets": [
+  "CALIFORNIA"
+ ],
+ "Cantera|Doors": [
+  "Cantara"
+ ],
+ "Carrara|Countertops": [
+  "Carrera"
+ ],
+ "Carrier|HVAC": [
+  "CARRIER"
+ ],
+ "CertainTeed|Roofing": [
+  "Certain Teed"
+ ],
  "ChargePoint|Smart Home": [
-  "Charge Point"
+  "Charge Point",
+  "Chargepoint"
  ],
  "Cleaf|Cabinets": [
   "CLEAF"
@@ -116,6 +186,11 @@
   "ClearLight"
  ],
  "Clearview|Other": [
+  "ClearView"
+ ],
+ "Clearview|Outdoor": [
+  "CLEARVIEW",
+  "Clear View",
   "ClearView"
  ],
  "Clearview|Pool": [
@@ -138,30 +213,55 @@
   "Control 4"
  ],
  "Coretec|Flooring": [
-  "COREtec",
-  "Core Tech"
+  "COREtec"
  ],
  "Coretec|LVP": [
   "COREtec",
   "Core-tec",
   "CoreTec"
  ],
+ "Cosentino|Countertops": [
+  "Consentino",
+  "Costentino"
+ ],
+ "Crate & Barrel|Lighting": [
+  "Crate&Barrel"
+ ],
  "Crestron|Smart Home": [
   "Creston"
  ],
  "Cristallo|Countertops": [
-  "Cristalo"
+  "Crystallo",
+  "Cristalo",
+  "Cristello"
+ ],
+ "Cucina Ricci|Cabinets": [
+  "Cucine Ricci"
+ ],
+ "Culligan|Water Treatment": [
+  "CULLIGAN",
+  "Mulligan"
+ ],
+ "Currey & Co.|Lighting": [
+  "Currey & Co",
+  "Currey & Company",
+  "Currey and Co."
  ],
  "Currey & Company|Lighting": [
-  "Currey & Co",
   "Currey & Co.",
-  "Currey and Co."
+  "Currey and Co.",
+  "Currey & Co",
+  "Curry & Co",
+  "Curry & Company"
  ],
  "Curry & Co|Lighting": [
   "Curry & Company"
  ],
  "DAIKON|HVAC": [
   "Daikon"
+ ],
+ "DECRA|Roofing": [
+  "Decra"
  ],
  "DOCA|Cabinets": [
   "Doca"
@@ -173,8 +273,18 @@
   "Da Vinci",
   "Davinci"
  ],
+ "Daikin|HVAC": [
+  "DAIKON",
+  "Daikon"
+ ],
+ "De Giulio|Cabinets": [
+  "de Giulio"
+ ],
  "Dekton|Countertops": [
   "DEKTON"
+ ],
+ "Delaturf|Outdoor": [
+  "DelaTurf"
  ],
  "Delta|Plumbing": [
   "DELTA"
@@ -182,18 +292,35 @@
  "DiVosta|Other": [
   "Divosta"
  ],
+ "DogWatch|Other": [
+  "Dog Watch"
+ ],
  "DoorBird|Smart Home": [
+  "Door Bird",
   "Doorbird"
  ],
  "Dornbracht|Plumbing": [
   "Dorn Bracht",
   "Dornbract"
  ],
+ "Downsview|Cabinets": [
+  "DownsView"
+ ],
  "DuChateau|Flooring": [
   "DU CHATEAU",
   "Du Chateau",
   "Duchateau",
-  "DuChteau"
+  "DuChteau",
+  "Dechateau"
+ ],
+ "Dupure|Water Treatment": [
+  "DuPure"
+ ],
+ "Dura Supreme|Cabinets": [
+  "DuraSupreme"
+ ],
+ "Duramax|Generators": [
+  "DuroMax"
  ],
  "DuxxBak|Outdoor": [
   "Duxxbak"
@@ -207,23 +334,32 @@
  "EZ BREEZE|Other": [
   "EZ Breeze"
  ],
+ "EZE-Breeze|Outdoor": [
+  "Eze Breeze",
+  "Eze-Breeze"
+ ],
+ "EZGo|Other": [
+  "E-Z-GO",
+  "E-Z-Go"
+ ],
  "EasyTouch|Pool": [
   "Easy Touch"
  ],
  "EcoWater|Water Treatment": [
+  "ECOWATER",
+  "Eco Water",
   "Ecowater"
  ],
  "Ecobee|HVAC": [
-  "EcoBee"
+  "EcoBee",
+  "ecobee"
  ],
  "Ecobee|Smart Home": [
   "ecobee"
  ],
  "Eero|Smart Home": [
-  "EERO"
- ],
- "Eggersmann|Cabinets": [
-  "Eggersman"
+  "EERO",
+  "eero"
  ],
  "Elan|Smart Home": [
   "ELAN"
@@ -238,16 +374,26 @@
   "Euro Cave",
   "Eurocave"
  ],
+ "Eurocraft|Cabinets": [
+  "EuroCraft"
+ ],
+ "Eurowall|Doors": [
+  "Euro Wall",
+  "Euro-Wall",
+  "EuroWall"
+ ],
  "Ever-Seal|Outdoor": [
   "Everseal"
  ],
- "Eze-Breeze|Other": [
-  "EZE-Breeze",
-  "Eze-breeze"
+ "Everlights|Lighting": [
+  "EverLights"
  ],
- "Eze-Breeze|Outdoor": [
+ "Ez-go|Outdoor": [
+  "EZ-GO"
+ ],
+ "Eze-breeze|Other": [
   "EZE-Breeze",
-  "Eze Breeze"
+  "Eze-Breeze"
  ],
  "Farrow & Ball|Paint": [
   "Farrow and Ball"
@@ -256,23 +402,54 @@
   "FireMagic",
   "Firemagic"
  ],
+ "Fire Orb|Fireplaces": [
+  "Fireorb"
+ ],
  "Fireclay|Tile": [
   "fireclay"
  ],
  "Fleetwood|Doors": [
   "FLEETWOOD"
  ],
+ "FloLogic|Water Treatment": [
+  "FlowLogic"
+ ],
  "Flos|Lighting": [
   "FLOS"
+ ],
+ "Flow Tech|Water Treatment": [
+  "Flow-Tech",
+  "Flo-Tech",
+  "Flowtec"
+ ],
+ "FlowWall|Closets": [
+  "Flow Wall"
+ ],
+ "FlowWall|Other": [
+  "Flowwall"
  ],
  "Forbes and Lomax|Hardware": [
   "Forbes & Lomax"
  ],
  "Forever Lawn|Outdoor": [
+  "ForeverLawn",
   "Foreverlawn"
  ],
- "Francois & Co|Fireplaces": [
+ "Francois & Co.|Fireplaces": [
+  "Francois & Co",
   "Francois and Co"
+ ],
+ "Francois & Co.|Hardware": [
+  "Francois & Co"
+ ],
+ "Francois & Co|Other": [
+  "Francois & Co."
+ ],
+ "GEM|Outdoor": [
+  "Gem"
+ ],
+ "Gemstone|Lighting": [
+  "Gem Stone"
  ],
  "Generac|Generators": [
   "GENERAC",
@@ -302,6 +479,9 @@
  "Halo|Smart Home": [
   "HALO"
  ],
+ "Halo|Water Treatment": [
+  "HALO"
+ ],
  "Hans Grohe|Sinks": [
   "Hansgrohe"
  ],
@@ -309,6 +489,9 @@
   "Hans Grohe",
   "Hans-Grohe",
   "HansGrohe"
+ ],
+ "Hanstone|Countertops": [
+  "HanStone"
  ],
  "Har-Tru|Other": [
   "Har Tru",
@@ -329,6 +512,7 @@
  ],
  "Hardiplank|Siding": [
   "Hardi Plank",
+  "Hardi-Plank",
   "HardiPlank"
  ],
  "Hardy Board|Siding": [
@@ -342,6 +526,9 @@
  ],
  "Hestan|Outdoor": [
   "HESTAN"
+ ],
+ "Hide-a-Hose|Smart Home": [
+  "Hide-A-Hose"
  ],
  "Hikvision|Smart Home": [
   "HIKVISION",
@@ -366,9 +553,6 @@
  "Hydro Systems|Sinks": [
   "Hydro-Systems"
  ],
- "IPE|Outdoor": [
-  "Ipe"
- ],
  "IQair|HVAC": [
   "IQ Air"
  ],
@@ -385,8 +569,18 @@
  "Infratech|Outdoor": [
   "InfraTech"
  ],
+ "Insinkerator|Plumbing": [
+  "InSinkErator"
+ ],
  "Insta-Hot|Plumbing": [
-  "Insta Hot"
+  "Insta Hot",
+  "Instahot"
+ ],
+ "Ipe|Outdoor": [
+  "IPE"
+ ],
+ "Isokern|Fireplaces": [
+  "ISOKERN"
  ],
  "Italkraft|Cabinets": [
   "ITALKRAFT"
@@ -395,19 +589,28 @@
   "JAMES HARDIE"
  ],
  "Jeld-Wen|Doors": [
-  "Jeld Wen"
+  "JELD-WEN",
+  "Jeld Wen",
+  "Jeldwen",
+  "Jeldwyn"
  ],
  "Jellyfish Lighting|Lighting": [
   "JellyFish Lighting"
  ],
  "Jellyfish|Lighting": [
-  "Jelly Fish"
+  "Jelly Fish",
+  "JellyFish"
  ],
  "JennAir|Outdoor": [
+  "Jenn-Air",
   "Jenn-air"
  ],
+ "John Morgan/Perspectives|Cabinets": [
+  "John Morgan - Perspectives"
+ ],
  "John Richard|Lighting": [
-  "John-Richard"
+  "John-Richard",
+  "John Richards"
  ],
  "Josh AI|Smart Home": [
   "JOSH AI",
@@ -422,8 +625,18 @@
  "KEF|Lighting": [
   "Kef"
  ],
+ "KEYTH|Smart Home": [
+  "Keyth"
+ ],
  "Kallista|Plumbing": [
+  "KALLISTA",
   "Kalista"
+ ],
+ "Kamado Joe|Outdoor": [
+  "Kamadojoe"
+ ],
+ "Karastan|Carpet": [
+  "KARASTAN"
  ],
  "Kasa|Smart Home": [
   "KASA"
@@ -431,14 +644,22 @@
  "Ketra|Lighting": [
   "KETRA"
  ],
+ "Kinetico|Water Treatment": [
+  "KINETICO",
+  "Kinetic",
+  "Kenetico"
+ ],
  "KitchenCraft|Cabinets": [
-  "Kitchen Craft"
+  "Kitchen Craft",
+  "Kitchen Kraft"
  ],
  "Kohler|Generators": [
-  "KOHLER"
+  "KOHLER",
+  "Koehler"
  ],
  "Kohler|Plumbing": [
-  "KOHLER"
+  "KOHLER",
+  "Koehler"
  ],
  "Kohler|Sinks": [
   "KOHLER"
@@ -447,21 +668,36 @@
   "KOLBE"
  ],
  "KraftMaid|Cabinets": [
+  "Kraft Maid",
   "Kraftmaid"
  ],
  "Kraus|Sinks": [
   "KRAUS"
  ],
+ "Kwikset|Hardware": [
+  "Kwik-set",
+  "KwikSet"
+ ],
+ "Kwikset|Smart Home": [
+  "KwikSet"
+ ],
  "La Cantina|Doors": [
   "La-Cantina",
   "LaCantina"
  ],
- "La Cava|Plumbing": [
-  "LaCava"
+ "LaCava|Plumbing": [
+  "La Cava"
+ ],
+ "LaFata|Cabinets": [
+  "Lafata"
  ],
  "Leaf Filter|Other": [
   "LEAF FILTER",
   "LeafFilter"
+ ],
+ "Leaf Guard|Other": [
+  "LeafGuard",
+  "Leafguard"
  ],
  "LeafFilter|Gutters": [
   "Leaf Filter"
@@ -473,8 +709,12 @@
   "Leaf Guard",
   "Leafguard"
  ],
+ "LeafGuard|Hardware": [
+  "Leafguard"
+ ],
  "LeafGuard|Roofing": [
-  "Leaf Guard"
+  "Leaf Guard",
+  "Leafguard"
  ],
  "Legrand|Hardware": [
   "LeGrand"
@@ -482,8 +722,12 @@
  "Lennox|HVAC": [
   "LENNOX"
  ],
- "Lifesource|Water Treatment": [
-  "Life Source"
+ "Life Source|Water Treatment": [
+  "LifeSource",
+  "Lifesource"
+ ],
+ "LifeProof|Carpet": [
+  "Lifeproof"
  ],
  "LiftMaster|Garage Doors": [
   "Lift Master",
@@ -504,8 +748,14 @@
  "MOLTENI|Cabinets": [
   "Molteni"
  ],
+ "Magnatrack|Smart Home": [
+  "MagnaTrack"
+ ],
  "Martin Logan|Lighting": [
   "MartinLogan"
+ ],
+ "McGee & Co.|Lighting": [
+  "McGee & Co"
  ],
  "Mia Cucina|Cabinets": [
   "MiaCucina",
@@ -517,18 +767,27 @@
  "Michael Edwards|Cabinets": [
   "Michael Edward's"
  ],
+ "Milgard|Doors": [
+  "Millard"
+ ],
  "Minka Aire|Lighting": [
   "Minka-Aire",
   "MinkaAire"
  ],
- "Mistaway|Outdoor": [
-  "MistAway"
+ "MistAway|Outdoor": [
+  "Mistaway"
  ],
  "Moen|Plumbing": [
   "MOEN"
  ],
+ "Moen|Smart Home": [
+  "MOEN"
+ ],
  "Monogram|Wine Storage": [
   "MONOGRAM"
+ ],
+ "Mont Blanc|Countertops": [
+  "Monte Blanc"
  ],
  "Mosquito Nix|Other": [
   "MosquitoNix"
@@ -537,18 +796,29 @@
   "Mosquito NIX",
   "MosquitoNix"
  ],
+ "Mr. Steam|Plumbing": [
+  "Mr Steam"
+ ],
  "Mr. Steam|Sauna": [
   "Mr Steam"
  ],
  "MyQ|Garage Doors": [
+  "My Q",
   "myQ"
  ],
  "MyQ|Smart Home": [
   "myQ"
  ],
+ "NICE|Smart Home": [
+  "Nice"
+ ],
+ "NUVO|Water Treatment": [
+  "Nuvo"
+ ],
  "NanaWall|Doors": [
   "Nana Wall",
-  "Nanawall"
+  "Nanawall",
+  "Nanowall"
  ],
  "NanaWall|Other": [
   "Nana Wall",
@@ -564,8 +834,12 @@
   "Nature Kast",
   "Naturekast"
  ],
+ "NatureKast|Outdoor": [
+  "Naturekast"
+ ],
  "Navien|Plumbing": [
-  "NAVIEN"
+  "NAVIEN",
+  "Navian"
  ],
  "Neff|Cabinets": [
   "NEFF"
@@ -576,14 +850,39 @@
  "Nest|Smart Home": [
   "NEST"
  ],
+ "Neuwave|Smart Home": [
+  "NeuWave"
+ ],
+ "New Age|Cabinets": [
+  "NewAge"
+ ],
+ "New Age|Closets": [
+  "NewAge"
+ ],
+ "Novo|Water Treatment": [
+  "NOVO"
+ ],
  "NuCedar|Siding": [
+  "Nu Cedar",
   "Nu-Cedar"
+ ],
+ "Nuvo|Smart Home": [
+  "NUVO"
+ ],
+ "Omni-Logic|Pool": [
+  "OmniLogic"
  ],
  "On-Q|Smart Home": [
   "ON-Q"
  ],
  "Opus|Cabinets": [
   "OPUS"
+ ],
+ "Ortal|Fireplaces": [
+  "ORTAL"
+ ],
+ "Palm Beach Cabinet Co|Cabinets": [
+  "Palm Beach Cabinet Co."
  ],
  "Paradise Grills|Outdoor": [
   "PARADISE GRILLS"
@@ -597,6 +896,10 @@
   "PebbleTech",
   "Pebbletech"
  ],
+ "Pebble Tec|Flooring": [
+  "Pebble-Tec",
+  "Pebble Tech"
+ ],
  "Pebble Tec|Other": [
   "PebbleTec",
   "Pebbletec"
@@ -605,10 +908,17 @@
   "PebbleTec"
  ],
  "Pebble Tec|Pool": [
+  "PEBBLE-TEC",
   "Pebble-Tec",
   "Pebble-tec",
   "PebbleTec",
   "Pebbletec"
+ ],
+ "Pebble-Tec|Flooring": [
+  "Pebble Tec"
+ ],
+ "Pebbletek|Pool": [
+  "PebbleTek"
  ],
  "Pedini|Cabinets": [
   "PEDINI"
@@ -631,7 +941,11 @@
  "Plain & Fancy|Cabinets": [
   "Plain and Fancy"
  ],
+ "Pompeii|Countertops": [
+  "Pompei"
+ ],
  "PoolTron|Pool": [
+  "Pool Tron",
   "Pooltron"
  ],
  "Porcelanosa|Cabinets": [
@@ -640,23 +954,47 @@
  "Porcelanosa|Sinks": [
   "PORCELANOSA"
  ],
+ "Pratt & Larson|Tile": [
+  "Pratt and Larson"
+ ],
+ "Pro Lux|Other": [
+  "ProLux"
+ ],
  "ProVia|Doors": [
   "Provia"
  ],
- "Race Deck|Flooring": [
-  "Racedeck"
+ "Provenza|Flooring": [
+  "Provanza"
  ],
- "Rain Bird|Outdoor": [
-  "RainBird",
-  "Rainbird"
+ "QuietCool|HVAC": [
+  "Quiet Cool"
+ ],
+ "Quolsys|Smart Home": [
+  "Qolsys"
+ ],
+ "RaceDeck|Flooring": [
+  "Race Deck",
+  "Racedeck"
  ],
  "RainSoft|Water Treatment": [
   "Rain Soft",
   "Rainsoft"
  ],
+ "Rainbird|Outdoor": [
+  "Rain Bird",
+  "RainBird"
+ ],
+ "Regina Andrew|Lighting": [
+  "Regina Andrews"
+ ],
  "Reme Halo|HVAC": [
   "REME HALO",
-  "Rem-Halo"
+  "REME Halo",
+  "Rem-Halo",
+  "Remi-halo"
+ ],
+ "Reme|HVAC": [
+  "REME"
  ],
  "Restoration Hardware|Furniture": [
   "RESTORATION HARDWARE"
@@ -664,8 +1002,8 @@
  "RevWood|Flooring": [
   "Revwood"
  ],
- "Revwood|LVP": [
-  "RevWood"
+ "RevWood|LVP": [
+  "Revwood"
  ],
  "Rhino Shield|Paint": [
   "RHINO SHIELD",
@@ -674,8 +1012,14 @@
  "Ring|Smart Home": [
   "RING"
  ],
- "Robb and Stucky|Furniture": [
-  "Robb & Stucky"
+ "Robb & Stucky|Furniture": [
+  "Robb and Stucky"
+ ],
+ "Rohl|Plumbing": [
+  "ROHL"
+ ],
+ "Roman & Williams|Lighting": [
+  "Roman and Williams"
  ],
  "SOHO|Cabinets": [
   "Soho"
@@ -695,17 +1039,23 @@
  "SYNLawn|Outdoor": [
   "Synlawn"
  ],
+ "SafeRacks|Other": [
+  "Safe Racks"
+ ],
  "Savant|Smart Home": [
   "SAVANT"
+ ],
+ "Serena & Lily|Furniture": [
+  "Serena and Lily"
  ],
  "Serena & Lily|Lighting": [
   "Serena and Lily"
  ],
- "Serena and Lily|Furniture": [
-  "Serena & Lily"
+ "Serena & Lily|Other": [
+  "Serena and Lily"
  ],
- "Serena and Lily|Other": [
-  "Serena & Lily"
+ "Serena & Lily|Paint": [
+  "Serena and Lily"
  ],
  "Shaws|Sinks": [
   "Shaw's"
@@ -726,11 +1076,22 @@
  "Silestone|Countertops": [
   "SileStone"
  ],
+ "SimpliSafe|Smart Home": [
+  "Simplisafe",
+  "Simply Safe",
+  "SimplySafe"
+ ],
  "Simply Safe|Smart Home": [
   "SimplySafe"
  ],
+ "SmartWings|Smart Home": [
+  "Smartwings"
+ ],
  "SolarEdge|Solar": [
   "Solar Edge"
+ ],
+ "Solark|Solar": [
+  "Sol-Ark"
  ],
  "Sonos|Lighting": [
   "SONOS",
@@ -745,6 +1106,9 @@
  "Springwell|Water Treatment": [
   "SpringWell"
  ],
+ "St. Louis Closet Company|Closets": [
+  "St. Louis Closet Co."
+ ],
  "Stiltz|Elevators": [
   "STILTZ"
  ],
@@ -753,7 +1117,9 @@
   "Stonescapes"
  ],
  "Storm Smart|Other": [
-  "StormSmart"
+  "STORM SMART",
+  "StormSmart",
+  "Stormsmart"
  ],
  "Storm Smart|Outdoor": [
   "StormSmart"
@@ -761,6 +1127,9 @@
  "Storm Smart|Smart Home": [
   "STORM SMART",
   "StormSmart"
+ ],
+ "Sub-Zero|Cabinets": [
+  "Sub Zero"
  ],
  "Sub-Zero|Plumbing": [
   "Sub Zero"
@@ -774,58 +1143,75 @@
  "Summerset|Outdoor": [
   "SummerSet"
  ],
- "Sun Setter|Outdoor": [
-  "SunSetter",
-  "Sunsetter"
- ],
  "SunBrite|Outdoor": [
   "Sunbrite"
  ],
+ "SunPower|Solar": [
+  "Sun Power",
+  "Sunpower"
+ ],
  "SunRun|Solar": [
+  "SUNRUN",
+  "Sun Run",
   "Sunrun"
  ],
  "Sunbrite|Smart Home": [
-  "SUNBRITE"
+  "SUNBRITE",
+  "SunBrite"
+ ],
+ "Sunsetter|Outdoor": [
+  "Sun Setter",
+  "SunSetter"
  ],
  "Swat|Other": [
   "SWAT"
  ],
- "Swiss Trax|Flooring": [
-  "SwissTrax",
-  "Swisstrax"
+ "Swisstrax|Flooring": [
+  "Swiss Trax",
+  "SwissTrax"
  ],
- "TUUCI|Outdoor": [
-  "Tuuci"
+ "TREX|Roofing": [
+  "Trex"
  ],
  "Taexx|Other": [
   "TAEXX"
  ],
  "Taj Mahal|Countertops": [
+  "TAJ MAHAL",
+  "Taj Majal",
   "Tahj Mahal"
  ],
  "Tech Shield|Roofing": [
   "Techshield"
  ],
+ "Techo-Bloc|Outdoor": [
+  "Techo Bloc"
+ ],
  "Tesla|Solar": [
   "TESLA"
  ],
- "Therma Tru|Doors": [
-  "Therma-Tru",
+ "Therma-Tru|Doors": [
+  "Therma Tru",
   "Thermatru",
-  "Therma-True"
+  "Therma-True",
+  "THERMO-TRU"
  ],
  "Thermador|Wine Storage": [
   "THERMADOR"
  ],
  "Thermasol|Plumbing": [
+  "THERMASOL",
   "ThermaSol"
  ],
- "Timber Tech|Flooring": [
-  "TimberTech"
+ "TimberTech|Flooring": [
+  "Timber Tech"
  ],
  "TimberTech|Outdoor": [
   "Timber Tech",
   "Timbertech"
+ ],
+ "Tonal|Smart Home": [
+  "TONAL"
  ],
  "Top Knobs|Hardware": [
   "Topknobs"
@@ -854,8 +1240,14 @@
  "TruStile|Doors": [
   "Trustile"
  ],
+ "Tuuci|Outdoor": [
+  "TUUCI"
+ ],
  "U-Line|Wine Storage": [
   "Uline"
+ ],
+ "Ubiquiti|Smart Home": [
+  "Ubiquity"
  ],
  "Uline|Other": [
   "U-Line"
@@ -864,26 +1256,36 @@
   "UltraCraft",
   "Ultracraft"
  ],
- "Unifi|Smart Home": [
-  "UniFi"
+ "UniFi|Smart Home": [
+  "Unifi"
+ ],
+ "Victoria & Albert|Plumbing": [
+  "Victoria and Albert"
  ],
  "Victoria & Albert|Sinks": [
   "Victoria and Albert"
  ],
+ "Victoria + Albert|Plumbing": [
+  "Victoria Albert"
+ ],
  "Victoria + Albert|Sinks": [
   "Victoria+Albert"
- ],
- "Victoria Albert|Plumbing": [
-  "Victoria + Albert"
  ],
  "Vinotemp|Wine Storage": [
   "VinoTemp"
  ],
  "Vivint|Smart Home": [
-  "VIVINT"
+  "VIVINT",
+  "Vivant"
  ],
  "Walker Zanger|Flooring": [
   "Walker-Zanger"
+ ],
+ "Walker Zanger|Tile": [
+  "Walker-Zanger"
+ ],
+ "Water Doctors|Water Treatment": [
+  "Water Doctor"
  ],
  "Water-Cop|Water Treatment": [
   "Watercop"
@@ -891,27 +1293,45 @@
  "Waterworks|Plumbing": [
   "WaterWorks"
  ],
+ "Weather Shield|Doors": [
+  "Weathershield"
+ ],
+ "Weldwork|Doors": [
+  "WeldWork"
+ ],
+ "Wet Edge|Pool": [
+  "Wet-Edge"
+ ],
+ "Whisperkool|Wine Storage": [
+  "WhisperKOOL",
+  "WhisperKool"
+ ],
  "WinDoor|Doors": [
   "Windoor"
  ],
  "Windor|Doors": [
   "WinDor"
  ],
+ "Windsor|Doors": [
+  "Windor",
+  "WinDor"
+ ],
  "Wolf|Outdoor": [
   "WOLF"
+ ],
+ "Wood-Mode|Cabinets": [
+  "Wood Mode",
+  "Woodmode"
  ],
  "Woodbridge|Plumbing": [
   "WoodBridge"
  ],
- "Woodmode|Cabinets": [
-  "Wood Mode",
-  "Wood-Mode"
+ "Woodharbor|Cabinets": [
+  "Wood Harbor",
+  "WoodHarbor"
  ],
  "Xfinity|Smart Home": [
   "XFinity"
- ],
- "ZIP System|Siding": [
-  "Zip System"
  ],
  "Zar's|Pool": [
   "Zars"
@@ -919,7 +1339,16 @@
  "Zip System|Insulation": [
   "ZIP System"
  ],
+ "Zip System|Siding": [
+  "ZIP System"
+ ],
+ "Zip|Insulation": [
+  "ZIP"
+ ],
  "iAquaLink|Smart Home": [
-  "iAqualink"
+  "iAqualink",
+  "Aqualink",
+  "AquaLink",
+  "Aqua Link"
  ]
 }
